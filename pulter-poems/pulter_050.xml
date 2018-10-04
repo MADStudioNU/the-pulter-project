@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.50">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>My God, I Thee (and Only Thee) Adore</title>
+                 <title type="sub">Poem #50</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>prayer</term>
+		    <term>sorrow</term>
+		    <term>God</term>
+		    <term>light</term>
+		    <term>afterlife</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_149.jpg" xml:id="f7610_149"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 29, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Helen Smith</persName>. Last updated <date>July 23, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_149" n="73r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_149"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_149"/></rdg>
+            </app>
+            <app>
+              <rdg type="milestone" wit="#ft"><milestone unit="poem" rend="LINE TYPE"/></rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+                    <rdg wit="#ee">My God, I Thee (and Only Thee) Adore</rdg>
+                    <rdg wit="#ae">My God I thee (and onely thee) Adore</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My approach to editing is broadly conservative, in the sense that I modernise only very lightly. I have regularised u/v and i/j, which were interchangeable in the period during which Pulter was writing, and have also regularised ‘ff’ to F. Otherwise, I have generally preserved Pulter’s spelling, punctuation and capitalisation, and have attempted to represent some of Pulter’s characteristic uses of space (especially her lines and flourishes at the beginnings and ends of poems). My annotations focus primarily on understanding the idiosyncratic ideas and densely-packed meanings of Pulter’s poems, though I also draw attention to questions of form, especially where I feel this contributes to or reinforces the complex arguments of Pulter’s poems.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">In this devotional poem, the speaker pleads with God to render her sinful and mortal life into oblivion by infusing her with divine light and spirit. The anguish of her pleas is conveyed by a compulsive halting and intensifying cycling of her own words: “Leave not (O, leave not),” she cries, and later assures, “I Thee (and only Thee) adore.” In promising her exclusive and undying devotion to God, the speaker also deploys a fairly new (and Latinate) lexicon: she asks to be irradiated, obliviated, and inanimated (this last word inflecting the process of animating—or enlivening—as a resuscitating infusion into her being). Drawing on the biblical account of God as breathing life into the humans he formed from dirt is telling, given that Pulter’s own collection is titled as “Poems Breathed Forth by the Noble Hadassas.” The fact that she experiments metrically in this poem by writing iambic pentameter quatrains with an unusual rhyme scheme (ABBA) complements her decision to praise God as a creator, even as she suffers in distress at the prospect of being abandoned or unworthy.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">Like many of Pulter’s poems, the untitled poem 50 dwells on mortality, and on the relationship between the body and soul, and the soul and God. Each stanza is punctuated with parentheses, which pick up and amplify the preceding word or words, functioning like embedded prayers or pleas, and giving a lively sense of the internal debates animating the speaker. Though the poem is presented as an urgent and personal devotional expression, there is a tension between Pulter’s plea that her memory should be expunged (‘obliviated’) from the world and her desire to recreate her conversation with God in a carefully structured, and formally experimental, poem.</note></rdg>
+            </app>
+            </head>
+            
+            <lg n="1" type="stanza"><l n="1">
+                <app>
+                    <rdg wit="#ft">My God I thee (and onely thee) Adore</rdg>
+                    <rdg wit="#ee">My God, I Thee (and only Thee) adore,</rdg>
+                    <rdg wit="#ae">My God I thee (and onely thee) <seg>Adore<note type="gloss">worship, venerate</note></seg></rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Which did’st my outward ffabrick mak of earth</rdg>
+                    <rdg wit="#ee"><seg>Which didst my outward fabric make of earth,<note type="critical">in Genesis, God molds humans out of the dust or earth; “fabric” is body or skin, with connotations of something constructed.</note></seg></rdg>
+                    <rdg wit="#ae">Which did’st my outward <seg>fabrick<note type="critical">The word ‘fabric’ in this period referred to products of skilled workmanship, particularly buildings, and was frequently used to refer to the human body, as a complex structure crafted by God, as in the title of Andreas Vesalius’s <title rend="italic">De humanis corporis fabric</title> (‘On the fabric of the human body’; 1543). An anonymous medical dictionary from 1657 defines ‘Fabrick’ as ‘the whole composition or frame of the body’ (<title rend="italic">A Physical dictionary</title> (London, 1657)). In 1654, the medical doctor John Anthony reflected: ‘IF we see a fair and stately Building, we will commend the Builder, and presently conclude that he built it for his own habitation, or for some honourable use and service. If we look upon our selves, we shall see an admirable fabrick of body, which is richly beautified and adorned, both within and without, and we cannot but magnifie our Omnipotent Creator, and presently conclude, that surely God did make us such excellent creatures, and did inrich us with such spirituall gifts and graces for some speciall end and purpose’ (<title rend="italic">The comfort of the soul</title> (London, 1654), I4v). See also George Abbot’s paraphrase of the Book of Job, in ‘Curations’.</note></seg> <seg>mak<note type="gloss">make</note></seg> of earth</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Inanimated with Celestiall Breath</rdg>
+                    <rdg wit="#ee"><seg>Inanimated<note type="gloss">infused life into</note></seg> with celestial breath;</rdg>
+                    <rdg wit="#ae"><seg>Inanimated<note type="gloss">made animate by</note></seg> with <seg>Celestiall Breath<note type="critical"> In Christian tradition, it is God’s breath that transforms man from a senseless body to a living creature: ‘And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul’ (Genesis 2.7, <title rend="italic">KJV</title>). Pulter’s use of the verb ‘inanimate’ might have called to mind, for her readers, the Latin title of Aristotle’s influential treatise on the soul, <title rend="italic">De anima</title>. It is also a word used frequently in this sense by John Donne. In sermon XV, for example, Donne scolds the sinner: ‘Thou hast made thy sin, thy soule, thy life; inanimated all thy actions, all thy purposes with that sin’ (<title rend="italic">LXXX sermons preached by that learned and reverend divine, John Donne</title> (London, 1640), O5r). Confusingly, the term was also used, during this period, in our modern sense of ‘inanimate’ or lifeless, and this was probably the dominant sense for most readers. The poem seems to play with this flickering ambiguity, with ‘inanimated’ appearing momentarily to refer back to the senseless earth of line two, before the meaning resolves itself into the life-giving action of line three. The ancient Greek <foreign rend="italic">psyche</foreign> originally meant ‘life’ in the sense of ‘breath’, but also, by derivation, referred to the spirit or soul. Philosophers debated the nature of the soul and the moment at which it entered the body, and these debates continued into the early modern period. In <title rend="italic">Deaths duell</title>, Donne engages with the question of precisely <hi rend="italic">when</hi> this ‘quickening’ or becoming animate, happens, reflecting ‘Therefore as soone as wee are men, (that is, <hi rend="italic">inanimated</hi>) quickned in the <hi rend="italic">womb</hi>) thogh [sic] we cannot our selves, our parents have to say in our behalf, <hi rend="italic">wretched man that he is, who shall deliver him from this body of death</hi>?’ (London, 1632, B4r-v). Note also Abbot’s use of ‘inanimated’ (‘Curations’).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Therefore I thee and onely thee implore</rdg>
+                    <rdg wit="#ee">Therefore, I Thee, and only Thee, implore:</rdg>
+                    <rdg wit="#ae">Therefore I thee and onely thee implore</rdg>
+                </app>
+            </l></lg>
+            <lg n="2" type="stanza"><l n="5">
+                <app>
+                    <rdg wit="#ft">Leave not (oh leave not) my dejected Soul</rdg>
+                    <rdg wit="#ee">Leave not (O, leave not) my dejected soul,</rdg>
+                    <rdg wit="#ae">Leave not (oh leave not) my <seg>dejected<note type="gloss">cast down, disheartened</note></seg> Soul</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Thoug I have wickedly deſerted thee</rdg>
+                    <rdg wit="#ee">Though I have wickedly deserted Thee,</rdg>
+                    <rdg wit="#ae">Thoug I have wickedly deserted thee</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Though I (Ay mee) the most ungratefull bee</rdg>
+                    <rdg wit="#ee">Though I (ay me!) the most ungrateful be;</rdg>
+                    <rdg wit="#ae">Though I <seg>(Ay mee)<note type="critical">The parenthetical ‘Ay mee’ represents a sigh, a technique that Pulter uses repeatedly in her poems and that invokes both the title of her collection (<title rend="italic">Poems breathed forth by the Nobel Hadassas</title>) and its internal title, ‘The Sighes of a Sad Soule Emblimatically breath’d forth by the noble Haddassah’. Here, in a stanza packed with parentheses, Pulter cleverly retains her technique of redoubling the word prior to the brackets, punning on ‘I’ and ‘Aye’, so that the bracketed words reinforce the self-identification and self-mortification of the speaker (‘I (I me)’). The repeated ‘I’ sound might also suggest a cry of lamentation or dejection.</note></seg> the most ungratefull bee</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Yet let not (let not) mee in Sorrow Rowl</rdg>
+                    <rdg wit="#ee">Yet let not (let not) me in sorrow <seg>roll<note type="gloss">rotate, revolve, trust in God</note></seg>.</rdg>
+                    <rdg wit="#ae">Yet let not (let not) mee in Sorrow <seg>Rowl<note type="critical">Cf. poems 24 (‘How long Shall my dejected Soul’) which asks ‘How long Shall my dejected Soul, / (Deare God) in dust and Darknes Rowl’ (ll. 1-2); 28 (‘O my aflicted Solitary Soul’), which asks ‘Why thou still in dust and Ashes Rowl’ (l. 2); and 41 (‘The invocation of the Elements’), where the speaker promises her soul ‘Thou Shalt not Long in Darknes Rowl’ (l. 2). The word ‘roll’ might here mean something like to wallow or grovel, but it also carries connotations of a ship tossed by the waves (<title rend="italic">OED</title>, ‘roll’, v.2 def. I.1.a; an image whose overtones of wandering and danger possessed significant theological and devotional power in this period), and, as a translation of the Hebrew <foreign rend="italic">gālal</foreign>, the biblical meaning of trusting or relying on God (<title rend="italic">OED</title>, ‘roll’, v.2 def. 11.a). Thus in 1656, Robert Sanderson told his readers to ‘Roll thy self then upon <hi rend="italic">his providence</hi>, and repose thy self with assured confidence upon <hi rend="italic">his promises</hi>: and <hi rend="italic">Contentment</hi> will follow’ (<title rend="italic">Twenty sermons</title>, S1r). In this context’ to ‘roll’ in dust, darkness or sorrow is not simply to grovel among earthly things, but to trust in them over the saving power of God.</note></seg></rdg>
+                </app>
+            </l></lg>
+        <lg n="3" type="stanza">    <l n="9">
+                <app>
+                    <rdg wit="#ft">But Send (Oh Send thy) Spirit from above</rdg>
+                    <rdg wit="#ee">But send (O, send) Thy spirit from above</rdg>
+                    <rdg wit="#ae">But Send (Oh Send thy) <seg>Spirit<note type="critical">The ‘spirit’ of God refers to the active or essential power of the Deity (in Trinitarian theology, though not necessarily here, separated out as the Holy Ghost). In the Bible, the term ‘spirit’ is frequently used to translate the Hebrew <foreign rend="italic">ru’ach</foreign> and the Greek <foreign rend="italic">pneuma</foreign>, both of which also mean ‘breath’: the animating force in living creatures. These associations link God’s spirit back to the ‘Celestiall breath’ of line 3.</note></seg> from above</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Tiradiate my Soul e’ne with one Raie</rdg>
+                    <rdg wit="#ee"><seg>T’irradiate<note type="gloss">illuminate, brighten spiritually</note></seg> my soul e’en with one ray.</rdg>
+                    <rdg wit="#ae"><seg>Tiradiate<note type="critical">i.e. ‘to irradiate’, meaning to illuminate or shed light upon, frequently with a spiritual dimension. In 1642, William Price warned sermon-listeners of the dangers of turning away from God: ‘The Devill Jaylour-like, is more cruell upon a recovery then ever hee was in his first surprizall, he is more vigilant over an Apostate, blocking up all passages, that not a beame of divine grace should through the least cranny irradiate on his soule; plying him with fresh successions of temptations, filling his fancy and conscience with paroxysmes and impressions of horrour’ (<title rend="italic">A sermon preached at St Maries Spittle</title> (London, 1642), D1r). Reflecting on the book of Job in 1661, Joseph Caryl observed, ‘We may also make the inference from the 8th verse; <hi rend="italic">There is a spirit in man, and the inspiration of the Almighty giveth understanding. Therefore I said hearken to me</hi>; As if he had said, <hi rend="italic">… If the Lord will make use of me, and inspire me, if he please to breath [sic] his truths into me, and irradiate my soule with divine light, I may be able to doe and say some thing in this matter’</hi> (<title rend="italic">An exposition with practicall observations continued upon … the booke of Job</title> (London, 1661), K3v).</note></seg> my Soul e’ne with one <seg>Raie<note type="critical">The iconography of God as a ray of light was well-known. Philippe de Champaigne’s portrait of St Augustine at the moment of his conversion, for example, shows the rays of God’s truth reaching towards the saint, who holds in his hand a heart, with its flames drawn towards the heavenly light (‘Curations’). Portraits of the Virgin Mary at the moment of her annunciation sometimes depict the Holy Spirit as a dove, entering Mary as a ray of light (see Van Eyck’s Annunciation in ‘Curations’). 1 John 1.5 tells readers: ‘This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all’ (<title rend="italic">KJV</title>).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">It will create in mee Eternall Day</rdg>
+                    <rdg wit="#ee">It will create in me eternal day,</rdg>
+                    <rdg wit="#ae">It will create in mee eternall Day</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">ffor thee and onely thee my God I Love</rdg>
+                    <rdg wit="#ee">For Thee, and only Thee, my God, I Iove.</rdg>
+                    <rdg wit="#ae">For thee and onely thee my God I Love</rdg>
+                </app>
+            </l></lg>
+          <lg n="4" type="stanza">  <l n="13">
+                <app>
+                    <rdg wit="#ft">Obliviate (oh Obliviate) my Story</rdg>
+                    <rdg wit="#ee"><seg>Obliviate<note type="gloss">render unknown, forget</note></seg> (O, obliviate) my <seg>story<note type="gloss">life, narrative</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Obliviate<note type="critical">From the Latin <foreign rend="italic">oblivium</foreign>, ‘obliviate’ literally means to commit to oblivion. It is a rarely-used term, and appears to have been brand new at the moment Pulter was writing. The <title rend="italic">OED</title> dates its first use to the astrologer John Gadbury’s <title rend="italic">Britains royal star</title> of 1661; Gadbury also used the word some seven years earlier, in his <title rend="italic">Animal cornutum, or The horn’d beast</title> (1654), a beginner’s guide to astronomy, and again in his <title rend="italic">Dies novissimus, or, Dooms-day not so near as dreaded</title> in 1664. Pulter evidently relishes this word, which ties her work (directly or indirectly) to the writing of a popular but controversial figure who sought to establish astrology as a crucial part of natural philosophical thought, even as it declined in popularity from the 1660s onwards. Gadbury’s early political views were almost diametrically opposed to Pulter’s, but <title rend="italic">Britains royal star</title> may well have appealed to her, since its long title promised ‘An Astrological Demonstration of ENGLANDS future FELICITY; Deduced From the HEAVENS as they beheld the earth in the Meridian of <hi rend="italic">London</hi>, at the first proclaiming of his Sacred Majesty <hi rend="italic">Charles</hi> the Second’. The celebration of Charles II’s recent restoration to the throne is likely to have found an appreciative reader in the royalist Pulter.</note></seg> (oh Obliviate) my Story</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Nor let none dare of mee to think or Say</rdg>
+                    <rdg wit="#ee">Nor let none dare of me to think or say</rdg>
+                    <rdg wit="#ae">Nor let none <seg>dare<note type="gloss">be so bold as to</note></seg> of mee to think or Say</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">In thy bright Manſion another day</rdg>
+                    <rdg wit="#ee">In thy bright <seg>mansion<note type="critical">heaven; see John 14:2: “In my Father’s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.”</note></seg> another day,</rdg>
+                    <rdg wit="#ae">In thy bright <seg>Mansion<note type="critical">i.e. the body; see note 1 above. In lively prose, Thomas Wallington reflected ‘The cunningst swimmer that euer was, <hi rend="italic">Delius</hi> himselfe could not shew his art, nor his equal stroke in the mud: a candle in the lanterne can yeld but a glimmering light through an impure and darksome horne: the warelike Steed cannot fet[ch] his friskes, take his carreers, and shew his curvets being pent up in a narrow room, so it is with the princely soule, while the bodie is her mansion’ (<title rend="italic">The optick glasse of humours</title> (London, 1607), C4r-v), whilst Juan Luis Vives, in an influential commentary upon Augustine, argued that ‘The corruptible body suppresseth the soule, and the earthly mansion keepeth down the minde that is much occupied’ (<title rend="italic">St. Augustine, Of the citie of God with the learned comments of Io. Lod. Vives</title> (London, 1610), Qq4v). In sonnet 146, Shakespeare laments the effort the soul expends on its ‘fading mansion’ (see ‘Curations’).</note></seg> another day</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">This Soul was Black though now Shee Shines in <add place="below">^</add><add place="above">Glory</add></rdg>
+                    <rdg wit="#ee">“This soul was black, though now she shines in glory.”</rdg>
+                    <rdg wit="#ae">This Soul was Black though now Shee shines in <seg>Glory<note type="critical">‘Glory’ is inserted above the rest of the line, the copyist having run out of space. The ideas animating this stanza are characteristically complex: Pulter asks God to obliterate her history, so that the blackness of her soul, prior to its purification upon her death and reconciliation with God, will not be remembered. The stanza’s drive towards effacement is at odds with the energies of its rhyme scheme, which propel the reader from ‘story’ to the poem’s (and Pulter’s) concluding ‘Glory’.</note></seg></rdg>
+                </app>
+            </l></lg>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curl"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

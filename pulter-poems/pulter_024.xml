@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.24">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>How Long Shall My Dejected Soul</title>
+                 <title type="sub">Poem #24</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>prayer</term>
+		    <term>lamentation</term>
+		    <term>afterlife</term>
+		    <term>freedom</term>
+		     <term></term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_087.jpg" xml:id="f7610_087"/>
+        <graphic url="./document_images/7610_088.jpg" xml:id="f7610_088"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 20, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>June 14, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_087" n="42r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_087"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_087"/></rdg>
+          </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_087" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+                    <rdg wit="#ee">How Long Shall My Dejected Soul</rdg>
+                    <rdg wit="#ae">[Untitled]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Servile vassal or heavenly monarch? The decision is God’s, the speaker states, in this poem that formally toys with creating and dissolving constraints. Pulter’s complaint about her spiritual abjection is described conventionally, as she confesses to being mere dust bound to a world of sin and pain. But the political vocabulary that she offers in muted form in Poem 20 (a verse in which the speaker similarly implores God for a heavenly crown) appears more overtly here. Unenfranchised, unfree, and in servitude, the speaker professes her readiness to “reign” with God in heaven. As in Poem 20, she offers the only gift to God that she feels she has at her disposal: the power to create songs of praise, which, in eternity, might take some new and unknown form. This is one of Pulter’s most intricate and experimental poems formally: one of only five in tercets, it uses rhyme to yoke stanzas into four pairs, each stanza concluding with a short dimeter line that visually stages contraction and deterioration on the page. This complex structure is offset, however, by extensive enjambment, which creates a breathless rush and a proliferation of clauses that refuses expected separations and terminations.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">This poem describes a speaker who longs to be released from the “darkness” of her earthly situation. As in several other poems, the contrast between the speaker’s current and desired state is figured by an opposition between night and day and/or darkness and light. Whereas in some poems (e.g., "To Aurora[1]" (Poem 22)) the speaker addresses Aurora as a mediating figure between light and darkness, this poem enjoins God directly and offers her own verse as recompense for His decision to free her. She promises to praise God for eternity in “unknown lays,” a complex phrase that draws attention to the experimental form of this poem (8 stanzas of tercets; see also "O, My Afflicted Solitary Soul" (Poem 29) and "Dear God, from Thy High Throne Look Down" (Poem 63)) and opens meta-poetic questions about how Pulter imagined the nature of poetry and the audience for her work.</note></rdg>
+            </app>
+            </head>
+
+           <lg n="1" type="stanza"> <l n="1">
+                <app>
+                    <rdg wit="#ft">How long Shall my dejected Soul,</rdg>
+                    <rdg wit="#ee">How long shall my <seg>dejected<note type="critical">downcast, lowered in estate, condition, or character; abased, humbled.This poem has an unusual rhyme scheme and meter: eight stanzas of three lines, the first two in iambic tetrameter, the third in dimeter. The rhyme scheme, aabccb, creates a pairing of stanzas.</note></seg> soul</rdg>
+                    <rdg wit="#ae">How long shall my dejected soul,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">(Deare God) in dust and Darknes Rowl,</rdg>
+                    <rdg wit="#ee">(Dear God) in dust and darkness <seg>roll<note type="gloss">move in an unsteady manner; rotate, turn, or pivot around; also, to trust in God</note></seg>,</rdg>
+                    <rdg wit="#ae">(Dear God) in <seg>dust<note type="critical">Genesis 2:7 “And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.” (AV) Here and in line 10 Pulter’s speaker refers to her body as dust that encloses her soul, in allusion to the description in Genesis 2 of the creation of the man (Hebrew: <foreign rend="italic">ha-adam</foreign>) from dust (Hebrew: <foreign rend="italic">adamah</foreign>).</note></seg> and darkness roll,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Without one Raie</rdg>
+                    <rdg wit="#ee">Without one ray</rdg>
+                    <rdg wit="#ae">Without one ray</rdg>
+                </app>
+            </l></lg>
+           <lg n="2" type="stanza"> <l n="4">
+                <app>
+                    <rdg wit="#ft">Of thy eternall Love and <seg>Light<note type="physical">blot over bottom of “t”</note></seg>:</rdg>
+                    <rdg wit="#ee">Of thy eternal love and light</rdg>
+                    <rdg wit="#ae">Of thy eternal love and light</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">To Conquer theſe Sad Shades of Night.</rdg>
+                    <rdg wit="#ee">To conquer these sad shades of night?</rdg>
+                    <rdg wit="#ae">To conquer these sad shades of night?</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">That endles Day</rdg>
+                    <rdg wit="#ee"><seg>That<note type="gloss">so that</note></seg> endless day</rdg>
+                    <rdg wit="#ae">That endless day</rdg>
+                </app>
+            </l></lg>
+            <lg n="3" type="stanza"><l n="7">
+                <app>
+                    <rdg wit="#ft">In my forſaken Soule may Shine,</rdg>
+                    <rdg wit="#ee">In my <seg>forsaken<note type="gloss">abandoned</note></seg> soul may shine,</rdg>
+                    <rdg wit="#ae">In my forsaken soul may shine,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">The Haleluja Shall bee thine;</rdg>
+                    <rdg wit="#ee">The <seg>hallelujah<note type="gloss">song of divine praise</note></seg> shall be Thine.</rdg>
+                    <rdg wit="#ae">The <seg>hallelujah<note type="gloss">A song of praise to God: “Praise (ye) the Lord (Jah or Jehovah).” See OED.</note></seg> shall be thine;</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Oh then look down</rdg>
+                    <rdg wit="#ee">O then, look down</rdg>
+                    <rdg wit="#ae">Oh then look down</rdg>
+                </app>
+            </l></lg>
+           <lg n="4" type="stanza"> <l n="10">
+                <app>
+                    <rdg wit="#ft">Upon a Ruin’d heap of dust,</rdg>
+                    <rdg wit="#ee">Upon a ruined heap of <seg>dust<note type="critical">elemental physical matter. See Genesis 3:19: “In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou [art], and unto dust shalt thou return.”</note></seg>,</rdg>
+                    <rdg wit="#ae">Upon a ruined heap of dust,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Slave to thoſe Tyrants, Death &amp; Lust;</rdg>
+                    <rdg wit="#ee">Slave to those tyrants, Death and Lust;</rdg>
+                    <rdg wit="#ae">Slave to those tyrants, <seg>Death and Lust<note type="critical">James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death.” (AV)</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">My hopes oh Crown.</rdg>
+                    <rdg wit="#ee">My hopes, O <seg>crown<note type="critical">reward, empower (with both political and religious meanings). See 1 Peter 5:4: “And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away.”</note></seg>.</rdg>
+                    <rdg wit="#ae">My hopes, Oh <seg>crown<note type="critical">1 Peter 5:4: “And when the chief Shepherd shall appear, ye shall receive a crown of glory that fadeth not away.” (AV)</note></seg>.</rdg>
+                </app>
+            </l></lg>
+           <lg n="5" type="stanza"> <l n="13">
+                <app>
+                    <rdg wit="#ft">My God vouchſafe to infranchiſe mee,</rdg>
+                    <rdg wit="#ee">My God, <seg>vouchsafe<note type="gloss">grant graciously or condescendingly</note></seg> t’<seg>enfranchise<note type="gloss">to set free; release from debt of confinement (a meaning activated in the next line’s reference to “vassal”); invest with rights; admit to membership, with privileges</note></seg> me;</rdg>
+                    <rdg wit="#ae">My God vouchsafe to enfranchise me.</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Let mee noe more A vaſſall bee</rdg>
+                    <rdg wit="#ee">Let me no more a <seg>vassal<note type="gloss">feudal slave; abject person</note></seg> be	</rdg>
+                    <rdg wit="#ae">Let me no more a vassal be</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">To Sin and pain:</rdg>
+                    <rdg wit="#ee">To sin and pain.</rdg>
+                    <rdg wit="#ae">To sin and pain.</rdg>
+                </app>
+            </l></lg>
+        <lg n="6" type="stanza">    <l n="16">
+                <app>
+                    <rdg wit="#ft">These Vanities I faine would leave,</rdg>
+                    <rdg wit="#ee">These vanities I <seg>fain<note type="gloss">eagerly</note></seg> would leave;</rdg>
+                    <rdg wit="#ae">These vanities I fain would leave,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Oh then my <seg>wery<note type="physical">earlier “v” altered to “w” in darker ink and different hand from main scribe</note></seg> Soul receive,</rdg>
+                    <rdg wit="#ee">O then, my <seg>weary<note type="physical">or “very”; in the manuscript, “very” is altered to “wery”</note></seg> soul receive,</rdg>
+                    <rdg wit="#ae">Oh then my weary soul receive,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">With thee to Reign:</rdg>
+                    <rdg wit="#ee">With Thee to reign</rdg>
+                    <rdg wit="#ae">With Thee to reign</rdg>
+                </app>
+            </l></lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">in</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_088" n="42v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_088"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_088"/></rdg>
+          </app>
+
+           <lg n="7" type="stanza">
+             <l n="19">
+                <app>
+                    <rdg wit="#ft">In those Celestiall Joyes aboue,</rdg>
+                    <rdg wit="#ee">In those celestial joys above,</rdg>
+                    <rdg wit="#ae">In those celestial joys above,</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Involv’d with Glory, Life and Love,</rdg>
+                    <rdg wit="#ee"><seg>Involved<note type="gloss">entangled, enveloped</note></seg> with glory, life and love,</rdg>
+                    <rdg wit="#ae">Involved with glory, life and love,</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">And then thy praiſe:</rdg>
+                    <rdg wit="#ee">And then Thy praise</rdg>
+                    <rdg wit="#ae">And then Thy praise</rdg>
+                </app>
+            </l></lg>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">(My everlasting God and King)</rdg>
+                    <rdg wit="#ee">(My everlasting God and King)</rdg>
+                    <rdg wit="#ae">(My everlasting God and King)</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">To all eternity I’le Sing,</rdg>
+                    <rdg wit="#ee">To all eternity I'll sing,</rdg>
+                    <rdg wit="#ae">To all eternity I’ll sing</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft"><seg>In<del>n</del>unknown<note type="physical">cancelled “n” partly erased.</note></seg> Layes.</rdg>
+                    <rdg wit="#ee">In unknown <seg>lays<note type="gloss">short songs</note></seg>.</rdg>
+                    <rdg wit="#ae">In <seg>unknown lays<note type="critical">“unknown” may have the sense of not known or comprehended (<title rend="italic">OED</title> adj. 1.); something unfamiliar, strange, or unprecedented (<title rend="italic">OED</title> adj. 2.c); or not famous, obscure (<title rend="italic">OED</title> adj. 2.d.). Pulter’s speaker promises to sing “unknown lays” (i.e. songs) in recompense for God’s glory; these imagined songs are analogous to, but also, because unrealized and unrealizable, distinct from, the poems collected in her manuscript.</note></seg>.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curled-ascending"/>
+                </rdg>
+            </app>
+
+        </body>
+    </text>
+</TEI>

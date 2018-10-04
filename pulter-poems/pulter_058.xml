@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.58">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>For I No Liberty Expect to See</title>
+                <title type="sub">Poem #58</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>freedom</term>
+                    <term>confinement</term>
+                    <term>dissolution</term>
+                    <term>afterlife</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_165.jpg" xml:id="f7610_165"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 16, 2018</date> See editorial guidelines for this edition.</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_165" n="81r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_165"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_165" type="pageNum" place="margin-topright">PG#</fw><!--[Untitled]--></rdg>
+                    <rdg wit="#ee">For I No Liberty Expect To See</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee">
+                    </rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee"></rdg>
+                </app>
+            </head>
+            
+            <lg n="1" type="stanza"> <l n="1">
+                <app>
+                    <rdg wit="#ft">For I noe Liberty expect to See</rdg>
+                </app>
+            </l>
+                <l n="2">
+                    <app>
+                        <rdg wit="#ft">Untill to Atoms I dispersed bee</rdg>
+                    </app>
+                </l>
+                <l n="3">
+                    <app>
+                        <rdg wit="#ft">Then beeing infranchiſ’d &ff;ree as my Verse</rdg>
+                    </app>
+                </l>
+                <l n="4">
+                <app>
+                    <rdg wit="#ft">I Shall Surround this Spacious Universe</rdg>
+                </app>
+            </l>
+                <l n="5">
+                    <app>
+                        <rdg wit="#ft">Untill by other Atoms thrust and hurl’d</rdg>
+                    </app>
+                </l>
+                <l n="6">
+                    <app>
+                        <rdg wit="#ft">Wee give a beeing to a nother World.</rdg>
+                    </app>
+                </l>
+            </lg>
+            
+            <app>
+                <rdg wit="#ee">
+                    <p>We do not consider these lines to constitute a separate poem. Instead, we see these six lines as the conclusion to Poem 57, <ref target="#" type="pp-poem-ref" corresp="57">Why Must I Thus Forever Be Confined</ref> We have therefore inserted these lines into the preceding poem in this edition.</p>
+                </rdg>
+            </app>
+            
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="lacework-flourish"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

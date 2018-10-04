@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.7">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</title>
+                <title type="sub">Poem #7</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>royalism</term>
+		    <term>civil war</term>
+		    <term>martyrdom</term>
+		    <term>friendship</term>
+		     <term></term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_030.jpg" xml:id="f7610_030"/>
+        <graphic url="./document_images/7610_031.jpg" xml:id="f7610_031"/>
+        <graphic url="./document_images/7610_032.jpg" xml:id="f7610_032"/>
+        <graphic url="./document_images/7610_033.jpg" xml:id="f7610_033"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>June 5, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>July 3, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_030" n="13v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_030" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_030" n=""/></rdg>
+            </app>            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_030" type="pageNum" place="margin-topright">PG#</fw>On those two unparraleled friends, S:<hi rend="superscript">r</hi> G: Lisle and S:<hi rend="superscript">r</hi> C: Lucas.     <seg>Who were Shott to Death at Colchester<note type="physical">in different hand from main scribe</note></seg></rdg>
+                    <rdg wit="#ee">On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, <seg>Who Were Shot to Death at Colchester<note type="physical">not in hand of main scribe</note></seg></rdg>
+                    <rdg wit="#ae">On Those Two Unparalleled friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full conventions for the transcriptions here.</ref></note></rdg>
+                  <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials I gather for the “curations” section place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Death by firing squad, without trial: this is not an uncommon fate for political actors in the centuries since England’s civil wars in the 1640s. This poem laments an early example of such a fate in George Lisle and Charles Lucas, friends and royalist commanders who failed to defend the besieged town of Colchester against the parliamentary army. On the same day as their surrender, they were found guilty of treason by that army’s commander and promptly executed. Pulter, a staunch royalist, deplores the injustice of that sentence and those who appointed themselves jury and judge of the two men she idealizes here. She embeds this recent and evidently shocking turn of events (in a war which was likely ongoing when she wrote) in an ennobling mythological framework by suggesting that the coordination of Lisle’s and Lucas’s deaths arose from the admiration of their “constant love” by the Parcae or Fates. The poem ends by lambasting the opponents of the royalists as bloodthirsty monsters whose behaviour will, in the end, be its own curse; Pulter thus eagerly anticipates the oblivion of her political enemies in contrast to the endless fame and glory she at once prophesies for Lisle and Lucas and enacts within this poem.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">Pulter here responds to a controversial recent event. But she does so by writing in the long tradition of elegaic poetry, combining classical allusion and the charged language of Royalist polemic. Sir Charles Lucas and Sir George Lisle were Royalist commanders who were arrested and executed at Colchester on August 28, 1648, at the end of a protracted siege on the town by Parliamentary forces that had begun June 12th. That siege, which starved residents, driving them to desperate extremes, has been called “a central event of the second civil war and a focus of national attention in private letters and public print” (Barbara Donegan, <title rend="italic">War in England</title>, 1642-49 [Oxford UP, 2008], 313). In Pulter’s manuscript, the phrase in the title, “who were shot to death at Colchester,” was added in a different hand, perhaps suggesting that a later reviewer of the manuscript felt that other readers might need a bit more information to understand the poem’s occasion. At the time Pulter wrote, however, everyone was talking about the execution of Lucas and Lisle. It prompted controversy and outrage from the start; that controversy extended into the nineteenth century, when a monument to the two was erected. Was this a murder or an execution? What are the rules of war? Were Lucas and Lisle shot simply for being Royalists? (Margaret Lucas Cavendish later wrote that her brother, Charles, was “shot to death for his loyal service.”) Or were they court-martialed for a military offence, breach of parole? Commander Thomas Fairfax, who ordered the shooting, had previously captured and released both Lucas and Lisle on two separate occasions, each time securing a pledge that they would not again take up arms against Parliamentary forces. They had clearly broken that promise. Was Fairfax justified or not? Fairfax and his supporters struggled to defend his action, especially because he did not try Lucas and Lisle. Fairfax emphasized that they had not yet been granted “fair quarter” (the promise of clothes, food, and immunity from violence while prisoners) but had surrendered themselves to his mercy, meaning not that they were guaranteed mercy but that they were <hi rend="italic">at</hi> his mercy. Fairfax justified the action as “some satisfaction to Military Justice, and in part of avenge for the innocent blood they have caused to be spilt” in the course of the siege (<title rend="italic">A Letter from Lord Fairfax Concerning the Surrender of Colchester</title> [1648]). While Royalists like Pulter viewed Lucas and Lisle as martyrs, accounts of the siege and execution more sympathetic to the Parliamentary cause blamed Lucas for attracting the army to Colchester in the first place (Colchester was the site of the Lucas family home, St. John’s, a former abbey), and for instigating the siege and abusing the residents. Pulter’s subject, then, is one that had inspired many other writers. In her poem on the execution of Charles I, “Let none sigh more for Lucas or for Lisle” (Poem 15), Pulter demonstrates how quickly the target of mourning had shifted. Just months after the shooting of Lisle and Lucas, in January 1649, the regicide eclipsed that earlier outrage. Andrea Brady argues that the two men’s deaths were widely depicted as “sacrificial prologues to the king’s execution” (“Dying with Honour: Literary Propaganda and the Second English Civil War,” <title rend="italic">The Journal of Military History</title> 70.1 [2006]: 9-30, p. 11). Pulter presents them as soldiers and heroes, yes, but also as friends and even lovers.</note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Is Lisle and Lucas Slaine? Oh Say not ſoe</rdg>
+                    <rdg wit="#ee">Is <seg>Lisle and Lucas<note type="critical">George Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the English civil war; they were executed by firing squad without trial after their defeat and capture at Colchester in 1648. Christian dates the poem to 1648, “before both the King’s death and [Pulter’s husband’s cousin] Arthur Capel’s death in 1649, since they are not mentioned.”</note></seg> slain? O say not so!</rdg>
+                    <rdg wit="#ae"><seg>Is Lisle and Lucas slain?<note type="critical">That Pulter begins with a question conveys the incredible and unacceptable nature of the news, especially since the speaker follows the question by rebuffing the answer (“Oh say not so”). The question also advises us of the uncertain status of news at this time. The poem’s account of the deaths and the language it uses to describe the Parliamentary forces suggest that Pulter had access to popular print accounts. But the opening question also conveys a sense of doubt about what one hears through rumor and cheap print. The unstable tenses—it happened and is happening—make the incredible news newly traumatic. Pulter’s  use of questions may also signal her debt to Milton’s elegy <title rend="italic">Lycidas</title> (1638).</note></seg> Oh say not so.</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Who could Kill loue and valour at a blow?</rdg>
+                    <rdg wit="#ee">Who could kill Love and Valor at a blow?</rdg>
+                    <rdg wit="#ae">Who could kill <seg>love and valor<note type="critical"><title rend="italic">An Elegy on the Death of Sir Charles Lucas and Sir George Lisle</title> calls them “twins of valour” and “friends.” They were shot, buried, and subsequently commemorated together. Pulter places them in the tradition of idealized male friends, using this tradition to recast death as a kind of union. In her “Of a Young Lady at Oxford, 1646” (Poem 43), a tale of a woman who killed herself when her fiancé died fighting for the king, Pulter again refers to Lucas and Lisle as models of true love between men in the tradition of Damon and Pythias, Castor and Pollux, Patroclus and Achilles:  “When lovely Lisle saw Lucas bleeding lie, / He on his trembling bosom straight did die. / Thus do these stories and these fables teach / And show to us how far our love may reach” (lines 65-66). See “Curations” for other contemporary sources of this vision of the two men. If civil war was often depicted as a form of fratricide, this idealization of male friendship exalts Royalists as fratriphilic. Pulter’s use of heroic couplets throughout the poem reinforces her coupling of the two heroes.</note></seg> at a blow?</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Just as Minervas darling clos’d his eyes</rdg>
+                    <rdg wit="#ee"><seg>Just as Minerva’s darling closed his eyes,<note type="critical">Minerva, goddess of wisdom and warfare, is portrayed allegorically as the lover of Valor, identified with Lucas; Love is identified with Lisle, who was able to kiss Lucas before he died (Eardley).</note></seg></rdg>
+                    <rdg wit="#ae">Just as <seg>Minerva’s darling<note type="critical">Eardley interprets “Minerva’s darling” as Lucas, who died first, and “Love” as Lisle who was able to kiss him as he died. These identifications follow from the Royalist accounts of the execution included in “Curations.” Regarding Lucas’s association with Minerva, the goddess of wisdom, his sister, Margaret Cavendish, emphasizes that Charles “naturally . . . had a practick Genius to the Warlike Arts, or Arts in War, as Natural Poets have to Poesy but his life was cut off before he could arrive to the perfection thereof” (“A True Relation of My Birth, Breeding, and Life,” in <title rend="italic">Natures Picture Drawn by Fancies Pencil</title> [London, 1656], sig. Bbb2).</note></seg> closed his eyes,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Loue Kiſſing wept and on his boſome dies</rdg>
+                    <rdg wit="#ee">Love, kissing, wept and on his bosom dies.</rdg>
+                    <rdg wit="#ae">Love kissing wept and on his bosom dies.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Ah me what horrid Hidra had the hart</rdg>
+                    <rdg wit="#ee">Ah me, what horrid <seg>Hydra<note type="critical">in classical myth, a many-headed monster whose heads grow back after being cut off; often used figuratively, i.e. for opponents to royalists in England’s civil wars</note></seg> had the heart</rdg>
+                    <rdg wit="#ae">Ah me, what horrid <seg>Hydra<note type="critical">The hydra, or many-headed monster, was often used to describe an unruly mob and to disparage and dehumanize collectivity. For example, Royalists described their opposition (made up of collectives including Parliament, the Army, and religious sects) as a Hydra. Since one of the labors of Hercules was slaying the Hydra, calling one’s opposition a Hydra suggested that it would be admirable, even heroic, to destroy the monster. Here, the Hydra has but one heart even if it has many heads, a heartless heart determined to kill Lucas and Lisle. Hydra is the subject governing and linking the two verbs “unite and part” in a kind of zeugma or syllepsis.</note></seg> had the heart</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Them in theire Deaths thus to unite and part</rdg>
+                    <rdg wit="#ee">Them in their deaths thus to unite and part?</rdg>
+                    <rdg wit="#ae">Them in their deaths thus to unite and part?</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Mars on the Areopagie once was tried</rdg>
+                    <rdg wit="#ee"><seg>Mars<note type="gloss">Roman god of war</note></seg>, on the <seg>Areopagus<note type="gloss">a hill in Athens, the site of an ancient judicial court and, in legend, a trial for a murder charge against Mars</note></seg>, once was tried;</rdg>
+                    <rdg wit="#ae"><seg>Mars on the Areopagus once was tried;<note type="critical">Even Mars, the god of war, was tried on the Areopagus, a hill in Athens where trials were held, rather than summarily executed. Lucas and Lisle, in contrast, were not granted a trial. Some stories about Mars (Ares in Greek mythology) claim that he was the first to be put on trial for shedding blood. He killed Poseidon’s son Halirrhothius for raping his daughter; Poseidon had him tried before a jury of the twelve gods, the “best of gods” as opposed to those who judged Lucas and Lisle. The fragmentary accounts that survive suggest that it was the justice of his cause, as well as his history of “valor,” that led to his acquittal. One print account refers to Lisle and Lucas as “sons of Mars” (<title rend="italic">Another Bloudy Fight at Colchester</title> [London, 1648], 2).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">His vallour ſav’d him or he elce had died</rdg>
+                    <rdg wit="#ee">His valor saved him, or he else had died.</rdg>
+                    <rdg wit="#ae">His valor saved him or he else had died.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">His Judg and Jurie were the best of Gods</rdg>
+                    <rdg wit="#ee">His judge and jury were the best of gods;</rdg>
+                    <rdg wit="#ae">His judge and jury were the best of gods;</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Theſe worst of Men, Ô me what ods</rdg>
+                    <rdg wit="#ee">These, worst of men: O me, what odds!</rdg>
+                    <rdg wit="#ae">These worst of men. Oh me, what odds</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Had Joues <add place="below">^</add><add place="above">three</add> <w lemma="son"><abbr>So<hi rend="overline">n</hi>s</abbr></w> of Everlasting fame</rdg>
+                    <rdg wit="#ee">Had <seg>Jove’s three sons<note type="gloss">Jove, king of the Roman gods; his sons—Rhadamanthus, Minos, and Aeacus (each born of a mortal mother)—judge those entering the underworld</note></seg> of everlasting fame</rdg>
+                    <rdg wit="#ae">Had <seg>Jove’s three sons<note type="critical">Jove/Jupiter/Zeus had numerous sons but many critics assume that this refers to three of Zeus’s sons who were judges in the underworld: Rhadamanthus, Minos, and Aeacus. Had they been present, the poem suggests, maybe this would have been a fair trial.</note></seg> of everlasting fame,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Borne of A mortall and Celestiall flame</rdg>
+                    <rdg wit="#ee">(Born of a mortal and celestial flame),</rdg>
+                    <rdg wit="#ae">Born of a mortal and celestial flame,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Had they bin here this buſines to deſide</rdg>
+                    <rdg wit="#ee">Had they been here, this business to decide,</rdg>
+                    <rdg wit="#ae">Had they been here this business to decide?</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Then these too Noble Gallants had not died</rdg>
+                    <rdg wit="#ee">Then these <seg>too<note type="physical">manuscript has “too,” which could signal “two”</note></seg> noble gallants had not died.</rdg>
+                    <rdg wit="#ae">Then these <seg>too<note type="critical">While “two” and “too” were frequently used interchangeably, the homophone too/two captures the ways the execution doubles martyrs and demonstrates that they were too noble for this earth.</note></seg> noble gallants had not died.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Or had Astreus (lover of the Morn</rdg>
+                    <rdg wit="#ee">Or had <seg>Astraeus<note type="gloss">Greek god of dusk, who married Eos, goddess of dawn (the Roman Aurora)</note></seg> (lover of the Morn</rdg>
+			<rdg wit="#ae">Or had <seg>Astreus<note type="critical">Pulter frequently refers to Astreus, the god of dusk in Greek mythology, his wife, Eos, the goddess of dawn or the morning, whom Pulter calls by her Roman name, Aurora, and their daughter Astrea. These lines refer to Eos as the morn from whose bright womb the brighter babe, Astrea, was born. Astrea was associated with innocence, purity, and justice. These lines suggest that Astreus would have delighted in saving the lives of Lucas and Lisle because they fought for his daughter, that is, for justice.</note></seg>, lover of the morn,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Of whoſe bright <add place="below">^</add><add place="above">womb</add> her brighter babe was born</rdg>
+                    <rdg wit="#ee">Of whose bright womb her <seg>brighter babe<note type="gloss">Astraea, classical goddess associated with justice, identified with the constellation Virgo; the last deity to leave Earth, she lived among humans in the Golden Age, then fled in the Bronze Age</note></seg> was born)</rdg>
+			<rdg wit="#ae">Of whose bright womb her <seg>brighter babe<note type="critical">Pulter frequently refers to Astreus, the god of dusk in Greek mythology, his wife, Eos, the goddess of dawn or the morning, whom Pulter calls by her Roman name, Aurora, and their daughter Astrea. These lines refer to Eos as the morn from whose bright womb the brighter babe, Astrea, was born. Astrea was associated with innocence, purity, and justice. These lines suggest that Astreus would have delighted in saving the lives of Lucas and Lisle because they fought for his daughter, that is, for justice.</note></seg> was born,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Had hee bin here hee would have took delight</rdg>
+                    <rdg wit="#ee">Had he been here, he would have took delight</rdg>
+                    <rdg wit="#ae">Had he been here he would have took delight</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">To Saue theire lives that for his Child did fight</rdg>
+                    <rdg wit="#ee">To save their lives, that for his child did fight.</rdg>
+                    <rdg wit="#ae">To save their lives that for his child did fight.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">then</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_031" n="14r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_031" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_031" n=""/></rdg>
+            </app>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Then had theire Judges bin the Gods Eternall</rdg>
+                    <rdg wit="#ee">Then, had their judges been the gods eternal,</rdg>
+                    <rdg wit="#ae">Then had their judges been the gods eternal</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Or upright Men, nay or the powers Infernall</rdg>
+                    <rdg wit="#ee">Or upright men—nay, or the <seg>powers infernal<note type="gloss">The implication is that, unlike their human judges, even Satan’s forces would not have been so evil as to execute Lisle and Lucas.</note></seg>—</rdg>
+                    <rdg wit="#ae">Or upright men, nay or the powers infernal,</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">This unambiguous buſines to deſide</rdg>
+                    <rdg wit="#ee">This unambiguous business to decide,</rdg>
+                    <rdg wit="#ae">This unambiguous business to decide.</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Then this unparaleld friendship had not died</rdg>
+                    <rdg wit="#ee">Then this unparalleled friendship had not died.</rdg>
+                    <rdg wit="#ae">Then these too noble gallants had not died.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">But Jewes, Turks, Atheists Independents all</rdg>
+                    <rdg wit="#ee">But <seg>Jews, Turks, atheists, Independents<note type="critical">groups perceived or acting as religious and political opponents of royalists in England’s civil war</note></seg>: all</rdg>
+                    <rdg wit="#ae">But Jews, Turks, Atheists, Independents, all</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">That Curſſed Rabble, made theſe gallants fall</rdg>
+                    <rdg wit="#ee">That curséd rabble made these gallants fall.</rdg>
+                    <rdg wit="#ae"><seg>That cursed rabble<note type="critical">Pulter here shows her connections to other Royalist polemic, which routinely linked Protestant “Independents” to other religious and ethnic groups, disparaging them all by association. While “Independents” referred to a distinct group with a very particular religious and political agenda, Pulter uses the term to lump together all who presume to set their own course. Similarly, Philocrates, in <title rend="italic">The Loyal Sacrifice: Presented in the Lives and Deaths of those two eminent-heroic patterns, for valor, discipline, and fidelity, the generally beloved and bemoaned, Sir Charles Lucas and Sir George Lisle, Knights</title> (n.p., 1648) refers to the “sundry Jewish Anarchial Synagogue rooks” supporting the Army and Parliament (11). It also refers to the Turks to emphasize the barbarity of the killing of Lucas and Lisle: “But never did any savage nation, were it Turkish or any other heathen, execute the like tyranny and cruelty upon such frivolous pretenses (as is well observed) in <hi rend="italic">cold blood</hi>” (68). A dedicatory epistle to Sir John Lucas, Charles’s brother, begins with the claim that many Englishmen “are degenerated into the very faith, or rather perfidiousness of the Jew” (Demophilus Philanactos, <title rend="italic">Two Epitaphs, Occasioned by the Death of Sir Charles Lucas and Sir George Lisle, basely assassinated at Colchester</title> [1648], sig. DA2r). In Pulter’s poem here, the “horrid Hydra,” “Cursed Rabble,” “black army,” and “sacrilegious rout” all link the Parliamentary cause, the New Model Army, and their supporters as a disorderly mob.</note></seg>, made these gallants fall.</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">How could they doe it were they not Amazed</rdg>
+                    <rdg wit="#ee">How could <seg>they<note type="gloss">the “curséd rabble”</note></seg> do it? Were they not <seg>amazed<note type="gloss">stunned; bewildered; terrified; astonished</note></seg></rdg>
+                    <rdg wit="#ae">How could they do it?  Were they not <seg>amazed<note type="critical">“Amazed” connotes not only being astonished or surprised, as it still does today, but also having lost one’s mind or way, being bewildered or terrified. This may refer to being lost as in a maze or labyrinth, paralyzed or trapped.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">When as the cruell <seg>Parcie<note type="physical"> “e,” blurred, appears written over earlier letter</note></seg> ſat and Gazed</rdg>
+                    <rdg wit="#ee"><seg>Whenas<note type="gloss">when</note></seg> the cruel <seg>Parcae<note type="gloss"> in Greek myth, three female Fates named (as below) Lachesis, Clotho, and Atropos, who determine the length of human lives, represented as threads</note></seg> sat and gazed</rdg>
+                    <rdg wit="#ae">When as the cruel <seg>Parcae<note type="critical">As the <title rend="italic">Golden Book of Leaden Gods</title>, included in “Curations,” explains: “the Parcae were three sisters of destiny, whereof Clotho was figured holding the distaff, Lachesis drawing out the thread [of life], and Atropos cutting it off.” When Atropos cuts the thread of life with her “fatal scissors” (line 42 below), she brings that life to an end. Pulter also refers to the Parcie or Parcae, the three fates of Greek myth, in “The Eclipse,” (Poem 1) where she describes them as “impartial” rather than “cruel.”</note></seg> sat and gazed</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">On theire perfections as Lachis drew the thred</rdg>
+                    <rdg wit="#ee">On <seg>their<note type="gloss">Lisle and Lucas’s</note></seg> perfections? As Lachesis drew the thread,</rdg>
+                    <rdg wit="#ae">On their perfections? As Lachesis drew the thread,</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">What wont you part a ſunder then ſhee ſe’d</rdg>
+                    <rdg wit="#ee">“What, won’t <seg>you<note type="gloss">Lisle and Lucas</note></seg> part asunder then?” she said.</rdg>
+                    <rdg wit="#ae">“What, won’t you part asunder?,” then she said.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">They Striving in theire lives to imbrace each other</rdg>
+                    <rdg wit="#ee">They, striving in their lives to embrace each other,</rdg>
+                    <rdg wit="#ae">They striving in their lives to embrace each other,</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">Shee twirl’d and twisted both of them together</rdg>
+                    <rdg wit="#ee">She twirled and twisted both of them together.</rdg>
+                    <rdg wit="#ae">She twirled and twisted both of them together.</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Then <seg>Clotho<note type="physical"> final “o” appears written over “a”</note></seg> at theire constant loue did wonder</rdg>
+                    <rdg wit="#ee">Then Clotho at their constant love did wonder,</rdg>
+                    <rdg wit="#ae">Then Clotho at their constant love did wonder,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">And in meere pitty <add place="below">^</add><add place="above">pul’d</add> them not a ſunder</rdg>
+                    <rdg wit="#ee">And, in mere pity, pulled them not asunder;</rdg>
+                    <rdg wit="#ae">And in mere pity, pulled them not asunder.</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft"><seg><del>And</del><hi rend="superscript">x</hi><note type="physical">double strike-through; to left, in margin, is “Shee” with superscript “x” in different hand from main scribe</note></seg> being it Seems the Tenderst hearted Laſs</rdg>
+                    <rdg wit="#ee">She being, it seems, the tend’rest-hearted lass,</rdg>
+                    <rdg wit="#ae">And being, it seems, the tenderest-hearted lass,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Goe Noble <seg>Soules<note type="physical">“e” appears in place of earlier “d,” with imperfectly erased ascender visible</note></seg> Shee Said, and let them paſs</rdg>
+                    <rdg wit="#ee">“Go, noble souls,” she said, and let them pass.</rdg>
+                    <rdg wit="#ae">“Go, noble souls,” she said, and let them pass.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">But Atropas inrag’d began to chide</rdg>
+                    <rdg wit="#ee">But Atropos, enraged, began to chide,</rdg>
+                    <rdg wit="#ae">But Atropas, enraged, began to chide,</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Saying these trew loves knots must be untied</rdg>
+                    <rdg wit="#ee">Saying, “These true love’s knots must be untied.”</rdg>
+                    <rdg wit="#ae">Saying “these true love’s knots must be untied!”</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">But Seeing theire <seg>Lives<note type="physical">"v” written over other letter (perhaps “n”)</note></seg> Shee could not stay to <add place="below">^</add><add place="above">untwist</add></rdg>
+                    <rdg wit="#ee">But seeing their lives she could not stay t’untwist,</rdg>
+                    <rdg wit="#ae">But seeing their lives, she could not stay t’untwist,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Let those Sit Idleing here (Shee ſaid) that list</rdg>
+                    <rdg wit="#ee">“Let those sit idling here” (she said) “that <seg>list<note type="gloss">like, choose</note></seg>;</rdg>
+                    <rdg wit="#ae">“Let those sit idling here,” she said, “that list.</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">How can wee give account unto thoſe powers</rdg>
+                    <rdg wit="#ee">How can we give account unto those powers</rdg>
+                    <rdg wit="#ae">How can we give account unto those powers</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">That us imploy, in trifeling out our howres</rdg>
+                    <rdg wit="#ee">That us employ, in trifling out our hours?”</rdg>
+                    <rdg wit="#ae">That us employ, in trifling out our hours?”</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">Then Scolding at her Sisters for theire Sloth</rdg>
+                    <rdg wit="#ee">Then, scolding at her sisters for their sloth,</rdg>
+                    <rdg wit="#ae">Then scolding at her sisters for their sloth,</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Shee with her fatall Cizers Snipt them both</rdg>
+                    <rdg wit="#ee">She with her fatal scissors snipped them both.</rdg>
+                    <rdg wit="#ae">She with her fatal scissors snipped them both.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Shee</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_032" n="14v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_032" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_032" n=""/></rdg>
+            </app>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Shee then cryed out, alaſs but hurring fate</rdg>
+                    <rdg wit="#ee">She then cried out “Alas!”; but <seg>hurring<note type="gloss">obsolete term for snarling; possibly, scribal error for “hurrying”</note></seg> fate</rdg>
+                    <rdg wit="#ae">She then cried out, “Alas!” but <seg>hurring fate<note type="gloss">snarling or possibly hurr[y]ing</note></seg></rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">&ff;orced her poore Girle, her <seg>pitty<note type="physical">“i” replaces earlier “e”</note></seg> came too late</rdg>
+                    <rdg wit="#ee">Forced her, poor girl: her pity came too late.</rdg>
+                    <rdg wit="#ae">Forced her, poor girl; <seg>her pity came too late<note type="critical">Pulter’s Atropas is first angry at the tender-heartedness and delay of her sisters and then, after she snips the two heroes’ intertwined threads of life, regretful of her own hasty action.  While the Parcae are themselves called Fates, who control the lives and destinies of humans, here Atropas is herself “forced” by a “hurring” fate that drives her to act and act fast. Pulter here captures the urgency of war in which events move too fast and pity comes too late.  Fairfax had Lucas and Lisle shot in the evening of the same day the Royalists had surrendered to him.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">Licaon <seg>Tantall:<note type="physical">colon might be penmarks</note></seg> tender to this brood</rdg>
+                    <rdg wit="#ee"><seg>Lycaon, Tantal, tender to this brood,<note type="gloss"> In Greek myth, Lycaon and Tantalus (separately) feed their sons to gods; “tender to this brood” refers to the tender feelings of “the cursed rabble” (“this brood”) for these murderers.</note></seg></rdg>
+                    <rdg wit="#ae"><seg>Lycaon, Tantal<note type="critical">Pulter seems to invoke and link two figures from Greek mythology here, Lycaon and Tantalus, both of whom killed their children. Lycaon served one of his many sons to Zeus, testing whether the god could tell that he was eating human flesh. Tantalus served his son Pelops to the gods.  Both serve here as figures for the cannibalism of civil war as well as for ruthlessness. “Tender to this brood” may mean that Lycaon and Tantalus are both tender compared to “this brood,” the Parliamentary forces, or that the Parliamentary forces feel tenderly toward Lycaon and Tantalus.  But the phrasing may also sarcastically remind us that Lycaon and Tantalus were far from tender to their own broods or offspring.</note></seg>, tender to this brood</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">Who fed on Hostagis and Infants blood</rdg>
+                    <rdg wit="#ee">Who fed on hostages and infants’ blood:</rdg>
+                    <rdg wit="#ae">Who fed on hostages’ and infants’ blood:</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">Why are they now more cruell then at first</rdg>
+                    <rdg wit="#ee">Why are <seg>they<note type="gloss">the “curséd rabble”</note></seg> now more cruel than at first?</rdg>
+                    <rdg wit="#ae">Why are they now more cruel than at first?</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">They’r Drunk with Christian blood yet still they<add place="below">^</add> <add place="above">thirst</add></rdg>
+                    <rdg wit="#ee">They’re drunk with Christian blood, yet still they thirst.</rdg>
+                    <rdg wit="#ae">They’re drunk with Christian blood, yet still they thirst.</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">Doth that ould Vulture and his preying brood</rdg>
+                    <rdg wit="#ee">Doth that <seg>old vulture<note type="critical">likely, Oliver Cromwell: “his long nose incited royalist pamphleteers to describe him as a vulture” (Eardley)</note></seg> and his preying brood</rdg>
+                    <rdg wit="#ae">Doth <seg>that old vulture<note type="critical">“That old vulture” might refer to Oliver Cromwell, one of the principal commanders of the New Model Army and, later, the Lord Protector or leader of the Commonwealth, or to Thomas Fairfax, who ordered the shootings. Neither was especially old. Cromwell was forty nine years old at the time of the shooting, and Fairfax thirty six. One Royalist pamphlet describes “the ravenous and gripping claws of these Cannibal Cuckoos (the Parliament and Army) that are now devouring [the people], after they have pulled and polished them to the bare skins, [and] are now feeding upon their flesh, and picking their very bones, killing, destroying, and robbing them” (A2r). It specifies that the Parliamentary forces are all “vultures, harpies” and “such like ominous and unclean birds, that with their huge bodies and baleful wings have obscured our king, our peace, our happiness.” Such carrion birds conspire against the eagle, the phoenix, and other birds figuring royalty and royalism. See <title rend="italic">Mercurius Melancholicus, The Cuckoo’s-nest at Westminster, or the Parliament between the two Lady-Birds, Quean Fairfax, and Lady Cromwell, concerning Negotiations of Estate</title> (London, 1648).</note></seg> and his preying brood</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">Think to grow young <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> ſucking ſprit<add place="below">^</add><add place="above">e</add>ly blood</rdg>
+                    <rdg wit="#ee">Think to grow young with <seg>sucking sprightly blood<note type="critical">the blood of still-living beings; alluding to a myth about (not vultures but) eagles, whose beaks are said to grow too long to allow them to eat flesh, so they suck blood instead (Eardley)</note></seg>?</rdg>
+                    <rdg wit="#ae">Think to grow young with sucking sprightly blood?</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft">Oh let them next ſuck <seg>Neſſu<hi rend="superscript">e</hi>s’s<note type="physical">“u” appears to correct earlier letter; superscript “e” may be flourish</note></seg> poys’nd gore</rdg>
+                    <rdg wit="#ee">Oh, let them next suck <seg>Nessus’s<note type="gloss">centaur with poisoned blood</note></seg> poisoned gore;</rdg>
+                    <rdg wit="#ae">Oh, let them next suck Nessus’s poisoned gore;</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">Like mad <seg>Alcides<note type="physical">"e" appears written over "a"</note></seg> let them Rave and Rore</rdg>
+                    <rdg wit="#ee">Like mad <seg>Alcides<note type="gloss">Hercules, poisoned by Nessus</note></seg>, let them rave and roar;</rdg>
+                    <rdg wit="#ae"><seg>Like mad Alcides let them rave and roar;<note type="critical">Nessus was a satyr (half man, half horse) with toxic blood. Heracles/Alcides killed him but was later poisoned by a shirt dipped in that toxic blood and begged to be killed to put him out of his pain.The result was displaced suicide—self-destroying—by the hand of another. In Shakespeare’s <title rend="italic">Antony and Cleopatra</title>, Antony laments his humiliating retreat, following Cleopatra, by saying: “The shirt of Nessus is upon me: teach me, / Alcides, thou mine ancestor, thy rage” (4.12). The story of Alcides’s miserable end serves as a cautionary tale about revenge reaching out beyond the grave, and violence rebounding against the perpetrator.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">And as they haue bin three kingdooms sore <add place="below">^</add> <add place="above">annoyers</add></rdg>
+                    <rdg wit="#ee">And, as they have been <seg>three kingdoms’<note type="gloss">England, Ireland, Scotland</note></seg> sore annoyers,</rdg>
+                    <rdg wit="#ae">And as they have been <seg>three kingdoms’<note type="gloss">The supposedly united kingdoms of England, Scotland, and Ireland.</note></seg> sore annoyers,</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">Let them like <seg><add place="below">\</add><add place="above">him\</add><note type="physical">inserted in different hand from main scribe</note></seg> at <seg>laſt<note type="physical">last three letters written over previous ones</note></seg> be ſelfe destroyers</rdg>
+                    <rdg wit="#ee">Let them, like him, at last be self-destroyers.</rdg>
+                    <rdg wit="#ae">Let them, like him, at last be self-destroyers.</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">Had these undaunted loving Heros died</rdg>
+                    <rdg wit="#ee">Had these undaunted loving heroes died</rdg>
+                    <rdg wit="#ae">Had these undaunted loving heroes died</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">In former times they had bin Deified</rdg>
+                    <rdg wit="#ee">In former times, they had been deified.</rdg>
+                    <rdg wit="#ae">In former times, they had been deified.</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">Then theire Renown and love had ſpread as fare</rdg>
+                    <rdg wit="#ee">Then, their renown and love had spread as far</rdg>
+                    <rdg wit="#ae">Then their renown and love had spread as far</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">As thoſe two famous Thunderbolts of War</rdg>
+                    <rdg wit="#ee">As those two famous <seg>thunderbolts of war<note type="gloss">Cornelius Scipio (236-183 BCE) and Cornelius Scipio (ca. 185-129 BCE), Roman commanders renowned by Virgil and followers as “Duo fulmina belli,” the “two thunderbolts of war”</note></seg>.</rdg>
+                    <rdg wit="#ae">As those <seg>two famous thunderbolts of war<note type="critical">Virgil referred to two Roman generals, both named Cornelius Scipio, as “twin thunderbolts of war” (duo fulmina belli, <title rend="italic">Aeneid</title> 6.842). Aeneas encounters them in the underworld, so they are already dead, their achievements behind them. Because the first Scipio defeated the general Hannibal, despite his reputation for military strategy and his extensive human and animal forces (including elephants), he earned the nickname “Scipio Africanus.” The other Scipio was his adopted grandson. In a later war, he defeated Carthage and, famously, burned it to the ground and devastated its agricultural fields. Lucretius uses the story of these two indomitable generals to remind readers that even great warriors come to dust. “Scipio’s son, the thunderbolt of war, / Horror of Carthage, gave his bones to earth, / Like to the lowliest villein in the house” (<title rend="italic">De rerum Natura</title>, trans. William E. Leonard [Boston: E. P. Dutton, 1916], 3.1038-40). Lucy Hutchinson’s translation of Lucretius elaborates that “in a cold bed / Of earth his bones were laid, nor in the grave / Enjoy more privilege than the meanest slave” (<title rend="italic">The Works of Lucy Hutchinson</title>, ed. Reid Barbour and David Norbrook [Oxford University Press, 2012], 3.1117-19). One edition of this poem suggests that the two thunderbolts might refer to Castor and Pollux, to whom Pulter elsewhere compares Lucas and Lisle. See <title rend="italic">Early Modern Women Poets: An Anthology</title>, ed. Jane Stevenson and Peter Davidson (Oxford University Press, 2001).</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">Effigies, Piramids, Collum<add place="above">n</add>s, Colloſses,</rdg>
+                    <rdg wit="#ee">Effigies, pyramids, columns, <seg>colosses<note type="gloss">huge statues</note></seg>,</rdg>
+                    <rdg wit="#ae">Effigies, pyramids, columns, <seg>colosses<note type="gloss">massive statues</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">Had bin Erect to memoriſe our loſses</rdg>
+                    <rdg wit="#ee">Had been erect to <seg>memorize<note type="gloss">maintain the memory</note></seg> our losses;</rdg>
+                    <rdg wit="#ae">Had been erect to <seg>memorize<note type="gloss">commemorate</note></seg> our losses.</rdg>
+                </app>
+            </l>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">But wee are now denied our Just deſires</rdg>
+                    <rdg wit="#ee">But we are now denied our just desires.</rdg>
+                    <rdg wit="#ae">But we are now denied our just desires;</rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">Trew gratefull loue in this our age expires</rdg>
+                    <rdg wit="#ee">True grateful love in this, our age, expires;</rdg>
+                    <rdg wit="#ae">True grateful love in this our age expires.</rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">Yet Some Sad Swan I Know there will be found</rdg>
+                    <rdg wit="#ee">Yet <seg>some sad swan<note type="critical">an allusion (in Ariosto’s <title rend="italic">Orlando Furioso</title>) to the story of swans in the afterlife who ferry the names of a few dead to a temple of immortal fame (Eardley)</note></seg>, I know, there will be found</rdg>
+                    <rdg wit="#ae">Yet some <seg>sad swan<note type="critical"> The reference here to the sad swan may refer to the belief that swans sing before they die.  Writers as early as Pliny called this into doubt: “Some say that the swans sing lamentably a little before their death, but untruly, I suppose: for experience in many hath showed the contrary” (<title rend="italic">The History of the World. Commonly Called the Natural History</title>, trans. Philemon Holland [London, 1601], 10.3. sig. Bb3v). Yet the belief underpins an expression still in use, the “swan song,” or final performance. The speaker may express the hope that she herself may be this sad swan, dying after she puts her grief into verse, and achieving recognition “only” for this “one action” of commemorating the heroes.</note></seg> I know there will be found</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">That for this onely Action Shall bee Crond</rdg>
+                    <rdg wit="#ee">That for this only action shall be crowned:</rdg>
+                    <rdg wit="#ae">That for this only action shall be crowned,</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">that</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_033" n="15r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_033" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_033" n=""/></rdg>
+            </app>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">That Shall beare louely Lisle, and Lucas name</rdg>
+                    <rdg wit="#ee">That shall bear lovely Lisle and Lucas’s name</rdg>
+                    <rdg wit="#ae">That shall bear lovely Lisle’s and Lucas’s name</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">Vnto the Temple of Eternall fame</rdg>
+                    <rdg wit="#ee">Unto the temple of eternal fame.</rdg>
+                    <rdg wit="#ae">Unto the temple of eternal fame.</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">When that black Armie after theire Short Dreame</rdg>
+                    <rdg wit="#ee">When that black army, after their short dream,</rdg>
+                    <rdg wit="#ae">When that black army after their short dream</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">Shall floating bee on Stix his Sable Streame</rdg>
+                    <rdg wit="#ee">Shall floating be on <seg>Styx’s<note type="gloss">river in classical underworld</note></seg> sable stream,</rdg>
+                    <rdg wit="#ae">Shall floating be on <seg>Styx<note type="gloss">river in the underworld</note></seg> his sable stream,</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">They by the Angrey billowes Shall bee tost</rdg>
+                    <rdg wit="#ee">They by the angry billows shall be tossed</rdg>
+                    <rdg wit="#ae">They by the angry billows shall be tossed</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft">Till in oblivians Horrid Womb <seg>ther’e<note type="physical">final “e” erased</note></seg> lost</rdg>
+                    <rdg wit="#ee">Till in <seg>Oblivion’s<note type="gloss">goddess of the river Lethe (literally: “Oblivion") in Greek mythological underworld</note></seg> horrid womb they’re lost.</rdg>
+                    <rdg wit="#ae">Till in oblivion’s horrid womb they’re lost.</rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">If hee that fired Dianas Phane for fame</rdg>
+                    <rdg wit="#ee">If <seg>he that fired Diana’s fane<note type="gloss">Herostratus, seeking fame, set alight the temple (“fane”) of Artemis or Diana in Ephesus, 356 BC; the Ephesians executed him and forbade mention of his name.</note></seg> for fame</rdg>
+                    <rdg wit="#ae">If he that fired Diana’s <seg>fane<note type="gloss">temple</note></seg> for fame</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">Lost both his Expectation and his name</rdg>
+                    <rdg wit="#ee">Lost both his expectation and his name;</rdg>
+                    <rdg wit="#ae"><seg>Lost both his expectation and his name;<note type="gloss"> Herostratus set fire to Diana’s temple in Ephesus “for fame” but as punishment the Ephesians forbade the mention of his name. This kind of self-defeating act fascinates Pulter in this poem.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">If covetous Cambices who preſum’d</rdg>
+                    <rdg wit="#ee">If covetous <seg>Cambyses<note type="gloss">Cambyses II (c. 522 BCE), a king of Persia whose force of 50,000 was buried in a sandstorm after embarking on an attack of an oracle in Egypt.</note></seg>, who presumed</rdg>
+                    <rdg wit="#ae">If covetous Cambyses, who presumed</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">To rob the Gods till Sand his mem conſum’d</rdg>
+                    <rdg wit="#ee">To rob the gods till sand his men consumed;</rdg>
+                    <rdg wit="#ae">To rob the Gods ’til sand his <seg>mem<note type="gloss">memory</note></seg> consumed,</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">Or that <seg>&ff;ier<add place="below">^</add><add place="above">ce</add><note type="physical">corrected, possibly from “ffree”</note></seg> Gaule who Delphus ment to plunder</rdg>
+                    <rdg wit="#ee">Or that fierce <seg>Gaul<note type="gloss">Brennus, leader of Gauls punished by gods for invading Apollo’s sanctuary of Delphi, Greece</note></seg> who Delphi meant to plunder</rdg>
+                    <rdg wit="#ae">Or that fierce Gaul who Delphus meant to plunder</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">Till firey Phebus Routed him with Thunder</rdg>
+                    <rdg wit="#ee">Till fiery <seg>Phoebus<note type="gloss">Apollo</note></seg> <seg>routed<note type="gloss">defeated</note></seg> him with thunder:</rdg>
+                    <rdg wit="#ae">’Til firey Phoebus <seg>routed him with thunder<note type="critical">Herostratus, Cambyses and the fierce Gaul (Brennus) were all guilty of sacrilege and ultimately punished. See “Curations.” This series of “if” clauses builds to the “then” that this sacrilegious rout or mob, the Parliamentary forces, will ultimately be punished, too.</note></seg>:</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">If these live now in Honour then noe doubt</rdg>
+                    <rdg wit="#ee">If these live now in honor, then no doubt</rdg>
+                    <rdg wit="#ae">If these live now in honor, then no doubt,</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">&ff;ame Shall Attend this Sacrilegi’us rout</rdg>
+                    <rdg wit="#ee">Fame shall attend this sacrilegious <seg>rout<note type="gloss">troop, crowd, mob</note></seg>,</rdg>
+                    <rdg wit="#ae">Fame shall attend this sacrilegious rout,</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">Who have our &ff;aiths defender over powerd</rdg>
+                    <rdg wit="#ee">Who have <seg>our faith’s defender<note type="gloss">King Charles</note></seg> overpowered,</rdg>
+                    <rdg wit="#ae">Who have <seg>our faith’s defender<note type="critical">“Our faith’s defender” refers to the king, Charles I. The Royalist view of the monarch as God’s representative on earth, as well as the Supreme Head of the Church of England, made opposing (and ultimately killing him) a form of sacrilege.</note></seg> over-powered,</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">And Temples, Alters, Victims, all devourd</rdg>
+                    <rdg wit="#ee">And temples, altars, victims, all devoured;</rdg>
+                    <rdg wit="#ae">And temples, altars, victims, all devoured.</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">But theſe victorious Soules live now aboue</rdg>
+                    <rdg wit="#ee">But these victorious souls live now above,</rdg>
+                    <rdg wit="#ae">But these victorious souls live now above</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">And gloriously goe on in Endles loue</rdg>
+                    <rdg wit="#ee">And gloriously go on in endless love,</rdg>
+                    <rdg wit="#ae">And gloriously go in endless love,</rdg>
+                </app>
+            </l>
+            <l n="83">
+                <app>
+                    <rdg wit="#ft">Whil’st theire faire frames <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> here did cloſe<add place="below">^</add><add place="above">theire lives</add></rdg>
+                    <rdg wit="#ee">Whilst <seg>their fair frames<note type="gloss">structure, physical body, constitution, arrangement; also the universe, heavens, earth, or any part of it</note></seg>, which here did close their lives,</rdg>
+                    <rdg wit="#ae">Whilst their fair <seg>frame<note type="gloss">physical body</note></seg> which here did close their lives,</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <rdg wit="#ft">Shall live in fame till they in <seg><del>Triumph</del><note type="physical">double strike-through</note></seg> <seg><add place="above">Glory</add><note type="physical">directly above struck-through “Triumph,” in different hand from main scribe</note></seg> riſe.</rdg>
+                    <rdg wit="#ee">Shall live in fame till they in glory rise.</rdg>
+                    <rdg wit="#ae">Shall live in fame ’til they in glory rise.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

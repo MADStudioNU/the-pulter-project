@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.36">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Circle [4]</title>
+                 <title type="sub">Poem #36</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+                     <term>God</term>
+                     <term>creation</term>
+                     <term>light</term>
+                     <term>Astraea</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_112.jpg" xml:id="f7610_112"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>May 18, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 22, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Scott-Baumann</persName>. Last updated <date>September 7, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_112" n="54v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_112"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_112"/></rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_112" type="pageNum" place="margin-topright">104</fw>The Circle [4]</rdg>
+                    <rdg wit="#ee">The Circle [4]</rdg>
+                    <rdg wit="#ae">The Circle [4]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">In a short poem composed of five tetrameter couplets and constituting a single long sentence, Pulter fuses two of her favorite topics: circles and sunrise. In this last of four poems entitled “The Circle,” she describes God’s circular movement downward from the heavens that concludes with Astraea, the last deity living on earth, fleeing back to skies to become the constellation Virgo. In the middle of this cycle Pulter presents an interesting conversion and return from biblical to classical contexts: the male “eternal Spirit” who creates the world by separating light out of chaos morphs into the female classical figure of Aurora (goddess of the dawn), who gives birth to Astraea (goddess of justice). Astraea lived on earth during the utopian Golden Age, which Pulter characterizes as a time when Christian truths were revealed to humans (who had fallen through sin, unlike God’s descent through grace). Astraea completes the motion of the circle by returning to be enveloped in the heavens (and Heaven). The proliferating clauses of the sentence underscore the generative genealogy of divine powers.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>In the first lines of the Bible, God creates light:</p>
+                  <cit>
+                    <quote>In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters. And God said, Let there be light: and there was light. And God saw the light, that it was good: and God divided the light from the darkness. And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.</quote>
+                    <bibl><title>Genesis 1.1-5</title></bibl>
+                  </cit>
+                  <p>Genesis describes light being created but in Pulter’s poem, it is instead “extracted”, a chemical verb, often used for distillation, and it is characteristic for Pulter to bring technical and alchemical language to devotional poetry (see also, for instance, ‘The Hope’ and ‘The Revolution’). The gender dynamic in the personifications of this poem are interesting, as divine power moves from the male God of the opening to the “virgin womb” of Astrea. In the opening of <title rend="italic">Paradise Lost</title>, also meditating on these lines from Genesis, Milton imagines the Holy Spirit both “brooding” (like a female bird) and impregnating (as a male):</p>
+                    <cit>
+                      <quote>
+                        <lg>
+                          <l>And chiefly Thou O Spirit, that dost prefer</l>
+                          <l>Before all Temples th’ upright heart and pure,</l>
+                          <l>Instruct me, for Thou know'st; Thou from the first</l>
+                          <l>Wast present, and with mighty wings outspread</l>
+                          <l>Dove-like satst brooding on the vast Abyss</l>
+                          <l>And mad’st it pregnant.</l>
+                        </lg>
+                      </quote>
+                      <bibl><title rend="italic">Paradise Lost</title>, ll. 17-22.</bibl>
+                    </cit>
+                    <p>As well as chemical process, Pulter combines Biblical and Roman narratives about light. Her word “lapsèd” hinges between these two spheres, referring to mankind’s wickedness after the Golden Age of Roman myth and also etymologically suggesting the Fall from Eden in Genesis. In this, her fourth poem called ‘The Circle’, Pulter enacts the title; her poem’s opening and closing lines end with the same words, “life and love”.</p></note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">The eternall Spirit of Life and Love,</rdg>
+                    <rdg wit="#ee">The eternal Spirit of life and love,</rdg>
+                    <rdg wit="#ae">The eternal Spirit of life and love,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Descending from his Throne aboue;</rdg>
+                    <rdg wit="#ee">Descending from His throne above,</rdg>
+                    <rdg wit="#ae">Descending from His throne above;</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">&ff;rom Natures Mass extracted Light,</rdg>
+                    <rdg wit="#ee">From nature's mass, extracted <seg>Light<note type="critical">Aurora, goddess of the dawn, the “her” of the next line; see also Genesis 1:1-4: “In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness [was] upon the face of the deep. And the Spirit of God moved upon the face of the waters. And God said, Let there be light: and there was light. And God saw the light, that [it was] good: and God divided the light from the darkness.”</note></seg>,</rdg>
+                    <rdg wit="#ae">From nature's mass <seg>extracted<note type="gloss">obtained from matter, as in the distillation process</note></seg> Light,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Biding her triumph over Night.</rdg>
+                    <rdg wit="#ee"><seg>Biding<note type="critical">awaiting, but also perhaps connoting “bidding,” meaning inviting, commanding, entreating.</note></seg> her triumph over Night,</rdg>
+                    <rdg wit="#ae"><seg>Biding<note type="gloss">waiting for; or possibly ‘bidding’</note></seg> her triumph over night.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Who in her Prime of Youth and Day,</rdg>
+                    <rdg wit="#ee">Who, in her prime of youth and day,</rdg>
+                    <rdg wit="#ae">Who, in <seg>her<note type="critical">the “Light” of the previous line, Aurora; in Roman mythology, goddess of the dawn, who is not named in this poem but whose name is the title of the subsequent poem in the manuscript. See Headnote for Genesis 1.1-5, the biblical basis of this poem</note></seg> prime of youth and day,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Lovely Astrea did display;</rdg>
+                    <rdg wit="#ee">Lovely <seg>Astraea<note type="critical">goddess of justice, Aurora’s daughter; The Roman goddess of justice (“starry maiden”) dwelt on earth during the golden age, but, when sin prevailed,she fled to heaven and was metamorphosed into the constellation Virgo.</note></seg> did <seg>display<note type="critical">To display could mean to give birth, but the term also alludes to the unfurling or exhibiting of a military tactic.</note></seg>,</rdg>
+                    <rdg wit="#ae">Lovely <seg>Astrea<note type="critical">in Roman mythology, goddess of justice, who fled earth for the heavens after the Golden Age, when humankind became wicked. Because of her renowned chastity she became the constellation Virgo. Also, in some accounts, the daughter of Aurora</note></seg> did <seg>display<note type="gloss">show or reveal</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Who conquering all the Shades infernall:</rdg>
+                    <rdg wit="#ee">Who, conquering all the shades <seg>infernal<note type="gloss">hellish</note></seg>,</rdg>
+                    <rdg wit="#ae">Who, conquering all the shades infernal,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Her Virgin Womb, Shewd life eternall</rdg>
+                    <rdg wit="#ee">Her virgin womb showed life eternal</rdg>
+                    <rdg wit="#ae">Her virgin womb showed life eternal</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">To Lapsed Man, then flew above</rdg>
+                    <rdg wit="#ee">To <seg>lapséd<note type="gloss">fallen into sin</note></seg> man, then flew above</rdg>
+                    <rdg wit="#ae">To <seg>lapsèd<note type="gloss">fallen into decay, error or sin</note></seg> man, then flew above</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">To bee <seg>involved<note type="physical">There is a partial blot over the “l.”</note></seg> again, in Life and Love.</rdg>
+                    <rdg wit="#ee">To be <seg>involved<note type="gloss">entangled, enveloped</note></seg> again in life and love.</rdg>
+                    <rdg wit="#ae">To be <seg>involved<note type="gloss">enveloped, enfolded, wrapped up</note></seg> again in life and love.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>
+

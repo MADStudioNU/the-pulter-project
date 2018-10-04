@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Versioning Machine</title>
+		<link rel="stylesheet" type="text/css" href="includes/v-machine.css" media="all">
+	</head>
+	<body>
+		<div id="header">
+         <div class="blue"></div>
+         <div class="grey"></div>
+         <div id="masthead">
+            <a href="index.html"><img alt="Versioning Machine" src="vm-images/VMHeaderNStrp.png" class="left"></a>
+         </div>
+         <div id="navbar">
+            <div class="links">
+               <a href="samples.html">Sample Texts</a>
+               <a href="documentation.html">Documentation</a>
+               <a href="credits.html">Credits</a>
+            </div>
+         </div>
+      </div>
+      <div class="clear"></div>
+<div id="maintext">
+<h1>Documentation</h1> <h2>Versioning Machine 5.0</h2> 
+
+<p class="byline">by Lara Vetter, Maryland Institute for Technology in the Humanities, Summer 2003; Jarom McDonald, Maryland Institute for Technology in the Humanities, January 2005; Sean Daugherty, University of Maryland Libraries, November 2006, March 2007, and July 2007; Tanya Clement, Digital Cultures and Creativity, University of Maryland and Susan Schreibman, Digital Humanities Observatory, June 2010; and Roman Bleier and Joshua D. Savage, An Foras Feasa at the Maynooth University Institute for the Humanities, 2015.</p>
+
+<hr />
+
+<ul class="item">
+	<li><strong><a href="#over">Overview</a></strong></li>
+	<li><strong><a href="#installation">Installation &amp; Requisites</a></strong></li>
+	<li><strong><a href="#interface">The VM Interface</a></strong></li>
+	<li><strong><a href="#basics">Encoding: The Basics</a></strong>
+<ul class="subitem">
+	<li><a href="#header1">Displaying Header Information</a></li>
+	<li><a href="#basic_enc">Encoding the Body</a></li>
+	<li><a href="#trans_tags1">Using Transcription Tags</a></li>
+	<li><a href="#enc_notes1">Encoding Notes</a></li>
+	<li><a href="#enc_images1">Encoding Images</a></li>
+	<li><a href="#enc_audio">Encoding Audio</a></li>
+</ul>
+</li>
+	<li><strong><a href="#method2">Encoding: Using Critical Apparatus Tagset</a></strong>
+<ul class="subitem">
+	<li><a href="#enc_meth">Recording Variant Encoding Methodology</a></li>
+	<li><a href="#witnesses">Recording a List of Witnesses</a></li>
+	<li><a href="#par_seg">Using Parallel Segmentation</a>
+<ul class="subsubitem">
+	<li><a href="#fundementals">The Fundamentals of Parallel Segmentation</a></li>
+	<li><a href="#base_text">The Notion of a Base Text</a></li>
+</ul>
+</li>
+	<li><a href="#loc-ref">Using Location-Referenced Encoding</a></li>
+</ul>
+</li>
+	<li><strong><a href="#line_numbers">Line Numbering</a></strong></li>
+	<li><strong><a href="#witness_detail">Witness Detail</a></strong></li>
+	<li><strong><a href="#tech">Technical Information</a></strong>
+<ul class="subitem">
+	<li><a href="#dir_structure">Files and Directory Structure</a></li>
+	<li><a href="#customizing">Customizing the VM</a></li>
+</ul>
+</li>
+</ul>
+&nbsp;
+<h3 id="over" class="item">Overview</h3>
+ <p>The Versioning Machine (VM) is a software tool designed by literary scholars, programmers, and web designers at several institutions, including An Foras Feasa at the Maynooth University Institute for the Humanities, the Digital Humanities Observatory (DHO), the Maryland Institute for Technology in the Humanities (MITH), and the Office of Digital Collections and Research (DCR) at University of Maryland Libraries. The VM not only provides for elements traditionally found in codex-based critical editions, such as annotation and introductory material, but it also takes advantage of opportunities of electronic publishing. Features include providing a frame to compare diplomatic versions of witnesses side by side, allowing for images of the witness to be viewed alongside the diplomatic edition, inclusion of audio versions of a text, and providing users with an enhanced typology of notes.</p> 
+
+<p>The Versioning Machine 1.0 was launched at the 2002 ALLC/ACH (Association for Literary and Linguistic Computing/Association for Computers and the Humanities) Conference in Tubingen, Germany, July 2002. Version 4.0 was released June 2010, with Version 5.0 following in 2015.</p>
+
+<p>The VM supports display of XML texts encoded according to the P5 Guidelines of the Text Encoding Initiative (TEI). To display texts in the VM, you must use the TEI's "critical apparatus tagset" (TEI.textcrit, see <a href="//www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html">TEI documentation</a>) to encode all witnesses one XML file. Because the critical apparatus tagset offers the most efficient and thorough methodology for inscribing variants in a structured, machine-readable format, choosing <a href="#method2">this method </a> can be more complicated in terms of markup but rewards the editor in efficiency in encoding. Because using the critical apparatus tagset is at first challenging, instructions to augment the TEI Guidelines are provided below.</p>
+
+<h3 id="installation" class="item">Installation &amp; Requisites</h3>
+<p>To install VM 5.0 locally, fill out the <a href="//v-machine.org/register.php">registration form on the VM website</a> to download the zip file that contains a directory that can be installed on any hard drive. Once downloaded, use an unzipping program like WinZip to extract <em>all</em> files in the archive. The contents should unzip into a folder entitled <em>v-machine</em>. To view a description of the product, documentation, and samples, open the file <code>v-machine/index.html</code> in a supported web browser.</p>
+
+<p>To uninstall the VM, simply remove the folder <em>v-machine</em> from your hard drive.</p>
+
+<p>The VM 5.0 XSLT stylesheet does support browser display. Although initial testing of the VM 5.0 showed that the XML files displayed correctly in Firefox and Chrome, you may want to transform the XML to HTML manually using an XSLT processor. You can perform this transformation in oXygen by applying the transformation scenario. Once the browser window opens with the HTML displayed in versions, save the file as a .html document.</p> 
+
+
+<h3 id="interface" class="item">The VM Interface</h3>
+<p>The interface for VM 5.0 is designed to be as intuitive as possible. However, there are a few new features that bear mentioning. Encoded textual notes (see <a href="#enc_notes1">Encoding Notes</a>) appear in-line by default, where they can be viewed by hovering the mouse pointer over the letters indicating the notes' locations. These in-line notes can be toggled off by opening the Notes Panel, which moves notes into a separate window and removes the links from within the witnesses. This can make for a cleaner viewing experience.</p>
+
+<p>New in version 5.0 is the ability to change the size and location of panels, allowing you to rearrange the workspace to your liking. The workspace is always at least as large as the browser window. However, as additional witnesses are opened, the size of the workspace dynamically increases to accommodate the possibility of displaying all witnesses side-by-side. The total horizontal scrollable space is therefore determined by the total number of witnesses that are opened. The total vertical scrollable space is determined by the length of the longest open witness.</p>
+
+<h3 id="basics" class="item">Encoding: The Basics</h3>
+<p>The following sections outline many of the fundamental elements of TEI encoding employed within the VM.</p>
+
+<h3 id="header1" class="item">Displaying Header Information</h3>
+<p>The VM supports the display of many TEI header tags. Header information is displayed in the <strong>Bibliographic Information</strong> pop-up window in the VM, with information from headers for individual files listed sequentially and separated by horizontal rules in the order encoded.</p>
+
+<p>From the <span class="code">&lt;fileDesc&gt;</span>, the following tags are supported in the display:</p>
+<ul>
+	<li>within <span class="code">&lt;titleStmt&gt;</span>
+<ul>
+	<li class="code">&lt;title&gt;</li>
+	<li class="code">&lt;author&gt;</li>
+	<li class="code">&lt;editor&gt;</li>
+	<li class="code">&lt;sponsor&gt;</li>
+	<li class="code">&lt;funder&gt;</li>
+	<li class="code">&lt;respStmt&gt;</li>
+</ul>
+</li>
+	<li>within <span class="code">&lt;publicationStmt&gt;</span>
+<ul>
+	<li class="code">&lt;publisher&gt;</li>
+	<li class="code">&lt;address&gt;</li>
+	<li class="code">&lt;date&gt;</li>
+	<li class="code">&lt;availability&gt;</li>
+</ul>
+</li>
+	<li class="code">&lt;notesStmt&gt;</li>
+	<li class="code">&lt;sourceDesc&gt;</li>
+</ul>
+From the <span class="code">&lt;encodingDesc&gt;</span>, the following are supported in the display:
+<ul>
+	<li class="code">&lt;projectDesc&gt;</li>
+	<li class="code">&lt;editorialDecl&gt;</li>
+</ul>
+<p>Note that since the VM will display all of the header information for every witness in the <strong>Bibliographic Information</strong> pop-up, you will want to customize information in the <span class="code">&lt;listWit&gt;</span> as much as possible so that users can distinguish between the various versions.</p>
+
+<p>For example, rather than titling the three versions of Emily Dickinson's poem "There Are Two Ripenings," we included within the <span class="code">&lt;listWit&gt;</span> information that pertains to each source in order to distinguish them. Thus, one version is entitled "A 456: A poem sent to unknown recipient," another is "A Tr60a: A poem sent by Mabel Loomis Todd to Kate Anthon," and still another "H 47: Fascicle 14." When the user scrolls through the information regarding each witness, it is clear which information pertains to each version.</p> 
+
+<div class="code">
+<div>&lt;listWit&gt;</div>
+<div class="indent">&lt;witness xml:id="A456"&gt;A 456, version sent to unknown recipient.&lt;/witness&gt;</div>
+<div class="indent">&lt;witness xml:id="ATr60a"&gt;A Tr60a, version transcribed by Todd and sent to Anthon&lt;/witness&gt;</div>
+<div class="indent">&lt;witness xml:id="H47"&gt;H 47, Fascicle 14&lt;/witness&gt;</div>
+<div>&lt;/listWit&gt;</div>
+</div>
+<h3 id="basic_enc" class="item">Encoding the Body</h3>
+<p>As mentioned previously, to use the VM one must use the Critical Apparatus tagset (Chapter 12), specifically the encoding method associated with Parallel Segmentation (section 12.2.3). For detailed instructions in the TEI Guidelines see <a href="//www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html#TCAPPS/">TEI P5 Guidelines</a> and <a href="//www.tei-c.org/Support/Learn/tutorials.xml">Index of Tutorials</a> for more information on basic and advanced TEI encoding.</p>
+<p>Included in the VM download is a set of documents for styling (vmachine.xsl, vmachine.js, vmachine.css). To edit these default styles, see the <a href="#customizing">CUSTOMIZING THE VM</a> section.</p>
+
+<h3 id="trans_tags1" class="item">Using Transcription Tags</h3>
+<p>Because VM 5.0 is designed to aid editors creating editions with multiple witnesses, the VM supports special styling of certain TEI core tags that are used frequently when dealing with manuscript and typescript drafts, <span class="code">&lt;add&gt;</span> and <span class="code">&lt;del&gt;</span>. Each <span class="code">&lt;add&gt;</span> will display in green, courier-font typeface; each <span class="code">&lt;del&gt;</span> will display in red typeface with a strikethrough.</p>
+
+<p>In addition, VM supports special styling on transcriptional choices represented by the <span class="code">&lt;choice&gt;</span> element. The intricacies of these elements are described in section <a href="//www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHCH">11.3.1</a> in the TEI Guidelines. In brief, these elements display in the VM by displaying the original word underlined with a dashed line. Mousing over this line shows users a second word that is available for this point in the text. The second word appears in a floating box.</p>
+
+<p>In the following example from "Xray" by Elsa von Freytag-Loringhoven, she incorrectly spells the word "People" as "Poeple." This misspelling is encoded in <span class="code">&lt;choice&gt;</span> to show the alternate spelling as follows.</p>
+<div class="code">
+<div class="indent">
+<div>&lt;choice&gt;</div>
+<div class="indent">&lt;sic&gt;Poeple&lt;/sic&gt;</div>
+<div class="indent">&lt;corr&gt;People&lt;/corr&gt;</div>
+</div>
+<div class="indent">&lt;/choice&gt;</div>
+</div>
+<p>The following is how the above encoding displays in the VM:</p>
+<table>
+<tbody>
+<tr>
+<td><img style="border: 1px solid black; display: block;" src="//v-machine.org/vm2015/wp-content/uploads/2015/08/sic.png" alt="sic" /></td>
+<td></td>
+<td><img style="border: 1px solid black; display: block;" src="//v-machine.org/vm2015/wp-content/uploads/2015/08/corr.png" alt="corr" /></td>
+</tr>
+</tbody>
+</table>
+There are three transcriptional "choices" that are available for display in the VM:
+<ul>
+	<li>"Alternate spelling" using <span class="code">&lt;sic&gt;</span> and <span class="code">&lt;corr&gt;</span></li>
+	<li>"Regularized form" using <span class="code">&lt;orig&gt;</span> and <span class="code">&lt;reg&gt;</span></li>
+	<li>"Expanded abbreviation" using <span class="code">&lt;abbr&gt;</span> and <span class="code">&lt;expan&gt;</span></li>
+</ul>
+<p>Additionally, the VM supports <span class="code">&lt;space/&gt;</span> (one of the elements of the TEI.transcr, the tagset for transcription of primary sources). By default only horizontal spacing is supported, and nonbreaking spaces will be added to the transcription. To use <span class="code">&lt;space/&gt;</span> set a the @unit attribute on the on the element to <span class="code">char</span>, and then a number in the @quantity attribute that represents the desired number of nonbreaking spaces.</p>
+<div class="code">
+<div class="indent">&lt;space unit="char" quantity="5"/&gt;</div>
+</div>
+<p>Another supported tag is <span class="code">&lt;unclear/&gt;</span>, an element used to express uncertainty about a word or section in the text due to illegibility of the source (see the <a href="//www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-unclear.html">TEI guidelines</a>). A text encoded with <span class="code">&lt;unclear/&gt;</span> will by default be displayed in grey.</p>
+
+<h3 id="enc_notes1" class="item">Encoding Notes</h3>
+<p>The VM displays information in <span class="code">&lt;note&gt;</span> in <strong>Bibliographic Information</strong> (if the tag occurs in the <span class="code">&lt;teiHeader&gt;</span>) or as user-manipulated pop-up notes, marked by icons within the text itself. The default display for the <span class="code">&lt;note&gt;</span> within the <span class="code">&lt;text&gt;</span> is a small superscript N; however, if you wish to customize the icon display, you may draw from a short list of VM note types. By using the <span class="code">&lt;note&gt;</span> attribute @type, you can alter the icon display to indicate what type of note is presented.</p>
+<ul>
+	<li><span class="noteicon">b</span>   A <span class="code">&lt;note type="biographical"&gt;</span> pertains to biographical information.</li>
+	<li><span class="noteicon">p</span>  A <span class="code">&lt;note type="physical"&gt;</span> pertains to notes regarding the physical object of the page itself.</li>
+	<li><span class="noteicon">g</span>  A <span class="code">&lt;note type="gloss"&gt;</span> pertains to a gloss or definition of a word or phrase.</li>
+	<li><span class="noteicon">c</span>  A <span class="code">&lt;note type="critical"&gt;</span> or <span class="code">&lt;note type="contextual"&gt;</span> pertains to references to critical, contextual, or secondary material information.</li>
+	<li><span class="noteicon">n</span>  All other notes, with or without a @type attribute.</li>
+</ul>
+<p>The same support of note typology is available to notes in the header. Notes from the header will display on the <strong>Bibliographic Information</strong> pop-up, preceded by the appropriate label (e.g., biographical, gloss, etc.).</p>
+
+<p>Please note the <span class="code">&lt;note type="image"&gt;</span> in your document is reserved for image data only and will not be displayed (see section on <a href="#enc_images1">Encoding Images</a>) and notes in <span class="code">&lt;note type="critIntro"&gt;</span> will display on the <strong>Critical Introduction</strong> pop-up. To create this pop-up, simply include a <span class="code">&lt;note type="critIntro"&gt;</span> inside <span class="code">&lt;notesStmt&gt;</span> within the <span class="code">&lt;fileDesc&gt;</span> element in the <span class="code">&lt;teiHeader&gt;</span>.</p>
+
+<p>If you would prefer that either the <strong>Bibliographic Information</strong> pop-up or the <strong>Critical Introduction</strong> pop-up windows do not appear when the browser first opens, you can change this setting in the vmachine.xsl file by changing the value on the following codes from "true" to "false":</p>
+
+<div class="code">
+<div class="indent">&lt;xsl:variable name="displayBibInfo"&gt;true&lt;/xsl:variable&gt;
+&lt;xsl:variable name="displayCritInfo"&gt;true&lt;/xsl:variable&gt;</div>
+</div>
+<h3 id="enc_images1" class="item">Encoding Images</h3>
+<p>The representation of images is optional. If you wish to display image facsimiles with your texts, however, the VM enables that functionality.</p>
+
+<p>The VM image viewer will support the following image types: jpeg, gif, and png. Images larger than 600 pixels high and 600 pixels wide will be scaled to that size for display purposes.</p> 
+
+<p>If you are using the vmachine.xsl styling, your images should be encoded within <span class="code">&lt;graphic&gt;</span>. The value of @url contains the path to the image while the @xml:id value is a unique id for the image. The <span class="code">&lt;graphic&gt;</span> element is placed within <span class="code">&lt;facsimile&gt;</span>, which is placed after the closing <span class="code">&lt;/teiHeader&gt;</span> element and before the opening <span class="code">&lt;text&gt;</span> element.</p>
+<div class="code">
+<div class="indent">
+<div>&lt;/teiHeader&gt;</div>
+<div class="indent">
+<div>&lt;facsimile&gt;</div>
+<div class="indent">&lt;graphic url="images/w15v.jpg" xml:id="w15v"/&gt;</div>
+<div class="indent">&lt;graphic url="images/b15v.jpg" xml:id="b15v"/&gt;</div>
+<div class="indent">&lt;graphic url="images/p10v.jpg" xml:id="p10"/&gt;</div>
+<div>&lt;/facsimile&gt;</div>
+</div>
+<div>&lt;text&gt;</div>
+</div>
+</div>
+<p>There is a second option available for encoding references to images to be used by the VM. References to images can be tagged within a <span class="code">&lt;note&gt;</span> with attribute @type with the value of <span class="code">image</span> (i.e., <span class="code">&lt;note type="image"&gt;</span>). The best place to encode this is in the header's <span class="code">&lt;notesStmt&gt;</span>; if you wish to encode this somewhere other than the <span class="code">&lt;notesStmt&gt;</span>, you will still need to follow the instructions below in regard to the contents of <span class="code">&lt;note type="image"&gt;</span>.</p>
+
+<p>If your document does not already contain a <span class="code">&lt;notesStmt&gt;</span>, you will need to enter one within your document's <span class="code">&lt;fileDesc&gt;</span> (typically, after the <span class="code">&lt;publicationStmt&gt;</span> and before the <span class="code">&lt;sourceDesc&gt;</span>) as below:</p> 
+
+<div class="code">
+<div class="indent">
+<div>&lt;notesStmt&gt;</div>
+<div class="indent">
+<div>&lt;note type="image"&gt;</div>
+<div class="indent">&lt;figure&gt;</div>
+<div class="indent">&lt;graphic url="images/autumn_a2.jpg"&gt;</div>
+<div class="indent">&lt;/figure&gt;</div>
+</div>
+<div class="indent">&lt;/note&gt;</div>
+</div>
+<div class="indent">&lt;/notesStmt&gt;</div>
+</div>
+<p>Within the @url attribute of <span class="code">&lt;graphic&gt;</span> add a path to the first image which will take the form of "images/NAME.jpg".The image path can also be changed using the XSLT variable in the settings.xsl file in the <em>src</em> folder, by setting the variable at <span class="code">&lt;xsl:variable name="facsImageFolder"&gt;&lt;/xsl:variable&gt;</span></p>
+<h3 id="enc_audio" class="item">Encoding Audio</h3>
+<p>
+A new feature of VM5 is the support of audio and text alignment. This new feature allows for sections of a transcription of an audio recording to be linked to the corresponding sections of the audio track. Like image encoding, audio encoding is optional and can be made available for one or several transcriptions.</p>
+<p>The VM audio player supports the .mp3 and .ogg format, and we suggest that files in both formats be available and encoded in order to ensure the best cross-browser support.</p>
+
+<p>The audio tracks need to be encoded within the TEI <span class="code">&lt;front&gt;</span> as a list of <span class="code">&lt;witDetail&gt;</span>. The <span class="code">&lt;witDetail&gt;</span> tag needs two attributes, @wit and @target. Both should contain a reference to a witness recorded in <span class="code">&lt;listWit&gt;</span> (as described in the section <a href="#witnesses">Recording a List of Witnesses</a>). Within the <span class="code">&lt;witDetail&gt;</span> element, references to the audio files are encoded using <span class="code">&lt;media&gt;</span>. On the <span class="code">&lt;media&gt;</span> tag, the @mimeType attribute must contain the information about the type and subtype of the encoded media, and must also match the available audio files (either "audio/mp3" or "audio/ogg"). Additionally, the attribute @url is required, and its value should be the file path of the relevant audio file(s). <!--The following examples are taken from the transcription of Spalding Gray's notebook (Note: the full xml document, "gray.xml", is available in the downloadable ZIP file):--></p>
+<div class="code">
+<div class="indent">
+
+<div>&lt;witDetail wit="#v1983" target="#v1983"&gt;</div>
+<div class="indent">&lt;media mimeType="audio/mp3" url="audio/SpaldingGray-NeakLuongsample-12-20-1983-HRC4751.mp3" /&gt;</div>
+<div class="indent">&lt;media mimeType="audio/ogg" url="audio/SpaldingGray-NeakLuongsample-12-20-1983-HRC4751.ogg" /&gt;</div>
+<div>&lt;/witDetail&gt;</div>
+</div>
+</div>
+<p>Individual sections of a transcription can be aligned with the audio recording using <span class="code">&lt;timeline&gt;</span>. As suggested by the TEI guidelines (<a href="//www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SASYMP">16.5.2 Placing Synchronous Events in Time</a>), the <span class="code">&lt;timeline&gt;</span> element is used to provide a temporal alignment of the audio and the text.</p>
+
+<p>The first <span class="code">&lt;timeline&gt;</span> element in the sequence must include an @xml:id attribute containing a unique identifier, an @origin attribute with a reference to the first <span class="code">&lt;when&gt;</span> child element, and a @unit attribute. The value of @unit should be the character 's', meaning 'seconds'. All following <span class="code">&lt;timeline&gt;</span> tags of the same sequence/audio track contain only a @unit attribute with the value 's' (see example below).</p>
+<p>The first <span class="code">&lt;timeline&gt;</span> element contains two <span class="code">&lt;when&gt;</span> element children. All following <span class="code">&lt;timeline&gt;</span> elements contain only one <span class="code">&lt;when&gt;</span> element each. The <span class="code">&lt;when&gt;</span> tag indicates points in time, and all <span class="code">&lt;when&gt;</span> elements need an @xml:id with a unique identifier, a @since attribute with a reference to a previous point in time (except for the first <span class="code">&lt;when&gt;</span> element), and an @interval attribute indicating the amount of time in seconds. A transcription of the section of the audio recording can than be encoded in the same <span class="code">&lt;app&gt;</span> element.</p>
+<p>This transcription should match the section of the audio as specified with the <span class="code">&lt;when&gt;</span> element and its @interval and @since attributes. <!--The example below is again taken from our Spalding Gray's notebook example:--></p>
+<div class="code">
+<div class="indent">
+<div>&lt;app loc="gulf_of_siam"&gt;</div>
+<div class="indent">
+<div>&lt;rdg wit="#v1983"&gt;</div>
+<div class="indent">
+<div>&lt;timeline xml:id="tl_1983" origin="#tl_1983_1" unit="s" &gt;</div>
+<div class="indent">&lt;when xml:id="tl_1983_1" /&gt;</div>
+<div class="indent">&lt;when since="#tl_1983_1" interval="16" xml:id="tl_1983_2" /&gt;</div>
+<div>&lt;/timeline&gt;</div>
+</div>
+<div class="indent">Our second big scene was to take place the day after my marijuana debauch. On the Gulf of ... Siam, in the town of Waheen, in what was supposed to be the Hotel Phnom Penh.</div>
+<div>&lt;/rdg&gt;</div>
+</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>&lt;app loc="leak_sam"&gt;</div>
+<div class="indent">
+<div>&lt;rdg wit="#v1983"&gt;</div>
+<div class="indent">
+<div>&lt;timeline unit="s" &gt;</div>
+<div class="indent">&lt;when since="#tl_1983_2" interval="7.75" xml:id="tl_1983_3a" /&gt;</div>
+<div>&lt;/timeline&gt;</div>
+</div>
+<div class="indent">Now my job was my I was supposed to be a character who got a little drunk and was leaking information to Sidney Schanberg, played by Sam Waterston.</div>
+<div>&lt;/rdg&gt;</div>
+</div>
+<div>&lt;/app&gt;</div>
+</div>
+</div>
+<h3 id="method2" class="item">Encoding: Using Critical Apparatus</h3>
+<p>The Text Encoding Initiative (TEI) makes available a set of tags referred to as the "critical apparatus tagset" (TEI.textcrit) designed to provide editors with a structured method of recording differences or variations between multiple witnesses of the same text. Using this tagset allows an editor to encode multiple versions of a text in a single document. VM 5.0 is able to reconstruct multiple witnesses from the single XML-encoded document and display them, side-by-side, as individual documents. The critical apparatus tagset supports three different types of encoding variation: location-referenced, double-end-point, and parallel-segmentation; however, only parallel-segmentation and internal location-referenced encoding are supported in VM 5.0.</p>
+
+<p>The advantages of using these encoding methodologies are twofold. First, it eliminates time-consuming repetition in data entry; and second, it allows for support of all of the VM's features. The disadvantage of using these methods is the difficulty of the powerful, but rather unwieldy, critical apparatus tagging. Because of the complex nature of this type of tagging, step-by-step basic instructions on its use are provided here to supplement the <a href="//www.tei-c.org/Guidelines/P5/">TEI's documentation</a>.</p>
+
+<p>If you are already familiar with using parallel segmentation and location-referenced encoding, you may not need to read all of this section, but skimming it may be helpful as it contains important information about how the VM interacts with certain strategies of tagging. Note also sections on <a href="#enc_meth">Recording Variant Encoding Methodology</a> (<span class="code">&lt;variantEncoding/&gt;</span>) and <a href="#witnesses">Recording a List of Witnesses</a> (<span class="code">&lt;witList&gt;</span>), as these two tags are required by the VM. Read also the section on <a href="#enc_images1">Encoding Images</a> if you wish to utilize the VM's image functionality, and the section on <a href="#enc_audio">Encoding Audio</a> for audio functionality.</p>
+<h3 id="enc_meth" class="item">Recording Variant Encoding Methodology</h3>
+<p>The VM requires that the choice to encode by parallel segmentation or location-referenced encoding be recorded in the document header (<span class="code">&lt;teiHeader&gt;</span>). Within the header's <span class="code">&lt;encodingDesc&gt;</span>, enter the <span class="code">&lt;variantEncoding/&gt;</span> tag. It is an empty tag and thus does not wrap around any textual content (or PCDATA); instead, information pertaining to methodology is entered into attributes. The tag possesses two required attributes, @method and @location, and each is restricted to certain prescribed values. Choose <span class="code">parallel-segmentation</span> or <span class="code">location-referenced</span> for @method, and <span class="code">internal</span> for @location. Your statement of variant encoding methodology should look like one of the following:</p>
+<div class="code">
+<div class="indent">&lt;variantEncoding
+method="parallel-segmentation" location="internal"/&gt;</div>
+</div>
+<div class="code">
+<div class="indent">&lt;variantEncoding
+method="location-referenced" location="internal"/&gt;</div>
+</div>
+<h3 id="witnesses" class="item">Recording a List of Witnesses</h3>
+<p>The VM utilizes <span class="code">&lt;witList&gt;</span> tagging to produce multiple versions, so your document must contain a <span class="code">&lt;witList&gt;</span>; TEI recommends that this be added to the front matter. If you do not already have front matter in your document, enter a <span class="code">&lt;front&gt;</span> within <span class="code">&lt;text&gt;</span> and before <span class="code">&lt;body&gt;</span>. Within <span class="code">&lt;front&gt;</span>, enter a <span class="code">&lt;witList&gt;</span>. This is where you will record bibliographic or descriptive information pertaining to each witness and assign each witness a unique identifier. VM uses this information to reconstruct the multiple versions, and it will display the descriptions on the <strong>Bibliographic Info</strong> page so that users will be able to identify individual witnesses.</p>
+
+<p>The <span class="code">&lt;witList&gt;</span> holds this information within
+individual <span class="code">&lt;witness&gt;</span>es. The @xml:id attribute contains the unique identifier assigned to each version. For instance, to encode four different versions of the Thomas MacGreevy poem "Nocturne," one might construct the <span class="code">&lt;witList&gt;</span> as follows:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;front&gt;</div>
+<div class="indent">
+<div>&lt;div&gt;</div>
+<div class="indent">
+<div>&lt;witList&gt;</div>
+<div class="indent">&lt;witness xml:id="t7989-1-2"&gt;'Nocturne, Saint Eloi, 1918' (TCD 878/1/2)&lt;/witness&gt;</div>
+<div class="indent">&lt;witness xml:id="t7989-1-3"&gt;'Nocturne of St. Eloi, 1918' (TCD MS 7989/1/3)&lt;/witness&gt;</div>
+<div class="indent">&lt;witness xml:id="t7989-1-1"&gt;'Nocturne, Saint Eloi' (TCD MS 79891/1/1)&lt;/witness&gt;</div>
+<div class="indent">&lt;witness xml:id="nocturne_poems"&gt;This poem was published in &lt;title&gt;Poems&lt;/title&gt; as 'Nocturne'&lt;/witness&gt;</div>
+</div>
+<div class="indent">&lt;/witList&gt;</div>
+</div>
+<div class="indent">&lt;/div&gt;</div>
+</div>
+<div class="indent">&lt;/front&gt;</div>
+</div>
+<p>The @xml:id attribute on each <span class="code">&lt;witness&gt;</span> assigns an abbreviation unique to that witness. You may devise your own system of naming witnesses (as is the case in the example above), or you may wish to borrow from some recognized catalogue or authority if one exists. When recording variations within the text, the value entered in the @xml:id attribute will identify the text from which each variation derives; this value will appear at the top of the panel in which that version is displayed.</p>
+
+<p><img style="border: 1px solid black; width: 468px; display: block;" src="//v-machine.org/vm2015/wp-content/uploads/2015/08/doc_xmlid.png" alt="ss01" /></p>
+
+<p>Between each set of <span class="code">&lt;witness&gt;</span> tags, a prose statement
+identifies the version by whatever bibliographic or descriptive data is appropriate; this prose statement will display in the <strong>Bibliographic Info</strong> window alongside its unique identifier so that users can ascertain the identity of each version, as illustrated below.</p>
+
+<p><img style="border: 1px solid black; width: 468px; display: block;" src="//v-machine.org/vm2015/wp-content/uploads/2015/08/doc_ident.png" alt="ss02" /></p>
+
+<p>The @xml:id value may contain any alphanumeric string. The prose description for each <span class="code">&lt;witness&gt;</span> may be as long or as short as you like.</p>
+
+<p>The ordering of the individual <span class="code">&lt;witness&gt;</span>es within the <span class="code">&lt;witList&gt;</span> corresponds to the ordering of versions in the VM display.</p>
+<h3 id="par_seg" class="item">Using Parallel-Segmentation</h3>
+<p>Parallel-segmentation embeds variants inline and does not privilege one witness over another structurally; the other two methods require a base text with variants from other versions attached via various linking mechanisms. A basic introduction to encoding with TEI's parallel segmentation for use in the VM follows; users are advised to consult <a href="//www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html">Chapter 12: Critical Apparatus</a> of the TEI guidelines for more information about critical apparatus tagging.</p>
+<h3 id="fundementals" class="ital">The Fundamentals of Parallel Segmentation</h3>
+<blockquote>(Note: The instructions below are drawn from samples available on the VM site and in the downloadable ZIP file.)</blockquote>
+<p>The TEI critical apparatus tagging utilizes the apparatus tag (<span class="code">&lt;app&gt;</span>), within which multiple readings (<span class="code">&lt;rdg&gt;</span>) can be encoded. Entering an <span class="code">&lt;app&gt;</span> into the text signifies that multiple variations are present and will be encoded at that point; each individual variant constitutes a unique <span class="code">&lt;rdg&gt;</span>.</p>
+<p>
+In parallel segmentation, variants are recorded inline. The VM supports two different methods of encoding: a "scalar" model of repetition or a procedure that embeds the variant at the exact point of variation. If, for instance, a line in one version of a poem (let's call it witness "A") reads "I saw a dog today" and in another version (witness "B") reads "I saw a rhinoceros today", you may encode it either of these two ways:</p>
+<div class="code">
+<div class="indent">
+<div><span class="label">method 1:</span></div>
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#A"&gt;I saw a dog today&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#B"&gt;I saw a rhinoceros today&lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div>&lt;/l&gt;</div>
+</div>
+</div>
+<div class="indent">
+<div><span class="label">method 2:</span></div>
+<div class="indent">
+<div>&lt;l alt="B"&gt; I saw a</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#A"&gt;dog&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#B"&gt;rhinoceros&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+<div class="indent">today</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+</div>
+<p>Both methods clearly show which variant belongs to which witness. In the first method, the line is repeated intact for each version. In the second method, the line tag (<span class="code">&lt;l&gt;</span>) directly holds only those parts of the line that are common to both variants; the critical apparatus tagging is inserted only where the actual variation occurs. The VM is able to reconstruct versions from either method. The latter method, however, is recommended, particularly in prose, for two reasons: first, it avoids needless repetition; and second, it tags the exact point of variation, so readers do not have to locate for themselves the variant part of the line. That said, if the encoding is particularly complicated, you may wish to use the first method.</p>
+
+<p>Note, however, that text can be highlighted by direct clicking only if it is enclosed in an &lt;app&gt; tag. Textual lines can always be highlighted by clicking on the line numbers, but sections of text cannot be clicked on without &lt;app&amp;rt; tags in place.</p>
+
+<p>If, instead, you would like the user to be able to highlight each individual segment of text, you would encode the text as follows:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#A #B"&gt;I saw a &lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#A"&gt;dog&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#B"&gt;rhinoceros&lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#A #B"&gt; today&lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div>&lt;/l&gt;</div>
+</div>
+</div>
+<p>Let's look at an example from a sample poem. In this Thomas MacGreevy poem, "Nocturne," the third line varies in two versions by one word. Here is line 3 from versions t7989-1-7 and the published version ("pub"):</p>
+<p>
+<img style="border: 1px solid black; display: block;" src="//v-machine.org/images/documentation/ss03.gif" alt="ss03" /></p>
+
+<p>The two versions differ in that version a3 begins "Far above," while the version pub begins "Far away."</p>
+
+<p>To encode this variation using parallel segmentation, the <span class="code">&lt;app&gt;</span> is inserted after the space following the word "Far."  Two <span class="code">&lt;rdg&gt;</span>s are enclosed within the <span class="code">&lt;app&gt;</span>, one for each version: one <span class="code">&lt;rdg&gt;</span> will contain the word "above" and the other the word "away."  Immediately after the second <span class="code">&lt;/rdg&gt;</span>, close the apparatus tag (i.e., <span class="code">&lt;/app&gt;</span>). In order to denote which witness contains which variant, you will need to use the attribute @wit on <span class="code">&lt;rdg&gt;</span>. The @wit value of each <span class="code">&lt;rdg&gt;</span> will correspond to its @xml:id value entered into the <span class="code">&lt;witList&gt;</span>'s <span class="code">&lt;witness&gt;</span> with the hashtag (#) preceding it. For instance, the <span class="code">&lt;rdg&gt;</span> containing the word "above" has an attribute @wit value of <span class="code">#a3</span>, and the <span class="code">&lt;rdg&gt;</span> containing the word "away" has an attribute @wit value of <span class="code">#pub</span>. The result will look like this:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l n="3"&gt;Far</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1"&gt;above&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#nocturne_poems"&gt;away&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">, stars wheeling in space,&lt;/l&gt;</div>
+</div>
+<p>Note that the @wit attribute is required by the VM, which will not display a reading that does not have a @wit value.</p>
+
+<p>You may encode several variants within a line, and you may group together within the @wit attribute versions that agree. For instance, the same line in another manuscript version of the poem (version "a1") looks like this:</p>
+
+<p><img style="border: 1px solid black; display: block;" src="//v-machine.org/images/documentation/ss04.gif" alt="ss04" /></p>
+
+<p>While this line agrees with the published version in the choice of the word "away," it departs from both versions in two places: (1) its use of the phrase "on through" for "in"; and (2) its end punctuation. Taking into account this version, our variant encoding now looks like this:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l n="3"&gt;Far</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1"&gt;above&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-2 #nocturne_poems"&gt;away&lt;/rdg&gt;</div>
+</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+<div class="indent">
+<div>, stars wheeling</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1"&gt;on through&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-2 #nocturne_poems"&gt;in&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>space</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-2"&gt;.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1 #nocturne_poems"&gt;,&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>Just as in the previous example, variants are tagged with <span class="code">&lt;app&gt;</span> and <span class="code">&lt;rdg&gt;</span> at the point of variation and identified through the <span class="code">&lt;rdg&gt;</span> @wit attribute. However, when considering three witnesses, two witnesses may agree but diverge from the third. While it is valid to enter three <span class="code">&lt;rdg&gt;</span>s for each <span class="code">&lt;app&gt;</span>, it is not necessary. To avoid repetition of the same information, you may enter two values within the @wit attribute to denote that those two witnesses agree.</p>
+
+<p>The <span class="code">&lt;app&gt;</span> tags may nest hierarchically, with a <span class="code">&lt;rdg&gt;</span> containing an <span class="code">&lt;app&gt;</span>, which in turn contains more <span class="code">&lt;rdg&gt;</span>s. As this nesting can get quite complicated in practice, let's look at a simple example first, before turning back to the MacGreevy poem. Let's imagine that we are looking at a line from three different versions: witness A reads "I saw a dog today," witness B reads "I saw a rhinoceros today," and witness C reads "I heard birds singing."  We can encode this with nested apparatus like so:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt; I</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#C"&gt; heard birds singing &lt;/rdg&gt;</div>
+<div class="indent">
+<div>&lt;rdg wit="#A #B"&gt; saw a</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#A"&gt; dog &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#B"&gt; rhinoceros &lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">today
+&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>Except for the initial word of the line, witnesses A and B disagree with witness C entirely. So following "I," which they all share in common, an apparatus is inserted to distinguish witnesses A and B from witness C. Witnesses A and B, however, contain one variant word ("dog" or "rhinoceros"); thus, within the first level of apparatus, there is a second level inserted (after "saw a," which they have in common, and before "today," which they share) to encode this variant.</p>
+
+<p>Back to MacGreevy. In line 3 of yet another manuscript version of the MacGreevy poem, there is more variation still:</p>
+
+<p><img style="border: 1px solid black; display: block;" src="//v-machine.org/images/documentation/ss05.gif" alt="ss05" /></p>
+
+<p>Tagging it would render the following:</p>
+<div class="code">
+<div class="indent">&lt;l n="3"&gt;&lt;del&gt;Above me&lt;/del&gt;, &lt;add&gt;Far away&lt;/add&gt; stars wheeling in space,&lt;/l&gt;</div>
+</div>
+<p>If we incorporate this fourth version into our variant encoding, we will have to embed one apparatus within another. Since only this version contains the <span class="code">&lt;del&gt;</span> and <span class="code">&lt;add&gt;</span> tags, it must be separated from the other three versions. In the highest level of apparatus, the first <span class="code">&lt;rdg&gt;</span> contains version "t7989-1-2," and the second contains the other three; within the second <span class="code">&lt;rdg&gt;</span>, however, there is further variation in the word following "Far," and another <span class="code">&lt;app&gt;</span> entry is required. It might look something like this:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l n="3"&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-3"&gt;&lt;del&gt;Above me&lt;/del&gt;, &lt;add&gt;Far away&lt;/add&gt;&lt;/rdg&gt;</div>
+<div class="indent">
+<div>&lt;rdg wit="#t7989-1-1 #t7989-1-2 #nocturne_poems"&gt;Far</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1"&gt;above&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-2 #nocturne_poems"&gt;away&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+<div class="indent">stars wheeling</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-2"&gt;on through&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-3 #t7989-1-1 #nocturne_poems"&gt;in&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+<div class="indent">space</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-2"&gt;.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-3 #t7989-1-1 #nocturne_poems"&gt;,&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>As you can see, the tagging can get quite complex. But because the <span class="code">&lt;add&gt;</span> and <span class="code">&lt;del&gt;</span> tags are present in just one witness, we need to separate this witness from the rest; by doing so, we can take advantage of VM's rendering of the <span class="code">&lt;add&gt;</span> and <span class="code">&lt;del&gt;</span> tags.</p>
+
+<p>Let's consider another Macgreevy poem, "Autumn, 1922." There are four drafts and a published version, most of which have different titles. The title of version t7989-1-10 is "A Short History of Our Own Times"; the second (t7989-1-8) has the title "CIVIL WAR" crossed out with "Ireland, Autumn 1922" written in to take its place; the third (t-7979-1-7) and fourth (t7989-1-9) bear the title "IRELAND, AUTUMN, 1922"; and the published version (pub) is entitled "AUTUMN, 1922" but the word "IRELAND" is written in before it.</p>
+
+<p>The encoding of the title might look something like this:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;title&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10"&gt;A Short History of Our Own Times.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-8"&gt;&lt;del&gt;CIVIL WAR&lt;/del&gt; &lt;add&gt;Ireland, Autumn 1922&lt;/add&gt;&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7 #t7989-1-7"&gt;IRELAND, AUTUMN, 1922&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#pub"&gt;&lt;add&gt;IRELAND&lt;/add&gt; AUTUMN, 1922&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/title&gt;</div>
+</div>
+<p>This is simple enough, as it uses principles explored in the previous poem as well. However, "Autumn, 1922" presents at least three challenges not present in our earlier example: (1) one witness contains a third line that is omitted in the other witnesses; (2) one witness comprises one stanza, while the others comprise two; and (3) one witness splits into two lines what appears as one line in the other witnesses.</p>
+
+<p>To address the first two items, let's first compare versions t7989-1-10 and t7989-1-8:</p>
+<div>Version t7989-1-8</div>
+<img style="border: 1px solid black; display: block;" src="//v-machine.org/images/documentation/ss06ab.gif" alt="ss06ab" />
+<div>Version t7989-1-10</div>
+<img style="border: 1px solid black; display: block;" src="//v-machine.org/images/documentation/ss06b.gif" alt="ss06b" />
+
+<p>Line three of version t7989-1-10 is missing in version t7989-1-8. The VM will support two different ways of encoding this missing line. The first inserts a line with an apparatus with only one reading:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="# t7989-1-10"&gt;Poets sing no more,&lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div>&lt;/l&gt;</div>
+</div>
+</div>
+The second method inserts two readings, one that has no content:
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10"&gt;Poets sing no more,&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg
+wit="#t7989-1-8"&gt;&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>There is a further complication here, however; two stanzas make up version t7989-1-8, while version t7989-1-10 contains only one. TEI's critical apparatus tagging has well-known difficulties in dealing with encoding variants at a larger scale than the unit of the line; to get around this challenge in the case of a stanza break, the VM has built in the ability to read the <span class="code">&lt;milestone/&gt;</span> tag with its @unit attribute value equal to stanza. We insert the <span class="code">&lt;milestone/&gt;</span> tag at the point of the stanza break in version t7989-1-8 like so:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10"&gt;The world withers,&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-8"&gt;The world withers&lt;milestone unit="stanza"/&gt;&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>The third challenge concerns version t7989-1-7, which contains a line broken into two that other versions represent as a single line:</p>
+<div>Version t7989-1-7</div>
+<p><img style="border: 1px solid black; display: block;" src="//v-machine.org/images/documentation/ss07b.gif" alt="ss07b" /></p>
+
+<p>The VM can handle this variation in one of three ways. First, we might utilize a strategy similar to the <span class="code">&lt;milestone/&gt;</span> method above by inserting a line break (<span class="code">&lt;lb/&gt;</span>) at the appropriate point in version t7989-1-7:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10 #t7989-1-8"&gt;And time grows afraid of the triumph of time.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7"&gt;And time grows afraid &lt;lb /&gt;Of the triumph of time.&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>The second method is to tag version t7989-1-7's "Of the triumph of time" as a line which has no corresponding lines in the other two versions:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10 #t7989-1-8"&gt;And time grows afraid of the triumph of time.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7"&gt;And time grows afraid&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10 #t7989-1-8"&gt;&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7"&gt;Of the triumph of time.&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<p>The third method is described below in <a href="#loc-ref">"Using Location-Referenced Encoding"</a>.</p>
+<h3 id="base_text" class="ital">The Notion of a Base Text</h3>
+<p>Parallel segmentation does not <em>require</em> a base text, and structurally it does not privilege one witness over another; it does, however, <em>allow for</em> a base text. Should you wish to denote that one text be considered the base text from which other versions vary, you would encode those variations contained in the base text as the lemma (<span class="code">&lt;lem&gt;</span>) instead of as a reading <span class="code">&lt;rdg&gt;</span>. Moreover, you might use the <span class="code">&lt;lem&gt;</span> to single out one version from the rest, whether or not it should be considered a base text. Note, however, that VM 5.0 will not display the <span class="code">&lt;lem&gt;</span> any differently from the <span class="code">&lt;rdg&gt;</span> without modifying the XSLT.</p>
+
+<p>If, for instance, in the MacGreevy example above, you wanted version "t7989-1-3" to be considered the base text, you would encode it as follows:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l n="3"&gt;Far</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1"&gt;above&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg
+wit="#nocturne_poems"&gt;away&lt;/rdg&gt;</div>
+<div class="indent">&lt;lem wit="#t7989-1-2"&gt;away&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>, stars wheeling</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;lem wit="#t7989-1-2"&gt;on through&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1 #nocturne_poems"&gt;in&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>space</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;lem wit="#t7989-1-2"&gt;.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-1 #nocturne_poems"&gt;,&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<h3 id="loc-ref" class="item">Using Location-Referenced Encoding</h3>
+<p>Location-referenced encoding is primarily useful when witnesses change across different lines in the text. If, for example, in version #t7989-1-10, the first line reads "I saw a dog", and this line appears in version three in the tenth line, location-referenced encoding allows you to note the similarity between these two blocks of text, and the VM will display this relationship. Using location-referenced encoding is a matter of using the same value for the @loc attribute within each <span class="code">&lt;app&gt;</span> that contains corresponding text. In the following example, from "Xray" by Freytag-Loringhoven, text within the different <span class="code">&lt;app loc="a7a"&gt;</span> blocks and text within <span class="code">&lt;app loc="a9b"&gt;</span> will display as parallel text in the VM even though they do not appear in the same line.</p>
+<div class="code">
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app loc="a7a"&gt;</div>
+<div class="indent">&lt;rdg wit="#va1 #va2 #va3"&gt; POEPLE &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#va4"&gt; PEOPLE POLISH&lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>&lt;app loc="a7a"&gt;</div>
+<div class="indent">&lt;rdg wit="#va1 #va2 #va3 #va4 #va5 #va7 #va8 #va9"&gt;POLISH &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#va2 #va3"&gt; - &lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div class="indent">
+<div>&lt;app loc="a9b"&gt;</div>
+<div class="indent">&lt;rdg wit="#va5 #va8 #va9 #va6"&gt;COSMIC HANDS &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#va9"&gt; &lt;del&gt;CROWDED &lt;/del&gt; &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#va8 #va9 #va6"&gt;DYNAMIC &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#va8"&gt;GANG &lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div>&lt;/l&gt;</div>
+</div>
+<div class="indent">
+<div>&lt;l&gt;</div>
+<div class="indent">
+<div>&lt;app loc="a7a"&gt;</div>
+<div class="indent">&lt;rdg wit="#va5 #va7 #va8 #va6"&gt;POLISH&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#va7 #va8"&gt; - &lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#pub1927"&gt;Polish - &lt;/rdg&gt;</div>
+<div>&lt;/app&gt;</div>
+</div>
+<div>&lt;/l&gt;</div>
+</div>
+</div>
+<div>The result is a comparison across different blocks of text:</div>
+<p><img style="border: 1px solid black; display: block;" src="//v-machine.org/vm2015/wp-content/uploads/2015/08/loc-ref.png" alt="loc-ref" /></p>
+<h3 id="line_numbers" class="item">Line Numbering</h3>
+<p>The VM has the ability to display line numbers encoded into the TEI document. When available, they are activated by default. They can be toggled on and off by clicking on the "Line Numbers" button in the VM interface.</p>
+
+<p>To make use of the line numbering feature, you would encode the text as in the following example:</p>
+<div class="code">
+<div class="indent">
+<div>&lt;lg n="1"&gt;</div>
+<div class="indent">
+<div>&lt;l <strong>n="1"</strong>&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10 #t7989-1-8 #t7989-1-7 #t7989-1-9 #pub"&gt;The sun burns out,&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+<div class="indent">
+<div>&lt;l <strong>n="2"</strong>&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10"&gt;The world withers,&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7 #t7989-1-9"&gt;The world
+withers,&lt;milestone unit="stanza"/&gt;&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-8 #pub"&gt;The world withers&lt;milestone unit="stanza"/&gt;&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+<div class="indent">
+<div>&lt;l <strong>n="3"</strong>&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10"&gt;Poets sing no more,&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+<div class="indent">
+<div>&lt;l <strong>n="4"</strong>&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-10 #t7989-1-8 #t7989-1-9 #pub"&gt;And time grows afraid of the triumph of time.&lt;/rdg&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7"&gt;And time grows afraid&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+<div class="indent">
+<div>&lt;l <strong>n="5"</strong>&gt;</div>
+<div class="indent">
+<div>&lt;app&gt;</div>
+<div class="indent">&lt;rdg wit="#t7989-1-7"&gt;Of the triumph of time.&lt;/rdg&gt;</div>
+</div>
+<div class="indent">&lt;/app&gt;</div>
+</div>
+<div class="indent">&lt;/l&gt;</div>
+</div>
+<div class="indent">&lt;/lg&gt;</div>
+</div>
+<h3 id="witness_detail" class="ital">Witness Detail</h3>
+<p>The <span class="code">&lt;witDetail&gt;</span> records notes pertaining only to a specific witness (or witnesses); it contains the functionality of the <span class="code">&lt;note&gt;</span> but is customized to treat witnesses. Like a <span class="code">&lt;note&gt;</span>, a <span class="code">&lt;witDetail&gt;</span> can occur almost anywhere within the document header or text. Because <span class="code">&lt;witDetail&gt;</span> requires a @target attribute for linking, it is typically used to refer to one particular <span class="code">&lt;rdg&gt;</span> and is preceded by a hashtag (#).</p>
+
+<p>The <span class="code">&lt;witDetail&gt;</span> contains two required attributes, @wit and @target. just as in the text encoding examples above, the @wit attribute records the @xml:id value (or values) corresponding to the appropriate witness (or witnesses). Thus, to return to our MacGreevy example, a <span class="code">&lt;witDetail&gt;</span> with a @wit value of "#pub" would contain information pertaining only to the published version of the poem, but not to the manuscript versions. Likewise, a <span class="code">&lt;witDetail&gt;</span> with a @wit value of "#t7989-1-10 #pub" would contain information pertaining to one of the manuscripts and the published version, but not to the other two manuscripts.</p>
+
+<!--The @target attribute is a linking mechanism, used in much the same as TEI's other linking mechanisms: by linking two parts of the document through a matching of the @xml:id attribute on one with the @target attribute on the other. So, for instance, if you wanted to annotate a particular variant, you would first assign a unique identifier to the <span class="code">&lt;rdg&gt;</span> by entering an alphanumeric string in its @xml:id attribute. (Note that TEI mandates that all @xml:id attribute values begin with a letter; however, any combination of letters and numbers may follow.) Then, in the corresponding <span class="code">&lt;witDetail&gt;</span> @target attribute, enter this same value preceded by a pound (#) sign. The information to which the note is attached might look something like this:
+
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span class="code">&lt;l&gt;</span>I saw a
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span class="code">&lt;app&gt;</span>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<span class="code">&lt;rdg wit="#A"&gt;</span>dog<span class="code">&lt;/rdg&gt;</span>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<span class="code">&lt;rdg wit="#B" xml:id="n1"&gt;</span>rhinoceros<span class="code">&lt;/rdg&gt;</span>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span class="code">&lt;/app&gt;</span>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;today
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span class="code">&lt;/l&gt;</span>
+
+<p>Elsewhere in the document, then, your corresponding <span class="code">&lt;witDetail&gt;</span> might look like this:</p>
+
+<p><span class="code">&lt;witDetail wit="#B"
+target="#n1"&gt;</span>The author had lost his glasses that day
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;and mistakenly imagined the very large dog to be a rhinoceros.
+&nbsp;&nbsp; &nbsp;<span class="code">&lt;/witDetail&gt;</span></p>
+
+-->
+<h3 id="transformation" class="item">VIEWING WITH MANUAL FILE TRANSFORMATIONS</h3>
+<p>Because native browser XSLT support is so rare in modern browsers, you should manually transform your XML files to HTML. We recommend using the "Apply Transformation Scenario" option in oXygen for the easiest results. In oXygen,
+<ol>
+	<li>Open your XML file in the editing window.</li>
+	<li>From the menu bar, select <strong>Document&gt;Transformation&gt;Apply Transformation Scenario</strong>.</li>
+	<li>Your HTML document will open in your browser window. Save this document as a Web Archive in the folder entitled <em>samples</em>.</li>
+	<li>Open the HTML file in your browser.</li>
+</ol></p>
+<h3 id="tech" class="item">TECHNICAL INFORMATION</h3>
+<h3 id="dir_structure" class="item">Files and Directory Structure</h3>
+<p>VM 5.0 resides in a folder entitled <em>v-machine</em>. The root directory of the folder contains several HTML files: index.html, a brief introduction to the Versioning Machine; terms.html, containing the GNU General Public Licensed under which the VM is made available; documentation.html, containing the documentation for the VM (which you are currently reading); and samples.html, a table of contents listing the sample files provided with the VM. In addition, the root directory also houses these five folders:
+<ol>
+	<li>The <em>src</em> folder contains the following:
+<ul>
+	<li>The javascript and xslt files that run the product (vmachine.js, vmachine.xsl, and vmachine.css). The vmachine.xsl file drives the VM for parallel segmentation and discrete witness files, respectively, by transforming the XML and calling the requisite JavaScript contained in vmachine.js.</li>
+	<li>vmachine.css, the cascading stylesheet file that defines features of display.</li>
+	<li>settings.xsl, which has been included to facilitate customisation of the Versioning Machine. This is explained in more detail below.</li>
+</ul>
+</li>
+	<li>The <em>schema</em> folder contains both an ODD file and an RELAX-NG schema file.</li>
+	<li>The <em>vm-images</em> folder contains images associated with the VM's user interface display.</li>
+	<li>The <em>images</em> folder contains images associated with the site surrounding the VM. Please note that most image files are not included in the VM5.0 download package for intellectual property reasons.</li>
+	<li>The <em>includes</em> folder contains the cascading stylesheet for the site surrounding the VM.</li>
+	<li>The <em>samples</em> folder contains sample encoded files that are included for demonstration purposes. The <em>samples</em> folder also contains an <em>images</em> subdirectory that holds JPEGs of some of the sample encoded files.</li>
+</ol></p>
+<h3 id="customizing" class="item">Customising the VM</h3>
+<p>High-level customisation of the VM can now be accomplished through editing of the settings.xsl file in the <em>src</em> folder. This file is intended to allow users to change elements such as the .css file being used by the VM and the logos and icons displayed. This is useful if for branding a particular instance of the VM with your own logo. Editing this file also allows you to change the appearance of the VM when it opens, such as which panels are initially displayed. Finally, the settings.xsl file can be used to point the VM to customized .css or .js files. Detailed information about the settings.xsl file is included in the internal comments in the file itself.</p>
+
+<p>Colours of the main or pop-up note backgrounds, text, or links, as well as the styling of &lt;add&gt;, &lt;del&gt;, and other elements used for transcription of primary sources, are handled with a cascading stylesheet located within the src directory: vmachine.css. You may edit it if you wish to alter any of the default choices or add special rendering to particular tags. Elements used in transcription are tagged post-transformation with a font tag that assigns an appropriate class attribute (e.g., <span class="code">&lt;span class="sic"&gt;</span>); you may alter the stylesheet to specify special rendering of the various classes.</p>
+
+<p>If you want to use your own schema, you should place it in the <em>src</em> folder. While the VM does not require that do not specify a unique schema, it will not work unless your documents are (1) well-formed and (2) conform to TEI's parallel segmentation tagging as laid out above. Since the XSL file is based in the tags and hierarchies of a TEI-conformant schema with critical apparatus tagset, the VM will not work with other kinds of schemas. Thus, if you wish to use your own schema, we strongly recommend that it be a TEI-conformant schema that incorporates the critical apparatus tagset.</p>
+
+<p>You may wish to preserve the look of the VM, or create your own design. If you wish to create your own, simply revise the index.html file within the <em>samples</em> folder to your liking. If you wish to preserve the look of the VM, however, simply replace the links to our sample files in the samples.html file with links to your own files, which should be placed within the <em>samples</em> folder; in this case, you may wish to also remove the link to the "Documentation" icon. To do this, simply erase this link from the index.html page: <span class="code">&lt;span&gt;&lt;a
+href="../documentation.html"&gt;Documentation&lt;/a&gt;&lt;/span&gt;. </span></p>
+
+  		<div id="footer">
+  			
+  			<div class="attribution">
+  				&copy; Susan Schreibman, 2002, 2010, 2015
+  			</div>
+
+  			
+  		</div>
+        <br class="clear">
+  	</div>
+	</body>
+</html>

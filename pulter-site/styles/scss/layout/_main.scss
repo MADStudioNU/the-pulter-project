@@ -1,0 +1,52 @@
+@import "../vendor/reset";
+
+// Typography settings
+@import "../../../../node_modules/modularscale-sass/stylesheets/modularscale";
+
+$modularscale: (
+    base: 1.5em 1.25em,
+    ratio: 1.618
+);
+
+html {background: #000;}
+
+body {
+    line-height: 1.5;
+    //-webkit-touch-callout: none !important;
+    //-webkit-user-select: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: #2C83E9;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+a:active { outline: none; }
+
+section {
+  &:focus { outline: none; }
+}
+
+ul {list-style: none;}
+
+::selection {
+  background: rgba($pp_shinyGold, .9);
+  text-shadow: none;
+  color: #181818;
+}
+
+::-moz-selection {
+  background: rgba($pp_shinyGold, .9);
+  text-shadow: none;
+  color: #181818;
+}
+
+.print-only {
+  display: none;
+}

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.114">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Russian Rustic (Emblem 49)</title>
+                <title type="sub">Poem #114</title>                
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>confinement</term>
+                    <term>enemies</term>
+                    <term>encouragement</term>
+                    <term>prayer</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_069.jpg" xml:id="f7610_069"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>June 7, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_253" n="33r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_253"/></rdg>
+                <!--<rdg wit="#ae"><pb ed="#ae" facs="#f7610_253"/></rdg>-->
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">
+                        <!-- [Untitled] -->
+                    </rdg>
+                    <rdg wit="#ee">Emblem 49</rdg>
+                    <rdg wit="#ae">Emblem 49</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations are expanded with added letters in italics (with the exception of “ye” which is rendered as “the”), superscriptions are lowered, colons indicating abbreviations are removed, “ff” is modernized to “F,” and major alterations to the text are noted in the footnotes.</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee"><note type="headnote">This emblem in iambic pentameter couplets tells the tale of a Russian peasant who, seeking honey, becomes stuck inside the beehive in a tree until a bear arrives; the man catches its hind legs, it flees, and the man is freed. The moral is that God can bring redemption even in the form of an enemy.</note></rdg>
+                    <rdg wit="#ae"></rdg>
+                </app>
+            </head>
+            <lg n="1">
+                <l n="1">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">A Russian <seg>rustic<note type="gloss">peasant, country dweller</note></seg> clamb’ring up a tree</rdg>
+                        <rdg wit="#ae">Coming soon.</rdg>
+                    </app>
+                </l>
+                <l n="2">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Sunk in the treasure of the active bee.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="3">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">To his <seg>diurnal<note type="gloss">daily</note></seg> <seg>saint<note type="critical">daily saint, as prescribed by the Russian Orthodox Church calendar</note></seg> he did not fail</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="4">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">To supplicate to free him from this jail.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="5">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">But that which most augments his misery</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="6">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Was that no priest nor <seg>patriarch<note type="critical">head of the Russian Orthodox Church; also used more generally of male chiefs of churches and of masculine powers still more generally</note></seg> was <seg>nigh<note type="gloss">near</note></seg></rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">to</fw></rdg>
+            </app>   
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_254" n="3v"/>
+                    <fw facs="#f7610_010" type="pageNum" place="margin-topleft"
+                    ><!-- in ink -->2</fw>
+                </rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_254"/></rdg>
+                <!--<rdg wit="#ae"><pb ed="#ae" facs="#f7610_254"/></rdg>-->
+            </app>
+            <lg type="stanza" n="2">
+                <l n="7">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">To write a letter to <seg>Saint Nicholas<note type="critical">patron saint of Russia; special intercessor on behalf of the departed</note></seg>,</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="8">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">And that, without it, he to Heaven could <seg>not<note type="critical">missing in the manuscript</note></seg> pass.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="9">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">He hopeless was; thus overcharged with fears</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="10">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Within and numerous foes about his ears,</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="11">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">This captive stood; the tree he could not <seg>rive<note type="gloss">pull away</note></seg>,</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="12">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">And loath he was to be <seg>embalmed<note type="critical">honey was used to embalm corpses in ancient times</note></seg> alive.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="13">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">When (lo!) a bear came <seg>roaming<note type="critical">multiple corrections suggest that this was was written “roving” and then “roaring” before a hand different than the scribe corrected to “roaming”</note></seg> for her prey</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="14">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Just where the man <seg>in’s<note type="gloss">in his</note></seg> luscious prison lay;</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="15">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">She smelled the honey: straight she climbs the tree.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="16">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">When the poor man this double death did see,</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="17">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Fear caused despair, despair did make him bold;</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="18">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Upon the bear’s hind legs he then catched hold.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="19">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">The bear, affrighted (who can hold their laughter?),</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="20">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Got quickly out, and pulled the man out after.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="21">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Then let none in distress his courage lose;</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="22">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">For God can bring redemption by our foes.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="23">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">So he that could not his <seg>imposthume<note type="gloss">abscess</note></seg> burst</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="24">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee"><seg>Found remedy even by an enemy’s thrust<note type="critical">Phalereus sought to kill himself so as to end the suffering caused by an abscess, only to have his knife rupture the cyst and ironically save him; see Philemon Holland, trans. Pliny, The Natural History of the World (London, 1634), 182.</note></seg>;</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="25">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">For God can turn the sharpest sword or knife</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="26">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">That means us instant death, to give us life.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="27">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Then if restrained of liberty you be,</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="28">
+                    <app>
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">Think how the bear the captive <seg>Russ<note type="gloss">Russian</note></seg> set free.</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

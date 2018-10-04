@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.00">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MODERN TITLE</title>
+        <title type="sub">Poem #</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_024.jpg" xml:id="f7610_000"/>
+    <graphic url="./document_images/7610_025.jpg" xml:id="f7610_000"/>
+    <graphic url="./document_images/7610_026.jpg" xml:id="f7610_000"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>FULL DATE</date> Seetranscription conventions.</witness>
+          <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>FULL DATE</date> See editorial guidelines for this edition.</witness>
+          <witness xml:id="ae">Amplified edition: Edited by <persName>AE EDITOR</persName>. Last updated <date>FULL DATE</date></witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreake should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_000"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's no catchword -->
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">CATCHWORD</fw>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's none -->
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="LINE TYPE"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>ORIGINAL TITLE</rdg>
+          <rdg wit="#ee">EE TITLE</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="54">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="55">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="56">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="57">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="58">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="59">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="60">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="61">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="62">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="63">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="64">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="65">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="66">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="67">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="68">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="69">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="70">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="71">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="72">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="73">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="74">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="75">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="76">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="77">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="78">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="79">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="80">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="81">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="82">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="83">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="84">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="85">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="86">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="87">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="88">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="89">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="90">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="91">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="92">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="93">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="94">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="95">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="96">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="97">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="98">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="99">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="100">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="101">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="102">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="103">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="104">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="105">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="106">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="107">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="108">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="109">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="110">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="111">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="112">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="113">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="114">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="115">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="116">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="117">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="118">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="119">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="120">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="121">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="122">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="123">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="124">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="125">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="126">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="127">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="128">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="129">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="130">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="131">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="132">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="133">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="134">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="135">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="136">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="137">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="138">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="139">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="140">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="141">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="142">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="143">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="144">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="145">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="146">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="147">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="148">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="149">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="150">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="151">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="152">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="153">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="154">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="155">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="156">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="157">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="158">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="159">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="160">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="161">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="162">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="163">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="164">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="165">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="166">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="167">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="168">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="169">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="170">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="171">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="172">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="173">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="174">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="175">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="176">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="177">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="178">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="179">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="180">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="181">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="182">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="183">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="184">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="185">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="186">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="187">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="188">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="189">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="190">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="191">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="192">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="193">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="194">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="195">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="196">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="197">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="198">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="199">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="200">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
+</TEI>

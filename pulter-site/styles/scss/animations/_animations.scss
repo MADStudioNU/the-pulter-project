@@ -1,0 +1,75 @@
+@keyframes fadeInLeftSubtle {
+  from {
+    opacity: 0;
+    transform: translateX(-48px);
+  }
+
+  to   {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRightSubtle {
+  from {
+    opacity: 0;
+    transform: translateX(48px);
+  }
+
+  to   {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInDownSubtle {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+
+  to   {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpSubtle {
+  from {
+    //opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to   {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+//@keyframes heartBeat {
+//  0% {
+//    opacity: 1;
+//    transform: scale(1);
+//  }
+//
+//  52% {
+//    opacity: .8;
+//    transform: scale(.9);
+//  }
+//
+//  68% {
+//    opacity: 1;
+//    transform: scale(1);
+//  }
+//
+//  84% {
+//    opacity: .8;
+//    transform: scale(.9);
+//  }
+//
+//  100% {
+//    opacity: 1;
+//    transform: scale(1);
+//  }
+//
+//}

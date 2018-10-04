@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.89">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Marmottane (Emblem 24)</title>
+                <title type="sub">Poem #89</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>conjugal love</term>
+                    <term>husbands and wives</term>
+                    <term>domesticity</term>
+                    <term>animal exemplars</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_217.jpg" xml:id="f7610_217"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018</date>.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018</date>.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>June 7, 2018.</date>.</witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_217"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_217"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_217"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">
+                        <!-- [Untitled] -->
+                        <fw facs="#f7610_229" type="emblemNum" place="margin-left">24</fw>
+                        <fw facs="#ft" type="pageNum" place="margin-topright">107</fw>
+                    </rdg>
+                    <rdg wit="#ee">Emblem 24</rdg>
+                    <rdg wit="#ae">Emblem 24</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations (such as tildes) are expanded with added letters in italics, “ff” is modernized to “F,” and superscriptions are lowered. The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader.</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee"><note type="headnote">Rodents are not the most obvious emblem of married love; one type of rat, however, did exhibit equity between the sexes, as Pulter learned when she read her Pliny, a classical natural historian whose account of the exotic Rat of Pontus she draws on here. The poem offers a heartfelt but still humorous challenge to the ne’er-do-well husbands targeted by its final line, since the gap invoked between rattish harmony and human discord must invite embarrassed laughter: if rats can manage, why can’t we? But the cozy harvest-home portrait of the animals’ den finds no parallel symbiosis in the human realm, where the choice made by “most” husbands is between roaming public houses of ill-repute (leaving a pleasureless, care-filled domesticity to their wives) and infesting private homes with their tyranny. As well as contrasting the human and non-human—not to our advantage—the poem quietly critiques the greater pleasures of the hard-working rural rats with “wealthy” couples who fail to appropriately enjoy their wealth, including each other.</note></rdg>
+                    <rdg wit="#ae"></rdg>
+                </app>
+            </head>
+            <lg>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft"><fw type="seqNum" place="inline">24</fw><seg>The<note type="physical">in left margin: “<del type="strikethrough">[?]</del>or Rat of Pontus / Plinie his 8 book / chap 37”</note></seg> <add place="above">s</add>Marmottanes for Unitie’s Renownd</rdg>
+                    <rdg wit="#ee">The <seg>marmottane’s<note type="critical">A marmot is a burrowing rodent. A marginal note identifies “Marmottane” with the “Rat of Pontus” in Pliny’s natural history. There, Pliny suggests that when either “male or female is laden with grass and herbs,” one animal “lieth upon the back with the said provision upon their bellies,” and the other takes “the tail with the mouth, and draweth the fellow into the earth [den]: thus do they one by the other in turns.” Pliny, The History of the World, trans. Philemon Holland (London, 1601), p. 217.</note></seg> for unity’s renowned,</rdg>
+                    <rdg wit="#ae"><seg>The<note type="critical">In the left margin is the note “or Rat of Pontus Plinie his 8 book chap 37.” Pontus is a region in what is now Turkey. Editions of Pliny the Elder’s The historie of the world: commonly called, The naturall historie of C. Plinius Secundus, translated by Philemon Holland, were printed in 1601, 1634, and 1635. Chapter 37 of the eighth book is headed, “Of the Rats of Pontus, and the Alps: also of Vrchins and Hedge-hogs” (pp. 216-217 in each edition). The chapter begins, “The Rats of Pontus, which be onely white, come not abroad all winter:[…] Those of the Alpes likewise, i. Marmottanes, which are as bigge as Brocks or Badgers, keepe in, during winter: but they are prouided of victuals before hand which they gather together and carry into their holes. And some say, when the male or female is loden with grasse and herbs, as much as it can comprehend within all the foure legges, it lieth vpon the backe with the said prouision vpon their bellies, and then commeth the other, and taketh hold by the taile with the mouth, and draweth the fellow into the earth: thus doe they one by the other in turnes: and herupon it is, that all that time their backes are bare and the haire worne off. Such like Marmotaines there be in Ægypt; and in the same manner thay sit ordinarily vpon their buttocks, and vpon their two hinder feet they goe, vsing their fore-feet in stead of hands.”</note></seg> <seg>Marmottanes<note type="gloss">Marmots are burrowing rodents from the squirrel family (OED 1a). The spelling chosen by Pulter is that which is used in Holland’s translation of Pliny.</note></seg> for Unitie’s Renownd</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">And for Conjugall Love they may be Crownd</rdg>
+                    <rdg wit="#ee">And for conjugal love they may be crowned.</rdg>
+                    <rdg wit="#ae">And for Conjugall Love they may be Crownd</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">That you may See noe Wiſdome they doe lack</rdg>
+                    <rdg wit="#ee">That you may see no wisdom they do lack:</rdg>
+                    <rdg wit="#ae">That you may See noe Wisdome they doe lack</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">They lye alternately upon their Back</rdg>
+                    <rdg wit="#ee">They lie alternately upon their back;</rdg>
+                    <rdg wit="#ae">They lye alternately upon their Back</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">T’other w:<add place="above">th</add> Graſs and Herbs doth Load him well</rdg>
+                    <rdg wit="#ee"><seg>T’other<note type="gloss">The other</note></seg> with grass and herbs doth load him well;</rdg>
+                    <rdg wit="#ae">T’other with Grass and Herbs doth Load him well</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Then by the tayl Shee draws him to their Cell</rdg>
+                    <rdg wit="#ee">Then by the tail she draws him to their cell.</rdg>
+                    <rdg wit="#ae">Then by the tayl <seg>Shee<note type="critical">Holland suggests that the male and female marmot take turns being loaded with food and being dragged by the other; Pulter also makes the point that they “lye alternately upon their Back” (l. 4) but here she dramatizes the female marmot taking the more active role.</note></seg> draws him to their <seg>Cell<note type="gloss">the den of a wild beast (OED 1c)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">They’r neat and Warm they Joyn to build their Nest</rdg>
+                    <rdg wit="#ee">There, neat and warm, they join to build their nest,</rdg>
+                    <rdg wit="#ae">They’r neat and Warm they Joyn to build their Nest</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">In which all Winter they doe Sit and &ff;east</rdg>
+                    <rdg wit="#ee">In which, all winter, they do sit and feast</rdg>
+                    <rdg wit="#ae">In which all Winter they doe Sit and Feast</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">With Corn and &ff;ruits by them lay’d up in Store</rdg>
+                    <rdg wit="#ee">With corn and fruits by them laid up in store,</rdg>
+                    <rdg wit="#ae">With Corn and Fruits by them lay’d up in Store</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">&ff;or till next <w lemma="summer">Su<hi rend="overline">m</hi>er</w> Comes they’l need noe more</rdg>
+                    <rdg wit="#ee">For till next summer comes they’ll need no more.</rdg>
+                    <rdg wit="#ae">For till next Summer Comes they’l need noe more</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Surely they live by &ff;arr more happie lives</rdg>
+                    <rdg wit="#ee">Surely they live, by far, more happy lives</rdg>
+                    <rdg wit="#ae">Surely they live by Farr more happie lives</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Then many Wealthy Huſbands and their Wives</rdg>
+                    <rdg wit="#ee">Than many wealthy husbands and their wives!</rdg>
+                    <rdg wit="#ae">Then many Wealthy Husbands and their Wives</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Some Noble minds there bee I know will Share</rdg>
+                    <rdg wit="#ee">Some noble minds there be, I know, will share</rdg>
+                    <rdg wit="#ae">Some Noble minds there bee I know will Share</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Their pleaſure with their Wives as well as Care</rdg>
+                    <rdg wit="#ee">Their pleasure with their wives, as well as care;</rdg>
+                    <rdg wit="#ae">Their pleasure with their Wives as well as Care</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">But most to Taverns or to Worſ will Rome</rdg>
+                    <rdg wit="#ee">But most to taverns—or to worse—will roam,</rdg>
+                    <rdg wit="#ae">But most to Taverns or to Wors will <seg>Rome<note type="critical">Pulter’s disparagement of husbands who roam to taverns or worse (presumably brothels) echoes her Emblem 20 on the turtledove where she criticizes husbands who follow a dissolute path. She writes, “Then if your Husbands rant it high and Game” (line 23), but in that poem she urges wives to avoid following their spouses’ bad example: “Besure you Double not their Guilt and shame” (line 24). In that poem, Pulter advises wives, rather than husbands, not to “roam … to plays and Taverns” (lines 32-34). She suggests that wives should “Chastly live and rather spend your dayes / In Setting Forth Your great Creators praise” and even to write “harmles Rimes” as she does (lines 42-45). Her interest in this emblem on the marmots is to focus on the couple and the domestic happiness they can enjoy. Interestingly, in his discussion of the marmot (which he calls the alpine mouse), Edward Topsell depicts little marital cooperation between the male and female (The historie of foure-footed beastes [1607], p. 525; with thanks to one of this edition’s anonymous reviewers for this reference): “Now the female in this kind is crafty, and more apt to deuoure; the male on the other side more thirsty and sparing, wherefore he driueth his female out of the den in the winter time, and stopeth the mouth of his caue, to forbid hir entrance, but she getteth behind the same, and diggeth a secret hole, whilest the male lyeth at the mouth asleepe, she consumeth the whole store behind him, wherefore in the spring time she commeth forth very fat and comely, and he very leane. And therefore in my opinion, the makers of Emblems may very well discribe an vnthrifty wise [i.e., wife], that consumeth her husbands wealth, by the picture of this female.”</note></seg></rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Or elce they’l alwais Tiranniſe at home</rdg>
+                    <rdg wit="#ee">Or else they’ll always <seg>tyrannize<note type="gloss">rule absolutely or oppressively</note></seg> at home.</rdg>
+                    <rdg wit="#ae">Or elce they’l alwais <seg>Tirannise<note type="critical">The language of tyranny in the context of relations between husbands and wives is used by many women writers of the seventeenth century. While most writers acknowledge the authority of Adam over Eve, particularly post-Fall, they often object to an abuse of that power. Aemilia Lanyer, in Salve Deus Rex Judaeorum (1611), lines 825-830, addresses contemporary men with the bold request, “Then let us have our Libertie againe, / And challendge to your selves no Sov’raigntie;[…] Your fault beeing greater, why should you disdaine / Our beeing your equals, free from tyranny?” (The Poems of Aemilia Lanyer: Salve Deus Rex Judaeorum, edited by Susanne Woods, Oxford University Press, 1993, p. 87). The fault to which Lanyer is referring is that of Pilate ordering the crucifixion of Christ, which Lanyer argues has tainted all men by association, just as Eve eating the apple has tainted all women. In a tract of 1649 called The Vision: wherein is manifested the disease and cure of the kingdome (which argues against King Charles’s execution), Elizabeth Poole uses metaphors comparing the king and his subjects to a tyrannical husband and his suffering wife. Poole writes, “For he is the Father and husband of your bodyes, as unto men, and therefore your right cannot be without him …. Onely consider, that as she [i.e., Abigail, the virtuous wife of cruel Nabal] lifted not her hand against her husband to take his life, no more doe yee against yours …. For know this, the Conquest was not without divine displeasure, whereby Kings came to reigne, though through lust they tyranized: which God excuseth not, but judgeth; and his judgements are fallen heavy, as you see, upon Charles your Lord” (pp. 4-5; with thanks to one of this edition’s anonymous reviewers for the Poole reference). In a digression on the implications of Eve’s punishment that her desire shall be for her husband (Genesis 3:16), Lucy Hutchinson discusses the way that wives choose the shackles of marriage out of love for their husbands. In Order and Disorder (1679), canto 5, lines 139-143, she writes, “Now though they easier under wise rule prove, / And every burden is made light by love, / Yet golden fetters, soft-lined yokes, still be / Though gentler curbs, but curbs of liberty, / As well as the harsh tyrant’s iron yoke” (Lucy Hutchinson, Order and Disorder, edited by David Norbrook, Blackwell, 2001, p. 69).</note></seg> at home</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">If you Should aſk mee which of theſe is worſs</rdg>
+                    <rdg wit="#ee">If you should ask me which of these is worse,</rdg>
+                    <rdg wit="#ae">If you Should ask mee which of these is worss</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Trust mee (I know not) either is A Curſs</rdg>
+                    <rdg wit="#ee">Trust me, I know not: either is a curse.</rdg>
+                    <rdg wit="#ae">Trust mee (I know not) either is A Curss</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">If Such doe Read theſe lines to them I Say</rdg>
+                    <rdg wit="#ee">If such do read these lines, to them I say:</rdg>
+                    <rdg wit="#ae">If Such doe Read these lines to them I Say</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">The Rat of Pontuſ’s Lovinger then they.</rdg>
+                    <rdg wit="#ee">The Rat of Pontus’s <seg>lovinger<note type="gloss">more loving</note></seg> than they.</rdg>
+                    <rdg wit="#ae">The Rat of Pontus’s <seg>Lovinger<note type="gloss"> more loving</note></seg> then they.</rdg>
+                </app>
+            </l>
+                <app>
+                    <rdg type="milestone" wit="ft">
+                        <milestone unit="poem" rend="straight-ascendline"/>
+                    </rdg>
+                </app>
+            </lg>
+        </body>
+    </text>
+</TEI>

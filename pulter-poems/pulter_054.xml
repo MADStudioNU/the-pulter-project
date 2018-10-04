@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.54">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Solitary Complaint</title>
+                 <title type="sub">Poem #54</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>confinement</term>
+                    <term>planetary motion</term>
+                    <term>complaint</term>
+                    <term>prayer</term>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_153.jpg" xml:id="f7610_153"/>
+         <graphic url="./document_images/7610_154.jpg" xml:id="f7610_154"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date>. See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. Last updated <date>May 31, 2018</date>. See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Zeman Kolkovich</persName>. Last updated <date>June 26, 2018</date>.</witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_153" n="75r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_153"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_153"/></rdg>
+            </app>
+
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">145</fw><seg>A Solitary Complainte<note type="physical">written in hand H2</note></seg></rdg>
+                    <rdg wit="#ee">A Solitary Complaint</rdg>
+                    <rdg wit="#ae"><seg>A Solitary Complaint<note type="critical">The title draws attention to the speaker’s isolation (“solitary” as “secluded”) and prepares the reader for a plaintive poem; alternatively, it might suggest that the speaker has only one complaint (“solitary” as “single instance”).</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (<title rend="italic">OED</title>), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">In this edition, the spelling, punctuation, and capitalization have been modernized to facilitate its use by a wide range of readers.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">In this poem, Pulter reveals what we might see as “planet envy.” She contrasts her confinement to life on Earth (and on her estate) with the vast freedom of mobility seen in the solar system. Pulter uses the occasion of a devotional poem to ask God to convert her into a satellite planet that will “roll” or rotate around him. As in other of her poems, Pulter displays her detailed knowledge of contemporary findings in astronomy, including the numbers of moons orbiting Jupiter and the possible existence of multiple solar systems or galaxies. In this poem, science is not at all in conflict with a quest for secular knowledge. And, as in Poem 48, she ends by contingently promising to create future praise that implicitly will supersede her mortal poetic production, something possible if God grants her wish for freedom. The anguished repetition in the final lines—“For Thee and only Thee I will adore; / My God, my God forever, evermore—demonstrate her yearning to embody the cycles and returns in action in the vast sky.</note></rdg>
+                <rdg wit="ae"><note type="headnote">“A Solitary Complaint” conceives of the solar system in a strikingly modern way. It reveals Pulter’s scientific knowledge and acceptance of the heliocentric model of the universe (the notion that the universe’s center is the sun, not the Earth), which was still controversial at the time. The poem’s title, written in a different hand from the main scribe in the original manuscript, may or may not be Pulter’s. It identifies the poem as responding to the literary tradition of religious complaint poetry. Both devotional lyric and complaint poetry have been long thought appropriate for female voices and women writers. Pulter’s interest in contemporary science, however, encourages us to expand our ideas about what women wrote in this period. For Pulter, religion and science are compatible. She finds comfort in both the never-ending cycles of the planets and her relationship with God.</note></rdg>
+            </app>
+            </head>
+            <lg n="1">
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Must I bee Still confind to this Sad Grove</rdg>
+                    <rdg wit="#ee">Must I be still confined to this sad grove</rdg>
+                    <rdg wit="#ae">Must I be still confined to this <seg>sad grove<note type="critical">Pulter’s country house, Broadfield Hall in Hertfordshire. She wrote often of her seclusion at Broadfield, perhaps connected to her many pregnancies or to illness. Poem 57, for example, begins with “Why must I thus forever be confined” and laments her being “shut up in a country grange.” In both that poem and this one, Pulter represents her isolation as a lengthy imprisonment, using the words “must,” “confined,” “still,” and “forever.”</note></seg></rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">When as those vast and Glorious Globes above</rdg>
+                    <rdg wit="#ee"><seg>Whenas<note type="gloss">when</note></seg> those vast and glorious globes above</rdg>
+                    <rdg wit="#ae"><seg>Whenas<note type="gloss">when</note></seg> those vast and glorious globes above</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Eternally in treble Motions Move</rdg>
+                    <rdg wit="#ee">Eternally in <seg>treble motions move<note type="critical">the three rotations of planets outlined by Copernicus: rotation on an axis, revolution in an orbit, and conical tilting of an axis</note></seg>?</rdg>
+                    <rdg wit="#ae">Eternally in <seg>treble motions move<note type="critical">The question that begins this poem is a triplet (three lines that rhyme), a relatively rare stanza form that sets this question apart from the rhyming couplets that constitute the rest of the poem. These initial lines contrast stillness in a small space with the planets’ constant motion in an expansive space (see, e.g., the repetition of “move” in lines 3-4). Pulter does the same in “This Was Written 1648 When I Lay In With My Son John” (Poem 47), in which she writes of looking out at the night sky while lying sick in bed. Each planet’s “treble” (triple) motions include daily rotation around its axis, yearly orbit around the sun, and conical tilting at its axis. Sarah Hutton speculates that Pulter might have encountered these ideas in Thomas Digges’s 1578 English translation of Copernicus; in Galileo’s books, if she read Italian or Latin; or in English poetry, such as <bibl><author>Henry More’s</author> 1646 <title rend="italic">Philosophical Poems</title> (“Hester Pulter [c. 1596-1678]. A Woman Poet and the New Astronomy,” <title rend="italic">Etudes Episteme</title>, vol. 14, 2008, journals.openedition.org/episteme/729).</bibl> Few women poets engaged as directly with scientific theory in this period; another example is Margaret Cavendish, whose “A World in an Earring” also envisions a Copernican model of the universe. For a less enthusiastic poetic response to heliocentrism, see John Donne’s “An Anatomy of the World.” For excerpts from Digges, More, Cavendish, and Donne, see the “Curations” for this poem in <title rend="italic">The Pulter Project.</title></note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Thrice happy <seg>Hermes<note type="gloss">“es” probably in H2, with “e” written over earlier “s”</note></seg> moves in endles day</rdg>
+                    <rdg wit="#ee"><seg>Thrice<note type="gloss">extremely</note></seg> happy <seg>Hermes<note type="gloss">Mercury, messenger god</note></seg> moves in endless day,</rdg>
+                    <rdg wit="#ae">Thrice happy <seg>Hermes<note type="gloss">Mercury, messenger god</note></seg> moves in endless day,</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Beeing underneath the Suns illustrous Raie</rdg>
+                    <rdg wit="#ee">Being underneath the sun’s illustrious ray.</rdg>
+                    <rdg wit="#ae">Being underneath the sun’s <seg>illustrious<note type="gloss">shining brightly; noble, distinguished</note></seg> ray.</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Next Lovly Venus Swiftly Hurries Round</rdg>
+                    <rdg wit="#ee">Next lovely Venus swiftly hurries round</rdg>
+                    <rdg wit="#ae">Next lovely Venus swiftly hurries round</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">The Suns Bright Throne, <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> equall Luster Crownd</rdg>
+                    <rdg wit="#ee">The sun’s bright throne, with equal luster crowned.</rdg>
+                    <rdg wit="#ae">The sun’s bright throne, with equal luster <seg>crowned<note type="critical">The poem uses monarchical imagery, such as a throne and crowns, to imagine the solar system as a court with a monarch (the sun), lords (planets), and attendants (moons).</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Next Tellus to whom Sol his Light extends</rdg>
+                    <rdg wit="#ee">Next <seg>Tellus<note type="critical">Earth, goddess of earth.</note></seg>, to whom <seg>Sol his light<note type="critical">the sun’s light</note></seg> extends,</rdg>
+                    <rdg wit="#ae">Next <seg>Tellus<note type="gloss">Earth</note></seg>, to whom Sol his <seg>light<note type="critical">the sun’s light</note></seg> extends,</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Runs Round his Orb, &ff;air Cinthia her Attends</rdg>
+                    <rdg wit="#ee">Runs round his orb; fair <seg>Cynthia<note type="gloss">moon goddess</note></seg> her attends,</rdg>
+                    <rdg wit="#ae">Runs round his orb; fair <seg>Cynthia<note type="gloss">moon goddess</note></seg> her attends,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Whom hee Irradiates with constant Light</rdg>
+                    <rdg wit="#ee">Whom he <seg>irradiates<note type="gloss">illuminates</note></seg> with constant light,</rdg>
+                    <rdg wit="#ae">Whom he <seg>irradiates<note type="gloss">shines upon</note></seg> with constant light,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Though Shee apears Soe various to our Sight</rdg>
+                    <rdg wit="#ee">Though she appears so various to our <seg>sight.<note type="critical">The Earth circles the “orb” (or orbit of) the sun, while the moon orbits the Earth; the male sun shines on the female moon continuously, though she appears, from the perspective of a person on Earth, to change.</note></seg></rdg>
+                    <rdg wit="#ae">Though she appears so <seg>various<note type="gloss">varied; changing</note></seg> to our sight.</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Mars Soldiar LIke, noe Sabboath ever knowes</rdg>
+                    <rdg wit="#ee"><seg>Mars<note type="gloss">god of war</note></seg>, soldier-like, no <seg>sabbath<note type="gloss">time of rest</note></seg> ever knows,</rdg>
+                    <rdg wit="#ae"><seg>Mars<note type="gloss">god of war</note></seg>, soldier-like, no <seg>sabbath<note type="gloss">religious day of rest</note></seg> ever knows,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">&ff;or Round the &ff;ount of Light hee ever goes</rdg>
+                    <rdg wit="#ee">For round the fount of light he ever goes.</rdg>
+                    <rdg wit="#ae">For round the fount of light he ever goes.</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Then Jupiter attended like a King</rdg>
+                    <rdg wit="#ee">Then <seg>Jupiter<note type="gloss">largest planet; chief Roman god</note></seg>, attended like a king,</rdg>
+                    <rdg wit="#ae">Then <seg>Jupiter<note type="gloss">largest planet; chief Roman god</note></seg>, attended like a king,</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">&ff;our Raidient Moons hee in his Train doth bring</rdg>
+                    <rdg wit="#ee">Four radiant moons he in his <seg>train<note type="critical">people following, accompanying, or attending on a person, usually one of high rank or importance; a body of attendants, retainers, or followers; Galileo discovered the fact that Jupiter has four moons in 1610.</note></seg> doth bring.</rdg>
+                    <rdg wit="#ae">Four radiant moons he in his train doth bring.</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Saturn as many &ff;ollowing his Huge Spheir</rdg>
+                    <rdg wit="#ee">Saturn, as <seg>many<note type="critical">many moons</note></seg> following his huge sphere,</rdg>
+                    <rdg wit="#ae">Saturn, as <seg>many<note type="critical">many moons</note></seg> following his huge sphere</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">At least noe more to our dim Sight apear.</rdg>
+                    <rdg wit="#ee">At least no more to our dim sight appear.</rdg>
+                    <rdg wit="#ae">(At least no more to our dim sight appear).</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">All these in Circle Phœbus glorious Mound</rdg>
+                    <rdg wit="#ee">All these encircle <seg>Phoebus’s<note type="gloss">the sun god’s</note></seg> glorious mound,</rdg>
+                    <rdg wit="#ae">All these encircle <seg>Phoebus’<note type="gloss">the sun god’s</note></seg> glorious mound,</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">By whom with Splendour all theſe Stars are <add place="below">^</add><add place="above">Crown’d</add></rdg>
+                    <rdg wit="#ee">By whom, with splendor, all these stars are <seg>crowned<note type="gloss">glorified; adorned with a circular ornament on the head; dignified or endowed with beauty</note></seg>.</rdg>
+                    <rdg wit="#ae">By whom, with splendor, all these <seg>stars<note type="gloss">planets</note></seg> are crowned.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">but</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_154" n="75v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_154"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_154"/></rdg>
+          </app>
+          <lg n="2">
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">But whether this <seg><del>Sun</del><add place="below">\</add><add place="above">ſun \</add><note type="physical">original “Sun” obscured by ink bleedthrough from fol. 75r; insertion in H2</note></seg> his Influence doth owe</rdg>
+                    <rdg wit="#ee">But whether this sun his influence doth owe</rdg>
+                    <rdg wit="#ae">But whether this sun his <seg>influence<note type="gloss">An exercise of unseen power; the “supposed flowing or streaming from the stars or heavens of an ethereal fluid acting upon the character and destiny of men” (<bibl><title rend="italic">OED</title></bibl>).</note></seg> doth owe</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Unto <seg><del>an</del><add place="above">ſom</add><note>“ſom” written in hand H2</note></seg> other Sun, none Sure doth know</rdg>
+                    <rdg wit="#ee">Unto some other sun, none sure doth know;</rdg>
+                    <rdg wit="#ae">Unto <seg>some other sun<note type="critical">In the manuscript, the line first reads “another Sun” and is revised to “som[e] other Sun.”</note></seg>, none sure doth <seg>know<note type="critical">Pulter imagines the possibility of other galaxies in language that emphasizes unity and collaboration, and she contrasts these mutually dependent suns with her own isolation. This moment and her earlier emphasis on “our dim sight” comment on the limitations of modern science as she embraces the vast unknowability of the universe.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">But every Orb his &ff;ellow doth illustrate</rdg>
+                    <rdg wit="#ee">But every <seg>orb<note type="gloss">planet</note></seg> his fellow doth <seg>illustrate<note type="gloss">illuminate; set in a good light; confer honor upon; elucidate</note></seg>,</rdg>
+                    <rdg wit="#ae">But every <seg>orb<note type="gloss">planet</note></seg> his fellow doth <seg>illustrate<note type="gloss">illumine; confer honor upon</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">&ff;or non <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> ends of Nature dares to frustrate</rdg>
+                    <rdg wit="#ee">For none the <seg>ends<note type="gloss">purposes</note></seg> of nature dares to frustrate.</rdg>
+                    <rdg wit="#ae">For none the <seg>ends<note type="gloss">aims</note></seg> of nature dares to frustrate.</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Thus all thoſe Suns and Stars for ever move</rdg>
+                    <rdg wit="#ee">Thus all those suns and stars forever move</rdg>
+                    <rdg wit="#ae">Thus all those suns and stars forever move</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">About the &ff;ount of Life, &amp; Light, &amp; Love</rdg>
+                    <rdg wit="#ee">About the fount of life and light and love.</rdg>
+                    <rdg wit="#ae">About the fount of life, and light, and love.</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Then o my god Iradiate my Sad Soul</rdg>
+                    <rdg wit="#ee">Then, O, my God, irradiate my sad soul,</rdg>
+                    <rdg wit="#ae">Then, O my God, <seg>irradiate<note type="critical">She imagines God illuminating her soul with spiritual light, just as the sun lights up the moon.</note></seg> my sad soul,</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">That I about thy Glorious Thron may Rowl</rdg>
+                    <rdg wit="#ee">That I about thy glorious throne may <seg>roll<note type="gloss">rotate, turn, pivot around; trust in God</note></seg>.</rdg>
+                    <rdg wit="#ae">That I about thy glorious throne may <seg>roll<note type="critical">To turn or pivot around; to trust in God. The poem uses cyclical imagery common to Pulter’s poetry: revolutions, rolling, turning, and returning. For examples of other poems in which contemplating the planets and moon leads to spiritual pleas or affirmations, see “The Eclipse” (Poem 1) and “The Center” (Poem 30).</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Let mee <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> meanst of theſe Stars attend</rdg>
+                    <rdg wit="#ee">Let me the <seg>meanest<note type="gloss">lowliest</note></seg> of these stars attend;</rdg>
+                    <rdg wit="#ae">Let me the <seg>meanest<note type="gloss">lowliest</note></seg> of these stars attend;</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Then all my raiſe in Prais Shall Reaſcend</rdg>
+                    <rdg wit="#ee">Then all my rays, in praise, shall reascend.</rdg>
+                    <rdg wit="#ae">Then all my <seg>rays<note type="critical">The manuscript’s spelling of “raise” highlights a pun on “rays”/“raise”; likewise, “praise” may pun on “prays” to encompass both spiritual and astronomical meanings.</note></seg> in praise shall reascend.</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">&ff;or thee and onely thee I will adore</rdg>
+                    <rdg wit="#ee">For Thee and only Thee I will adore,</rdg>
+                    <rdg wit="#ae">For Thee, and only Thee, I will adore,</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">My God my God forever, ever more.</rdg>
+                    <rdg wit="#ee">My God, my God, forever, evermore.</rdg>
+                    <rdg wit="#ae">My God, my God, forever, ever more.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

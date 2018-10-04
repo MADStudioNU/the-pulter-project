@@ -1,0 +1,31 @@
+$stem: '/fonts/';
+
+@import url('//fonts.googleapis.com/css?family=Cormorant+Garamond|Lato:300,400,700&subset=latin-ext');
+
+// SSSi Regular
+$sssiRegular: 'sssi_regular';
+
+@font-face {
+    font-family: 'Sssi';
+    font-style: normal;
+    font-weight: normal;
+    src:
+      url($stem + $sssiRegular + '.woff2') format('woff2'),
+      url($stem + $sssiRegular + '.woff') format('woff'),
+      url($stem + $sssiRegular + '.ttf') format('truetype'),
+      url($stem + $sssiRegular + '.eot') format('embedded-opentype');
+}
+
+// Sterling SSi Italic
+$sssiItalic: 'sssi_italic';
+
+@font-face {
+    font-family: 'Sssi';
+    font-style: italic;
+    font-weight: normal;
+    src:
+      url($stem + $sssiItalic + '.woff2') format('woff2'),
+      url($stem + $sssiItalic + '.woff') format('woff'),
+      url($stem + $sssiItalic + '.ttf') format('truetype'),
+      url($stem + $sssiItalic + '.eot') format('embedded-opentype');
+}

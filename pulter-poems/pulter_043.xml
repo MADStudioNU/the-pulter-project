@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.43">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Of a Young Lady at Oxford, 1646</title>
+                 <title type="sub">Poem #43</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+                     <term>sacrifice</term>
+                     <term>death</term>
+                     <term>Crucifixion</term>
+                     <term>love</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_128.jpg" xml:id="f7610_128"/>
+        <graphic url="./document_images/7610_129.jpg" xml:id="f7610_129"/>
+        <graphic url="./document_images/7610_130.jpg" xml:id="f7610_130"/>
+        <graphic url="./document_images/7610_131.jpg" xml:id="f7610_131"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 29, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 22, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>September 7, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_128" n="62v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_128"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_128"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_128" type="pageNum" place="margin-topright">PG#</fw>Of A young Lady at <seg>Oxford 1646<note type="physical">straight line under second half of “Oxford” and all of “1646”; end of previous poem occupies top of page</note></seg></rdg>
+                    <rdg wit="#ee">Of a Young Lady at <seg>Oxford, 1646<note type="critical">Oxford was a royalist stronghold in the first English civil war, which ended in 1646 with royalist surrender to parliamentary opponents.</note></seg></rdg>
+                    <rdg wit="#ae">Of a Young Lady at <seg>Oxford, 1646<note type="critical">Oxford was a Royalist stronghold and home to King Charles’s court during the First Civil War (1642-46). Oxford was besieged by Parliamentarian forces for three months in Spring 1646, and the Royalist garrison surrendered to General Thomas Fairfax on 24 June 1646. The reference to the death of Sir George Lucas and Sir Charles Lisle later in the poem indicates that the poem must have been completed in 1648 or later; however, the date in the title suggests that the story in the first half of the poem may be associated with the siege of Oxford.</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">What was a young lady doing at Oxford in 1646? Shooting herself, according to Pulter, who reports what sounds like a cross between melodrama and a news bulletin of yet another example of the never-ending collateral damage of war. The speaker’s point, however, is not to regret this instance of self-murder, but to ennoble it through analogy with various other female suicides, before criticizing her own soul for lingering on earth despite allegedly loving Christ and seeking union with him in heaven. As part of a pep-talk to speed her own death, the speaker takes various rhetorical tacks. She recounts her inspired vision of the crucifixion, for instance, and compares Christ’s extraordinary heroism favorably with exemplary male friends who died for one another (since Christ outdid them by dying, not for his friends, but the “foes” of depraved humanity). All this is canvassed as part of the speaker’s somewhat haranguing campaign for her soul to leave her body without delay: a goal the young lady accomplished with the pull of a trigger, but which the Christian speaker, despite her evident admiration of this act and yearning for death, cannot achieve in the same manner while remaining loyal to her self-sacrificing (if not quite suicidal) “Redeemer.”</note></rdg>
+                <rdg wit="#ae"><note type="headnote">In “Of a Young Lady at Oxford, 1646,” Pulter develops complex relationships between political, erotic, and religious registers. The poem’s title refers to the anecdote that takes up about the first third of the poem, which describes the deaths of an unnamed pair of lovers during the Siege of Oxford in 1646. When the Lady learns that her lover, a Royalist soldier, has died in battle, she takes her own life in imitation of famous female suicides, Lucretius and Thisbe. This exemplum of erotic devotion, which Pulter describes as “earthy love,” prompts the speaker’s reflection upon the state of her soul. In an extended apostrophe to her soul, the speaker questions how her soul can desire to stay on earth when Christ, the soul’s proper companion, has already left it. Pulter mirrors the anecdote in the first part of the poem with the examples of five pairs—brothers, friends, lovers, and soldiers—who are famous for their devotion and willingness to die for one another. These exempla raise questions about whether different forms of human devotion are models for (or imitations of) the soul’s desire for union with Christ. The middle of the poem, however, includes several Biblical allusions that frame and reframe the classical allusions that begin and end the poem. While the unnamed Lady and the famous male heroes sacrifice themselves for friends or lovers, Christ dies for humans who are enemies (“cursed foes”) by dint of their sins (Romans 5: 7-8), a sacrifice that informs the speaker’s final, urgent questioning of her own soul.</note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">A Noble pair in Love without Compare</rdg>
+                    <rdg wit="#ee">A noble pair, in love without compare,</rdg>
+                    <rdg wit="#ae">A noble pair in love without compare,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Heroick Spirits both Lovly and fair</rdg>
+                    <rdg wit="#ee">Heroic spirits both, lovely and fair,</rdg>
+                    <rdg wit="#ae">Heroic spirits both lovely and fair,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Whose Hearts were Counterchanged then <seg><del>then</del>
+                        <hi rend="below">^</hi><hi rend="above">noe wonder</hi><note type="physical">struck-through with multiple horizontal lines; “noe wonder” directly above “then”</note></seg></rdg>
+                    <rdg wit="#ee">Whose hearts were <seg>counterchanged<note type="gloss">exchanged</note></seg>—then no wonder</rdg>
+                    <rdg wit="#ae">Whose hearts were counterchanged; then no wonder,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">They could not possible Subsist asunder</rdg>
+                    <rdg wit="#ee">They could not possibly subsist asunder.</rdg>
+                    <rdg wit="#ae">They could not possibly subsist asunder.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Hee in this Grand Rebellion Late was kild</rdg>
+                    <rdg wit="#ee">He, in this grand <seg>rebellion<note type="gloss">English civil war</note></seg> late was killed</rdg>
+                    <rdg wit="#ae">He in this grand rebellion late was killed.</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">&ff;or his good King his Loyall Blood was spild</rdg>
+                    <rdg wit="#ee">For his good king; his loyal blood was spilled,</rdg>
+                    <rdg wit="#ae">For his good king his loyal blood was spilled,</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Which from the pregnant <seg>earth<note type="physical">“h” in H2
+                    </note></seg> Sprung up in fame</rdg>
+                    <rdg wit="#ee">Which from the pregnant earth sprung up in fame,</rdg>
+                    <rdg wit="#ae">Which from the pregnant earth sprung up in fame</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Honouring him with a never dying Name</rdg>
+                    <rdg wit="#ee">Honoring him with a never-dying name.</rdg>
+                    <rdg wit="#ae">Honoring him with a never dying name.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">This Gallant Las, thus having lost her Love</rdg>
+                    <rdg wit="#ee">This gallant lass, thus having lost her love,</rdg>
+                    <rdg wit="#ae">This gallant lass thus having lost her love,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Disdaind to i<hi rend="overline">m</hi>itate the Turtle Dove</rdg>
+                    <rdg wit="#ee">Disdained to imitate the <seg>turtledove<note type="critical">a bird noted for affection to its mate</note></seg>,</rdg>
+                    <rdg wit="#ae">Disdained to imitate the <seg>turtledove<note type="critical">birds renowned for their monogamy and devotion. The turtledove is the subject of “The Poor Turtle Dove” (Emblem 20).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Who mourning Sits upon a withred Spray</rdg>
+                    <rdg wit="#ee">Who mourning sits upon a withered <seg>spray<note type="gloss">twig or shoot</note></seg>:</rdg>
+                    <rdg wit="#ae">Who mourning sits upon a withered spray.</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Her Noble Heart Refusd to Live one Day</rdg>
+                    <rdg wit="#ee">Her noble heart refused to live one day</rdg>
+                    <rdg wit="#ae">Her noble heart refused to live one day</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                   <rdg wit="#ft">Without her Love, earth noe contentment yields</rdg>
+                    <rdg wit="#ee">Without her love. Earth no contentment yields.</rdg>
+                    <rdg wit="#ae">Without her love. Earth no contentment yields.</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Shee vowes to follow him to the Elizian &ff;ields</rdg>
+                    <rdg wit="#ee">She vows to follow him to the <seg>Elysian fields<note type="critical">In Greek myth, this was the paradisal place where heroes went after death.</note></seg>,</rdg>
+                    <rdg wit="#ae">She vows to follow him to the <seg>Elysian fields<note type="critical">in Greek mythology, a blessed land where heroes live happily after their deaths.</note></seg>;</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">then</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_129" n="63r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_129"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_129"/></rdg>
+          </app>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Then takes a Pistol in her Snowey Hand</rdg>
+                    <rdg wit="#ee">Then takes a pistol in her snowy hand.</rdg>
+                    <rdg wit="#ae">Then takes a pistol in her snowy hand,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Like a Roman Lucrece Soe did Shee Stand</rdg>
+                    <rdg wit="#ee">Like a Roman <seg>Lucrece<note type="critical">Lucrece was a married Roman woman who, after being brutally raped, chose to commit suicide rather than live in perceived dishonor.</note></seg>, so did she stand,</rdg>
+                    <rdg wit="#ae">Like a Roman Lucrece so did she stand</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Who did prefer her Honour 'fore her Life</rdg>
+                    <rdg wit="#ee">Who did prefer her honor <seg>'fore<note type="gloss">before</note></seg> her life,</rdg>
+                    <rdg wit="#ae">Who did prefer her honor 'fore her life</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">And in her trembling Bosom thrust her Knife</rdg>
+                    <rdg wit="#ee">And in her trembling bosom thrust her knife;</rdg>
+                    <rdg wit="#ae">And in her trembling bosom thrust her knife;</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Or like that <seg>Babylonish<note type="physical">“y” appears corrected from earlier “i”</note></seg> Virgin Sweet</rdg>
+                    <rdg wit="#ee">Or like that <seg>Babylonish virgin<note type="critical">Thisbe, in love with Pyramus, kills herself when she thinks him dead.</note></seg> sweet</rdg>
+                    <rdg wit="#ae">Or like that Babylonish virgin sweet</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Who Saw her Love lie bleeding at her feet</rdg>
+                    <rdg wit="#ee">Who saw her love lie bleeding at her feet—</rdg>
+                    <rdg wit="#ae">Who saw her love lie bleeding at her feet</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Shee with his Sword, her Spotles Breast did pierce</rdg>
+                    <rdg wit="#ee">She, with his sword, her spotless breast did pierce,</rdg>
+                    <rdg wit="#ae">She with his sword, her spotless breast did pierce</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Which makes her live Still in <seg><hi rend="below">\</hi><hi rend="above">
+                        im \</hi><note type="physical">in H2</note></seg> Mortal vers</rdg>
+                    <rdg wit="#ee">Which makes her live still in immortal verse—</rdg>
+                    <rdg wit="#ae">Which makes her live <seg>still in immortal verse<note type="critical">the young lady of Oxford is compared to two famous women whose suicides are also memorialized in poetry: Lucrece, who killed herself after she was raped by Tarquin in 510 BCE, and Thisbe (“Babylonish virgin sweet”) who commits suicide after she discovers the death (also a suicide) of her lover Pyramus. The stories of both of these women have repeatedly been the subject of poetry. Ovid writes of Lucrece in book II of <title rend="italic">Fasti</title>, and Shakespeare adopts the story in <title rend="italic">The Rape of Lucrece</title> (1594). The earliest version of the Pyramus and Thisbe story is found in Ovid’s <title rend="italic">Metamorphoses</title> (book 4). Shakespeare uses this story for the plot of the play-within-a-play in <title rend="italic">A Midsummer's Night Dream</title> and also adapts it in <title rend="italic">Romeo and Juliet</title>. Pulter updates these tales of heroic female suicide by including a modern weapon (the pistol).</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Soe this Heroick Maid display'd her Breast</rdg>
+                    <rdg wit="#ee">So this heroic maid displayed her breast</rdg>
+                    <rdg wit="#ae">So this heroic maid displayed her breast,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">On which the God of Love was proud to Rest</rdg>
+                    <rdg wit="#ee">On which the <seg>god of love<note type="gloss">Cupid</note></seg> was proud to rest;</rdg>
+                    <rdg wit="#ae">On which the god of love was proud to rest,</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">The Sulpherus mouth plac'd at her generous Heart</rdg>
+                    <rdg wit="#ee">The sulfurous <seg>mouth<note type="gloss">i.e., of the gun</note></seg> placed at her generous heart,</rdg>
+                    <rdg wit="#ae">The sulfurous mouth placed at her generous heart,</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Her Noble Mind triumphs or'e Death and Smart</rdg>
+                    <rdg wit="#ee">Her noble mind triumphs o'er death and <seg>smart<note type="gloss">pain; grief</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>Her noble mind triumphs o'er death and smart<note type="critical">Pulter interprets the Lady’s suicide as heroic, which corresponds to Stoic philosophy but is in conflict with Christian ethics. I have not been able to identify a specific historical analogue for the anecdote of a young lady’s suicide in Oxford during the Civil Wars, though the mixture specific historical details with classical precedent suggests that more research is warranted. If this story is fictional, Pulter has invented her own “fable” to place beside the classical exempla cited in the poem. If the story is historical, it is notable that Pulter does not condemn the Lady’s suicide, but interprets it as evidence of her nobility of spirit.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">To Heaven Shee Rowls her Sparkling dieing Eyes</rdg>
+                    <rdg wit="#ee">To Heaven she rolls her sparkling, dying eyes;</rdg>
+                    <rdg wit="#ae">To Heaven she rolls her sparkling dying eyes;</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">&ff;rom her undaunted Breast her Spirit &ff;lyes</rdg>
+                    <rdg wit="#ee">From her undaunted breast her spirit flies.</rdg>
+                    <rdg wit="#ae">From her undaunted breast her spirit flies,</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Even Soe a Spotles Lylley &ff;als and Dies</rdg>
+                    <rdg wit="#ee">Even so a spotless lily falls and dies.</rdg>
+                    <rdg wit="#ae">Even so a spotless lily falls and dies.</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">As this declares a 
+                        m<hi rend="below">^</hi><hi rend="above">a</hi>gnanimous Spirit</rdg>
+                    <rdg wit="#ee">As this declares a <seg>magnanimous<note type="gloss">noble; courageous</note></seg> spirit,</rdg>
+                    <rdg wit="#ae">As this declares a magnanimous spirit,</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Soe Shee the Glory of it doth inherit</rdg>
+                    <rdg wit="#ee">So she the glory of it doth inherit.</rdg>
+                    <rdg wit="#ae">So she the glory of it doth inherit.</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">This Shee did doe to follow Earthey Love</rdg>
+                    <rdg wit="#ee">This she did do to follow earthly love,</rdg>
+                  <rdg wit="#ae">This she did do to follow <seg>earthy<note type="critical">“consisting of earth, or of material resembling earth. Also used fig. of the human body, esp. a dead body” <bibl>(<title rend="italic">OED</title> "earthy" n. 1.c.)</bibl>. Pulter’s use of “earthy” rather than the more common “earthly” may reflect the interest in the elements displayed elsewhere in her poetry. See <ref corresp="28" type="pp-poem-ref" target="/">O, My Afflicted Solitary Soul</ref> and <ref corresp="41" type="pp-poem-ref" target="/">The Invocation of the Elements</ref>.</note></seg> love,</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">And thou my Soule whose Joys and Hope's aboue</rdg>
+                    <rdg wit="#ee">And thou, my soul, whose joys and hopes above</rdg>
+                    <rdg wit="#ae">And thou, my soul, whose joys and hopes above</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Are placed Still Hanckrest hovering here below</rdg>
+                    <rdg wit="#ee">Are placed, still <seg>hank'rest<note type="gloss">lingers</note>, hovering here below</seg>:</rdg>
+                    <rdg wit="#ae">Are placed, still hankerest, hovering here below.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Oh when wilt thou to thy Redeemer goe</rdg>
+                    <rdg wit="#ee">O, when wilt thou to thy Redeemer go?</rdg>
+                    <rdg wit="#ae">Oh, when wilt thou to thy redeemer go?</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Thou keep'st a &ff;luttring here bout this base earth</rdg>
+                    <rdg wit="#ee">Thou keep'st afluttering here 'bout this base earth.</rdg>
+                    <rdg wit="#ae">Thou keep'st afluttering here 'bout this base earth;</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">My Soul I doubt thou dos't forget thy Birth</rdg>
+                    <rdg wit="#ee">My soul, I <seg>doubt<note type="gloss">fear; suspect</note></seg> thou dost forget thy birth:</rdg>
+                    <rdg wit="#ae">My soul, I doubt thou dost forget thy birth.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">thou</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_130" n="663v"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_130"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_130"/></rdg>
+            </app>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Thou art a Ray of that <seg>invisible<note type="physical">third “i” appears written over “u”</note></seg> Light</rdg>
+                    <rdg wit="#ee">Thou art a ray of that invisible light:</rdg>
+                    <rdg wit="#ae">Thou art a ray of that invisible light,</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Thy wings noe impeing need, then take thy &ff;leight</rdg>
+                    <rdg wit="#ee">Thy wings no <seg>imping<note type="gloss">engrafting feathers in a bird’s wing to remedy losses or deficiencies, and so restore or improve the powers of flight</note></seg> need; then take thy flight!</rdg>
+                    <rdg wit="#ae">Thy wings no <seg>imping<note type="critical">“to engraft feathers in the wing of a bird, so as to make good losses or deficiencies” <bibl>(<title rend="italic">OED</title> "imp," v. 4.)</bibl>. Compare to George Herbert’s “Easter Wings,” in which the speaker desires to “imp” his wing on Christ: “For, if I imp my wing on thine, / Affliction shall advance the flight in me.”</note></seg> need, then take thy flight.</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">Leav then this <seg>Low<note type="physical">“w” written over other letter</note></seg> and Gloomey earthly Spheir</rdg>
+                    <rdg wit="#ee">Leave then this low and gloomy earthly sphere;</rdg>
+                    <rdg wit="#ae">Leave then this low and gloomy earthly sphere.</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">What dost thou mean, what dost thou hope, or fear</rdg>
+                    <rdg wit="#ee">What dost thou mean-what dost thou hope, or fear?</rdg>
+                    <rdg wit="#ae">What dost thou mean? What dost thou hope, or fear?</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Tell mee is thy eternall busines here</rdg>
+                    <rdg wit="#ee">Tell me, is thy eternal business here?</rdg>
+                    <rdg wit="#ae">Tell me, is thy eternal business here?</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Hee whom thou lovest is gone, to Heaven hee's &ff;led</rdg>
+                    <rdg wit="#ee">He whom thou lovest is gone: to Heaven He's fled.</rdg>
+                    <rdg wit="#ae">He whom thou lovest is gone; to Heaven he's fled.</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">Why dost thou Seek the Living <seg>amongst<note type="physical">“st” crowded between surrounding words</note></seg> the Dead</rdg>
+                    <rdg wit="#ee">Why dost thou seek the living amongst the dead?</rdg>
+                    <rdg wit="#ae"><seg>Why dost thou seek the living amongst the dead?<note type="critical">Pulter alludes to Luke 24:5: “And as they were afraid, and bowed down their faces to the earth, they said unto them, Why seek ye the living among the dead?” (AV)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">My active &ff;aith took wing and Late did fly</rdg>
+                    <rdg wit="#ee">My active faith took wing and late did fly</rdg>
+                    <rdg wit="#ae">My active faith took wing and late did fly</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">Upto the top of Canaans Calvary</rdg>
+                    <rdg wit="#ee">Up to the top of <seg>Canaan's Calvary<note type="critical">Calvary was where Christ was crucified; Canaan is the biblical promised land.</note></seg>;</rdg>
+                    <rdg wit="#ae">Up to the top of Canaan's <seg>Calvary<note type="critical">the location of Christ’s crucifixion.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">There did I See with &ff;aiths Resplendent Eye</rdg>
+                    <rdg wit="#ee">There did I see, with faith's <seg>resplendent<note type="gloss">shining, brilliant</note></seg> eye,</rdg>
+                    <rdg wit="#ae">There did I see with <seg>faith's resplendent eye<note type="critical">Pulter describes her faith as an “active” aid to vision. The “resplendent” (shining) eye of faith allows her to “see” the crucifixion of Christ. Compare to <ref target="45" type="pp-poem-ref" corresp="/">This Was Written in 1648, When I Lay In, With my Son John</ref> in which the speaker’s “thoughts” allow a vision of the planets.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">The &ff;ountain of all Love my Saviour Die</rdg>
+                    <rdg wit="#ee">The fountain of all love, my Saviour, die.</rdg>
+                    <rdg wit="#ae">The fountain of all love, my savior, die.</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">There did Longuives Peirce that guiltles brest</rdg>
+                    <rdg wit="#ee">There did <seg>Longuives<note type="critical">Longeus, Longius, or Longinus is the traditional name for the Roman soldier at the Crucifixion who pierced Christ’s side with his spear to ensure that Christ was dead.</note></seg> pierce that guiltless breast</rdg>
+                    <rdg wit="#ae">There did <seg>Longinus<note type="critical">the name traditionally given to the Roman soldier who pierced Jesus with his lance. See John 19:34: “But one of the soldiers with a spear pierced his side, and forthwith came there out of blood and water” (AV).</note></seg> pierce that guiltless brest</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">In which the &ff;aithfull Shall in Glory Rest</rdg>
+                    <rdg wit="#ee">In which the faithful shall in glory rest.</rdg>
+                    <rdg wit="#ae">In which the faithful shall in glory rest.</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft">Ay mee there did his dieing Quickni<hi rend="below">^</hi><hi rend="above">n</hi>g 
+                    Blood</rdg>
+                    <rdg wit="#ee">Ay me, there did His dying, <seg>quickening<note type="gloss">life-giving</note></seg> blood</rdg>
+                    <rdg wit="#ae">Ay me! There did his dying <seg>quickening<note type="critical">“to come or bring to life” <bibl>(<title rend="italic">OED</title>, "quicken," v. 1.)</bibl>; “dying quickening blood” is a paradox, suggesting that Christ’s blood renews life through death.</note></seg> blood</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">&ff;low from his Side for our eternal good</rdg>
+                    <rdg wit="#ee">Flow from His side for our eternal good;</rdg>
+                    <rdg wit="#ae">Flow from his side for our eternal good.</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">To Heaven his Righteous Soul did take his &ff;lieght</rdg>
+                    <rdg wit="#ee">To Heaven His righteous soul did take His flight,</rdg>
+                    <rdg wit="#ae">To Heaven his righteous soul did take his flight,</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">Leaving the Univers Lapt up in Night</rdg>
+                    <rdg wit="#ee">Leaving the universe lapped up in night.</rdg>
+                    <rdg wit="#ae"><seg>Leaving the universe lapped up in night<note type="critical">upon the death of his body, Christ’s soul returns to Heaven, leaving all of the created universe in darkness (“lapped up in night”). Compare <ref target="/" type="pp-poem-ref" corresp="5">Of Night and Morning</ref>.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">O admirable, unparraleld affection</rdg>
+                    <rdg wit="#ee">O admirable, unparalleled affection,</rdg>
+                    <rdg wit="#ae">O admirable, unparalleled affection;</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">Thus by <hi rend="below">\</hi> <seg>his fall<note type="physical">written over illegible erased word(s)</note></seg> <seg><hi rend="above">his &ff;all \</hi><note type="physical">in H2</note></seg> recovering
+                    <w lemma="our"><abbr>o:<hi rend="superscript">r</hi></abbr></w> defection</rdg>
+                    <rdg wit="#ee">Thus, by His fall, recovering our <seg>defection<note type="gloss">imperfection, shortcoming; abandonment of one’s religion, moral duty, cause or country</note></seg>!</rdg>
+                    <rdg wit="#ae">Thus by his fall recovering our defection.</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">I am amazed at his infinite Love</rdg>
+                    <rdg wit="#ee">I am amazed at His infinite love;</rdg>
+                    <rdg wit="#ae">I am amazed at his infinite love;</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">&ff;or <hi rend="below">^</hi><hi rend="above">us</hi> hee left his Glorious Throne aboue</rdg>
+                    <rdg wit="#ee">For us he left his glorious throne above.</rdg>
+                    <rdg wit="#ae">For us he left his glorious throne above.</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">Though for a good Man one would Deign to die</rdg>
+                    <rdg wit="#ee">Though for a good man one would <seg>deign<note type="gloss">condescend; graciously accept</note></seg> to die,</rdg>
+                    <rdg wit="#ae">Though for a good man one would deign to die,</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">Yet who would doe Soe for his enemie</rdg>
+                    <rdg wit="#ee">Yet who would do so for his enemy?</rdg>
+                    <rdg wit="#ae"><seg>Yet who would do so for his enemy<note type="critical">Pulter paraphrases Romans 5:7-8: “For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die. But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.” (AV). This allusion frames the exempla that follow because each includes sacrifice on behalf of a friend or “good man” rather than an enemy, while Christ dies for humans who are his “cursed foes.”</note></seg>?</rdg>
+                </app>
+            </l>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_131" n="64r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_131"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_131"/></rdg>
+            </app>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">Damon, and Pithias, would Die for one another</rdg>
+                    <rdg wit="#ee"><seg>Damon and Pythias<note type="critical">In classical legend, these faithful friends each strove to save the other from a sentence of death.</note></seg> would die for one another;</rdg>
+                    <rdg wit="#ae">Damon and Pythias would die for one another,</rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">Pollux divided Splendour with his Brother</rdg>
+                    <rdg wit="#ee"><seg>Pollux<note type="critical">Zeus changed Pollux and his twin brother, Castor, into the constellation Gemini after Castor died and Pollux refused to part from him.</note></seg> divided splendor with his brother;</rdg>
+                    <rdg wit="#ae">Pollux divided splendor with his brother,</rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">Patrocles, and Achillis, loues excell</rdg>
+                    <rdg wit="#ee"><seg>Patroclus and Achilles<note type="critical">In classical myth, these were Greek soldiers in the Trojan war. When Patroclus is killed by Hector, Achilles (who has until then refused to fight) avenges his best friend’s death by returning to battle and killing Hector.</note></seg>'s loves excel;</rdg>
+                    <rdg wit="#ae">Patroclus' and Achilles' loves excel,</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">Theseus reveng'd Perithous death in Hell</rdg>
+                    <rdg wit="#ee"><seg>Theseus revenged Pirithous's death in Hell<note type="critical">Theseus and Pirithous were close comrades who went to Hades; Theseus survived, but Pirithous did not.</note></seg>;</rdg>
+                    <rdg wit="#ae">Theseus revenged Pirithous' death in Hell,</rdg>
+                </app>
+            </l>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">When lovly <seg>Lisle<note type="physical">"sle" written over earlier letters</note></seg> Saw Lucas Bleeding Lie</rdg>
+                  <rdg wit="#ee">When lovely <seg>Lisle saw Lucas<note type="critical">George Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the English civil war, who were executed by a firing squad without trial after their defeat and capture at Colchester in 1648. See Pulter’s <ref type="pp-pem-ref" target="/" corresp="7">On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas</ref>.</note></seg> bleeding lie,</rdg>
+                    <rdg wit="#ae">When lovely Lisle saw Lucas bleeding lie,</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">Hee on his trembling Boosome Strait did die</rdg>
+                    <rdg wit="#ee">He on his trembling bosom straight did die.</rdg>
+                    <rdg wit="#ae">He on his trembling bosom straight did die.</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">Thus doe these Storyes and these &ff;ables teach</rdg>
+                    <rdg wit="#ee">Thus do these <seg>stories<note type="gloss">i.e., histories</note></seg> and these fables teach</rdg>
+                    <rdg wit="#ae"><seg>Thus do these stories and these fables teach<note type="critical">Pulter identifies five famous pairs to serve as partial analogues for Christ’s love and sacrifice for humans: 1) Damon offered himself as surety for his friend Pythias; 2) The immortal Pollux offered to share his immortality with his mortal twin Castor; 3) Patroclus is killed by Hector, and Achilles returns to battle to avenge the death of his lover; 4) Theseus and his friend Pirithous attempt travel to the underworld, where they intend to capture Persephone so Pirithous can marry her; when they fail, Pirithous is stranded in the underworld, and Theseus tries, and fails, to rescue him; 5) Lucas and Lisle are well known Royalist soldiers who were captured and executed by Parliamentarian forces at Colchester in 1648. While there is quite a bit of variation in the “love” demonstrated by each of these stories, the final pair is distinct because they are Pulter’s contemporaries. Lucas and Lisle were considered Royalist martyrs and were commemorated in numerous panegyrics and poems. See also Pulter’s <ref type="pp-pem-ref" target="/" corresp="7">On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">And Shew to us how fare our Love may Reach</rdg>
+                    <rdg wit="#ee">And show to us how far our love may reach;</rdg>
+                    <rdg wit="#ae">And show to us how far our love may reach.</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">But <hi rend="below">^</hi><hi rend="above">hee</hi> (my Soul) his 
+                    precious Blood did lose</rdg>
+                    <rdg wit="#ee">But He (my soul) His precious blood did lose</rdg>
+                    <rdg wit="#ae">But he (my soul) his precious blood did lose</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft">&ff;or us (Ay mee) for us his Curssed 
+                        <seg>&ff;oese<note type="physical">“e” imperfectly erased</note></seg></rdg>
+                    <rdg wit="#ee">For us (ay me), for us: His curséd foes.</rdg>
+                    <rdg wit="#ae">For us (ay me) for us his cursed foes.</rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">Considering this my Soul how canst thou Stay</rdg>
+                    <rdg wit="#ee">Considering this, my soul, how canst thou stay?</rdg>
+                    <rdg wit="#ae">Considering this, my soul, how canst thou stay</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">Now hee is Gon, dost thou not know the way?</rdg>
+                    <rdg wit="#ee">Now He is gone, dost thou not know <seg>the way<note type="critical">See John 14:6: "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me."</note></seg>—</rdg>
+                    <rdg wit="#ae">Now he is gone? Dost thou not know the way?</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">When little Infants new Created Souls</rdg>
+                    <rdg wit="#ee">When little infants' new-created souls</rdg>
+                    <rdg wit="#ae">When little infants' new created souls</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">Doe easily &ff;ly <seg>aboue<note type="physical">imperfectly erased
+                        ascender suggests final “t” corrected to “e”</note></seg> or Star, or Poles,</rdg>
+                    <rdg wit="#ee">Do easily fly above <seg>or<note type="gloss">either</note></seg> star or poles,</rdg>
+                    <rdg wit="#ae">Do easily fly above or star, or poles,</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">And &ff;rom their tender Mothers Ubrious Brest</rdg>
+                    <rdg wit="#ee">And from their tender mother's <seg>uberous<note type="gloss">full; nourishing</note></seg> breast</rdg>
+                    <rdg wit="#ae">And from their tender mother's <seg>uberous<note type="critical">“supplying milk or nourishment in abundance” <bibl>(<title rend="italic">OED</title>, “uberous,” adj. 1.a.)</bibl>. Though “tender” mothers nourish their infants with milk from their own breasts, children often die, but unlike the speaker’s own soul, they know the way to heaven. Their souls escape the earth and travel to a “star” or the “poles,” and they “fly to their eternal rest.”
+                    </note></seg> breast</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">Doe often &ff;ly to their eternall Rest</rdg>
+                    <rdg wit="#ee">Do often fly to their eternal rest?</rdg>
+                    <rdg wit="#ae">Do often fly to their eternal rest;</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">And thou my Soul witherd and Worn <w lemma="with"><abbr>w:
+                        <hi rend="superscript">th</hi></abbr></w> Grief</rdg>
+                    <rdg wit="#ee">And thou, my soul, withered and worn with grief:</rdg>
+                    <rdg wit="#ae">And thou, my soul, withered and worn with grief,</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">Think'st in this Dunghill earth to find Relief</rdg>
+                    <rdg wit="#ee">Think'st in this <seg>dunghill<note type="gloss">filthy, excrement-like</note></seg> earth to find relief?</rdg>
+                    <rdg wit="#ae">Think'st in this dunghill earth to find relief?</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">Believe it Terren hopes are all But vain</rdg>
+                    <rdg wit="#ee">Believe it: <seg>terrene<note type="gloss">earthly</note></seg> hopes are all but vain,</rdg>
+                    <rdg wit="#ae">Believe it: <seg>terrene<note type="gloss">“belonging to the earth or to this world; earthly, worldly, secular, temporal, material, human” <bibl>(<title rend="italic">OED</title>, "terrene," adj. 1.a.)</bibl></note></seg> hopes are all but vain;</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">&ff;or thou must cast thy Haccle once again</rdg>
+                    <rdg wit="#ee">For thou must <seg>cast<note type="gloss">cast off</note></seg> thy <seg>hackle<note type="critical">covering, as skin, or outer garment; the speaker proposes the skin or other earthly forms must be cast off “again” by way of returning to an original condition.</note></seg> once again</rdg>
+                    <rdg wit="#ae">For thou must cast thy <seg>hackle<note type="critical">“a cloak, a mantle, an outer garment”; or, “A covering or skin of any kind, <hi rend="italic">esp.</hi> a snake’s skin” <bibl>(<title rend="italic">OED</title>, "hackle," n. 1. and 2.)</bibl>. Here “hackle” refers to the speaker’s body, which serves as a covering or “skin” for the soul.</note></seg> once again</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">Before thou canst posses those endles Joyes</rdg>
+                    <rdg wit="#ee">Before thou canst possess those endless joys,</rdg>
+                    <rdg wit="#ae">Before thou canst possess those endless joys,</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">C<hi rend="overline">o</hi>par'd with which all worldly Pomps are Toyes.</rdg>
+                    <rdg wit="#ee">Compared with which all worldly pomps are <seg>toys<note type="gloss">trivial things</note></seg>.</rdg>
+                    <rdg wit="#ae">Compared with which all worldly pomps are toys.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="ascending straight line"/>
+                </rdg>
+            </app>
+            
+        </body>
+    </text>
+</TEI>

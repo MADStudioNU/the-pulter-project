@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.10">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Upon the Death of my Dear and Lovely Daughter, Jane Pulter</title>
+                <title type="sub">Poem #10</title>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <persName>Katherine E. Poland</persName>
+                    <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Website designed by</resp>
+                    <persName>Sergei Kalugin</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT-project consultation by</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>elegy</term>
+                    <term>death</term>
+                    <term>daughters</term>
+                    <term>grief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_035.jpg" xml:id="f7610_035"/>
+        <graphic url="./document_images/7610_036.jpg" xml:id="f7610_036"/>
+        <graphic url="./document_images/7610_037.jpg" xml:id="f7610_037"/>        
+        <graphic url="./document_images/7610_038.jpg" xml:id="f7610_038"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 21, 2018</date>.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 21, 2018</date>.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Zeman Kolkovich</persName>. Last updated <date>June 21, 2018</date>.</witness>
+                  <witness xml:id="a2">Second amplified edition: Edited by <persName>Elizabeth Zeman Kolkovich</persName>. Last updated <date>June 21, 2018</date>.</witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_036" n="16v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_036"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_036"/></rdg>
+                <rdg wit="#a2"><pb ed="#a2" facs="#f7610_036"/></rdg>
+            </app>
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_036" type="pageNum" place="margin-topright">PG#</fw>Vpon the Death of my deare and lovely Daughter JP <seg>Jane Pulter, baptized May 1,1625. Buried Oct.8, 1645 <w lemma="at">æt</w> 20.<note type="physical"> in different hand from main scribe</note></seg></rdg>
+                    <rdg wit="#ee">Upon the Death of my Dear and Lovely Daughter, <seg>Jane Pulter<note type="gloss">Jane (1625-1645) was one of Pulter’s fifteen children. Her full name and a note, “Baptized May 1,1625, Buried Oct.8, 1645 at 20,” are written in a different hand from the main scribe after the title.</note></seg></rdg>
+                    <rdg wit="#ae">Upon the Death of <seg>My Dear and Lovely Daughter, J.P.<note type="critical">Jane Pulter (J.P.) was Hester Pulter’s second child of fifteen, almost all of whom predeceased their mother (<bibl><author>Eardley</author>; <author>Sarah C. E. Ross</author>, <title rend="italic">Women, Poetry, and Politics in Seventeenth-Century Britain</title> [Oxford UP, 2015]</bibl>). In the manuscript, a different hand from the main scribe added to the title: “Jane Pulter, baptized May 1, 1625. Buried Oct. 8, 1645 at 20.” This elegy, which was probably composed in 1647, employs and resists generic conventions for expressing parental grief. The “Curations” section for this poem in The Pulter Project includes several contemporary child-loss elegies for comparison: Ben Jonson’s “On My First Daughter,” Katherine Philips on her son Hector’s death, Elizabeth Egerton’s “On My Boy Henry,” and Anne Bradstreet’s “In Memory of My Dear Grandchild Anne Bradstreet.”</note></seg> <seg type="context-within-title">[Version A: Pulter’s early draft]</seg></rdg>
+                  <rdg wit="#a2">Upon the Death of My Dear and Lovely Daughter, <seg>J.P.<note type="critical">Jane Pulter (J.P.) was Hester Pulter’s second child of fifteen, almost all of whom predeceased their mother (Eardley; Sarah C. E. Ross, Women, Poetry, and Politics in Seventeenth-Century Britain [Oxford UP, 2015]). In the manuscript, a different hand from the main scribe added to the title: “Jane Pulter, baptized May 1, 1625. Buried Oct. 8, 1645 at 20.” This elegy, which was probably composed in 1647, employs and resists conventions for expressing parental grief. The “Curations” section for this poem in The Pulter Project includes several contemporary child-loss elegies for comparison: Ben Jonson’s “On My First Daughter,” Katherine Philips on her son Hector’s death, Elizabeth Egerton’s “On My Boy Henry,” and Anne Bradstreet’s “In Memory of My Dear Grandchild Anne Bradstreet.”</note></seg> <seg type="context-within-title">[Version B: Pulter’s revised text]</seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                  <rdg wit="#ae"><note type="editorialnote">To prepare this poem for a wide range of readers, I have modernized spelling, punctuation, and capitalization to conform to standard American usage, as well as expanded all contractions. I have glossed archaic definitions and confusing syntax, identified allusions, and alerted readers when the manuscript’s original spelling is especially worth considering. In my notes, I aim not to direct interpretation in a restrictive way, but to facilitate multiple interpretations of the poem by highlighting its engagement with genre, myth, and religion.</note></rdg>
+                  <rdg wit="#a2"><note type="editorialnote">To prepare this poem for a wide range of readers, I have modernized spelling, punctuation, and capitalization to conform to standard American usage, as well as expanded all contractions. I have glossed archaic definitions and confusing syntax, identified allusions, and alerted readers when the manuscript’s original spelling is especially worth considering. In my notes, I aim not to direct interpretation in a restrictive way, but to facilitate multiple interpretations of the poem by highlighting its engagement with genre, myth, and religion.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee">
+                  <note type="headnote">Written two years after the death of her daughter Jane, Pulter offers a personal elegy that intermixes Christian and classical references. Addressed to other parents, the poem laments the fact that the passing of time, marked by seasonal changes in the natural world and the movement of planets, has not lessened the intensity of her grief, which is not conventionally resolved with Christian affirmation of the afterlife here. Writing in the genre of the “child-loss” poem, Pulter’s tenor is unusually personal; it vividly narrates the moment of Jane’s death by contrasting the purity of her soul with physical signs of illness: the red blotches of fever akin to red roses on a bed of lilies or the blood of a wounded deer in the snow. The poem concludes with the speaker poignantly imagining herself as Niobe, the classical figure who turned to stone for excessive pride in her children, someone whose petrification represents the lifelessness the speaker feels in her state of grief.</note>
+                </rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>This poem, written two years after the death of Pulter’s adult daughter Jane, offers a fascinating perspective on maternal grief. The passage of time and the Christian concepts of heaven and resurrection have done little to assuage the speaker’s pain, and she seeks a more satisfying expression of her grief by experimenting with cultural allusions and by combining conventions of child-loss elegies with those of Petrarchan love poetry. Many seventeenth-century poets writing about the death of a child found solace in Christianity as they reframed grief as divine grace. Many other English poets imitated Petrarch, a fourteenth-century Italian poet whose male speaker expressed unrequited love for a beautiful but inaccessible woman. Pulter’s elegy builds upon both traditions. It describes a mother’s love for her daughter in Petrarchan terms as its speaker refuses to be consoled.</p>
+                    <p>The poem is also noteworthy for revealing a work in progress. Like all of Pulter’s poetry, it survives in a single manuscript. In the manuscript, this poem’s line 44 is crossed out and replaced with nine new lines, and because these changes are written in the same scribal hand as the rest of the manuscript, it is likely that they are authorially sanctioned. I have edited two versions of the poem to enable readers to compare Pulter’s early and revised endings; this version is the early one. The salient differences can be found in the final eight lines here and the final sixteen in “Version B: Pulter’s revised text.” Unlike the revised version, which alludes to Royalist lament, the early version presented here does not connect maternal grief to contemporary politics, and it dwells a little less on Jane’s physical body and the cyclical nature of grief.</p>
+                  <p>To prepare this poem for a wide range of readers, I have modernized spelling, punctuation, and capitalization to conform to standard American usage, as well as expanded all contractions. I have glossed archaic definitions and confusing syntax, identified allusions, and alerted readers when the manuscript’s original spelling is especially worth considering. In my notes, I aim not to direct interpretation in a restrictive way, but to facilitate multiple interpretations of the poem by highlighting its engagement with genre, myth, and religion.</p>
+                </note></rdg>
+                <rdg wit="#a2"><note type="headnote">
+                  <p>This poem, written two years after the death of Pulter’s adult daughter Jane, offers a fascinating perspective on maternal grief. The passage of time and the Christian concepts of heaven and resurrection have done little to assuage the speaker’s pain, and she seeks a more satisfying expression of her grief by experimenting with cultural allusions and by combining conventions of child-loss elegies with those of Petrarchan love poetry. Many seventeenth-century poets writing about the death of a child found solace in Christianity as they reframed grief as divine grace. Many other English poets imitated Petrarch, a fourteenth-century Italian poet whose male speaker expressed unrequited love for a beautiful but inaccessible woman. Pulter’s elegy builds upon both traditions. It describes a mother’s love for her daughter in Petrarchan terms as its speaker refuses to be consoled.</p>
+                    <p>The poem is also noteworthy for revealing a work in progress. Like all of Pulter’s poetry, it survives in a single manuscript. In the manuscript, this poem’s line 44 is crossed out and replaced with nine new lines, and because these changes are written in the same scribal hand as the rest of the manuscript, it is likely that they are authorially sanctioned. I have edited two versions of the poem to enable readers to compare Pulter’s early and revised endings. This version is the revised one; it incorporates the nine added lines (43-52), which adapt a popular image from both Petrarchan and Royalist poetry to compare Jane to a hunted deer. These new lines transform the poem into a subtle Royalist lament, and, in repeating phrases and images from other parts of the poem, they amplify the speaker’s obsession with Jane’s red rash as she tries to explain to others the devastating physical destruction of Jane’s illness.</p>
+                  <p>To prepare this poem for a wide range of readers, I have modernized spelling, punctuation, and capitalization to conform to standard American usage, as well as expanded all contractions. I have glossed archaic definitions and confusing syntax, identified allusions, and alerted readers when the manuscript’s original spelling is especially worth considering. In my notes, I aim not to direct interpretation in a restrictive way, but to facilitate multiple interpretations of the poem by highlighting its engagement with genre, myth, and religion.</p>
+                </note></rdg>
+            </app>
+            </head>
+            <lg>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">All you that haue indulgent Parents been</rdg>
+                    <rdg wit="#ee">All you that have indulgent parents been,</rdg>
+                    <rdg wit="#ae"><seg>All you<note type="critical">There is no evidence that Pulter’s poems circulated beyond her immediate family in her lifetime, but this opening line suggests that she imagined a broader audience for this poem.</note></seg> that have indulgent parents been,</rdg>
+                    <rdg wit="#a2"><seg>All you<note type="critical">There is no evidence that Pulter’s poems circulated beyond her immediate family in her lifetime, but this opening line suggests that she imagined a broader audience for this poem.</note></seg> that have indulgent parents been,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">And have  your Children in perfection Seen</rdg>
+                    <rdg wit="#ee">And have  your children in perfection seen</rdg>
+                    <rdg wit="#ae">And have your children in perfection seen</rdg>
+                    <rdg wit="#a2">And have your children in perfection seen</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Of youth and bevty; lend one Teare to mee</rdg>
+                    <rdg wit="#ee">Of youth and beauty: lend one tear to me,</rdg>
+                    <rdg wit="#ae">Of youth and beauty: lend one tear to me,</rdg>
+                    <rdg wit="#a2">Of youth and beauty: lend one tear to me,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">And trust mee I will doe as much for thee</rdg>
+                    <rdg wit="#ee">And trust me, I will do as much for thee,</rdg>
+                    <rdg wit="#ae">And trust me I will do as much for thee,</rdg>
+                    <rdg wit="#a2">And trust me I will do as much for thee,</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Unleſs my own griefe doe exhaust my Store</rdg>
+                    <rdg wit="#ee">Unless my own grief do exhaust my store;</rdg>
+                    <rdg wit="#ae">Unless my own grief do exhaust my store;</rdg>
+                    <rdg wit="#a2">Unless my own grief do exhaust my store;</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Then will I Sigh till I suspire noe more</rdg>
+                    <rdg wit="#ee">Then will I sigh till I <seg>suspire<note type="gloss">breathe</note></seg> no more</rdg>
+                    <rdg wit="#ae">Then will I sigh ’til I <seg>suspire<note type="critical">Pulter uses “suspire” in multiple poems to indicate breathing or sighing, as in yearning for something lost (see, e.g. “On the Horrid Murder of That Incomparable Prince, King Charles the First”). The manuscript’s title, “Poems breathed forth,” suggests that Pulter’s poems themselves are like sighs. For an interpretation of Pulter’s discourse of sighs and tears as political activism, see <bibl><author>Ross</author>, <title rend="italic">Women, Poetry, and Politics</title>, 135-73.</bibl></note></seg> no more.</rdg>
+                    <rdg wit="#a2">Then will I sigh ‘til I <seg>suspire<note type="critical">Pulter uses “suspire” in multiple poems to indicate breathing or sighing, as in yearning for something lost (see, e.g. “On the Horrid Murder of That Incomparable Prince, King Charles the First”). The manuscript’s title, “Poems breathed forth,” suggests that Pulter’s poems themselves are like sighs. For an interpretation of Pulter’s discourse of sighs and tears as political activism, see <bibl><author>Ross</author>, <title rend="italic">Women, Poetry, and Politics</title>, 135-73.</bibl></note></seg> no more.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Twice hath the Earth Thrown Cloris Mantle by</rdg>
+                    <rdg wit="#ee">Twice hath the Earth thrown <seg>Chloris’s<note type="gloss">goddess of spring</note></seg> mantle by,</rdg>
+                    <rdg wit="#ae">Twice hath the Earth thrown <seg>Chloris’<note type="critical">Chloris is the Greek goddess of the spring. In “The Invitation to the Country,” Pulter uses Chloris as a pseudonym for King Charles I’s wife, Henrietta Maria, who played Chloris in <bibl><author>Ben Jonson</author>’s <title rend="italic">Chloridia</title> (<date>1631</date>)</bibl>.</note></seg> mantle by,</rdg>
+                    <rdg wit="#a2">Twice hath the Earth thrown <seg>Chloris’<note type="critical">Chloris is the Greek goddess of the spring. In “The Invitation to the Country,” Pulter uses Chloris as a pseudonym for King Charles I’s wife, Henrietta Maria, who played Chloris in <bibl><author>Ben Jonson</author>’s <title rend="italic">Chloridia</title> (<date>1631</date>)</bibl>.</note></seg> mantle by,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Imbroidred or’e with Curious Tapistry</rdg>
+                    <rdg wit="#ee">Embroidered o’er with <seg>curious<note type="gloss">artful; elaborate; delicate</note></seg> tapestry,</rdg>
+                    <rdg wit="#ae">Embroidered o’er with curious tapestry,</rdg>
+                    <rdg wit="#a2">Embroidered o’er with curious tapestry,</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">And twice hath Seem’d to mourn unto <w lemma="our"><abbr>o:<hi rend="superscript">r</hi></abbr></w> Sight</rdg>
+                    <rdg wit="#ee">And twice hath seemed to mourn unto our sight,</rdg>
+                    <rdg wit="#ae">And <seg>twice<note type="critical">The repetition of “twice” marks the passage of time: it has been two years since Jane died. It also contributes to the poem’s emphasis on cycles and endless sorrow without relief, as seen later in the repeated line, “still my heart is overwhelmed with grief.” </note></seg> hath seemed to mourn unto our sight</rdg>
+                    <rdg wit="#a2">And <seg>twice<note type="critical">The repetition of “twice” marks the passage of time: it has been two years since Jane died. It also contributes to the poem’s emphasis on cycles and endless sorrow without relief, as seen later in the repeated line, “still my heart is overwhelmed with grief.”</note></seg> hath seemed to mourn unto our sight</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Like Jewes, or Chineſſes in Snowey white</rdg>
+                    <rdg wit="#ee">Like Jews or Chinesses in <seg>snowy white<note type="critical">the traditional color of mourning in China; the color of the kittel (a smock) in which a Jewish corpse was dressed and which congregants wore, as a reminder of death, on Rosh Ha-Shanah and Yom Kippur.In his book on comparative religions, Samuel Purchas mentions the Hebrew practice of dressing a corpse in the white clothing typically worn of the Feast of Reconciliation (see Purchas His Pilgrimage, 1626, p. 206).</note></seg>.</rdg>
+                    <rdg wit="#ae">Like Jews or Chinesses in snowy <seg>white<note type="critical">White is a traditional color of mourning in China; <bibl><title rend="italic">Purchas His Pilgrimage</title> (1613)</bibl> explains that Jewish corpses wore white vestments, as did Jewish congregants during the Feast of Reconciliation (Christian). White clothing also replicates the color of Jane’s “milky limbs” in the next line.</note></seg>,</rdg>
+                    <rdg wit="#a2">Like Jews or Chinesses in snowy <seg>white<note type="critical">White is a traditional color of mourning in China; <bibl><title rend="italic">Purchas His Pilgrimage</title> (1613)</bibl> explains that Jewish corpses wore white vestments, as did Jewish congregants during the Feast of Reconciliation (Christian). White clothing also replicates the color of Jane’s “milky limbs” in the next line.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Since <add place="below">^</add><add place="above">shee</add> laid down her milkey limbs on Earth</rdg>
+                    <rdg wit="#ee">Since <seg>she<note type="gloss">Jane</note></seg> laid down her milky limbs on earth,</rdg>
+                    <rdg wit="#ae">Since she laid down her milky limbs on earth,</rdg>
+                    <rdg wit="#a2">Since she laid down her milky limbs on earth,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Which dying gave her virgin Soul new birth</rdg>
+                    <rdg wit="#ee">Which, dying, gave her <seg>virgin<note type="gloss">chaste, unsullied</note></seg> soul new birth.</rdg>
+                    <rdg wit="#ae">Which, dying, gave her virgin soul new birth.</rdg>
+                    <rdg wit="#a2">Which, dying, gave her virgin soul new birth.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Yet Still my heart is overwhelm’d with griefe</rdg>
+                    <rdg wit="#ee">Yet still my heart is overwhelmed with grief,</rdg>
+                    <rdg wit="#ae">Yet still my heart is overwhelmed with grief,</rdg>
+                    <rdg wit="#a2">Yet still my heart is overwhelmed with grief,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">And tears (he las) gives Sorrow noe reliefe</rdg>
+                    <rdg wit="#ee">And tears (alas) gives sorrow no relief.</rdg>
+                    <rdg wit="#ae">And <seg>tears<note type="gloss">The plural “gives” indicates that the speaker conceives of “tears” as a singular noun, such as a shedding or flow of tears.</note></seg> (alas) gives sorrow no relief.</rdg>
+                    <rdg wit="#a2">And <seg>tears<note type="gloss">The plural “gives” indicates that the speaker conceives of “tears” as a singular noun, such as a shedding or flow of tears.</note></seg> (alas) gives sorrow no relief.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Twice hath Sad Philomele left of to Sing</rdg>
+                    <rdg wit="#ee">Twice hath sad <seg>Philomele<note type="critical">nightingale; in mythology, Philomela was raped and deprived of her tongue by Tereus, eventually being changed into a nightingale, a bird whose song stops each spring (Eardley).</note></seg> left off to sing</rdg>
+                    <rdg wit="#ae">Twice hath <seg>sad Philomel<note type="critical">The nightingale. In Greek mythology, the maiden Philomela is raped by her sister’s husband, Tereus, and after he cuts out her tongue, Philomela reveals his crime by embroidering it. Philomela and her sister enact revenge on Tereus by feeding his son to him (a disturbing image to underlie a poem about parental grief), and Philomela is transformed into a nightingale in many versions of the story. Petrarch uses the nightingale, with its sorrowful song, as a figure of mourning in Sonnet 311. Pulter follows Petrarch and his English imitators in doing the same, but she also imagines the bird as migratory, which is not a typical feature of English nightingale poems.</note></seg> left off to sing</rdg>
+                    <rdg wit="#a2">Twice hath <seg>sad Philomel<note type="critical">The nightingale. In Greek mythology, the maiden Philomela is raped by her sister’s husband, Tereus, and after he cuts out her tongue, Philomela reveals his crime by embroidering it. Philomela and her sister enact revenge on Tereus by feeding his son to him (a disturbing image to underlie a poem about parental grief), and Philomela is transformed into a nightingale in many versions of the story. Petrarch uses the nightingale, with its sorrowful song, as a figure of mourning in Sonnet 311. Pulter follows Petrarch and his English imitators in doing the same, but she also imagines the bird as migratory, which is not a typical feature of English nightingale poems.</note></seg> left off to sing</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Her mortifying Sonnets to the Spring</rdg>
+                    <rdg wit="#ee">Her <seg>mortifying<note type="gloss">fatal, austere, self-denying</note></seg> sonnets to the spring.</rdg>
+                    <rdg wit="#ae">Her <seg>mortifying<note type="gloss">fatal; self-denying</note></seg> sonnets to the spring;</rdg>
+                    <rdg wit="#a2">Her <seg>mortifying<note type="gloss">fatal; self-denying</note></seg> sonnets to the spring;</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Twice at the Silvian Choristers deſire</rdg>
+                    <rdg wit="#ee">Twice at the <seg>sylvan<note type="gloss">forest-dwelling</note></seg> choristers’ desire</rdg>
+                    <rdg wit="#ae">Twice at the <seg>sylvan<note type="gloss">forest-dwelling</note></seg> choristers’ desire</rdg>
+                    <rdg wit="#a2">Twice at the <seg>sylvan<note type="gloss">forest-dwelling</note></seg> choristers’ desire</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Shee hath lent her Muſick to compleat theire <add place="below">^</add><add place="above">Quire</add></rdg>
+                    <rdg wit="#ee">She hath lent her music to complete their choir,</rdg>
+                    <rdg wit="#ae">She hath lent her music to complete their <seg>choir<note type="critical">The manuscript spelling, “quire,” highlights a pun on “choir” (a body of singers) and “quire” (a small book made of four sheets folded in two to form eight leaves, or a small poem that could be contained in such a book).</note></seg>,</rdg>
+                    <rdg wit="#a2">She hath lent her music to complete their <seg>choir<note type="critical">The manuscript spelling, “quire,” highlights a pun on “choir” (a body of singers) and “quire” (a small book made of four sheets folded in two to form eight leaves, or a small poem that could be contained in such a book).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Since al devouring Death on her tooke Seaſure</rdg>
+                    <rdg wit="#ee">Since all devouring Death on <seg>her<note type="gloss">Jane</note></seg> took seizure,</rdg>
+                    <rdg wit="#ae">Since all devouring death on <seg>her<note type="gloss">Jane</note></seg> took seizure,</rdg>
+                    <rdg wit="#a2">Since all devouring death on <seg>her<note type="gloss">Jane</note></seg> took seizure,</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">And Tellus Wombe <add place="below">^</add><add place="above">involv’d</add> Soe rich a Treaſure</rdg>
+                    <rdg wit="#ee">And <seg>Tellus’s<note type="gloss">goddess of the Earth</note></seg> womb <seg>involved<note type="gloss">enveloped</note></seg> so rich a treasure.</rdg>
+                    <rdg wit="#ae">And <seg>Tellus’<note type="gloss">Earth personified</note></seg> womb <seg>involved<note type="gloss">enveloped</note></seg> so rich a <seg>treasure<note type="critical">This line suggests that the Earth’s womb has enfolded Jane in a kind of reverse birth.</note></seg>.</rdg>
+                    <rdg wit="#a2">And <seg>Tellus’<note type="gloss">Earth personified</note></seg> womb <seg>involved<note type="gloss">enveloped</note></seg> so rich a <seg>treasure<note type="critical">This line suggests that the Earth’s womb has enfolded Jane in a kind of reverse birth.</note></seg>.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">yet</fw></rdg>
+            </app>
+          <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_037" n="17r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_037"/></rdg>
+              <rdg wit="#ae"><pb ed="$ae" facs="#f7610_037"/></rdg>
+              <rdg wit="#a2"><pb ed="$a2" facs="#f7610_037"/></rdg>              
+          </app>
+            <lg>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Yet Styl <seg>[<del type="strikethrough">?</del>]<note type="physical">possibly “Sad”</note></seg> <add place="below">^</add><add place="above">my</add> heart is overwhelm’d with griefe</rdg>
+                    <rdg wit="#ee">Yet still my heart is overwhelmed with grief,</rdg>
+                    <rdg wit="#ae">Yet still my heart is overwhelmed with grief,</rdg>
+                    <rdg wit="#a2">Yet still my heart is overwhelmed with grief,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">And time nor teares will give my woes Reliefe</rdg>
+                    <rdg wit="#ee">And time, nor tears, will give my woes relief.</rdg>
+                    <rdg wit="#ae">And time nor tears will give my woes relief.</rdg>
+                    <rdg wit="#a2">And time nor tears will give my woes relief.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Twelve times hath Phebe horned Seemd to fight</rdg>
+                    <rdg wit="#ee">Twelve times hath <seg>Phoebe<note type="gloss">goddess of the moon</note></seg>, hornéd, seemed to fight,</rdg>
+                    <rdg wit="#ae">Twelve times hath <seg>Phoebe<note type="gloss">moon goddess</note></seg>, <seg>hornéd<note type="gloss">crescent-shaped</note></seg>, seemed to fight,</rdg>
+                    <rdg wit="#a2">Twelve times hath <seg>Phoebe<note type="gloss">moon goddess</note></seg>, <seg>hornéd<note type="gloss">crescent-shaped</note></seg>, seemed to fight, </rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">As often fil’d them with her Brothers light</rdg>
+                    <rdg wit="#ee"><seg>As often filled them with her brother’s light<note type="critical">for twelve months, the moon has alternately been crescent shaped, or “hornéd” (a form emblematic of war) and full, reflecting the light of her brother, Phoebus, the sun.</note></seg>,</rdg>
+                    <rdg wit="#ae">As often filled them with her <seg>brother’s<note type="gloss">Phoebus, the sun</note></seg> light,</rdg>
+                    <rdg wit="#a2">As often filled them with her <seg>brother’s<note type="gloss">Phoebus, the sun</note></seg> light,</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Since Shee did cloſe her Sparkling Diamond eyes</rdg>
+                    <rdg wit="#ee">Since <seg>she<note type="gloss">Jane</note></seg> did close her sparkling diamond eyes;</rdg>
+                    <rdg wit="#ae">Since she did close her sparkling diamond eyes;</rdg>
+                    <rdg wit="#a2">Since she did close her sparkling diamond eyes;</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Yet my Sad heart for her Still pineing Dies</rdg>
+                    <rdg wit="#ee">Yet my sad heart, for her still <seg>pining<note type="gloss">yearning</note></seg>, dies.</rdg>
+                    <rdg wit="#ae">Yet my sad heart for her still pining dies.</rdg>
+                    <rdg wit="#a2">Yet my sad heart for her still pining dies.</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Through <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Twelve houſes hath <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> illuſtrious ſun</rdg>
+                    <rdg wit="#ee">Through the <seg>twelve houses<note type="gloss">signs of the zodiac</note></seg> hath the illustrious sun</rdg>
+                    <rdg wit="#ae">Through the <seg>twelve houses<note type="gloss">months (signs of the Zodiac)</note></seg> hath the illustrious sun</rdg>
+                    <rdg wit="#a2">Through the <seg>twelve houses<note type="gloss">months (signs of the Zodiac)</note></seg> hath the illustrious sun</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">With Splendentie his Annuall Jorney Run</rdg>
+                    <rdg wit="#ee">With <seg>splendency<note type="gloss">splendor</note></seg> his annual journey run.</rdg>
+                    <rdg wit="#ae">With <seg>splendency<note type="gloss">splendor</note></seg> his annual journey run;</rdg>
+                    <rdg wit="#a2">With <seg>splendency<note type="gloss">splendor</note></seg> his annual journey run;</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Twice hath his firey furious Horſes Hurld</rdg>
+                    <rdg wit="#ee">Twice hath his fiery, furious horses hurled</rdg>
+                    <rdg wit="#ae">Twice hath his fiery furious horses hurled</rdg>
+                    <rdg wit="#a2">Twice hath his fiery furious horses hurled</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">His blazeing Chariot to the lower World</rdg>
+                    <rdg wit="#ee">His blazing chariot to the lower world,</rdg>
+                    <rdg wit="#ae">His blazing chariot to the lower world,</rdg>
+                    <rdg wit="#a2">His blazing chariot to the lower world,</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Shewing his luster to the wondring eyes</rdg>
+                    <rdg wit="#ee">Showing his luster to the wond’ring eyes</rdg>
+                    <rdg wit="#ae">Showing his luster to the wondering eyes</rdg>
+                    <rdg wit="#a2">Showing his luster to the wondering eyes</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Of our (now ſoe well known) Antipodies</rdg>
+                    <rdg wit="#ee">Of our (now so well known) <seg>antipodes<note type="critical">opposite side of the world; those who in any way resemble dwellers on the opposite side of the globe.</note></seg>,</rdg>
+                    <rdg wit="#ae">Of our (now so well known) <seg>antipodes<note type="gloss">opposite places on earth</note></seg>,</rdg>
+                    <rdg wit="#a2">Of our (now so well known) <seg>antipodes<note type="gloss">opposite places on earth</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Since the brack of her ſpotles virgin Story</rdg>
+                    <rdg wit="#ee">Since the <seg>brack<note type="gloss">rupture, breach</note></seg> of her spotless virgin <seg>story<note type="gloss">life</note></seg>,</rdg>
+                    <rdg wit="#ae">Since the <seg>brack<note type="gloss">breach or rupture</note></seg> of her spotless virgin story,</rdg>
+                    <rdg wit="#a2">Since the <seg>brack<note type="gloss">breach or rupture</note></seg> of her spotless virgin story,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Which now her Soule doth end in endles Glory</rdg>
+                    <rdg wit="#ee">Which now her soul doth end in endless glory.</rdg>
+                    <rdg wit="#ae">Which now her soul doth end in endless glory.</rdg>
+                    <rdg wit="#a2">Which now her soul doth end in endless glory.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Yet my aflicted Sad forſaken Soule</rdg>
+                    <rdg wit="#ee">Yet my afflicted, sad, forsaken soul</rdg>
+                    <rdg wit="#ae">Yet my afflicted, sad, forsaken soul</rdg>
+                    <rdg wit="#a2">Yet my afflicted, sad, forsaken soul</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">For her in tears and Ashes Still doth Rowle</rdg>
+                    <rdg wit="#ee">For her in tears and ashes still doth <seg>roll<note type="gloss">move in cycles; move in an unsteady manner; rotate, turn, or pivot around; trust in God</note></seg>.</rdg>
+                    <rdg wit="#ae">For her in tears and ashes still doth roll.</rdg>
+                    <rdg wit="#a2">For her in tears and ashes still doth roll.</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">O could a &ff;evour ſpot her Snowey Skin</rdg>
+                    <rdg wit="#ee">O could a fever spot her snowy skin,</rdg>
+                    <rdg wit="#ae">O could a <seg>fever spot her snowy skin<note type="critical">Jane’s red spots on her white skin are probably smallpox. In describing Jane’s body as white and red, the poem adapts conventions of Petrarchan love poetry, including the blazon (which catalogs parts of a woman’s body) and idealized feminine beauty (pale skin, red lips, and rosy cheeks). See, e.g., Henry Constable’s “My Lady’s Presence Makes the Roses Red.”</note></seg>,</rdg>
+                    <rdg wit="#a2">O could a <seg>fever spot her snowy skin<note type="critical">Jane’s red spots on her white skin are probably smallpox. In describing Jane’s body as white and red, the poem adapts conventions of Petrarchan love poetry, including the blazon (which catalogs parts of a woman’s body) and idealized feminine beauty (pale skin, red lips, and rosy cheeks). See, e.g., Henry Constable’s “My Lady’s Presence Makes the Roses Red.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Whoſe virgin Soule was Scarecely Soyld <w lemma="with"><abbr>w<hi rend="superscript">th</hi></abbr></w> ſin</rdg>
+                    <rdg wit="#ee">Whose virgin soul was scarcely soiled with sin?</rdg>
+                    <rdg wit="#ae">Whose virgin soul was scarcely soiled with sin?</rdg>
+                    <rdg wit="#a2">Whose virgin soul was scarcely soiled with sin?</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Aye mee it did, ſoe haue I ſom times ſeene</rdg>
+                    <rdg wit="#ee">Ay me, it did! So have I sometimes seen</rdg>
+                    <rdg wit="#ae">Ay me it did. So have I sometimes seen</rdg>
+                    <rdg wit="#a2">Ay me it did. So have I sometimes seen</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">&ff;aire Maydens Sit incircled on A green</rdg>
+                    <rdg wit="#ee">Fair maidens sit encircled on a green,</rdg>
+                    <rdg wit="#ae">Fair maidens sit encircled on a green,</rdg>
+                    <rdg wit="#a2">Fair maidens sit encircled on a green,</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">White Lillies Spread when they were making Poſes</rdg>
+                    <rdg wit="#ee">White lilies spread when they were making <seg>poses<note type="critical">posies, bouquets  or bunches of flowers; figuratively, short verses</note></seg>,</rdg>
+                    <rdg wit="#ae">White lilies spread when they were making <seg>poses<note type="gloss">posies: flowers or poems</note></seg>,</rdg>
+                    <rdg wit="#a2">White lilies spread when they were making <seg>poses<note type="gloss">posies: flowers or poems</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Upon them Scatter leaves of Damaſk Roſes</rdg>
+                    <rdg wit="#ee">Upon them scatter leaves of <seg>damask roses<note type="gloss">species of rose from Damascus</note></seg>,</rdg>
+                    <rdg wit="#ae">Upon them scatter leaves of <seg>damask roses<note type="gloss">from Damascus; richly blush-colored</note></seg>.</rdg>
+                    <rdg wit="#a2">Upon them scatter leaves of <seg>damask roses<note type="gloss">from Damascus; richly blush-colored</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">E’ne ſoe the Spots upon her faire Skin ſhew [<del type="strikethrough">?</del>]*</rdg>
+                    <rdg wit="#ee">E’en so, the spots upon her fair skin shows</rdg>
+                    <rdg wit="#ae">E’en so the spots upon her fair skin show</rdg>
+                    <rdg wit="#a2">E’en so the spots upon her fair skin shows</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_035"/></rdg>
+              <rdg wit="#a2"><pb ed="#a2" facs="#f7610_035"/></rdg>
+            </app>
+            <lg>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft"><del type="strikethrough"><seg>Like drops<note type="physical">In left margin: “* / videree / Retro 27,” with manicule pointing right in lighter ink, and “->” in same lighter ink to right of manicule, above cancelled line; asterisk in same lighter ink.</note></seg> of blood upon <seg>unſoiled Snow<note type="physical">multiple strike-through</note></seg></del></rdg>
+                    <rdg wit="#ee"><seg>Like lily leaves sprinkled with damask rose<note type="physical">These next nine lines are inscribed on a separate page in the manuscript, with a notation indicating where they are to be inserted in this poem. They replace a line that describes the snow as “unsoiled” rather than “unsullied.”</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Like drops of blood upon unsoiled snow<note type="physical">This line is crossed out in the manuscript. Nine new lines are written after the end of the preceding poem, “On That Unparalleled Prince Charles the First, His Horrid Murder,” and a manicule (a drawing of a hand with a pointing index finger) and notation alert the reader to their insertion at this point in the poem. Version B includes the new lines.</note></seg>.</rdg>
+                    <rdg wit="#a2"><seg>Like lily leaves sprinkled with damask rose<note type="physical">In the manuscript, this line and the next eight are written after the end of the preceding poem, “On That Unparalleled Prince Charles the First, His Horrid Murder,” and a manicule (a drawing of a hand with a pointing index finger) and notation alert the reader to their insertion here. They replace a crossed-out line, “Like drops of blood upon unsoiled snow.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">But what a heart had I, when I did Stand</rdg>
+                    <rdg wit="#ee">Or, as a stately <seg>hart<note type="gloss">deer</note></seg> to death pursued</rdg>
+                    <rdg wit="#ae">But what a heart had I, when I did stand</rdg>
+                    <rdg wit="#a2">Or as a stately <seg>hart<note type="critical">A male deer. Pulter plays on a familiar “hart”/“heart” pun in describing the deer. This pun and that of “deer”/”dear” (see the poem’s title, which labels Jane “dear”) appear frequently in English Petrarchan poetry. Hunting and hunted stags were also common Royalist tropes (see John Denham’s “Cooper’s Hill”). Pulter’s Emblem 25 (on the “flying fish”) makes the political allusion explicit when it repeats nearly verbatim the description of the hunted deer in this poem and analogizes it to the late Charles I. Peter Davidson argues persuasively in “Green Thoughts: Marvell’s Gardens; Clues to Two Curious Puzzles” (Times Literary Supplement 3 December 1999, 14-15) that these inserted lines allude to Marvell’s “Nymph Complaining for the Death of Her Fawn.” Marvell’s own allusions date “Nymph” to no earlier than 1647, and Ross (Women, Poetry, and Politics, 151) notes the tight time frame in dating both Pulter’s and Marvell’s poems to 1647. Yet although Pulter seems to have written this poem in 1647, she might have revised it (and inserted these lines, inspired by Marvell) at a later date.</note></seg> to death pursued</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">Holding her forehead <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> my Trembling hand</rdg>
+                    <rdg wit="#ee">By ravening hounds, <seg>his<note type="physical">originally “her” but corrected here, and in lines below, to male pronouns.</note></seg> eyes with tears bedewed,</rdg>
+                    <rdg wit="#ae">Holding her forehead with my trembling hand.</rdg>
+                    <rdg wit="#a2">By ravening hounds, <seg>his<note type="critical">Originally “her,” but corrected to masculine pronouns here and in the rest of the inserted lines. The changed pronouns might simply fix a scribal error because the poem identifies the deer as male (a hart), or the revision might reflect a change in approach. If using feminine pronouns, the lines imagine Jane as the deer; in a grotesque image, it is Jane who stumbles, teary-eyed, after an arrow strikes her breast. As the masculine pronouns make the entire section more clearly into a simile (Jane only reminds us of a hunted deer and is not actually shot with an arrow), they enable readers to make broader poetic and political connections, including a possible allusion to Charles I (see n. 13).</note></seg> eyes with tears bedewed,</rdg>
+                </app>
+            </l>
+                <app>
+                    <rdg wit="#ft"><fw type="catch" place="bottom">my</fw></rdg>
+                </app>
+		    <app>
+                <rdg wit="#ft"><pb ed="ft" facs="#f7610_038" n="17v"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_038"/></rdg>
+            </app>
+            <l n="47">              
+                <app>
+                    <rdg wit="#ft">My Heart to Heaven with her bright spirit flyes</rdg>
+                    <rdg wit="#ee">An arrow sticking in his trembling breast,</rdg>
+                    <rdg wit="#ae">My heart to heaven with her bright spirit flies,</rdg>
+                    <rdg wit="#a2">An arrow sticking in his trembling breast,</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">Whilst Shee (ah mee) cloſed up her louely eyes</rdg>
+                    <rdg wit="#ee">His lost condition <seg>to the life<note type="gloss">exactly reproduced or expressed</note></seg> expressed,</rdg>
+                    <rdg wit="#ae">Whilst she (ah me) closed up her lovely eyes,</rdg>
+                    <rdg wit="#a2">His lost condition <seg>to the life<note type="gloss">Something drawn or represented “to the life” is a lifelike expression or exact reproduction.</note></seg> expressed,</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">Her Soule being Seated in her place of birth</rdg>
+                    <rdg wit="#ee">So trips he o’er the lawns on trodden snow,</rdg>
+                    <rdg wit="#ae">Her soul being seated in her place of birth,</rdg>
+                    <rdg wit="#a2">So trips he o’er the lawns on trodden snow</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">I turnd a Niobe as Shee turn’d Earth.</rdg>
+                    <rdg wit="#ee">And from his side his guiltless blood doth flow.</rdg>
+                    <rdg wit="#ae">I turned a <seg>Niobe<note type="critical">In Greek mythology, Apollo and Artemis kill Niobe’s many children after she boasts that her fertility makes her superior to their mother. Consumed with grief, Niobe turns into a weeping stone. By imagining her transformation into Niobe, this speaker might imply that she is being punished for being an indulgent parent, or it might express a defiant choice to remain in mourning.</note></seg> as she <seg>turned earth<note type="critical">Many contemporary child-loss elegies insist that the parent must adhere to God’s will and understand that the deceased child is too good for the Earth and better situated in heaven. This poem states that Jane’s spirit has lifted to heaven, but it dwells on the lamented destruction of Jane’s physical, idealized body with little, if any, consolation about God’s will. See also Pulter’s <ref target="/" corresp="11" type="pp-poem-ref">Tell Me No More [On the Same]</ref>.</note></seg>.</rdg>
+                    <rdg wit="#a2">And from his side his <seg>guiltless blood<note type="critical"> The deer’s “guiltless blood” alludes to the Christian story of God sacrificing his only son.</note></seg> doth flow.</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">So did the spots upon her fair skin show</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">So did the spots upon her fair skin show</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Like drops of blood upon unsullied snow.</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">Like drops of blood upon unsullied snow.</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">But what a heart had I, when I did stand</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">But what a heart had I, when I did stand</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Holding her forehead with my trembling hand.</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">Holding her forehead with my trembling hand.</rdg>
+                </app>
+            </l>
+            </lg>
+
+            <app>
+                <rdg wit="#ft"></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_038"/></rdg>
+                <rdg wit="#a2"><pb ed="#a2" facs="#f7610_038"/></rdg>
+            </app>
+            <lg>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">My heart to heaven with her bright spirit flies</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">My heart to heaven with her bright spirit flies,</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Whilst she (ah me!) closed up her lovely eyes.</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">Whilst she (ah me) closed up her lovely eyes,</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Her soul being seated in her place of birth,</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">Her soul being seated in her place of birth,</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">I turned a <seg>Niobe<note type="gloss">Apollo and Artemis transformed Niobe into a weeping rock for bragging that she had more children than their mother.</note></seg> as she turned earth.</rdg>
+                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#a2">I turned a <seg>Niobe<note type="critical">In Greek mythology, Apollo and Artemis kill Niobe’s many children after she boasts that her fertility makes her superior to their mother. Consumed with grief, Niobe turns into a weeping stone. By imagining her transformation into Niobe, this speaker might imply that she is being punished for being an indulgent parent, or it might express a defiant choice to remain in mourning. Apollo and Artemis, both of whom are associated with hunting, use arrows to kill Niobe’s children, just as this poem imagines a hunter pursuing a deer.</note></seg> as she <seg>turned earth<note type="critical">Many contemporary child-loss elegies insist that the parent must adhere to God’s will and understand that the deceased child is too good for the Earth and better situated in heaven. This poem states that Jane’s spirit has lifted to heaven, but it dwells on the lamented destruction of Jane’s physical, idealized body with little, if any, consolation about God’s will. See also Pulter’s <ref target="/" corresp="11" type="pp-poem-ref">Tell Me No More [On the Same]</ref>.</note></seg>.</rdg>
+                </app>
+            </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

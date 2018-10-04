@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.32">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aletheia’s Pearl</title>
+                 <title type="sub">Poem #32</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>allegory</term>
+		    <term>Aletheia</term>
+		    <term>truth</term>
+		    <term>virtues</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_100.jpg" xml:id="f7610_100"/>
+        <graphic url="./document_images/7610_101.jpg" xml:id="f7610_101"/>
+        <graphic url="./document_images/7610_102.jpg" xml:id="f7610_102"/>
+        <graphic url="./document_images/7610_103.jpg" xml:id="f7610_103"/>
+        <graphic url="./document_images/7610_104.jpg" xml:id="f7610_104"/>
+        <graphic url="./document_images/7610_105.jpg" xml:id="f7610_105"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 29, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 16, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>May 16, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_100" n="48v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_100"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_100"/></rdg>
+            </app>
+
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>Alitheas Pearl</rdg>
+                    <rdg wit="#ee">Aletheia’s Pearl</rdg>
+                    <rdg wit="#ae">Aletheia’s Pearl</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Pulter’s fascination with spherical forms—elsewhere, suns and stars—is evinced here in two competing images: the gleaming pearl of truth and the bubble of her life, the latter brittle but obstinately refusing to break. These key images are surrounded by a pageant of allegorical female figures central to the life story recounted in the poem. As a virginal girl, the speaker accepts a pearl from Aletheia, the goddess of truth, in exchange for everything she owns—a daring trade, which is described here much like a wedding. But the speaker (“puffed up with prosperity,” and so with pride) wants still more: not satisfied with Truth, she wants Peace and Joy to join their menage. She disregards Truth’s warnings against their deceptive, unreliable nature, as well as her prophecy of the speaker’s future misery—incompatible with either quality—and her own suggested guests: Patience and Hope, criticized by the speaker as dull. Although she is briefly dazzled by the magnificent appearance of Peace and Joy, the happy occasion of their presence is brief: they flee by morning, with their places taken by Sorrow and Fear. Now Truth’s introduction of Patience and Hope is accepted; along with Faith, they are charged to defend the speaker against the depredations of an internal civil war. This poem is linked to other Pulter poems featuring a conflict-ridden mythological cosmos dominated by female bonds, but is unusual in its very deliberate allegory and in the speaker’s appeal to the guidance of a female mentor (rather than a more conventional Christian god).</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>“Aletheia’s Pearl” is a spiritual autobiography in the form of a personalized mythography. Pulter’s speaker describes the triumphs and challenges of her life through an account of her changing relationships with a range of personified figures: Aletheia (Truth), Joy, Peace, Patience, Hope, Faith, Sorrow, Fear, and Despair. An initial commitment to Aletheia, symbolized by a gift of a pearl, is followed by a youthful dalliance with Peace and Joy, the unwelcome appearance of Sorrow and Despair, and the belated company of Patience, Hope and Faith. Late in the poem, the speaker reveals that she lived thirteen years as a “maid” and thirty-three as a wife; this mature perspective informs the narrative of the poem, yet the precise relationship between the allegorical events of the poem and specific life-events (i.e.,marriage or the births or deaths of children) remains oblique. </p>
+                  <p>One context for “Aletheia’s Pearl” is the invitation poem tradition, especially John Milton’s companion poems, “L’Allegro” and “Il Penseroso.” Pulter’s engagement with this tradition can be usefully explored through at least two different frames. First, most examples of the invitation poem, including Marlowe’s “The Passionate Shepherd to His Love” and Milton’s companion poems, position the speaker through heterosexual eroticism. Like Cavendish’s “Dialogue of Melancholy and Mirth,” “Aletheia’s Pearl” does not, and, further, Pulter’s speaker invokes female personifications defined primarily as mother-daughter pairs: Time and Truth, Peace and Joy, Faith and Patience. Second, Pulter’s speaker describes her youthful devotion to truth from the perspective of a later maturity. Milton’s “L’Allegro” and “Il Penseroso” are usually considered alternative models for living or for a poetic career; “Aletheia’s Pearl” does not propose a choice between joy and melancholy, but identifies these affects (and others) as part of a single “sad story” that develops over the course of the speaker’s life.</p>
+                </note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">&ff;aire Ælithea (when I was A Girle)</rdg>
+                    <rdg wit="#ee">Fair <seg>Aletheia<note type="gloss">goddess or spirit of truth</note></seg> (when I was a girl)</rdg>
+                    <rdg wit="#ae">Fair <seg>Aletheia<note type="critical">personification of Truth; from the Greek <foreign rend="italic">ἀλήθεια</foreign>, which may be translated as “unclosedness,” “disclosure,” or “truth.”</note></seg> (when I was a girl),</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">One Sunday, offer’d mee an Orient Pearl;</rdg>
+                    <rdg wit="#ee">One Sunday offered me an <seg>orient<note type="gloss">oriental; from the Eastern part of the world; radiant; associated with the part of the heavens in which the sun rises</note></seg> pearl,</rdg>
+                    <rdg wit="#ae">One Sunday, offered me an <seg>orient pearl<note type="gloss">a pearl from India; a beautiful, radiant, and highly valuable pearl.</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">But for it, I must part with all I had,</rdg>
+                    <rdg wit="#ee">But for it I must part with all I had;</rdg>
+                    <rdg wit="#ae">But for it, I must part with all I had.</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">I of the Bargain was extreamly Glad</rdg>
+                    <rdg wit="#ee">I, of the bargain, was extremely glad.</rdg>
+                    <rdg wit="#ae">I of the bargain was extremely glad.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Then being Soe directed, from above</rdg>
+                    <rdg wit="#ee">Then being so directed from above,</rdg>
+                    <rdg wit="#ae">Then, being so directed from above,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Shee Smileing, <seg>aſk<del>e</del>’d<note type="physical">“ſ” appears written over another “k”</note></seg> <seg><add place="below">\</add><add place="above">mee \</add><note type="physical">inserted in different hand from main scribe</note></seg> if I could her loue?</rdg>
+                    <rdg wit="#ee">She, smiling, asked me if I could her love.</rdg>
+                    <rdg wit="#ae">She smiling, asked me if I could her love?</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">I Seeing her Soe fare tranſcend all other,</rdg>
+                    <rdg wit="#ee">I, seeing her so far transcend all other,</rdg>
+                    <rdg wit="#ae">I, seeing her so far transcend all other,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">And more resplendent then her raidient<add place="below">^</add><add place="above">Mother</add></rdg>
+                    <rdg wit="#ee">And more resplendent than her radiant <seg>mother<note type="gloss">Truth was proverbially the daughter of Time.</note></seg>,</rdg>
+                    <rdg wit="#ae">And more resplendent than her <seg>radiant mother<note type="gloss">Time, who is proverbially the mother of Truth</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Said,) I with her would Gladly live and Die,</rdg>
+                    <rdg wit="#ee">Said I with her would gladly live and die.</rdg>
+                    <rdg wit="#ae">Said, I with her would gladly live and die.</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Celestiall Love the true Loves Knot did tie,</rdg>
+                    <rdg wit="#ee">Celestial Love the true love’s knot did tie;</rdg>
+                    <rdg wit="#ae">Celestial love the true love’s knot did tie;</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Reciprocally promiſeing ne’re to depart,</rdg>
+                    <rdg wit="#ee">Reciprocally promising ne’er to depart,</rdg>
+                    <rdg wit="#ae">Reciprocally promising ne’er to depart,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Shee took poſſeſſion of my Virgin Heart</rdg>
+                    <rdg wit="#ee"><seg>She<note type="gloss">Truth was proverbially the daughter of Time.</note></seg> took possession of my <seg>virgin<note type="gloss">pure, chaste</note></seg> heart.</rdg>
+                    <rdg wit="#ae"><seg>She took possession of my virgin heart.<note type="critical">the speaker pledges her troth to truth—here personified as a beautiful maiden, Aletheia—and in return Aletheia takes possession of her “virgin heart.” This relationship is represented as a mutually beneficial exchange (the speaker’s “all” or “heart” in return for Aletheia’s pearl and promise “ne’er to depart”) that is ritually confirmed by the tying of a “true love’s knot,” an ornamental knot used to symbolize love and commitment (see OED “true-love knot,” n.). Later the poem refers to the speaker’s marriage, but her same-sex bond with Aletheia precedes that relationship.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">In earnest of her love Shee gave a kiſs;</rdg>
+                    <rdg wit="#ee">In earnest of her love she gave a kiss,</rdg>
+                    <rdg wit="#ae">In earnest of her love she gave a kiss,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Saying Shee would lead mee to eternall bliſs;</rdg>
+                    <rdg wit="#ee">Saying she would lead me to eternal bliss;</rdg>
+                    <rdg wit="#ae">Saying she would lead me to eternal bliss;</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Soe Should I Shun the paths of endles errour,</rdg>
+                    <rdg wit="#ee">So should I shun the paths of endless <seg>error<note type="gloss">wandering, mistake</note></seg>,</rdg>
+                    <rdg wit="#ae">So should I shun the paths of endless error,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">And have an Innocent Soule Still free from <add place="below">^</add><add place="above">terrour</add>.</rdg>
+                    <rdg wit="#ee">And have an innocent soul still free from terror.</rdg>
+                    <rdg wit="#ae">And have an innocent soul still free from terror.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Shee bid mee feare noe trouble in my Story,</rdg>
+                    <rdg wit="#ee">She bid me fear no trouble in my <seg>story<note type="gloss">life</note></seg>,</rdg>
+                    <rdg wit="#ae">She bid me fear no trouble in my story,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">&ff;or love would Crown mee <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> immortall Glory.</rdg>
+                    <rdg wit="#ee">For love would crown me with immortal glory.</rdg>
+                    <rdg wit="#ae">For love would crown me with immortal glory.</rdg>
+                </app>
+            </l>
+            <app>
+              <rdg wit="#ft"><fw type="catch" place="bottom">thus</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_101" n="49r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_101"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_101"/></rdg>
+            </app>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Thus Innocently I paſt my Youthfull Dayes;</rdg>
+                    <rdg wit="#ee">Thus innocently I passed my youthful days,</rdg>
+                    <rdg wit="#ae">Thus innocently I passed my youthful days,</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Seeing more and more of her refulgent Rayes.</rdg>
+                    <rdg wit="#ee">Seeing more and more of her <seg>refulgent<note type="gloss">radiant</note></seg> rays.</rdg>
+                    <rdg wit="#ae">Seeing more and more of her refulgent rays.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Thus beeing puft up with proſperity,</rdg>
+                    <rdg wit="#ee">Thus, being puffed up with prosperity,</rdg>
+                    <rdg wit="#ae">Thus being puffed up with prosperity,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">The World in every Star I <seg>thought<note type="physical"> final “t” crowded in before next word, in different hand from main scribe</note></seg> to buy,</rdg>
+                    <rdg wit="#ee">The world in every star I thought to <seg>buy<note type="gloss">possess</note></seg>,</rdg>
+                    <rdg wit="#ae">The world in every star I thought to buy.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">And oft I did my Virgin Guid intreat,</rdg>
+                    <rdg wit="#ee">And oft I did my virgin guide entreat,</rdg>
+                    <rdg wit="#ae">And oft I did my virgin guide intreat</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">To make my happines on earth compleat;</rdg>
+                    <rdg wit="#ee">To make my happiness on earth complete,</rdg>
+                    <rdg wit="#ae">To make my happiness on earth complete:</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">That Peace, (that Stately Dame) Shee would invite</rdg>
+                    <rdg wit="#ee">That Peace (that stately dame) she would invite</rdg>
+                    <rdg wit="#ae">That Peace, that stately dame, she would invite</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">To dwell with us to conſumate delight.</rdg>
+                    <rdg wit="#ee">To dwell with us, to <seg>consummate<note type="critical"> to bring to completion; make perfect; also to give sexual expression to a relationship</note></seg> delight.</rdg>
+                    <rdg wit="#ae">To dwell with us to consummate delight.</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">&ff;or then I Said, that Joy would follow after</rdg>
+                    <rdg wit="#ee">For then, I said, that Joy would follow after:</rdg>
+                    <rdg wit="#ae">For then, I said, that Joy would follow after;</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Get but the Mother, &amp; you have the Daughter.</rdg>
+                    <rdg wit="#ee">Get but the mother, and you have the daughter.</rdg>
+                    <rdg wit="#ae"><seg>Get but the mother, and you have the daughter.<note type="critical">identifying Joy as the daughter of Peace, the speaker encourages Aletheia to “invite” the pair to “dwell with us to consummate delight.” Compare this passage to the invitation poem tradition and especially to Milton’s “L’Allegro” and “Il Penseroso,” in which the speaker alternately invites the goddesses Mirth and Melancholy to become his companion. Later, Aletheia offers instead to “invite” Patience and Hope to become the speaker’s companions.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">That blest <seg>triumvirie<note type="physical">in H2; space was left by H1 for nine ellipses, five of which are positioned under the word “triumvirie.”</note></seg> . . . . might I once injoy</rdg>
+                    <rdg wit="#ee">That blest <seg>triumviri<note type="critical">“triumvirie” added by a hand that is probably Pulter’s, in a blank space left by the scribe; a triumvir is a ruling body of three people, derived from the Latin triumviri, a coalition of three Roman magistrates; here the speaker refers to Peace, Joy, and Truth.</note></seg> might I once <seg>enjoy<note type="gloss">have the benefit of; find pleasure in</note></seg>,</rdg>
+                    <rdg wit="#ae">That blest <seg>triumviry<note type="physical">i.e. triumvirate. In the manuscript this word is inserted into a space in the line by a different hand.</note></seg> might I once enjoy,</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">I Should Esteem this World a trifeling toy.</rdg>
+                    <rdg wit="#ee">I should esteem this world a trifling <seg>toy<note type="gloss">trivial thing</note></seg>.</rdg>
+                    <rdg wit="#ae">I should esteem this world a trifling toy.</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">My faire Directris Smileing then did Say,</rdg>
+                    <rdg wit="#ee">My fair directress, smiling, then did say,</rdg>
+                    <rdg wit="#ae">My fair directress, smiling, then did say,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">That those two Jolly <seg>Lady’s<note type="physical">apostrophe and “’s” crowded into space before next word</note></seg> would not Stay</rdg>
+                    <rdg wit="#ee">That those two jolly ladies would not stay</rdg>
+                    <rdg wit="#ae">That those two jolly ladies would not stay</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Long in a place, nor were they as they Seem’d:</rdg>
+                    <rdg wit="#ee">Long in a place, nor were they as they seemed:</rdg>
+                    <rdg wit="#ae">Long in a place, nor were they as they seemed,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">As all that Glisters is not Gold estee<add place="below">^</add><add place="above">m</add>d.</rdg>
+                    <rdg wit="#ee">As all that <seg>glisters<note type="gloss">glitters</note></seg> is not gold esteemed,</rdg>
+                    <rdg wit="#ae">As all that glisters is not gold esteemed.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Ther’s noe true Peace, nor Joy, below <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Sun:</rdg>
+                    <rdg wit="#ee">There’s no true peace, nor joy, below the sun;</rdg>
+                    <rdg wit="#ae">There’s no true peace, nor joy, below the Sun,</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Nor can wee know it till this Life is dun.</rdg>
+                    <rdg wit="#ee">Nor can we know it till this life is done.</rdg>
+                    <rdg wit="#ae">Nor can we know it till this life is done.</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Nay more being at the Parces houſe: of late,</rdg>
+                    <rdg wit="#ee">Nay more, being at the <seg>Parcae’s<note type="gloss">one of three female Fates’</note></seg> house of late,</rdg>
+                    <rdg wit="#ae">Nay more, being at the <seg>Parcaes’<note type="gloss">the Parcae are female personifications of destiny, the three Fates</note></seg> house of late,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Turning the vollumes of the book of &ff;ate</rdg>
+                    <rdg wit="#ee">Turning the volumes of the book of fate</rdg>
+                    <rdg wit="#ae">Turning the volumes of the book of fate</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">to</fw></rdg>
+            </app>
+
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_102" n="49v"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_102"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_102"/></rdg>
+            </app>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">To See what might advance the eternals Glory.</rdg>
+                    <rdg wit="#ee">To see what might advance th’Eternal’s glory,</rdg>
+                    <rdg wit="#ae">To see what might advance th’Eternal’s glory,</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">Shee hapt to cast an eye on my Sad Story,</rdg>
+                    <rdg wit="#ee"><seg>She<note type="gloss">one of the Fates</note></seg> <seg>hap’d<note type="gloss">happened</note></seg> to cast an eye on my sad story,</rdg>
+                    <rdg wit="#ae">She <seg>happed<note type="gloss">to happen upon or to discover by chance (see <title rend="italic">OED</title> hap, v. 4a.).</note></seg> to cast an eye on my sad story,</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">And by my destiny Shee Saw my life,</rdg>
+                    <rdg wit="#ee">And by my destiny she saw my life,</rdg>
+                    <rdg wit="#ae">And by my destiny she saw my life,</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">At which Shee <seg>Sigh’d<note type="physical">another letter has been converted into the final “d” (perhaps an “l” or “t,” which is imperfectly erased)</note></seg>! both, Infant, Maid, &amp; Wife</rdg>
+                    <rdg wit="#ee">At which she sighed: both infant, <seg>maid<note type="gloss">unmarried woman</note></seg>, and wife</rdg>
+                    <rdg wit="#ae">At which she sighed: both, infant, maid, and wife</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Would bee involv’d, and fil’d with inward trouble;</rdg>
+                    <rdg wit="#ee">Would be involved and filled with inward trouble,</rdg>
+                    <rdg wit="#ae">Would be involved, and filled with inward trouble,</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">But yet as brittle as the tenderest Bubble.</rdg>
+                    <rdg wit="#ee">But yet as <seg>brittle<note type="gloss">fragile</note></seg> as the tenderest bubble,</rdg>
+                    <rdg wit="#ae">But yet as <seg>brittle as the tenderest bubble<note type="gloss">a conventional metaphor for the briefness and fragility of life.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">And looking further on from page to Page,</rdg>
+                    <rdg wit="#ee">And looking further on from page to page,</rdg>
+                    <rdg wit="#ae">And looking further on from page to page,</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">She found I would live a tedious Pilgrimage.</rdg>
+                    <rdg wit="#ee">She found I would live a tedious <seg>pilgrimage<note type="gloss">journey, sometimes toward a holy place</note></seg>;</rdg>
+                    <rdg wit="#ae"><seg>She found I would live a tedious pilgrimage.<note type="gloss">Aletheia reads the speaker’s “sad story” in the book of fate and discovers that she will suffer trouble during all the stages of her life (“infant, maid, and wife”).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">But yet to comfort mee in my Sad Story;</rdg>
+                    <rdg wit="#ee">But yet to comfort me in my sad story,</rdg>
+                    <rdg wit="#ae">But yet to comfort me in my sad story,</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">My troubles all would end in endles Glory.</rdg>
+                    <rdg wit="#ee">My troubles all would end in endless glory.</rdg>
+                    <rdg wit="#ae">My troubles all would end in endless glory.</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">Therefore Shee did adviſe for my Reliefe,</rdg>
+                    <rdg wit="#ee">Therefore she did advise, for my relief,</rdg>
+                    <rdg wit="#ae">Therefore she did advise for my relief,</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">A modest Matron to allay my Griefe.</rdg>
+                    <rdg wit="#ee">A modest matron to allay my grief,</rdg>
+                    <rdg wit="#ae">A modest matron to allay my grief.</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft">One not Soe brave but of as Ample &ff;ame;</rdg>
+                    <rdg wit="#ee">One not so <seg>brave<note type="gloss">finely dressed</note></seg> but of as ample <seg>fame<note type="gloss">reputation</note></seg></rdg>
+                    <rdg wit="#ae">One not so brave, but of as ample fame,</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">And noble Birth, (the Daughter of <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Dame</rdg>
+                    <rdg wit="#ee">And noble birth (the daughter of the <seg>dame<note type="critical">Faith is personified with a shield, derived from Ephesians 6:16: “Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked.” On Faith as the mother of Patience, see Robert Rollock, Lectures Upon the First and Second Epistles of Paul to the Thessalonians (London, 1606), 2.11.</note></seg></rdg>
+                    <rdg wit="#ae">And noble birth (the daughter of <seg>the dame<note type="critical">Faith; see Ephesians 6:16: “Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked” (AV). In the poem’s third mother-daughter pair, Patience is identified as the daughter of Faith.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">Who doth defend the &ff;aithfull with her Shield</rdg>
+                    <rdg wit="#ee">Who doth defend the faithful with her shield</rdg>
+                    <rdg wit="#ae">Who doth defend the faithful with her shield</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">And makes them still victorious in the &ff;ield)</rdg>
+                    <rdg wit="#ee">And makes them still victorious in the field);</rdg>
+                    <rdg wit="#ae">And makes them still victorious in the field),</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">Patience her name, who Said Shee would invite</rdg>
+                    <rdg wit="#ee">Patience her name, who said she would invite</rdg>
+                    <rdg wit="#ae">Patience her name, who said she would invite</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">Her sister Hope, to &ff;urther my delight.</rdg>
+                    <rdg wit="#ee">Her sister Hope to further my delight.</rdg>
+                    <rdg wit="#ae">Her sister Hope, to further my delight.</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">I said of those two Damſels I had bin told,</rdg>
+                    <rdg wit="#ee">I said of those two damsels I had been told,</rdg>
+                    <rdg wit="#ae">I said of those two damsels I had been told,</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">But yet I thought <seg><del>I thought</del><note type="physical">cancelled with scribbles</note></seg> till I grew Sick or Old,</rdg>
+                    <rdg wit="#ee">But yet I thought till I grew sick or old</rdg>
+                    <rdg wit="#ae">But yet I thought, till I grew sick or old,</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">Their Sad and tedious Stories would deject</rdg>
+                    <rdg wit="#ee">Their sad and tedious stories would deject</rdg>
+                    <rdg wit="#ae">Their sad and tedious stories would deject</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">My Spritely Soul, them I did not affect</rdg>
+                    <rdg wit="#ee">My <seg>sprightly<note type="gloss">cheerful, animated</note></seg> soul; them I did not <seg>affect<note type="gloss">like, want</note></seg>.</rdg>
+                    <rdg wit="#ae">My spritely soul. Them I did not affect.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Truth</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_103" n="50r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_103"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_103"/></rdg>
+          </app>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">Truth Sighing Said, not many Dayes would Goe,</rdg>
+                    <rdg wit="#ee">Truth, sighing said, not many days would go,</rdg>
+                    <rdg wit="#ae">Truth, sighing, said, not many days would go</rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">Er’e I would wiſh for thoſe I Sleighted Soe.</rdg>
+                    <rdg wit="#ee"><seg>Ere<note type="gloss">before</note></seg> I would wish for those I slighted so,</rdg>
+                    <rdg wit="#ae">Ere I would wish for those I slighted so.</rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">But all her counſell was to mee in vain,</rdg>
+                    <rdg wit="#ee">But all her counsel was to me in vain,</rdg>
+                    <rdg wit="#ae">But all her counsel was to me in vain,</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">&ff;or I invited home that Gallant Train,</rdg>
+                    <rdg wit="#ee">For I invited home that gallant train:</rdg>
+                    <rdg wit="#ae">For I invited home that gallant train:</rdg>
+                </app>
+            </l>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">Peace in A <add place="below">^</add><add place="above">Purple</add> Mantle, wrought with Gold,</rdg>
+                    <rdg wit="#ee">Peace in a purple <seg>mantle<note type="gloss">garment</note></seg> <seg>wrought<note type="gloss">embellished</note></seg> with gold,</rdg>
+                    <rdg wit="#ae">Peace in a purple mantle, wrought with gold,</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">Where Groves, Phanes, Citties, you might there <seg>be<add place="below">^</add><add place="above">hold</add><note type="physical">there is a hyphen or dash above the caret</note></seg>;</rdg>
+                    <rdg wit="#ee">Where groves, <seg>fanes<note type="gloss">temples</note></seg>, cities, you might there behold;</rdg>
+                    <rdg wit="#ae">Where groves, <seg>phanes<note type="gloss">temples</note></seg>, cities, you might there behold,</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">Which cast a luster to my wondring eye.</rdg>
+                    <rdg wit="#ee">Which cast a luster to my wondering eye;</rdg>
+                    <rdg wit="#ae">Which cast a luster to my wondering eye;</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">Joy in an Azure vesture like the Skie,</rdg>
+                    <rdg wit="#ee">Joy, in an <seg>azure<note type="gloss">blue</note></seg> <seg>vesture<note type="gloss">garment</note></seg> like the sky,</rdg>
+                    <rdg wit="#ae">Joy in an azure vesture like the sky,</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">Studded with Gem̄s, which dazeled Soe my Sight,</rdg>
+                    <rdg wit="#ee">Studded with gems, which dazzled so my sight,</rdg>
+                    <rdg wit="#ae">Studded with gems, which dazzled so my sight,</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft">That now (mee thought) my Pearl was not Soe bright</rdg>
+                    <rdg wit="#ee">That now (methought) my pearl was not so bright</rdg>
+                    <rdg wit="#ae">That now (methought) my pearl was not so bright</rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">As it was wont; but lookt both dim and Sad;</rdg>
+                    <rdg wit="#ee">As it <seg>was wont<note type="gloss">used to be</note></seg>, but looked both dim and sad.</rdg>
+                    <rdg wit="#ae">As it was wont, but <seg>looked both dim and sad<note type="gloss">the speaker’s pearl appears to “dim” in comparison to the pleasures she shares with Peace and Joy; however, she recognizes its true brightness when she is joined by Patience and Hope.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">Thus of my <seg>Guests<note type="physical">“ts” crowded between other letters</note></seg> I was extreamly Glad.</rdg>
+                    <rdg wit="#ee">Thus of my guests I was extremely glad.</rdg>
+                    <rdg wit="#ae">Thus of my guests I was extremely glad.</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">Peace Sweetly Smiled, Joy Gigling Laugh’d outright</rdg>
+                    <rdg wit="#ee">Peace sweetly smiled; Joy, giggling, laughed outright,</rdg>
+                    <rdg wit="#ae">Peace sweetly smiled, Joy, giggling, laughed outright,</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">And thus in Mirth wee past the time till Night.</rdg>
+                    <rdg wit="#ee">And thus in mirth we passed the time till night.</rdg>
+                    <rdg wit="#ae">And thus in mirth wee passed the time till night.</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">Then tir’d with Laughing wee went all to Bed;</rdg>
+                    <rdg wit="#ee">Then tired with laughing, we went all to bed,</rdg>
+                    <rdg wit="#ae">Then tired with laughing we went all to bed,</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">But by the Morn my Chearfull Guests were fled.</rdg>
+                    <rdg wit="#ee">But by the morn my cheerful guests were fled;</rdg>
+                    <rdg wit="#ae">But by the morn my cheerful guests were fled,</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">And none but Sorrow left, tearing her hair;</rdg>
+                    <rdg wit="#ee">And none but Sorrow left, tearing her hair,</rdg>
+                    <rdg wit="#ae">And none but Sorrow left, tearing her hair,</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">And &ff;ear who (trembling) asked for deſpair.</rdg>
+                    <rdg wit="#ee">And Fear who, trembling, askéd for Despair.</rdg>
+                    <rdg wit="#ae"><seg>And Fear who, trembling, asked for Despair.<note type="gloss">the speaker goes to bed with Peace and Joy but when she wakes she discovers Sorrow and Fear in their place. Echoing the invitations issued earlier in the poem, Fear “asked for” Despair, and, as a result, the speaker is finally ready to acknowledge Aletheia’s offer of Patience as a companion.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">My Bleſſed Guid Seeing mee in tears diſſolved,</rdg>
+                    <rdg wit="#ee">My blesséd guide, seeing me in tears <seg>dissolved<note type="gloss">melted, undone</note></seg>,</rdg>
+                    <rdg wit="#ae">My blessed guide, seeing me in tears dissolved,</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">And with Such Woefull Company involved;</rdg>
+                    <rdg wit="#ee">And with such woeful company involved,</rdg>
+                    <rdg wit="#ae">And with such woeful company involved,</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">Asked mee? if Patience I did yet deſire.</rdg>
+                    <rdg wit="#ee">Asked me if Patience I did yet desire.</rdg>
+                    <rdg wit="#ae">Asked me if Patience I did yet desire.</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">I said without her I Should Soon expire.</rdg>
+                    <rdg wit="#ee">I said without her I should soon expire.</rdg>
+                    <rdg wit="#ae">I said, without her I should soon expire.</rdg>
+                </app>
+            </l>
+            <app>
+              <rdg wit="#ft"><fw type="catch" place="bottom"><seg>wipe<note type="physical">catchword is incorrect</note></seg></fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_104" n="50v"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_104"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_104"/></rdg>
+            </app>
+            <l n="83">
+                <app>
+                    <rdg wit="#ft">At last Shee came with Slow <seg>and<note type="physical">blot atop</note></seg> modest pace,</rdg>
+                    <rdg wit="#ee">At last she came, with slow and modest pace;</rdg>
+                    <rdg wit="#ae">At last she came with slow and modest pace,</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <rdg wit="#ft">Wipeing <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> the tears from my pale blubbar’d face.</rdg>
+                    <rdg wit="#ee">Wiping the the tears from my pale, <seg>blubbered<note type="gloss">flooded with tears</note></seg> face,</rdg>
+                    <rdg wit="#ae">Wiping the tears from my pale <seg>blubbered<note type="gloss"> flooded with tears.</note></seg> face.</rdg>
+                </app>
+            </l>
+            <l n="85">
+                <app>
+                    <rdg wit="#ft">Shee told mee many a Sad and diſmale Story,</rdg>
+                    <rdg wit="#ee">She told me many a sad and dismal story,</rdg>
+                    <rdg wit="#ae">She told me many a sad and dismal story,</rdg>
+                </app>
+            </l>
+            <l n="86">
+                <app>
+                    <rdg wit="#ft">Which ever ended in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> ſufferers Glory.</rdg>
+                    <rdg wit="#ee">Which ever ended in the sufferer’s glory.</rdg>
+                    <rdg wit="#ae">Which ever <seg>ended in the sufferer’s glory<note type="gloss">Patience fulfills the promise to comfort the speaker by telling stories of sufferers who achieve eternal reward; these sad stories echo the sad story of the speaker’s life written in the book of fate.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="87">
+                <app>
+                    <rdg wit="#ft">These tears Sure waſhed the &ff;elms from of my Sight,</rdg>
+                    <rdg wit="#ee">These tears <seg>sure<note type="gloss">assuredly</note></seg> washed the films from off my sight,</rdg>
+                    <rdg wit="#ae">These tears sure washed the films from off my sight,</rdg>
+                </app>
+            </l>
+            <l n="88">
+                <app>
+                    <rdg wit="#ft">&ff;or now I found my Pearl was fare more bright,</rdg>
+                    <rdg wit="#ee">For now I found my pearl was far more bright,</rdg>
+                    <rdg wit="#ae">For now I found my pearl was far more bright</rdg>
+                </app>
+            </l>
+            <l n="89">
+                <app>
+                    <rdg wit="#ft">Then all the Gem̄s <seg><del>I hat</del><note type="physical"></note></seg> ever yet did view;</rdg>
+                    <rdg wit="#ee">Than all the gems I ever yet did view;</rdg>
+                    <rdg wit="#ae">Than all the gems I ever yet did view.</rdg>
+                </app>
+            </l>
+            <l n="90">
+                <app>
+                    <rdg wit="#ft">Behould the Power of Penitentiall dew,</rdg>
+                    <rdg wit="#ee">Behold the power of <seg>penitential dew<note type="gloss">tears of remorse, for sin</note></seg>!</rdg>
+                    <rdg wit="#ae">Behold the power of penitential dew.</rdg>
+                </app>
+            </l>
+            <l n="91">
+                <app>
+                    <rdg wit="#ft">I laid my Pearl cloſs to my trembling breast,</rdg>
+                    <rdg wit="#ee">I laid my pearl close to my trembling breast,</rdg>
+                    <rdg wit="#ae">I laid my pearl close to my trembling breast,</rdg>
+                </app>
+            </l>
+            <l n="92">
+                <app>
+                    <rdg wit="#ft">And on an Anker Lay’d my head to Rest,</rdg>
+                    <rdg wit="#ee">And on an <seg>anchor<note type="gloss">in Christian tradition, a symbol of hope; see Heb. 6:19: “Which hope we have as an anchor of the soul.”</note></seg> laid my head to rest,</rdg>
+                    <rdg wit="#ae"><seg>And on an anchor laid my head to rest,<note type="critical">see Hebrews 6:19: “Which hope we have as an anchor of the soul, both sure and steadfast, and which entereth into that within the veil” (AV).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="93">
+                <app>
+                    <rdg wit="#ft">That Hope (in love to mee) before had Lay’d</rdg>
+                    <rdg wit="#ee">That Hope (in love to me) before had <seg>laid<note type="gloss">laid down for</note></seg></rdg>
+                    <rdg wit="#ae">That Hope (in love to me) before had laid</rdg>
+                </app>
+            </l>
+            <l n="94">
+                <app>
+                    <rdg wit="#ft">Mee to Suſtain, that fair and bleſſed Mayd</rdg>
+                    <rdg wit="#ee">Me to sustain; that fair and blessed maid,</rdg>
+                    <rdg wit="#ae">Me to sustain. That fair and blessed maid,</rdg>
+                </app>
+            </l>
+            <l n="95">
+                <app>
+                    <rdg wit="#ft">Whome &ff;aire Alithea brought to take my part,</rdg>
+                    <rdg wit="#ee">Whom fair Aletheia brought to take my part,</rdg>
+                    <rdg wit="#ae">Whom faire Aletheia brought to take my part,</rdg>
+                </app>
+            </l>
+            <l n="96">
+                <app>
+                    <rdg wit="#ft">To Sway the &ff;actions in my troubled Hart;</rdg>
+                    <rdg wit="#ee">To sway the <seg>factions<note type="gloss">competing political groups</note></seg> in my troubled heart;</rdg>
+                    <rdg wit="#ae">To sway the factions in my troubled heart,</rdg>
+                </app>
+            </l>
+            <l n="97">
+                <app>
+                    <rdg wit="#ft">And gave them charge, evern to hold in awe</rdg>
+                    <rdg wit="#ee">And gave them charge, ever to hold in awe</rdg>
+                    <rdg wit="#ae">And gave them charge ever to hold in awe</rdg>
+                </app>
+            </l>
+            <l n="98">
+                <app>
+                    <rdg wit="#ft">Sorrow and &ff;ear, and never to withdraw</rdg>
+                    <rdg wit="#ee"><seg>Sorrow and Fear<note type="gloss">She charges Patience and Hope (“them”) to make Sorrow and Fear be in awe of them.</note></seg>, and never to withdraw</rdg>
+                    <rdg wit="#ae">Sorrow and Fear, and never to withdraw</rdg>
+                </app>
+            </l>
+            <l n="99">
+                <app>
+                    <rdg wit="#ft">There best aſſistance, to keep out <seg>diſpaire<note type="physical">second syllable in darker ink, possibly over earlier letters</note></seg></rdg>
+                    <rdg wit="#ee">Their best assistance, to keep out Despair,</rdg>
+                    <rdg wit="#ae">Their best assistance to keep out Despair,</rdg>
+                </app>
+            </l>
+            <l n="100">
+                <app>
+                    <rdg wit="#ft">Who with her curst aſſociates would repaire</rdg>
+                    <rdg wit="#ee">Who with her cursed associates would <seg>repair<note type="gloss">return; habitually assemble</note></seg></rdg>
+                    <rdg wit="#ae">Who with her cursed associates would repair</rdg>
+                </app>
+            </l>
+            <l n="101">
+                <app>
+                    <rdg wit="#ft">Mee to aflict which would mee <add place="below">^</add><add place="above">much</add> afright</rdg>
+                    <rdg wit="#ee">Me to afflict, which would me much affright,</rdg>
+                    <rdg wit="#ae">Me to afflict, which would me much afright</rdg>
+                </app>
+            </l>
+            <l n="102">
+                <app>
+                    <rdg wit="#ft">Cavſe the black brood of Acharon, and Night,</rdg>
+                    <rdg wit="#ee">’Cause the black <seg>brood of Acheron and Night<note type="critical">offspring, which include Doom, Fate, Death, Dreams, Blame, Misery, the Hesperides, the Destinies (or Parcae), Nemesis, Deceit, Lovemaking, Old Age, and Strife. Hesiod, <title rend="italic">The Poems of Hesiod: Theogony, Works and Days, and the Shield of Herakles</title> (2017), 42, 45.</note></seg></rdg>
+                    <rdg wit="#ae">’Cause the <seg>black brood of Acheron and Night<note type="critical"> the offspring of Night and Acheron include Doom, Fate, Death, Sleep, Dreams, Blame, Woe, the Hesperides, the Destinies (Parcae), Nemesis, Deceit, Friendship, Old Age, and Strife. See Hesiod <title rend="italic">Theogony</title>, lines 211-25. This “horrid train” causes the speaker to faint.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="103">
+                <app>
+                    <rdg wit="#ft">Would alſoe com, who onely were adicted</rdg>
+                    <rdg wit="#ee">Would also come, who only were addicted</rdg>
+                    <rdg wit="#ae">Would also come, who only were addicted</rdg>
+                </app>
+            </l>
+            <l n="104">
+                <app>
+                    <rdg wit="#ft">To ad aflictions to the most aflicted.</rdg>
+                    <rdg wit="#ee">To <seg>add<note type="gloss">adding</note></seg> afflictions to the most afflicted.</rdg>
+                    <rdg wit="#ae">To add afflictions to the most afflicted.</rdg>
+                </app>
+            </l>
+            <l n="105">
+                <app>
+                    <rdg wit="#ft">Just as Shee Spake, in came that Horrid train</rdg>
+                    <rdg wit="#ee">Just as she spake, in came that horrid <seg>train<note type="gloss">procession, ensnaring treachery</note></seg>,</rdg>
+                    <rdg wit="#ae">Just as she spake, in came that horrid train,</rdg>
+                </app>
+            </l>
+            <l n="106">
+                <app>
+                    <rdg wit="#ft">Which cauſed a trembling, throughout every vein</rdg>
+                    <rdg wit="#ee">Which caused a trembling throughout every vein</rdg>
+                    <rdg wit="#ae">Which caused a trembling throughout every vein</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">of</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_105" n="51r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_105"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_105"/></rdg>
+            </app>
+            <l n="107">
+                <app>
+                    <rdg wit="#ft">Of my Sad Heart, down fell I in a Sownd:</rdg>
+                    <rdg wit="#ee">Of my sad heart; down fell I in a <seg>sound<note type="gloss">faint, swoon</note></seg>,</rdg>
+                    <rdg wit="#ae">Of my sad heart; down fell I in a <seg>sound<note type="gloss">swoon or fainting-fit (see OED sound, n.4)</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="108">
+                <app>
+                    <rdg wit="#ft">Till that brave Damsill raiſd mee from the Ground.</rdg>
+                    <rdg wit="#ee">Till that <seg>brave damsel<note type="gloss">Faith</note></seg> raised me from the ground,</rdg>
+                    <rdg wit="#ae">Till that brave <seg>damsel<note type="gloss">Faith</note></seg> raised me from the ground.</rdg>
+                </app>
+            </l>
+            <l n="109">
+                <app>
+                    <rdg wit="#ft">Who Just then came Triumphant from the &ff;ield,</rdg>
+                    <rdg wit="#ee">Who just then came triumphant from the field;</rdg>
+                    <rdg wit="#ae">Who just then came triumphant from the field,</rdg>
+                </app>
+            </l>
+            <l n="110">
+                <app>
+                    <rdg wit="#ft">Then with her bright impenetrable Shield;</rdg>
+                    <rdg wit="#ee">Then, with her bright impenetrable shield,</rdg>
+                    <rdg wit="#ae">Then with her bright impenetrable shield</rdg>
+                </app>
+            </l>
+            <l n="111">
+                <app>
+                    <rdg wit="#ft">Shee all thoſe Helliſh Monsters did oppoſe:</rdg>
+                    <rdg wit="#ee">She all those hellish monsters did oppose</rdg>
+                    <rdg wit="#ae">She all those hellish monsters did oppose.</rdg>
+                </app>
+            </l>
+            <l n="112">
+                <app>
+                    <rdg wit="#ft">Thus was I Safe deliverd from my foes.</rdg>
+                    <rdg wit="#ee">(Thus was I safe delivered from my foes);</rdg>
+                    <rdg wit="#ae">Thus was I safe delivered from my foes.</rdg>
+                </app>
+            </l>
+            <l n="113">
+                <app>
+                    <rdg wit="#ft">Then leaving Hope, and Patience by my Side,</rdg>
+                    <rdg wit="#ee">Then, leaving Hope and Patience by my side,</rdg>
+                    <rdg wit="#ae">Then, leaving Hope and Patience by my side,</rdg>
+                </app>
+            </l>
+            <l n="114">
+                <app>
+                    <rdg wit="#ft">Commanding them both, with mee to abide.</rdg>
+                    <rdg wit="#ee">Commanding them both with me to abide,</rdg>
+                    <rdg wit="#ae">Commanding them both, with me to abide;</rdg>
+                </app>
+            </l>
+            <l n="115">
+                <app>
+                    <rdg wit="#ft">Councelling mee to follow my faire Guid.</rdg>
+                    <rdg wit="#ee">Counselling me to follow my fair guide,</rdg>
+                    <rdg wit="#ae">Counseling me to follow my fair guide,</rdg>
+                </app>
+            </l>
+            <l n="116">
+                <app>
+                    <rdg wit="#ft">Who would through all the trouble of my Story,</rdg>
+                    <rdg wit="#ee">Who would, through all the trouble of my story,</rdg>
+                    <rdg wit="#ae">Who would through all the trouble of my story,</rdg>
+                </app>
+            </l>
+            <l n="117">
+                <app>
+                    <rdg wit="#ft">Lead mee at last to everlasting Glory.</rdg>
+                    <rdg wit="#ee">Lead me at last to everlasting glory.</rdg>
+                    <rdg wit="#ae">Lead me at last to everlasting glory.</rdg>
+                </app>
+            </l>
+            <l n="118">
+                <app>
+                    <rdg wit="#ft">Thus have I liv’d a Sad and weary life,</rdg>
+                    <rdg wit="#ee">Thus have I lived a sad and weary life,</rdg>
+                    <rdg wit="#ae">Thus have I lived a sad and weary life,</rdg>
+                </app>
+            </l>
+            <l n="119">
+                <app>
+                    <rdg wit="#ft">Thirteen a Mayd, and Thirtie three a Wife.</rdg>
+                    <rdg wit="#ee">Thirteen a maid, and thirty three a wife.</rdg>
+                    <rdg wit="#ae"><seg>Thirteen a maid, and thirty-three a wife.<note type="critical">Earlier in the poem, Pulter identifies “infant, maid, and wife” as the three stages of life. Here the speaker specifies how many years she lived in the second two of those stages. If we identify the speaker with Pulter herself, who was born between 1605 and 1608 and was married in 1623, this line suggests that the poem was written in 1656 when Pulter was between 49 and 51 years old.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="120">
+                <app>
+                    <rdg wit="#ft">All I found true my <seg>Alithe’e<note type="physical"> final “e” imperfectly erased</note></seg> did Speak,</rdg>
+                    <rdg wit="#ee">All I found true my Alethie did speak,</rdg>
+                    <rdg wit="#ae">All I found true my Aletheia did speak,</rdg>
+                </app>
+            </l>
+            <l n="121">
+                <app>
+                    <rdg wit="#ft">But yet (Aye mee) the bubble will not breake.</rdg>
+                    <rdg wit="#ee">But yet (ay me!) the <seg>bubble<note type="critical">her fragile and vexing earthly life</note></seg> will not break.</rdg>
+                    <rdg wit="#ae">But yet (aye me) <seg>the bubble will not break<note type="critical">in the final line of the poem, the speaker returns to the metaphor of life as bubble that is introduced earlier and laments that this bubble is strong rather than weak. The image of the bubble echoes the symbol of the pearl: both are spherical, beautiful, and fragile.</note></seg>.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="ascending-spiral"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

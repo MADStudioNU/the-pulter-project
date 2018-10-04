@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aurora [1]</title>
+                <title type="sub">Poem #3</title>
+                <respStmt>
+                    <resp>Poems authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Versions encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Web Designer:</resp>
+                    <persName>Sergei Kalugin</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT Project Consultant:</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>Aurora</term>
+                    <term>dawn</term>
+                    <term>night</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_018.jpg" xml:id="f7610_018"/>
+        <graphic url="./document_images/7610_019.jpg" xml:id="f7610_019"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                 <witness xml:id="ft">Transcription of Manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See the transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See
+                    the editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>September 7, 2018</date>.</witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft">
+                    <pb ed="#ft" facs="#f7610_018" n="7v"/>
+                </rdg>
+                <rdg wit="#ee">
+                    <pb ed="#ee" facs="#f7610_018"/>
+                </rdg>
+                <rdg wit="#ae">
+                    <pb ed="#ae" facs="#f7610_018"/>
+                </rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">
+                        <fw facs="#f7610_018" type="pageNum" place="margin-topright">10</fw>Aurora</rdg>
+                    <rdg wit="#ee">Aurora [1]</rdg>
+                    <rdg wit="#ae">Aurora</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations (such as tildes) are expanded with added letters in italics (with the exception of “ye” which is rendered as “the”), “ff” is modernized to “F,” superscriptions are lowered, colons indicating abbreviations are removed, and major alterations to the text (of a word or more, not individual letters) are noted in the footnotes. The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader.</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee"><note type="headnote">“Aurora [1]” is the first of several poems so named. Pulter attends often, and often ardently, to this classical figure of the dawn, identified elsewhere in her work as the mother of Astraea: a figure in her turn associated by Pulter primarily with truth, rather than justice, as is more conventional. Here, the speaker’s sensuous admiration of Aurora’s luminous beauty and entourage of feminine powers is interrupted by the amorous, then rapacious, pursuit of dawn by the blazing sun god. This allegory rapidly turns gory, with the god lashing his horses until they rain blood on Earth. When the sun god’s illumination is, inevitably, succeeded by the darkness of Night and her misery-making offspring, the poem’s focus shifts from the astral and mythological to something much more personal. The speaker’s vulnerability to nocturnal terrors makes her long for escape through death—quite paradoxically, since visions of death are among the very terrors she seeks to escape. This paradox suggests one way in which, as she says of her dark and distorted visions, “of my reason, straight they make a rape.” But the speaker, in the end, seizes power back from both darkness and the excesses of the sun when she imagines herself, in death, “far outshin[ing] the day,” and the poem’s classical figuration is reconfigured in praise of a biblical God, in a vein congruent with much of Pulter’s devotional verse.</note></rdg>
+                    <rdg wit="#ae"><note type="headnote">Aurora is the female mythological figure that appears most often in Pulter’s poetry. This is the first of five poems Pulter has written about or to Aurora, the Roman goddess of the dawn: “Aurora [1]” (Poem 3), “To Aurora [1]” (Poem 22), “To Aurora [2]” (Poem 26), “To Aurora [3]” (Poem 34), and “Aurora [2]” (Poem 37). The character Aurora also appears in several other poems, including “Universal Dissolution” (Poem 6), ll. 109-114, and “To Astraea” (Poem 23), ll. 1-4, where she is depicted as the mother of Truth or Astraea. There are several menacing figures in this first poem on Aurora: the Sun, who violently pursues Aurora; Night, whose children torment the speaker; and Death. The poem charts the period of a day: from a blissful awakening at the hands of Aurora, to a time of destruction caused by the lust and rage of the Sun, to a period of suffering brought about by Night’s offspring. The poem ends in a place beyond time, where the speaker’s death will bring her comfort and where she will delight in praising God.</note></rdg>
+                </app>
+            </head>
+            <lg type="free" n="1">
+                <l n="1">
+                    <app>
+                        <rdg wit="#ft">Louely Aurora, o how Heavenly faire</rdg>
+                        <rdg wit="#ee">Lovely <seg>Aurora<note type="gloss">Roman goddess of dawn</note></seg>, O how heavenly fair</rdg>
+                        <rdg wit="#ae">Louely <seg>Aurora<note type="gloss">Aurora is the Roman goddess of the dawn.</note></seg>, o how Heavenly faire</rdg>
+                    </app>
+                </l>
+                <l n="2">
+                    <app>
+                        <rdg wit="#ft">Do’s ſhe apeare with her diſſheveld haire</rdg>
+                        <rdg wit="#ee">Does she appear with her <seg>disheveled hair<note type="critical">Aurora’s hair may be disheveled to indicate the streaks of light that can appear at the break of day.</note></seg></rdg>
+                        <rdg wit="#ae">Do’s she apeare with her dissheveld haire</rdg>
+                    </app>
+                </l>
+                <l n="3">
+                    <app>
+                        <rdg wit="#ft">Pearl’d or’e <w lemma="with"><abbr>w:<hi
+                            rend="superscript">th</hi></abbr></w> odours of the early East</rdg>
+                        <rdg wit="#ee">Pearled over with odors of the early East—</rdg>
+                        <rdg wit="#ae"><seg>Pearl’d or’e<note type="critical">i.e., pearled over, or covered over with pearl-like drops (sprinkled with dew), but the image here is of “odours” or scents taking the liquid form of dew. For an image of a seventeenth-century woman pearled over with actual pearls, see “Curations.”</note></seg> w<hi rend="italic">i</hi>th odours of the early East</rdg>
+                    </app>
+                </l>
+                <l n="4">
+                    <app>
+                        <rdg wit="#ft">How infinitely ſhee doth our Sences feast</rdg>
+                        <rdg wit="#ee">How infinitely she doth our senses feast!</rdg>
+                        <rdg wit="#ae">How infinitely shee doth our <seg>Sences feast<note type="gloss">The syntax suggests that our senses, and in this case the senses of smell (the “odours” of line 3) and sight (because we see Aurora’s hair, perhaps in the form of wispy clouds), feast or delight in the dawn.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="5">
+                    <app>
+                        <rdg wit="#ft">Shee needs noe Ge<hi rend="overline">m</hi>s her ſnowey Neck to adorne</rdg>
+                        <rdg wit="#ee">She needs no gems her snowy neck to adorn,</rdg>
+                        <rdg wit="#ae">Shee needs noe Gem<hi rend="italic">m</hi>s her snowey <seg>Neck<note type="critical">Aurora’s neck may be snowy and unadorned to depict the bright light of early morning. Pulter may also be evoking the language of the blazon here and giving it a different spin: instead of the perfect blond hair and alabaster skin of the Petrarchan lady, Aurora’s hair is disheveled (l. 2) and she doesn’t sport the conventional jewelry worn by high status women of the time (“noe Gemms”). See Frances E. Dolan’s discussion of Pulter’s use of the blazon in this website’s “Explorations.”</note></seg> to adorne</rdg>
+                    </app>
+                </l>
+                <l n="6">
+                    <app>
+                        <rdg wit="#ft"><w lemma="for">&ff;or</w> what can luſter add unto the Morne</rdg>
+                        <rdg wit="#ee">For what can luster add unto the morn?</rdg>
+                        <rdg wit="#ae">For what can luster add unto the Morne</rdg>
+                    </app>
+                </l>
+                <l n="7">
+                    <app>
+                        <rdg wit="#ft">Her right Hand holds forth Light unto our view</rdg>
+                        <rdg wit="#ee">Her right hand holds forth light unto our view;</rdg>
+                        <rdg wit="#ae">Her<seg> right Hand holds forth Light<note type="critical">This image of dawn holding light could allude to the common Homeric epithet, rosy-fingered dawn.</note></seg> unto our view</rdg>
+                    </app>
+                </l>
+                <l n="8">
+                    <app>
+                        <rdg wit="#ft">The other Sprinckles Aromattick Dew</rdg>
+                        <rdg wit="#ee">The other sprinkles aromatic dew</rdg>
+                        <rdg wit="#ae">The other Sprinckles Aromattick Dew</rdg>
+                    </app>
+                </l>
+                <l n="9">
+                    <app>
+                        <rdg wit="#ft">On <w lemma="flora">&ff;loras</w>; fragrant, various Colour’d <w lemma="flowers">&ff;lowers</w></rdg>
+                        <rdg wit="#ee">On <seg>Flora's<note type="gloss">Roman goddess of flowers</note></seg> fragrant, various-colored flowers,</rdg>
+                        <rdg wit="#ae">On <seg>Floras<note type="gloss">Flora is the Roman goddess of flowers.</note></seg>; fragrant, various Colour’d Flowers</rdg>
+                    </app>
+                </l>
+                <l n="10">
+                    <app>
+                        <rdg wit="#ft">Attended by a Traine of fleeting Howres</rdg>
+                        <rdg wit="#ee">Attended by a train of fleeting <seg>Hours<note>Horae, Greek goddesses of seasons</note></seg></rdg>
+                        <rdg wit="#ae">Attended by a <seg>Traine of fleeting Howres<note type="gloss">The Hours are the Greek goddesses of the seasons. The train (or group or sequence) is fleeting because dawn soon turns into day. The verb “fleet” is also used to capture the movement of mists, clouds, or spirits floating or drifting through the air (<title rend="italic">OED</title> v.1, I.3)</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="11">
+                    <app>
+                        <rdg wit="#ft">Drawn by white <seg>Palphris<note type="physical"> second half of word appears respelled ("p" may have been "f")</note></seg> first of that kinde</rdg>
+                        <rdg wit="#ee">Drawn by white <seg>palfreys<note type="gloss">saddle horses, esp. for women</note></seg>, first of that kind,</rdg>
+                        <rdg wit="#ae">Drawn by white <seg>Palphris<note type="critical">i.e., palfreys, or horses for riding, especially for women. The Greek goddess of the dawn, Eos, is depicted in the <title rend="italic">Odyssey</title> 23.246 as riding in a chariot drawn by two horses called Lampus (“Shiner”) and Phaethon (“Blazer”); Alan H. Griffiths, “Eos,” in <title rend="italic">The Oxford Classical Dictionary</title>, edited by Simon Hornblower and Antony Spawforth, 3rd revised edition, Oxford University Press, 2005, Oxford Reference Online.</note></seg> <seg>first of that kinde<note type="critical"> Best of their species, or “preceding all others in status, rank, importance, or excellence” (<title rend="italic">OED</title> 1a). Additionally, the palfreys may be identified as “first” of their kind in order to suggest the newness of the breaking day.</note></seg></rdg>
+
+                    </app>
+                </l>
+                <l n="12">
+                    <app>
+                        <rdg wit="#ft">Now Since producet by Snuffing up the wind</rdg>
+                        <rdg wit="#ee">Now since produced by <seg>snuffing<note type="gloss">inhaling through the nostrils</note></seg> up the <seg>wind<note type="critical">palfreys...produced by snuffing up the wind]</note></seg>;</rdg>
+                        <rdg wit="#ae">Now Since <seg>producet by Snuffing up the wind<note type="gloss">The syntax suggests that the horses have been materialized by an inhaling through the nostrils, but it is not clear exactly who or what has inhaled them into being (the god of the winds? the horses themselves?).</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="13">
+                    <app>
+                        <rdg wit="#ft">Thus as in Silver coach ſhees hurld</rdg>
+                        <rdg wit="#ee">Thus, as <seg>in silver coach<note type="critical"> in classical myth, Aurora was often pictured driving or riding in a horse-drawn coach or chariot, like Phoebus/Apollo, as the sun, in lines #-# below</note></seg> she's hurled,</rdg>
+                        <rdg wit="#ae">Thus as in <seg>Silver Coach<note type="gloss">Aurora conventionally rides across the sky in a chariot; it is silver here perhaps to evoke the purity and quality of early-morning light.</note></seg> shees hurld</rdg>
+                    </app>
+                </l>
+                <l n="14">
+                    <app>
+                        <rdg wit="#ft">Shee both inlightens and perfumes the world</rdg>
+                        <rdg wit="#ee">She both enlightens and perfumes the world.</rdg>
+                        <rdg wit="#ae">Shee both <seg>inlightens and perfumes<note type="critical">In her descriptions of Aurora’s actions Pulter has stressed both the obvious light-giving qualities of the dawn (she adds “luster” to the morn, l. 6, and “inlightens,” l. 14) and the less obvious range of scents with which she “perfumes the world,” l. 14 (“odours of the early East,” l. 3, “Aromattick Dew,” l. 8, “fragrant … Flowers,” l. 9).</note></seg> the world</rdg>
+                    </app>
+                </l>
+                <l n="15">
+                    <app>
+                        <rdg wit="#ft">Then after hurries that illustrious Stare</rdg>
+                        <rdg wit="#ee">Then after hurries that illustrious <seg>star<note type="gloss">the sun</note></seg></rdg>
+                        <rdg wit="#ae">Then after hurries that illustrious Stare</rdg>
+                    </app>
+                </l>
+                <l n="16">
+                    <app>
+                        <rdg wit="#ft">Who rides Triumphant in his blazing Car</rdg>
+                        <rdg wit="#ee">Who rides, triumphant, in his blazing <seg>car<note type="gloss">chariot</note></seg>,</rdg>
+                        <rdg wit="#ae">Who rides Triumphant in his <seg>blazing Car<note type="critical">This is a reference to the Sun god riding in his horse-drawn chariot across the sky. In Greek myth, the goddess of the dawn, Eos, was the daughter of Hyperion, the Sun god (Griffiths, “Eos”), but here the Sun god pursues the dawn as a would-be lover. Also, Griffiths notes that the mythology depicts Eos as a “predatory lover,” but Pulter presents the dawn as subject to the lust of the Sun rather than the aggressor towards her own romantic conquests.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="17">
+                    <app>
+                        <rdg wit="#ft">Before whoſe face Shines forth perpetuall day</rdg>
+                        <rdg wit="#ee">Before whose face shines forth perpetual day,</rdg>
+                        <rdg wit="#ae">Before whose face Shines forth perpetuall day</rdg>
+                    </app>
+                </l>
+                <l n="18">
+                    <app>
+                        <rdg wit="#ft">Exhailing and expelling Mists away</rdg>
+                        <rdg wit="#ee">Exhaling and expelling mists away,</rdg>
+                        <rdg wit="#ae">Exhailling and expelling Mists away</rdg>
+                    </app>
+                </l>
+                <l n="19">
+                    <app>
+                        <rdg wit="#ft">And to her Thros his wanton <seg>[<del type="strikethrough">?</del>]<note type="physical">single illegible letter, scribbled out</note></seg> amorous Eyes</rdg>
+                        <rdg wit="#ee">And to her throws his wanton amorous eyes;</rdg>
+                        <rdg wit="#ae">And to her <seg>Thros<note type="gloss"> i.e., throws</note></seg> his wanton amorous Eyes</rdg>
+                    </app>
+                </l>
+                <l n="20">
+                    <app>
+                        <rdg wit="#ft">But like a Virgin Coy Shee bluſhing flies</rdg>
+                        <rdg wit="#ee">But like a virgin coy, she, blushing, flies.</rdg>
+                        <rdg wit="#ae">But <seg>like a Virgin<note type="critical">Aurora may be acting “like” a virgin because she isn’t actually one: in  “Universal Dissolution” (Poem 6), ll. 109-114, and “To Astraea” (Poem 23), ll. 1-4, Pulter depicts her as the mother of Truth, or Astraea.</note></seg> Coy Shee blushing flies</rdg>
+                    </app>
+                </l>
+                <l n="21">
+                    <app>
+                        <rdg wit="#ft">Hee fil’d with loue and Rage for her diſdaine</rdg>
+                        <rdg wit="#ee">He, filled with love and rage for her disdain,</rdg>
+                        <rdg wit="#ae">Hee fil’d with loue and Rage for her <seg>disdaine<note type="critical">The poet is using the language of Petrarchan courtship here: “coy,” “blushing,” and “disdain” all suggest the typical lady of the sonnet tradition. But with the use of the word “Rage” Pulter gives the scene a violent edge and suggests the potential menace of a courtship situation. She is likely also evoking the context of Greek mythology which is filled with stories of male aggressors and female victims, such as Apollo and Daphne.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="22">
+                    <app>
+                        <rdg wit="#ft">Upon his foaming Horſes layes <seg>[<del type="strikethrough">?</del>] <note type="physical">single illegible letter, scribbled out</note></seg>his Raine</rdg>
+                        <rdg wit="#ee">Upon his <seg>foaming<note type="gloss">foaming at the mouth</note></seg> horses lays his rein,</rdg>
+                        <rdg wit="#ae">Upon his <seg>foaming Horses<note type="critical">Horses are traditionally associated with the bestial side of the human passions that need to be reined in. That the Sun’s horses are foaming with rage suggests that they, like their master, are out of control.</note></seg> layes his Raine</rdg>
+                    </app>
+                </l>
+                <l n="23">
+                    <app>
+                        <rdg wit="#ft"><w lemma="gaining">Gain<add place="below">^</add><add
+                            place="above">in</add>g</w> Olimpus top with furious Speed</rdg>
+                        <rdg wit="#ee">Gaining <seg>Olympus's<note type="gloss">mountain home of Greek gods</note></seg> top with furious speed,</rdg>
+                        <rdg wit="#ae">Gaining <seg>Olimpus top<note type="gloss">Mount Olympus was the home of the Greek gods.</note></seg> with furious Speed</rdg>
+                    </app>
+                </l>
+                <l n="24">
+                    <app>
+                        <rdg wit="#ft">Lashing <seg>[<del type="strikethrough">?</del>] <note type="physical">several illegible letters, scribbled out; first three letters likely "the"</note></seg> theire Pamper’d Sides untill they bleed</rdg>
+                        <rdg wit="#ee">Lashing their pampered sides until they bleed.</rdg>
+                        <rdg wit="#ae">Lashing theire Pamper’d Sides <seg>untill they bleed<note type="gloss">While whipping horses to increase their speed may have been a common practice, Pulter emphasizes the savagery of the Sun’s actions and their cosmic consequences.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="25">
+                    <app>
+                        <rdg wit="#ft">When these Vermillian drops to Earth deſcend</rdg>
+                        <rdg wit="#ee">When these <seg>vermilion<note type="gloss">bright red</note></seg> drops to Earth descend</rdg>
+                        <rdg wit="#ae">When these <seg>Vermillian<note type="gloss">i.e., vermilion or bright red</note></seg> drops to Earth descend</rdg>
+                    </app>
+                </l>
+                <l n="26">
+                    <app>
+                        <rdg wit="#ft">They Maze poore Mortals fearing they portend</rdg>
+                        <rdg wit="#ee">They amaze poor mortals, fearing they portend</rdg>
+                        <rdg wit="#ae">They <seg>Maze<note type="gloss"> i.e., amaze</note></seg> poore Mortals fearing they portend</rdg>
+                    </app>
+                </l>
+                <l n="27">
+                    <app>
+                        <rdg wit="#ft">Unto ſome Antient Monarchie confuſion</rdg>
+                        <rdg wit="#ee">Unto some ancient monarchy confusion,</rdg>
+                        <rdg wit="#ae">Unto some <seg>Antient Monarchie confusion<note type="critical">The poet may be comparing the menacing sign of blood-red raindrops falling from the sky to a kind of biblical plague such as the frogs, lice, and flies that God brought upon the Pharaoh who would not let the Israelites under Moses go free (Exodus 8). Other examples of God’s punishment upon Pharaoh’s kingdom include cattle killing, boils, pestilence, hail, and fire (Exodus 9), and locusts and darkness (Exodus 10). Additionally, as Alice Eardley notes in her edition (p. 57), Ovid depicts drops of blood falling from the sky in Book 15 of the <title rend="italic">Metamorphoses</title>. The context for these lines is the omens which presage the murder of Julius Caesar, a dire event with political ramifications: “when faire <hi rend="italic">Venus</hi> saw; and saw with all, / Conspiring weapons threat the High-Priests [i.e., Caesar’s] fall; / Her colour fled …  Thus, through all heauen, her Sorrowes vainely speake; / And melt the Gods: who, since they could not breake / The antient Sisters [i.e., the Destinies] adamantine doome, / By sure Ostents [i.e., portents] demonstrate Woes to come … Oft, Meteors through the aire their flames extend: / Oft, drops of blood from purple clouds descend” (George Sandys, translator, <title rend="italic">Ouids Metamorphosis Englished, mythologiz'd, and represented in figures</title>, 1632, pp. 507-508). Pulter’s reference to blood-red drops that also “descend” to Earth picks up on this political suggestion, in its foreshadowing of confusion to a monarchy or dissolution to a monstruous hydra (line 28).</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="28">
+                    <app>
+                        <rdg wit="#ft">Or to ſome Hidrian Monster diſſolution</rdg>
+                        <rdg wit="#ee">Or, to some <seg>Hydrian monster<note type="critical"> many-headed monster of Greek myth; often used figuratively, esp. by Pulter for opponents to royalists in the civil wars</note></seg>, dissolution,</rdg>
+                        <rdg wit="#ae">Or to some <seg>Hidrian Monster<note type="critical">In her image of the “Hidrian Monster,” Pulter is drawing a parallel between heavenly signs that portend the fall of a civilization and indications that a political movement will fail (specifically, the implication is the Parliamentarians in the civil war). The Hydra, or monster with many heads which grow back as quickly as they are cut off, was a common symbol of unruly government. Charles I in <title rend="italic">Eikon basilike, The pourtraicture of His Sacred Majestie in his solitudes and sufferings</title> (1648; really 1649) refers to “the many-headed Hydra of Government” as a “monstrosity” (p. 71; see “Curations”). For an example of how Thomas Hobbes uses the metaphor in <title rend="italic">Leviathan</title> (1651), see “Curations.”</note></seg> <seg>dissolution<note type="gloss">While Pulter often uses the term “dissolution” or “dissolve” in an alchemical sense to suggest disintegration (as in the title “Universal Dissolution” [Poem 6], for example), here the sense seems to be political above all.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="29">
+                    <app>
+                        <rdg wit="#ft">When often times the cause is from aboue</rdg>
+                        <rdg wit="#ee">When, oftentimes, the cause is from above:</rdg>
+                        <rdg wit="#ae">When often times the cause is from aboue</rdg>
+                    </app>
+                </l>
+                <l n="30">
+                    <app>
+                        <rdg wit="#ft"><w lemma="from">&ff;rom</w> Radiant Delias frantick fits of loue</rdg>
+                        <rdg wit="#ee">From radiant <seg>Delius's<note type="critical">Pulter’s manuscript reads “Delia’s”; however, sense suggests authorial or scribal error for possessive “Delius,” epithet for Apollo, Greek sun god</note></seg> frantic fits of love,</rdg>
+                        <rdg wit="#ae">From Radiant <seg>Delias<note type="critical">The island of Delos was the supposed birthplace of the god Apollo, and one of the two centres where his cult was established in ancient Greece. Apollo was associated with many things including prophecy, poetry, and the sun. As the elemental edition notes, Delia, the feminized form of the word, may be a transcription error for Delius, but at several other places in her poetry Pulter uses Delia to refer to the Sun god: for example, see “The Eclipse” (Poem 1), l. 26, “The Garden, or the Contention of Flowers” (Poem 12), l. 127, and “This Soul, that Bird, and Fish” (Emblem 35), l. 3. The context of the poem makes it clear that this name refers to the amorous Sun god, but the name Delia was sometimes used by other writers as a synonym for Apollo’s sister Cynthia, goddess of the moon. For example, the character Arete in Ben Jonson’s play <title rend="italic">Cynthia’s Revels</title>, act 5, scene 8, line 18, addresses Cynthia as “celestiall Delia” (<title rend="italic">Ben Jonson, Vol. 4: Cynthia’s Revels; Poetaster; Sejanus; Eastward Ho</title>, edited by C.H. Herford and Percy Simpson, Oxford University Press, 1932, p. 168, Oxford Scholarly Editions Online).</note></seg> frantick fits of loue</rdg>
+                    </app>
+                </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">who</fw></rdg>
+            </app>
+                <app>
+                    <rdg wit="#ft">
+                        <pb ed="#ft" facs="#f7610_019" n="8r"/>
+                        <fw facs="#f7610_019" type="pageNum" place="margin-topright">11</fw>
+                    </rdg>
+                    <rdg wit="#ee">
+                        <pb ed="#ee" facs="#f7610_019"/>
+                    </rdg>
+                    <rdg wit="#ae">
+                        <pb ed="#ae" facs="#f7610_019"/>
+                    </rdg>
+                </app>
+            <lg type="free" n="2">
+                <l n="31">
+                    <app>
+                        <rdg wit="#ft">Who followes her with <seg>Heat<note type="gloss">The heat with which the sun pursues the dawn would be due to the growing strength of the sun as the day emerges, but also to the ardour or passion or rage (<title rend="italic">OED</title>, “heat,” 11a) he is feeling.</note></seg> and greater light</rdg>
+                        <rdg wit="#ee">Who follows her with heat and greater light,</rdg>
+                        <rdg wit="#ae">Who followes her with Heat and greater light</rdg>
+                    </app>
+                </l>
+                <l n="32">
+                    <app>
+                        <rdg wit="#ft">Leaving this Horoſcope to horrid Night</rdg>
+                        <rdg wit="#ee">Leaving this <seg>horoscope<note type="critical">temporary configuration of planets</note></seg> to horrid <seg>Night<note type="gloss">Greek goddess Nyx</note></seg>,</rdg>
+                        <rdg wit="#ae">Leaving this <seg>Horoscope<note type="gloss">configuration of the planets at one moment</note></seg> to horrid <seg>Night<note type="critical">Nyx is the Greek goddess of night. Pulter refers to Night and her children tormenting people in “To Aurora [1]” (Poem 22), ll. 4-6 (“This uglie Hag … / Old Night (I meane) with her infernall brood / Who make mens miseries their accursed food”) and “Aletheia’s Pearl” (Poem 32), ll. 102-104 (“Cavse the black brood of Acharon, and Night, / Would alsoe com, who onely were adicted / To ad aflictions to the most aflicted”; my transcriptions from the manuscript). Acheron denoted the underworld or Hell (M.C. Howatson, editor, <title rend="italic">The Oxford Companion to Classical Literature</title>, 3rd edition, Oxford University Press, 2011, Oxford Reference Online).</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="33">
+                    <app>
+                        <rdg wit="#ft">Whose furious iſſue Straight theire Curles unrowles</rdg>
+                        <rdg wit="#ee">Whose furious <seg>issue<note type="critical">Night’s asexually (and so, as line 37 suggests, illegitimately) produced offspring, including Doom, Fate, Death, Dreams, Blame, Misery, the Hesperides, the Destinies (or Parcae), Nemesis, Deceit, Lovemaking, Old Age, and Strife. Hesiod, The Poems of Hesiod: Theogony, Works and Days, and the Shield of Herakles (2017), 42, 45.</note></seg> straight their curls unrolls</rdg>
+                        <rdg wit="#ae">Whose furious <seg>issue<note type="critical"> For a list of the issue or children of Night from the Greek poet Hesiod, see the elemental edition. Alice Eardley in her edition of the poem identifies these with the Furies or the Eumenides (p. 57). Daughters either of the Earth or of Night, the Eumenides had “blood in their eyes, serpents in their hair, and wings on their backs to punish humans for various improper acts” (David Leeming, <title rend="italic">The Oxford Companion to World Mythology</title>, Oxford University Press, 2005, Oxford Reference Online). If the offspring of Night are all female, they provide an inversion of the benevolent, though fleeting, female train of Hours at line 10.</note></seg> Straight theire <seg>Curles unrowles<note type="critical">The image of Night’s children unrolling the serpents in their hair to use as whips contrasts with Aurora’s beautiful, disheveled hair of line 2.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="34">
+                    <app>
+                        <rdg wit="#ft">To lash and torture poore afflicted ſoules</rdg>
+                        <rdg wit="#ee">To lash and torture poor afflicted souls.</rdg>
+                        <rdg wit="#ae">To lash and torture poore afflicted soules</rdg>
+                    </app>
+                </l>
+                <l n="35">
+                    <app>
+                        <rdg wit="#ft">Anathamized are those that doe delight</rdg>
+                        <rdg wit="#ee"><seg>Anathemized<note type="gloss">cursed, hated</note></seg> are those that do delight</rdg>
+                        <rdg wit="#ae"><seg>Anathamized<note type="gloss">i.e., anathemized: cursed</note></seg> are those that doe delight</rdg>
+                    </app>
+                </l>
+                <l n="36">
+                    <app>
+                        <rdg wit="#ft">To add afflictions to the afflicted wight</rdg>
+                        <rdg wit="#ee">To add afflictions to the afflicted <seg>wight<note type="gloss">person</note></seg>;</rdg>
+                        <rdg wit="#ae">To add <seg>afflictions to the afflicted<note type="critical">Here, and in line 34, Pulter is using polyptoton (the same word in various cases) to stress the affliction or suffering of those whom Night’s offspring torment. She repeats this effect in “Aletheia’s Pearl” (Poem 32), ll. 102-104, quoted above.</note></seg> <seg>wight<note type="gloss">creature or person</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="37">
+                    <app>
+                        <rdg wit="#ft">And of <seg>[<del type="strikethrough">?</del>] <note type="physical">single illegible letter, scribbled out</note></seg>her Spurious breed (no doubt) they bee</rdg>
+                        <rdg wit="#ee">And of her <seg>spurious<note type="gloss">false; of illegitimate birth or origin</note></seg> breed (no doubt) they be</rdg>
+                        <rdg wit="#ae">And of her <seg>Spurious breed<note type="critical">Night is depicted as a mother with illegitimate offspring (“Spurious breed”). This offers a contrast to Pulter’s many depictions of devoted motherhood throughout her poetry: herself, and some of the creatures in her emblems and in other poems such as “Why Must I Thus Forever Be Confined” (Poem 57).</note></seg> (no doubt) they bee</rdg>
+                    </app>
+                </l>
+                <l n="38">
+                    <app>
+                        <rdg wit="#ft">That looke<del type="strikethrough">s</del> with Joy on others miſerie</rdg>
+                        <rdg wit="#ee">That look with joy on others' misery.</rdg>
+                        <rdg wit="#ae">That looke with Joy on others miserie</rdg>
+                    </app>
+                </l>
+                <l n="39">
+                    <app>
+                        <rdg wit="#ft">Oft times they craule into my trembling brest</rdg>
+                        <rdg wit="#ee">Oft times they crawl into my trembling breast,</rdg>
+                        <rdg wit="#ae">Oft times they craule into my trembling brest</rdg>
+                    </app>
+                </l>
+                <l n="40">
+                    <app>
+                        <rdg wit="#ft">That I choose Strangling rather then ſuch Rest</rdg>
+                        <rdg wit="#ee">That I choose strangling rather than such rest;</rdg>
+                        <rdg wit="#ae">That I choose <seg>Strangling Rather then such Rest<note type="critical">The poet now turns from mythological heavenly creatures to her own situation of suffering. The implication is that at night, emotions and pain insidiously enter her when her guard is down. Her image of her “trembling brest” (l. 39) evokes vulnerability but the next line suggests some choice: she would rather be strangled than endure this kind of rest. The violence of strangling picks up other brutal actions in the poem, such as the “lashing” carried out by both the Sun and Night’s children (ll. 24 and 34).</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="41">
+                    <app>
+                        <rdg wit="#ft">Sometimes they take advantage of my feare</rdg>
+                        <rdg wit="#ee">Sometimes they take advantage of my fear:</rdg>
+                        <rdg wit="#ae">Sometimes they take advantage of my feare</rdg>
+                    </app>
+                </l>
+                <l n="42">
+                    <app>
+                        <rdg wit="#ft">Then Strange Cemerian Sights Seeme to apeare</rdg>
+                        <rdg wit="#ee">Then strange <seg>Cimmerian<note type="gloss">dark, gloomy; of the underworld</note></seg> sights seem to appear</rdg>
+                        <rdg wit="#ae">Then Strange <seg>Cemerian<note type="gloss">i.e., Cimmerian: people who were fabled to live in darkness</note></seg> Sights Seeme to apeare</rdg>
+                    </app>
+                </l>
+                <l n="43">
+                    <app>
+                        <rdg wit="#ft">Unto my troubled fancie then againe</rdg>
+                        <rdg wit="#ee">Unto my troubled fancy; then again</rdg>
+                        <rdg wit="#ae">Unto my troubled <seg>fancie<note type="gloss">imagination</note></seg> then againe</rdg>
+                    </app>
+                </l>
+                <l n="44">
+                    <app>
+                        <rdg wit="#ft">They take Advantage from my Griefe or paine</rdg>
+                        <rdg wit="#ee">They take advantage from my grief or pain,</rdg>
+                        <rdg wit="#ae">They take Advantage from my Griefe or paine</rdg>
+                    </app>
+                </l>
+                <l n="45">
+                    <app>
+                        <rdg wit="#ft">Preſenting death in his most horrid’st Shape</rdg>
+                        <rdg wit="#ee">Presenting death in his most horrid shape:</rdg>
+                        <rdg wit="#ae">Presenting death in his most horrid’st Shape</rdg>
+                    </app>
+                </l>
+                <l n="46">
+                    <app>
+                        <rdg wit="#ft">Then of my Reaſon Straight they make a Rape</rdg>
+                        <rdg wit="#ee">Then, of my reason, straight they make a <seg>rape<note type="gloss">forced abduction; sexual violation</note></seg>;</rdg>
+                        <rdg wit="#ae">Then of my Reason Straight they make a <seg>Rape<note type="critical">Rape could mean to abduct or to take something by force, but the crime of a man taking a woman sexually by force is resonant in this context, given the scene the poet depicted earlier of a violent pursuit by a male figure (the Sun) of an unwilling female figure (Aurora). That earlier scene did not result in an actual rape, but here Night’s children “make a Rape” of the speaker’s “Reason” in the form of tormenting her by depicting the menacing male figure of Death.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="47">
+                    <app>
+                        <rdg wit="#ft">Then my Sad Soule doth See before her Eye</rdg>
+                        <rdg wit="#ee">Then my sad soul doth see before her eye</rdg>
+                        <rdg wit="#ae">Then my Sad Soule doth See before her Eye</rdg>
+                    </app>
+                </l>
+                <l n="48">
+                    <app>
+                        <rdg wit="#ft">Some of my friends (aye me) that late did die</rdg>
+                        <rdg wit="#ee">Some of my friends (aye me) that late did die,</rdg>
+                        <rdg wit="#ae">Some of my freinds (aye me) that <seg>late did die<note type="gloss">The exact identity of those friends is not clear, but many candidates are possible during a period of civil war, and of the poet’s own experience of child loss.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="49">
+                    <app>
+                        <rdg wit="#ft">Whoſe loſs fils my poore heart Soe full of griefe</rdg>
+                        <rdg wit="#ee">Whose loss fills my poor heart so full of grief</rdg>
+                        <rdg wit="#ae">Whose loss fils my poore heart Soe full of griefe</rdg>
+                    </app>
+                </l>
+                <l n="50">
+                    <app>
+                        <rdg wit="#ft">That nought, but Death can give my Soule Reliefe</rdg>
+                        <rdg wit="#ee">That nought but death can give my soul relief—</rdg>
+                        <rdg wit="#ae">That nought, but <seg>Death can give my Soule Reliefe<note type="gloss">Pulter transforms the figure of Death from something terrifying (“his most horrid’st Shape,” l. 45) to something comforting, since it will bring her to God.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="51">
+                    <app>
+                        <rdg wit="#ft"><w lemma="for">&ff;or</w> then I plac’t Shall be in Such a Spheire</rdg>
+                        <rdg wit="#ee">For then I placed shall be in such a sphere,</rdg>
+                        <rdg wit="#ae">For then I plac’t Shall be in Such a Spheire</rdg>
+                    </app>
+                </l>
+                <l n="52">
+                    <app>
+                        <rdg wit="#ft">Where nights aſſociates, I Shall never feare</rdg>
+                        <rdg wit="#ee">Where Night's associates I shall never fear.</rdg>
+                        <rdg wit="#ae">Where nights associates, I Shall never feare</rdg>
+                    </app>
+                </l>
+                <l n="53">
+                    <app>
+                        <rdg wit="#ft">Oh if I once could loſe theſe Rags of Clay</rdg>
+                        <rdg wit="#ee">O, if I once could lose these rags of clay,</rdg>
+                        <rdg wit="#ae">Oh if I once could lose these <seg>Rags of Clay<note type="critical">It is common to refer to the human body as mere clay, evoking the substance from which Adam was created, but “Rags of Clay” is a less common idiom to use to describe one’s body. Rags might suggest her worn out, grief-stricken flesh. She also uses the phrase in “Made When My Spirits Were Sunk Very Low” (Poem 66), line 4, where it has special resonance in a poem that announces itself in its full title as having been written “in sickness &amp; sorrow” when she was “seventy one years old.”</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="54">
+                    <app>
+                        <rdg wit="#ft">Then I (poore I) ſhould fare outſhine the day</rdg>
+                        <rdg wit="#ee">Then I (poor I) should far outshine the day;</rdg>
+                        <rdg wit="#ae">Then I (poore I) should fare <seg>outshine the day<note type="critical">In the afterlife her spirit will shine brighter than the dawn or the sun, sources of light in this poem. This language of surpassing may also suggest that the Christian framework she is introducing in these final lines is meant to show that the Christian God surpasses the mythological conceptions of day and night that she has depicted in this poem.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="55">
+                    <app>
+                        <rdg wit="#ft">Then that greate God that Ancient is of dayes</rdg>
+                        <rdg wit="#ee">Then that great God, that <seg>ancient is of days<note type="critical">see KJV, Daniel 7:9,13,22</note></seg>,</rdg>
+                        <rdg wit="#ae">Then that greate God that <seg>Ancient is of dayes<note type="gloss">As the elemental edition notes, this phrase is Biblical, from Daniel 7.</note></seg></rdg>
+                    </app>
+                </l>
+                <l n="56">
+                    <app>
+                        <rdg wit="#ft">Should be the Alpha and Omega of my <seg>Praise<note type="physical"><w lemma="praise">Praise<hi
+                            rend="superscript">e</hi></w>] poem ends with four dots arranged in a diamond</note></seg></rdg>
+                        <rdg wit="#ee">Should be the Alpha and <seg>Omega<note type="critical">Alpha and Omega] first and last letters of Greek alphabet; as epithet for Christian deity, see KJV, Revelation 1:8, 11; 21:6; 22:13</note></seg> of my praise.</rdg>
+                        <rdg wit="#ae"><seg>Should<note type="gloss">Pulter’s use of the word “should” in lines 54 and 56 is likely in the sense of “shall” rather than the sense of “ought.”</note></seg> be the <seg>Alpha and Omega<note type="gloss">Alpha and Omega are the first and last letters of the Greek alphabet, and are used to refer to God at several places in the Book of Revelation.</note></seg> of my Praise</rdg>
+                    </app>
+                </l>
+            </lg>
+                <app>
+                    <rdg type="milestone" wit="ft">
+                        <milestone unit="poem" rend="straight-ascendline"/>
+                    </rdg>
+                </app>
+        </body>
+    </text>
+</TEI>

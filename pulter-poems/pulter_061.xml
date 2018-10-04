@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.61">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Weeping Wish</title>
+                 <title type="sub">Poem #61</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.)</p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>tears</term>
+		    <term>sighs</term>
+		    <term>sadness</term>
+		    <term>Christian god</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_172.jpg" xml:id="f7610_172"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>May 18, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 18, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>June 13, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_172" n="84v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_172"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_172"/></rdg>
+            </app>
+            
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                   </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw><seg>The Weepeinge Wishe<note type="physical">This poem is written in the hand of H2.</note></seg> January . 1665 :</rdg>
+                    <rdg wit="#ee"><seg>The Weeping Wish<note type="physical">This poem is in a different hand from that of the main scribe, probably Pulter’s.</note></seg></rdg>
+                    <rdg wit="#ae"><seg>The Weeping Wish, January, 1665<note type="physical">“The Weeping Wish” appears in a different hand than the main scribe of the manuscript. This is one of several poems labeled with a date, though it is unclear whether this poem commemorates a specific event. “The Hope” (Poem 65), which is an apostrophe to Death, is also dated January 1665. Compare also to “The Wish” (Poem 52), which combines astronomical imagery with wishing to very different effect.</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">
+                  <p>Each octave of “The Weeping Wish” expresses the speaker’s desire to transform her tears into something more powerful: comets to illuminate the night; flowers which would make her famous; medicine for her friends. She also wishes that the sighs accompanying those tears might reach God. In her tearful seeking of such connections with God, posterity, and friends, the speaker appears alone in a sadness which, by the poem’s end, appears life-threatening.</p>
+                  <p>The poem’s preoccupation with how tears might “turn”—the root of “verse”—into something more links to its self-reflexive concern with the speaker’s “story,” in which her sighs might be identified with poems like this one (since her emblems are figured, a few pages later, as the “sighs of a sad soul”). Similarly, her imagined tear-formed flowers would have been recognizable to her readers as both poetic and medicinal. It seems possible, then, that a poem that first seems hopelessly ambitious in its desire not only to brighten the speaker’s dark mood but speak to God, immortalize her memory, and remedy her friends, might actually (if figuratively) accomplish many if not all of its aims.</p>
+                </note></rdg>
+                <rdg wit="#ae"><note type="headnote">“The Weeping Wish” consists of three, eight-line stanzas, each of which explores a different component of the speaker’s wish that her tears might be transformed into a force powerful enough to intercede on behalf of herself and others. In the first stanza, the speaker wills her tears to become comets, numerous enough to transform the night sky into the brightest of days, a function that Pulter elsewhere attributes to the intercessor figure, Aurora (see Poem 22). The second and third stanzas explore the life-giving power of tears. In the second stanza, the speaker desires the power of two pagan gods (Apollo and Iris), whose tears each have the power to create life, and in the third, the speaker’s “dying” tears become a cordial that promises life to her friends through her death, a desire that positions the speaker as a Christ figure. “The Weeping Wish” suggests a reconsideration of the metaphysical conceit; while the poem can be read as an extended metaphor, its willfulness seeks to confound distinctions between literal and figurative.</note></rdg>
+            </app>
+            </head>
+            
+     <lg n="1" type="stanza">       <l n="1">
+                <app>
+                    <rdg wit="#ft">O that the tears that tricle from mine eyes</rdg>
+                    <rdg wit="#ee">O, that the tears that trickle from mine eyes</rdg>
+                    <rdg wit="#ae">O that the tears that trickle from mine eyes</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Were plac’d as blazeinge Commetts in the ſkies</rdg>
+                    <rdg wit="#ee">Were placed as blazing comets in the skies:</rdg>
+                    <rdg wit="#ae">Were placed as <seg>blazing comets in the skies<note type="critical">Pulter’s speaker wills her tears to be transformed into comets. Comets were often considered bad omens, and their periodicity was not understood by European scientists until the predictions of Edmond Halley in the eighteenth century. Pulter’s speaker, however, far from identifying the comet as a bad omen, imagines her comet-tears to be so numerous that they will transform night into day. In this respect, Pulter’s image resembles Margaret Cavendish’s description of the sky of the Blazing World in her utopian text, <title rend="italic">The Description of a New World Called the Blazing World</title> (1666): "But they answer’d, that they could perceive in that World none other but Blazing-Stars, and from thence it had the name that it was called the Blazing-world; and these Blazing-stars, said they, were such solid, firm, and shining bodies as the Sun and the Moon, not of a Globular, but of several sorts of figures, some had tails, and some other kinds of shapes." (<title rend="italic">Paper Bodies: A Margaret Cavendish Reader</title>. Ed. Sylvia Bowerbank and Sara Mendelson. (Broadview, 2000), p. 167.)</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Then would their numerous and illustrous raiſe</rdg>
+                    <rdg wit="#ee">Then would their numerous and <seg>illustrous<note type="gloss">luminous</note></seg> rays</rdg>
+                    <rdg wit="#ae">Then would their numerous and <seg>illustrous<note type="gloss">brilliant or luminous and manifest or evident (see <title rend="italic">OED</title> illustrious, adj. 1 and 2)</note></seg> rays</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Turn my ſad nights into the brightest <seg>dayes<note type="physical">“d” written over smudge or other letter, perhaps “l”</note></seg></rdg>
+                    <rdg wit="#ee">Turn my sad nights into the brightest days.</rdg>
+                    <rdg wit="#ae">Turn my sad nights into the brightest days.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">O that the ſighs that breath from my ſad ſoule</rdg>
+                    <rdg wit="#ee">O, that the sighs that breathe from my sad soul</rdg>
+                    <rdg wit="#ae">O that the sighs that breath from my sad soul</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Might &ff;lie above the higheſt ſtarr or Pole</rdg>
+                    <rdg wit="#ee">Might fly above the highest star or <seg>pole<note type="gloss">the The pole is the point of reference in the sky around which stars appear to revolve, or the point at which the earth’s axis meets heavens (derived from Ptolemy).</note></seg>,</rdg>
+                    <rdg wit="#ae">Might fly <seg>above the highest star or pole<note type="gloss">one of two points in the sky about which the stars appear to revolve (see <title rend="italic">OED</title> pole, n.2. 2.)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Unto that God that vews my dismalle story</rdg>
+                    <rdg wit="#ee">Unto that God that views my dismal story,</rdg>
+                    <rdg wit="#ae">Unto that God that views my <seg>dismal story<note type="critical">Pulter frequently aestheticizes the events of her life as a “story.” For one of many examples, see “Aletheia’s Pearl” (Poem 32) where the speaker’s patron, Aletheia (Truth), reads her “sad story” in the book of fate.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Even Hee that crowns my dieinge hopes with Glory</rdg>
+                    <rdg wit="#ee">Even He that crowns my dying hopes with glory.</rdg>
+                    <rdg wit="#ae">Even He that crowns my dying hopes with glory.</rdg>
+                </app>
+            </l></lg>
+       <lg n="2" type="stanza">     <l n="9">
+                <app>
+                    <rdg wit="#ft">O that my tears that fall down to the earth</rdg>
+                    <rdg wit="#ee">O, that my tears that fall down to the earth</rdg>
+                    <rdg wit="#ae">O that my tears that fall down to the earth</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Might give ſome noble unknown &ff;lower berth</rdg>
+                    <rdg wit="#ee">Might give some noble, unknown flower birth:</rdg>
+                    <rdg wit="#ae">Might give some noble <seg>unknown flower birth<note type="critical">Pulter references Apollo’s transformation of Hyacinth into a flower after his death. In Ovid’s <title rend="italic">Metamorphoses</title>, Apollo’s tears stain the flower’s petals (10.143-219).</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Then would Hadaſſahs more resplendent &ff;ame</rdg>
+                    <rdg wit="#ee">Then would <seg>Hadassah’s<note type="gloss">The poet takes Hadassah as her pseudonym in the manuscript; the name is the Hebrew version of Esther, which is, in turn, a version of Hester. </note></seg> more resplendent fame</rdg>
+                    <rdg wit="#ae">Then would <seg>Hadassah’s<note type="critical">The manuscript in which this poem is found is titled “Poems Breathed Forth by The Noble Hadassah,” a pen-name that refers to Pulter’s own name (Hester) as well as the Biblical heroine Queen Esther. The Book of Esther tells how Queen Esther revealed Haman’s plot against the Jews. As a result, the king ordered Haman to be hanged and the Jews were saved. Esther is celebrated as a hero of her people, and her actions are commemorated in the holiday of Purim. Here Pulter’s speaker suggests that if her tears could have the power to give life—as Apollo’s did when he transformed a dead boy into a living flower—her fame would exceed that of Artemisia, who was known for her exemplary mourning.</note></seg> more resplendent fame</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Out live the &ff;amous Artimitius name</rdg>
+                    <rdg wit="#ee">Outlive the famous <seg>Artimitius’s<note type="gloss">This name is possibly in reference to the ruler in the 4th century BCE who memorialized her husband (Mausolus) with the Mausoleum at Halicarnassus, which was renowned as one of the Seven Wonders of the ancient world</note></seg> name.</rdg>
+                    <rdg wit="#ae">Outlive the <seg>famous Artemisia’s<note type="critical">This is likely a reference to Artemisia II (d. 350 BCE) who was famous for her extraordinary grief after her husband’s death. She constructed the Mausoleum at Halicarnassus, one of the Seven Wonders of the Ancient World, and was reputed to have mixed his ashes into her drink. Boccaccio included her biography in <title rend="italic">De mulieribus claris</title> (“On Famous Women”), praising her as a model of chaste widowhood.</note></seg> name.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">The Iris tricles tears from her ſad eyes</rdg>
+                    <rdg wit="#ee">The iris trickles tears from her sad eyes</rdg>
+                    <rdg wit="#ae"><seg>The iris trickles tears<note type="critical">Iris is the name of the Greek goddess of the rainbow and of a common genus of flowering plant. Pulter explores the lore of the iris, including the legend that the “tears” of the iris propagate new plants, in Poem 12, “The Garden.”</note></seg> from her sad eyes,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">And from their ſalt her ofspringe doth ariſe</rdg>
+                    <rdg wit="#ee">And, from their salt, <seg>her offspring doth arise<note type="critical">Eardley notes the early modern tendency to conflate the iris with the lily; of the latter, Philemon Holland writes in his translation of Pliny’s natural history, “they will come up of the very liquor that distilleth and droppeth from them.” <title rend="italic">The History of the World</title> (London, 1601), 2.84. In alchemy, “salt” was supposed to be one of the ultimate elements of all substances.</note></seg>;</rdg>
+                    <rdg wit="#ae">And from their salt her offspring doth arise;</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">But my abortive tears deſcend in vaine</rdg>
+                    <rdg wit="#ee">But my <seg>abortive<note type="gloss">fruitless</note></seg> tears descend in vain,</rdg>
+                    <rdg wit="#ae">But my abortive tears descend in vain,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">&ff;or I can never ſee thoſe Joyes againe</rdg>
+                    <rdg wit="#ee">For I can never see those joys again.</rdg>
+                    <rdg wit="#ae"><seg>For I can never see those joys again<note type="critical"> Pulter’s speaker acknowledges that her tears do not have the miraculous effect of her wish. Instead her tears are “abortive” (“failing to produce viable offspring” and “unsuccessful; useless, wasted” <title rend="italic">OED</title> adj. 1c.; 2.) and unable to assuage a past grief. The references to flowers and unsuccessful birth in this stanza suggest that the “lost joys” Pulter’s speaker will not see again refer to Pulter’s deceased daughters, who are associated with flowers in “The Garden” (Poem 12) as well as in the elegy for Jane Pulter (Poem 10).</note></seg>.</rdg>
+                </app>
+            </l></lg>
+       <lg n="3" type="stanza">     <l n="17">
+                <app>
+                    <rdg wit="#ft">Hart’s briny tears a Beazur doth condence</rdg>
+                    <rdg wit="#ee"><seg>Hart’s briny tears, a bezoar doth condense<note type="gloss">A bezoar is a hard substance that forms in the stomach or intestines of some animals (like the “hart,” or deer, here) and was considered an antidote to poison.</note></seg>;</rdg>
+                    <rdg wit="#ae"><seg>Hart’s briny tears a bezoar doth condense<note type="critical">referring specifically to a “stone” created in the organs of certain animals, including the deer. The term bezoar now refers to a mass formed as a reaction to indigestible material in almost any animal (including humans), but in the early modern period, the bezoar was highly valued because it was  believed to act as an antidote or counter-poison. See Maria Do Sameiro Barrosa, “Bezoar stones, magic, science, and art” in  <title rend="italic">A History of Geology and Medicine</title>, ed. C.J Duffin et. al. (Geological Society of London, 2013), pp. 193-207. Recent testing shows that bezoars can remove certain poisons because some compounds in arsenic bind with the sulphur compounds in the degraded hair that is a component of many bezoars (Barrosa 206).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Oh lett mine eyes whole &ff;loude of tears dispence</rdg>
+                    <rdg wit="#ee">O, let mine eyes whole flood of tears dispense,</rdg>
+                    <rdg wit="#ae">Oh let mine eyes whole flood of tears dispense</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">That I a cordiall to my &ff;riends maye give</rdg>
+                    <rdg wit="#ee">That I a <seg>cordial<note type="gloss">medicine</note></seg> to my friends may give;</rdg>
+                    <rdg wit="#ae">That I a cordial to my friends may give;</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Then tho I die, yett I maye make them live</rdg>
+                    <rdg wit="#ee">Then, though I die, yet I may make them live.</rdg>
+                    <rdg wit="#ae">Then though I die, yet I may make them live.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">I gladly would this good to them impart</rdg>
+                    <rdg wit="#ee">I gladly would this good to them impart,</rdg>
+                    <rdg wit="#ae">I gladly would this good to them impart,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Tho in the doeinge itt itt breaks my hart</rdg>
+                    <rdg wit="#ee">Though in the doing it, it breaks my heart;</rdg>
+                    <rdg wit="#ae">Though in the doing it, it breaks my heart;</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Then lett my dieinge tears a Cordiall prove</rdg>
+                    <rdg wit="#ee">Then let my dying tears a cordial prove,</rdg>
+                    <rdg wit="#ae">Then let my dying tears a <seg>cordial<note type="gloss">“Of medicines, food, or beverages: Stimulating, ‘comforting,’ or invigorating to the heart; restorative, reviving cheering” (<title rend="italic">OED</title> n. 2.a.). The speaker imagines that her tears will produce a “cordial” that will do her friends “good” as the bezoar does.</note></seg> prove,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">ſeeinge I my &ff;riends above my liffe doe loue.</rdg>
+                    <rdg wit="#ee">Seeing I my friends above my life do love.</rdg>
+                    <rdg wit="#ae">Seeing I my friends above my life do love.</rdg>
+                </app>
+            </l></lg>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

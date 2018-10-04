@@ -1,0 +1,262 @@
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: verdana, 'bitstream vera sans', arial, helvetica, sans-serif;
+	font-size: 0.75em;
+   min-width: 64.167em;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4 { font-weight: 800; }
+h5, h6 { font-weight: 400; }
+h1 {
+	margin-top: 0.833em;
+	padding-top: 0;
+	font-size: 1.667em;
+}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.167em; }
+h4, h5 { font-size: 1em; }
+h6 { font-size: 0.917em; }
+a:link,
+a:visited {
+	background: transparent;
+	color: #336699;
+	text-decoration: none;
+}
+a:hover {
+	background: transparent;
+	color: #6699CC;
+	text-decoration: underline;
+}
+#header {
+   position: relative;
+	height: 11em;
+	width: 100%;
+	background-color: #EBEBEB;
+	color: #000000;
+}
+#header .blue,
+#header .grey {
+   width: 50%;
+   height: 120px;
+   position: absolute;
+   z-index: 1;
+}
+#header .blue {
+   background: #6699cc;
+   left: 0;
+   top: 0;
+}
+#header .grey {
+   background: #b2cce5;
+   left: 50%;
+   top: 0;
+}
+#masthead {
+   position: relative;
+   top: 0;
+   width: 1600px;
+   height: 120px;
+   margin: 0 auto 0 auto;
+   padding: 0;
+   z-index: 10;
+}
+#masthead img {
+   float: center;
+   border: none;
+   margin: 0;
+   padding: 0;
+}
+#masthead .left {
+   width: 1600px;
+   height: 120px;
+   margin-left: 0;
+   margin-right: 0;
+}
+#masthead .right {
+   width: 37.833em;
+   height: 5em;
+}
+#navbar {
+   clear: both;
+   min-width: 64.167em;
+	height: 30px;
+   border-top: medium solid #2c577f;
+	background: #bcbcbc;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#navbar .links {
+	height: 2.167em;
+	display: block;
+}
+
+#navbar .links a {
+	font-size: 1.5em;
+	font-weight: 800;
+	line-height: 26px;
+	color: #2c577f;
+	text-decoration: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#navbar .links a:hover {
+	color: #FFFFFF;
+	background-color: #2c577f;
+}
+#navbar .links a img {
+/*	float: left;
+	border: 0;
+	height: 20px;
+	margin: 2px 0 0 0;
+	padding: 0; */
+	display: none;
+}
+#maintext {
+   width: 60em;
+   margin: 0 auto 0 auto;
+   padding: 2em 0 0 0;
+	text-align: justify;
+}
+#maintext p {
+   line-height: 1.4em;
+	padding: 0.6em 0 1em 0;
+	margin: 0;
+}
+#footer {
+	margin: 2em auto 1.25em auto;
+	text-align: center
+}
+#footer #umlibraries {
+   border: none;
+}
+#footer .links {
+/*    float: left; */
+	width: 50em;
+	height: 2.25em;
+   line-height: 2.25em;
+	font-size: 0.833em;
+  margin: 5px auto;
+}
+#footer .links a:link,
+#footer .links a:visited {
+	background: transparent;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#footer .links a:hover {
+	background: transparent;
+	color: #6699CC;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+#footer .attribution {
+   font-size: 0.833em;
+	width: 50em;
+   line-height: 2.25em;
+	text-transform: uppercase;
+	white-space: nowrap;
+	  margin: 5px auto;
+}
+.small {
+	font-size: 0.917em;
+}
+fieldset.registerset {
+	border: 0;
+	padding: 0;
+	width: 45.833em;
+	margin: 0 auto 0 auto;
+}			
+fieldset.registerset label {
+	float: left;
+	margin: 0.25em 0 0 4.167em;
+}
+fieldset.registerset input,
+fieldset.registerset select,
+fieldset.registerset textarea {
+	float: right;
+	margin-bottom: 0.417em;
+}
+fieldset.registerset .field {
+	width: 15.417em;
+}
+fieldset.registerset textarea {
+	margin-bottom: 1.667em;
+}
+table#captcha {
+	width: 4em;
+	margin: 0.417em auto 0.417em auto;
+	border: 0;
+	border-collapse: collapse;
+	padding: 0;
+}
+table#captcha td {
+	vertical-align: middle;
+	text-align: center;
+}
+.noteicon {
+	background: transparent;
+	color: #336699;
+	vertical-align: super;
+	font-size: 0.667em;
+	font-weight: bold;
+}
+ul.item {
+	margin: 0;
+	padding: 0;
+}
+ul.subitem,
+ul.subsubitem {
+	margin: 0 0 0 2.083em;
+	padding: 0;
+}	
+.item li {
+	list-style-type: none;
+	font-weight: 800;
+	margin: 1.25em 0 1.25em 0;
+}
+.subitem li {
+	list-style-type: none;
+	font-weight: 400;
+	margin: 1.25em 0 1.25em 0;
+}
+.subsubitem li {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 0.917em;
+	margin: 1.364em 0 1.364em 0;
+}
+.byline {
+	margin: 1em 0 1em 0 !important;
+	padding: 0 !important;
+	font-style: italic;
+	text-align: justify;
+}
+.code {
+	font-family: monospace;
+	text-align: left;
+}
+div.code {
+	margin: 1em 2em;
+	padding-top: 0.417em;
+	padding-bottom: 0.417em;	
+	padding-right: 0.417em;
+	border: thin dashed black;
+}
+.indent {
+	padding-left: 1.667em;
+	line-height: 1.5em;
+}
+.label {
+	font-family: verdana, 'bitstream vera sans', arial, helvetica, sans-serif;
+	font-weight: 800;
+}
+.clear {
+	clear: both;
+}

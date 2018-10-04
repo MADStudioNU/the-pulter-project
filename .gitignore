@@ -1,0 +1,28 @@
+# Libs
+node_modules
+
+# Sass
+.sass-cache
+
+# MacOS
+.DS_Store
+
+# IDEA
+.idea
+
+# Production Build
+/dist
+
+# Codekit
+config.codekit3
+
+# Netlify log
+netlifyctl-debug.log
+
+# Generated files
+pulter-site/poems
+pulter-site/search
+
+# Image assets
+pulter-site/images/facs
+pulter-site/images/headnote-posters

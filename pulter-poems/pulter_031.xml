@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.31">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Made When I Was Sick, 1647</title>
+                 <title type="sub">Poem #31</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>illness</term>
+                    <term>complaint</term>
+                    <term>death</term>
+                    <term>afterlife</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_099.jpg" xml:id="f7610_099"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 27, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 27, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Helen Smith</persName>. Last updated <date>June 27, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_099" n="48r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_099"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_099"/></rdg>
+            </app>
+
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>Made when I was Sick 1647</rdg>
+                    <rdg wit="#ee">Made When I Was Sick, 1647</rdg>
+                    <rdg wit="#ae"><seg>Made when I was Sick 1647<note>Compare the title of this poem to Donne’s ‘Hymn to God, My God, in My Sickness’ (‘Curations’), and to his <title rend="italic">Devotions upon emergent occasions, and severall steps in my sickness</title> (London, 1624), to which Pulter makes explicit reference in Poem 19 (‘The Welcom’). Pulter follows both a poetic and a devotional tradition in meditating upon her spiritual health at a moment of severe illness. Where Donne’s meditations spiral outwards to take in all of humankind as well as (in ‘Hymn to God’) questions of the shape and composition of the world, Pulter’s focus remains primarily personal and intimate, though also exemplary.</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My approach to editing is broadly conservative, in the sense that I modernise only very lightly. I have regularised u/v and i/j, which were interchangeable in the period during which Pulter was writing, and have also regularised ‘ff’ to F. Otherwise, I have generally preserved Pulter’s spelling, and have attempted to represent some of Pulter’s characteristic uses of space (especially her lines and flourishes at the beginnings and ends of poems, which frequently contribute to meaning and interpretation). My annotations focus primarily on understanding the idiosyncratic ideas and densely-packed meanings of Pulter’s poems, though I also draw attention to questions of form, especially where I feel this contributes to or reinforces the complex arguments of Pulter’s verse.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ee"><note type="headnote">We tend to think the sick want to recover, but this is not always true. This poem’s title asks us to casts a retrospective gaze on its scene of composition during Pulter’s experience as a patient, when she suffered, it seems, less from her illness than from her reluctance to die. After diagnosing the trouble with her heart and soul, she lambasts the latter for clinging to life despite its tragic and dismal nature. Such shaming turns to a rousing pep-talk as she encourages her soul to speed toward death in order to embrace the glory and grace of the afterlife. The poem seems to have achieved its end of turning the speaker’s thoughts resolutely toward her own end, since it winds up with a valediction to all her earthly goods—barring her friends, whom she anticipates meeting in heaven. With its concluding lines focused on dispersing the speaker’s worldly wealth in the company of loving witnesses (those friends), the poem manages to generate the aura of a deathbed scene; so much is belied, however, by the date in the title, which suggests Pulter still had to endure two more decades of life—decades including yet more illness of her own (referred to Poems 45 and 51), the assassination of her beloved monarch (Poems 14 and 15), and the deaths of almost all of her fifteen children: a “sable scene” indeed.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">This poem fits neatly onto one page, giving a fitting finality to its concluding farewell to the world. Like many of Pulter’s poems it meditates on the frailty of the body, identifying itself as written in a time of illness, in the tradition of Donne’s Devotions upon emergent occasions, but also in line with devotional advice provided by preachers and religious treatises, which instructed the good Christian to prepare for death. The poem engages with a tradition of staged poetic debates between body and soul, and with longstanding theological and natural philosophical traditions that meditated on their relationship, and asked questions about the nature and materiality of the soul.</note></rdg>
+            </app>
+            </head>
+            <!--note for opening mark: Pulter frequently uses pen lines to mark the beginning and/or the end of her poems. This opening line decisively marks out the year of composition, suggesting the importance, to Pulter, of memorialising the dates of her illness. The curled line that concludes the poem emphasises the last four words; its confident flourish offers a decisive confirmation of the poem’s resonant anticipation of a heavenly reunion.-->
+          <lg type="free">
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Ôh mee! how Sore! how Sad is my poor heart</rdg>
+                    <rdg wit="#ee">O me, how sore, how sad is my poor heart;</rdg>
+                    <rdg wit="#ae"><seg>Oh mee<note>‘Oh mee’ makes the ‘sighs’ of Pulter’s volume title and subtitle visible on the page. Throughout her poems, Pulter is alert to the power of sighs, which she frequently writes as ‘Ay mee’ (see for example Amplified Editions 19 (‘The Welcom’) and 28 (‘Oh my aflicted Solitary Soul’)). Sighs and groans were understood to be a fitting accompaniment to heartfelt prayer, as well as expressions of strong, otherwise inexpressible emotion, but they posed a challenge to both writers and printers who wanted to express them on the page. George Herbert frequently reflects on the power of sighs to effect spiritual change: in ‘The Affliction’ he reflects ‘My heart did heave, and there came forth, O God … / Had thou not had thy part, / Sure the unruly sigh had broke my heart’ <bibl>(<title rend="italics">The Temple</title>, London, 1633, C8v)</bibl>. Another poem in his devotional collection is titled ‘Sighs and Grones’.</note></seg>! how <seg>Sore<note>causing bodily pain, but also severe</note></seg>! how <seg>sad<note>Meaning sorrowful, as now, but also, and more powerfully, ‘Dignified, grave, serious’ (OED, ‘sad’, adj. def. 3b). In other contexts, the word has a physical force, linked to heaviness and gravity, in the sense adopted as a term in physics around this time (def. III.8.a).</note></seg> is my poor heart</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">How loath my Soule is from my &ff;lesh to part;</rdg>
+                    <rdg wit="#ee">How loath my soul is from my flesh to part!</rdg>
+                    <rdg wit="#ae">How <seg>loath<note>‘Loath’, meaning reluctant, but with a possible pun on the doctrinally correct attitude of ‘loathing’ towards the body; the speaker oscillates between attachment to and resentment of the flesh. Like Poem 28 (‘O, my aflicted Solitary Soul’), this poem participates in the long tradition of poetic and theological debates about the relationship between the body and soul.</note></seg> my Soule is from my fflesh to part;</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Hath forty years acquaintance cauſd Such Love</rdg>
+                    <rdg wit="#ee">Hath forty years’ acquaintance caused such love</rdg>
+                    <rdg wit="#ae">Hath <seg>forty years acquaintance<note>A specific reference to Pulter’s age, confirming that this poem was written in or around 1647.</note></seg> causd Such Love</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">To rottennes; that thou wilt ungratefull prove;</rdg>
+                    <rdg wit="#ee"><seg>To<note>of</note></seg> <seg>rottenness<note>moral or physical corruption</note></seg> that thou wilt ungrateful prove</rdg>
+                    <rdg wit="#ae">To <seg>rottennes<note>i.e. to the body, here, by metonymy, equated with its ‘rottenness’ (putrefaction). Pulter insists upon the present ‘rottenness’ of the body, even prior to its posthumous decay. In a treatise on the resurrection of bodies, published in 1640, the popular preacher and scholar Richard Sibbes reminded readers: ‘Those that die in much honour and pompe, and have their bodies imbalmed, doe all what they can with the body, it will come to dust and rottennesse; it will be vile in death’ (<bibl><title rend="italic">Evangellical Sacrifices. In xix. Sermons. … The third tome</title>, Ee4v</bibl>). The term has spiritual as well as physical connotations, describing ‘The state or quality of being morally corrupt; depravity; lack of integrity’ (OED, ‘rottenness’, def. 3), as in George Herbert’s poem, ‘The Church Porch’, which asks readers to weigh the pleasures of lust against the joys of moderation, and cautions, ‘If rottennesse have more, let Heaven go’ (<bibl>‘Perirrhanteum’, in <title rend="italic">The Works of George Herbert</title>, ed. F. E. Hutchinson (Oxford University Press, 1941), 6-24, line 18</bibl>). Being ‘rotten’ suggests an inner weakness concealed beneath a healthy exterior, as in a rotten bough, or as in medical descriptions of festering sores. The term appears on several occasions in the Bible, most notably in Proverbs 12.4, ‘A virtuous woman is a crown to her husband: but she that maketh ashamed is as rottenness in his bones’; Proverbs 14.30, ‘A sound heart is the life of the flesh: but envy the rottenness of the bones’; and Habakkuk 3.16, ‘When I heard, my belly trembled; my lips quivered at the voice: rottenness entered into my bones …’ (all KJV).</note></seg>; that thou wilt ungratefull prove;</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">To that inviſable Light! of which wee are beams</rdg>
+                    <rdg wit="#ee">To that invisible light of which we are beams?</rdg>
+                    <rdg wit="#ae">To that <seg>invisable Light! of which wee are beams<note>Compare this with Poem 28, where Pulter describes the soul as ‘a Sparkle of that light / Which is invisible to our Mortall Sight’. The idea of God as invisible light dates back at least to Augustine (354-430), who described ‘That inuisible light … that seethe [seeth] plainely the vnspeakeable depthe of mans harte’ (see contextual materials below). Glossing this passage, William Austin argued that the light which God brought into being on the first day of creation ‘was (the <foreign rend="italic">Lux creata</foreign>) <hi rend="italic">Visible Light</hi>: But, he, that made it, is (<foreign rend="italic">Lux Increata</foreign>) <hi rend="italic">Invisible Light</hi>; which no man can see. … That Man might (therefore receive <hi rend="italic">Perfection</hi>, hee breathed into <hi rend="italic">him</hi> (also) an <hi rend="italic">immortall Soule</hi>; whereby, he was capable of (<foreign rend="italic">Lux, Verbum</foreign>) that <hi rend="italic">Invisible light</hi>, (the <hi rend="italic">word</hi>) that made the <hi rend="italic">World’</hi> (<bibl><title>Devotionis Augustinianae flamma</title> (1633), F1v-F2r</bibl>).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Wilt thou leave Subſtances (my Soul) for dreams</rdg>
+                    <rdg wit="#ee">Wilt thou leave substances (my soul) for dreams?</rdg>
+                    <rdg wit="#ae">Wilt thou leave <seg>Substances<note>‘Substance’ here has primarily a theological sense, referring to ‘The divine essence or nature, esp. as that in which the three persons of the Trinity are united as one’ (OED, ‘substance’, n.; a theology which Pulter possibly refers to here in her use of the plural rather than the singular). However, it also possessed its modern meaning of something physical or palpable. The irony here (as throughout Christian theology) is that the material stuff of the world, including the body, is insubstantial (‘dreams’, in Pulter’s terms), whilst that which is immaterial (God) is also that which is truly substantial and enduring.</note></seg> (my Soul) <seg>for dreams<note>Cf. Prospero’s reflection in <bibl><author>Shakespeare’s</author> <title rend="italic">The Tempest:</title></bibl> ‘We are such stuff / As dreams are made on, and our little life / Is rounded with a sleep’ (ed. Alden T. Vaughan and Virginia Mason Vaughan, Arden Shakespeare Third Series, 4.1.156-8), a possible intertext which becomes more potent as Pulter’s next lines turn to the stage.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">The Scene is Sable, horrid Tragedies</rdg>
+                    <rdg wit="#ee">The scene is sable; horrid tragedies</rdg>
+                    <rdg wit="#ae">The Scene is <seg>Sable<note>black</note></seg>, horrid Tragedies</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Are Acted here before my weeping eyes</rdg>
+                    <rdg wit="#ee">Are acted here before my weeping eyes:</rdg>
+                    <rdg wit="#ae">Are <seg>Acted<note>Cf. John Clare’s lament that ‘most Nations of Christendome haue become the sable and mournfulle Theaters or stages, whereupon so many blouddy Tragedyes haue bene acted’ (<bibl><title rend="italic">The conuerted Iew,</title> 1630, D3v</bibl>). This turn of phrase may be influenced by <bibl><author>Homer’s</author><title rend="italic"> Iliad</title></bibl>, whose narrator tells us, in Chapman’s famous translation, that the ‘Fates, that order sable death, enforc’t their tragedies’ (<bibl><title rend="italic">The Iliads of Homer prince of poets</title>, 1611, O2v</bibl>).</note></seg> here before my weeping eyes</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Art thou not weary of this diſmale Stage</rdg>
+                    <rdg wit="#ee">Art thou not weary of this dismal stage?</rdg>
+                    <rdg wit="#ae">Art thou not weary of this dismale <seg>stage<note>The world as stage was a commonplace analogy. For modern readers, it is most famously articulated in Jaques’ speech beginning ‘All the world’s a stage’ (<bibl><title rend="italic">As You Like It</title>, 2.7.140; <author>Arden Shakespeare</author>, 3rd series, ed. Juliet Dusinberre, 2006</bibl>). At least as influential, for Pulter and her contemporaries, was the work of Guillaume de Saluste du Bartas (1544-1590), who reflected, in Josuah Sylvester’s popular translation, ‘The Worlds’ [<hi rend="italic">sic</hi>] a Stage, where Gods Omnipotence, / His Iustice, Knowledge, Loue, and Proudience, / Do act their Parts’ (<bibl><title rend="italic">Du Bartas his deuine weekes and workes translated</title> … by Iosuah Syluester, 1611, C3v</bibl>); and ‘I take the world to be but as a Stage, / Where net-maskt men doo play their personage. / ’Tis but a mummerie, and a pleasant showe; / Sith ouer all, strange vanities doo flowe’ (Ddd8r).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Mee thin<add place="below">^</add><add place="above">ks</add> I’ve liv’d a tedious pilgrimage</rdg>
+                    <rdg wit="#ee">Methinks I’ve lived a tedious pilgrimage,</rdg>
+                    <rdg wit="#ae">Mee thinks I’ve liv’d a <seg>tedious pilgrimage<note>The idea of life as a ‘tedious pilgrimage’ draws on the extant Catholic tradition of a physical pilgrimage, which had migrated to a figurative or analogical sense for both Protestants and Catholics by this period. See also Poem 32 (‘And looking further on from page to Page, / She found I would live a tedious Pilgrimage’). In Poem 16, the speaker terms herself ‘a wretched pilgrim’ (line 3), and in Poem 52 ‘a weake and weary Pilgrim’ (line 8). The phrasing is by no means unique to Pulter: a beautifully-designed 1609 volume of collected prayers, for example, instructs Christians to lament to God: ‘I am greatly weary Lord of this life of tedious pilgrimage’ (<bibl><title rend="italic">The sinners glasse collected out of Saint Augustine and other ancient fathers</title>, L1v</bibl>). In a series of meditations upon du Bartas, Roger Cocks reflects: ‘he that liues the longest age, / Doth waste his life in tedious pilgrimage’ (<bibl><title rend="italic">Hebdomada sacra; A weekes deuotion</title> (1630), C7v</bibl>).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">And now the Sepulcher I’ve reach’d at last</rdg>
+                    <rdg wit="#ee">And now the <seg>sepulchre<note>tomb</note></seg> I’ve reached at last.</rdg>
+                    <rdg wit="#ae">And now the <seg>Sepulcher<note>A tomb or grave, but specifically also the Holy Sepulchre, the cave in which, by tradition, Christ was buried outside the walls of Jerusalem; a key site of pilgrimage for Christians.</note></seg> I’ve reach’d at last</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">My Soule for love or feare make thou more hast,</rdg>
+                    <rdg wit="#ee">My soul, for love or fear, make thou more haste;</rdg>
+                    <rdg wit="#ae">My Soule for love or feare make thou more hast,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">&ff;or Shame, rowſ up a little mend thy pace</rdg>
+                    <rdg wit="#ee">For shame, rouse up a little! Mend thy pace.</rdg>
+                    <rdg wit="#ae">ffor Shame, <seg>rows<note>rouse</note></seg> up a little mend thy pace</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Tis Glory beckons and thou’rt led by Grace</rdg>
+                    <rdg wit="#ee">’Tis glory beckons, and thou’rt led by grace.</rdg>
+                    <rdg wit="#ae">Tis Glory beckons and thou’rt led by Grace</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Then never care, Though Death abru<add place="below">^</add><add place="above">p</add>t thy Story</rdg>
+                    <rdg wit="#ee">Then never care, though death abrupt thy <seg>story<note>life</note></seg>;</rdg>
+                    <rdg wit="#ae">Then never care, Though Death <seg>abrupt<note>sever, interrupt</note></seg> thy story</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">What thou wants here, Shall finish’d bee in Glory</rdg>
+                    <rdg wit="#ee">What thou <seg>wants<note>lacks</note></seg> here shall finished be in glory.</rdg>
+                    <rdg wit="#ae">What thou wants here, shall finish’d bee in <seg>Glory<note>Pulter’s lineation and rhyme scheme here play with the quickening step of her imagined soul; ‘pace’ chimes with ‘Grace’, which leads the reader forward into the lines which follow. The word ‘Glory’ appears both at the start of the quatrain, ‘beckoning’ the soul forward, and, appropriately, at the end, so that, like the soul, these four tightly connected lines finish in ‘Glory’. ‘Story’ meant interchangeably a work of history, myth or fiction.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Then farewell Emptie <w lemma="honor"><abbr>Hono:<hi rend="superscript">r</hi></abbr></w>, pleaſure, We’lth</rdg>
+                    <rdg wit="#ee">Then farewell, empty honor, pleasure, wealth,</rdg>
+                    <rdg wit="#ae">Then farewell Emptie <seg>Honor<note>In the manuscript, the word appears as ‘<w lemma="honor"><abbr>Hono:<hi rend="superscript">r</hi></abbr></w>’, a contraction which would more usually refer to a person (‘your honor’), and emphasizes the relationship between ‘empty honor’ and worldly titles.</note></seg>, pleasure, We’lth</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft"><seg>(<note type="physical">parentheses in lighter ink</note></seg>And what <seg>Cromns<note type="physical">“mn” crowded in and written over earlier letter(s); “C” possibly crowded in later than surrounding letters</note></seg> all,) farewell my Youth, &amp; Health,</rdg>
+                    <rdg wit="#ee">And what crowns all, farewell my youth, and health.</rdg>
+                    <rdg wit="#ae"><seg>(<note>Parentheses in lighter ink, possibly indicating that they were added later.</note></seg>And what <seg>Crowns<note>“mn” crowded in and written over earlier letter(s); “C” possibly crowded in later than surrounding letters. It is unclear if Pulter had originally used another word, or if this is an error in the manuscript transcription. ‘Crowns all’ is the logical reading of the text as it stands, and Pulter’s characteristically thoughtful use of parentheses marks out this ‘crown’. The term primarily has the sense of that which adorns or finishes all other earthly attributes, but it also refers more generally to a circular shape; a ‘crown’ of sonnets is one in which each sonnet starts with the final line of the preceding poem. At this moment, the poem circles back to its beginning: the age and illness of the writer, recast here as lost ‘Youth, &amp; Health’.</note></seg> all,) farewell my Youth, &amp; Health,</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">To<seg><add place="below">^</add><add place="above">you</add><note type="physical">in lighter ink, possibly in different hand from main scribe, with subscript caret inverted</note></seg> my <del rend="strikethrough">Deare</del> &ff;reinds I will not bid Adue</rdg>
+                    <rdg wit="#ee">To you, my friends, I will not bid adieu:</rdg>
+                    <rdg wit="#ae"><seg>To you my ffreinds I will not bid Adue<note type="critical">The manuscript reads ‘To <add place="below">^</add><add place="above">you</add> my <del rend="strikethrough">Deare</del> &ff;reinds I will not bid Adue’. ‘You’ is in a lighter ink and possibly a different hand. The substitution of ‘To you my freinds’ for ‘To my Deare freinds’ makes this address more direct, and may suggest Pulter’s awareness of coterie circulation, and the possibility of her ‘friends’ reading and responding to these poems. The speaker is looking forward to being reunited in heaven, although various makers and poets also imagined a more immediate reunification in the grave (see Donne’s ‘The Relic’ and the coffin-shaped <foreign rend="italic">memento mori</foreign> jewel pictured in “Curations”).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">&ff;or in A happier place I Shall meet you.</rdg>
+                    <rdg wit="#ee">For in a happier place I shall meet you.</rdg>
+                    <rdg wit="#ae">For in A happier place I Shall meet you.</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

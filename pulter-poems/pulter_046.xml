@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.46">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lark</title>
+                 <title type="sub">Poem #46</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+              <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+                     <term>larks</term>
+                     <term>death</term>
+                     <term>grief</term>
+                     <term>song</term>
+		     <term>afterlife</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+      <graphic url="./document_images/7610_140.jpg" xml:id="f7610_140"/>
+      <graphic url="./document_images/7610_141.jpg" xml:id="f7610_141"/>
+      <graphic url="./document_images/7610_142.jpg" xml:id="f7610_142"/>
+      <graphic url="./document_images/7610_143.jpg" xml:id="f7610_143"/>
+      <graphic url="./document_images/7610_144.jpg" xml:id="f7610_144"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 18, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>May 21, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_140" n="68v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_140"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_140"/></rdg>
+            </app>
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_140" type="pageNum" place="margin-topright">132</fw><seg>The Larke<note type="physical">The previous poem concludes on this same page.</note></seg></rdg>
+                    <rdg wit="#ee">The Lark</rdg>
+                    <rdg wit="#ae">The Larke</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations are expanded with added letters in italics (with the exception of “y<hi rend="superscript">e</hi>” which is rendered as “the”), superscriptions are lowered, colons indicating abbreviations are removed, “ff” is modernized to “F,” and major alterations to the text are noted in the footnotes. The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ee"><note type="headnote">While the poem is framed as the speaker’s injunction to her soul to follow the model of the morning lark (by rejoicing and praising God in song), the gruesome anecdote that she tells about the fate of the lark converts the poem into a story about how to look past the suffering of the mortal world and fixate on eternal heaven. As she does in many other poems, Pulter focuses on nonhuman agents—such as animals and plants—to create spiritual allegories. In the speaker’s lesson to her soul, she tells the tragic story of how the lark secreted her nest by a beautiful river, whose bubbling sound might train her babies to sing. A rustic worker, however, mows down the grass and dismembers her larks. He takes the one surviving baby lark home to his son, who kills it by playing with it. The poem thus suggests the need to overcome grief about the loss of loved ones, advice particularly appropriate for Pulter, who lost thirteen children.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>In this poem, the speaker depicts a lark praising God through her song, which reminds the speaker of her own duty to do the same. But the poem takes a surprising turn in its depictions of violence in the form of a callous mower, death, and maternal suffering. The lark is one of several female figures in the poem, including the poet, who expresses her grief through song. Pulter has written several poems which reference the deaths of her children, such as “Upon the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10), “Tell me no more [On the Same]” (Poem 11), “O, My Afflicted Solitary Soul” (Poem 28), and “The Invocation of the Elements” (Poem 41). She has also used the language of singing to characterize her desire to worship God, while still on earth (as in “Dear God, Turn Not Away Thy Face” [Poem 20], ll. 9-12) and, more frequently, after death in heaven (as in “How Long Shall My Dejected Soul” [Poem 24], ll. 17-24, and “My Soul's Sole Desire” [Poem 29], ll. 9-15).</p>
+                  <p>As James V. Baker notes, unlike the tragic mythological origin of the nightingale (in which the raped and mutilated Philomela is turned into this nocturnal singer), “the lark has had a more joyous history.” <seg>[1]<note>James V. Baker, “The Lark in English Poetry,” <title rend="italic"> Prairie Schooner</title>, vol. 24, number 1 (Spring 1950), pp. 70-79 (p. 70).</note></seg> He provides two famous instances from early modern poetry. The first is Shakespeare’s sonnet 29, which contains the lines, “Yet in those thoughts myself almost despising, / Haply I think on thee, and then my state, / Like to the lark at break of day arising / From sullen earth, sings hymns at heaven’s gate” (lines 9-12). In “L’Allegro,” Milton’s speaker wishes “To hear the lark begin his flight, / And singing, startle the dull night, / From his watch-tower in the skies, / Till the dappled dawn doth rise” (lines 41-44). Pulter herself writes of a joyously singing lark in “The Invitation into the Country” (Poem 2): “The early Larke long ere the Morne / with Roses can her head Adorne / Sings Cheerfully a Roundelay / Telling this lower world ’tis day” (ll. 41-44; my transcription from the manuscript). Baker notes of his own observations of the bird, “In flight the lark continually flutters its wings, and mounts higher and higher, till it becomes a mere speck, and sometimes dissolves out of sight, though its song continues to be heard” (p. 70). The constant rising towards heaven while singing fits Pulter’s depiction of the lark, but her singing bird has a much more mournful significance for the female poetic voice. Three poems after “The Larke” in her manuscript, Pulter uses the bird as an image of the fragility of life: “The Spritely Lark how cheerfully Shee Sings / Untill the Hawk her little Neck of[f] wrings” in "My Heart Why Dost Thou Throb So in My Breast?" (Poem 49, ll. 5-6; my transcription from the manuscript). But in “The Larke,” the speaker urges her soul to follow the lark’s example in continuing to worship and contemplate heaven in spite of her suffering.</p>
+                </note></rdg>
+            </app>
+            </head>
+
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">See how Arachne doth her Howres Paſs</rdg>
+                    <rdg wit="#ee">See how <seg>Arachne<note type="critical">a spider; in mythology, Arachne challenged Athena to a weaving contest and hanged herself when the goddess destroyed what she had woven. Athena then changed her into a spider.</note></seg> doth her hours pass</rdg>
+                    <rdg wit="#ae">See how <seg>Arachne<note type="critical">The story of how the young woman Arachne was transformed into a spider by Minerva is told by Ovid and other ancient writers. Full of pride at her skill, Arachne denied that Minerva taught her to spin and embroider, after which the goddess destroyed her handiwork. In despair the girl hanged herself, but Minerva took pity and transformed her into a spider. Edward Topsell was one of several natural history writers in the period whose works Pulter might have known; for his version of the Arachne myth in his <bibl><title rend="italic">The historie of serpents</title> (1608)</bibl>, see “Curations.”</note></seg> doth her Howres Pass</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">In weaving Tincile on the verdent Graſs</rdg>
+                    <rdg wit="#ee">In weaving <seg>tinsel<note type="gloss">silver threads</note></seg> on the verdant grass:</rdg>
+                    <rdg wit="#ae">In weaving <seg>Tincile<note type="gloss"> i.e., tinsel</note></seg> on the verdent Grass</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Look how it glitters, now the Sun doth Riſe</rdg>
+                    <rdg wit="#ee">Look how it glitters <seg>now<note type="gloss">now that</note></seg> the sun doth rise,</rdg>
+                    <rdg wit="#ae">Look how it glitters, now the Sun doth Rise</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">The Bane of Harmles Sheep, and death of ſlyes</rdg>
+                    <rdg wit="#ee">The <seg>bane<note type="gloss">woe</note></seg> of harmless sheep and death of flies,</rdg>
+                    <rdg wit="#ae"><seg>The Bane of Harmles Sheep, and death of flyes<note type="critical">Unlike house spiders, wild spiders “doe fashion and dresse a broad, thicke, and plaine web in the grasse and fieldes all about, stretching out the same like a saile, or some fine spread Sheete or Curtaine” (<bibl><author>Topsell</author>, <title rend="italic">The historie of serpents</title>, pp. 269-270</bibl>). Harmless sheep are annoyed by Pulter’s spider, but Topsell claims that a specific kind of long-legged spider lives in the fields and “delight[s] in the company of Sheepe: and for this cause I take it, that we Englishmen do call her a Shepheard, either for that she keepeth and loueth to be among their flockes, or because that Shepheardes haue thought those grounds and feedings to bee very holesome wherein they are most found, and that no venomous or hurtfull creature abideth in those fields where they be” (pp. 270-271). Pulter’s spider is gendered female, but Pliny notes in <bibl><title rend="italic">The historie of the world</title> (1634)</bibl> that “Some thinke, it is the female that spins and weaues; and the male, which hunts and gets in the prouision for the familie: thus ordering the matter equally in earning their liuing, as man and wife together in one house” (book 11, chapter 24, p. 324). Pulter’s female spider both weaves a web outside and entraps prey. For a poem on the female house spider and the male spider who hunts outside the home, see Margaret Cavendish’s poem “Of the Spider” in “Curations.”</note></seg></rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">And over it the Slow and Unctious Snayl</rdg>
+                    <rdg wit="#ee">And over it, the slow and <seg>unctuous<note type="gloss">greasy</note></seg> snail</rdg>
+                    <rdg wit="#ae">And over it the Slow and <seg>Unctious<note type="gloss">i.e., unctuous (oily or greasy)</note></seg> Snayl</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">In winding Knots doth draw a Slimey Trayl</rdg>
+                    <rdg wit="#ee">In winding knots doth draw a slimy trail.</rdg>
+                    <rdg wit="#ae">In winding Knots doth draw a Slimey Trayl</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">The cheerfull Lark as in the Ayr Shee &ff;lyes</rdg>
+                    <rdg wit="#ee">The cheerful lark, as in the air she flies</rdg>
+                    <rdg wit="#ae">The cheerfull Lark as in the Ayr Shee Flyes</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">And on this Goſſomeire casts down her eyes</rdg>
+                    <rdg wit="#ee">And on this <seg>gossamer<note type="gloss">film of cobwebs</note></seg> casts down her eyes,</rdg>
+                    <rdg wit="#ae">And on this <seg>Gossomeire<note type="gloss">Gossamer refers to the cobwebs spun by the spider.</note></seg> casts down her eyes</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Takes it for Merrours Laid by Rurall Swains</rdg>
+                    <rdg wit="#ee">Takes it for <seg>mirrors<note type="critical">Mirrors were used to ensnare larks for food (Eardley).</note></seg> laid by <seg>rural swains<note type="gloss">rustic shepherds</note></seg></rdg>
+                    <rdg wit="#ae">Takes it for Merrours Laid by Rurall Swains</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">And therefore fears to <seg><del>Lite</del><note type="physical">struck-through twice</note></seg><add place="below">^</add><seg><add place="above">Light</add><note type="physical">This word is written directly above “Lite” in lighter ink and in a different hand from the main scribe (probably H2).</note></seg> upon the plains</rdg>
+                    <rdg wit="#ee">And therefore fears to light upon the plains,</rdg>
+                    <rdg wit="#ae">And therefore fears to <seg>Light<note type="critical">“Light” is added in a different hand (probably Pulter’s) replacing “Lite” which is crossed out. The meaning is alight or land.</note></seg> <seg>upon the plains<note type="critical">According to Alice Eardley’s edition of Pulter’s work, mirrors were used to trick and entrap larks (p. 154). Pulter again mentions the idea that larks are trapped in this way in "The Cruel Tiger" (Emblem 15), lines 5-6 (“Soe is the Early Riseing Lark a lass / Onely insnar’d with looking in A Glass”) but in “The Larke” the bird knows of this danger and avoids it.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">But <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> alacrity aloft shee &ff;lyes</rdg>
+                    <rdg wit="#ee">But with <seg>alacrity<note type="gloss">cheerful readiness</note></seg> aloft she flies,</rdg>
+                    <rdg wit="#ae">But with alacrity aloft shee Flyes</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">And early Sings her Morning sacrifice</rdg>
+                    <rdg wit="#ee">And early sings her morning sacrifice,</rdg>
+                    <rdg wit="#ae">And early Sings her Morning <seg>sacrifice<note type="critical">While Pulter likely means the figurative sacrifice of praise or worship that a Christian owes to God, the word ominously hints at the “Massacker” (line 65) to come.</note></seg></rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">and</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_141" n="69r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_141"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_141"/></rdg>
+          </app>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">And in her Language magnifies his Name</rdg>
+                    <rdg wit="#ee">And in her language magnifies His name</rdg>
+                    <rdg wit="#ae">And in her Language magnifies his Name</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">&ff;rom whoſe <seg>imensity<note type="physical">The “s” is written over another letter, likely “c.”</note></seg> all creatures came</rdg>
+                    <rdg wit="#ee">From whose <seg>immensity<note type="gloss">infinite nature</note></seg> all creatures came.</rdg>
+                    <rdg wit="#ae">From whose imensity all creatures <seg>came<note type="critical">The poem is sparsely punctuated, but a full stop should be added here to indicate the end of the poet’s description of the lark before she turns to address her own soul.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Doe thou my Soul Sing too, let none on earth</rdg>
+                    <rdg wit="#ee">Do thou, my soul, sing too; let none on earth</rdg>
+                    <rdg wit="#ae">Doe thou my Soul Sing too, let none on earth</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Or Ayr beyond thee goe, think on thy Birth</rdg>
+                    <rdg wit="#ee">Or air beyond thee go. Think on thy birth:</rdg>
+                    <rdg wit="#ae">Or Ayr beyond thee goe, think on thy Birth</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">&ff;or though my Body’s dust, thou art a Spark</rdg>
+                    <rdg wit="#ee">For though my body’s dust, thou art a spark</rdg>
+                    <rdg wit="#ae">For though my Body’s dust, thou art a Spark</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Celestiall, &ff;or Shame out Sing the Lark</rdg>
+                    <rdg wit="#ee">Celestial; for shame, out-sing the lark!</rdg>
+                    <rdg wit="#ae">Celestiall, For Shame out Sing the Lark</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Shee hath but one life that Shee Spends in praiſe</rdg>
+                    <rdg wit="#ee">She hath but one life that she spends in praise;</rdg>
+                    <rdg wit="#ae">Shee hath but one life that Shee Spends in praise</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Tho hast and <seg>Shallt<note type="physical">The final “t” was added later in a different hand from the main scribe, probably H2.</note></seg> have two, yet wat’s thy dayes</rdg>
+                    <rdg wit="#ee">Thou hast—and shalt have—two, yet waste thy days</rdg>
+                    <rdg wit="#ae">Tho hast and <seg>Shallt<note type="critical">“t” is added to “Shall” in a different hand (probably Pulter’s). The two lives to which the speaker refers are her earthly life and her heavenly life after death.</note></seg> have two, yet <seg>wat’s<note type="gloss"> i.e., wastes</note></seg> thy dayes</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">In Bleeding Sighs, and &ff;ruitleſs briney tears</rdg>
+                    <rdg wit="#ee">In bleeding sighs and fruitless briny tears,</rdg>
+                    <rdg wit="#ae">In <seg>Bleeding<note type="critical">With the adjective “Bleeding,” Pulter vividly links the speaker’s emotional distress with bodily suffering.</note></seg> Sighs, and Fruitless briney tears</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">In Melancholly thoughts vain cauſles &ff;ears</rdg>
+                    <rdg wit="#ee">In melancholy thoughts, vain causeless fears.</rdg>
+                    <rdg wit="#ae">In Melancholly thoughts vain <seg>causles<note type="critical">Pulter uses the term “cause” or “causes” at several points in her poetry, usually in the Aristotelian sense of the material cause or elements from which life is made (<bibl><title rend="italic">OED</title> 5</bibl>); see, for example, "Universal Dissolution" (Poem 6), lines 14, 32, and 46. For Pulter to here call her melancholy thoughts causeless suggests a strong condemnation of her own frivolity in contrast to the devout lark (I am grateful to Leah Knight for this suggestion).</note></seg> Fears</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Learn thou of this Sweet Ayry Chorister</rdg>
+                    <rdg wit="#ee">Learn thou of this sweet airy <seg>chorister<note type="gloss">member of a choir</note></seg>,</rdg>
+                    <rdg wit="#ae">Learn thou of this Sweet Ayry Chorister</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Doe thou her cheerfull Actions Register</rdg>
+                    <rdg wit="#ee">Do thou her cheerful actions register;</rdg>
+                    <rdg wit="#ae">Doe thou her cheerfull Actions Register</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">&ff;or I have Seen Walking one Sum̄ers day</rdg>
+                    <rdg wit="#ee">For I have seen—<seg>walking<note type="gloss">when walking</note></seg> one summer’s day</rdg>
+                    <rdg wit="#ae"><seg>For I have Seen Walking one Summers day<note type="critical">The syntax of this sentence is confusing, as the walker, presumably the speaker, first sees Flora and then the rural clown.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">To take the Ayr when &ff;lora did diſplay</rdg>
+                    <rdg wit="#ee">To take the air when <seg>Flora<note type="gloss">goddess of spring</note></seg> did display</rdg>
+                    <rdg wit="#ae">To take the Ayr when <seg>Flora<note type="gloss">The goddess of spring or of flowers</note></seg> did display</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Her youthfull Pride as Shee did smileing Paſs</rdg>
+                    <rdg wit="#ee">Her youthful pride—as she did smiling pass,</rdg>
+                    <rdg wit="#ae">Her youthfull Pride as Shee did smileing Pass</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Shee threw her &ff;lowered Mantle on the Graſs</rdg>
+                    <rdg wit="#ee">She threw her flowered <seg>mantle<note type="gloss">garment</note></seg> on the grass,</rdg>
+                    <rdg wit="#ae">Shee threw her Flowered <seg>Mantle<note type="gloss">loose sleeveless cloak (<bibl><title rend="italic">OED</title></bibl>).</note></seg> on the Grass</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Which Strait allured a Sunburnt Rurall Clown</rdg>
+                    <rdg wit="#ee">Which straight allured a sunburnt <seg>rural clown<note type="gloss">uncouth countryman</note></seg></rdg>
+                    <rdg wit="#ae">Which Strait allured a Sunburnt Rurall Clown</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">To come and Mow <seg>theſ<note type="physical">The “ſ” appears crowded between surrounding words, written in darker ink and in a different hand from the main scribe (probably H2).</note></seg> &ff;adeing Bevties Down</rdg>
+                    <rdg wit="#ee">To come and mow these fading beauties down.</rdg>
+                    <rdg wit="#ae">To come and <seg>Mow thes Fadeing Bevties Down<note type="critical">As Elizabeth Clarke argues in her edition of the poem, there are suggestive parallels between the mower episode in this poem and the mower episode in Andrew Marvell’s “Upon Appleton House” (lines 390-430), as well as important differences (<bibl><title rend="italic">Early Modern Women’s Manuscript Poetry</title>, general editors Jill Seal Millman and Gillian Wright, Manchester University Press, 2005, p. 251</bibl>). Clarke suggests, following Peter Davidson’s claim from 1999, that Pulter may have seen Marvell’s poetry in manuscript (“Green thoughts. Marvell’s gardens: clues to two curious puzzles,” <bibl><title rend="italic">Times Literary Supplement</title>, 3 December 1999, pp. 14-15</bibl>). For a transcription of these lines see “Curations.”</note></seg></rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Unbracet unblest hee doth with hast repair</rdg>
+                    <rdg wit="#ee"><seg>Unbraced<note type="gloss">dressed loosely</note></seg>, unblessed: he doth with haste <seg>repair<note type="gloss">return</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Unbracet<note type="gloss">i.e., unbraced (with part of his clothing loosened)</note></seg> unblest hee doth with hast repair</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">This valley to deflower, then <seg>Temp<note type="physical">curved superscript mark, possibly an apostrophe, follows</note></seg> more faire</rdg>
+                    <rdg wit="#ee">This valley to <seg>deflower<note type="gloss">to mow or cut away flowers, but also to deprive a woman of her virginity or to violate sexually</note></seg>, than <seg>Temp more fair<note type="critical">The worker will despoil the valley, which is more fair than Tempe, the pastoral home of the Muses (and general name for a beautiful valley).</note></seg>.</rdg>
+                    <rdg wit="#ae">This valley to <seg>deflower<note type="critical">Especially after the depiction of the mower with unfastened clothing, the word “deflower” is a pun suggestive of not just cutting flowers, but also of rape.</note></seg>, then <seg>Temp<note type="gloss">i.e., Tempe (a beautiful valley in ancient Greece)</note></seg> more faire</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Thus <seg>Stoo’d<note type="physical">“oo” written over other letters</note></seg> in Sweet this Gripple hide bound Slave</rdg>
+                    <rdg wit="#ee">Thus, stewed in sweat, this <seg>gripple hidebound slave<note type="gloss">greedy, stingy (or narrow) inferior (“slave” used as a term of contempt)</note></seg></rdg>
+                    <rdg wit="#ae">Thus <seg>Stoo’d in Sweet<note type="gloss">i.e., stewed in sweat</note></seg> this <seg>Gripple<note type="gloss">griping, niggardly, usurious (<bibl><title rend="italic">OED</title></bibl>)</note></seg> <seg>hide bound<note type="gloss">close-fisted, stingy (<bibl><title rend="italic">OED</title></bibl>)</note></seg> <seg>Slave<note type="gloss">a contemptuous term for a social inferior</note></seg></rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Cuts nere the Ground the greater Crop to have</rdg>
+                    <rdg wit="#ee">Cuts near the ground, the greater crop to have,</rdg>
+                    <rdg wit="#ae">Cuts nere the Ground the greater Crop to have</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Greedy of gain and Sweltring him hee high’d</rdg>
+                    <rdg wit="#ee">Greedy of gain and sweltering him he <seg>hied<note type="gloss">hastened</note></seg>,</rdg>
+                    <rdg wit="#ae">Greedy of gain and Sweltring him hee <seg>high’d<note type="gloss">i.e., hied (went quickly)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Mowing by chance <seg>neare<note type="physical">“ar” written over other letters, possibly in H2.</note></seg> where a Spring did Glide</rdg>
+                    <rdg wit="#ee">Mowing by chance near where a spring did glide,</rdg>
+                    <rdg wit="#ae">Mowing by chance neare where a Spring did Glide</rdg>
+                </app>
+            </l>
+
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">that</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_142" n="69v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_142"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_142"/></rdg>
+          </app>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">That in her Purling Language Seend to chide</rdg>
+                    <rdg wit="#ee">That in her <seg>purling<note type="gloss">rippling, murmuring</note></seg> language seemed to chide,</rdg>
+                    <rdg wit="#ae">That in her <seg>Purling Language<note type="critical">The spring’s “Purling Language” is a murmuring sound.</note></seg> <seg>Seend<note type="gloss">i.e., seemed</note></seg> to chide</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Becauſe hee Rob’d her of her chiefest pride</rdg>
+                    <rdg wit="#ee">Because he robbed her of her chiefest pride.</rdg>
+                    <rdg wit="#ae">Because hee <seg>Rob’d her of her chiefest pride<note type="critical">The feminized spring seems to chide the mower for cutting the nearby flowers, her “chiefest pride” (which are also Flora’s “youthfull Pride,” l. 27). The “murmering Woe” (l. 39) of the spring foreshadows the lark’s mournful song when her children (“all her treasure,” line 44), who were no doubt also her “chiefest pride,” are slaughtered.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">But hee Regardles of her murmering Woe</rdg>
+                    <rdg wit="#ee">But he, regardless of her murmuring woe,</rdg>
+                    <rdg wit="#ae">But hee Regardles of her murmering Woe</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">Still nearer to the Rill did Stradling Goe</rdg>
+                    <rdg wit="#ee">Still nearer to the <seg>rill<note type="gloss">stream</note></seg> did <seg>straddling<note type="gloss">striding, swaggering</note></seg> go.</rdg>
+                    <rdg wit="#ae">Still nearer to the <seg>Rill<note type="gloss">small stream</note></seg> did <seg>Stradling<note type="critical"> To straddle, or to walk with legs spread widely apart, is another word (like “unbraced” and “deflower,” above) which invites a sexual reading.</note></seg> Goe</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">In this Sweet place the Lark tooke Such delight</rdg>
+                    <rdg wit="#ee">In this sweet place the lark took such delight,</rdg>
+                    <rdg wit="#ae">In this Sweet place the Lark tooke Such delight</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Becauſe it Shadey was and out of Sight</rdg>
+                    <rdg wit="#ee">Because it shady was and out of sight;</rdg>
+                    <rdg wit="#ae">Because it Shadey was and out of Sight</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">By this cool Rivolet Shee took Such Pleaſure</rdg>
+                    <rdg wit="#ee">By this cool <seg>rivulet<note type="gloss">small river</note></seg> she took such pleasure,</rdg>
+                    <rdg wit="#ae">By this cool Rivolet Shee took Such Pleasure</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">That here Shee placed her Young <seg><add place="below">\</add><add place="above">e\</add><note type="physical">The “e” is written in a different hand from main scribe, possibly H2.</note></seg>ven all her treaſure</rdg>
+                    <rdg wit="#ee">That here she placed her young; even all her treasure</rdg>
+                    <rdg wit="#ae">That here Shee placed her Young <seg>even<note type="critical">The first “e” in “even” is added in superscript by a different hand (probably Pulter’s). Without the “e” the line is more metrical but makes less sense.</note></seg> all her treasure</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">Was here incloſed, in one round little nest</rdg>
+                    <rdg wit="#ee">Was here enclosed in one round little nest,</rdg>
+                    <rdg wit="#ae">Was here inclosed, in one round little nest</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">Which this indulgent Bird warm’d <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> her brest</rdg>
+                    <rdg wit="#ee">Which this indulgent bird warmed with her breast;</rdg>
+                    <rdg wit="#ae">Which this indulgent Bird warm’d with her brest</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">And by the Eccho of this Bubling Spring</rdg>
+                    <rdg wit="#ee">And by the echo of this bubbling spring,</rdg>
+                    <rdg wit="#ae">And by the <seg>Eccho<note type="critical">The mention of an echo near water evokes the myth of Echo, a woman who fell in unrequited love with Narcissus who was entranced by his own reflection in a pool of water. Here is another mourning female figure associated with speech or singing in the poem: the lark, the spring, the echo, and the poet.</note></seg> of this Bubling Spring</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">Shee meant to teach her Ayry Young to Sing</rdg>
+                    <rdg wit="#ee">She meant to teach her airy young to sing;</rdg>
+                    <rdg wit="#ae">Shee meant to teach her Ayry Young to Sing</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">But in a Moment all <seg><add place="below">\</add><add place="above">her\</add><note type="physical">written in hand H2</note></seg> Joys were Quaſht</rdg>
+                    <rdg wit="#ee">But in a moment all her joys were <seg>quashed<note type="gloss">crushed, suppressed</note></seg>,</rdg>
+                    <rdg wit="#ae">But in a Moment all <seg>her<note type="critical">“her” is added in a different hand (probably Pulter’s)</note></seg> Joys were Quasht</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">In twinckling of ā eye her hopes were Dasht</rdg>
+                    <rdg wit="#ee">In twinkling of an eye her hopes were dashed;</rdg>
+                    <rdg wit="#ae">In twinckling of an eye her hopes were Dasht</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft">&ff;or this bold Scoundrill without &ff;ear or wit</rdg>
+                    <rdg wit="#ee">For this bold scoundrel without fear or wit</rdg>
+                    <rdg wit="#ae">For this bold Scoundrill without Fear or wit</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">Her Pritty Globe like Nest in Sunder Split</rdg>
+                    <rdg wit="#ee">Her pretty globe-like nest in sunder split.</rdg>
+                    <rdg wit="#ae">Her Pritty <seg>Globe like Nest<note type="critical">Pulter uses the language of a circle or sphere to describe the nest: “round” (line 45) and “Globe like” (line 52). This terminology suggests the shape of the earth itself, and the nest’s destruction fits Pulter’s sense of the world as a vulnerable place full of suffering.</note></seg> in Sunder Split</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">Some are in Middle Cut, Some of their Head</rdg>
+                    <rdg wit="#ee">Some are in middle cut, some off their head:</rdg>
+                    <rdg wit="#ae">Some are in Middle Cut, Some of their Head</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">Thus all her Young are either Maimd or Dead</rdg>
+                    <rdg wit="#ee">Thus, all her young are either maimed or dead.</rdg>
+                    <rdg wit="#ae">Thus all her Young are either Maimd or Dead</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">One not quite Kild doth weakly &ff;ly about</rdg>
+                    <rdg wit="#ee">One not quite killed doth weakly fly about,</rdg>
+                    <rdg wit="#ae">One not quite Kild doth weakly Fly about</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">Which Soon perceived is by this Rude Lowt</rdg>
+                    <rdg wit="#ee">Which soon perceivéd is by this rude <seg>lout<note type="gloss">ill-mannered fellow</note></seg>,</rdg>
+                    <rdg wit="#ae">Which Soon perceived is by this Rude Lowt</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">Who Throws his Syth away to it doth Run</rdg>
+                    <rdg wit="#ee">Who throws his <seg>scythe<note type="gloss">blade for cutting grass</note></seg> away, <seg>to<note type="gloss">and to</note></seg> it doth run,</rdg>
+                    <rdg wit="#ae">Who Throws his Syth away to it doth Run</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">Meaning to carry it to his <seg><del>Young</del> <add place="above"><del>litle</del></add> <add place="below">\</add><add place="above">little\</add><note type="physical">cancelled with double strike-through; above is “litle,” cancelled with multiples lines, and “little”, in H2</note></seg> Son</rdg>
+                    <rdg wit="#ee">Meaning to carry it to his little son,</rdg>
+                    <rdg wit="#ae">Meaning to carry it to his <seg>little<note type="critical">“little” replaces “Young” and “litle” (both crossed out), written in a different hand (probably Pulter’s)</note></seg> <seg>Son<note type="critical">The poet’s choice to make the child a boy seems significant. The male characters in this poem, the lout and his little son, are both cruel and thoughtless. And unlike the nurturing, maternal lark, the mower is a father who carelessly destroys life. </note></seg></rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">which</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_143" n="70r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_143"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_143"/></rdg>
+          </app>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">Which having caught and it ins Pocket put</rdg>
+                    <rdg wit="#ee">Which having caught and it <seg>in’s<note type="gloss">in his</note></seg> pocket put,</rdg>
+                    <rdg wit="#ae">Which having caught and it ins Pocket put</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">Withs Swetty Glove hee <seg>doth’t<note type="physical">“h’t” added in darker ink</note></seg> in priſon Shut</rdg>
+                    <rdg wit="#ee"><seg>With’s<note type="gloss">with his</note></seg> sweaty glove, he <seg>doth’t<note type="gloss">doth it</note></seg> in prison shut.</rdg>
+                    <rdg wit="#ae">Withs Swetty Glove hee doth’t in prison Shut</rdg>
+                </app>
+            </l>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">Next day hee Gives it to his crying Squale</rdg>
+                    <rdg wit="#ee">Next day, he gives it to his crying <seg>squall<note type="gloss">insignificant person; here, son</note></seg>,</rdg>
+                    <rdg wit="#ae">Next day hee Gives it to his crying <seg>Squale<note type="gloss">i.e., squall (a small or insignificant person; usually as a term of abuse [<bibl><title rend="italic">OED</title></bibl>])</note></seg></rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">Who in a thred this pretty Bird doth Hale</rdg>
+                    <rdg wit="#ee"><seg>Who in a thread this pretty bird doth haul<note type="critical">The child loops the bird’s neck into a thread and pulls it.</note></seg></rdg>
+                    <rdg wit="#ae">Who in a <seg>thred<note type="critical">The fatal thread used by the boy which hastens the young lark’s death recalls other images of threads or sewing in the poem. Arachne weaves tinsel (i.e. gold and silver threads) in line 2, the snail draws a trail of winding knots in lines 5-6, and the cobwebs resemble gossamer in line 8. But unlike the weaving or sewing female spider who creates, the boy destroys.</note></seg> this pretty Bird doth <seg>Hale<note type="gloss">pull or tug (<bibl><title rend="italic">OED</title></bibl>)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">Hither and thither, as his fond deſire</rdg>
+                    <rdg wit="#ee">Hither and thither, as his <seg>fond<note type="gloss">foolish</note></seg> desire</rdg>
+                    <rdg wit="#ae">Hither and thither, as his fond desire</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">Him Leads but ear’t bee Night it doth expire</rdg>
+                    <rdg wit="#ee"><seg>Him leads<note type="critical">His foolish desire leads him.</note></seg>, but <seg>ere’t<note type="gloss">before it</note></seg> be night, it doth expire.</rdg>
+                    <rdg wit="#ae">Him Leads but <seg>ear’t<note type="gloss">i.e., ere it (before it)</note></seg> bee Night it doth expire</rdg>
+                </app>
+            </l>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">The poor old Dam Seeing this Sad Maſſacker</rdg>
+                    <rdg wit="#ee">The poor old dam, seeing this sad massacre,</rdg>
+                    <rdg wit="#ae">The poor old <seg>Dam<note type="gloss">female parent of an animal</note></seg> Seeing this Sad Massacker</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">With heavie Heart to her light Wings <seg>betake[<del>?</del>] <add place="above">her</add><note type="physical">The cancelled last letter (likely an “s”) may have been inadvertently cancelled by the insertion signal; “her” is in hand H2.</note></seg></rdg>
+                    <rdg wit="#ee">With heavy heart to her light wings <seg>betakes<note type="gloss">commits</note></seg> her,</rdg>
+                    <rdg wit="#ae">With heavie Heart to her light Wings <seg>betake her<note type="critical">A letter is crossed out at the end of “betake” and “her” is added in a different hand (probably Pulter’s).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">Yet Hovering below in hope to find</rdg>
+                    <rdg wit="#ee">Yet hovering below in hope to find</rdg>
+                    <rdg wit="#ae">Yet Hovering below in hope to find</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">Some of her Brood according to their kind</rdg>
+                    <rdg wit="#ee">Some of her <seg>brood<note type="gloss">offspring</note></seg> (according to their <seg>kind<note type="gloss">nature; species</note></seg>)</rdg>
+                    <rdg wit="#ae">Some of her Brood according to their kind</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">To &ff;ollow her, but Seeing at Last’s ther’s none</rdg>
+                    <rdg wit="#ee">To follow her, but seeing, at last, there’s none</rdg>
+                    <rdg wit="#ae">To Follow her, but Seeing at Last’s ther’s none</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft">That doth Survive Shee Sadly <seg>makes<note type="physical">“k” is darker, perhaps written over another letter</note></seg> her moan</rdg>
+                    <rdg wit="#ee">That doth survive, she sadly makes her moan;</rdg>
+                    <rdg wit="#ae">That doth Survive Shee Sadly makes her moan</rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">Yet mounts, and Sings, Though in a Sadder Tone</rdg>
+                    <rdg wit="#ee">Yet <seg>mounts<note type="gloss">rises</note></seg> and sings, though in a sadder tone.</rdg>
+                    <rdg wit="#ae">Yet mounts, and Sings, Though in a Sadder Tone</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">Thus as thou art afflicted here below</rdg>
+                    <rdg wit="#ee">Thus, as thou art afflicted here below,</rdg>
+                    <rdg wit="#ae">Thus as thou art afflicted here below</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">My troubled Soul, Still nearer Heaven goe</rdg>
+                    <rdg wit="#ee">My troubled soul, still nearer Heaven go.</rdg>
+                    <rdg wit="#ae"><seg>My troubled Soul<note type="critical">As in lines 15-24, here the poet compares herself to the lark, by drawing a parallel between her own earthly suffering (specifically in enduring the deaths of her own children) and that of the bird. She wishes to follow the example of the lark who still mounts into the sky and sings in spite of her loss. The poet urges her own soul to find comfort in seeking heaven.</note></seg>, Still nearer Heaven goe</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">Let every trouble Some Heart breaking Croſs</rdg>
+                    <rdg wit="#ee">Let every troublesome heartbreaking <seg>cross<note type="gloss">trial, affliction</note></seg></rdg>
+                    <rdg wit="#ae">Let every trouble Some Heart breaking Cross</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">Like Surly Billowes to thy Haven thee Toſs</rdg>
+                    <rdg wit="#ee">Like surly <seg>billows<note type="gloss">waves</note></seg> to thy haven thee toss;</rdg>
+                    <rdg wit="#ae">Like Surly Billowes to thy Haven thee Toss</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">And As thy &ff;riends And Lovly Children Die</rdg>
+                    <rdg wit="#ee">And, as thy friends and lovely children die,</rdg>
+                    <rdg wit="#ae">And As thy Friends And Lovly Children Die</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">Soe thou my Soul to Heaven for Comfort &ff;ly</rdg>
+                    <rdg wit="#ee">So thou, my soul, to Heaven for comfort fly.</rdg>
+                    <rdg wit="#ae">Soe thou my Soul to Heaven for Comfort Fly</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">There doe thou place thy whole and Sole delight</rdg>
+                    <rdg wit="#ee">There do thou place thy whole and sole delight:</rdg>
+                    <rdg wit="#ae">There doe thou place thy whole and Sole delight</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">There There are Joys nere Seen by Mortall Sight</rdg>
+                    <rdg wit="#ee">There! There are joys ne’er seen by mortal sight.</rdg>
+                    <rdg wit="#ae">There There are Joys nere Seen by Mortall Sight</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">Bee thou Poſſest my Soul <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> thoſe true Joys</rdg>
+                    <rdg wit="#ee">Be thou possessed, my soul, with those true joys,</rdg>
+                    <rdg wit="#ae">Bee thou Possest my Soul with those true Joys</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">And thou Shalt &ff;ind worldly delights meer toys</rdg>
+                    <rdg wit="#ee">And thou shalt find worldly delights mere <seg>toys<note type="gloss">trivial things</note></seg>.</rdg>
+                    <rdg wit="#ae">And thou Shalt Find worldly delights meer toys</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">&ff;ix</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_144" n="70v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_144"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_144"/></rdg>
+          </app>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">&ff;ix thou thy mind where thoſe true pleaſures dwell</rdg>
+                    <rdg wit="#ee">Fix thou thy mind where those true pleasures dwell,</rdg>
+                    <rdg wit="#ae">Fix thou thy mind where those true pleasures dwell</rdg>
+                </app>
+            </l>
+            <l n="83">
+                <app>
+                    <rdg wit="#ft">Thou Shalt noe leaſure have to feare a Hell</rdg>
+                    <rdg wit="#ee">Thou shalt no leisure have to fear a Hell;</rdg>
+                    <rdg wit="#ae">Thou Shalt noe leasure have to feare a Hell</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <rdg wit="#ft">And when Death ceaſeth on thy Mortall Part</rdg>
+                    <rdg wit="#ee">And when death ceaseth on thy mortal part,</rdg>
+                    <rdg wit="#ae">And when Death ceaseth on thy Mortall Part</rdg>
+                </app>
+            </l>
+            <l n="85">
+                <app>
+                    <rdg wit="#ft">Thou mayest indure it with a conſtant Heart</rdg>
+                    <rdg wit="#ee">Thou mayest endure it with a constant heart;</rdg>
+                    <rdg wit="#ae">Thou mayest indure it with a constant Heart</rdg>
+                </app>
+            </l>
+            <l n="86">
+                <app>
+                    <rdg wit="#ft">And when thy Last &ff;riends cloſe thy Roleing <seg>Eyes<note type="physical">The final “s” is blotted, probably cancelled.</note></seg></rdg>
+                    <rdg wit="#ee">And when thy last friends close thy <seg>rolling eye<note type="gloss">motion of dying person</note></seg>,</rdg>
+                    <rdg wit="#ae">And when thy Last Friends close thy Roleing <seg>Eye<note type="critical">A final “s” is crossed out, likely so that the penultimate line of the poem rhymes with the final line.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="87">
+                <app>
+                    <rdg wit="#ft">Then chang thy place but not thy <seg>company<note type="physical">The remaining two-thirds of the page are left blank.</note></seg>.</rdg>
+                    <rdg wit="#ee">Then change thy place, but not thy company.</rdg>
+                    <rdg wit="#ae">Then chang thy place but not thy <seg>company.<note type="critical">The speaker hopes that her soul will be so prepared for heaven at her death that though she will change places (in that her soul will leave earth and enter heaven), her soul will already be so used to the society of heaven it will feel no rupture. Pulter is repeating the sentiment that Dr. John Preston is said to have uttered on his deathbed. Several contemporaries refer to Preston's words, including Joseph Hall: "It was a gracious speech of a worthy Divine upon his death-bed, now breathing towards heaven, That he should change his place not his company: His conversation was now before hand with his God, and his holy Angels; the only difference was, that he was now going to a more free and full fruition of the Lord of life, in that region of glory above, whom he had truly (though with weaknes and imperfection) injoyed in this vale of tears" (<bibl><title rend="italic">The devout soul, or, Rules of heavenly devotion: also, The free prisoner, or, The comfort of restraint</title> [1650], pp. 18-19</bibl>).</note></seg></rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

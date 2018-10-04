@@ -1,0 +1,1183 @@
+@charset "UTF-8";
+@import url('//fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700');
+
+@font-face {
+  font-family: 'SSSi';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url('/fonts/sssi_regular.woff2') format('woff2'),
+    url('/fonts/sssi_regular.woff') format('woff'),
+    url('/fonts/sssi_regular.ttf') format('truetype'),
+    url('/fonts/sssi_regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'SSSi';
+  font-style: italic;
+  font-weight: normal;
+  src:
+    url('/fonts/sssi_italic.woff2') format('woff2'),
+    url('/fonts/sssi_italic.woff') format('woff'),
+    url('/fonts/sssi_italic.ttf') format('truetype'),
+    url('/fonts/sssi_italic.eot') format('embedded-opentype');
+}
+
+/**
+	* @license vmachine.css for VM 5.0
+	* Updated: Aug 10 2015 by roman bleier
+	* Adds CSS styling to VM 5.0
+	
+	**/
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  min-width: 770px;
+  background-color: #282828;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #282828;
+  line-height: 125%;
+}
+
+h2 {
+  font-size: 125%;
+  font-family: 'SSSi', serif;
+  font-weight: 400;
+  margin: 0.5em auto 0.25em auto;
+}
+
+h3 {
+  margin: 1.25em auto 0.5em auto;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0.25em auto 0.5em auto;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+p {
+  margin: 0 auto 0 auto;
+}
+
+ul {
+  margin: 0.25em auto;
+}
+
+/* BEGIN styles for main banner*/
+div#mainBanner {
+  float: left;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #222;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* BEGIN Logo */
+div#mainBanner div#brandingLogo {
+  display: inline-block;
+  height: 1.5em;
+  vertical-align: middle;
+  margin: .5em 1em .5em 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 2px;
+}
+
+div#mainBanner div#brandingLogo a {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: middle;
+}
+
+div#mainBanner div#brandingLogo img {
+  height: 100%;
+  display: inline-block;
+}
+
+/*  END of logo */
+
+div#mainBanner div#bannerImageContainer {
+  width: 88%;
+  float: left;
+}
+
+div#headline {
+  padding: .5em 0 0 1em;
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-width: 60em;
+}
+
+div#mainBanner div#headline h1 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  color: #ffffff;
+  font-family: 'SSSi', serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+div#mainBanner div#headline span.versionCount {
+  font-size: 1.07em;
+  font-style: italic;
+}
+
+/* END styles for main banner*/
+
+/* BEGIN styles top navigation and dropdown menu*/
+div#mainBanner {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*  established height in container with float: left */
+#mainControls {
+  position: relative;
+  border: none;
+  display: block;
+  width: 100%;
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#mainControls button img {
+  height: 0.5em; /*controls the size of the arrow button in dropdown menu*/
+  padding-left: 5px; /*added to create some space between the text and the arrow*/
+}
+
+/*styling of version dropdown list items*/
+#mainControls > ul > li ul.dropdown {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  width: 200px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#mainControls > ul > li ul.dropdown li {
+  display: block;
+  float: none;
+  padding: 6px 4px;
+  min-width: 11em;
+  clear: both;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#mainControls > ul > li ul li:hover {
+  width: auto;
+  font-weight: 800;
+}
+
+div.listText {
+  display: table;
+  font-size: 0.9em;
+  margin-left: 0.6em;
+  font-family: 'Lato', sans-serif;
+  color: #484848;
+  font-size: 14px;
+}
+
+/*styling of div containing the names of individual witnesses in version dropdown*/
+div.listText div:first-child {
+  width: 75%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*styling of div containing the on-off button in version dropdown*/
+div.listText div:last-child {
+  width: 25%;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+
+}
+
+/*following css controls the visibility of the version dropdown*/
+ul#witnessList.notVisible li {
+  visibility: hidden;
+}
+
+/* END styles top navigation and dropdown menu*/
+
+div#mssArea {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 124px 0 0;
+  padding: 0 0 2em 0;
+  position: static;
+  display: block;
+  overflow: hidden;
+  z-index: 10;
+  background: #282828;
+}
+
+div.panel {
+  font-size: 100%;
+  float: left;
+  border: 1px solid black;
+  width: 33vw;
+  min-height: 250px;
+  min-width: 250px;
+  margin: 0;
+  padding: 0;
+  /* by default the panels are set to 'top: -1px; left: -1px', this is used by JS code to identify panels without location*/
+  left: -1px;
+  top: -1px;
+  background: white;
+  cursor: move;
+}
+
+/* mirror text */
+
+span.mirror {
+  color: #bababa;
+  display: block;
+  -moz-transform: scaleX(-1); /* Gecko */
+  -o-transform: scaleX(-1); /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1); /* Standard */
+}
+
+/* centered text */
+span.centered {
+  display: block;
+  text-align: center;
+}
+
+/*position:absolute to prevent that adjacent panels get moved on resize*/
+div.panel.ui-resizable {
+  position: absolute;
+}
+
+div#mssArea div.panel div.panelBanner,
+.viewerHandle {
+  background: #484848;
+}
+
+div#mssArea div.panel div.panelBanner {
+  height: 1.8em;
+  line-height: 1.8em;
+  margin: 0;
+  padding: 5px 7px 3px 12px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  color: white; /*changed from black to be easier to read*/
+  font-weight: normal; /*changed from 800 to be easier to read*/
+}
+
+div#mssArea div.panel div.panelBanner select.witnessMenu {
+  width: 160px;
+}
+
+div#mssArea div.mssPanel {
+  overflow: hidden;
+  min-width: 250px;
+  z-index: 2;
+}
+
+div.imgPanel {
+  overflow: hidden;
+  background-color: #000;
+  z-index: 2;
+}
+
+div#mssArea div.mssPanel div.panelBanner,
+div#mssArea div.imgPanel div.panelBanner {
+  border-bottom: 1px solid black;
+}
+
+div#mssArea div.panel div.panelBanner img.closePanel {
+  float: right;
+  cursor: pointer;
+  padding-top: 3px;
+  padding-right: 4px;
+  width: 1.4em;
+  height: 1.4em;
+}
+
+div#mssArea div.panel div.mssContent {
+  margin: 10px;
+  padding-bottom: 15px;
+  line-height: 25px;
+}
+
+div#mssArea div.panel div.mssContent img.imgLink {
+  float: left;
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.facs-images {
+  float: right;
+}
+
+div#mssArea div.panel div.noteContent {
+  padding: 10px 10px 10px 20px;
+}
+
+div#mssArea div.panel div#noNotesFound {
+  display: none;
+  font-weight: 800;
+}
+
+div#mssArea div.panel div.noteContent div.witnesses {
+  float: right;
+  margin-left: 0.5em;
+  color: #282828;
+  font-style: italic;
+}
+
+div#mssArea div.panel div.noteContent div.position {
+  color: #000066;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+div#mssArea div.panel div.bibContent,
+div#mssArea div.panel div.critContent {
+  padding: 16px 18px 24px;
+}
+
+div#mssArea div.panel div.bibContent,
+div#mssArea div.panel div.critContent,
+div#mssArea div.panel div.noteContent {
+  cursor: text;
+}
+
+#bibPanel, #notesPanel, #critPanel {
+  overflow: hidden;
+}
+
+#bibPanel {
+  width: 26%;
+}
+
+.poemindexentry {
+    padding-bottom: 1.2%;
+}
+
+
+
+
+
+div.head,
+div.line,
+div.paragraph {
+  clear: both;
+}
+
+div.line {
+  margin: 0 4em 0 2.5em;
+  padding: 0;
+  cursor: auto;
+}
+
+div.byline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  margin: 8px 0px 12px 0px;
+}
+
+div.line div.linenumber,
+div.line div.emptynumber {
+  float: left;
+  margin-left: -2.5em;
+  width: 2em;
+
+}
+
+div.line div.linenumber {
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75em;
+  font-weight: 300;
+  color: #888888;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+div.head {
+  font-family: 'SSSI', serif;
+  font-size: 150%;
+  line-height: 34px;
+  color: #000000;
+  margin: 60px 20px 20px 24px;
+}
+
+div.apparatus.apparatus_2 {
+  display: block !important;
+}
+
+div.epigraph {
+  text-align: center;
+  margin: 4px 25px;
+  font-size: 85%;
+}
+
+table.mssTable {
+  margin: 0 auto 0 auto;
+}
+
+table.mssTable td {
+  padding: 0 7px;
+}
+
+div.noteicon,
+div.choice,
+div.rdgGrp {
+  cursor: pointer;
+  position: relative;
+}
+
+div.noteicon {
+  bottom: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 85%;
+  color: #282828;
+  border-bottom: 1px solid #000066;
+  display: inline;
+}
+
+div.choice,
+div.rdgGrp {
+  border-bottom: thin dashed #666;
+}
+
+div.choice {
+  display: inline;
+}
+
+div.head div.noteicon {
+  font-size: 74% !important;
+}
+
+div.head div.editorialnote-text, div.head div.headnote-text {
+  font-size: 50%;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: normal;
+  margin: 10pt 10pt 10pt 0pt;
+  padding: 5pt 5pt 5pt 5pt;
+  border: 1px dashed;
+  display: none;
+}
+
+div.headnote-text p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+div.disabled-note,
+span.notespan div.note,
+div.noteicon div.note,
+div.choice div.corr,
+div.rdgGrp div.altRdg {
+  display: none;
+}
+
+div.note-entry {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+div.note-entry div.line {
+  margin: 0 0 0 1em;
+}
+
+div.note-entry.physical {
+  border: 0px dashed brown;
+}
+
+div.note-entry.gloss {
+  border: 0px dashed green;
+}
+
+div.note-entry.critical {
+  border: 0px dashed black;
+}
+
+div.note-entry.biographical {
+  border: 0px dashed red;
+}
+
+div.noteicon div.note {
+  text-decoration: none !important;
+}
+
+div.noteicon:hover div.note {
+  left: -125px;
+  min-width: 250px;
+  max-width: 500px;
+  background: white;
+}
+
+div.choice:hover div.corr,
+div.rdgGrp:hover span.altRdg {
+  left: 0;
+  min-width: 175px;
+  max-width: 350px;
+  background: white;
+  font-size: 90%;
+}
+
+div.paragraph {
+  padding: 0;
+  margin: 0;
+}
+
+div.mssContent div.paragraph div.reading {
+  margin: 6px 0;
+}
+
+div.apparatus div.reading {
+  display: none;
+}
+
+div.apparatus {
+  display: none;
+  cursor: pointer;
+}
+
+em.label {
+  color: #282828;
+  font-style: italic;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+/* removed red, green font color / Betsy / May 2018*/
+del {
+  text-decoration: line-through;
+}
+
+ins {
+  text-decoration: none;
+}
+
+.unclear {
+}
+
+.lg {
+  margin-bottom: 10px;
+}
+
+/*  handling line indentation / new / Matt Taylor / Jun 2018 */
+/*  these apply when a <l rend="tab-1"> thru <l rend="tab-6"> is encoded */
+
+div.lineWrapper.rend-tab-1 div.line div.reading {
+  margin-left: 1.6em;
+}
+
+div.lineWrapper.rend-tab-2 div.line div.reading {
+  margin-left: 3.2em;
+}
+
+div.lineWrapper.rend-tab-3 div.line div.reading {
+  margin-left: 4.8em;
+}
+
+div.lineWrapper.rend-tab-4 div.line div.reading {
+  margin-left: 6.4em;
+}
+
+div.lineWrapper.rend-tab-5 div.line div.reading {
+  margin-left: 8.0em;
+}
+
+div.lineWrapper.rend-tab-6 div.line div.reading {
+  margin-left: 9.6em;
+}
+
+/* span.notespan / NEW / Matt Taylor / Dec 2017 */
+span.notespan {
+  border-bottom: thin dashed #666;
+  display: inline;
+  color: #000000;
+}
+
+span.segnotespan {
+  border-bottom: thin dashed #000000;
+  display: inline;
+  color: #000000;
+}
+
+/* rend=overline / NEW / Matt Taylor / Nov 2017 */
+/* disabled border styling inspired by Newton letters project */
+/* replaced by more standard text decoration specification, Sept 2018 */
+.rend-overline {
+  /* 
+   * border-width: 1px;
+   * border-style: solid none none none;
+   */  
+   text-decoration: overline;
+}
+
+/* span.catchword / NEW / Matt taylor / Jun 2018 */
+span.fw-catchword {
+  display: block;
+  margin-left: 200px;
+  color: #bababa;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+/* span.sequence-number / NEW / Matt taylor / Jun 2018 */
+span.fw-sequence-number {
+  display: inline-block;
+  color: #bababa;
+}
+
+.rend-underline,
+.rend-underscore {
+  text-decoration: underline;
+}
+
+.rend-italics,
+.rend-italic {
+  font-style: italic;
+}
+
+.rend-overstrike,
+.rend-strikethrough,
+.rend-strike {
+  text-decoration: line-through;
+}
+
+.rend-center {
+  text-align: center;
+}
+
+.rend-fancy {
+  /* fancy stuff */
+}
+
+.place-above,
+.rend-superscript {
+  vertical-align: super;
+  font-size: 85%;
+  line-height: 0;
+}
+
+.place-below {
+  vertical-align: sub;
+  font-size: 85%;
+  line-height: 0;
+}
+
+/* milestone / NEW / Betsy / April 2018*/
+
+div.short-horlines-left-right {
+  display: block;
+  margin: 0 auto 5px auto;
+  height: 5px;
+}
+
+hr.left {
+  width: 5%;
+  margin-left: 9%;
+  display: inline-block;
+}
+
+hr.right {
+  width: 5%;
+  margin-left: 42%;
+  display: inline-block;
+}
+
+div.poemend {
+  height: 3em;
+  display: block;
+  text-align: right;
+}
+
+div.poemend img {
+  max-width: 30%;
+  max-height: 80%;
+  margin-right: 6%;
+  float: right;
+}
+
+/*  end of milestone */
+
+div.type-stanza {
+  margin-bottom: 20px;
+}
+
+.pagebreak {
+  margin: 10px auto 10px auto;
+  clear: right;
+  min-width: 20px;
+}
+
+div.rend-right {
+  text-align: right;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.highlighted {
+  font-weight: 800;
+  background: #FFFF99;
+}
+
+.viewerHandle {
+  cursor: move;
+  clear: both;
+  margin: 0;
+  padding: 0.32em;
+  height: 1.4em;
+  line-height: 1.4em;
+  color: white; /*changed from black to be easier to read*/
+  font-weight: 400; /*changed from 800 to be easier to read*/
+  font-family: 'Cormorant Garamond', serif;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+span.viewerHandleLt {
+  font-size: 1em;
+  float: left;
+  text-align: left;
+  padding-left: 0.36em;
+}
+
+.viewerHandleRt {
+  float: right;
+  cursor: pointer;
+  height: 1.22em;
+  width: 1.22em;
+  margin: 0 10px;
+
+}
+
+.viewerContent {
+  margin: 0 0.16em 0.16em 0.16em;
+  padding: 0 0.16em 0.16em 0.16em;
+  overflow: visible;
+}
+
+.viewerContent img {
+  display: block;
+  margin: 0 auto 0 auto;
+  border: none;
+  max-width: 37.5em;
+  max-height: 37.5em;
+}
+
+#mainControls ul {
+  padding: 0;
+  margin: 0;
+}
+
+#mainControls > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 5px 5px 15px; /* changed from 5px*/
+  font-size: 1em; /*changed from 1.2em*/
+  font-family: 'Cormorant Garamond', serif;
+  position: relative;
+  float: left;
+}
+
+/* style buttons  */
+
+button.editorialnote, button.headnote {
+  background-color: #f3efe3;
+  color: #282828;
+  border: 1px solid rgb(216, 216, 216);
+  display: inline-block;
+  margin-top: 18pt;
+}
+
+button.editorialnote:hover, button.headnote:hover {
+  background-color: #f8f6ef;
+}
+
+.topMenuButton {
+  display: block;
+  color: #D4AF24;
+  border: 1px solid #D4AF24;
+  background-color: #282828;
+  margin: 0;
+  cursor: pointer;
+}
+
+#selectVersion {
+  background-color: #484848;
+  color: white;
+  border: none;
+  height: 28px;
+}
+
+#selectNote {
+  background-color: #D4AF24;
+  color: white;
+  border: none;
+  height: 28px;
+}
+
+.topMenuButton:hover {
+  border: 1px solid #EEC429;
+}
+
+.noDisplay {
+  display: none;
+}
+
+.notVisible {
+  visibility: hidden;
+}
+
+/*img menuicon*/
+#mainControls img.menuicon {
+  width: 1em;
+}
+
+/* end style dropdown list */
+
+/*OnOff button in dropdown and navigation*/
+
+.dropdown button {
+  padding: 4px 8px;
+  margin-right: 4px;
+}
+
+.dropdown a {
+  color: black;
+  border: none;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 28px;
+  letter-spacing: 1.5px;
+  padding: 4px 12px 6px 12px;
+  min-width: 50px;
+  border: 1px solid #D4AF24;
+  color: #D4AF24;
+  background-color: white;
+  outline: none;
+}
+
+.imgPanel button {
+  color: #000;
+}
+
+.buttonPressed {
+  background-color: #D4AF24;
+  color: white;
+}
+
+.buttonPressed:hover {
+  background-color: #EEC429;
+  color: white;
+}
+
+/*end OnOff button styling*/
+
+div.panel.highlight,
+.dropdown .highlight {
+  border: 1px solid #EEC429;
+}
+
+#showNote {
+  padding: 7px 20px;
+  font-size: 105%;
+  color: black;
+  text-align: left;
+  background: white;
+  font-weight: 400 !important;
+  z-index: 6;
+  max-width: 500px;
+  max-height: 500px;
+  overflow: auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#showNote.clicked {
+  display: block;
+}
+
+.audioPlayer {
+  cursor: pointer;
+}
+
+/* change colour of match app/line highlight*/
+.matchLineHi, .matchLineHiClicked {
+  background-color: #F0E68C;
+}
+
+.matchAppHi, .matchAppHiClicked {
+  background-color: #F0E68C;
+}
+
+.ui-resizable-helper {
+  border: 2px dotted #2c577f;
+}
+
+.viewerContent .buttons button {
+  background-color: #f3efe3;
+  color: #282828;
+  font-size: 20px;
+  border: 1px solid rgb(216, 216, 216);
+  padding: 0px 12px 8px 12px;
+  margin: 0px 4px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.viewerContent .buttons button:hover {
+  background-color: #f8f6ef;
+}
+
+/* BEGIN responsive styles media queries*/
+@media screen and (max-width: 800px) {
+
+  div#mainBanner {
+    position: absolute;
+    /* bottom:0; */
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  #mainBanner #headline h1 {
+    font-size: 1em;
+  }
+
+  div#mainBanner div#bannerImageContainer > img {
+    display: none;
+  }
+
+  #mainControls > ul > li > button {
+    font-size: 1em;
+  }
+
+  #mainControls > ul > li {
+    padding: 2px;
+  }
+
+}
+
+/*END responsive styles*/
+
+/* FOOTER CSS */
+#footer {
+  background: #020202;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 40em) {
+  #footer {
+    border-top: none;
+  }
+}
+
+#footer .footer-box {
+  padding: 3em 0;
+  max-width: 100em;
+  margin: 0 auto;
+}
+
+#footer .footer-box .footer {
+  margin-left: 4.5em;
+}
+
+@media (max-width: 40em) {
+  #footer .footer-box .footer {
+    margin-left: 2.25em;
+    margin-right: 2.25em;
+  }
+}
+
+#footer .footer-box .left,
+#footer .footer-box .right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer .footer-box .left {
+  width: 50%;
+}
+
+#footer .footer-box .right {
+  width: 50%;
+}
+
+@media (max-width: 40em) {
+  #footer .footer-box .left, #footer .footer-box .right {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #footer .footer-box .left {
+    margin-bottom: 1.5em;
+  }
+}
+
+#footer .footer-box .logo-box {
+  margin-bottom: 0.1em;
+}
+
+#footer .footer-box .logo-box .logo, #footer .footer-box .logo-box h5 {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#footer .footer-box .logo-box .logo {
+  max-height: 1.15em;
+  border: 1px solid rgba(228, 188, 41, 0.33);
+  margin-right: .66em;
+  border-radius: 1px;
+}
+
+#footer .footer-box .logo-box h5 {
+  font-family: "Sssi", Garamond, serif;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #e5e5e5;
+  line-height: 1;
+}
+
+#footer .footer-box .logo-box h5 .small-cap {
+  font-size: .9em;
+}
+
+#footer .footer-box p {
+  font-size: 0.92707em;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.66;
+}
+
+#footer .footer-box .much-love {
+  max-width: 1.2em;
+  display: inline-block;
+  position: relative;
+  bottom: -2px;
+}
+
+@media (max-width: 40em) {
+  #footer .footer-box .much-love {
+    bottom: -1px;
+  }
+}
+
+#footer .footer-box .much-love .pix-1 {
+  fill: #eb4c47;
+  -webkit-animation: heartBeat 1s 0s both infinite;
+  animation: heartBeat 1s 0s both infinite;
+}
+
+#footer .footer-box .much-love .pix-2 {
+  fill: #ea433e;
+  -webkit-animation: heartBeat 1s 0.1s both infinite;
+  animation: heartBeat 1s 0.1s both infinite;
+}
+
+#footer .footer-box .much-love .pix-3 {
+  fill: #e93a35;
+  -webkit-animation: heartBeat 1s 0.2s both infinite;
+  animation: heartBeat 1s 0.2s both infinite;
+}
+
+@media (max-width: 40em) {
+  #footer .footer-box nav {
+    margin-top: 2.25em;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-TOP: 2.25em;
+  }
+}
+
+#footer .footer-box nav h6 {
+  font-weight: bold;
+  font-size: 0.92707em;
+  width: 33%;
+  padding-right: 10%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2;
+  color: #bbb;
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+#footer .footer-box nav h6:hover {
+  color: #eee;
+}
+
+@media (max-width: 40em) {
+  #footer .footer-box nav h6 {
+    width: 50%;
+    padding: .25em 0;
+  }
+}
+
+#footer a:link {
+  color: #e5e5e5;
+}
+
+#footer a:visited {
+  color: #e5e5e5;
+}
+
+#footer a:hover {
+  color: #e5e5e5;
+}
+
+#footer a:active {
+  color: #e5e5e5;
+}

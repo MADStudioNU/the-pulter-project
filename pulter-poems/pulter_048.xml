@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.48">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Immense Fount of Truth</title>
+                 <title type="sub">Poem #48</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                     <term>prayer</term>
+                     <term>God</term>
+                     <term>death</term>
+                     <term>afterlife</term>
+		             <term>praise</term>
+                </keywords> 
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_147.jpg" xml:id="f7610_147"/>
+
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 27, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 27, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Scott-Baumann</persName>. Last updated <date>June 27, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_147" n="72r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_147"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_147"/></rdg>
+            </app>
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+                    <rdg wit="#ee">Immense Fount of Truth, Life, Love, Joy, Glory</rdg>
+                    <rdg wit="#ae">[Untitled]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ee"><note type="headnote">Alluding to love sonnets that promise to immortalize a beloved in writing, Pulter, like John Donne, creates a 14-line poem with God as its object of devotion. The speaker cements this association by concluding with a promise to inscribe God in verse that glorifies him not only on earth (as her own poem currently does) but beyond, in some vast and yet unknown eternity. In fact, the speaker’s pleading for an infusion of heavenly light into her soul becomes a type of contract, since it is phrased contingently: if she is “irradiated” with divine spirit, she will be resurrected and able to produce songs that amplify God’s name (a proper name interestingly withheld in this mortal poem). Pulter’s vision of transformation includes an elemental recycling of elements: her body’s dissolution at death converts to ascend what she uniquely and vividly terms “the stairs of revolution,” the restless motions necessary for salvation.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>This poem explores one of Pulter’s key ideas, that life is circular (see "The Circle [1, 2, 3, 4]" (Poems 17, 21, 15, 36); "The Revolution" (Poem 16)). Renewed in death by God, we undergo a “revolution”, a transformation of body and soul. This use of “revolution” is fascinating in a period which saw the word appropriated politically by radicals, parliamentarians, and royalists. On the interconnected ideas, and rhymes, of revolution and dissolution, see also "The Eclipse" (Poem 1), "Universal Dissolution" (Poem 6), "The Revolution" (Poem 16), "My Soul, Why Art Thou Full of Trouble" (Poem 40) and "Why Art Thou Sad at the Approach of Night" (Poem 47). Pulter’s “stairs of revolution” is an unusual phrase and image. She imagines progress towards the Day of Judgment, when souls and bodies are reunited and can join God, as a kind of spiral staircase. Describing the stairs as “of revolution” suggests also an ongoing, or cyclical, transformation. The spiral staircase was already loaded with meanings related both to poetic form and faith. George Herbert used it to represent excessive ornamentation, “Is there in truth no beauty? / Is all good structure in a winding stair?” ("Jordan [1]"). Pulter’s usage is altogether more positive, though, imagining the winding stair as the path to resurrection and union with God. See also Pulter’s emblem poems where she uses the image of “steps” to represent both following in Christ’s footsteps and ascent to heaven ("Mighty Nimrod (Emblem 1)" (Poem 67); "Come, My Dear Children  (Emblem 2)" (Poem 68)).</p>
+                  <p>While the poem is in couplets, its fourteen lines allude to sonnet form, and therefore the broader tradition of Petrarchan love poetry. Moreover, the promise of the final lines, to “magnify” the addressee’s name “Beyond the reach of all eternity”, evokes the promise (and boast) of immortality common to earlier sonnet sequences by Spenser and Shakespeare. In Sonnet 55, Shakespeare’s speaker had claimed “So, till the Judgement that yourself arise, / You live in this, and dwell in lovers’ eyes.” The beloved lives in “this”, the poem itself. While Shakespeare adopted the idea of the Day of Judgment for his secular love poem, Pulter places this theological concept at the heart of her poem. It is not the self-aggrandising poet who can “magnify” God’s name, but the resurrected believer: immortal, strong and glorious (1 Corinthians 15: 42-44).</p>
+                </note></rdg>
+            </app>
+            </head>
+          <lg type="free">
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Immenſe, &ff;ount of Truth, Life, Love, Joy, Glory</rdg>
+                    <rdg wit="#ee">Immense Fount of truth, life, love, joy, glory:</rdg>
+                    <rdg wit="#ae"><seg>Immense Fount of truth<note type="critical">The syntax of Pulter’s first line nicely emphasizes its meaning: the phrase “Immense Fount of truth” initially seems to be a self-contained epithet for God, yet spills out (like God’s immensity) into a list of what he bestows: truth, life, love, joy, glory.</note></seg>, life, love, joy, glory,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Irradiate my Soul in her dark Story</rdg>
+                    <rdg wit="#ee"><seg>Irradiate<note type="gloss">illuminate, brighten spiritually</note></seg> my soul in her dark <seg>story<note>life</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>Irradiate<note type="gloss">to shine upon; to illuminate with spiritual light</note></seg> my soul in her <seg>dark story<note>Pulter refers to her “story” in several poems, and here the adjective “dark” may relate to 1 Corinthians 13.12: “For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known.”</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Let not the erronious Shades of death and Night</rdg>
+                    <rdg wit="#ee">Let not th’erroneous shades of death and night</rdg>
+                    <rdg wit="#ae">Let not the <seg>erroneous<note type="gloss">straying from the proper course; full of error</note></seg> shades of death and night</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Obſcure thy Love and Glory &ff;rom my Sight</rdg>
+                    <rdg wit="#ee">Obscure Thy love and glory from my sight.</rdg>
+                    <rdg wit="#ae">Obscure Thy love and glory from my sight.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Though this my Corps (untill my diſſolution</rdg>
+                    <rdg wit="#ee">Though this my corpse (until my dissolution,</rdg>
+                    <rdg wit="#ae">Though this my <seg>corpse<note type="gloss">body (not necessarily dead, though of course Pulter suggests that here)</note></seg> (until my <seg>dissolution<note>dissolving, here used metaphorically to mean death. See also Headnote.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">And then but by the Stairs of Revolution)</rdg>
+                    <rdg wit="#ee">And then <seg>but<note type="gloss">only</note></seg> by the <seg>stairs of revolution<note type="critical">in Christianity, the process by which souls will be restored to their bodies and spiritually raised in heaven at the “Second Coming of Christ” (also known as Resurrection Day or the Final Judgment); not usually figured as a “revolution,” with connotations of astronomical cyclical motions and political upheaval</note></seg>)</rdg>
+                    <rdg wit="#ae">And then <seg>but by<note type="gloss">only by</note></seg> the <seg>stairs of revolution<note type="critical">an unusual image of upward transformation. See also Headnote.</note></seg>)</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Cannot attain thy Raidient Throne above</rdg>
+                    <rdg wit="#ee">Cannot attain Thy radiant throne above,</rdg>
+                    <rdg wit="#ae">Cannot attain Thy radiant throne above,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Yet bee thou pleaſed to infuſe thy Love</rdg>
+                    <rdg wit="#ee">Yet be Thou pleaséd to infuse Thy love</rdg>
+                    <rdg wit="#ae">Yet be Thou pleased to <seg>infuse<note type="gloss">pour in, instil</note></seg> Thy love</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">And Light unto my <add place="below">^</add><add place="above">Sad</add> deſerted Soul</rdg>
+                    <rdg wit="#ee">And light unto my sad, deserted soul,</rdg>
+                    <rdg wit="#ae">And light unto my sad deserted soul,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">that in thy endleſs mercy I may Rowl</rdg>
+                    <rdg wit="#ee">That in Thy endless mercy I may <seg>roll<note type="gloss">rotate, trust in God</note></seg>;</rdg>
+                    <rdg wit="#ae">That in Thy endless mercy I may <seg>roll<note type="gloss">be enveloped; allow herself to be moved by, perhaps in the sense of a boat’s motion in the sea; rotate; to continue or go on; theologically, to hand over oneself, or a burden, to God.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">And when Death cloſeth up my Mortall eye</rdg>
+                    <rdg wit="#ee">And when Death closeth up my mortal eye,</rdg>
+                    <rdg wit="#ae">And when death closeth up my mortal eye</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">I then may Live and onely Sinn may die</rdg>
+                    <rdg wit="#ee">I then may live and only Sin may die;</rdg>
+                    <rdg wit="#ae">I then may live and only sin may die.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">And then thy Bleſſed name I’le magniefie</rdg>
+                    <rdg wit="#ee">And then Thy blessed name I’ll <seg>magnify<note type="gloss">glorify, enlarge</note></seg></rdg>
+                    <rdg wit="#ae">And then Thy blessèd name I’ll magnify</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Beyond the Reach of all <seg>Eternity<note type="physical">Remaining third of page is blank.</note></seg>.</rdg>
+                    <rdg wit="#ee">Beyond the reach of all eternity.</rdg>
+                    <rdg wit="#ae">Beyond the reach of all eternity.</rdg>
+                </app>
+            </l>
+          </lg>
+        </body>
+    </text>
+</TEI>

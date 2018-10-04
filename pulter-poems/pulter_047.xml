@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.47">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Why Art Thou Sad at the Approach of Night</title>
+                 <title type="sub">Poem #47</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>soul</term>
+		    <term>sadness</term>
+		    <term>death</term>
+		    <term>afterlife</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_145.jpg" xml:id="f7610_145"/>
+        <graphic url="./document_images/7610_146.jpg" xml:id="f7610_146"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>August 26, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 30, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Sarah C. E. Ross</persName>. Last updated <date>September 7, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_145" n="71r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_145"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_145"/></rdg>
+            </app>
+
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                   </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+                    <rdg wit="#ee">Why Art Thou Sad at the Approach of Night</rdg>
+                    <rdg wit="#ae">[Why Art Thou Sad at the Approach of Night]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">
+                      <p>My priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in my view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts). [1]</p>
+                      <p><note type="critical">1. See <bibl>Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse", in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</bibl></note></p></note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">At nightfall, in stanzas that allude to the folksy and familiar meter of popular ballads, the speaker soothes her saddened soul; but the proffered solace might seem cold comfort, since it requires the embrace of death (a precondition of a promised return to life). The speaker thus broadens her address to hail the Fates, who are dared, in a nearly paradoxical rhyme, to do “right” by the speaker through their “spite”: that is, she invites them to kill her. This careless bravado extends to her boasted fearlessness of the classical Furies, and her contentment to lie down in her grave; but the poem’s incongruous final image, likening that grave—the earth, and hence her “cause”—to her “finest downy bed,” revives some of the disquiet of the opening scene.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>Like many of Pulter’s religious poems, this one begins as an address to her “melancholy soul” (2), encouraging it to desist in its spiritual complaint. “Night” and “light” are in this context representations of death and life, and Pulter uses the “revolution” of day and night to figure a cycle of “life and death and life” (12); that is, life, death, and resurrection. The poem builds as it progresses on a set of ideas and images that recurs throughout Pulter’s poems: the “dissolution” (disintegration into elements or dust) of the body in death, and the interrelated process of “revolution” (alteration, change, transmutation of elements) or renewal in God’s love. Pulter sees life, death, and renewal in God as a circular process, and “revolution” is a word and image she uses repeatedly for this positive transformation in God: “revolution / Is the preserving of the universe / From dissolution” (lines 18-20). Revolution is, then, an image for the way in which Christ’s sacrifice has conquered death: “Death at last is conquered quite, / O happy victory!” (7-8). For the biblical sources for this idea, see note to lines 7-8 (below); and among Pulter’s other poems, see <ref target="/" corresp="1" type="pp-poem-ref">The Eclipse</ref>, especially lines 43-8 and 65-6; and <ref target="/" corresp="48" type="pp-poem-ref">Immense Fount of Truth</ref>.</p>
+                  <p>Pulter’s devotional musings on dissolution and revolution are distinctive and recurrent. She commonly pairs “dissolve / revolve” and “dissolution / revolution” in rhyme, as she does in stanzas 3 and 5 of this poem. “The Eclipse” has very similar concerns, and uses this rhyme three times; in that poem, revolution is a “passage” to eternal love (line 45). She uses the same rhyme in the poem immediately following this one, “Immense Fount of Truth”; in that poem, “the stairs of revolution” enable the speaker to “attain thy radiant throne above” (lines 5-6). See the amplified edition of “Immense Fount of Truth”, edited by Elizabeth Scott-Baumann.</p>
+                    <p>In the last three stanzas of the poem, Pulter melds her concept of dissolution and revolution with other of her recurring images: those of dust and “causes”, the elements or matter from which the body is first produced, and to which it returns in death. Pulter’s dust is analogous to George Herbert’s, whose “Easter” she may echo in the “dust / just” rhyme of lines 22 and 24. Herbert’s lines are “as his death calcined thee to dust, / His life may make thee gold, and much more just” (lines 5-6); see also <ref target="/" corresp="49" type="pp-poem-ref">My Heart Why Do Thou Throb So in My Breast?</ref>. For a similar sense of “causes” as the dust-like first elements to which one is returned in death, see <ref target="/" corresp="6" type="pp-poem-ref">Universal Dissolution</ref>, lines 14, 32, 46. Present in her use of both terms (“dust”, “causes”) is the sense of dissolution to these elements being necessary for the revolutionary passage into heavenly glory—the “happy victory” over death.</p>
+                </note></rdg>
+            </app>
+            </head>
+           <lg n="1" type="stanza"> 
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Why art thou Sad at the aproach of Night</rdg>
+                    <rdg wit="#ee">Why art thou sad at the approach of night,</rdg>
+                    <rdg wit="#ae">Why art thou sad at the approach of night,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">My Melancholly Soul</rdg>
+                    <rdg wit="#ee">My melancholy soul?</rdg>
+                    <rdg wit="#ae">My melancholy soul?</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Should not obſcurity and cheerfull Light</rdg>
+                    <rdg wit="#ee">Should not obscurity and cheerful light</rdg>
+                    <rdg wit="#ae">Should not obscurity and cheerful light</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">After each other Rowl</rdg>
+                    <rdg wit="#ee">After each other <seg>roll<note type="gloss">proceed; revolve; flow</note></seg>?</rdg>
+                    <rdg wit="#ae">After each other roll?</rdg>
+                </app>
+            </l></lg>
+           <lg n="2" type="stanza"> <l n="5">
+                <app>
+                    <rdg wit="#ft">For as Sad Gloomey Shades doth follow Light</rdg>
+                    <rdg wit="#ee">For, as sad gloomy shades doth follow light,</rdg>
+                    <rdg wit="#ae">For as sad, gloomy shades doth follow light,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Soe after Life wee die</rdg>
+                    <rdg wit="#ee">So after life we die;</rdg>
+                    <rdg wit="#ae">So after life we die;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">But Death at last is Conquered quite</rdg>
+                    <rdg wit="#ee">But death at last is conquered quite:</rdg>
+                    <rdg wit="#ae">But <seg>Death at last is conquered<note type="critical">For the biblical idea that Christ’s sacrifice defeated death itself, see Revelation 21:4, “there will be no more death or mourning or crying or pain, for the former things have passed away”, and 1 Corinthians 15:55, “O death, where is your sting? O grave, where is your victory?” John Donne’s Holy Sonnet “Death, be not proud” ends with the declaration, “Death, thou shalt die”.</note></seg> quite,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">O happy Victory</rdg>
+                    <rdg wit="#ee">O happy victory.</rdg>
+                    <rdg wit="#ae">O happy victory!</rdg>
+                </app>
+            </l></lg>
+          <lg n="3" type="stanza">  <l n="9">
+                <app>
+                    <rdg wit="#ft">Ther’s nothing like dayes deſolution</rdg>
+                    <rdg wit="#ee">There’s nothing like day’s dissolution</rdg>
+                    <rdg wit="#ae">There’s nothing like <seg>day’s dissolution<note type="critical">The end of the day; but also setting up the use of the term in line 20 to mean (as Pulter recurrently does) a material reduction to elements or atoms, disintegration.</note><note type="textual">In the manuscript, here and at line 20, the word is written as “desolution” (with possible echoes of “desolation”).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Within my Mind Soe Rife</rdg>
+                    <rdg wit="#ee">Within my mind so <seg>rife<note type="gloss">frequent, common</note></seg>;</rdg>
+                    <rdg wit="#ae">Within my mind so <seg>rife<note type="gloss">prevalent, especially of a destructive or undesirable condition</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Mee thinks <seg>[<del>i</del>]t’is<note type="physical">“i” imperfectly erased</note></seg> like the Revolution</rdg>
+                    <rdg wit="#ee">Methinks ’tis like the revolution</rdg>
+                    <rdg wit="#ae">Methinks it’s like the <seg>revolution<note type="gloss">alteration, change, transmutation of elements (<title rend="italic">OED</title> n. II 7.a.); and see Headnote.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Of Life and Death and Life</rdg>
+                    <rdg wit="#ee">Of life and death and life.</rdg>
+                    <rdg wit="#ae">Of life and death and life.</rdg>
+                </app>
+            </l></lg>
+       <lg n="4" type="stanza">     <l n="13">
+                <app>
+                    <rdg wit="#ft">Come cruell <seg>Lachiſis<note type="physical">both “i”s appear written over “e”s</note></seg> and <seg>Clotho<note type="physical">“C” written over “c”</note></seg> both</rdg>
+                    <rdg wit="#ee">Come, cruel <seg>Lachesis and Clotho<note type="gloss">in classical myth, two of three female Fates who determine the length of human lives, represented as threads</note></seg> both,</rdg>
+                    <rdg wit="#ae">Come, cruel <seg>Lachesis and Clotho<note type="gloss">in Roman mythology, two of the three Fates, who spin and cut the threads of life: Lachesis does the “lot-casting”, Clotho the “spinning”. Pulter’s speaker goads the Fates in this stanza: their actions cause her no fear because of her confidence in victory over death, through God’s love.</note></seg> both,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Come Shew your outmost Spite</rdg>
+                    <rdg wit="#ee">Come, show your <seg>outmost<note type="gloss">most extreme</note></seg> spite:</rdg>
+                    <rdg wit="#ae">Come, show your outmost spite;</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Mee thinks you twirle and twist, as Loth</rdg>
+                    <rdg wit="#ee">Methinks you <seg>twirl and twist<note type="gloss">the threads of fate</note></seg> as loath</rdg>
+                    <rdg wit="#ae">Methinks you twirl and twist, as loath</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">To come and doe mee Right</rdg>
+                    <rdg wit="#ee">To come and do me right.</rdg>
+                    <rdg wit="#ae">To come and do me right.</rdg>
+                </app>
+            </l></lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">&ff;or</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_146" n="71v"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_146"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_146"/></rdg>
+            </app>
+            <lg n="5" type="stanza"><l n="17">
+                <app>
+                    <rdg wit="#ft">For Seeing the Voice of Nature doth rehears</rdg>
+                    <rdg wit="#ee">For, seeing the voice of nature doth <seg>rehearse<note type="gloss">report; repeat</note></seg></rdg>
+                    <rdg wit="#ae">For seeing the voice of Nature doth rehearse </rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">That Revolution</rdg>
+                    <rdg wit="#ee">That revolution</rdg>
+                    <rdg wit="#ae">That revolution</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Is the preſerving of the Univerſ</rdg>
+                    <rdg wit="#ee">Is the preserving of the universe</rdg>
+                    <rdg wit="#ae">Is the preserving of the universe</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">&ff;rom Deſolution</rdg>
+                    <rdg wit="#ee">From dissolution,</rdg>
+                    <rdg wit="#ae">From <seg>dissolution<note type="critical">A material reduction to elements or atoms, disintegration. See discussion in the Headnote; and see also Milton’s later use of the term in his description of the Last Judgement in <title rend="italic">Paradise Lost</title>, 12.459, “When this world’s dissolution shall be ripe” (<title rend="italic">OED</title> n1.a).</note><note type="textual">In the manuscript, here and at line 9, the word is written as “desolution” (with possible echoes of “desolation”).</note></seg>,</rdg>
+                </app>
+            </l></lg>
+        <lg n="6" type="stanza">
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">What need I care then when I doe expire</rdg>
+                    <rdg wit="#ee">What need I care, then, when I do expire,</rdg>
+                    <rdg wit="#ae">What need I care, then, when I do expire,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Although I turn to Dust</rdg>
+                    <rdg wit="#ee">Although I turn to <seg>dust<note type="critical">finely disintegrated matter; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>,</rdg>
+                    <rdg wit="#ae">Although I turn to <seg>dust<note type="critical">see Genesis 2:7, “And the Lord God formed man of the dust of the ground” and Genesis 3:19, “for dust thou art, and unto dust shalt thou return”.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Seeing totall Nature still is kept intire</rdg>
+                    <rdg wit="#ee">Seeing total nature still is kept entire,</rdg>
+                    <rdg wit="#ae">Seeing total Nature still is kept entire,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">In all her Actions Just</rdg>
+                    <rdg wit="#ee">In all her actions just?</rdg>
+                    <rdg wit="#ae">In all her actions just?</rdg>
+                </app>
+            </l></lg>
+           <lg n="7" type="stanza"> <l n="25">
+                <app>
+                    <rdg wit="#ft">Then let Erinnys and her Curſed train</rdg>
+                    <rdg wit="#ee">Then let <seg>Erinys and her cursed train<note type="critical"> in classical myth, Erinys is a goddess of punishment known as a fury; “train” here likely signifies her followers, but may also signify treachery; a trap; artillery; manner of action; consequences.</note></seg></rdg>
+                    <rdg wit="#ae">Then let <seg>Erinys and her cursed train<note type="gloss">In Greek mythology, the Erinys, also known as the Furies or the Eumenides, were goddesses who represented the dead and avenged the crimes of the living. They were often depicted with snakes for hair and holding torches (blazing brands). As with the Fates in line 13, these fearful classical Furies do not scare Pulter’s speaker, whose confidence is in the Christian God.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Scare thoſe that feare their Might</rdg>
+                    <rdg wit="#ee">Scare those that fear their might;</rdg>
+                    <rdg wit="#ae">Scare those that fear their might;</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Their blazing Brands and <seg>Vipers<del>s</del><note type="physical">final “s” and possibly other letters preceding imperfectly erased, then written over</note></seg> Vain</rdg>
+                    <rdg wit="#ee">Their <seg>blazing brands and vipers vain<note type="gloss">The Furies were were represented as carrying torches and scourges, and wreathed with snakes.</note></seg></rdg>
+                    <rdg wit="#ae">Their blazing brands and vipers vain</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Shall mee noe More Afright</rdg>
+                    <rdg wit="#ee">Shall me no more affright.</rdg>
+                    <rdg wit="#ae">Shall me no more affright.</rdg>
+                </app>
+            </l></lg>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">For I as gladly in my quiet Grave</rdg>
+                    <rdg wit="#ee">For I as gladly in my quiet grave</rdg>
+                    <rdg wit="#ae">For I as gladly in my quiet grave</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">Will lay mee down to rest</rdg>
+                    <rdg wit="#ee">Will lay me down to rest</rdg>
+                    <rdg wit="#ae">Will lay me down to rest</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">As in the ffinest downey Bed I have,</rdg>
+                    <rdg wit="#ee">As in the finest downy bed I have,</rdg>
+                    <rdg wit="#ae">As in the finest downy bed I have;</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft"><seg>In<note type="physical">In left margin, in different hand from main scribe: “? : Chaos. or Coffins”</note></seg> Cauſses all Sleep best</rdg>
+                    <rdg wit="#ee">In <seg>causes<note type="gloss">place or material of origin</note></seg> all sleep best.</rdg>
+                  <rdg wit="#ae">In <seg>causes<note type="critical">See <title rend="italic">OED</title> cause n 5: the material cause is elements or matter from which a thing is produced; and the First Cause is the original cause or creator of the universe. (See also “dust”, line 22.) Pulter uses “cause” distinctively and recurrently to bring together the grave, and the elements or matter from which the body is first produced, and to which it returns in death. See <ref target="/" corresp="6" type="pp-poem-ref">Universal Dissolution</ref>, lines 14, 32, 46.</note><note type="textual">In the manuscript, a note in the left hand margin indicates a reader’s struggle to make sense of the word (“Causses”); it notes, “? : Chaos. or Coffins”. This is the later, “antiquarian” hand (perhaps Angel Chauncey), which has made several annotations to the manuscript (see Ross 2000, pp. 150-171 and 252-4).</note></seg> all sleep best.</rdg>
+                </app>
+            </l>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.17">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Circle [1]</title>
+                 <title type="sub">Poem #17</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>circle</term>
+		    <term>tears</term>
+		    <term>sighs</term>
+		    <term>melancholy</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_079.jpg" xml:id="f7610_079"/>
+        <graphic url="./document_images/7610_080.jpg" xml:id="f7610_080"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 18, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Scott-Baumann</persName>. Last updated <date>September 15, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_079" n="38r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_079"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_079"/></rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Circle [1]</rdg>
+                    <rdg wit="#ee">The Circle [1]</rdg>
+                    <rdg wit="#ae">The Circle [1]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Where ideas of revolution sometimes inspire Pulter, here a metaphorical water cycle—with tears evaporating into cloudy sighs which, in turn, rain down again—is castigated for having “no end”: that is, it is both ceaseless and purposeless, since there’s “no ease” in sighs and tears that are “vain.” Yet she cannot stop: indeed, she diagnoses the vanity of tears in a line that is itself infused with a sigh (the interjected “ah me”). Although the speaker realizes she is caught in a vicious circle, she also determines that it is better not to succumb either to airy sighs or watery tears: instead, she must cycle between them until she attains her proper end in earthy “dust,” the element that signals her divine origin here, as in many of Pulter’s poems. Thus, the speaker’s initial portrayal of her all-too-human weakness—embodied in the mercurial weather of her emotional responses—is finally countered by her confident expression of trust in God and contentment that even his annihilation of her shall be to his glory.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>The first circle in this poem is the endless cycle of grief: “there is no end”. Yet Pulter finds an alternative vision in other kinds of cycle: spiritual, meteorological, alchemical. The speaker imagines her emotions and their physical manifestations climatically: her sighs become tears, and as the tears fall “in vain” they evaporate again and become sighs, just as air condenses into rain clouds and rain evaporates again. Pulter draws on the convention of using hyperbolic meteorological images for emotions, often influenced by Petrarch and also seen in, for instance, John Donne’s “A Valediction forbidding mourning”  (see ‘Donne’s Circles’ in Curations for this poem). The turn to God at l. 15 breaks the cycle of grief while forging another cycle, that of the believer’s continuity with God: she was created by God and could even be annihilated by God. Pulter’s claim “Of nothing Thou didst me create” endorses God’s power in the face of major philosophical controversies over creation and matter which were also central to the poetry of Lucy Hutchinson and Margaret Cavendish (see ‘Matter and Creation’ in Curations for this poem for  Margaret Cavendish’s “Nature Calls a Counsel, which is Motion, Figure, Matter, and Life, to Advise about Making the World”).</p>
+                  <p>The phrase “crumble me to dust”, amongst many other images in Pulter’s poem, evokes George Herbert (see  ‘Dust and Devotional Lyric’ in Curations for this poem  for Herbert’s “Church Monuments”). In other poems by Pulter about transformation, similar ideas of of dissolution, condensation and dust take on a more specifically alchemical meaning (see Curations for this poem as well as <ref target="/" corresp="21" type="pp-poem-ref">The Circle [2]</ref> and <ref target="/" corresp="65" type="pp-poem-ref">The Hope</ref>). The closing rhyme of story / glory creates a counterweight to the despair in human agency. The suggestion of Pulter’s “story”, in the sense of the poem itself as well as her life narrative, mitigates some of the willing self-abasement of the poem. This poem also appears in <title rend="italic">Women Poets of the English Civil War</title>, ed. Sarah C.E. Ross and Elizabeth Scott-Baumann. While I have modernised here, as in that edition, I have chosen to punctuate slightly differently, demonstrating some of the effects of editorial decisions on tone and meaning. In <title rend="italic">Women Poets of the English Civil War</title>, Ross and I ended line 8 with a period and line 21 with a comma, while here I have experimented with slightly more open punctuation at these line endings, playing out the poem’s themes of cyclical and ongoing movement.</p>
+                </note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">In Sighs and tears there is noe end</rdg>
+                    <rdg wit="#ee">In sighs and tears there is no end;</rdg>
+                    <rdg wit="#ae">In sighs and tears there is no end;</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">My Soule on Heaven alone depend</rdg>
+                    <rdg wit="#ee">My soul, on heaven alone depend.</rdg>
+                    <rdg wit="#ae">My soul, on heaven alone depend.</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Sighs like the Ayer doth Clowds condence</rdg>
+                    <rdg wit="#ee">Sighs like the air doth clouds <seg>condense<note type="gloss">liquefy</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Sighs like the air doth clouds condense<note type="gloss">as the air condenses into clouds (and rain), so the speaker’s sighs condense into tears</note></seg></rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Which tears from our Sad eyes diſpence</rdg>
+                    <rdg wit="#ee">Which tears from our sad eyes dispense.</rdg>
+                    <rdg wit="#ae">Which tears from our sad eyes dispense.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Trust me in Sighs there is noe eaſe</rdg>
+                    <rdg wit="#ee">Trust me, in sighs there is no ease:</rdg>
+                    <rdg wit="#ae">Trust me: in sighs there is no ease,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Noe more then Wind doth Calm the Seas</rdg>
+                    <rdg wit="#ee">No more than wind doth calm the seas;</rdg>
+                    <rdg wit="#ae">No more than wind doth calm the seas</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">And tears (Ah mee) deſcend in vain</rdg>
+                    <rdg wit="#ee">And tears (ah me) descend in vain;</rdg>
+                    <rdg wit="#ae">And tears (ah me) descend in vain,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">To Sighs they rarifie againe</rdg>
+                    <rdg wit="#ee">To sighs they <seg>rarefy<note type="gloss">dissipate, purify</note></seg> again.</rdg>
+                    <rdg wit="#ae">To sighs they <seg>rarify<note type="gloss">to become thin, less substantial; to purify</note></seg> again:</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">In this Sad Circle I run round</rdg>
+                    <rdg wit="#ee">In this sad circle I run round,</rdg>
+                    <rdg wit="#ae">In this sad circle I run round,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Till giddyly I tumble down</rdg>
+                    <rdg wit="#ee">Till giddily I tumble down;</rdg>
+                    <rdg wit="#ae">Till giddily I tumble down.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">But Should poor I Suſpier to Ayer</rdg>
+                    <rdg wit="#ee">But should poor I <seg>suspire<note type="gloss">sigh; breathe</note></seg> to air,</rdg>
+                    <rdg wit="#ae">But should poor I <seg>suspire<note type="gloss">to sigh or breathe</note></seg> to air,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">I know the Sad fruits of despair</rdg>
+                    <rdg wit="#ee">I know the sad fruits of despair.</rdg>
+                    <rdg wit="#ae">I know the sad fruits of despair;</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Or Should I into tears diſſolve</rdg>
+                    <rdg wit="#ee">Or should I into tears dissolve</rdg>
+                    <rdg wit="#ae">Or should I into tears dissolve,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">What Horrour would my Soule invoule</rdg>
+                    <rdg wit="#ee">What horror would my soul <seg>involve<note type="gloss">entangle, envelop</note></seg>.</rdg>
+                    <rdg wit="#ae">What horror would my soul <seg>involve<note type="gloss">To enfold, envelop, overwhelm. Rarely, but resonantly given the poem’s title, it could also mean “to turn over in the mind; to revolve”. MS = invoule</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Then Gracious God in thee Il’e trust</rdg>
+                    <rdg wit="#ee">Then, gracious God, in Thee I’ll trust,</rdg>
+                    <rdg wit="#ae">Then, gracious God, in Thee I’ll trust</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Although thou crumble mee to dust</rdg>
+                    <rdg wit="#ee">Although Thou crumble me to <seg>dust<note type="critical">original, formative elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>.</rdg>
+                    <rdg wit="#ae">Although Thou crumble me to dust.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Noe Griefe Shall Soe emergent bee</rdg>
+                    <rdg wit="#ee">No grief shall so <seg>emergent<note type="gloss">arising, esp. unexpectedly</note></seg> be</rdg>
+                    <rdg wit="#ae">No grief shall so <seg>emergent<note type="gloss">unexpected; pressing</note></seg> be</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">To Seperate my Soule from thee</rdg>
+                    <rdg wit="#ee">To separate my soul from Thee.</rdg>
+                    <rdg wit="#ae">To separate my soul from Thee;</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Of noething thou didst mee create</rdg>
+                    <rdg wit="#ee"><seg>Of nothing Thou didst me create<note type="gloss">The idea that the universe was created by God <foreign rend="italic">ex nihilo</foreign> (“from nothing”) was a point of theological doctrine and debate.</note></seg>,</rdg>
+                    <rdg wit="#ae">Of nothing Thou didst me create</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">And Shouldst thou now Annihillate</rdg>
+                    <rdg wit="#ee">And shouldst Thou now annihilate,</rdg>
+                    <rdg wit="#ae">And should’st Thou now annihilate,</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">ab</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_080" n="38v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_080"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_080"/></rdg>
+          </app>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Abrupt, or conſumate, my Story</rdg>
+                    <rdg wit="#ee"><seg>Abrupt<note type="gloss">to sever or to interrupt suddenly</note></seg>, or <seg>consummate<note type="gloss">In this context, “consummate” means to bring to completion or perfection, or to end.</note></seg> my <seg>story<note type="gloss">life</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Abrupt<note type="gloss">to break off or curtail</note></seg>, or <seg>consummate<note type="critical">All three of these words have complex early modern meanings: “Annihilate” has theological connotations, meaning the destruction of both soul and the body; “Abrupt” (to break off, curtail) was fairly recent in being used as a verb; “consummate” seems to be used here in its sense of “put an end to” (in line with “annihilate” and “abrupt”) though it could also have the more positive (and Biblical) sense of “to perfect” or “to complete”.</note></seg> my story</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Oh let it be unto thy Glory.</rdg>
+                    <rdg wit="#ee">O, let it be unto Thy glory.</rdg>
+                    <rdg wit="#ae">Oh let it be unto Thy glory.</rdg>
+                </app>
+            </l>
+           
+        </body>
+    </text>
+</TEI>

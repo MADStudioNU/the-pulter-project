@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.49">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>My Heart Why Dost Thou Throb So in My Breast?</title>
+                 <title type="sub">Poem #49</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>sorrow</term>
+		    <term>affliction</term>
+		    <term>death</term>
+		    <term>exemplary animals</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_148.jpg" xml:id="f7610_148"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>December 1, 2017</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 30, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Sarah C. E. Ross</persName>. Last updated <date>August 26, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_148" n="72v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_148"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_148"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+                    <rdg wit="#ee">My Heart Why Dost Thou Throb So in My Breast?</rdg>
+                    <rdg wit="#ae">[My Heart Why Dost Thou Throb So in My Breast?]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote"><p>My priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in my view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts). [1]</p>
+                      <p><note type="critical">1. See <bibl>Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse", in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</bibl></note></p></note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">The model cheer and calm of strangled larks and sacrificial lambs are proffered as alternatives to the speaker’s restlessly throbbing heart and obstinately death-averse soul. As she does in other poems, Pulter writes to reprimand her soul for being afraid to die. Yet the poem’s opening rapid-fire interrogation mimics the very “unrest” it critiques. Similarly, the catalogue of creatures who coolly meet their fates is punctuated by disjunctions (“Yet … But … But”) which castigate the speaker. Only in the poem’s last lines are we released from this pattern of self-shaming, when the enjambment formally suggests, in an echo of the content, the greater scope of an afterlife unconfined by fleshly exemplars and our failures to live up to them.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>“My Heart Why Dost Thou Throb So in My Breast?” is one of Pulter’s brief devotional lyrics, in this case chastising her own heart and soul for their “sighs and sobs”, and comparing them to various creatures—the lark, the lamb, and the phoenix—who offer themselves up willingly for death. The “ail[ments]” and “unrest” of line 2 may be the generic woes that typically afflict the devotional speaker, who endures the earthly life, and who both longs for union with the divine and is unwilling to give up the human body. But the poem may also reflect more specifically on aging, as “thy sorrows with thy years increase” (line 8). The speaker “wouldst have the course of nature turn”, rather than offering herself up to the more sudden sacrifices of the lark, the lamb, and the phoenix. The lark, the lamb, and the phoenix all have associations with the praise of God or with Christ himself, willingly sacrificing themselves to death. Pulter’s use of these images owes much to the emblematic mode of thinking that is evident in the emblem poem series later in the manuscript.</p>
+                    <p>Attempting to persuade the soul of the miraculous glory that would follow death, the concluding five lines rely on a cluster of images and words that recurs in Pulter’s devotional poetry: obliviation, calcination, and refinement. Her emphasis here is on the necessary calcination of the impure flesh, in death, and its “infinite” refinement, to achieve glory beyond. These lines are almost certainly indebted to George Herbert, who evokes a similar devotional concept in the opening stanza of “Easter”. Here, he describes the salvation of the believer made possible through Christ’s sacrifice: “as his death calcined thee to dust, / His life may make thee gold, and much more just” (lines 5-6). Herbert’s devotional lyrics are a clear influence on Pulter’s but in this poem, as is usual in the comparison between them, Pulter’s emphasis is more material and Herbert’s is more metaphorical and explicitly doctrinal.</p>
+                </note></rdg>
+            </app>
+            </head>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">My Heart why dost thou Throb Soe in my<add place="below">^</add><add place="above">Breast</add></rdg>
+                    <rdg wit="#ee">My heart, why dost thou throb so in my breast?</rdg>
+                    <rdg wit="#ae">My heart, why dost thou throb so in my breast?</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">What dost thou Aild? <w lemma="what"><abbr>w:<hi rend="superscript">t</hi></abbr></w> cauſeth thy unrest</rdg>
+                    <rdg wit="#ee">What, dost thou ail? What causeth thy unrest?</rdg>
+                    <rdg wit="#ae">What dost thou <seg>ail<note type="physical">“aild” in the manuscript</note></seg>? What causeth thy unrest?</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Dost thou not know that as the &ff;lames Aſcend</rdg>
+                    <rdg wit="#ee">Dost thou not know that, as the flames ascend,</rdg>
+                    <rdg wit="#ae">Dost thou not know that as the flames ascend,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Soe Man in Sorrow doth begin and end</rdg>
+                    <rdg wit="#ee">So man in sorrow doth begin and end?</rdg>
+                    <rdg wit="#ae">So man in sorrow doth begin and end?</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">The Spritely Lark how cheerfully Shee Sings</rdg>
+                    <rdg wit="#ee">The <seg>sprightly<note type="gloss">vivacious</note></seg> lark, how cheerfully she sings,</rdg>
+                    <rdg wit="#ae">The <seg>spritely<note type="gloss">lively, sportive.</note></seg> <seg>lark<note type="critical">in Latin, “aluda”, and so associated with praise (“laud”) of God (see <bibl>Helen Wilcox (ed.), <title rend="italic">The English Poems of George Herbert</title> (Cambridge: Cambridge University Press, 2007), p. 148</bibl>). In a related aspect of its symbolism, the lark was known for singing as it rose in flight (see Herbert, “Easter Wings”, line 18).</note></seg>, how cheerfully she sings</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Untill the Hawk her little Neck of wrings</rdg>
+                    <rdg wit="#ee">Until the hawk her little neck off wrings;</rdg>
+                    <rdg wit="#ae">Until the hawk her little neck off wrings,</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Yet thou to Sigh and Sob dost never ceaſe</rdg>
+                    <rdg wit="#ee">Yet thou to sigh and sob dost never cease</rdg>
+                    <rdg wit="#ae">Yet thou to sigh and sob dost never cease</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Becauſe thy Sorrowes <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> thy Years increaſe</rdg>
+                    <rdg wit="#ee">Because thy sorrows with thy years increase.</rdg>
+                    <rdg wit="#ae">Because thy sorrows with thy years increase.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">The Milkwhite Lamb that on the Alter lyes</rdg>
+                    <rdg wit="#ee">The milk-white lamb that on the altar lies</rdg>
+                    <rdg wit="#ae">The milk-white <seg>lamb that on the altar lies<note type="critical">The lamb has implications of Christ, as the Lamb of God, offering himself up as a sacrifice for humankind.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Yields himſelfe up a quiet Sacrifice</rdg>
+                    <rdg wit="#ee">Yields himself up a quiet sacrifice;</rdg>
+                    <rdg wit="#ae">Yields himself up a quiet sacrifice,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">But thou wouldst have the courſ of Nature turn</rdg>
+                    <rdg wit="#ee">But thou wouldst have the course of nature turn</rdg>
+                    <rdg wit="#ae">But thou wouldst have the course of nature turn</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Rather then in aflictions furnice Burn</rdg>
+                    <rdg wit="#ee">Rather than in affliction’s furnace burn.</rdg>
+                    <rdg wit="#ae">Rather than in affliction’s furnace burn.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">The Phœnix doth aſſume her &ff;unerall Pier</rdg>
+                    <rdg wit="#ee">The <seg>phoenix<note type="gloss">in classical myth, a bird said to burn itself on a funeral pyre ignited by the sun and fanned by its wings; the bird rises from the ashes with renewed youth</note></seg> doth <seg>assume<note type="gloss">accept, undertake</note></seg> her funeral pyre,</rdg>
+                    <rdg wit="#ae">The <seg>phoenix<note type="gloss"> a mythical bird which burns itself to ashes on a funeral pyre ignited by the sun and fanned by its own wings (only to rise from its ashes to live again). Unsurprisingly, the phoenix was used by early Christian writers as a symbol of Christ’s resurrection.</note></seg> doth assume her funeral pyre,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">And <seg>in<note type="physical">“i” appears written over “a”</note></seg> thoſe &ff;lagrant Odours doth expire</rdg>
+                    <rdg wit="#ee">And in those <seg>flagrant<note type="gloss">blazing, hot, or to do with the visible appearance of flame; but also possibly fragrant (a sense pertinent to “odors”)</note></seg> odors doth expire;</rdg>
+                    <rdg wit="#ae">And in those <seg>flagrant<note type="critical">blazing, burning. The phoenix was thought to build its funeral pyre from branches of cinnamon and aromatic spices, hence “flagrant odours”. See Philemon Holland’s translation of <bibl>Pliny’s <title rend="italic">Natural History</title>, p. 271.</bibl></note></seg> odours doth expire,</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">But thou my Soul unwilling art to die</rdg>
+                    <rdg wit="#ee">But thou, my soul, unwilling art to die,</rdg>
+                    <rdg wit="#ae">But thou, my soul, unwilling art to die</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">And in thy Grave obliviated lye</rdg>
+                    <rdg wit="#ee">And in thy grave <seg>obliviated<note type="gloss">forgotten</note></seg> lie,</rdg>
+                    <rdg wit="#ae">And in thy grave <seg>obliviated<note type="gloss">forgotten, committed to oblivion</note></seg> lie,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Although it would thy <seg>dropſie<note type="physical">“p” partly blotted</note></seg> part Calcine</rdg>
+                    <rdg wit="#ee">Although it would thy <seg>drossy<note type="gloss">mixed with impurities; modified from manuscript’s “dropsie,” in which “p” is partly blotted</note></seg> part <seg>calcine<note type="gloss">burn to ash, purify</note></seg></rdg>
+                    <rdg wit="#ae">Although it would thy <seg>drossy part calcine<note type="critical">“thy drossy part” is the “impure” part of one’s being; and “calcine” means to burn to ashes, consume; and also to purify or refine by consuming the grosser part (<title rend="italic">OED</title> v. 2a and 1c). For a direct comparison to these final lines, see George Herbert, “Easter”: “as his death calcined thee to dust, / His life may make thee gold, and much more just” (lines 5-6). See also Pulter’s <ref target="/" corresp="63" type="pp-poem-ref">Dear God, from Thy High Throne Look Down</ref>, which uses a similar image: “Though grief calcine my flesh to dust” (line 4).</note><note type="textual">The manuscript reads “dropsie” in line 17, with the "p" obscured by an ink blot. I read this as a deliberate ink blot correcting an error, although “dropsie” would provide an alternative set of possible meanings: "dropsy” can mean “charged with water” (<title rend="italic">OED</title> B.b), and “calcine” can mean “dessicate” (<title rend="italic">OED</title> 1b). The Herbert allusion makes “drossy” a far preferable reading here, but the alternative set of meanings may contribute to the scribe’s apparent uncertainty.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Away, and infinitely Refine</rdg>
+                    <rdg wit="#ee">Away, and infinitely refine</rdg>
+                    <rdg wit="#ae">Away, and infinitely refine</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Thy &ff;leſh that it more Gloriously may Shine</rdg>
+                    <rdg wit="#ee">Thy flesh, that it more gloriously may shine.</rdg>
+                    <rdg wit="#ae">Thy flesh, that it more gloriously may shine.</rdg>
+                </app>
+            </l>
+        </body>
+    </text>
+</TEI>

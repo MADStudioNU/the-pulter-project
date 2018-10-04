@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.88">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Toad and the Spider (Emblem 23)</title>
+        <title type="sub">Poem #88</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>
+            Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)
+          </p>
+          <p>
+            Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.
+          </p>
+        </correction>
+        <normalization>
+          <p>
+            Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).
+          </p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+        <keywords>
+          <term>contention</term>
+          <term>beast fable</term>
+          <term>court</term>
+          <term>death</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <graphic url="./document_images/7610_215.jpg" xml:id="f7610_215"/>
+    <graphic url="./document_images/7610_216.jpg" xml:id="f7610_216"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+          <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 3, 2018</date> See editorial guidelines for this edition.</witness>
+          <witness xml:id="ae">Amplified edition: Edited by <persName>Samantha Snively and Frances E. Dolan</persName>. Last updated <date>July 3, 2018</date></witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_215" n="106r"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_215"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_215"/></rdg>
+      </app>
+
+      <app>
+        <rdg type="milestone" wit="#ft"><milestone unit="poem" rend="LINE TYPE"/></rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+          <rdg wit="#ee">Emblem 23</rdg>
+          <rdg wit="#ae">Emblem 23</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full conventions for the transcriptions here.</ref></note></rdg>
+          <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae"><note type="editorialnote">Our “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials we gather for the “curations” section place Pulter’s poems into conversations. Then we use the notes and the materials we gather for the “curations” section to place Pulter’s poems into conversations. As we build the curations for a given poem—provisional and quirky as they are—we keep returning to the poem, re-reading, rethinking, and adding layers to the notes. We hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, we cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined, but that might stir readers today to make new connections (to Harry Potter, for instance). In other words, our curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as curators we weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities.</note></rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft"><note type="headnote"></note></rdg>
+          <rdg wit="#ee"><note type="headnote">How is a poisonous toad like a jousting knight? Not much, one might think; but by the end of Pulter’s poem, both are rendered emblematic of the false trust people put in “worldly vanities.” The poem accomplishes this analogy through a roundabout account likening a conflict between two lowly creatures to the type of embroilment more typical of courtly gallants. But as well as critiquing those who pick their battles poorly, Pulter points a finger at the fans of such fights: while the toad and spider, like the poem’s carpet knight, might seem to duke it out in “single duel,” an entire “multitude” eggs on the beasts in this fable, just as a fickle lady-love contributes to the jouster’s fall from grace. In Pulter’s Poem 7, a Hydra-headed multitude is lambasted for fomenting England’s civil wars, while high-ranking individuals are ennobled for their role in the same; here, in contrast, Pulter levels the battlefield, suggesting war’s futility for all, herself included (as the concluding couplet shows).</note></rdg>
+          <rdg wit="#ae"><note type="headnote">One of a set of poison-duel poems (the other of which is “Two Mountebanks” (Emblem 6)), “The Toad and Spider” touches on historical power contests over regal authority in order to critique courtiers’ obsession with short-lived success in court politics and women’s changing affections, forms of fame as easily uprooted as the toad’s plantain. Whereas “Two Mountebanks” can be read as a commentary upon the early modern contests over medical authority, “The Toad and Spider” goes one step further to critique the transient nature of any kind of earthly reputation. The duel between the toad and spider was a fairly common image and often paired with accounts of court intrigue (see Browne, Topsell, and “The History of the Second Death of the Rump” ballad in “Curations”), but Pulter seems to be unique in reaching back into Plantagenet history. Both duels center around charges of treason and the combatants’ concern with reputation: Shakespeare’s account of the duel in <title rend="italic">Richard II</title> records that Mowbray and Bolingbroke disregard the king’s call for peace and insist on a duel to preserve their honor and good name. But just as the toad’s poison vanishes when the spectators remove the plantain, Bolingbroke and Mowbray’s titles and good names vanish when they incur the displeasure of the king. Pulter makes a comparison to courtiers chasing the favor of their ladies and monarchs, suggesting that “t’influence of a lady’s eye,” like the toad’s plantain, can easily be removed and thus does not serve as a stable basis for one’s reputation. While it is possible to read this poem as a critique of the excesses and ephemerality of court politics, Pulter, whose poems primarily espouse royalist views, stops short of critiquing the monarchy itself. She sidesteps the issue of monarchy’s hollow power and instead re-focuses on faith as a way to secure lasting reputation. In doing so, she scorns the various accessories and pastimes of the nobility: tournaments, courtly behavior, flirtation, plays, bird-keeping, and card-playing.</note></rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft">The Toad and Spider once would trie the might</rdg>
+          <rdg wit="#ee">The toad and spider once would try the might</rdg>
+          <rdg wit="#ae">The toad and spider once would try the might</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#ft">of eithers poyſon, in A Single &ff;ight</rdg>
+          <rdg wit="#ee">Of either’s poison in a single fight.</rdg>
+          <rdg wit="#ae">Of either’s poison in a single fight.</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">The Lists were drawn Spectators throng about</rdg>
+          <rdg wit="#ee">The <seg>lists were drawn<note type="gloss">the “lists” (barriers enclosing a space set apart for a tilting match, joust, or tournament) were established; here, the terms for the contest.</note></seg>, spectators throng about;</rdg>
+          <rdg wit="#ae">The lists were drawn; spectators throng about.</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft">Long time the Victory Remain’d in doubt</rdg>
+          <rdg wit="#ee">Long time the victory remained in doubt.</rdg>
+          <rdg wit="#ae">Long time the victory remained in doubt.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#ft">By Equall valour, the &ff;ield was died in Blood</rdg>
+          <rdg wit="#ee">By equal valor, the field was dyed in blood;</rdg>
+          <rdg wit="#ae">By equal valour, the field was dyed in blood,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft">The Combate long in Equilibrium Stood</rdg>
+          <rdg wit="#ee">The combat long in equilibrium stood.</rdg>
+          <rdg wit="#ae">The combat long in equilibrium stood.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#ft">The Peoples <seg>minds<note type="physical">“s” crowded between surrounding words, in different hand from main scribe</note></seg> a conflict had <w lemma="within"><abbr>w:<hi rend="superscript">th</hi>in</abbr></w></rdg>
+          <rdg wit="#ee">The people’s minds, a conflict had within,</rdg>
+          <rdg wit="#ae">The people’s minds a conflict had within,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft">As not agreeing which they would have win</rdg>
+          <rdg wit="#ee">As not agreeing which they would have win.</rdg>
+          <rdg wit="#ae">As not agreeing which they would have win.</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">Some would compoſe, Some made the difference wider</rdg>
+          <rdg wit="#ee">Some would <seg>compose<note type="gloss">settle the dispute</note></seg>, some made the difference wider,</rdg>
+          <rdg wit="#ae">Some would <seg>compose<note type="gloss">settle or agree in a dispute</note></seg>; some made the difference wider;</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#ft">Some took the Toads part, others took the Spider’s</rdg>
+          <rdg wit="#ee">Some took the toad’s part, others took the spider’s.</rdg>
+          <rdg wit="#ae">Some took the toad’s part, others took the spider’s.</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft">Soe when one Gallant hath impeach’d the other</rdg>
+          <rdg wit="#ee">So when one <seg>gallant<note type="gloss">gentleman</note></seg> hath <seg>impeached<note type="gloss">accused</note></seg> the other</rdg>
+          <rdg wit="#ae">So when one gallant hath <seg>impeached<note type="gloss">accused of or charged with a crime</note></seg> the other</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft">Of Highest Treaſon then in <seg>Rage<note type="physical">oddly-formed “R” possibly written over other letter, perhaps “s”</note></seg> the other</rdg>
+          <rdg wit="#ee">Of highest treason, then in rage the other</rdg>
+          <rdg wit="#ae">Of highest treason, then in rage the other</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft">Calls him baſe Traytor, giving him the lie</rdg>
+          <rdg wit="#ee">Calls him base traitor, <seg>giving him the lie<note type="gloss">directly accusing a person of lying</note></seg>.</rdg>
+          <rdg wit="#ae">Calls him base traitor, <seg>giving him the lie<note type="gloss">accusing someone of lying; contradicting the charges</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#ft">By Single Duell they the truth doe trie</rdg>
+          <rdg wit="#ee">By single duel they, the truth, do <seg>try<note type="gloss">test; put to a trial</note></seg>,</rdg>
+          <rdg wit="#ae">By single duel they the truth do try,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft">Each vowing to proue inocent or die</rdg>
+          <rdg wit="#ee">Each vowing to prove innocent or die.</rdg>
+          <rdg wit="#ae">Each vowing to prove innocent or die.</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft">The multitude in Sundry paſſions Shook.</rdg>
+          <rdg wit="#ee">The multitude in sundry passions shook;</rdg>
+          <rdg wit="#ae">The multitude in sundry passions shook:</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+          <rdg wit="#ft"><seg><del>Pray</del> <note type="physical">double strike-through</note></seg> Some <seg><add place="below">\</add><add place="above">praye \</add> <note type="physical">insertion in different hand from main scribe</note></seg> for Moughbrough, Some for Bollingbrook</rdg>
+          <rdg wit="#ee">Some pray for <seg>Mowbray, some for Bollingbroke<note type="gloss">In the fourteenth century, Thomas Mowbray (duke of Norfolk) and Henry Bolingbroke (king of England) famously prepared to joust until King Richard intervened; here, their conflict is a symbol of divided loyalties.</note></seg>:</rdg>
+          <rdg wit="#ae">Some pray for <seg>Mowbray<note type="critical">In Pulter’s MS, spelled “Moughbrough.” Likely a reference to the duel mentioned in <title rend="italic">Richard II</title> 1.1, this assigns human (indeed noble) names to toad and spider. They become Mowbray and Bolingbrook for spectators.</note></seg>, some for Bolingbrook,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+          <rdg wit="#ft">Soe they in &ff;actions now divided bee</rdg>
+          <rdg wit="#ee">So they in factions now divided be,</rdg>
+          <rdg wit="#ae">So they in factions now divided be,</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft">The valient Spider, and the Toad to See</rdg>
+          <rdg wit="#ee">The valiant spider and the toad to see.</rdg>
+          <rdg wit="#ae">The valiant spider and the toad to see.</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft">The Toad first fainted, and aſide did goe</rdg>
+          <rdg wit="#ee">The toad first fainted and aside did go,</rdg>
+          <rdg wit="#ae">The toad first fainted, and aside did go</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+          <rdg wit="#ft">
+            <seg>
+              <del>Then</del>
+              <add place="above">And</add>
+              <add place="below">\</add>
+              <add place="above">\</add>
+              <note type="physical">double strike-through; “And” in different hand from main scribe</note>
+            </seg>
+            Plaintain Eat, then turnd upon his &ff;oe
+          </rdg>
+          <rdg wit="#ee">And <seg>plaintain<note type="gloss">healing herb</note></seg> ate; then turned upon his foe</rdg>
+          <rdg wit="#ae">And <seg>plantain<note type="gloss">low-growing, oval-leaved medicinal herb</note></seg><seg>ate<note type="gloss">As in “Two Mountebanks,” Pulter writes “eat” to mean “ate.”</note></seg>, then turned upon his foe</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">With greater vigour, which when the People Spi’de</rdg>
+          <rdg wit="#ee">With greater vigor, which, when the people spied,</rdg>
+          <rdg wit="#ae">With greater vigor, which when the people spied</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft">They took the Plaintain up then Strait hee died</rdg>
+          <rdg wit="#ee"><seg>They took the plaintain up; then straight he died<note type="critical">The onlookers deprive the toad of his enlivening herb; this narrative is recounted in multiple sources, including Thomas Lupton’s <title rend="italic">A Thousand Notable Things</title> (London, 1579), 141-2.</note></seg>.</rdg>
+          <rdg wit="#ae">They <seg>took the plantain up<note type="gloss">uprooted the plantain</note></seg>, then <seg>straight<note type="critical">As in “Two Mountebanks,” the original MS reads “strait,” which carries the sense of close-fitting, tight, and confined. As a noun, adverb, and adjective, “strait” may allow an alternate reading of the line, where "strait" modifies the toad’s agonies as he dies of poison.</note></seg> he died.</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+          <rdg wit="#ft">Soe have I in our English Tilt Yard Seen</rdg>
+          <rdg wit="#ee">So have I, in our English tiltyard, seen,</rdg>
+          <rdg wit="#ae">So have I in our English <seg>tilt-yard<note type="gloss">an enclosed space for tournaments</note></seg> seen</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+          <rdg wit="#ft">Two Courtiers run̄ing fore the King and Queen</rdg>
+          <rdg wit="#ee">Two courtiers running <seg>’fore<note type="gloss">before</note></seg> the king and queen.</rdg>
+          <rdg wit="#ae">Two courtiers running <seg>‘fore the King and Queen<note type="critical">The speaker’s claim to having witnessed jousts in “our English tilt-yard” may draw on Pulter’s experience in the years in which her father was a member of James I’s privy council. Perhaps she remembers here seeing a tournament before James I and his wife Anne—or someone else’s account of one. Hugely popular during Queen Elizabeth’s reign, ceremonial tournaments gradually fell out of favor and appear to have been out of fashion by the reign of Charles I and his queen, Henrietta Maria.</note></seg>.</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">one</fw>
+        </rdg>
+      </app>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_216" n="106v"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_216"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_216"/></rdg>
+      </app>
+      <l n="26">
+        <app>
+          <rdg wit="#ft">One &ff;earing to bee &ff;oild made his Addreſs</rdg>
+          <rdg wit="#ee">One, fearing to be <seg>foiled<note type="gloss">thwarted</note></seg>, made his address</rdg>
+          <rdg wit="#ae">One, fearing to be <seg>foiled<note type="critical">Several readings are possible here: “foiled” could mean that the knight fears to be outdone, defeated, or surpassed by his competitor; but also that he fears being enclosed in “foil,” metal armor. Given Pulter’s criticism of courtiers in this poem, “fearing to be foiled” might suggest the courtier’s apprehension at seeing military combat. See See "Two Mountebanks" (Poem 72), for a similar crux with “feild,” which may be interpreted as “affected by touch; felled, as made to fall; foiled; failed; fielded, as in battled.”</note></seg>, made his <seg>address<note type="critical">See “Contexts” for “Two Mountebanks” for materials on the etymology of “toady,” a synonym for a sycophant or parasite, which dates back to the practices of early modern mountebanks.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+          <rdg wit="#ft">Unto his Lady who could doe noe Leſs</rdg>
+          <rdg wit="#ee">Unto his lady, who could do no less</rdg>
+          <rdg wit="#ae">Unto his lady, who could do no less</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+          <rdg wit="#ft">Then throw a &ff;avour to her Carpet Knight</rdg>
+          <rdg wit="#ee">Than throw <seg>a favor to her carpet knight<note type="critical">a token of affection given to her “carpet knight” (a contemptuous term for someone whose achievements belong to a lady’s chamber instead of the field)</note></seg>.</rdg>
+          <rdg wit="#ae">Than throw a favor to her <seg>carpet knight<note type="critical">Knights of the Carpet may refer to a person who is awarded a knighthood in times of peace, rather than awarded one through military or tournament success. However, in the sixteenth century, the term quickly became derogatory: John Ferne writes in his 1586 <title rend="italic">Blazon of Gentrie</title> that “A Knight … may be dubbed … in the time of peace upon the carpet … he is called a knight of the carpet, because that the King sitteth in his regal chair of estate and the gentleman … kneeleth before his sovereign upon the carpet or cloth usually spread … for the sovereign’s footstool (105).” Carpet-Knight, then, came to be used as a term of contempt for a knight whose successes were in a lady’s carpeted chamber, with all its accompanying innuendo.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+          <rdg wit="#ft">Then with new Courage hee Returns to &ff;ight</rdg>
+          <rdg wit="#ee">Then, with new courage he returns to fight,</rdg>
+          <rdg wit="#ae">Then with new courage he returns to fight,</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+          <rdg wit="#ft">But miſſing of his Thrust hee comes again</rdg>
+          <rdg wit="#ee">But missing of his thrust, he comes again</rdg>
+          <rdg wit="#ae">But missing of his thrust he comes again</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+          <rdg wit="#ft">To Sue to her Shee not beeing in
+            <w lemma="the">
+              <abbr>y
+                <hi rend="superscript">e</hi>
+              </abbr>
+            </w>
+            vein
+          </rdg>
+          <rdg wit="#ee">To sue to her; she, not being <seg>in the vein<note type="gloss">inclined; in a good mood for something</note></seg>,</rdg>
+          <rdg wit="#ae">To sue to her. She, not being <seg>in the vein<note type="gloss">the right mood for generosity or granting favors</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+          <rdg wit="#ft">Inſte’d of throwing of A &ff;avour down</rdg>
+          <rdg wit="#ee">Instead of throwing of a favor down,</rdg>
+          <rdg wit="#ae">Instead of throwing of a favor down,</rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+          <rdg wit="#ft">Anſwer’d his Supplications with a &ff;rown</rdg>
+          <rdg wit="#ee">Answered his <seg>supplications<note type="gloss">pleas</note></seg> with a frown.</rdg>
+          <rdg wit="#ae">Answered his supplications with a frown.</rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app><rdg wit="#ft">Hee troubled with the Scorn of this proud &ff;lirt</rdg>
+          <rdg wit="#ee">He, troubled with the scorn of this proud flirt,</rdg>
+          <rdg wit="#ae">He, troubled with the scorn of this proud flirt,</rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+          <rdg wit="#ft">Ran once Again but tumbled in
+            <w lemma="the">
+              <abbr>y
+                <hi rend="superscript">e</hi>
+              </abbr>
+            </w>
+            Dirt
+          </rdg>
+          <rdg wit="#ee">Ran once again, but tumbled in the dirt.</rdg>
+          <rdg wit="#ae">Ran once again but tumbled in the dirt.</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+          <rdg wit="#ft">Who lives by t’Influence of A Ladies Eye</rdg>
+          <rdg wit="#ee">Who lives by th’influence of a lady’s eye</rdg>
+          <rdg wit="#ae"><seg>Who<note type="gloss">whoever</note></seg> lives by t’influence of a lady’s eye</rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+          <rdg wit="#ft">Will like this Gallant &ff;all and helpleſs lye</rdg>
+          <rdg wit="#ee">Will like this <seg>gallant<note type="gloss">gentleman</note></seg> fall and helpless lie.</rdg>
+          <rdg wit="#ae">Will like this gallant fall and helpless lie.</rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+          <rdg wit="#ft">Then let theſe Sad Examples warn all thoſe</rdg>
+          <rdg wit="#ee">Then let these sad examples warn all those</rdg>
+          <rdg wit="#ae">Then let these sad examples warn all those</rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+          <rdg wit="#ft">That doe on Worldly vanities Repose</rdg>
+          <rdg wit="#ee">That do on worldly vanities <seg>repose<note type="gloss">lean</note></seg>:</rdg>
+          <rdg wit="#ae">That do on worldly vanities repose:</rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+          <rdg wit="#ft">If on <seg>Subſolarie[<del>?</del>]<note type="physical">final letter imperfectly erased</note></seg> toyes they trust</rdg>
+          <rdg wit="#ee">If on <seg>subsolary<note type="gloss">earthly</note></seg><seg>toys<note type="gloss">trivial things</note></seg> they trust,</rdg>
+          <rdg wit="#ae">If in <seg>subsolary<note type="gloss">existing beneath the sun; earthly</note></seg> toys they trust,</rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+          <rdg wit="#ft">They build a &ff;abrick of drie Sand or dust</rdg>
+          <rdg wit="#ee">They build a fabric of dry sand or dust.</rdg>
+          <rdg wit="#ae">They build a <seg>fabric<note type="gloss">“Fabric,” with its Latin root <foreign rend="italic">fabrica</foreign>, to work in metal, stone, or wood, can refer to a building, a structure, an engine or contrivance, or any manufactured material.</note></seg> of dry sand or dust.</rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+          <rdg wit="#ft">Like little Children in their pretty Playes</rdg>
+          <rdg wit="#ee">Like little children in their pretty plays,</rdg>
+          <rdg wit="#ae">Like little children in their pretty plays</rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+          <rdg wit="#ft">High Pigeon houſes up of Cards will Raise</rdg>
+          <rdg wit="#ee"><seg>High pigeon houses up of cards will raise<note type="gloss">They build a tall structure out of flimsy materials; pigeon houses are composed of small cubicles that resemble the structure of a house of cards.</note></seg>;</rdg>
+          <rdg wit="#ae">High <seg>pigeon-houses<note type="gloss">Refers to those who “do on worldly vanities repose,” who build a tall structure out of flimsy materials as children do while playing. Pigeon houses are composed of small cubicles that resemble the structure of a house of cards.</note></seg> up of cards will raise.</rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+          <rdg wit="#ft">But like
+            <w lemma="our">
+              <abbr>o:
+                <hi rend="superscript">r</hi>
+              </abbr>
+            </w>
+            Earthly hopes they build in vain
+          </rdg>
+          <rdg wit="#ee">But like our earthly hopes, they build in vain;</rdg>
+          <rdg wit="#ae">But like other earthly hopes, they build in vain:</rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+          <rdg wit="#ft">If they but Laugh they blow them down again</rdg>
+          <rdg wit="#ee">If they but laugh, they blow them down again.</rdg>
+          <rdg wit="#ae">If they but laugh, they blow them down again.</rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+          <rdg wit="#ft">Then let noe Man on Humane hopes Repoſe</rdg>
+          <rdg wit="#ee">Then let no man on human hopes repose,</rdg>
+          <rdg wit="#ae">Then let no man on human hopes repose,</rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+          <rdg wit="#ft">Least like this Toad their hopes and lives they loſe</rdg>
+          <rdg wit="#ee">Lest like this toad their hopes and lives they lose.</rdg>
+          <rdg wit="#ae">Lest like this toad their hopes and lives they lose.</rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+          <rdg wit="#ft">Then Oh my Soul on Heaven alone Relie</rdg>
+          <rdg wit="#ee">Then, O my soul, on Heaven alone rely;</rdg>
+          <rdg wit="#ae">Then oh my soul, <seg>on heaven alone rely<note type="critical">Pulter’s moral echoes a common religious sentiment encouraging believers to focus on attaining heavenly treasures. Joseph Hall writes in his 1684 <title rend="italic">The Remedy of Discontentment</title> that “It is for children to cry for the falling of their house of cards, or the miscarriage of that painted gewgaw which the next shower would have defaced. Wise Christians know how to apprize good things according to their continuance, and can therefore set their hearts only upon the invisible comforts of a better life, as knowing that the things which are not seen are eternal (28).” See “Curations” for an excerpt from this text.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+          <rdg wit="#ft">Soe Shalt thou live although thy Body Die.</rdg>
+          <rdg wit="#ee">So shalt thou live, although thy body die.</rdg>
+          <rdg wit="#ae">So shalt thou live although thy body die.</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="straight-horline"/>
+        </rdg>
+      </app>
+    </body>
+  </text>
+</TEI>

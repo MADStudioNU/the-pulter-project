@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.13">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Upon the Imprisonment of His Sacred Majesty</title>
+                <title type="sub">Poem #13</title>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <persName>Katherine E. Poland</persName>
+                    <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Website designed by</resp>
+                    <persName>Sergei Kalugin</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT-project consultation by</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>royalism</term>
+                    <term>lamentation</term>
+                    <term>revenge</term>
+                    <term>civil war</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_069.jpg" xml:id="f7610_069"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>May 25, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>May 25, 2018</date></witness>
+                    <!--<witness xml:id="ae">Amplified edition: Edited by <persName>Wendy Wall</persName>. Last updated <date>May 25, 2018</date></witness>-->
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_069" n="33r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_069"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_069"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">
+                        <fw facs="#f7610_069" type="pageNum" place="margin-topright"
+                            >61</fw><title>Upon the impriſonment of his Sacred Majestie that
+                            unparalel’d Prince King Charles the <w lemma="first"
+                            >&ff;irst</w>.</title>
+                    </rdg>
+                    <rdg wit="#ee">Upon the Imprisonment of his Sacred Majesty, That Unparalleled
+                        Prince, King <seg>Charles the First<note type="critical">Charles was King of England (1625-1649) during the civil war,
+                            and was jailed, in 1647, by the opposition Parliament.</note></seg>
+                    </rdg>
+                    <rdg wit="#ae">
+                        <seg rend="centered">Upon the Imprisonment of his Sacred Majesty, That
+                            Unparalleled Prince, King Charles the First</seg>
+                    </rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"/>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"/>
+                    <rdg wit="#ee">
+                        <note type="headnote">This bloodthirsty portrayal of the war-time captivity of Charles I (apparently written before his assassination) faintly echoes the elegiac refrain of “Tell me no more” from Poem 11, here in the form of a repeated injunction to an unspecified addressee to “ask ... no more” why the speaker laments: which should, she implies, be perfectly obvious. The context for these similar refrains could hardly differ more: instead of grieving her daughter’s untimely passing (as in Poem 11), the speaker invokes the goddess of vengeance to bring hellish torment upon the king’s and kingdom’s captors and usurpers (who are portrayed as hypocritical, grasping, impious, and corrupt). The speaker also prays—apparently still with Nemesis as her deity of choice—for the king’s “Job-like” resurrection, an apt model for a king the speaker sees as “Sacred.” The meter is unusual for Pulter, with triplets of iambic pentameter replacing her more usual couplets, as though the enormity of the subject calls out for a form that exceeds the norm. Pulter only uses the same meter in Poem 16 (“The Revolution”) and Poem 55 (“Must I thus ever interdicted be”), while Poem 66 offers a variation.</note>
+                    </rdg>
+                    <!--<rdg wit="#ae"><note type="headnote">Insert Headnote</note></rdg>-->
+                </app>
+            </head>
+            <lg type="stanza" n="1">
+                <l n="1">
+                    <app>
+                        <rdg wit="#ft">Why I Sit Sighing here aſk mee noe more</rdg>
+                        <rdg wit="#ee">Why I sit sighing here, ask me no more;</rdg>
+                        <rdg wit="#ae"></rdg>
+                    </app>
+                </l>
+                <l n="2">
+                    <app>
+                        <rdg wit="#ft">My Sacred Soveraigns thraldom I deplore</rdg>
+                        <rdg wit="#ee">My sacred sovereign’s thralldom I deplore.</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="3">
+                    <app>
+                        <rdg wit="#ft">Just Nemeſis (whom they pretend to Adore)</rdg>
+                        <rdg wit="#ee">Just <seg>Nemesis<note type="gloss">Greek goddess of
+                                    revenge</note></seg> (whom they pretend to adore),</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+            </lg>
+            <lg type="stanza" n="2">
+                <l n="4">
+                    <app>
+                        <rdg wit="#ft">Put on thy Sable blood-beſprinkled Gown</rdg>
+                        <rdg wit="#ee">Put on thy sable blood-besprinkled gown,</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="5">
+                    <app>
+                        <rdg wit="#ft">And thy or’eflowing Venge<add place="above">a</add>nce
+                            thunder Down</rdg>
+                        <rdg wit="#ee">And thy o’erflowing vengeance thunder down</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="6">
+                    <app>
+                        <rdg wit="#ft">On theſe Uſurpers of our Caeſars Crown</rdg>
+                        <rdg wit="#ee">On these usurpers of our <seg>Caesar’s<note type="critical">Roman emperor, figurative frequently for Charles I</note></seg> crown.</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+            </lg>
+            <app>
+                <rdg type="milestone" wit="ft">
+                    <milestone unit="stanza" rend="short-horlines-left-right"/>
+                </rdg>
+            </app>
+            <lg type="stanza" n="3">
+                <l n="7">
+                    <app>
+                        <rdg wit="#ft"><seg>They have his Sacred Perſon now in hold<note
+                                    type="physical">short horizontal lines above first and last
+                                    words in line; less space above this line than between other
+                                    stanzas</note></seg></rdg>
+                        <rdg wit="#ee">They have his sacred person now in hold;</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="8">
+                    <app>
+                        <rdg wit="#ft">They haue their King, and Countrey, bought &amp; Sould</rdg>
+                        <rdg wit="#ee">They have their king, and country, bought and sold,</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="9">
+                    <app>
+                        <rdg wit="#ft">And hope of Glory, all for Curſed Gold</rdg>
+                        <rdg wit="#ee">And hope of glory, all for cursed gold.</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+            </lg>
+            <lg type="stanza" n="4">
+                <l n="10">
+                    <app>
+                        <rdg wit="#ft">Then Seeing they Eternity thus Sleight</rdg>
+                        <rdg wit="#ee">Then, seeing they Eternity thus slight,</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="11">
+                    <app>
+                        <rdg wit="#ft">Let Acherons fierce Ishew them afright</rdg>
+                        <rdg wit="#ee">Let <seg>Acharon’s<note type="critical">in Greek myth,
+                                    Acheron is a river in Hades; the personification here may suggest
+                                    identification with Hades, god of the underworld</note></seg> fierce issue them affright</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="12">
+                    <app>
+                        <rdg wit="#ft">Till endles horrour doth their Souls benight</rdg>
+                        <rdg wit="#ee">Till endless horror doth their souls benight.</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+            </lg>
+            <lg type="stanza" n="5">
+                <l n="13">
+                    <app>
+                        <rdg wit="#ft">Then let our Job like Saint riſe from <w lemma="the"
+                                        ><abbr>y<hi rend="superscript">e</hi></abbr></w>
+                            Ground</rdg>
+                        <rdg wit="#ee">Then let our <seg>Job-like<note type="critical">Job is a biblical
+                                    figure renowned for extraordinary patience in the face of extreme
+                                    difficulties</note></seg> saint rise from the ground,</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="14">
+                    <app>
+                        <rdg wit="#ft"><w lemma="for">&ff;or</w> Piety and Patience Soe
+                            renow’nd</rdg>
+                        <rdg wit="#ee">For piety and patience so renowned,</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="15">
+                    <app>
+                        <rdg wit="#ft">That for the <seg>beſt<note type="physical">“ſ” written over
+                                    earlier letter, possibly “t”</note></seg> of kings hee may be
+                            Crownd</rdg>
+                        <rdg wit="#ee">That for the best of kings he may be crowned.</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+            </lg>
+            <lg type="stanza" n="6">
+                <l n="16">
+                    <app>
+                        <rdg wit="#ft">Then aſk noe more why I’m in tears diſſolv’d</rdg>
+                        <rdg wit="#ee">Then ask no more why I’m in tears dissolved,</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="17">
+                    <app>
+                        <rdg wit="#ft">Whilst our good king with <add place="below">\</add><seg><add
+                                    place="above">ſorrow\</add><note type="physical">written in hand H2</note></seg> is involv’d</rdg>
+                        <rdg wit="#ee">Whilst our good king with sorrow is <seg>involved<note
+                                    type="gloss">entangled, enveloped</note></seg>:</rdg>
+                        <rdg wit="#ae"/>
+                    </app>
+                </l>
+                <l n="18">
+                    <app>
+                        <rdg wit="#ft">To pray and weep for him I am <seg>resolvd<note type="physical">after poem ends at bottom of page, reverse is blank</note></seg>.</rdg>
+                        <rdg wit="#ee">To pray and weep for him I am <seg>resolved<note
+                                    type="critical">convinced; melted; dissolved; brought to a clear
+                                    conclusion</note></seg>.</rdg>
+                        <!--<rdg wit="#ae"><seg rend="mirror">Example of mirror reverse text.</seg></rdg>-->
+                    </app>
+                </l>
+            </lg>
+
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

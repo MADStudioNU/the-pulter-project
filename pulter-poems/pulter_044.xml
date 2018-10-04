@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.44">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Solitary Discourse</title>
+                 <title type="sub">Poem #44</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>light</term>
+		    <term>beauty</term>
+		    <term>vacillation</term>
+		    <term>melancholy</term>
+		    <term>Aurora</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_132.jpg" xml:id="f7610_132"/>
+        <graphic url="./document_images/7610_133.jpg" xml:id="f7610_133"/>
+        <graphic url="./document_images/7610_134.jpg" xml:id="f7610_134"/>
+        <graphic url="./document_images/7610_135.jpg" xml:id="f7610_135"/>
+        <graphic url="./document_images/7610_136.jpg" xml:id="f7610_136"/>
+        <graphic url="./document_images/7610_137.jpg" xml:id="f7610_137"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 22, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>June 26, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_132" n="64v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_132"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_132"/></rdg>
+            </app>
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                   </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw><seg>A ſolitary discoars:<note type="physical"> in H2</note></seg></rdg>
+                    <rdg wit="#ee"><seg>A Solitary Discourse<note type="physical">The title is not written in the main scribe’s hand (but in a hand that is probably Pulter’s). The poem is in the main scribe’s hand.</note></seg></rdg>
+                    <rdg wit="#ae">A Solitary Discourse</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Does sunrise inspire joy? Or is it a sorrowful reminder that earthbound humans hope to glimpse a heaven that remains frustratingly out of reach, entrapping them in cycles of darkness and light? In this poem, the speaker shifts abruptly in her assessment, as she alternately commands her soul to rejoice at the empowering beauty of dawning light and scolds herself for forgetting the futility of such mortal indulgences. Seeing the dawn awakens contradictory feelings; as the speaker declares, the sun “dazzles mine eyes and doth my spirit damp.” The poem invites the reader to experience some of these ephemeral pleasures through its evocative language: we are witness to Apollo’s sensual embrace of the ocean, as he dips his heat into her cooling waves; to rural girls gathering dew as a beauty-aid in pastoral flirtation; to sunflowers bursting from the earth to court the sun; and even to the conjugal bliss of Pulter’s early marriage, imagined as the strains of musical harmony. However, the planets’ motions—such as the sun rising—also point to human dependence on astrological influence and a fallen world. Pulter’s neologism, “debreathe,” bespeaks the horror of a final earthly ending shorn of the hope of continued breath in eternity. Having alternated between these poles of despair and pleasure, the poem ends with the speaker confirming her faith in a bodily resurrection that will inaugurate proper vision of the Son’s rising and her promise to “exhale” praise (like this poem) while waiting for Judgment Day.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">In this long, meditative poem, Pulter’s speaker interrogates her own spiritual condition (“my pensive soul”), using the imagery of light and darkness that is so prevalent in her poetry. The poem poses the question: how can I be sad when the natural beauty of the dawn vanquishes the darkness every single day? And, the poem also asks, “what comfort’s in this light / That is alternately pursued by night?” These opposing interpretations of the same situation—light is followed by darkness; darkness is followed by light—are at the center of this poem’s anguished and, finally, hopeful interrogation of its speaker’s spiritual condition. By comparing herself to the personified and anthropomorphized figure of the <foreign rend="italic">solsequium</foreign>, or sunflower, Pulter’s speaker questions whether observation of the natural world can provide a kind of comfort that is analogous to God’s grace.</note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">How canst thou heavie bee now Shee apears</rdg>
+                    <rdg wit="#ee">How canst thou heavy be? Now she appears,</rdg>
+                    <rdg wit="#ae">How canst thou heavy be now <seg>she<note type="gloss">i.e., Aurora, the harbinger of dawn.</note></seg> appears,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">My Pencive Soul that with her Luster cheers</rdg>
+                    <rdg wit="#ee">My pensive soul, that with her luster cheers</rdg>
+                    <rdg wit="#ae">My pensive soul, that with her luster cheers</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">All drooping Spirits lift up thy Sad eyes</rdg>
+                    <rdg wit="#ee">All drooping spirits; lift up thy sad eyes,</rdg>
+                    <rdg wit="#ae">All drooping spirits? Lift up thy sad eyes;</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Behold <add place="below">^</add><add place="above">how</add> horrid Darkneſs from her fflyes</rdg>
+                    <rdg wit="#ee">Behold how horrid darkness from her flies.</rdg>
+                    <rdg wit="#ae">Behold how horrid Darkness from her flies.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Doe thou but look how at the Sight of Day</rdg>
+                    <rdg wit="#ee">Do thou but look how at the sight of day</rdg>
+                    <rdg wit="#ae">Do thou but look how at the sight of day,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">With Sable Wings Shee Scowling flyes away</rdg>
+                    <rdg wit="#ee">With sable wings <seg>she<note type="gloss">Night</note></seg>, scowling, flies away.</rdg>
+                    <rdg wit="#ae">With sable wings she scowling flies away;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Look how Aurora with her Orient Light</rdg>
+                    <rdg wit="#ee">Look how <seg>Aurora<note type="gloss">goddess of the dawn</note></seg> with her orient light</rdg>
+                    <rdg wit="#ae">Look how <seg>Aurora with her orient light<note type="critical">Aurora is the Goddess of the Dawn. Aurora is a touchstone in Pulter’s poetry, and apostrophes to or personifications of Aurora appear in several of her poems, including Poems 3, 22, 26, 34, and 37.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Doth Scorn and Trample Melancholy Night</rdg>
+                    <rdg wit="#ee">Doth scorn and trample melancholy Night!</rdg>
+                    <rdg wit="#ae">Doth scorn and trample <seg>melancholy Night<note type="gloss">Nyx, the Greek goddess of the night, here construed as an enemy to be defeated by Dawn.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Nay pale facet Cinthia <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> her Glittring train</rdg>
+                    <rdg wit="#ee">Nay, pale-faced <seg>Cynthia<note type="gloss">goddess of the moon</note></seg> with her glitt’ring train</rdg>
+                    <rdg wit="#ae">Nay, pale-faced <seg>Cynthia with her glittering train<note type="gloss">Cynthia is another name for Selene, the Greek goddess of the moon. In this context, her “glittering train” is made of stars.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Hide all away for fear of her diſdain</rdg>
+                    <rdg wit="#ee">Hides all away for fear of her disdain.</rdg>
+                    <rdg wit="#ae">Hide all away for fear of her disdain.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">But yet (<seg><del>ha</del> laſ<note type="physical">The “h” is struck through vertically; “a” overwrites earlier “e.”</note></seg>) what comfort’s in this Light</rdg>
+                    <rdg wit="#ee">But yet (alas) what <seg>comfort’s<note type="gloss">comfort is</note></seg> in this light</rdg>
+                    <rdg wit="#ae">But yet (alas) what comfort’s in this light</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">That is Alternately purſued by Night</rdg>
+                    <rdg wit="#ee">That is alternately pursued by Night?</rdg>
+                    <rdg wit="#ae">That is alternately pursued by night?</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Inſted of bringing of my Soul Relief</rdg>
+                    <rdg wit="#ee">Instead of bringing of my soul relief,</rdg>
+                    <rdg wit="#ae">Instead of bringing of my soul relief,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">It doth Succeſſivly renew my griefe</rdg>
+                    <rdg wit="#ee">It doth <seg>successively<note type="gloss">subsequently</note></seg> renew my grief.</rdg>
+                    <rdg wit="#ae">It doth successively renew my grief.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">There is noe cheerfull light below the Skies</rdg>
+                    <rdg wit="#ee">There is no cheerful light below the skies,</rdg>
+                    <rdg wit="#ae">There is no cheerful light below the skies,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Nor can wee See it till wee loos our eyes</rdg>
+                    <rdg wit="#ee">Nor can we see it till we lose our eyes.</rdg>
+                    <rdg wit="#ae">Nor can we see till we lose our eyes.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Did I not hope my Soul’s of Heavenly Birth</rdg>
+                    <rdg wit="#ee">Did I not hope my soul’s of heavenly birth?</rdg>
+                    <rdg wit="#ae">Did I not hope my soul’s of heavenly birth?</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Let mee bee nothing if [<seg><del>?</del><note type="physical">perhaps “ne”</note></seg>] I debreath on Earth</rdg>
+                    <rdg wit="#ee">Let me be nothing <seg>if I debreathe on Earth<note type="gloss">Pulter here coins the term “debreathe,” apparently meaning to cease breathing yet remain material and worldly.</note></seg>;</rdg>
+                    <rdg wit="#ae">Let me be nothing if I <seg>debreathe<note type="gloss">an unusual word not widely attested, which may mean “cease breathing.”</note></seg> on Earth;</rdg>
+                </app>
+            </l>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_133" n="65r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_133"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_133"/></rdg>
+          </app>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">But on condition of Eternall Glory</rdg>
+                    <rdg wit="#ee">But on condition of eternal glory,</rdg>
+                    <rdg wit="#ae">But on condition of eternal glory,</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">I am contented with my lifs Sad Story</rdg>
+                    <rdg wit="#ee">I am contented with my life’s sad story.</rdg>
+                    <rdg wit="#ae">I am contented with my life’s sad story.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">ffor Shame my Soul <seg>leave <add place="below">\</add><add place="above">leue \</add><note type="physical">The word “leave” is blotted but legible; “leue” is in H2.</note></seg> this baſe diſcontent</rdg>
+                    <rdg wit="#ee">For shame, my soul! Leave  this base discontent,</rdg>
+                    <rdg wit="#ae">For shame, my soul, leave this base discontent,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">And cheerly look up to the firmament</rdg>
+                    <rdg wit="#ee">And <seg>cheerly<note type="gloss">cheerfully</note></seg> look up to the firmament.</rdg>
+                    <rdg wit="#ae">And cheerly look up to the <seg>firmament<note type="gloss">the sky or heavens.</note></seg>:</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">See how Aurora Sprinkles Dew like Pearles</rdg>
+                    <rdg wit="#ee">See how Aurora sprinkles dew-like pearls</rdg>
+                    <rdg wit="#ae"><seg>See how Aurora sprinkles dewlike pearls<note type="critical">
+                      <p>May-dew is prized for its cosmetic and medicinal properties. In <title rend="italic">Irelands Natural History</title>, Gerard Boate explains how to gather it:</p>
+                        <cit>
+                          <quote>The English women, and Gentlewomen in Ireland, as in England, did use in the beginning of the Summer to gather good store of Dew, to keep it by them all year for several good uses both of physick and otherwise, wherein by experience they have learnt it to be very available. Their manner of collecting and keeping it was this. In the moneth of May especially, and also in part of the moneth of June, they would go forth betimes in the morning, and before Sun-rising, into a green field, and there either with their hands strike off the Dew from the tops of the herbs into a dish, or else throwing clean linen clothes upon the ground, take off the Dew from the herbs into them, and afterwards wring it out into dishes.</quote>
+                          <bibl>Gerarde Boate, <title rend="italic">Irelands Natural History</title>, London, 1652, pp. 170-71.</bibl>
+                        </cit>
+                        <p>Dew might be gathered from many different plants, but Boate explains that dew from “green corn, especially Wheat” has “more vertues” (171).</p>
+                    </note></seg></rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">On Ceres Corn gather’d by Rurall Girles</rdg>
+                    <rdg wit="#ee">On <seg>Ceres’s<note type="gloss">goddess of agriculture</note></seg> corn, gathered by rural girls</rdg>
+                    <rdg wit="#ae">On Ceres’ corn gathered by rural girls</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">To waſh the freckles from their lovly face</rdg>
+                    <rdg wit="#ee">To wash the freckles from their lovely face,</rdg>
+                    <rdg wit="#ae">To wash the freckles from their lovely face</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">That in their lovers eyes they may find Grace</rdg>
+                    <rdg wit="#ee">That in their lovers’ eyes they may find grace.</rdg>
+                    <rdg wit="#ae">That in their lovers’ eyes they may find grace.</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Alas what bevty <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Such Care up Nurst</rdg>
+                    <rdg wit="#ee">Alas, what beauty with such care <seg>up-nursed<note type="gloss">reared up, tended</note></seg>,</rdg>
+                    <rdg wit="#ae">Alas, what beauty, with such care up-nursed,</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">When Sicknes Age and Grief (of all the worst)</rdg>
+                    <rdg wit="#ee">When Sickness, Age, and Grief (of all the worst)</rdg>
+                    <rdg wit="#ae">When sickness age and grief (of all the worst)</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Have Acted all their parts then comes <add place="below">^</add><add place="above">pale</add> Death</rdg>
+                    <rdg wit="#ee">Have acted all their parts? Then comes pale Death</rdg>
+                    <rdg wit="#ae">Have acted all their parts? Then comes pale Death</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">And cloſes up their eyes and Stops their Breath</rdg>
+                    <rdg wit="#ee">And closes up their eyes and stops their breath.</rdg>
+                    <rdg wit="#ae">And closes up their eyes and stops their breath;</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">How empty and how vain is Carnall Love</rdg>
+                    <rdg wit="#ee">How empty and how vain is carnal love</rdg>
+                    <rdg wit="#ae">How empty and how vain is carnal love</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Compard but with a Glimps of Joyes above</rdg>
+                    <rdg wit="#ee">Compared but with a glimpse of joys above!</rdg>
+                    <rdg wit="#ae">Compared but with a glimpse of joys above.</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">I was in youth A Modest Virgin Bred</rdg>
+                    <rdg wit="#ee">I was in youth a modest virgin <seg>bred<note type="gloss">trained, raised</note></seg></rdg>
+                    <rdg wit="#ae">I was in youth a modest virgin bred,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">And brought with Honnour to my Nuptial Bed</rdg>
+                    <rdg wit="#ee">And brought with honor to my nuptial bed,</rdg>
+                    <rdg wit="#ae">And brought with honor to my nuptial bed,</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">To a most Lovly Youth and Noblely Born</rdg>
+                    <rdg wit="#ee">To a most lovely youth and nobly born;</rdg>
+                    <rdg wit="#ae">To a most lovely youth, and nobly born;</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Vertue and Bevty did his youth Adorn</rdg>
+                    <rdg wit="#ee">Virtue and beauty did his youth adorn.</rdg>
+                    <rdg wit="#ae">Virtue and beauty did his youth adorn.</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Our Musick then had sweet and Pleasant Cloſes</rdg>
+                    <rdg wit="#ee">Our music then had sweet and pleasant <seg>closes<note type="gloss">endings of musical phrases</note></seg>,</rdg>
+                    <rdg wit="#ae">Our music then had <seg>sweet and pleasant closes<note type="gloss">“close” is a technical term for the conclusion of a musical phrase.</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Crownd were our Heads with <seg>Mirtle<note type="physical"> The “i” overwrites an earlier “e.”</note></seg> &amp; <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Roſes</rdg>
+                    <rdg wit="#ee">Crowned were our heads with <seg>myrtle<note type="gloss">Sacred to the goddess Venus, myrtle was used as an emblem of love.</note></seg> and with roses,</rdg>
+                    <rdg wit="#ae">Crowned were our heads with <seg>myrtle and with roses<note type="critical">symbols of beauty, peace, and love, perhaps signifying the strength of the speaker’s marriage, as they remain “flowery, fresh, and green.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Which to this Howr are fflowry ffresh and Green</rdg>
+                    <rdg wit="#ee">Which to this hour are flowery, fresh, and green,</rdg>
+                    <rdg wit="#ae">Which to this hour are flowery, fresh and green,</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft"><seg>Thoug<add place="below">\</add><add place="above">h \</add><note type="physical">“\h \” is in H2.</note></seg> Cipres Buds were here and there between</rdg>
+                    <rdg wit="#ee"><seg>Though cypress buds<note type="gloss">The cypress tree was a symbol of mourning; cypress buds might refer to children dying young.</note></seg> were here and there between</rdg>
+                    <rdg wit="#ae">Though <seg>cypress buds<note type="critical">symbols of mourning, perhaps signifying the premature deaths of many of Pulter’s children.</note></seg> were here and there between</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Stuck</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_134" n="65v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_134"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_134"/></rdg>
+          </app>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">Stuck in By <add place="below">^</add><add place="above">adverſ</add> fate to cool our love</rdg>
+                    <rdg wit="#ee">Stuck in by adverse fate to cool our love,</rdg>
+                    <rdg wit="#ae">Stuck in by adverse fate to cool our love;</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Or elce that wee Should place our thoughts aboue</rdg>
+                    <rdg wit="#ee">Or <seg>else that<note type="gloss">so that</note></seg> we should place our thoughts above,</rdg>
+                    <rdg wit="#ae">Or else that we should place our thoughts above,</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Where onely is <seg>pure <add place="below">\</add><add place="above">true \</add><note type="physical">Corrections are visible in “pure”; the superscript “true” is in H2.</note></seg> love and lasting Peace</rdg>
+                    <rdg wit="#ee">Where only is pure, true love and lasting peace.</rdg>
+                    <rdg wit="#ae">Where only is <seg>true<note type="physical">a manuscript addition corrects “pure” to “true.”</note></seg> love and lasting peace.</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">That <seg><del>loue</del><note type="physical">This word is struck-through with three horizontal lines.</note></seg> loue Shall last when ffaith &amp; hope Shall ceaſe</rdg>
+                    <rdg wit="#ee">That love shall last when faith and hope shall cease.</rdg>
+                    <rdg wit="#ae">That love shall last when faith and hope shall cease.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">ffrom Heaven my Soul (&ff;rom Heaven) thy comfort Springs</rdg>
+                    <rdg wit="#ee">From heaven, my soul (from heaven), thy comfort springs,</rdg>
+                    <rdg wit="#ae">From heaven, my soul, from heaven thy comfort Springs;</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">ffor earth (Alas) nought but afliction Brings</rdg>
+                    <rdg wit="#ee">For earth (alas) nought but affliction brings.</rdg>
+                    <rdg wit="#ae">For earth (alas) nought but affliction brings.</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">Look up once more <seg>hear’s<note type="physical">The “s” is crowded between the surrounding letters and in a different hand (probably H2).</note></seg> that thy Heart will eaſe</rdg>
+                    <rdg wit="#ee">Look up once more; here’s <seg>that<note type="gloss">that which</note></seg> thy heart will ease,</rdg>
+                    <rdg wit="#ae">Look up once more; here’s that thy heart will ease,</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">Or Surely nothing will thy ffancie Pleaſe</rdg>
+                    <rdg wit="#ee">Or surely nothing will thy fancy please.</rdg>
+                    <rdg wit="#ae">Or surely nothing will thy fancy please.</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">Mark how Apollo this Salubrious Morning</rdg>
+                    <rdg wit="#ee">Mark how <seg>Apollo<note type="gloss">the sun</note></seg> this <seg>salubrious<note type="gloss">favorable, healthy</note></seg> morning,</rdg>
+                    <rdg wit="#ae">Mark how <seg>Apollo<note type="gloss">God of the Sun.</note></seg>, this salubrious morning,</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">With Dazling Beams his Splendent fface Adorning</rdg>
+                    <rdg wit="#ee">With dazzling beams his splendent face adorning,</rdg>
+                    <rdg wit="#ae">With dazzling beams his splendent face adorning,</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft"><seg>Com<del>es</del><note type="physical">“o” written over an “a”; final “s” blotted</note></seg> Glittring fforth in most refulgent grace</rdg>
+                    <rdg wit="#ee">Comes glitt’ring forth in most <seg>refulgent<note type="gloss">radiant</note></seg> grace,</rdg>
+                    <rdg wit="#ae">Comes glittering forth in most refulgent grace,</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">Joying to run his Occidendentall Race</rdg>
+                    <rdg wit="#ee">Joying to run his <seg>occidental<note type="gloss">western</note></seg> <seg>race<note type="gloss">course</note></seg>,</rdg>
+                    <rdg wit="#ae">Joying to run his <seg>occidental race<note type="gloss">westward; Apollo travels toward the sunset in the West; i.e., toward night, when he is reunited with Thetis, a sea nymph.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">Scorning his eyes Should take a Slumbring Nap</rdg>
+                    <rdg wit="#ee">Scorning his eyes should take a slumbering nap</rdg>
+                    <rdg wit="#ae">Scorning his eyes should take a slumbering nap</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">Untill hee layes in Wanton Thetis Lap</rdg>
+                    <rdg wit="#ee">Until he lays in wanton <seg>Thetis’s<note type="gloss">In mythology, Thetis was a sea nymph or emblem of the sea; she was one of the daughters of Nereus and Doris (thus called Nereids)</note></seg> lap</rdg>
+                    <rdg wit="#ae">Until he lays in wanton Thetis’ lap,</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">His fflagrant Head, then Shee in love belaves</rdg>
+                    <rdg wit="#ee">His <seg>flagrant<note type="gloss">blazing</note></seg> head; then she, in love, <seg>belaves<note type="gloss">washes over</note></seg></rdg>
+                    <rdg wit="#ae">His flagrant head then she in love belaves,</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">His Burning Treſſes with her cooler Waves</rdg>
+                    <rdg wit="#ee">His burning tresses with her cooler waves;</rdg>
+                    <rdg wit="#ae">His burning tresses with her cooler waves;</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">And that Sweet Dew on fflowers Redolent</rdg>
+                    <rdg wit="#ee">And that sweet dew on flowers <seg>redolent<note type="gloss">fragrant</note></seg>,</rdg>
+                    <rdg wit="#ae">And that sweet dew on flowers redolent</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">Which Breaths to us an Aromattck <seg><del>ſſ</del>Sent<note type="physical">“ſſ” imperfectly erased</note></seg></rdg>
+                    <rdg wit="#ee">Which breathes to us an aromatic scent,</rdg>
+                    <rdg wit="#ae">Which breathes to us an aromatic scent,</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">Hee with his Heat exhales aboue our vew</rdg>
+                    <rdg wit="#ee">He with his heat exhales above our view,</rdg>
+                    <rdg wit="#ae">He with his heat exhales above our view</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">Which doth Nocturnally deſcend in Dew</rdg>
+                    <rdg wit="#ee">Which doth nocturnally descend in dew.</rdg>
+                    <rdg wit="#ae">Which doth nocturnally descend in dew.</rdg>
+                </app>
+            </l>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">See how the Solyſequem <seg>thrust’s<note type="physical">“s” crowded between surrounding words, in darker ink</note></seg> her Head</rdg>
+                    <rdg wit="#ee">See how the <seg><foreign rend="italic">solsequium</foreign><note type="gloss">sunflower, heliotrope</note></seg> thrusts her head</rdg>
+                    <rdg wit="#ae">See how the <seg><foreign rend="italic">solsequium</foreign><note type="critical">a Latin name for the sunflower; also sometimes called the heliotrope. In <ref target="/" type="pp-poem-ref" corresp="12">The Garden</ref>, the heliotrope defiantly declares “I’m not afraid” to look upon the sun.</note></seg> thrusts her head</rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">Up through the Center from that com̄on Bed</rdg>
+                    <rdg wit="#ee">Up through the center from that common bed</rdg>
+                    <rdg wit="#ae">Up through the center from that common bed</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">into</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_135" n="66r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_135"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_135"/></rdg>
+          </app>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">Into the Liquid Azure Sea above Her</rdg>
+                    <rdg wit="#ee">Into the liquid <seg>azure<note type="gloss">blue</note></seg> sea above her</rdg>
+                    <rdg wit="#ae">Into the liquid azure sea above her</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">To follow Phœbus her admired Lover</rdg>
+                    <rdg wit="#ee">To follow <seg>Phoebus<note type="gloss">the sun</note></seg>, her admiréd lover;</rdg>
+                    <rdg wit="#ae">To follow <seg>Phoebus<note type="gloss">another name for Apollo; the sun. See also Emblem 3.</note></seg> her admired lover.</rdg>
+                </app>
+            </l>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">When hee in our Horizon giues his Race</rdg>
+                    <rdg wit="#ee">When he in our horizon <seg>gives his race<note type="gloss">follows his course</note></seg>,</rdg>
+                    <rdg wit="#ae">When he in our horizon gives his race,</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">Then in the Ayr Shee Shews her Lovly face</rdg>
+                    <rdg wit="#ee">Then in the air she shows her lovely face.</rdg>
+                    <rdg wit="#ae">Then in the air she shows her lovely face;</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">Soe when hee is our Zeneth at mid Day</rdg>
+                    <rdg wit="#ee">So when he is our zenith at midday,</rdg>
+                    <rdg wit="#ae">So when he is our zenith at midday,</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">Shee at full Lenght her Bevty doth diſplay</rdg>
+                    <rdg wit="#ee">She at full length her beauty doth display;</rdg>
+                    <rdg wit="#ae">She at full length her beauty doth display.</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">But when the Sun is Nadar to us here</rdg>
+                    <rdg wit="#ee">But when the sun is <seg>nadir<note type="gloss">directly opposite</note></seg> to us here,</rdg>
+                    <rdg wit="#ae">But when the sun is nadir to us here,</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft"><seg>Shee<note type="physical"> dark ligature between “e”s</note></seg> meets him in the other Hemesſpheir</rdg>
+                    <rdg wit="#ee">She meets him in the other hemisphere.</rdg>
+                    <rdg wit="#ae">She meets him in the other hemisphere.</rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">To see theſe Marvels and this Shineing Lamp</rdg>
+                    <rdg wit="#ee">To see these marvels and this shining lamp</rdg>
+                    <rdg wit="#ae">To see these marvels and this shining lamp</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">Dazles mine eyes and doth my Spirit damp</rdg>
+                    <rdg wit="#ee">Dazzles mine eyes and doth my spirit damp;</rdg>
+                    <rdg wit="#ae">Dazzles mine eyes and doth my spirit damp:</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">ffor when I doe his Orient Splendour See</rdg>
+                    <rdg wit="#ee">For when I do his <seg>orient<note type="gloss">radiant, eastern</note></seg> splendor see,</rdg>
+                    <rdg wit="#ae">For when I do his <seg>orient<note type="critical">of the East or the dawn; bright, luminous, radiant. The speaker distinguishes herself from the sunflower who eagerly follows her lover (the sun) across the sky thus displaying her beauty. When the speaker observes the eroticized harmony between the sun and flower, however, her eyes are “dazzled,” her spirits “damp[ened],” and her “deformity” revealed.</note></seg> splendor see</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">It more diſcovers my deformitie</rdg>
+                    <rdg wit="#ee">It more <seg>discovers<note type="gloss">reveals</note></seg> my deformity.</rdg>
+                    <rdg wit="#ae">It more discovers my deformity.</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">If I but look upon his blazing bevty</rdg>
+                    <rdg wit="#ee">If I but look upon his blazing beauty,</rdg>
+                    <rdg wit="#ae">If I but look upon his blazing beauty,</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">Hee burns mee black for fayling Soe in Duty</rdg>
+                    <rdg wit="#ee">He burns me black for failing so in duty.</rdg>
+                    <rdg wit="#ae"><seg>He burns me black<note type="critical">
+                      <p>i.e. the speaker is sunburned. Pulter adopts a trope of Petrarchan love poetry to describe the painful experience of unrequited devotion. Compare to Lady Mary Wroth’s <title rend="italic">Pamphilia to Amphilanthus</title> sonnet 22:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>Like to the Indians, scorched with the sunne,</l>
+                            <l>The sunn which they doe as theyr God adore</l>
+                            <l>Soe ame I us’d by love, for ever more</l>
+                            <l>I worship him, less favors have I wunn.</l>
+                          </lg>
+                        </quote>
+                        <bibl>Josephine Roberts, ed. <title rend="italic">The Poems of Lady Mary Wroth</title>, p. 99.</bibl>
+                      </cit>
+                    </note></seg> for failing so in duty;</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">But if in Innocence I had Stood upright</rdg>
+                    <rdg wit="#ee">But if, <seg>in innocence<note type="gloss">in the state of Adam and Eve in the garden of Eden, before they sinned and were banished</note></seg>, I had stood upright,</rdg>
+                    <rdg wit="#ae">But if in innocence I had stood upright,</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">Nor Sun nor Moon Should hurt mee Day nor Night</rdg>
+                    <rdg wit="#ee">Nor sun, nor moon should hurt me day or night,</rdg>
+                    <rdg wit="#ae">Nor sun nor moon should hurt me day or night.</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">But I (Ay mee) in Adam fell from Glory</rdg>
+                    <rdg wit="#ee">But I (ay me) in Adam fell from glory,</rdg>
+                    <rdg wit="#ae">But I (ay me) in Adam fell from glory,</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">Which makes mee live a Life most trancetory</rdg>
+                    <rdg wit="#ee">Which makes me live a life most transitory.</rdg>
+                    <rdg wit="#ae">Which makes me live <seg>a life most transitory<note type="critical">see Genesis 2:16-17; one consequence of Adam and Eve’s disobedience is death.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">Then thoſe Celestiall Orbs that Shine Soe bright</rdg>
+                    <rdg wit="#ee"><seg>Then<note type="gloss">in a prelapsarian world</note></seg>, those celestial orbs that shine so bright</rdg>
+                    <rdg wit="#ae">Then those celestial orbs that shine so bright,</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">Should ffellows bee and further our delight</rdg>
+                    <rdg wit="#ee">Should fellows be and further our delight.</rdg>
+                    <rdg wit="#ae"><seg>Should fellows be and further our delight<note type="critical">
+                      <p>Pulter suggests that one consequence of the Fall is her lack of harmony with the universe, particularly the stars and planets. In a state of innocence, “no sun nor moon” could hurt her, and, further, the heavenly bodies would be “fellows” and a source of “delight.” This claim may refer to legends about how the Fall transformed the physical environment and subjected humans to physical suffering, as well as to debates about how the Fall limits humans’ ability to know both their physical environment and God. Compare Milton’s <title rend="italic">Paradise Lost</title>, which engages with both traditions. In Book 11, the angels change the orientation of the Earth so that heat of the Sun is intensified and in order to create potentially harmful astrological influences (see 11. 649-78). In book 12, Michael tells Adam that his loss requires him to turn away from knowledge of the heavens:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>This having learnt, thou hast attained the summe</l>
+                            <l>Of wisdom; hope no higher, though all the Starrs</l>
+                            <l>Thou knewst by name, and all th’ ethereal Powers,</l>
+                            <l>All secrets of the deep, all Natures works,</l>
+                            <l>Or works of God in Heav’n, Aire, Earth, or Sea,</l>
+                            <l>And all the riches of this World enjoydst,</l>
+                            <l>And all the rule, one Empire (12.575-81)</l>
+                          </lg>
+                        </quote>
+                      </cit></note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="83">
+                <app>
+                    <rdg wit="#ft">Happy Should bee their influence &amp; Dances</rdg>
+                    <rdg wit="#ee">Happy should be their influence and dances,</rdg>
+                    <rdg wit="#ae">Happy should be their influence and dances,</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <rdg wit="#ft">Both their fuleyed Aspects and Secret Glances</rdg>
+                    <rdg wit="#ee">Both their <seg>full-eyed<note type="gloss">perfectly visible</note></seg> <seg>aspects<note type="gloss">looks; viewpoints; relative positions of the heavenly bodies as they appear to an observer on Earth</note></seg> and secret glances.</rdg>
+                    <rdg wit="#ae">Both their full-eyed aspects and secret glances.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">then</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_136" n="66v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_136"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_136"/></rdg>
+          </app>
+            <l n="85">
+                <app>
+                    <rdg wit="#ft">Then unto them I Should bee Independent</rdg>
+                    <rdg wit="#ee">Then, <seg>unto<note type="gloss">with regards to</note></seg> them I should be independent,</rdg>
+                    <rdg wit="#ae">Then unto them I should be independent,</rdg>
+                </app>
+            </l>
+            <l n="86">
+                <app>
+                    <rdg wit="#ft">Nor need <del>nor</del> <seg><add place="above">I \</add><note type="physical">above twice struck-through “nor”</note></seg> fear though Saturn’s my Aſſendent</rdg>
+                    <rdg wit="#ee">Nor need I fear, though Saturn’s my <seg>ascendant<note type="critical">the degree of the zodiac at a person’s birth, which influences his or her life; here, Saturn, which was supposed to cause melancholy</note></seg>;</rdg>
+                    <rdg wit="#ae">Nor need I fear though <seg>Saturn’s my ascendant<note type="critical">In astrology the ascendant is the degree of the zodiac rising over the horizon at a particular moment such as the birth of a child. Saturn is the planet associated with melancholy; Pulter suggests that in a state of innocence she would not have to worry about the potentially negative impacts of her ascendant planet.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="87">
+                <app>
+                    <rdg wit="#ft">But now I’me troubled Ready still to cry</rdg>
+                    <rdg wit="#ee">But now I’m troubled, ready still to cry,</rdg>
+                    <rdg wit="#ae">But now I’m troubled, ready still to cry,</rdg>
+                </app>
+            </l>
+            <l n="88">
+                <app>
+                    <rdg wit="#ft">Cauſe at my Birth Some Planet lookt awry</rdg>
+                    <rdg wit="#ee">’Cause at my birth some planet looked awry,</rdg>
+                    <rdg wit="#ae">’Cause at my birth <seg>some planet looked awry<note type="gloss">obliquely, unevenly, crookedly, or askew (OED “awry” adv.1a., 1b.). Pulter’s speaker laments that her melancholy causes her to forget God’s care for his creatures.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="89">
+                <app>
+                    <rdg wit="#ft">fforgetting him that them and mee did make</rdg>
+                    <rdg wit="#ee">Forgetting Him that them and me did make,</rdg>
+                    <rdg wit="#ae">Forgetting him that them and me did make,</rdg>
+                </app>
+            </l>
+            <l n="90">
+                <app>
+                    <rdg wit="#ft">Who of his Children conſtant care doth take</rdg>
+                    <rdg wit="#ee">Who of His children constant care doth take;</rdg>
+                    <rdg wit="#ae">Who of his children constant care doth take.</rdg>
+                </app>
+            </l>
+            <l n="91">
+                <app>
+                    <rdg wit="#ft">And thoſe Celestiall Works of Wonder</rdg>
+                    <rdg wit="#ee">And those celestial works of wonder,</rdg>
+                    <rdg wit="#ae">And those celestial works of wonder,</rdg>
+                </app>
+            </l>
+            <l n="92">
+                <app>
+                    <rdg wit="#ft">Hee knowes their Names, <seg>Natures<note type="physical"> “s” added in later by H2</note></seg> &amp; Number</rdg>
+                    <rdg wit="#ee">He knows their names, natures, and number,</rdg>
+                    <rdg wit="#ae">He knows their names, natures, and number,</rdg>
+                </app>
+            </l>
+            <l n="93">
+                <app>
+                    <rdg wit="#ft">Their turning and their constant stations</rdg>
+                    <rdg wit="#ee">Their turning and their constant stations,</rdg>
+                    <rdg wit="#ae">Their turning and their constant stations,</rdg>
+                </app>
+            </l>
+            <l n="94">
+                <app>
+                    <rdg wit="#ft">And every influence of those constellation</rdg>
+                    <rdg wit="#ee">And every influence of those constellations.</rdg>
+                    <rdg wit="#ae">And every influence of those constellations.</rdg>
+                </app>
+            </l>
+            <l n="95">
+                <app>
+                    <rdg wit="#ft">In God my Soul trust ever and depend</rdg>
+                    <rdg wit="#ee">In God, my soul, trust ever and depend,</rdg>
+                    <rdg wit="#ae">In God, my soul, trust ever and depend;</rdg>
+                </app>
+            </l>
+            <l n="96">
+                <app>
+                    <rdg wit="#ft">Soe shalt thou live A life that ne’re Shall end</rdg>
+                    <rdg wit="#ee">So shalt thou live a life that ne’er shall end.</rdg>
+                    <rdg wit="#ae">So shalt thou live a life that ne’er shall end.</rdg>
+                </app>
+            </l>
+            <l n="97">
+                <app>
+                    <rdg wit="#ft">Nor bee thou hopeles when thy Body’s Crumbled</rdg>
+                    <rdg wit="#ee">Nor be thou hopeless when thy body’s crumbled,</rdg>
+                    <rdg wit="#ae">Nor be thou hopeless when thy body’s crumbled,</rdg>
+                </app>
+            </l>
+            <l n="98">
+                <app>
+                    <rdg wit="#ft">And with all Creatures in this Maſs is jumbled</rdg>
+                    <rdg wit="#ee">And with all creatures in this mass is jumbled;</rdg>
+                    <rdg wit="#ae">And with all creatures in this mass is jumbled;</rdg>
+                </app>
+            </l>
+            <l n="99">
+                <app>
+                    <rdg wit="#ft">But at thy Death, Sing cheerfully a requem</rdg>
+                    <rdg wit="#ee">But at thy death sing cheerfully a <seg>requiem<note type="gloss">solemn chant for the dead</note></seg></rdg>
+                    <rdg wit="#ae">But at thy death sing cheerfully a <seg>requiem<note type="gloss">mass, prayer, or song for the soul of a dead person.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="100">
+                <app>
+                    <rdg wit="#ft">ffor thou with Joy Shall like the Soliſequem</rdg>
+                    <rdg wit="#ee">For thou with joy shall, like the <foreign rend="italic">solsequium</foreign>,</rdg>
+                    <rdg wit="#ae">For thou with joy shall like the <foreign rend="italic">solsequium</foreign></rdg>
+                </app>
+            </l>
+            <l n="101">
+                <app>
+                    <rdg wit="#ft">Meet thy Redeemer in a Horiscope</rdg>
+                    <rdg wit="#ee">Meet thy redeemer in a <seg>horoscope<note type="gloss">configuration of the planets</note></seg></rdg>
+                    <rdg wit="#ae">Meet thy redeemer in a <seg>horoscope<note type="critical">the observation of the sky and the configuration of the planets at the time of an individual’s birth; Pulter imagines the casting of a “brighter” horoscope at the time of death.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="102">
+                <app>
+                    <rdg wit="#ft">Brighter then this thy fflesh Shall rest in hope</rdg>
+                    <rdg wit="#ee">Brighter than this; thy flesh shall rest in hope,</rdg>
+                    <rdg wit="#ae">Brighter than this. Thy flesh shall rest in hope</rdg>
+                </app>
+            </l>
+            <l n="103">
+                <app>
+                    <rdg wit="#ft">And thou Shalt See thy Saviour <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> theſe eyes</rdg>
+                    <rdg wit="#ee">And thou shalt see thy Savior with these eyes,</rdg>
+                    <rdg wit="#ae">And thou shalt see thy saviour with these eyes</rdg>
+                </app>
+            </l>
+            <l n="104">
+                <app>
+                    <rdg wit="#ft">When that bright Sun of Righteousnes Shall Riſe</rdg>
+                    <rdg wit="#ee">When that bright <seg>Sun of Righteousness<note type="critical">Christ, with pun on “Son” of God; see Malachi 4:2: “But unto you that fear my name shall the sun of righteousness arise with healing in his wings.”</note></seg> shall rise;</rdg>
+                    <rdg wit="#ae">When that bright sun of righteousness shall rise.</rdg>
+                </app>
+            </l>
+            <l n="105">
+                <app>
+                    <rdg wit="#ft">With Healing Wings hee shall from my Sad eyes</rdg>
+                    <rdg wit="#ee">With healing wings He shall, from my sad eyes</rdg>
+                    <rdg wit="#ae">With healing wings he shall from my sad eyes</rdg>
+                </app>
+            </l>
+            <l n="106">
+                <app>
+                    <rdg wit="#ft">And from all ffaces elce <seg>wipe<note type="physical">“p” written over other letter, perhaps “f”</note></seg> of the tears</rdg>
+                    <rdg wit="#ee">And from all faces else, wipe off the tears;</rdg>
+                    <rdg wit="#ae">And from all faces else wipe off the tears;</rdg>
+                </app>
+            </l>
+            <l n="107">
+                <app>
+                    <rdg wit="#ft">Soe from all Hearts hee will diſpell all fears</rdg>
+                    <rdg wit="#ee">So from all hearts he will dispel all fears.</rdg>
+                    <rdg wit="#ae">So from all hearts he will dispel all fears.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">oh</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_137" n="67r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_137"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_137"/></rdg>
+          </app>
+            <l n="108">
+                <app>
+                    <rdg wit="#ft">Oh then (till then) Send Grace into my Heart</rdg>
+                    <rdg wit="#ee">O then (till then) send <seg>grace<note type="gloss">benevolence received from God, which manifests in the giving of blessings and granting of salvation; here the speaker imagines receiving, nurturing, and returning grace.</note></seg> into my heart,</rdg>
+                    <rdg wit="#ae">Oh then (till then) send <seg>grace<note type="gloss">God’s benevolence or favor toward humanity (OED “grace,” n.1a.; 1b.).</note></seg> into my heart,</rdg>
+                </app>
+            </l>
+            <l n="109">
+                <app>
+                    <rdg wit="#ft">Which from my Throbing Boſome ne’re shall part</rdg>
+                    <rdg wit="#ee">Which from my throbbing bosom ne’er shall part;</rdg>
+                    <rdg wit="#ae">Which from my throbbing bosom ne’er shall part;</rdg>
+                </app>
+            </l>
+            <l n="110">
+                <app>
+                    <rdg wit="#ft">But I’le improv’t my few and evill Dayes</rdg>
+                    <rdg wit="#ee">But I’ll improve’t, <seg>my<note type="gloss">in my</note></seg> few and evil days,</rdg>
+                    <rdg wit="#ae">But I’ll improve’t, my few and evil days,</rdg>
+                </app>
+            </l>
+            <l n="111">
+                <app>
+                    <rdg wit="#ft">Untill it doth exhale in thanks and praise.</rdg>
+                    <rdg wit="#ee">Until it doth <seg>exhale<note type="gloss">breathe forth</note></seg> in thanks and praise.</rdg>
+                    <rdg wit="#ae">Until it doth exhale in thanks and praise.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+            
+        </body>
+    </text>
+</TEI>

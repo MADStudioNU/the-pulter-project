@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On that Unparalleled Prince Charles the First, His Horrid Murder</title>
+                 <title type="sub">Poem #8</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character’s status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_034.jpg" xml:id="f7610_034"/>
+        <graphic url="./document_images/7610_035.jpg" xml:id="f7610_035"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>August 24, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Sarah C. E. Ross</persName>. Last updated <date>September 7, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_034" n="15v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_034"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_034"/></rdg>
+            </app>          
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_034" type="pageNum" place="margin-topright">26</fw>On that Unparralel’d Prince Charles the first. <seg>his Horrid Murther<note type="physical">in different hand from main scribe; originally written “Horred” with the “e” corrected to an “i”</note></seg></rdg>
+                    <rdg wit="#ee">On that Unparalleled Prince Charles the First, <seg>His Horrid Murder<note type="physical">This phrase was added, probably in Pulter’s hand.</note></seg></rdg>
+                    <rdg wit="#ae">On that <seg>Unparalleled<note type="critical">a common superlative in Pulter’s poems, most commonly applied to Charles I and his associates. See, for example, the poem immediately preceding this one, “On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas” (Poem 7).</note></seg> Prince Charles the First, <seg>His Horrid Murder<note type="physical">these words have been added to the title in a hand that is different from the main scribe’s, and may be Pulter’s own (see Ross (2000), pp. 150-171 and 252-4).</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">
+                      <p>My priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in my view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts). <seg>See <bibl>Alice Eardley, “‘I haue not time to point yr booke ... which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse”, in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</bibl></seg></p>
+                      <p>In this edition of Poem 8, stanza breaks and numberings have been created based on marginal numberings and horizontal lines (at the ends of lines 8, 16, and 24) in the manuscript text. Like the addition of “His Horrid Murder” to the title (see notes), the numbers are in a hand that is different from the main scribe’s, and may be Pulter’s own.</p></note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">This poem is one of several that meditates on the disastrous results caused by the death of King Charles I in the English Civil War. Offering an extended analogy, the speaker compares the national, natural, and personal trauma caused by the 1649 regicide to the trauma of the sun being extinguished. Written in iambic pentameter couplets, the poem draws heavily on mythological and cosmological knowledge, showing the relatively harmless consequences of losing particular constellations in the sky (compared to the disappearance of the sun’s primal heat and light). It concludes with a single couplet imploring God to install Charles II on the throne.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                    <p>This poem is one of many that Pulter wrote on the fate of Charles I, from his imprisonment in 1647 until his execution and beyond. Some of these poems are elegies, and participate in the outpouring of elegiac literature on his death: see “On the Horrid Murder of the Incomparable Prince” (Poem 14) and “Let None Sigh More for Lucas or for Lisle [On the Same [2]]” (Poem 15), as well as the politicised insertion into her elegy on the death of her daughter, Jane Pulter (“On the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10)). For royalist elegiac literature and a reading of Pulter’s poems in this context, see <bibl>Sarah C. E.  Ross, <title rend="italic">Women, Poetry, and Politics in Seventeenth-Century Britain</title> (Oxford UP, 2015), pp. 153-7</bibl>; <bibl>Robert Wilcher, “Lamenting the King: 1649”, in <title rend="italic">The Writing of Royalism, 1628-1660</title> (Cambridge UP, 2001), pp. 287-307</bibl>; and Nigel Smith on royalism and elegy, in <bibl><title rend="italic">Literature and Revolution in England, 1640-1660</title> (Yale UP, 1994), pp. 287-294.</bibl></p>
+                    <p>This particular poem, however, is less elegiac in tone than several of Pulter’s others: it  focuses less on grief and consolation than on a cosmological comparison between the sun and Charles I. Each of the eight-line stanzas follows the same structure: the first four lines describe a (lesser) celestial splendour, before there is a turn at the fifth line to the greater splendour of the sun, which is a figure for the monarch. The final stanza has an additional four lines extending the political implications of the metaphor. This common association of the sun and the monarch undergirds many of Pulter’s poems, often in a further association of sun-king-Christ; see, for example, “Let None Sigh More for Lucas or for Lisle [On the Same [2]]” (Poem 15), lines 38-45.</p>
+                    <p>Pulter’s deep interest in cosmology and its metaphorical potential is evident throughout her work. See, for example, “The Revolution” (Poem 16), “The Center” (Poem 30), her two poems titled “Aurora” (Poems 3, 37), and “A Solitary Complaint” (Poem 54).</p></note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft"><seg>Those<note type="physical">in left margin, in lighter ink and different hand from main scribe: “(1)”</note></seg> glittring Globes of light which grace</rdg>
+                    <rdg wit="#ee">Those glittering <seg>globes<note type="gloss">stars, planets</note></seg> of light which grace</rdg>
+                    <rdg wit="#ae">Those glittering globes of light which grace</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">The vast Expantion, when they leave theire place</rdg>
+                    <rdg wit="#ee">The vast <seg>expansion<note type="gloss">heaven, firmament</note></seg>, when they leave their place,</rdg>
+                    <rdg wit="#ae">The vast expansion, when they leave their place</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Or hide theire Radiant heads, wee never wonder</rdg>
+                    <rdg wit="#ee">Or hide their radiant heads, we <seg>ne’er<note type="physical">“never” in the manuscript</note></seg> wonder;</rdg>
+                    <rdg wit="#ae">Or hide their radiant heads, we never wonder;</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Theire place and Splendenti’s Supplied’e by number</rdg>
+                    <rdg wit="#ee"><seg>Their place and splendency’s supplied by number<note type="critical">Their presence and splendor are assured by their multitude, even if some disappear from view.</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>Their place and splendency’s supplied by number<note type="critical">I.e., the splendour of the stars and planets in the sky is created by their sheer number.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">But Should the Sun forsake the line Ecliptick</rdg>
+                    <rdg wit="#ee">But should the sun forsake the <seg>line ecliptic<note type="critical">the great circular path of the celestial sphere that the sun appears to follow over the course of a year (as seen from Earth); named as such because eclipses can happen only when the moon is very near this line</note></seg>,</rdg>
+                    <rdg wit="#ae">But should the sun forsake <seg>the line ecliptic<note type="gloss">its orbit <bibl>(<title rend="italic">OED</title> ecliptic B.<hi rend="italic">n</hi>.1)</bibl> or apparent orbit as viewed from the earth</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Then totall Nature would be Epiliptick</rdg>
+                    <rdg wit="#ee">Then total Nature would be <seg>epileptic<note type="gloss">have a seizure</note></seg>.</rdg>
+                    <rdg wit="#ae">Then total nature would be <seg>epileptic<note type="physical">in the manuscript, this is “epiliptic”, in a full rhyme with line 5</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Just so’s our case Since Royall Charles did die</rdg>
+                    <rdg wit="#ee">Just so’s our case since royal Charles did die;</rdg>
+                    <rdg wit="#ae">Just so’s our case since <seg>royal Charles did die<note type="critical">Perhaps an allusion to the death of Christ, at which “the earth did quake, and the rocks rent” (Matthew 27:51). Pulter frequently uses the sun as a simultaneous figure for Charles (and his restoration) and Christ (and his resurrection).</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">In horrid, Trembling Trances now <seg>wee lie<note type="physical">horizontal line in lighter ink underneath</note></seg></rdg>
+                    <rdg wit="#ee">In horrid, trembling trances now we lie.</rdg>
+                    <rdg wit="#ae">In horrid, trembling trances now we lie.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft"><seg>Coye<note type="physical">in left margin, in lighter ink and different hand from main scribe: “(2)”</note></seg> Asaph may her Sparkling Spendlor hide</rdg>
+                    <rdg wit="#ee">Coy <seg>Asoph<note type="gloss">comet visible every 400 years</note> may her sparkling splendor hide</seg></rdg>
+                    <rdg wit="#ae">Coy <seg>Asoph<note type="gloss">a comet thought to be visible from earth every four hundred years</note></seg> may her sparkling splendour hide</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">&ff;our hundred years, yet wee noe change abide</rdg>
+                    <rdg wit="#ee">Four hundred years, yet we no change abide;</rdg>
+                    <rdg wit="#ae">Four hundred years, yet we no change abide,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">And <hi rend="below">^</hi><del><hi rend="above">if</hi></del> Sad Electra may her bevties turn</rdg>
+                    <rdg wit="#ee">And if sad <seg>Electra<note type="critical">one of the Pleiades, or constellation of seven stars; mythical ancestor of the Trojans, known as the “Lost Pleiad,” or she is said to have disappeared before the Trojan war to avoid seeing the ruin of her beloved city; reputed to show herself occasionally to mortal eyes only in the guise of a comet; not to be confused with the daughter of Agamemnon and Clytemnestra, sister of Orestes who persuaded her brother Orestes to kill Clytemnestra and Aegisthus (their mother’s lover) in revenge for the murder of Agamemnon</note></seg> may her beauties turn</rdg>
+                    <rdg wit="#ae">And <seg>sad Electra<note type="critical">In Greek mythology, Electra, grieving for the destruction of Troy (Ilium) and the death of her son, is transformed into a comet.</note></seg> may her beauties turn</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Away from us, yet non but Illium burn</rdg>
+                    <rdg wit="#ee">Away from us, yet none but <seg>Ilium<note type="gloss">Troy</note></seg> burn.</rdg>
+                    <rdg wit="#ae">Away from us, yet none but Ilium burn.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                   <rdg wit="#ft">But if the sun in darknes be involv’d</rdg>
+                    <rdg wit="#ee">But if the sun in darkness be <seg>involved<note type="gloss">entangled, enveloped</note></seg></rdg>
+                    <rdg wit="#ae">But if the sun in darkness be involved,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Ould Natures fabrick would bee soon dissolv’d</rdg>
+                    <rdg wit="#ee">Old Nature’s fabric would be soon dissolved.</rdg>
+                    <rdg wit="#ae">Old nature’s fabric would be soon <seg>dissolved<note type="gloss">reduced to its elements, broken up (<title rend="italic">OED</title> 1)</note>
+                    </seg>;</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">E’ne soe (Aye mee) since Sacrid Caesars death</rdg>
+                    <rdg wit="#ee">E’en so (ay me) since sacred <seg>Caesar’s<note type="gloss">epithet for King Charles</note></seg> death</rdg>
+                    <rdg wit="#ae">E’en so (aye me) since sacred <seg>Caesar<note type="critical">an epithet for Charles I, used by Pulter in many of her poems</note></seg>’s death</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Our Spirits exhale in Sighs wee turn <seg>to earth<note type="physical">horizontal line in lighter ink underneath</note></seg></rdg>
+                    <rdg wit="#ee">Our spirits exhale in sighs; we turn to earth.</rdg>
+                    <rdg wit="#ae">Our spirits exhale, in sighs we turn to earth.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft"><seg>Those<note type="physical">in left margin, in lighter ink and different hand from main scribe: “(3)”</note></seg> <seg>Oviparos<note type="physical">“O” possibly changed to “o,” or reverse</note></seg>Brothers Soe ador’d</rdg>
+                    <rdg wit="#ee">Those <seg>oviparous brothers<note type="critical">The twins, Castor and Pollux, were born out of a single egg (“oviparous” means egg-laying, which Pulter uses idiosyncratically); Zeus transformed the twins into the constellation Gemini, which navigators use to track their course.</note></seg>, so adored</rdg>
+                    <rdg wit="#ae">Those <seg>oviparous brothers<note type="critical">Castor and Pollux, twins in Greek mythology who hatched out of an egg (Pulter misuses “oviparous”, which means egg-laying). Zeus transformed them after their death into the constellation Gemini, used by navigators to find their way.</note></seg> so adored</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">By Navigators, would bee deplor’d</rdg>
+                    <rdg wit="#ee">By navigators, would be deplored</rdg>
+                    <rdg wit="#ae">By navigators, would be <seg>deplored<note type="gloss">lamented</note></seg></rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">By non but them nor doe wee care or feare</rdg>
+                    <rdg wit="#ee">By none but them, nor do we care or <seg>fear<note type="gloss">fear if</note></seg></rdg>
+                    <rdg wit="#ae">By none but <seg>them<note type="gloss">i.e. the navigators</note></seg>, nor do we care or fear</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">The one or both of them at once apeare</rdg>
+                    <rdg wit="#ee">The one, or both of them, at once appear;</rdg>
+                    <rdg wit="#ae">The one or both of them at once appear.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">But if the sun Should lose his heat and light</rdg>
+                    <rdg wit="#ee">But if the sun should lose his heat and light</rdg>
+                    <rdg wit="#ae">But if the sun should lose his heat and light</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Wee Should invaded bee with Death and Night</rdg>
+                    <rdg wit="#ee">We should invaded be with Death and Night.</rdg>
+                    <rdg wit="#ae">We should invaded be with death and night;</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Soe</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_035" n="16r"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_035"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_035"/></rdg>
+          </app>
+          <l n="23">
+                <app>
+                    <rdg wit="#ft">Soe Since our Martred Sover’ngs Spirits fled</rdg>
+                    <rdg wit="#ee">So since our martyred sovereign’s spirit’s fled,</rdg>
+                    <rdg wit="#ae">So since our martyred sovereign’s <seg>spirit’s<note type="gloss">i.e. spirit is/has</note></seg> fled</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft"><seg>Our light, and life; our hopes, and Joyes, are dead<note type="physical">the three commas in this line are added in a different ink</note></seg></rdg>
+                    <rdg wit="#ee">Our light and life, our hopes and joys, are dead.</rdg>
+                    <rdg wit="#ae">Our light and life, our hopes and joys, are dead.</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft"><seg>Nay<note type="physical">in left margin, in lighter ink and different hand from main scribe: “(4)”</note></seg> Should the Poles or Axes of the Skie</rdg>
+                    <rdg wit="#ee">Nay, should the <seg>poles or axes of the sky<note type="critical">“Poles” are the points in the celestial sphere about which stars appear to revolve or the points at which the earth’s axis meets the celestial sphere; “axis” is the imaginary line about which planets rotate.</note></seg></rdg>
+                    <rdg wit="#ae">Nay, should the <seg>poles or axes of the sky<note type="gloss">Axes are the (imaginary) lines around which planets rotate, and the poles are the ends of these axes (see <bibl><title rend="italic">OED</title> pole n.2 1a</bibl>).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Their Raidient luster unto us denie</rdg>
+                    <rdg wit="#ee">Their radiant luster unto us deny,</rdg>
+                    <rdg wit="#ae">Their radiant lustre unto us deny,</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Or Cinthia cease to wane or to increase</rdg>
+                    <rdg wit="#ee">Or <seg>Cynthia<note type="gloss">moon, named after goddess</note></seg> cease to wane or to increase,</rdg>
+                    <rdg wit="#ae">Or <seg>Cynthia<note type="gloss">the moon</note></seg> cease to wane or to increase,</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Wee Should Subsist, t’wold not disturb <w lemma="our"><abbr>o: <hi rend="superscript">r</hi></abbr></w> Peace</rdg>
+                    <rdg wit="#ee">We should subsist; t’would not disturb our peace.</rdg>
+                    <rdg wit="#ae">We should subsist, ’twould not disturb our peace.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">But Should wee loose the influence of the Sun</rdg>
+                    <rdg wit="#ee">But should we lose the influence of the sun</rdg>
+                    <rdg wit="#ae">But should we lose the influence of the sun,</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">All into Chaos instantly would run</rdg>
+                    <rdg wit="#ee">All into <seg>chaos<note type="gloss">primordial matter, nothingness</note></seg> instantly would run.</rdg>
+                    <rdg wit="#ae">All into chaos instantly would run;</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Soe Since our king’s aboue in glorys Crownd</rdg>
+                    <rdg wit="#ee">So since our king’s above—in <seg>glory’s<note type="gloss">glory is</note></seg> crowned—</rdg>
+                    <rdg wit="#ae">So since our king’s above in glories crowned,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Anarchicall confution doth Surround</rdg>
+                    <rdg wit="#ee">Anarchical confusion doth surround</rdg>
+                    <rdg wit="#ae">Anarchical confusion doth surround</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">This fatall Isle and Devils here will dwell</rdg>
+                    <rdg wit="#ee">This fatal <seg>isle<note type="gloss">England, now doomed</note>
+                    </seg>, and <seg>devils<note type="gloss">usurpers led by Cromwell</note></seg> here will dwell,</rdg>
+                    <rdg wit="#ae">This <seg>fatal isle<note type="critical">England, condemned by fate</note></seg>, and <seg>devils here will dwell<note type="critical">Eardley (ed.),<title rend="italic">Lady Hester Pulter</title>, suggests a reference to the race of rebellious giants thought to have populated the earth in ancient times, in Sandys, <title rend="italic">Metamorphoses</title>, 1; and Ovid, <title rend="italic">Metamorphoses</title> 1.151-160. See also Pulter’s “Mighty Nimrod” (Emblem 1), lines 11-17.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">As Antiantly and turn this place to Hell</rdg>
+                    <rdg wit="#ee">As <seg>anciently<note type="gloss">in ancient times</note></seg>, and turn this place to hell.</rdg>
+                    <rdg wit="#ae">As anciently, and turn this place to hell,</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Unles our God doth a second Charles illustrate</rdg>
+                    <rdg wit="#ee">Unless our God doth a <seg>second Charles illustrate<note type="critical">illumine or confer honor on the son of Charles I</note></seg>,</rdg>
+                    <rdg wit="#ae">Unless our God doth a second Charles <seg>illustrate<note type="gloss">make illustrious, confer honour upon (<title rend="italic">OED</title> v. 4)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Which (oh denie not) all our hopes are frustrate.</rdg>
+                    <rdg wit="#ee">(Which, O deny not!) all our hopes are frustrate.</rdg>
+                    <rdg wit="#ae">(Which, O deny not) all our hopes are frustrate.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="two ascending lines, in darker and lighter ink"/>
+                </rdg>
+            </app>
+            
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,273 @@
+@import "vars";
+
+.asap,
+.asap-light {
+  font-family: $pp_interfaceFont;
+}
+
+.cormorant-garamond {
+  font-family: 'Cormorant Garamond', Garamond, serif;
+  //font-family: 'Cormorant', Garamond, serif;
+}
+
+.lato {
+  font-family: Lato, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+.sssi-regular {
+  font-family: "Sssi", Garamond, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+.sssi-italic {
+  font-family: "Sssi", Garamond, serif;
+  font-style: italic;
+}
+
+.pp-action {
+  font-family: $pp_interfaceFont;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  &.ext {
+    background: $pp_RoyalBlueLight;
+    border: 1px solid #2265B3;
+    border-radius: 1px;
+    @include transition(background .2s);
+
+    &:hover {
+      background: lighten($pp_RoyalBlueLight, 3%);
+    }
+  }
+
+  &.int {
+    border-radius: 1px;
+  }
+}
+
+.by {
+  font-family: "Sssi", Garamond, serif;
+  font-style: italic;
+}
+
+.nl {
+  display: block;
+}
+
+.tac { text-align: center; }
+
+// Span rend types
+.it,
+.italic {
+  font-style: italic;
+}
+
+.bt,
+.bold {
+  font-weight: bold;
+}
+
+.reset-text {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.no-tt {
+  text-transform: none;
+}
+
+.no-ls {
+  letter-spacing: 0;
+}
+
+.pre {
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 0 .25em;
+}
+
+.place-above {
+  font-size: .5em;
+  position: relative;
+  bottom: 1em;
+}
+
+.sup {
+  vertical-align: super;
+  line-height: 100%;
+}
+
+// Footnote number
+.fn-num {
+  opacity: .5;
+  margin-left: .1em;
+}
+
+// Sizing
+.fs-08 { font-size: .8em; }
+.fs-075 { font-size: .75em; }
+.fs-066 { font-size: .66em; }
+
+.ink { color: rgba($pp_manuscriptInk, .66); }
+
+
+.pp-edition-ref {
+  font-family: $pp_originalFont;
+  color: #282828;
+  font-style: normal;
+}
+
+a.pp-poem-ref {
+  position: relative;
+  overflow: hidden;
+  font-family: "Sssi", Garamond, serif;
+  font-size: .85em;
+  cursor: pointer;
+  color: #080808;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: .12em .4em .1em 1.66em;
+  margin-left: .12em;
+  margin-right: .12em;
+  line-height: 1.5;
+  border-radius: 3px;
+  background: lighten($pp_manuscriptPaper, 15%);
+  border: 1px solid rgba($pp_manuscriptInk, .12);
+
+  &:hover {
+    border: 1px solid rgba($pp_manuscriptInk, .2);
+  }
+
+  @include transition(background .2s);
+
+  @include breakpoint(mobile) {
+    bottom: 1px;
+    letter-spacing: 0;
+  }
+
+  &::before {
+    $s: 1em;
+
+    display: inline-block;
+    content: '';
+    width: $s;
+    height: $s;
+    background: url('../../../images/pp-formal.jpg') no-repeat;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    position: absolute;
+    top: .24em;
+    left: .25em;
+
+    @include breakpoint(mobile) {
+      top: .25em;
+    }
+  }
+
+  .idx {
+    background: rgba(#080808, .1);
+    letter-spacing: 1px;
+    font-size: .66em;
+    font-family: $pp_interfaceFont;
+    color: rgba(#080808, .66);
+    text-shadow: 0 1px 0 #ddd;
+    display: inline-block;
+    padding-left: .33em;
+    padding-right: .33em;
+    text-align: center;
+    position: relative;
+    bottom: .19em;
+    border-radius: 2px;
+    margin-left: .75em;
+
+    $shadowColor: rgba(#080808, .03);
+    box-shadow:
+      inset -1px 0 0 $shadowColor,
+      inset 1px 0 0 $shadowColor,
+      inset 0 1px 0 $shadowColor,
+      inset 0 -1px 0 $shadowColor;
+  }
+
+  &:hover {
+    background: rgba($pp_manuscriptInk, .06);
+    color: #181818;
+  }
+
+  .pp-poem-ref-button {
+    font-weight: normal;
+  }
+
+  @include breakpoint(mobile) {
+    line-height: 100%;
+  }
+}
+
+.pp-poem-ref-button {
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  vertical-align: top;
+  display: inline-block;
+  padding: .33em .5em .2em .8em;
+  margin: 0 .2em;
+  border: 1px solid rgba(0, 0, 0, .9);
+  background: rgb(56,56,56);
+  background: -moz-linear-gradient(top, rgb(56,56,56) 0%, rgb(34,34,34) 100%);
+  background: -webkit-linear-gradient(top, rgb(56,56,56) 0%,rgb(34,34,34) 100%);
+  background: linear-gradient(to bottom, rgb(56,56,56) 0%,rgb(34,34,34) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#222222',GradientType=0 );
+  color: whitesmoke;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: .66em;
+  border-radius: 4px;
+  overflow: hidden;
+  text-shadow: 0 -1px 0 rgba(0, 0 ,0 , 1);
+  font-family: Lato, Arial, sans-serif;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #222222;
+  }
+
+  &:hover,
+  &:active,
+  &:visited {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  // Branding
+  &::before {
+    $s: 3.25em;
+
+    display: inline-block;
+    content: '';
+    width: $s;
+    height: $s;
+    background: url('../../../images/pulter-logo-gold-2.svg') no-repeat;
+    //background: goldenrod;
+    position: absolute;
+    z-index: -1;
+    left: -1.5em;
+    top: .15em;
+  }
+}
+
+// Hide lightbox content pieces
+.lightbox-content { display: none; }
+
+.edition-label {
+  font-family: $pp_curatorialFont;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .75em;
+  letter-spacing: 2px;
+  display: inline-block;
+}

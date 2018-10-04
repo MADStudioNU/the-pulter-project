@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.30">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Center</title>
+                 <title type="sub">Poem #30</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>light</term>
+		    <term>night</term>
+		    <term>afterlife</term>
+		    <term>thought</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_096.jpg" xml:id="f7610_096"/>
+        <graphic url="./document_images/7610_097.jpg" xml:id="f7610_097"/>
+        <graphic url="./document_images/7610_098.jpg" xml:id="f7610_098"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 14, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Scott-Baumann</persName>. Last updated <date>August 8, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#IMG" n=""/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#IMG" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#IMG" n=""/></rdg>
+            </app>
+		
+	<app>
+            <rdg wit="#ft"><fw type="catch" place="bottom">CATCHWORD</fw></rdg>
+        </app>
+            
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                   </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Center</rdg>
+                    <rdg wit="#ee">The Center</rdg>
+                    <rdg wit="#ae">The Center</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">“The Center” is one of many poems in which Pulter structures a spiritual meditation on contemporary astronomy. Here she grapples with the fundamental issue of how God, like the sun, can be at the epicenter of mortal existence when his eternal being remains necessarily elusive and confounding. Charting a dizzying series of upward and downward motions, the speaker imagines traversing and remapping the Copernican universe: the flickering stars seem to light her ascension to God, but the orbit of the Earth invisibly draws a boundary preventing her from contemplating God’s glory. She urges her soul toward the nucleus of heavenly light, then colloquially yells for her thoughts to descend to their native dust. The speaker fantasizes that the fiery sun might embrace the Earth so as to halt the revolutions that distinguish day from night, relieving humans of anxious awareness of a mortality that she depicts in eroticized terms: “Death, triumphant, doth perform his lust / Grinding (in spite) our very bones to dust.” In keeping with the vertical play in the poem, death’s pulverization quickly is reversed, as the elements of the body are raised to produce eternal praise. In fact, this conversion anticipates the speaker’s final, comforting spatial realignment. Recognizing God in the details of his animate creations, she forges a way to bridge the gap between the heavens and earth, and she uses this inspiration to create her own revolving cosmos of praise with God enthroned at its center.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                    <p>In this poem, Pulter articulates a fairly recent scientific argument, that the planets rotate around the sun. This heliocentric world view, propounded by Copernicus and developed by Galileo, had shocked many Christians by decentering the human world. Pulter adopts this avant-garde astronomy, and elegantly harnesses it to a poem that places God—like the sun—firmly at its center. She Christianizes heliocentrism by asserting that the planets rotate around the sun “[a]ccording to the great Creator’s pleasure”. As often in Pulter’s poems, she uses contemporary scientific thought to explore spiritual states and experiences. Here the speaker wishes that the sun would not only be the focal point around which earth and the planets rotate, as it is, but that it would shine constantly on earth, enabling perpetual day and banishing night’s spiritual crises. The sun’s authority in this poem is somewhat monarchical with the opening scene of a “throne[d]” (l. 5) figure receiving planets like dancers performing “according to [his] pleasure”.</p>
+                    <p>As in Margaret Cavendish’s ‘Of Stars’, Pulter’s speaker here reins in cosmological conjecture in order to refocus on God: “Halloo, my thoughts! To native earth descend; / For thy ambition in the dust must end”. Also like Cavendish, though, Pulter enjoys exploring astronomical ideas along the way: her ideas are influenced by Galileo’s <title rend="italic">Starry Messenger (Sidereus nuncius)</title>, published in 1610 and still controversial when she was writing, and Copernicus’s account of the three rotations made by the earth. Without knowing more of Pulter’s education, we do not know whether she was able to read Galileo in Italian or Latin (<title rend="italic">Sidereus nuncius</title> did not appear in English for over two centuries), or whether she gained her knowledge through English writers such as Henry More, whose <title rend="italic">Philosophical Poems</title> (1647) explicitly engaged with Galileo’s theories. On Pulter’s familiarity with the “most modern and most coherent cosmological theory of the time” (p. 4), see also Sarah Hutton, ‘Hester Pulter (c. 1596-1678): A Woman Poet and the New Astronomy’, <title rend="italic">Études Epistèmes</title>,14 (2008): 77-87 and Alice Eardley, ed. <title rend="italic">Lady Hester Pulter: Poems, Emblems, and The Unfortunate Florinda</title> (Toronto: Centre for Medieval and Renaissance Studies, 2014). On ‘dust’, see Curations for ‘The Circle [1]’ and ‘The Hope’.</p>
+                    <p>The poem’s structure and syntax are also elliptical. Pulter circles around the central subject—God—in several ways, including her syntax (the action wished-for in the opening lines is not reached until line 7, “Would clasp this globe”), and her focus on His earthly creation (cedar, daisy, elephant, whale), concluding that we can only conceive of God’s glory through the beauty of His creation (ll. 39-40). In this way, her poem enacts the instruction she gives to herself—“To native earth descend”—to explore God through more humble and indirect means.</p>
+                </note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Oh that the Splendent &amp; Illustrious Sun</rdg>
+                    <rdg wit="#ee">O that the <seg>splendent<note type="gloss">shining brightly</note></seg> and illustrious sun,</rdg>
+                    <rdg wit="#ae">Oh that the <seg>splendent<note type="gloss">shining brightly</note></seg> and <seg>illustrious<note type="gloss">eminent or renowned, and also literally, shining</note></seg> sun</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Round whom the Planets <seg>triple<add place="above">various</add><note type="physical">“various” above “triple” in different hand from main scribe or central editing hand; inverted caret below “triple”</note></seg> motions Run</rdg>
+                    <rdg wit="#ee">Round whom the planets’ <seg>triple motions<note type="gloss">Over “triple” the word “various” is written, as if a correction were being debated; “triple” motions indicates a Copernican heliocentrism comprised of the planet’s three motions (daily rotation, annual orbit, and tilting of the axis).</note></seg> run,</rdg>
+                    <rdg wit="#ae">Round whom the planets <seg>triple<note type="physical"> in the manuscript, “various” has been written above “triple”, as if a possible alternative</note></seg> <seg>motions run<note type="critical">Diurnal, annual, trepidation: around whom the planets run in three different kinds of motion: diurnal (daily; the earth’s own rotation), annual (yearly; its course around the sun) and trepidation (the tilt and oscillation of the earth on its axis), see <title rend="italic">Paradise Lost: John Milton</title>, ed. Alastair Fowler (Harlow, Essex: Longman, 1998), p. 436 and Introduction.</note></seg>:</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Diurnall, Annuall, Trepedation</rdg>
+                    <rdg wit="#ee"><seg>Diurnal<note type="gloss">daily</note></seg>, annual, <seg>trepidation<note type="gloss">shaky movement of the spheres, sometimes associated with the classical Ptolemaic view of the universe.</note></seg>,</rdg>
+                    <rdg wit="#ae">Diurnal, annual, trepidation;</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Yet that all Quickning Orb keeps Still his Station,</rdg>
+                    <rdg wit="#ee">(<seg>Yet<note type="gloss">still</note></seg> that <seg>all-quickening orb<note type="gloss">all-animating sun</note></seg> keeps still his station,</rdg>
+                    <rdg wit="#ae">Yet that <seg>all quick’ning<note type="gloss">all quick’ning: which quickens, gives life to, all</note></seg> orb keeps still his station,</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Whilst they about his Throne Dance each his<add place="below">^</add><add place="above">measure</add></rdg>
+                    <rdg wit="#ee">Whilst they about his throne dance each his <seg>measure<note type="gloss">dance; rhythmical movement, as in poetry; course of action</note></seg>,</rdg>
+                    <rdg wit="#ae">Whilst they about his throne dance each his <seg>measure<note type="gloss">a slow and stately dance</note></seg></rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">According to the Great Creators pleaſure,</rdg>
+                    <rdg wit="#ee">According to the Great Creator’s pleasure):</rdg>
+                    <rdg wit="#ae">According to the great Creator’s pleasure;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Oh that his Influence, his Heat, his Light,</rdg>
+                    <rdg wit="#ee"><seg>O that his influence<note type="gloss">The speaker wishes the sun would embrace or hold still the Earth (“clasp this globe”) to prevent night from influencing events on Earth.</note></seg>, his heat, his light</rdg>
+                    <rdg wit="#ae">Oh that His <seg>influence<note type="gloss">as well as its modern meaning of an unseen effect, this term had a more specific astrological meaning, of an ethereal fluid flowing from the stars and acting upon humankind.</note></seg>, His heat, His light,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Would clasp this Globe, that theſe Sad Shades<add place="below">^</add><add place="above">of Night</add></rdg>
+                    <rdg wit="#ee">Would clasp this <seg>globe<note type="gloss">Earth</note></seg>, <seg>that<note type="gloss">so that</note></seg> these sad shades of night</rdg>
+                    <rdg wit="#ae">Would clasp this globe, that these sad shades of night</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Might this our <seg>Horiscope<note type="physical">blot after “r” suggests “o” revised to “i” or “i” to “o”</note></seg> involve noe more</rdg>
+                    <rdg wit="#ee">Might this our horoscope involve no more,</rdg>
+                    <rdg wit="#ae">Might this our <seg>horoscope<note type="gloss">configurations of the planets in the sky at a given moment</note></seg> <seg>involve<note type="gloss">envelop</note></seg> no more;</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Nor mee the loſs of Day, Soe oft deplore,</rdg>
+                    <rdg wit="#ee">Nor me the loss of day so oft deplore.</rdg>
+                    <rdg wit="#ae">Nor me the loss of day, so oft deplore.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Now half our time in horrid Night is lost,</rdg>
+                    <rdg wit="#ee">Now half our time in horrid night is lost;</rdg>
+                    <rdg wit="#ae">Now half our time in horrid night is lost,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">The other halfe twixt hope and feare is tost,</rdg>
+                    <rdg wit="#ee">The other half, ’twixt hope and fear, is tossed</rdg>
+                    <rdg wit="#ae">The other half ’twixt hope and fear is tossed,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Till paine and Griefe (oh curst com̄unian</rdg>
+                    <rdg wit="#ee">Till pain and grief (O cursed <seg>communion<note type="critical">mutual participation; the yoking of body and soul through emotion trades on more specific meanings of this word: of church fellowship and the sacrament of the Eucharist (eating the body and blood of Jesus).</note></seg></rdg>
+                    <rdg wit="#ae">Till pain and grief (oh cursed <seg>communion<note type="gloss">union (a “cursed Communion” because pain affects the body, grief the mind)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Twixt Soule and body) doth diſſolv <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Union,</rdg>
+                    <rdg wit="#ee">Twixt soul and body) doth dissolve the union.</rdg>
+                    <rdg wit="#ae">’Twixt soul and body) doth dissolve the union.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Then Death Triumphant doth perform his lust</rdg>
+                    <rdg wit="#ee">Then Death, triumphant, doth perform his <seg>lust<note type="gloss">desire, appetite</note></seg>,</rdg>
+                    <rdg wit="#ae">Then Death, triumphant, doth perform his <seg>lust<note type="gloss">what he wishes</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Grindeing in (Spight) our very <seg>Bones<note type="physical">“B” appears written over earlier letter (“S” or “ſ”), and “e” o have “l” beneath</note></seg> to dust,</rdg>
+                    <rdg wit="#ee">Grinding, in spite, our very bones to <seg>dust<note type="gloss">primal material elements</note></seg>,</rdg>
+                    <rdg wit="#ae">Grinding (in spite) our very bones to dust,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Then shuts us in Oblivions Sable Womb</rdg>
+                    <rdg wit="#ee">Then shuts us in Oblivion’s <seg>sable<note type="gloss">black</note></seg> womb,</rdg>
+                    <rdg wit="#ae">Then shuts us in Oblivion’s <seg>sable<note type="gloss">black (this sense originates in heraldry, OED)</note></seg> womb,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Our infant Cradle, now our Ages Tomb,</rdg>
+                    <rdg wit="#ee"><seg>Our infant cradle, now our age’s tomb,<note type="gloss">the primal and obscure nothingness of the material world as compared to heavenly eternity</note></seg></rdg>
+                    <rdg wit="#ae">Our infant cradle, now our age’s tomb,</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Till infinite Power and Love <w lemma="our"><abbr>o:<hi rend="superscript">r</hi></abbr></w> dust Shall raiſe</rdg>
+                    <rdg wit="#ee">Till infinite power and love our dust shall raise,</rdg>
+                    <rdg wit="#ae">Till infinite power and love our dust shall raise</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">To Sing in Joys his everlasting Praiſe,</rdg>
+                    <rdg wit="#ee">To sing, in <seg>joys<note type="gloss">expressions of joy</note></seg>, His everlasting praise.</rdg>
+                    <rdg wit="#ae">To sing in joys His everlasting praise.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">but</fw></rdg>
+            </app>
+            <pb n="47r"/>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">But though the Sun bee Center unto all</rdg>
+                    <rdg wit="#ee">But though the sun be center unto all,</rdg>
+                    <rdg wit="#ae">But though the sun be center unto all</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">And our earths motion makes him Riſe <seg>and<note type="physical">“nd” written over two illegible letters</note></seg> fall</rdg>
+                    <rdg wit="#ee">And our earth’s motion makes him <seg>rise and fall<note type="gloss">The Earth’s turning creates the appearance of the sun’s movement.</note></seg>,</rdg>
+                    <rdg wit="#ae">And our earth’s motion makes him rise and fall</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Yet! Must his Orb confine my thoughts alsoe</rdg>
+                    <rdg wit="#ee">Yet must his <seg>orb<note type="gloss">the sun and the circular sphere around it subject to its influence</note></seg> confine my thoughts also?</rdg>
+                    <rdg wit="#ae">Yet must his orb confine my thoughts also,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Must they (aye! mee) must they noe higher goe,</rdg>
+                    <rdg wit="#ee">Must they (ay me!), must they no higher go?</rdg>
+                    <rdg wit="#ae">Must they (ay me) must they no higher go?</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Since first I saw a Glimps of Heavenly Joy</rdg>
+                    <rdg wit="#ee">Since first I saw a glimpse of heavenly joy,</rdg>
+                    <rdg wit="#ae">Since first I saw a glimpse of heavenly joy,</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Mee thinks this World is but a trundleing toy</rdg>
+                    <rdg wit="#ee">Methinks this world is but a trundling <seg>toy<note type="gloss">trivial amusement</note></seg>;</rdg>
+                    <rdg wit="#ae">Methinks this world is but a <seg>trundling<note type="gloss">with wheels, rolling along a surface</note></seg> <seg>toy<note type="gloss">a child’s plaything; a trifle, of little importance; a curiosity</note></seg></rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">And all those Glittring Globes that shine like <seg>fier<add place="below">^</add><add place="above">r</add><note type="physical">first “r” nearly indiscernible</note></seg></rdg>
+                    <rdg wit="#ee">And all those glitt’ring <seg>globes<note type="gloss">stars</note></seg> that shine like fire</rdg>
+                    <rdg wit="#ae">And all those glitt’ring <seg>globes<note type="gloss">stars</note></seg> that shine like fire</rdg> 
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Are Lights hung out to <seg>Light<add place="above">guid</add><note type="physical">“guid” above “Light” in different hand from main scribe and lighter ink; inverted caret below “Light”</note></seg> my thoughts up <add place="above">higher,</add></rdg>
+                    <rdg wit="#ee">Are lights hung out to <seg>light<note type="physical">The word “guide” is written above “light,” as if a possible correction.</note></seg> my thoughts up higher,</rdg>
+                    <rdg wit="#ae">Are lights hung out to <seg>light<note type="physical">n the manuscript, “guide” has been written above “light” , as if a possible alternative (perhaps to avoid repetition)</note></seg> my thoughts up higher</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">To him that doth the Univerſ involve</rdg>
+                    <rdg wit="#ee">To Him that doth the universe <seg>involve<note type="gloss">encircle, entangle</note></seg>,</rdg>
+                    <rdg wit="#ae">To Him that doth the universe <seg>involve<note type="gloss">envelop, include</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">Whose word creates, whoſe breath doe all diſſolv,</rdg>
+                    <rdg wit="#ee"><seg>Whose Word creates, whose breath do all dissolve,<note type="critical">See John 1:1-3: “In the beginning was the word, and the word was with God, and the word was God ... All things were made by him.”</note></seg></rdg>
+                    <rdg wit="#ae">Whose word creates, whose breath do all dissolve,</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Even him that totall Nature doth surround</rdg>
+                    <rdg wit="#ee">Even Him that total nature doth surround,</rdg>
+                    <rdg wit="#ae"><seg>Even Him that total nature doth surround,<note type="critical">here, and in the previous lines, there is some ambiguity about what is enveloped by what, playing to the poem’s wider exploration of heliocentric and geocentric models of the universe and God’s place in (or above) these models</note></seg></rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">The thought of whom doth my poor <seg>Soul con<add place="above">found</add><note type="physical">imperfectly erased comma or insertion mark between these two words</note></seg></rdg>
+                    <rdg wit="#ee">The thought of whom doth my poor soul confound.</rdg>
+                    <rdg wit="#ae">The thought of whom doth my poor soul confound,</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Ay mee! who can inviſable light behould</rdg>
+                    <rdg wit="#ee">Ay me! Who can invisible light behold,</rdg>
+                    <rdg wit="#ae">Ay me! who can invisible light behold,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Or can Eternity his Age be told</rdg>
+                    <rdg wit="#ee">Or can eternity’s age be told?</rdg>
+                    <rdg wit="#ae">Or can eternity His age be told?</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">If I to contemplate his Glory venter</rdg>
+                    <rdg wit="#ee">If I, to contemplate His glory, venture,</rdg>
+                    <rdg wit="#ae">If I to contemplate His glory venture,</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Rottennes into my bones doth enter</rdg>
+                    <rdg wit="#ee">Rottenness into my bones doth enter.</rdg>
+                    <rdg wit="#ae">Rottenness into my bones doth enter.</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Holoo my thoughts to native earth deſcend</rdg>
+                    <rdg wit="#ee"><seg>Hollo<note type="gloss">a loud shout to get attention; the speaker is insisting that her thoughts return to earth.</note></seg>! my thoughts, to native earth descend;</rdg>
+                    <rdg wit="#ae"><seg>Halloo<note type="gloss">shout, holler, call for attention; here the speaker is summoning her thoughts</note></seg>, my thoughts! To native earth descend;</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">ffor thy Ambition in the dust must end</rdg>
+                    <rdg wit="#ee">For thy ambition in the <seg>dust<note type="gloss"> See Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> must end.</rdg>
+                    <rdg wit="#ae">For thy ambition in the dust must end.</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Yet wee may by the <seg>beuty<note type="physical">“b” written over imperfectly erased “d” with “e” over lower part of same</note></seg> of the Creature</rdg>
+                    <rdg wit="#ee"><seg>Yet<note type="gloss">still</note></seg> we may, by the beauty of the creature,</rdg>
+                    <rdg wit="#ae">Yet we may, by the beauty of the creature,</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">Conceive the Glory of the Great Creator</rdg>
+                    <rdg wit="#ee">Conceive the glory of the Great Creator,</rdg>
+                    <rdg wit="#ae">Conceive the glory of the great Creator,</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">He whoſe incomprehenſible power</rdg>
+                    <rdg wit="#ee">He whose incomprehensible power</rdg>
+                    <rdg wit="#ae">He whose incomprehensible power</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Did make the Talest <add place="below">^</add><add place="above">Tree</add> and Smalest fflower</rdg>
+                    <rdg wit="#ee">Did make the tallest tree and smallest flower,</rdg>
+                    <rdg wit="#ae">Did make the tallest tree and smallest flower,</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">even</fw></rdg>
+            </app>
+            <pb n="47v"/>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Even lofty Cœdars that on Mountains <add place="above">Grow</add></rdg>
+                    <rdg wit="#ee">Even lofty cedars that on mountains grow</rdg>
+                    <rdg wit="#ae">Even lofty cedars that on mountains grow</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">And humble Daiſies which in valleys blow</rdg>
+                    <rdg wit="#ee">And humble daisies which in valleys blow.</rdg>
+                    <rdg wit="#ae">And humble daisies which in valleys blow.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">The Elaphant and Whale, hee doth diſſect</rdg>
+                    <rdg wit="#ee">The elephant and whale, He doth <seg>dissect<note type="gloss">examine minutely</note></seg>,</rdg>
+                    <rdg wit="#ae">The elephant and whale, <seg>He doth dissect<note type="gloss">cut up in order to understand; analyse closely; anatomise. God scrutinises the whole scale of animalkind from the elephant and whale to the lowliest reptile and insect</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">The Deſpecablest Reptell or incect</rdg>
+                    <rdg wit="#ee"><seg>The<note type="gloss">And the</note></seg> despicablest reptile or insect.</rdg>
+                    <rdg wit="#ae">The despicablest reptile or insect.</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">Then will I <seg>heere<note type="physical">“e” written over other letter, likely “a”</note></seg> my few and evill dayes</rdg>
+                    <rdg wit="#ee">Then will I here, my few and evil days,</rdg>
+                    <rdg wit="#ae"><seg>Then will I here my few and evil days<note type="gloss"> that is, “Then I will, while I am here on earth for few and evil days.” The latter phrase referring to Jacob: “And Pharaoh said unto Jacob, How old art thou? And Jacob said unto Pharaoh … few and evil have the days of the years of my life been” (Genesis 47: 8-9)</note></seg></rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">Make him the Summe and Center of my <add place="below">^</add><add place="above">Praiſe</add>.</rdg>
+                    <rdg wit="#ee">Make Him the sum and center of my praise.</rdg>
+                    <rdg wit="#ae">Make Him the sum and center of my praise.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

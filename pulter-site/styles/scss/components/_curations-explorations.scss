@@ -1,0 +1,706 @@
+/* Curation content styles */
+$themeColor: #ece9e2;
+
+.featherlight.curation .featherlight-content,
+.curation-page,
+.exploration-page {
+  font-size: ms(0);
+  border: none;
+  max-height: 100%;
+  background: #ece9e2;
+  padding: 0 6em 0 3em;
+  border-top: 4px solid rgba($pp_shinyGold, 1);
+  width: 100%;
+  max-width: 40em;
+  border-radius: 1px;
+
+  // Curation spinner element
+  .spinner {
+    font-style: italic;
+    font-family: "Sssi", Garamond, serif;
+    font-size: .85em;
+    color: rgba($pp_manuscriptInk, .5);
+    margin-bottom: 2em;
+    margin-top: 2.5em;
+
+    &::before {
+      $size: 1.2em;
+
+      content: '';
+      display: inline-block;
+      vertical-align: top;
+      width: $size;
+      height: $size;
+      background: url('/images/pp-formal.jpg') no-repeat 0 0;
+      background-size: $size $size;
+      overflow: hidden;
+      border-radius: 1px;
+      margin-right: 1em;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    padding: 0 1.5em 0 1.5em;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #content {
+    position: relative;
+    padding-bottom: 6em;
+    padding-top: 7em;
+    font-size: .9em;
+
+    @include breakpoint(mobile) {
+      padding-top: 9.5em;
+    }
+
+    &::after {
+      $size: 2em;
+
+      position: absolute;
+      bottom: 2.25em;
+      left: 0;
+      content: '';
+      display: inline-block;
+      width: $size;
+      height: $size;
+      background: url('/images/macron.svg') no-repeat 0 50%;
+      background-size: $size;
+      overflow: hidden;
+      border-radius: 1px;
+    }
+  }
+
+  header {
+    margin-bottom: 2em;
+    max-width: 80%;
+
+    @include breakpoint(mobile) { max-width: 100%; }
+
+    // Title
+    .t {
+      font-size: ms(0);
+      font-weight: 600;
+      color: $pp_manuscriptInk;
+
+      &::before {
+        $size: .66em;
+
+        content: '';
+        width: $size;
+        height: $size;
+        background: url('/images/pp-formal.jpg') no-repeat 0 0;
+        background-size: $size $size;
+        display: block;
+        margin-bottom: 1em;
+      }
+    }
+
+    // Subtitle
+    .subtitle {
+      //font-size: ms(-2);
+      font-size: 1em;
+      margin-top: .5em;
+      color: rgba($pp_manuscriptInk, 1);
+    }
+  }
+
+  main {
+    font-size: .9em;
+    line-height: 1.61;
+    max-width: 90%;
+
+    @include breakpoint(mobile) { max-width: 100%; }
+
+  }
+
+  // Sub-title
+  //.st {
+  //  font-size: ms(-1);
+  //  font-weight: 600;
+  //  margin-top: 3em;
+  //  margin-bottom: 1.5em;
+  //
+  //  & + .q {
+  //    margin-top: 0;
+  //  }
+  //}
+
+  .by-line {
+    display: inline-block;
+    font-size: 1em;
+    color: rgba($pp_manuscriptInk, .75);
+    margin-top: .66em;
+    font-family: $pp_curatorialFont;
+    font-style: italic;
+
+    .by {
+      font-family: $pp_curatorialFont;
+    }
+  }
+
+  p {
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    color: #282828;
+
+    &.ind {
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 2em;
+      }
+    }
+
+    &.ind-3 {
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 3em;
+      }
+    }
+  }
+
+  .q {
+    border-radius: 3px;
+    margin: 3em 0 0 0;
+    //padding: 2.5em 2.5em 2em 2.5em;
+    padding: 2.5em 4.5em 2em 2.5em;
+    max-width: 90%;
+    background: rgba(255, 255, 255, .66);
+    font-family: "Cormorant Garamond", Garamond, sans-serif;
+    font-size: .95em;
+    display: inline-block;
+
+    @include breakpoint(mobile) {
+      max-width: 100%;
+      display: block;
+      margin-left: 0;
+      padding: 2em;
+    }
+
+    .title {
+      width: 80%;
+      font-size: 1em;
+      margin-bottom: 1em;
+      margin-top: 2.25em;
+      font-family: "Sssi", Garamond, serif;
+
+      &.first {
+        margin-top: 0;
+      }
+    }
+
+    p {
+      font-size: 1em;
+      margin-bottom: 1em;
+      line-height: 1.5;
+    }
+
+    .lg {
+      list-style: none;
+      position: relative;
+
+      &:not(:last-of-type) {
+        margin-bottom: 1em;
+      }
+
+      .l {
+        position: relative;
+
+        .n {
+          display: inline-block;
+          position: absolute;
+          font-family: Asap, Arial, sans-serif;
+          color: rgba(#282828, .33);
+          font-size: .6em;
+          left: -3em;
+          text-align: right;
+          width: 2em;
+          line-height: 2.7em;
+        }
+
+        // Indented lines
+        &.t-1 { padding-left: 1em; }
+        &.t-2 { padding-left: 2em; }
+        &.t-3 { padding-left: 3em; }
+        &.t-4 { padding-left: 4em; }
+        &.t-5 { padding-left: 5em; }
+        &.t-6 { padding-left: 6em; }
+        &.t-7 { padding-left: 7em; }
+        &.t-8 { padding-left: 8em; }
+        &.t-9 { padding-left: 9em; }
+        &.t-10{ padding-left: 10em; }
+        &.t-11{ padding-left: 11em; }
+        &.t-12{ padding-left: 12em; }
+      }
+
+      // Ellipses
+      .ell {
+        //background: lemonchiffon;
+
+        span {
+          color: rgba($pp_manuscriptInk, .66);
+          position: relative;
+          bottom: .25em;
+        }
+
+        //&.init,
+        &.term {
+          line-height: .75em;
+        }
+
+        &.init {
+          margin-top: 1.5em;
+
+          span {
+            //bottom: .6em;
+            bottom: .25em;
+          }
+        }
+
+        &.term {
+          span { bottom: -1px; }
+        }
+      }
+    }
+
+    // Wider quotations
+    &.wide {
+      max-width: 100%;
+      padding-right: 1em;
+    }
+
+    // Qs with sidenotes
+    &.wsn {
+      .sidenote {
+        color: $pp_manuscriptInk;
+        font-size: .7em;
+        position: absolute;
+        right: 0;
+        @include vcenter;
+      }
+
+      &.wsn-35 {
+        $s: 35%;
+
+        .sidenote { width: $s; }
+        .l {
+          padding-right: $s;
+        }
+      }
+
+      &.wsn-25 {
+        $s: 25%;
+
+        .sidenote { width: $s; }
+        .l {
+          padding-right: $s;
+        }
+      }
+
+      &.wsn-15 {
+        $s: 15%;
+
+        .sidenote { width: $s; }
+        .l {
+          padding-right: $s;
+        }
+      }
+
+      .src {
+        .sidenote {
+          letter-spacing: 0;
+          text-transform: none;
+          font-family: $pp_poetryFont;
+          font-size: 1em;
+        }
+      }
+    }
+
+    // Inline gloss notes
+    .ign {
+      color: #666;
+      font-size: .8em;
+      font-family: 'Lato', Arial, sans-serif;
+    }
+
+    .src {
+      font-size: 1em;
+      border: none;
+      padding: 0;
+    }
+
+    .q-block {
+      padding: 0;
+      font-size: .7em;
+      max-width: 90%;
+      font-weight: normal;
+      display: block;
+      font-family: Lato, Arial, sans-serif;
+      margin-bottom: 2.25em;
+
+      @include breakpoint(mobile) {
+        max-width: 100%;
+      }
+
+      .src {
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: rgba($pp_manuscriptInk, .75);
+        margin: 0;
+
+        &:not(:first-child) {
+          margin-top: 1em;
+        }
+
+        &::before {
+          content: '';
+          width: 0;
+          height: 0;
+          display: none;
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      &.bottom {
+        margin-top: 2.25em;
+        padding-top: 1.33em;
+        margin-bottom: 0;
+        border-top: 1px solid rgba($pp_manuscriptInk, .08);
+        max-width: 90%;
+
+        .src {
+          font-weight: normal;
+          text-transform: none;
+          letter-spacing: normal;
+        }
+      }
+    }
+
+    //& + .q {}
+  }
+
+  // Standalone source statements
+  .src {
+    display: block;
+    border: none;
+    margin: .85em 0 0 0;
+    padding: 0;
+    font-size: .9em;
+    text-transform: none;
+    letter-spacing: 0;
+    color: $pp_manuscriptInk;
+
+    &:before {
+      content: 'Source:';
+      margin-right: .5em;
+      display: inline-block;
+      vertical-align: baseline;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: .75em;
+      letter-spacing: 2px;
+      color: rgba($pp_manuscriptInk, .66);
+    }
+
+    //todo: decide about the formatting for these
+    //a {
+    //  color: #aaa;
+    //}
+  }
+
+  // todo: maybe in the future
+  //.quote {
+  //  font-size: .9em;
+  //  text-transform: none;
+  //  letter-spacing: 0;
+  //  border-left: 3px solid rgba($pp_manuscriptInk, .66);
+  //  padding-left: 1em;
+  //  color: $pp_manuscriptInk;
+  //}
+
+  p + .q {
+    margin-top: 1.5em;
+  }
+
+  .q + p {
+    margin-top: 3em;
+  }
+
+  .img-box {
+    margin: 3em 0 2em 0;
+    padding-left: 1em;
+
+    @include breakpoint(mobile) {
+      padding: 0;
+    }
+
+    img {
+      margin-bottom: 0;
+    }
+
+    .caption {
+      font-size: .8em;
+      width: 90%;
+      margin: 2em 0 1.5em 0;
+      color: rgba(0, 0, 0, .9);
+      line-height: 1.5;
+      //font-style: italic;
+      text-transform: none;
+      letter-spacing: 0;
+      //border-left: 4px solid rgba($pp_manuscriptInk, .66);
+      //padding-left: 1em;
+
+      &::before {
+        font-size: 1em;
+        display: inline-block;
+        content: '⬆';
+        color: rgba($pp_manuscriptInk, 1);
+        margin-right: .5em;
+      }
+    }
+
+    .src {
+      font-size: .8em;
+      width: 90%;
+      margin: 1.5em 0;
+    }
+  }
+
+  img {
+    display: block;
+    margin: 3em 0;
+    max-width: 90%;
+    max-height: 100vh; // todo: interesting idea?
+    border: 1px solid rgba(#282828, .15);
+
+    @include breakpoint(mobile) { max-width: 100%; }
+  }
+  
+  // Numbered lists
+  //ol {
+  //  margin-left: 1.5em;
+  //}
+
+  // Lists
+  .src-list {
+    font-size: .9em;
+    color: $pp_manuscriptInk;
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  // Headings
+  h3 {
+    font-family: $pp_curatorialFont;
+    font-weight: bold;
+    margin: 3em 0 1.5em 0;
+  }
+
+  h4 {
+    font-family: $pp_curatorialFont;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+
+    &:not(:first-child) {
+      margin-top: 3em;
+    }
+  }
+
+  // Tables
+  table {
+    font-size: .9em;
+
+    &.col-2 {
+      tr {
+
+        &:not(:last-child) {
+          td {
+            padding-bottom: 1.5em;
+          }
+        }
+
+        td {
+          width: 50%;
+          vertical-align: top;
+
+          &:first-child {
+            padding-right: .75em;
+          }
+
+          &:last-child {
+            padding-left: .75em;
+          }
+        }
+      }
+    }
+  }
+
+  // Footnote
+  .footnote {
+    $factor: .8em;
+
+    border-radius: 0 0 2px 2px;
+    background: rgba($pp_manuscriptInk, .04);
+    margin: 0 0 3em/$factor + em 0;
+    font-size: $factor;
+    color: $pp_manuscriptInk;
+    padding: 1.5em / $factor + em;
+
+    p {
+      margin-bottom: 0;
+      max-width: 100%;
+    }
+  }
+
+  // Poem reference
+  .poem-ref {
+    background: rgba(#282828, .06);
+    font-size: ms(-3);
+    padding: 1.5em 10em 1.25em 4em;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+
+    @include breakpoint(mobile) {
+      padding-left: 2em;
+      padding-right: 9em;
+    }
+
+    .idx,
+    .t {
+      display: inline-block;
+    }
+
+    .idx {
+      font-size: .75em;
+      color: rgba($pp_manuscriptInk, .66);
+      margin-right: .75em;
+    }
+
+    .t {
+      display: inline;
+      color: #282828;
+      font-family: "Sssi", Garamond, serif;
+      font-smooth: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      @include transition(color .2s);
+    }
+
+    @include breakpoint(mobile) {
+      &::before {
+        display: block;
+      }
+
+      &::before {
+        margin-bottom: .5em;
+      }
+
+      .idx { margin-right: .66em; }
+    }
+  }
+
+  .pp-poem-ref {
+    color: #080808;
+    font-size: .9em;
+    bottom: 1px;
+    border: 1px solid rgba($pp_manuscriptInk, .15);
+    background: lighten($pp_manuscriptPaper, 18%);
+
+    &:hover {
+      background: #fff;
+      border: 1px solid rgba($pp_manuscriptInk, .2);
+    }
+  }
+
+  // Dismiss action
+  #content .dismiss {
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    top: 1.25em;
+    right: -3em;
+    opacity: .2;
+    @include transition(opacity .2s);
+
+    @include breakpoint(mobile) {
+      top: 1.5em;
+      right: 1.5em;
+    }
+
+    &:hover {
+      opacity: .66;
+    }
+
+    &::after {
+      $size: 1.15em;
+
+      display: inline-block;
+      content: '';
+      position: fixed;
+      width: $size;
+      height: $size;
+      background: url('/images/close.png') no-repeat 0 0;
+      background-size: $size;
+    }
+
+    @include breakpoint(mobile) {
+      &::after {
+        $size: 1.5em;
+
+        width: $size;
+        height: $size;
+        background-size: $size;
+      }
+    }
+  }
+}
+
+// Standalone pages overrides
+.curation-page,
+.exploration-page {
+  border-radius: 0;
+  width: 60%;
+  max-width: 40em;
+  margin: 0 auto;
+
+  @include breakpoint(mobile) {
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .dismiss { display: none; }
+
+  header {
+    @include breakpoint(mobile) {
+      .t {
+        font-size: ms(-1);
+        line-height: 1.4;
+      }
+    }
+  }
+
+  #content {
+    padding-top: 3em;
+
+    main {
+      .q { max-width: 75%;}
+    }
+
+    @include breakpoint(mobile) {
+      padding: 1em;
+    }
+  }
+}

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.35">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Pismire</title>
+                <title type="sub">Poem #35</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>ants</term>
+                    <term>emblems</term>
+                    <term>labor</term>
+                    <term>earth</term>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_109.jpg" xml:id="f7610_109"/>
+        <graphic url="./document_images/7610_110.jpg" xml:id="f7610_110"/>
+        <graphic url="./document_images/7610_111.jpg" xml:id="f7610_111"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>June 7, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft">
+                    <pb ed="#ft" facs="#f7610_109" n="53r"/>
+                </rdg>
+                <rdg wit="#ee">
+                    <pb ed="#ee" facs="#f7610_109"/>
+                </rdg>
+                <rdg wit="#ae">
+                    <pb ed="#ae" facs="#f7610_109"/>
+                </rdg>
+            </app>
+
+                <head>
+                    <app type="title">
+                        <rdg wit="#ft">
+                            <fw facs="#f7610_109" type="pageNum" place="margin-topright">101</fw>
+                            <seg>The Pismire<note type="physical">previous poem conlcudes at top of page</note></seg>
+                        </rdg>
+                        <rdg wit="#ee"><seg>The Pismire<note type="gloss">the ant; or an insignificant person or person exhibiting behaviour or habits usually associated with the ant</note></seg></rdg>
+                        <rdg wit="#ae">The Pismire</rdg>
+                    </app>
+                    <app type="editorialnote">
+                        <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                            the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                            as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                            capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                            and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                            superscript and subscript representations are retained.
+                            <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                                conventions for the transcriptions here.</ref></note></rdg>
+                        <rdg wit="#ee"><note type="editorialnote">
+                            The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                            which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                            punctuation reflect current standard American usage; punctuation highlights syntax which might
+                            otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                            modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                            aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                            Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                            allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                            possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                            material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                            Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                            edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                            result is an edition we consider a springboard for further work on Pulter’s poetry.
+                            <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                                for this edition here.</ref></note>
+                        </rdg>
+                        <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief marginal glosses. Then I use the notes and the materials I gather for the “curations” section to place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note>
+                        </rdg>
+                    </app>
+                    <app type="headnote">
+                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ee">
+                            <note type="headnote">Although not in the “Emblems” section of Pulter’s manuscript, partway through this poem the troubled speaker deliberately shifts into an emblematic way of seeing and writing about the world, in part to distract her from her melancholic thoughts. She thus spots (and then depicts) a busy anthill from which she extrapolates macrocosmic reflections. Instead of distracting her, though, the microcosm of laboring ants—whose tasks range from parenting to bringing in the harvest—largely and dispiritingly echoes the human world. Only a few shining-winged insects on “perpetual holiday” function, proleptically, as emblems of the winged soul, by which means the speaker longingly anticipates leaving earth’s dusty toil. Packed into this short poem are several unexpected shifts in the visual frame, with an initial bout of introspection replaced by a close-up of the natural world, which in turn precedes the imagined (and desired) “distance” of a heavenly perspective.</note>
+                        </rdg>
+                        <rdg wit="#ae"><note type="headnote">Although Pulter’s manuscript includes this among the poems rather than the emblems, “The Pismire” reflects on its own status as emblem in line 28. Many of Pulter’s emblems announce their subject in the first line, often inviting the reader to “see,” “behold,” “mark,” or “view” what is being described. Here, the speaker does not “look about” until line 17 and finally sees the hill of pismires in line 20. While Pulter’s poem uses the pismire to describe the futility of endless earthly labors, a long tradition beginning with Aesop and Proverbs praises the pismire’s careful planning and hard work. As the texts in “Curations” indicate, the “behavior and habits” of ants were often set out as models for humans. For Thomas Moffett, for instance, the pismire, “this divine little creature,” is superior to humans because cleaner and harder working. It is “an emblem of divine providence, and labor, and of household care.” (See Moffett’s chapter on “the commendation of pismires” in his <title rend="italic">Theatre of Insects</title> [1634], included in “Curations.”) The pismire’s tiny size could make it seem insignificant; by the sixteenth century, the word could be used as an insult for “an insignificant person; a person exhibiting behavior or habits usually associated with the ant” <title rend="italic">OED</title>). The pismire's very name evokes both urine and mire, or swampy ground in which "a person may  be engulfed or become stuck fast." But the ant’s tiny size might also make its tireless industry even more impressive and heighten the contrast to humans. As John Bunyan puts it in a verse for children, “Man’s a fool, / Or silly ants would not be made his guide” (“Curations”). Pulter, however, overturns the conventional meaning of the pismire, taking it as a negative rather than positive example. The speaker’s description of his or her mind as “busy” (line 27) links the “I” to the pismire’s proverbial industry and perhaps the slave’s drudgery.  For the link between the pismire and the housewife, see the epistle “To the Gentlewoman Reader” in Richard Brathwaite, <title rend="italic">The English gentlewoman</title> (London, 1631): “She distastes none more than these busy housewives, who are ever running into discourse of others’ families, but forget their own. Neither holds she it sufficient to be only a housekeeper; or snail-like to be still under roof; she partakes therefore of the pismire in providing, of the Sarreptan widow [Kings 17], in disposing, holding ever an absent providence better than an improvident presence.</note></rdg>
+                    </app>
+                </head>
+            <lg>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft"><seg> <note type="physical">Previous poem concludes at top of page.</note></seg>Walking a b<add place="below">^</add><add place="above">r</add>oad once in a <w lemma="summers">Su<hi rend="overline">m</hi>ers</w> day,</rdg>
+                    <rdg wit="#ee">Walking abroad, once in a summer’s day,</rdg>
+                    <rdg wit="#ae">Walking abroad once in a summer’s day,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft"><seg><handShift/>And<note type="physical">in left margin, written in hand H2</note></seg><handShift/> (As I well remember twas) in May.</rdg>
+                    <rdg wit="#ee">And (as I well remember) ’twas in May,</rdg>
+                    <rdg wit="#ae">And (as I well remember) ’twas in May,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Beeing tird with fancies, &amp; my panting Breast</rdg>
+                    <rdg wit="#ee">Being tired with fancies, and my panting breast</rdg>
+                    <rdg wit="#ae">Being tired with fancies, and my panting breast</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Beeing full of trouble, I lookt where I might Rest.</rdg>
+                    <rdg wit="#ee">Being full of trouble, I looked where I might rest.</rdg>
+                    <rdg wit="#ae">Being full of trouble, I looked where I might rest.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Then down I threw my Selfe upon <w lemma="the"><abbr>y<hi
+                        rend="superscript">e</hi></abbr></w> Graſs,</rdg>
+                    <rdg wit="#ee">Then down I threw myself upon the grass;</rdg>
+                    <rdg wit="#ae">Then down I threw myself upon the grass;</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Som Solitary<add place="below">^</add><add place="above">howrs</add> I thought to paſs,</rdg>
+                    <rdg wit="#ee">Some solitary hours I thought to pass.</rdg>
+                    <rdg wit="#ae">Some solitary hours I thought to pass.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Leaning my head against a Siccamoore,</rdg>
+                    <rdg wit="#ee">Leaning my head against a sycamore,</rdg>
+                    <rdg wit="#ae">Leaning my head against a sycamore,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">My heavy eyes upon the Ground did pore;</rdg>
+                    <rdg wit="#ee">My heavy eyes upon the ground did pore.</rdg>
+                    <rdg wit="#ae">My heavy eyes upon the ground did pore.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Muſe</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_110" n="53v"/>
+                    <!-- where do I put the folio number ? -->
+                    <fw facs="#f7610_110" type="pageNum" place="margin-tople#ft"
+                        ><!-- in ink -->102</fw>
+                </rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_110"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_110"/></rdg>
+            </app>
+            <lg>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Muſeing and looking on my Mother, Earth.</rdg>
+                    <rdg wit="#ee">Musing and looking on my Mother Earth,</rdg>
+                    <rdg wit="#ae">Musing and looking on <seg>my Mother, Earth<note type="critical">Figuring the earth as a mother is now so conventional that it might not seem to require comment. The figure has Roman roots, including gendering the earth or <foreign rend="italic">terra</foreign> feminine, calling her a mother, and linking her to goddesses, including Ceres. From the start, this figuration works in two ways.  First, it emphasizes the earth’s generative and nurturing power, suggesting a relationship of care, love, and perhaps even reciprocity between earth and her human children. Ovid’s <title rend="italic">Metamorphoses</title> refers to the soil as a generative “mother’s womb” (1.501). Pulter’s contemporaries pick up this usage. See, for example, the passages from Lucy Hutchinson’s translation of Lucretius in “Curations.” Second, this figuration depicts the earth as a treasure trove to be exploited, which is variously promoted or lamented.  We see both strands intertwine in Pliny’s <title rend="italic">Natural History</title>. Pliny emphasizes that “mother” is bestowed on the earth as an honorific, since she receives humans upon birth (but does not generate them), nurtures them, and finally shelters them (II.154).  Yet he also points out that humans’ debt to nature does not prevent the matricide of mining the earth for precious stones and metals (II.158). Cavendish and Milton, too, both describe the earth as a womb and disparage mining as, in Milton’s terms, “ransacking” and “rifling” the “bowels of their Mother Earth / For treasures better hid” (<title rend="italic">Paradise Lost</title> 7, 1. 696-88; see also Cavendish, “Earth’s Complaint” in “Curations”). Other seventeenth-century uses of this figuration to promote agricultural “improvement” and resource extraction suggest that mother earth is not just humanity’s womb and tomb but also its treasure trove to be mined. For example, Walter Blith, in his influential agricultural treatise <title rend="italic">The English Improver Improved</title> (1652), describes the earth as “the very womb that bears all, and the mother that must nourish and maintain all” (sig. B2v); but he also describes “the Earth, the true mother, in whose bowels is more wealth than ever will be drawn forth” so as to enjoin his reader to act “as the midwife to deliver the earth of its throws” (Blith sigs. R3v-R4r). The figuration that casts resource extraction as rape and murder of the mother, then, does not necessarily work to prevent it.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">To which I must; from whence I drew my breath.</rdg>
+                    <rdg wit="#ee">To which I <seg>must<note type="gloss">must go</note></seg>, from whence I drew my breath,</rdg>
+                    <rdg wit="#ae">To which I <seg>must<note type="critical">“Mother Earth, / To which I must” seems to imply “to which I must return.” But the appearance of “dust” in the next line also activates the meanings of “must” as a noun meaning mustiness, mold, or even the grape pulp or “must” that through fermentation becomes wine.</note></seg>, from whence I drew my breath;</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Then did I think how I to duſt <seg>Must<note type="physical">“M” appears written over other letter or letters, imperfectly erased</note></seg> turn,</rdg>
+                    <rdg wit="#ee">Then did I think how I to <seg>dust<note type="critical">fine particles, esp. of disintegrating dead body; also, formative physical elements; see <title rend="italic">Genesis</title> 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> must turn,</rdg>
+                    <rdg wit="#ae">Then did I think how I to <seg>dust<note type="critical">“Dust” is a favorite word for Pulter, drawing on both a scriptural tradition—<title rend="italic">Genesis</title> describes humans as made from dust and as destined to revert to dust when they die (“for dust thou art, and unto dust shalt thou return” [<title rend="italic">Genesis</title> 3:19])—and an alchemical tradition in which dust, like the atom, is used to describe the fundamental matter of creation. Pulter’s fascination with dust is not unique to her. Her contemporary Lucy Hutchinson, for instance, similarly advises mindfulness of how dust is both “originary” and the body’s inevitable destination (see <title rend="italic">Order and Disorder</title> [1679], Canto III, 123-6).</note></seg> must turn,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">And lie forgotten, in my Silent Urn,</rdg>
+                    <rdg wit="#ee">And lie forgotten in my silent urn,</rdg>
+                    <rdg wit="#ae">And lie forgotten, in my silent urn,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Where I Should looſ, the Comfortable Sight</rdg>
+                    <rdg wit="#ee">Where I should lose the comfortable sight</rdg>
+                    <rdg wit="#ae">Where I should lose the <seg>comfortable<note type="gloss">comforting</note></seg> sight</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Of my deare <w lemma="friend">&ff;reinds</w>, and all diſcovering light,</rdg>
+                    <rdg wit="#ee">Of my dear friends, and all-discovering light.</rdg>
+                    <rdg wit="#ae">Of my dear friends, and all discovering light.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">As I these <seg>thoughts<note type="physical">ink blot on “ou”</note></seg> within my mind Revolved,</rdg>
+                    <rdg wit="#ee">As I these thoughts within my mind revolved,</rdg>
+                    <rdg wit="#ae">As I these thoughts within my mind revolved,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Sighs fils my heart, till they in tears deſolved.</rdg>
+                    <rdg wit="#ee">Sighs fills my heart, till they in tears dissolved;</rdg>
+                    <rdg wit="#ae">Sighs fill my heart, till they in tears dissolved.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Then clearing<add place="below">^</add><add place="above">of</add> mine Eyes, I <seg>look’d<del type="strikethrough">ng</del><note type="physical">“ing” of “looking” struck through and replaced with “’d”</note></seg> about</rdg>
+                    <rdg wit="#ee">Then, clearing of mine eyes, I looked <seg>about<note type="gloss">about to see</note></seg></rdg>
+                    <rdg wit="#ae">Then, clearing of mine eyes, I looked <seg>about<note type="gloss">around</note></seg>—</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">What I could See, to put these Sorrowes out</rdg>
+                    <rdg wit="#ee">What I could see to put these sorrows out</rdg>
+                    <rdg wit="#ae">What I could see, to put these sorrows out</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Of my Sad heart, where inſtantly I Spied</rdg>
+                    <rdg wit="#ee">Of my sad heart; where instantly I spied</rdg>
+                    <rdg wit="#ae">Of my sad heart?—where instantly I spied</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">A hill of Piſmires, who their Labor plied;</rdg>
+                    <rdg wit="#ee">A hill of pismires, who their labor plied,</rdg>
+                    <rdg wit="#ae">A hill of <seg>pismires<note type="gloss">ants</note></seg>, who their labor plied.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Som luggerd up and down their flatious iſſew,</rdg>
+                    <rdg wit="#ee">Some <seg>luggered<note type="gloss">dragged or carried</note></seg> up and down their <seg>flatious<note type="critical">This word, not in the OED, is used in John Woodall’s The surgeons mate or Military &amp; domestique surgery (London, 1655), p.57, in reference to “belching, quartans, cold, and all flatious diseases”; it is not clear what sense Pulter means. The word is possibly written in error for “fatuous” (meaning “foolish”) or “flatuous” (meaning “inflated”).</note></seg> issue,</rdg>
+                    <rdg wit="#ae">Some <seg>luggered<note type="gloss">dragged</note></seg> up and down their <seg>flatious<note type="gloss">inflated/swollen</note></seg> <seg>issue<note type="critical">The description of the pismires dragging their “issue” around might help to link motherhood to drudgery.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">And Some with glittring wings <w lemma="that"><abbr>y:<hi rend="superscript">t</hi></abbr></w> Shone like tiſſew,</rdg>
+                    <rdg wit="#ee">And some with glitt’ring wings that shone like tissue;</rdg>
+                    <rdg wit="#ae">And some with glittering wings that shone like <seg>tissue<note type="gloss">iridescent cloth</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">The Rest their wheat, and other nibled Grain</rdg>
+                    <rdg wit="#ee">The rest their wheat and other nibbled grain</rdg>
+                    <rdg wit="#ae">The rest their wheat, and other nibbled grain</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Did lay in Store, from Winters Storms &amp; Rain.</rdg>
+                    <rdg wit="#ee">Did lay in store from winter’s storms and rain;</rdg>
+                    <rdg wit="#ae">Did lay in store, from winter’s storms and rain.</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">And onely those with Shineing wings did play</rdg>
+                    <rdg wit="#ee">And only those with shining wings did play,</rdg>
+                    <rdg wit="#ae">And only those with shining wings did play,</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Seeming to keep perpetuall holy day.</rdg>
+                    <rdg wit="#ee">Seeming to keep perpetual holiday.</rdg>
+                    <rdg wit="#ae">Seeming to keep <seg>perpetual holiday<note type="critical">While descriptions of bees emphasize how anatomical differences and social hierarchies conjoin to make some queens and others drones, most descriptions of ants do not make such distinctions, valuing ants as a collective rather than a hierarchy. As Thomas Moffett puts it, “pismires are endowed with so much virtue and justice, that they need no king to govern them.” Nor does Moffett mention winged pismires, although he describes their anatomy in detail. Here again, Pulter departs from many other descriptions of the pismire, distinguishing those with glittering wings who play from the wingless workers. When the speaker looks at the anthill, s/he sees a hierarchy. She may also, at least in part, see a beehive, conflating descriptions of ants and bees to depict the pismire as winged and hierarchical.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Then instantly my buſie mind was hurld</rdg>
+                    <rdg wit="#ee">Then instantly my busy mind was hurled,</rdg>
+                    <rdg wit="#ae">Then instantly my busy mind was hurled,</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft"><seg>Thinking<note type="physical"> ascender on “k” is darker and above erased descender (as for “g”)</note></seg> they were an Embleme of <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> World.</rdg>
+                    <rdg wit="#ee">Thinking they were an <seg>emblem<note type="gloss">symbol</note></seg> of the world.</rdg>
+                    <rdg wit="#ae">Thinking they were an emblem of the world.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft"><w lemma="for">&ff;or</w> all which <seg><del rend="strikethrough">was</del><note type="physical">multiple strike-through</note></seg> from this Earth doe draw their<add place="below">^</add><add place="above">breath</add></rdg>
+                    <rdg wit="#ee">For all which from this earth do draw their breath</rdg>
+                    <rdg wit="#ae">For all which from this earth do draw their breath</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">Still moyle and labour in this dunghill Earth.</rdg>
+                    <rdg wit="#ee">Still <seg>moil<note type="gloss">toil; dig; burrow; mill about, as in a crowd</note></seg> and labour in this dunghill earth.</rdg>
+                    <rdg wit="#ae">Still <seg>moil<note type="gloss">toil</note></seg> and labor in this <seg>dunghill earth<note type="critical">The verb “moil” corresponds to and reinforces “labor” here, inverting the order of the expression “toil and moil” to describe drudgery, the doubled words evoking the repetitive nature of the labor. But “moil” also echoes another word with which it rhymes, soil, in its meaning “to soil” or defile. Coupled with “up,” moil can also mean dig up, uproot, or grub in the ground and even to “transform into a soft mass,” much as the processes of time and decay transform many things into dust. This one word, then, to which Pulter returns in line 25, captures how laboring on the earth and in the dirt makes one dirty but also how this labor can be both destructive and productive (sometimes at once). The description of the earth as a “dunghill” or pile of refuse seems at first more negative than the description of it as a mother. In Shakespeare, for instance, the dunghill is routinely associated with low birth (“dunghill grooms” in <title rend="italic">1 Henry VI</title> and a “base dunghill villain and mechanical” in <title rend="italic">2 Henry VI</title>) and the ignominious burial of the lowborn and insubordinate, the rebel Jack Cade (<title rend="italic">2 Henry VI</title>) and Cornwall’s servant (<title rend="italic"><abbr>Lear</abbr></title>).  But this poem’s description of the pismires’ hard work suggests that the hill must be made and maintained. What’s more, contemporary attempts to revalue wastes as resources led to many proposals to promote dunghills as sources of soil enrichments and saltpeter for gunpowder.</note></seg>.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">from</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_111" n="54r"/>
+                    <!-- where do I put the folio number ? -->
+                    <fw facs="#f7610_111" type="pageNum" place="margin-topright">103</fw>
+                </rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_111"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_111"/></rdg>
+            </app>
+            <lg>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft"><w lemma="from">&ff;rom</w> Kings, who Earths Elixter Seem to have</rdg>
+                    <rdg wit="#ee">From kings, who earth’s <seg>elixir<note type="critical">secret principle; sovereign remedy; in alchemy, the philosopher’s stone, for indefinitely prolonging life</note></seg> seem to have,</rdg>
+                    <rdg wit="#ae">From kings, who earth’s <seg>elixir<note type="critical">Alchemists assigned the power to turn stone into gold, prolong life, and cure disease, to an elusive substance—variously called the elixir, the quintessence, or the philosopher’s stone.  The earth’s elixir, then, is the earth’s hidden and transformative “soul” or life force. The kings who have it would seem to have a monopoly on the best earth has to offer, the opposite of the “earthly clog” mentioned a few lines later. Yet their achievement is pointless, as in the proverbial expression of being the “cock of the dunghill.” In his <title rend="italic">Defense of Poesy</title>, for example, Sir Philip Sidney descries the pointless contention between Alexander and Darius, “when they strove who should be cock of this world’s dunghill.” We also see the apparent contrast between elixir and dunghill erode when Adam Moore describes the poor man’s muck hill or dunghill as his “philosopher’s stone” (see Moore, <title rend="italic">Bread for the Poor</title>, in “Curations.”)</note></seg> seem to have,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Unto the Naked Sunburnt <seg><w lemma="female">&ff;emale</w><note type="physical">“l” appears to correct “k”</note></seg> Slave</rdg>
+                    <rdg wit="#ee">Unto the naked, sunburnt female slave,</rdg>
+                    <rdg wit="#ae">Unto the naked sunburned female slave,</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Who with her Swetty, Knotty Locks unbound</rdg>
+                    <rdg wit="#ee">Who with her sweaty, knotty locks unbound</rdg>
+                    <rdg wit="#ae">Who with her sweaty, knotty locks unbound,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft"><seg>Aboutthe<del rend="strikethrough">r</del><note type="physical">“About her” modified to “Aboutthe” by crowding in second “t” and crossing out final “r”
+                    </note></seg> Giddy Mill, doth trot around.</rdg>
+                    <rdg wit="#ee">About the giddy mill, doth <seg>trot around.<note type="critical">The image is of a grinding machine with a stone which needs to be turned on an axis, here by a slave; the mill is “giddy” both in its circling action and possibly in causing dizziness.</note></seg></rdg>
+                    <rdg wit="#ae">About her <seg>giddy<note type="gloss">rapidly circling and therefore dizzying</note></seg> mill doth <seg>trot around<note type="critical">Pushing a stone mill to grind meal to be made into bread was an exhausting form of labor. As a consequence, the female slave pushing the mill stands as the opposite of the king or ruler. In <title rend="italic">Exodus</title>, the plague on the first born extends from “the firstborn of Pharaoh that sits upon his throne, even unto the firstborn of the maidservant that is behind the mill” (<title rend="italic">Exodus</title> 11:5). But the English economy also depended on slave labor by the time Pulter wrote, especially on plantations in Barbados that grew and processed sugar cane (in mills) for the European market. See Richard Ligon’s description of Indian female slaves making bread for planters on Barbados in “Curations.” Jennifer Morgan argues that more African women than men were made slaves from 1660-1700 (Jennifer L. Morgan, <title rend="italic">Laboring Women: Reproduction and Gender in New World Slavery</title> [Philadelphia: University of Pennsylvania Press, 2004], 58). Thus the reference to a female slave here extends beyond the Old Testament context to include the labor relations on which the English food supply actually depended by the seventeenth century. The unusual level of detail here—that the slave is female, naked, “sunburned” or dark skinned, and her hair both sweaty and knotty—invites the reader to picture this slave’s working body.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft"><w lemma="for">&ff;or</w> who is <w lemma="free">&ff;ree</w>? untill his Soul doth Spring</rdg>
+                    <rdg wit="#ee">For who is free, until his soul doth spring</rdg>
+                    <rdg wit="#ae">For who is free until his soul doth spring</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft"><w lemma="from">&ff;rom</w>’s Earthly Clog, And Joyfully takes wing:</rdg>
+                    <rdg wit="#ee"><seg>From’s<note type="gloss">From his</note></seg> earthly <seg>clog<note type="gloss">impediment; body</note></seg>, and joyfully takes wing:</rdg>
+                    <rdg wit="#ae"><seg>From’s<note type="gloss">From his</note></seg> earthly <seg>clog<note type="gloss">burden/body</note></seg> and joyfully takes wing? </rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Then from that distance, wee perceive (most plain)</rdg>
+                    <rdg wit="#ee">Then, from that distance, we perceive (most plain)</rdg>
+                    <rdg wit="#ae">Then from that distance we perceive (most plain)</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">That all our moyling here, is but in vain.</rdg>
+                    <rdg wit="#ee">That all our moiling here is but in vain.</rdg>
+                    <rdg wit="#ae">That all our moiling here is but in vain.</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft"><w lemma="for">&ff;or</w> Earthly Glory, is our Sights deluſion;</rdg>
+                    <rdg wit="#ee">For earthly glory is our sight’s delusion,</rdg>
+                    <rdg wit="#ae">For earthly glory is our sight’s delusion,</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">It proving but a <seg>Chaos<note type="physical">ink blot on “ha”</note></seg> of confuſion.</rdg>
+                    <rdg wit="#ee">It proving but a chaos of confusion.</rdg>
+                    <rdg wit="#ae">It proving but a <seg>chaos<note type="gloss">formless void</note></seg> of confusion.</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">O then! as I in Heaven have placd my love,</rdg>
+                    <rdg wit="#ee">O then, as I in Heaven have placed my love,</rdg>
+                    <rdg wit="#ae">O then as I in heaven have placed my love,</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Soe I’me ambitious of thoſe Joys above;</rdg>
+                    <rdg wit="#ee">So I’m ambitious of those joys above;</rdg>
+                    <rdg wit="#ae">So I’m ambitious of those joys above.</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Grant mee the wings of Som unſpotted Dove,</rdg>
+                    <rdg wit="#ee">Grant me the wings of some unspotted <seg>dove<note type="critical">messenger of peace and deliverance from anxiety, like the dove to Noah (Genesis 8:8-12); figuratively, often the Holy Spirit.</note></seg>,</rdg>
+                    <rdg wit="#ae">Grant me the wings of some <seg>unspotted dove<note type="critical">Although Pulter twice mentions the “glittering” and “shining” wings of those pismires that rise above the earth to play, when the speaker asks for wings, they are not the gossamer wings of the pismire but those of the “unspotted dove.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">To eaſe the troubles of my throbing breast;</rdg>
+                    <rdg wit="#ee">To ease the troubles of my throbbing breast,</rdg>
+                    <rdg wit="#ae">To ease the troubles of my throbbing breast,</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">That I may fly to my Eternall Rest.</rdg>
+                    <rdg wit="#ee">That I may fly to my eternal rest.</rdg>
+                    <rdg wit="#ae">That I may fly to my eternal rest.</rdg>
+                </app>
+            </l>
+           </lg>
+            <app>
+                <rdg type="milestone" wit="ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

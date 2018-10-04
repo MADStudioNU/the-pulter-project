@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.6">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal Dissolution</title>
+                <title type="sub">Poem #6</title>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <persName>Katherine E. Poland</persName>
+                    <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Website designed by</resp>
+                    <persName>Sergei Kalugin</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT-project consultation by</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>mortality</term>
+                    <term>nature</term>
+                    <term>astronomy</term>
+                    <term>decay</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_024.jpg" xml:id="f7610_024"/>
+        <graphic url="./document_images/7610_025.jpg" xml:id="f7610_025"/>
+        <graphic url="./document_images/7610_026.jpg" xml:id="f7610_026"/>
+        <graphic url="./document_images/7610_027.jpg" xml:id="f7610_027"/>
+        <graphic url="./document_images/7610_028.jpg" xml:id="f7610_028"/>
+        <graphic url="./document_images/7610_029.jpg" xml:id="f7610_029"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Sarah C.E. Ross</persName>. Last updated <date>June 7, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_024" n="10v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_024" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_024" n=""/></rdg>
+            </app>
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>Universall diſſolution made when I was with Child of my 15<add place="above">th</add> Child <add place="above"><seg>my ſonne John<note type="physical">blotted with especially large blot on “John”; blot darker on facing page</note></seg></add> I being every one thought in a Conſumption 1648
+                    </rdg>
+                    <rdg wit="#ee"><seg>Universal Dissolution<note type="gloss">entire, total, or global “dissolution,” meaning separation into constituent elements or atoms; disintegration, decomposition; liquefaction; laxity of morals; dispersion of an assembly (often political); death, termination.</note></seg>, Made When I Was with Child, of my 15<add place="above">th</add> Child, <seg>my Son, John<note type="critical">This is an insertion into the title, in the hand likely to be Pulter’s own. The insertion is indicated by a caret and obscured by an ink blot. Pregnant with her son John Pulter (1648-1677), one of two children who outlived Pulter.</note></seg>, I Being, Everyone Thought, in a <seg>Consumption<note type="critical">disease associated with an abnormality of “humors” (in the physiology of the day, the four fluids determining health), resulting in extreme weight loss; later identified with tuberculosis; the act of decaying</note></seg>, 1648</rdg>
+                    <rdg wit="#ae">Universal <seg>Dissolution<note type="gloss">reduction to elements or atoms; disintegration; death</note></seg>, Made When I Was With Child of <seg>My 15<add place="above">th</add> Child (My Son John)<note type="critical">John Pulter (1648-77) was the fifteenth (and likely last) of Pulter’s children.</note></seg>, I Being, Everyone Thought, in a Consumption, 1648</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in my view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts).<seg>[1]<note type="critical">See Alice Eardley, "'I haue not time to point yr booke ... which I desire you yourselfe to doe': Editing the Form of Early Modern Manuscript Verse", in <bibl><title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. <author>Ben Burton</author> and <author>Elizabeth Scott-Baumann</author> (Oxford: Oxford University Press, 2014), pp. 162-178</bibl>.</note></seg></note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">In this devotional poem, the speaker instructs her soul not to lament mortality, but to accept the eventual decay and dissolution of everything: nature, poetic fame, political power, youth, beauty, animals, civilizations, the earth, planets, and stars. In detailing how all natural and cosmological elements in the world will revert back to their “first principles” or original “cause” in the grand cycle of life, the poem provides an extensive catalogue of specific trees, plants, animals, mythological characters, ancient cities, constellations, and planets. As the title suggests, this self-reprimand—or, perhaps, self-consolation—is prompted by an illness connected with the speaker’s fifteenth pregnancy, and it does not conclude, as do many of her poems, with an affirmation of the afterlife. It seems instead focussed on the scope and scale of the unmaking of the physical world.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                    <p>Pulter’s detailed title to this occasional poem indicates its context and focus. Seriously ill during her pregnancy with her fifteenth child, her son John, she addresses her own soul, fearful at the possibility of death, and reassures it by outlining the universality of “dissolution”, the death of the mortal body. Her poem progresses through an extended series of similes, comparing the end of “mortal man” to that of all other creatures and elemental things; these similes owe much to the emblematic mode of thinking that is evident in the emblem poem series later in the manuscript. For another poem written in illness during this pregnancy, see "This Was Written in 1648, When I Lay in, with my Son John" (Poem 45); and see discussion in <bibl>Alice Eardley (ed.), <title rend="italic">Lady Hester Pulter: Poems, Emblems, and The Unfortunate Florinda</title> (Toronto: Iter Inc. and Centre for Reformation and Restoration Studies, 2014), p. 16.</bibl></p>
+                    <p>Like many of Pulter’s poems, “Universal Dissolution” is related to the mode of devotional complaint, in which the distressed, earthbound soul articulates its worldly grief and its yearning to be with God. Pulter’s manuscript contains several devotional complaints, such as "Must I Thus Ever Interdicted Be" (Poem 55). “Universal Dissolution”, however, is typical of many of Pulter’s other devotional poems in that it is not a complaint per se, but is cast as a response to the implicitly prior plaints of her own heart and soul. Thus the poem opens "My soul, why art thou sad ...?" The poem outlines a philosophical consolation for her heart and soul, illustrating through multiple examples that “all sublunary things decay” (line 108), and concluding “Then my unsettled soul be more resolved, / Seeing all this universe must be dissolved.” This stance exemplifies the devotional stoicism typical of Pulter’s poems, even as they articulate significant physical, personal, and political hardships and melancholy.</p>
+                  <p>This poem contains a number of amendments in three of the main hands present in the manuscript: the scribal hand, the hand likely to be Pulter’s own, and the “antiquarian hand” (see Ross (2000), pp. 150-171 and 252-4). For this reason, the poem makes an excellent case study in the editing processes evident in the manuscript. Only substantive amendments and editorial choices are outlined in the notes below.</p>
+                </note></rdg>
+            </app>
+            </head>
+
+            <lg type="free">
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">My Soule why art thou ſad at the decay</rdg>
+                    <rdg wit="#ee">My soul, why art thou sad at the decay</rdg>
+                    <rdg wit="#ae">My soul, why art thou sad at the decay</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Of this fraile frame this feeble houſe of clay</rdg>
+                    <rdg wit="#ee">Of this frail <seg>frame<note type="gloss">here, structure, physical body, constitution, arrangement; may also signify universe, heavens, earth, or any part of it.</note></seg>, this feeble house of <seg>clay<note type="critical">body. See Isaiah 64:8: “O Lord, thou art our father; we are the clay, and thou our potter.”</note></seg>?</rdg>
+                    <rdg wit="#ae">Of this frail frame, this <seg>feeble house of clay<note type="critical">the body. See Isaiah 64:8, “O Lord, thou art our father; we are the clay, and thou our potter”.</note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">What can be expected from the humble birth</rdg>
+                    <rdg wit="#ee">What can be expected from the humble birth</rdg>
+                    <rdg wit="#ae">What can be expected from the humble birth</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Of this fraile ffabrick but to fall to Earth</rdg>
+                    <rdg wit="#ee">Of this <seg>frail fabric<note type="gloss">edifice, fabricated construction</note></seg>, but to fall to earth?</rdg>
+                    <rdg wit="#ae">Of this frail fabric, but to fall to earth?</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">The <del type="strikethrough">Cristall</del><add place="below">^</add><add place="above">bubling</add> fountaine being by Nature led</rdg>
+                    <rdg wit="#ee">The bubbling fountain, being by nature led,</rdg>
+                    <rdg wit="#ae">The <seg>bubbling<note type="physical">The scribal hand has scored out “crystal” and inserted “bubbling”.</note></seg> fountain, being by nature led,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Will riſe noe Higher then her Criſtall head</rdg>
+                    <rdg wit="#ee">Will <seg>rise no higher than her crystal head<note type="critical">proverbial: “no stream can rise higher than its source” (Eardley)</note></seg>;</rdg>
+                    <rdg wit="#ae">Will rise no higher than her crystal head;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Though many Marble <seg>Aquaducts<note type="physical">or “Aquœducts”</note></seg> it fill</rdg>
+                    <rdg wit="#ee">Though many marble aqueducts it fill,</rdg>
+                    <rdg wit="#ae">Though many marble aqueducts it fill,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Yet in a conſtant level it runs ſtill</rdg>
+                    <rdg wit="#ee">Yet in a constant level it runs still.</rdg>
+                    <rdg wit="#ae">Yet in a constant level it runs still.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">So Mortall Man even from his very birth</rdg>
+                    <rdg wit="#ee">So mortal man, even from his very birth,</rdg>
+                    <rdg wit="#ae">So mortal man, e’en from his very birth,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Runs weeping on, then creeps into the Earth</rdg>
+                    <rdg wit="#ee">Runs weeping on, then creeps into the earth.</rdg>
+                    <rdg wit="#ae">Runs weeping on, then creeps into the earth.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Thoſe gorgious flowers which the vallies Crown</rdg>
+                    <rdg wit="#ee">Those gorgeous flowers which the valleys crown,</rdg>
+                    <rdg wit="#ae">Those gorgeous flowers which the valleys crown,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">That by the impartiall Siths <add place="below">\</add><add place="above"><seg>man \<note type="physical">insertion written in hand H2.</note></seg></add> are moan down</rdg>
+                    <rdg wit="#ee">That by the impartial <seg>scytheman<note type="gloss">mower who uses a sharp blade</note></seg> are <seg>mown down<note type="critical"> See Isaiah 40:6-8: “All flesh is grass, and all the goodliness thereof is as the flower of the field: The grass withereth, the flower fadeth: because the spirit of the Lord bloweth upon it: surely the people is grass. The grass withereth, the flower fadeth: but the word of our God shall stand forever.”</note></seg>:</rdg>
+                    <rdg wit="#ae">That by the impartial <seg>scytheman<note type="gloss">“Scythes” in the scribal hand has had “man” added to it through an insertion in the hand likely to be Pulter’s own. As well as being a sharp, curved blade used to mow grass or other crops by hand, the scythe is commonly associated with Time and Death.</note></seg> are mown down,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Trust mee they ſeeme to hang theire heads and weep</rdg>
+                    <rdg wit="#ee">Trust me, they seem to hang their heads and weep,</rdg>
+                    <rdg wit="#ae">Trust me they seem to hang their heads and weep</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Cauſe in theire ca<add place="below">^</add><add place="above">u</add>ſes they ſoe ſoone muſt ſleep</rdg>
+                    <rdg wit="#ee">’Cause, in their <seg>causes<note type="gloss">original, formative elements</note></seg>, they so soon must sleep</rdg>
+                    <rdg wit="#ae"><seg>’Cause in their causes<note type="critical">“because in their causes”, with wordplay on Pulter’s distinctive use of the word “cause” in the second instance to mean the grave, connected to the elements or matter from which the body is first produced, and to which it returns in death. See <bibl><title rend="italic">OED</title></bibl> cause n 5: the material cause is elements or matter from which a thing is produced; and the First Cause is the original cause or creator of the universe. See also lines 32, 46.</note></seg> they so soon must sleep.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Soe man to his first Principles must turn</rdg>
+                    <rdg wit="#ee">So man to his <seg>first principles<note type="gloss">origins, constituent parts, primary propositions; in alchemy, the substances composing all matter (mercury, salt, and sulfur)</note></seg> must <seg>turn<note type="gloss">return; rotate; revolve; reverse course; become; make use of; change into</note></seg>,</rdg>
+                    <rdg wit="#ae">So man to his <seg>first principles<note type="gloss">the fundamental sources from which something proceeds, primary elements (<title rend="italic">OED</title> I.1b and II.3b)</note></seg> must turn</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">And take A Nap in Black oblivions Urn</rdg>
+                    <rdg wit="#ee">And take a nap in black Oblivion’s urn.</rdg>
+                    <rdg wit="#ae">And take a nap in black oblivion’s urn.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Triumphant Laurel whoſe unconquered bowes</rdg>
+                    <rdg wit="#ee">Triumphant <seg>laurel<note type="gloss">foliage of bay tree</note></seg>, whose unconquered boughs</rdg>
+                    <rdg wit="#ae"><seg>Triumphant laurel<note type="gloss">In ancient Greece and Rome, bay laurel wreaths were awarded as an emblem of military victory or of distinction in poetry.</note></seg>, whose unconquered boughs</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Encircles Poets, and the illustrious browes</rdg>
+                    <rdg wit="#ee">Encircles poets’ and the illustrious brows</rdg>
+                    <rdg wit="#ae"><seg>Encircle<note type="physical">MS = Encircles</note></seg> poets, and the illustrious brows</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Of Emperours: how ſoone alaſs wee ſee</rdg>
+                    <rdg wit="#ee">Of <seg>emperors<note type="critical">Wreaths of laurel were presented to victorious military leaders and poets in ancient Rome.</note></seg>: how soon, alas, we see</rdg>
+                    <rdg wit="#ae">Of emperors: how soon, alas, we see</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Her <seg>vir<del>g</del>int<add place="below">^</add><add place="above">virgin</add><del>all</del><note type="physical">in original “virginall”, descender of “g” struck through and ascender added to make “d”, with “all” covered by “L” in “Leaves; main scribe thus changed “virginall” to “virdent” or “virdent” by inserting “t” into space before “all”; “virgin” inserted in different hand from main scribe, with either looping insertion symbol or conversion of second “i” in “virginall” to “e”
+                    </note></seg> Leaves all <seg>fieldemort <add place="below">withered</add> <add place="below">^</add><add place="above">Fillimott</add><note type="physical"> directly below “fieldemort” and “Fillimott” above its second half, both in different hand from main scribe</note></seg> to bee</rdg>
+                    <rdg wit="#ee">Her <seg>verdant<note type="physical">In the manuscript, various hands have inscribed this word differently so that it could be “virgin” (chaste), “virginal” (unsullied), or “verdant” (lushly green).</note></seg> leaves all withered <seg>filemot<note type="gloss">brownish or yellowish color like that of a dead leaf, from the French “feuillemorte”</note></seg> to be.</rdg>
+                    <rdg wit="#ae"><seg>Her<note type="physical">This line contains a number of amendments. The scribe has altered “virginall leaves” to “verdant leaves”, by altering and writing over letters in the main text. In an apparent misreading of priority, the “antiquarian hand” has written “virgin” above the altered word. The antiquarian has also annotated “fieldemort”, writing “Fillimott” above it—i.e. correctly understanding the word to be “filemot”. Beneath “fieldemort”, he has written “withered”, a definition of the word.</note></seg> verdant leaves all <seg>filemot<note type="gloss">the colour of a dead or faded leaf (from the French <foreign rend="italic" xml:lang="fr">feuillemorte</foreign>) (<bibl><title rend="italic">OED</title></bibl>)</note></seg> to be.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">E’ne ſoe Mans youth and <seg>beauty<note type="physical"> “a” appears added later</note></seg> doth decay</rdg>
+                    <rdg wit="#ee">E’en so, man’s youth and beauty doth decay,</rdg>
+                    <rdg wit="#ae">E’en so man’s youth and beauty doth decay;</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft"><seg>His<note type="physical"> in left margin, in hand H2: “X tho ſhe the liveing / kill and Dead <w lemma="preserve"><abbr>preſ<hi rend="superscript">rve</hi></abbr></w> / yett can she not / from death herſelfe reſerve”; horizontal line beneath, then: “The ſypriſs that / doth mourn for / us in vaine / ſhall bee cut down /and nevar ſprowt /againe.”</note></seg> heat and Moisture Cooles and dries to clay</rdg>
+                    <rdg wit="#ee">His heat and moisture cools and <seg>dries to clay<note type="critical">See n. 5. Heat and moisture were chief properties of the body, as understood in classical humoral physiology.</note></seg>.</rdg>
+                    <rdg wit="#ae">His <seg>heat and moisture<note type="gloss">according to early modern humoural theory, these were two of the four qualities of the humoural body</note></seg> cools and dries to clay.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">The stately Cedar that aſpires ſoe High</rdg>
+                    <rdg wit="#ee">The stately <seg>cedar<note type="critical">associated with pride and great height. See Ezekiel 31:3-5: “Behold, the Assyrian was a cedar in Lebanon with fair branches, and with a shadowing shroud, and of an high stature; and his top was among the thick boughs. The waters made him great, the deep set him up on high with her rivers running round about his plants, and sent out her little rivers unto all the trees of the field. His height was exalted above all the trees of the field.”</note></seg> that aspires so high,</rdg>
+                    <rdg wit="#ae">The stately <seg>cedar<note type="critical">In the Bible, the cedar is associated with great stature. See, for example, Amos 2:9 and Ezekiel 31:3-5.</note></seg> that aspires so high,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Scorning the cloudes threatning to Scale the Skie</rdg>
+                    <rdg wit="#ee">Scorning the clouds, threat’ning to scale the sky,</rdg>
+                    <rdg wit="#ae">Scorning the clouds, threat’ning to scale the sky,</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">ffor all her pride a kernill was her birth</rdg>
+                    <rdg wit="#ee">For all her pride, a <seg>kernel<note type="gloss">seed</note></seg> was her birth,</rdg>
+                    <rdg wit="#ae">For all her pride, a kernel was her birth,</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Which Shewes at last ſhee must returne to Earth</rdg>
+                    <rdg wit="#ee">Which shows, at last, she must return to earth.</rdg>
+                    <rdg wit="#ae">Which shows at last she must return to earth;</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Though she the living kill and <seg>dead preserve<note type="critical">protect; keep alive, retain; cedar oil was used in ancient Egypt to embalm corpses</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Though<note type="physical">Lines 27-30 have been added, in the margin, in the hand likely to be Pulter’s own. Their position for insertion is indicated with a small “x” above “So” at the beginning of line 31.</note></seg> she the living kill and dead preserve,</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Yet can she not from death herself reserve.</rdg>
+                    <rdg wit="#ae">Yet can she not from death herself reserve.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">The <seg>cypress<note type="gloss">tree associated with grieving</note></seg> that doth mourn for us in vain</rdg>
+                    <rdg wit="#ae">The <seg>cypress<note type="gloss">a tree traditionally associated with death and mourning (<title rend="italic">OED</title> 1c).</note></seg> that doth mourn for us in vain</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">Shall be cut down and never sprout again.</rdg>
+                    <rdg wit="#ae">Shall be cut down and never sprout again.</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft"><seg>S<add place="above">x</add>oe<note type="physical">“x” appears keyed to marginal note (see note 7)</note></seg> Man being tide to his Creatours lawes</rdg>
+                    <rdg wit="#ee">So man, being tied to his Creator’s laws,</rdg>
+                    <rdg wit="#ae">So man being tied to his creator’s laws</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Must taste of Death and Shrinke unto his cauſe.</rdg>
+                    <rdg wit="#ee">Must taste of death and shrink unto his cause.</rdg>
+                    <rdg wit="#ae">Must taste of death and shrink unto his <seg>cause<note type="critical">See note to line 14.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">The towering quick eyed Eagle that alone</rdg>
+                    <rdg wit="#ee">The towering, quick-eyed eagle, that alone</rdg>
+                    <rdg wit="#ae">The towering, <seg>quick-eyed eagle<note type="critical">The eagle was said to force its young to gaze upon the sun in order to determine their worthiness. See Philemon Holland’s translation of Pliny’s <bibl><title rend="italic">Natural History</title></bibl>, a favourite source of Pulter’s, 1.272.</note></seg> that alone</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Outfaces Phebus in his blazeing Throne</rdg>
+                    <rdg wit="#ee"><seg>Outfaces<note type="gloss">boldly confronts, contradicts</note></seg> <seg>Phoebus<note type="gloss">sun god</note></seg> in his blazing throne,</rdg>
+                    <rdg wit="#ae">Outfaces <seg>Phoebus<note type="gloss">Greek god of the sun</note></seg> in his blazing throne,</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">and</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_025" n="11r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_025"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_025"/></rdg>
+            </app>
+          <lg>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">And by that tryall bastard Birds diſclaime</rdg>
+                    <rdg wit="#ee">And, by that trial, <seg>bastard birds disclaim<note type="critical">According to legend, the eagle tests her young by having them look directly into the sun; those who fail are cast out of the nest.</note></seg>,</rdg>
+                    <rdg wit="#ae">And by that trial, bastard birds disclaim,</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Scorning they should be honoured with her name</rdg>
+                    <rdg wit="#ee">Scorning they should be honored with her name;</rdg>
+                    <rdg wit="#ae">Scorning they should be honoured with her name;</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Yet ſhee and her’s to dust must all Resolve</rdg>
+                    <rdg wit="#ee">Yet she and hers to dust must all <seg>resolve<note type="gloss">to dissolve or decompose; also with the connotation of bringing to a clear conclusion</note></seg>,</rdg>
+                    <rdg wit="#ae">Yet she and hers to dust must all resolve,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">And ſad obſcuritie must them involve.</rdg>
+                    <rdg wit="#ee">And sad obscurity must them <seg>involve<note type="gloss">entangle, envelop</note></seg>.</rdg>
+                    <rdg wit="#ae">And sad obscurity must them involve.</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Soe miſerable Man doth draw his breath:</rdg>
+                    <rdg wit="#ee">So miserable man doth draw his breath</rdg>
+                    <rdg wit="#ae">So miserable man doth draw his breath</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">Twixt hope and feare then sinks into the Earth.</rdg>
+                    <rdg wit="#ee">Twixt hope and fear, then sinks into the earth.</rdg>
+                    <rdg wit="#ae">’Twixt hope and fear, then sinks into the earth.</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">The Phenix on her lofty Alter lies</rdg>
+                    <rdg wit="#ee">The phoenix on her lofty altar lies</rdg>
+                    <rdg wit="#ae">The <seg>phoenix<note type="critical">The phoenix is a mythical bird which burns itself to ashes on an aromatic funeral pyre ignited by the sun and fanned by its own wings. The bird then rises from its own ashes to live again, but Pulter’s focus here is on the self-immolation which makes this possible. See <bibl><author>Holland</author> (trans.), <title rend="italic">Pliny’s Natural History</title></bibl>, p. 271.</note></seg> on her lofty altar lies</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">And Willingly a virgin victim dies</rdg>
+                    <rdg wit="#ee">And willingly a <seg>virgin<note type="gloss">pure, chaste</note></seg> victim dies;</rdg>
+                    <rdg wit="#ae">And, willingly, a virgin victim dies,</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Her Gold and purple Plu<hi rend="overline">m</hi>s to Aſhes turns</rdg>
+                    <rdg wit="#ee">Her gold and purple <seg>plumes<note type="gloss">feathers</note></seg> to ashes turns</rdg>
+                    <rdg wit="#ae">Her gold and purple plumes to ashes turns</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">As in her Aromatick Pier ſhee Burnes</rdg>
+                    <rdg wit="#ee">As in her aromatic pyre <seg>she burns<note type="critical">the phoenix, an Egyptian bird who burned in a sacrificial fire; a new phoenix was reborn from the ashes.</note></seg>.</rdg>
+                    <rdg wit="#ae">As in her aromatic pyre she burns.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">Soe Man that to eternitie <seg>aſpires<note type="physical">Final “e” imperfectly erased.</note></seg></rdg>
+                    <rdg wit="#ee">So man, that to eternity aspires,</rdg>
+                    <rdg wit="#ae">So man that to eternity aspires,</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">Conquer’d by Death into his Cauſe Retires</rdg>
+                    <rdg wit="#ee">Conquered by death, into his cause retires.</rdg>
+                    <rdg wit="#ae">Conquered by death, into his <seg>cause<note type="critical">See note to line 14.</note></seg> retires.</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">The ſnowey Swan upon the[<del>?</del>] trembling brest,</rdg>
+                    <rdg wit="#ee">The snowy swan upon the trembling breast</rdg>
+                    <rdg wit="#ae">The snowy <seg>swan<note type="critical">According to Ovid, the swan only sang once, when dying; the “swan-song” has become proverbial. For a similar image of the singing swan on the silver Thames, see “The Invitation into the Country” (Poem 2), lines 31-4; and see “The Complaint of Thames, 1647” (Poem 4), lines 100-104.</note></seg> upon the trembling breast</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">Of Silver Thames, how poore a time of Rest;</rdg>
+                    <rdg wit="#ee">Of silver <seg>Thames<note type="gloss">river in England</note></seg>—how poor a time of rest</rdg>
+                    <rdg wit="#ae">Of silver Thames, how poor a time of rest</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">Shee doth injoy, Soone droops her Milke white wings:</rdg>
+                    <rdg wit="#ee">She doth enjoy—soon droops her milk-white wings,</rdg>
+                    <rdg wit="#ae">She doth enjoy, soon droops her milk-white wings,</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">While ſadly Shee her Epicedium Sing’s.</rdg>
+                    <rdg wit="#ee">While sadly she her <seg>epicedium<note type="gloss">funeral ode</note></seg> <seg>sings<note type="critical">According to Ovid, the swan sang only once, when dying.</note></seg>.</rdg>
+                    <rdg wit="#ae">While sadly she her <seg>epicedium<note type="gloss">funeral ode</note></seg> sings.</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft">Soe while man Strives t’eterniſe others glory:</rdg>
+                    <rdg wit="#ee">So while man strives <seg>t’eternize<note type="gloss">According to Ovid, the swan sang only once, when dying.</note></seg> others’ glory,</rdg>
+                    <rdg wit="#ae">So while man strives t’eternise others’ glory,</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">Conſpireing Death, and time, cuts of his Story.</rdg>
+                    <rdg wit="#ee">Conspiring Death and Time cuts off <seg>his story<note type="gloss">life, account of life</note></seg>.</rdg>
+                    <rdg wit="#ae">Conspiring Death and Time <seg>cut<note type="physical">MS = “cuts”</note></seg> off his story.</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">The Stag that trips it or’e the Laun in State:</rdg>
+                    <rdg wit="#ee">The <seg>stag that trips it o’er the lawn in state<note type="gloss">A male deer prances (“trips it”) in a prosperous condition (“in state”)</note></seg>,</rdg>
+                    <rdg wit="#ae">The <seg>stag<note type="critical">The stag is a male deer, also used by Pulter (and other royalists) to represent Charles I. See the extended simile inserted into “Upon the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10) at lines 45-50.</note></seg> that trips it o’er the lawn in state,</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">Scorning the ground is Subject unto fate.</rdg>
+                    <rdg wit="#ee">Scorning the ground, is subject unto fate.</rdg>
+                    <rdg wit="#ae">Scorning the ground, is subject unto fate.</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">Even that brave heart which Blackmore once did hold</rdg>
+                    <rdg wit="#ee">Even that brave <seg>hart<note type="gloss">deer</note></seg> which <seg>Blackmore<note type="gloss">a valley in southern England</note></seg> once did hold,</rdg>
+                    <rdg wit="#ae">E’en that <seg>brave hart which Blackmore once did hold<note type="critical">Caesar was said to have put a collar around the neck of a deer with an inscription prohibiting its capture; it then lived to an extended age. The Vale of Blackmore, in Dorset, is where Caesar’s deer lived and was killed in some versions of the story. See <bibl>Alice Eardley (ed.), <title rend="italic">Lady Hester Pulter: Poems, Emblems, and The Unfortunate Florinda</title> (Toronto: Iter Inc. and Centre for Reformation and Restoration Studies, 2014), p. 67</bibl>; and <bibl><author>Michael Bath</author>, “<title>The Legend of Caesar’s Deer</title>”, <title rend="italic">Medievalia et Humanistica</title>, n.s., 9 (<date>1979</date>): 53-66</bibl>. The best-known literary use of Caesar’s deer is in <bibl><author>Thomas Wyatt</author>’s sonnet, <title>“Whoso list to hunt”</title>.</bibl></note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">Whose Snowey neck incircled was with gold;</rdg>
+                    <rdg wit="#ee">Whose snowy neck encircled was with gold,</rdg>
+                    <rdg wit="#ae">Whose snowy neck encircled was with gold,</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">All Ages being deſired for Ceaſers ſake,</rdg>
+                    <rdg wit="#ee">All ages being desired, for Caesar’s sake,</rdg>
+                    <rdg wit="#ae">All ages being desired, for Caesar’s sake,</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">To ſpare his life when er’e they did him take:</rdg>
+                    <rdg wit="#ee">To spare his life whene’er <seg>they<note type="gloss">hunters</note></seg> did him <seg>take<note type="critical">hunters throughout the ages were “desired” (here, required) to spare the deer’s life, out of respect for Caesar; Caesar’s deer reputedly lived for centuries.</note></seg>;</rdg>
+                    <rdg wit="#ae">To spare his life whene’er they did him take,</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">but yet for all this Conquering Kings deſire,</rdg>
+                    <rdg wit="#ee">But yet, for all this conquering king’s desire,</rdg>
+                    <rdg wit="#ae">But yet for all this conquering king’s desire,</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">In teares hee did his vitall breath expire.</rdg>
+                    <rdg wit="#ee">In tears <seg>he<note type="gloss">the deer</note></seg> did his vital breath <seg>expire<note type="critical">Caesar reputedly put ornamental collars on all his deer, which guaranteed their safety; Caesar’s last deer was killed in Blackmore, according to legend (Eardley); “hart” doubles for “heart” here.</note></seg>.</rdg>
+                    <rdg wit="#ae">In tears he did his vital breath expire.</rdg>
+                </app>
+            </l>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">Soe Man that enter’s in’s ſad Mothers fear’s:</rdg>
+                    <rdg wit="#ee">So man, that enters <seg>in’s<note type="gloss">in his</note></seg> sad mother’s fears,</rdg>
+                    <rdg wit="#ae">So man that enters in’s sad mother’s fears</rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">As he begins, his Exit makes in teares.</rdg>
+                    <rdg wit="#ee">As he begins, his exit makes: in tears.</rdg>
+                    <rdg wit="#ae">As he begins, his exit makes in tears.</rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">That beast which <seg>poiſoned<note type="physical">corrected over “poiſoning”</note></seg> Waters <seg>drink’s<note type="physical">“k” written over earlier letter (possibly “ſ”), imperfectly erased with descender visible.</note></seg> with Scorn,</rdg>
+                    <rdg wit="#ee">That beast which poisoned waters drinks with scorn,</rdg>
+                    <rdg wit="#ae"><seg>That beast<note type="gloss">the unicorn, whose horns were believed to have the power to purify water</note></seg> which poisoned waters drinks with scorn</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">Becauſe ſhee weares a Cordiall in her horne:</rdg>
+                    <rdg wit="#ee">Because she wears a <seg>cordial<note type="gloss">restorative medicine</note></seg> in <seg>her horn<note type="gloss">The unicorn’s horn granted it the power to purify toxic waters.</note></seg>,</rdg>
+                    <rdg wit="#ae">Because she wears a cordial in her horn,</rdg>
+                </app>
+            </l>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">ffrom putrefaction ſhee her being drew</rdg>
+                    <rdg wit="#ee">From <seg>putrefaction<note type="gloss">rottenness, decay</note></seg> she her <seg>being drew<note type="critical">Aristotle posited that some life forms arose spontaneously from rotting matter.</note></seg>;</rdg>
+                    <rdg wit="#ae">From putrefaction she her <seg>being drew<note type="critical">Aristotle argued in <bibl><title rend="italic">De Generatione et Corruptione</title></bibl> that some creatures were born spontaneously out of the putrifying bodies of others. This is another image of potential rebirth out of death; however, as with the phoenix in lines 41-4, Pulter leaves this potential only implicit.</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">Corruption then at least will haue his due.</rdg>
+                    <rdg wit="#ee">Corruption, then, at <seg>last<note type="physical">“least” in the manuscript</note></seg>, will have his due.</rdg>
+                    <rdg wit="#ae">Corruption then at least will have his due.</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">Soe Man (a las) no cure can find in Death</rdg>
+                    <rdg wit="#ee">So man (alas) no cure can find in death,</rdg>
+                    <rdg wit="#ae">So man (alas) no cure can find in death,</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">When he that gave it takes away his breath</rdg>
+                    <rdg wit="#ee">When He that gave it takes away <seg>his<note type="gloss">man’s</note></seg> breath.</rdg>
+                    <rdg wit="#ae">When he that gave it takes away his breath.</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">The King of Beasts that doth the forrest range,</rdg>
+                    <rdg wit="#ee">The <seg>king of beasts<note type="gloss">lion</note></seg> that doth the forest range,</rdg>
+                    <rdg wit="#ae">The <seg>king of beasts<note type="gloss">lion</note></seg> that doth the forest range,</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft">And at his pleaſure doth his paſture Change:</rdg>
+                    <rdg wit="#ee">And, at his pleasure, doth his pasture change,</rdg>
+                    <rdg wit="#ae">And at his pleasure doth his pasture change,</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">and</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_026" n="11v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_026" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_026" n=""/></rdg>
+            </app>
+          <lg>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">And (like our Hidra) makes his will his laws</rdg>
+                    <rdg wit="#ee">And (like <seg>our Hydra<note type="critical">here, Pulter’s view of the tyranny of the commonwealth government, derived from the multi-headed mythological water snake killed by Hercules; when one head was struck off, two shot up in its place.</note></seg>) makes his will his laws,</rdg>
+                    <rdg wit="#ae">And, like our <seg>Hydra<note type="critical"> in Greek mythology, a many-headed monster whose heads grow again as fast as they are cut off. Pulter uses the Hydra as a figure for Cromwell and the corruption she sees as associated with his rule. See “The Invitation into the Country” (Poem 2), line 4.</note></seg>, makes his will his laws,</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">Tearing his vaſſals w:<add place="above">th</add> his Cruill clawes</rdg>
+                    <rdg wit="#ee">Tearing his <seg>vassals<note type="gloss">subordinates, slaves</note></seg> with his cruel claws,</rdg>
+                    <rdg wit="#ae">Tearing his vassals with his cruel claws;</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">As other creatures hath his Terrour felt</rdg>
+                    <rdg wit="#ee">As other creatures hath his terror felt,</rdg>
+                    <rdg wit="#ae">As other creatures hath his terror felt,</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">Soe Death will doe by him as he hath dealt</rdg>
+                    <rdg wit="#ee">So Death will do by him, as he hath dealt.</rdg>
+                    <rdg wit="#ae">So death will do by him as he hath dealt.</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">Soe domineering Man his Trophis must</rdg>
+                    <rdg wit="#ee">So domineering man, his <seg>trophies<note type="gloss">victories, tokens of victory</note></seg> must</rdg>
+                    <rdg wit="#ae">So domineering man, his trophies must</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">Ere long bee read and ſeene in Nought but dust</rdg>
+                    <rdg wit="#ee">Ere long be <seg>read<note type="gloss">discerned, interpreted</note></seg> and seen in naught but dust.</rdg>
+                    <rdg wit="#ae">Ere long be read and seen in nought but dust.</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">That huge Laviathan that playes and sportes</rdg>
+                    <rdg wit="#ee">That huge <seg>leviathan<note type="gloss">enormous sea creature, whale</note></seg> that plays and sports</rdg>
+                    <rdg wit="#ae">That huge <seg>leviathan<note type="critical">aquatic animal (real or imaginary) of enormous size, frequently mentioned in Hebrew poetry; see Job 41:1-33. Pulter (as is common) conflates the leviathan and the whale. See also Pulter’s "This Vast Leviathan" (Emblem 12).</note></seg> that plays and sports</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">And makes mad Reax in Neptunes Azure courts</rdg>
+                    <rdg wit="#ee">And <seg>makes mad reax in Neptune’s azure courts<note type="gloss">makes mad reax in Neptune’s azure courts</note></seg>,</rdg>
+                    <rdg wit="#ae">And makes mad <seg>rex<note type="gloss">pranks, playful tricks.</note></seg> in <seg>Neptune’s<note type="gloss">Roman god of the sea.</note></seg> azure courts,</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">Even he whose fellow was by fates direction</rdg>
+                    <rdg wit="#ee">E’en he, whose <seg>fellow<note type="gloss">kin</note></seg> was, by fate’s direction,</rdg>
+                    <rdg wit="#ae">E’en he whose fellow was <seg>by Fate’s direction<note type="critical"> A story from Jewish lore of two whales, male and female, castrated and pickled respectively by God to prevent them reproducing and causing widespread destruction <bibl>Alice Eardley (ed.), Lady Hester Pulter: Poems, Emblems, and The Unfortunate Florinda (Toronto: Iter Inc. and Centre for Reformation and Restoration Studies, 2014), p. 68.)</bibl>.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">ffain’d to be powd’rd gainst the Reſurrection</rdg>
+                    <rdg wit="#ee"><seg>Feigned<note type="gloss">imagined</note></seg> to be <seg>powdered ’gainst the Resurrection<note type="critical">Eardley cites Jewish lore, which tells of how God sought to prevent the reproduction of whales by pickling (or powdering) the female to serve as food for the righteous in eternity; the afterlife is what surpasses the Resurrection (God’s final judgment at the end of the world).</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Feigned<note type="gloss">fabled</note></seg> to be <seg>powdered<note type="gloss">salted, pickled for future use; preserved.</note></seg> <seg>’gainst<note type="gloss">in preparation for.</note></seg> the resurrection,</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">That <seg>ſom[?]<note type="physical">end of word unclear, with apparently later addition of what looks like “a”, possibly part of malformed “n”</note></seg> of Pride on the forſaken Shores</rdg>
+                    <rdg wit="#ee">That <seg>son of pride<note type="critical">See Job 41:33-34, referring to the leviathan or whale: “Upon earth there is not his like, who is made without fear. / He beholdeth all high things: he is a king over all the children of pride.”</note></seg> on the forsaken shores,</rdg>
+                    <rdg wit="#ae">That <seg>son of Pride<note type="critical">the whale, described in the Bible as “a king over all the children of pride” (Job 41:34). See also Pulter’s "This Vast Leviathan" (Emblem 12), line 9.</note></seg> on the forsaken shores,</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">Out of his Eliment his life out Rores</rdg>
+                    <rdg wit="#ee">Out of his element, his life <seg>outroars<note type="gloss">drowns out, throws into confusion</note></seg>.</rdg>
+                    <rdg wit="#ae">Out of his element his life <seg>out roars<note type="critical">Pulter’s meaning here is not “outroar”, a single word meaning to roar louder than (<title rend="italic">OED</title> v). Rather, she means that the leviathan roars his life out (and in doing so expires). For a similarly distinctive usage, see “The Invitation into the Country”, in which the Thames “her loss deplores / And to the sea her grief out roars” (Poem 2, lines 29-30); and see “The Complaint of Thames, 1647” (Poem 4), line 98: “I will roar out my grief unto the main”.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="83">
+                <app>
+                    <rdg wit="#ft">Soe Man though hee all Creatures elce tranſcend</rdg>
+                    <rdg wit="#ee">So man, though he all creatures else transcend</rdg>
+                    <rdg wit="#ae">So man, though he all creatures else transcend,</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <rdg wit="#ft">In Sighs and Groanes, (ah mee) his life must end</rdg>
+                    <rdg wit="#ee">In sighs and groans (ah me!), his life must end.</rdg>
+                    <rdg wit="#ae">In sighs and groans (ah me) his life must end.</rdg>
+                </app>
+            </l>
+            <l n="85">
+                <app>
+                    <rdg wit="#ft">The Swiftest Creature that’s below the Moone</rdg>
+                    <rdg wit="#ee">The <seg>swiftest creature<note type="gloss">dolphin</note></seg> that’s below the moon,</rdg>
+                    <rdg wit="#ae">The <seg>swiftest creature<note type="gloss">the dolphin</note></seg> that’s below the moon,</rdg>
+                </app>
+            </l>
+            <l n="86">
+                <app>
+                    <rdg wit="#ft">Which ſav’d Orions life (alas) how ſoone</rdg>
+                    <rdg wit="#ee"><seg>Which saved Arion’s life<note type="critical">Arion, a musician/poet in ancient Greece who was kidnapped by pirates and rescued by dolphins</note></seg> (alas), how soon</rdg>
+                    <rdg wit="#ae">Which saved <seg>Arion’s<note type="critical">MS = Orion’s. A Greek lyric poet and harpist, borne to safe land on a dolphin after being thrown overboard by Corinthian sailors. See Katherine Philips’s use of the Arion story to celebrate Charles II’s restoration to the monarchy, “Arion on a Dolphin, to His Majesty in his Passage into England”.</note></seg> life, alas how <seg>soon<note type="physical">MS = Which saved Orion’s life (alas) how soon. In modernising the punctuation of this line, I have attached the expostulation “alas” to “how soon her race will end” rather than to “saved Arion's life”. For alternative modernisations of the punctuation of this line, see Leah Knight and Wendy Wall’s Elemental Edition of the poem, and <bibl>Alice Eardley (ed.), <title rend="italic">Lady Hester Pulter: Poems, Emblems, and The Unfortunate Florinda</title> (Toronto: Iter Inc. and Centre for Reformation and Restoration Studies, 2014)</bibl></note></seg></rdg>
+                </app>
+            </l>
+            <l n="87">
+                <app>
+                    <rdg wit="#ft">Her Race will <seg>[<del>ev</del>]<note type="physical">“e” or “ev,” scribbled out</note></seg> end even in A little time</rdg>
+                    <rdg wit="#ee">Her <seg>race<note type="gloss">voyage or progress through life; contest of speed; also, species</note></seg> will end; even in a little time</rdg>
+                    <rdg wit="#ae">Her race will end; e’en in a little time</rdg>
+                </app>
+            </l>
+            <l n="88">
+                <app>
+                    <rdg wit="#ft">Shee must returne againe to dirt or Slime</rdg>
+                    <rdg wit="#ee">She must return again to dirt or slime.</rdg>
+                    <rdg wit="#ae">She must return again to dirt or slime.</rdg>
+                </app>
+            </l>
+            <l n="89">
+                <app>
+                    <rdg wit="#ft">Soe Man his Destinie can ner’e out run</rdg>
+                    <rdg wit="#ee">So man, his destiny can ne’er outrun,</rdg>
+                    <rdg wit="#ae">So man his destiny can ne’er outrun;</rdg>
+                </app>
+            </l>
+            <l n="90">
+                <app>
+                    <rdg wit="#ft">The cruell Parce cuts, Mans life is dun</rdg>
+                    <rdg wit="#ee">The cruel <seg>Parcae<note type="gloss">three Fates who determine length of human lives by cutting threads</note></seg> cuts: man’s life is done.</rdg>
+                    <rdg wit="#ae">The cruel <seg>Parcae<note type="gloss">in Roman mythology, the three Fates, usually depicted as three women who draw forth, measure out, and cut the threads of human life.</note></seg> <seg>cut<note type="physical">MS = “cuts”</note></seg>, man’s life is done.</rdg>
+                </app>
+            </l>
+            <l n="91">
+                <app>
+                    <rdg wit="#ft">The little Remmora that nere will fayle</rdg>
+                    <rdg wit="#ee">The little <seg>remora<note type="gloss">suckerfish that can attach to anything in the water and, in legends, could impede their movement; obstacle</note></seg> that ne’er will fail</rdg>
+                    <rdg wit="#ae">The little <seg>remora<note type="critical">a little fish that attaches itself to the underside of ships, slowing its passage or preventing it entirely from moving (commonly used figuratively or emblematically). See the description in Holland’s translation of Pliny’s <title rend="italic">Natural History</title>, 2.425.</note></seg> that ne’er will fail</rdg>
+                </app>
+            </l>
+            <l n="92">
+                <app>
+                    <rdg wit="#ft">To stop the Proudest Ship thats under Sayle</rdg>
+                    <rdg wit="#ee">To stop the proudest ship that’s under sail,</rdg>
+                    <rdg wit="#ae">To stop the proudest ship that’s under sail,</rdg>
+                </app>
+            </l>
+            <l n="93">
+                <app>
+                    <rdg wit="#ft">When Death doth summon her Shee must away</rdg>
+                    <rdg wit="#ee">When Death doth summon her, she must away;</rdg>
+                    <rdg wit="#ae">When Death doth summon her she must away;</rdg>
+                </app>
+            </l>
+            <l n="94">
+                <app>
+                    <rdg wit="#ft">ffor all her Art Shee cant make time to Stay</rdg>
+                    <rdg wit="#ee">For all her art, she can’t make time to <seg>stay<note type="gloss">halt, support</note></seg>.</rdg>
+                    <rdg wit="#ae">For all her art she can’t make time to stay.</rdg>
+                </app>
+            </l>
+            <l n="95">
+                <app>
+                    <rdg wit="#ft">So Man that Strives to blurr anothers fame</rdg>
+                    <rdg wit="#ee">So man, that strives to <seg>blur<note type="gloss">blemish</note></seg> another’s fame,</rdg>
+                    <rdg wit="#ae">So man that strives to blur another’s fame,</rdg>
+                </app>
+            </l>
+            <l n="96">
+                <app>
+                    <rdg wit="#ft">Death comes the while and blots out his own name</rdg>
+                    <rdg wit="#ee">Death comes the <seg>while<note type="gloss">meanwhile</note></seg> and <seg>blots<note type="gloss">stains, disfigures in ink</note></seg> out his own name.</rdg>
+                    <rdg wit="#ae">Death comes the while and blots out his own name.</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">thoſe</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_027" n="12r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_027" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_027" n=""/></rdg>
+            </app>
+          <lg>
+            <l n="97">
+                <app>
+                    <rdg wit="#ft">Those Cittyes that the Orient kingdoomes gracest</rdg>
+                    <rdg wit="#ee">Those cities that the <seg>orient<note type="gloss">eastern</note></seg> kingdoms <seg>gracest<note type="gloss">honors</note></seg>,</rdg>
+                    <rdg wit="#ae">Those cities that the orient kingdoms gracest,</rdg>
+                </app>
+            </l>
+            <l n="98">
+                <app>
+                    <rdg wit="#ft">Beneath theere Ruins (Sadly) li’es defacest</rdg>
+                    <rdg wit="#ee">Beneath their ruins (sadly) lies defacest:</rdg>
+                    <rdg wit="#ae">Beneath their ruins, sadly, lies defacest,</rdg>
+                </app>
+            </l>
+            <l n="99">
+                <app>
+                    <rdg wit="#ft">As Ninnivie Perſepoles, the faire</rdg>
+                    <rdg wit="#ee"><seg>As<note type="gloss">Such as</note></seg> Nineveh, Persepolis the fair,</rdg>
+                    <rdg wit="#ae">As <seg>Nineveh<note type="gloss">an ancient Assyrian city founded by Nimrod (Genesis 10:11).</note></seg>, <seg>Persepolis<note type="gloss">the ceremonial capital of the Achaemenid Empire, in ancient Persia.</note></seg> the fair,</rdg>
+                </app>
+            </l>
+            <l n="100">
+                <app>
+                    <rdg wit="#ft">And Babilon (Soe famous) all deſpaire</rdg>
+                    <rdg wit="#ee"><seg>And Babylon<note type="critical">ancient towns that were destroyed; Nineveh, in Assyria (now Iraq); Perseopolis, in ancient Persia (now Iran); Babylon, in ancient Mesopotamia (now Iraq)</note></seg> (so famous!), all despair</rdg>
+                    <rdg wit="#ae">And <seg>Babylon<note type="gloss">ancient city on the River Euphrates, in Mesopotamia, famous for its monumental buildings and hanging gardens</note></seg> so famous, all despair</rdg>
+                </app>
+            </l>
+            <l n="101">
+                <app>
+                    <rdg wit="#ft">Of ever being Reſtored againe, and now</rdg>
+                    <rdg wit="#ee">Of ever being restored again; and now</rdg>
+                    <rdg wit="#ae">Of ever being restored again, and now</rdg>
+                </app>
+            </l>
+            <l n="102">
+                <app>
+                    <rdg wit="#ft">Wee ſee that all to time and fate muſt bow</rdg>
+                    <rdg wit="#ee">We see that all to time and fate must bow.</rdg>
+                    <rdg wit="#ae">We see that all to time and fate must bow.</rdg>
+                </app>
+            </l>
+            <l n="103">
+                <app>
+                    <rdg wit="#ft">Soe wretched Man whoſe Structure is of dust</rdg>
+                    <rdg wit="#ee">So wretched man, whose structure is of <seg>dust<note type="critical">see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>,</rdg>
+                    <rdg wit="#ae">So wretched man, whose structure is of dust,</rdg>
+                </app>
+            </l>
+            <l n="104">
+                <app>
+                    <rdg wit="#ft">After his periods past he moulder must</rdg>
+                    <rdg wit="#ee">After his <seg>period’s<note type="gloss">time’s</note></seg> past, he <seg>molder<note type="gloss">disintegrate</note></seg> must,</rdg>
+                    <rdg wit="#ae">After his period’s past, he moulder must,</rdg>
+                </app>
+            </l>
+            <l n="105">
+                <app>
+                    <rdg wit="#ft">And this our Globe of Earth er’e long Shall burn</rdg>
+                    <rdg wit="#ee">And this, our globe of earth, <seg>ere<note type="gloss">before</note></seg> long shall burn,</rdg>
+                    <rdg wit="#ae">And this our globe of earth ere long shall burn</rdg>
+                </app>
+            </l>
+            <l n="106">
+                <app>
+                    <rdg wit="#ft">And all her pomp and Pride to <add place="below">^</add> <add place="above">Cinders</add> Ashes turn</rdg>
+                    <rdg wit="#ee">And all her pomp and pride to cinders’ ashes <seg>turn<note type="gloss">transform, return</note></seg>.</rdg>
+                    <rdg wit="#ae">And all her pomp and pride to <seg>ashes<note type="physical">The scribe has added “cinders” above this word; a caret indicates the insertion, but “ashes” has not been scored out, and no priority has been indicated between the two alternatives.</note></seg> turn.</rdg>
+                </app>
+            </l>
+            <l n="107">
+                <app>
+                    <rdg wit="#ft">Then my impatiant Soule what cans’t thou Say</rdg>
+                    <rdg wit="#ee">Then, my impatient soul, what canst thou say,</rdg>
+                    <rdg wit="#ae">Then, my impatient soul, what canst thou say,</rdg>
+                </app>
+            </l>
+            <l n="108">
+                <app>
+                    <rdg wit="#ft">Seeing all Sublunary things decay</rdg>
+                    <rdg wit="#ee">Seeing all <seg>sublunary<note type="gloss">earthly (beneath the moon), minor</note></seg> things decay?</rdg>
+                    <rdg wit="#ae">Seeing all <seg>sublunary<note type="gloss">beneath the moon; i.e. earthly, belonging to this world</note></seg> things decay?</rdg>
+                </app>
+            </l>
+            <l n="109">
+                <app>
+                    <rdg wit="#ft">Nay mark Aurora in her youthfull pride</rdg>
+                    <rdg wit="#ee">Nay, mark <seg>Aurora<note type="gloss">goddess of dawn</note></seg>, in her youthful pride,</rdg>
+                    <rdg wit="#ae">Nay, mark <seg>Aurora<note type="gloss">Roman goddess of the dawn (and the subject of several poems by Pulter)</note></seg> in her youthful pride,</rdg>
+                </app>
+            </l>
+            <l n="110">
+                <app>
+                    <rdg wit="#ft">Her purple Curtains newly drawn aſide</rdg>
+                    <rdg wit="#ee">Her purple curtains newly drawn aside,</rdg>
+                    <rdg wit="#ae">Her purple curtains newly drawn aside,</rdg>
+                </app>
+            </l>
+            <l n="111">
+                <app>
+                    <rdg wit="#ft">As when her bleſſed Infant Shee brought forth</rdg>
+                    <rdg wit="#ee">As when her blesséd infant she brought forth,</rdg>
+                    <rdg wit="#ae">As when her blessed infant she brought forth,</rdg>
+                </app>
+            </l>
+            <l n="112">
+                <app>
+                    <rdg wit="#ft">The faire Astrea of unparreld worth</rdg>
+                    <rdg wit="#ee">The fair <seg>Astraea<note type="critical">goddess of justice, whom Pulter identifies as well with truth; daughter of Aurora</note></seg> of unparalleled worth.</rdg>
+                    <rdg wit="#ae">The fair <seg>Astraea<note type="gloss">in Roman mythology, daughter of Aurora and Astraeus, and the goddess of truth or justice.</note></seg> of <seg>unparalled<note type="gloss">unparalleled, a contraction common in Pulter’s poems.</note></seg> worth.</rdg>
+                </app>
+            </l>
+            <l n="113">
+                <app>
+                    <rdg wit="#ft">Bright is the one but brighter is the other</rdg>
+                    <rdg wit="#ee">Bright is the one, but brighter is the other;</rdg>
+                    <rdg wit="#ae">Bright is the one, but brighter is the other;</rdg>
+                </app>
+            </l>
+            <l n="114">
+                <app>
+                    <rdg wit="#ft">The Daughter infinitely excels the Mother</rdg>
+                    <rdg wit="#ee">The daughter infinitely excels the mother.</rdg>
+                    <rdg wit="#ae">The daughter infinitely excels the mother.</rdg>
+                </app>
+            </l>
+            <l n="115">
+                <app>
+                    <rdg wit="#ft">Light from mine eyes I wiſh may never part</rdg>
+                    <rdg wit="#ee">Light from mine eyes, I wish may never part,</rdg>
+                    <rdg wit="#ae">Light from mine eyes I wish may never part,</rdg>
+                </app>
+            </l>
+            <l n="116">
+                <app>
+                    <rdg wit="#ft">But thou Sweete Truth Shalt harbor in my heart</rdg>
+                    <rdg wit="#ee">But thou, sweet Truth, shalt harbor in my heart.</rdg>
+                    <rdg wit="#ae">But thou, sweet Truth, shalt harbour in my heart;</rdg>
+                </app>
+            </l>
+            <l n="117">
+                <app>
+                    <rdg wit="#ft">Yet this most glorious Creature light Soone fades</rdg>
+                    <rdg wit="#ee">Yet this most glorious creature, Light, soon fades</rdg>
+                    <rdg wit="#ae">Yet this most glorious creature, Light, soon fades</rdg>
+                </app>
+            </l>
+            <l n="118">
+                <app>
+                    <rdg wit="#ft">And is inveloped in nights darke Shades</rdg>
+                    <rdg wit="#ee">And is enveloped in night’s dark shades.</rdg>
+                    <rdg wit="#ae">And is enveloped in night’s dark shades.</rdg>
+                </app>
+            </l>
+            <l n="119">
+                <app>
+                    <rdg wit="#ft">Soe though Mans Soule’s a beame of Heavenly light</rdg>
+                    <rdg wit="#ee">So though man’s soul’s a beam of heavenly light,</rdg>
+                    <rdg wit="#ae">So, though man’s soul’s a beam of heavenly light,</rdg>
+                </app>
+            </l>
+            <l n="120">
+                <app>
+                    <rdg wit="#ft">Yet must his body Sleepe in Death and Night</rdg>
+                    <rdg wit="#ee">Yet must his body sleep in death and night.</rdg>
+                    <rdg wit="#ae">Yet must his body sleep in death and night.</rdg>
+                </app>
+            </l>
+            <l n="121">
+                <app>
+                    <rdg wit="#ft">Nay Cinthias borrowed Splenden<del>cen</del>cie Shall ceaſe</rdg>
+                    <rdg wit="#ee">Nay, <seg>Cynthia’s<note type="gloss">the moon’s</note></seg> borrowed <seg>splendency<note type="gloss">splendor</note></seg> shall cease,</rdg>
+                    <rdg wit="#ae">Nay, <seg>Cynthia’s<note type="gloss">an epithet of Artemis, the Greek goddess of the moon.</note></seg> <seg>borrowed splendency<note type="gloss">the moon reflects the light of the sun</note></seg> shall cease,</rdg>
+                </app>
+            </l>
+            <l n="122">
+                <app>
+                    <rdg wit="#ft">And Shee Shall leave to wane and to increase</rdg>
+                    <rdg wit="#ee">And she shall <seg>leave<note type="gloss">cease</note></seg> to wane and to increase;</rdg>
+                    <rdg wit="#ae">And she shall <seg>leave<note type="gloss">cease</note></seg> to wane and to increase,</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">nor</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_028" n="12v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_028" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_028" n=""/></rdg>
+            </app>
+          <lg>
+            <l n="123">
+                <app>
+                    <rdg wit="#ft">Nor shall her changes make <seg><add place="below">^</add><add place="above">o:r our</add><note type="physical">“our” appears above “o:r” (which has superscript “r”); insertions appear to be in two hands, each different from main scribe</note></seg> Ocean Riſe</rdg>
+                    <rdg wit="#ee">Nor shall her changes make our ocean rise</rdg>
+                    <rdg wit="#ae">Nor shall her changes make our ocean rise</rdg>
+                </app>
+            </l>
+            <l n="124">
+                <app>
+                    <rdg wit="#ft">Or fall, or her Sad influence cloſe our eyes</rdg>
+                    <rdg wit="#ee">Or fall, or her sad influence close our eyes.</rdg>
+                    <rdg wit="#ae">Or fall, or her sad influence close our eyes.</rdg>
+                </app>
+            </l>
+            <l n="125">
+                <app>
+                    <rdg wit="#ft">Hers and her Brothers firery Shafts noe more</rdg>
+                    <rdg wit="#ee">Hers and <seg>her brother’s<note type="gloss">Apollo’s (the sun god’s)</note></seg> fiery shafts no more</rdg>
+                    <rdg wit="#ae"><seg>Her and her brother’s fiery shafts no more<note type="gloss">MS = Hers. The fiery shafts of Artemis, and her brother Apollo, the Greek god of the sun</note></seg></rdg>
+                </app>
+            </l>
+            <l n="126">
+                <app>
+                    <rdg wit="#ft">Shall make poore Niobies theire loſs deplore</rdg>
+                    <rdg wit="#ee">Shall make poor <seg>Niobes<note type="critical">siblings Apollo and Cynthia (Artemis) transformed Niobe into a weeping rock for bragging that she had more children than their mother; here, the sun and moon, which Pulter imagines as continuously spurring all grieving mothers (figuratively, “Niobes”) to mourn their losses, will disappear and no longer exert influence.</note></seg> their loss deplore.</rdg>
+                    <rdg wit="#ae">Shall make poor <seg>Niobes<note type="critical">in Greek mythology, Artemis and Apollo punished Niobe, who had boasted of having more children than their mother, Leto. Artemis and Apollo killed Niobe’s children and transformed her into a weeping stone. Niobe became a common literary figure for a woman’s profound grief for her children. See “Upon the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10), line 50.</note></seg> their loss deplore.</rdg>
+                </app>
+            </l>
+            <l n="127">
+                <app>
+                    <rdg wit="#ft">The glittering harbinger of Cheerfull Day</rdg>
+                    <rdg wit="#ee">The glitt’ring <seg>harbinger<note type="gloss">forerunner</note></seg> of <seg>cheerful day<note type="gloss">Aurora, goddess of dawn</note></seg>,</rdg>
+                    <rdg wit="#ae">The <seg>glittering harbinger<note type="gloss">Aurora, goddess of the dawn (harbinger: one that goes before)</note></seg> of cheerful day</rdg>
+                </app>
+            </l>
+            <l n="128">
+                <app>
+                    <rdg wit="#ft">That leads the Sable Empris on her way</rdg>
+                    <rdg wit="#ee">That leads the <seg>sable Empress<note type="gloss">Night</note></seg> on her way,</rdg>
+                    <rdg wit="#ae">That leads the <seg>sable empress<note type="gloss">night</note></seg> on her way,</rdg>
+                </app>
+            </l>
+            <l n="129">
+                <app>
+                    <rdg wit="#ft">Bearing a Torch her Ebone Coach beſide</rdg>
+                    <rdg wit="#ee">Bearing a torch her <seg>ebon<note type="gloss">black</note></seg> coach beside,</rdg>
+                    <rdg wit="#ae">Bearing a torch, her <seg>ebon<note type="gloss">i.e. ebony (black)</note></seg> coach beside,</rdg>
+                </app>
+            </l>
+            <l n="130">
+                <app>
+                    <rdg wit="#ft">As shee Triumphant round our Orb doth ride</rdg>
+                    <rdg wit="#ee">As she, triumphant, round <seg>our orb<note type="gloss">Earth</note></seg> doth ride,</rdg>
+                    <rdg wit="#ae">As she triumphant round our orb doth ride,</rdg>
+                </app>
+            </l>
+            <l n="131">
+                <app>
+                    <rdg wit="#ft">E’ne Shee <seg>[<del>?</del>]<note type="physical">strike-through of complete word, starting “A” and ending “ſed”</note></seg> shall bee <add place="below">\</add><seg><add place="above">amaz’d \</add><note type="physical">written in hand H2</note></seg> and lose her way</rdg>
+                    <rdg wit="#ee">E’en she shall be <seg>amazed<note type="gloss">bewildered, astonished</note></seg> and lose her way,</rdg>
+                    <rdg wit="#ae"><seg>E’en<note type="physical">This line has been amended. Originally “E’en she a[..s.d] shall be, and lose her way”, the word beginning with “a” (possibly “abused”?) has been scored out, and “amazed” has been added above the line to create “E’en she shall be amazed, and lose her way”. The word “amazed” is in the hand likely to be Pulter’s own, suggesting this is an authorial amendment.</note></seg> she shall be <seg>amazed<note type="gloss">bewildered, confounded, perplexed; also terror-stricken (<title rend="italic">OED</title> 2 and 3)</note></seg>, and lose her way,</rdg>
+                </app>
+            </l>
+            <l n="132">
+                <app>
+                    <rdg wit="#ft">Not able to conduct the Night or Day</rdg>
+                    <rdg wit="#ee">Not able to conduct the night or day.</rdg>
+                    <rdg wit="#ae">Not able to conduct the night or day.</rdg>
+                </app>
+            </l>
+            <l n="133">
+                <app>
+                    <rdg wit="#ft">Nor Shall that Slie the<add place="below">^</add><add place="above">i</add>fe, Hermes, ever keepe</rdg>
+                    <rdg wit="#ee">Nor shall that sly thief Hermes ever <seg>keep<note type="gloss">confine himself, remain</note></seg>,</rdg>
+                    <rdg wit="#ae">Nor shall that sly thief, <seg>Hermes<note type="critical">Hermes is Mercury, the planet closest to the sun, and therefore very difficult for astronomers to see behind the “illustrious sunbeams”. Here he is depicted as playing <hi rend="italic">bo-peep</hi>, a nursery game of hiding one’s face and suddenly reappearing (<bibl><title rend="italic">OED</title></bibl>).</note></seg>, ever keep</rdg>
+                </app>
+            </l>
+            <l n="134">
+                <app>
+                    <rdg wit="#ft">Behind the illuſtrious Sun beams playing bopeep</rdg>
+                    <rdg wit="#ee">Behind th’illustrious sun beams, playing bo peep;</rdg>
+                    <rdg wit="#ae">Behind th’illustrious sunbeams, playing bo-peep;</rdg>
+                </app>
+            </l>
+            <l n="135">
+                <app>
+                    <rdg wit="#ft">His light shall bee obſcured noe more with light</rdg>
+                    <rdg wit="#ee">His light shall be obscured no more with light,</rdg>
+                    <rdg wit="#ae">His light shall be obscured no more with light,</rdg>
+                </app>
+            </l>
+            <l n="136">
+                <app>
+                    <rdg wit="#ft">But all his Knaveries Shall come in Sight</rdg>
+                    <rdg wit="#ee">But all his <seg>knaveries<note type="gloss">mischiefs</note></seg> shall <seg>come in sight<note type="critical">Hermes, or Mercury, is both the trickster messenger god and the planet Mercury, which is hidden by the sun, seeming to play a nursery game of hide and seek.</note></seg>.</rdg>
+                    <rdg wit="#ae">But all his <seg>knaveries<note type="gloss">trickeries</note></seg> shall come in sight.</rdg>
+                </app>
+            </l>
+            <l n="137">
+                <app>
+                    <rdg wit="#ft">The ffount and Center of all Light the Sun</rdg>
+                    <rdg wit="#ee">The <seg>fount<note type="gloss">source, fountain</note></seg> and center of all light, the sun,</rdg>
+                    <rdg wit="#ae">The fount and centre of all light, the sun,</rdg>
+                </app>
+            </l>
+            <l n="138">
+                <app>
+                    <rdg wit="#ft">Round whom <seg>whoſe<note type="physical">“w” possibly corrected to “t” in different hand from main scribe</note></seg> Orbs perpetually doe run</rdg>
+                    <rdg wit="#ee">Round whom those <seg>orbs<note type="gloss">planets</note></seg> perpetually do run,</rdg>
+                    <rdg wit="#ae">Round whom <seg>those<note type="physical">Originally “whose”, the word may have been corrected, through an adjustment of the “w”, to “those” (a better word here).</note></seg> orbs perpetually do run,</rdg>
+                </app>
+            </l>
+            <l n="139">
+                <app>
+                    <rdg wit="#ft">Shall all his influence and <add place="below">^</add><add place="above">light</add> contract</rdg>
+                    <rdg wit="#ee">Shall all his influence and light contract,</rdg>
+                    <rdg wit="#ae">Shall all his influence and light contract,</rdg>
+                </app>
+            </l>
+            <l n="140">
+                <app>
+                    <rdg wit="#ft">Which will Amazed Nature quite diſtract</rdg>
+                    <rdg wit="#ee">Which will amazéd Nature quite distract.</rdg>
+                    <rdg wit="#ae">Which will <seg>amazèd<note type="gloss">see note to line 131; or here, perhaps, lost in wonder and astonishment (<title rend="italic">OED</title> 4)</note></seg> Nature quite distract.</rdg>
+                </app>
+            </l>
+            <l n="141">
+                <app>
+                    <rdg wit="#ft">Auſpitious Jupiter poore Mortals friend</rdg>
+                    <rdg wit="#ee"><seg>Auspicious Jupiter<note type="critical">Jupiter, the largest planet and supreme Roman god in Roman pantheon, is seen, in astrology, as “auspicious” (presenting a positive omen), temperate, wise, benevolent, and concerned with law and judgement, with tacit affiliations to Christian judgement in art.</note></seg>, poor mortal’s friend,</rdg>
+                    <rdg wit="#ae"><seg>Auspicious Jupiter<note type="critical">Jupiter is the largest planet in the solar system and the supreme Roman god. In astrological terms, the planet is “auspicious”, a sign that good things will happen.</note></seg>, poor mortals’ friend,</rdg>
+                </app>
+            </l>
+            <l n="142">
+                <app>
+                    <rdg wit="#ft">His mild Aspect to earth noe more Shall Send</rdg>
+                    <rdg wit="#ee">His mild aspect to earth no more shall send.</rdg>
+                    <rdg wit="#ae">His mild aspect to earth no more shall send;</rdg>
+                </app>
+            </l>
+            <l n="143">
+                <app>
+                    <rdg wit="#ft">ffierce <seg>Mars<note type="physical"> imperfectly blotted “e” afterward</note></seg> his flagrant rapeire Shall put up</rdg>
+                    <rdg wit="#ee">Fierce <seg>Mars<note type="gloss">god of war</note></seg> his <seg>flagrant rapier<note type="gloss">blazing sword</note></seg> shall put up,</rdg>
+                    <rdg wit="#ae"><seg>Fierce Mars<note type="gloss"> the planet associated with the god of war.</note></seg>, his <seg>flagrant rapier<note type="gloss">blazing, burning sword.</note></seg> shall <seg>put up<note type="gloss"> lay aside.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="144">
+                <app>
+                    <rdg wit="#ft">Seing totall Nature drinks the Selfe Same cup</rdg>
+                    <rdg wit="#ee">Seeing total Nature drinks the <seg>selfsame<note type="gloss">identical</note></seg> cup</rdg>
+                    <rdg wit="#ae">Seeing total Nature drinks the self-same cup;</rdg>
+                </app>
+            </l>
+            <l n="145">
+                <app>
+                    <rdg wit="#ft">And that Malignant Melancholy Star</rdg>
+                    <rdg wit="#ee">And that <seg>malignant, melancholy star<note type="gloss">Saturn</note></seg></rdg>
+                    <rdg wit="#ae">And that <seg>malignant, melancholy star<note type="gloss">Saturn, which has a long astrological association with melancholy</note></seg></rdg>
+                </app>
+            </l>
+            <l n="146">
+                <app>
+                    <rdg wit="#ft">That to doe miſchiefe could diſcerne ſoe fare</rdg>
+                    <rdg wit="#ee">That, to do mischief, could <seg>discern<note type="gloss">see, perceive</note></seg> so far</rdg>
+                    <rdg wit="#ae">That, to do mischief, could discern so far</rdg>
+                </app>
+            </l>
+            <l n="147">
+                <app>
+                    <rdg wit="#ft">As sweete <seg>Hibernie<note type="physical">“ni” overwrites an unknown letter</note></seg> Where <seg>I<note type="physical">appears crowded between surrounding words</note></seg> first had life</rdg>
+                    <rdg wit="#ee">As sweet <seg>Hibernie<note type="gloss">classical name for Ireland</note></seg> where I <seg>first had life<note type="critical">Pulter was born outside of Dublin.</note></seg>,</rdg>
+                    <rdg wit="#ae">As sweet <seg>Hibernie, where I first had life<note type="critical">Pulter was born in Ireland, the classical Latin name for which is Hibernia. Here, she describes Saturn as presiding over her birth even in Ireland. She frequently refers in her poetry to the influence of melancholic Saturn on her life and character. See Alice Eardley, “Saturn (whose aspects soe sads my soul)”: Lady Hester Pulter’s Feminine Melancholic Genius”, in <bibl><author>Michael Denbo</author> (ed.), <title rend="italic">New Ways of Looking at Old Texts, IV: Papers of the Renaissance English Text Society, 2002-2006</title> (Tempe, AZ: ACMRS, 2008), pp. 239-252.</bibl></note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="148">
+                <app>
+                    <rdg wit="#ft">Now quite destroyed by Atropus Keene Knife</rdg>
+                    <rdg wit="#ee">Now quite destroyed by <seg>Atropos’s<note type="gloss">one of the three Fates’</note></seg> <seg>keen<note type="gloss">sharp</note></seg> knife.</rdg>
+                    <rdg wit="#ae">Now quite destroyed by <seg>Atropos’<note type="gloss">one of the three Fates (or Parcae, line 90), she who cuts the thread of mortal life</note></seg> keen knife.</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">ah</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_029" n="13r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_029" n=""/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_029" n=""/></rdg>
+            </app>
+          <lg>
+            <l n="149">
+                <app>
+                    <rdg wit="#ft">Ah cruell stars not mee alone anoy</rdg>
+                    <rdg wit="#ee">Ah, cruel stars, not me alone annoy,</rdg>
+                    <rdg wit="#ae">Ah, cruel stars not me alone annoy,</rdg>
+                </app>
+            </l>
+            <l n="150">
+                <app>
+                    <rdg wit="#ft">But my poore Countrey too they must destroy</rdg>
+                    <rdg wit="#ee">But my poor country too, <seg>they<note type="gloss">the stars</note></seg> must destroy.</rdg>
+                    <rdg wit="#ae">But my poor country, too, they must destroy!</rdg>
+                </app>
+            </l>
+            <l n="151">
+                <app>
+                    <rdg wit="#ft">But those conjunctions too er’e long Shall ceaſe</rdg>
+                    <rdg wit="#ee">But those <seg>conjunctions<note type="gloss">alignments of the stars</note></seg> too ere long shall cease;</rdg>
+                    <rdg wit="#ae">But those <seg>conjunctions<note type="gloss">alignments of the stars</note></seg>, too, ere long shall cease,</rdg>
+                </app>
+            </l>
+            <l n="152">
+                <app>
+                    <rdg wit="#ft">When <seg>Alls<note type="physical">“A” overwrites “ſt”</note></seg> to Chaos turnd there will be peace</rdg>
+                    <rdg wit="#ee">When all’s to chaos turned, there will be peace.</rdg>
+                    <rdg wit="#ae">When all’s to chaos turned, there will be peace.</rdg>
+                </app>
+            </l>
+            <l n="153">
+                <app>
+                    <rdg wit="#ft">The Six proud Pleads Shall theire bevty hide</rdg>
+                    <rdg wit="#ee">The six proud <seg>Pleiades<note type="critical">cluster of stars in the constellation Taurus, of which only six are visible; in mythology, seven virgin followers of the goddess Artemis, whom Zeus turned into stars to protect them from the sexual advances of Orion</note></seg> shall their beauty hide,</rdg>
+                    <rdg wit="#ae">The <seg>six proud Pleiads<note type="critical">The Pleiades are a prominent cluster of stars in the constellation Taurus, often referred to as seven (or “the seven sisters”) even though only six are easily visible to the naked eye. These six are the “proud” (splendid, standing out) Pleiades which Pulter imagines becoming dark.</note></seg> shall their beauty hide,</rdg>
+                </app>
+            </l>
+            <l n="154">
+                <app>
+                    <rdg wit="#ft">As well as Sissiphus his baſhfull Bride</rdg>
+                    <rdg wit="#ee">As well as Sisyphus his bashful <seg>bride<note type="critical">Merope, a nearly invisible star in the Pleaids (see n. 39); she hides her face for shame at having married a mortal, while all her sisters mated with gods; wife of Sisyphus, condemned eternally to push a rock up a hill and have it roll back before he reached the summit</note></seg>.</rdg>
+                    <rdg wit="#ae">As well as <seg>Sisyphus, his bashful bride<note type="critical">Merope, the nearly invisible star in the Pleaides (see note above), who hides her face in shame at having married a mortal (Sisyphus), while all her sisters mated with gods</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="155">
+                <app>
+                    <rdg wit="#ft">Then Shall Orions Harpe noe Muſick make</rdg>
+                    <rdg wit="#ee">Then shall <seg>Orion’s<note type="critical">conflating Orion, a giant hunter turned into a constellation, with musician Arion (see n. 32)</note></seg> harp no music make,</rdg>
+                    <rdg wit="#ae">Then shall <seg>Orion’s<note type="critical">in Greek mythology, a giant and huntsman transformed at his death into a constellation of stars. Pulter here conflates him with the Greek lyric poet and harpist Arion (see note to line 86).</note></seg> harp no music make,</rdg>
+                </app>
+            </l>
+            <l n="156">
+                <app>
+                    <rdg wit="#ft">But ſuch as Shall the Stoutest Courage Shake</rdg>
+                    <rdg wit="#ee">But such as shall the <seg>stoutest<note type="gloss">proudest, fiercest</note></seg> courage shake.</rdg>
+                    <rdg wit="#ae">But such as shall the stoutest courage shake;</rdg>
+                </app>
+            </l>
+            <l n="157">
+                <app>
+                    <rdg wit="#ft">Thoſe tender hearted Siſters Shall noe more</rdg>
+                    <rdg wit="#ee">Those <seg>tenderhearted sisters<note type="gloss">the Hyades (or the “rainers”), seven nymphs who wept at the death of their brother, Hyas, so much that Zeus turned then into a constellation, which appears in rainy seasons.</note></seg> shall no more</rdg>
+                    <rdg wit="#ae">Those <seg>tender-hearted sisters<note type="gloss">the Hyades, sisters in Greek mythology to the Pleiades and the Hesperides</note></seg> shall no more</rdg>
+                </app>
+            </l>
+            <l n="158">
+                <app>
+                    <rdg wit="#ft">Theire brother Hilas hasty fate deplore</rdg>
+                    <rdg wit="#ee">Their brother Hyas’s hasty fate deplore,</rdg>
+                    <rdg wit="#ae"><seg>Their brother Hyas’ hasty fate deplore<note type="critical">MS = Hilas. In Greek mythology, the Hyades are “the rainy ones”; they were seven nymphs who wept so much at the death of their brother, Hyas, that Zeus turned them into a constellation, which appears in rainy seasons.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="159">
+                <app>
+                    <rdg wit="#ft">Sho<add place="below">^</add><add place="above">w</add>reing from theire Sad eyes Such floods of Rain</rdg>
+                    <rdg wit="#ee">Showering from their sad eyes such floods of rain</rdg>
+                    <rdg wit="#ae">Show’ring from their sad eyes such floods of rain</rdg>
+                </app>
+            </l>
+            <l n="160">
+                <app>
+                    <rdg wit="#ft">That oft the plowmans hopes and labour’s vaine</rdg>
+                    <rdg wit="#ee">That oft the plowman’s hopes and labor’s vain.</rdg>
+                    <rdg wit="#ae">That oft the plowman’s hopes and <seg>labour’s<note type="gloss">i.e. labour is</note></seg> vain.</rdg>
+                </app>
+            </l>
+            <l n="161">
+                <app>
+                    <rdg wit="#ft">The Vulture that did Stop Mans high deſigne</rdg>
+                    <rdg wit="#ee">The <seg>vulture<note type="critical">constellation Lyra that shines from the sky and is represented as a bird, either eagle or vulture (Eardley); creature who gnawed on Promethus’s liver</note></seg> that did stop man’s high design,</rdg>
+                    <rdg wit="#ae">The <seg>vulture<note type="gloss">one of two northern constellations, Lyra or Aquila</note></seg> that did stop man’s high design</rdg>
+                </app>
+            </l>
+            <l n="162">
+                <app>
+                    <rdg wit="#ft">Must stoope to fate and ceaſe to fly <add place="below">^</add><add place="above">or</add> <seg>[<del>ag</del>]ſhine<note type="physical"> initial “a” scribbled out; “g” written over with “ſ”; “h” writes over another “a”, correcting “againe” to “ſhine”</note></seg></rdg>
+                    <rdg wit="#ee">Must stoop to fate and cease to fly or shine.</rdg>
+                    <rdg wit="#ae">Must stoop to fate and cease to fly or <seg>shine<note type="physical">amended from “again”, in the scribal hand</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="163">
+                <app>
+                    <rdg wit="#ft">And all the <w lemma="gem"><abbr>Ge<hi rend="overline">m</hi>s</abbr></w> of Ariadnas Crown</rdg>
+                    <rdg wit="#ee">And all the gems of <seg>Ariadne’s crown<note type="critical">Abandoned by Theseus, after she helped him kill the Minotaur, Ariadne is transformed by Dionysius into a constellation crowned by seven stars.</note></seg></rdg>
+                    <rdg wit="#ae">And all the gems of <seg>Ariadne’s<note type="gloss">in Greek mythology, a consort of Theseus and Dionysus, who transforms here into a constellation crowned by seven stars</note></seg> crown</rdg>
+                </app>
+            </l>
+            <l n="164">
+                <app>
+                    <rdg wit="#ft">Shall loſe theire (Sparkling) luster &amp; drop down</rdg>
+                    <rdg wit="#ee">Shall lose their sparkling luster and drop down.</rdg>
+                    <rdg wit="#ae">Shall lose their sparkling lustre and drop down.</rdg>
+                </app>
+            </l>
+            <l n="165">
+                <app>
+                    <rdg wit="#ft">Nor Shall pale Aſaph evermore apeare</rdg>
+                    <rdg wit="#ee">Nor shall pale <seg>Asoph<note type="gloss">comet visible every 400 years</note></seg> evermore appear</rdg>
+                    <rdg wit="#ae">Nor shall pale <seg>Asoph<note type="gloss">a comet thought to appear every 400 years.</note></seg> <seg>evermore<note type="gloss">for all future time</note></seg> appear</rdg>
+                </app>
+            </l>
+            <l n="166">
+                <app>
+                    <rdg wit="#ft">At the Revolving of fowre Hundred yeare</rdg>
+                    <rdg wit="#ee">At the revolving of four hundred year;</rdg>
+                    <rdg wit="#ae">At the revolving of four hundred year,</rdg>
+                </app>
+            </l>
+            <l n="167">
+                <app>
+                    <rdg wit="#ft">ffor though her abſence wee have long indur’d</rdg>
+                    <rdg wit="#ee">For though her absence we have long endured,</rdg>
+                    <rdg wit="#ae">For though her absence we have long endured,</rdg>
+                </app>
+            </l>
+            <l n="168">
+                <app>
+                    <rdg wit="#ft">Yet Shall Shee bee eternally obſcur’d</rdg>
+                    <rdg wit="#ee">Yet shall she be eternally obscured.</rdg>
+                    <rdg wit="#ae">Yet shall she be eternally obscured.</rdg>
+                </app>
+            </l>
+            <l n="169">
+                <app>
+                    <rdg wit="#ft">Bold Syrius no more Shall Shew her face</rdg>
+                    <rdg wit="#ee">Bold <seg>Sirius<note type="gloss">Dog Star, appearing in hot summer</note></seg> no more shall show her face,</rdg>
+                    <rdg wit="#ae">Bold <seg>Sirius<note type="gloss">the Dog Star, one of the brightest stars in the sky. In ancient times, the rising of the Dog Star was associated with the hottest, most sultry days of summer (“dog days”).</note></seg> no more shall show her face,</rdg>
+                </app>
+            </l>
+            <l n="170">
+                <app>
+                    <rdg wit="#ft">As Shee doth uſe when Phebus is in place</rdg>
+                    <rdg wit="#ee">As she doth use when Phoebus is in place.</rdg>
+                    <rdg wit="#ae">As she <seg>doth use<note type="gloss">usually does</note></seg> when <seg>Phoebus<note type="gloss">the Greek god of the sun</note></seg> is in place,</rdg>
+                </app>
+            </l>
+            <l n="171">
+                <app>
+                    <rdg wit="#ft">But these and all the fixed Orbs of light</rdg>
+                    <rdg wit="#ee">But these, and all the fixéd orbs of light,</rdg>
+                    <rdg wit="#ae">But these and all the fixèd orbs of light</rdg>
+                </app>
+            </l>
+            <l n="172">
+                <app>
+                    <rdg wit="#ft">Shall bee involv’d once more in Horred night</rdg>
+                    <rdg wit="#ee">Shall be involved once more in horrid night.</rdg>
+                    <rdg wit="#ae">Shall be <seg>involved<note type="gloss">enveloped</note></seg> once more in horrid night.</rdg>
+                </app>
+            </l>
+            <l n="173">
+                <app>
+                    <rdg wit="#ft">Like Robes the Elements Shall folded <seg>lie<note type="physical">corrected from “bee”</note></seg></rdg>
+                    <rdg wit="#ee">Like robes, the <seg>elements<note type="critical">basic substances of which all material bodies are composed; in ancient philosophy, believed to be earth, water, air, and fire.</note></seg> shall folded lie</rdg>
+                    <rdg wit="#ae">Like robes, the elements shall folded lie</rdg>
+                </app>
+            </l>
+            <l n="174">
+                <app>
+                    <rdg wit="#ft">In the vast wardrope of eternitie</rdg>
+                    <rdg wit="#ee">In the vast wardrobe of eternity.</rdg>
+                    <rdg wit="#ae">In the vast wardrobe of eternity.</rdg>
+                </app>
+            </l>
+            <l n="175">
+                <app>
+                    <rdg wit="#ft">Then my unſetled ſoule bee more reſolv’d</rdg>
+                    <rdg wit="#ee">Then my unsettled soul, be more <seg>resolved<note type="gloss">disintegrated; convinced</note></seg>,</rdg>
+                    <rdg wit="#ae">Then my unsettled soul be more resolved,</rdg>
+                </app>
+            </l>
+            <l n="176">
+                <app>
+                    <rdg wit="#ft">Se’eing all this Univerſe must be diſſolv’d.</rdg>
+                    <rdg wit="#ee">Seeing all this universe must be <seg>dissolved<note type="critical">See first note.</note></seg>.</rdg>
+                    <rdg wit="#ae">Seeing all this universe must be <seg>dissolved<note type="critical">See note to Title.</note></seg>.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg type="milestone" wit="ft">
+                    <milestone unit="poem" rend="straight-ascendline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

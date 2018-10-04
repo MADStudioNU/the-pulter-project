@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.82">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Cockatrice (Emblem 16)</title>
+                <title type="sub">Poem #82</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			              <persName>Betsy Chou</persName>
+                    <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_205.jpg" xml:id="f7610_205"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 29, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>August 15, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>June 14, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_205" n="101r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_205"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_205"/></rdg>
+            </app>
+            
+            <app>
+                <rdg type="milestone" wit="#ft"><milestone unit="poem" rend="ascending straight line"/></rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_205" type="pageNum" place="margin-topright">16</fw>ORIGINAL TITLE</rdg>
+                    <rdg wit="#ee">The Cockatrice (Emblem 16)</rdg>
+                    <rdg wit="#ae">Emblem 16</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">What do a basilisk, Medusa, and sin have in common? In this emblem grappling with the boundaries between internal and external domains, Pulter explains that each has the power to injure and may only be repulsed by a shield used to mirror back that injury. Blending natural history, mythology, and biblical citation, Pulter weaves a fable explaining the need for Christian faith, conventionally symbolized as a shining shield. Just as Perseus had to use his armor to reflect and return Medusa’s deadly glance, and the reader of the poem (addressed as “you”) must protect against a cockatrice (a legendary serpent able to kill by its “visual beams”), the good Christian must invert evil’s force and return it to its source. Appropriate for a poem about mirroring, the speaker suddenly redirects her gaze, in line 19, back onto herself: rather than teaching the reader a lesson, she shows herself in need of her own instruction. Here she she beseeches God for the power to abort an embryonic sinful temptation before it comes to fruition. Only if this destruction fails will she need the shield of Christ’s sacrifice to enable her to face an externalized Sin.</note></rdg>
+                <rdg wit="#ae"><note type="headnote"><p>Pulter’s sixteenth emblem takes up the cockatrice, also known as the basilisk. The emblem focuses on the legendary weakness of the basilisk—it can be destroyed with a mirror that turns its poison back upon itself—in order to explore sin and the defenses humans may (or may not) have against it. Identifying the cockatrice as sin, the poem describes two different methods for defeating it: first, the active discovery of its “deceits” and, second, a reliance on the shield of faith.</p>
+                    <p>Consider how this poem functions both as an emblem and also as a performance of the use of emblems. The first eighteen lines of the poem are addressed to an unnamed friend; the repetition of the second-person pronoun “you” suggests that readers should incorporate the lessons of the poem in their own lives.  But in the final seven lines, the speaker intrudes into the poem and tests the applicability of the emblem to her own situation, questioning whether she will “crush” sin or rely upon the shield of faith.</p></note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">The Cockatrice as vulgarly Receiv'd</rdg>
+                    <rdg wit="#ee">The <seg>cockatrice<note type="gloss">legendary serpent reputed to be able to kill by its mere glance and hatched from a cock’s egg; named as such because of the mark on its head resembling a crown; also known as a basilisk.</note></seg>, as <seg>vulgarly<note type="gloss">commonly</note></seg> received,</rdg>
+                    <rdg wit="#ae"><seg>The cockatrice as vulgarly received<note type="critical">The cockatrice or basilisk is a mythical serpent believed to be hatched by a toad from the egg of a cock (“against nature. . .conceived”). The basilisk is extremely venomous and poisons its victims with its eyes unless the victim uses a glass or mirror to turn the poison back (“reverberates” (line 10)) upon the creature. Sir Thomas Browne reviews, and rejects, much of the lore of the basilisk in Book 3, Chapter 7 of <bibl><title rend="italic">Pseudodoxia Epidemica, or Enquiries into very many received tenets and commonly presumed truths</title>(1646)</bibl>, also known as <title rend="italic">Vulgar Errors</title>. Pulter’s poem participates in the same testing of received knowledge that is the subject of Browne’s popular work, eventually turning the cockatrice into an emblem of the relationship between sin and faith.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Is against nature by a Cock conceiv'd</rdg>
+                    <rdg wit="#ee">Is, against nature, by a <seg>cock<note type="gloss">rooster</note>
+                    </seg> conceived,</rdg>
+                    <rdg wit="#ae">Is against nature by a cock conceived,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Whose Egs a Toad doth to perfection bring</rdg>
+                    <rdg wit="#ee">Whose eggs a toad doth to perfection bring,</rdg>
+                    <rdg wit="#ae">Whose eggs a toad doth to perfection bring,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Whence comes the Basalisk the Serpents King</rdg>
+                    <rdg wit="#ee">Whence comes the <seg>basilisk<note type="gloss">cockatrice</note></seg>, the serpent's king.</rdg>
+                    <rdg wit="#ae">Whence comes the basilisk, the serpent's king.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">If this fierce Animall doth first See you</rdg>
+                    <rdg wit="#ee">If this fierce animal doth first see you,</rdg>
+                    <rdg wit="#ae">If this fierce animal doth first see you,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Prepare my &ff;reind to bid this World Adue</rdg>
+                    <rdg wit="#ee">Prepare, my friend, to bid this world <seg>adieu<note type="gloss">farewell</note></seg>.</rdg>
+                    <rdg wit="#ae">Prepare, my friend, to bid this world adieu,</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">But if you See him first you are Secure</rdg>
+                    <rdg wit="#ee">But if you see him first, you are secure,</rdg>
+                    <rdg wit="#ae">But if you see him first, you are secure.</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">If with this Cristall you your Selfe i<hi rend="overline">m</hi>ure</rdg>
+                    <rdg wit="#ee">If with this <seg>crystal<note type="gloss">mirror</note></seg> you yourself <seg>immure<note type="gloss">fortify</note></seg>.</rdg>
+                    <rdg wit="#ae">If with this <seg>crystal<note type="critical">i.e. the mirror that can be used to turn the basilisk’s poison back on itself.</note></seg> you yourself immure,</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">The visuall beams which Issue from his Eyes</rdg>
+                    <rdg wit="#ee">The visual beams which issue from his eyes</rdg>
+                    <rdg wit="#ae">The visual beams which issue from his eyes</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Reverberat's his poyson Soe hee dies</rdg>
+                    <rdg wit="#ee"><seg>Reverberates<note type="gloss">repels</note></seg> his poison, so he dies.</rdg>
+                    <rdg wit="#ae">Reverberates his poison so he dies.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">So Pertius with his Sisters Shineing Shield</rdg>
+                    <rdg wit="#ee">So Perseus with his sister's shining shield</rdg>
+                    <rdg wit="#ae">So Perseus with his sister's shining shield</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Made Proud Medusa and the Gorgons Yield</rdg>
+                    <rdg wit="#ee"><seg>Made proud Medusa and the Gorgons yield<note type="critical">In Greek mythology, the gorgons were three female creatures (Stheno, Euryale, and Medusa) with snakes for hair and the ability to turn anyone to stone who looked at them. Perseus decapitated Medusa by refusing to look directly at her, using instead her reflection in a shield.</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>Made proud Medusa and the Gorgons yield<note type="critical">Analogously to the defeat of the basilisk, Perseus defeats the snake-headed Medusa, who turns enemies to stone with her gaze, with a polished shield provided by Athena, the goddess of wisdom</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                   <rdg wit="#ft">Sin is this Cursed Killing Cockatrice</rdg>
+                    <rdg wit="#ee">Sin is this cursed, killing cockatrice;</rdg>
+                    <rdg wit="#ae">Sin is this cursed killing cockatrice:</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">If you discover i'ts deceits it Dies</rdg>
+                    <rdg wit="#ee">If you discover its deceits, it dies,</rdg>
+                    <rdg wit="#ae">If you discover its deceits it dies,</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">But if you don't nought but the Splendent Shield</rdg>
+                    <rdg wit="#ee">But if you don't, nought but the splendent shield</rdg>
+                    <rdg wit="#ae">But if you don't, nought but the splendent shield</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Of &ff;aith, will make this Hellish Monster Yield</rdg>
+                    <rdg wit="#ee"><seg>Of faith<note type="critical">see Ephesians 6:13;16: “Wherefore take unto you the whole armour of God, that ye may be able to withstand in the evil day … Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked.”</note></seg> will make this hellish monster yield.</rdg>
+                    <rdg wit="#ae"><seg>Of faith<note type="critical">While Athena’s shield defeats Medusa, the “shield of faith” defeats Sin. See Ephesians 6:16: “Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked” (AV). Pulter explores the analogies between three different types of lore: natural history, mythology, and Scripture.</note></seg> will make this hellish monster yield.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Then with the Christian Armour Arm you</rdg>
+                    <rdg wit="#ee">Then with the Christian armor arm you,</rdg>
+                    <rdg wit="#ae">Then with the Christian armor arm you,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">And all the Powers of Hell Shall never harm you</rdg>
+                    <rdg wit="#ee">And all the powers of Hell shall never harm you.</rdg>
+                    <rdg wit="#ae">And all the powers of Hell shall never harm you.</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">But o let mee dispose my thoughts Soe well</rdg>
+                    <rdg wit="#ee">But, O, let me dispose my thoughts so well</rdg>
+                    <rdg wit="#ae">But O let me dispose my thoughts so well,</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">That I may Crush this Embrion in the Shell</rdg>
+                    <rdg wit="#ee">That I may crush this <seg>embryon<note type="gloss">embryo, unborn offspring</note></seg> in the shell;</rdg>
+                    <rdg wit="#ae">That I may crush this <seg>embryon<note type="critical">“The unborn, unhatched, or incompletely developed offspring of an animal” <bibl><title rend="italic">OED, embryo</title>, n. 1b</bibl>. The speaker asks for the power to “crush” the cockatrice, and hence sin, before it can be hatched.</note></seg> in the shell.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Yet if I doe to Sinfull Motions Yield</rdg>
+                    <rdg wit="#ee">Yet if I do to sinful motions yield,</rdg>
+                    <rdg wit="#ae">Yet if I do to sinful motions yield,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Bee thou to mee dear God <seg>A<note type="physical">in left margin: "Psalm 84: v11."</note></seg> Sun and Shield</rdg>
+                    <rdg wit="#ee">Be Thou to me, dear God, <seg>a sun and shield<note type="physical">in the left margin is a citation to Psalms 84:11. “For the Lord God is a sun and shield: the Lord will give grace and glory: no good thing will he withhold from them that walk uprightly.”</note></seg>,</rdg>
+                    <rdg wit="#ae">Be thou to me, dear God, <seg>a<note type="physical">At this point in the manuscript there is an asterisk which points to a marginal note, “Psalms 84:11”: “For the LORD God is a sun and shield: the LORD will give grace and glory: no good thing will he withhold from them that walk uprightly.” (AV) The presence of this note suggests that Pulter wanted readers to see this verse as providing a resolution to the problem posed by the cockatrice.</note></seg> sun and shield.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Then as inslav'd to Sin and Death I lie</rdg>
+                    <rdg wit="#ee">Then as enslaved to sin and death I lie,</rdg>
+                    <rdg wit="#ae">Then, as enslaved to sin and death I lie,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Ile on the Brasen Serpent cast mine Eye</rdg>
+                    <rdg wit="#ee">I'll on the <seg>brazen<note type="gloss">strong, shameless</note></seg> serpent cast mine eye:</rdg>
+                    <rdg wit="#ae">I'll on the <seg>brazen serpent<note type="critical">Numbers 21: 8-9: “And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live. And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived.” (AV) In John 3:14-15 the brazen serpent is identified as a type of Christ on the cross: “ And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up: That whosoever believeth in him should not perish, but have eternal life.” (AV) The speaker will “cast mine eye” upon this spectacle in the hope that it will release her from sin and death.</note></seg> cast mine eye,</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Who conquerd Death and Hell on Calvary.</rdg>
+                    <rdg wit="#ee"><seg>Who<note type="gloss">Thou who</note></seg> conquered Death and Hell on <seg>Calvary<note type="critical">place outside ancient Jerusalem where Jesus was crucified; his resurrection was said to release humans from eternal death and conquer Satan.</note></seg>.</rdg>
+                    <rdg wit="#ae">Who conquered death and Hell on <seg>Calvary<note type="critical">location of Christ’s death</note></seg>.</rdg>
+                </app>
+            </l>
+        </body>
+    </text>
+</TEI>
+

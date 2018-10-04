@@ -1,0 +1,35 @@
+/*body { background: #F5FCFF; color: #333666; }*/
+div.section { text-align: center; margin: 0; }
+
+.item-images{
+width:35%;
+margin-left:2%;
+float:left;
+}
+.viewerContent .buttons{
+position:absolute;
+bottom:0;
+left:0;
+height:25px;
+padding:10px 0px;
+overflow:hidden;
+background:#fff;
+z-index:10;
+width:100%;
+text-align:center;
+cursor:move;
+}
+.panzoom-parent{
+padding: 20px 0 10px 0px;
+/*margin-bottom: 10px;*/
+border: 1px solid black;
+background: black;
+overflow:visible;
+}
+.zoom-range{
+	width: 30%;
+	/*margin: auto;*/
+}
+.viewerContent .buttons button{
+	cursor:pointer;
+}

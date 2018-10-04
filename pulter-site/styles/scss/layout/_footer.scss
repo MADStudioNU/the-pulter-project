@@ -1,0 +1,138 @@
+$maxWidth: 100em;
+$leftEdgeOffset: 4.5em;
+$mobileLeftEdgeOffset: 2.25em;
+
+#footer {
+  background: #020202;
+  border-top: 1px solid rgba(#fff, .11);
+  margin-top: 1.5em;
+
+  a {
+    color: #bbb;
+    @include transition(color .2s);
+
+    &:hover {
+      color: #eee;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    border-top: none;
+  }
+
+  .footer-box {
+    padding: 3em 0;
+    max-width: $maxWidth;
+    margin: 0 auto;
+
+    .footer {
+      margin-left: $leftEdgeOffset;
+
+      @include breakpoint(mobile) {
+        margin-left: 2.25em;
+        margin-right: 2.25em;
+      }
+    }
+
+    .left,
+    .right {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .left {
+      width: 55%;
+    }
+
+    .right {
+      width: 45%;
+    }
+
+    @include breakpoint(mobile) {
+     .left, .right {
+       display: block;
+       width: 100%;
+       text-align: center;
+     }
+
+      .left {
+        margin-bottom: 1.5em;
+      }
+    }
+
+    .logo-box {
+      margin-bottom: 1.33em;
+
+      .logo, h5 {
+        display: inline-block;
+        vertical-align: bottom;
+      }
+
+      .logo {
+        max-height: 1.15em;
+        border: 1px solid rgba($pp_shinyGold, .33);
+        margin-right: .75em;
+        border-radius: 1px;
+      }
+
+      h5 {
+        font-family: $pp_originalFont;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        color: #e5e5e5;
+        line-height: 1.25;
+
+        .small-cap {
+          font-size: .9em;
+        }
+      }
+    }
+
+    p {
+      font-size: ms(-2);
+      color: #aaa;
+      margin: 0;
+      line-height: 1.8;
+    }
+
+    nav {
+      @include breakpoint(mobile) {
+        margin-top: 2.25em;
+        border-top: 1px solid rgba(255, 255, 255, .2);
+        padding-TOP: 2.25em;
+      }
+
+      h6 {
+        font-size: ms(-2);
+        width: 33%;
+        padding-right: 10%;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 2;
+        color: #bbb;
+        font-weight: bold;
+
+        @include breakpoint(mobile) {
+          width: 50%;
+          padding: .25em 0;
+        }
+      }
+    }
+  }
+}
+
+.pp.single-poem {
+  #footer .footer-box .footer {
+    margin-left: 10%;
+
+    @include breakpoint(mobile) {
+      margin: 0 7%;
+    }
+  }
+}
+
+.pp.home {
+  #footer {
+    margin-top: 0;
+  }
+}

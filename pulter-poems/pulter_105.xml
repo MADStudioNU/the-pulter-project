@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.105">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>View but this Tulip (Emblem 40)</title>
+                 <title type="sub">Poem #105</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+            </textClass>
+		<!-- Commented out for creating errors
+		    <keywords>
+                     <term>KEYWORDS</term>
+                     <term></term>
+                     <term></term>
+                     <term></term>
+		             <term></term>
+        </keywords>
+		-->
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_239.jpg" xml:id="f7610_239"/>
+         <graphic url="./document_images/7610_240.jpg" xml:id="f7610_240"/>
+         <graphic url="./document_images/7610_241.jpg" xml:id="f7610_241"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 21, 2018</date>.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition.  Last updated <date>June 21, 2018</date>.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>June 21, 2018</date>.</witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_239" n="118r" /></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_239" /></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_239" /></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 40]</rdg>
+                    <rdg wit="#ee">Emblem 40</rdg>
+                    <rdg wit="#ae">(Emblem 40) “View but this tulip”</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote"> My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials I gather for the “curations” section place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note>
+                    </rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Can flowers be reincarnated? They can, according to this poem; and through that alleged fact the poet proffers a hopeful emblem of divine power—even though the alchemically-inspired process of resurrecting plants is described here as a labor-intensive “human art.” If mere mortals can raise the dead, the speaker asks, why doubt that God can manage as much after we die? What at first seems a general lesson framed by plural first-person pronouns, however, soon becomes more personal: the speaker shifts from reassuring what sounds like a broad audience, in diction ringing with almost professional confidence, to a much more intimate address which swings disconcertingly between God and her own soul. The speaker’s concluding analogy—if people can revivify flowers, God can revivify people—rings again with confidence, even as the hypothetical it hinges on (“If”) resurrects precisely the grounds of doubt which make such a faith-affirming poem, and others like it in Pulter’s oeuvre, necessary in the first place.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">This poem addresses palingenesis, an alchemical process by which, supposedly, a plant was reduced to ashes and then revived. If humans can accomplish such a thing, the poem asks, then why is it so hard to believe that God can resurrect humans? While it is invaluable to consider the scholarship on Pulter’s relationship to alchemy as a “discourse of change, metamorphosis, and revolution” that “provided the perfect vehicle through which to articulate, examine and understand the experience and ethics of political and religious change” (<bibl>Jayne Archer, “A ‘Perfect Circle’? Alchemy in the Poetry of Hester Pulter,” <title rend="italic">Literature Compass 2</title> [2005]</bibl>, pp. 1-14, esp. p. 1), it is also important to see how Pulter sometimes critiques the pretensions of alchemy to control life and death. This poem seems to grant that palingenesis is possible or at least imaginable. The highly technical language claims palingenesis as part of experimental science, suggesting that anyone might reproduce these results with the right equipment and procedures. Indeed, the poem can be read as an experimental brief, detailing the steps (“Then” [line 7] … “Then” [line 9]) and equipment required to achieve this result. But sources through which Pulter might have learned of palingenesis vary in their confidence in the results. Kenelm Digby, for instance, who describes reading about an experiment with exactly these flowers—the rose, tulip and clove gillyflower—confides to his reader that he has tried and failed to replicate the results: “no industry of mine could effect it” (see <bibl><author>Digby</author>, <title rend="italic">Discourse of the Vegetation of Plants</title></bibl>, in “Curations”). Palingenesis is always something someone else has accomplished somewhere else. One knows it by report; one accepts it on faith, if at all. The structure of the poem—if you believe this, then why not that?—begins to unravel if we do not accept the opening conceit. In <bibl><title rend="italic">Disknowledge: Literature, Alchemy, and the End of Humanism in Renaissance England</title> (University of Pennsylvania, 2015), <author>Katherine Eggert</author></bibl> argues that learning alchemy sometimes enabled early modern people not to learn other, more challenging disciplines. If alchemy was sometimes a way of disknowing, then what does Pulter use it here not to know?</note></rdg>
+            </app>
+            </head>
+            <lg>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">View but this Tulip, Roſe, or July &ff;lower</rdg>
+                    <rdg wit="#ee">View but this tulip, rose, or <seg>gillyflower<note type="gloss">carnation, July flower</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>View<note>The command or invitation to “view” and the deictic gesture to “this” that we are to view evoke the image that usually accompanied the text in emblem books. The gillyflower or carnation, a flower whose streaking depended on grafting, is the subject of debate in <bibl><author>Shakespeare’s</author> <title rend="italic">The Winter’s Tale</title></bibl> over the ethics of artful interventions in nature.</note></seg> but this tulip, rose, or <seg>july flower<note>gillyflower or carnation</note></seg></rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">And by A &ff;init See an Infinite power</rdg>
+                    <rdg wit="#ee">And by a finite, see an infinite power.</rdg>
+                    <rdg wit="#ae">And by a finite, see an infinite power.</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Theſe &ff;lowers into their Chaos were Retir’d</rdg>
+                  <rdg wit="#ee"><seg>These flowers into their chaos were retired<note type="critical">“chaos” here might signal the formless void thought to have existed before the universe; however, it might have been written in error (perhaps from dictation) for “cause,” since Pulter refers to things retiring into their causes in lines 17-8 here and in <ref target="/" corresp="6" type="pp-poem-ref">Universal Dissolution</ref>.</note></seg></rdg>
+                    <rdg wit="#ae">These flowers into their <seg>chaos<note type="critical">Chaos is the dark abyss of formless matter that preceded the world’s creation in many accounts; Chaos was also the first and oldest of the Greek gods. George Sandys’s translation of Ovid describes Chaos as “An undigested lump, a barren load / Where jarring seeds of things ill-joined abode” (<bibl><title rend="italic">Ovid’s Metamorphosis Englished, Mythologized and Represented in Figures</title></bibl> [London, 1632], sig. A1r). Lucy Hutchinson explains that  “The Earth at first was a vast empty place, / A rude congestion without form or grace, / A confused mass of undistinguished seed” (<bibl><title rend="italic">Order and Disorder</title>, ed. David Norbrook [Oxford:  Blackwell, 2001]</bibl>, 1.301-303). For Pulter, chaos is the state to which living things devolve when they dissolve into their smallest constituent parts, atoms or indivisibles. Flowers have “their chaos” (line 3); humans have “our cause” (line 18).</note></seg> were <seg>retired<note>returned</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Till humane Art them Raiſd and Reinſpir’d</rdg>
+                    <rdg wit="#ee">Till human art them <seg>raised and reinspired<note type="critical">“raised,” meaning caused to grow or rise, or restored to life; “reinspired” meaning reanimated, as if through life-giving breath; see Genesis 2:7: “God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul”; the speaker describes flowers that, having died, are brought back to life through a process known as palingenesis, the (supposed) regeneration of living organisms from ashes or putrefying matter.</note></seg></rdg>
+                    <rdg wit="#ae">’Til human art them raised and <seg>reinspired<note type="gloss">revived</note></seg></rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft"><seg>W<del>h</del>th<note type="physical">ascender of initial “h” imperfectly erased; “t” written over earlier letter
+                    </note></seg> beating, Macecrating, &ff;ermentation</rdg>
+                    <rdg wit="#ee"><seg>With beating<note type="critical">alchemical processes; “macerating,” for instance, is softening by steeping in a liquid; for “calcining,” or burning to ash in palingenesis, see Thomas Browne: “A plant or vegetable consumed to ashe, to a contemplative and school philosopher seems utterly destroyed, and the form to have taken his leave for ever: but to a subtle artist the forms are not perished, but withdrawn into their combustible part, where they lie secure from the action of that devouring element. This I make good by experience, and can from the ashes of a plant revive the plant, and from its cinders recall it to its stalk and leaves again. What the art of man can do in these inferior pieces, what blasphemy is it to imagine the finger of God cannot do in those more perfect and sensible structures?” <bibl><title rend="italic">Religio Medici</title> (London, 1642), p. 91.</bibl></note></seg>, macerating, fermentation,</rdg>
+                    <rdg wit="#ae">With beating, <seg>macerating<note type="gloss">steeping/marinating</note></seg>, <seg>fermentation<note type="gloss">Fermentation here describes a productive form of decay that heats, animates, and transforms.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Calcining, Chimically, with Segregation</rdg>
+                    <rdg wit="#ee">Calcining, chemically, with segregation;</rdg>
+                    <rdg wit="#ae"><seg>Calcining chemically<note type="gloss">Calcining chemically means purifying alchemically through a process of “rapid, intense dry heating in a sealed vessel, reducing the matter” to dust (Archer 5).</note></seg>, with <seg>segregation<note type="gloss">Segregation describes a process of purifying a substance by separating it into its constituent parts.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Then least the Ayr theſe Secrets Should <seg>Reveal<note type="physical">imperfectly erased letter visible beneath “R,” possibly “r”</note></seg></rdg>
+                    <rdg wit="#ee">Then, lest the air these secrets should reveal,</rdg>
+                    <rdg wit="#ae"><seg>Then<note type="critical">Starting in this line, and extending through the next eight, the poem follows the structure of a recipe, with a sequence of imperative directions: shut up, reanimate, cool the glass. “Then” helps to convey a sequence of actions: first do this, then do that. But “then” also appears nine times in the poem, signalling how the recipe’s sequence of directives opens into the “if-then” logic of the whole poem and its attempt to apply the processes of experimental science to proving the resurrection of the flesh. “Then” also conveys the poem’s teleological focus on resurrection—the “then” that will give meaning to all that has come before.</note></seg>, lest the air these secrets should reveal,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Shut up the Aſhes under Hermes Seal</rdg>
+                    <rdg wit="#ee">Shut up the ashes under <seg>Hermes’s seal<note>a hermetic seal, tight enough to exclude air; named for the Greek Hermes Trismegistus, identified with the Egyptian god Thoth, regarded as the founder of alchemy</note></seg>;</rdg>
+                    <rdg wit="#ae">Shut up the ashes under <seg>Hermes’s seal<note>Hermes Tresmegistus was the Egyptian originator of alchemy, author of its primary texts, and contemporary and pupil of Moses. To be under his seal is to be shut up airtight. The phrase “hermetically sealed” is still used to describe something that is airtight.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Then with A Candle or A gentle &ff;ire</rdg>
+                    <rdg wit="#ee">Then, with a candle or a gentle fire,</rdg>
+                    <rdg wit="#ae">Then with a candle or a gentle fire</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">You may Reanimate at your deſire</rdg>
+                    <rdg wit="#ee">You may reanimate at your desire</rdg>
+                    <rdg wit="#ae">You may reanimate at your desire</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Theſe Gallant plants, but <add place="below">^</add><add place="above">if</add> you cool y<add place="above">e</add> Glaſs</rdg>
+                    <rdg wit="#ee">These <seg>gallant<note type="gloss">gorgeous, showy</note></seg> plants; but if you cool the glass,</rdg>
+                    <rdg wit="#ae">These <seg>gallant<note type="gloss">gorgeous</note></seg> plants. But, if you cool the glass,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">To their first principles they’l quickly paſs</rdg>
+                    <rdg wit="#ee">To their <seg>first principles<note type="gloss">in alchemy, the substances composing all matter: mercury, salt, and sulfur (mentioned in the next line); more generally, origins, constituent parts</note></seg> they’ll quickly pass:</rdg>
+                    <rdg wit="#ae">To their first principles they’ll quickly pass.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">&ff;rom Sulphur, Salt, and Mercury they came</rdg>
+                    <rdg wit="#ee">From sulfur, salt, and mercury they came;</rdg>
+                    <rdg wit="#ae">From <seg>sulfur, salt, and mercury<note type="critical">Sulfur, salt, and mercury are the three first principles of matter in alchemy, according to the sixteenth-century writer Paracelsus; that is, they are the building blocks of all matter, from which it came and to which it will return when it “dissolves.”</note></seg> they came;</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">When they diſſolv they turn into the Same</rdg>
+                    <rdg wit="#ee">When they dissolve, they turn into the same.</rdg>
+                    <rdg wit="#ae">When they dissolve, they turn into the same.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Then Seeing a wretched Mortall hath the power</rdg>
+                    <rdg wit="#ee">Then, seeing a wretched mortal hath the power</rdg>
+                    <rdg wit="#ae">Then seeing a wretched mortal hath the power</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">To Recreate a verbious of A &ff;lower</rdg>
+                    <rdg wit="#ee">To recreate a <seg>Virbius<note type="gloss">In Greek myth, Hippolytus is unjustly put to death by his father but brought back to life by Asclepius, a god of healing, and renamed Virbius (from <foreign rend="italic">vir bis</foreign>, “a man twice”).</note></seg> of a flower,</rdg>
+                    <rdg wit="#ae">To <seg>recreate a Virbius<note type="gloss">Asculepius, Apollo’s son, reassembled and resurrected the pieces of Hippolytus, who had been torn to bits by horses; he was then renamed Virbius, or twice-born. See Ovid’s version of his story in “Curations.”</note></seg> of a flower,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Why Should wee &ff;ear, though Sadly wee Retire</rdg>
+                    <rdg wit="#ee">Why should we fear, though sadly we retire</rdg>
+                    <rdg wit="#ae">Why should we fear, though sadly we retire</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Into our Caus our God <seg>will<note type="physical">“ll” appears written over “th”</note></seg> Reinspire</rdg>
+                    <rdg wit="#ee">Into our <seg>cause<note type="g,kss">original, formative elements</note></seg>? Our God will reinspire</rdg>
+                    <rdg wit="#ae">Into our cause? Our God will reinspire</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Our dormant Dust and keep alive the Same</rdg>
+                    <rdg wit="#ee">Our <seg>dormant dust<note type="critical">“dust” here is elemental physical matter; see Genesis 3:19: “In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou [art], and unto dust shalt thou return”; it is “dormant” in awaiting resurrection at the Last Judgment.</note></seg>, and keep alive the same</rdg>
+                    <rdg wit="#ae">Our dormant dust and keep alive the same</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">With an all Quickning Everlasting &ff;lame</rdg>
+                    <rdg wit="#ee">With an <seg>all-quick’ning<note type="gloss">all-enlivening</note></seg>, everlasting flame.</rdg>
+                    <rdg wit="#ae">With an all-quickening, everlasting flame.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Then though I into Atomes Scattred bee</rdg>
+                  <rdg wit="#ee">Then, though I into <seg>atoms<note type="gloss">minute and indivisible particles, seen as ultimate components of matter; in a less scientific register, very small amounts of anything</note></seg> scattered be,</rdg>
+                    <rdg wit="#ae">Then though I into atoms scattered be,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">In Indiviſables I’le trust in thee.</rdg>
+                    <rdg wit="#ee">In <seg>indivisibles<note type="gloss">atoms</note></seg> I’ll trust in Thee.</rdg>
+                    <rdg wit="#ae">In <seg>indivisibles<note type="gloss">Indivisibles are particles so tiny they cannot be subdivided; they seem to be used almost interchangeably here with atoms and even with ashes.</note></seg> I’ll trust in thee.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Then let this Comfort mee in my Sad Story</rdg>
+                    <rdg wit="#ee">Then let this comfort me in my sad <seg>story<note type="gloss">life</note></seg>:</rdg>
+                    <rdg wit="#ae">Then let this comfort me in my sad story:</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Dust is but &ff;our degrees Remov’d from Glory.</rdg>
+                    <rdg wit="#ee">Dust is but four degrees removed from glory</rdg>
+                    <rdg wit="#ae">Dust is but <seg>four degrees<note type="critical">This may refer back to the steps of palingenesis—beating, macerating, fermentation and calcining—which move the plant by nature’s paths from dust to glory or reanimation. The lines might also refer to the soul’s process of attaining glory. Richard Sibbes, in <bibl><title rend="italic">The Excellency of the Gospel above the Law</title> (London, 1639)</bibl>, describes the “four degrees of the glory of a Christian” as conversion, growth of grace, enjoying the presence of God in heaven, and, finally, the perfect glory on the day of judgment when body and soul are reunited. Both the discussion of palingenesis and Sibbes’s four degrees of glorification set out recipes for extraordinary transformation.</note></seg> removed from glory</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">by</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_240" n="118v" /></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_240" /></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_240" /></rdg>
+            </app>
+            <lg>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">By Natures Paths, but God from Death &amp; Night</rdg>
+                    <rdg wit="#ee">By <seg>Nature’s paths<note type="critical">The speaker suggests heavenly glory follows from the transformation of dust, or our earthly being, along “Nature’s paths,” those derived from the four elements (earth, air, water, fire). In alchemy, fire was understood to have four degrees, the fourth being the hottest; “degree” could also refer in alchemy to successive stages of intensity in the elementary qualities of bodies (heat, cold, moisture, dryness).</note></seg>, but God from death and night</rdg>
+                    <rdg wit="#ae">By nature’s paths. But God from death and night</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Can Raise this &ff;leſh to endleſs life and Light</rdg>
+                    <rdg wit="#ee">Can raise this flesh to endless life and light.</rdg>
+                    <rdg wit="#ae">Can raise this flesh to endless life and light.</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Then my impatient Soul Contented bee</rdg>
+                    <rdg wit="#ee">Then, my impatient soul, contented be,</rdg>
+                    <rdg wit="#ae">Then, my impatient soul, contented be,</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft"><seg>&ff;or<note type="physical"> in left margin</note></seg> Thou <seg><del>Shalt</del> <add place="below">\</add> <add place="above">a \</add><note type="physical">“Shalt” cancelled with multiple horizontal strike-through and scribbles; insertion marks and “a” in di&ff;erent hand from main scribe</note></seg> <seg>Glorious<note type="physical">“Glori” written over other letters, last with descender; “u” originally “y”; “s” also appears added later</note></seg> Spring e’re long <seg>Shallt<note type="physical">“t” added later, possibly in di&ff;erent hand from main scribe</note></seg> See</rdg>
+                    <rdg wit="#ee">For thou a glorious spring <seg>ere<note type="gloss">before</note></seg> long shalt see.</rdg>
+                    <rdg wit="#ae">For thou a glorious spring ere long shalt see.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">After theſe Gloomey Shades of Death and Sorrow</rdg>
+                    <rdg wit="#ee">After these gloomy shades of death and sorrow,</rdg>
+                    <rdg wit="#ae">After these gloomy shades of death and sorrow,</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">Thou Shalt <seg>injoy<note type="physical">imperfectly erased descender on “n”</note></seg> an Everlasting Morrow</rdg>
+                    <rdg wit="#ee">Thou shalt enjoy an everlasting morrow.</rdg>
+                    <rdg wit="#ae">Thou shalt enjoy an everlasting morrow.</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft"><seg><del>&ff;</del> As<note type="physical">“&ff;” scribbled out; “As” written over earlier “or”</note></seg> Wheat in new plow’d &ff;urrows Rotting lies</rdg>
+                    <rdg wit="#ee">As wheat in new-plowed furrows rotting lies,</rdg>
+                    <rdg wit="#ae">As wheat in new plowed furrows rotting lies,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Uncapable of quickning till it dies</rdg>
+                    <rdg wit="#ee"><seg>Incapable of quick’ning till it dies<note type="critical">The speaker refers to the need for seeds to be buried (and thus “die”) under soil in a furrow or trench in order to return to life (or “quicken”) through growth. See John 12:24: “Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit.”</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Incapable of quickening ’til it dies<note type="critical">Pulter here seems to refer to John 12.24. But what does it mean to say that wheat does not quicken—show signs of life—until it dies? A contemporary commentary on this biblical verse explains: “A grain of wheat is said to die because the dissolution and change maketh it no longer a grain of wheat, but the seed of many new grains” (<bibl>Richard Baxter, <title rend="italic">A paraphrase on the New Testament with notes, doctrinal and practical</title> [London, 1685], “The Gospel According to St. John” (sig. D3v)</bibl>). See also <bibl>John Flavel, <title rend="italic">Husbandry Spiritualized</title></bibl>, included in “Curations.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Soe into dust this &ff;leſh of mine must turn</rdg>
+                    <rdg wit="#ee">So into dust this flesh of mine must turn</rdg>
+                    <rdg wit="#ae">So into dust this flesh of mine must turn,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">And lie a while forgotten in my Urn</rdg>
+                    <rdg wit="#ee">And lie a while forgotten in my urn.</rdg>
+                    <rdg wit="#ae">And lie a while forgotten in my urn.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Yet when the Sea, and Earth, and Hell, Shall give</rdg>
+                    <rdg wit="#ee">Yet when the sea, and earth, and Hell shall give</rdg>
+                    <rdg wit="#ae">Yet when the sea, and earth, and hell, shall give</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Their Treaſures, up my Body too Shall Live</rdg>
+                    <rdg wit="#ee">Their treasures up, my body too shall live:</rdg>
+                    <rdg wit="#ae">Their treasures up, my body too shall live—</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Not like the Reſurrection at Grand Caire</rdg>
+                    <rdg wit="#ee"><seg>Not like the resurrection at Grand Caire<note type="critical">Cairo, possibly identified here with the ancient Egyptian custom of mummifying the dead whole in anticipation of resurrection (one the speaker presumes, in the next line, will be disappointed), or with travellers’ tales, like that of John Greaves, who refers to “the tradition of the rising of dead men’s bones every year in Egypt: a thing superstitiously believed by the Christians.” <bibl><title rend="italic">Pyramidographia, or, A Description of the Pyramids in Egypt </title>(London, 1646), p. 142.</bibl></note></seg>,</rdg>
+                    <rdg wit="#ae">Not like the <seg>resurrection at Grand Caire<note type="critical">Eardley identifies a late seventeenth-century account of an annual resurrection in Cairo, Egypt in her invaluable reflections on glossing this poem and Pulter in general. In the passage she cites, this story is recounted as a fraud and no mention is made of the despair following the resurrection. “To these curiosities of Egypt, I might here add that supernatural (but fictitious) prodigy, that’s reported to be yearly seen near to old Caire, viz. the annual resurrection of many dead bones on Holy Wednesday, Thursday, and Friday (according to the Old Calendar), which both Turks and Christians in those parts, do firmly believe, and that by the means of some pious frauds, of a few designing santos among them” (Patrick Gordon, <bibl><title rend="italic">Geography Anatomized, or, The Complete Geographical Grammar Being a Short and Exact Analysis of the Whole Body of Modern Geography after a New and Curious Method</title> [London: 1699], p. 296</bibl>). See <bibl>Alice Eardley, “Hester Pulter’s ‘Indivisibles’ and the Challenges of Annotating Early Modern Women’s Poetry,” <title rend="italic">SEL</title> 52.1 (Winter 2012): 117-41</bibl>. Leah Knight has identified a much earlier (and deliciously gruesome) account of this annual resurrection, from <bibl><author>Simon Goulart</author>’s <title rend="italic">Admirable and Memorable Histories</title> (1607)</bibl>, included in our “Curations.” Goulart’s account goes to great lengths to discuss his sources and controversies surrounding this “marvelous apparition.” As detailed as his account is, it does not refer to the despair of those who have been resurrected (for whom he uses the word “resusstitants”). In Herodotus’s account, in Book 2 of the <bibl><title rend="italic">Histories</title></bibl>, of the annual rituals celebrating the resurrection of Osiris, he claims, “after the sacrifice [of Osiris], all the men and women lament, in countless numbers; but it is not pious for me to say who it is for whom they lament” (2.61.1).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Where men Revive then straight of Life deſpair</rdg>
+                    <rdg wit="#ee">Where men revive, then straight of life despair;</rdg>
+                    <rdg wit="#ae">Where men revive then straight of life despair—</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">But with my Soul my &ff;leſh Shall Reunite</rdg>
+                    <rdg wit="#ee">But, with my soul, my flesh shall reunite</rdg>
+                    <rdg wit="#ae">But with my soul my flesh shall reunite,</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft"><seg>And<note type="physical">crowded between lines above and below</note></seg> ne’re involve’d bee <seg>with<note type="physical">“w” written over other letter</note></seg> Death and Night</rdg>
+                    <rdg wit="#ee"><seg>And ne’er involvéd be with death and night<note type="physical">This line was inserted after those above and below, in the same hand but slightly smaller script and darker ink, to form a rhyming triplet.</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>And ne’er involved be with death and night<note type="critical">This line was inserted in the middle of a couplet in the manuscript, in the same hand but in smaller, darker ink. This addition turns lines 39-41 into a triplet, the only one in a poem made up of rhyming couplets. The added line interrupts the desired consummation towards which the poem builds—the reunion of soul and body—to remind the reader one more time of the death and night from which this reunion will release both soul and body into endless pleasure. The triplet ensures just a bit more time to reflect on this remarkable prospect. The poem does not quite recover from the interruption of its rhyming couplets created by the added line. The last two couplets all end in the same rhyme, doubling down on the emphasis on God’s power over dissolution, and using the first and last rhymes in the quadruplet to link God (the first “thee”) to the reader (the final “thee”).  But the “if” clause at the start of the final line threatens to unsettle this insistence: “if” man can raise a flower … but what if he can’t?</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">But liue in endleſs pleaſure Love &amp; Light</rdg>
+                    <rdg wit="#ee">But live in endless pleasure, love, and light.</rdg>
+                    <rdg wit="#ae">But live in endless pleasure, love, and light.</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">Then Halelujahs will I Sing to thee</rdg>
+                    <rdg wit="#ee">Then <seg>hallelujahs<note type="gloss">songs of praise to God</note></seg> will I sing to thee,</rdg>
+                    <rdg wit="#ae">Then hallelujahs will I sing to thee,</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">My Gracious God to all Eternitie</rdg>
+                    <rdg wit="#ee">My gracious God, to all eternity.</rdg>
+                    <rdg wit="#ae">My gracious God to all eternity.</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">Then at thy diſſolution patient bee</rdg>
+                    <rdg wit="#ee">Then at thy dissolution patient be:</rdg>
+                    <rdg wit="#ae">Then at thy dissolution patient be.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">If Man can Raiſe a &ff;lower God can thee</rdg>
+                    <rdg wit="#ee">If man can raise a flower, God can thee.</rdg>
+                    <rdg wit="#ae">If man can raise a flower, God can thee.</rdg>
+                </app>
+            </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

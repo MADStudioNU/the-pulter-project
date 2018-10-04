@@ -1,0 +1,379 @@
+.pp.page {
+  $maxWidth: 100em;
+  $leftEdgeOffset: 4.5em;
+  $mobileLeftEdgeOffset: 2.25em;
+  $mastLogoHeight: 2.66em;
+  $mastLogoPadding: 1.66em;
+
+  background: darken($pp_manuscriptInk, 16%);
+  background-image: linear-gradient(0deg, rgba(darken($pp_manuscriptInk, 7%), 1) 0%, rgba(darken($pp_manuscriptInk, 15%), 1) 100%);
+  color: #fff;
+
+  #top {
+    top: 0;
+    position: absolute;
+  }
+
+  #c {
+    &::before {
+      content: '';
+      display: block;
+      background: darken($pp_manuscriptInk, 20%);
+      height: $mastLogoHeight + $mastLogoPadding + $mastLogoPadding;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      border-bottom: 1px rgba(255, 255, 255, .12) solid;
+      z-index: 2;
+    }
+  }
+
+  .masthead-box {
+    max-width: $maxWidth;
+    margin: 0 auto;
+    padding: $mastLogoPadding 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+
+    .masthead {
+      margin: 0 $leftEdgeOffset;
+      position: relative;
+
+      @include breakpoint(mobile) {
+        margin: 0 $mobileLeftEdgeOffset;
+      }
+
+      .logo {
+        height: $mastLogoHeight;
+
+        @include breakpoint(mobile) {
+          height: 2em;
+        }
+      }
+
+      .in-page-actions {
+        @include vcenter;
+        right: 0;
+
+        @include breakpoint(mobile) {
+          right: 0;
+        }
+
+        li {
+          display: inline-block;
+          font-size: .85em;
+
+          &:not(:last-child) {
+            margin-right: 1em;
+          }
+        }
+
+        a {
+          font-size: ms(-2);
+          color: rgba(255, 255, 255, .8);
+          border: 1px rgba(255, 255, 255, .5) solid;
+          font-family: $pp_originalFont;
+          background: rgba(255, 255, 255, .1);
+          padding: .33em .66em;
+          border-radius: 4px;
+          text-align: center;
+          @include transition(color .2s);
+
+          @include breakpoint(mobile) {
+            font-size: ms(-3);
+          }
+
+          &:hover { color: #fff; }
+        }
+      }
+    }
+  }
+
+  .separator {
+    height: .5em;
+    background: rgba(0, 0, 0, .25);
+
+    &.top {
+      height: 1px;
+      margin-top: $mastLogoHeight + $mastLogoPadding + $mastLogoPadding;
+    }
+  }
+
+  .content-box {
+    max-width: $maxWidth;
+    margin: 0 auto;
+
+    .content {
+      max-width: 66%;
+      margin: 6em $leftEdgeOffset 4.5em $leftEdgeOffset;
+      display: inline-block;
+
+      @include breakpoint(mobile) {
+        margin: 3em 2.25em;
+        max-width: 80%;
+      }
+
+    }
+  }
+
+  a {
+    &.internal {
+      color: lighten($pp_manuscriptPaper, 5%);
+      border-bottom: 1px dashed rgba($pp_darkGold, .8);
+
+      &:hover {
+        border-bottom: 1px solid rgba($pp_darkGold, 1);
+      }
+    }
+
+    &.pp-poem-ref {
+      font-style: normal;
+      background: lighten($pp_manuscriptPaper, 5%);
+      color: darken($pp_manuscriptInk, 10%);
+
+      &:hover {
+        background: lighten($pp_manuscriptPaper, 10%);
+      }
+    }
+  }
+
+  h2, h3 {
+    font-family: $pp_originalFont;
+    margin-bottom: 1em;
+  }
+
+  p, ul, ol {
+    & + {
+      h2, h3 {
+        margin-top: 3em;
+      }
+    }
+  }
+
+  h2 {
+    position: relative;
+    font-size: ms(2);
+  }
+
+  h3 {
+    font-size: ms(0);
+  }
+
+  p, ul, ol {
+    color: lighten($pp_manuscriptPaper, 5%);
+    font-size: ms(-1);
+
+    p, ul, ol { font-size: 1em; }
+  }
+
+  p {
+    margin: 1.5em 0;
+    line-height: 1.5;
+
+    &.narrow {
+      width: 78%;
+
+      @include breakpoint(mobile) {
+        width: 100%;
+      }
+    }
+  }
+
+  ul, ol {
+    &.ind {
+      margin-left: 1.5em;
+    }
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    counter-reset: count;
+    list-style: none;
+    margin: 3em 0 3em 3em;
+
+    li {
+      position: relative;
+      margin-bottom: 2em;
+    }
+
+    li::before {
+      color: $pp_manuscriptPaper;
+      opacity: .33;
+      font-weight: bold;
+      content: counter(count);
+      counter-increment: count;
+      position: absolute;
+      //left: -1.5em;
+      right: 103%;
+      top: -.12em;
+      font-size: ms(0);
+      text-align: right;
+
+      @include breakpoint(mobile) {
+        left: -1.2em;
+        top: 0;
+        font-size: ms(-2);
+      }
+    }
+  }
+
+  .img-box {
+    margin: 3em 0;
+
+    image {
+      width: auto;
+    }
+
+    .caption {
+      margin-top: 1em;
+      color: rgba(#fff, .85);
+    }
+  }
+
+  .terminal {
+    width: 2em;
+    margin-top: 1.5em;
+  }
+
+  .zoom-25 {
+    font-size: 1.25em;
+  }
+
+  span {
+    &.pre {
+      position: relative;
+      bottom: 1px;
+      font-size: .8em;
+      line-height: .85em;
+      padding: .4em .4em .2em .4em;
+      background: rgba($pp_manuscriptPaper, .25);
+    }
+  }
+
+  .group {
+    margin: 3em 0;
+  }
+
+  .group-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .85em;
+    letter-spacing: 3px;
+    margin-bottom: 1.33em;
+    line-height: 1.61;
+  }
+
+  .group-list {
+    list-style: none;
+
+    li {
+      margin-top: .33em;
+    }
+
+    .who-what {
+      font-weight: bold;
+    }
+
+    &.inline {
+      li { display: inline-block;}
+    }
+  }
+
+  .super {
+    font-size: .66em;
+    position: relative;
+    bottom: .75em;
+  }
+
+  .fn-anchor {
+    color: darken($pp_manuscriptPaper, 30%);
+  }
+
+  .fns {
+    margin: 3em 0;
+    position: relative;
+    list-style: none;
+    padding-top: 1.5em;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba($pp_manuscriptPaper, .2);
+    }
+
+    .fn {
+      color: $pp_manuscriptPaper;
+      font-size: ms(-3);
+    }
+
+    .fn-anchor {
+      bottom: .5em;
+      margin-right: .5em;
+    }
+  }
+}
+
+/* Individual pages */
+.pp.pulter-and-manuscript {
+  .content-box {
+    &.manuscript {
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+
+      img.big-graph {
+        animation: fadeInRightSubtle 1s both;
+        position: absolute;
+        right: 0;
+        max-width: 50%;
+        top: 12em;
+        max-height: 100%;
+      }
+
+      @include breakpoint(mobile) {
+        img.big-graph {
+          top: 9em;
+          right: -6em;
+        }
+      }
+    }
+  }
+}
+
+.pp.scholarship {
+  h3 {
+    font-family: $pp_curatorialFont;
+    font-weight: bold;
+    margin: 3em 0 1.5em 0;
+  }
+
+  //.content {
+    //font-size: .9em;
+  //}
+
+  .src-list {
+    list-style: none;
+    color: $pp_manuscriptPaper;
+
+    &:last-of-type {
+      margin-bottom: 2em;
+    }
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

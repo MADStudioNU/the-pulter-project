@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.1">
+  <teiHeader>
+      <fileDesc>
+          <titleStmt>
+              <title>The Eclipse</title>
+              <title type="sub">Poem #1</title>
+              <respStmt>
+                  <resp>authored by</resp>
+                  <persName>Hester Pulter</persName>
+              </respStmt>
+              <respStmt>
+                  <resp>transcription, transformations, and notes by</resp>
+                  <persName>Leah Knight</persName>
+                  <orgName>Brock University</orgName>
+                  <persName>Wendy Wall</persName>
+                  <orgName>Northwestern University</orgName>
+              </respStmt>
+              <respStmt>
+                  <resp>encoded by</resp>
+                  <persName>Katie Poland</persName>
+                  <persName>Matthew Taylor</persName>
+                  <orgName>Northwestern University</orgName>
+              </respStmt>
+              <sponsor>
+                  <orgName>Northwestern University</orgName>
+                  <orgName>Brock University</orgName>
+                  <orgName>University of Leeds</orgName>
+              </sponsor>
+              <!--
+              <funder>
+                  <orgName></orgName>
+                  <orgName></orgName>
+              </funder>
+              -->
+              <principal>
+                  <persName/>
+              </principal>
+          </titleStmt>
+          <editionStmt>
+              <edition n="1"/>
+              <respStmt>
+                  <resp>Transcription, transformations, and notes</resp>
+                  <persName>Leah Knight</persName>
+                  <orgName>Brock University</orgName>
+                  <persName>Wendy Wall</persName>
+                  <orgName>Northwestern University</orgName>
+              </respStmt>
+          </editionStmt>
+          <extent/>
+          <publicationStmt>
+              <ab/>
+          </publicationStmt>
+          <sourceDesc>
+              <listBibl>
+                  <msDesc>
+                      <msIdentifier>
+                          <repository>See witness list.</repository>
+                      </msIdentifier>
+                  </msDesc>
+              </listBibl>
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+          <projectDesc>
+              <p/>
+          </projectDesc>
+          <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+          <samplingDecl>
+              <p/>
+          </samplingDecl>
+          <editorialDecl>
+              <correction>
+                  <p>Apparent errors are preserved and editorial corrections provided using SIC
+                      and CORR tags, but only where the editor conjectures that the original
+                      scribe or compositor would have recognized the instance as an error. For
+                      example, what according to modern usage is incorrect subject/verb agreement
+                      might have been deemed acceptable to a seventeenth-century scribe or
+                      compositor. All such instances are treated instead using the ORIG and REG
+                      tags. (See below.) </p>
+                  <p>Corrections and annotations made within the scope of the original document
+                      either by its original authors, owners, and/or transcribers are noted using
+                      ADD tags. These annotations and may be futher explained within NOTE tags, as
+                      added by the editors of this digital edition, for display within the
+                      apparatus.</p>
+              </correction>
+              <normalization>
+                  <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                      the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                      the editor has silently chosen one or the other based on context and
+                      judgment (i.e., does not register such ambiguity in either the markup or the
+                      notes).</p>
+              </normalization>
+              <quotation>
+                  <p>Original quotation marks, if any, are preserved.</p>
+              </quotation>
+              <hyphenation>
+                  <p>Original hyphenation is preserved.</p>
+              </hyphenation>
+          </editorialDecl>
+          <charDecl>
+              <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+              <glyph xml:id="ffllig">
+                  <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                      F</glyphName>
+              </glyph>
+          </charDecl>
+          <classDecl>
+              <taxonomy xml:id="DDC22">
+                  <bibl>
+                      <title>Dewey Decimal Classification</title>
+                      <edition/>
+                      <publisher/>
+                      <pubPlace/>
+                  </bibl>
+              </taxonomy>
+          </classDecl>
+      </encodingDesc>
+      <profileDesc>
+          <langUsage>
+              <language ident="en-GB">British English</language>
+          </langUsage>
+          <textClass>
+              <!-- dewey decimal system class code 821: English Poetry -->
+              <classCode scheme="DDC22">821</classCode>
+              <keywords>
+                  <term>eclipse</term>
+                  <term>resurrection</term>
+                  <term>astronomy</term>
+                  <term>revolution</term>
+              </keywords>
+          </textClass>
+      </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="./document_images/7610_009.jpg" xml:id="f7610_009"/>
+      <graphic url="./document_images/7610_010.jpg" xml:id="f7610_010"/>
+      <graphic url="./document_images/7610_011.jpg" xml:id="f7610_011"/>
+  </facsimile>
+  <text n="1">
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 21, 2018</date>.</witness>
+          <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName>. See editorial guidelines for this edition. Last updated <date>June 21, 2018</date>.</witness>
+          <witness xml:id="ae">Amplified edition: Edited by <persName>Wendy Wall</persName>. Last updated <date>June 21, 2018</date>.</witness>
+        </listWit>
+      </div>
+      </front>
+    <body>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_009" n="3r"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_009"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_009"/></rdg>
+      </app>
+      <head>
+        <app type="title">
+              <rdg wit="#ft"><fw facs="#f7610_009" type="pageNum" place="margin-topright"><!-- in ink -->1</fw>The Eclips</rdg>
+              <rdg wit="#ee">The <seg>Eclipse<note type="gloss">In astronomy, an eclipse is the obscuring of the light of the sun or the moon by another body. This might occur when the moon passes through the earth’s shadow or when the moon comes between the observer and the sun; in a figurative sense, an eclipse may refer to the (sometimes temporary) loss of brilliance or distinction of any kind.</note></seg></rdg>
+              <rdg wit="#ae">The Eclipse</rdg>
+        </app>
+        <app type="editorialnote">
+             <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+             <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+         </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note resp="#lknight" type="headnote">The first poem in Pulter’s manuscript boldly traverses vast distances—cosmological, mythological, and theological—as the speaker objects to various obstacles to her clear vision of the heavens: that is, both the skies above and, ultimately, the God above them. Uniquely among her poems, “The Eclipse” is set forth in numbered sections, with numerals 1 through 4 carving out two-sestain sections, each addressing a distinct figure: clouds, the earth, the moon. These figures are characterized as material obstacles which are in the way at the moment but ultimately mortal; the speaker seems comforted by her contemplation, or the threat, of their eventual “dissolution.” Mortality itself, in the form of a personified Death, is then directly addressed in the fourth section, while in what could be considered the unnumbered fifth section, the speaker turns to sin as the most obdurate obstacle between herself and heaven. While the ranks of obstacles thus assembled each in turn appear formidable, only the last sees the speaker daunted, before a final stanza expresses her faith in Christ’s triumph over sin on her behalf. The poem is in iambic pentameter stanzas, rhyming ABABCC.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote">This first poem in <title rend="italic">Poems Breathed Forth by the Noble Hadassas</title> is the only one written in sixains (ABABCC). The speaker’s use of apostrophe in the first three sections serves to vivify elements of the natural world as interlocutors, and thus introduces a theme that will thread throughout the poems: the animation of the physical world. “The Eclipse”’s interest in blending the discourses of cosmology and salvation is explored in numerous poems. Here the speaker moves from accusations that external objects in the skies block her access to the sun (figuratively God), to complaints about abstract personifications (Death), and finally to recognition that her internal transgressions impede her faith. The final stanza nestles the speaker “in Christ” as the solution to her initial, spatially expressed alienation. When John Donne similarly takes up faith and astronomy in  “Good Friday: Riding Westward,” by contrast, he relies on the older Ptolemaic cosmology and the doctrine of correspondences. One popular literary source for information about Copernicanism was Henry More’s 1647 Philosophical Poems, especially “Psychathanasia, or The Second Part of the Song of the Soul.”</note></rdg>
+      </app>
+      </head>
+      <app>
+	<rdg wit="#ft"><milestone unit="poem-section" rend="left-gutter">1</milestone></rdg>
+        <rdg wit="#ee"><milestone unit="poem-section" rend="left-gutter">1</milestone></rdg>
+        <rdg wit="#ae"><milestone unit="poem-section" rend="left-gutter">1</milestone></rdg>
+      </app>
+      <lg type="stanza" n="1">
+        <l n="1">
+          <app>
+            <rdg wit="#ft"><seg>Why<note type="physical">“1” in left margin</note></seg> doe those frowning vapours interpose</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Why do those frowning <seg>vapors<note type="gloss">clouds</note></seg> interpose</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Why do those frowning vapors interpose</rdg>
+          </app>
+          </l>
+        <l n="2">
+          <app>
+            <rdg wit="#ft">betweene the bright expantion and mine eyes:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Between the bright <seg>expansion<note type="gloss">sky, heavens</note></seg> and my eyes,</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Between the bright expansion and my eyes,</rdg>
+          </app>
+          </l>
+        <l n="3">
+          <app>
+            <rdg wit="#ft">By whose unkindnes for a time I lo<add place="above">o</add>se,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">By whose unkindness for a time I lose</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">By whose unkindness for a time I lose</rdg>
+          </app>
+        </l>
+        <l n="4">
+          <app>
+            <rdg wit="#ft">The be<add place="below">^</add><add place="above">a</add>vteous proſpect of <seg>the Azure ſkies<note type="physical">Terminal “e” in “these” and “ſkies” is a scribal abbreviation for “es.”</note></seg>:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">The beauteous prospect of these <seg>azure<note type="gloss">blue</note></seg> skies?</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">The beauteous prospect of the azure skies?</rdg>
+          </app>
+        </l>
+        <l n="5">
+          <app>
+            <rdg wit="#ft">Denie not thus my ſight to <seg>ſatiſfie<note type="physical">While the  final letter appears like the scribal abbreviation for “es” in the previous line (in the word “∫kies,”) it appears here to be an error; the scribe’s mistake has created an unwitting linkage between lines 3 and 4.</note></seg>,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Deny not thus my sight to satisfy,</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Deny not thus my sight to satisfy,</rdg>
+          </app>
+        </l>
+        <l n="6">
+          <app>
+            <rdg wit="#ft">Malicious clouds, before you rarifie:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Malicious clouds, before you <seg>rarefy<note type="critical">to dissipate, grow thinner, especially by expansion; to refine; also a technical term used in alchemy for when a material is purified</note></seg>.</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Malicious clouds, before you <seg>rarefy<note type="gloss">dissipate, purify</note><note type="critical">Pulter often deploys the alchemical term “rarefy” to describe both material and spiritual transformations. In alchemy, the process of rarefaction involves the purification of a substance by separating the essence from its “gross” elements. This involved condensation (mentioned in the second stanza) or vaporization (and alchemy uses the language of rebirth and renewal shared by Christianity). On Pulter’s use of “rarefy,” see, for instance, <ref target="/" corresp="16" type="pp-poem-ref">The Revolution</ref>; <ref target="/" corresp="21" type="pp-poem-ref">The Circle [2]</ref>; and <ref target="/" corresp="41" type="pp-poem-ref">The Invocation of the Elements</ref>. In “The Eclipse,” the clouds are imagined to cycle from transparency, to vapors, and, perhaps, to rain, inaugurating another cycle. The “variable condition” (l. 5) that the speaker sees as linking her to the physical world makes both subject to decay, but also mobile enough to undergo the “passage through revolution” toward salvation (l. 45). The poem thus trades on language embedded in both alchemy and Christianity.</note></seg>.</rdg>
+          </app>
+        </l>
+       </lg>
+      <lg type="stanza" n="2">
+        <l n="7">
+              <app>
+                  <rdg wit="#ft">For you are of a variable condition</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">For you are of a variable condition</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">For you are of a variable condition</rdg>
+              </app>
+          </l>
+        <l n="8">
+              <app>
+                  <rdg wit="#ft">as well as I, and ſhall ere long diſſolve,</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">As well as I, and shall <seg>ere<note type="gloss">before</note></seg> long dissolve;</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">As well as I, and shall ere long <seg>dissolve<note type="critical">
+                  <p>“Dissolve” and “dissolution” are terms Pulter often uses to signal the interconnection of disintegrative and reconstructive cycles of formative elements (see, for example, the poems <ref target="/" corresp="6" type="pp-poem-ref">Universal Dissolution</ref> and <ref target="/" corresp="48" type="pp-poem-ref">Immense Fount of Truth</ref>). The rhyme linkage between “dissolve” and “revolve” conflates creative evolution with erosion and death. On this correspondence, see <ref target="/" corresp="16" type="pp-poem-ref">The Revolution</ref>; and <ref target="/" corresp="40" type="pp-poem-ref">My Soul, Why Art Thou Full of Trouble</ref>, which includes this declaration (ll. 29-32):</p>
+                  <cit>
+                    <quote>
+                      <lg>
+                        <l>Then whether dissolution,</l>
+                        <l>Or Transmigration,</l><l>Or rolling revolution</l>
+                        <l>All ends in thy salvation</l>
+                      </lg>
+                    </quote>
+                  </cit>
+                  <p>and <ref target="/" corresp="47" type="pp-poem-ref">Why Are Thou Sad</ref>, where the speaker writes of sunrise (ll. 11-12):</p>
+                  <cit>
+                    <quote>
+                      <lg>
+                        <l>Methinks it’s like the revolution</l>
+                        <l>Of life, and death, and life</l>
+                      </lg>
+                    </quote>
+                  </cit>
+                </note></seg>;</rdg>
+              </app>
+          </l>
+        <l n="9">
+              <app>
+                  <rdg wit="#ft">Glory not then in interpoſition,</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Glory not, then, in <seg>interposition<note type="gloss">interference, intervention</note></seg>,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Glory not then in <seg>interposition<note type="gloss">intervention</note></seg>,</rdg>
+              </app>
+          </l>
+        <l n="10">
+              <app>
+                  <rdg wit="#ft"><w lemma="for">&ff;or</w> into other <seg>Elements<note type="physical"> “e” appears written over earlier “i”</note></seg> revolve</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">For into other elements <seg>revolve<note type="gloss">to turn (about an axis) or return (to a place or state); to intertwine; to overturn by placing in motion</note></seg></rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">For into other elements <seg>revolve<note type="gloss">turn, return, or evolve</note><note type="critical">A recurrent trope in the poems, “revolution” not only bespeaks a cycle of creation and destruction, but also connects the motions of mind, planets, elements, and soul (as they evolve, in relation to the body, to an eventual spiritual form). For instance, <ref target="/" corresp="48" type="pp-poem-ref">Immense Fount of Truth</ref> describes the soul’s gradual ascent up the “stairs of revolution.” Pulter composed many of her poems during a time when the term “revolution” would have implicitly referenced the civil war, but she reappropriates the term (in “The Eclipse” and elsewhere) to validate a royalist order in which the sun (figuratively God and the king) orders proper revolution.</note></seg></rdg>
+              </app>
+          </l>
+        <l n="11">
+              <app>
+                  <rdg wit="#ft">You muſt; perhaps by condenſation</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">You must, perhaps by <seg>condensation<note type="gloss"> the conversion of a gas to a liquid (i.e., rain)</note></seg>;</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">You must, perhaps by <seg>condensation<note type="gloss">concentration; becoming more solid</note></seg>;</rdg>
+              </app>
+          </l>
+        <l n="12">
+              <app>
+                  <rdg wit="#ft">hinder not then (ſo poore) a contentation</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Hinder not, then, so poor a <seg>contentation<note type="gloss"> satisfaction; a source of pleasure; compensation</note></seg>.</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Hinder not then so poor a <seg>contentation<note type="gloss">satisfaction</note><note type="critical">Contentation refers to the state of being satisfied, accepting a situation, or a source of satisfaction or pleasure.</note></seg>.</rdg>
+              </app>
+          </l>
+      </lg>
+      <app>
+	<rdg wit="#ft"><milestone unit="poem-section" rend="left-gutter">2</milestone></rdg>
+        <rdg wit="#ee"><milestone unit="poem-section" rend="left-gutter">2</milestone></rdg>
+        <rdg wit="#ae"><milestone unit="poem-section" rend="left-gutter">2</milestone></rdg>
+      </app>
+      <lg type="stanza" n="3">
+        <l n="13">
+              <app>
+                  <rdg wit="#ft"><seg>And<note type="physical">“2” in left margin</note></seg> thou ſad, pondrous, paſſive, Globe of Earth</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">And thou, sad, <seg>pond’rous<note type="gloss">heavy, slow-moving</note></seg>, passive globe of earth,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">And thou, <seg>sad<note type="gloss">sorrowful; heavy; steadfast</note></seg>, pond’rous, passive, globe of earth,</rdg>
+              </app>
+          </l>
+        <l n="14">
+              <app>
+                  <rdg wit="#ft">though for thy weight thou canst not mount aboue</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Though, <seg>for<note type="gloss">because of</note></seg> thy weight, thou canst not mount above,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Though for thy weight thou canst not mount above,</rdg>
+              </app>
+          </l>
+        <l n="15">
+              <app>
+                  <rdg wit="#ft">and though from thee my baſer parts tooke birth</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">And though, from thee, <seg>my baser parts<note type="gloss">the body, material elements</note></seg> took birth,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">And though from thee my <seg>baser parts took birth<note type="critical">The creation of human form from the earth. Cf. Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>,</rdg>
+              </app>
+          </l>
+        <l n="16">
+              <app>
+                  <rdg wit="#ft">Yet dost thou ſhew to me more hate then loue</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Yet dost thou show to me more hate than love:</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Yet dost thou show to me more hate than love,</rdg>
+              </app>
+          </l>
+        <l n="17">
+              <app>
+                  <rdg wit="#ft"><w lemma="for">&ff;or</w> with thy ſhadow thou Eclip’st the light</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">For, with thy shadow, thou eclipsed the light</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">For with thy shadow thou eclipsed the light</rdg>
+              </app>
+          </l>
+        <l n="18">
+              <app>
+                  <rdg wit="#ft">of ſplendent Phebe from my feeble ſight</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Of <seg>splendent<note type="gloss">shining brightly</note></seg> <seg>Phoebe<note type="gloss">In Greek mythology, Phoebe is goddess of the moon.</note></seg> from my feeble sight.</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Of splendent <seg>Phoebe<note type="gloss">the moon</note></seg> from my <seg>feeble sight<note type="critical">In describing a lunar eclipse, in which the shadow of earth obscures the light of the moon, this stanza confirms Pulter’s knowledge of current astronomy and implies a heliocentric universe. For poems that reflect particulars of a Galilean-Copernican cosmology, see <ref target="/" corresp="16" type="pp-poem-ref">The Revolution</ref>; <ref target="/" corresp="30" type="pp-poem-ref">The Center</ref>; <ref target="/" corresp="39" type="pp-poem-ref">The Perfection of Patience and Knowledge</ref>; <ref target="/" corresp="45" type="pp-poem-ref">This Was Written 1648</ref>; and <ref target="/" corresp="54" type="pp-poem-ref">A Solitary Complaint</ref>. For a less sanguine view of the emerging paradigm of heliocentrism, see Donne, “An Anatomy of the World: The First Anniversary” in the “Curations” accompanying this poem.</note></seg>.</rdg>
+              </app>
+          </l>
+       </lg>
+      <lg type="stanza" n="4">
+        <l n="19">
+              <app>
+                  <rdg wit="#ft">Surely thy deſtinie is known to thee</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Surely thy destiny is known to thee,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Surely thy destiny is known to thee,</rdg>
+              </app>
+          </l>
+        <l n="20">
+              <app>
+                  <rdg wit="#ft">and the continuall revolution:</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">And the continual <seg>revolution<note type="critical">rotation; a recurring period of time; an alteration, upheaval, reversal of fortune; a rebellion, overthrow of established government with substitution of new</note></seg></rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">And the continual revolution</rdg>
+              </app>
+          </l>
+        <l n="21">
+              <app>
+                  <rdg wit="#ft">Of Elements as wee doe hourly ſee</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Of elements, as we do hourly see,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Of elements as we do hourly see,</rdg>
+              </app>
+          </l>
+        <l n="22">
+              <app>
+                  <rdg wit="#ft">and thy irrevocable diſſolution:</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">And thy irrevocable dissolution,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">And thy irrevocable <seg>dissolution<note type="gloss">separation into parts or constituent elements; the reduction of any body or mass to elements or atoms; liquefaction; termination of life, death</note></seg></rdg>
+              </app>
+          </l>
+        <l n="23">
+              <app>
+                  <rdg wit="#ft">As well as <seg>mine<note type="physical">appears corrected from “thine”; visible erasure marks of ascenders as for “th,” with remainder overwritten with “m”</note></seg> or rather conflagration</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">As well as mine—or, rather, <seg>conflagration<note type="gloss">a blazing fire</note></seg>:</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">As well as mine, or rather, <seg>conflagration<note type="gloss">blazing fire</note></seg>;</rdg>
+              </app>
+          </l>
+        <l n="24">
+              <app>
+                  <rdg wit="#ft">Then envie not (for ſhame) my contentation:</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Then envy not (for shame) my contentation.</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Then envy not (for shame) my <seg>contentation<note type="critical"> In viewing the eclipse only as a material manifestation of her alienation from God, the speaker departs from the conventional early modern view of eclipses as omens of negative events or signs of divine disapproval. For an early modern text mocking people’s fear of eclipses, see “On bugbear Black-Monday, March 29.1652, Or, The London-Fright at the Eclipse proceeding from a Natural Cause” in the “Curations” accompanying this poem.</note></seg>.</rdg>
+              </app>
+          </l>
+       </lg>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_010" n="3v"/>
+            <fw facs="#f7610_010" type="pageNum" place="margin-topleft"><!-- in ink -->2</fw>
+        </rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_010"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_010"/></rdg>
+      </app>
+      <app>
+        <rdg wit="#ft"><milestone unit="poem-section" rend="left-gutter">3</milestone></rdg>
+        <rdg wit="#ee"><milestone unit="poem-section" rend="left-gutter">3</milestone></rdg>
+        <rdg wit="#ae"><milestone unit="poem-section" rend="left-gutter">3</milestone></rdg>
+      </app>
+      <lg type="stanza" n="5">
+        <l n="25">
+              <app>
+                  <rdg wit="#ft"><seg>And<note type="physical">“3” in left margin</note></seg> thou darke body of the Globius Moone</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">And thou, dark body of the <seg>globious<note type="gloss">spherical</note></seg> moon</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">And thou, dark body of the <seg>globious<note type="gloss">spherical</note></seg> moon</rdg>
+              </app>
+          </l>
+        <l n="26">
+              <app>
+                  <rdg wit="#ft">That dost obſcure the Radiant Delia’s ſight:</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">That dost obscure the radiant <seg>Delius’s<note type="critical">In Greek myth, Delius is also called Apollo, the sun god from Delos; in this edition the word has been altered from the manuscript, which reads “Delia’s” (for Delia, the Greek moon goddess).</note></seg> sight,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">That dost obscure the radiant <seg>Delia’s<note type="critical"> Emblem 48 refers to Apollo and Diana as the “Delian twins”; throughout the poems, Pulter unusually refers to the male sun God (from Delos) as “Delia,” a name that conventionally identifies the female moon goddess. In distinguishing this solar eclipse from the lunar eclipse of the second section, the poem also displays familiarity with contemporary scientific developments.</note></seg> sight,</rdg>
+              </app>
+          </l>
+        <l n="27">
+              <app>
+                  <rdg wit="#ft">Threatning to make my ſun to ſet at Noone</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Threat’ning to make my sun to set at noon,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Threat’ning to make <seg>my sun to set at noon<note type="critical"> Cf. Amos 8:9: “And it shall come to pass in that day, saith the Lord God, that I will cause the sun to go down at noon, and I will darken the earth in the clear day.” Pulter may be alluding to the darkened sky at the time of Christ’s crucifixion, which some interpreted as an eclipse: “And it was about about the sixth hour, and there was a darkness over all the earth until the ninth hour. And the sun was darkened” (Luke 23:44-45).</note></seg>,</rdg>
+              </app>
+          </l>
+        <l n="28">
+          <app>
+                  <rdg wit="#ft">Whereby I lose his influence and light:</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Whereby I lose his influence and light:</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Whereby I lose his <seg>influence<note type="gloss">In astrology, the ethereal fluid streaming from the stars or heavens that acted on the character and destiny of people.</note></seg> and <seg>light<note type="critical">In <ref target="/" corresp="117" type="pp-poem-ref">The Caucasines (Emblem 52)</ref>, Pulter uses the metaphor of a solar eclipse to describe ways that a plague-like parliamentary opposition obscured the royal sun.</note></seg>:</rdg>
+              </app>
+          </l>
+        <l n="29">
+              <app>
+                  <rdg wit="#ft">Dost thou not know inevitable fate</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Dost thou not know inevitable fate?</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Dost thou not know inevitable fate?</rdg>
+              </app>
+          </l>
+        <l n="30">
+              <app>
+                  <rdg wit="#ft">Then in conjunctions doe not ſhew thy hate:</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Then in <seg>conjunctions<note type="gloss">alignment of celestial bodies</note></seg> do not show thy hate.</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Then in <seg>conjunctions<note type="gloss">alignment of celestial bodies</note></seg> do not shew thy hate.</rdg>
+              </app>
+          </l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="31">
+              <app>
+                  <rdg wit="#ft"><w lemma="for">&ff;or</w> the impartiall <seg>Parce<note type="physical"> erased minuscule “p” under current majuscule; second final “e” partially blotted</note></seg> now have Spun</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">For the impartial <seg>Parcae<note type="gloss">In Greek myth, these are three female Fates who determine the length of human lives, represented as threads.</note></seg> now have spun</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">For the impartial <seg>Parcae<note type="gloss">the fates of Greek myth</note></seg> now have spun</rdg>
+              </app>
+          </l>
+        <l n="32">
+            <app>
+                <rdg wit="#ft">Thy thread (and mine) then he that lends thee light:</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">Thy thread (and mine); then <seg>he<note type="gloss">the sun</note></seg> that lends thee light</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">Thy thread (and mine); then he that lends thee light</rdg>
+            </app>
+        </l>
+        <l n="33">
+            <app>
+                <rdg wit="#ft">ſhall wane himſelfe, and darke ſhall be thy ſun,</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">Shall <seg>wane<note type="gloss">decrease</note></seg> himself, and dark shall be thy sun,</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">Shall wane himself, and dark shall be thy sun,</rdg>
+            </app>
+        </l>
+        <l n="34">
+            <app>
+                <rdg wit="#ft">As in the Chaos were the ſhades of Night:</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">As in the <seg>chaos<note type="gloss">the ultimate abyss; the formless void before the creation of the universe; or a state of confusion.</note></seg> were the shades of night;</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">As in the <seg>chaos<note type="critical">The word here signifies multiple states of nothingness: an ultimate abyss; the formless void before the creation of the universe; the utmost state of confusion. It also can mean “the natural environment of a person or thing,” as in night’s most basic habitat. For this meaning, see Robert Burton’s <title rend="italic">Anatomy of Melancholy</title> (1621): “Creatures, whose Chaos is the earth” (II.ii.iii.320). In mythology Chaos was the oldest of the gods, the parent of Erebus (darkness) and Nyx (night), and thus the source for all darkness. This stanza has the moon subject to the Fates, with the result that it will lose its reflected light when the sun dies (with the extinction of the entire physical world).</note></seg> were the shades of night;</rdg>
+            </app>
+        </l>
+        <l n="35">
+            <app>
+                <rdg wit="#ft">Then ſhall your ſhineing Spheres <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> <w lemma="fervor"><abbr>fervo:<hi rend="superscript">r</hi></abbr></w> <seg>melt<note type="physical">final “s” appears blotted</note></seg></rdg>
+                <rdg wit="#ee" rend="left-gutter-1">Then shall your shining spheres with <seg>fervor<note type="gloss">intense heat or zeal</note></seg> melt;</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">Then shall your shining spheres with fervor melt,</rdg>
+            </app>
+        </l>
+        <l n="36">
+            <app>
+                <rdg wit="#ft">Then ſhall be done by thee as thou hast de<add place="below">^</add><add place="above">a</add>lt:</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">Then shall be done by thee as thou has dealt.</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">Then shall be done by thee as thou has dealt.</rdg>
+            </app>
+        </l>
+      </lg>
+      <app>
+	<rdg wit="#ft"><milestone unit="poem-section" rend="left-gutter">4</milestone></rdg>		      
+        <rdg wit="#ee"><milestone unit="poem-section" rend="left-gutter">4</milestone></rdg>
+        <rdg wit="#ae"><milestone unit="poem-section" rend="left-gutter">4</milestone></rdg>
+      </app>
+      <lg type="stanza" n="7">
+        <l n="37">
+              <app>
+                  <rdg wit="#ft"><seg>But<note type="physical">“4” in left margin</note></seg> O mortalitie <seg>tis<note type="physical">original “it is” altered by erasing “i” and adding ligature between “t” and “i”</note></seg> thou alone</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">But O, Mortality, ’tis thou alone</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">But O, Mortality, ’tis thou alone</rdg>
+              </app>
+          </l>
+        <l n="38">
+            <app>
+                <rdg wit="#ft">That dost obſcure bright Glory from my ſoule.</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">That dost obscure bright glory from my soul;</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">That dost obscure bright glory from my soul.</rdg>
+            </app>
+        </l>
+        <l n="39">
+            <app>
+                <rdg wit="#ft">Tis thou that fet’rest me with flesh and bone</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">’Tis thou that fett’rest me with flesh and bone,</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">’Tis thou that fett'rest me with flesh and bone</rdg>
+            </app>
+        </l>
+        <l n="40">
+            <app>
+                <rdg wit="#ft">And mak’st me here in dust and Ashes Rowle</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">And mak’st me here in dust and ashes roll,</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">And mak’st me here in dust and ashes <seg>roll<note type="gloss">be enclosed; turn</note></seg>,</rdg>
+            </app>
+        </l>
+        <l n="41">
+            <app>
+                <rdg wit="#ft">Preſenting to me transitory toyes</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">Presenting to me transitory toys,</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">Presenting to me transitory toys</rdg>
+            </app>
+        </l>
+        <l n="42">
+            <app>
+                <rdg wit="#ft">And hidest from my Soule Celestiall Joyes</rdg>
+                <rdg wit="#ee" rend="left-gutter-1">And hidest from my soul celestial joys.</rdg>
+                <rdg wit="#ae" rend="left-gutter-1">And hidest from my soul celestial joys.</rdg>
+            </app>
+        </l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="43">
+              <app>
+                  <rdg wit="#ft">But Death; triumph not in my <w lemma="dissolution"><abbr>diſſolu<hi rend="overline">con</hi></abbr></w></rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">But, Death, triumph not in my dissolution,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">But Death, triumph not in my dissolution,</rdg>
+              </app>
+          </l>
+        <l n="44">
+              <app>
+                  <rdg wit="#ft"><w lemma="for">&ff;or</w> though thou hold’st in thy curſed Jawes</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">For though thou <seg>holdest<note type="critical">The object of this verb (such as “me” or “us”) is absent in the manuscript.</note></seg> in thy curséd jaws,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">For though thou holdest in thy curséd jaws,</rdg>
+              </app>
+          </l>
+        <l n="45">
+              <app>
+                  <rdg wit="#ft">And <seg>I<note type="physical">possibly added later than surrounding words</note></seg> my paſſage make through Revolution</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">And I my passage make through revolution,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">And I my passage make through revolution,</rdg>
+              </app>
+          </l>
+        <l n="46">
+              <app>
+                  <rdg wit="#ft">Humbly obedient to my Makers lawes</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Humbly obedient to my Maker’s laws,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Humbly obedient to my maker’s laws,</rdg>
+              </app>
+          </l>
+        <l n="47">
+              <app>
+                  <rdg wit="#ft">Yet he that doth in infinite power excell</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">Yet <seg>He<note type="gloss">Christ</note></seg> that doth in infinite power excel,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">Yet he that doth in infinite power excel</rdg>
+              </app>
+          </l>
+        <l n="48">
+              <app>
+                  <rdg wit="#ft">In love to me hath Conquer’d Death and Hell</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">In love to me, hath conquered Death and Hell.</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">In love to me hath <seg>conquered Death and Hell<note type="critical">The placement of “infinite” in this context allows for an ambiguity that hints at the unknowable nature of the divine: does God excel in his capacity to love or in his infinite power? In either case, God is said to have triumphed over death.</note></seg>.</rdg>
+              </app>
+          </l>
+      </lg>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_011" n="4r"/>
+            <fw facs="#f7610_010" type="pageNum" place="margin-topleft"><!-- in ink -->3</fw>
+        </rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_011"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_011"/></rdg>
+      </app>
+      <app>
+        <rdg wit="#ae"><milestone unit="poem-section" rend="left-gutter">5</milestone></rdg>
+      </app>
+      <lg type="stanza" n="9">
+        <l n="49">
+              <app>
+                  <rdg wit="#ft">But oh my ſins (my ſins) and none but those</rdg>
+                  <rdg wit="#ee" rend="left-gutter-1">But O, my sins (my sins), and none but those,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1"><seg>But<note type="critical">The manuscript has no number 5 (nor no 6 for the last stanza), but the logic of the double-stanza structure of 1-4 suggests that one should be here, as the speaker turns away from external blockages to the more basic and internal impediments to salvation and finally to the declaration of triumph.</note></seg> O, my sins (my sins), and none but those,</rdg>
+              </app>
+          </l>
+        <l n="50">
+          <app>
+            <rdg wit="#ft">Makes my poore ſoule o’re flow <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> sad anoy</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Makes my poor soul o’erflow with sad annoy;</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Make my poor soul o’er flow with sad annoy,</rdg>
+          </app>
+        </l>
+        <l n="51">
+          <app>
+            <rdg wit="#ft">Tis they and none but they doe interpose</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">’Tis they, and none but they, do interpose</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">’Tis they and none but they do interpose</rdg>
+          </app>
+          </l>
+        <l n="52">
+          <app>
+            <rdg wit="#ft">Twixt heaven and <seg>me<note type="physical">possible pen-rest or comma after</note></seg> and doth Eclips my Joy</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">’Twixt heaven and me, and doth eclipse my joy;</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">’Twixt heaven and me, and doth eclipse my joy;</rdg>
+          </app>
+        </l>
+        <l n="53">
+          <app>
+            <rdg wit="#ft">Tis neither clowdes, nor Moone nor ſhades of Earth</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">’Tis neither clouds, nor moon, nor shades of earth</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">’Tis neither clouds, nor moon, nor shades of earth</rdg>
+          </app>
+        </l>
+        <l n="54">
+          <app>
+            <rdg wit="#ft">Could keepe my ſoule from whence ſhe had her birth</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Could keep my soul from whence she had her birth.</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Could keep my soul from whence she had her birth.</rdg>
+          </app>
+        </l>
+      </lg>
+      <lg type="stanza" n="10">
+        <l n="55">
+          <app>
+            <rdg wit="#ft">For were my ſoule from all transgreſſion free</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">For were my soul from all transgression free,</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">For were my soul from all transgression free,</rdg>
+          </app>
+        </l>
+        <l n="56">
+          <app>
+            <rdg wit="#ft">Earths fadeing pleaſures I would then deſpise</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Earth’s fading pleasures I would then despise;</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Earth’s fading pleasures I would then despise,</rdg>
+          </app>
+          </l>
+        <l n="57">
+          <app>
+            <rdg wit="#ft">Corruption I would trample over thee</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Corruption, I would trample over thee,</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Corruption I would trample over thee</rdg>
+          </app>
+        </l>
+        <l n="58">
+          <app>
+            <rdg wit="#ft">And with Swift Eagles wings <seg>I’d<note type="physical">lower part of “d” blotted; “ould” erased in space following</note></seg> mount <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Skies</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">And <seg>with swift eagle’s wings I’d mount the skies<note type="critical">KJV, Isaiah 40:31: “But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles.”</note></seg>;</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">And with <seg>swift eagle’s wings<note type="critical">Cf. Isaiah 40:31: “They that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles.”</note></seg> I’d mount the skies,</rdg>
+          </app>
+        </l>
+        <l n="59">
+          <app>
+            <rdg wit="#ft">But o my Sins they will not let mee flie</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">But O, my sins, they will not let me fly;</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">But O, my sins, they will not let me fly,</rdg>
+          </app>
+        </l>
+        <l n="60">
+          <app>
+            <rdg wit="#ft">They fetter me more than Mortalitie.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">They fetter me more than mortality.</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">They fetter me more than mortality.</rdg>
+          </app>
+        </l>
+      </lg>
+      <app>
+        <rdg wit="#ae"><milestone unit="poem-section" rend="left-gutter">6</milestone></rdg>
+      </app>
+      <lg type="stanza" n="11">
+        <l n="61">
+          <app>
+            <rdg wit="#ft">But yet my <seg>Saviour<note type="physical">above, “S” or “ſ” appears twice</note></seg> <seg><del type="strikethrough">doth<add place="below">^</add>hope</del><note type="physical">multiple strike-throughs, blotted; subscript caret visible between words, and curling line above struck-through “o” of “doth”</note></seg> me<add place="below">^</add><add place="above">with hope doth</add> feed</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">But yet my <seg>Savior<note type="critical">The savior is Jesus Christ, the human form of God (who in this form took on humanity’s “curséd nature”).</note></seg> me with hope doth feed,</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">But yet my <seg>savior<note type="critical">The savior is Jesus Christ, the human form of God (who in this form took on humanity’s “cursed nature”)</note></seg> with hope me <seg>doth feed<note type="critical">This line reverses the act of eating established in l. 44, where the speaker is perilously consumed in Death’s mouth; here feeding is associated with the Eucharist.</note></seg>,</rdg>
+          </app>
+        </l>
+        <l n="62">
+          <app>
+            <rdg wit="#ft">Who did in love my curſed nature take</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Who did in love my curséd nature take,</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">Who did in love my curséd nature take,</rdg>
+          </app>
+        </l>
+        <l n="63">
+          <app>
+            <rdg wit="#ft">And that poore I might <seg>live<note type="physical">possible comma after</note></seg> in Death did Bleed</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">And, that poor I might live in death, did bleed;</rdg>
+            <rdg wit="#ae" rend="left-gutter-1"><seg>And that poor I might live in death did bleed<note type="critical"> Lack of punctuation here allows for ambiguity: “And that poor I might live, in death did bleed” suggests that death is the action of Christ; “And that poor I might live in death, did bleed” has the speaker attain life only after her death. In either case, Christ’s death on the cross enables the speaker’s redemption.</note></seg>,</rdg>
+          </app>
+        </l>
+        <l n="64">
+          <app>
+            <rdg wit="#ft">he to Eternall Glory will mee take</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">He to eternal glory will me take.</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">He to eternal glory will me <seg>take<note type="critical">The repetition of “take” brings out multiple meanings of the word: the first use (two lines above) accentuates the act of transferring something into someone’s possession, while the second emphasizes transport of a person.</note></seg>;</rdg>
+          </app>
+        </l>
+        <l n="65">
+          <app>
+              <rdg wit="#ft">Then Sin triumph noe longer over mee</rdg>
+              <rdg wit="#ee" rend="left-gutter-1">Then, Sin, triumph no longer over me,</rdg>
+              <rdg wit="#ae" rend="left-gutter-1">Then Sin, triumph no longer over me,</rdg>
+          </app>
+        </l>
+        <l n="66">
+          <app>
+            <rdg wit="#ft"><w lemma="for">&ff;or</w> I in Christ have conquer’d Death and thee:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">For I in Christ have conquered Death and thee.</rdg>
+            <rdg wit="#ae" rend="left-gutter-1">For I, in Christ, <seg>have conquered Death and thee<note type="critical">See John Donne’s “Death be not Proud,” which suggests that an individual’s resurrection “kills” Death (“Death, thou shalt die”).</note></seg>.</rdg>
+          </app>
+        </l>
+      </lg>
+      <app>
+        <rdg wit="#ft"><fw type="catch" place="bottom">The</fw></rdg>
+      </app>
+    </body>
+  </text>
+</TEI>

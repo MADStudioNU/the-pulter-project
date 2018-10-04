@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.22">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>To Aurora [1]</title>
+                 <title type="sub">Poem #22</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>Aurora</term>
+                    <term>night</term>
+                    <term>light</term>
+                    <term>truth</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_024.jpg" xml:id="f7610_024"/>
+         <graphic url="./document_images/7610_025.jpg" xml:id="f7610_025"/>
+         <graphic url="./document_images/7610_026.jpg" xml:id="f7610_026"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>May 30, 2018.</date></witness>
+                     <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>May 30, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>May 30, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_085" n="41r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ft" facs="#f7610_085"/></rdg>
+                <rdg wit="#ae"><pb ed="#ft" facs="#f7610_085"/></rdg>
+            </app>
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>To Aurora [1]</rdg>
+                    <rdg wit="#ee">To Aurora [1]</rdg>
+                    <rdg wit="#ae">To Aurora <seg>[1]<note type="physical">Pulter’s four other poems named for the dawn are poems 3, 26, 34, and 37.</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                        <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                            the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                            as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                            capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                            and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                            superscript and subscript representations are retained. 
+                            <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                                conventions for the transcriptions here.</ref></note></rdg>
+                        <rdg wit="#ee"><note type="editorialnote">
+                            The aim of the elemental edition to make the poems accessible to the largest variety of readers, 
+                            which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                            punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                            otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                            modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                            aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                            Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                            allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                            possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                            material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                            Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                            edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                            result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                            <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                                for this edition here.</ref></note>
+                        </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ee"><note type="headnote">In poetry, lovers often lament daybreak because it disrupts the pleasures afforded by night. Pulter is instead drawn to the beauty, power, and virtue of Aurora (goddess of the dawn), here and throughout the collection. In this poem she uses apostrophe to urge Aurora to unite in military solidarity with the speaker and Aurora’s daughter (Truth) so as to conquer the hellish miseries of conscience unleashed at night. While other Pulter poems dwell on the details of Aurora’s physical appearance, here the speaker merely mentions the beauty of this virginal naked maid who paradoxically has a daughter, Astraea (whom Pulter imagines as Truth, rather than the traditional allegorical association with Justice). The poem is marked by a sudden reflexive moment, when the speaker suddenly doubts her own claims of innocence and uses her soul searching as a more urgent reason for these personified female figures to enlighten the darkness that still exists at the end of the poem.</note></rdg>
+                <rdg wit="#ae"><note type="headnote"> “To Aurora [1]” is one of several poems by Pulter about or addressed to Aurora, the goddess of the dawn. The figure of Aurora is important in Pulter’s mythography, appearing as well in "Aletheia's Pearl" (Poem 32). In “To Aurora [1]” the speaker situates herself between night and day. She implores Aurora to arrive and drive away the Night, which, rather than offering rest, is a time when the speaker is forced to contemplate her sinful state. This poem can be usefully read in the context of the aubade. In the best known English examples of this tradition, such as Donne’s “The Sun Rising” or Juliet’s speech in Act 2 of <bibl><author>Shakespeare’s</author> <title rend="italics">Romeo and Juliet</title></bibl>, heterosexual lovers desire to arrest the dawn. Pulter’s poem, by contrast, invites Aurora (and her daughter Astraea, the goddess of justice) to join her. These two female figures are the speaker’s “eternal friends,” and she demands that they rescue her from darkness, uncertainty, and doubt.</note></rdg>
+            </app>
+            </head>
+          <lg>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Faire Roſie Virgin when wilt though Ariſe</rdg>
+                    <rdg wit="#ee"><seg>Fair rosy virgin<note type="gloss">Aurora, goddess of dawn</note></seg>, when wilt thou arise</rdg>
+                    <rdg wit="#ae"><seg>Fair rosy virgin<note type="critical">Pulter alludes to the Homeric epithet (“rosy-fingered”) in her address to Aurora, the Roman personification of the dawn. In Greek, Aurora is known as Eos. See <bibl><author>Hesiod</author>, <title rend="italic">Theogony</title>, lines 371-382</bibl>. In Ovid’s <bibl><title rend="italic">Metamorphoses</title></bibl>, Aurora appears as an aggressive lover (7.690-758.) and the wife of a human husband who is granted immortality but not eternal youth (9.418-38).</note></seg>, when wilt thou <seg>arise<note type="critical">“To Aurora [1]” is an example of an aubade, or dawn song. The best known English example is John Donne’s “The Sun Rising,” in which the speaker expresses regret that the dawn brings an end to time with his lover. Pulter’s speaker, by contrast, eagerly anticipates the dawn’s arrival.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">And Shew the Raidient Luster of thine eyes</rdg>
+                    <rdg wit="#ee">And show the radiant luster of thine eyes?</rdg>
+                    <rdg wit="#ae">And show the radiant luster of thine eyes?</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Could’st thou but onely view and not expell</rdg>
+                    <rdg wit="#ee">Couldst thou but only view and not expel</rdg>
+                    <rdg wit="#ae">Could’st thou but only view and not expel</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">This uglie Hag, though would’st trample her to Hell</rdg>
+                    <rdg wit="#ee">This ugly hag, thou wouldst trample her to hell.</rdg>
+                    <rdg wit="#ae">This ugly hag, thou would’st trample her to Hell.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Old Night (I meane) with her infernall brood</rdg>
+                    <rdg wit="#ee">Old Night (I mean) with her infernal <seg>brood<note type="critical">children; Night (or Nyx) a primordial deity, whose children included Death (Thanatos), Sleep  (Hypnos), and the three Fates</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Old Night (I mean) with her infernal brood<note type="critical">Reference to Nyx, the Greek goddess of the night. Night is the daughter of Chaos and is “old” because she was among the first of the gods (see also <bibl><author>Milton</author>, <title rend="italic">Paradise Lost</title>, “eldest Night” [2.894]</bibl>). Her offspring include Aether and Day as well as the “infernal brood”: the three Fates, Death, Sleep, Dreams, Blame, and Woe, among others. See <bibl><author>Hesiod</author>, <title rend="italic">Theogony</title> ll.116-38 and ll. 211-25</bibl>.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Who make mens miſeries their accurſed food</rdg>
+                    <rdg wit="#ee">Who make men’s miseries their accursed food.</rdg>
+                    <rdg wit="#ae">Who make men’s miseries their accursed food.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Did guilty onely ſuffer, I would ceaſe</rdg>
+                    <rdg wit="#ee">Did guilty only suffer, I would cease</rdg>
+                    <rdg wit="#ae">Did guilty only suffer, I would cease</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Theſe Sad complaints, and ever hold my peace</rdg>
+                    <rdg wit="#ee">These sad complaints and ever hold my peace.</rdg>
+                    <rdg wit="#ae">These sad <seg>complaints<note type="critical">the act of complaining or utterance of grief and, more specifically, a plaintive poem (OED, “complaint,” n.,1; 2b.). Pulter’s speaker promises to “cease these sad complaints” (a phrase which may refer specifically to her invocation of Aurora or more generally to the poetry of the manuscript) if suffering were restricted to the guilty. The speaker’s speculation about guilt and innocence prompts a notable shift in register. The speaker interrupts her apostrophe to Aurora to challenge her own status as speaker with self-reflexive questions (“What do I mean? / For who (alas) can say their heart is clean?”) that trouble the confident invocation of Aurora that begins and ends the poem.</note></seg> and ever hold my peace,</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Though Innocence I hould Still in my brest</rdg>
+                    <rdg wit="#ee">Though Innocence I hold still in my breast,</rdg>
+                    <rdg wit="#ae">Though innocence I hold still in my breast;</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Yet Shee (Aye mee) diſturbs my quiet Rest</rdg>
+                    <rdg wit="#ee">Yet she (ay me) disturbs my quiet rest.</rdg>
+                    <rdg wit="#ae"><seg>Yet she (ay me) disturbs my quiet rest<note type="gloss">She is Night, who, through her children, brings pain and suffering rather than “rest.”</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">But I forget my Selfe what doe I meane</rdg>
+                    <rdg wit="#ee">But I forget myself; what do I mean?</rdg>
+                    <rdg wit="#ae">But I forget myself. What do I mean?</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">&ff;or who <seg>(<del>ho</del><add place="above">a</add> las)<note type="physical">“h” erased and “e” struck-through twice with vertical lines, then covered with “a”</note></seg> can Say their hart is cleane</rdg>
+                    <rdg wit="#ee">For who (alas) can say their heart is clean?</rdg>
+                    <rdg wit="#ae">For who (alas) can say their heart is clean?</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Come then Sweet mayd with thine <w lemma="immortal"><abbr>i<hi rend="overline">m</hi></abbr></w>ortall iſſue</rdg>
+                    <rdg wit="#ee">Come then, sweet maid, with thine immortal <seg>issue<note type="critical">child; Aurora’s daughter is Astraea, goddess of justice; here Pulter associates her with “Truth” (final line)</note></seg>,</rdg>
+                    <rdg wit="#ae">Come, then, <seg>sweet maid with thine immortal issue<note type="critical">Pulter continues to address Aurora as a virgin (“maid”) while also identifying her as a mother. Her “immortal issue” is Astraea, the goddess of justice (see also "To Astraea" (Poem 23)). Astraea’s appearance is associated with the return of the Golden Age, most notably in <bibl><author>Virgil’s</author> <title rend="italics"> Eclogue IV</title></bibl>.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Who for A vayle noe Bodkin needs nor tiſſew</rdg>
+                    <rdg wit="#ee">Who for a veil no bodkin needs, nor tissue</rdg>
+                    <rdg wit="#ae">Who for a veil no <seg>bodkin<note type="gloss">a pin used to fasten hair or, as here, a veil (OED, “bodkin,” n, 3a.)</note></seg> needs, nor tissue</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Her Alablaster <seg>&ff;abrick<note type="physical">“ck” written in darker ink over other letters; imperfectly erased “k” visible after</note></seg> to invest</rdg>
+                    <rdg wit="#ee"><seg>Her alabaster fabric to invest<note type="gloss">Aurora’s beauty means that she does not require a “bodkin” (or pin for adorning hair), nor “tissue” (rich cloth) to “invest” (or clothe) her already white skin (“alabaster fabric”).</note></seg>;</rdg>
+                    <rdg wit="#ae">Her <seg>alabaster<note type="gloss">a translucent white stone; figuratively white skin (OED, “alabaster,” n, 1; adj.,1); Aurora’s “alabaster fabric”  does not require a veil or “tissue” (rich cloth interwoven with gold or silver thread, OED “tissue,” n.,1a) to ornament it, but is most beautiful in its naked state.</note></seg> fabric to invest,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">&ff;or in her naked bevty Shee Shews best</rdg>
+                    <rdg wit="#ee">For in her naked beauty she shows best.</rdg>
+                    <rdg wit="#ae">For in her naked beauty she shows best;</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Com then and Conquer theſe infernall &ff;einds:</rdg>
+                    <rdg wit="#ee">Come then, and conquer these infernal fiends,</rdg>
+                    <rdg wit="#ae">Come, then, and conquer these infernal fiends,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Swet Light and Truth, my two Eternall &ff;riends.</rdg>
+                    <rdg wit="#ee">Sweet Light and Truth, my two eternal friends.</rdg>
+                    <rdg wit="#ae"><seg>Sweet Light and Truth<note type="critical">Pulter’s speaker addresses Aurora and Astraea as Light and Truth respectively, which suggests that Truth is a quality of Justice just as Light is a quality of the Dawn.</note></seg>, my two eternal friends.</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

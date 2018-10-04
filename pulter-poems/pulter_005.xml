@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Of Night and Morning</title>
+                <title type="sub">Poem #5</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character’s status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>night</term>
+                    <term>resurrection</term>
+                    <term>death</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_023.jpg" xml:id="f7610_023"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 29, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>May 14, 2018</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Tara L. Lyons</persName>. Last updated <date>September 17, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_023" n="10r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_023"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_023"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">Of Night and <seg>Morning <note type="physical">previous poem ends on the same page</note></seg></rdg>
+                    <rdg wit="#ee">Of Night and Morning</rdg>
+                    <rdg wit="#ae">Of Night and Morning</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">For this amplified edition of this very short poem, I have chosen to modernize spelling for accessibility and to alter the punctuation, especially in line 5, to accentuate the contrasting forces in the poem. For similar effect, I have preserved the capitalization of words as they appear in Pulter’s manuscript (MS Lt q 32, University of Leeds, Brotherton Library). Although we may never know whether Pulter capitalized these words in her original draft(s) or attached significance to the cases of letters in her writing, I have decided to interpret the poem as it appears on the page of the manuscript. In so doing, I sought to experiment with the ways that Pulter’s texts speak through their material as well as literary forms. The endnotes and curations are designed to contextualize the poem within Pulter’s manuscript collection while also introducing a variety of theories of death and resurrection that were woven into the cultural fabric of early modern England. All biblical citations are from the King James Version.</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">
+                        <note type="headnote">What’s it like to be dead—and then not? These three couplets comprise Pulter’s answer in a single sentence and form her shortest complete poem. The poem seems at first to be about night, a figure elsewhere associated not just with darkness but terror (see <ref target="/" corresp="3" type="pp-poem-ref">Aurora [1]</ref>); but the poem’s focus here becomes the contrast between our experience of the grave and the experience of the end of time in the anticipated resurrection of souls. The latter will—in one fell swoop just like this verse—swap sin, darkness, death, and night for righteousness, glory, life, and light. The perhaps deliberately simplistic similes in the first couplet thus open up and out to encompass, in only four more lines, the poet’s largest and most longed-for vision of a world beyond this one.</note></rdg>
+                    <rdg wit="#ae"><note type="headnote"><p>In her shortest complete poem, Pulter imagines waking up on the final day, at the dawn of Christ’s second coming and her own resurrection. To describe this awe-inspiring moment, she turns to traditional biblical metaphors linking the daily cycles of darkness and light, “Night and Morning”, to phases of the afterlife, such as being dead in the grave and rising from it.</p>
+                      <p>As if mimicking the natural cycles of the sun, the poem’s lines alternate between images of darkness and light. This balance is enacted on the page through the capitalization of governing concepts; “Night”, “Grave”, “Darkness”, and “Death” (lines 1, 3, 5) are replaced by “Resurrection”, “Morn”, “Righteousness”, and “Glory” (lines 2 and 4). The poem’s iambic pentameter similarly evokes these oscillating rhythms—that is, until line 5. Here, Pulter breaks the meter with the dactyl, “Conquering”, marking the moment of triumph in the poem when “Death and Night” have been defeated by the “sun of Righteousness.” The brevity of the poem suggests that this battle is quickly won, as is the transition from “Night” in the first line to the “everlasting light” of the last. Christ’s ultimate victory over the darkness on the final day recalls his own resurrection from the tomb and fulfills the promise of John 11:25-26: “I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: / And whosoever liveth and believeth in me shall never die”. Pulter would have been assured of this promise in Protestant teachings of the early-to-mid seventeenth century, including those prescribed by <title rend="italic">The Book of Common Prayer</title> (1604), which directed mourners to cast their thoughts on the final day when the departed will rise from their graves as Christ once did from his (see “Burial Rites” in “Curations”).</p>
+                      <p>Much like a brief, affirming prayer, Poem 5 takes on the resolute voice of a first-person speaker who knows that after she undergoes the natural cycles of life and death she will see the light of God on the morning of the final day. Rather than focusing on apocalyptic horrors or the final judgement, Pulter commits to exploring the moment of resurrection. In this way, Poem 5 diverges from those of her contemporaries, George Herbert and John Donne, whose poems often seem to reflect more ambivalence about what the final day may hold for both the chosen and the damned (see Herbert’s “Doomsday” and Donne’s “Sonnet VII” in “Curations”).</p>
+                      <p>A different sort of apprehension, however, lurks in and between the lines of Pulter’s poem. Within the seventeenth-century manuscript where the poet’s works are recorded, the word “Night”, the most oft-repeated term in the poem, receives special emphasis as the scribe uses elaborate calligraphic flourishes on the capital letter “N”. That this letter is also enlarged in the title and in the opening line means that “Night,” with its inky curls and elongated tails, visually dominates the space of the short poem (see “‘Night’ in Ink” in “Curations”). Throughout many of Pulter’s other poems, “Night”  is a force to be reckoned with, so much so that the poet personifies “Night” as the primordial Goddess <foreign rend="italic">Nyx</foreign> (in Latin) and <foreign rend="italic">Nox</foreign> (in Greek), who in some classical traditions gave birth to the Furies (Virgil, <title rend="italic">The XII Aeneids of Virgil</title>, trans. John Vicars. [London, 1632], p. 413). In Poem 3, for instance, which appears just a few pages before “Of Night and Morning”, the figure of “horrid Night” terrorizes the speaker, sending her “furious issue” to metaphorically lash the speaker’s soul with the serpents that uncurl from their bodies (lines 32-33). “Death”, the speaker imagines, is the only escape from Night’s frequent assaults (lines 50-54). Hence, it is no accident that in her work Pulter extols the light-bringers, Christ and/or Aurora (the Goddess of Dawn), for their ability to defeat “Night” in its many manifestations. This layering of Christian and classical allusions further heightens the speaker’s longing for a victor who will break Night’s cycle and bring forth the “everlasting light”.</p></note></rdg>
+                </app>
+            </head>
+            <lg type="stanza" n="1">
+                <l n="1">
+                    <app>
+                        <rdg wit="#ft">Night’s like the Grave wherein wee lie forelorn;</rdg>
+                        <rdg wit="#ee">Night like the grave, wherein we lie forelorn</rdg>
+                        <rdg wit="#ae"><seg>Night’s like the Grave wherein we lie forlorn<note type="critical">The “Grave” is a space of darkness and death in Pulter’s poems, and so “Night” is an appropriate simile here, even if it’s not the most original. In Poem 35, Pulter also imagines the grave as a “forlorn” (OED 4a, “Abandoned, forsaken, deserted”) place where she will “lie forgotten” and “lose the comfortable sight / Of my dear friends and all-discovering light” (lines 12-14). However, in <ref target="/" corresp="33" type="pp-poem-ref">The Welcome [2]</ref>, Pulter hopes the grave might be different, perhaps even like resting on “the daintiest bed of down” (line 5) where she can “nap in black oblivion’s urn / Until the sun of life arise in glory” (lines 8-9). Pulter’s contemporaries similarly explored metaphors of sleep in an attempt to fathom death in the grave. Anabaptists, for example, asserted that in death, both the body and the soul slept in an unconscious state until the final resurrection. The doctrine became known as “Psychopannychism,” meaning soul-sleeping (Peter Marshall, <title rend="italic">Beliefs and the Dead in Reformation England</title>, [Oxford: Oxford University Press, 2002], p. 223). This doctrine was critiqued in <title rend="italic">A Sermon . . . at Aldermanbury, London, Aug. 24, 1651</title> (excerpted in “Daily Dying and Rising” in “Curations”) by the Puritan preacher Edmund Calamy, who espoused the more orthodox view that while the body remained asleep in the grave, the soul rested in peace and joy with Christ in heaven, to be reunified with the body at the final resurrection. Calamy suggests that for God’s followers, time will fly by in the grave; death will seem “but as the sleep of an hour unto them” (sig. A3r). A different fate, however, awaits the ungodly: “Death to the wicked man is a sleep, but it is a terrifying sleep, the soul that goes immediately to hell, where it is burned with fire that shall never be quenched” (sig. A4r).</note></seg>;</rdg>
+                    </app>
+                </l>
+                <l n="2">
+                    <app>
+                        <rdg wit="#ft">The bleſſed Reſurrection’s like the thee <seg>Morn<note type="physical">“n” written over imperfectly erased “m”</note></seg>.</rdg>
+                        <rdg wit="#ee">The blesséd <seg>Resurrection’s<note type="gloss">God’s final judgment of human souls</note></seg> like the morn,</rdg>
+                        <rdg wit="#ae">The blessed <seg>Resurrection’s<note type="critical">Resurrection here refers to Christ’s raising of the dead at the second coming, although the poem recalls Christ’s own death in the tomb and subsequent resurrection from the grave. Pulter treats this final resurrection as a “blessed” time of joy in her works, but some of her contemporaries expressed trepidation about what could happen on that day. The final day was also known as “doomsday” and the “last judgement.” Biblical verses such as John 5:28-29 reminded Christians that resurrection was not the same as salvation, since judgement would be doled out on that day: “the hour is coming, in which all that are in the graves shall hear his voice, / And shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation”. For an early modern visual representation of the resurrection and the souls of both the saved and the damned, see Wenceslaus Hollar’s “Doomes-day” in “The Body Resurrected” (in “Curations”).</note></seg> like the Morn.</rdg>
+                    </app>
+                </l>
+                <l n="3">
+                    <app>
+                        <rdg wit="#ft">When leaving ſin and Darkenes, theſe our eyes</rdg>
+                        <rdg wit="#ee">When, leaving sin and darkness, these our eyes</rdg>
+                        <rdg wit="#ae">When leaving sin and Darkness, these our eyes</rdg>
+                    </app>
+                </l>
+                <l n="4">
+                    <app>
+                        <rdg wit="#ft">Shall ſee the ſun of Righteousnes, ariſe</rdg>
+                        <rdg wit="#ee">Shall see the <seg>sun of righteousness<note type="critical"> pun on “son of righteousness” as epithet for Jesus Christ</note></seg> arise</rdg>
+                        <rdg wit="#ae">Shall <seg>see<note type="critical">While English Protestants were largely unified in their belief in the resurrection, the form and constitution of the resurrected body was hotly debated among different denominations. In line 3 Pulter implies that at least one part of her body will be reconstituted upon rising, for she explains that “these our eyes / shall see ....” Pulter’s words echo those in <title rend="italic">The Book of Common Prayer</title> (1604) to be delivered at Protestant burial services. When the priests or clerks met the corpse, they either recited or sung these verses from Job 19:19, 25-27: “I know that my redeemer liveth, and that I shall rise out of the earth in the last day, and shall be covered again with my skin, and shall see God in my flesh: yea, and I myself shall behold him, not with other, but with these same eyes” (see “Burial Rites” in “Curations”). For the devotional poet Robert Aylett, the body undergoes a spiritual and physical makeover in the grave. He proposed that death restores and purifies the body in anticipation of uniting with the soul at the resurrection (See his “Meditation 5. Of Death” in “The Body Resurrected” in “Curations”).</note></seg> the <seg>sun of Righteousness<note type="critical">By referring to Christ as the sun (or son) of righteousness, Pulter may have been responding to Malachi 4:2: “But unto you that fear my name shall the Sun of righteousness arise with healing in his wings”. Another possible source or analogue for the phrase is Thomas Wilson’s <title rend="italic">Christian Dictionary</title> (London: Printed by Richard Cotes and sold by William Hope, 1648). Under the entry for “Morning” appears this definition: “The time of the Resurrection, when Christ the Son of righteousness shall arise, to the full comfort of the chosen, Psal. 49.15” (sig. X6v).</note></seg> arise</rdg>
+                    </app>
+                </l>
+                <l n="5">
+                    <app>
+                        <rdg wit="#ft">In Glory; Conquering Death and Night:</rdg>
+                        <rdg wit="#ee">In glory, conquering death and night,</rdg>
+                        <rdg wit="#ae">In Glory—Conquering Death and Night—</rdg>
+                    </app>
+                </l>
+                <l n="6">
+                    <app>
+                        <rdg wit="#ft">That wee may live in everlasting light.</rdg>
+                        <rdg wit="#ee">That we may live in everlasting light.</rdg>
+                        <rdg wit="#ae">That we may live in <seg>everlasting light<note type="critical">In this final line, Pulter recalls imagery from the Book of Isaiah: “The sun shall be no more thy light by day; neither for brightness shall the moon give light unto thee: but the Lord shall be unto thee an everlasting light, and thy God thy glory. / Thy sun shall no more go down; neither shall thy moon withdraw itself: for the Lord shall be thine everlasting light, and the days of thy mourning shall be ended” (Isaiah 60:19-20).</note></seg>.</rdg>
+                    </app>
+                </l>
+            </lg>
+            <app>
+                <rdg type="milestone" wit="ft">
+                    <milestone unit="poem" rend="straight-ascendline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.18">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Desire</title>
+                 <title type="sub">Poem #18</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+              <keywords>
+                 <term>prayer</term>
+                 <term>transmutation</term>
+                 <term>resurrection</term>
+        	    </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_080.jpg" xml:id="f7610_080"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>December 1, 2017</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 13, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>September 7, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_080" n="38v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_080"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_080"/></rdg>
+            </app>
+     
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_080" type="pageNum" place="margin-topright">PG#</fw><seg>The desire<note type="physical">Previous poem concludes at top of page.</note></seg></rdg>
+                    <rdg wit="#ee">The Desire</rdg>
+                    <rdg wit="#ae">The Desire</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials I gather for the “curations” section place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">In this poem addressed to God, the speaker longingly anticipates her death and resurrection. The poem is metrically and rhythmically unusual: it divides into four quatrains, each with three iambic tetrameter lines followed by a final iambic dimeter line. The quatrains form into pairs, each linked by a final rhyming word. The poem also suggests that only after the speaker’s death can her elemental material—the primal dust that marks human birth and dissolution—be raised by God to produce heavenly and yet unknown versions of the speaker’s earthly poems (“lays” or songs). Thus the speaker ends up promising God poems of praise in exchange for personal redemption.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                    <p>As we see in some of Pulter’s other poems, including <ref target="/" corresp="34" type="pp-poem-ref">To Aurora [3]</ref>, the desire that most interests Pulter is the soul’s desire for spiritual transcendence, not the body’s desire for earthly pleasures, often described as “clogs,” burdens, and distractions. In contrast, consider Sidney’s Astrophil, whose attempt to proceed from adoration of his beloved Stella’s beauty to love of virtue breaks down when sexual desire reasserts itself: “But ‘Ah,’ desire still cries, ‘Give me some food!’” (<title rend="italic">Astrophil and Stella</title>, sonnet 71). In Pulter’s poem, desire still cries “Give me some death!” not as an end in itself but as the gateway to the “endless joys” of transcending the body altogether. The enjambment of the first long sentence conveys the overflow of longing and need.</p>
+                    <p>Pulter uses direct address in many poems, addressing dear God in two other poems, as well as her dear daughters and dear Death. The address to God here resembles that in Psalm 55, which begins “Give ear to my prayer, O God,” and was paraphrased or translated in 1547 by Henry Howard, Earl of Surrey, in what many take as his last poem before Henry VIII had him executed for treason (“Give ear to my suit, Lord!”) and by both Sir Thomas Smith and John Dudley, Earl of Warwick, when they were prisoners in the Tower (<bibl><title rend="italic">The Arundel Manuscript of Tudor Poetry</title>, ed. Ruth Hughey, 2 vols. [Columbus: Ohio State University Press, 1960]</bibl>). For all of these imprisoned writers, paraphrasing this psalm became a vehicle for expressing political protest as well as spiritual longing.  Mary Sidney also translated it (“My God, most glad to look, most prone to hear, / An open ear, oh, let my prayer find” (<bibl><title rend="italic">The Selected Works of Mary Sidney Herbert, Countess of Pembroke</title>, ed. Margaret P. Hannay, Noel J. Kinnamon, and Michael G. Brennan [Tempe:  Arizona Center for Medieval and Renaissance Studies, 2005], 200</bibl>).</p>
+                    <p>Consistently depicting death as an object of desire, Pulter’s poems about death pursue a middle path between the martyr’s longing for death and a secular longing for oblivion. Even those who faced martyrdom in the vexed landscape of post-reformation England argued that one should accept but not seek martyrdom. We can find discussions of the martyr’s relation to death in John Foxe’s fervently Protestant <title rend="italic">Acts and Monuments</title> or in Jesuit Robert Southwell’s “Epistle of Comfort” (in “Curations”). The secular longing for release and oblivion is most famously captured in a later poem, Keats’ “Ode to a Nightingale” (1819): “for many a time / I have been half in love with easeful Death, / . . . . / Now more than ever seems it rich to die, / To cease upon the midnight with no pain.” Pulter desires death but not martyrdom; she seeks to “obliviate” the distractions and sufferings of life but not to achieve oblivion in itself. Pulter shares this relationship to death—longing for but not seeking it, depending on it as a waystation but not as an end in itself—with other religious poets across the doctrinal spectrum in the seventeenth century. For example, Richard Crashaw, a convert to Catholicism, articulates a “desire of death” in “A Song”; in “Death,” Anglican George Herbert claims that, since Christ’s crucifixion, death is grown “Much in request, much sought for as a good” (see “Curations” for both poems).</p></note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Dear God, vouchsafe from thy High throne</rdg>
+                    <rdg wit="#ee">Dear God, vouchsafe from Thy high throne</rdg>
+                    <rdg wit="#ae">Dear God, <seg>vouchsafe<note type="critical">deign; “vouchsafe” carries the connotation of condescension, of the high (“from your throne,” “above”) being willing to attend to the low (the “dejected,” “thrown” down, and dusty). The homonyms “throne” and “thrown” capture the contrasting statures of the addressee and the speaker, God and human, high and low.</note></seg> from thy high throne</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">To See my tears, and hear my moane,</rdg>
+                    <rdg wit="#ee">To see my tears, and hear my moan;</rdg>
+                    <rdg wit="#ae">To see my tears, and hear my moan,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">&ff;or I in heaven and Earth have none</rdg>
+                    <rdg wit="#ee">For I, in heaven and earth, have none</rdg>
+                    <rdg wit="#ae">For I in heaven and earth have none</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">To pitty mee</rdg>
+                    <rdg wit="#ee">To pity me</rdg>
+                    <rdg wit="#ae">To pity me</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">In my dejected Sad Estate,</rdg>
+                    <rdg wit="#ee">In my dejected sad <seg>estate<note type="gloss">condition; standing</note></seg>,</rdg>
+                    <rdg wit="#ae">In my dejected sad <seg>estate<note type="gloss">condition</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Wherein I’m thrown by advers fate;</rdg>
+                    <rdg wit="#ee">Wherein I’m thrown by adverse fate,</rdg>
+                    <rdg wit="#ae">Wherein I’m thrown by adverse fate;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">And hope in none till my last Date</rdg>
+                    <rdg wit="#ee">And hope in none till my last date</rdg>
+                    <rdg wit="#ae">And hope in none till my last date</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">But onely thee.</rdg>
+                    <rdg wit="#ee">But only Thee.</rdg>
+                    <rdg wit="#ae">But only thee.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Oh then bee pleased my dust to raise,</rdg>
+                    <rdg wit="#ee">O then be pleased my <seg>dust to raise<note type="critical">“dust” meaning physical being; primal elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.” See also 1 Corinthians 6:14: “And God hath both raised up the Lord, and will also raise up us by his own power.”</note></seg>,</rdg>
+                    <rdg wit="#ae">O then be pleased my dust to <seg>raise<note type="critical">The speaker asks God to raise his or her dust or resurrect him/her. After the fall, men cannot rise alone. See Herbert, “Holy Communion,” in “Curations.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">To Sing thy Everlasting praise;</rdg>
+                    <rdg wit="#ee">To sing thy everlasting praise</rdg>
+                    <rdg wit="#ae">To sing thy everlasting praise,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">In those Celestiall unknown layes,</rdg>
+                    <rdg wit="#ee">In those celestial unknown <seg>lays<note type="gloss">short songs</note></seg>,</rdg>
+                    <rdg wit="#ae">In those celestial unknown <seg>lays<note type="gloss">songs</note>
+                    </seg>,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">With life and love:</rdg>
+                    <rdg wit="#ee">With life and love.</rdg>
+                    <rdg wit="#ae">With life and love.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Then Shall I leave these terren toyes,</rdg>
+                    <rdg wit="#ee">Then shall I leave these <seg>terrene<note type="gloss">earthly</note></seg> <seg>toys<note type="gloss">amusements; inconsequential things</note></seg>,</rdg>
+                    <rdg wit="#ae">Then shall I leave these <seg>terrene toys<note type="critical">“Terrene” means “belonging to the earth or to this world; earthly; worldly, secular, temporal, material, human (as opposed to heavenly, eternal, spiritual, divine)” (<title rend="italic">OED</title>). It shares a root with the more commonly used  “terrestrial” with a roughly similar meaning and with the more recent coinage “terran,” which can also describe an inhabitant of the earth. In the seventeenth century, the word “toy” was already used to describe objects designed to divert children—and adults. But the connotations of the term were most often negative. Toys are trivial thoughts, feelings, actions, or objects that distract one from what is more important. In <ref target="/" corresp="31" type="pp-poem-ref">The Center</ref>, Pulter writes “Methinks this world is but a trundling toy” (line 26). Another religious poet pairs “terrene” and “toys” as Pulter does. William Williams, writing as a prisoner of the King’s Bench when he was in his 60s, reminds the reader that “terrene pleasures are but foolish toys” (sig. B1v) and refers to “some glorious toy / Of terrene pomp” (<bibl>William Williams, <title rend="italic">Divine Poems and Meditations in Two Parts</title> [London, 1677], sig. C1v</bibl>). Herbert, too, uses a similar vocabulary in “Sepulchre” (see “Curations”), in which the speaker asks his body “whither art thou thrown?” and describes his heart as harboring “thousands of toys.”</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Obliviateing past annoyes;</rdg>
+                    <rdg wit="#ee"><seg>Obliviating<note type="critical">forgetting; committing to oblivion; this is one of the earliest usages of this Latinate word</note></seg> past annoys,</rdg>
+                    <rdg wit="#ae"><seg>Obliviating<note type="critical">Sharing a root with oblivion, the verb “obliviating” describes committing something to oblivion or willfully forgetting it. Pulter’s use here appears a decade or more before the first occurence listed in the <title rend="italic">OED</title> (1661). The word also sounds like “obliterate,” and borrows some of that verb’s physical sense of blotting out or erasing. The syntax assigns agency and volition to the speaker who “leaves” and “obliviates” prior to moving into a passive position of being “involved” with and by God.</note></seg> past annoys;</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">And bee involv'd in Endles Joyes,</rdg>
+                    <rdg wit="#ee">And be <seg>involved<note type="gloss">entangled</note></seg> in endless joys</rdg>
+                    <rdg wit="#ae">And be <seg>involved<note type="gloss">enfolded</note></seg> in endless joys,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">With thee aboue.</rdg>
+                    <rdg wit="#ee">With Thee above.</rdg>
+                    <rdg wit="#ae">With thee above.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curved-line"/>
+                </rdg>
+            </app>
+            
+        </body>
+    </text>
+</TEI>

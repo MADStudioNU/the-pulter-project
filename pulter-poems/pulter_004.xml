@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Complaint of the Thames, 1647</title>
+                 <title type="sub">Poem #4</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<!--<keywords>-->
+                     <!--<term>pastoral</term>-->
+                     <!--<term>complaint</term>-->
+                     <!--<term>royalism</term>-->
+                     <!--<term>Charles I</term>-->
+        	<!--</keywords>-->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_020.jpg" xml:id="f7610_020"/>
+        <graphic url="./document_images/7610_021.jpg" xml:id="f7610_021"/>
+        <graphic url="./document_images/7610_022.jpg" xml:id="f7610_022"/>
+        <graphic url="./document_images/7610_023.jpg" xml:id="f7610_023"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 29, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>July 23, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>September 7, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_020" n="8v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_020"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_020"/></rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_020" type="pageNum" place="margin-topright">12</fw>
+                      <l>The complaint of Thames 1647</l>
+                      <l>when the best of Kings was imprisoned</l>
+                      <l>by the worst of Rebels at Holmbie</l></rdg>
+                    <rdg wit="#ee">The <seg>Complaint of Thames<note type="critical">The complaint, a common poetic form of the day, is voiced by the river Thames, which flows eastwards from Gloucestershire to London (hence the “western spring” in l. 3). The Thames mourns the imprisonment of King Charles at Holmby, a Northamptonshire estate (also known as Holdenby House) where King Charles was imprisoned after his surrender in the civil war in 1647.</note></seg>, 1647, When the Best of Kings was Imprisoned by the Worst of Rebels at Holmby</rdg>
+                    <rdg wit="#ae">The Complaint of Thames, 1647, When the Best of Kings Was Imprisoned By the Worst of Rebels at <seg>Holmby<note type="critical">Also known as Holdenby House, Holmby is the estate in Northamptonshire where King Charles I was held prisoner during the latter stages of the First Civil War (February to June 1647). This is one of three poems that Pulter dated 1647. See “The Invitation to the Country” (Poem 2) and “Made When I Was Sick, 1647” (Poem 31).</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">In this political-pastoral complaint (in iambic pentameter couplets), the narrator discovers the river Thames mourning the imprisonment of King Charles I in 1647 and the national crisis that has ensued because of the civil war. The use of a frame tale and an embedded narrator was common in Renaissance complaint poems (by William Shakespeare, Samuel Daniel, Thomas Lodge, and others). In this poem, however, Pulter creates a personification of a topographical feature, who testifies to the decline of England and lauds the glory of Charles I and past English rulers (whose erotically-described travel over her waters made her the envy of all the rivers of the world). After inventorying world rivers and mourning the loss of their admiration, the Thames fantasizes that she might stream underground and transport Cromwell and parliamentary authorities to a hellish classical underworld. She then offers to immortalize the king with the only material she can offer: the watery tears of grief.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">Framed by a brief first-person introduction and conclusion, “The Complaint of the Thames” voices the lament of the Thames river, personified as a female figure, for the betrayal of the rightful monarch, King Charles I, by the people and city of London. Pulter examines the political consequences of the king’s imprisonment in both national and global contexts through the device of a catalog of rivers. Drawing upon extensive geographical and historical lore, Pulter heightens the pathos of the Thames’s complaint by putting it into dialogue with the famous rivers of England and the world. The rivers alternately envy the Thames and grieve with her, joined, finally, by the speaker who puts off sleep to weep with the rivers of the world.</note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Late in an evening as I walk'd alone,</rdg>
+                    <rdg wit="#ee">Late in an evening as I walked alone,</rdg>
+                    <rdg wit="#ae">Late in an evening as I walked alone,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">I heard the Thames most Sadly make her moane:</rdg>
+                    <rdg wit="#ee">I heard the Thames most sadly make her moan.</rdg>
+                    <rdg wit="#ae">I heard the Thames most sadly make her moan.</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">As Shee came weeping from her western Spring,</rdg>
+                    <rdg wit="#ee">As she came weeping from her western spring,</rdg>
+                    <rdg wit="#ae">As she came weeping from her <seg>western spring<note type="critical">The Thames flows from west to east across southern England, passing through Oxford and London. Its source is in Gloucestershire.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Shee thus bewaild the learned Shepherds King.</rdg>
+                    <rdg wit="#ee">She thus bewailed the <seg>learnéd shepherd's king<note type="critical">King Charles, figured as the head of a courtly flock</note></seg>:</rdg>
+                    <rdg wit="#ae"><seg>She<note type="critical">
+                      <p>Pulter personifies the Thames as a feminized figure, thus drawing on the tradition of complaint poetry such as Samuel Daniel’s “The Complaint of Rosamund” and Spenser’s “The Ruines of Time.” In Spenser’s poem, the speaker stands by the river Thames and overhears the complaint of a woman who speaks as the spirit of Verulamium, an ancient Roman city. Some well known poems, such as Michael Drayton’s <title rend="italic">Poly-Olbion</title>, identified the Thames as masculine. In John Denham’s popular “Cooper’s Hill” (1642), likewise, the Thames is personified as a “son” of the Ocean:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>Thames, the most lov'd of all the ocean's sons,</l>
+                            <l>By his old sire to his embraces runs,</l>
+                            <l>Hasting to pay his tribute to the sea,</l>
+                            <l>Like mortal life to meet eternity. (lines 187-90)</l>
+                          </lg>
+                        </quote>
+                      </cit>
+                </note></seg> thus bewailed the learned shepherds' king:</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Amintas Sad Amintas Sits forelorne</rdg>
+                    <rdg wit="#ee">“<seg>Amintas<note type="critical">common male pastoral name for a shepherd; the female equivalent is Chloris, mentioned in the next line.</note></seg>, sad Amintas, sits forlorn,</rdg>
+                    <rdg wit="#ae">Amintas, sad Amintas, sits forlorn,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">And his faire Cloris now's become the Scorne</rdg>
+                    <rdg wit="#ee">And his fair Chloris now's become the scorn</rdg>
+                    <rdg wit="#ae">And his fair <seg>Chloris<note type="critical">a pastoral name for Queen Henrietta Maria, paired with Amintas for King Charles.</note></seg>now's become the scorn</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Of Troynovants <seg>ingrate<note type="physical">blotted letters, possibly “ar,” between “r” and “a”</note></seg> licentious Dames</rdg>
+                    <rdg wit="#ee">Of <seg>Troynovant's<note type="critical">The name given by the early chroniclers to London, which was presumed to be built by Brutus, a Trojan refugee; it indicates the city of the Trinovantes or The New Troy.</note></seg> <seg>ingrate<note type="gloss">ungrateful</note></seg> licentious dames.</rdg>
+                    <rdg wit="#ae">Of <seg>Troynovant<note type="critical">New Troy, i.e. London; a name that draws upon the legend that London was founded by the Trojan hero Brutus.</note></seg>'s <seg>ingrate, licentious dames<note type="critical">In contrast to the sympathetic Royalism shared by the speaker and the personified Thames, the women of London are represented as immoral and treacherous. During the 1640s some London women did bring petitions before Parliament, political actions that were satirized in sexualized terms in pamphlets such as <bibl><title rend="italic">The Parliament of Women</title>(1646)</bibl>. See <bibl>Mihoko Suzuki <title rend="italic">Subordinate Subjects: Gender, the Political Nation, and Literary Form in England, 1588-1688</title> (Ashgate, 2003)</bibl>, especially chapter 4.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Noe merveile then if poore aflicted Thames</rdg>
+                    <rdg wit="#ee">No marvel, then, if poor afflicted Thames</rdg>
+                    <rdg wit="#ae">No marvel, then, if poor afflicted Thames</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">With Salt abortive teares dos wash this Citty</rdg>
+                    <rdg wit="#ee">With salt, <seg>abortive<note type="gloss">fruitless</note></seg>tears does wash this city,</rdg>
+                    <rdg wit="#ae">With salt abortive tears does wash this city,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">As full of Blood and lies as voyd of pittie</rdg>
+                    <rdg wit="#ee">As full of blood and lies as void of pity.</rdg>
+                    <rdg wit="#ae">As full of blood and lies as void of pity.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Perfidious Town know thou the power of fate</rdg>
+                    <rdg wit="#ee"><seg>Perfidious<note type="gloss">untrustworthy</note></seg> town, know thou the power of fate:</rdg>
+                    <rdg wit="#ae"><seg>Perfidious<note type="gloss">faithless or treacherous <bibl>(OED)</bibl></note></seg> town, know thou the power of fate.</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Thy long felicitie shall find a date</rdg>
+                    <rdg wit="#ee">Thy long felicity shall find a <seg>date<note type="gloss">come to an end</note></seg>,</rdg>
+                    <rdg wit="#ae">Thy long felicity shall find a date,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                   <rdg wit="#ft">And I may live to see another turn</rdg>
+                    <rdg wit="#ee">And I may live to see another <seg>turn<note type="gloss">of Fortune’s wheel</note></seg>,</rdg>
+                    <rdg wit="#ae">And I may live to see another turn</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">When thy proud <seg>fabri<del>a</del>ck<note type="physical">struck-through “a” crossed out with two forward slashes</note></seg> shall u<hi rend="superscript">n</hi>pittied burn</rdg>
+                    <rdg wit="#ee">When thy proud <seg>fabric<note type="gloss">edifice; structure</note></seg> shall unpitied burn.</rdg>
+                    <rdg wit="#ae">When thy proud fabric shall unpitied burn.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Then Heaven Just Heaven withhold thy raine</rdg>
+                    <rdg wit="#ee">Then Heaven, just Heaven, withhold thy rain,</rdg>
+                    <rdg wit="#ae">Then Heaven, just Heaven, withhold thy rain,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">And I will leave my channill once againe</rdg>
+                    <rdg wit="#ee">And I will leave my channel once again,</rdg>
+                    <rdg wit="#ae">And I will leave my channel once again,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">As when my holy Albians blood was spilt</rdg>
+                    <rdg wit="#ee">As when my holy <seg>Albion's<note type="critical">could refer to St. Alban or to Albion. Eardley: St. Alban, killed in the third century AD for harboring a priest; at his urging, God dried up waters so that he could cross a stream to be executed and complete his martyrdom; Albion, another name for Britain, from a giant slain by Hercules, whose spilt blood would reference civil war</note></seg> blood was spilt;</rdg>
+                    <rdg wit="#ae">As when my holy <seg>Albian<note type="critical">Saint Alban is known as the first British martyr (3rd or 4th century). Alban harbors a priest and refuses to renounce Christianity. When his execution by beheading is ordered, he approaches his death eagerly and when he reaches a quickly flowing river that cannot be crossed, he prays, and the river dries up. In Bede’s <title rend="italic">Ecclesiastical History of the English People</title> this event is located at the River Ver in the town of Verulamium (now St. Albans), but in another early source <bibl>(Gildas, <title rend="italic">De Excidio et Conquestu Britanniae</title>)</bibl> Alban crosses the Thames before his martyrdom, which corresponds to Pulter’s version of the story.</note></seg>'s blood was spilt,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft"><seg>Seeing<note type="physical">“e”s are unusual in shape</note></seg> to wash away thy Horrid guilt</rdg>
+                    <rdg wit="#ee"><seg>Seeking<note type="physical">corrected from “seeing” in the manuscript</note></seg> to wash away <seg>thy<note type="gloss">London’s</note></seg> horrid guilt</rdg>
+                    <rdg wit="#ae">Seeing to wash away thy horrid guilt</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Is more impossible then tis to change</rdg>
+                    <rdg wit="#ee">Is more impossible than 'tis to change</rdg>
+                    <rdg wit="#ae">Is more impossible than 'tis to change</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">The <seg>Skins<note type="physical">“S” written over initial “K”; final “s” written over imperfectly erased “g”</note></seg> of Negros that in Aphrick range</rdg>
+                    <rdg wit="#ee"><seg>The skins of Negroes that in Afric Africa range<note type="critical">based on the biblical phrase naming impossibility: “Can the Ethiopian change his skin, or the leopard his spots?” (Jerome 13:23), which was proverbial in early modern England</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>The skins of Negroes that in Afric' range<note type="critical">Jeremiah 13:23: “Can the Ethiopian change his skin, or the leopard his spots? Then may ye also do good, that are accustomed to do evil” (AV); i.e. the Londoners’ guilt is immutable.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Then when thou fryest in vengfull flames of fire</rdg>
+                    <rdg wit="#ee">Then, when thou fryest in vengeful flames of fire,</rdg>
+                    <rdg wit="#ae">Then when thou fryest in vengeful flames of fire,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Thy Scorched genious Reddy to expire</rdg>
+                    <rdg wit="#ee">Thy scorchéd <seg>genius<note type="gloss">spirit</note></seg> ready to expire—</rdg>
+                    <rdg wit="#ae">Thy scorched <seg>genius<note type="critical">i.e. <hi rend="italic">genius loci</hi>, “A guardian spirit or god associated with a place” (<title rend="italic">OED</title>),  in this case, the Thames, which withholds its water to punish the “slander” of the Londoners’ tongues.</note></seg> ready to expire,</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Thy Tongue and mouth Sable as Salamander</rdg>
+                    <rdg wit="#ee">Thy tongue and mouth <seg>sable<note type="gloss">sable</note></seg>as <seg>salamander<note type="critical">lizard-like animal, some of which have a black color, supposedly able to endure fire</note></seg></rdg>
+                    <rdg wit="#ae">Thy tongue and mouth sable as salamander</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">With Speaking gainst thy King and Queene Such Sland'r</rdg>
+                    <rdg wit="#ee">With speaking 'gainst thy king and queen such slander—</rdg>
+                    <rdg wit="#ae">With speaking 'gainst thy king and queen such slander,</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Then not a drop of my coole Cristall Wave</rdg>
+                    <rdg wit="#ee">Then not a drop of my cool crystal <seg>have<note type="physical">modified from "wave" in the manuscript</note></seg></rdg>
+                    <rdg wit="#ae">Then not a drop of my cool crystal wave</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">To coole thy Sulpherous Tongue or life to save</rdg>
+                    <rdg wit="#ee">To coole thy <seg>sulfurous<note type="gloss">fiery; hellish</note></seg> tongue, or life to save;</rdg>
+                    <rdg wit="#ae">To cool thy sulfurous tongue or life to save,</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">But when I haue of thee Seene all my lust</rdg>
+                    <rdg wit="#ee">But when I have of thee seen all my <seg>lust<note type="gloss">pleasure; desire; vigor</note></seg></rdg>
+                    <rdg wit="#ae">But when I have of thee seen all my lust</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">And all thy pride and Glory Turn'd to dust</rdg>
+                    <rdg wit="#ee">And all thy pride and glory turned to dust,</rdg>
+                    <rdg wit="#ae">And all thy pride and glory turned to dust,</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Then I Triumphant with my watery traine</rdg>
+                    <rdg wit="#ee">Then I, triumphant with my watery train,</rdg>
+                    <rdg wit="#ae">Then I triumphant with my watery train</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">Will make this Cittie Quagmires once againe</rdg>
+                    <rdg wit="#ee">Will make this city <seg>quagmires<note type="gloss">wet boggy lands that give way under foot; situation that is unpleasant or hazardous, or from which it is difficult to extricate oneself</note></seg> once again.</rdg>
+                    <rdg wit="#ae">Will make this city <seg>quagmires<note type="critical">“an area of wet, boggy land that gives way under foot; a quaking bog” <bibl>(<title rend="italic">OED</title>, “quagmire,” n. 1.)</bibl>; the Thames first threatens to abandon the city of London to drought because of its betrayal of the king. She will return only when she has witnessed (“seen all my lust”) sufficient humbling and punishment (“all thy pride and glory turned to dust”).</note></seg> once again.</rdg>
+                </app>
+            </l>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_021" n="9r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_021"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_021"/></rdg>
+            </app>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">But O thy Blood and Pe<hi rend="below">^</hi><hi rend="above">r</hi>juries Repent</rdg>
+                    <rdg wit="#ee">But O, <seg>thy<note type="gloss">London</note></seg> <seg>blood<note type="gloss">responsibility for violence or bloodshed</note></seg> and perjuries repent;</rdg>
+                    <rdg wit="#ae">But O, thy blood and perjuries repent,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Then Heaven I hope in mercie will Relent</rdg>
+                    <rdg wit="#ee">Then Heaven, I hope, in mercy will relent.</rdg>
+                    <rdg wit="#ae">Then Heaven I hope in mercy will relent.</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Thy King Restore call <seg><del>w</del>home<note type="physical">“w” blotted and crossed with forward slashes; “e” crowded into space before next word</note></seg> his Queene againe</rdg>
+                    <rdg wit="#ee">Thy king restore, call home his <seg>queen<note type="gloss">Henrietta Maria, King Charles’s wife</note></seg> again,</rdg>
+                    <rdg wit="#ae">Thy king restore, call home his queen again,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Or all thy prayer and fasting is in vaine</rdg>
+                    <rdg wit="#ee">Or all thy prayer and fasting is in vain.</rdg>
+                    <rdg wit="#ae">Or all thy prayer and fasting is in vain.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">Hast thou forgot (Aye me) Soe have not I</rdg>
+                    <rdg wit="#ee">Hast thou forgot? Aye me—so have not I—</rdg>
+                    <rdg wit="#ae">Hast thou forgot (ay me), so have not I,</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">Those Halcian dayes the Sweete Tranquillity</rdg>
+                    <rdg wit="#ee">Those <seg>halcyon<note type="gloss">peaceful</note></seg> days, the sweet tranquility</rdg>
+                    <rdg wit="#ae">Those <seg>halcyon days<note type="critical">a period of calm weather that occurs around the winter solstice <bibl>(OED “halcyon,” adj. 1)</bibl> and, by extension, the time of peace and prosperity enjoyed by Britain during the rule of Charles I.</note></seg>, the sweet tranquility</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">That wee injoyed Under his happy Reigne</rdg>
+                    <rdg wit="#ee">That we enjoyed under his happy reign,</rdg>
+                    <rdg wit="#ae">That we enjoyed under his happy reign,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Which Heaven will once Restore to us againe</rdg>
+                    <rdg wit="#ee">Which heaven will once restore to us again,</rdg>
+                    <rdg wit="#ae">Which Heaven will once restore to us again,</rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Unles the dismale line of dissolution</rdg>
+                    <rdg wit="#ee">Unless the dismal line of dissolution</rdg>
+                    <rdg wit="#ae">Unless the <seg>dismal line of dissolution<note type="critical">“separation into parts or constituent elements; reduction of any body or mass to elements or atoms; destruction of the existing condition; disintegration, decomposition” <bibl><title rend="italic">OED</title>, "dissolution," n.1a.)</bibl>. The Thames worries that a “dismal line of dissolution” will be brought upon the nation, which perhaps anticipates a break in succession or inheritance.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">(Which ô forbid) bee drawn upon this Nation.</rdg>
+                    <rdg wit="#ee">(Which O, forbid) be <seg>drawn<note type="gloss">forced, traced (figuratively)</note></seg> upon this nation.</rdg>
+                    <rdg wit="#ae">(Which oh, forbid) be drawn upon this nation.</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">Oft have I born upon my Silver Brest</rdg>
+                    <rdg wit="#ee">Oft have I born upon my silver <seg>breast<note type="gloss">forefront, face, swelling or supporting surface.</note></seg></rdg>
+                    <rdg wit="#ae">Oft have I borne upon my silver breast</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">His lovely Cloris like Aurora drest</rdg>
+                    <rdg wit="#ee">His lovely Chloris, like <seg>Aurora<note type="gloss">Roman goddess of the dawn</note></seg> dressed</rdg>
+                    <rdg wit="#ae">His lovely Chloris <seg>like Aurora dressed<note type="critical">Henrietta Maria costumed as a goddess (Aurora) for a masque, as she was in William Davenant and Inigo Jones’s <title rend="italic">Luminalia</title> (1638). See note 106 in Alice Eardley, <title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>. Pulter addresses and refers to Aurora, the goddess of the dawn,  frequently throughout the manuscript, including “Aurora [1]” (Poem 3), “To Aurora [1]” (Poem 22), “To Aurora [2]” (Poem 26), “To Aurora [3]” (Poem 34), and “Aurora [2]” (Poem 37).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">With youth and bevty with her Princely Spouse</rdg>
+                    <rdg wit="#ee">With youth and beauty, with her princely spouse.</rdg>
+                    <rdg wit="#ae">With youth and beauty, with her princely spouse.</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">Envied I was by Severn Humber Owes</rdg>
+                    <rdg wit="#ee">Envied I was by <seg>Severn, Humber, Ouse<note type="gloss">major rivers in England</note></seg>;</rdg>
+                    <rdg wit="#ae">Envied I was by <seg>Severn, Humber, Ouse<note type="critical">Pulter here develops an extensive catalog of the world’s rivers. The Thames boasts that the famous rivers of Britain (Severn, Humber, Ouse, and Dee), Europe (Danube, Tagus, Loire, Po, and Tiber), Africa (Nile), Asia (Ganges), and the Middle East (Euphrates) once envied her because she was home to Charles and Henrietta Maria. Pulter draws upon extensive geographical and historical knowledge in her characterization of each river. Each river announces its greatest glory (e.g., the Danube is the longest; Cleopatra traveled on the Nile; the Ganges received sacrifices of its people; the Euphrates bordered Eden), and then admits that it is the Thames that is superior and deserves its “envy.” When the Thames’s fellow rivers learn that the city has betrayed its monarchs, however, they “envy me no more,” and join with the Thames in its mourning (“with their tears my heavy loss deplore”).</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <rdg wit="#ft">The Sacred Dee said shee noe more would boast</rdg>
+                    <rdg wit="#ee">The sacred <seg>Dee<note type="critical">river flowing from Wales across the north of England, sacred because linked to a river goddess</note></seg> said she no more would boast</rdg>
+                    <rdg wit="#ae">The sacred Dee said she no more would boast</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <rdg wit="#ft">Her Shewing Conquest on the conquering Coast</rdg>
+                    <rdg wit="#ee"><seg>Her showing conquest on the conquering coast<note type="critical">the River Dee flows across Wales and England to reach the North Sea</note></seg>,</rdg>
+                    <rdg wit="#ae">Her showing conquest on the conquering coast,</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <rdg wit="#ft">Though Edgares Glory from her River Springs</rdg>
+                    <rdg wit="#ee">Though <seg>Edgar's<note type="critical">Edgar, king of England from 959-979; it was reputed that eight other kings signalled submission to Edgar by rowing him down the River Dee.</note></seg> glory from her river springs,</rdg>
+                    <rdg wit="#ae">Though Edgar's glory from her river springs</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <rdg wit="#ft">When hee in Triumph by eight Captive Kings</rdg>
+                    <rdg wit="#ee">When he, in triumph, by eight captive kings</rdg>
+                    <rdg wit="#ae">When he in triumph by eight captive kings</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <rdg wit="#ft">Was Rowed upon her famous Crist<hi rend="below">^</hi>
+                        <hi rend="above">i</hi>all Streame</rdg>
+                    <rdg wit="#ee">Was rowed upon her famous crystal stream;</rdg>
+                    <rdg wit="#ae">Was rowed upon her famous crystal stream;</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <rdg wit="#ft">Those former Honours Shewed now like a dreame</rdg>
+                    <rdg wit="#ee">Those former honors showed now like a dream.</rdg>
+                    <rdg wit="#ae">Those former honors showed now like a dream.</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <rdg wit="#ft">Nay the Danube Said shee would ner'e Rehearse</rdg>
+                    <rdg wit="#ee">Nay, the Danube said she would ne'er rehearse</rdg>
+                    <rdg wit="#ae">Nay, the Danube said she would ne'er rehearse</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <rdg wit="#ft">Her being biggest in the Universe</rdg>
+                    <rdg wit="#ee">Her being biggest in the universe.</rdg>
+                    <rdg wit="#ae">Her being biggest in the universe.</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <rdg wit="#ft">Even Tagus would not brag of Golden Sands</rdg>
+                    <rdg wit="#ee">Even <seg>Tagus<note type="critical">longest river on the Iberian peninsula, famous for gold-bearing sands</note></seg> would not brag of golden sands,</rdg>
+                    <rdg wit="#ae">Even Tagus would not brag of golden sands,</rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <rdg wit="#ft">But said shee envied more my happy Strands</rdg>
+                    <rdg wit="#ee">But said she envied more my happy <seg>strands<note type="gloss">shores</note></seg>.</rdg>
+                    <rdg wit="#ae">But said she envied more my happy strands;</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <rdg wit="#ft">Soe said the Loyer in envie Poe tooke on</rdg>
+                    <rdg wit="#ee"><seg>So said the Loire<note type="critical">the Loire agreed. The Loire is the longest river in France.</note></seg>. In envy <seg>Po<note type="gloss">longest river in Italy</note></seg> <seg>took on<note type="gloss">proceeded; began [talking]</note></seg>,</rdg>
+                    <rdg wit="#ae">So said the Loire. In envy Po <seg>looked on<note type="critical">MS: “tooke” which appears to be an error.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <rdg wit="#ft">Though shee were Honour'd by a Phaiton</rdg>
+                    <rdg wit="#ee">Though she were honored by a <seg>Phaeton<note type="critical">son of Helios, the sun god; his scorched body fell into the Eridanus River, later known as the River Po of Italy, when he lost control when attempting to drive the sun-chariot.</note></seg>,</rdg>
+                    <rdg wit="#ae">Though she were honored by a Phaeton.</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <rdg wit="#ft">And Egipts Glory Nillus Stately Streame</rdg>
+                    <rdg wit="#ee">And Egypt's glory, <seg>Nilus<note type="gloss">Nile river, longest in the world</note></seg>, stately stream,</rdg>
+                    <rdg wit="#ae">And Egypt's glory, Nilus, stately stream,</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <rdg wit="#ft">Said her felicities were but a dreame</rdg>
+                    <rdg wit="#ee">Said her felicities were but a dream,</rdg>
+                    <rdg wit="#ae">Said her felicities were but a dream</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <rdg wit="#ft">When on her or'e flowing waves were seene</rdg>
+                    <rdg wit="#ee">When on her o'erflowing waves were seen</rdg>
+                    <rdg wit="#ae">When on her o'erflowing waves were seen</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <rdg wit="#ft">The Roman Eagles and her black ey'd Queen</rdg>
+                    <rdg wit="#ee">The Roman eagles and her <seg>black-eyed queen<note type="critical">Cleopatra, Queen of Egypt (51-30 BCE); with the eagles, emblems of Rome, pointing to Julius Caesar and Marc Antony, each of whom travelled the Nile</note></seg>.</rdg>
+                    <rdg wit="#ae">The Roman eagles and her black-eyed queen.</rdg>
+                </app>
+            </l>
+            <l n="61">
+                <app>
+                    <rdg wit="#ft">And Silver Gangers Said the Sacrifice</rdg>
+                    <rdg wit="#ee">And silver <seg>Ganges<note type="gloss">sacred river in India</note></seg> said the sacrifice</rdg>
+                    <rdg wit="#ae">And silver Ganges said the sacrifice</rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <rdg wit="#ft">The Banians brought with elevated eyes</rdg>
+                    <rdg wit="#ee">The <seg>Banians<note type="gloss">Hindu traders</note></seg> brought with elevated eyes—</rdg>
+                    <rdg wit="#ae">The <seg>Banians<note type="critical">used during the seventeenth century to refer to people from India and/or followers of Hinduism <bibl>(<title rend="italic">OED</title>, banian, n.)</bibl>. Pulter refers to the Hindu practice of cremation of the dead on the banks of the Ganges.</note></seg> brought with elevated eyes,</rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <rdg wit="#ft">Though all theire <seg>Carcases<note type="physical">Second “c” overwrites an “a”.</note></seg> by fire calcin'd</rdg>
+                    <rdg wit="#ee">Through all their carcasses, by fire <seg>calcined<note type="gloss">purified by burning</note></seg>,</rdg>
+                    <rdg wit="#ae">Though all their carcasses by fire calcined</rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <rdg wit="#ft">Were in her Purifieing Waves Refin'd</rdg>
+                    <rdg wit="#ee">Were in her purifying waves refined;</rdg>
+                    <rdg wit="#ae">Were in her purifying waves refined;</rdg>
+                </app>
+            </l>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_022" n="9v"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_022"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_022"/></rdg>
+            </app>
+            <l n="65">
+                <app>
+                    <rdg wit="#ft">Though all theire wealth and Treasure in they hurl'd</rdg>
+                    <rdg wit="#ee">Though all their wealth and treasure in they hurled,</rdg>
+                    <rdg wit="#ae">Though all their wealth and treasure in they hurled,</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <rdg wit="#ft">And Shee were Lady of the Eastern World</rdg>
+                    <rdg wit="#ee">And she were Lady of the eastern world—</rdg>
+                    <rdg wit="#ae">And she were lady of the eastern world;</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <rdg wit="#ft">Yet all that Glory Shee did count a toye</rdg>
+                    <rdg wit="#ee">Yet all that glory she did count a toy,</rdg>
+                    <rdg wit="#ae">Yet all that glory she did count a toy</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <rdg wit="#ft">Compar'd Shee Said with happy Thames her Joy</rdg>
+                    <rdg wit="#ee">Compared, she said, with happy Thames, her joy.</rdg>
+                    <rdg wit="#ae">Compared, she said, with happy Thames her joy.</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <rdg wit="#ft">Tiber Said of Horatias vallure brave</rdg>
+                    <rdg wit="#ee"><seg>Tiber<note type="gloss">river in Italy flowing through Rome</note></seg> said of <seg>Horatius<note type="critical">a Roman hero who volunteered to be one of the last defenders of a bridge over the river Tiber against an Etruscan army intent on invading Rome</note></seg>'s valor brave</rdg>
+                    <rdg wit="#ae">Tiber said of Horatius' valor brave</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <rdg wit="#ft">Shee ne're would Speake but I the praise should have</rdg>
+                    <rdg wit="#ee">She ne'er would speak, but I the praise should have.</rdg>
+                    <rdg wit="#ae">She ne'er would speak but I the praise should have.</rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <rdg wit="#ft">Cristall Euphratus never did envie</rdg>
+                    <rdg wit="#ee">Crystal <seg>Euphrates<note type="gloss">river near Garden of Eden</note></seg> never did envy</rdg>
+                    <rdg wit="#ae">Crystal Euphrates never did envy</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <rdg wit="#ft">The Glory of noe other flowd<seg><del>[?]</del><note type="physical">two additional final letters (likely “ed”) corrected or cancelled; “w” could be corrected to or from “o”</note></seg> but I</rdg>
+                    <rdg wit="#ee">The glory of no other flood but I;</rdg>
+                    <rdg wit="#ae">The glory of no other flood but I,</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <rdg wit="#ft">Though from a Thousand &ff;ounts her Streame doth spring</rdg>
+                    <rdg wit="#ee">Though from a thousand founts her stream doth spring,</rdg>
+                    <rdg wit="#ae">Though from a thousand founts her stream doth spring;</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <rdg wit="#ft">Yet did shee never beare soe good a King</rdg>
+                    <rdg wit="#ee">Yet did she never bear so good a king.</rdg>
+                    <rdg wit="#ae">Yet did she never bear so good a king.</rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <rdg wit="#ft">Through lofty Babilon her River flowes</rdg>
+                    <rdg wit="#ee">Through lofty <seg>Babylon<note type="gloss">famous city in ancient Mesopotamia</note></seg> her river flows,</rdg>
+                    <rdg wit="#ae">Through lofty Babylon her river flows</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <rdg wit="#ft">And Earthly Paradice Shee doth inclose</rdg>
+                    <rdg wit="#ee">And <seg>earthly paradise she doth enclose<note type="critical">Euphrates is associated with the Garden of Eden, Genesis 2:14.</note></seg>,</rdg>
+                    <rdg wit="#ae">And earthly paradise she doth enclose;</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <rdg wit="#ft">Though brave Symerrimus enlarge her fame</rdg>
+                    <rdg wit="#ee">Though brave <seg>Semiramis<note type="gloss">queen of Assyria (811-806 BCE)</note></seg> enlarge her fame,</rdg>
+                    <rdg wit="#ae">Though brave Semiramis enlarge her fame,</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <rdg wit="#ft">Yet doth shee envie Still the English Thame</rdg>
+                    <rdg wit="#ee">Yet doth she envy still the English Thame.</rdg>
+                    <rdg wit="#ae">Yet doth she envy still the English Thame.</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <rdg wit="#ft">But now alas they envie me noe more</rdg>
+                    <rdg wit="#ee">But now, alas, they envy me no more,</rdg>
+                    <rdg wit="#ae">But now, alas, they envy me no more,</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <rdg wit="#ft">But with theire Teares my heavy loss deplore</rdg>
+                    <rdg wit="#ee">But with their tears my heavy loss deplore.</rdg>
+                    <rdg wit="#ae">But with their tears my heavy loss deplore.</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <rdg wit="#ft">Oft haue I born my Sacred Soveraings Barge</rdg>
+                    <rdg wit="#ee">Oft have I born my sacred sovereign's barge,</rdg>
+                    <rdg wit="#ae">Oft have I borne my sacred sovereign's barge,</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <rdg wit="#ft">Being Richly guilt, most proud of such a charge</rdg>
+                    <rdg wit="#ee">Being richly gilt, most proud of such a charge.</rdg>
+                    <rdg wit="#ae">Being richly gilt, most proud of such a charge.</rdg>
+                </app>
+            </l>
+            <l n="83">
+                <app>
+                    <rdg wit="#ft">My waves would Swell to see his Princely face</rdg>
+                    <rdg wit="#ee">My waves would swell to see his princely face,</rdg>
+                    <rdg wit="#ae">My waves would swell to see his princely face,</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <rdg wit="#ft">Each billow loth to give his fellow <seg>place<note type="physical">to right of line, vertical scribble followed by “f”</note></seg></rdg>
+                    <rdg wit="#ee">Each billow loath to give his fellow place.</rdg>
+                    <rdg wit="#ae">Each billow loth to give his fellow place.</rdg>
+                </app>
+            </l>
+            <l n="85">
+                <app>
+                    <rdg wit="#ft">Sometimes they would rise to kis his Royall hand</rdg>
+                    <rdg wit="#ee">Sometimes they would rise to kiss his royal hand,</rdg>
+                    <rdg wit="#ae">Sometimes they would rise to kiss his royal hand,</rdg>
+                </app>
+            </l>
+            <l n="86">
+                <app>
+                    <rdg wit="#ft">And hardly would give back at my command</rdg>
+                    <rdg wit="#ee">And hardly would give back at my command,</rdg>
+                    <rdg wit="#ae">And hardly would give back at my command.</rdg>
+                </app>
+            </l>
+            <l n="87">
+                <app>
+                    <rdg wit="#ft">Billow with billow strive <seg><del>with</del><note type="physical">cancelled with scribbles</note></seg> and ruffling Rore</rdg>
+                    <rdg wit="#ee">Billow with billow strive, and ruffling roar,</rdg>
+                    <rdg wit="#ae">Billow with billow strive, and ruffling roar,</rdg>
+                </app>
+            </l>
+            <l n="88">
+                <app>
+                    <rdg wit="#ft">Scorning the blow of either hand or Owre</rdg>
+                    <rdg wit="#ee">Scorning the blow of either hand or oar;</rdg>
+                    <rdg wit="#ae">Scorning the blow of either hand or oar.</rdg>
+                </app>
+            </l>
+            <l n="89">
+                <app>
+                    <rdg wit="#ft">But now insulting on my billowes Ride</rdg>
+                    <rdg wit="#ee">But now, insulting, on my billows ride</rdg>
+                    <rdg wit="#ae">But now insulting on my billows ride</rdg>
+                </app>
+            </l>
+            <l n="90">
+                <app>
+                    <rdg wit="#ft">Th<seg><del>[?]</del><note type="physical">three or four letters cancelled with scribbles, last two likely “gh”</note></seg> Kingdooms Schourg's and this Citties pride</rdg>
+                    <rdg wit="#ee"><seg>The kingdom's scourges and this city's pride<note type="critical">Cromwell and parliamentarians in London who who opposed King Charles</note></seg>,</rdg>
+                    <rdg wit="#ae">The kingdom's scourges and this city's pride,</rdg>
+                </app>
+            </l>
+            <l n="91">
+                <app>
+                    <rdg wit="#ft">Which make my Trembling Streame lamenting Rore</rdg>
+                    <rdg wit="#ee">Which make my trembling stream lamenting roar,</rdg>
+                    <rdg wit="#ae">Which make my trembling stream lamenting roar</rdg>
+                </app>
+            </l>
+            <l n="92">
+                <app>
+                    <rdg wit="#ft">And her sad loss <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> troubl<hi rend="below">^</hi><hi rend="above">e</hi>d brest deplore</rdg>
+                    <rdg wit="#ee">And her sad loss with troubled breast deplore.</rdg>
+                    <rdg wit="#ae">And her sad loss with troubled breast deplore.</rdg>
+                </app>
+            </l>
+            <l n="93">
+                <app>
+                    <rdg wit="#ft">Com kind Caribdis Com ô com and help's</rdg>
+                    <rdg wit="#ee">Come, kind <seg>Charybdis<note type="critical">In Greek mythology, a whirlpool found on straits, opposite to Scylla, a threatening six-headed monster surrounded by dogs (mentioned in the next line)</note></seg>, come, O come and <seg>help's<note type="gloss">help us</note></seg>;</rdg>
+                    <rdg wit="#ae">Come kind Charybdis, come, oh come, and help's;</rdg>
+                </app>
+            </l>
+            <l n="94">
+                <app>
+                    <rdg wit="#ft">Sweet louely Scilla bring thy barking whelps</rdg>
+                    <rdg wit="#ee">Sweet lovely Scylla, bring thy barking <seg>whelps<note type="gloss">dogs</note></seg>.</rdg>
+                    <rdg wit="#ae">Sweet lovely Scylla, bring thy barking whelps.</rdg>
+                </app>
+            </l>
+            <l n="95">
+                <app>
+                    <rdg wit="#ft">Then Should they need noe Monument nor Tombe</rdg>
+                    <rdg wit="#ee">Then should <seg>they<note type="gloss">the kingdom’s scourges</note></seg> need no monument nor tomb,</rdg>
+                    <rdg wit="#ae">Then should they need no monument nor tomb,</rdg>
+                </app>
+            </l>
+            <l n="96">
+                <app>
+                    <rdg wit="#ft">But Ocianis darke and Horrid Womb</rdg>
+                    <rdg wit="#ee">But <seg>Oceanus's<note type="critical">In Greek mythology, the son of Uranus (Heaven) and Gaia (Earth), the personification of the great river believed to encircle the whole world.</note></seg> dark and horrid womb</rdg>
+                    <rdg wit="#ae">But Oceanus' dark and horrid womb</rdg>
+                </app>
+            </l>
+            <l n="97">
+                <app>
+                    <rdg wit="#ft">Should them involve but wishes are invaine</rdg>
+                    <rdg wit="#ee">Should them <seg>involve<note type="gloss">envelop</note></seg>. But wishes are in vain:</rdg>
+                    <rdg wit="#ae"><seg>Should them involve<note type="critical">The Thames invokes famous water monsters (Scylla and Charybdis) to aid her in ridding London of the king’s enemies, who will be washed away to unmarked graves in the ocean (“Oceanus’ dark and horrid womb”).</note></seg>. But wishes are in vain;</rdg>
+                </app>
+            </l>
+            <l n="98">
+                <app>
+                    <rdg wit="#ft">I will Rore out my griefe unto the Maine</rdg>
+                    <rdg wit="#ee">I will roar out my grief unto the <seg>main<note type="gloss">the open sea</note></seg>.</rdg>
+                    <rdg wit="#ae">I will roar out my grief unto the main.</rdg>
+                </app>
+            </l>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_023" n="10r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_023"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_023"/></rdg>
+            </app>
+            <l n="99">
+                <app>
+                    <rdg wit="#ft">Now all the bewty that my Waves adorne</rdg>
+                    <rdg wit="#ee">Now all the beauty that my waves adorn</rdg>
+                    <rdg wit="#ae">Now all the beauty that my waves adorn</rdg>
+                </app>
+            </l>
+            <l n="100">
+                <app>
+                    <rdg wit="#ft">Are Snowey Swans that Sadly Swim forelorne</rdg>
+                    <rdg wit="#ee">Are snowy swans that sadly swim, forlorn;</rdg>
+                    <rdg wit="#ae">Are snowy swans that sadly swim forlorn;</rdg>
+                </app>
+            </l>
+            <l n="101">
+                <app>
+                    <rdg wit="#ft">Nor doe they in the<del>y</del> Sun theire &ff;eathers Prune</rdg>
+                    <rdg wit="#ee">Nor do they in the sun their feathers prune,</rdg>
+                    <rdg wit="#ae">Nor do they in the sun their feathers prune,</rdg>
+                </app>
+            </l>
+            <l n="102">
+                <app>
+                    <rdg wit="#ft">As they were wont, nor yet theire Voices Tune</rdg>
+                    <rdg wit="#ee">As they were <seg>wont<note type="gloss">accustomed to do</note></seg>, nor yet their voices tune.</rdg>
+                    <rdg wit="#ae">As they were wont, nor yet their voices tune,</rdg>
+                </app>
+            </l>
+            <l n="103">
+                <app>
+                    <rdg wit="#ft"><seg>But<note type="physical">in left margin, ink mark in shape of a check mark</note></seg> in dispaires hanging theire head and wing</rdg>
+                    <rdg wit="#ee">But in despairs, hanging their head and wing,</rdg>
+                    <rdg wit="#ae">But in despairs, hanging their head and wing,</rdg>
+                </app>
+            </l>
+            <l n="104">
+                <app>
+                    <rdg wit="#ft">This Kingdoms Derges they expireing Sing</rdg>
+                    <rdg wit="#ee">This kingdom's <seg>dirges<note type="gloss">songs of mourning</note></seg> they, expiring, <seg>sing<note type="critical">swans traditionally were understood to sing when dying</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>This kingdom's dirges they expiring sing<note type="critical">
+                      <p>Following the invocations of the mythical Scylla and Charybdis, the Thames turns to a more naturalistic description of swans swimming on the river; however, they sing their own deaths and the death of the kingdom. With this image, Pulter refers to the belief that swans are silent until just before their deaths, when they sing a final song. Thomas Browne examines the origin of and evidence for this belief in Book 3, Chapter 27 of <bibl><title rend="italic">Pseudodoxia Epidemica</title> (Sir Thomas Browne, <title rend="italic">Selected Writings</title>. Ed. Geoffrey Keynes (University of Chicago Press, 1968), pp. 289-90)</bibl>. Compare Shakespeare’s <title rend="italic">Othello</title>, where Emilia's final speech begins:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>What did thy song bode, lady?</l>
+                            <l>Hark, canst thou hear me? I will play the swan</l>
+                            <l>And die in music. (5.2.240-42)</l>
+                          </lg>
+                        </quote>
+                        <bibl>Greenblatt, et. al. <title rend="italic">The Norton Shakespeare</title>, 3rd ed., 2016.</bibl>
+                      </cit>
+                      </note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="105">
+                <app>
+                    <rdg wit="#ft">O That <seg><hi rend="below">\</hi><hi rend="above">itt \</hi> <note type="physical">in different hand from main scribe</note></seg> in my Power were to Refuse</rdg>
+                    <rdg wit="#ee">O, that it in my power were to refuse</rdg>
+                    <rdg wit="#ae">Oh that it in my power were to refuse</rdg>
+                </app>
+            </l>
+            <l n="106">
+                <app>
+                    <rdg wit="#ft">To see this Towne like Cristall Arethuse</rdg>
+                    <rdg wit="#ee">To see this town like crystal <seg>Arethuse<note type="critical">Arethusa, in classical mythology, the nymph with whom Alpheus fell in love, and who flowed underground to escape him, before being turned into a fountain</note></seg>,</rdg>
+                    <rdg wit="#ae">To see this town, like crystal <seg>Arethuse<note type="critical">Arethusa is a nymph transformed into an underground fountain so that she may escape the river god Alpheus. See <bibl>Ovid, <title rend="italic">Metamorphoses</title> 5.572-641</bibl>. While much of the poem describes the envy of the world’s rivers for the Thames, here the Thames expresses envy for Arethuse who is able to escape underground. The Thames wishes to “refuse / To see this town.”</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="107">
+                <app>
+                    <rdg wit="#ft">Below this curssed Earth <hi rend="above">I</hi>would hide my head</rdg>
+                    <rdg wit="#ee">Below this curséd earth I would hide my head,</rdg>
+                    <rdg wit="#ae">Below this cursed Earth I would hide my head,</rdg>
+                </app>
+            </l>
+            <l n="108">
+                <app>
+                    <rdg wit="#ft">And run amongst the <seg><del>[?]</del><note type="physical">deleted word, six or seven letters long, starts with “C” and ends with “s”</note></seg> <hi rend="below">^</hi><hi rend="above">Caverns</hi> of the Dead</rdg>
+                    <rdg wit="#ee">And run amongst the caverns of the dead,</rdg>
+                    <rdg wit="#ae">And run amongst the caverns of the dead,</rdg>
+                </app>
+            </l>
+            <l n="109">
+                <app>
+                    <rdg wit="#ft"><seg>Where<note type="physical">last “e” crowded into space before next word; “r” appears written over “n”</note></seg> my pure Wave with Acharon should mix</rdg>
+                    <rdg wit="#ee">Where my pure wave with <seg>Acheron<note type="gloss">river of Hades</note></seg> should mix</rdg>
+                    <rdg wit="#ae">Where my pure wave with Acheron should mix,</rdg>
+                </app>
+            </l>
+            <l n="110">
+                <app>
+                    <rdg wit="#ft">With Leathe, Phlegethon, Cocîtus, Stix;</rdg>
+                    <rdg wit="#ee">With <seg>Lethe, Phlegethon, Cocytus, Styx<note type="gloss">rivers of Hades</note></seg>.</rdg>
+                    <rdg wit="#ae">With Lethe, Phlegethon, Cocytus, Styx;</rdg>
+                </app>
+            </l>
+            <l n="111">
+                <app>
+                    <rdg wit="#ft">Then would I wafte them to the Stigian Shade</rdg>
+                    <rdg wit="#ee">Then I would <seg>waft<note type="gloss">convey by water</note></seg> <seg>them<note type="critical">the anti-royalists mentioned as the kingdom’s scourges above, and, again below in l. XXX</note></seg> to the <seg>Stygian<note type="gloss">hellish, gloomy, associated with the River Styx</note></seg> shade,</rdg>
+                    <rdg wit="#ae"><seg>Then would I waft them to the stygian shade<note type="critical">The Thames asks to enter the underworld (“caverns of the dead”) where she can mix her “pure wave” with the five rivers of Hades: Acheron (sorrow or woe), Lethe (forgetfulness), Phlegethon (fire), Cocytus (lamentation), and Styx (hate) and punish the king’s enemies (“rebels”) by ushering them to Hell (“waft them to the stygian shade”).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="112">
+                <app>
+                    <rdg wit="#ft">Examples Unto Reybels to be made</rdg>
+                    <rdg wit="#ee">Examples unto rebels to be made.</rdg>
+                    <rdg wit="#ae">Examples unto rebels to be made.</rdg>
+                </app>
+            </l>
+            <l n="113">
+                <app>
+                    <rdg wit="#ft">Ô my Sad heart these are but foolish dreames</rdg>
+                    <rdg wit="#ee">O my sad heart, these are but foolish dreams,</rdg>
+                    <rdg wit="#ae">Oh my sad heart, these are but foolish dreams,</rdg>
+                </app>
+            </l>
+            <l n="114">
+                <app>
+                    <rdg wit="#ft">&ff;or they Triumph Upon my Conquer'd Streames</rdg>
+                    <rdg wit="#ee">For they triumph upon my conquered streams.</rdg>
+                    <rdg wit="#ae">For they triumph upon my conquered streams.</rdg>
+                </app>
+            </l>
+            <l n="115">
+                <app>
+                    <rdg wit="#ft">Yet this I'le doe while Sighs breaths up my Spring</rdg>
+                    <rdg wit="#ee">Yet this I'll do while sighs <seg>breathes up<note type="gloss">evaporates; exhales; taints</note></seg> my spring:</rdg>
+                    <rdg wit="#ae">Yet this I'll do while sighs breathes up my spring;</rdg>
+                </app>
+            </l>
+            <l n="116">
+                <app>
+                    <rdg wit="#ft">I'le trickle teares for my aflicted King</rdg>
+                    <rdg wit="#ee">I'll trickle tears for my afflicted king,</rdg>
+                    <rdg wit="#ae">I'll trickle tears for my afflicted king,</rdg>
+                </app>
+            </l>
+            <l n="117">
+                <app>
+                    <rdg wit="#ft">And looke how fare one drop of Cristall Thames</rdg>
+                    <rdg wit="#ee">And look how far one drop of crystal Thames</rdg>
+                    <rdg wit="#ae">And look how far one drop of crystal Thames</rdg>
+                </app>
+            </l>
+            <l n="118">
+                <app>
+                    <rdg wit="#ft"><seg>Doth<note type="physical">two “f”s in left margin</note></seg>run, so fare I'le Memorise their &ff;ames:</rdg>
+                    <rdg wit="#ee">Doth run; so far I'll memorize their fames,</rdg>
+                    <rdg wit="#ae">Doth run, so far I'll memorize their fames;</rdg>
+                </app>
+            </l>
+            <l n="119">
+                <app>
+                    <rdg wit="#ft">Soe shall my griefe imortalise them Names.</rdg>
+                    <rdg wit="#ee">So shall my grief immortalize <seg>their<note type="critical">corrected from “them”</note></seg> names.”</rdg>
+                    <rdg wit="#ae">So shall my grief immortalize them names.</rdg>
+                </app>
+            </l>
+            <l n="120">
+                <app>
+                    <rdg wit="#ft">I hearing these complaints Though time to sleepe:</rdg>
+                    <rdg wit="#ee">I, hearing these complaints, though time to sleep,</rdg>
+                    <rdg wit="#ae">I hearing these complaints, though time to sleep,</rdg>
+                </app>
+            </l>
+            <l n="121">
+                <app>
+                    <rdg wit="#ft">Satt Sadly Down and with her gan to weepe.</rdg>
+                    <rdg wit="#ee">Sat sadly down, and with her 'gan to weep.</rdg>
+                    <rdg wit="#ae">Sat sadly down, and with her 'gan to weep.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="ascending straight line"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>
+
+
+

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.98">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>This Fell Catablepe (Emblem 33)</title>
+                <title type="sub">Poem #98</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>enmity</term>
+                    <term>self-defeat</term>
+                    <term>death</term>
+                    <term>animal exemplars</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_229.jpg" xml:id="f7610_229"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>May 29, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>May 29, 2018</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>May 29, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            
+            <app>
+                <rdg wit="#ft">
+                    <pb ed="#ft" facs="#f7610_229" n="113r"/>
+                </rdg>
+                <rdg wit="#ee">
+                    <pb ed="#ee" facs="#f7610_229"/>
+                </rdg>
+                <rdg wit="#ae">
+                    <pb ed="#ae" facs="#f7610_229"/>
+                </rdg>
+            </app>
+                        
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">
+                        <fw facs="#f7610_229" type="emblemNum" place="margin-left">33</fw>
+                        [Emblem 33]
+                    </rdg>
+                    <rdg wit="#ee">Emblem 33</rdg>
+                    <rdg wit="#ae">Emblem 33</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief marginal glosses. Then I use the notes and the materials I gather for the “curations” section to place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee">
+                        <note type="headnote">Drawing on natural history and the Bible primarily, this emblem portrays various exemplars, animal and human, of mutually assured destruction, where, in seeking to bring about another’s death, a figure brings about its own. These examples are meant to forestall the fear of death, since it ends all enmity; the speaker personally predicts she will befriend death for ending her sorrows. Unusual in calling attention to its own function and form (as an emblem), the poem links to many others in the collection that describe death as the welcomed decomposition to original dust.
+                        </note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="headnote">The poem addresses one of Pulter’s favorite topics, the antagonism between humans and their own mortality. Organized around a series of deadly conflicts, it moves from mortal antipathy between creatures to religious conflicts between Levites and idol-worshipping Israelites, Samson and the Philistines. Each confrontation between foes is, at some level, self-defeating, even as it also resolves enmity by uniting the antagonists in death. With the shift in line 17 from the natural world (however fancifully imagined) to the Old Testament, from animals to humans, death becomes a way not only of turning enmity to sympathy, as antagonists join in death, but also of achieving victory over one’s own sins and sorrows. The imagery also moves from the catablepe’s poisonous gaze to Samson’s blindness.</note></rdg>
+                </app>
+            </head>
+            <lg type="stanza" n="1">
+            <l n="1">
+                <app>
+                    <rdg wit="#ft"><fw type="seqNum" place="inline">33</fw>Could this <w lemma="fall">&ff;ell</w> <seg>Catablepe<note type="physical">“b” written over imperfectly erased “p”</note></seg> lift up her head</rdg>
+                    <rdg wit="#ee">Could this <seg>fell<note type="gloss">deadly, shrewd</note></seg> <seg>catablepe<note type="critical">according to Pliny, the catoblepas is a mythological creature who looks down because unable to lift its big head; anyone in its direct line of sight would die; see The History of the World, trans. Philemon Holland (London, 1601), 206; and Samuel Purchas, Purchas His Pilgrimage (London, 1613), 467.</note></seg> lift up her head,</rdg>
+                    <rdg wit="#ae">Could this <seg>fell<note type="gloss">treacherous</note></seg> <seg>catablepe<note type="critical">One of the earliest descriptions of the catablepe (whose name is variously spelled) appears in the writings of the first-century Roman writer Pliny. Descriptions of this creature (see “Curations”) seem to evoke the gnu (a large antelope or wildebeast) even as they also assign the catablepe qualities (such as its poisonous gaze) that link it to mythical serpents. Its Greek name means “to look downwards.” The catablepe’s downward gaze is both a design-flaw and a providential shield protecting others from her poisonous sight. </note></seg>  lift up her head</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Her poyſonous Eyes would look all Creatures dead</rdg>
+                    <rdg wit="#ee">Her poisonous eyes would look all creatures dead.</rdg>
+                    <rdg wit="#ae">Her poisonous eyes would look all creatures dead.</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">She Scorcheth up the <w lemma="flower">&ff;lowers</w> as Shee doth goe</rdg>
+                    <rdg wit="#ee">She scorcheth up the flowers as she doth go,</rdg>
+                    <rdg wit="#ae">She scorcheth up the flowers as she doth go,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Yet the Small Weaſell dares to bee her <w lemma="foe">&ff;oe</w></rdg>
+                    <rdg wit="#ee">Yet the small weasel dares to be her foe.</rdg>
+                    <rdg wit="#ae">Yet the small weasel dares to be her foe.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Their Strang Antipathy doth all Excell</rdg>
+                    <rdg wit="#ee">Their strange antipathy doth all excel:</rdg>
+                    <rdg wit="#ae">Their strange <seg>antipathy<note type="gloss">aversion</note></seg> doth all excel:</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">One kils by Sight the other by his Swell</rdg>
+                    <rdg wit="#ee">One kills by sight, the other by his <seg>smell<note type="physical">“swell” in manuscript</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>One kills by sight, the other by his smell<note type="critical">Addressing the basilisk, another mythical beast with poisonous sight, after he describes the catablepe, Pliny claims that the weasel can kill the basilisk with its stench but that it, too, dies in the combat (see “Curations”). Pulter seems to conflate the catablepe and the basilisk here. This conflation prepares the way for the later references to serpents in the poem.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Thus with their Counterpoyſons when they meet</rdg>
+                    <rdg wit="#ee">Thus with their counter-poisons, when they meet,</rdg>
+                    <rdg wit="#ae">Thus with their <seg>counterpoisons<note type="gloss">opposing poisons</note></seg> when they meet</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">They Conquerd <seg>lie<note type="physical">“e” appears written over imperfectly erased letter with long descender</note></seg> at one anothers ffeet</rdg>
+                    <rdg wit="#ee">They conquered lie at one another’s feet.</rdg>
+                    <rdg wit="#ae">They conquered lie at one another’s feet.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Thus though there bee the greatest Antipathy</rdg>
+                    <rdg wit="#ee">Thus though there be the greatest antipathy,</rdg>
+                    <rdg wit="#ae">Thus, though there be the greatest antipathy,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Yet death doth turn it To A Sympathy</rdg>
+                    <rdg wit="#ee">Yet death doth turn it to a <seg>sympathy<note type="gloss">affinity</note></seg>.</rdg>
+                    <rdg wit="#ae">Yet death doth turn it to a <seg>sympathy<note type="critical">Antipathy and sympathy are linked terms to describe the natural aversions or affinities between creatures. Death turns antipathy to sympathy when the catablepe and weasel die together.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Soe the Slie Dragon, wrigling winds <seg><add place="above">about</add><note type="physical">written above two imperfectly erased illegible words, the first of three letters (likely “her”) and the next either “Tayl” or “Tayls”</note></seg></rdg>
+                    <rdg wit="#ee">So the sly dragon, wriggling, winds about</rdg>
+                    <rdg wit="#ae">So the sly <seg>dragon<note type="critical">This wriggling dragon is one of several serpents in the poem. For Pliny, the basilisk and the catablepe are serpents. The adder in line 19 links Samson to his ancestor, Dan, who is described as “an adder in the path, that bites the horse heels, so that his rider shall fall backward” (Genesis 49:17). God warns the serpent, after the fall, that he will punish him by creating the kind of antipathy Pulter discusses here:  “And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15).</note></seg>, wriggling, winds about</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">The Eliphant, till in his Tender Snout</rdg>
+                    <rdg wit="#ee">The elephant, till in his tender snout</rdg>
+                    <rdg wit="#ae">The elephant, ’til in his tender snout</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Shee thrusts her Head Stopping his vitall breath</rdg>
+                    <rdg wit="#ee">She thrusts her head, stopping his vital breath,</rdg>
+                    <rdg wit="#ae">She thrusts her head, stopping his vital breath,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Or Sucks his blood then when this lump of Earth</rdg>
+                    <rdg wit="#ee">Or sucks his blood; then when this <seg>lump of earth<note type="gloss">the elephant</note></seg>,</rdg>
+                    <rdg wit="#ae">Or sucks his blood. Then when this lump of earth</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">for want of Blood and Spirits gins to fall</rdg>
+                    <rdg wit="#ee">For want of blood and spirits, <seg>’gins<note type="gloss">begins</note></seg> to fall,</rdg>
+                    <rdg wit="#ae">For want of blood and spirits ’gins to fall,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">hee most Trumphant kils his foe and all</rdg>
+                    <rdg wit="#ee"><seg>He most triumphant kills his foe and all<note type="critical">Pliny describes the ongoing combat between the dragon and elephant, which interlock in mortal combat until both are dead; the dragon strangles the elephant, who kills the dragon when it falls (Pliny, Natural History. Trans. Rackham. Harvard University Press, 1967; 8:33).</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>He most triumphant kills his foe and all<note type="critical">The dragon brings the elephant down but as he falls the elephant crushes the dragon. As with the catablepe and the weasel, the small defeats the great, but is also killed in the process. See Pliny’s account of the elephant and the weasel in “Curations.”</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Soe did thoſe Israelts who Roſe up to play</rdg>
+                    <rdg wit="#ee">So did those <seg>Israels<note type="gloss">Israelites</note></seg> who rose up to play,</rdg>
+                    <rdg wit="#ae">So did those Israelites who rose up to play</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">With their own lives victorious end the fray</rdg>
+                    <rdg wit="#ee">With their own lives, <seg>victorious<note type="gloss">victoriously</note></seg> <seg>end the fray<note type="critical">When the biblical Moses went up the mount to convene with God, the Israelites “rose up to play” (Exodus 32:6) in committing idolatry and acting sinfully; Moses and the sons of Levi then killed three thousand of the idolators by commandment of God (Exodus 32:28); they sacrificed their lives to “end the fray.”</note></seg>.</rdg>
+                    <rdg wit="#ae">With their own lives <seg>victorious<note type="critical">It is hard to determine what or who the adjective “victorious” describes in this sentence. It seems most likely to be the Israelites, victorious in their willingness to sacrifice some of their number to appease God. “Victorious” echoes “triumphant” just a line above. The dragon triumphs over his foe as he kills and dies. This applies to Samson, discussed below, as well.</note></seg> end the fray.</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Even Soe the Adder bit the Horſes Heel</rdg>
+                    <rdg wit="#ee">Even so, <seg>the adder bit the horse’s heel<note type="critical">In the Bible, Jacob prophesied to his sons that descendants of his son Dan would “be a serpent by the way, an adder in the path, that biteth the horse heels, so that his rider shall fall backward” (Genesis 49:17); the prophecy came true when Samson, a descendant of Dan and someone known for his strength, slew three thousand Philistines in an act of self-destruction (see Judges 16:27-30).</note></seg>;</rdg>
+                    <rdg wit="#ae">Even so the adder bit the horse’s heel;</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Three Thouſand at last Gasp his Strength did feel</rdg>
+                    <rdg wit="#ee">Three thousand, at last gasp, his strength did feel.</rdg>
+                    <rdg wit="#ae"><seg>Three thousand at last gasp his strength did feel<note type="critical"> “So . . . feel.” These four lines draw together two Old Testament stories of retribution against idol worshippers, linked by the body count of three thousand. In Moses’s absence, the Israelites make a golden calf to worship, offer it burnt sacrifices, “and the people sat down to eat and to drink, and rose up to play” (Exodus 32:6). One seventeenth-century commentator specifies that this means that they rose up “namely to dance, to leap, and be merry, rejoicing in their new God” (<bibl><author>Gervase Babington</author>, <title rend="italic">The Works . . . Containing Comfortable Notes upon the Five Books of Moses</title> [London, 1615], p. 403</bibl>). Moses talks Jehovah out of killing all of the Israelites but then loses his temper when he hears the Israelites singing and sees them dancing. Moses then orders the “children of Levi” to kill the idol worshippers, including their own sons and brothers, “and there fell of the people that day about three thousand men” (Exodus 32:28). In this context, emphasis seems to fall on the self-sacrificing nature of their victory. When the blinded prisoner Samson pulls down the temple where Philistines are offering a sacrifice to their god, Dagon, he too kills three thousand people, getting his revenge but also killing himself so that he is simultaneously victorious and dead (Judges 16:27). One commentator struggles to explain that Samson was not suicidal: “His primary and direct intention was not such as is theirs that make away themselves, but his direct aim was to destroy the Philistines; only he was content to lose his life in an action so advantageous to the people of God, and whereby he should give such a deadly blow to their enemies” (<bibl><author>Arthur Jackson</author>, <title rend="italic">Annotations upon the Remaining Historical Part of the Old Testament</title> [Cambridge, 1646], sig. M2r</bibl>). It’s hard to be sure where the story of Moses ends and that of Samson begins in these four lines in the poem. Samson’s story of antipathy turning into a kind of sympathy as he and his antagonists die at once best suits the argument Pulter seems to be making here. As the Messenger puts it in Milton’s <title rend="italic">Samson Agonistes</title> (London, 1671): “Samson with these inmixed, inevitably / Pulled down the same destruction on himself” (1657-8). Pulter's poem may suggest that the slaughter of the Israelites was a kind of self-sacrifice the Levites were willing to make to appease God, or that the antagonisms between Israelites and Levites, Samson and the Philistines result from a natural antipathy resolvable only in death, or that even enemies are ultimately united in death.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft"><seg>Thus<note type="physical">last part of “u” and “s” appear added after in darker ink and different hand from main scribe</note></seg> Death doth make all emnity to ceas</rdg>
+                    <rdg wit="#ee">Thus death doth make all <seg>enmity<note type="gloss">strife</note></seg> to cease;</rdg>
+                    <rdg wit="#ae">Thus death doth make all enmity to cease.</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">When all is dust (Surely) there will bee peace</rdg>
+                    <rdg wit="#ee">When all is <seg>dust<note type="critical">the material from which life derives to and to which it will return; see Genesis 3:19: “for dust thou art, and unto dust shalt thou return.”</note></seg>, surely there will be peace.</rdg>
+                    <rdg wit="#ae">When all is dust <seg>(surely) there will be peace<note type="critical">The parenthetical “(surely)” might be seen as a key word in the poem. Is this an assertion of certainty or a desperate plea? As the accounts of the catablepe in “Contexts” demonstrate, the creature is often associated with what Walter Charleton calls “that itch of fiction,” its existence and qualities debated. How then can it ground the reassurance that we should not fear death?</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Then let none think of Death with Soe much Terrour</rdg>
+                    <rdg wit="#ee">Then let none think of death with so much terror,</rdg>
+                    <rdg wit="#ae">Then let none think of death with so much terror,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft"><w lemma="for">&ff;or</w> by this Emblem they may see their Errour</rdg>
+                    <rdg wit="#ee">For by this <seg>emblem<note type="gloss">moral fable or allegory; here, this poem</note></seg> they may see their error.</rdg>
+                    <rdg wit="#ae">For by this emblem they may see their error.</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Then will I meet it as my last best <w lemma="friend">&ff;riend</w></rdg>
+                    <rdg wit="#ee">Then will I meet <seg>it<note type="gloss">death</note></seg> as my last best friend;</rdg>
+                    <rdg wit="#ae">Then will I meet it as my last best friend,</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft"><w lemma="for">&ff;or</w> it my Sins and Sorrows all will End.</rdg>
+                    <rdg wit="#ee">For it my sins and sorrows all will end.</rdg>
+                    <rdg wit="#ae">For it <seg>my sins and sorrows all will end<note type="critical">The relationship here between the “they” who err in fearing death and the “I” who will now greet it as a friend is a bit unclear. How have these tales of mutually assured destruction rendered death less terrifying? These lines attempt to close down some of the poem’s ambiguity by asserting that the enmity between the speaker and death as foe will, paradoxically, be resolved in death as foe becomes friend.</note></seg>.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg type="milestone" wit="ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

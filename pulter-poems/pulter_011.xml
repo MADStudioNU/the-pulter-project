@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.11">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tell Me No More [On the Same]</title>
+                 <title type="sub">Poem #11</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>elegy</term>
+		    <term>death</term>
+		    <term>daughter</term>
+		    <term>grief</term>
+		     <term></term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_038.jpg" xml:id="f7610_038"/>
+        <graphic url="./document_images/7610_039.jpg" xml:id="f7610_039"/>
+        <graphic url="./document_images/7610_040.jpg" xml:id="f7610_040"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 29, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>August 27, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>September 7,2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_038" n="17v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_038"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_038"/></rdg>
+            </app>
+            
+            <app>
+                <rdg type="milestone" wit="#ft"><milestone unit="poem" rend="LINE TYPE"/></rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the <seg>Same<note type="physical">Previous poem concludes on this page</note></seg></rdg>
+                    <rdg wit="#ee">Tell Me No More <seg>[On the Same]<note type="critical">The poem is entitled “On the Same” in reference to the prior poem, “Upon the Death of my Dear and Lovely Daughter J. P.”; we have provided an alternate title for clarity.</note></seg></rdg>
+                    <rdg wit="#ae"><seg>On the Same<note type="critical">The title refers to the previous poem, “Upon the Death of My Dear and Lovely Daughter J.P.” While many poems about dead children focused on infants and youngsters (see “Curations”), especially since child mortality was relatively high in the seventeenth century, Pulter here grapples with the loss of a young adult, her daughter Jane, who died in 1645. At 20, Jane was considerably older than Hester was when she married. She had survived the dangers of childhood only to die as she had reached maturity. Pulter had 15 children, the last in 1648, so she might well have been pregnant or nursing when Jane died (see the story of Elizabeth Cary sitting at the deathbed of her daughter and contemplating nursing her daughter’s newborn as well as her own youngest child in “Curations”.)</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials I gather for the “curations” section place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">This poem dwells “On the Same” topic as the last, and is thus another elegy for one of the poet’s daughters who died at twenty years of age. The refrain of “Tell me no more” paradoxically enables the sequential canvassing of the very qualities Pulter claims not to want to recall: Jane’s corporeal beauties, portrayed one by beloved one, are succeeded by the more ineffable elements of her mind, soul, voice, and virtue. Toward the poem’s end, the speaker’s attention tugs away from Jane to her own experience of loss, only to be diverted by yet another lost relic of her child. The inexorable return of the refrain acts as a trope for grief—such that the poem’s addressee could be a personified Grief, implored to silence. But the poem also exhibits tension between the speaker’s loving attachment to things of (but then no longer of) this world and what she knows she should praise, and claims she shall: “praises ... world without end, / To Him.” In the meantime, all praises sung are for a young woman whose world has ended.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>In this poem, Pulter engages a convention that guided poems including “Song” [“Ask Me No More”], which is often attributed to Thomas Carew (although it circulated without attribution in many seventeenth-century manuscripts), as well as various responses to it (see “Curations”). Her poem particularly resembles a song set to music by William Lawes (“Tell me no more”). In his essay on “Ask Me No More” and responses to it, Scott Nixon argues that the poems in this subgenre take “pleasure in impersonal debate on an abstract topic” (117); Pulter, however, employs this convention for a highly personal debate on a concrete loss. The poem she produces joins an ongoing game of literary imitation and revision even as it is also an expression of wrenching feeling. The convention usually gestures toward an unnamed, unseen interlocutor, whose words are heard only as the speaker tries to shut them out (tell me no more, ask me no more). This is, then, a dialogic convention that irritably attempts to silence dialogue. Shut up, the speaker seems to say. Enough. As is so often true with Pulter’s poetry, in her hands the convention starts to twist, decompose, and regenerate. In this poem, the loquacious and annoying interlocutors, with their intimate knowledge of Jane Pulter’s physical features and their particular effects, suggest a contention among parts of the self, the parts that insistently remember and the part that is trying to take a Christian perspective on death and loss. Who else might these imagined speakers be anyway? Who exactly would remind the bereaved mother that her daughter’s breasts were snowy, let alone that her nose was “even”?</p>
+                    <p>Pulter counters the misogyny of some poems in this subgenre, turning resentment away from the female object of observation and toward the fact of loss and the voices that remind the speaker of that loss. Since the poem lists Jane’s attributes and tries to stop doing so, it is both a blazon and an anti-blazon (see “Explorations” on “Pulter and the English Blazon”). The catalog of Jane’s features stalls in line 20 at her noble mind, which can never be expressed, at least through the metaphors the poem has relied on thus far. While many of the other lines are enjambed, I sense a pause before and after this line, stranding it no matter how it is punctuated. The speaker then attempts to regroup, shifting the focus from Jane’s body to her soul, only to lapse into despair before a turning point at “until” in line 32, leading to “I” and “she/her” merging into “we” who, reunited in heaven, will sing God’s praises (line 34). The vivid memories of Jane, and the pestering voice of the teller inventorying what has been lost, expose the limits of Christian consolation. Perhaps “we” will be reunited in heaven. Nevertheless, “With her I lost most of my joys on earth.” The speaker ends the poem committed to mourning for “her” and deploring her loss until death rejoins them.</p>
+                </note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more, her haire was lovly brown</rdg>
+                    <rdg wit="#ee">Tell me no more her hair was lovely brown,</rdg>
+                    <rdg wit="#ae">Tell me no more her hair was lovely brown,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Nor that it did in Curious <seg>curles<note type="physical">“r” written over earlier “l”</note></seg> hang down</rdg>
+                    <rdg wit="#ee">Nor that it did in <seg>curious<note type="gloss">artful; elaborate; delicate</note></seg> curls hang down,</rdg>
+                    <rdg wit="#ae">Nor that it did in <seg>curious<note type="critical">The adjective “curious” suggests that the curls both invited interest and excited admiration, on the one hand, and that they required some effort to achieve: Jane’s hair may have been curled more than curly. This adjective can describe either persons who are studious, attentive, eager to learn and inquisitive or the objects of their inquiry, which command attention by being skillfully made or richly ornamented. Oscillating as it does between subjects and objects, the adjective “curious” animates the curls even as it also presents them as Jane’s artful effort.</note></seg> curls hang down,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Or that it did her Snowey Shoulders Shrowed</rdg>
+                    <rdg wit="#ee">Or that it did her snowy shoulders shroud</rdg>
+                    <rdg wit="#ae">Or that it did her snowy shoulders <seg>shroud<note type="gloss">conceal</note></seg></rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Like Shineing Cinthia in A Sable Clowd</rdg>
+                    <rdg wit="#ee">Like shining <seg>Cynthia<note type="gloss">moon (goddess)</note></seg> in a sable cloud.</rdg>
+                    <rdg wit="#ae">Like shining <seg>Cynthia<note type="gloss">moon personified as a goddess</note></seg> in a sable cloud.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more of her black Diamond Eyes</rdg>
+                    <rdg wit="#ee">Tell me no more of her black diamond eyes,</rdg>
+                    <rdg wit="#ae">Tell me no more of her black diamond eyes,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Whoſe cheerfull looke made all my Sorrowes<add place="below">^</add><add place="above">fly</add></rdg>
+                    <rdg wit="#ee">Whose cheerful look made all my sorrows fly</rdg>
+                    <rdg wit="#ae">Whose cheerful look made all my sorrows fly,</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Like Glittring Phebus Influence and light</rdg>
+                    <rdg wit="#ee">Like glitt’ring <seg>Phoebus’s<note type="gloss">sun (god)</note></seg> influence and light</rdg>
+                    <rdg wit="#ae">Like glitt’ring <seg>Phoebus’<note type="gloss">sun personified as a god</note></seg> influence and light</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">After a Northern Winters halfe years Night</rdg>
+                    <rdg wit="#ee">After a <seg>northern winter’s half-year’s night<note type="critical">Eardley suggests Pulter means the Antarctic, understood to have only one day per year (each lasting six months)</note></seg>.</rdg>
+                    <rdg wit="#ae">After a <seg>northern winter’s half-year’s night<note type="critical">One look from Jane was like the return of the sun after six months of darkness. Pulter here refers to the idea that “the nations of the southern world” are in darkness six months out of the year while the sun is in the northern hemisphere. During that time, according to Robert Fludd, “the Antartick pole’s cold property” produces snow, frost, ice, and hail, “mortifying the herbs, fruits, and plants, and such like.” But “the Sun at his next visitation of those quarters, which will be in our northern winter,” by virtue of his “dilating and vivifying spirit,” undoes cold and death, melting the ice and snow, and “reviving the spirit of the trees, plants, and herbs, which were almost lifeless through congelation, and renewing their mourning bodies with new green garments, blossoms, and flowers, and lastly, with wholesome fruit” (Robert Fludd, <title rend="italic">Mosaicall Philosophy Grounded Upon the Essential Truth</title> [London, 1659], I.9.108-109). Jane’s glance had this same effect. This description, suggesting that Jane’s absence created winter and her presence spring, also draws on the myth of Ceres and Persephone: when Persephone was with her mother, Ceres, it was spring and summer; when they had to part for Persephone to be with her husband in the underworld, her mother mourned and it was fall and winter.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more her cheeks exceld the Roſe</rdg>
+                    <rdg wit="#ee">Tell me no more her cheeks excelled the rose,</rdg>
+                    <rdg wit="#ae">Tell me no more her cheeks excelled the rose</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Though Lilly leaves did Sweetly interpoſe</rdg>
+                    <rdg wit="#ee">Though lily leaves did sweetly interpose</rdg>
+                    <rdg wit="#ae">Though lily leaves did sweetly interpose,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Like Ruddy Aurora riſeing from her bed</rdg>
+                    <rdg wit="#ee">Like <seg>ruddy<note type="gloss">reddish, rosy</note></seg> <seg>Aurora<note type="gloss">dawn (goddess)</note></seg> rising from her bed,</rdg>
+                    <rdg wit="#ae">Like <seg>ruddy<note type="gloss">rosy</note></seg> <seg>Aurora<note type="gloss">dawn personified as a goddess</note></seg> rising from her bed,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Her Snowey hand Shadeing her Orient he’d</rdg>
+                    <rdg wit="#ee">Her snowy hand shading her <seg>orient<note type="gloss">of the eastern part of the sky; radiant; rising (as the sun); dawn-colored, bright red</note></seg> head.</rdg>
+                    <rdg wit="#ae">Her snowy hand shading her <seg>orient<note type="gloss">Facing east or shining like a pearl or precious stone; of superior value and brilliancy, lustrous, precious, radiant.</note></seg> head.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more, of her white even Noſe</rdg>
+                    <rdg wit="#ee">Tell me no more of her white even nose,</rdg>
+                    <rdg wit="#ae">Tell me no more of her white even nose,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Nor that her Ruby Lipps when they diſcloſe</rdg>
+                    <rdg wit="#ee">Nor that her ruby lips, when they <seg>disclose<note type="gloss">open</note></seg>,</rdg>
+                    <rdg wit="#ae">Nor that her ruby lips when they <seg>disclose<note type="gloss">When her lips open to reveal her teeth in a smile or reveal her thoughts through speech.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Did Soe revive this drooping heart of mine</rdg>
+                    <rdg wit="#ee">Did so revive this drooping heart of mine,</rdg>
+                    <rdg wit="#ae">Did so revive this drooping heart of mine,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Like Golden Aples on A Silver Shrine</rdg>
+                    <rdg wit="#ee">Like <seg>golden apples on a silver shrine<note type="critical">Eardley cites Proverbs 25:11: “A word fitly spoken is like apples of gold in pictures of silver”</note></seg>.</rdg>
+                    <rdg wit="#ae">Like <seg>golden apples on a silver shrine<note type="critical">This is a variation on a phrase from Proverbs 25:11 that became proverbial, that is commonly used. For example, a dedication to the Countess Dowager of Devonshire avers that “Honor without virtue is as a cloud without water; virtue without honor, is as a room without hangings; But virtue and honor is as a golden apple in a silver picture or rather, as a precious diamond in a golden ring” (Nathaniel Hardy, <title rend="italic">The First General Epistle of St. John the Apostle</title> [London, 1659], n.p.). If this simile usually emphasized how one precious quality sets off another, Pulter instead emphasizes their restorative effect taken together.</note></seg>.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">tell</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_039" n="18r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_039"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_039"/></rdg>
+            </app>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more, her bre’sts were heaps of Snow</rdg>
+                    <rdg wit="#ee">Tell me no more her breasts were heaps of snow,</rdg>
+                    <rdg wit="#ae">Tell me no more, her breasts were heaps of snow</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">White as the Swans, where Cristall Thams doth flow</rdg>
+                    <rdg wit="#ee">White as the swans where crystal <seg>Thames<note type="gloss">river in southern England</note></seg> doth flow;</rdg>
+                    <rdg wit="#ae">White as the swans where crystal <seg>Thames<note type="gloss">river in southeast England</note></seg> doth flow;</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Chast as Diana was her Virgin Bre’st</rdg>
+                    <rdg wit="#ee">Chaste as <seg>Diana<note type="gloss">Roman goddess</note></seg> was her virgin breast.</rdg>
+                    <rdg wit="#ae">Chaste as <seg>Diana<note type="gloss">Roman goddess associated with chastity and the moon</note></seg> was her virgin breast.</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Her Noble Mind can never bee exprest</rdg>
+                    <rdg wit="#ee">Her noble mind can never be expressed;</rdg>
+                    <rdg wit="#ae">Her noble mind can never be expressed.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">This but the Caſket <add place="below">^</add><add place="above">was</add> of h<seg>[?]<note type="physical">end of word, perhaps two more letters, obscured by ink blot</note></seg> Rich Soule</rdg>
+                    <rdg wit="#ee"><seg>This<note type="critical">the immediate antecedent is “mind,” but both her mind and body appear characterized as merely “the casket” of her more valuable soul</note></seg>, but the casket was of her rich soul,</rdg>
+                    <rdg wit="#ae">This but the <seg>casket<note type="gloss">container, esp. of something precious or secret</note></seg> was of her rich soul,</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Which now doth Shine aboue the highest pole</rdg>
+                    <rdg wit="#ee">Which now doth shine above the highest <seg>pole<note type="gloss">the sky or heavens; point where line of Earth's axis meets the celestial sphere</note></seg>.</rdg>
+                    <rdg wit="#ae">Which now doth shine above the highest <seg>pole<note type="gloss">The end of the axis on which the earth rotates but, more generally, the furthest reach of the globe.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more of her perfection</rdg>
+                    <rdg wit="#ee">Tell me no more of her perfection,</rdg>
+                    <rdg wit="#ae">Tell me no more of her perfection,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Becauſe it doth increaſe my hearts dejection</rdg>
+                    <rdg wit="#ee">Because it doth increase my heart’s dejection.</rdg>
+                    <rdg wit="#ae">Because it doth increase my heart’s dejection;</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Nor tell mee, that Shee past her happy dayes</rdg>
+                    <rdg wit="#ee">Nor tell me that she passed her happy days</rdg>
+                    <rdg wit="#ae">Nor tell me that she passed her happy days</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">In Singing Heavenly and the Muſeses layes</rdg>
+                    <rdg wit="#ee">In singing heavenly and the <seg>Muses’ lays<note type="critical">the “lays” or songs of the Muses are those associated with the classical goddesses of the arts and sciences, whose songs are contrasted in this line with “heavenly” songs (presumably, in this context, Christian ones)</note></seg>;</rdg>
+                    <rdg wit="#ae">In singing <seg>heavenly and the muses’ lays<note type="critical">Songs, especially lyric poems set to music. Describing Jane as singing both religious and secular music (“heavenly and the muses’ lays”), this line hints toward a Christian consolation that does not fully arrive until line 35 with the “Him” to whom “we” will sing praises.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Nor like the Swans on Cristall Poe</rdg>
+                    <rdg wit="#ee">Nor, like the swans on crystal <seg>Po<note type="gloss">river in Italy</note></seg>,</rdg>
+                    <rdg wit="#ae">Nor like the swans on crystal <seg>Po<note type="critical">The Po is a river in Italy. Yet the phrase “nor never more” following the reference to the Po may trigger an association for some modern readers with Edgar Allen Poe’s famous poem of grief and despair, “The Raven.” This is anachronistic, of course. Poe’s poem was first published in 1845. But the echo might light up a web of connections across time.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Shee Sung her <seg>Dirges<note type="physical">“i” appears written over an earlier “e”</note></seg> ere Shee hence did goe</rdg>
+                    <rdg wit="#ee">She sung her <seg>dirges<note type="gloss">songs for the dead</note></seg> <seg>ere she hence did go<note type="gloss">reference to belief in the dying bird’s final song</note></seg>;</rdg>
+                    <rdg wit="#ae">She sung her <seg>dirges<note type="gloss">songs of lamentation</note></seg> ere she hence did go.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft"><seg>Nor<del>e</del><note type="physical">“or” appears written over “ev”; final “e” imperfectly erased</note></seg> never more tell my Sad Soule of Mirth</rdg>
+                    <rdg wit="#ee">Nor never more tell my sad soul of mirth:</rdg>
+                    <rdg wit="#ae">Nor never more tell my sad soul of mirth:</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">With her I lost most of my Joyes on Earth</rdg>
+                    <rdg wit="#ee">With her, I lost most of my joys on Earth.</rdg>
+                    <rdg wit="#ae">With her I lost most of my joys on earth,</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Nor can I ever raiſe my drooping Spirit</rdg>
+                    <rdg wit="#ee">Nor can I ever raise my drooping spirit</rdg>
+                    <rdg wit="#ae">Nor can I ever raise my drooping spirit</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Vntill with her those Joyes I Shall inherit</rdg>
+                    <rdg wit="#ee">Until, with her, those joys I shall inherit:</rdg>
+                    <rdg wit="#ae">Until with her those joys I shall inherit,</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Those <seg>Glories<note type="physical">“Glor” appears in darker, thicker ink, written over other imperfectly erased letters (possibly initial “J” or “I” and a letter with descender [as in “y]” in third position).</note></seg> <seg><add place="above">Glories</add><note type="physical">written atop second half of “Glories” in different hand from main scribe</note></seg> which our finite <add place="below">^</add> <del>doth</del> <add place="above">thoughts</add> tra<add place="below">^</add><add place="above">n</add>scend</rdg>
+                    <rdg wit="#ee">Those glories which our finite thoughts transcend,</rdg>
+                    <rdg wit="#ae">Those glories which our finite thoughts transcend,</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <rdg wit="#ft">Where wee Shall praiſes Sing World without End</rdg>
+                    <rdg wit="#ee">Where we shall praises sing, <seg>world without end<note type="critical">for this phrase, see Ephesians 3:21, Isaiah 45:17</note></seg>,</rdg>
+                    <rdg wit="#ae">Where we shall praises sing, world without end,</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <rdg wit="#ft">To him that made both her and mee of Earth</rdg>
+                    <rdg wit="#ee">To Him that made both her and me of <seg>earth<note type="critical">See Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.” Pulter frequently identifies “dust” with earth.</note></seg>,</rdg>
+                    <rdg wit="#ae">To <seg>Him that made both her and me of earth<note type="critical">The speaker here imagines God creating women—“her and me,” mother and daughter—of earth. This picture of an all female paradise combines and recasts the creation accounts in Genesis (“male and female created he them” [1.27] and “the Lord God formed man of the dust of the ground” [2.7]), shifting the focus from man to women, from heterosexual marriage to motherhood (with mention only of a heavenly father). For other adaptations of creation accounts, see the excerpts from John Milton and Lucy Hutchinson under “The Creation Blazon” in “Explorations”: “Hester Pulter and the Blazon in Early Modern England.”</note></seg></rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <rdg wit="#ft">And gave us Spirits of Celetiall Birth</rdg>
+                    <rdg wit="#ee">And gave us spirits of celestial birth.</rdg>
+                    <rdg wit="#ae">And gave us spirits of celestial birth.</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <rdg wit="#ft">Tell mee noe more, of her Unblemiſhed fame</rdg>
+                    <rdg wit="#ee">Tell me no more of her unblemished fame,</rdg>
+                    <rdg wit="#ae">Tell me no more of her unblemished <seg>fame<note type="gloss">reputation</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <rdg wit="#ft">Which doth I<hi rend="overline">m̄</hi>ortalize her virgin Name</rdg>
+                    <rdg wit="#ee">Which doth immortalize her virgin name</rdg>
+                    <rdg wit="#ae">Which doth immortalize her virgin name</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">like</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_040" n="18v"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_040"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_040"/></rdg>
+            </app>
+            <l n="39">
+                <app>
+                    <rdg wit="#ft">Like fragrant odours Aromatick <seg>&ff;ume<add place="below">^</add><add place="above">s</add>[?]<note type="physical">“s” superscript to illegible blotted letter</note></seg></rdg>
+                    <rdg wit="#ee">Like fragrant odors’ aromatic fumes,</rdg>
+                    <rdg wit="#ae">Like fragrant odors, aromatic fumes,</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <rdg wit="#ft">Which all Succeeding Ages Still perfumes</rdg>
+                    <rdg wit="#ee">Which all succeeding ages still perfumes;</rdg>
+                    <rdg wit="#ae">Which all succeeding ages <seg>still perfumes<note type="critical">After the loving descriptions of what Jane looked like, the poem ends by evoking the sense of smell. Her “unblemished fame” is like “fragrant odors, aromatic fumes,” persisting over time; Jane lingers as a scent. Pulter’s attention to smell links her poem to others in this subgenre as well. In “Ask me no more,”  the beloved’s “fragrant bosom” is both the “spicy nest” and the tomb of the phoenix. “On Lesbia” devotes three lines to Lesbia’s “stink,” a stink “left behind” by Gondomar, the Spanish ambassador and so a way of capturing the foul trace of Catholics and Catholicism. In contrast, “On the Same” describes Jane’s aromatic afterlife in terms reminiscent either of perfumes used in embalming or of accounts of the incorruptible bodies (and body parts) of saints and holy people in Catholic tradition. (See the descriptions of nuns’ incorruptible and perfumed bodies in “Curations.”) Like all mortals, Jane was made of earth (l. 35), of the dust (l. 43) to which she has also returned. The description of Jane sometimes hints at how “in the midst of life we are in death” (see <title rend="italic">The Book of Common Prayer</title> “Order for the Burial of the Dead”): her hair shrouded her shoulders (line 3); her body was a casket (line 21). Although in the early modern period “casket” was not used interchangeably with coffin as it is now, it was used to describe a container for holy relics. Like relics, Jane is both dead and, somehow, undecayed.</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <rdg wit="#ft">Nor why I mourn for her aske mee noe more</rdg>
+                    <rdg wit="#ee">Nor why I mourn for her, ask me no more:</rdg>
+                    <rdg wit="#ae">Nor why I mourn for her, ask me no more.</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <rdg wit="#ft">&ff;or <seg><add place="above">all</add><note type="physical"> blot covers word below of similar length and with two ascenders near end</note></seg> my life I Shall her loſs deplore</rdg>
+                    <rdg wit="#ee">For all my life I shall her loss <seg>deplore<note type="gloss">lament</note></seg>,</rdg>
+                    <rdg wit="#ae">For all my life I shall her loss <seg>deplore<note type="gloss">lament</note></seg></rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <rdg wit="#ft">Till infinite power her dust and mine Shall <add place="below">^</add><add place="above">raise</add></rdg>
+                    <rdg wit="#ee">Till infinite power her <seg>dust<note type="critical"> See Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> and mine shall raise</rdg>
+                    <rdg wit="#ae">Till infinite power her dust and mine shall raise</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <rdg wit="#ft">To Sing in Heaven his Everlasting praiſe.</rdg>
+                    <rdg wit="#ee">To sing in Heaven His everlasting praise.</rdg>
+                    <rdg wit="#ae">To sing in heaven His everlasting praise.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+            
+        </body>
+    </text>
+</TEI>

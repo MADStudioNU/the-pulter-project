@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.66">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Made When My Spirits Were Sunk Very Low</title>
+                 <title type="sub">Poem #66</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>illness</term>
+                    <term>sorrow</term>
+                    <term>encouragement</term>
+                    <term>afterlife</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+  <facsimile>
+    <graphic url="./document_images/7610_180.jpg" xml:id="f7610_180"/>
+  </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>May 18, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 18, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Sarah C. E. Ross</persName>. Last updated <date>May 18, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_180" n="88v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_180"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_180"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><seg>Made when my Spirits were ſunk very low with ſickneſs and ſorrow. May 1667 I being ſeventy one years old.<note type="physical">This poem is written in a hand other than the main scribe’s (H1) or H2.</note></seg>
+                    </rdg>
+                    <rdg wit="#ee"><seg>Made When My Spirits Were Sunk Very Low With Sickness and Sorrow, May 1667<note type="critical">The title continues: “I Being Seventy-One Years Old”; “Seventy” seems an error in transcription for “Sixty.” Sarah Ross provisionally identifies this poem as written by the eighteenth-century antiquarian, Angel Chauncey, the local parish rector in Cottered, who annotated the manuscript. See Sarah C. E. Ross, “Women and Religious Verse in English Manuscript Culture, d. 1660-1668: Lady Anne Southwell, Lady Hester Pulter and Katherine Austen” (D.Phil. dissertation, University of Oxford, 2000), pp. 161-168.</note></seg></rdg>
+                    <rdg wit="#ae">Made when my Spirits were Sunk Very Low with Sickness and Sorrow, <seg>May 1667<note type="critical">The title continues, “I being  Seventy-One Years Old”. This is probably an error, as Pulter’s likely birthdate of 1605 would make her 61 years old in (early) 1667. See Eardley (ed.), <bibl><title rend="italic">Lady Hester Pulter</title></bibl>, p. 13.</note></seg></rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in my view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts).<seg>[1]<note>See Alice Eardley, "'I haue not time to point yr booke ... which I desire you yourselfe to doe': Editing the Form of Early Modern Manuscript Verse", in The Work of Form: Poetics and Materiality in Early Modern Culture, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</note></seg> There are two sets of notes. The first provides glosses and references to aid understanding of the poem; the second, Textual Notes, outlines any substantive editorial decisions made in the process of modernising and formatting the text.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Ill and despondent, the speaker fantasizes about death, urging her soul to blast out of her body and travel through the galaxies to join God in eternity. This short poem of four stanzas (written in rhyming tercets), breaks in the middle, as the speaker suddenly reverses her directive to her soul. Because the creator requires it, she must remain on earth and limit her own creations to this sphere. The abbreviated final couplet formally demonstrates the constriction the speaker feels in being confined on earth and bound to her body. Yet her renewed commitment to “breathe nothing forth” but thanks and praise notably reflects back to her collection’s title, <bibl><title rend="italic">Poems Breathed Forth By the Noble Hadassah</title></bibl>, demonstrating that she has indeed fulfilled part of this creative promise. The poem is the latest dated poem in the collection, written eleven years before Pulter died.</note></rdg>
+                <rdg wit="ae"><note type="headnote">This poem is in a different hand from the main scribe’s, and is one of several added to the manuscript after the conclusion of the main series of poems (which concludes with “To Sir William Davenant”, Poem 60). The same hand has transcribed “On the Fall of That Grand Rebel the Earl of Essex” (Poem 62) and “[Dear God, from thy high throne look down]” (Poem 63), both of which are on a bifolium that has been tipped into the manuscript. “Made when my Spirits were Sunk Very Low” is copied into the main bound volume.
+                    One of Pulter’s many poems composed in “sickness and sorrow”, this is a simple devotional lyric that looks forward to “everlasting life and day”, after death. Like many of Pulter’s devotional lyrics, this one exhorts her soul to “Droop not” with the sorrows of the world, and instead to turn to the divine; see, for example, Poem 6 for a comparable incitement away from religious complaint, and Poem 29 for a comparable focus on singing “hallelujahs to thy praise” (Poem 29, line 14). In its movement from addressing the drooping soul of the first stanza to envisaging the soul’s rousing ascent in the second, the poem could be compared to George Herbert’s “Easter Wings”; however, the ascent of the soul is “stay[ed]” in the third stanza, where the speaker insists on the soul’s need to see out the “few and evil days” of life on earth. The final couplet reflexively evokes Pulter’s devotional lyrics themselves, as the thanks and praise that Pulter’s speaker breathes forth while here on earth. Poem 45, “This Was Written 1648”, makes explicit the connection implicit here between the earthly songs of praise that are Pulter’s devotional lyrics, and the hallelujahs to be sung in the afterlife: “I’ll such lays here begin, shall end above” (Poem 45, line 68).
+                    The poem’s form, in rhyming tercets with a final rhyming couplet, is song-like; for a broad comparison, see Poem 29, “My Soul’s Sole Desire”, and the commentary to the amplified edition of that poem. This lyric, however, is metrically irregular, moving between tetrameter and pentameter lines. It is just possible that the text is a copy of a draft or unpolished poem, appearing as it does in a different hand, after the main series of poems in the manuscript.
+                </note></rdg>
+            </app>
+            </head>
+
+            <lg type="stanza" n="1">
+             <l n="1">
+                <app>
+                    <rdg wit="#ft">Droop not, my Soul, nor hang the Wing</rdg>
+                    <rdg wit="#ee">Droop not, my soul, nor <seg>hang the wing<note type="gloss">be hesitant or timid</note></seg>,</rdg>
+                    <rdg wit="#ae">Droop not, my soul, nor <seg>hang the wing<note type="critical">hesitate, show timidity (<bibl><title rend="italic">OED</title> n. 18</bibl>). See George Herbert, “Easter wings”, for a directly contrasting evocation of wings <hi rend="italic">advancing</hi> flight towards the divine: “if I imp my wing on thine, / Affliction shall advance the flight in me” (lines 9-10). This sense of “taking wing” towards the divine is used at the end of Pulter’s Poem 55, “Must I thus ever interdicted be”, describing the future time at which “my captivated soul takes wing / Then will I hallelujahs ever sing” (lines 16-17).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">for thou Shalt shortly Hallelujah’s ſing</rdg>
+                    <rdg wit="#ee">For thou shalt shortly <seg>hallelujahs<note type="gloss">songs of praise to God</note></seg> sing</rdg>
+                    <rdg wit="#ae">For thou shalt shortly <seg>hallelujahs<note type="gloss">songs of praise to God.</note></seg> sing</rdg>
+                </app>
+            </l>
+                <l n="3" rend="tab-1">
+                <app>
+                    <rdg wit="#ft">To Our Inuiſible Eternall <seg>King<note type="physical">“g” extends into curled line</note></seg></rdg>
+                    <rdg wit="#ee">To our invisible eternal King.</rdg>
+                    <rdg wit="#ae">To our invisible, eternal king.</rdg>
+                </app>
+            </l></lg>
+            <lg type="stanza" n="2"><l n="4">
+                <app>
+                    <rdg wit="#ft">Rouſe up, my ſoul, Shake off theſe Rags of Clay</rdg>
+                    <rdg wit="#ee">Rouse up, my soul, shake off these rags of <seg>clay<note type="critical">the body; see Isaiah 64:8: “But now, O Lord, thou art our father; we are the clay, and thou our potter; and we all are the work of thy hand.”</note></seg>,</rdg>
+                    <rdg wit="#ae">Rouse up, my soul, shake off these <seg>rags of clay<note type="critical"> the body. See Poem 6, “this frail frame, this feeble house of clay” (line 2); and  Isaiah 64:8, “O Lord, thou art our father; we are the clay, and thou our potter”.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">And thorow all the ſuns &amp; Worlds make way</rdg>
+                    <rdg wit="#ee">And <seg>thorough<note type="gloss">Through</note></seg> all the <seg>suns and worlds<note type="critical">In referencing the possible plurality of universes and worlds, the speaker is at the forefront of new scientific work on astronomy challenging the older Ptolemaic system.</note></seg> make way</rdg>
+                    <rdg wit="#ae">And <seg>thorough<note type="gloss">MS = thorow. Through</note></seg> all the suns and worlds make way</rdg>
+                </app>
+            </l>
+                <l n="6" rend="tab-1">
+                <app>
+                    <rdg wit="#ft">To Everlasting Life &amp; <seg>Day<note type="physical">“y” extends into curled line</note></seg></rdg>
+                    <rdg wit="#ee">To everlasting life and day.</rdg>
+                    <rdg wit="#ae">To everlasting life and day.</rdg>
+                </app>
+            </l></lg>
+            <lg type="stanza" n="3"><l n="7">
+                <app>
+                    <rdg wit="#ft">But stay, My ſoul, thou Cans’t not goe,</rdg>
+                    <rdg wit="#ee">But stay, my soul: thou cans’t not go,</rdg>
+                    <rdg wit="#ae">But stay, my soul, thou canst not go,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Thy Great Creator he ſays, No,</rdg>
+                    <rdg wit="#ee">Thy Great Creator, He says, “no,”</rdg>
+                    <rdg wit="#ae">Thy great Creator, <seg>he says “no”<note type="critical">These lines (and the reference to breath in line 11) may echo John Donne’s “A Valediction Forbidding Mourning”: “As virtuous men pass mildly away,  / And whisper to their souls to go, / Whilst some of their sad friends do say, / ‘Now his breath goes,’ and some say, ‘No’” (lines 1-4; http://www.luminarium.org/sevenlit/donne/mourning.php).</note></seg>,</rdg>
+                </app>
+            </l>
+                <l n="9" rend="tab-1">
+                <app>
+                    <rdg wit="#ft">For thou Must praiſe him longer here below.</rdg>
+                    <rdg wit="#ee">For thou must praise Him longer here below.</rdg>
+                    <rdg wit="#ae">For thou must praise him longer here below.</rdg>
+                </app>
+            </l></lg>
+            <lg type="stanza" n="4"><l n="10">
+                <app>
+                    <rdg wit="#ft">Then lett me here my few and Evil Dayes</rdg>
+                    <rdg wit="#ee">Then let me here, my few and evil days,</rdg>
+                    <rdg wit="#ae">Then let me here, my <seg>few and evil days<note type="critical">See Genesis 47:9: “And Jacob said unto Pharaoh, The days of the years of my pilgrimage <hi rend="italic">are</hi> an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage”. For the same description of life as “my few and evil days”, see “The Centre” (Poem 30), line 47; and “A Solitary Discourse” (Poem 44), line 110.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Breath Nothing forth but thanks &amp; <seg>Praise<note type="physical">remaining half-page blank</note></seg>.</rdg>
+                    <rdg wit="#ee"><seg>Breathe<note type="crtitical">Note that one of the manuscript titles is “Poems Breathed Forth by the Noble Haddasah.”</note></seg> nothing forth but thanks and praise.</rdg>
+                    <rdg wit="#ae"><seg>Breathe nothing forth<note type="critical">Pulter recurrently figures her poems as “breathed forth”, most notably in the titles given to her two poem series, “Poems Breathed Forth by the Noble Hadassah”, and “Emblems. The Sighs of a Sad Soul Emblematically Breathed Forth by the Noble Hadassah”. “A Solitary Discourse” (Poem 44) ends very similarly to this one: “I’ll improve’t, my few and evil days, / Until it doth exhale in thanks and praise” (lines 110-11).</note></seg> but thanks and praise.</rdg>
+                </app>
+            </l></lg>
+
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="straight-horline"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.71">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Manucodiats (Emblem 5)</title>
+                 <title type="sub">Poem #71</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<!--<keywords>-->
+                     <!--<term>bird(s)</term>-->
+                     <!--<term>family</term>-->
+                     <!--<term>love</term>-->
+                     <!--<term>emblem</term>-->
+		     <!--<term>animal(s)</term>-->
+        	<!--</keywords>-->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_190.jpg" xml:id="f7610_190"/>
+        <graphic url="./document_images/7610_191.jpg" xml:id="f7610_191"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>May 16, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>June 5, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_190" n="93v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_190"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_190"/></rdg>
+            </app>
+		
+	
+            
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                   </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_190" type="pageNum" place="margin-topright">5</fw>[Untitled]</rdg>
+                    <rdg wit="#ee">The Manucodiats (Emblem 5)</rdg>
+                    <rdg wit="#ae">Emblem 5</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">Perhaps only a paradisal species can achieve true equality in parenting—or so Pulter suggests here. But specialized anatomical hardware can help: in this emblem, a male bird sports in his back a “pit” for the eggs on which the concave-bellied female sits. Pulter’s manucodiats—better known as birds-of-paradise—are praised for this evidence of their transcendent love, unity, kindness, and “indulgency,” all qualities treated as signs of their divine origin. Rather than a call for more active and loving fathering, though, the speaker’s reflection on these birds becomes a prayer that she might be infused with love for her relations, which might suggest that this avian model of companionate marriage did not match her experience.</note></rdg>
+                <rdg wit="#ae"><note type="headnote">In this poem, the Manucodiat, a bird now known as a bird-of-paradise, becomes an emblem that allows for an exploration of the links between God’s love for his creations, a parent’s love for her partner and her children, and the speaker’s own desires for spiritual transcendence. The first half of the poem describes the fabulous lore associated with the bird-of-paradise. It was believed that these birds never landed on the ground, fed only upon dew, and hatched their eggs from the conjoined bodies of male and female partners. Pulter explains that these birds are “crowned” for their “indulgency”—of their partners and their offspring—and this quality becomes the basis for the lesson of the second half of the poem. Parents are instructed to learn “indulgency” from the example of the birds-of-paradise, but the speaker develops this general injunction of “unity” into self-reflection and self-interrogation. Love comes only from “above,” and the speaker implores God to “irradiate” her soul with this love so that she may serve as an intermediary between the divine and her relations on earth. The speaker longs to inhabit the liminal space of the birds-of-paradise—halfway between the heavens and the earth—a conclusion that expands their emblematic significance.</note></rdg>
+            </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft"><seg>The<note type="physical">poem begins on the same page as previous one ends</note></seg> Manucodiats as Authors write</rdg>
+                    <rdg wit="#ee">The <seg>manucodiats<note type="gloss">birds of paradise</note></seg>, as authors write,</rdg>
+                    <rdg wit="#ae"><seg>The Manucodiats, as authors write<note type="critical">Manucodiats are now known as birds-of-paradise, a group of species native to Indonesia, Papua New Guinea, and Australia. <hi rend="italic">Manucodiata</hi> derives from the Javanese phrase <hi rend="italic">manuk dewata</hi>, bird of the gods (see <bibl><title rend="italic">OED manucodiata</title></bibl>). European travelers and natural historians wrote about the bird-of-paradise for the first time in the sixteenth century, though most were familiar with the animal only through dead specimens. The bird-of-paradise was the subject of much lore and legend, which Pulter acknowledges in the first line of the poem (“as authors write”). One important part of this lore is its association with the phoenix, a divine bird that is reborn from its own ashes. Thomas P. Harrison collects much of this lore, including its association with the phoenix, in <bibl>“Bird of Paradise: Phoenix Redivivus,” <hi rend="italic">Isis</hi>, vol. 51, no 2 (1960): pp. 173-80.</bibl></note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">On This base dunghill Earth doth never lite</rdg>
+                    <rdg wit="#ee">On this base <seg>dunghill<note type="gloss">pile of excrement</note></seg> Earth doth never <seg>light<note type="gloss">land</note></seg>,</rdg>
+                    <rdg wit="#ae">On this base dunghill earth doth never light,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">But hovers in the Ayr both day and Night</rdg>
+                    <rdg wit="#ee">But hover in the air both day and night,</rdg>
+                    <rdg wit="#ae">But hover in the air both day and night,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">And on the Dew of Heaven they onely &ff;eed</rdg>
+                    <rdg wit="#ee">And on the dew of heaven they only feed,</rdg>
+                    <rdg wit="#ae">And on the dew of heaven they only feed,</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Which Signifies their pure Celestiall breed</rdg>
+                    <rdg wit="#ee">Which signifies their pure celestial breed.</rdg>
+                    <rdg wit="#ae">Which signifies their <seg>pure celestial breed<note type="critical">The traits Pulter identifies with the birds-of-paradise, including the belief that they never land on the earth and do not eat, are included in the description in Du Bartas’s very popular hexameral poem, <title rend="italic">The Divine Weeks and Works</title>. The bird-of-paradise is included with the “Strange admirable birds” on the fifth day of the first week of the poem (Curations). The belief that the bird-of-paradise has no feet and, thus, never touches the ground, likely derives from the preparation of specimens with the feet, and sometimes wings and heads, removed (Harrison 175). See “Curations” for an illustration of specimens prepared in this way.</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Their &ff;lesh consumes not, yet their often &ff;ound</rdg>
+                    <rdg wit="#ee">Their flesh <seg>consumes<note type="gloss">rots</note></seg> not, yet they're often found</rdg>
+                    <rdg wit="#ae">Their flesh consumes not, yet they're often found</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">When Dead, for their Indulgencie their Crownd</rdg>
+                    <rdg wit="#ee">When dead; <seg>for their indulgency they're crowned<note type="critical">the indulgent nature of the birds is described a few lines later, in relation to how they raise their young.</note></seg>.</rdg>
+                    <rdg wit="#ae">When dead. For their <seg>indulgency<note type="critical">the quality or act of being indulgent; the gratification of another’s desires; forebearance; relaxation of restraint <bibl>(<title rend="italic">OED</title>, "indulgency," n., 1; “indulgence,” n., 1a.). </bibl>Indulgency is the quality that “crowns” the bird-of-paradise; i.e. their generosity toward others is what is most admirable about them. Though the ultimate beneficiaries of their indulgence are their offspring, the following lines suggest that it is their care for their partners, signified by their “conjoined” bodies, that confirms their superiority to other birds and ensures that their offspring are secure.</note></seg> they're crowned:</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">T'is <seg>true<note type="physical">over “r,” imperfectly erased 
+                        ascender, as for “h”</note></seg> Some Birds will help to build their Nests</rdg>
+                    <rdg wit="#ee">'Tis true, <seg>some birds<note type="critical">The speaker means that some <hi rend="italic">male</hi> birds help the females construct nests.</note></seg> will help to build their nests,</rdg>
+                    <rdg wit="#ae">'Tis true some birds will help to build their nests,</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">And Swans and Doves Sit half the Time at least</rdg>
+                    <rdg wit="#ee">And swans and doves sit half the time, at least;</rdg>
+                    <rdg wit="#ae"><seg>And swans and doves sit half the time at least<note type="critical">Pulter elevates birds-of-paradise above other species (swans and doves) that also share the care of offspring between male and female partners. The birds-of-paradise “transcend all animals in love” because of their unique anatomy, as understood by their first European observers, allows the male and female to join together to protect the egg. By the second half of the seventeenth century, natural historians had begun to challenge earlier accounts of this bird (see “Curations”).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">But these Transcend all Animals in Loue</rdg>
+                    <rdg wit="#ee">But <seg>these<note type="gloss">the manucodiats</note></seg> transcend all animals in love,</rdg>
+                    <rdg wit="#ae">But these transcend all animals in love,</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Which Shews that their Extraction's from above</rdg>
+                    <rdg wit="#ee">Which shows that their <seg>extraction's<note type="gloss">origin, descent</note></seg> from above;</rdg>
+                    <rdg wit="#ae">Which shows that their extraction's from above.</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">&ff;or on their Backs the Males have hollow Pits</rdg>
+                    <rdg wit="#ee">For on their backs, the males have hollow pits</rdg>
+                    <rdg wit="#ae">for on their backs the males have hollow pits</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">In <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> the &ff;emale lays her Egs and Sits</rdg>
+                    <rdg wit="#ee">In which the female lays her eggs and sits;</rdg>
+                    <rdg wit="#ae">In which the female lays her eggs and sits,</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Shee</fw></rdg>
+            </app>
+            <app>
+              <rdg wit="#ft"><pb ed="#ft" facs="#f7610_191" n="94r"/></rdg>
+              <rdg wit="#ee"><pb ed="#ee" facs="#f7610_191"/></rdg>
+              <rdg wit="#ae"><pb ed="#ae" facs="#f7610_191"/></rdg>
+            </app>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Shee having the like Concave in her breast</rdg>
+                    <rdg wit="#ee">She, having the like concave in her breast,</rdg>
+                    <rdg wit="#ae">She having the like concave in her breast;</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Beeing thus conjoyn'd their young Securely Rest</rdg>
+                    <rdg wit="#ee">Being thus conjoined, <seg>their young securely rest<note type="critical">Pulter’s source for her information on this bird appears to be <bibl>Simon Goulart, <title rend="italic">A Learned Summary Upon the Famous Poem of William of Saluste Lord of Bartas</title> (London, 1621), 1.240-1.</bibl></note></seg>.</rdg>
+                    <rdg wit="#ae">Being thus conjoined, their young securely rest.</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Let Parents then Learn here Indulgencie</rdg>
+                    <rdg wit="#ee">Let parents then learn here indulgency,</rdg>
+                    <rdg wit="#ae"><seg>Let parents then learn here indulgency<note type="critical">the meaning or lesson of the emblem. Parents must seek “unity” with each other in order to be “blessed” in their children.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">&ff;or none are Blessed without Unitie</rdg>
+                    <rdg wit="#ee">For none are blessed without unity.</rdg>
+                    <rdg wit="#ae">For none are blessed without unity.</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">But know that the least Spark or beam of Love</rdg>
+                    <rdg wit="#ee">But know that the least spark or <seg>beam<note type="gloss">ray</note> of love</seg></rdg>
+                    <rdg wit="#ae">But know that the least spark or beam of love</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Is first diffus'd and kindled from above</rdg>
+                    <rdg wit="#ee">Is first diffused and kindled from above.</rdg>
+                    <rdg wit="#ae">Is first diffused and kindled from above.</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">&ff;or in my poor experience this I find</rdg>
+                    <rdg wit="#ee">For in my poor experience, this I find:</rdg>
+                    <rdg wit="#ae">For in my poor experience this I find:</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">The holyest Men are evermore most Kind</rdg>
+                    <rdg wit="#ee">The holiest men are evermore most kind.</rdg>
+                    <rdg wit="#ae">The holiest men are evermore most kind.</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Then Oh my God from thy bright Throne above</rdg>
+                    <rdg wit="#ee">Then O, my God, from Thy bright throne above,</rdg>
+                    <rdg wit="#ae">Then, Oh my God, from thy bright throne above</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Irradiate my Soul Soe with thy Love</rdg>
+                    <rdg wit="#ee"><seg>Irradiate<note type="gloss">illuminate, brighten spiritually</note></seg> my soul so with Thy love</rdg>
+                    <rdg wit="#ae">Irradiate my soul so with thy love,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">That as the Sun Illuminateth <seg><del>to<note type="physical">
+			    struck-through with multiple slanted lines</note></del></seg> all</rdg>
+                    <rdg wit="#ee"><seg>That<note type="gloss">So that</note></seg>, as the sun illuminateth all</rdg>
+                    <rdg wit="#ae">That as the sun illuminateth all</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Which are capacious on this Earthly Ball</rdg>
+                    <rdg wit="#ee">Which are <seg>capacious<note type="gloss">contained</note></seg> on this earthly ball,</rdg>
+                    <rdg wit="#ae">Which are <seg>capacious<note type="gloss">qualified, adapted or disposed for the reception of; of capacity or qualified to do something <bibl>(<title rend="italic">OED</title>, "capacious," n., 3)</bibl>; i.e. everything on the earth that is capable of receiving the sun’s light.</note></seg> on this earthly ball,</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Yet Still his brightest beams to Heaven Return</rdg>
+                    <rdg wit="#ee">Yet still his brightest beams to Heaven return,</rdg>
+                    <rdg wit="#ae">Yet still his brightest beams to heaven return;</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Soe let mee with Such holy &ff;ervour Burn</rdg>
+                    <rdg wit="#ee">So let me with such holy fervor burn:</rdg>
+                    <rdg wit="#ae">So let me with such holy fervor burn.</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">When that Eternall Spark begins to Glow</rdg>
+                    <rdg wit="#ee">When that eternal spark begins to glow</rdg>
+                    <rdg wit="#ae">When that eternal spark begins to glow</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">In my Chast Breast let <seg>itt<note type="physical">“tt” appears in different hand from main scribe, with first possibly written over “s”</note></seg> diffuse below</rdg>
+                    <rdg wit="#ee">In my chaste breast, let it diffuse below</rdg>
+                    <rdg wit="#ae">In my chaste breast, let it diffuse below</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">To all Relations then Reascend above</rdg>
+                    <rdg wit="#ee">To all <seg>relations<note type="gloss">people related by blood or marriage; social interactions; kinships</note></seg>, then reascend above</rdg>
+                    <rdg wit="#ae">To all relations, then reascend above</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">To God the &ff;ount of Glory, Life and <seg>Love<note type="physical">
+                        remaining quarter-page blank</note></seg></rdg>
+                    <rdg wit="#ee">To God, the fount of glory, life and love.</rdg>
+                    <rdg wit="#ae">To God, the fount of glory, life, and love.</rdg>
+                </app>
+            </l>
+            
+        </body>
+    </text>
+</TEI>
+
+
+

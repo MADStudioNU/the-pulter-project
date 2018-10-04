@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.79">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Porcupine (Emblem 13)</title>
+                <title type="sub">Poem #79</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>revenge</term>
+                    <term>pride</term>
+                    <term>humility</term>
+                    <term>beast fable</term>
+                </keywords>
+            </textClass>  
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_201.jpg" xml:id="f7610_201"/>
+        <graphic url="./document_images/7610_202.jpg" xml:id="f7610_202"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>June 7, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_201" n="99r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_201"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_201"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft">
+                        <fw facs="#f7610_201" type="emblemNum" place="margin-left">13</fw><!-- [Untitled] --></rdg>
+                    <rdg wit="#ee">Emblem 13</rdg>
+                    <rdg wit="#ae">Emblem 13</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations (such as tildes) are expanded with added letters in italics, “ff” is modernized to “F,” superscriptions are lowered, and major alterations to the text (of a word or more, not individual letters) are noted in the footnotes. The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader.</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee"><note type="headnote">This is one of several “Emblems” criticizing misplaced pride, a vice here vested in a porcupine, while the virtues of the patiently suffering—and rather more surprisingly, <emph rend="italic">laughing</emph>—tortoise align with those vaunted in many poems recounting the speaker’s endurance of earthly grief. In this beast fable, a vain male porcupine swaggers along shooting his quills and insulting a female tortoise, who hides motionless in her shell. When a cart passes by and the riders laugh at the animals, the porcupine turns his weaponry on them, but the riders drive him away with stones and whips. Although their cart rolls over the tortoise, she is protected by her shell. The injured porcupine then seems to seize control of the emblem by moralizing what he has learned about the value of non-retaliation, a lesson the speaker echoes with her own expressed aim of leaving retribution in God’s hands. The humility and apparent pacifism of such a vow stands in marked contrast to the final line’s confident invocation of divine vengeance upon the speaker’s unnamed “oppressors.”</note></rdg>
+                  <rdg wit="#ae"><note type="headnote">This emblem contrasts the reactions of a patient female tortoise and an irascible male porcupine to mockery and violence. It becomes a meditation on the dangers of seeking revenge.</note></rdg>
+                </app>
+            </head>
+            <lg>
+            <l n="1">
+                <app>
+                    <rdg wit="#ft"><fw type="seqNum" place="inline">13</fw>The Porcupine went Ruffling in <seg>his<note type="physical">“is”, in different hand, written over “er”</note></seg> Pride</rdg>
+                    <rdg wit="#ee">The porcupine went <seg>ruffling<note type="gloss">swaggering</note></seg> in his pride,</rdg>
+                    <rdg wit="#ae">The Porcupine went Ruffling in <seg>his<note type="critical">The letters “is” have been written over top of “er,” indicating that the scribe (or Pulter) first gave the Porcupine a feminine gender.</note></seg> Pride</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Scorning the humble <seg>Tortois<note type="physical">“ois” appears in darker ink, possibly written over other letters</note></seg> by his Side</rdg>
+                    <rdg wit="#ee">Scorning the humble tortoise by his side,</rdg>
+                    <rdg wit="#ae">Scorning the humble Tortois by his Side</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Spurning her oft, and Spurting many a Quill</rdg>
+                    <rdg wit="#ee"><seg>Spurning<note type="gloss">kicking; treating contemptuously</note></seg> her oft, and spurting many a quill;</rdg>
+                    <rdg wit="#ae">Spurning <seg>her<note type="physical">Pulter has gendered the tortoise as female and associated her with qualities which are often linked with virtuous femininity, such as humility and patience. In <title rend="italic">The historie of serpents. Or, The second booke of liuing creatures</title> (1608), Edward Topsell describes the tortoise (pp. 281-287). For the most part the animal is referred to throughout the description as “he,” but in three cases the tortoise is a “she.” In the first, Topsell tells the story of Jupiter inviting all of the animals to a banquet. The tortoise came late and when asked why, she said that she found her own house to be the most excellent. In anger, Jupiter affixed her house permanently onto her back (p. 283). A second story describes Pliny’s version of the advice of the Roman Flaminius to the Achaeans. He urged them not to try to conquer the island of Zacynthii, because just like the tortoise is safe when she is within her shell, and vulnerable when she puts out a limb, so the Achaeans would be similarly at risk (pp. 283-284). And finally, Topsell notes that “Alciatus hath a witty Emblem of a Torteyse to expresse a good huswife, and that the fame of her vertues, spreadeth much further then eyther beautie or riches.” The last half of the poem in question reads, “Such is the shape that Phidias did me frame, / And bade me goe resemble women kind, / To teach them silence, and in house remaine, / Such pictures vnderneath my feete you find” (p. 284). The association in the first and third of these stories is of women with domestic space. While Pulter did not necessarily read Topsell, the writer Anne Southwell did. On one of the later pages of her manuscript miscellany she quotes several passages from Topsell’s works (Folger Shakespeare Library MS V.a.198, fol. 68r-v). Under the heading “of the land Tortiss or Turtle” she tells the story of Jupiter and the tortoise, but changes the gender of the animal from female to male: “Iupiter asking him why he stayed so long, he reply[ed] his owne house gaue him most honnor, Iupiter being angrie a’iudged him that he should still carrie his house vpon his back.” See “Curations” for full transcriptions of these passages.</note></seg> oft, and <seg>Spurting many a Quill<note type="critical">The porcupine was believed to be able to shoot his quills like arrows. Pliny’s <title rend="italic">The historie of the world</title>, translated by Philemon Holland (1601, 1634, and 1635), to which Pulter makes reference elsewhere, compares the “Porkpen” to the urchin or hedge-hog: “but the Porkpen hath the longer sharp pointed quilles, and those, when he stretcheth his skin, he sendeth and shooteth from him” (book 8, chapter 35, p. 215). For a transcription of Pliny’s discussion of the porcupine, see “Curations.”</note></seg></rdg></app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">The <seg>Tortois<note type="physical">“ois” appears in in darker ink, possibly written over other letters</note></seg> Pul’d her head in and lay Still</rdg>
+                    <rdg wit="#ee">The tortoise pulled her head in and lay still.</rdg>
+                    <rdg wit="#ae">The Tortois Pul’d her head in and lay Still</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Hee cald her patient &ff;ool &amp; ſuff’ring Aſs</rdg>
+                    <rdg wit="#ee">He called her patient fool, and suff’ring ass;</rdg>
+                    <rdg wit="#ae">Hee cald her patient Fool &amp; suff’ring Ass</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Thus ore her Back inſulting <seg>hee<note type="physical">final “e” appears in darker ink, possibly different hand, written over earlier letter, possibly “r”</note></seg> did Paſs</rdg>
+                    <rdg wit="#ee">Thus o’er her back, insulting, he did pass.</rdg>
+                    <rdg wit="#ae">Thus ore her Back insulting hee did Pass</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Just then a Loaded Cart and Men came by</rdg>
+                    <rdg wit="#ee">Just then, a loaded cart and men came by;</rdg>
+                    <rdg wit="#ae">Just then a Loaded Cart and Men came by</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">As Soon as they this different Couple Spie</rdg>
+                    <rdg wit="#ee">As soon as they this <seg>different<note type="gloss">dissimilar</note></seg> couple spy,</rdg>
+                    <rdg wit="#ae">As Soon as they this different Couple Spie</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">They Laught which vex’d the Porcu at the Heart</rdg>
+                    <rdg wit="#ee">They laughed, which vexed the porcu at the heart;</rdg>
+                    <rdg wit="#ae">They Laught which vex’d the Porcu at the Heart</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Arrows from’s living Quiver hee did Dart</rdg>
+                    <rdg wit="#ee">Arrows <seg>from’s<note type="gloss">from his</note></seg> living <seg>quiver<note type="gloss">case for arrows</note></seg> he did dart</rdg>
+                    <rdg wit="#ae">Arrows from’s living Quiver hee did Dart</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Promiſcuo<add place="below">^</add><add place="above">u</add>sly at Horſes, Men, and Cart</rdg>
+                    <rdg wit="#ee"><seg>Promiscuously<note type="gloss">indiscriminately</note></seg> at horses, men, and cart;</rdg>
+                    <rdg wit="#ae"><seg>Promiscuously<note type="critical">Unlike this porcupine’s indiscriminate launching of quills, ancient natural histories, such as those by Claudian, celebrated the porcupine for its judicious use of its power to shoot quills: “Besides his arms he displays cunning and a cold, calculated fury that never wastes its weapons but cautiously contents itself with threats, for he never expends a dart but in defence of his life” (Claudian, “De hystrice (the porcupine),” <title rend="italic">Claudian</title>, translated by Maurice Platnauer, 2 vols, W. Heinemann, 1922, vol. 2, pp. 181-185 (p. 183); reference from Nicole Hochner, “Louis XII and the Porcupine: Transformations of a Royal Emblem,” <title rend="italic">Renaissance Studies</title>, vol. 15, no. 1, 2001, pp. 17-36 (p. 19); with thanks to Katherine Eggert, one of this edition’s reviewers.</note></seg> at Horses, Men, and Cart</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">The <seg>&ff;rocketeers<note type="physical">“s” appears in darker ink</note></seg> threw Stones and laſh’d <seg>their<note type="physical">“t,” “e,” and “r” in darker ink, possibly different hand from main scribe; “e” appears written between original “h” and “i” and “r” written over original “s” (formerly, “his” in hand of main scribe)</note></seg> Whip</rdg>
+                    <rdg wit="#ee">The <seg>frocketeers<note type="gloss">Apparently a word made up by Pulter; in her day, a “frock” could mean a loose outer garment worn by peasants and workmen, or the wearer thereof, which appears to be the meaning in this case.</note></seg> threw stones and lashed their whip,</rdg>
+                    <rdg wit="#ae">The <seg>Frocketeers<note type="gloss">This term may mean “peasants” since, as Alice Eardley suggests in her edition, the word may be derived from the loose outer garments or frocks they wore (p. 202).</note></seg> threw Stones and lash’d <seg>their<note type="physical">The letters “t” and “e” have been added to “h” and “i” and the letter “r” has been written on top of “s,” so that “their” replaces “his.”</note></seg> Whip</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Which made the &ff;urious Porcupine to Skip</rdg>
+                    <rdg wit="#ee">Which made the furious porcupine to <seg>skip<note type="gloss">leap; hurry (away)</note></seg>,</rdg>
+                    <rdg wit="#ae">Which made the <seg>Furious<note type="critical">Pulter is associating the porcupine with pride (line 1) and, here, when he is “Furious,” with wrath. In <title rend="italic">Du Bartas his deuine weekes and workes translated: and dedicated to the Kings most excellent Maiestie by Iosuah Syluester</title>, 1611, p. 273, Wrath is linked with the porcupine: “Then, boyling <hi rend="italic">Wrath</hi>, stern, cruell, swift, and rash, / That like a Boar her teeth doth grinde and gnash: / Whose hair doth stare like bristled Porcupine” (with thanks to one of this edition’s anonymous reviewers for this reference.) For Du Bartas’s description of the porcupine in his account of the animals created on the sixth day, see “Curations.”</note></seg> Porcupine to Skip</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Then drove their Cart over the Tortois Shell</rdg>
+                    <rdg wit="#ee">Then drove their cart over the tortoise shell:</rdg>
+                    <rdg wit="#ae">Then drove their Cart over the Tortois Shell</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">But Shee in Spite of all their Spite was well</rdg>
+                    <rdg wit="#ee">But she, in spite of all their spite, was well.</rdg>
+                    <rdg wit="#ae">But Shee in Spite of all their Spite <seg>was well<note type="critical">Topsell refers to the hardness of a tortoise’s shell: “And Palladius was not deceiued when he wrote thereof, that vppon the same might safelie passe ouer a Cart-wheele, the Cart being loaded. And therefore in this, the Torteyse is more happy then the Crocodile, or any other such Beast” (p. 282). Both the loaded cart and the happiness of the tortoise figure in Pulter’s emblem. Ben Jonson’s comedy <title rend="italic">Volpone or The Fox</title> makes good use of a tortoise shell in the punishment of Sir Politic Would-Be in act 5, scene 4. Peregrine, the English traveler, has been assaulted in the street by Sir Politic’s wife and so decides to seek revenge by pretending that spies have come to arrest him. Sir Politic decides to take cover in a tortoise shell that he happens to have in his living room. When the spies (really merchants Peregrine has enlisted) begin to torment him, Peregrine says, “Nay, you may strike him, sir, and tread upon him. He’ll bear a cart.” <hi rend="italic">First Merchant</hi>: “What, to run over him?” <hi rend="italic">Peregrine</hi>: “Yes.” (5.4.66-67; <title rend="italic">The Norton Anthology of English Literature</title>, edited by Stephen Greenblatt et al., <num type="ordinal" value="9">9<hi rend="sup">th</hi></num> ed., vol. B, Norton, 2012, p. 1526).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">The Cart went on The Ruſticks they Run after</rdg>
+                    <rdg wit="#ee">The cart went on; the rustics, they run after;</rdg>
+                    <rdg wit="#ae">The Cart went on The Rusticks they Run after</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">The Tortois hardly could <add place="below">^</add><add place="above">hold</add> in her Laughter</rdg>
+                    <rdg wit="#ee">The tortoise hardly could hold in her laughter,</rdg>
+                    <rdg wit="#ae">The Tortois <seg>hardly could hold in her Laughter<note type="critical">Margaret J.M. Ezell uses this image from this emblem in the title of her important article “The Laughing Tortoise: Speculations on Manuscript Sources and Women’s Book History,” <title rend="italic">English Literary Renaissance</title> vol. 38, no. 2, 2008, pp. 331-355. Ezell suggests that the female tortoise refrains from laughing when hearing the male porcupine’s moan due to a sense of politeness rather than in reaction to being chastised (p. 347).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">But did Refrain hearing the Dolefull moan</rdg>
+                    <rdg wit="#ee">But did refrain, hearing the doleful moan</rdg>
+                    <rdg wit="#ae">But did Refrain hearing the Dolefull moan</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">The Porcupine made to himſelfe alone</rdg>
+                    <rdg wit="#ee">The porcupine made to himself alone:</rdg>
+                    <rdg wit="#ae">The Porcupine made to himselfe alone</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Saying, let Revengfull Spirits learn by mee</rdg>
+                    <rdg wit="#ee">Saying, “Let revengeful spirits learn by me</rdg>
+                    <rdg wit="#ae">Saying, let Revengfull Spirits learn by mee</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">Not to Retaliate an <seg>Injurie<note type="physical">“n” written over an “i”</note></seg></rdg>
+                    <rdg wit="#ee">Not to retaliate an injury,</rdg>
+                    <rdg wit="#ae">Not to Retaliate an Injurie</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">But of this Tortois learn Humility</rdg>
+                    <rdg wit="#ee">But of this tortoise learn humility.”</rdg>
+                    <rdg wit="#ae">But of this Tortois learn Humility</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">The Tortois Bluſh’d to hear her Self <w lemma="commend">co<hi rend="overline">m</hi>ended</w></rdg>
+                    <rdg wit="#ee">The tortoise blushed to hear herself commended,</rdg>
+                    <rdg wit="#ae">The Tortois Blush’d to hear her Self com<hi rend="italic">m</hi>ended</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">Then Crauld away and soe the Embleme ended.</rdg>
+                    <rdg wit="#ee">Then crawled away, and so the <seg>emblem<note type="gloss">The entire poem is classed in the genre of “emblem,” or a symbolic (especially pictorial) representation with a moral, but the term is used in this line to indicate that the fable of the porcupine and tortoise has ended (before the poem ends).</note></seg> ended.</rdg>
+                    <rdg wit="#ae">Then Crauld away and soe the Embleme ended.</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Soe</fw></rdg>
+            </app>   
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_202" n="99v"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_202"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_202"/></rdg>
+            </app>
+            <lg>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">Soe Waſps and Hornets, loſe their Lives &amp; Stings</rdg>
+                    <rdg wit="#ee">So <seg>wasps and hornets lose their lives and stings<note type="critical">Pulter’s entomology appears mistaken; while the honeybee’s barbed stinger catches in the skin, so that the bee eviscerates itself as it tries to fly away, wasps (and hornets, a type of wasp) can sting repeatedly without suffering themselves.</note></seg>:</rdg>
+                    <rdg wit="#ae"><seg>Soe<note type="critical">The catchword “Soe” appears at the bottom of the page, and there is a page break after line 24. Interestingly the page break occurs at a moment when the poem appears to end (“and soe the Embleme ended”), but actually the moralizing ending of the poem continues on the verso of the same leaf. Sometimes accidents of layout can reflect shifts of meaning in a poem. Elizabeth Scott-Baumann, in her book <title rend="italic">Forms of Engagement: Women, Poetry, and Culture 1640-1680</title>, Oxford University Press, 2013, p. 11 offers an expansive definition of form that includes “the material manifestations of form in <foreign rend="italic">mise en page</foreign>.” Here is an example of a page break bearing formal meaning.</note></seg> Wasps and Hornets, lose their Lives &amp; Stings</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">&ff;rom Selfe Reveng nought but Repentance <seg>ſprings<note type="physical">“ſpri” in darker ink, possibly over earlier letters</note></seg></rdg>
+                    <rdg wit="#ee">From self-revenge, nought but repentance springs;</rdg>
+                    <rdg wit="#ae">From Selfe Reveng nought but Repentance springs</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Then like the Tortois thoug I &ff;eel or See</rdg>
+                    <rdg wit="#ee">Then, like the tortoise, though I feel or see</rdg>
+                    <rdg wit="#ae">Then like the Tortois thoug I Feel or See</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">The least affront, or Seeming Injurie</rdg>
+                    <rdg wit="#ee">The least affront, or seeming injury,</rdg>
+                    <rdg wit="#ae">The least affront, or Seeming Injurie</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Yet let my mind aboue the greatest bee</rdg>
+                    <rdg wit="#ee">Yet let my mind above the greatest be:</rdg>
+                    <rdg wit="#ae">Yet let my mind aboue the greatest bee</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">What if they hurt my &ff;leſh, t’is but my Shell</rdg>
+                    <rdg wit="#ee">What if they hurt my flesh? ’Tis but my shell</rdg>
+                    <rdg wit="#ae">What if they hurt my Flesh, t’is but my Shell</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">That Suffers, my infranchiſd Soul is well</rdg>
+                    <rdg wit="#ee">That suffers; my <seg>enfranchised<note type="gloss">free from confinement or subjection</note></seg> soul is well.</rdg>
+                  <rdg wit="#ae">That Suffers, my <seg>infranchisd<note type="critical">Pulter writes of her soul or spirit as enfranchised (or set free) five other times in her poetry: "The Welcome" (Poem 19), "To Aurora [3]" (Poem 34), "The Perfection of Patience and Knowledge" (Poem 39), "Pardon Me, My Dearest Love" (Poem 42), and "Why Must I Thus Forever Be Confined" (Poem 57).</note></seg> Soul is well</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">Then at my oppreſſors &ff;eet my Selfe I’le lay</rdg>
+                    <rdg wit="#ee">Then at my oppressors’ feet myself I’ll lay;</rdg>
+                    <rdg wit="#ae">Then at my oppressors Feet my Selfe I’le lay</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <rdg wit="#ft">Vengence is thine my God, thou Wilt Repay.</rdg>
+                    <rdg wit="#ee">Vengeance is Thine, my God: Thou wilt repay.</rdg>
+                    <rdg wit="#ae">Vengence is thine my God, <seg>thou Wilt Repay<note type="critical">Romans 12:19: “Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord” (King James Version).</note></seg>.</rdg>
+                </app>
+            </l>
+                <app>
+                    <rdg type="milestone" wit="ft">
+                        <milestone unit="poem" rend="straight-ascendline"/>
+                    </rdg>
+                </app>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
+

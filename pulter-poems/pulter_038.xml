@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.38">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>To My Dear Jane, Margaret, and Penelope Pulter, they Being at London, I at Broadfield</title>
+                <title type="sub">Poem #38</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>invitation poem</term>
+                    <term>elements</term>
+                    <term>death</term>
+                    <term>feast</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_115.jpg" xml:id="f7610_115"/>
+        <graphic url="./document_images/7610_116.jpg" xml:id="f7610_116"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>July 5, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>July 5, 2018</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>July 5, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_115" n="56r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_115"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_115"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_115" type="pageNum" place="margin-topright">107</fw>To my Deare, J: P:, M: P:, P: P: they beeing at London, I at Bradfield</rdg>
+                    <rdg wit="#ee">To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</rdg>
+                    <rdg wit="#ae">To my Deare, <seg>J: P:, M: P:, P: P:<note type="critical">These initials refer to three of Pulter’s daughters, Jane, Margaret, and Penelope. On fol. 16v of Pulter’s manuscript, a hand different from the main scribe has written the note, “Jane Pulter, baptized May 1.1625. buried oct.8.1645 aet. 20.” The writing of this poem must predate Jane’s death in 1645. Sarah C.E. Ross discovered the names and dates of baptism of ten of Pulter’s children in the Cottered and Great Wymondley parish registers: Jane was baptized in 1625, Margaret in 1629, and Penelope in 1633 (<bibl><title rend="italic">Early Modern Women’s Manuscript Poetry</title>, general editors Jill Seal Millman and Gillian Wright, Manchester University Press, 2005, p. 113</bibl>). These three daughters were thus all under the age of 21 at the time Pulter wrote the poem.</note></seg> they beeing at London, I at <seg>Bradfield<note type="critical">Broadfield (or Bradfield) is the name of the estate in the parish of Cottered in Hertfordshire owned by the Pulters. <bibl><author>Sir Henry Chauncy</author>’s <title rend="italic">The historical antiquities of Hertfordshire</title> of <date>1700</date></bibl> gives the history of the estate, noting that Arthur Pulter retired to Bradfield after the outbreak of the civil war. There he “liv’d a retir’d Life, and thro’ the importunity of his Wife, began to build a very fair House of Brick upon this Mannor, but dying he never finished it” (p. 72). His grandson James Forester ultimately “repaired the Mannor-House, which was much decay’d thro’ the want of finishing it at the time it was built” (p. 74). A fold-out page illustrating the house appears facing p. 73 (though presumably this depicts the house as improved by Forester; see “Curations”). A family tree on p. 73 lists only 11 of Hester and Arthur Pulter’s 15 children.</note></seg></rdg>
+                 </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ee"><note type="headnote">In this poem, Pulter asks her three young daughters to come home to Broadfield to relieve her sadness. The invitation poem becomes the occasion for her to contrast the deadening pulls of earthly life with the liberatory happiness of heaven. The speaker loosely implies that providing comfort for their mother will create future spiritual blessings for them. She concludes the poem by imagining her daughter’s deaths as moments of sensual joy, as they are embraced in heaven and their scattered bodily elements reunited. Her opening imperative (“come”) transmutes into a wish for her daughters’ eternal glory. Because Pulter must have written this poem (in iambic pentameter couplets) before Jane’s death in 1645, its composition is earlier than many others.</note></rdg>
+                    <rdg wit="#ae"><note type="headnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations (such as tildes) are expanded with added letters in italics, “ff” is modernized to “F,” superscriptions are lowered, colons indicating abbreviations are removed, and major alterations to the text (of a word or more, not individual letters) are noted in the footnotes. The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader. The imagery depicting Pulter’s earthly suffering and her soul’s journey in heaven is striking and in order to allow a sense of discovery in the reader I do not provide a thematic headnote. These notes point out parallels I see with other writers, and particularly women writers, with the aims of placing Pulter in dialogue with ideas explored by other women around this time, and of tracing a kind of female poetic lineage or alternate canon.</note>
+                    </rdg>
+                </app>
+            </head>
+            <lg>
+                <l n="1">
+                <app>
+                    <rdg wit="#ft">Come my Deare Children to this <seg>Lon<add place="below">^</add><add place="above">e</add>ly<add place="above">lonely</add><note type="physical">“n” written over “v” or “u”; subscript caret below “l”; “lonely” in different hand from main scribe</note></seg> Place,</rdg>
+                    <rdg wit="#ee">Come, <seg>my dear children<note type="critical">Jane, Margaret, and Penelope were three of Hester’s fifteen children; they are referenced by Pulter in the title in her manuscript only by their initials (J. P., M. P., P. P.), which we have expanded in this edition; Broadfield is the name of her estate in Hertfordshire, a county north of London.</note></seg>, to this lonely place,</rdg>
+                    <rdg wit="#ae">Come my Deare Children to this <seg>lonely<note type="critical">“lonely” is added in superscript by a different hand, replacing a partially altered version of the word in the main hand.</note></seg> Place,</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Where Grayes coole, Stupifying Spring, doth Trace,</rdg>
+                    <rdg wit="#ee"><seg>Where Gray’s cool, stupefying spring doth trace.<note type="critical">Gray’s Spring “traced,” or passed, along the grounds of Broadfield; identified by Henry Chauncy (in Historical Antiquities, according to Eardley) as an example of a petrifying spring that slowly encrusts living things in a layer of minerals, thereby “stupefying” them (deadening, immobilizing, or rendering them stupid or insensible).</note></seg></rdg>
+                    <rdg wit="#ae">Where Grayes coole, <seg>Stupifying Spring<note type="critical">Gray’s Spring (or “Fount,” l. 3), was likely one of the “petrifying Springs in the Grounds of Broadfeld, and in the Parish of Clothall, which crust things that are laid in them, without Penetration,” mentioned in <bibl><author>Chauncy</author>’s <date>1826</date> edition of <title rend="italic">The Antiquities of Hertfordshire</title>, vol. 1, p. 12</bibl> (see Alice Eardley’s edition, pp. 53-54, note 50, where she explains that the springs seem to slowly turn things to stone by coating them in thin layers of minerals). The paradox of a moving spring that turns things to stone is a powerful image of deadened movement that captures the speaker’s lonely, sluggish despair.</note></seg>, doth <seg>Trace<note type="gloss">take its course</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Trust mee I think, I of this &ff;ount pertake;</rdg>
+                    <rdg wit="#ee">Trust me, I think I of this fount partake;</rdg>
+                    <rdg wit="#ae">Trust mee I think, I of this Fount pertake;</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">I am Soe dull; and Such Sad fancies make:</rdg>
+                    <rdg wit="#ee">I am so dull and such sad <seg>fancies<note type="gloss">imaginings, inventions</note></seg> make.</rdg>
+                    <rdg wit="#ae">I am Soe dull; and Such Sad <seg>fancies<note type="gloss">imaginings or inventions</note></seg> make:</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Nor can the Quintiſsence of Bacchus Liquor,</rdg>
+                    <rdg wit="#ee">Nor can the <seg>quintessence<note type="gloss">essence</note></seg> of <seg>Bacchus’s<note type="gloss">god of wine’s</note></seg> liquor,</rdg>
+                    <rdg wit="#ae">Nor can the <seg>Quintissence<note type="critical">“quintessence” (a refined essence or extract) and “elixir” (l. 6) are terms associated with alchemy, a discourse that heavily influenced Pulter. Another royalist poet, Jane Cavendish, uses alchemical discourse and the term “quintessence” several times in her poetry, which was written during the 1640s. For example, in her poem “The Quinticens of Cordiall” (<bibl><title rend="italic">Early Modern Women’s Manuscript Poetry</title>, edited by Marie-Louise Coolahan, general editors Jill Seal Millman and Gillian Wright, Manchester University Press, 2005, p. 90</bibl>), the poet celebrates her sister’s presence, which soothes Cavendish as they both suffer from the absence of their father, William Cavendish, then Marquis of Newcastle (see “Curations”).</note></seg> of <seg>Bacchus Liquor<note type="critical">Bacchus was the Roman god of wine, so Pulter is saying that neither alcohol nor an alchemical drug (“the Elixer”) can enliven her spirit; instead both of these earthly liquids are merely “Gross [dense, thick, or material as opposed to spiritual] extractions” (l. 7) that upset her.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Nor the Elixer, make my Spirit quicker.</rdg>
+                    <rdg wit="#ee">Nor the <seg>elixir<note type="gloss">drug that could prolong life, imagined by alchemists to be closely related to “the philosopher’s stone,” the magical preparation that could change metals into gold and grant humans immortality; an all-purpose remedy for disease.</note></seg> make my spirit <seg>quicker<note type="gloss">more animated</note></seg>.</rdg>
+                    <rdg wit="#ae">Nor the Elixer, make my Spirit <seg>quicker<note type="gloss">more alive</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Thoſe Groſs extractions doth <seg>my<note type="physical">“y” written over other letter or blotted accidentally</note></seg> thoughts annoy;</rdg>
+                    <rdg wit="#ee">Those <seg>gross<note type="gloss">physical, material</note></seg> extractions doth my thoughts annoy:</rdg>
+                    <rdg wit="#ae">Those Gross extractions doth my thoughts annoy;</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Tis fasting fancies are my Souls Sole Joy.</rdg>
+                    <rdg wit="#ee">’Tis fasting; <seg>fancies<note type="gloss">because she values “fancies” (the imagination), liquors and elixirs are as appealing to her as fasting, or abstaining from food</note></seg> are my soul’s sole joy.</rdg>
+                    <rdg wit="#ae">Tis fasting <seg>fancies<note type="critical">Unlike the “Sad fancies” (l. 4) or thoughts she imagines in her present state of loneliness, the “fasting fancies” that her spirit conjures without any liquid help from wine or potions are a source of joy. “Fancies” is a word that Margaret Cavendish uses frequently when she writes of the power of poetic creativity (see her collection <bibl><title rend="italic">Poems, and fancies</title> [<date>1653</date>]</bibl>). For example, see the description of fancy in “Poets have most Pleasure in this Life,” ll. 1-10, in “Curations.”</note></seg> are my Souls Sole Joy.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">When my freed Soul, flies to her place of Birth;</rdg>
+                    <rdg wit="#ee">When my freed soul flies to her place of birth,</rdg>
+                    <rdg wit="#ae">When my <seg>freed<note type="critical">Pulter writes about her freed or “enfranchised” soul or spirit ultimately returning to heaven in several poems, such as "The Perfection of Patience and Knowledge" (Poem 39), ll. 16-20.</note></seg> Soul, flies to her place of Birth;</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">Then am I braue, my foot then <seg>Spurns<note type="physical">“ns” added later, perhaps over other letter</note></seg> this earth.</rdg>
+                    <rdg wit="#ee">Then am I brave, my foot then spurns this earth.</rdg>
+                    <rdg wit="#ae">Then am I braue, my foot then Spurns this earth.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">My mind being raiſ’d, aboue theſe Worldly Jars;</rdg>
+                    <rdg wit="#ee">My mind being raised above these worldly <seg>jars<note type="gloss">disputes, strifes</note></seg>,</rdg>
+                    <rdg wit="#ae">My mind being rais’d, aboue these <seg>Worldly Jars<note type="gloss">earthly discords and strifes</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">Mee thinks I play at football <seg>withe<note type="physical">“e” imperfectly erased</note></seg> the Stars.</rdg>
+                    <rdg wit="#ee">Methinks I play at football with the stars.</rdg>
+                    <rdg wit="#ae">Mee thinks I play at <seg>football<note type="critical">Football, the game played between two teams involving the kicking or handling of a ball, has been played since the medieval period, but its rules were not codified until the nineteenth century (<bibl><title rend="italic">OED</title> 1</bibl>). While some early modern writers depicted it as a blameless though vigorous form of exercise (such as James Hart: “some exercises are valid and strong, and some more mild and easy. Strong and violent exercises are wrestling, foot ball play, and the like, which are sparingly to be used”; <bibl><title rend="italic">Klinike, or The diet of the diseased</title> [<date>1633</date>], p. 214</bibl>), others condemned it (such as William Whately, who listed “Dangerous and mischieuous sports, as football, &amp;c.” in his <bibl><title rend="italic">A pithie, short, and methodicall opening of the Ten Commandements</title> [<date>1622</date>], p. 144</bibl>). Famously, Kent trips Goneril’s steward Oswald and scornfully calls him “you base foot-ball player” in <bibl><title rend="italic">King Lear</title> (1.4.84; edited by Kenneth Muir, Arden edition, Routledge, 1972, p. 38)</bibl>. Writers also used the image of a football to describe the earth. In a chapter called “Of the commerce of the air with the other Elements,” Gideon Harvey compares the earth to a “small footbal” which the air might “toss” out of its place in the heavens, were the air’s energy not “much refracted through having its Centre (upon which all its strength doth consist) divided into that dimension, which the Circumference of earth and water do make” (<bibl><title rend="italic">Archelogia philosophica nova, or New principles of philosophy</title> [1663], p. 352</bibl>). Margaret Cavendish uses sporting metaphors in her discussion of Descartes’s opinion about motion. She writes, “Wherefore as all other Mechanicks do not derive their Arts from Turners, so neither is it probable, that this world and all natural Creatures are produced by a whirling Motion, or a spherical rotation, as if some spirits were playing at Bowls or Football; for as I have often mentioned, Nature has infinite ways of Motions, whereof none is prime or principal, but self-motion, which is the producer of all the varieties Nature has within her self” (<bibl><title rend="italic">Observations upon experimental philosophy</title> [<date>1666</date>], p. 50</bibl>). Pulter's use of the term football also raises the issue of how common it might have been for girls and women to play the game. In his comedy <bibl><title rend="italic">The bird in a cage</title> (<date>1633</date>), <author>James Shirley</author></bibl> depicts the earth as a football, but also denies the possibility of women playing football, and uses it as an occasion for some smutty puns (see “Curations”). And Thomas Killigrew in his tragi-comedy The first part of <bibl><title rend="italic">Cicilia &amp; Clorinda, Or, Love in arms</title> (<date>1664</date></bibl>; though written between 1650 and 1652 according to <bibl><author>J.P. Vander Motten</author>’s <title rend="italic">ODNB</title></bibl> article) has a prince of Lombardy complain of a princess of Savoy, “She will play at foot-ball, thresh, and hew woods, as well as her Brother; Alass, Sir, 'tis not there as in <hi rend="italic">Rome</hi>, and the Eastern World, where the Women are soft, bred nice, and full of tender thoughts; Here is no difference betwixt the Sexes” (see “Curations”). Pulter’s image of her mind and “foot” (l. 10) bravely spurning the earth to play football with the stars suggests several readings. She may be kicking the stars as if they are footballs, or she may be kicking the football earth alongside the personified stars or planets, her teammates or opponents. It's a startling image of joy or defiance that contrasts her misery on earth.</note></seg> with the <seg>Stars<note type="critical">Anne Southwell similarly conjures a whimsical image of a female speaker investigating the heavens in her elegy to Cicely Ridgway, Countess of Londonderry, when she imagines the Countess’s spirit flying among the planets. Southwell wants to know “whether the starrs be Knobbs uppon the spheres? / Or shredds compos’d of Phoebus goulden hayres? / Or whether th’Ayre be as a cloudy siue [i.e., sieve]? / the starrs be holes through w<hi rend="italic">hi</hi>ch the good soules driue?” (<bibl>“An Elegie written by the Lady A:S: to the Countesse of London Derrye,” ll. 29-32; <title rend="italic">The Southwell-Sibthorpe Commonplace Book: Folger MS. V.b.198</title>, edited by <author>Jean Klene</author>, Medieval &amp; Renaissance Texts &amp; Studies, 1997, p. 25</bibl>).</note></seg>.</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Contemning all theſe Garish empty toyes,</rdg>
+                    <rdg wit="#ee"><seg>Contemning<note type="gloss">viewing with contempt</note></seg> all these garish, empty <seg>toys<note type="gloss">trivial things</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Contemning<note type="gloss">despising or scorning</note></seg> all these Garish <seg>empty toyes<note type="gloss">worldly trifles</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">My thoughts are fixt on true Celestiall Joyes.</rdg>
+                    <rdg wit="#ee">My thoughts are fixed on true celestial joys.</rdg>
+                    <rdg wit="#ae">My thoughts are fixt on true Celestiall Joyes.</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Come then, Exhillerate my drooping Spirit,</rdg>
+                    <rdg wit="#ee">Come then, <seg>exhilarate<note type="gloss">enliven, make cheerful</note></seg> my drooping spirit:</rdg>
+                    <rdg wit="#ae"><seg>Come then<note type="critical">Pulter turns to address her daughters again, echoing line 1 (“Come my Deare Children … Come then”), recalling her echoed address in "Tell Me No More [On the Same]" (Poem 11). In that poem, the phrase “Tell me no more” is repeated at the beginning of lines 1, 5, 9, 13, 17, 23, and 37.</note></seg>, Exhillerate my drooping Spirit,</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Soe may you thoſe eternall Joyes inherit:</rdg>
+                    <rdg wit="#ee">So may you those eternal joys inherit;</rdg>
+                    <rdg wit="#ae"><seg>Soe<note type="critical">There is a page break after line 16, and the catchword “Soe” appears at the bottom of the page. The scribe’s use of catchwords suggests that he or she is imitating the appearance of printed books which used catchwords in the lower right corners of pages to guide binders who had to fold, cut, and arrange individual pages from larger sheets to ensure they were bound in the correct order. Compilers of manuscripts would likely have written in quires of blank leaves, and so would not have needed to use catchwords for any structural purpose.</note></seg> may you those eternall Joyes inherit:</rdg>
+                </app>
+            </l>
+            </lg>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">Soe</fw></rdg>
+            </app>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_116" n="56v"/>
+                    <fw facs="#f7610_111" type="pageNum" place="margin-topleft">108</fw>
+                </rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_116"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_116"/></rdg>
+            </app>
+            <lg>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Soe may there ever in your happy breast,</rdg>
+                    <rdg wit="#ee">So may there ever, in your happy breast,</rdg>
+                    <rdg wit="#ae">Soe may there ever in your happy breast,</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">Thoſe bleſsed <w lemma="jems"><abbr>Je<hi rend="overline">m</hi></abbr>s</w>, Joy and Peace still rest.</rdg>
+                    <rdg wit="#ee">Those blesséd gems, joy and peace, still rest.</rdg>
+                    <rdg wit="#ae">Those blessed Jem<hi rend="italic">m</hi>s, <seg>Joy and Peace<note type="critical">Pulter’s depiction of Joy and Peace as gems recalls her poem "Aletheia’s Pearl" (Poem 32) a kind of spiritual autobiography, in which the pearl the speaker learns to value is Truth. In that poem, the speaker as a foolish younger woman invites a personified Peace (“that Stately Dame”, l. 25) to live with her, hoping that Peace’s daughter Joy would follow, but Alithea explains that “those two Jolly Lady’s,” l. 32, will not stay long on earth. Nonetheless, the speaker welcomes Peace and Joy (the latter of which wears an “Azure vesture … / Studded with Gem<hi rend="italic">m</hi>s,” ll. 68-69) who pass a mirthful evening, but who have left by morning, leaving Sorrow and Fear in their place (ll. 64-78; my transcriptions from the manuscript). It seems that in this poem her daughters can have lasting joy and peace.</note></seg> still rest.</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Then when Astrea, with her Sacred charms</rdg>
+                    <rdg wit="#ee">Then when <seg>Astraea<note type="gloss">goddess of justice</note></seg>, with her sacred charms</rdg>
+                    <rdg wit="#ae">Then when <seg>Astrea<note type="critical">Astraea is most commonly known as the Roman goddess of Justice, but for Pulter Astrea is one of two goddess figures that represent the concept of Truth in her poetry (the other is Alithea). Astrea is explicitly identified with Truth in "To Aurora [2]" (Poem 26), ll. 9-12, but she is also associated with Justice (as in poem 7, “On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester” (Poem 7), ll. 15-18, where her lineage as the daughter of Aurora and Astreus is described). Eardley notes in her glossary that this lineage is not standard.</note></seg>, with her Sacred charms</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Hath thrown you in mild mercies downey Armes,</rdg>
+                    <rdg wit="#ee">Hath thrown you in mild Mercy’s downy arms,</rdg>
+                    <rdg wit="#ae">Hath thrown you in mild <seg>mercies<note type="critical">Personified Mercy’s downy or soft arms recall Pulter’s poem 37, “Aurora,” l. 23 where the speaker imagines she will mount on “"Soft mercies Wings" (my transcription from the manuscript).”</note></seg> downey Armes,</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">O’re Look’d by Providance, allurd by Love;</rdg>
+                    <rdg wit="#ee"><seg>O’erlook’d<note type="gloss">overseen</note></seg> by Providence, allured by Love</rdg>
+                    <rdg wit="#ae"><seg>O’re Look’d<note type="gloss">looked upon from above</note></seg> by Providance, allurd by <seg>Love<note type="critical">The personifications of Providence and Love are not explicitly gendered.</note></seg>;</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">To thoſe <w lemma="immortal"><abbr>I<hi rend="overline">m</hi></abbr>ortall</w> Manſions above,</rdg>
+                    <rdg wit="#ee">To those immortal <seg>mansions above<note type="critical"> see John 14:2: “In my Father’s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.”</note></seg>:</rdg>
+                    <rdg wit="#ae">To those <seg>Im<hi rend="italic">m</hi>ortall Mansions above<note type="critical">John 14.2: “In my Father’s house are many mansions .... I go to prepare a place for you” (King James Version).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Then when Each Eliment i’ts part Shall claim,</rdg>
+                    <rdg wit="#ee">Then when each <seg>element its part shall claim<note type="critical">referring either to Christian Judgment Day, when the material parts of each body will reunite with their souls, or to the physical elements of the body eroding into their foundational forms after death</note></seg>,</rdg>
+                    <rdg wit="#ae">Then when Each Eliment i’ts <seg>part Shall claim<note type="critical">Pulter’s mention of each element claiming its part potentially alludes to the end of time on earth, or Judgment Day, when the elements will turn all matter into one of four forms. John Donne, for example, uses similar terminology in his poem “The Dissolution,” ll. 1-15 (see “Curations”). Pulter uses the four elements in various ways in her poems, most strikingly in "The Invocation of the Elements" (Poem 41) when she addresses personifications of the four elements (water, air, fire, and earth) in her wish to be reunited with her dead children.</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">May <add place="below">^</add><add place="above"><seg>you<note type="physical"> in different hand from main scribe</note></seg></add> all <seg><del type="strikethrough">you</del><note type="physical">double strike-through</note></seg> live in glory and in &ff;ame.</rdg>
+                    <rdg wit="#ee">May you all live in glory and in fame.</rdg>
+                    <rdg wit="#ae">May you <seg>all<note type="physical">“you” is added in superscript with a caret in a different hand (possibly Pulter’s), replacing “you” which has been crossed out after “all.” </note></seg> live in glory and in Fame.</rdg>
+                </app>
+            </l>
+                <app>
+                    <rdg type="milestone" wit="ft">
+                        <milestone unit="poem" rend="straight-horline"/>
+                    </rdg>
+                </app>
+        </lg>
+        </body>
+    </text>
+</TEI>

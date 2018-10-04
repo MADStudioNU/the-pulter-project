@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.21">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Circle [2]</title>
+                 <title type="sub">Poem #21</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                     <term>alchemy</term>
+                     <term>vanity</term>
+                     <term>dust</term>
+                     <term>afterlife</term>
+                 </keywords>
+            </textClass>
+
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_084.jpg" xml:id="f7610_084" />
+    </facsimile>
+    <text>
+      <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>May 22, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>July 3, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Elizabeth Scott-Baumann</persName>. Last updated <date>July 3, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+      <body>
+       <app>
+        <rdg type="milestone" wit="#ft"><milestone unit="poem" rend="LINE TYPE"/></rdg>
+      </app>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_084" n="40v"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_084"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_084"/></rdg>
+      </app>
+
+      <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Circle [2]</rdg>
+                    <rdg wit="#ee">The Circle [2]</rdg>
+                    <rdg wit="#ae">The Circle [2]</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                        superscript and subscript representations are retained.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers,
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                        result is an edition we consider a springboard for further work on Pulter’s poetry.
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note></rdg>
+                </app>
+            <app type="headnote">
+                <!--<rdg wit="#ft"><note type="headnote"></note></rdg>-->
+                <rdg wit="#ee"><note type="headnote">
+                  <p>Today, recombinant DNA is imagined as a potential savior of humanity and hypothesized as a source of a future free from illness or even death. In Pulter’s day, another combinatory science, alchemy, had similar goals; here, the speaker mocks its practitioners for their faith in combinations of elements formed with the aim of preserving lives indefinitely. So much is futile, the speaker suggests, given that humanity was formed by God from elemental “dust,” and must circle back into that humble form—one utterly contrary to the gleaming glory sought by the prying, pandering alchemists portrayed here.</p>
+                  <p>This poem appears in Pulter’s manuscript only a few pages after the first of four poems named “The Circle”: a figure which fascinated Pulter, as is evident in still more of her poems that are preoccupied with various forms of revolution (material, political, astronomical, and personal).</p>
+                </note></rdg>
+                <rdg wit="#ae"><note type="headnote">
+                  <p>In "The Circle [1]" (Poem 17), Pulter had depicted a cycle of despair and faith. In this, the second of four poems in Pulter’s manuscript entitled "The Circle", she suggests that the circle of eternal life sought by alchemists becomes a vicious cycle. Those who should have put their faith in God rather than alchemy turn to dust, both the dust of alchemical reaction and that of their ancestor Adam. Like her predecessors John Donne and George Herbert, Pulter evokes quite specific alchemical terms, substances (mercury and sulphur) and processes (calcining) but she demonstrates the impotence of this art compared to true Christian faith. Many of the terms Pulter uses have both a technical meaning in alchemy and a broader metaphorical or spiritual sense, such as “refine” and “consume”. (On dust and spiritual alchemy, see Curation).</p>
+                    <p>Alchemists believed that the union of mercury and sulphur was central to creating the Philosopher’s Stone. Pulter imagines love potions (“philtres”) being used to bring together these chemicals, which were often imagined as male and female, and to generate their offspring or “posterity”. She argues, though, that instead of the Philosopher’s Stone, all that is created is dust, just as all things return to dust and oblivion. This poem also follows "The Circle [1]" (Poem 17) in using the rhyme pair story / glory, which hints at the poet’s ability to create an enduring account of a life (despite both poems’ overt focus on transience), a theme accentuated here by the sonnet-like fourteen-line form. Sonnets were often connected to ideas of memorialisation, with Shakespeare promising “Not marble, nor the gilded monuments / Of princes, shall outlive this powerful rhyme” (Sonnet 55). This poem rejects the idea of any kind of eternal life except through God. The “urn” here is not a symbol of remembrance, but the physical burial vessel, in which our ashes will remain until the Day of Judgment when the dead will be reunited with their ancestors.</p>
+                <p>See <bibl>Jayne Archer, ‘A “Perfect Circle”? Alchemy in the Poetry of Hester Pulter’, <title rend="italic">Literature Compass</title>, 2 (2005), DOI: 10.1111/j.1741-4113.2005.00160.x.</bibl></p>
+                </note></rdg>
+            </app>
+            </head>
+
+      <l n="1">
+          <app>
+              <rdg wit="#ft">Those that <add place="below">^</add><add place="above"><w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w></add> hidden Chimick Art pfeſs</rdg>
+              <rdg wit="#ee">Those that the hidden <seg>chemic<note type="gloss">alchemy</note></seg> art profess</rdg>
+              <rdg wit="#ae">Those that the hidden <seg>chemic art<note type="gloss">chemistry or, here, alchemy</note></seg> profess</rdg>
+          </app>
+      </l>
+      <l n="2">
+          <app>
+              <rdg wit="#ft">And vizet Nature in her Morning dreſs</rdg>
+              <rdg wit="#ee">And visit Nature in her <seg>morning dress<note type="gloss">informal attire</note></seg>,</rdg>
+              <rdg wit="#ae">And visit Nature in her <seg>morning dress<note type="gloss">dressed for the day, informally</note></seg>,</rdg>
+          </app>
+      </l>
+      <l n="3">
+          <app>
+              <rdg wit="#ft">To Mercurie and Sulpher filterys give</rdg>
+              <rdg wit="#ee">To Mercury and Sulfur <seg>philters<note type="gloss">magic potions, esp. aphrodisiacs</note></seg> give</rdg>
+              <rdg wit="#ae">To <seg>mercury and sulphur<note type="gloss">substances with various mythical, symbolic and medicinal connotations, here evoked because they are prime elements in alchemical theory</note></seg> <seg>philtres<note type="gloss">potions or drugs, often supposed to cause love</note></seg> give</rdg>
+          </app>
+      </l>
+      <l n="4">
+          <app>
+              <rdg wit="#ft">That they conſum’d with Love may live</rdg>
+              <rdg wit="#ee">That they, <seg>consumed with love<note type="critical">The word “consumed” may signify “wasted,” as by disease, but may also refer to evaporation or burning, processes pertinent to the poem’s alchemical context. The phrase “consumed with love” was also used in Pulter’s time, as now, to indicate obsession.</note></seg>,  may live</rdg>
+              <rdg wit="#ae">That they, consumed with love, may live</rdg>
+          </app>
+      </l>
+      <l n="5">
+          <app>
+              <rdg wit="#ft">In their Posterytie and in them Shine</rdg>
+              <rdg wit="#ee">In their <seg>posterity<note type="gloss">descendants</note></seg>, and in them shine,</rdg>
+              <rdg wit="#ae">In their <seg>posterity<note type="gloss">descendant; here in the sense of the product or offspring of mercury and sulphur</note></seg> and in them shine</rdg>
+          </app>
+      </l>
+      <l n="6">
+          <app>
+              <rdg wit="#ft">Though they their beeing unto them Reſign</rdg>
+              <rdg wit="#ee">Though they their being <seg>unto them resign<note type="critical">Alchemists saw the combination of mercury and sulfur (often figured as a marriage—the “love” referred to here) as key to producing the philosopher’s stone, which could yield eternal life or turn all things to gold. In this passage, mercury and sulfur are personified as consuming an aphrodisiac which leads them to “resign” their individual lives (“their being”) for their “posterity,” which presumably “shine[s]” because it is gold.</note></seg>:</rdg>
+              <rdg wit="#ae">Though they their being unto them resign;</rdg>
+          </app>
+      </l>
+      <l n="7">
+          <app>
+              <rdg wit="#ft">Glorying to Shine <seg><add place="above">in</add>[<del>In</del>]<note type="physical">“In” is written in H2; it is blotted and appears to have been written over two earlier letters.</note></seg> Silver and in Gold</rdg>
+              <rdg wit="#ee">Glorying to shine <seg>in silver and in gold<note type="critical">Gold (masculine Sol) and silver (feminine Luna) were understood to be the two chief components of the philosopher’s stone (Eardley).</note></seg>,</rdg>
+              <rdg wit="#ae">Glorying to shine in silver and in gold</rdg>
+          </app>
+      </l>
+      <l n="8">
+          <app>
+              <rdg wit="#ft">Which &ff;retting vermill poyſon do thinfold</rdg>
+              <rdg wit="#ee">Which <seg>fretting vermeil poison do th’enfold<note type="gloss">Corrosive or consuming (“fretting”) red crystalline mercuric sulphide (“vermeil”) enfolds Mercury and Sulfur (the “th’” [short for “them”] of “th’infold,” or envelop).</note></seg>,</rdg>
+              <rdg wit="#ae">Which <seg>fretting<note type="gloss">gnawing, corroding</note></seg> <seg>vermeil<note type="gloss">bright red; vermilion was a pigment made from the reaction of sulphur and mercury</note></seg> <seg>poison<note type="critical">vermilion was indeed toxic</note></seg> <seg>doth enfold<note type="physical">MS = do thinfold</note></seg>,</rdg>
+          </app>
+      </l>
+      <l n="9">
+          <app>
+              <rdg wit="#ft">&ff;orgetting quite that they were once Refind</rdg>
+              <rdg wit="#ee">Forgetting quite that they were once <seg>refined<note type="gloss">separated from something inferior (e.g. dross); freed from impurities, defects (chemical, moral); distilled; improved</note></seg>.</rdg>
+              <rdg wit="#ae">Forgetting quite that they were once <seg>refined<note type="gloss">purified, pure</note></seg>.</rdg>
+          </app>
+      </l>
+      <l n="10">
+          <app>
+              <rdg wit="#ft">By time and &ff;ate to dust are all Calcind</rdg>
+              <rdg wit="#ee">By time and fate to <seg>dust<note type="critical">original, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> are <seg>all<note type="gloss">all beings</note></seg> <seg>calcined<note type="gloss">burnt to ash or dust; purified or refined by consuming the grosser part</note></seg>,</rdg>
+              <rdg wit="#ae">By time and fate to dust are all <seg>calcined<note type="critical">burned until reduced to quicklime; in alchemy this was thought to produce the most refined form of a substance</note></seg></rdg>
+          </app>
+      </l>
+      <l n="11">
+          <app>
+              <rdg wit="#ft">lying obliviated in their Urn</rdg>
+              <rdg wit="#ee">Lying <seg>obliviated<note type="gloss">forgotten</note></seg> in their urn</rdg>
+              <rdg wit="#ae">Lying <seg>obliviated<note type="gloss">forgotten, committed to oblivion</note></seg> in their urn</rdg>
+          </app>
+      </l>
+      <l n="12">
+          <app>
+              <rdg wit="#ft">Till they to their great Ancesters return</rdg>
+              <rdg wit="#ee">Till they to their <seg>great ancestors return<note type="critical">Pulter appears to refer to the biblical account of the process by which souls would be restored to their bodies in heaven at the Day of Judgment.</note></seg>;</rdg>
+              <rdg wit="#ae">Till they to their great ancestors return.</rdg>
+          </app>
+      </l>
+      <l n="13">
+          <app>
+              <rdg wit="#ft">Soe Man the Universe’s chiefest Glory</rdg>
+              <rdg wit="#ee">So man, the universe’s chiefest glory,</rdg>
+              <rdg wit="#ae">So man, the universe’s chiefest glory,</rdg>
+          </app>
+      </l>
+      <l n="14">
+          <app>
+              <rdg wit="#ft">His primitive’s Dust (Alas) doth end his Story.</rdg>
+              <rdg wit="#ee"><seg>His primitive’s dust (alas) doth end his story.<note type="gloss">Humanity will end its “story,” or life, after taking on the form of its originary components (its “primitive’s dust”).</note></seg></rdg>
+              <rdg wit="#ae">His <seg>primitive’s<note type="gloss">ancestor’s ie. Adam’s</note></seg> dust (alas) doth end his story.</rdg>
+          </app>
+      </l>
+
+      <app>
+        <rdg type="milestone" wit="#ft">
+            <milestone unit="poem" rend="straight-horline"/>
+        </rdg>
+      </app>
+      </body>
+    </text>
+</TEI>

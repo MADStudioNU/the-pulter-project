@@ -1,0 +1,1749 @@
+@import '../vendor/featherlight';
+@import '../vendor/drift';
+
+$navSize: 1em;
+$navAir: $navSize;
+$navHeight: 5em;
+$poemAndNavOverlap: 2em;
+$leftGutter: 10%;
+$leftGutterMobile: 7%;
+$rightGutter: 32%;
+$rightGutterMobile: 30%;
+$mobileSize: .8em;
+$globalBorderRadius: 2px;
+
+.pp.single-poem {
+  position: relative;
+  background: #181818;
+  background-image: linear-gradient(-10deg,
+    rgba(#151515, 1) 0%,
+    rgba(#181818, 1) 100%
+  );
+
+  .mc {
+    width: 80%;
+    max-width: 70em;
+    margin: 0 auto;
+    padding-bottom: 3em;
+
+    @include breakpoint(mobile) {
+      width: 100%;
+      padding-bottom: 0;
+    }
+
+    .masthead {
+      .content {
+        position: relative;
+        padding: 1.5em 0 4.5em + $poemAndNavOverlap 0;
+
+        img.logo {
+          height: 3em;
+          cursor: pointer;
+          position: fixed;
+
+          @include breakpoint(mobile) {
+            position: static;
+          }
+        }
+
+        .tools {
+          color: #181818;
+          display: inline-block;
+          position: absolute;
+          right: 1.5em;
+
+          .toggles {
+            min-width: 50%;
+            position: fixed;
+            top: 2em;
+            z-index: 9;
+            @include transform(translateX(-100%));
+            @include transition(top .3s cubic-bezier(0.175, 0.885, 0.320, 1.275));
+          }
+
+          @include breakpoint(mobile) {
+            @include vcenter;
+            right: 2em;
+            @include transition(none);
+
+            .toggles {
+              min-width: 0;
+              position: static;
+              @include transform(none);
+            }
+          }
+        }
+      }
+
+      &::after {
+        display: block;
+        content: '';
+        //position: absolute;
+        position: fixed;
+        background: rgba(255, 255, 255, .05);
+        height: $navHeight;
+        width: 100%;
+        left: 0;
+        right: 0;
+      }
+
+      @include breakpoint(mobile) {
+        background: #181818;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        position: fixed;
+        top: 0;
+        z-index: 94;
+        width: 100%;
+
+        .content {
+          padding: 0;
+          width: 100%;
+          position: relative;
+
+          img {
+            height: 2.5em;
+            margin-left: 2em;
+          }
+        }
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    #poem-sheet-list {
+      outline: none;
+    }
+
+    .poem {
+      $air: 2em;
+
+      position: relative;
+      top: -$poemAndNavOverlap;
+      background: #fff;
+      box-shadow: 0 0 50px 0 rgba(0, 0, 0, .3);
+      border-radius: 2px;
+
+      @include breakpoint(mobile) {
+        top: 0;
+        margin-top: 6em;
+        box-shadow: none;
+        border-radius: 0;
+      }
+
+      .headnote-toggle {
+        background-image: linear-gradient(
+            90deg,
+            rgba(81, 81, 81, 0) 33%,
+            rgba(40, 40, 40, .1) 100%
+        );
+
+        height: 1px;
+        position: relative;
+
+        @include breakpoint(mobile) {
+          background-image: linear-gradient(
+              90deg,
+              rgba(81, 81, 81, 0) 50%,
+              rgba(40, 40, 40, .1) 100%
+          );
+        }
+
+        .pp-action {
+          $triangleSize: 1em;
+          $mobileOffsetTop: -.5em;
+          $mobileOffsetBottom: -.5em;
+
+          right: 4em * 1em / .8em;
+          background: #fff;
+          font-size: .8em;
+          padding: 1em;
+          @include transition(color .2s);
+
+          a { color: rgba(40, 40, 40, .5); }
+
+          &::before,
+          &::after {
+            content: '';
+            position: absolute;
+            height: $triangleSize;
+            width: 100%;
+            left: 0;
+
+            @include transition(all, .2s);
+          }
+
+          &::before {
+            top: -.25em;
+            background: url('/images/triangle-up.svg') no-repeat 50% 50%;
+          }
+
+          &::after {
+            bottom: -.25em;
+            background: url('/images/triangle-down.svg') no-repeat 50% 50%;
+          }
+
+          @include breakpoint(mobile) {
+            right: 3em;
+
+            &::before {
+              top: $mobileOffsetTop;
+            }
+            &::after {
+              bottom: $mobileOffsetBottom;
+            }
+          }
+
+          &:hover {
+            color: rgba(40, 40, 40, .66);
+
+            &::before {
+              top: -.5em;
+            }
+
+            &::after {
+              bottom: -.5em;
+            }
+
+            @include breakpoint(mobile) {
+              &::before {
+                top: $mobileOffsetTop;
+              }
+              &::after {
+                bottom: $mobileOffsetBottom;
+              }
+            }
+          }
+
+          .label::before {
+            content: 'Details';
+          }
+        }
+      }
+
+      // Nav bar
+      .nav {
+        opacity: 0;
+        position: fixed;
+        height: $navSize;
+        top: $poemAndNavOverlap + ($navHeight - $navSize) / 2;
+        cursor: pointer;
+        //opacity: .5;
+        @include transition(opacity .8s);
+
+        &.prev {
+          //left: -3em;
+          top: 10em;
+
+          img {
+            position: relative;
+            left: -3em;
+            height: $navSize;
+            @include transform(rotate(90deg));
+          }
+        }
+        &.next {
+          position: absolute;
+          right: -3em;
+          width: 1.25em;
+
+          img {
+            position: fixed;
+            height: $navSize;
+            @include transform(rotate(-90deg));
+          }
+        }
+
+        @include breakpoint(mobile) {
+          display: none;
+        }
+
+        &.on {
+          opacity: .5;
+
+          &:hover { opacity: .8; }
+        }
+      }
+
+      header {
+        padding-top: 9em;
+        padding-bottom: 1em;
+        padding-left: $leftGutter;
+        border-radius: 2px 2px 0 0;
+        position: relative;
+        background: #fff;
+        overflow: hidden;
+
+        @include breakpoint(mobile) {
+          padding-left: $leftGutterMobile;
+          padding-right: $leftGutterMobile;
+        }
+
+        //.theme-toggle {
+        //    //display: none;
+        //    cursor: pointer;
+        //    //background: rgba(255, 255, 255, .5);
+        //    background: rgba(#DBD8D2, .5);
+        //    position: absolute;
+        //    //top: 4.5em;
+        //    top: 1em;
+        //    left: 1em;
+        //    //left: 13%;
+        //    display: block;
+        //    height: .75em;
+        //    width: .75em;
+        //    //border-radius: 50%;
+        //    border-radius: 2px;
+        //    //border: 1px solid rgba(255, 255, 255, .25);
+        //    opacity: .8;
+        //    @include transition(opacity .2s);
+        //
+        //    &:hover {
+        //        opacity: 1;
+        //    }
+        //}
+
+        .poster {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border-radius: 0;
+          background: linear-gradient(135deg, #292824 1%, #262522 100%);
+          opacity: 0;
+
+          img {
+            width: 0;
+            height: 0;
+            display: none;
+          }
+        }
+
+        .poem-title { width: 66%; }
+        .expand-box { width: 75%; }
+
+        .poem-title,
+        .expand-box {
+          opacity: 0;
+
+          @include breakpoint(mobile) {
+            width: 100%;
+          }
+        }
+
+        .poem-index {
+          position: relative;
+          display: inline-block;
+          letter-spacing: 3px;
+          font-size: .8em;
+          text-transform: uppercase;
+          margin-bottom: 1.5em;
+
+          @include breakpoint(mobile) {
+            font-size: .85em;
+          }
+        }
+
+        h1 {
+          $air: 2;
+          $mb: 1;
+          $fs: ms(2);
+          $lh: 1.5;
+
+          font-size: $fs;
+          line-height: 1.5em;
+          margin-bottom: 1em;
+          position: relative;
+
+          .sub {
+            font-size: .61em;
+            opacity: .66;
+            font-style: italic;
+            margin-top: .5em;
+          }
+        }
+
+        .expand-box {
+          margin-bottom: 4.5em;
+          max-height: 4000px;
+          height: auto;
+          opacity: 1;
+          position: relative;
+          @include transition(
+              max-height .8s,
+              opacity .4s,
+              margin-bottom .4s
+          );
+
+          .headnote {
+            $air: 1;
+            $mb: 2;
+            $fs: ms(-1);
+            $lh: 1.5;
+
+            color: #ddd;
+            font-size: $fs;
+            line-height: 1.66em; // TODO: adjust to fit the grid
+            margin-bottom: 3em;
+            position: relative;
+
+            @include breakpoint(mobile) {
+              font-size: 1.6em;
+              line-height: 1.6em;
+            }
+
+            .pp-poem-ref {
+              background: lighten($pp_manuscriptPaper, 8%);
+              color: #080808;
+
+              &:hover {
+                background: lighten($pp_manuscriptPaper, 15%);
+              }
+            }
+          }
+
+          .poem-details-options {
+            a {
+              font-size: .85em;
+            }
+
+            .pp-action {
+              border-radius: 3px;
+            }
+
+            .to-vm,
+            .to-ctx {
+              color: #fff;
+              padding: .66em 1em .66em 1.1em;
+            }
+
+            .by {
+              margin: 0 2em;
+              font-size: .9em;
+              letter-spacing: 1px;
+            }
+
+            .to-ctx {
+              border: 1px solid rgba(255, 255, 255, .6);
+              color: rgba(255, 255, 255, .8);
+              @include transition(all .2s);
+
+              &:hover {
+                background: #ECE9E2;
+                color: rgba(#282828, 1);
+                border: 1px solid rgba(255, 255, 255, .8);
+              }
+            }
+
+            @include breakpoint(mobile) {
+
+              text-align: center;
+
+              .to-vm {
+                font-size: 1em;
+              }
+
+              .by {
+                display: block;
+                margin: 2em 0;
+              }
+
+              .to-vm,
+              .to-ctx {
+                display: inline-block;
+              }
+            }
+          }
+        }
+
+        .poster-info-trigger {
+          display: none;
+        }
+      }
+
+      main {
+        margin-left: $leftGutter;
+        margin-top: 3 * 1.5em;
+        color: darken($pp_manuscriptInk, 10%);
+        width: 100% - $leftGutter - $rightGutter;
+
+        @include breakpoint(mobile) {
+          margin-left: $leftGutterMobile;
+          width: 100% - $leftGutterMobile * 2 + 2%;
+        }
+
+        .poem-body {
+          font-size: ms(0);
+          margin-bottom: 1.5em;
+        }
+
+        .lg {
+          &.stanza,
+          &.speech {
+            margin-bottom: 1.5em;
+          }
+        }
+
+        .l {
+          position: relative;
+          opacity: 0;
+
+          /* Common rend types */
+          // Eisthesis
+          $increment: 1.833em;
+
+          @for $i from 1 through 6 {
+            $paddingLeft: $i * $increment;
+
+            &.tab-#{$i} {
+              padding-left: $paddingLeft;
+            }
+          }
+        }
+
+        .pb {
+          position: absolute;
+          height: 1px;
+          left: 0;
+          right: 0;
+          margin-bottom: 0;
+          opacity: 0;
+
+          @include transition(all .5s);
+        }
+
+        .lg,
+        .l {
+          margin-top: 0;
+          @include transition(margin-top .6s);
+        }
+
+        // Various milestones
+        .milestone {
+          &.left-gutter {
+            height: 0;
+            overflow: visible;
+            display: inline-block;
+            font-family: $pp_originalFont;
+            font-style: italic;
+            opacity: .5;
+
+            @include breakpoint(mobile) {
+              height: auto;
+              margin-bottom: .25em;
+            }
+          }
+        }
+
+        // Various reading renderings
+        .reading-rendering {
+          display: inline-block;
+
+          &.left-gutter-1 {
+            margin-left: 2em;
+          }
+
+          @include breakpoint(mobile) {
+            display: block;
+
+            &.left-gutter-1 {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+
+      &.empty {
+        background: none;
+        font-family: $pp_curatorialFont;
+        color: #aaa;
+        font-style: italic;
+        line-height: 1.61;
+        display: inline-block;
+        font-size: ms(0);
+        top: 0;
+        margin-top: 6em;
+      }
+
+      .poem-footer {
+        position: relative;
+        padding-bottom: 5em;
+        padding-left: $leftGutter;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, .1) 0%,
+            rgba(#ECE9E1, .5) 100%
+        );
+        //background: #1c94c4;
+
+        @include breakpoint(mobile) {
+          padding-left: $leftGutterMobile;
+        }
+
+        .separator {
+          opacity: 1;
+          height: .66em;
+          margin-top: .5em;
+        }
+
+        .meta {
+          $c: #282828;
+
+          font-size: 1.2em;
+
+          .witness {
+            margin-top: 1.66em;
+            color: rgba($c, .66);
+            font-style: italic;
+            font-family: $pp_curatorialFont;
+
+            .by {
+              font-family: $pp_curatorialFont;
+            }
+
+            //.who {
+            //  color: rgba($c, .75);
+            //}
+          }
+        }
+
+        .editor-note-trigger {
+          $s: 1.25em;
+
+          display: inline-block;
+          vertical-align: middle;
+          position: relative;
+          bottom: 1px;
+          -webkit-transition: opacity 0.2s;
+          transition: opacity 0.2s;
+          width: $s;
+          height: $s;
+          border-radius: 50%;
+          margin-left: .66em;
+          text-align: center;
+          line-height: $s;
+          font-size: .75em;
+          font-style: italic;
+          opacity: .45;
+          color: rgba(#282828, 1);
+          background: rgba(#282828, .2);
+
+          &:hover { opacity: .66; }
+        }
+
+        #editorial-note { display: none; }
+      }
+
+      // Consecutive poems spacing
+      & + .poem {
+        margin-top: 4.5em;
+      }
+    }
+  }
+
+  // Expanded state specificity
+  .poem.expanded {
+    .headnote-toggle {
+      height: auto;
+      position: absolute;
+      top: 4em;
+      right: 3.2em;
+      background: none;
+
+      @include breakpoint(mobile) {
+        right: 2em;
+        top: 7.5em;
+      }
+
+      .pp-action {
+        background: none;
+
+        a { color: rgba(255, 255, 255, .66); }
+
+        &::before {
+          opacity: .5;
+          top: -.5em;
+          background: url('/images/triangle-down-w.svg') no-repeat 50% 50%;
+        }
+
+        &::after {
+          opacity: .5;
+          bottom: -.5em;
+          background: url('/images/triangle-up-w.svg') no-repeat 50% 50%;
+        }
+
+        &:hover {
+          color: rgba(255, 255, 255, .8);
+
+          &::before {
+            top: -.15em;
+          }
+
+          &::after {
+            bottom: -.15em;
+          }
+
+          @include breakpoint(mobile) {
+            &::before {
+              top: -.5em;
+            }
+            &::after {
+              bottom: -.5em;
+            }
+          }
+        }
+
+        .label::before {
+          content: 'Collapse';
+        }
+      }
+    }
+
+    header {
+      color: #fff;
+
+      .poster {
+        opacity: 1;
+      }
+
+      h1 {
+        text-shadow: 0 0 1px rgba(0, 0, 0, .25);
+        margin-bottom: 1.5em;
+      }
+      .headnote {
+        text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+
+        p {
+          margin-top: 1.5em;
+        }
+      }
+    }
+  }
+
+  .poem.collapsed {
+    .headnote-toggle {
+      .pp-action {
+        @include vcenter;
+      }
+    }
+  }
+
+  // Headnote poster rules
+  &.has-poster {
+    .poem.expanded header {
+      color: #fff;
+
+      .poster {
+        opacity: 1;
+        @include transition(background-image .4s);
+      }
+
+      .poster-info-trigger {
+        $s: 1.5em;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        @include transition(opacity .2s);
+        width: $s;
+        height: $s;
+        border-radius: 50%;
+        bottom: 2em;
+        right: 2em;
+        text-align: center;
+        line-height: $s;
+        font-style: italic;
+        opacity: .4;
+        background: linear-gradient(-30deg, #F7F6F2 0%, #e6e3db 100%);
+        color: #222;
+
+        &:hover {
+          opacity: .6;
+        }
+      }
+    }
+  }
+
+  // Collapsed state specificity
+  .poem.collapsed header {
+      color: #181818;
+      text-shadow: none;
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0) 10%,
+          rgba(#ECE9E1, .5) 100%
+      );
+
+      .poster {
+        opacity: 0;
+      }
+
+      .poem-index {
+        color: rgba(40, 40, 40, .8);
+      }
+
+      .expand-box {
+        margin-bottom: 0;
+        max-height: 0;
+        opacity: 0;
+
+        @include transition(
+            max-height .4s,
+            opacity .2s,
+            margin-bottom .4s
+        );
+      }
+      &::before {
+        @include transition(opacity .6s);
+      }
+    }
+}
+
+/* Headnote posters */
+.pp.single-poem {
+  &.has-poster {
+    .poem.expanded {
+      header {
+        .poster {
+          opacity: 1;
+          background-color: #2C2B27;
+          background-position: 100% 0;
+        }
+      }
+    }
+  }
+}
+
+/* Inline notes and gloss toggle */
+.pp.single-poem {
+  $fs: ms(-1);
+  $air: 4em;
+
+  .tools .toggles {
+    text-align: right;
+
+    .toggle {
+      font-family: $pp_poetryFont;
+      font-size: $fs;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 .5em;
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: inset -1px 0 0 0 rgba(179, 179, 179, 0.30),
+      inset 0 -1px 0 0 rgba(179, 179, 179, 0.30),
+      inset 0 1px 0 0 rgba(179, 179, 179, 0.30),
+      inset 1px 0 0 0 rgba(179, 179, 179, 0.30);
+      @include transition(all .2s);
+
+      a { color: inherit; }
+
+      &:not(:last-child) {
+        margin-right: 1em;
+      }
+
+      @include breakpoint(mobile) {
+        font-size: 1.5em;
+      }
+    }
+
+    .edition-toggle.toggle {
+      $air: .75em;
+
+      overflow: hidden;
+      padding: 0;
+      font-size: 1.25em;
+      box-shadow: 0 0 1px rgba(#000, .66);
+      margin-right: 1.5em;
+
+      a {
+        font-family: $pp_curatorialFont;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: .5em 0 .4em 0;
+        display: inline-block;
+        font-size: .66em;
+        background: #fff;
+        //background-image: linear-gradient(-185deg, #fff 0%, #f0f0f0 100%);
+        color: rgba(#282828, .5);
+        @include transition(all .2s);
+
+        &:hover {
+          color: rgba(#282828, .75);
+          background: #fff;
+          background-image: linear-gradient(-185deg, #fff 0%, #f5f5f5 100%);
+
+          &.to-vm { opacity: .75; }
+        }
+
+        &:active {
+          background: #e5e5e5;
+          color: rgba(#282828, 1);
+
+          &.to-vm {
+            background: none;
+            opacity: 1;
+          }
+        }
+
+        &:not(:last-child) {
+          padding-right: .8em;
+          border-right: 1px solid rgba(#000, .1);
+        }
+
+        &:first-child {
+          padding-left: 1em;
+        }
+
+        &:not(:first-child) {
+          padding-left: 1em;
+        }
+
+        &:last-child {
+          padding-right: .8em;
+          border-left: 1px solid rgba(#000, .1);
+        }
+
+        &.curr {
+          background: #e0e0e0;
+          color: rgba(#282828, 1);
+          pointer-events: none;
+
+          &:last-child {
+            border-left: 1px solid rgba(#000, .05);
+          }
+
+          &:first-child {
+            border-right: 1px solid rgba(#000, .1);
+          }
+        }
+
+        &.to-vm {
+          display: inline-block;
+          vertical-align: middle;
+          width: 2em;
+          padding: 0;
+          text-align: center;
+          opacity: .45;
+          border: none;
+
+          img {
+            width: .75em;
+          }
+        }
+      }
+
+      @include breakpoint(mobile) {
+        position: absolute;
+        bottom: -4.5em;
+        right: 0;
+        margin-right: 0;
+        width: auto;
+
+        a {
+          padding: .5em 0;
+          display: inline;
+          font-size: 1em;
+          line-height: 1.8;
+
+          &.to-vm {display: none;}
+        }
+      }
+    }
+
+    .page-toggle {
+      background: #F3EFE3;
+      a { color: rgba($pp_manuscriptInk, .5); }
+    }
+
+    .gloss-toggle {
+      a { color: rgba(#282828, .5); }
+    }
+  }
+
+  .poem-note-trigger {
+    color: inherit;
+    padding: 0;
+
+    @include transition(
+        background .2s,
+        padding .3s
+    );
+
+    // Little adjustment for back-to-back notes
+    & + .poem-note-trigger {
+      margin-left: .25em;
+    }
+  }
+
+  #editorial-note, // show lemmas in editorial notes
+  &.glosses-on {
+    .tools .toggles {
+      .gloss-toggle {
+        box-shadow: inset -1px 0 0 0 rgba(179, 179, 179, 0.80),
+        inset 0 -1px 0 0 rgba(179, 179, 179, 0.80),
+        inset 0 1px 0 0 rgba(179, 179, 179, 0.80),
+        inset 1px 0 0 0 rgba(179, 179, 179, 0.80);
+
+        a { color: #282828; }
+      }
+    }
+
+    .poem-note-trigger {
+      $backgroundColor: #f8f8f8;
+      $borderColor: #b3b3b3;
+      $backgroundColorHover: #f3f3f3;
+      $borderColorHover: #999;
+      $backgroundColorActive: #f4efe9;
+      $borderColorActive: #b88b58;
+
+      padding: 0 4px 1px 4px;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      white-space: pre-wrap;
+      background: $backgroundColor;
+      box-shadow: inset 1px 0 $borderColor,
+      inset 0 1px $borderColor,
+      inset -1px 0 $borderColor,
+      inset 0 0-1px $borderColor;
+
+      &:hover {
+        background: $backgroundColorHover;
+        box-shadow: inset 1px 0 $borderColorHover,
+        inset 0 1px $borderColorHover,
+        inset -1px 0 $borderColorHover,
+        inset 0 0-1px $borderColorHover;
+      }
+
+      &.active {
+        background: $backgroundColorActive;
+        box-shadow: inset 1px 0 $borderColorActive,
+        inset 0 1px $borderColorActive,
+        inset -1px 0 $borderColorActive,
+        inset 0 0-1px $borderColorActive;
+      }
+
+      &.multi {
+        margin-right: 2px;
+
+        &::after {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          height: 100%;
+          left: 2px;
+          right: -2px;
+          top: 2px;
+          z-index: -1;
+          background: $backgroundColor;
+          box-shadow: inset 1px 0 $borderColor,
+          inset 0 1px $borderColor,
+          inset -1px 0 $borderColor,
+          inset 0 0-1px $borderColor;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  &.pages-on {
+    .tools .toggles {
+      .page-toggle {
+        box-shadow: inset -1px 0 0 0 rgba(179, 179, 179, 0.80),
+        inset 0 -1px 0 0 rgba(179, 179, 179, 0.80),
+        inset 0 1px 0 0 rgba(179, 179, 179, 0.80),
+        inset 1px 0 0 0 rgba(179, 179, 179, 0.80);
+
+        a { color: #282828; }
+      }
+    }
+
+    .mc .poem main {
+      $pageBreakAir: 3em;
+
+      .lg:not(.stanza):not(.speech),
+      .l {
+        & + .pb {
+          margin-top: $pageBreakAir / 2;
+        }
+      }
+
+      .pb {
+        $air: $pageBreakAir;
+
+        margin-bottom: $air / 2;
+
+        & + .l,
+        & + .lg {
+          margin-top: $air;
+        }
+
+        &:not(:first-of-type) {
+          background: rgba($pp_manuscriptInk, .08);
+
+          & + .milestone {
+            margin-top: $air /2;
+          }
+        }
+      }
+    }
+
+    .facsimile-toggle {
+      $size: 1.25em;
+      $ratio: 1144 / 760;
+
+      display: block;
+      opacity: 1;
+      transform: translateY(0%);
+
+      @include breakpoint(mobile) {
+        border: 1px solid #ccc;
+        opacity: 1;
+      }
+    }
+  }
+
+  // When glosses are off, don't trigger them
+  &:not(.glosses-on) {
+    .poem-note-trigger {
+      pointer-events: none;
+    }
+
+    // But Do trigger the notes inside editorial headnotes
+    #editorial-note {
+      .poem-note-trigger {
+        pointer-events: auto;
+      }
+    }
+  }
+
+  // When pages are off, don't trigger them
+  &:not(.pages-on) {
+    .facsimile-toggle {
+      pointer-events: none;
+    }
+  }
+
+  // Special rules for a note in header
+  &.glosses-on {
+    .poem.expanded {
+      header .poem-note-trigger {
+        @include transition(none);
+      }
+    }
+  }
+
+  // Special case when the title has a note, and the headnote section is expanded
+  &.glosses-on {
+    .poem.expanded {
+      header .poem-note-trigger {
+        background: rgba(255, 255, 255, .08);
+        border: rgba(255, 255, 255, .5);
+
+        &:hover {
+          background: rgba(255, 255, 255, .1);
+        }
+      }
+    }
+  }
+}
+
+/* Drop caps */
+$defaultSize: 25em;
+$defaultLeftOffset: -4.5em;
+$defaultTopOffset: 4em;
+$defaultStrokeWidth: 6px;
+
+.pp.single-poem {
+  .drop-cap-box {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+
+    .drop-cap {
+      position: relative;
+      left: $defaultLeftOffset;
+      width: $defaultSize;
+      top: $defaultTopOffset;
+      padding-top: $defaultStrokeWidth;
+
+      @include breakpoint(mobile) {
+        left: $defaultLeftOffset * 2;
+      }
+    }
+  }
+
+  .drop-cap-box {
+    .initially,
+    .eventually {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    .drop-cap {
+      fill: #f2f0ed;
+      stroke: #f2f0ed;
+    }
+
+    .initially {
+      opacity: 0;
+
+      .bp {
+        stroke: #d9d7d4;
+        stroke-width: $defaultStrokeWidth;
+      }
+    }
+
+    .eventually {
+      opacity: 0;
+
+      .drop-cap {
+        stroke-width: $defaultStrokeWidth;
+      }
+    }
+  }
+
+  .poem.expanded {
+    .drop-cap-box {
+      z-index: 1;
+      pointer-events: none;
+
+      .drop-cap {
+        fill: rgba(255, 255, 255, .04);
+        stroke: none;
+      }
+    }
+  }
+
+  // If poem has a poster, don't show the drop cap in the expanded view
+  &.has-poster {
+    .poem.expanded {
+      .drop-cap-box {
+        display: none;
+      }
+    }
+  }
+
+  // Facsimile  toggle and viewer
+  // The very first one (special case)
+  main .pb:first-of-type {
+    .facsimile-toggle {
+      top: .33em;
+
+      @include breakpoint(mobile) {
+        top: -$mobileSize * 2;
+      }
+    }
+  }
+
+  // All other
+  .facsimile-toggle {
+    $size: .9em;
+    $ratio: 1144 / 760;
+
+    position: absolute;
+    cursor: pointer;
+    top: -$size * $ratio / 2;
+    left: 1.66em;
+    width: $size;
+    height: $size * $ratio;
+    border-radius: 2px;
+    background-image:
+      linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
+    border: 1px solid rgba(40, 40, 40, .08);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-15%);
+
+    @include transition(all .2s);
+
+    .mock {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      @include transition(all .2s)
+    }
+
+    &:hover {
+      background-image: linear-gradient(-135deg, #f5f2e6 0%, #f0eadd 100%);
+      .mock {
+        width: 150%;
+        left: -.1em;
+        top: 0;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      left: $mobileSize / 2;
+      top: -$mobileSize / 2;
+      width: $mobileSize;
+      height: $mobileSize;
+      background: #e1e1e1;
+      background-image: linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
+
+      &:hover .mock {
+        width: 100%;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  &.so {
+    .mc .masthead .content .tools .toggles {
+      top: -2.5em;
+      @include transition(top .3s cubic-bezier(0.600, -0.280, 0.735, 0.045));
+
+      @include breakpoint(mobile) {
+        display: none;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      .toggles {
+        top: 50%;
+        @include transition(none);
+      }
+    }
+  }
+}
+
+// Citations
+.citation-box {
+  padding-left: 1.5em;
+  line-height: 1.5;
+
+  .citation {
+    font-family: $pp_poetryFont;
+  }
+
+  .citation-bibl {
+    font-family: $pp_curatorialFont;
+    font-size: .85em;
+    margin-top: 1em;
+    color: rgba(whitesmoke, .66);
+  }
+
+  @include breakpoint(mobile) {
+    padding-left: .75em;
+  }
+
+  // Headnote notes
+  .headnote & {
+    background: rgba(#000, .5);
+    padding: 1em 2em 1em 1em;
+    display: inline-block;
+    margin-top: 1.5em;
+
+    .citation {
+      color: #fff;
+      font-size: 1.05em;
+
+      p {
+        &:not(:last-child) {
+          margin: 1.5em 0;
+        }
+      }
+    }
+  }
+
+  // In-poem notes
+  .full-sized-note & {
+    //margin: 1.5em 0;
+    background: #fff;
+    display: inline-block;
+    padding: 1em 2.5em 1em 1.25em;
+
+    &:last-child {
+      margin-bottom: .5em;
+    }
+
+    .citation {
+      color: #282828;
+      font-size: 1.1em;
+    }
+
+    .citation-bibl {
+      color: rgba(#282828, .75);
+    }
+  }
+}
+
+// Individual drop cap adjustments
+// See the defaults above
+//.drop-cap-box .drop-cap{
+//    .pp.w & {
+//        width: 25em;
+//        @include breakpoint(mobile) {}
+//    }
+//}
+
+// Pseudo poems
+.pp.single-poem.pseudo {
+  .mc .poem {
+    header {
+      background: whitesmoke;
+      color: #282828;
+      border-radius: 0;
+    }
+
+    header h1 {
+      opacity: 1;
+      font-style: italic;
+    }
+
+    main {
+      color: #444;
+      margin-top: 3em;
+      margin-bottom: 1.5em;
+      padding-bottom: 3em;
+      font-size: ms(0);
+      width: 66%;
+
+      @include breakpoint(mobile) {
+        width: 80%;
+      }
+
+      .lg {
+        display: none;
+      }
+
+      .l {
+        opacity: 1;
+        font-family: $pp_poetryFont;
+        background: whitesmoke;
+        padding: .2em .5em .1em .5em;
+        display: inline-block;
+        color: rgba(#282828, .85);
+      }
+
+      .paragraph {
+        margin: 1.5em 0;
+      }
+
+      span.t {
+        font-size: ms(-1) / 1.5;
+      }
+
+      .by {
+        font-family: $pp_originalFont;
+        font-style: italic;
+        font-size: ms(-3);
+        color: rgba(0, 0, 0, .5);
+        margin-top: 2.25em;
+      }
+    }
+
+    footer {
+      padding-bottom: 3em;
+    }
+  }
+
+  a.pp-poem-ref { color: #080808; }
+}
+
+// Edition-specific
+//.pp.single-poem.ee {}
+
+.pp.single-poem.ae {
+  background: darken($pp_manuscriptInk, 14%);
+}
+
+.poem-notes {
+  display: none;
+}
+
+// Curations section
+#ctxs {
+  color: rgba(#4f1901, .1);
+  background: #ece9e1;
+  color: #282828;
+  margin: 4.5em 0 0 0;
+  position: relative;
+  top: -2em;
+  border-radius: 2px;
+
+  @include breakpoint(mobile) {
+    top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  header {
+    background-image: linear-gradient(
+        0deg,
+        rgba(81, 81, 81, 0) 33%,
+        rgba(81, 81, 81, .1) 100%
+    );
+    padding: 4.5em 4.5em 0 4.5em;
+    position: relative;
+    //background: rgba($pp_manuscriptInk, .08);
+    //border-bottom: 1px solid rgba($pp_manuscriptInk, .03);
+
+    @include breakpoint(mobile) { padding: 4.5em 4.5em 1.5em 2.5em; }
+
+    .label {
+      $size: 1.5em;
+
+      img, span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      img {
+        height: $size;
+        margin-right: 1.25em;
+        border-radius: 1px;
+      }
+
+      span {
+        color: #282828;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: bold;
+        line-height: 100%;
+      }
+
+      @include breakpoint(mobile) {
+        img {
+          //margin-right: 1em;
+        }
+
+        span {
+          letter-spacing: 4px;
+          line-height: 150%;
+        }
+      }
+    }
+
+    .id-box {
+      text-align: right;
+      display: inline-block;
+      position: absolute;
+      top: 3.33em;
+      right: 4em;
+      max-width: 40%;
+
+      @include breakpoint(mobile) {
+        right: 2em;
+        top: 3.5em;
+        max-width: 50%;
+      }
+
+      a {
+        text-align: left;
+        border-radius: 4px;
+        padding: .75em 1em .75em 1em;
+        cursor: pointer;
+        font-size: 1em;
+        color: rgba(#282828, .4);
+        border: 1px solid rgba(#282828, .1);
+        display: inline-block;
+        @include transition(all .3s);
+
+        &:hover {
+          background: #fff;
+          color: $pp_manuscriptInk;
+          border: 1px solid rgba(#282828, .2);
+        }
+
+        .idx, h3 {
+          display: inline-block;
+          vertical-align: top;
+        }
+
+        .idx {
+          letter-spacing: 1px;
+          font-size: .85em;
+          position: relative;
+          top: .23em;
+        }
+
+        h3 {
+          font-family: "Sssi", Garamond, serif;
+          margin-left: .5em;
+        }
+
+        @include breakpoint(mobile) {
+          width: auto;
+
+
+          h3 {
+            margin-left: .33em;
+            max-width: 100%;
+            display: inline;
+          }
+        }
+      }
+    }
+
+    .curation-blurb {
+      min-height: 0;
+      overflow: hidden;
+      text-align: justify;
+      font-size: 1.25em;
+      margin-top: 5em;
+      max-width: 80%;
+      background: rgba(#fff, .66);
+      border-left: 4px rgba($pp_manuscriptInk, .66) solid;
+      border-left: 4px rgba($pp_darkGold, .66) solid;
+      border-radius: 3px;
+      //padding-left: 1em;
+      padding: 1.5em 2.25em 1em 1.5em;
+      color: rgba($pp_manuscriptInk, 1);
+
+      .muter {
+        text-transform: uppercase;
+        font-size: .66em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        display: block;
+        margin-top: 1.75em;
+        color: rgba($pp_manuscriptInk, .66);
+        vertical-align: middle;
+        @include transition(color .2s);
+
+        @include breakpoint(mobile) {
+          margin: 2.25em 0 .5em 0;
+        }
+
+        &:hover {
+          color: rgba($pp_manuscriptInk, .85);
+        }
+      }
+
+      @include breakpoint(mobile) {
+        max-width: 100%;
+      }
+
+      &.muted {
+        @include transition(all .2s);
+        height: 0;
+        min-height: 0;
+        margin-top: 1.5em;
+        border: none;
+        padding: 0;
+      }
+    }
+  }
+
+  .ctxs {
+    list-style: none;
+    padding: 6.5em 4.5em 3.5em 4.5em;
+    background-image: linear-gradient(
+        180deg,
+        rgba(81, 81, 81, 0) 33%,
+        rgba(40, 40, 40, .15) 100%
+    );
+
+    @include breakpoint(mobile) { padding: 4.5em 3em; }
+
+    .ctx {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+
+      &:not(:nth-child(-n+2)) {
+        margin-top: 2.25em;
+        @include breakpoint(mobile) { margin-top: 0; }
+      }
+
+      @include breakpoint(mobile) {
+        margin: 0;
+
+        &:not(:last-child) {
+          margin-bottom: 3em;
+        }
+
+        display: block;
+        width: 95%;
+      }
+
+      .text {
+        cursor: pointer;
+        padding-left: 2.66em;
+        @include transition(all .2s);
+
+        &:hover {
+          h3 {
+            color: #282828;
+          }
+
+          .peek {
+            color: rgba(#282828, .9);
+          }
+        }
+      }
+
+      h3 {
+        font-size: ms(-1);
+        color: rgba(#282828, .85);
+        font-weight: 600;
+        padding-right: 2em;
+        position: relative;
+
+        &::before {
+          $s: 1em;
+
+          position: absolute;
+          display: inline-block;
+          background: url('/images/curation-mock.svg') no-repeat;
+          width: $s;
+          height: $s * 1.5;
+          left: -($s * 2.25);
+          top: .33em;
+          //top: -$s * 1.5;
+          border: 1px solid rgba(#282828, .15);
+          content: '';
+
+          @include breakpoint(mobile) {
+            top: .25em;
+            left: -2.5em;
+          }
+        }
+      }
+
+      .by-line {
+        font-family: $pp_curatorialFont;
+        font-size: 1.1em;
+        display: block;
+        color: rgba($pp_manuscriptInk, .75);
+        margin-top: .25em;
+        padding-right: 3em;
+
+        .by {
+          margin-right: .25em;
+          font-family: $pp_curatorialFont;
+        }
+
+        .who {
+          font-style: italic;
+        }
+      }
+
+      .peek {
+        font-weight: normal;
+        color: rgba(#282828, .75);
+        margin: 1em 0 2em 0;
+        padding-right: 3em;
+        @include transition(color .2s);
+      }
+    }
+  }
+}
+
+/* Contextual Material */
+@import "curations-explorations";

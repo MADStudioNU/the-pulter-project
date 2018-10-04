@@ -1,0 +1,493 @@
+/* Lightboxes */
+.featherlight {
+  z-index: $pp_zLightbox;
+
+  // Facsimile image viewer
+  &.facs {
+    font-family: $pp_interfaceFont;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, .9);
+
+    .featherlight-content {
+      position: static;
+      border: none;
+      padding: 0;
+      margin: 0;
+      background: none;
+
+      .featherlight-close-icon {
+        display: none;
+        font-family: $pp_interfaceFont;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        @include breakpoint(mobile) {
+          display: inline-block;
+          top: auto;
+          bottom: 0;
+          width: 100%;
+          color: #282828;
+        }
+      }
+    }
+  }
+
+  &.compact-note,
+  &.full-sized-note {
+    .featherlight-content {
+      h5 {
+        font-family: $pp_originalFont;
+      }
+
+      .content {
+        font-family: $pp_curatorialFont;
+        color: rgba(darken($pp_manuscriptInk, 8%), .9);
+
+        p {
+          &:not(:last-child) {
+            margin: 1.5em 0;
+          }
+
+          &:last-child {
+            margin-top: 1.5em;
+          }
+        }
+
+        // Refs inside notes adjustments
+        .pp-poem-ref {
+          font-size: .9em;
+          color: #080808;
+          border: 1px solid rgba($pp_manuscriptInk, .12);
+          background: rgba(lighten($pp_manuscriptInk, 20%), .1);
+
+          &:hover {
+            background: #fff;
+            border: 1px solid rgba($pp_manuscriptInk, .2);
+          }
+        }
+      }
+    }
+  }
+
+  &.compact-note {
+    background: none;
+    position: absolute;
+    z-index: $pp_zNote;
+
+    .featherlight-content {
+      $offset: 0%;
+
+      padding: 1.33em;
+      position: absolute;
+      left: $leftGutter - $offset + (100 - $leftGutter - $rightGutter);
+      margin: 0;
+      max-width: 28% + $offset;
+      min-width: 15%;
+      background: linear-gradient(-135deg, #f5f4f2 0%, #f0ede9 100%);
+      border: 1px solid rgba(40, 40, 40, .08);
+      border-radius: 2px;
+      box-shadow: 0 0 4px 0 rgba(40, 40, 40, .08);
+      max-height: 30em;
+
+      h5 {
+        margin-bottom: .66em;
+      }
+
+      .content {
+        line-height: 1.4;
+        font-size: 1em;
+
+        .note-box {
+          margin-top: 1em;
+        }
+
+        .pp-poem-ref {
+          font-size: .85em;
+        }
+      }
+    }
+
+    @include breakpoint(mobile) {
+      background: rgba(0, 0, 0, .5);
+      position: fixed;
+
+      .featherlight-content {
+        position: static;
+        min-width: 40%;
+        max-width: 66%;
+        max-height: 90%;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  &.full-sized-note {
+    background: rgba(darken($pp_manuscriptInk, 10%), .8);
+
+    .featherlight-content {
+      font-size: .9em;
+      padding: 2.5em 4.5em 2em 2.5em;
+      margin: 0;
+      max-width: 50em;
+      min-width: 25%;
+      background: linear-gradient(-135deg, #f5f4f2 0%, #f0ede9 100%);
+      border: 1px solid rgba(40, 40, 40, .08);
+      border-radius: 2px;
+      box-shadow: 0 0 4px 0 rgba(40, 40, 40, .08);
+
+      h5 {
+        font-family: $pp_originalFont;
+        margin-bottom: 1em;
+        font-size: ms(0);
+      }
+
+      .content {
+        width: 90%;
+        font-size: ms(-1);
+        line-height: 1.66;
+
+        .note-box {
+          padding: .75em 0;
+
+          &:not(:last-child) {
+            margin-bottom: .25em;
+          }
+
+          &.labeled {
+            &::before {
+              display: block;
+              font-size: .66em;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              opacity: .66;
+              margin-bottom: .75em;
+              color: $pp_manuscriptInk;
+            }
+
+            &.gloss::before {
+              content: 'Gloss note';
+            }
+
+            &.critical::before {
+              content: 'Critical note';
+            }
+
+            &.textual::before {
+              content: 'Textual note';
+            }
+          }
+        }
+      }
+
+      .dismiss {
+        $s: 1.66em;
+
+        width: $s;
+        height: $s;
+        display: block;
+        position: absolute;
+        top: $s;
+        right: $s;
+        cursor: pointer;
+        opacity: .25;
+        -webkit-transition: opacity .2s;
+        transition: opacity .2s;
+
+        &:hover { opacity: .66; }
+
+        &::after {
+          display: inline-block;
+          content: '';
+          position: fixed;
+          width: $s;
+          height: $s;
+          background: url('/images/close.png') no-repeat 0 0;
+          background-size: $s;
+        }
+      }
+
+      .lg {
+        //color: #282828;
+        //font-size: 1.15em;
+        //font-family: $pp_poetryFont;
+        //background: #fff;
+        //padding: 1em;
+        //margin: 1.5em 0;
+        //line-height: 1.5;
+
+        //& + .note-bibl {
+        //  background: whitesmoke;
+        //  display: block;
+        //  //width: 90%;
+        //  padding: 1em 2em;
+        //  margin-top: -2em;
+        //  //padding-left: 1em;
+        //  font-family: $pp_curatorialFont;
+        //  font-size: .85em;
+        //  color: rgba($pp_manuscriptInk, .75);
+        //  margin-bottom: 1.5 / .85 + em;
+        //}
+      }
+
+      @include breakpoint(mobile) {
+        width: 85%;
+        font-size: 1em;
+      }
+    }
+  }
+
+  &.poster-info {
+    background: rgba(0, 0, 0, .8);
+
+    .featherlight-content {
+      position: relative;
+      background: none;
+      margin: 0;
+      border: none;
+      padding: 0;
+      text-align: center;
+      max-height: 100%;
+      overflow: visible;
+
+      .poster-box {
+        position: relative;
+        padding: 0 0 4.5em 0;
+        height: 80%;
+
+        img {
+          max-width: 50em;
+          max-height: 100%;
+          width: auto;
+          border-radius: 4px;
+          box-shadow: 0 0 10em rgba(0, 0, 0, .5);
+        }
+
+        .link-box {
+          //padding: 3em 0;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          //background: salmon;
+
+          a.ext {
+            display: inline-block;
+            color: #fff;
+            font-size: .7em;
+            padding: .4em .8em .33em .85em;
+            min-width: 10em;
+          }
+        }
+      }
+
+      @include breakpoint(mobile) {
+        max-width: 90%;
+
+        .poster-box {
+          img {
+            max-width: 100%;
+          }
+
+          .link-box {
+            a.ext {
+              font-size: 1.2em;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  &.editorial-note {
+    z-index: $pp_zEditorialNote;
+
+    .featherlight-content {
+      background: whitesmoke;
+      width: 80%;
+      max-width: 42em;
+      padding: 3em 4.5em 3em 3em;
+      border-bottom: none;
+
+      .dismiss {
+        position: absolute;
+        top: 2em;
+        right: 3em;
+        cursor: pointer;
+        opacity: .25;
+        -webkit-transition: opacity .2s;
+        transition: opacity .2s;
+
+        &:hover { opacity: .66; }
+
+        &::after {
+          display: inline-block;
+          content: '';
+          position: fixed;
+          width: 1.25em;
+          height: 1.25em;
+          background: url('/images/close.png') no-repeat 0 0;
+          background-size: 1.25em;
+        }
+      }
+
+      h3 {
+        position: relative;
+        font-size: ms(0);
+      }
+
+      .c {
+        margin: 1.5em 0;
+        font-size: 1.1em;
+        color: #282828;
+      }
+
+      p {
+        margin: 1.5em 0;
+      }
+
+      @include breakpoint(mobile) {
+        width: 90%;
+        max-width: none;
+        font-size: 1.15em;
+        padding: 3em 2.5em 2.5em 2.5em;
+      }
+
+      .terminal {
+        width: 2em;
+        margin-top: .33em;
+      }
+    }
+  }
+
+  &.home-lightbox {
+    z-index: $pp_zEditorialNote;
+    background: rgba(0, 0, 0, .33);
+
+    .featherlight-content {
+      background: darken($pp_manuscriptInk, 13%);
+      background-image: linear-gradient(45deg, rgba(darken($pp_manuscriptInk, 15%), 1) 0%, rgba(darken($pp_manuscriptInk, 7%), 1) 100%);
+      color: #fff;
+      border-radius: 4px;
+      width: 80%;
+      max-width: 50em;
+      padding: 3em 4.5em 3em 3em;
+      border: 1px solid rgba($pp_manuscriptPaper, .15);
+
+      .dismiss {
+        position: absolute;
+        top: 2em;
+        right: 3em;
+        cursor: pointer;
+        opacity: .5;
+        -webkit-transition: opacity .2s;
+        transition: opacity .2s;
+
+        &:hover { opacity: 1; }
+
+        &::after {
+          display: inline-block;
+          content: '';
+          position: fixed;
+          width: 1.25em;
+          height: 1.25em;
+          background: url('/images/close-w.png') no-repeat 0 0;
+          background-size: 1.25em;
+        }
+      }
+
+      h3 {
+        position: relative;
+        font-size: ms(0);
+        font-family: $pp_originalFont;
+
+        //&::before {
+        //  $s: 1em;
+        //
+        //  display: inline-block;
+        //  position: relative;
+        //  content: '';
+        //  width: $s;
+        //  height: $s;
+        //  background: url('/images/pp-formal.jpg') no-repeat;
+        //  background-size: 100% 100%;
+        //  border-radius: 2px;
+        //  //margin-bottom: .66em;
+        //  margin-right: .5em;
+        //}
+      }
+
+      .c {
+        margin-top: 2.25em;
+        font-size: 1.1em;
+        color: rgba(#fff, .66);
+
+        img {
+          max-width: 33%;
+          float: right;
+          margin-left: 2.25em;
+        }
+
+        p:not(:last-of-type) {
+          margin-bottom: 1em;
+        }
+
+        .edition-label {
+          color: #fff;
+          font-size: .7em;
+          margin-left: 1px;
+        }
+      }
+
+      @include breakpoint(mobile) {
+        width: 90%;
+        max-width: none;
+        font-size: 1.15em;
+        padding: 3em 2.5em 2.5em 2.5em;
+      }
+
+      .terminal {
+        width: 2em;
+        margin-top: .33em;
+      }
+    }
+  }
+
+  &.intro-video {
+    background: rgba(#080808, .33);
+    @include breakpoint(mobile) {background: rgba(#080808, .8)}
+
+    .featherlight-content {
+      background: #080808;
+
+      iframe {
+        border-radius: 0;
+        display: block;
+        border: 1px solid rgba($pp_shinyGold, .25);
+        height: 85vh;
+        width: 85vw;
+      }
+
+      @include breakpoint(mobile) {
+        background: none;
+        pointer-events: none;
+
+        iframe { border: none; }
+      }
+    }
+
+    &.featherlight-loading {
+      .featherlight-content {
+        border-radius: 4px;
+
+        &::before {
+          content: 'Loading the video...';
+          color: #fff;
+          font-family: $pp_curatorialFont;
+        }
+      }
+    }
+  }
+}

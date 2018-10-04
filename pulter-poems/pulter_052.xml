@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.52">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Wish</title>
+                <title type="sub">Poem #52</title>
+                <respStmt>
+                    <resp>authored by</resp>
+                    <persName>Hester Pulter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>transcription, transformations, and notes by</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName>Katie Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <!--
+                <funder>
+                    <orgName></orgName>
+                    <orgName></orgName>
+                </funder>
+                -->
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+                <keywords>
+                    <term>sun</term>
+                    <term>influence</term>
+                    <term>God</term>
+                </keywords>
+            </textClass>  
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_151.jpg" xml:id="f7610_151"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Wendy Wall</persName> and <persName>Leah Knight</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Lara Dodds</persName>. Last updated <date>June 7, 2018.</date></witness>
+                </listWit>
+            </div>
+        </front>
+        <body>
+            <app>
+                <rdg wit="#ft">
+                    <pb ed="#ft" facs="#f7610_151" n="74r"/>
+                </rdg>
+                <rdg wit="#ee">
+                    <pb ed="#ee" facs="#f7610_151"/>
+                </rdg>
+                <rdg wit="#ae">
+                    <pb ed="#ae" facs="#f7610_151"/>
+                </rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><seg>The Wish<note type="physical">Previous poem concludes on same page</note></seg></rdg>
+                    <rdg wit="#ee">The Wish</rdg>
+                    <rdg wit="#ae">The Wish</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">I have modernized spelling and punctuation in this poem with the aim of enhancing clarity and readability. The notes gloss unfamiliar words and provide cultural and literary contexts.</note></rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ft"></rdg>
+                    <rdg wit="#ee"><note type="headnote">This poem combines devotional verse with an interest in physics and astronomy. The image of Pulter as a tired pilgrim crawling toward God contrasts strikingly, in terms of scale, with the rotation of the sun and vastness of the heavens. The speaker’s desire to mutate into a sun is echoed in other poems in which she imagines space travel, the motions of planets, and the freedom of not being bound by human form. In this poem, however, her desire for transformation is linked to a commitment to help those vulnerable (children and the poor) and beloved (her friends). The majority of the poem is concerned with how she would return heat and light, as praise, to God, who was the source of all creation.</note></rdg>
+                    <rdg wit="#ae"><note type="headnote">“The Wish” is a philosophical thought experiment. While its central conceit—the speaker’s professed desire to have the power of the sun—suggests a paradox or impossibility, the poem uses it to explore the metaphorical possibilities of new philosophical developments. What difference does it make if the stars are suns (and the sun is a star)? “The Wish” offers one possible answer to that question.</note></rdg>
+                </app>
+            </head>
+            <lg type="stanza" n="1">
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Oh that I were a Sun that I might Send</rdg>
+                    <rdg wit="#ee">O, that I were a sun that I might send</rdg>
+                    <rdg wit="#ae">Oh that I were a sun that I might send</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">My inffluence to every child or ffreind</rdg>
+                    <rdg wit="#ee">My influence to every child or friend.</rdg>
+                    <rdg wit="#ae">My influence to every child or friend;</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">The poor too I would comfort <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> my <seg>Rayes<note type="physical">“es” (and possibly “y”) appear written over earlier letters, last two possibly “l” and certainly “e”</note></seg></rdg>
+                    <rdg wit="#ee">The poor, too, I would comfort with my rays,</rdg>
+                    <rdg wit="#ae">The poor, too, I would comfort with my rays,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">And all the rest I would return in praiſe</rdg>
+                    <rdg wit="#ee">And all the <seg>rest<note type="gloss">of the rays</note></seg> I would return in praise</rdg>
+                    <rdg wit="#ae">And all the rest I would return in praise</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">To him that turns my Nights to endles dayes</rdg>
+                    <rdg wit="#ee">To Him that turns my nights to endless days,</rdg>
+                    <rdg wit="#ae">To Him that turns my nights to endless days,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">To him that made of Nothing this great All</rdg>
+                    <rdg wit="#ee"><seg>To Him that made of nothing this great all<note type="critical">the idea that the universe was created by God ex nihilo (“from nothing”) was a point of theological doctrine and debate.</note></seg>,</rdg>
+                    <rdg wit="#ae">To Him that <seg>made of nothing this great all<note type="critical">
+                      <p>Creation from nothing (<foreign rend="italic">ex nihilo</foreign>). Some theologians argued that Genesis 1.1 (AV: “In the beginning God created the heaven and the earth”) supported the view that God created the universe from nothing. The opposite view is found in <bibl><author>Lucretius’</author> <title rend="italic">De Rerum Natura</title></bibl>: nothing comes from nothing (<foreign rend="italic">ex nihilo nihil fit</foreign>). Lucy Hutchinson, the first translator of <title rend="italic">De Rerum Natura</title> into English and Pulter’s contemporary, translates this principle as follows:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>God never aniething of nothing made;</l>
+                            <l>But soe are mortall men restreind with dread,</l>
+                            <l>As seing severall works in heaven and earth,</l>
+                            <l>And ignorant of the cause that gives them birth,</l>
+                            <l>They thinke a power devine brings forth those things;</l>
+                            <l>But grant that nothing out of nothing springs</l>
+                          </lg>
+                        </quote>
+                        <bibl>1.153-8; cited from Hugh de Quehen, ed. <title rend="italic">Lucy Hutchinson’s Translation of Lucretius</title>. U of Michigan P, 1996</bibl>
+                      </cit>
+                    </note></seg></rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">And stuft with Atomes this our Earthly Ball</rdg>
+                    <rdg wit="#ee">And stuffed with <seg>atoms<note type="critical">minute and indivisible particles, seen as ultimate components of matter; in a less scientific register, very small amounts of anything</note></seg> this our earthly ball,</rdg>
+                    <rdg wit="#ae">And stuffed with <seg>atoms<note type="critical">In Greek philosophy, the atom (from ancient Greek ἄτομος “indivisible”) was considered the smallest particle of all matter (see OED atom, n. 3). Seventeenth-century philosophers such as Rene Descartes, Pierre Gassendi, and Margaret Cavendish revived atomic theory in their attempts to understand the nature of matter.</note></seg> this our earthly ball,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Where I a weake and weary Pilgrim craul</rdg>
+                    <rdg wit="#ee">Where I, a weak and weary pilgrim, crawl</rdg>
+                    <rdg wit="#ae">Where I, a weak and weary pilgrim, crawl</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">To him that comforts mee in my Sad Story</rdg>
+                    <rdg wit="#ee">To Him that comforts me in my <seg>sad story<note type="gloss">life</note></seg>,</rdg>
+                    <rdg wit="#ae">To Him that comforts me in my sad story,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">To him that lends to Stars (<seg>nay<note type="physical">“n” written over another letter, possibly an “h”</note></seg> Suns) their Glory.</rdg>
+                    <rdg wit="#ee">To Him that lends to stars (nay, <seg>suns<note type="critical">in referencing the possible plurality of universes and worlds, the speaker is at the forefront of new scientific work on astronomy challenging the older Ptolemaic system.</note></seg>) their glory.</rdg>
+                    <rdg wit="#ae">To Him that lends to stars (<seg>nay suns<note type="critical">
+                      <p>A parenthetical interjection (common in Pulter’s poetry) redefines “stars” as “suns,” which draws upon astronomical speculation about the plurality of worlds by suggesting that each of the stars may be a sun with its own Earth-like planets. This debate appears frequently in seventeenth-century poetry, often in lines that interrogate the metaphorical and philosophical consequences of cosmic pluralism. <bibl><author>John Donne’s</author> lament in the <title rend="italic">First Anniversary</title> (1611)</bibl> that “the new philosophy calls all in doubt” is a touchstone. Donne suggests that astronomical discovery threatens previous models of social stability:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>And freely men confess that this world’s spent,</l>
+                            <l>When in the planets and the firmament</l>
+                            <l>They seek so many new; they see that this</l>
+                            <l>Is crumbled out again to his atomies.</l>
+                            <l>’Tis all in pieces, all coherence gone,</l>
+                            <l>All just supply, and all relation;</l>
+                            <l>Prince, subject, father, son, are things forgot... (209-15)</l>
+                          </lg>
+                        </quote>
+                      </cit>
+                      <p>Other poets, however, explored the creative possibilities of cosmic pluralism, notably <bibl><author>Margaret Cavendish</author>, who in <title rend="italic">Poems and Fancies</title> (1653)</bibl> published several poems, including “A World in an Eare-ringe,” “If Infinite Worlds There Must be Infinite Centers,” and “A World Made by Atoms.” Cavendish’s “Of Stars” explicitly questions whether stars are suns: “But who knows, but those stars we see by night / Are suns which to some other worlds give light?” (see <bibl><title rend="italic">Poems and Fancies</title> pp. 35-36</bibl>). These debates also make up the subject of Adam’s conversation with Raphael in book 8 of <title rend="italic">Paradise Lost</title>:</p>
+                      <cit>
+                        <quote>
+                          <lg>
+                            <l>What if that light</l>
+                            <l>Sent from her [the earth] through the wide transpicuous air,</l>
+                            <l>To the terrestrial moon be as a star</l>
+                            <l>Enlight’ning her by day, as she by night</l>
+                            <l>This Earth? Reciprocal, if land be there</l>
+                            <l>Fields and inhabitants: her [the moon] spots thou seest</l>
+                            <l>As clouds, and clouds may rain, and rain produce</l>
+                            <l>Fruits in her softened soil, for some to eat</l>
+                            <l>Allotted there; and other suns perhaps </l>
+                            <l>With their attendant moons thou wilt descry</l>
+                            <l>Communicating male and female light,</l>
+                            <l> Which two great sexes animate the world, </l>
+                            <l>Stored in each orb perhaps with some that live. (8.140-52)</l>
+                          </lg>
+                        </quote>
+                      </cit>
+                      <p><bibl><author>John Wilkins’s </author> <title rend="italic">The Discovery of a World in the Moone</title> (1638) and <title rend="italic">A Discourse Concerning a New Planet</title> (1640)</bibl> popularized recent astronomical discoveries in an accessible format for English-speaking audiences.</p>
+                    </note></seg>) their glory.</rdg>
+                </app>
+            </l>
+          </lg>
+            <app>
+                <rdg type="milestone" wit="ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>   
+        </body>
+    </text>
+</TEI>

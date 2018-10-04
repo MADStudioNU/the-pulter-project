@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.9">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Like Lily Leaves</title>
+                <title type="sub">Poem #9</title>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <persName>Katherine E. Poland</persName>
+                    <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>Website designed by</resp>
+                    <persName>Sergei Kalugin</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT-project consultation by</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_036.jpg" xml:id="f7610_036"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <!-- Note the changes in formatting here -->
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Jane Doe</persName> and <persName>Alan Smithee</persName></witness>
+                </listWit>
+            </div>
+        </front>
+
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_035" n="16r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_035"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_035"/></rdg>
+            </app>
+
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright"></fw>
+                    </rdg>
+                    <rdg wit="#ee">Like Lily Leaves</rdg>
+                    <rdg wit="#ae"></rdg>
+                </app>
+                <app type="editorialnote">
+                        <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of
+                            the original material, textual, and graphic properties of Hester Pulter’s manuscript verse
+                            as we have found practical. Whenever possible, for instance, original spelling, punctuation,
+                            capitalization, lineation, insertions, deletions, alterations, spacing between words and lines,
+                            and indentation are all maintained; abbreviations and brevigraphs are not expanded; and
+                            superscript and subscript representations are retained.
+                            <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full
+                                conventions for the transcriptions here.</ref></note></rdg>
+                        <rdg wit="#ee"><note type="editorialnote">
+                            The aim of the elemental edition to make the poems accessible to the largest variety of readers,
+                            which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and
+                            punctuation reflect current standard American usage; punctuation highlights syntax which might
+                            otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+                            modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote
+                            aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by
+                            Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to
+                            allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various
+                            possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure
+                            material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+                            Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s
+                            edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The
+                            result is an edition we consider a springboard for further work on Pulter’s poetry.
+                            <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions
+                                for this edition here.</ref></note>
+                        </rdg>
+                    <rdg wit="#ae"><note type="editorialnote"></note></rdg>
+                </app>
+            </head>
+          <app>
+            <rdg wit="#ee">
+              <p>Although presented as an independent poem in Alice Eardley’s edition, we do not consider the lines beginning (in our transcription of Poem 9) with</p> <l>Like Lilly leaves Sprinkled w:th Damaſk Roſe</l> <p>to be a separate poem. Instead, we read the notes in the left margin of the manuscript page next to these lines as indicators that these lines form an insertion in the next poem, <ref target="../upon-the-death-of-my-dear-and-lovely-daughter/" type="pp-poem-ref" corresp="10">Upon the Death of my deare and lovly Daughter J. P.</ref> Marginal notes in both poems indicate where these lines should be inserted. We have therefore added them at that point in the next poem in this edition.</p>
+            </rdg>
+          </app>
+        </body>
+    </text>
+</TEI>

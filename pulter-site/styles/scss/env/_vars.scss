@@ -1,0 +1,39 @@
+/* Typograpphy */
+$baseFontSizeEm: 1.5em;
+$baseFontSizeRem: 1.5rem;
+$baseFontSizePx: 24px;
+$baseLineHeight: 1.5;
+$baseLineEm: $baseFontSizeEm * $baseLineHeight;
+$baseLineRem: $baseFontSizeRem * $baseLineHeight;
+$baseLinePx: $baseFontSizePx * $baseLineHeight;
+
+$bodyFontSize: 1.618em;
+$bodyFontSize: 16.0432464808px;
+$bodyLineHeight: 1.618;
+
+/* Colors */
+$pp_RoyalBlueLight: #2C83E9;
+$pp_RoyalBlueMedium: #2265B3;
+$pp_darkGold: #b99424;
+$pp_shinyGold: #e4bc29;
+$pp_manuscriptInk: #45342C;
+$pp_manuscriptPaper: #D2CFBF;
+$pp_attentionPlease: #EB4C47;
+$pp_dropCapExpanded: $pp_darkGold;
+$pp_dropCapCollapsed: rgba(0, 0, 0, .05);
+
+/* Fonts */
+$pp_originalFont: "Sssi", Garamond, serif;
+$pp_poetryFont: "Cormorant Garamond", Garamond, sans-serif;
+$pp_curatorialFont: "Lato", Arial, sans-serif;
+//$pp_interfaceFont: "Asap", Arial, sans-serif;
+$pp_interfaceFont: "Lato", Arial, sans-serif;
+$pp_monospacedFont: "Lucida Console", Monaco, monospace;
+
+/* Vertical axis */
+//$pp_zDropCap: 90;
+//$pp_zPoemHeader: 89;
+$pp_zEditorialNote: 94;
+$pp_zNote: 95;
+$pp_zLightbox: 96;
+$pp_zZoomPane: 97;

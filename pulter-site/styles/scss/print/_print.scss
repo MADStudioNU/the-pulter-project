@@ -1,0 +1,222 @@
+@media print {
+  body, html {background: #fff !important;}
+
+  .print-only {
+    display: inherit !important;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
+
+  // Common
+  #footer,
+  #ctxs {
+    display: none;
+  }
+
+  a.pp-poem-ref {
+    color: #080808;
+    background: rgba(69, 52, 44, 0.06);
+  }
+
+  // Single poem page
+  .pp.single-poem {
+    $air: 1.5em;
+
+    .mc {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+
+      .masthead {
+        display: none;
+      }
+
+      .poem {
+        box-shadow: none;
+        border-radius: 0;
+        position: static;
+        font-size: .66em;
+
+        .nav,
+        .drop-cap-box,
+        .headnote-toggle,
+        .editor-note-trigger,
+        .expand-box,
+        .poster,
+        .poster-info-trigger {
+          display: none;
+        }
+
+        .print-attribution-box {
+          margin: 0 0 $air * 2 $air;
+          padding-bottom: $air * 2;
+          border-bottom: 1px solid rgba(#000, .1);
+
+          img, .attribution {
+            display: inline-block;
+          }
+
+          img.logo {
+            width: 1.25em;
+            margin-right: .6em;
+          }
+
+          .attribution {
+            font-size: 1.25em;
+            font-family: $pp_originalFont;
+
+            .small-cap {
+              text-transform: uppercase;
+              font-size: .9em;
+            }
+          }
+
+          .url {
+            margin-top: .33em;
+            color: $pp_RoyalBlueLight;
+            font-size: 1.25em;
+            font-family: $pp_curatorialFont;
+          }
+        }
+
+        header {
+          border-radius: 0;
+          background: white;
+          padding: 0 $air $air $air;
+
+          .poem-title {
+            width: 80%;
+            font-size: ms(-1);
+            color: #282828 !important;
+            text-shadow: none !important;
+            margin-bottom: 1.5em;
+
+            h1 { margin-bottom: 0; }
+          }
+        }
+
+        main {
+          padding: 0 $air;
+          margin: 0;
+          width: auto;
+
+          .poem-body {
+            font-size: 2.2em;
+
+            .pb {
+              display: none;
+            }
+
+            .poem-note-trigger {
+              background: none;
+              background: rgba(#fff, 0);
+              border: none;
+              box-shadow: none;
+              padding: 0;
+            }
+
+            .poem-note-trigger.multi::before {
+              display: none;
+            }
+          }
+        }
+
+        footer.poem-footer {
+          background: white;
+          padding: 0 $air;
+
+          .separator {
+            height: .85em;
+            margin-bottom: 2em;
+          }
+
+          .meta {
+            font-size: 1.5em;
+          }
+
+          .editor-note-trigger {
+            display: none;
+          }
+
+          // Poem notes
+          .poem-notes {
+            counter-reset: count;
+            border-top: 1px solid rgba(#000, .1);
+            display: block;
+            margin: 3em 0 0 0;
+            padding-top: 2em;
+
+            li {
+              margin-top: 1.5em;
+
+              .dismiss { display: none; }
+
+              h5, .content {
+                display: inline;
+              }
+
+              h5 {
+                font-family: $pp_curatorialFont;
+                font-weight: bold;
+                font-size: 1.1em;
+
+                &::before {
+                  content: counter(count);
+                  counter-increment: count;
+                  display: inline-block;
+                  margin-right: .5em;
+                  color: rgba($pp_manuscriptInk, .66);
+                  font-weight: normal;
+                  font-size: .8em;
+                }
+
+                &::after {
+                  content: ':';
+                  display: inline-block;
+                  margin: 0 .25em 0 0;
+                }
+              }
+
+              .content {
+                font-family: $pp_curatorialFont;
+                color: #282828;
+
+                .lg {
+                  margin: $air;
+                  font-family: $pp_poetryFont;
+                }
+
+                .pp-poem-ref {
+                  padding-left: .33em;
+                  &::before { display: none; }
+                }
+              }
+            }
+          }
+        }
+
+        // Footnotes
+        .footnote-ref {
+          font-family: $pp_curatorialFont;
+          position: relative;
+          font-size: .5em;
+          color: rgba($pp_manuscriptInk, .5);
+          font-weight: normal;
+          bottom: 1em;
+        }
+
+        & + .poem {
+          margin-top: 0;
+
+          .print-attribution-box {
+            visibility: hidden;
+            opacity: 0;
+          }
+        }
+      }
+    }
+  }
+}

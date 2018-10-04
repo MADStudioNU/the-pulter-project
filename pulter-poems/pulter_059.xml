@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.59">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>My Love is Fair</title>
+                 <title type="sub">Poem #59</title>
+                <respStmt><resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+			<persName>Betsy Chou</persName>
+                        <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+		<respStmt>
+                     <resp>IT-project consultation by</resp>
+                     <persName>Josh Honn</persName>
+                 </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC
+                        and CORR tags, but only where the editor conjectures that the original
+                        scribe or compositor would have recognized the instance as an error. For
+                        example, what according to modern usage is incorrect subject/verb agreement
+                        might have been deemed acceptable to a seventeenth-century scribe or
+                        compositor. All such instances are treated instead using the ORIG and REG
+                        tags. (See below.) </p>
+                    <p>Corrections and annotations made within the scope of the original document
+                        either by its original authors, owners, and/or transcribers are noted using
+                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        added by the editors of this digital edition, for display within the
+                        apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in
+                        the manuscripts a character's status as majuscule or miniscule is ambiguous,
+                        the editor has silently chosen one or the other based on context and
+                        judgment (i.e., does not register such ambiguity in either the markup or the
+                        notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern
+                        F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+		<keywords>
+		    <term>love</term>
+		    <term>beauty</term>
+		    <term>body</term>
+        	</keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="./document_images/7610_167.jpg" xml:id="f7610_167"/>
+        <graphic url="./document_images/7610_168.jpg" xml:id="f7610_168"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. Last updated <date>June 28, 2018</date> See transcription conventions.</witness>
+                    <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.Last updated <date>Jun3 26, 2018</date> See editorial guidelines for this edition.</witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Frances E. Dolan</persName>. Last updated <date>June 12, 2018</date></witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_167" n="82r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_167"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_167"/></rdg>
+            </app>
+            
+       <app>
+                <rdg type="milestone" wit="#ft">
+                   <milestone unit="poem" rend="LINE TYPE"/>
+                   </rdg>
+      </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>My Loue is Fair</rdg>
+                    <rdg wit="#ee">My Love is Fair</rdg>
+                    <rdg wit="#ae">My Love Is Fair</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
+                        the original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
+                        as we have found practical. Whenever possible, for instance, original spelling, punctuation, 
+                        capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
+                        and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
+                        superscript and subscript representations are retained. 
+                        <ref target="http://pulterproject.northwestern.edu/l/transcript-conventions">See full 
+                            conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee"><note type="editorialnote">
+                        The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
+                        which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
+                        punctuation reflect current standard American usage; punctuation highlights syntax which might 
+                        otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
+                        modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote 
+                        aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by 
+                        Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
+                        allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
+                        possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
+                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
+                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
+                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
+                        <ref target="http://pulterproject.northwestern.edu/l/elemental-conventions">See full conventions 
+                            for this edition here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials I gather for the “curations” section place Pulter’s poems into conversations. As I build the curations for a given poem—provisional and quirky as they are—I keep returning to the poem, re-reading, rethinking, and adding layers to the notes. I hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, I cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined. Curations don’t precede the poems nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as a curator I weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities. This extends to including extracts that are long enough that readers might find things therein that I do not anticipate. I also look for a multi-vectored traffic among Pulter’s poetry and the other materials. What might the materials I’ve gathered help readers see in the poems—or notice is not there? But also, how do the poems bring fresh perspectives into the conversations into which I draw them? The more one reads the poems as participants in wider ranging conversations, the more fascinatingly twisty Pulter appears. Often, I don’t grasp how she upends or comes at conventions aslant until I have mucked about composting my “curations.”</note></rdg>
+                </app>
+            <app type="headnote">
+                <rdg wit="#ft"><note type="headnote"></note></rdg>
+                <rdg wit="#ee"><note type="headnote">This poem is unusual for Pulter in both form and content: written in a bouncing iambic trimeter, with frequent feminine rhymes (a formal quality not irrelevant to the content), it features a proposition in the title which is promptly queried in the text. The speaker skeptically or sneeringly questions whether the interlocutor’s beloved is indeed “so wondrous fair”—which of course unfairly exaggerates the lover’s actual claim. What follows is an interrogatory blazon alluding to specific body parts, among other outstanding qualities, of various divinities. These questions are asked, as though in a dramatic monologue, to determine if the beloved’s measurements measure up to this high standard. The quizzed suitor appears to respond in the affirmative, so the speaker urges him to start wooing. While the allusion to Aurora is highly Pulterian, the poem’s eroticized bodily detail and courtship advice are unusual in her works (although, also on courtship, see “The Turtle and his Paramour” [Emblem 47]).</note></rdg>
+                <rdg wit="#ae"><note type="headnote"><p>This poem is organized around questions and its title raises one for the reader: whose love is fair? The whole poem is in the second person, in which the speaker interrogates an interlocutor about “thy” love and then, finally satisfied that she is so wondrous that she exceeds every precedent, urges him to woo her. Here the speaker acts as a kind of wing man to the lover, playing something like the role Diana O’Hara identifies as the “go-between.” These go-betweens served as “movers,” “suitors,” “speakers,” and “brokers” of marriage in Tudor courtships as depicted on the stage and in church court depositions (Diana O’Hara, <title rend="italic">Courtship and Constraint: Rethinking the Making of Marriage in Tudor England</title> [Manchester and New York: Manchester University Press, 2000], pp. 99-121). The blazon tradition always installs a third party, the addressee to whom the speaker “blazons” or trumpets the virtues of his beloved, both announcing possession of her and seeming to advertise her (Nancy J. Vickers, “‘The blazon of sweet beauty’s best’: Shakespeare’s <title rend="italic">Lucrece</title>,” in <title rend="italic">Shakespeare and the Question of Theory</title>, ed. Patricia Parker and Geoffrey Harman [Methuen, 1985], pp. 95-115). Pulter’s speaker here is that third party, pointing out the beloved’s virtues to the apparently reluctant suitor. This dynamic is unusual in poetry. We can easily find triangulation in love poetry: in many poems, male speakers address their rivals or warn other men against women in general or in particular; in Aphra Behn’s “Invitation,” the female speaker steps between one Damon and a “cruel shepherdess,” in the hopes of taking her place as his beloved. Shakespeare writes sonnets urging the young man to procreate, but they focus on the beauty of the young man, which should leave a record, and on the offspring, rather than the prospective wife. While these are all triangles (and you can see some of them under “Triangulation and the Second Person” in the “Curations” for this poem) they all work differently than does Pulter’s triangle in this poem, in which a speaker advises the addressee to pursue a woman pronto. We find something like this dynamic more often in the drama, as Beatrice and Benedick’s friends push them together in <title rend="italic">Much Ado About Nothing</title>, or Cesario urges Orsino not to flag in his pursuit of Olivia in <title rend="italic">Twelfth Night</title>. The poem also treats the temporal urgency central to seduction poems in a novel way. In most <foreign rend="italic">carpe diem</foreign> seduction poems, male speakers threaten women with time’s ravages, urging them to surrender to wooing posthaste; here the speaker works to motivate an apparently hesitant lover, arguing that the beloved’s fairness warrants urgent pursuit.</p><p>The speaker’s close attention to another’s beloved blurs the distinction between mine and thine. Pulter’s dialogic poems can often be read as dialogues within the self. Might the two parties here also be sides of the same person? The speaker’s careful inventory of female beauty links this poem—which seems in many ways impersonal—to Pulter’s blazons of her dead daughter (Poem 11) and of her own body (Poem 51). When Pulter describes a human body in detail, she focuses on the female body. Whereas the blazon has often been understood as a “divide and conquer” strategy, by which a male speaker dissects and masters a female beloved, Pulter suggests the blazon’s possibilities for turning the female gaze on the female body. She uses the blazon’s conventions to capture her memory of her daughter, her memory of her own young flesh, her frank appraisal of her aging body, and even, in this highly stylized poem, her appreciation of what wondrous fairness in a woman might look, smell, and sound like as well as the ridiculous standards women have to meet before men feel motivated to woo. The dense tissue of allusion should not distract from the keen observation it accompanies. Read in relation to Pulter’s other poetry, the absence of religion is striking here, as are its consequences for the poem’s teleology. The insistent interrogation builds toward persuading the lover to ride off a-wooing—giddyup!—not, as so often in Pulter, to die and rise again. Within its secular arc, the poem ends with a beginning, wooing rather than marriage.</p></note></rdg>
+            </app>
+            </head>
+
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">And is thy Love Soe Wonderous &ff;air</rdg>
+                    <rdg wit="#ee">And is thy love so wondrous fair?</rdg>
+                    <rdg wit="#ae">And is thy love so wondrous fair?</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Hath Shee Herſillias Shineing Hair</rdg>
+                    <rdg wit="#ee">Hath she <seg>Hersilia’s<note type="critical">a figure in Roman myth; see George Sandys’s translation of Ovid: “a Star shot from the Skie, / Whose golden beames inflam’d Hersilia’s haire.” <title rend="italic">Ouid’s Metamorphosis Englished</title> (London, 1628), p.414.</note></seg> shining hair;</rdg>
+                    <rdg wit="#ae">Hath she <seg>Hersilia’s<note type="critical">Wife of Romulus, one of the founders of Rome, Hersilia was deified after death as the goddess Hora. As Sandys’s translation of Ovid describes this, “a star shot from the sky / Whose golden beams inflamed Hersilia’s hair” (<title rend="italic">Ovid’s Metamorphosis Englished . . . by G. S.</title> [1632], sig. Ll1v).</note></seg> shining hair,</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Junos Count’nance Pallas, Eye</rdg>
+                    <rdg wit="#ee"><seg>Juno’s count’nance; Pallas’s eye<note type="gloss">Juno is the chief Olympian goddess; “count’nance” means “face”; Pallas is an epithet for Athena.</note></seg>,</rdg>
+                    <rdg wit="#ae"><seg>Juno’s<note type="gloss">Juno was Jupiter’s wife, renowned for her beauty.</note></seg> count’nance, <seg>Pallas’s<note type="critical">Pallas may refer to Athena, goddess of wisdom and war. Homer often describes her using a Greek epithet that might be translated as “bright-eyed” or “with gleaming eyes.” The phrase “Pallas’s eye” is not unique to Pulter. Barnabe Barnes’s sonnet LXIV mentions “Pallas’s eye, and Venus’s rosie cheeke, / And Phoebe’s forehead” (<title rend="italic">Parthenophil and Parthenophe</title> Sonnets [London, 1593]).</note></seg> eye,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">&ff;ull of Awfull Majestie</rdg>
+                    <rdg wit="#ee">Full of <seg>awful<note type="gloss">awe-inspiring</note></seg> majesty?</rdg>
+                    <rdg wit="#ae">Full of awful majesty?</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">In Loves Story dost thou &ff;ind</rdg>
+                    <rdg wit="#ee">In love’s story dost thou find</rdg>
+                    <rdg wit="#ae">In love’s story dost thou find</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft"><seg>Cupid<note type="physical">“d” appears written over “t”</note></seg> with one Glance Strock blind</rdg>
+                    <rdg wit="#ee"><seg>Cupid<note type="gloss">god of love</note></seg> with one glance struck blind?</rdg>
+                    <rdg wit="#ae">Cupid with one glance struck blind?</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">Doth her cheeks excell Auroras</rdg>
+                    <rdg wit="#ee">Doth her cheeks excel <seg>Aurora’s<note type="gloss">goddess of dawn</note></seg>,</rdg>
+                    <rdg wit="#ae">Doth her cheeks excel <seg>Aurora’s<note type="gloss">goddess of the dawn</note></seg></rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">And her &ff;ragrant breath Sweet &ff;loras</rdg>
+                    <rdg wit="#ee">And her fragrant breath sweet <seg>Flora’s<note type="gloss">goddess of flowers</note></seg>?</rdg>
+                    <rdg wit="#ae">And her fragrant breath sweet <seg>Flora’s<note type="gloss">goddess of flowers or spring</note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Venus Ruby Lips and Smile</rdg>
+                    <rdg wit="#ee"><seg>Venus’s<note type="gloss">goddess of love; Aphrodite</note></seg> ruby lips and smile,</rdg>
+                    <rdg wit="#ae">Venus’s ruby lips and smile,</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">That A Stoick would beguile</rdg>
+                    <rdg wit="#ee"><seg>That<note type="gloss">that even</note></seg> a <seg>Stoic<note type="gloss">a practitioner of Greek philosophy espousing indifference and austerity</note></seg> would beguile?</rdg>
+                    <rdg wit="#ae">That a <seg>Stoic<note type="gloss">That might even be able to seduce a Stoic, that is, a member of a group who strive to master their passions and emotions.</note></seg> would beguile?</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Gallitea’s Neck and Breast</rdg>
+                    <rdg wit="#ee"><seg>Galatea’s<note type="gloss">a beautiful statue carved by Pygmalion, who fell in love with her; she was brought to life by Aphrodite</note></seg> neck and breast</rdg>
+                  <rdg wit="#ae"><seg>Galatea’s<note type="gloss">A sculptor, Pygmalion made a statue so beautiful he fell in love with it: Galatea, whose name in Greek indicates having “milk-white” skin. Galatea also appears as a sea-nymph in love with Acis in Ovid’s <title rend="italic">Metamorphoses</title>.</note></seg> neck and breast,</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">On Which Idalias Boy doth rest</rdg>
+                    <rdg wit="#ee">On which <seg>Idalia’s boy<note type="gloss">Eros or Cupid; Idalia is an epithet for Aphrodite (Perseus Digital Collections, http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0104%3Aentry%3Didalia-bio-1).</note></seg> doth rest?</rdg>
+                    <rdg wit="#ae">On which <seg>Idalia’s boy<note type="gloss">Venus was associated with the island of Idalia, near Cyprus. The “Idalian boy” may mean Cupid, her son.</note></seg> doth rest?</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">Doth her Shoulders Pelops paſs</rdg>
+                    <rdg wit="#ee">Doth her shoulders <seg>Pelops’s<note type="gloss"> in Greek mythology, killed and served by his father to gods, who, after eating one shoulder, restored him to life with an ivory shoulder</note></seg> <seg>pass<note type="gloss">surpass</note></seg>?</rdg>
+                    <rdg wit="#ae">Doth her shoulders <seg>Pelops’s<note type="critical">All of the other comparisons are to women and goddesses. This one is to a man, Pelops, the son of Tantalus. What’s so special about his shoulder? His father cut Pelops into pieces and made him into a stew to offer to the gods. The only god to consume the offering, Demeter, ate the left shoulder. Rejecting the offering, the other gods reassembled and resurrected Pelops, replacing the eaten shoulder with an ivory one (Ovid, <title rend="italic">Metamorphoses</title>, Book 6). Pulter’s allusion here describes the beloved’s shoulder as ivory, linking it to the image of Galatea, Pygmalion’s “lass,” the statue with whom he fell in love. Both these references to ivory racialize the beloved, emphasizing her whiteness. The reference to Pelops might also stir up thoughts of cannibalism, the stew pot, and the prosthesis.</note></seg> <seg>pass<note type="gloss">surpass</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Or Pigmalians Ivory Laſs</rdg>
+                    <rdg wit="#ee">Or <seg>Pygmalion’s ivory lass<note type="gloss">See note on Galatea.</note></seg>?</rdg>
+                    <rdg wit="#ae">Or <seg>Pygmalion’s ivory lass<note type="gloss">Galatea (mentioned in l. 11) was “Pygmalion’s ivory lass.”</note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">Doth her Ellegant Sweet Speeches</rdg>
+                    <rdg wit="#ee">Doth her elegant sweet speeches</rdg>
+                    <rdg wit="#ae">Doth her elegant sweet speeches</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">Most com̄and when Shee beſeeches</rdg>
+                    <rdg wit="#ee">Most command when she beseeches?</rdg>
+                    <rdg wit="#ae">Most command when she beseeches?</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <rdg wit="#ft">Like Diana Taul and Chast</rdg>
+                    <rdg wit="#ee">Like <seg>Diana<note type="gloss">goddess of the moon</note></seg>, tall and chaste,</rdg>
+                    <rdg wit="#ae">Like <seg>Diana<note type="gloss">goddess of the moon and of chastity</note></seg> tall and chaste</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <rdg wit="#ft">And as Slender when imbrac’t</rdg>
+                    <rdg wit="#ee">And as slender when embraced?</rdg>
+                    <rdg wit="#ae">And as slender when embraced?</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <rdg wit="#ft">Doth her Bevty Phœbus darken</rdg>
+                    <rdg wit="#ee">Doth her beauty <seg>Phoebus<note type="gloss">god of the sun</note></seg> darken?</rdg>
+                    <rdg wit="#ae">Doth her beauty <seg>Phoebus<note type="gloss">the sun</note></seg> darken?</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <rdg wit="#ft">Doe the Spheirs Stand Still and hearken</rdg>
+                    <rdg wit="#ee">Do <seg>the spheres<note type="gloss">concentric hollow globes imagined in ancient astronomy to revolve around the earth, carrying heavenly bodies (moon, sun, planets, fixed stars) and producing perfectly harmonious sound</note></seg> stand still and hearken</rdg>
+                    <rdg wit="#ae">Do the spheres stand still and hearken</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg wit="#ft"><fw type="catch" place="bottom">when</fw></rdg>
+            </app>
+          <app>
+            <rdg wit="#ft"><pb ed="#ft" facs="#f7610_168" n="82v"/></rdg>
+            <rdg wit="#ee"><pb ed="#ee" facs="#f7610_168"/></rdg>
+            <rdg wit="#ae"><pb ed="#ae" facs="#f7610_168"/></rdg>
+          </app>
+            <l n="21">
+                <app>
+                    <rdg wit="#ft">When Shee quavers on the Vial</rdg>
+                    <rdg wit="#ee">When she <seg>quavers on the viol<note type="gloss">plays music with a trill on a stringed Renaissance instrument</note></seg>?</rdg>
+                    <rdg wit="#ae">When she <seg>quavers<note type="gloss">plays</note></seg> on the viol?</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <rdg wit="#ft">Like the Sunbeams on the Diall</rdg>
+                    <rdg wit="#ee">Like the sunbeams on the <seg>dial<note type="gloss">sun dial</note></seg>,</rdg>
+                    <rdg wit="#ae">Like the sunbeams on the <seg>dial<note type="gloss">sundial</note></seg></rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <rdg wit="#ft">Doth Shee Govern &ff;ate and Chance</rdg>
+                    <rdg wit="#ee">Doth she govern fate and chance?</rdg>
+                    <rdg wit="#ae">Doth she govern fate and chance?</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <rdg wit="#ft">To her Muſick doth Time Dance</rdg>
+                    <rdg wit="#ee">To her music doth time dance?</rdg>
+                    <rdg wit="#ae">To her music doth Time dance?</rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <rdg wit="#ft">And when Shee doth Touch a Lute</rdg>
+                    <rdg wit="#ee">And when she doth touch a lute,</rdg>
+                    <rdg wit="#ae">And when she doth touch a lute</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <rdg wit="#ft">Doe the Muſes all stand Mute</rdg>
+                    <rdg wit="#ee">Do the <seg>Muses<note type="gloss">goddesses of inspiration</note></seg> all stand mute?</rdg>
+                    <rdg wit="#ae"><seg>Do the muses all stand mute?<note type="critical">The praise shifts into a higher gear at l. 20, when the speaker’s questions move from physical beauty to musical talent on the viol and lute, to which seven lines are devoted. Since the questions turn to whether the beloved’s talent has the extraordinary power to govern fate and chance and to control the passage of time, one wonders if the answers could possibly be affirmative. The following question in l. 27 emphasizes that the qualities being considered at this point are superhuman.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <rdg wit="#ft">Is Shee of Saturnian Iſſew</rdg>
+                    <rdg wit="#ee">Is she of <seg>Saturnian<note type="gloss">of Saturn, father of the Olympian gods; therefore, divine generally</note></seg> issue?</rdg>
+                    <rdg wit="#ae">Is she of <seg>Saturnian issue<note type="gloss">child of gods or divine</note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <rdg wit="#ft">Are her Lims wrapt up in Tiſſew</rdg>
+                    <rdg wit="#ee">Are her limbs wrapped up in <seg>tissue<note type="gloss">rich cloth, often interwoven with gold or silver</note></seg>?</rdg>
+                    <rdg wit="#ae">Are her limbs wrapped up in <seg>tissue<note type="gloss">fine, luminous cloth</note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <rdg wit="#ft">Her <seg>Hidden<note type="physical">second “d” appears crowded between surrounding letters</note></seg> parts like Aphrodite</rdg>
+                    <rdg wit="#ee">Her hidden parts like <seg>Aphrodite<note type="gloss">goddess of love; Venus</note></seg>,</rdg>
+                    <rdg wit="#ae">Her hidden parts like <seg>Aphrodite<note type="critical">Aphrodite or Venus, the goddess of love and fertility, was often depicted with one hand shielding her genitals. As a consequence, any nude female figure covering her genitals with one hand became known as a “Venus pudica” or modest Venus. According to Valerie Traub, “with her ambivalent gestures of both modesty and revelation, the Venus <foreign rend="italic">pudica</foreign> replaced Eve as the dominant trope for anatomical illustration of the female body, employed throughout the sixteenth and seventeenth centuries on title pages and frontispieces” (Traub, <title rend="italic">Renaissance of Lesbianism in Early Modern England</title> [Cambridge: Cambridge University Press, 2002], p. 117).</note></seg>,</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <rdg wit="#ft">But as Coy as Amphitrite</rdg>
+                    <rdg wit="#ee">But <seg>as coy as Amphitrite<note type="gloss">a mermaid goddess of the sea, “coy” because she worked to evade the amorous advances of Poseidon, god of the sea.</note></seg>?</rdg>
+                    <rdg wit="#ae">But as coy as <seg>Amphitrite<note type="critical">
+                      <p>Amphitrite refused Neptune’s proposal of marriage and fled from him. Her “coyness” may refer to this reluctance to marry, which Neptune overcame by sending a dolphin to persuade or seize her. The dolphin, then, played a role similar to that of the speaker of Pulter’s poem, facilitating courtship. The reference to coy Amphitrite here sets up the reference to Philanthropos in the next line.</p>
+                      <p>In the references to Saturnian issue, Aphrodite, and Amphitrite, Pulter may be sending up the strategy of comparison she employs here, piling up allusions to goddesses rather than human women. Even Orlando’s poetry, ridiculed in Shakespeare’s <title rend="italic">As You Like It</title>, refers to human women, however apocryphal or dubious: “Helen’s cheek, but not her heart, / Cleopatra’s majesty, / Atalanta’s better part, / Sad Lucretia’s modesty” (3.2.142-45, new Pelican edition, ed. Frances E. Dolan [Penguin, 2017]).</p>
+                    </note></seg>?</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <rdg wit="#ft">Why then Philanthropas bestride</rdg>
+                    <rdg wit="#ee">Why then, <seg>Philanthropas bestride<note type="critical">The name (etymologically, “lover of humanity”) refers in classical literature to the dolphin; it is based on the animal’s alleged friendliness to people, which in some cases included allowing people to ride (“bestride”) them. A dolphin was said either to have negotiated with Amphitrite on Poseidon’s behalf (see previous line) or to have abducted her so that Poseidon might marry her (<title rend="italic">The Theoi Project</title>, http://www.theoi.com/Ther/Delphin.html).</note></seg>,</rdg>
+                    <rdg wit="#ae">Why, then <seg>Philanthropos<note type="critical">
+                      <p>This name means lover of mankind. It was also a “standard epithet” for the dolphin, which was depicted from antiquity on as loving humans (especially men and boys) and their music, and providing them with speedy transit and even rescue. “The stories of the dolphin as ‘philanthropos’ occur not merely in folklore and in minor, undiscriminating authors, but in the most authoritative and reputable of the ancients” (John Creaser, “Dolphins in <title rend="italic">Lycidas</title>,” <title rend="italic">Review of English Studies</title> 36.142 [1985]: pp. 235-43, esp. p. 238).</p>
+                      <p>The dolphin is often depicted in visual art and in literature as ridden by humans or as transporting humans. Cupid or Eros and Apollo were often depicted astride a dolphin, as was the ancient Greek poet Arion, whom, according to legend, dolphins rescued when he leaped into the sea to avoid being murdered by pirates. One romance uses the same verb Pulter does here (bestride) to describe Arion: “Upon the trembling billows was descry’d / Arion with a golden Harpe in’s hand, / Who a huge crooked Dolphine did bestride / And in the dancing waves did bravely ride” (Francis Kinnaston, <title rend="italic">Leoline and Sydanis</title> [London, 1642], sig. K2v). This vision of Arion links making music with riding the dolphin. In Shakespeare’s <title rend="italic">A Midsummer Night’s Dream</title>, Oberon similarly links the two, remembering hearing “a mermaid on a dolphin’s back / Uttering such dulcet and harmonious breath / That the rude sea grew civil at her song / And certain stars shot madly from their spheres / To hear the sea-maid’s music” (<title rend="italic">A Midsummer Night’s Dream</title>, 2.1.150-54). In Shakespeare’s <title rend="italic">Twelfth Night</title>, a dolphin helps to rescue the shipwrecked Sebastian, who, the Captain reassures Viola, bound himself “to a strong mast, that lived upon the sea, / Where like Arion on the dolphin’s back, / I saw him hold acquaintance with the waves” (TN 1.2). Both of these quotations are from the third edition of the Norton Shakespeare (2016). In Milton’s “Lycidas,” too, the poet calls on “ye Dolphins” to “waft the hapless youth” (line 164), that is, the drowned friend the poem commemorates, apparently drawing on these associations of the dolphin with rescue and perhaps even with the transport of the dead for burial or the soul for salvation (see Creaser). In urging the lover to hop on a dolphin to pursue his beloved, Pulter reinforces the link between the musical fair one and Amphitrite, draws on all of these traditions of dolphins assisting humans (especially men)—and suggests that the fair beloved lies across the sea or in the realm of myth.</p>
+                    </note></seg> bestride,</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <rdg wit="#ft">And after her a Woing <seg>Ride<note type="physical">possible erasure of single letter in space afterward</note></seg></rdg>
+                    <rdg wit="#ee">And after her a-wooing ride.</rdg>
+                    <rdg wit="#ae">And after her a-wooing ride!</rdg>
+                </app>
+            </l>
+        </body>
+    </text>
+</TEI>
