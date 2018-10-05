@@ -408,10 +408,11 @@ $globalBorderRadius: 2px;
           .poem-details-options {
             a {
               font-size: .85em;
+              font-weight: bold;
             }
 
             .pp-action {
-              border-radius: 3px;
+              border-radius: 4px;
             }
 
             .to-vm,
@@ -427,15 +428,9 @@ $globalBorderRadius: 2px;
             }
 
             .to-ctx {
-              border: 1px solid rgba(255, 255, 255, .6);
-              color: rgba(255, 255, 255, .8);
-              @include transition(all .2s);
-
-              &:hover {
-                background: #ECE9E2;
-                color: rgba(#282828, 1);
-                border: 1px solid rgba(255, 255, 255, .8);
-              }
+              background: #ECE9E2;
+              color: rgba(#282828, 1);
+              border: 1px solid rgba(255, 255, 255, .8);
             }
 
             @include breakpoint(mobile) {
@@ -1596,34 +1591,6 @@ $defaultStrokeWidth: 6px;
       font-size: 1.25em;
       margin-top: 5em;
       max-width: 80%;
-      background: rgba(#fff, .66);
-      border-left: 4px rgba($pp_manuscriptInk, .66) solid;
-      border-left: 4px rgba($pp_darkGold, .66) solid;
-      border-radius: 3px;
-      //padding-left: 1em;
-      padding: 1.5em 2.25em 1em 1.5em;
-      color: rgba($pp_manuscriptInk, 1);
-
-      .muter {
-        text-transform: uppercase;
-        font-size: .66em;
-        font-weight: bold;
-        letter-spacing: 2px;
-        cursor: pointer;
-        display: block;
-        margin-top: 1.75em;
-        color: rgba($pp_manuscriptInk, .66);
-        vertical-align: middle;
-        @include transition(color .2s);
-
-        @include breakpoint(mobile) {
-          margin: 2.25em 0 .5em 0;
-        }
-
-        &:hover {
-          color: rgba($pp_manuscriptInk, .85);
-        }
-      }
 
       @include breakpoint(mobile) {
         max-width: 100%;

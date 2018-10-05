@@ -271,3 +271,33 @@ a.pp-poem-ref {
   letter-spacing: 2px;
   display: inline-block;
 }
+
+// Explanatory blurbs
+.explanatory {
+  background: rgba(#fff, .66);
+  border-left: 4px rgba($pp_darkGold, .66) solid;
+  border-radius: 3px;
+  padding: 1.5em 2.25em 1em 1.5em;
+  color: rgba($pp_manuscriptInk, 1);
+
+  .muter {
+    text-transform: uppercase;
+    font-size: .66em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: block;
+    margin-top: 1.5em;
+    color: rgba($pp_manuscriptInk, .75);
+    vertical-align: middle;
+    @include transition(color .2s);
+
+    @include breakpoint(mobile) {
+      margin: 2.25em 0 .5em 0;
+    }
+
+    &:hover {
+      color: rgba($pp_manuscriptInk, 1);
+    }
+  }
+}

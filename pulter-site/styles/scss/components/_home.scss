@@ -22,7 +22,7 @@
 
   // Hero section
   #intro {
-    background: url('../../../images/pp-splash-bg.jpg') no-repeat, rgba(0, 0, 0, 1);
+    background: url('/images/pp-splash-bg.jpg') no-repeat, rgba(0, 0, 0, 1);
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -296,7 +296,7 @@
               background: #343434;
               text-transform: uppercase;
               letter-spacing: 4px;
-              padding: 1em 22px 1em 25px;
+              padding: 1.1em 22px 1em 25px;
               line-height: 1;
               box-shadow: 0 0 .5em rgba(0, 0, 0, .25);
               //min-width: 7.5em;
@@ -390,7 +390,7 @@
                 display: none;
                 background: #444;
                 position: absolute;
-                left: -1.25em;
+                left: -2em;
                 right: 0;
                 bottom: 100%;
                 animation: fadeInUpSubtle .4s both;
@@ -409,7 +409,7 @@
                   position: relative;
 
                   &:not(:last-child) {
-                    margin-bottom: 1.66em;
+                    margin-bottom: 2em;
                   }
 
                   @include breakpoint(mobile) {
@@ -475,6 +475,32 @@
     background: linear-gradient(0deg, #F5f5f5 0%, lighten(#e6e3db, 3%) 100%);
     color: $pp_manuscriptInk;
 
+    .exploration-blurb {
+      background: rgba(#fff, 1);
+      min-height: 0;
+      overflow: hidden;
+      max-width: 66%;
+      font-size: ms(-1);
+      color: rgba($pp_manuscriptInk, 1);
+      margin-bottom: 4em;
+
+      @include breakpoint(mobile) { max-width: 90%;}
+
+      @include breakpoint(mobile) {
+        max-width: 100%;
+      }
+
+      &.muted {
+        @include transition(all .2s);
+        height: 0;
+        min-height: 0;
+        margin-top: 1.5em;
+        border: none;
+        padding: 0;
+        margin-bottom: 0;
+      }
+    }
+
     .explorations-box {
       max-width: $maxWidth;
       margin: 0 auto;
@@ -513,7 +539,7 @@
         content: '';
         width: $s;
         height: $s;
-        background: url('../../../images/pp-formal.jpg') no-repeat;
+        background: url('/images/pp-formal.jpg') no-repeat;
         background-size: 100% 100%;
         border-radius: 2px;
         margin-right: 1em;
@@ -539,16 +565,8 @@
       }
     }
 
-    .explanatory {
-      max-width: 66%;
-      font-size: ms(-1);
-      color: rgba($pp_manuscriptInk, 1);
-
-      @include breakpoint(mobile) { max-width: 90%; }
-    }
-
     .exploration-list {
-      margin: 4.5em 0 1.5em 0;
+      margin: 3em 0 1.5em 0;
 
       @include breakpoint(mobile) {
         max-width: 90%;
@@ -580,6 +598,7 @@
         }
 
         .title {
+          color: #282828;
           font-size: ms(0);
           cursor: pointer;
           font-family: $pp_curatorialFont;
@@ -591,7 +610,7 @@
             left: 0;
             top: .25em;
             display: inline-block;
-            background: url('../../../images/exploration-mock.svg') no-repeat;
+            background: url('/images/exploration-mock.svg') no-repeat;
             width: 1em;
             height: 1.5em;
             content: '';
@@ -651,11 +670,44 @@
         margin-left: $mobileLeftEdgeOffset;
       }
 
-      .logo {
-        height: 2.75em;
+      .to-intro {
+        display: inline-block;
+        vertical-align: middle;
 
-        @include breakpoint(mobile) {
-          height: 2em;
+        .logo {
+          height: 2.75em;
+
+          @include breakpoint(mobile) {
+            height: 2em;
+          }
+        }
+      }
+
+      .in-page-nav {
+        margin-left: 4.5em;
+        display: inline-block;
+        vertical-align: middle;
+
+        a {
+          font-size: ms(-2);
+          color: rgba(255, 255, 255, .75);
+          border: 1px rgba(255, 255, 255, .33) solid;
+          font-family: $pp_originalFont;
+          background: rgba(255, 255, 255, .04);
+          padding: .33em .66em;
+          border-radius: 4px;
+          text-align: center;
+          @include transition(color .2s);
+
+          @include breakpoint(mobile) {
+            font-size: ms(-3);
+          }
+
+          &:not(:last-child) {
+            margin-right: 1.5em;
+          }
+
+          &:hover { color: #fff; }
         }
       }
 
@@ -804,38 +856,66 @@
     }
   }
 
-  // To top action
-  .to-top-action {
-    $s: 2.5em;
-    $i: 1em;
+  // In page nav actions
+  $navActionSize: 2.5em;
 
-    opacity: .33;
-    z-index: 99;
+  .to-top-action,
+  .to-exploration-action {
+    z-index: 95;
     display: block;
     position: fixed;
-    bottom: -2.5em;
-    right: 1.5em;
-    width: $s;
-    height: $s;
-    background: rgba($pp_manuscriptPaper, .15);
-    border: 1px solid rgba($pp_manuscriptPaper, .33);
+    height: $navActionSize;
+    background: #21211F;
+    background-image: linear-gradient(0deg, #16110e 0%, #261d18 100%);
     overflow: hidden;
     border-radius: 3px;
     cursor: pointer;
-    @include transition(bottom .3s cubic-bezier(.175,.885,.32,1.275));
     text-align: center;
+    border: 1px solid rgba($pp_shinyGold, .25);
+    @include transition(bottom .3s cubic-bezier(.175,.885,.32,1.275), right .3s cubic-bezier(.175,.885,.32,1.275), color .2s);
+
+  }
+
+  // To top action
+  .to-top-action {
+    bottom: -3em;
+    right: 1.5em;
+    width: $navActionSize;
 
     img {
       opacity: .5;
-      max-width: $i;
-      margin-top: ($s - $i) / 2;
+      max-width: 1em;
+      margin-top: ($navActionSize - 1em) / 2;
       @include transition(opacity .2s);
     }
 
     &:hover {
       img {
-        opacity: .75;
+        opacity: .8;
       }
+    }
+  }
+
+  .to-exploration-action {
+    bottom: 1.5em;
+    right: 1.5em;
+    line-height: 2.55em;
+    color: rgba($pp_manuscriptPaper, 1);
+    font-family: $pp_originalFont;
+    padding: 0 .66em 0 2.2em;
+
+    img {
+      opacity: .85;
+      @include vcenter();
+      left: .66em;
+      height: 1.25em;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 1em;
+    }
+
+    &:hover {
+      color: #fff;
     }
   }
 
@@ -844,12 +924,21 @@
       bottom: 1.5em;
       opacity: 1;
     }
+
+    .to-exploration-action {
+      right: 5.5em;
+    }
   }
 
   // When scrolled passed the index
   &.beyond {
     .fixed-box {
       @include transform(translateY(-100%));
+    }
+
+    .to-exploration-action {
+      bottom: -3em;
+      right: 1.5em;
     }
   }
   // Content wrapper
@@ -1430,7 +1519,7 @@
           height: 1.75em;
           right: 4.5em;
           top: 3.5em;
-          background: url('../../../images/curation-mock.svg') no-repeat 100% 0;
+          background: url('/images/curation-mock.svg') no-repeat 100% 0;
           background-size: auto 100%;
           @include transition(opacity .2s);
 
@@ -1463,6 +1552,27 @@
 
   #pp-home-image-collection,
   #downloads-box { display: none; }
+
+  // Exploration lightbox adjustments
+  .featherlight.curation {
+    .featherlight-content {
+      #content {
+        padding-top: 3em;
+
+        .dismiss { top: 2.25em; }
+      }
+
+      header {
+        .t::before {
+          margin-bottom: 1.33em;
+        }
+      }
+
+      main {
+        color: #282828;
+      }
+    }
+  }
 }
 
 

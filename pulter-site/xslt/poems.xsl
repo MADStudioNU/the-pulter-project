@@ -1884,14 +1884,15 @@
 
   <!-- The Pulter Project Explorations -->
   <pp:explorations>
-    <pp:exploration id="1" hash="and-space-may-produce-new-worlds">
+    <pp:exploration hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
+      <pp:author>Lara Dodds</pp:author>
+      <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
+    </pp:exploration>
+    <pp:exploration hash="and-space-may-produce-new-worlds">
       <pp:author>Lara Dodds</pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
     </pp:exploration>
   </pp:explorations>
-
-  <!-- How many poems in total are out there -->
-  <xsl:variable name="totalNumberOfPoems" select="120"/>
 
   <!-- Helper Vars -->
   <xsl:variable name="lcAlphabet" select="'abcdefghijklmnopqrstuvwxyz'"/>
@@ -2031,11 +2032,11 @@
                     <ul class="drop-list">
                       <li>
                         <img src="/images/compare-icon.svg" />
-                        <a href="./vm/documents" target="_blank">Compare Editions</a>
+                        <a href="/poems/vm" target="_blank">Compare Editions</a>
                       </li>
-                      <li>
+                      <li id="explorations-action">
                         <img src="/images/read-icon.svg" />
-                        <a>Read Explorations</a>
+                        <a href="#explorations">Read Explorations</a>
                       </li>
                       <li>
                         <img src="/images/manuscript-icon.svg" />
@@ -2052,6 +2053,7 @@
           <a class="to-top-action" href="#poems">
             <img src="/images/up.svg"/>
           </a>
+          <a class="to-exploration-action" href="#explorations"><img src="/images/exploration-mock.svg"/>Explorations</a>
           <div class="pp-band" id="poems">
             <xsl:text> </xsl:text>
           </div>
@@ -2181,7 +2183,7 @@
                       <xsl:choose>
                         <xsl:when test="./pp:keywords/pp:keyword">
                           <ul class="poem-keywords">
-                            <xsl:for-each select="./pp:keywords/pp:keyword[position() &lt; 600]">
+                            <xsl:for-each select="./pp:keywords/pp:keyword[position() &lt; 30]">
                               <xsl:variable name="keywordValue" select="text()"/>
                               <xsl:element name="li">
                                 <xsl:attribute name="class">
@@ -2331,24 +2333,31 @@
             <div class="explorations-box">
               <div class="explorations">
                 <h2 class="label">Explorations</h2>
-                <p class="explanatory">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work: themes she frequently treated, matters to do with the materiality of the manuscript, a Pulter timeline, bibliography, and so on.</p>
+                <div class="explanatory exploration-blurb muted">
+                  <span class="it">Explorations</span> are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work: themes she frequently treated, matters to do with the materiality of the manuscript, a Pulter timeline, bibliography, and so on. <span class="muter asap">Don't show again</span>
+                </div>
                 <ul class="exploration-list">
-                  <li>
-                    <div class="title">How to Tell If You’re in a Hester Pulter Poem</div>
-                    <div class="by-line"><span class="by">by</span> <span class="who">Lara Dodds</span></div>
-                  </li>
-                  <li>
-                    <div class="title">Hester Pulter and the Blazon in Early Modern England</div>
-                    <div class="by-line"><span class="by">by</span> <span class="who">Frances E. Dolan</span></div>
-                  </li>
-                  <li>
-                    <div class="title">“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</div>
-                    <div class="by-line"><span class="by">by</span> <span class="who">Lara Dodds</span></div>
-                  </li>
-                  <!--<li>-->
-                  <!--<div class="title">The Pulter Project​: Bibliography</div>-->
-                  <!--<div class="by">By Leah Knight</div>-->
-                  <!--</li>-->
+                  <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+                    <xsl:variable name="status" select="./@status"/>
+                    <li class="exploration-trigger">
+                      <xsl:attribute name="data-ctx-hash">
+                        <xsl:value-of select="./@hash"/>
+                      </xsl:attribute>
+                      <xsl:element name="a">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'link'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-exploration-title">
+                          <xsl:value-of select="./pp:title"/>
+                        </xsl:attribute>
+                        <h3 class="title">
+                          <xsl:value-of select="./pp:title"/>
+                        </h3>
+                        <div class="by-line"><span class="by">by</span>
+                          <span class="who"><xsl:value-of select="./pp:author"/></span></div>
+                      </xsl:element>
+                    </li>
+                  </xsl:for-each>
                 </ul>
               </div>
             </div>

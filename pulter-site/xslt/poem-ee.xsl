@@ -166,19 +166,19 @@
       <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-      <meta name="DC.Title" content="The Eclipse"/>
-      <meta name="DC.Creator" content="Esther Pulter"/>
-      <meta name="DC.Subject" content="eclipse"/>
-      <meta name="DC.Subject" content="resurrection"/>
-      <meta name="DC.Subject" content="revolution"/>
-      <meta name="DC.Subject" content="astronomy"/>
-      <meta name="DC.Description" content="A poem by Hester Pulter (ca. 1605-1678) concerning the topics of cosmology, resurrection, mortality, and fate. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>
-      <meta name="DC.Publisher" content="Media and Design Studio"/>
-      <meta name="DC.Contributor" content="Leah Knight"/>
-      <meta name="DC.Contributor" content="Wendy Wall"/>
-      <meta name="DCTERMS.Modified" content="June 5, 2018"/>
-      <link rel="DC.Identifier" href="http://pulterproject.northwestern.edu/poems/ee/the-eclipse"/>
-      <meta name="DC.Language" content="en"/>
+      <!--<meta name="DC.Title" content="The Eclipse"/>-->
+      <!--<meta name="DC.Creator" content="Esther Pulter"/>-->
+      <!--<meta name="DC.Subject" content="eclipse"/>-->
+      <!--<meta name="DC.Subject" content="resurrection"/>-->
+      <!--<meta name="DC.Subject" content="revolution"/>-->
+      <!--<meta name="DC.Subject" content="astronomy"/>-->
+      <!--<meta name="DC.Description" content="A poem by Hester Pulter (ca. 1605-1678) concerning the topics of cosmology, resurrection, mortality, and fate. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>-->
+      <!--<meta name="DC.Publisher" content="Media and Design Studio"/>-->
+      <!--<meta name="DC.Contributor" content="Leah Knight"/>-->
+      <!--<meta name="DC.Contributor" content="Wendy Wall"/>-->
+      <!--<meta name="DCTERMS.Modified" content="June 5, 2018"/>-->
+      <!--<link rel="DC.Identifier" href="http://pulterproject.northwestern.edu/poems/ee/the-eclipse"/>-->
+      <!--<meta name="DC.Language" content="en"/>-->
 
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -255,7 +255,7 @@
               </h3>
               </a>
             </div>
-            <div class="curation-blurb muted"><span class="it">Curations</span> offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem. <span class="muter asap">Don't show again</span></div>
+            <div class="explanatory curation-blurb muted"><span class="it">Curations</span> offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem. <span class="muter asap">Don't show again</span></div>
           </header>
           <ul class="ctxs">
             <xsl:call-template name="curations">

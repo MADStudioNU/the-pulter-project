@@ -244,7 +244,7 @@
               </h3>
               </a>
             </div>
-            <div class="curation-blurb muted"><span class="it">Curations</span> offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem. <span class="muter asap">Don't show again</span></div>
+            <div class="explanatory curation-blurb muted"><span class="it">Curations</span> offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem. <span class="muter asap">Don't show again</span></div>
           </header>
           <ul class="ctxs">
             <xsl:call-template name="curations">

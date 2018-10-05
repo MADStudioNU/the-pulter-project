@@ -10,6 +10,9 @@ var PP = (function ($) {
       console.log('%c Welcome to the Pulter Project!', 'background: #FBF0FF; color: #330657;');
       console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
 
+      // Isotope instance
+      var $i;
+
       // Local vars
       var hash = window.location.hash.split('#')[1]; // 'undefined' if not
 
@@ -23,6 +26,7 @@ var PP = (function ($) {
       var $intro = $body.find('#intro');
       var $actions = $intro.find('.actions');
       var $readAction = $actions.find('#read-action');
+      var $explorationsAction = $actions.find('#explorations-action');
       var $dropUps = $actions.find('.pseudo');
       var $toIntro = $body.find('.to-intro');
       var $status = $body.find('.status');
@@ -30,21 +34,23 @@ var PP = (function ($) {
       var $searchInput = $searchBox.find('#search-input');
       var $searchResults = $searchBox.find('.results-box');
       var $imgCollection = $body.find('#pp-home-image-collection');
+      var $explorationBlurb = $('.exploration-blurb');
+      var $explorationTriggers = $('.exploration-trigger');
+
 
       // Images status
       $imgCollection.imagesLoaded()
         .always(function () {
-          if (hash) {
+          if (hash && hash !== '0') {
             // Show UI
-            $content.fadeIn(500);
+            $content.fadeIn(600);
+            $intro.addClass('animation-skipped');
 
             setTimeout(function () {
               enableInteractivity();
-              $intro.addClass('animation-skipped');
-            }, 500);
+            }, 400);
 
           } else {
-
             // Load intro
             $intro.fadeIn(600);
 
@@ -71,21 +77,38 @@ var PP = (function ($) {
       // Button click handlers
       $toIntro.on('click', navigateToIntro);
       $readAction.on('click', navigateToIndex);
+      $explorationsAction.on('click', navigateToExplorations);
 
       $dropUps.on('click', function () {
         $(this).toggleClass('expanded');
       });
 
+      // Check if we need to open exploration right away
+      if (explorationIsPresent(hash)) {
+        openExploration(hash);
+      }
+
       // Hash change event logic
       function onHashChange() {
-        var h = window.location.hash;
+        var h = window.location.hash.split('#')[1];
 
         if(!h) { navigateToIntro(); }
-        else if (h === '#poems') { navigateToIndex(); }
+        else if (h === 'poems') { navigateToIndex(); }
       }
 
       // Attaching the event listener
-      window.addEventListener('hashchange', onHashChange, false);
+      window.addEventListener('hashchange', onHashChange);
+
+      // Exploration blurb logic
+      if (!pulterState.has('muteExplorationBlurb')) {
+        $explorationBlurb.removeClass('muted').show();
+
+        $explorationBlurb.find('.muter').on('click', function () {
+          console.log('meow!');
+          $explorationBlurb.addClass('muted');
+          pulterState.set('muteExplorationBlurb', true);
+        });
+      }
 
       // Scroll watcher
       var scrollWatcher = debounce(function () {
@@ -152,6 +175,22 @@ var PP = (function ($) {
         }, 400);
       }
 
+      function navigateToExplorations() {
+        $content.fadeIn(600);
+        $intro.hide();
+        window.location.hash = 'explorations';
+        $('.to-exploration-action').trigger('click');
+        setTimeout(function () {
+          enableInteractivity();
+        }, 400);
+      }
+
+      function explorationIsPresent(hash) {
+        var selector = '.exploration-trigger[data-ctx-hash="' + hash + '"]';
+        var $e = $('.exploration-list').find(selector);
+        return $e.length > 0;
+      }
+
       function onManifestAcquired() {
         // Enable JS linking
         $('.js-link').on('click', function () {
@@ -171,11 +210,15 @@ var PP = (function ($) {
       }
 
       function enableInteractivity() {
-        var $i = $('.grid').isotope({
-          layoutMode: 'vertical',
-          stagger: 30,
-          // getSortData: {}
-        });
+        if (!$i) {
+          $i = $('.grid').isotope({
+            layoutMode: 'vertical',
+            // stagger: 10,
+            // getSortData: {}
+          });
+        } else {
+          $i.isotope('layout');
+        }
 
         // $i.on('arrangeComplete', function (event, filteredItems) {
         //   $status.find('.poem-counter').text(filteredItems.length);
@@ -207,7 +250,33 @@ var PP = (function ($) {
           $i.isotope({ filter: '*' });
           $status.removeClass('hi');
           resetStatusString();
-        })
+        });
+
+        // Exploration lightboxes
+        $explorationTriggers.off().on('click', function () {
+          var eHash = $(this).data('ctx-hash');
+          if (eHash) { openExploration(eHash); }
+          return false;
+        });
+      }
+
+      function openExploration(eHash) {
+        var ctxUrl = '/explorations/' + eHash + '.html #content';
+
+        $.featherlight(ctxUrl, {
+          variant: 'curation',
+          closeIcon: '',
+          type: 'ajax',
+          openSpeed: 400,
+          closeSpeed: 200,
+          otherClose: '.dismiss',
+          loading: '<p class="lato spinner">Loading the exploration...</p>',
+          beforeOpen: function () {
+            if (eHash) {
+              window.location.hash = eHash;
+            }
+          }
+        });
       }
 
       function resetStatusString() {
@@ -418,7 +487,7 @@ var PP = (function ($) {
           pConfig.title +
           '" (poem ' +
           pConfig.id +
-          '). Enjoy!';
+          ').';
 
         console.log('%c' + l1, 'background: #FBF0FF; color: #330657;');
         console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
@@ -517,7 +586,7 @@ var PP = (function ($) {
       }
 
       // Curation lightbox triggers
-      $ctxs.find('.ctx').on('click', '.text', function (e) {
+      $ctxs.find('.ctx').off().on('click', '.text', function (e) {
         var $target = $(e.delegateTarget);
         var cHash = $target.data('ctx-hash');
         var cTitle = $target.find('a').data('curation-title');
@@ -573,7 +642,7 @@ var PP = (function ($) {
 
     // Curation blurb logic
     if (!pulterState.has('muteCurationBlurb')) {
-      $curationBlurb.removeClass('muted').fadeIn(200);
+      $curationBlurb.removeClass('muted').show();
 
       $curationBlurb.find('.muter').on('click', function () {
         $curationBlurb.addClass('muted');

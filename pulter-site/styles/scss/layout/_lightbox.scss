@@ -230,7 +230,7 @@
         //}
       }
 
-      @include breakpoint(mobile) {
+      @include breakpoint(mpobile) {
         width: 85%;
         font-size: 1em;
       }
@@ -249,6 +249,7 @@
       text-align: center;
       max-height: 100%;
       overflow: visible;
+      pointer-events: none;
 
       .poster-box {
         position: relative;
@@ -364,7 +365,7 @@
 
   &.home-lightbox {
     z-index: $pp_zEditorialNote;
-    background: rgba(0, 0, 0, .33);
+    background: rgba(0, 0, 0, .5);
 
     .featherlight-content {
       background: darken($pp_manuscriptInk, 13%);
@@ -374,7 +375,7 @@
       width: 80%;
       max-width: 50em;
       padding: 3em 4.5em 3em 3em;
-      border: 1px solid rgba($pp_manuscriptPaper, .15);
+      border: 1px solid rgba($pp_manuscriptPaper, .1);
 
       .dismiss {
         position: absolute;
