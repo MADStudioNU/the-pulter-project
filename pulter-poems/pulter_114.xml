@@ -149,9 +149,9 @@
         <front>
             <div>
                 <listWit>
-                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 28, 2018.</date></witness>
                     <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>. See editorial guidelines for this edition. Last updated <date>June 7, 2018.</date></witness>
-                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>June 7, 2018.</date></witness>
+                    <witness xml:id="ae">Amplified edition: Edited by <persName>Victoria E. Burke</persName>. Last updated <date>September 17, 2018.</date></witness>
                 </listWit>
             </div>
         </front>
@@ -159,14 +159,13 @@
             <app>
                 <rdg wit="#ft"><pb ed="#ft" facs="#f7610_253" n="33r"/></rdg>
                 <rdg wit="#ee"><pb ed="#ee" facs="#f7610_253"/></rdg>
-                <!--<rdg wit="#ae"><pb ed="#ae" facs="#f7610_253"/></rdg>-->
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_253"/></rdg>
             </app>
             <head>
                 <app type="title">
-                    <rdg wit="#ft">
-                        <!-- [Untitled] -->
+                    <rdg wit="#ft">[Untitled]
                     </rdg>
-                    <rdg wit="#ee">Emblem 49</rdg>
+                    <rdg wit="#ee">A Russian Rustic (Emblem 49)</rdg>
                     <rdg wit="#ae">Emblem 49</rdg>
                 </app>
                 <app type="editorialnote">
@@ -184,50 +183,50 @@
                 <app type="headnote">
                     <rdg wit="#ft"></rdg>
                     <rdg wit="#ee"><note type="headnote">This emblem in iambic pentameter couplets tells the tale of a Russian peasant who, seeking honey, becomes stuck inside the beehive in a tree until a bear arrives; the man catches its hind legs, it flees, and the man is freed. The moral is that God can bring redemption even in the form of an enemy.</note></rdg>
-                    <rdg wit="#ae"></rdg>
+                    <rdg wit="#ae">This emblem tells the story of a Russian peasant who gets stuck in a hollow tree full of honey. When a bear climbs into the tree she becomes his unwitting saviour, enabling him to break free when he grabs hold of her hind legs. The emblem becomes a meditation on the possibility of finding freedom and redemption when one least expects it.</rdg>
                 </app>
             </head>
             <lg n="1">
                 <l n="1">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft"><seg>A<note type="physical">end of previous poem occupies first third of page, followed by blank space; poem begins in page’s bottom third</note></seg> Ruſſian Ruſtick Clambring up a Tree</rdg>
                         <rdg wit="#ee">A Russian <seg>rustic<note type="gloss">peasant, country dweller</note></seg> clamb’ring up a tree</rdg>
-                        <rdg wit="#ae">Coming soon.</rdg>
+                        <rdg wit="#ae">A <seg>Russian<note type="critical">Perhaps the most well-known moment involving Russians in early modern English literature is the comic scene from Shakespeare’s <title rend="italic">Love’s Labour’s Lost</title> in which the four lords disguise themselves as “Muscovites, or Russians” in order to court the four ladies (5.2.121). The ladies see through their disguises and mock them. As H.R. Woudhuysen in his 1998 Arden edition of the play explains, “Shakespeare may anticipate or echo the ambassador ‘from the mighty Emperor of <hi rend="italic">Russia</hi> and <hi rend="italic">Moscovy</hi>’ who appeared in the Gray’s Inn revels celebrating Twelfth Night in 1595” (p. 243). Woudhuysen also notes that Philip Sidney uses the image of a “slave-borne <hi rend="italic">Muscovite</hi>” in <title rend="italic">Astrophil and Stella</title>, sonnet 2, line 10 (p. 243). In her edition of Sidney, Katherine Duncan-Jones notes of this line: “The Russians—Slavs—were believed by the Elizabethans to enjoy the oppressive rule of their tsar, at this time Ivan the Terrible. They were also thought comically clumsy and barbaric, as in the Muscovite disguise of the four lovers in <title rend="italic">Love’s Labour’s Lost</title>, V.ii, which probably alludes to this sonnet” (<title rend="italic">Sir Philip Sidney</title>, The Oxford Authors, Oxford University Press, [1989], p. 358). The Russian in Pulter’s poem is a country bumpkin. For discussions of Russian people and their customs from English travel and historical writing of the seventeenth century, see “Curations.”</note></seg> Rustick Clambring up a Tree</rdg>
                     </app>
                 </l>
                 <l n="2">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Sunck in the Treaſure of the Active Bee</rdg>
                         <rdg wit="#ee">Sunk in the treasure of the active bee.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae"><seg>Sunck in the Treasure of the Active Bee<note type="critical">Alice Eardley notes in her edition (<title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, by Lady Hester Pulter, The Other Voice in Early Modern Europe: The Toronto Series vol. 32, Iter and Centre for Reformation and Renaissance Studies, 2014, p. 256) that the story of this emblem appears in Charles Butler, <title rend="italic">The feminine monarchie or a treatise concerning bees</title> (1609), sig. H2v. It appeared in many other sources as well, probably beginning in English with Richard Eden’s translation of <title rend="italic">The decades of the newe worlde or west India</title> (1555), in an anecdote he attributes to a Russian ambassador to Rome named Demetrius, as told by Sebastian Münster and Jacobus Bastaldus. For this and a selection of later versions, see “Curations.” Pulter’s syntax is a little confusing, but the other versions make it clear that the man is submerged in honey within the hollow trunk of a tree.</note></seg></rdg>
                     </app>
                 </l>
                 <l n="3">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">To his Diurnall Saint hee did not fail</rdg>
                         <rdg wit="#ee">To his <seg>diurnal<note type="gloss">daily</note></seg> <seg>saint<note type="critical">daily saint, as prescribed by the Russian Orthodox Church calendar</note></seg> he did not fail</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">To his <seg>Diurnall Saint<note type="critical">i.e., the saint pertaining to that particular day. (Alexander Ross observes of the Russian church in <title rend="italic">Pansebeia, or, A view of all religions in the world with the severall church-governments from the creation, to these times</title> … [1655]: “They have a Saint for every day of the year, which is held the Patron of that day” [p. 488]).</note></seg> hee did not fail</rdg>
                     </app>
                 </l>
                 <l n="4">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">To Supplicate to free him from this Goal</rdg>
                         <rdg wit="#ee">To supplicate to free him from this jail.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">To Supplicate to free him from this <seg>Goal<note type="gloss">gaol (jail)</note></seg></rdg>
                     </app>
                 </l>
                 <l n="5">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">But that which most Augments his Miſery</rdg>
                         <rdg wit="#ee">But that which most augments his misery</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">But that which most Augments his Misery</rdg>
                     </app>
                 </l>
                 <l n="6">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Was that noe Priest nor Patriack was nigh</rdg>
                         <rdg wit="#ee">Was that no priest nor <seg>patriarch<note type="critical">head of the Russian Orthodox Church; also used more generally of male chiefs of churches and of masculine powers still more generally</note></seg> was <seg>nigh<note type="gloss">near</note></seg></rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Was that noe Priest nor <seg>Patriack<note type="critical"> i.e., patriarch. The patriarch was the head of the Russian Orthodox church (chapter three of Samuel Collins’s <title rend="italic">The present state of Russia in a letter to a friend at London / written by an eminent person residing at the great czars court at Mosco for the space of nine years...</title>, is headed “Of the Patriarch in general, he is supreme Head of the Church” [1671, p. 15]). With the references to saints (in lines 3 and 7), a priest, and the patriarch (who might parallel the Pope), Pulter may be drawing a comparison between this rustic’s religion and her culture’s view of Roman Catholicism’s misguided practices.</note></seg> was nigh</rdg>
                     </app>
                 </l>
             </lg>
@@ -240,161 +239,161 @@
                     ><!-- in ink -->2</fw>
                 </rdg>
                 <rdg wit="#ee"><pb ed="#ee" facs="#f7610_254"/></rdg>
-                <!--<rdg wit="#ae"><pb ed="#ae" facs="#f7610_254"/></rdg>-->
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_254"/></rdg>
             </app>
             <lg type="stanza" n="2">
                 <l n="7">
                     <app>
-                        <rdg wit="#ft"></rdg>
-                        <rdg wit="#ee">To write a letter to <seg>Saint Nicholas<note type="critical">patron saint of Russia; special intercessor on behalf of the departed</note></seg>,</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ft">To write a letter to Saint Nicholas</rdg>
+                        <rdg wit="#ee">To write a letter to <seg>Saint Nicholas<note type="gloss">patron saint of Russia; special intercessor on behalf of the departed</note></seg>,</rdg>
+                        <rdg wit="#ae">To write a letter to <seg>Saint Nicholas<note type="critical">Nicholas was an important saint for Russians. Samuel Collins writes in 1671: “True it is the simpler sort of people in <hi rend="italic">Russia</hi> are meer Idolaters, and in the Northern parts, as <hi rend="italic">Archangelo</hi> and <hi rend="italic">Cola</hi>, they know no other God but St. <hi rend="italic">Nicholas</hi>, whom they really imagine to to rule all the world. They say he came to St. <hi rend="italic">Nicholas</hi> (a Port-town by <hi rend="italic">Archangelo</hi>) swimming from <hi rend="italic">Italy</hi> upon a Milstone; if any <hi rend="italic">Russ</hi> should question the truth of this story ’tis as much as life is worth. They celebrate the Festivals of their own Saints with greater honour than the Apostles. For they say of St. <hi rend="italic">Nicholas</hi>, he is <foreign rend="italic">Nasha Bradt</foreign>, one of our Brethern, and has a greater kindness for us his Countrey-men, than St. <hi rend="italic">Peter</hi> or St. <hi rend="italic">Paul</hi> who never knew us” (<title rend="italic">The present state of Russia in a letter to a friend at London</title>, pp. 91-92).</note></seg></rdg>
                     </app>
                 </l>
                 <l n="8">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">And that without it hee to heaven could Paſs</rdg>
                         <rdg wit="#ee">And that, without it, he to Heaven could <seg>not<note type="critical">missing in the manuscript</note></seg> pass.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">And that <seg>without it hee to heaven could Pass<note type="critical">The scribe must have meant to write “could not pass.” Many writers note this funeral rite: Alexander Ross observes that “They use to put into the dead parties hand a letter to Saint Nicholas their chief mediator, to intercede for him” (<title rend="italic">Pansebeia</title>, p. 489). In the second book of  <title rend="italic">Purchas his pilgrimes In fiue bookes</title> of 1625, Samuel Purchas explains, “When any man or woman dyeth, they stretch him out, and put a new paire of shooes on his feet, because he hath a great Iourney to goe: then doe they wind him in a sheet, as wee doe, but they forget not to put a testimonie in his right hand, which the Priest giueth him, to testifie vnto Saint <hi rend="italic">Nicholas</hi> that he dyed a Christian man or woman” (p. 230).</note></seg></rdg>
                     </app>
                 </l>
                 <l n="9">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Hee hopeleſs was, thus overcharged <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> ffears</rdg>
                         <rdg wit="#ee">He hopeless was; thus overcharged with fears</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Hee hopeless was, thus overcharged w<hi rend="italic">i</hi>th Fears</rdg>
                     </app>
                 </l>
                 <l n="10">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Within, and numerous &ff;oes about his Ears</rdg>
                         <rdg wit="#ee">Within and numerous foes about his ears,</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Within, and numerous Foes about his Ears</rdg>
                     </app>
                 </l>
                 <l n="11">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">This Captive Stood, the Tree hee could not Rive</rdg>
                         <rdg wit="#ee">This captive stood; the tree he could not <seg>rive<note type="gloss">pull away</note></seg>,</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">This Captive Stood, the Tree hee could not <seg>Rive<note type="gloss">tear apart</note></seg></rdg>
                     </app>
                 </l>
                 <l n="12">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">And loth hee was to bee Imbalm’d alive</rdg>
                         <rdg wit="#ee">And loath he was to be <seg>embalmed<note type="critical">honey was used to embalm corpses in ancient times</note></seg> alive.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">And loth hee was to bee Imbalm’d alive</rdg>
                     </app>
                 </l>
                 <l n="13">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">When loe A Bear came <add place="below">\</add> <seg>Ro<del>av</del>ing <add place="above">a[<del>?</del>]r roameinge<note type="physical">“a[<del>?</del>]r” appears directly above “Ro<del>av</del>ing”; “roameinge” appears directly above “a[<del>?</del>]r”; both insertions in different hand from main scribe</note> \</add></seg>  for her Prey</rdg>
                         <rdg wit="#ee">When (lo!) a bear came <seg>roaming<note type="critical">multiple corrections suggest that this was was written “roving” and then “roaring” before a hand different than the scribe corrected to “roaming”</note></seg> for her prey</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">When loe A Bear came <seg>roameinge<note type="physical">“roameinge” is an interlinear addition, in what is likely Pulter’s hand, above “Roaving” in the main hand (which is partially struck through), with the letters “a” and “r” and  an ink blot between them likely in Pulter’s hand. The letters of “roameinge” closely match the few poems in the manuscript in a hand thought to be Pulter’s at the end of the “Poems” section (i.e., <ref type="pp-poem-ref" corresp="61">“The Weeping Wish” [Poem 61]</ref>, <ref type="pp-poem-ref" corresp="64">“And Must the Sword this Controversy Decide” [Poem 64]</ref>, and <ref type="pp-poem-ref" corresp="65">“The Hope” [Poem 65]</ref>).</note></seg> for <seg>her<note type="critical">Pulter’s bear is gendered female, as are many of the versions of this tale, but Charles Butler’s and Edward Topsell’s bear is gendered male.</note></seg> Prey</rdg>
                     </app>
                 </l>
                 <l n="14">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Just where the Man in’s luſcious priſon Lay</rdg>
                         <rdg wit="#ee">Just where the man <seg>in’s<note type="gloss">in his</note></seg> luscious prison lay;</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Just where the Man in’s luscious prison Lay</rdg>
                     </app>
                 </l>
                 <l n="15">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Shee Smelt the Honey, Strait ſhee Climbs <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> tree</rdg>
                         <rdg wit="#ee">She smelled the honey: straight she climbs the tree.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Shee <seg>Smelt the Honey<note type="critical">Bears are commonly known to eat honey, but both Topsell and Pliny also mention another reason bears were thought to be drawn to beehives: they are subject to blindness and bee stings near their eyes will cure them (Pliny explains that the bleeding from their heads will “discharge them of that heauinesse which troubleth their eies”; <title rend="italic">The historie of the world</title> [1634], book 8, chapter 36, p. 216; Topsell, <title rend="italic">The historie of foure-footed beastes</title> [1607], p. 39).</note></seg>, Strait shee Climbs the tree</rdg>
                     </app>
                 </l>
                 <l n="16">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">When the poor Man this double death did See</rdg>
                         <rdg wit="#ee">When the poor man this double death did see,</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">When the poor Man this double death did See</rdg>
                     </app>
                 </l>
                 <l n="17">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">&ff;ear cauſ’d diſpair, diſpair <del>diſpair</del> did make him bold</rdg>
                         <rdg wit="#ee">Fear caused despair, despair did make him bold;</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Fear caus’d dispair, <seg>dispair<note type="physical">“dispair” appears a third time but is struck through.</note></seg> did make him bold</rdg>
                     </app>
                 </l>
                 <l n="18">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Upon the Bears hin’d Legs hee then Catchd hold</rdg>
                         <rdg wit="#ee">Upon the bear’s hind legs he then catched hold.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Upon the Bears hin’d Legs hee then Catchd hold</rdg>
                     </app>
                 </l>
                 <l n="19">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">The Bear affrighted (who can hold their laughter)</rdg>
                         <rdg wit="#ee">The bear, affrighted (who can hold their laughter?),</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">The Bear affrighted (<seg>who can hold their laughter<note type="critical">This phrasing recalls the laughing tortoise from <ref type="pp-poem-ref" corresp="79">“The Porcupine” (Emblem 13)</ref>: “The Tortois hardly could hold in her Laughter” (line 17; my transcription from the manuscript).</note></seg>)</rdg>
                     </app>
                 </l>
                 <l n="20">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Got quickly out and <add place="below">^</add><add place="above">puld</add> the Man out after</rdg>
                         <rdg wit="#ee">Got quickly out, and pulled the man out after.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Got quickly out and puld the Man out after</rdg>
                     </app>
                 </l>
                 <l n="21">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Then let none in diſtres his Courage loſe</rdg>
                         <rdg wit="#ee">Then let none in distress his courage lose;</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Then let none in distres his Courage lose</rdg>
                     </app>
                 </l>
                 <l n="22">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">&ff;or God can bring Redemption by our foes</rdg>
                         <rdg wit="#ee">For God can bring redemption by our foes.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">For God can bring Redemption by our foes</rdg>
                     </app>
                 </l>
                 <l n="23">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Soe hee that could not his imposthume burst</rdg>
                         <rdg wit="#ee">So he that could not his <seg>imposthume<note type="gloss">abscess</note></seg> burst</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Soe hee that could not his imposthume burst</rdg>
                     </app>
                 </l>
                 <l n="24">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">&ff;ound Remedy even by an Enemies thruſt</rdg>
                         <rdg wit="#ee"><seg>Found remedy even by an enemy’s thrust<note type="critical">Phalereus sought to kill himself so as to end the suffering caused by an abscess, only to have his knife rupture the cyst and ironically save him; see Philemon Holland, trans. Pliny, The Natural History of the World (London, 1634), 182.</note></seg>;</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Found <seg>Remedy even by an Enemies thrust<note type="critical">Eardley notes that this refers to the story told in Pliny, book 7, chapter 50, p. 182, of Phalereus, whose attempted suicide was actually his cure, since by stabbing himself in the chest he ruptured the “impostume” or cyst that was killing him (p. 257). Thus the “enemy” of line 24 was actually Phalereus’s own sword.</note></seg></rdg>
                     </app>
                 </l>
                 <l n="25">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">&ff;or God can turn the Sharpest Sword or knife</rdg>
                         <rdg wit="#ee">For God can turn the sharpest sword or knife</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">For God can turn the Sharpest Sword or knife</rdg>
                     </app>
                 </l>
                 <l n="26">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">That means us instant death, to give us Life</rdg>
                         <rdg wit="#ee">That means us instant death, to give us life.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">That means us instant death, to give us Life</rdg>
                     </app>
                 </l>
                 <l n="27">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Then if Restraind of Liberty you bee</rdg>
                         <rdg wit="#ee">Then if restrained of liberty you be,</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Then if <seg>Restraind of Liberty<note type="critical">Pulter uses imagery of restraint and confinement frequently in her poetry (for example, see <ref type="pp-poem-ref" corresp="39">“The Perfection of Patience and Knowledge” [Poem 39]</ref> and <ref corresp="57" type="pp-poem-ref">“Why Must I Thus Forever Be Confined” [Poem 57]</ref>).</note></seg> you bee</rdg>
                     </app>
                 </l>
                 <l n="28">
                     <app>
-                        <rdg wit="#ft"></rdg>
+                        <rdg wit="#ft">Think how the Bear <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Captive <seg><del>Clown</del><note type="physical">double strike-through</note></seg> <seg><add place="below">\</add> <add place="above">[<del>?</del>] Ruſs \</add><note type="physical">in different hand from main scribe; three or four letters blotted and crossed out, possibly ending “ſs”</note></seg> Set free</rdg>
                         <rdg wit="#ee">Think how the bear the captive <seg>Russ<note type="gloss">Russian</note></seg> set free.</rdg>
-                        <rdg wit="#ae"></rdg>
+                        <rdg wit="#ae">Think how the Bear the Captive <seg>Russ<note type="gloss">“Russ” is an interlinear addition in what is likely Pulter’s hand, above “Clown” which has been struck through. The connotations of clown are countryman, rustic or peasant (<title rend="italic">OED</title>).</note></seg> Set <seg>free<note type="critical">The versions of this story recounted by Charles Butler and Edward Topsell, for example (see “Curations”), seem to highlight the absurdity of the situation (e.g., “the poore man” and “leaving the smeared swaine in a ioyfull feare”), and Pulter’s narrator takes a similar tack with her question, “who can hold their laughter”? But her moral is serious, as she argues that the threat of imminent death can turn quickly into a deliverance from harm, and that God’s Providence brings about redemption in mysterious ways.</note></seg></rdg>
                     </app>
                 </l>
             </lg>
