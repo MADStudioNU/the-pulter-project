@@ -1561,7 +1561,7 @@
       <table>...</table>) that HTML does not -->
       <xsl:choose>
          <xsl:when
-            test="ancestor::tei:note or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
+            test="ancestor::tei:note[not(@type='editorial') and not(@type='headnote')] or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
             <p>
                <xsl:apply-templates>
                   <xsl:with-param name="witId" select="$witId"/>

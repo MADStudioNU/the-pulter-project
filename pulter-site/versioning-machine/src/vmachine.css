@@ -508,6 +508,12 @@ div.headnote-text p {
   margin-bottom: 0.5em;
 }
 
+/*  div.paragraph in headnote replaces the use of p to allow div.note */
+div.headnote-text div.paragraph {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 div.disabled-note,
 span.notespan div.note,
 div.noteicon div.note,
