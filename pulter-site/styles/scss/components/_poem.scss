@@ -1136,8 +1136,10 @@ $globalBorderRadius: 2px;
   &.glosses-on {
     .poem.expanded {
       header .poem-note-trigger {
-        background: rgba(255, 255, 255, .08);
+        background: rgba($pp_manuscriptPaper, .1);
         border: rgba(255, 255, 255, .5);
+        padding-top: 3px;
+        padding-bottom: 4px;
 
         &:hover {
           background: rgba(255, 255, 255, .1);

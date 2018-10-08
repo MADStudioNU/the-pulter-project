@@ -508,8 +508,11 @@
 
   <!-- Note of a type 'headnote' inside a headnote -->
   <!-- Not sure why we encode head notes this way but ok. -->
-  <xsl:template match="tei:note[@type = 'headnote']">
-    <xsl:apply-templates/>
+  <xsl:template match="tei:note[@type='headnote']">
+    <xsl:param name="witId"/>
+    <xsl:apply-templates>
+      <xsl:with-param name="witId" select="$witId"/>
+    </xsl:apply-templates>
   </xsl:template>
 
   <!-- Editorial note -->

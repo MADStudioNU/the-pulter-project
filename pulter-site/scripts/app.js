@@ -665,6 +665,9 @@ var PP = (function ($) {
         yOffset = $self.offset().top - $self.closest('.poem').offset().top - 16, // Bump it up a bit (16px) for a more natural alignment
         $noteMarkup = $('#poem-note-' + noteId);
 
+      console.log(noteId);
+      // console.log($noteMarkup);
+
       gtag('event', 'note_revealed', {
         'event_category': 'engagement',
         'event_label': $self.text()

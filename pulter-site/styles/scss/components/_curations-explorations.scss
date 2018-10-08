@@ -372,6 +372,19 @@ $themeColor: #ece9e2;
         }
       }
 
+      .intro-note {
+        font-size: 1.25em;
+        opacity: .66;
+        background: #ECE9E2;
+        padding: .61em 1em;
+        border-radius: 2px;
+        display: inline-block;
+
+        &:not(:first-child) {
+          margin-top: 2.25em;
+        }
+      }
+
       &.bottom {
         margin-top: 2.25em;
         padding-top: 1.33em;
