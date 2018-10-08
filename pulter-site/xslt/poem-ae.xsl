@@ -523,6 +523,16 @@
   <!-- Editorial note -->
   <xsl:template match="tei:note[@type = 'editorialnote']"/>
 
+  <!-- Notes inside editorial notes -->
+  <xsl:template match="tei:note[@type = 'editorialnote']//tei:note">
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'block-note'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <!-- Line group -->
   <xsl:template match="tei:lg">
     <xsl:param name="witId"/>

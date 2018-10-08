@@ -1266,23 +1266,25 @@
           -webkit-font-smoothing: auto;
           -moz-osx-font-smoothing: auto;
 
-          //&::before {
-          //  $s: .5em;
-          //
-          //  content: '';
-          //  display: inline-block;
-          //  width: $s;
-          //  height: 1em;
-          //  background: url('../../../images/fl-icon.svg') no-repeat 50% 50%;
-          //  background-size: $s auto;
-          //  margin-right: .5em;
-          //  position: relative;
-          //  top: .2em;
-          //
-          //  @include breakpoint(mobile) {
-          //    display: none;
-          //  }
-          //}
+          &::before {
+            $s: .4em;
+
+            content: '';
+            position: absolute;
+            display: inline-block;
+            width: $s;
+            height: 1em;
+            background: url('../../../images/fl-icon.svg') no-repeat 50% 50%;
+            background-size: $s auto;
+            margin-right: .5em;
+            //position: relative;
+            left: -1.2em;
+            top: .3em;
+
+            @include breakpoint(mobile) {
+              display: none;
+            }
+          }
 
           &::after {
             content: '';

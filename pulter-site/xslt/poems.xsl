@@ -106,7 +106,7 @@
       </pp:editions>
     </pp:poem>
     <pp:poem id="4">
-      <pp:title>The Complaint of the Thames, 1647</pp:title>
+      <pp:title>The Complaint of Thames, 1647</pp:title>
       <pp:firstLine>Late in an evening as I walked alone</pp:firstLine>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
@@ -327,9 +327,9 @@
           <pp:title>Child Loss Elegies</pp:title>
           <pp:peek>Pulter’s poem joins other notable elegies written about the death of a child in seventeenth-century England, including the following by Ben Jonson, Katherine Philips, Elizabeth Egerton, and Anne Bradstreet.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="petrarchan-love-conventions">
+        <pp:curation status="on" hash="white-lilies-and-red-roses">
           <pp:author>Elizabeth Kolkovich</pp:author>
-          <pp:title>Petrarchan Love Conventions</pp:title>
+          <pp:title>White Lilies and Red Roses</pp:title>
           <pp:peek>Pulter’s description of her daughter Jane draws on conventions typically used by love poets in Petrarchan poetry, particularly the analogy of the beloved’s body parts with roses and lilies.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-hunted-deer">

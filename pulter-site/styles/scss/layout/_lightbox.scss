@@ -2,6 +2,15 @@
 .featherlight {
   z-index: $pp_zLightbox;
 
+  // Common for all
+  .featherlight-content {
+    .block-note {
+      font-size: .9em;
+      opacity: .8;
+      //background: thistle;
+    }
+  }
+
   // Facsimile image viewer
   &.facs {
     font-family: $pp_interfaceFont;

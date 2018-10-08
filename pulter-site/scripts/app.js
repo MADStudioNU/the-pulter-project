@@ -83,6 +83,13 @@ var PP = (function ($) {
         $(this).toggleClass('expanded');
       });
 
+      // Exploration lightboxes
+      $explorationTriggers.on('click', function () {
+        var eHash = $(this).data('ctx-hash');
+        if (eHash) { openExploration(eHash); }
+        return false;
+      });
+
       // Check if we need to open exploration right away
       if (explorationIsPresent(hash)) {
         openExploration(hash);
@@ -216,48 +223,41 @@ var PP = (function ($) {
             // stagger: 10,
             // getSortData: {}
           });
+
+          // $i.on('arrangeComplete', function (event, filteredItems) {
+          //   $status.find('.poem-counter').text(filteredItems.length);
+          // });
+
+          // Click event handlers
+          $('.kwd').on('click', function () {
+            var $self = $(this);
+            var keyword = $self.data('filter');
+
+            $status.addClass('hi');
+            $i.isotope({ filter: keyword });
+            $('html,body').scrollTop(0);
+
+            var num = $i.isotope('getFilteredItemElements').length;
+
+            $status
+              .find('.filter-status')
+              .text(
+                num +
+                (+num > 1 ? ' poems ' : ' poem ') +
+                ' matching ' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + ' keyword '
+              );
+
+            return false;
+          });
+
+          $('.status-reset').on('click', function () {
+            $i.isotope({ filter: '*' });
+            $status.removeClass('hi');
+            resetStatusString();
+          });
         } else {
           $i.isotope('layout');
         }
-
-        // $i.on('arrangeComplete', function (event, filteredItems) {
-        //   $status.find('.poem-counter').text(filteredItems.length);
-        // });
-
-        // Click event handlers
-        $('.kwd').on('click', function () {
-          var $self = $(this);
-          var keyword = $self.data('filter');
-
-          $status.addClass('hi');
-          $i.isotope({ filter: keyword });
-          $('html,body').scrollTop(0);
-
-          var num = $i.isotope('getFilteredItemElements').length;
-
-          $status
-            .find('.filter-status')
-            .text(
-              num +
-              (+num > 1 ? ' poems ' : ' poem ') +
-              ' matching ' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + ' keyword '
-            );
-
-          return false;
-        });
-
-        $('.status-reset').on('click', function () {
-          $i.isotope({ filter: '*' });
-          $status.removeClass('hi');
-          resetStatusString();
-        });
-
-        // Exploration lightboxes
-        $explorationTriggers.off().on('click', function () {
-          var eHash = $(this).data('ctx-hash');
-          if (eHash) { openExploration(eHash); }
-          return false;
-        });
       }
 
       function openExploration(eHash) {
