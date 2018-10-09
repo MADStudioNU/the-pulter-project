@@ -1011,10 +1011,6 @@
           @include vcenter;
           right: 3em;
 
-          .label {
-            letter-spacing: 1px;
-          }
-
           @include breakpoint(mobile) {
             display: none;
           }
