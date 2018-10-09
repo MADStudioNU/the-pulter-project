@@ -756,7 +756,7 @@
             </xsl:if>
             <xsl:if test="tei:sourceDesc">
                <h3>Original Source</h3>
-               <h4>Hester Pulter, <i>Poems breathed forth by the nobel Hadassas</i>, University of Leeds
+               <h4>Hester Pulter, <em>Poems breathed forth by the nobel Hadassas</em>, University of Leeds
                   Library, Brotherton Collection, MS Lt q 32</h4>
             </xsl:if>
             <h3>Versions</h3>
@@ -789,7 +789,7 @@
                   </div>
                </xsl:for-each>
             </xsl:if>
-            <h3>Curations of this Poem</h3>
+            <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$curationsURLprefix"></xsl:value-of><xsl:value-of select="substring-after(/tei:TEI/@xml:id, 'mads.pp.')"></xsl:value-of><xsl:value-of select="$curationsURLsuffix"></xsl:value-of></xsl:attribute><h3>Curations of this Poem</h3></a>
             <h3>Keywords</h3>
             <h4>
                <xsl:for-each select="//tei:keywords/tei:term">
@@ -805,7 +805,7 @@
                </xsl:for-each>
             </h4>
             <xsl:if test="tei:titleStmt/tei:respStmt">
-               <h3>The Pulter Project: Poet in the Making</h3>
+               <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$aboutPulterProjectURL"></xsl:value-of></xsl:attribute><h3>The Pulter Project: Poet in the Making</h3></a>
                <ul>
                   <xsl:for-each select="tei:titleStmt/tei:respStmt">
                      <li>
@@ -1561,7 +1561,7 @@
       <table>...</table>) that HTML does not -->
       <xsl:choose>
          <xsl:when
-            test="ancestor::tei:note or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
+            test="ancestor::tei:note[not(@type='editorial') and not(@type='headnote')] or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
             <p>
                <xsl:apply-templates>
                   <xsl:with-param name="witId" select="$witId"/>
