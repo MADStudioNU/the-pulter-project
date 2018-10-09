@@ -744,6 +744,19 @@ div.poemend img {
   float: right;
 }
 
+div.milestone.left-gutter {
+  position: absolute;
+  display: inline-block;
+  font-style: italic;
+  font-size: .8em;
+  opacity: .5;
+  font-family: "Sssi", Garamond, serif;
+}
+
+div.milestone.stanza-whitespace {
+  height: 1.5em;
+}
+
 /*  end of milestone */
 
 div.type-stanza {

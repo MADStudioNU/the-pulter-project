@@ -1655,8 +1655,16 @@
          </xsl:if>
       </div>
    </xsl:template>
-    
-<!-- milestone end -->
+
+  <xsl:template match="tei:milestone[@unit = 'poem-section']">
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="concat('milestone ', @rend)"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+  <!-- milestone end -->
  
    
    <xsl:template match="tei:table">
