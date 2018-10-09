@@ -522,7 +522,7 @@ var PP = (function ($) {
       $posterInfoTrigger = $body.find('.poster-info-trigger'),
       $glossToggle = $body.find('.gloss-toggle'),
       $pageToggle = $body.find('.page-toggle'),
-      $headnoteToggle = $body.find('.headnote-toggle'),
+      $headnoteToggles = $body.find('.headnote-toggle'),
       $facsimileToggle = $body.find('.facsimile-toggle'),
       $poemNoteTriggers = $body.find('.poem-note-trigger'),
       $navs = $body.find('.nav'),
@@ -569,7 +569,6 @@ var PP = (function ($) {
       $ctxs = $body.find('#ctxs');
 
       if (config.hasPoster) {
-        // setPosterImage($ctxs.find('header'), config.id, 'l');
         setPosterImage($ctxs, config.id, 'l');
       }
 
@@ -602,10 +601,11 @@ var PP = (function ($) {
 
     /* Click event handlers */
     // Headnote toggle
-    $headnoteToggle.on('click', '.pp-action', function () {
-      $(this).closest('.poem').toggleClass('expanded collapsed');
+    $headnoteToggles.on('click', '.pp-action', function () {
+      var $edition = $(this).closest('.poem');
+      $edition.toggleClass('expanded collapsed');
 
-      if ($body.hasClass('expanded')) {
+      if ($edition.hasClass('expanded')) {
         gtag('event', 'headnote_expanded', {
           'event_category': 'engagement',
           'value': +config.id
@@ -624,6 +624,11 @@ var PP = (function ($) {
         }
       } else {
         configureViewSetting('glosses', true);
+
+        $headnoteToggles
+          .closest('.poem')
+          .removeClass('collapsed')
+          .addClass('expanded');
       }
     });
 
@@ -803,6 +808,14 @@ var PP = (function ($) {
             return 400 * index;
           }
         },
+        showTheHeadnoteToggle = {
+          targets: '.headnote-toggle',
+          offset: '-=2000',
+          opacity: {
+            value: [0, 1],
+            duration: 600
+          }
+        },
         showThePoem = {
           targets: '.poem-body .l',
           offset: '-=2200',
@@ -831,8 +844,7 @@ var PP = (function ($) {
           offset: '-=2200',
           opacity: {
             value: [0, 1],
-            duration: 600,
-            easing: 'easeInQuad'
+            duration: 600
           }
         },
         showTheMilestones = {
@@ -840,8 +852,7 @@ var PP = (function ($) {
           offset: '-=2200',
           opacity: {
             value: [0, .5],
-            duration: 600,
-            easing: 'easeInQuad'
+            duration: 600
           }
         },
         poemAnimationTimeLine = anime.timeline();
@@ -851,6 +862,7 @@ var PP = (function ($) {
         .add(drawTheBluePrint)
         .add(showTheDropCap)
         .add(showTheTitle)
+        .add(showTheHeadnoteToggle)
         .add(showThePageBreaks)
         .add(showTheMilestones)
         .add(showThePoem);
