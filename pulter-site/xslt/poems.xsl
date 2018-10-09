@@ -1656,17 +1656,17 @@
         <pp:curation status="on" hash="mowbray-and-bolingbroke">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Mowbray and Bolingbroke</pp:title>
-          <pp:peek>Old John of Gaunt, time-honored Lancaster, / Hast thou, according to thy oath and band, / Brought hither Henry Hereford, thy bold son, / Here to make good the boist’rous late appeal</pp:peek>
+          <pp:peek>One well-known account of the duel between Mowbray and Bolingbroke appears in Shakespeare's Richard II.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="tilt-yards-and-toys">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Tilt-yards and Toys</pp:title>
-          <pp:peek>These things are but toys to come amongst such serious observations. But yet, since princes will have such things, it is better they should be graced with elegancy than daubed with cost [tricked up expensively].</pp:peek>
+          <pp:peek>The tilt-yard was both a feature of courtly life, visible on maps, and a symbol of pointless human investments in what Pulter calls "subsolary toys."</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="pigeon-houses-of-cards">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Pigeon Houses of Cards</pp:title>
-          <pp:peek>“The consideration of the fickleness of life, and all earthly commodities”</pp:peek>
+          <pp:peek>Seventeenth-century dovecotes resembled houses of cards.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
