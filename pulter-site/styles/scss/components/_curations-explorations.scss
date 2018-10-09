@@ -351,6 +351,11 @@ $themeColor: #ece9e2;
         max-width: 100%;
       }
 
+      .fn {
+        opacity: .66;
+        margin-bottom: 1.5em;
+      }
+
       .src {
         position: relative;
         text-transform: uppercase;
@@ -528,6 +533,7 @@ $themeColor: #ece9e2;
     font-family: $pp_curatorialFont;
     font-weight: bold;
     margin-bottom: 1.5em;
+    font-size: .9em;
 
     &:not(:first-child) {
       margin-top: 3em;
