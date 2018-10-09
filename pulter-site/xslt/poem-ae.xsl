@@ -503,7 +503,7 @@
 
         <xsl:if test="$hasCurations = 'true'">
           <span class="by">or</span>
-          <a class="pp-action int to-ctx" href="#ctxs">Explore Curations</a>
+          <a class="pp-action int to-ctx" href="#ctxs">See Curations</a>
         </xsl:if>
       </div>
     </div>
