@@ -72,9 +72,12 @@
   <xsl:variable name="displayLineNumbers">true</xsl:variable>
   
   <!-- Links to conventions prose -->
-  <xsl:variable name="transcriptionConventionsHref">http://pulterproject.northwestern.edu/about-project-conventions.html#top</xsl:variable>
-  <xsl:variable name="elementalEditionEditorialGuidelinesHref">http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition</xsl:variable>
-  <xsl:variable name="teiEncodingConventionsHref">http://pulterproject.northwestern.edu/about-project-conventions.html#tei</xsl:variable>  
-  <xsl:variable name="howToCiteTheseVersionsURL">http://pulterproject.northwestern.edu/about-how-to-cite.html</xsl:variable>
+  <xsl:variable name="aboutPulterProjectURL">/about-the-project.html</xsl:variable>
+  <xsl:variable name="transcriptionConventionsHref">/about-project-conventions.html#top</xsl:variable>
+  <xsl:variable name="elementalEditionEditorialGuidelinesHref">/about-project-conventions.html#elemental-edition</xsl:variable>
+  <xsl:variable name="teiEncodingConventionsHref">/about-project-conventions.html#tei</xsl:variable>  
+  <xsl:variable name="howToCiteTheseVersionsURL">/how-to-cite-the-pulter-project.html</xsl:variable>
+  <xsl:variable name="curationsURLprefix">/poems/ee/</xsl:variable>
+  <xsl:variable name="curationsURLsuffix">/#ctxs</xsl:variable>
   
 </xsl:stylesheet>
