@@ -221,7 +221,7 @@
                 <a href="#0">Pages</a>
               </div>
               <div class="gloss-toggle toggle cormorant-garamond">
-                <a href="#0">Glosses</a>
+                <a href="#0">Notes</a>
               </div>
             </div>
           </div>
@@ -500,9 +500,6 @@
       </div>
     </div>
 
-    <!--<div class="gloss-toggle for-collapsed cormorant-garamond">-->
-    <!--Glosses are-->
-    <!--</div>-->
     <a href="#0" class="poster-info-trigger sssi-regular">i</a>
   </xsl:template>
 
