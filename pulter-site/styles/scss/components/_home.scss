@@ -471,11 +471,24 @@
 
   // Explorations section
   #explorations {
-    background: whitesmoke;
-    background: linear-gradient(0deg, #F5f5f5 0%, lighten(#e6e3db, 3%) 100%);
+    position: relative;
     color: $pp_manuscriptInk;
+    background: url('/images/explorations-background.jpg') no-repeat;
+    background-size: cover;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      display: block;
+      background: rgba(#e6e3db, .66);
+      background: linear-gradient(0deg, rgba(#F5f5f5, .9) 0%, rgba(#e6e3db, 0) 100%);
+    }
 
     .exploration-blurb {
+      position: relative;
       background: rgba(#fff, 1);
       min-height: 0;
       overflow: hidden;
@@ -529,6 +542,7 @@
       font-weight: bold;
       line-height: 100%;
       margin: 0 0 3em 0;
+      position: relative;
 
       &::before {
         $s: 1.25em;
@@ -594,7 +608,7 @@
         &:not(:last-child) {
           margin-bottom: $air;
           padding-bottom: $air;
-          border-bottom: 1px solid rgba(#282828, .05);
+          border-bottom: 1px solid rgba(#282828, .1);
         }
 
         .title {
@@ -611,8 +625,8 @@
             top: .25em;
             display: inline-block;
             background: url('/images/exploration-mock.svg') no-repeat;
-            width: 1em;
-            height: 1.5em;
+            width: .9em;
+            height: .9em * 1.5;
             content: '';
 
             @include breakpoint(mobile) {
@@ -1514,7 +1528,7 @@
           position: absolute;
           width: 1.5em;
           height: 1.75em;
-          right: 5em;
+          right: 5.33em;
           top: 3.5em;
           background: url('/images/curation-mock.svg') no-repeat 100% 0;
           background-size: auto 100%;
