@@ -176,12 +176,12 @@ $globalBorderRadius: 2px;
           }
 
           &::before {
-            top: -.25em;
+            top: -.33em;
             background: url('/images/triangle-up.svg') no-repeat 50% 50%;
           }
 
           &::after {
-            bottom: -.25em;
+            bottom: -.33em;
             background: url('/images/triangle-down.svg') no-repeat 50% 50%;
           }
 
@@ -200,11 +200,11 @@ $globalBorderRadius: 2px;
             color: rgba(40, 40, 40, .66);
 
             &::before {
-              top: -.5em;
+              top: -.66em;
             }
 
             &::after {
-              bottom: -.5em;
+              bottom: -.66em;
             }
 
             @include breakpoint(mobile) {
@@ -218,7 +218,7 @@ $globalBorderRadius: 2px;
           }
 
           .label::before {
-            content: 'Details';
+            content: 'Headnote';
           }
         }
       }
