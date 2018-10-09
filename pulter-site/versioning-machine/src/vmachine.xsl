@@ -804,6 +804,8 @@
                   </xsl:choose>
                </xsl:for-each>
             </h4>
+            <!-- disable dynamic processing of responsibility statement to favor project-wide representation, below -->
+            <!--
             <xsl:if test="tei:titleStmt/tei:respStmt">
                <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$aboutPulterProjectURL"></xsl:value-of></xsl:attribute><h3>The Pulter Project: Poet in the Making</h3></a>
                <ul>
@@ -873,8 +875,22 @@
                   </xsl:if>
                </ul>
             </xsl:if>
+            -->
+            <!-- end of dynamic responsibilty statement, disabled -->
+            
+            <!-- static responsibility statement -->
+            <a><xsl:attribute name="target">_new</xsl:attribute><xsl:attribute name="href">/about-the-project.html</xsl:attribute><h3>The Pulter Project: Poet in the Making</h3></a>
+            <ul>
+               <li>Created by Leah Knight and Wendy Wall</li>
+               <li>Encoded by Katherine Poland, Matthew Taylor, Elizabeth Chou, and Emily Andrey, Northwestern University</li>
+               <li>Website designed by Sergei Kalugin, Northwestern University</li>
+               <li>IT project consultation by Josh Honn, Northwestern University</li>
+               <li>Project sponsored by Northwestern University, Brock University, and University of Leeds</li>
+            </ul>          
+            
+            <!-- Removed header suggesting link to explorations
             <h3>Beyond this Poem: Explorations of Pulter’s Works</h3>
-           
+             -->
             <!-- Removed standard TEI encoding statement         
             <xsl:apply-templates select="tei:publicationStmt"/>
             <xsl:if test="tei:encodingDesc/tei:editorialDecl">
