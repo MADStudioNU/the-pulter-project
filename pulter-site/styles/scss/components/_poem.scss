@@ -1661,7 +1661,7 @@ $defaultStrokeWidth: 6px;
           }
 
           .peek {
-            color: rgba(#282828, .9);
+            color: rgba(#080808, .9);
           }
         }
       }
@@ -1714,7 +1714,7 @@ $defaultStrokeWidth: 6px;
 
       .peek {
         font-weight: normal;
-        color: rgba(#282828, .75);
+        color: rgba(#080808, .75);
         margin: 1em 0 2em 0;
         padding-right: 3em;
         @include transition(color .2s);
