@@ -11,6 +11,7 @@
   <xsl:variable name="menuArrowDown"><xsl:value-of select="$vmImages"/><xsl:text>arrowdown.png</xsl:text></xsl:variable>
   <xsl:variable name="closePanelButton"><xsl:value-of select="$vmImages"/><xsl:text>closePanel.png</xsl:text></xsl:variable>
   <xsl:variable name="imageIcon"><xsl:value-of select="$vmImages"/><xsl:text>image.png</xsl:text></xsl:variable>
+  <xsl:variable name="pulterManuscriptIcon">/images/page-mock.svg</xsl:variable>
   <!-- <xsl:variable name="bannerImg"><xsl:value-of select="$vmImages"/><xsl:text>HeaderBackground.png</xsl:text></xsl:variable> -->
   
   <!-- milestone related customizations -->
