@@ -1904,6 +1904,10 @@
       <pp:author>Lara Dodds</pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
     </pp:exploration>
+    <pp:exploration hash="hester-pulter-and-english-blazon">
+      <pp:author>Lara Dodds</pp:author>
+      <pp:title>Hester Pulter and the Blazon in Early Modern England</pp:title>
+    </pp:exploration>
   </pp:explorations>
 
   <!-- Helper Vars -->

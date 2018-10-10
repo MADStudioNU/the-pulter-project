@@ -278,6 +278,10 @@ $themeColor: #ece9e2;
       padding-right: 1em;
     }
 
+    &.full-width {
+      width: 100%;
+    }
+
     // Qs with sidenotes
     &.wsn {
       .sidenote {
@@ -447,12 +451,17 @@ $themeColor: #ece9e2;
   //  color: $pp_manuscriptInk;
   //}
 
-  p + .q {
+  p + .q,
+  h3 + .q {
     margin-top: 1.5em;
   }
 
   .q + p {
     margin-top: 3em;
+  }
+
+  .q + h3 {
+    margin-top: 4.5em;
   }
 
   .img-box {
