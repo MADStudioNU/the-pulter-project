@@ -2290,7 +2290,7 @@
             <div class="panzoom-parent" style="overflow:visible">
                <!-- panzoom image -->
                <div class="panzoom">
-                  <img alt="image" width="200" border="1px 2px, 2px, 1px solid #000;">
+                  <img class="panzoom-content" alt="image" width="95%" border="1px 2px, 2px, 1px solid #000;">
                      <xsl:attribute name="src">
                         <xsl:value-of select="$facsImageFolder"/>
                         <xsl:value-of select="concat('/images/facs/', $imgId, '.jpg')"/>

@@ -316,6 +316,8 @@ div.imgPanel {
   overflow: hidden;
   background-color: #000;
   z-index: 2;
+  width: 32vw;
+  height: 40vw;
 }
 
 div#mssArea div.mssPanel div.panelBanner,

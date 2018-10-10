@@ -430,7 +430,24 @@ $.fn.zoomPan = function() {
 		this.each(function(){
 			var imgId = $(this).attr("id");
 			var $section = $("div#" + imgId + ".imgPanel");
-            $section.find('.panzoom').panzoom({
+			
+			/* none of this works to set init zoom, but it was an attempt 
+			// determine size of panel
+			var pzWidth = $section.innerWidth();
+			var pzHeight = $section.innerHeight();
+			
+			// determine size of image
+			var pzImage = $section.find('img');
+			var imgWidth = pzImage.width();
+			var imgHeight = pzImage.height();
+			
+			// determine zoom
+			var relZoomWidth = pzWidth / imgWidth;
+			var relZoomHeight = pzHeight / imgHeight;
+			var initZoom = Math.min(relZoomWidth, relZoomHeight);
+			*/
+			
+            $section.find('.panzoom').panzoom({    
             $zoomIn: $section.find(".zoom-in"),
             $zoomOut: $section.find(".zoom-out"),
             $zoomRange: $section.find(".zoom-range")
@@ -482,7 +499,7 @@ $.fn.imgPanelHover = function() {
 			$(this).addClass("highlight");
 		}, function(){
 			var imageId = $(this).attr("id");
-			$("img[data-img-id='" + imageId +"']").css({"border":"1px solid white"});
+			$("img[data-img-id='" + imageId +"']").css({"border":"1px solid rgba(40, 40, 40, 0.20)"});
 			$(this).removeClass("highlight");
 		});
 };
