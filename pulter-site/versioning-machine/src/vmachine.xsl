@@ -1695,7 +1695,7 @@
       <xsl:attribute name="class">
         <xsl:value-of select="concat('milestone ', @rend)"/>
       </xsl:attribute>
-      <xsl:apply-templates/>
+      <xsl:value-of select="@n"/>
     </xsl:element>
   </xsl:template>
   <!-- milestone end -->
