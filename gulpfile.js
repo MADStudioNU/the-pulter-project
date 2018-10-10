@@ -29,7 +29,7 @@ var sass = require('gulp-sass');
 var sourceMaps = require('gulp-sourcemaps');
 var loadJSON = require('load-json-file');
 var minifyCSS = require('gulp-clean-css');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var gulpSequence = require('gulp-sequence').use(gulp);
 var shell = require('gulp-shell');
 var path = require('path');
@@ -71,7 +71,7 @@ function getJSRedirectString(url, ignoreHash) {
 
 /* DEV Tasks */
 gulp.task('browserSync', function () {
-  browserSync({
+  browserSync.init({
     server: {
       baseDir: SITE_BASE
     },
@@ -250,6 +250,7 @@ gulp.task('default',
   function () {
     gulp.watch(SITE_BASE + 'scripts/src/**', ['scripts']);
     gulp.watch(SITE_BASE + 'styles/scss/**', ['styles']);
+    gulp.watch(SITE_BASE + '**/*.css').on('change', browserSync.reload);
     gulp.watch(SITE_BASE + '**/*.html', ['html']);
   }
 );
