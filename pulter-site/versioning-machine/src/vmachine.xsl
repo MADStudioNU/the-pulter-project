@@ -189,6 +189,7 @@
          <a href="/#poems">
            <img src="{$pulterLogo}" alt="The Pulter Project"/>
          </a>
+        <span class="label">Compare Editions</span>
       </div>
    </xsl:template>
 
