@@ -104,6 +104,18 @@
           <pp:author>Victoria E. Burke</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="pearled-over">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Pearled Over</pp:title>
+          <pp:peek>Pulter describes the goddess Aurora as “Pearl’d or’e with odours of the early East” (3). Here is an image of a seventeenth-century woman fashionably sporting pearls around her neck, in her ears, in her hair, and over her dress.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-many-headed-hydra">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>The Many-Headed Hydra</pp:title>
+          <pp:peek>Pulter refers to signs from heaven that humans think may portend some kind of political unrest, such as the shaking of a monarchy or the ending of an illegitimate government (25-28).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="4">
       <pp:title>The Complaint of Thames, 1647</pp:title>
