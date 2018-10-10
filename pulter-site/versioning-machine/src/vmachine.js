@@ -463,7 +463,7 @@ $.fn.imgLinkHover = function() {
 			},function(){
 			/* on hover out remove 'highlight' class*/
 				$(this).removeClass("highlight");
-				$(this).css({"border":"1px solid white"});
+				$(this).css({"border":"1px solid rgba(40, 40, 40, 0.20)"});
 				var panelId = $(this).attr("data-img-id");
 				$(".imgPanel[id='" + panelId + "']").removeClass("highlight");
 			});		

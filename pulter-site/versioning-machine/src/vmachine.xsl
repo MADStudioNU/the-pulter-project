@@ -1328,7 +1328,8 @@
       <xsl:param name="imgId"/>
 
       <xsl:if test="$imgUrl != ''">
-         <img src="{$imageIcon}" alt="Facsimile Image Placeholder" title="Open the image viewer">
+         <span class="facsimile-toggle">                 
+         <img src="{$pulterManuscriptIcon}" alt="Facsimile Image Placeholder" title="Open the image viewer">
          
             <xsl:attribute name="class">
                <xsl:text>imgLink</xsl:text>
@@ -1356,6 +1357,7 @@
                </xsl:choose>
             </xsl:attribute>
          </img>
+         </span>
       </xsl:if>
    </xsl:template>
 
@@ -1564,6 +1566,22 @@
                </xsl:with-param>
             </xsl:call-template>
          </div>
+         <hr>
+            <xsl:attribute name="class">
+               <xsl:text>pagebreak-afterfacsimage</xsl:text>
+               <xsl:if test="@ed">
+                  <xsl:text> </xsl:text>
+                  <xsl:value-of select="translate(@ed, '#', '')"/>
+               </xsl:if>
+               <xsl:text> </xsl:text>
+               <xsl:text>invisible</xsl:text>
+            </xsl:attribute>
+            <xsl:if test="@ed">
+               <xsl:attribute name="data-version-id">
+                  <xsl:value-of select="translate(@ed, '#', '')"/>
+               </xsl:attribute>
+            </xsl:if>
+         </hr>
       </xsl:if>
 
    </xsl:template>
@@ -2244,6 +2262,7 @@
             <span class="viewerHandleLt title_imgViewer">
                <!--update by Betsy, change URL title of image popup -->
                <xsl:text>Manuscript</xsl:text>
+               <!--previous dynamic computation follows below -->
                <!--<xsl:choose>
                   <xsl:when test="string-length($imgUrl) &gt; 30">
                      <xsl:variable name="strgLength-29" select="string-length($imgUrl) - 29"/>
