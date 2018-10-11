@@ -320,14 +320,16 @@ div#mssArea div.panel div.panelLockedHeader {
    position: fixed;
    height: 1.8em;
    line-height: 1.8em;
-   margin: 0;
+   margin-left: 0.0em;
    padding: 5px 7px 3px 12px;
    font-family: 'Cormorant Garamond', serif;
    font-weight: 300;
    color: white; 
    font-weight: normal; 
    background-color: #a8a8a8;
-   border: 1px solid white;
+   border: 1px solid #ffffff;
+   /*  box-shadow: 2px 2px 5px grey; */
+   /*  opacity: 0.95; */
    
    /*  don't show this panel, initially, show it only on scroll as needed */
    display: none;

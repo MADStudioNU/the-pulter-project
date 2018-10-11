@@ -287,7 +287,7 @@ $.fn.indexPopup = function(){
  * useful for determining if panel headers are now on/off screen to show 
  * floating labels-guides accordingly
  */
-function pageScroll() {
+function pageScrollUpdate() {
         var headerSize = $("#mainBanner").outerHeight();
         var scrollTop = $(window).scrollTop();
         
@@ -296,15 +296,22 @@ function pageScroll() {
            var panelBanner = thisPanel.find(".panelBanner");
            var panelLockedHeader = thisPanel.find(".panelLockedHeader");
 
-           // simple solution 1 -- if top of this scroll view is more than panelTop - headerSize + sizeOf(panelBanner) turn on the invisible float label
+           // simple solution #1 for showing edition label at visible top of panel
+           // first!!: are we so far scrolled down that we don't even see the panel anymore? 
+           // otherwise, if top of this scroll view is more than panelTop - headerSize + sizeOf(panelBanner) turn on the invisible float label
+           // else, we're probably at the top anyway, so don't show the top-vloating version label
            var panelTop =  thisPanel.position().top;
+           var panelSize = thisPanel.outerHeight();
            
            var panelBannerSize = panelBanner.outerHeight();
            var panelBannerWidth = panelBanner.innerWidth();
            var panelBannerLeft = thisPanel.position().left;
-           var triggerThreshold = panelTop - headerSize + panelBannerSize;
+           var triggerOnThreshold = panelTop - headerSize + panelBannerSize;
+           var tooFarTriggerOffThreshold = panelTop + panelSize - headerSize;   
            
-           if (scrollTop > panelTop - headerSize + panelBannerSize) {
+           if (scrollTop > tooFarTriggerOffThreshold) {
+               $(this).find(".panelLockedHeader").css("display", "none"); 
+           } else if (scrollTop > triggerOnThreshold) {
                 // enable and position
                var panelLockedHeader = $(this).find(".panelLockedHeader");
                panelLockedHeader.css("display", "block");
@@ -312,14 +319,14 @@ function pageScroll() {
                //panelLockedHeader.css("width", (0 + panelBannerWidth - 30) + 'px');
                //panelLockedHeader.css("left", (0 + panelBannerLeft + 6) + 'px');
            } else {
-               $(this).find(".panelLockedHeader").css("display", "none"); 
+               $(this).find(".panelLockedHeader").css("display", "none");
            }
         });        
 } 
  
 $.fn.pageScrollHandler = function() {
     return this.scroll(function() {
-        pageScroll();
+        pageScrollUpdate();
     });
 }
 
@@ -934,12 +941,12 @@ $(document).ready(function() {
 	/**add draggable and resizeable to all panels (img + mss)*/
 	$( ".panel" ).draggable({
 		containment: "parent",
-    	drag: function( event, ui ) { pageScroll(); },
+    	drag: function( event, ui ) { pageScrollUpdate(); },
 		zIndex: 6, 
 		cancel: ".textcontent, .zoom-range, .bibContent, .noteContent, .critContent"
 	}).resizable({
 	   helper: "ui-resizable-helper",
-	   resize: function( event, ui ) { pageScroll(); }
+	   resize: function( event, ui ) { pageScrollUpdate(); }
 	});
 		
 	/**add functionality to image panels*/

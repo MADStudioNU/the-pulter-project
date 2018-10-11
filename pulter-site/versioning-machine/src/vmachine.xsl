@@ -622,6 +622,9 @@
                </xsl:when> 
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Amplified Edition, 2nd</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a3'">
+                  <xsl:text>Amplified Edition, 3rd</xsl:text>
                </xsl:when> 
             </xsl:choose>
          </div>
@@ -641,7 +644,7 @@
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Amplified Edition, 2nd</xsl:text>
                </xsl:when>
-               <xsl:when test="@xml:id='a2'">
+               <xsl:when test="@xml:id='a3'">
                   <xsl:text>Amplified Edition, 3rd</xsl:text>
                </xsl:when>               
             </xsl:choose>
