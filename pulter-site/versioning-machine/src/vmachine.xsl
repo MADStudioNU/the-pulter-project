@@ -466,11 +466,15 @@
                </xsl:when> 
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Notes: Amplified Edition, 2nd</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a2'">
+                  <xsl:text>Notes: Amplified Edition, 3rd</xsl:text>
                </xsl:when> 
             </xsl:choose>
          </div>
          
-         <div class="mssContent" style="line-height:normal;">
+
+         <div class="mssContent" style="line-height:normal; foo: bar;">
             <xsl:variable name="widIdWithPoundSign">
                <xsl:text>#</xsl:text>
                <xsl:value-of select="$witId"/>
@@ -620,6 +624,29 @@
                </xsl:when> 
             </xsl:choose>
          </div>
+         <div class="panelLockedHeader">
+            <!-- To change the title of the panel banner of each version panel change the text below -->
+            <xsl:variable name="witTitle"><xsl:value-of select="//tei:witness[@xml:id = $witId]"/></xsl:variable>
+            <xsl:choose>
+               <xsl:when test="@xml:id='ft'">
+                  <xsl:text>Transcription</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='ee'">
+                  <xsl:text>Elemental Edition</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='ae'">
+                  <xsl:text>Amplified Edition</xsl:text>
+               </xsl:when> 
+               <xsl:when test="@xml:id='a2'">
+                  <xsl:text>Amplified Edition, 2nd</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a2'">
+                  <xsl:text>Amplified Edition, 3rd</xsl:text>
+               </xsl:when>               
+            </xsl:choose>
+         </div>
+         
+         
          
          <div class="mssContent">
             <xsl:if test="//tei:witDetail[@target = concat('#', $witId) and tei:media[@url]]">
