@@ -288,8 +288,11 @@ $.fn.indexPopup = function(){
  * floating labels-guides accordingly
  */
 function pageScrollUpdate() {
-        var headerSize = $("#mainBanner").outerHeight();
+        // VM changes the behavior of the mainBanner depending upon window width, usually @ 800px
+        // So, change set the effective header "block" area to a number that respects whether the mainBanner is always visible or not
+        var headerSize = ($("#mainBanner").css("position") === "fixed") ? $("#mainBanner").outerHeight() : 0;
         var scrollTop = $(window).scrollTop();
+        
         
         $(".mssPanel").each(function() {
            var thisPanel = $(this);
