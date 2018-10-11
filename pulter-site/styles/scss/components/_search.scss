@@ -61,10 +61,10 @@
   .results-box {
     display: none;
     background: whitesmoke;
-    min-width: 16em;
+    min-width: 20em;
     max-height: 24em;
     color: #282828;
-    padding: 1.5em 1.5em 1.5em 2.75em;
+    padding: 1em 0;
     position: absolute;
     right: 0;
     top: 120%;
@@ -76,11 +76,12 @@
     .results {
       .search-result {
         position: relative;
+        padding: 0 1em 0 2.5em;
 
         &:not(:last-child) {
-          margin-bottom: .66em;
-          border-bottom: rgba(#282828, .05) solid 1px;
-          padding-bottom: .5em;
+          margin-bottom: .75em;
+          border-bottom: rgba(#282828, .06) solid 1px;
+          padding-bottom: .66em;
         }
 
         a {
@@ -95,10 +96,10 @@
 
         .pn {
           position: absolute;
-          left: -2.75em;
-          top: .5em;
-          font-size: .7em;
-          margin-right: .5em;
+          left: 1.15em;
+          top: .25em;
+          font-size: .8em;
+          margin-right: .66em;
           text-align: right;
           width: 2em;
           opacity: .5;
@@ -107,11 +108,12 @@
         }
 
         .pt {
+          margin-left: .66em;
           font-family: $pp_originalFont;
           @include transition(color .2s);
 
           &:hover {
-            color: $pp_shinyGold;
+            color: $pp_darkGold;
           }
         }
 

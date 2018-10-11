@@ -37,10 +37,8 @@ $globalBorderRadius: 2px;
 
       .content {
         .to-index {
-          //height: 3em;
           width: 9em;
-          position: fixed;
-          //width: 1em;
+          position: absolute;
           display: inline-block;
 
           img.logo {
@@ -87,7 +85,7 @@ $globalBorderRadius: 2px;
           .toggles {
             min-width: 50%;
             position: fixed;
-            top: 2em;
+            top: 2.2em;
             z-index: 9;
             @include transform(translateX(-100%));
             @include transition(top .3s cubic-bezier(0.175, 0.885, 0.320, 1.275));

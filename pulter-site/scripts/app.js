@@ -987,7 +987,7 @@ var PP = (function ($) {
               if (query.length > 0) {
                 $searchResults
                   .find('.results')
-                  .append('<li class="init">The query is too short.</li>');
+                  .append('<li class="init lato">The query is too short.</li>');
               } else {
                 $searchResults.fadeOut(200);
               }
