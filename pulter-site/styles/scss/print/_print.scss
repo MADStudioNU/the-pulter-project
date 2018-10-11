@@ -82,22 +82,44 @@
           }
         }
 
+        // Mute all note triggers
+        .poem-note-trigger {
+          background: none;
+          background: rgba(#fff, 0);
+          border: none;
+          box-shadow: none;
+          padding: 0;
+          pointer-events: none;
+        }
+
+        .poem-note-trigger.multi::after {
+          display: none;
+        }
+
+        // Header specific
         header {
           border-radius: 0;
           background: white;
-          padding: 0 $air $air $air;
+          padding: $air $air 0 $air;
+
+          .poem-index {
+            font-size: 1em;
+          }
 
           .poem-title {
             width: 80%;
             font-size: ms(-1);
             color: #282828 !important;
             text-shadow: none !important;
-            margin-bottom: 1.5em;
+            margin-bottom: 3em;
 
-            h1 { margin-bottom: 0; }
+            h1 {
+              margin-bottom: 0;
+            }
           }
         }
 
+        // Main area specific
         main {
           padding: 0 $air;
           margin: 0;
@@ -108,18 +130,11 @@
 
             .pb {
               display: none;
-            }
 
-            .poem-note-trigger {
-              background: none;
-              background: rgba(#fff, 0);
-              border: none;
-              box-shadow: none;
-              padding: 0;
-            }
-
-            .poem-note-trigger.multi::before {
-              display: none;
+              & + .lg,
+              & + .l {
+                margin-top: 0;
+              }
             }
           }
         }
@@ -135,10 +150,32 @@
 
           .meta {
             font-size: 1.5em;
+
+            .witness {
+              margin-top: 0;
+            }
           }
 
           .editor-note-trigger {
             display: none;
+          }
+
+          .editorial-note-box {
+            border-top: 1px solid rgba(#000, .1);
+            display: block;
+            margin-top: 2.25em;
+            padding-top: 2.25em;
+
+            h3 {
+              font-family: $pp_curatorialFont;
+              font-weight: bold;
+              margin-bottom: .5em;
+            }
+
+            .c {
+              p { margin-bottom: 1em; }
+              .block-note { opacity: .66; }
+            }
           }
 
           // Poem notes
@@ -146,11 +183,13 @@
             counter-reset: count;
             border-top: 1px solid rgba(#000, .1);
             display: block;
-            margin: 3em 0 0 0;
-            padding-top: 2em;
+            margin: 2.25em 0 0 0;
+            padding-top: 2.25em;
 
             li {
-              margin-top: 1.5em;
+              &:not(:first-child) {
+                margin-top: 1em;
+              }
 
               .dismiss { display: none; }
 
@@ -214,6 +253,25 @@
           .print-attribution-box {
             visibility: hidden;
             opacity: 0;
+          }
+        }
+
+        &.expanded {
+          .expand-box {
+            display: block;
+
+            .headnote {
+              color: #282828;
+              text-shadow: none;
+              background: none;
+              border-top: 1px solid rgba(#000, .1);
+              border-bottom: 1px solid rgba(#000, .1);
+              padding-bottom: 1.5em;
+            }
+
+            .poem-details-options {
+              display: none;
+            }
           }
         }
       }

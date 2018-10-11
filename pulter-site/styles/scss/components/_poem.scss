@@ -410,6 +410,19 @@ $globalBorderRadius: 2px;
             }
           }
 
+          // Headnote notes
+          .block-notes {
+            margin-top: 2.25em;
+            padding-top: .66em;
+            border-top: 1px solid rgba(#fff, .2);
+
+            .block-note {
+              font-size: .85em;
+              opacity: .75;
+              margin-bottom: .5em;
+            }
+          }
+
           .poem-details-options {
             a {
               font-size: .85em;
@@ -638,7 +651,7 @@ $globalBorderRadius: 2px;
           &:hover { opacity: .66; }
         }
 
-        #editorial-note { display: none; }
+        .editorial-note-box { display: none; }
       }
 
       // Consecutive poems spacing
@@ -983,7 +996,6 @@ $globalBorderRadius: 2px;
     }
   }
 
-  #editorial-note, // show lemmas in editorial notes
   &.glosses-on {
     .tools .toggles {
       .gloss-toggle {
@@ -1115,13 +1127,6 @@ $globalBorderRadius: 2px;
   &:not(.glosses-on) {
     .poem-note-trigger {
       pointer-events: none;
-    }
-
-    // But Do trigger the notes inside editorial headnotes
-    #editorial-note {
-      .poem-note-trigger {
-        pointer-events: auto;
-      }
     }
   }
 
