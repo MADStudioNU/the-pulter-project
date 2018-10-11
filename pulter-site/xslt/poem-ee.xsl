@@ -355,22 +355,20 @@
             <p><span class="by">edited by</span><xsl:text> </xsl:text><span class="who">Leah Knight</span><xsl:text> </xsl:text><span class="by">and</span><xsl:text> </xsl:text><span class="who">Wendy Wall</span><a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">i</a></p>
           </div>
         </div>
-        <div id="editorial-note">
+        <div id="editorial-note" class="editorial-note-box">
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3 class="sssi-regular">Editorial Note</h3>
-          <p class="lato">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible.</p>
-          <p class="lato">After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry.</p>
-          <p class="lato">See the full conventions for the elemental edition <a href="/about-project-conventions.html#elemental-edition" target="_blank">here</a>.</p>
-          <img class="terminal" src="/images/macron.svg"/>
+          <div class="c lato">
+            <p class="lato">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible.</p>
+            <p class="lato">After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry.</p>
+            <p class="lato">See the full conventions for the elemental edition <a href="/about-project-conventions.html#elemental-edition" target="_blank">here</a>.</p>
+          </div>
         </div>
 
-        <xsl:variable name="elementalEditionSegsWithNotes" select="//tei:rdg[@wit=concat('#', $elementalEditionId)]//tei:seg[./tei:note]"/>
+        <xsl:variable name="elementalEditionSegsWithNotes" select="//tei:rdg[@wit=concat('#', $elementalEditionId)]//tei:seg[./tei:note][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]"/>
         <xsl:if test="count($elementalEditionSegsWithNotes)">
           <xsl:element name="ul">
             <xsl:attribute name="class">
-              <xsl:value-of select="'poem-notes'"/>
-            </xsl:attribute>
-            <xsl:attribute name="id">
               <xsl:value-of select="'poem-notes'"/>
             </xsl:attribute>
             <xsl:for-each select="$elementalEditionSegsWithNotes">
@@ -474,13 +472,32 @@
   </xsl:template>
 
   <!-- Headnote -->
-  <xsl:template match="tei:head/tei:app[@type = 'headnote']">
+  <xsl:template match="tei:head/tei:app[@type='headnote']">
     <xsl:param name="witId"/>
     <div class="expand-box">
       <div class="headnote lato">
         <xsl:apply-templates>
           <xsl:with-param name="witId" select="$witId"/>
         </xsl:apply-templates>
+
+        <xsl:variable name="innerNotes" select=".//tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]]"/>
+
+        <xsl:if test="boolean($innerNotes)">
+          <xsl:element name="ul">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'block-notes'"/>
+            </xsl:attribute>
+
+            <xsl:for-each select="$innerNotes">
+              <xsl:element name="li">
+                <xsl:attribute name="class">
+                  <xsl:value-of select="'block-note'"/>
+                </xsl:attribute>
+                <xsl:apply-templates select="./tei:note/node()"/>
+              </xsl:element>
+            </xsl:for-each>
+          </xsl:element>
+        </xsl:if>
       </div>
       <div class="poem-details-options">
         <xsl:element name="a">
@@ -503,8 +520,7 @@
     <a href="#0" class="poster-info-trigger sssi-regular">i</a>
   </xsl:template>
 
-  <!-- Note of a type 'headnote' inside a headnote -->
-  <!-- Not sure why we encode head notes this way but ok. -->
+  <!-- Note of a type 'headnote' -->
   <xsl:template match="tei:note[@type='headnote']">
     <xsl:param name="witId"/>
     <xsl:apply-templates>
@@ -648,13 +664,15 @@
     </div>
   </xsl:template>
 
+  <!-- Line break -->
+  <xsl:template match="tei:lb"><br/></xsl:template>
+
   <xsl:template match="tei:fw"/>
 
   <!-- <seg> that has a <note> attached -->
-  <xsl:template match="tei:seg[./tei:note]">
+  <xsl:template match="tei:seg[./tei:note][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]">
     <xsl:variable name="currentSegNotesCount" select="count(./tei:note)"/>
-    <xsl:variable name="currentReadingSegCount" select="count(ancestor::tei:rdg[@wit=concat('#', $elementalEditionId)]//tei:seg[./tei:note])"/>
-    <xsl:variable name="noteId" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $elementalEditionId)]]) + 1"/>
+    <xsl:variable name="noteId" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $elementalEditionId)]][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]) + 1"/>
 
     <xsl:element name="span">
       <xsl:attribute name="class">
@@ -700,7 +718,7 @@
     </xsl:element>
   </xsl:template>
 
-  <!-- Note which is inside a <seg></seg> should yield nothing -->
+  <!-- Note which is inside a seg should yield nothing -->
   <xsl:template match="tei:seg/tei:note"/>
 
   <!-- Segments and their renditions -->

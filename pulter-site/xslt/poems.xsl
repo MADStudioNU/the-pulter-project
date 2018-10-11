@@ -1905,7 +1905,7 @@
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
     </pp:exploration>
     <pp:exploration hash="hester-pulter-and-english-blazon">
-      <pp:author>Lara Dodds</pp:author>
+      <pp:author>Frances E. Dolan</pp:author>
       <pp:title>Hester Pulter and the Blazon in Early Modern England</pp:title>
     </pp:exploration>
   </pp:explorations>
@@ -2349,9 +2349,7 @@
             <div class="explorations-box">
               <div class="explorations">
                 <h2 class="label">Explorations</h2>
-                <div class="explanatory exploration-blurb muted">
-                  <span class="it">Explorations</span> are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work: themes she frequently treated, matters to do with the materiality of the manuscript, a Pulter timeline, bibliography, and so on. <span class="muter asap">Don't show again</span>
-                </div>
+                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don't show again</span></div>
                 <ul class="exploration-list">
                   <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
                     <xsl:variable name="status" select="./@status"/>

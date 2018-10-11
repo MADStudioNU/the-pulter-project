@@ -362,7 +362,7 @@
           </xsl:if>
         </div>
         <xsl:if test="$editorialNote">
-          <div id="editorial-note">
+          <div id="editorial-note" class="editorial-note-box">
             <span class="dismiss"><xsl:text> </xsl:text></span>
             <h3 class="sssi-regular">Editorial Note</h3>
             <xsl:element name="div">
@@ -370,12 +370,28 @@
                 <xsl:value-of select="'c lato'"/>
               </xsl:attribute>
               <xsl:apply-templates select="$editorialNote/tei:note/node()"/>
+
+              <xsl:if test="boolean($editorialNote//tei:seg[./tei:note])">
+                <xsl:element name="ul">
+                  <xsl:attribute name="class">
+                    <xsl:value-of select="'block-notes'"/>
+                  </xsl:attribute>
+
+                  <xsl:for-each select="$editorialNote//tei:seg[./tei:note]">
+                    <xsl:element name="li">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'block-note'"/>
+                      </xsl:attribute>
+                      <xsl:apply-templates select="./tei:note/node()"/>
+                    </xsl:element>
+                  </xsl:for-each>
+                </xsl:element>
+              </xsl:if>
             </xsl:element>
-            <img class="terminal" src="/images/macron.svg"/>
           </div>
         </xsl:if>
 
-        <xsl:variable name="thisAESegsWithNotes" select="//tei:rdg[@wit=concat('#', $witId)]//tei:seg[./tei:note]"/>
+        <xsl:variable name="thisAESegsWithNotes" select="//tei:rdg[@wit=concat('#', $witId)]//tei:seg[./tei:note][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]"/>
         <xsl:if test="count($thisAESegsWithNotes)">
           <xsl:element name="ul">
             <xsl:attribute name="class">
@@ -392,7 +408,6 @@
                   </xsl:attribute>
                   <xsl:text> </xsl:text>
                 </xsl:element>
-
                 <xsl:element name="h5">
                   <xsl:attribute name="class">
                     <xsl:value-of select="'note-title'"/>
@@ -482,13 +497,32 @@
   </xsl:template>
 
   <!-- Headnote -->
-  <xsl:template match="tei:head/tei:app[@type = 'headnote']">
+  <xsl:template match="tei:head/tei:app[@type='headnote']">
     <xsl:param name="witId"/>
     <div class="expand-box">
       <div class="headnote lato">
         <xsl:apply-templates>
           <xsl:with-param name="witId" select="$witId"/>
         </xsl:apply-templates>
+
+        <xsl:variable name="innerNotes" select=".//tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]]"/>
+
+        <xsl:if test="boolean($innerNotes)">
+          <xsl:element name="ul">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'block-notes'"/>
+            </xsl:attribute>
+
+            <xsl:for-each select="$innerNotes">
+              <xsl:element name="li">
+                <xsl:attribute name="class">
+                  <xsl:value-of select="'block-note'"/>
+                </xsl:attribute>
+                <xsl:apply-templates select="./tei:note/node()"/>
+              </xsl:element>
+            </xsl:for-each>
+          </xsl:element>
+        </xsl:if>
       </div>
       <div class="poem-details-options">
         <xsl:element name="a">
@@ -511,26 +545,12 @@
     <a href="#0" class="poster-info-trigger sssi-regular">i</a>
   </xsl:template>
 
-  <!-- Note of a type 'headnote' inside a headnote -->
-  <!-- Not sure why we encode head notes this way but ok. -->
+  <!-- Note of a type 'headnote' -->
   <xsl:template match="tei:note[@type='headnote']">
     <xsl:param name="witId"/>
     <xsl:apply-templates>
       <xsl:with-param name="witId" select="$witId"/>
     </xsl:apply-templates>
-  </xsl:template>
-
-  <!-- Editorial note -->
-  <xsl:template match="tei:note[@type = 'editorialnote']"/>
-
-  <!-- Notes inside editorial notes -->
-  <xsl:template match="tei:note[@type = 'editorialnote']//tei:note">
-    <xsl:element name="div">
-      <xsl:attribute name="class">
-        <xsl:value-of select="'block-note'"/>
-      </xsl:attribute>
-      <xsl:apply-templates/>
-    </xsl:element>
   </xsl:template>
 
   <!-- Line group -->
@@ -654,13 +674,16 @@
     </div>
   </xsl:template>
 
+  <!-- Line break -->
+  <xsl:template match="tei:lb"><br/></xsl:template>
+
   <xsl:template match="tei:fw"/>
 
   <!-- <seg> that has a <note> attached -->
-  <xsl:template match="tei:seg[./tei:note]">
+  <xsl:template match="tei:seg[./tei:note][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]">
     <xsl:param name="witId"/>
     <xsl:variable name="currentSegNotesCount" select="count(./tei:note)"/>
-    <xsl:variable name="noteId" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]]) + 1"/>
+    <xsl:variable name="noteId" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]) + 1"/>
 
     <xsl:element name="span">
       <xsl:attribute name="class">
@@ -703,8 +726,11 @@
     </xsl:element>
   </xsl:template>
 
-  <!-- Note which is inside a <seg></seg> should yield nothing -->
+  <!-- Note which is inside a seg should yield nothing -->
   <xsl:template match="tei:seg/tei:note"/>
+
+  <!-- Editorial note -->
+  <xsl:template match="tei:note[@type='editorialnote']"/>
 
   <!-- Bibl inside notes -->
   <xsl:template match="tei:seg/tei:note//tei:bibl">
