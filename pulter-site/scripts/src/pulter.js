@@ -30,9 +30,6 @@ var PP = (function ($) {
       var $dropUps = $actions.find('.pseudo');
       var $toIntro = $body.find('.to-intro');
       var $status = $body.find('.status');
-      var $searchBox = $body.find('.search-box');
-      var $searchInput = $searchBox.find('#search-input');
-      var $searchResults = $searchBox.find('.results-box');
       var $imgCollection = $body.find('#pp-home-image-collection');
       var $explorationBlurb = $('.exploration-blurb');
       var $explorationTriggers = $('.exploration-trigger');
@@ -139,19 +136,6 @@ var PP = (function ($) {
       // Attaching the event handler
       $(window).on('scroll', scrollWatcher);
 
-      // Try to enable search
-      var searchScriptRequest = this.getSearchScript();
-      searchScriptRequest
-        .done(function () {
-          setTimeout(function () {
-            $searchBox.fadeIn();
-            enableSearch();
-          }, 800);
-        })
-        .fail(function () {
-          console.log('Sorry, search script couldn\'t be loaded.');
-        });
-
       // Become aware of the PP environment
       var poems = [];
       var indexRequest = this.getPoemIndex();
@@ -165,6 +149,9 @@ var PP = (function ($) {
         .fail(function () {
           console.log('Manifest loading error! Falling back to id based HTML linking.');
         });
+
+      // Try to enable search
+      this.enableSearch($body);
 
       function navigateToIntro() {
         $intro.fadeIn(600);
@@ -360,8 +347,559 @@ var PP = (function ($) {
           .add(elementsAnimation)
           .add(actionBoxAnimation);
       }
+    },
+    initPoem: function (params) {
+      var $body = $('body');
 
-      function enableSearch() {
+      // Default options (for a poem)
+      var defaults = {
+        id: 0,
+        title: '',
+        hasPoster: false,
+        hasCtx: false
+      };
+
+      // Poem config object construction
+      var pConfig = Object.assign(defaults, params);
+
+      // Do we know enough to start reading?
+      if (isNumber(+pConfig.id) && pConfig.id > 0) {
+        var l1 =
+          'Hi! Welcome to Hester Pulter\'s "' +
+          pConfig.title +
+          '" (poem ' +
+          pConfig.id +
+          ').';
+
+        console.log('%c' + l1, 'background: #FBF0FF; color: #330657;');
+        console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
+
+        // Kick off the UI
+        readThePoem(pConfig);
+
+        // Search
+        this.enableSearch($body);
+
+        function readThePoem(config) {
+          // Store
+          var pulterState = pulterState || store.namespace('pulterState');
+
+          // DOM variables
+          var $poemSheetList = $body.find('#poem-sheet-list'),
+            $poster = $body.find('.poster'),
+            $posterInfoTrigger = $body.find('.poster-info-trigger'),
+            $glossToggle = $body.find('.gloss-toggle'),
+            $pageToggle = $body.find('.page-toggle'),
+            $headnoteToggles = $body.find('.headnote-toggle'),
+            $facsimileToggle = $body.find('.facsimile-toggle'),
+            $poemNoteTriggers = $body.find('.poem-note-trigger'),
+            $navs = $body.find('.nav'),
+            $ctxs,
+            $curationBlurb = $('.curation-blurb');
+
+          // Read the storage and set the states if needed
+          if (pulterState.has('pagesOn')) { $body.addClass('pages-on'); }
+          if (pulterState.has('glossesOn')) { $body.addClass('glosses-on'); }
+
+          // Local variables
+          var manifest;
+          var indexRequest = PP.getPoemIndex();
+
+          renderPoemElements();
+
+          indexRequest
+            .done(function (data) {
+              manifest = data;
+              enableNavigation();
+            })
+            .fail(function () {
+              console.log('Manifest loading error!');
+            });
+
+          // Enable Flowtype
+          $body.flowtype({
+            fontRatio: 75,
+            minimum: 600,
+            maximum: 1200,
+            minFont: 10,
+            maxFont: 40
+          });
+
+          // Set the posters
+          if (config.hasPoster) {
+            $body.addClass('has-poster');
+            setPosterImage($poster, config.id, 'd');
+          }
+
+          // Curations related logic
+          if (config.hasCtx) {
+            $body.addClass('ctx');
+            $ctxs = $body.find('#ctxs');
+
+            if (config.hasPoster) {
+              setPosterImage($ctxs, config.id, 'l');
+            }
+
+            // Is hash present?
+            var hash = window.location.hash.split('#')[1]; // 'undefined' if not
+
+            if (hash) {
+              var selector = '.ctx[data-ctx-hash="' + hash + '"]',
+                $c = $ctxs.find(selector);
+
+              if ($c.length) {
+                openCuration(config, $c.data('ctx-hash'));
+              }
+            }
+
+            // Curation lightbox triggers
+            $ctxs.find('.ctx').off().on('click', '.text', function (e) {
+              var $target = $(e.delegateTarget);
+              var cHash = $target.data('ctx-hash');
+              var cTitle = $target.find('a').data('curation-title');
+              $target.find('a').blur();
+
+              if (cHash) {
+                openCuration(config, cHash, cTitle);
+              }
+
+              return false;
+            });
+          }
+
+          /* Click event handlers */
+          // Headnote toggle
+          $headnoteToggles.on('click', '.pp-action', function () {
+            var $edition = $(this).closest('.poem');
+            $edition.toggleClass('expanded collapsed');
+
+            if ($edition.hasClass('expanded')) {
+              gtag('event', 'headnote_expanded', {
+                'event_category': 'engagement',
+                'value': +config.id
+              });
+            }
+            return false;
+          });
+
+          // Note triggers
+          $glossToggle.on('click', function () {
+            if (pulterState.has('glossesOn')) {
+              if ($body.hasClass('glosses-on')) {
+                configureViewSetting('glosses', false);
+              } else {
+                configureViewSetting('glosses', true);
+              }
+            } else {
+              configureViewSetting('glosses', true);
+
+              $headnoteToggles
+                .closest('.poem')
+                .removeClass('collapsed')
+                .addClass('expanded');
+            }
+          });
+
+          // Facsimile image viewer triggers
+          $pageToggle.on('click', function () {
+            if (pulterState.has('pagesOn')) {
+              if ($body.hasClass('pages-on')) {
+                configureViewSetting('pages', false);
+              } else {
+                configureViewSetting('pages', true);
+              }
+            } else {
+              configureViewSetting('pages', true);
+            }
+          });
+
+          // Curation blurb logic
+          if (!pulterState.has('muteCurationBlurb')) {
+            $curationBlurb.removeClass('muted').show();
+
+            $curationBlurb.find('.muter').on('click', function () {
+              $curationBlurb.addClass('muted');
+              pulterState.set('muteCurationBlurb', true);
+            });
+          }
+
+          // Poem note triggers
+          $poemNoteTriggers.on('click', function () {
+            var $self = $(this),
+              noteId = $self.data('note-id'),
+              notesCount = $self.data('notes-count'),
+              forceFullSize = $self.data('force-full-size') || false,
+              noteLength = $self.data('note-length'),
+              noteVariant = (
+                noteLength > 300 ||
+                notesCount > 1 ||
+                forceFullSize
+              ) ? 'full-sized-note' : 'compact-note',
+              yOffset = $self.offset().top - $self.closest('.poem').offset().top - 16, // Bump it up a bit (16px) for a more natural alignment
+              $noteMarkup = $('#poem-note-' + noteId);
+
+            gtag('event', 'note_revealed', {
+              'event_category': 'engagement',
+              'event_label': $self.text()
+            });
+
+            $self.addClass('active');
+
+            $.featherlight($noteMarkup, {
+              variant: noteVariant,
+              closeIcon: '',
+              otherClose: '.dismiss',
+              root: $self.closest('.poem'),
+              beforeContent: function () {
+                if (noteVariant === 'compact-note') {
+                  var lightbox = this;
+
+                  $('.featherlight-content').css({top: yOffset});
+                  $('html').removeClass('with-featherlight');
+                  $(window).one('scroll', function () {
+                    lightbox.close();
+                  });
+                }
+              },
+              afterClose: function () {
+                $self.removeClass('active');
+              }
+            });
+          });
+
+          // Facs
+          $facsimileToggle.on('click', function () {
+            var $self = $(this),
+              imageId = $self.data('image-id'),
+              drift;
+
+            gtag('event', 'facsimile_viewed', {
+              'event_category': 'engagement',
+              'event_label': imageId
+            });
+
+            if (imageId) {
+              $.featherlight('/images/facs/' + imageId + '_th.jpg', {
+                type: 'image',
+                variant: 'facs',
+                closeIcon: 'Close',
+                loading: 'One second...',
+                afterContent: function () {
+                  var $image = $('.featherlight-image');
+
+                  $image.attr('data-zoom', '/images/facs/' + imageId + '.jpg');
+
+                  drift = new Drift($image[0], {
+                    paneContainer: document.querySelector('.featherlight-content'),
+                    // showWhitespaceAtEdges: true,
+                    // containInline: true,
+                    // inlineOffsetX: 100,
+                    // inlineOffsetY: 100,
+                    // hoverBoundingBox: true,
+                    // injectBaseStyles: false,
+                    inlinePane: true
+                  });
+
+                  drift.enable();
+                },
+                afterClose: function () {
+                  drift.disable();
+                }
+              });
+            }
+          });
+
+          // Trigger poster info lightbox
+          // Todo: replace the fixture with data from the manifest
+          // Todo: remove the link with a formatted Chicago style reference string
+          $posterInfoTrigger.on('click', function () {
+            var $self = $(this),
+              $noteMarkup = '<div class="poster-box"><img src="/images/headnote-posters/h' + config.id + 'p.jpg" /><div class="link-box"></div></div>';
+
+            $self.addClass('active');
+            $self.blur();
+
+            $.featherlight($noteMarkup, {
+              variant: 'poster-info',
+              closeIcon: '',
+              otherClose: '.poster-box img'
+            });
+
+            return false;
+          });
+
+          // "Renders" the poem
+          function renderPoemElements() {
+            var animateTheBlueprintCanvas = {
+                targets: '.initially',
+                opacity: [
+                  {value: 1, duration: 0},
+                  {value: 0, duration: 800, delay: 2000}
+                ],
+                // easing: 'easeInOutQuad'
+                easing: 'linear'
+              },
+              drawTheBluePrint = {
+                targets: '.bp',
+                strokeDashoffset: [anime.setDashoffset, 0],
+                duration: 2600,
+                delay: function (t, i) {
+                  return i * 250;
+                },
+                offset: '-=2500',
+                easing: 'easeInOutQuad'
+              },
+              showTheDropCap = {
+                targets: '.eventually',
+                opacity: 1,
+                duration: 600,
+                offset: '-=1000',
+                easing: 'linear'
+              },
+              showTheTitle = {
+                targets: '.poem-title',
+                offset: '-=2600',
+                opacity: {
+                  value: [0, 1],
+                  duration: 600,
+                  easing: 'easeInQuad'
+                },
+                translateY: {
+                  value: ['-1em', 0],
+                  duration: 800,
+                  easing: 'easeOutQuad'
+                },
+                delay: function (target, index) {
+                  return 400 * index;
+                }
+              },
+              showTheHeadnoteToggle = {
+                targets: '.headnote-toggle',
+                offset: '-=2000',
+                opacity: {
+                  value: [0, 1],
+                  duration: 600
+                }
+              },
+              showThePoem = {
+                targets: '.poem-body .l',
+                offset: '-=2200',
+                opacity: {
+                  value: [0, 1],
+                  duration: 600,
+                  easing: 'easeInQuad'
+                },
+                translateY: {
+                  value: ['-.5em', 0],
+                  duration: 400,
+                  easing: 'easeOutQuad'
+                },
+                translateX: {
+                  value: ['-.25em', 0],
+                  duration: 400,
+                  easing: 'easeOutQuad'
+                },
+                easing: 'easeInOutElastic',
+                delay: function (target, index) {
+                  return 30 * index;
+                }
+              },
+              showThePageBreaks = {
+                targets: '.pb',
+                offset: '-=2200',
+                opacity: {
+                  value: [0, 1],
+                  duration: 600
+                }
+              },
+              showTheMilestones = {
+                targets: '.milestone',
+                offset: '-=2200',
+                opacity: {
+                  value: [0, .5],
+                  duration: 600
+                }
+              },
+              poemAnimationTimeLine = anime.timeline();
+
+            poemAnimationTimeLine
+              .add(animateTheBlueprintCanvas)
+              .add(drawTheBluePrint)
+              .add(showTheDropCap)
+              .add(showTheTitle)
+              .add(showTheHeadnoteToggle)
+              .add(showThePageBreaks)
+              .add(showTheMilestones)
+              .add(showThePoem);
+          }
+
+          // Sets the poster image to a given element
+          function setPosterImage($el, poemId, themeId) {
+            var prefix, root, suffix;
+
+            if (poemId && themeId) {
+              prefix = 'url("/images/headnote-posters/h';
+              root = poemId + themeId;
+              suffix = '.jpg")';
+
+              var url = prefix + root + suffix + '';
+
+              // Position the image properly
+              $el.css({
+                'background-image': url,
+                'background-repeat': 'no-repeat',
+                'background-size': 'cover',
+                'background-position': 'center 10%' // not the upper edge, but a bit lower
+              });
+            }
+          }
+
+          // Opens a curation
+          function openCuration(config, curationHash, curationTitle) {
+            var ctxUrl =
+              '/curations/c' +
+              config.id + '-' +
+              curationHash +
+              '.html #content';
+
+            var gagPagePath =
+              '/curations/c' +
+              config.id + '-' +
+              curationHash +
+              '.html';
+
+            $.featherlight(ctxUrl, {
+              variant: 'curation',
+              closeIcon: '',
+              type: 'ajax',
+              openSpeed: 400,
+              closeSpeed: 200,
+              otherClose: '.dismiss',
+              loading: '<p class="lato spinner">Loading the curation...</p>',
+              beforeOpen: function () {
+                if (curationHash) {
+                  window.location.hash = curationHash;
+                }
+              },
+              afterOpen: function() {
+                gtag('config', 'UA-122500056-2', {
+                  'page_title': curationTitle || curationHash,
+                  'page_path': gagPagePath
+                });
+                var idxSpan = '<span class="idx lato">' + config.id + '</span>';
+                var titleSpan = '<span class="t">' + config.title + '</span>';
+                var out = '<a href="../#" class="poem-ref">' + idxSpan + titleSpan + '</a>';
+
+                $('.featherlight-content').prepend(out);
+                $('.poem-ref').on('click', function () {
+                  $.featherlight.current().close();
+                  return false;
+                });
+              },
+              afterClose: function () {
+                window.location.hash = '0';
+                gtag('config', 'UA-122500056-2', {
+                  'page_title': $('title').text()
+                });
+              }
+            });
+          }
+
+          // In-poem navigation
+          function enableNavigation() {
+            $navs.addClass('on');
+            var currentIdx;
+
+            $.each(manifest, function (idx, el) {
+              if (+el.id === config.id) {
+                currentIdx = idx;
+                return false;
+              }
+            });
+
+            $navs.on('click', function () {
+              var dir = $(this).data('dir');
+
+              if (currentIdx !== 'undefined') {
+                var destinationIdx;
+
+                if (dir === 'next') {
+                  destinationIdx = currentIdx + 1 < manifest.length ?
+                    currentIdx + 1 :
+                    0;
+                }
+
+                if (dir === 'prev') {
+                  destinationIdx = currentIdx - 1 >= 0 ?
+                    currentIdx - 1 :
+                    manifest.length - 1;
+                }
+
+                if (destinationIdx !== 'undefined') {
+                  window.location.href = '../' + dashify(manifest[destinationIdx].seo);
+                }
+              }
+
+              return false;
+            })
+          }
+
+          function configureViewSetting(settingKey, value) {
+            if (value) {
+              $body.addClass(settingKey + '-on');
+              pulterState.set(settingKey + 'On', true);
+            } else {
+              $body.removeClass(settingKey + '-on');
+              pulterState.remove(settingKey + 'On');
+            }
+          }
+
+          /* Scroll related functionality */
+          // Scroll watcher
+          var scrollWatcher = debounce(function () {
+            if ($(window).scrollTop() >= $poemSheetList.offset().top + $poemSheetList.outerHeight() - 200) {
+              $body.addClass('so');
+            } else {
+              $body.removeClass('so');
+            }
+          }, 250);
+
+          // Attaching the event handler
+          $(window).on('scroll', scrollWatcher);
+        }
+      } else {
+        console.log(
+          'Unable to initialize the poem. The id is invalid or it wasn\'t provided.'
+        );
+        // TODO: Write an error handler for this case
+      }
+
+      // Print footnote numbers adjustment
+      setNoteNumbersForPrint();
+    },
+    resetState: function () {
+      var pulterState = pulterState || store.namespace('pulterState');
+      pulterState.clear();
+    },
+    enableSearch: function ($contextEl) {
+      var $searchBox = $contextEl.find('.pp-search-box');
+      var $searchInput = $searchBox.find('#search-input');
+      var $searchResults = $searchBox.find('.results-box');
+
+      // Try to enable search
+      var searchScriptRequest = this.getSearchScript();
+      searchScriptRequest
+        .done(function () {
+          setTimeout(function () {
+            $searchBox.fadeIn();
+            search($searchInput, $searchResults);
+          }, 800);
+        })
+        .fail(function () {
+          console.log('Sorry, search script couldn\'t be loaded.');
+        });
+
+      function search($searchInput, $searchResults) {
         var q = '';
         var searchItemIsClicked = false;
 
@@ -466,538 +1004,8 @@ var PP = (function ($) {
           }
         });
       }
-    },
-    initPoem: function (params) {
-      // Default options (for a poem)
-      var defaults = {
-        id: 0,
-        title: '',
-        hasPoster: false,
-        hasCtx: false
-      };
-
-      // Poem config object construction
-      var pConfig = Object.assign(defaults, params);
-
-      // Do we know enough to start reading?
-      if (isNumber(+pConfig.id) && pConfig.id > 0) {
-        var l1 =
-          'Hi! Welcome to Hester Pulter\'s "' +
-          pConfig.title +
-          '" (poem ' +
-          pConfig.id +
-          ').';
-
-        console.log('%c' + l1, 'background: #FBF0FF; color: #330657;');
-        console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
-
-        // Kick off the UI
-        readThePoem(pConfig);
-      } else {
-        console.log(
-          'Unable to initialize the poem. The id is invalid or it wasn\'t provided.'
-        );
-        // TODO: Write an error handler for this case
-      }
-
-      // Print footnote numbers adjustment
-      setNoteNumbersForPrint();
-    },
-    resetState: function () {
-      var pulterState = pulterState || store.namespace('pulterState');
-      pulterState.clear();
     }
   };
-
-  // Kick off the reading UX
-  function readThePoem(config) {
-    // Store
-    var pulterState = pulterState || store.namespace('pulterState');
-
-    // DOM variables
-    var $body = $('body'),
-      $poemSheetList = $body.find('#poem-sheet-list'),
-      $poster = $body.find('.poster'),
-      $posterInfoTrigger = $body.find('.poster-info-trigger'),
-      $glossToggle = $body.find('.gloss-toggle'),
-      $pageToggle = $body.find('.page-toggle'),
-      $headnoteToggles = $body.find('.headnote-toggle'),
-      $facsimileToggle = $body.find('.facsimile-toggle'),
-      $poemNoteTriggers = $body.find('.poem-note-trigger'),
-      $navs = $body.find('.nav'),
-      $ctxs,
-      $curationBlurb = $('.curation-blurb');
-
-    // Read the storage and set the states if needed
-    if (pulterState.has('pagesOn')) { $body.addClass('pages-on'); }
-    if (pulterState.has('glossesOn')) { $body.addClass('glosses-on'); }
-
-    // Local variables
-    var manifest;
-    var indexRequest = PP.getPoemIndex();
-
-    renderPoemElements();
-
-    indexRequest
-      .done(function (data) {
-        manifest = data;
-        enableNavigation();
-      })
-      .fail(function () {
-        console.log('Manifest loading error!');
-      });
-
-    // Enable Flowtype
-    $body.flowtype({
-      fontRatio: 75,
-      minimum: 600,
-      maximum: 1200,
-      minFont: 10,
-      maxFont: 40
-    });
-
-    // Set the posters
-    if (config.hasPoster) {
-      $body.addClass('has-poster');
-      setPosterImage($poster, config.id, 'd');
-    }
-
-    // Curations related logic
-    if (config.hasCtx) {
-      $body.addClass('ctx');
-      $ctxs = $body.find('#ctxs');
-
-      if (config.hasPoster) {
-        setPosterImage($ctxs, config.id, 'l');
-      }
-
-      // Is hash present?
-      var hash = window.location.hash.split('#')[1]; // 'undefined' if not
-
-      if (hash) {
-        var selector = '.ctx[data-ctx-hash="' + hash + '"]',
-          $c = $ctxs.find(selector);
-
-        if ($c.length) {
-          openCuration(config, $c.data('ctx-hash'));
-        }
-      }
-
-      // Curation lightbox triggers
-      $ctxs.find('.ctx').off().on('click', '.text', function (e) {
-        var $target = $(e.delegateTarget);
-        var cHash = $target.data('ctx-hash');
-        var cTitle = $target.find('a').data('curation-title');
-        $target.find('a').blur();
-
-        if (cHash) {
-          openCuration(config, cHash, cTitle);
-        }
-
-        return false;
-      });
-    }
-
-    /* Click event handlers */
-    // Headnote toggle
-    $headnoteToggles.on('click', '.pp-action', function () {
-      var $edition = $(this).closest('.poem');
-      $edition.toggleClass('expanded collapsed');
-
-      if ($edition.hasClass('expanded')) {
-        gtag('event', 'headnote_expanded', {
-          'event_category': 'engagement',
-          'value': +config.id
-        });
-      }
-      return false;
-    });
-
-    // Note triggers
-    $glossToggle.on('click', function () {
-      if (pulterState.has('glossesOn')) {
-        if ($body.hasClass('glosses-on')) {
-          configureViewSetting('glosses', false);
-        } else {
-          configureViewSetting('glosses', true);
-        }
-      } else {
-        configureViewSetting('glosses', true);
-
-        $headnoteToggles
-          .closest('.poem')
-          .removeClass('collapsed')
-          .addClass('expanded');
-      }
-    });
-
-    // Facsimile image viewer triggers
-    $pageToggle.on('click', function () {
-      if (pulterState.has('pagesOn')) {
-        if ($body.hasClass('pages-on')) {
-          configureViewSetting('pages', false);
-        } else {
-          configureViewSetting('pages', true);
-        }
-      } else {
-        configureViewSetting('pages', true);
-      }
-    });
-
-    // Curation blurb logic
-    if (!pulterState.has('muteCurationBlurb')) {
-      $curationBlurb.removeClass('muted').show();
-
-      $curationBlurb.find('.muter').on('click', function () {
-        $curationBlurb.addClass('muted');
-        pulterState.set('muteCurationBlurb', true);
-      });
-    }
-
-    // Poem note triggers
-    $poemNoteTriggers.on('click', function () {
-      var $self = $(this),
-        noteId = $self.data('note-id'),
-        notesCount = $self.data('notes-count'),
-        forceFullSize = $self.data('force-full-size') || false,
-        noteLength = $self.data('note-length'),
-        noteVariant = (
-          noteLength > 300 ||
-          notesCount > 1 ||
-          forceFullSize
-        ) ? 'full-sized-note' : 'compact-note',
-        yOffset = $self.offset().top - $self.closest('.poem').offset().top - 16, // Bump it up a bit (16px) for a more natural alignment
-        $noteMarkup = $('#poem-note-' + noteId);
-
-      gtag('event', 'note_revealed', {
-        'event_category': 'engagement',
-        'event_label': $self.text()
-      });
-
-      $self.addClass('active');
-
-      $.featherlight($noteMarkup, {
-        variant: noteVariant,
-        closeIcon: '',
-        otherClose: '.dismiss',
-        root: $self.closest('.poem'),
-        beforeContent: function () {
-          if (noteVariant === 'compact-note') {
-            var lightbox = this;
-
-            $('.featherlight-content').css({top: yOffset});
-            $('html').removeClass('with-featherlight');
-            $(window).one('scroll', function () {
-              lightbox.close();
-            });
-          }
-        },
-        afterClose: function () {
-          $self.removeClass('active');
-        }
-      });
-    });
-
-    // Facs
-    $facsimileToggle.on('click', function () {
-      var $self = $(this),
-        imageId = $self.data('image-id'),
-        drift;
-
-      gtag('event', 'facsimile_viewed', {
-        'event_category': 'engagement',
-        'event_label': imageId
-      });
-
-      if (imageId) {
-        $.featherlight('/images/facs/' + imageId + '_th.jpg', {
-          type: 'image',
-          variant: 'facs',
-          closeIcon: 'Close',
-          loading: 'One second...',
-          afterContent: function () {
-            var $image = $('.featherlight-image');
-
-            $image.attr('data-zoom', '/images/facs/' + imageId + '.jpg');
-
-            drift = new Drift($image[0], {
-              paneContainer: document.querySelector('.featherlight-content'),
-              // showWhitespaceAtEdges: true,
-              // containInline: true,
-              // inlineOffsetX: 100,
-              // inlineOffsetY: 100,
-              // hoverBoundingBox: true,
-              // injectBaseStyles: false,
-              inlinePane: true
-            });
-
-            drift.enable();
-          },
-          afterClose: function () {
-            drift.disable();
-          }
-        });
-      }
-    });
-
-    // Trigger poster info lightbox
-    // Todo: replace the fixture with data from the manifest
-    // Todo: remove the link with a formatted Chicago style reference string
-    $posterInfoTrigger.on('click', function () {
-      var $self = $(this),
-        $noteMarkup = '<div class="poster-box"><img src="/images/headnote-posters/h' + config.id + 'p.jpg" /><div class="link-box"></div></div>';
-
-      $self.addClass('active');
-      $self.blur();
-
-      $.featherlight($noteMarkup, {
-        variant: 'poster-info',
-        closeIcon: '',
-        otherClose: '.poster-box img'
-      });
-
-      return false;
-    });
-
-    // "Renders" the poem
-    function renderPoemElements() {
-      var animateTheBlueprintCanvas = {
-          targets: '.initially',
-          opacity: [
-            {value: 1, duration: 0},
-            {value: 0, duration: 800, delay: 2000}
-          ],
-          // easing: 'easeInOutQuad'
-          easing: 'linear'
-        },
-        drawTheBluePrint = {
-          targets: '.bp',
-          strokeDashoffset: [anime.setDashoffset, 0],
-          duration: 2600,
-          delay: function (t, i) {
-            return i * 250;
-          },
-          offset: '-=2500',
-          easing: 'easeInOutQuad'
-        },
-        showTheDropCap = {
-          targets: '.eventually',
-          opacity: 1,
-          duration: 600,
-          offset: '-=1000',
-          easing: 'linear'
-        },
-        showTheTitle = {
-          targets: '.poem-title',
-          offset: '-=2600',
-          opacity: {
-            value: [0, 1],
-            duration: 600,
-            easing: 'easeInQuad'
-          },
-          translateY: {
-            value: ['-1em', 0],
-            duration: 800,
-            easing: 'easeOutQuad'
-          },
-          delay: function (target, index) {
-            return 400 * index;
-          }
-        },
-        showTheHeadnoteToggle = {
-          targets: '.headnote-toggle',
-          offset: '-=2000',
-          opacity: {
-            value: [0, 1],
-            duration: 600
-          }
-        },
-        showThePoem = {
-          targets: '.poem-body .l',
-          offset: '-=2200',
-          opacity: {
-            value: [0, 1],
-            duration: 600,
-            easing: 'easeInQuad'
-          },
-          translateY: {
-            value: ['-.5em', 0],
-            duration: 400,
-            easing: 'easeOutQuad'
-          },
-          translateX: {
-            value: ['-.25em', 0],
-            duration: 400,
-            easing: 'easeOutQuad'
-          },
-          easing: 'easeInOutElastic',
-          delay: function (target, index) {
-            return 30 * index;
-          }
-        },
-        showThePageBreaks = {
-          targets: '.pb',
-          offset: '-=2200',
-          opacity: {
-            value: [0, 1],
-            duration: 600
-          }
-        },
-        showTheMilestones = {
-          targets: '.milestone',
-          offset: '-=2200',
-          opacity: {
-            value: [0, .5],
-            duration: 600
-          }
-        },
-        poemAnimationTimeLine = anime.timeline();
-
-      poemAnimationTimeLine
-        .add(animateTheBlueprintCanvas)
-        .add(drawTheBluePrint)
-        .add(showTheDropCap)
-        .add(showTheTitle)
-        .add(showTheHeadnoteToggle)
-        .add(showThePageBreaks)
-        .add(showTheMilestones)
-        .add(showThePoem);
-    }
-
-    // Sets the poster image to a given element
-    function setPosterImage($el, poemId, themeId) {
-      var prefix, root, suffix;
-
-      if (poemId && themeId) {
-        prefix = 'url("/images/headnote-posters/h';
-        root = poemId + themeId;
-        suffix = '.jpg")';
-
-        var url = prefix + root + suffix + '';
-
-        // Position the image properly
-        $el.css({
-          'background-image': url,
-          'background-repeat': 'no-repeat',
-          'background-size': 'cover',
-          'background-position': 'center 10%' // not the upper edge, but a bit lower
-        });
-      }
-    }
-
-    // Opens a curation
-    function openCuration(config, curationHash, curationTitle) {
-      var ctxUrl =
-        '/curations/c' +
-        config.id + '-' +
-        curationHash +
-        '.html #content';
-
-      var gagPagePath =
-        '/curations/c' +
-        config.id + '-' +
-        curationHash +
-        '.html';
-
-      $.featherlight(ctxUrl, {
-        variant: 'curation',
-        closeIcon: '',
-        type: 'ajax',
-        openSpeed: 400,
-        closeSpeed: 200,
-        otherClose: '.dismiss',
-        loading: '<p class="lato spinner">Loading the curation...</p>',
-        beforeOpen: function () {
-          if (curationHash) {
-            window.location.hash = curationHash;
-          }
-        },
-        afterOpen: function() {
-          gtag('config', 'UA-122500056-2', {
-            'page_title': curationTitle || curationHash,
-            'page_path': gagPagePath
-          });
-          var idxSpan = '<span class="idx lato">' + config.id + '</span>';
-          var titleSpan = '<span class="t">' + config.title + '</span>';
-          var out = '<a href="../#" class="poem-ref">' + idxSpan + titleSpan + '</a>';
-
-          $('.featherlight-content').prepend(out);
-          $('.poem-ref').on('click', function () {
-            $.featherlight.current().close();
-            return false;
-          });
-        },
-        afterClose: function () {
-          window.location.hash = '0';
-          gtag('config', 'UA-122500056-2', {
-            'page_title': $('title').text()
-          });
-        }
-      });
-    }
-
-    // In-poem navigation
-    function enableNavigation() {
-      $navs.addClass('on');
-      var currentIdx;
-
-      $.each(manifest, function (idx, el) {
-        if (+el.id === config.id) {
-          currentIdx = idx;
-          return false;
-        }
-      });
-
-      $navs.on('click', function () {
-        var dir = $(this).data('dir');
-
-        if (currentIdx !== 'undefined') {
-          var destinationIdx;
-
-          if (dir === 'next') {
-            destinationIdx = currentIdx + 1 < manifest.length ?
-              currentIdx + 1 :
-              0;
-          }
-
-          if (dir === 'prev') {
-            destinationIdx = currentIdx - 1 >= 0 ?
-              currentIdx - 1 :
-              manifest.length - 1;
-          }
-
-          if (destinationIdx !== 'undefined') {
-            window.location.href = '../' + dashify(manifest[destinationIdx].seo);
-          }
-        }
-
-        return false;
-      })
-    }
-
-    function configureViewSetting(settingKey, value) {
-      if (value) {
-        $body.addClass(settingKey + '-on');
-        pulterState.set(settingKey + 'On', true);
-      } else {
-        $body.removeClass(settingKey + '-on');
-        pulterState.remove(settingKey + 'On');
-      }
-    }
-
-    /* Scroll related functionality */
-    // Scroll watcher
-    var scrollWatcher = debounce(function () {
-      if ($(window).scrollTop() >= $poemSheetList.offset().top + $poemSheetList.outerHeight() - 200) {
-        $body.addClass('so');
-      } else {
-        $body.removeClass('so');
-      }
-    }, 250);
-
-    // Attaching the event handler
-    $(window).on('scroll', scrollWatcher);
-  }
 
   // Footnote adjustment implementation
   function setNoteNumbersForPrint() {

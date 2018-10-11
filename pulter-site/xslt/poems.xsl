@@ -2079,7 +2079,7 @@
                 <a href="#" class="to-intro">
                   <img class="logo" src="/images/pp-logo-comp.svg"/>
                 </a>
-                <div class="search-box">
+                <div class="pp-search-box">
                   <div class="search">
                     <form id="pp-search-form">
                       <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />

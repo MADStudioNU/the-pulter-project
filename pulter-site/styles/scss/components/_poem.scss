@@ -4,7 +4,6 @@
 $navSize: 1em;
 $navAir: $navSize;
 $navHeight: 5em;
-$poemAndNavOverlap: 2em;
 $leftGutter: 10%;
 $leftGutterMobile: 7%;
 $rightGutter: 32%;
@@ -32,17 +31,50 @@ $globalBorderRadius: 2px;
     }
 
     .masthead {
-      .content {
-        position: relative;
-        padding: 1.5em 0 4.5em + $poemAndNavOverlap 0;
+      height: 3em;
+      position: relative;
+      padding: 1.66em 0 1.5em 0;
 
-        img.logo {
-          height: 3em;
-          cursor: pointer;
+      .content {
+        .to-index {
+          //height: 3em;
+          width: 9em;
           position: fixed;
+          //width: 1em;
+          display: inline-block;
+
+          img.logo {
+            width: 100%;
+
+            @include breakpoint(mobile) {
+              position: static;
+            }
+          }
+        }
+
+        .pp-search-box {
+          z-index: 1;
+          position: absolute;
+          left: 13em;
 
           @include breakpoint(mobile) {
-            position: static;
+            display: none !important;
+          }
+
+          //.search { position: fixed; }
+
+          form input[type=text] {
+            width: 13em;
+            border-color: rgba($pp_manuscriptPaper, .2);
+
+            &:focus {
+              width: 16em;
+              border-color: rgba($pp_shinyGold, 0.8);
+            }
+          }
+
+          .results-box {
+            box-shadow: 0 0 3px rgba(0, 0, 0, .25);
           }
         }
 
@@ -78,13 +110,13 @@ $globalBorderRadius: 2px;
       &::after {
         display: block;
         content: '';
-        //position: absolute;
         position: fixed;
-        background: rgba(255, 255, 255, .05);
+        background: rgba(255, 255, 255, .06);
         height: $navHeight;
         width: 100%;
         left: 0;
         right: 0;
+        top: 8em;
       }
 
       @include breakpoint(mobile) {
@@ -121,7 +153,7 @@ $globalBorderRadius: 2px;
       $air: 2em;
 
       position: relative;
-      top: -$poemAndNavOverlap;
+      top: 0;
       background: #fff;
       box-shadow: 0 0 50px 0 rgba(0, 0, 0, .3);
       border-radius: 2px;
@@ -233,13 +265,12 @@ $globalBorderRadius: 2px;
         opacity: 0;
         position: fixed;
         height: $navSize;
-        top: $poemAndNavOverlap + ($navHeight - $navSize) / 2;
+        top: $air * 2;
         cursor: pointer;
         //opacity: .5;
         @include transition(opacity .8s);
 
         &.prev {
-          //left: -3em;
           top: 10em;
 
           img {
@@ -884,7 +915,6 @@ $globalBorderRadius: 2px;
         display: inline-block;
         font-size: .66em;
         background: #fff;
-        //background-image: linear-gradient(-185deg, #fff 0%, #f0f0f0 100%);
         color: rgba(#282828, .5);
         @include transition(all .2s);
 
@@ -955,16 +985,15 @@ $globalBorderRadius: 2px;
 
       @include breakpoint(mobile) {
         position: absolute;
-        bottom: -4.5em;
+        bottom: -6em;
         right: 0;
         margin-right: 0;
         width: auto;
 
         a {
-          padding: .5em 0;
           display: inline;
           font-size: 1em;
-          line-height: 1.8;
+          line-height: 2;
 
           &.to-vm {display: none;}
         }
