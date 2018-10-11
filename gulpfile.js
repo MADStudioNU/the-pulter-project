@@ -250,7 +250,7 @@ gulp.task('default',
   function () {
     gulp.watch(SITE_BASE + 'scripts/src/**', ['scripts']);
     gulp.watch(SITE_BASE + 'styles/scss/**', ['styles']);
-    gulp.watch(SITE_BASE + '**/*.css').on('change', browserSync.reload);
+    gulp.watch(SITE_BASE + 'versioning-machine/**/*.css').on('change', browserSync.reload);
     gulp.watch(SITE_BASE + '**/*.html', ['html']);
   }
 );
