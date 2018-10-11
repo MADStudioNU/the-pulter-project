@@ -165,7 +165,8 @@ $.fn.linenumberOnOff = function() {
 	});
 }
 
-// todo: refactor this horror
+// todo: somehow take this out of the global space
+// todo: don't require async
 // get the file address of the prev poem and next poem //
 var poemData = (function () {
     if (location.hostname) {
@@ -258,9 +259,7 @@ $.fn.indexPopup = function(){
              + "<span class=\"poemnumber\">" + poemData[i].id + " </span>"
              + "<span class=\"poemtitle\"><a href=\"../" + poemData[i].id + "\">" + poemData[i].title + "</a></span>"
              + "</div>");
-          }
-
-         
+          }       
     });
 }
 
@@ -282,6 +281,50 @@ $.fn.indexPopup = function(){
 		$("#nextPoem").window.location.href="pulter_"+poemNumber+".html"; 
 }); */
 //}
+
+/* 
+ * PAGE SCROLLING HANDLER
+ * useful for determining if panel headers are now on/off screen to show 
+ * floating labels-guides accordingly
+ */
+function pageScroll() {
+        var headerSize = $("#mainBanner").outerHeight();
+        var scrollTop = $(window).scrollTop();
+        
+        $(".mssPanel").each(function() {
+           var thisPanel = $(this);
+           var panelBanner = thisPanel.find(".panelBanner");
+           var panelLockedHeader = thisPanel.find(".panelLockedHeader");
+
+           // simple solution 1 -- if top of this scroll view is more than panelTop - headerSize + sizeOf(panelBanner) turn on the invisible float label
+           var panelTop =  thisPanel.position().top;
+           
+           var panelBannerSize = panelBanner.outerHeight();
+           var panelBannerWidth = panelBanner.innerWidth();
+           var panelBannerLeft = thisPanel.position().left;
+           var triggerThreshold = panelTop - headerSize + panelBannerSize;
+           
+           if (scrollTop > panelTop - headerSize + panelBannerSize) {
+                // enable and position
+               var panelLockedHeader = $(this).find(".panelLockedHeader");
+               panelLockedHeader.css("display", "block");
+               panelLockedHeader.css("top",  0 + headerSize + 'px');
+               //panelLockedHeader.css("width", (0 + panelBannerWidth - 30) + 'px');
+               //panelLockedHeader.css("left", (0 + panelBannerLeft + 6) + 'px');
+           } else {
+               $(this).find(".panelLockedHeader").css("display", "none"); 
+           }
+        });        
+} 
+ 
+$.fn.pageScrollHandler = function() {
+    return this.scroll(function() {
+        pageScroll();
+    });
+}
+
+
+
 
 $.fn.panelButtonClick = function() {
 	/**panelButtonClick plugin to control the click effect in the dropdownButton selectVersion
@@ -841,10 +884,9 @@ $(document).ready(function() {
 	$("#mssArea").notesPanel();
 	$("#mssArea").critPanel();
 	$("#mssArea").linenumber();
-	$("mssArea").ftPanel();
-	$("mssArea").eePanel();
-	$("mssArea").aePanel();
-
+	$("#mssArea").ftPanel();
+	$("#mssArea").eePanel();
+	$("#mssArea").aePanel();
 	
 	//after the visibility of all necessary panels is changed the workspace/mssArea has to be resized to fit panels
 	$("#mssArea").mssAreaResize();
@@ -892,11 +934,13 @@ $(document).ready(function() {
 	/**add draggable and resizeable to all panels (img + mss)*/
 	$( ".panel" ).draggable({
 		containment: "parent",
+    	drag: function( event, ui ) { pageScroll(); },
 		zIndex: 6, 
 		cancel: ".textcontent, .zoom-range, .bibContent, .noteContent, .critContent"
-	}).resizable(
-	{helper: "ui-resizable-helper"}
-	);
+	}).resizable({
+	   helper: "ui-resizable-helper",
+	   resize: function( event, ui ) { pageScroll(); }
+	});
 		
 	/**add functionality to image panels*/
 	$(".imgPanel").zoomPan();
@@ -904,6 +948,13 @@ $(document).ready(function() {
 	$(".imgPanel").imgPanelMousedown();
 	$(".imgLink").imgLinkClick();
 	$(".imgLink").imgLinkHover();
+	
+	/* add scroll event listener to page */
+	console.log("adding page scroll");
+	$(window).pageScrollHandler();
+	
+	/* update top margin of drag workspace to match actual size of header */
+	$("div#mssArea").css("margin-top", $("#mainBanner").outerHeight() + 'px');
 	
 });
 
