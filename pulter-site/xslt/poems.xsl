@@ -3204,17 +3204,28 @@
                   <p>© 2018, Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
                   <p>Crafted by the <a class="bt" href="//madstudio.northwestern.edu" target="_blank">Media and Design Studio</a>.</p>
                 </div><nav class="right">
-                <h6>How to cite</h6>
                 <h6>
-                  <a href="//pulterproject.northwestern.edu/about-the-project.html">About the project</a>
+                  <a href="/how-to-cite-the-pulter-project.html">How to cite</a>
                 </h6>
-                <h6>Editorial Guidelines</h6>
-                <h6>Get in touch</h6>
-                <h6>Downloads</h6>
-                <h6><a href="#" onclick="PP.resetState(); return false;">Reset App State</a></h6>
+                <h6>
+                  <a href="/about-the-project.html">About the project</a>
+                </h6>
+                <h6>
+                  <a href="/about-project-conventions.html">Editorial conventions</a>
+                </h6>
+                <h6>
+                  <a href="/about-hester-pulter-and-the-manuscript.html">Who is Hester Pulter</a>
+                </h6>
+                <h6>
+                  <a href="/scholarship.html">Scholarship</a>
+                </h6>
+                <h6>
+                  <a href="mailto:pulterproject@madstudio.northwestern.edu" target="_blank">Get in touch</a>
+                </h6>
               </nav>
               </div>
             </div>
+            <a class="app-reset" onclick="PP.resetState(); return false;"></a>
           </footer>
         </div>
         <div id="pp-home-image-collection">

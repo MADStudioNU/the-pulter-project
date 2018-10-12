@@ -6,6 +6,7 @@ $mobileLeftEdgeOffset: 2.25em;
   background: #020202;
   border-top: 1px solid rgba(#fff, .11);
   margin-top: 1.5em;
+  position: relative;
 
   a {
     color: #bbb;
@@ -61,7 +62,7 @@ $mobileLeftEdgeOffset: 2.25em;
     }
 
     .logo-box {
-      margin-bottom: 1.33em;
+      margin-bottom: 1.25em;
 
       .logo, h5 {
         display: inline-block;
@@ -71,7 +72,7 @@ $mobileLeftEdgeOffset: 2.25em;
       .logo {
         max-height: 1.15em;
         border: 1px solid rgba($pp_shinyGold, .33);
-        margin-right: .75em;
+        margin-right: .66em;
         border-radius: 1px;
       }
 
@@ -80,7 +81,7 @@ $mobileLeftEdgeOffset: 2.25em;
         text-transform: uppercase;
         font-size: 1.1em;
         color: #e5e5e5;
-        line-height: 1.25;
+        line-height: 1.1;
 
         .small-cap {
           font-size: .9em;
@@ -99,7 +100,7 @@ $mobileLeftEdgeOffset: 2.25em;
       @include breakpoint(mobile) {
         margin-top: 2.25em;
         border-top: 1px solid rgba(255, 255, 255, .2);
-        padding-TOP: 2.25em;
+        padding-top: 2.25em;
       }
 
       h6 {
@@ -108,7 +109,7 @@ $mobileLeftEdgeOffset: 2.25em;
         padding-right: 10%;
         display: inline-block;
         vertical-align: top;
-        line-height: 2;
+        line-height: 2.2;
         color: #bbb;
         font-weight: bold;
 
@@ -118,6 +119,17 @@ $mobileLeftEdgeOffset: 2.25em;
         }
       }
     }
+  }
+
+  .app-reset {
+    background: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1.5em;
+    height: 1.5em;
+    overflow: hidden;
+    cursor: default;
   }
 }
 
