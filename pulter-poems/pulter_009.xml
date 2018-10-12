@@ -151,9 +151,8 @@
         <body>
             <app>
                 <rdg wit="#ft"><pb ed="#ft" facs="#f7610_035" n="16r"/></rdg>
-                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_035"/></rdg>
-                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_035"/></rdg>
-            </app>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_035" n="16r"/></rdg>
+             </app>
 
             <head>
                 <app type="title">
@@ -191,9 +190,23 @@
                     <rdg wit="#ae"><note type="editorialnote"></note></rdg>
                 </app>
             </head>
-          <app>
+            <!-- empty annotationBlock added for purposes of schema validation -->
+            <annotationBlock></annotationBlock>
+          <app>            
+            <rdg wit="#ft">
+                <lg>
+                    <l n="1"><seg>Like<note type="physical">in left margin, beside first line: “Vid Postca pag. 29”; to right, in lighter ink, a manicule; to right of manicule, an asterisk; to right of asterisk, “>”: marginal note signals scribe’s instructions to insert these lines in next poem, “Upon the Death of my deare and lovly Daughter J. P.” Although these lines are transcribed here as a separate poem, we see them, in accordance with this marginal note, as part of the next poem.</note></seg> Lilly leaves Sprinkled <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Damaſk Roſe</l>
+                    <l n="2">Or as A Stately Hert to Death purſue’d</l>                       
+                    <l n="3">By Ravening Hounds <seg>his<note type="physical">“is” appears written over “er”</note></seg> eyes <w lemma="with"><abbr>w<hi rend="superscript">th</hi></abbr></w> tears bedewed</l>
+                    <l n="4">An Arrow Sticking in <seg>his<note type="physical">“is” appears written over “er”</note></seg> trembling breast</l>                       
+                    <l n="5"><seg>Her<note type="physical">“r” may be written over as “s”</note></seg> lost condition to the life exprest</l>
+                    <l n="6">Soe trips <seg><w lemma="he"><del type="strikethrough">S</del>hee</w><note type="physical">“S” imperfectly erased</note></seg> <w lemma="or">or’e</w> the Lawns on trodden Snow</l>                    
+                    <l n="7">And from <seg>his<note type="physical">“is” appears written over “er”</note></seg> Side <seg>his<note type="physical">“is” appears written over “er”</note></seg> guiltles blood doth flow</l>
+                    <l n="8">Soe did the Spots upon <seg><w lemma="her"><del type="strikethrough">his</del><add place="below">\</add><add place="above">her \</add></w><note type="physical">“his” struck through twice, horizontally; “her” in different hand from main scribe</note></seg> faire Skin Shew</l>                              <l n="9">Like drops of blood upon unſulled Snow</l>                                       
+                </lg>
+            </rdg>
             <rdg wit="#ee">
-              <p>Although presented as an independent poem in Alice Eardley’s edition, we do not consider the lines beginning (in our transcription of Poem 9) with</p> <l>Like Lilly leaves Sprinkled w:th Damaſk Roſe</l> <p>to be a separate poem. Instead, we read the notes in the left margin of the manuscript page next to these lines as indicators that these lines form an insertion in the next poem, <ref target="../upon-the-death-of-my-dear-and-lovely-daughter/" type="pp-poem-ref" corresp="10">Upon the Death of my deare and lovly Daughter J. P.</ref> Marginal notes in both poems indicate where these lines should be inserted. We have therefore added them at that point in the next poem in this edition.</p>
+                <p>Although presented as an independent poem in Alice Eardley’s edition, we do not consider the lines beginning (in our transcription of Poem 9) with</p> <l>Like Lilly leaves Sprinkled <abbr>w:<hi rend="superscript">th</hi></abbr> Damaſk Roſe</l> <p>to be a separate poem. Instead, we read the notes in the left margin of the manuscript page next to these lines as indicators that these lines form an insertion in the next poem, <ref target="../upon-the-death-of-my-dear-and-lovely-daughter/" type="pp-poem-ref" corresp="10">Upon the Death of my deare and lovly Daughter J. P.</ref> Marginal notes in both poems indicate where these lines should be inserted. We have therefore added them at that point in the next poem in this edition.</p>
             </rdg>
           </app>
         </body>
