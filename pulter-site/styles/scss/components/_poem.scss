@@ -187,7 +187,7 @@ $globalBorderRadius: 2px;
           right: 4em * 1em / .8em;
           background: #fff;
           font-size: .8em;
-          font-weight: bold;
+          //font-weight: bold;
           padding: 1em;
           cursor: pointer;
           @include transition(color .2s);
@@ -208,12 +208,12 @@ $globalBorderRadius: 2px;
           }
 
           &::before {
-            top: -.33em;
+            top: -.5em;
             background: url('/images/triangle-up.svg') no-repeat 50% 50%;
           }
 
           &::after {
-            bottom: -.33em;
+            bottom: -.5em;
             background: url('/images/triangle-down.svg') no-repeat 50% 50%;
           }
 
@@ -232,11 +232,11 @@ $globalBorderRadius: 2px;
             color: rgba(40, 40, 40, .66);
 
             &::before {
-              top: -.66em;
+              top: -.75em;
             }
 
             &::after {
-              bottom: -.66em;
+              bottom: -.75em;
             }
 
             @include breakpoint(mobile) {
