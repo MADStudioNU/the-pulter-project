@@ -1231,6 +1231,7 @@
     <pp:poem id="36">
       <pp:title>The Circle [4]</pp:title>
       <pp:firstLine>The eternal Spirit of life and love</pp:firstLine>
+      <pp:poster/>
       <pp:keywords>
         <pp:keyword>God</pp:keyword>
         <pp:keyword>creation</pp:keyword>
