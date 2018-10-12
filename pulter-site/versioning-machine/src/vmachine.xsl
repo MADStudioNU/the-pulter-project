@@ -1731,6 +1731,17 @@
   </xsl:template>
   <!-- milestone end -->
  
+   <xsl:template match="tei:label">
+      <xsl:element name="div">
+         <xsl:attribute name="class">
+            <xsl:value-of select="concat('label ', @rend)"/>
+         </xsl:attribute>
+         <xsl:apply-templates></xsl:apply-templates>
+      </xsl:element>
+   </xsl:template>
+ 
+ 
+ 
    
    <xsl:template match="tei:table">
       <xsl:param name="witId"/>
@@ -1855,6 +1866,9 @@
       <xsl:comment>SEG found not containing note</xsl:comment>
       <xsl:apply-templates></xsl:apply-templates>
    </xsl:template>
+   
+
+   
    
  <!--Special textual renderings / Betsy Chou / June 2018-->
    
