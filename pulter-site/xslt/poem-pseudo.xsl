@@ -201,9 +201,21 @@
     <div class="mc">
       <div class="masthead">
         <div class="content">
-          <a href="/#poems">
+          <a class="to-index" href="/#poems">
             <img class="logo" src="/images/pp-logo-comp.svg"/>
           </a>
+          <div class="pp-search-box">
+            <div class="search">
+              <form id="pp-search-form">
+                <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />
+              </form>
+              <div class="results-box">
+                <ul class="results">
+                  <li class="init">No results</li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <div class="tools">
             <div class="toggles">
               <div class="page-toggle toggle cormorant-garamond">

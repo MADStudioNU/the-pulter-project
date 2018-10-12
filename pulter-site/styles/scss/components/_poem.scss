@@ -13,11 +13,8 @@ $globalBorderRadius: 2px;
 
 .pp.single-poem {
   position: relative;
-  background: #181818;
-  background-image: linear-gradient(-10deg,
-    rgba(#151515, 1) 0%,
-    rgba(#181818, 1) 100%
-  );
+  background: darken($pp_manuscriptInk, 16%);
+  background-image: linear-gradient(0deg, rgba(darken($pp_manuscriptInk, 10%), 1) 0%, rgba(darken($pp_manuscriptInk, 20%), 1) 100%);
 
   .mc {
     width: 80%;
@@ -109,7 +106,7 @@ $globalBorderRadius: 2px;
         display: block;
         content: '';
         position: fixed;
-        background: rgba(255, 255, 255, .06);
+        background: rgba(255, 255, 255, .1);
         height: $navHeight;
         width: 100%;
         left: 0;
@@ -1474,10 +1471,9 @@ $defaultStrokeWidth: 6px;
       }
 
       .by {
-        font-family: $pp_originalFont;
-        font-style: italic;
+        font-family: $pp_curatorialFont;
         font-size: ms(-3);
-        color: rgba(0, 0, 0, .5);
+        color: rgba(#282828, .66);
         margin-top: 2.25em;
       }
     }
@@ -1492,10 +1488,7 @@ $defaultStrokeWidth: 6px;
 
 // Edition-specific
 //.pp.single-poem.ee {}
-
-.pp.single-poem.ae {
-  background: darken($pp_manuscriptInk, 14%);
-}
+//.pp.single-poem.ae {}
 
 .poem-notes {
   display: none;
