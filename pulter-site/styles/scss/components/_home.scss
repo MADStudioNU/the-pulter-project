@@ -1263,7 +1263,7 @@
           }
         }
 
-        .poem-keywords {
+        .filter-tags {
           margin-top: 1.5em;
           padding-right: 3em;
 
@@ -1271,21 +1271,18 @@
             margin-top: 1.5em;
           }
 
-
-            &::before {
+          &::before {
               $s: .66em;
 
               content: '';
               width: $s;
               height: $s;
-              //margin-right: 0;
               display: inline-block;
               background: url('/images/filter-icon.svg') no-repeat;
               vertical-align: middle;
               position: absolute;
               left: -$s * 2.75;
               margin-top: .55em;
-              //bottom: 1px;
               background-size: $s;
               opacity: .66;
 

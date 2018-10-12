@@ -45,6 +45,10 @@ var PP = (function ($) {
 
             setTimeout(function () {
               enableInteractivity();
+
+              if(hash === 'explorations') {
+                $('#' + hash)[0].scrollIntoView();
+              }
             }, 400);
 
           } else {
@@ -175,6 +179,7 @@ var PP = (function ($) {
         $('.to-exploration-action').trigger('click');
         setTimeout(function () {
           enableInteractivity();
+          $('#explorations')[0].scrollIntoView();
         }, 400);
       }
 
@@ -215,7 +220,7 @@ var PP = (function ($) {
           // });
 
           // Click event handlers
-          $('.kwd').on('click', function () {
+          $('.filter-tag').on('click', function () {
             var $self = $(this);
             var keyword = $self.data('filter');
 
@@ -230,7 +235,7 @@ var PP = (function ($) {
               .text(
                 num +
                 (+num > 1 ? ' poems ' : ' poem ') +
-                ' matching ' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + ' keyword '
+                ' matching ' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + ' tag '
               );
 
             return false;

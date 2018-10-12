@@ -35,6 +35,7 @@
         <pp:keyword>planets</pp:keyword>
         <pp:keyword>eclipse</pp:keyword>
       </pp:keywords>
+
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2131,11 +2132,11 @@
                           <xsl:value-of select="concat('gi', ' ',  'not-published')"/>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:if test="./pp:keywords/pp:keyword">
-                            <xsl:for-each select="./pp:keywords/pp:keyword">
-                              <xsl:variable name="keywordValue" select="text()"/>
+                          <xsl:if test="./pp:tags/pp:tag">
+                            <xsl:for-each select="./pp:tags/pp:tag">
+                              <xsl:variable name="filterTagValue" select="text()"/>
                               <xsl:call-template name="keywordStringFormatter">
-                                <xsl:with-param name="input" select="$keywordValue"/>
+                                <xsl:with-param name="input" select="$filterTagValue"/>
                               </xsl:call-template>
                               <xsl:text> </xsl:text>
                             </xsl:for-each>
@@ -2197,13 +2198,13 @@
                         </xsl:element>
                       </xsl:if>
                       <xsl:choose>
-                        <xsl:when test="./pp:keywords/pp:keyword">
-                          <ul class="poem-keywords">
-                            <xsl:for-each select="./pp:keywords/pp:keyword[position() &lt; 30]">
+                        <xsl:when test="./pp:tags/pp:tag">
+                          <ul class="filter-tags">
+                            <xsl:for-each select="./pp:tags/pp:tag[position() &lt; 30]">
                               <xsl:variable name="keywordValue" select="text()"/>
                               <xsl:element name="li">
                                 <xsl:attribute name="class">
-                                  <xsl:value-of select="'kwd'"/>
+                                  <xsl:value-of select="'filter-tag'"/>
                                 </xsl:attribute>
                                 <xsl:attribute name="data-filter">
                                   <xsl:variable name="formattedKeyword">
@@ -2450,10 +2451,14 @@
   </xsl:template>
   <xsl:template match="pp:keywords"/>
   <xsl:template match="pp:keyword"/>
+  <xsl:template match="pp:tags"/>
+  <xsl:template match="pp:tag"/>
   <xsl:template match="pp:editions"/>
   <xsl:template match="pp:edition"/>
   <xsl:template match="pp:curations"/>
   <xsl:template match="pp:curation"/>
+  <xsl:template match="pp:explorations"/>
+  <xsl:template match="pp:exploration"/>
 
   <!-- Does this poem have "curations" attached? -->
   <xsl:template name="hasCurations">
