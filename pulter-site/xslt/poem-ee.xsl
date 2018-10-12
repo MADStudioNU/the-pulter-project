@@ -341,7 +341,7 @@
       </header>
       <div class="headnote-toggle">
         <xsl:choose>
-          <xsl:when test="//tei:head/tei:app[@type='headnote']">
+          <xsl:when test="//tei:head/tei:app[@type='headnote']/tei:rdg[@wit=concat('#', $witId)]/tei:note[@type='headnote']">
               <div class="pp-action">
                 <a href="#"><span class="label"><xsl:text> </xsl:text></span></a>
               </div>
@@ -486,48 +486,51 @@
   <!-- Headnote -->
   <xsl:template match="tei:head/tei:app[@type='headnote']">
     <xsl:param name="witId"/>
-    <div class="expand-box">
-      <div class="headnote lato">
-        <xsl:apply-templates>
-          <xsl:with-param name="witId" select="$witId"/>
-        </xsl:apply-templates>
 
-        <xsl:variable name="innerNotes" select=".//tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]]"/>
+    <xsl:if test="./tei:rdg[@wit=concat('#', $witId)]/tei:note[@type='headnote']">
+      <div class="expand-box">
+        <div class="headnote lato">
+          <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+          </xsl:apply-templates>
 
-        <xsl:if test="boolean($innerNotes)">
-          <xsl:element name="ul">
+          <xsl:variable name="innerNotes" select=".//tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]]"/>
+
+          <xsl:if test="boolean($innerNotes)">
+            <xsl:element name="ul">
+              <xsl:attribute name="class">
+                <xsl:value-of select="'block-notes'"/>
+              </xsl:attribute>
+
+              <xsl:for-each select="$innerNotes">
+                <xsl:element name="li">
+                  <xsl:attribute name="class">
+                    <xsl:value-of select="'block-note'"/>
+                  </xsl:attribute>
+                  <xsl:apply-templates select="./tei:note/node()"/>
+                </xsl:element>
+              </xsl:for-each>
+            </xsl:element>
+          </xsl:if>
+        </div>
+        <div class="poem-details-options">
+          <xsl:element name="a">
             <xsl:attribute name="class">
-              <xsl:value-of select="'block-notes'"/>
+              <xsl:value-of select="'pp-action ext to-vm'"/>
             </xsl:attribute>
-
-            <xsl:for-each select="$innerNotes">
-              <xsl:element name="li">
-                <xsl:attribute name="class">
-                  <xsl:value-of select="'block-note'"/>
-                </xsl:attribute>
-                <xsl:apply-templates select="./tei:note/node()"/>
-              </xsl:element>
-            </xsl:for-each>
+            <xsl:attribute name="href">
+              <xsl:value-of select="concat('/poems/vm/', $poemID)"/>
+            </xsl:attribute>
+            Compare Editions
           </xsl:element>
-        </xsl:if>
-      </div>
-      <div class="poem-details-options">
-        <xsl:element name="a">
-          <xsl:attribute name="class">
-            <xsl:value-of select="'pp-action ext to-vm'"/>
-          </xsl:attribute>
-          <xsl:attribute name="href">
-            <xsl:value-of select="concat('/poems/vm/', $poemID)"/>
-          </xsl:attribute>
-          Compare Editions
-        </xsl:element>
 
-        <xsl:if test="$hasCurations = 'true'">
-          <span class="by">or</span>
-          <a class="pp-action int to-ctx" href="#ctxs">See Curations</a>
-        </xsl:if>
+          <xsl:if test="$hasCurations = 'true'">
+            <span class="by">or</span>
+            <a class="pp-action int to-ctx" href="#ctxs">See Curations</a>
+          </xsl:if>
+        </div>
       </div>
-    </div>
+    </xsl:if>
 
     <a href="#0" class="poster-info-trigger sssi-regular">i</a>
   </xsl:template>
