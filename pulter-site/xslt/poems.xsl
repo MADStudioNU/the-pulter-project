@@ -35,7 +35,27 @@
         <pp:keyword>planets</pp:keyword>
         <pp:keyword>eclipse</pp:keyword>
       </pp:keywords>
-
+      <pp:tags>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>transience</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>food</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -96,6 +116,31 @@
         <pp:keyword>mourning</pp:keyword>
         <pp:keyword>praise</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>children</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -141,6 +186,32 @@
         <pp:keyword>birds</pp:keyword>
         <pp:keyword>politics</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>pastoral</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>rivers</pp:tag>
+        <pp:tag>slander</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>redemption</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -166,6 +237,19 @@
         <pp:keyword>sun</pp:keyword>
         <pp:keyword>light</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>grave</pp:tag>
+        <pp:tag>Christ</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -220,6 +304,35 @@
         <pp:keyword>complaint</pp:keyword>
         <pp:keyword>decay</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>center</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>mythology</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -254,6 +367,24 @@
         <pp:keyword>renown</pp:keyword>
         <pp:keyword>Charles I</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>Christ</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -268,6 +399,21 @@
       <pp:title>On that Unparalleled Prince Charles the First, His Horrid Murder</pp:title>
       <pp:firstLine>Those glittering globes of light which grace</pp:firstLine>
       <pp:poster/>
+      <pp:tags>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>decapitation</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>sighs</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -322,6 +468,24 @@
         <pp:keyword>sun</pp:keyword>
         <pp:keyword>light</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>elegy</pp:tag>
+        <pp:tag>daughter</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>family</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>animals</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -385,6 +549,24 @@
         <pp:keyword>song</pp:keyword>
         <pp:keyword>dialogue</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>elegy</pp:tag>
+        <pp:tag>blazon</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>daughters</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="poems-in-conversation">
           <pp:author>Frances E. Dolan</pp:author>
@@ -415,6 +597,23 @@
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
       <pp:firstLine>Why I sit sighing here, ask me no more</pp:firstLine>
       <pp:poster/>
+      <pp:keywords>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>lamentation</pp:keyword>
+        <pp:keyword>vengeance</pp:keyword>
+        <pp:keyword>England</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -424,12 +623,6 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords>
-        <pp:keyword>Charles I</pp:keyword>
-        <pp:keyword>lamentation</pp:keyword>
-        <pp:keyword>vengeance</pp:keyword>
-        <pp:keyword>England</pp:keyword>
-      </pp:keywords>
     </pp:poem>
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
@@ -469,6 +662,26 @@
         <pp:keyword>rebirth</pp:keyword>
         <pp:keyword>revolution</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>God</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>breath</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>reader</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>sighs</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="17">
       <pp:title>The Circle [1]</pp:title>
@@ -485,6 +698,22 @@
         <pp:keyword>God</pp:keyword>
         <pp:keyword>grief</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>circle</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -511,6 +740,20 @@
         <pp:keyword>earth</pp:keyword>
         <pp:keyword>heaven,</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>vanity</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>death</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -540,15 +783,6 @@
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
       <pp:firstLine>Dear God, turn not away Thy face</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
-        </pp:edition>
-      </pp:editions>
       <pp:keywords>
         <pp:keyword>prayer</pp:keyword>
         <pp:keyword>mortality</pp:keyword>
@@ -561,11 +795,21 @@
         <pp:keyword>song</pp:keyword>
         <pp:keyword>rebirth</pp:keyword>
       </pp:keywords>
-    </pp:poem>
-    <pp:poem id="21">
-      <pp:title>The Circle [2]</pp:title>
-      <pp:firstLine>Those that the hidden chemic art profess</pp:firstLine>
-      <pp:poster/>
+      <pp:tags>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>elements</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -575,6 +819,11 @@
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
       </pp:editions>
+    </pp:poem>
+    <pp:poem id="21">
+      <pp:title>The Circle [2]</pp:title>
+      <pp:firstLine>Those that the hidden chemic art profess</pp:firstLine>
+      <pp:poster/>
       <pp:keywords>
         <pp:keyword>alchemy</pp:keyword>
         <pp:keyword>vanity</pp:keyword>
@@ -586,6 +835,28 @@
         <pp:keyword>Bible</pp:keyword>
         <pp:keyword>God</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>circle</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+      </pp:tags>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="22">
       <pp:title>To Aurora [1]</pp:title>
@@ -610,6 +881,22 @@
         <pp:keyword>classical mythology</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>children</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="23">
       <pp:title>To Astraea</pp:title>
@@ -644,6 +931,26 @@
         <pp:keyword>soul</pp:keyword>
         <pp:keyword>God</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>God</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="25">
       <pp:title>The Circle [3]</pp:title>
@@ -670,6 +977,15 @@
         <pp:keyword>transience</pp:keyword>
         <pp:keyword>mortality</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>transience</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>circle</pp:tag>
+        <pp:tag>death</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="26">
       <pp:title>To Aurora [2]</pp:title>
@@ -706,6 +1022,23 @@
         <pp:keyword>song</pp:keyword>
         <pp:keyword>creation</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>song</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
@@ -729,6 +1062,22 @@
         <pp:keyword>death</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>performance</pp:tag>
+        <pp:tag>pleasure</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>age</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>friendship</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-light-of-god">
           <pp:author>Helen Smith</pp:author>
@@ -794,6 +1143,31 @@
         <pp:keyword>hope</pp:keyword>
         <pp:keyword>classical allusion</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>youth</pp:tag>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>daughter</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>vanity</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>pleasure</pp:tag>
+        <pp:tag>enemy</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>violence</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="33">
       <pp:title>The Welcome [2]</pp:title>
@@ -829,6 +1203,30 @@
         <pp:keyword>lamentation</pp:keyword>
         <pp:keyword>emblem(s)</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>labor</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>slavery</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="36">
       <pp:title>The Circle [4]</pp:title>
@@ -842,6 +1240,18 @@
         <pp:keyword>night</pp:keyword>
         <pp:keyword>goddesses</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>God</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>circle</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+      </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -886,6 +1296,23 @@
         <pp:keyword>Broadfield</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>invitation</pp:tag>
+        <pp:tag>daughter</pp:tag>
+        <pp:tag>pastoral</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>goddess</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="broadfield-hertfordshire">
           <pp:author>Victoria E. Burke</pp:author>
@@ -958,6 +1385,34 @@
         <pp:keyword>news</pp:keyword>
         <pp:keyword>Oxford</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>courtship</pp:tag>
+        <pp:tag>suicide</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>enemy</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>vanity</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="44">
       <pp:title>A Solitary Discourse</pp:title>
@@ -999,6 +1454,39 @@
         <pp:keyword>Christian god</pp:keyword>
         <pp:keyword>body</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>age</pp:tag>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>performance</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>transience</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="45">
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
@@ -1042,6 +1530,33 @@
         <pp:keyword>mourning</pp:keyword>
         <pp:keyword>nest(s)</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>labor</pp:tag>
+        <pp:tag>decapitation</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>family</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-myth-of-arachne">
           <pp:author>Victoria E. Burke</pp:author>
@@ -1094,10 +1609,30 @@
         <pp:keyword>revolution</pp:keyword>
         <pp:keyword>elements</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>elements</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="48">
       <pp:title>Immense Fount of Truth, Life, Love, Joy, Glory</pp:title>
       <pp:firstLine>Immense Fount of truth, life, love, joy, glory</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1125,7 +1660,25 @@
         <pp:keyword>faith</pp:keyword>
         <pp:keyword>revolution</pp:keyword>
       </pp:keywords>
-      <pp:poster/>
+      <pp:tags>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>sin</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="49">
       <pp:title>My Heart Why Dost Thou Throb So in My Breast?</pp:title>
@@ -1153,6 +1706,26 @@
         <pp:keyword>refinement</pp:keyword>
         <pp:keyword>calcination</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>decapitation</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>age</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>fire</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="50">
       <pp:title>My God, I Thee (and Only Thee) Adore</pp:title>
@@ -1176,6 +1749,24 @@
         <pp:keyword>earth</pp:keyword>
         <pp:keyword>love</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>transformation</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-built-body">
           <pp:author>Helen Smith</pp:author>
@@ -1219,6 +1810,22 @@
         <pp:keyword>mourning</pp:keyword>
         <pp:keyword>time</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>blazon</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>youth</pp:tag>
+        <pp:tag>age</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>daughter</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="illness-and-poetry">
           <pp:author>Frances E. Dolan</pp:author>
@@ -1260,6 +1867,19 @@
         <pp:keyword>night</pp:keyword>
         <pp:keyword>day</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>transformation</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="cosmic-pluralism-and-early-modern-poetry">
           <pp:author>Lara Dodds</pp:author>
@@ -1303,6 +1923,20 @@
         <pp:keyword>Christian god</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>transformation</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="early-modern-astronomy">
           <pp:author>Elizabeth Zeman Kolkovich</pp:author>
@@ -1354,6 +1988,26 @@
         <pp:keyword>Time</pp:keyword>
         <pp:keyword>sympathy</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>dialogue</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>invitation</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>pastoral</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>daughters</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>family</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
@@ -1379,6 +2033,19 @@
         <pp:keyword>beauty</pp:keyword>
         <pp:keyword>body</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>love</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>blazon</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>courtship</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="60">
       <pp:title>Extremely I Deplore Your Loss</pp:title>
@@ -1407,6 +2074,24 @@
         <pp:keyword>elegy</pp:keyword>
         <pp:keyword>botany</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>elegy</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>transformation</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="62">
       <pp:title>On the Fall of that Grand Rebel</pp:title>
@@ -1439,6 +2124,25 @@
         <pp:keyword>air</pp:keyword>
         <pp:keyword>transformation</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>atoms body</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>sighs</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="margaret-cavendish-dancing-atoms">
           <pp:author>Victoria E. Burke</pp:author>
@@ -1483,6 +2187,17 @@
         <pp:keyword>sorrow</pp:keyword>
         <pp:keyword>song</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>suffering</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>praise</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
@@ -1516,6 +2231,24 @@
         <pp:keyword>emblem</pp:keyword>
         <pp:keyword>animals</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>family</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="birds-without-feet">
           <pp:author>Lara Dodds</pp:author>
@@ -1571,6 +2304,17 @@
         <pp:keyword>enemies</pp:keyword>
         <pp:keyword>laughter</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>enemy</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="early-modern-tortoises">
           <pp:author>Victoria E. Burke</pp:author>
@@ -1610,6 +2354,20 @@
         <pp:keyword>emblem</pp:keyword>
         <pp:keyword>animals</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>reptiles</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>animals</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="83">
       <pp:title>The Piper of Hamelin (Emblem 17)</pp:title>
@@ -1650,6 +2408,21 @@
         <pp:keyword>duel</pp:keyword>
         <pp:keyword>poison</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>competition</pp:tag>
+        <pp:tag>court</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>poison</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>performance</pp:tag>
+        <pp:tag>courtship</pp:tag>
+        <pp:tag>transience soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="toad-and-spider">
           <pp:author>Frances E. Dolan</pp:author>
@@ -1757,6 +2530,16 @@
         <pp:keyword>animal exemplars</pp:keyword>
         <pp:keyword>antipathy</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>death</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>enemy</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>vision</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="99">
       <pp:title>Mark but those Hogs (Emblem 34)</pp:title>
@@ -1799,6 +2582,22 @@
         <pp:keyword>palingenesis</pp:keyword>
         <pp:keyword>resurrection</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>mythology</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="palingenesis">
           <pp:author>Frances E. Dolan</pp:author>
@@ -1874,6 +2673,21 @@
         <pp:keyword>remedies</pp:keyword>
         <pp:keyword>restraint</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>redemption</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>worship</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>enemy</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="115">
       <pp:title>Phalaris and the Brazen Bull (Emblem 50)</pp:title>
