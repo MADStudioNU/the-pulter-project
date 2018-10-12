@@ -165,21 +165,6 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-      <!--<meta name="DC.Title" content="The Eclipse"/>-->
-      <!--<meta name="DC.Creator" content="Esther Pulter"/>-->
-      <!--<meta name="DC.Subject" content="eclipse"/>-->
-      <!--<meta name="DC.Subject" content="resurrection"/>-->
-      <!--<meta name="DC.Subject" content="revolution"/>-->
-      <!--<meta name="DC.Subject" content="astronomy"/>-->
-      <!--<meta name="DC.Description" content="A poem by Hester Pulter (ca. 1605-1678) concerning the topics of cosmology, resurrection, mortality, and fate. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>-->
-      <!--<meta name="DC.Publisher" content="Media and Design Studio"/>-->
-      <!--<meta name="DC.Contributor" content="Leah Knight"/>-->
-      <!--<meta name="DC.Contributor" content="Wendy Wall"/>-->
-      <!--<meta name="DCTERMS.Modified" content="June 5, 2018"/>-->
-      <!--<link rel="DC.Identifier" href="http://pulterproject.northwestern.edu/poems/ee/the-eclipse"/>-->
-      <!--<meta name="DC.Language" content="en"/>-->
-
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
