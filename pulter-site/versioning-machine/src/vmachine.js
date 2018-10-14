@@ -7,7 +7,6 @@
 	* Some input comes from global variables added via the XSLT script - see settings.xsl and comments further below.
 	*
 	**/
-
 	
 function totalPanelWidth(){
 	/***function to calculate and return the total panel width of visible panels***/
