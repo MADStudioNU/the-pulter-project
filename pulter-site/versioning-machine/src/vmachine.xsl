@@ -1476,6 +1476,10 @@
                         <xsl:value-of select="@xml:id"/>
                      </xsl:for-each>
                   </xsl:if>
+                  <xsl:if test="//tei:app/tei:rdg[contains(@wit, $witId)]//tei:label[@rend='left-margin-large']">
+                     <xsl:text> </xsl:text>
+                     <xsl:text>with_large_left_marginalia</xsl:text>
+                  </xsl:if>
                </xsl:attribute>
 
                <xsl:if test="@n">
@@ -1728,6 +1732,19 @@
                </xsl:when>
                <xsl:when test="$showMilestoneAs = 'text'">
                   <xsl:text>[horizontal straight line]</xsl:text>
+               </xsl:when> 
+               <xsl:when test="$showMilestoneAs='none'">
+                  <xsl:text> </xsl:text>
+               </xsl:when>
+            </xsl:choose>
+         </xsl:if>
+         <xsl:if test="@rend = 'tilda-line'">
+            <xsl:choose>
+               <xsl:when test="$showMilestoneAs='image'">
+                  <img id="waveLine" alt="tilde-shaped line" src="{$waveLine}"/>
+               </xsl:when>
+               <xsl:when test="$showMilestoneAs = 'text'">
+                  <xsl:text>[tilde-shaped line]</xsl:text>
                </xsl:when> 
                <xsl:when test="$showMilestoneAs='none'">
                   <xsl:text> </xsl:text>

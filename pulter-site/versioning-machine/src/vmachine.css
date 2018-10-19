@@ -456,6 +456,10 @@ div.line {
   cursor: auto;
 }
 
+div.line.with_large_left_marginalia {
+  margin-left: 6em;
+}
+
 div.byline {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
@@ -797,6 +801,15 @@ div.milestone.left-gutter {
 }
 
 div.label.left-margin {
+  position: absolute;
+  display: inline-block;
+  font-style: italic;
+  font-size: .8em;
+  opacity: .5;
+  font-family: "Sssi", Garamond, serif;
+}
+
+div.label.left-margin-large {
   position: absolute;
   display: inline-block;
   font-style: italic;
