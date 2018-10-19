@@ -274,8 +274,7 @@
       <xsl:if test="//tei:l[@n]">
          <li>
             <xsl:attribute name="id">linenumberOnOff</xsl:attribute>
-            <xsl:attribute name="title">Clicking this button turns the line numbers on or
-               off.</xsl:attribute>
+            <xsl:attribute name="title">Clicking this button turns the line numbers on or off.</xsl:attribute>
             <button>
                <xsl:attribute name="class">topMenuButton</xsl:attribute>
                <xsl:text>Line numbers</xsl:text>
@@ -286,14 +285,13 @@
       
       <li>
          <xsl:attribute name="data-panelid">bibPanel</xsl:attribute>
-         <xsl:attribute name="title">Clicking this button triggers the bibliographic panel to appear
-            or disappear.</xsl:attribute>
+         <xsl:attribute name="title">Clicking this button triggers the bibliographic panel to appear or disappear.</xsl:attribute>
          <button>
             <xsl:attribute name="class">topMenuButton</xsl:attribute>
             <xsl:text>Sources</xsl:text>
          </button>
       </li>
-      
+      <!--
       <xsl:if test="//tei:body//tei:note">
          <li>
             <xsl:attribute name="data-panelid">notesPanel</xsl:attribute>
@@ -305,12 +303,13 @@
             </button>
          </li>
       </xsl:if> 
+      -->
       
       <!-- CREATE NOTES DROPDOWN IN NAVIGATION BAR | BETSY | May 2018
                                                       SAM | July 2018-->
       <xsl:if test="//tei:body//tei:note">
          <li>
-            <button id="selectNote" class="topMenuButton listText" >
+            <button id="selectNote" class="topMenuButton dropdownButton" >
                <xsl:text> Notes </xsl:text>
                <img class="noDisplay" src="/versioning-machine/vm-images/arrowup.png" alt="arrow up"/>
                <img src="/versioning-machine/vm-images/arrowdown.png" alt="arrow down"/>
@@ -318,6 +317,24 @@
             <ul>
                <xsl:attribute name="id">noteList</xsl:attribute>
                <xsl:attribute name="class">dropdown notVisible</xsl:attribute>
+               <li>
+                  <xsl:attribute name="data-panelid"> 
+                     <xsl:text>notesPanel</xsl:text>
+                  </xsl:attribute>
+                  <div>
+                     <xsl:attribute name="class">listText</xsl:attribute>
+                     <div>
+                        <a href="#" title="All Notes">
+                           <xsl:text>All Notes</xsl:text>
+                        </a>
+                     </div>
+                     <div>
+                        <button id="toggleNotes" class="toggleNotes">
+                           <xsl:text>OFF</xsl:text>
+                        </button>
+                     </div>
+                  </div>
+               </li>
                <xsl:for-each select="$witnesses">
                   <li>
                      <xsl:attribute name="data-panelid"> 
@@ -351,7 +368,7 @@
                         </div>
                         
                         <div>
-                           <button id="toggleNotes">
+                           <button id="toggleNotes" class="toggleNotes">
                               <xsl:text>OFF</xsl:text>
                            </button>
                         </div>
@@ -362,33 +379,32 @@
          </li>
       </xsl:if>
       <li>
-         <xsl:attribute name="id">previousPoem</xsl:attribute>
-         <xsl:attribute name="title">Clicking this button loads the previous poem.</xsl:attribute>
-         <button>
-            <xsl:attribute name="class">topMenuButton</xsl:attribute>
-            <xsl:attribute name="id">previousPoem</xsl:attribute>
-            <xsl:text>Previous Poem</xsl:text>
-         </button>       
-      </li>
-      <li>
-         <xsl:attribute name="id">nextPoem</xsl:attribute>
-         <xsl:attribute name="title">Clicking this button loads the next poem.</xsl:attribute>
-         <button>
-            <xsl:attribute name="class">topMenuButton</xsl:attribute>
-            <xsl:attribute name="id">nextPoem</xsl:attribute>
-            <xsl:text>Next Poem</xsl:text>
-         </button>       
-      </li>
-      <li>
          <xsl:attribute name="data-panelid">indexPopupPanel</xsl:attribute>
          <xsl:attribute name="title">Clicking this button opens the pop-up index of poems.</xsl:attribute>
          <button>
             <xsl:attribute name="class">topMenuButton</xsl:attribute>
             <xsl:attribute name="id">indexPopup</xsl:attribute>
-            <xsl:text>Index</xsl:text>
+            <xsl:text>Poem Index</xsl:text>
          </button>       
       </li>
-      
+      <li>
+         <xsl:attribute name="id">previousPoemArea</xsl:attribute>
+         <xsl:attribute name="title">Clicking this button loads the previous poem.</xsl:attribute>
+         <button>
+            <xsl:attribute name="class">topMenuButton</xsl:attribute>
+            <xsl:attribute name="id">previousPoem</xsl:attribute>
+            <xsl:text>Previous</xsl:text>
+         </button>       
+      </li>
+      <li>
+         <xsl:attribute name="id">nextPoemArea</xsl:attribute>
+         <xsl:attribute name="title">Clicking this button loads the next poem.</xsl:attribute>
+         <button>
+            <xsl:attribute name="class">topMenuButton</xsl:attribute>
+            <xsl:attribute name="id">nextPoem</xsl:attribute>
+            <xsl:text>Next</xsl:text>
+         </button>       
+      </li>   
       
       <xsl:if test="//tei:notesStmt/tei:note[@type = 'critIntro']">
          <li>

@@ -936,7 +936,21 @@ button.editorialnote:hover, button.headnote:hover {
 }
 
 #selectNote {
-  background-color: #D4AF24;
+  background-color: #484848;
+  color: white;
+  border: none;
+  height: 28px;
+}
+
+#previousPoem {
+  background-color: #484848;
+  color: white;
+  border: none;
+  height: 28px;
+}
+
+#nextPoem {
+  background-color: #484848;
   color: white;
   border: none;
   height: 28px;
