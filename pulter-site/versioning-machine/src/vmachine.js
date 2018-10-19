@@ -216,7 +216,7 @@ $.fn.previousPoem = function(){
 // todo: refactor this horror
 $.fn.nextPoem = function(){
     if (poemData === -1) {
-        console.log("no poem data");
+        // console.log("no poem data");
         $(this).fadeTo("slow", 0.10);
     } else {
 
@@ -959,7 +959,7 @@ $(document).ready(function() {
 	$(".imgLink").imgLinkHover();
 	
 	/* add scroll event listener to page */
-	console.log("adding page scroll");
+	// console.log("adding page scroll");
 	$(window).pageScrollHandler();
 	
 	/* update top margin of drag workspace to match actual size of header */
