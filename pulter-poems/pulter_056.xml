@@ -157,12 +157,6 @@
                 <rdg wit="#ae"><pb ed="#ae" facs="#f7610_157"/></rdg>
             </app>
 
-       <app>
-                <rdg type="milestone" wit="#ft">
-                   <milestone unit="poem" rend="LINE TYPE"/>
-                   </rdg>
-      </app>
-
             <head>
                 <app type="title">
                     <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">149</fw>A Dialogue between two Sisters Virgins
@@ -212,9 +206,13 @@
             </app>
             </head>
             <lg type="speech" n="Young Anne">
+                <app>
+                    <rdg wit="#ft"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
+                </app>
+                
               <l n="1">
                 <app>
-                    <rdg wit="#ft">Young Anne 	Come my deare Sister Sit with mee a while</rdg>
+                    <rdg wit="#ft">Come my deare Sister Sit with mee a while</rdg>
                     <rdg wit="#ee"><seg rend="nl it">Young Anne:</seg> Come, my dear sister, sit with me awhile</rdg>
                     <rdg wit="#ae"> Young Anne: Come, my dear sister, sit with me a while,</rdg>
                 </app>
@@ -255,9 +253,12 @@
                 </app>
             </l></lg>
             <lg type="speech" n="Elder Pen">
+                <app>
+                    <rdg wit="#ft"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
+                </app>
               <l n="7">
                 <app>
-                    <rdg wit="#ft">Elder Pen    	Aye mee my Sister Time on Restles wheels</rdg>
+                    <rdg wit="#ft">Aye mee my Sister Time on Restles wheels</rdg>
                     <rdg wit="#ee"><seg rend="nl it">Elder Pen:</seg> Ay me, my sister! Time on restless wheels</rdg>
                     <rdg wit="#ae">Elder Pen: Ay me, my sister, Time on restless wheels</rdg>
                 </app>
@@ -566,9 +567,13 @@
             </l>
             </lg>
           <lg type="speech" n="Young Anne">
+              <app>
+                  <rdg wit="#ft"><label n="3" rend="left-margin-large">Ann.</label></rdg>
+              </app>
+              
             <l n="49">
                 <app>
-                    <rdg wit="#ft">Ann. 	Stay my Dear Sister I have noe mind to die</rdg>
+                    <rdg wit="#ft">Stay my Dear Sister I have noe mind to die</rdg>
                     <rdg wit="#ee"><seg rend="nl it">Anne:</seg> Stay, my dear sister, I have no mind to die;</rdg>
                     <rdg wit="#ae">Anne: Stay, my dear sister, I have no mind to die;</rdg>
                 </app>
@@ -611,7 +616,7 @@
            </lg>
             <app>
                 <rdg type="milestone" wit="#ft">
-                    <milestone unit="poem" rend="tilde"/>
+                    <milestone unit="poem" rend="tilda-line"/>
                 </rdg>
             </app>
         </body>
