@@ -226,12 +226,11 @@
               cursor: pointer;
               height: $h;
               width: $h * $ratio;
-              border: 1px solid $pp_shinyGold;
-              border-radius: 4px;
+              border: 1px solid rgba($pp_manuscriptPaper, .5);
+              border-radius: .25em;
               overflow: hidden;
               box-shadow: 0 0 1em rgba(0, 0, 0, .66);
-              //background: url('../../../images/vid-thumb-2.jpg');
-              background: url('/images/intro-video-cover.jpg');
+              background: url('/images/intro-video-cover.jpg') no-repeat;
               background-size: cover;
 
               &::before {
@@ -243,7 +242,7 @@
               }
 
               &::after {
-                opacity: .66;
+                opacity: .75;
                 position: absolute;
                 top: 0;
                 content: '';
@@ -267,7 +266,7 @@
               }
 
               @include breakpoint(mobile) {
-                $h: 9em;
+                $h: 6em;
 
                 height: $h;
                 width: $h * $ratio;
@@ -282,7 +281,7 @@
           &.skipped { opacity: 1; }
 
           @include breakpoint(mobile) {
-            margin-top: 4.5em;
+            margin-top: 3em;
           }
 
           .actions {
@@ -300,7 +299,6 @@
               padding: 1.1em 22px 1em 25px;
               line-height: 1;
               box-shadow: 0 0 .5em rgba(0, 0, 0, .25);
-              //min-width: 7.5em;
               font-weight: bold;
               text-align: center;
               border-radius: 3px;
@@ -314,6 +312,16 @@
 
               &:not(:last-child) {
                 margin-right: 3em;
+              }
+
+              &#about-action,
+              &#discover-action {
+                min-width: 9.5em;
+
+                @include breakpoint(mobile) {
+                  min-width: auto;
+
+                }
               }
 
               &#read-action {
@@ -445,7 +453,7 @@
                 margin: 1.5em auto;
                 width: 50%;
                 font-size: ms(-1);
-                padding: 1em 1.5em;
+                padding: 1.2em 1.5em 1em 1.5em;
 
                 &:not(:last-child) {
                   margin-right: auto;
