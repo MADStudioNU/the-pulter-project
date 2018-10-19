@@ -80,7 +80,7 @@ $globalBorderRadius: 2px;
           right: 1.5em;
 
           .toggles {
-            min-width: 50%;
+            min-width: 30em;
             position: fixed;
             top: 2.2em;
             z-index: 9;
@@ -89,13 +89,13 @@ $globalBorderRadius: 2px;
           }
 
           @include breakpoint(mobile) {
-            @include vcenter;
-            right: 2em;
             @include transition(none);
 
             .toggles {
-              min-width: 0;
-              position: static;
+              right: 2em;
+              min-width: 16em;
+              width: auto;
+              top: 2em;
               @include transform(none);
             }
           }
@@ -980,7 +980,7 @@ $globalBorderRadius: 2px;
 
       @include breakpoint(mobile) {
         position: absolute;
-        bottom: -6em;
+        bottom: -5em;
         right: 0;
         margin-right: 0;
         width: auto;

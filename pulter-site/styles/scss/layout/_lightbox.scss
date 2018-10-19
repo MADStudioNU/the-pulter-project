@@ -419,6 +419,7 @@
         position: relative;
         font-size: ms(0);
         font-family: $pp_originalFont;
+        color: whitesmoke;
 
         //&::before {
         //  $s: 1em;
@@ -482,7 +483,7 @@
       iframe {
         border-radius: 0;
         display: block;
-        border: 1px solid rgba($pp_shinyGold, .25);
+        //border: 1px solid rgba($pp_shinyGold, .25);
         height: 85vh;
         width: 85vw;
       }

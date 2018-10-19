@@ -619,9 +619,6 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
       </pp:editions>
     </pp:poem>
     <pp:poem id="14">
@@ -2833,7 +2830,7 @@
                         </div>
                       </div>
                     </a>
-                    <p class="action-call">See <span class="">“Another World,”</span><br/><span class="it">The Pulter Project</span> video.</p>
+                    <!--<p class="action-call">See <span class="">“Another World,”</span><br/><span class="it">The Pulter Project</span> video.</p>-->
                   </div>
                 </div>
               </div>
@@ -3226,7 +3223,9 @@
               </nav>
               </div>
             </div>
-            <a class="app-reset" onclick="PP.resetState(); return false;"></a>
+            <a class="app-reset" onclick="PP.resetState(); return false;">
+              <xsl:text> </xsl:text>
+            </a>
           </footer>
         </div>
         <div id="pp-home-image-collection">

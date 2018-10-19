@@ -267,7 +267,9 @@
         </nav>
         </div>
       </div>
-      <a class="app-reset" onclick="PP.resetState(); return false;"></a>
+      <a class="app-reset" onclick="PP.resetState(); return false;">
+        <xsl:text> </xsl:text>
+      </a>
     </footer>
   </xsl:template>
 

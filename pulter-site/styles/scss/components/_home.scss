@@ -159,7 +159,7 @@
         }
 
         .teaser-text {
-          color: lighten($pp_manuscriptPaper, 5%);
+          color: lighten($pp_manuscriptPaper, 6%);
           font-size: 1.1em;
           margin-bottom: 7vh;
           line-height: 1.61;
@@ -216,8 +216,9 @@
             }
 
             .thumb {
-              $h: 4em;
+              $h: 3.33em;
               $ratio: 16/9;
+              $playIconSize: .85em;
 
               position: relative;
               display: inline-block;
@@ -249,8 +250,8 @@
                 display: block;
                 width: 100%;
                 height: 100%;
-                background: url('/images/triangle-down-w.svg') no-repeat 50% 50%;
-                background-size: 1em;
+                background: url('/images/triangle-down-w.svg') no-repeat 49% 50%;
+                background-size: $playIconSize;
                 @include transform(rotate(270deg));
                 @include transition(opacity .2s);
 
