@@ -2480,6 +2480,13 @@
         <pp:keyword>taverns</pp:keyword>
         <pp:keyword>roaming</pp:keyword>
       </pp:keywords>
+      <pp:tags>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>pleasure</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="90">
       <pp:title>This Flying Fish (Emblem 25)</pp:title>
