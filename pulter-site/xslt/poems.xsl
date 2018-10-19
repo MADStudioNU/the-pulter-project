@@ -1079,7 +1079,7 @@
         <pp:curation status="on" hash="the-light-of-god">
           <pp:author>Helen Smith</pp:author>
           <pp:title>The Light of God</pp:title>
-          <pp:peek>Augustine of Hippo’s A Heavenly Treasure of Confortable Meditations is a Catholic devotional text, published on the continent for illicit dissemination to English readers. The selected passage comes from Batt’s (a Jesuit priest) translation of Augustine’s Soliloquies, a text in which the Church Father enters into dialogue with his soul, in an attempt to understand it. The biblical references are to the apocryphal Book of Tobias, and to Genesis.</pp:peek>
+          <pp:peek>Augustine of Hippo’s “A Heavenly Treasure of Confortable Meditations” is a Catholic devotional text, published on the continent for illicit dissemination to English readers. The selected passage comes from Batt’s (a Jesuit priest) translation of Augustine’s Soliloquies, a text in which the Church Father enters into dialogue with his soul, in an attempt to understand it. The biblical references are to the apocryphal Book of Tobias, and to Genesis.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="a-tedious-pilgrimage">
           <pp:author>Helen Smith</pp:author>
