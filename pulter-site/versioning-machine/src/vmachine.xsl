@@ -837,8 +837,10 @@
                </xsl:for-each>
             </xsl:if>
             <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$curationsURLprefix"></xsl:value-of><xsl:value-of select="substring-after(/tei:TEI/@xml:id, 'mads.pp.')"></xsl:value-of><xsl:value-of select="$curationsURLsuffix"></xsl:value-of></xsl:attribute><h3>Curations of this Poem</h3></a>
+            <!-- Disable keywords display in version 1 - these are not yet finalized in TEI sources -->
+            <!--
             <h3>Keywords</h3>
-            <h4>
+            <p>
                <xsl:for-each select="//tei:keywords/tei:term">
                <xsl:value-of select="."/>
                   <xsl:choose>
@@ -850,7 +852,8 @@
                         </xsl:otherwise>
                   </xsl:choose>
                </xsl:for-each>
-            </h4>
+            </p>
+            -->
             <!-- disable dynamic processing of responsibility statement to favor project-wide representation, below -->
             <!--
             <xsl:if test="tei:titleStmt/tei:respStmt">
@@ -1476,6 +1479,10 @@
                         <xsl:value-of select="@xml:id"/>
                      </xsl:for-each>
                   </xsl:if>
+                  <xsl:if test="//tei:app/tei:rdg[contains(@wit, $witId)]//tei:label[@rend='left-margin-large']">
+                     <xsl:text> </xsl:text>
+                     <xsl:text>with_large_left_marginalia</xsl:text>
+                  </xsl:if>
                </xsl:attribute>
 
                <xsl:if test="@n">
@@ -1728,6 +1735,19 @@
                </xsl:when>
                <xsl:when test="$showMilestoneAs = 'text'">
                   <xsl:text>[horizontal straight line]</xsl:text>
+               </xsl:when> 
+               <xsl:when test="$showMilestoneAs='none'">
+                  <xsl:text> </xsl:text>
+               </xsl:when>
+            </xsl:choose>
+         </xsl:if>
+         <xsl:if test="@rend = 'tilda-line'">
+            <xsl:choose>
+               <xsl:when test="$showMilestoneAs='image'">
+                  <img id="waveLine" alt="tilde-shaped line" src="{$waveLine}"/>
+               </xsl:when>
+               <xsl:when test="$showMilestoneAs = 'text'">
+                  <xsl:text>[tilde-shaped line]</xsl:text>
                </xsl:when> 
                <xsl:when test="$showMilestoneAs='none'">
                   <xsl:text> </xsl:text>
