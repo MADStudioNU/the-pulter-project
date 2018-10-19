@@ -148,9 +148,9 @@
     <front>
       <div>
         <listWit>
-          <witness xml:id="ft">Transcription of manuscript: Transcribed and annotated by <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions. Last updated <date>June 21, 2018</date>.</witness>
-          <witness xml:id="ee">Elemental edition: Edited by <persName>Leah Knight</persName>. See editorial guidelines for this edition. Last updated <date>June 21, 2018</date>.</witness>
-          <witness xml:id="ae">Amplified edition: Edited by <persName>Wendy Wall</persName>. Last updated <date>June 21, 2018</date>.</witness>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See transcription conventions.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>. See editorial guidelines for this edition.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>Wendy Wall</persName>.</witness>
         </listWit>
       </div>
       </front>
@@ -545,7 +545,7 @@
               <app>
                   <rdg wit="#ft"><w lemma="for">&ff;or</w> though thou hold’st in thy curſed Jawes</rdg>
                   <rdg wit="#ee" rend="left-gutter-1">For though thou <seg>holdest<note type="critical">The object of this verb (such as “me” or “us”) is absent in the manuscript.</note></seg> in thy curséd jaws,</rdg>
-                  <rdg wit="#ae" rend="left-gutter-1">For though thou hold’st in thy cursed jaws,</rdg>
+                  <rdg wit="#ae" rend="left-gutter-1">For though thou holdest in thy curséd jaws,</rdg>
               </app>
           </l>
         <l n="45">
