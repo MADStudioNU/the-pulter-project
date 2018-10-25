@@ -2663,6 +2663,18 @@
           <pp:author>Victoria E. Burke</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="seventeenth-century-english-views-of-russians">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Seventeenth-Century English Views of Russians</pp:title>
+          <pp:peek>The rustic character featured in this emblem has a misguided view of religion in Pulter’s depiction, but is otherwise not particularly indebted to stereotypical views of Russians among English writers of the time.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-russian-rustic-and-the-hollow-tree">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>The Russian Rustic and the Hollow Tree</pp:title>
+          <pp:peek>The basic story of this emblem appears in many different sources of the period. It was attributed to a Russian ambassador to Rome named Demetrius, by way of Sebastian Münster, whose</pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>prison</pp:keyword>
         <pp:keyword>liberation</pp:keyword>
