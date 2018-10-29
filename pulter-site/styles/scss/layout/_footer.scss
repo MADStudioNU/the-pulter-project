@@ -9,11 +9,11 @@ $mobileLeftEdgeOffset: 2.25em;
   position: relative;
 
   a {
-    color: #bbb;
+    color: #ccc;
     @include transition(color .2s);
 
     &:hover {
-      color: #eee;
+      color: #fff;
     }
   }
 
@@ -42,7 +42,9 @@ $mobileLeftEdgeOffset: 2.25em;
     }
 
     .left {
-      width: 55%;
+      width: 50%;
+      //background: #2C83E9;
+      padding-right: 5%;
     }
 
     .right {
@@ -93,7 +95,11 @@ $mobileLeftEdgeOffset: 2.25em;
       font-size: ms(-2);
       color: #aaa;
       margin: 0;
-      line-height: 1.8;
+      line-height: 1.61;
+
+      &:not(:last-of-type) {
+        margin-bottom: .5em;
+      }
     }
 
     nav {
@@ -109,7 +115,7 @@ $mobileLeftEdgeOffset: 2.25em;
         padding-right: 10%;
         display: inline-block;
         vertical-align: top;
-        line-height: 2.2;
+        line-height: 2.25;
         color: #bbb;
         font-weight: bold;
 

@@ -3219,8 +3219,8 @@
                       <h5>T<span class="small-cap">he</span> P<span class="small-cap">ulter</span> P<span class="small-cap">roject</span></h5>
                     </a>
                   </div>
-                  <p>© 2018, Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
-                  <p>Crafted by the <a class="bt" href="//madstudio.northwestern.edu" target="_blank">Media and Design Studio</a>.</p>
+                  <p>Copyright © 2018 Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
+                  <p>Except where otherwise noted, this site is licensed under<br/>a Creative Commons CC BY-NC-SA 4.0 License.</p>
                 </div><nav class="right">
                 <h6>
                   <a href="/how-to-cite-the-pulter-project.html">How to cite</a>
@@ -3232,7 +3232,7 @@
                   <a href="/about-project-conventions.html">Editorial conventions</a>
                 </h6>
                 <h6>
-                  <a href="/about-hester-pulter-and-the-manuscript.html">Who is Hester Pulter</a>
+                  <a href="/about-hester-pulter-and-the-manuscript.html">Who is Hester Pulter?</a>
                 </h6>
                 <h6>
                   <a href="/scholarship.html">Scholarship</a>
