@@ -166,6 +166,7 @@
     <pp:poem id="4">
       <pp:title>The Complaint of Thames, 1647</pp:title>
       <pp:firstLine>Late in an evening as I walked alone</pp:firstLine>
+      <pp:poster/>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
