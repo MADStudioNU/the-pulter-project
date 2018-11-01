@@ -2027,6 +2027,22 @@
           <pp:author>Frances E. Dolan</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="whos-fair-race-and-praise-of-the-beloved">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Who’s Fair? Race and Praise of the Beloved</pp:title>
+          <pp:peek>
+            These two poems draw our attention to the racialized implications of Pulter’s key word in Poem 59: “fair.” In the “Song of Songs” from the Old Testament, one of the oldest and most influential blazons of a beloved’s attributes, the word “fair” seems to mean simply “beautiful.”
+          </pp:peek>
+      </pp:curation>
+        <pp:curation status="on" hash="triangulation-and-the-second-person">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Triangulation and the Second Person</pp:title>
+          <pp:peek>
+            Nancy Vickers argues that in some blazons, such as Shakespeare’s anti-blazon “My mistress’s eyes are nothing like the sun,” the speaker “by introducing the concept of merchandising into the economy of description, … transforms the direct line one would expect to unite lover and beloved into a triangle.
+          </pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>love</pp:keyword>
         <pp:keyword>beauty</pp:keyword>
