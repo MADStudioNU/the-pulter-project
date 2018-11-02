@@ -805,20 +805,19 @@
             </xsl:if>
             <xsl:if test="tei:sourceDesc">
                <h3>Original Source</h3>
-               <h4>Hester Pulter, <em>Poems breathed forth by the nobel Hadassas</em>, University of Leeds
-                  Library, Brotherton Collection, MS Lt q 32</h4>
+               <h4>Hester Pulter, <em>Poems breathed forth by the nobel Hadassas</em>, University of Leeds Library, Brotherton Collection, MS Lt q 32</h4>
             </xsl:if>
             <h3>Versions</h3>
             <ul>
-               <li><p>Facsimile of manuscript: Photographs provided by University of Leeds,
-                  Brotherton Collection</p></li>
+               <li><p>Facsimile of manuscript: Photographs provided by University of Leeds, Brotherton Collection</p></li>
                <xsl:for-each select="$witnesses">
                   <li>
                      <xsl:value-of select="."/>
                   </li>
                </xsl:for-each>
             </ul>
-            <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$howToCiteTheseVersionsURL"></xsl:value-of></xsl:attribute><h4>How to cite these versions</h4></a>
+            <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$howToCiteTheseVersionsURL"/></xsl:attribute><h4>How to cite these versions</h4></a>
+           <a target="_new"><xsl:attribute name="href"><xsl:value-of select="$projectConventionsHref"/></xsl:attribute><h4>Conventions for these editions</h4></a>
             <xsl:if test="tei:notesStmt/tei:note[@anchored = 'true' and not(@type = 'image')]">
                <h4>Notes</h4>
                <xsl:for-each
