@@ -2896,7 +2896,7 @@
                     <a href="#">Discoveries</a>
                     <ul class="drop-list">
                       <li>
-                        <img src="/images/compare-icon.svg" />
+                        <img src="/images/compare-icon.svg"/>
                         <a href="/poems/vm" target="_blank">Compare Editions</a>
                       </li>
                       <li id="explorations-action">

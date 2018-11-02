@@ -191,7 +191,7 @@
            <h5 class="title">T<span class="small-cap">he</span> P<span class="small-cap">ulter</span> P<span class="small-cap">roject</span></h5>
            <span class="subtitle">Poet in the Making</span>
          </a>
-        <span class="label">Compare Editions</span>
+        <div class="label"><span class="vm-logo"><img src="/images/compare-icon.svg"/></span><span class="t">Comparison Tool</span></div>
       </div>
    </xsl:template>
 
