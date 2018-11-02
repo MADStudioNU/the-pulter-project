@@ -1583,6 +1583,7 @@
     <pp:poem id="47">
       <pp:title>Why Art Thou Sad at the Approach of Night</pp:title>
       <pp:firstLine>Why Art Thou Sad at the Approach of Night</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
