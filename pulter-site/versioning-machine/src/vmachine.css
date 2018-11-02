@@ -109,12 +109,13 @@ div#mainBanner div#brandingLogo {
 
 div#mainBanner div#brandingLogo a {
   margin-left: 1em;
+  display: inline-block;
 }
 
 div#mainBanner div#brandingLogo a img {
   display: inline-block;
-  height: 1.5em;
-  width: 1.5em;
+  height: 1.2em;
+  width: auto;
   margin-right: .66em;
   vertical-align: middle;
   border: 1px solid rgba(255, 255, 255, .1);
@@ -127,7 +128,7 @@ div#mainBanner div#brandingLogo .title {
   font-family: Sssi, Garamond, serif;
   display: inline-block;
   color: #eee;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 div#mainBanner div#brandingLogo .subtitle {
@@ -168,8 +169,8 @@ div#mainBanner div#brandingLogo .label .vm-logo {
   background: rgba(210,207,191,.2);
   border: 1px solid rgba(240,223,206,.75);
   border-radius: 4px;
-  width: 1.25em;
-  height: 1.25em;
+  width: 1.2em;
+  height: 1.2em;
   position: relative;
 }
 
