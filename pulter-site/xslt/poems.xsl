@@ -260,6 +260,22 @@
           <pp:author>Tara L. Lyons</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="burial-rites">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>Burial Rites</pp:title>
+          <pp:peek>
+            Pulter’s hopeful anticipation of the second coming, when Christ will defeat death and sin, recalls the words spoken at English burial services in the first half of the seventeenth century.
+          </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="doomsday">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>Doomsday</pp:title>
+          <pp:peek>
+            The dawn of the day of resurrection is a time for exultation in Pulter’s “Of Night and Morning”. Her choice then to focus on the joy of rising to a new eternal life, rather than the anxiety of final judgement or the dread of doomsday, aligns with her speaker’s assumption that she will be among the chosen.
+          </pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="6">
       <pp:title>Universal Dissolution</pp:title>
@@ -721,6 +737,27 @@
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="dust">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Dust</pp:title>
+          <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made (and will return), from which John Milton drew in _Paradise Lost_, to the alchemical notions of dust as purified matter, yet purity which is easily mistaken for the ashes or dregs of the transformation.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="matter-and-creation">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Matter and Creation</pp:title>
+          <pp:peek>
+            When Pulter addresses God saying “Of nothing Thou didst me create,” she is endorsing God’s power in the face of major philosophical controversy in the seventeenth century.
+          </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="sighs-and-tears">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Sighs and Tears</pp:title>
+          <pp:peek>
+            In her opening line, Pulter claims “In sighs and tears there is no end,” and these become clouds and winds. Petrarch’s influential meteorological images of the emotions had already found elegant expression in many English versions and translations
+          </pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="18">
       <pp:title>The Desire</pp:title>
@@ -855,6 +892,33 @@
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="alchemy-and-devotion">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Alchemy and Devotion</pp:title>
+          <pp:peek>While alchemy and Christianity might seem to us to be incompatible frameworks of belief, the early modern period saw much writing in the area of spiritual alchemy, in which the physical processes of alchemy became metaphors for the purification of the soul. Pulter’s poetry shows her interest in this amalgamation, while also retaining a clear interest in the distinctive terms, materials, processes and value systems in each set of beliefs.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="circles-and-labyrinths">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Circles and Labyrinths</pp:title>
+          <pp:peek>Mary Wroth’s “A Crown of Sonnets Dedicated to Love” is a corona of sonnets, each starting with the last line of the previous poem. As well as being formally circular, it is also about the cyclical, entrapping experience of love, and features a famous image of a labyrinth, used originally by Petrarch.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="circles-in-alchemy">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Circles in Alchemy</pp:title>
+          <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="devotional-circles">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Devotional Circles</pp:title>
+          <pp:peek>George Herbert’s “A Wreath,” Henry Vaughan’s “The World” and Andrew Marvell’s “The Coronet” reveal some of the devotional symbolism of circles for Pulter’s predecessors and peers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="donnes-circles">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Donne’s Circles</pp:title>
+          <pp:peek>John Donne often used images of circles and circularity, for both erotic and devotional poems. In “A Valediction Forbidding Mourning,” the compasses represent the movement of lovers, while in the two sermons excerpted below circles represent the cycle of life.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="22">
       <pp:title>To Aurora [1]</pp:title>
@@ -1225,6 +1289,28 @@
         <pp:tag>sorrow</pp:tag>
         <pp:tag>slavery</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="a-female-slave">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>A Female Slave</pp:title>
+          <pp:peek>Note the similarity between Ligon’s descriptions of the slaves’ bodies and Moffett’s detailed description of pismire anatomy.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="mother-earth">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Mother Earth</pp:title>
+          <pp:peek>This passage, presented here in two Renaissance translations, describes what happens after the Deucalion flood.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pismires">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Pismires</pp:title>
+          <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffatt’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="what-is-a-dunghill">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>What is a dunghill?</pp:title>
+          <pp:peek>This favorite Pulter image seems at first straightforward. A dunghill is a pile of shit or as the _OED_ puts it, “a heap or hillock of dung or refuse.”</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="36">
       <pp:title>The Circle [4]</pp:title>
@@ -2035,13 +2121,28 @@
           <pp:peek>
             These two poems draw our attention to the racialized implications of Pulter’s key word in Poem 59: “fair.” In the “Song of Songs” from the Old Testament, one of the oldest and most influential blazons of a beloved’s attributes, the word “fair” seems to mean simply “beautiful.”
           </pp:peek>
-      </pp:curation>
+        </pp:curation>
         <pp:curation status="on" hash="triangulation-and-the-second-person">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Triangulation and the Second Person</pp:title>
           <pp:peek>
             Nancy Vickers argues that in some blazons, such as Shakespeare’s anti-blazon “My mistress’s eyes are nothing like the sun,” the speaker “by introducing the concept of merchandising into the economy of description, … transforms the direct line one would expect to unite lover and beloved into a triangle.
           </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="flora">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Flora</pp:title>
+          <pp:peek>This frontispiece, and a poem explaining it (“the mind of the front”), provides a vivid image of one of Pulter’s favorite figures, Flora, the Roman goddess of flowers and spring.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="dolphins-as-friend-to-man-or-philanthropos">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Dolphins as Friends to Man or “Philanthropos”</pp:title>
+          <pp:peek>Pulter’s reference to the dolphin as “philanthropos” participates in a long tradition of depicting the dolphin, in visual art, natural history, mythology, and literature, as particularly devoted to humans, especially young men, carrying, rescuing, and assisting them.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="amphitrite-and-the-dolphin">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Amphitrite and the Dolphin</pp:title>
+          <pp:peek>In various accounts of Neptune’s marriage to Amphitrite, a dolphin plays a crucial role: it might seize and transport her against her will, but it might also persuade her to marry—playing the role of the “wing man” or go-between Pulter’s speaker takes up in “My Love Is Fair.”</pp:peek>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
