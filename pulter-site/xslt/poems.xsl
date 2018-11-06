@@ -275,6 +275,27 @@
             The dawn of the day of resurrection is a time for exultation in Pulter’s “Of Night and Morning”. Her choice then to focus on the joy of rising to a new eternal life, rather than the anxiety of final judgement or the dread of doomsday, aligns with her speaker’s assumption that she will be among the chosen.
           </pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="daily-dying-and-rising">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>Daily Dying and Rising</pp:title>
+          <pp:peek>
+            Pulter engages in a conventional meditation on death and resurrection in “Of Night and Morning”. Such meditations were designed to remind Christians of the inevitability of death as well as the promise of everlasting life if they were among the chosen.
+          </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="night-in-ink">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>“Night” in Ink</pp:title>
+          <pp:peek>
+            On this folio page in Pulter’s manuscript (fol. 15), the scribe finishes copying Poem 4 and then records the whole of Poem 5 on the bottom third of the page. As can be seen below, the letter “N” in “Night”, both in the title and in the first and fifth lines, are visually highlighted by the scribe’s stylized loops and curls.
+          </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-body-resurrected">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>The Body Resurrected</pp:title>
+          <pp:peek>
+            The poet Robert Aylett articulates the belief that only the bodies of the dead (not their souls) reside in the grave. In the passage below, Aylett describes the processes that purify the body before reconstitution at the resurrection.
+          </pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="6">
@@ -3465,11 +3486,11 @@
                 <xsl:value-of select="normalize-space(./pp:peek)"/>
               </xsl:variable>
               <xsl:variable name="peekLimit">
-                <xsl:value-of select="120" />
+                <xsl:value-of select="150" />
               </xsl:variable>
               <xsl:choose>
                 <xsl:when test="string-length($peekText) > $peekLimit">
-                  <xsl:value-of select="concat(substring($peekText, 1, $peekLimit), '...')"/>
+                  <xsl:value-of select="concat(substring($peekText, 1, $peekLimit), '…')"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="$peekText"/>
