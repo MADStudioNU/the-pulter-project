@@ -18,7 +18,7 @@ $globalBorderRadius: 2px;
 
   .mc {
     width: 80%;
-    max-width: 70em;
+    max-width: $maxContentWidth;
     margin: 0 auto;
     padding-bottom: 3em;
 
