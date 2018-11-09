@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" exclude-result-prefixes="tei"
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns="http://www.w3.org/1999/xhtml">
-   
+
    <xsl:output method="html" doctype-system="about:legacy-compat"/>
 
    <!-- <xsl:strip-space elements="*" /> -->
@@ -28,7 +28,7 @@
          <xsl:with-param name="length" select="40"/>
       </xsl:call-template>
    </xsl:variable>
-   
+
    <xsl:variable name="fullSubTitle">
       <xsl:choose>
          <xsl:when test="//tei:titleStmt/tei:title[@type='sub'] != ''">
@@ -39,7 +39,7 @@
          </xsl:otherwise>
       </xsl:choose>
    </xsl:variable>
-   
+
    <!-- CREATE VARIABLE FOR WITNESSES/VERSIONS -->
    <xsl:variable name="witnesses" select="//tei:witness[@xml:id]"/>
    <xsl:variable name="numWitnesses" select="count($witnesses)"/>
@@ -72,23 +72,23 @@
             <xsl:value-of select="$truncatedTitle"></xsl:value-of>
             <xsl:text> - The Pulter Project</xsl:text>
          </title>
-         
+
          <!-- PULTER-PROJECT-SPECIFIC METADATA -->
          <meta name="description" contnet="Digital edition of poems authored by Hester Pulter with ability to compare multiple editions" />
          <meta name="robots" content="noodp,noydir" />
          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />          
+         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
          <meta property="og:title" content="The Pulter Project • Poet in The Making" />
-         <meta property="og:image" content="/images/pp-og-img.jpg" />             
-            
+         <meta property="og:image" content="/images/pp-og-img.jpg" />
+
          <!-- ADD GOOGLE ANALYTICS -->
          <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
          <script async="true" src="//www.googletagmanager.com/gtag/js?id=UA-122500056-2"></script>
          <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
-         
-         <!-- ADD GOOGLE FONTS --> 
+
+         <!-- ADD GOOGLE FONTS -->
          <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css"/>
          <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600" rel="stylesheet" type="text/css"/>
          <!-- JQuery and JQuery UI libraries references -->
@@ -147,12 +147,12 @@
 
    <!-- JAVASCRIPT GLOBAL VARIABLES -->
    <xsl:template name="jsGlobalSettings">
-      <!-- INITIAL SETUP: panel display, line numbers, etc. --> /*NOTES PANEL: To change the VM so 
+      <!-- INITIAL SETUP: panel display, line numbers, etc. --> /*NOTES PANEL: To change the VM so
       that the notes panel page does not appear at the initial load, change the constant
       INITIAL_DISPLAY_NOTES_PANEL from "true" to "false" below */ INITIAL_DISPLAY_NOTES_PANEL =
       <xsl:value-of select="$displayNotes"/>; /*BIB PANEL: To change the VM so that the
       bibliographic information page does not appear at the initial load, change the constant
-      INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_BIB_PANEL = 
+      INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_BIB_PANEL =
       <xsl:value-of select="$displayBibInfo"/>; /**The number of version/witness panels to be
       displayed initially */ INITIAL_DISPLAY_NUM_VERSIONS = <xsl:value-of select="$displayVersions"
       />;  /*TRANSCRIPTION PANEL The number of version/witness panels to be
@@ -195,7 +195,7 @@
       </div>
    </xsl:template>
 
-   
+
    <xsl:template name="headline">
       <div id="headline">
         <xsl:call-template name="brandingLogo"/>
@@ -253,7 +253,7 @@
                               </xsl:when>
                               <xsl:when test="@xml:id='a2'">
                                  <xsl:text>Amplified Edition, 2nd</xsl:text>
-                              </xsl:when>  
+                              </xsl:when>
                            </xsl:choose>
                         </a>
                      </div>
@@ -273,6 +273,87 @@
 
 
    <xsl:template name="topMenu">
+     <xsl:if test="//tei:body//tei:note">
+        <li>
+           <button id="selectNote" class="topMenuButton dropdownButton" >
+              <xsl:text> Notes </xsl:text>
+              <img class="noDisplay" src="/versioning-machine/vm-images/arrowup.png" alt="arrow up"/>
+              <img src="/versioning-machine/vm-images/arrowdown.png" alt="arrow down"/>
+           </button>
+           <ul>
+              <xsl:attribute name="id">noteList</xsl:attribute>
+              <xsl:attribute name="class">dropdown notVisible</xsl:attribute>
+              <li>
+                 <xsl:attribute name="data-panelid">
+                    <xsl:text>notesPanel</xsl:text>
+                 </xsl:attribute>
+                 <div>
+                    <xsl:attribute name="class">listText</xsl:attribute>
+                    <div>
+                       <a href="#" title="All Notes">
+                          <xsl:text>All Notes</xsl:text>
+                       </a>
+                    </div>
+                    <div>
+                       <button id="toggleNotes" class="toggleNotes">
+                          <xsl:text>OFF</xsl:text>
+                       </button>
+                    </div>
+                 </div>
+              </li>
+              <xsl:for-each select="$witnesses">
+                 <li>
+                    <xsl:attribute name="data-panelid">
+                       <xsl:text>note-</xsl:text>
+                       <xsl:value-of select="@xml:id"/>
+                    </xsl:attribute>
+                    <div>
+                       <xsl:attribute name="class">listText</xsl:attribute>
+                       <div>
+                          <xsl:variable name="witTitle">
+                             <xsl:value-of select="@xml:id"/>
+                             <xsl:text>: </xsl:text>
+                             <xsl:value-of select="."/>
+                          </xsl:variable>
+                          <a href="#" title="{$witTitle}">
+                             <xsl:choose>
+                                <xsl:when test="@xml:id='ft'">
+                                   <xsl:text>Transcription Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='ee'">
+                                   <xsl:text>Elemental Edition Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='ae'">
+                                   <xsl:text>Amplified Edition Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='a2'">
+                                   <xsl:text>Amplified Edition, 2nd, Notes</xsl:text>
+                                </xsl:when>
+                             </xsl:choose>
+                          </a>
+                       </div>
+
+                       <div>
+                          <button id="toggleNotes" class="toggleNotes">
+                             <xsl:text>OFF</xsl:text>
+                          </button>
+                       </div>
+                    </div>
+                 </li>
+              </xsl:for-each>
+           </ul>
+        </li>
+     </xsl:if>
+     <!-- Sources Panel -->
+     <li>
+        <xsl:attribute name="data-panelid">bibPanel</xsl:attribute>
+        <xsl:attribute name="title">Clicking this button triggers the bibliographic panel to appear or disappear.</xsl:attribute>
+        <button>
+           <xsl:attribute name="class">topMenuButton</xsl:attribute>
+           <xsl:text>Sources</xsl:text>
+        </button>
+     </li>
+
       <xsl:if test="//tei:l[@n]">
          <li>
             <xsl:attribute name="id">linenumberOnOff</xsl:attribute>
@@ -284,15 +365,6 @@
 
          </li>
       </xsl:if>
-      
-      <li>
-         <xsl:attribute name="data-panelid">bibPanel</xsl:attribute>
-         <xsl:attribute name="title">Clicking this button triggers the bibliographic panel to appear or disappear.</xsl:attribute>
-         <button>
-            <xsl:attribute name="class">topMenuButton</xsl:attribute>
-            <xsl:text>Sources</xsl:text>
-         </button>
-      </li>
       <!--
       <xsl:if test="//tei:body//tei:note">
          <li>
@@ -304,82 +376,12 @@
                <xsl:text>All Notes</xsl:text>
             </button>
          </li>
-      </xsl:if> 
+      </xsl:if>
       -->
-      
+
       <!-- CREATE NOTES DROPDOWN IN NAVIGATION BAR | BETSY | May 2018
                                                       SAM | July 2018-->
-      <xsl:if test="//tei:body//tei:note">
-         <li>
-            <button id="selectNote" class="topMenuButton dropdownButton" >
-               <xsl:text> Notes </xsl:text>
-               <img class="noDisplay" src="/versioning-machine/vm-images/arrowup.png" alt="arrow up"/>
-               <img src="/versioning-machine/vm-images/arrowdown.png" alt="arrow down"/>
-            </button>
-            <ul>
-               <xsl:attribute name="id">noteList</xsl:attribute>
-               <xsl:attribute name="class">dropdown notVisible</xsl:attribute>
-               <li>
-                  <xsl:attribute name="data-panelid"> 
-                     <xsl:text>notesPanel</xsl:text>
-                  </xsl:attribute>
-                  <div>
-                     <xsl:attribute name="class">listText</xsl:attribute>
-                     <div>
-                        <a href="#" title="All Notes">
-                           <xsl:text>All Notes</xsl:text>
-                        </a>
-                     </div>
-                     <div>
-                        <button id="toggleNotes" class="toggleNotes">
-                           <xsl:text>OFF</xsl:text>
-                        </button>
-                     </div>
-                  </div>
-               </li>
-               <xsl:for-each select="$witnesses">
-                  <li>
-                     <xsl:attribute name="data-panelid"> 
-                        <xsl:text>note-</xsl:text>
-                        <xsl:value-of select="@xml:id"/>
-                     </xsl:attribute>
-                     <div>
-                        <xsl:attribute name="class">listText</xsl:attribute>  
-                        <div>
-                           <xsl:variable name="witTitle"> 
-                              <xsl:value-of select="@xml:id"/>
-                              <xsl:text>: </xsl:text>
-                              <xsl:value-of select="."/>
-                           </xsl:variable>
-                           <a href="#" title="{$witTitle}">
-                              <xsl:choose>
-                                 <xsl:when test="@xml:id='ft'">
-                                    <xsl:text>Transcription Notes</xsl:text>
-                                 </xsl:when>
-                                 <xsl:when test="@xml:id='ee'">
-                                    <xsl:text>Elemental Edition Notes</xsl:text>
-                                 </xsl:when>
-                                 <xsl:when test="@xml:id='ae'">
-                                    <xsl:text>Amplified Edition Notes</xsl:text>
-                                 </xsl:when>
-                                 <xsl:when test="@xml:id='a2'">
-                                    <xsl:text>Amplified Edition, 2nd, Notes</xsl:text>
-                                 </xsl:when>
-                              </xsl:choose>
-                           </a>
-                        </div>
-                        
-                        <div>
-                           <button id="toggleNotes" class="toggleNotes">
-                              <xsl:text>OFF</xsl:text>
-                           </button>
-                        </div>
-                     </div>
-                  </li>
-               </xsl:for-each>
-            </ul>
-         </li>
-      </xsl:if>
+
       <li>
          <xsl:attribute name="data-panelid">indexPopupPanel</xsl:attribute>
          <xsl:attribute name="title">Clicking this button opens the pop-up index of poems.</xsl:attribute>
@@ -387,7 +389,7 @@
             <xsl:attribute name="class">topMenuButton</xsl:attribute>
             <xsl:attribute name="id">indexPopup</xsl:attribute>
             <xsl:text>Poem Index</xsl:text>
-         </button>       
+         </button>
       </li>
       <li>
          <xsl:attribute name="id">previousPoemArea</xsl:attribute>
@@ -396,7 +398,7 @@
             <xsl:attribute name="class">topMenuButton</xsl:attribute>
             <xsl:attribute name="id">previousPoem</xsl:attribute>
             <xsl:text>Previous</xsl:text>
-         </button>       
+         </button>
       </li>
       <li>
          <xsl:attribute name="id">nextPoemArea</xsl:attribute>
@@ -405,9 +407,9 @@
             <xsl:attribute name="class">topMenuButton</xsl:attribute>
             <xsl:attribute name="id">nextPoem</xsl:attribute>
             <xsl:text>Next</xsl:text>
-         </button>       
-      </li>   
-      
+         </button>
+      </li>
+
       <xsl:if test="//tei:notesStmt/tei:note[@type = 'critIntro']">
          <li>
             <xsl:attribute name="data-panelid">critPanel</xsl:attribute>
@@ -418,7 +420,7 @@
             </button>
          </li>
       </xsl:if>
-   </xsl:template>                  
+   </xsl:template>
    <!-- **********END MAIN BANNER TEMPLATES************ -->
 
 
@@ -459,7 +461,7 @@
          </xsl:choose>
       </div>
    </xsl:template>
-   
+
    <xsl:template name="witnessSpecificNotePanel">
       <xsl:param name="witId"/>
       <!-- RB: added draggable resizeable -->
@@ -482,23 +484,23 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Notes: Amplified Edition</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Notes: Amplified Edition, 2nd</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Notes: Amplified Edition, 3rd</xsl:text>
-               </xsl:when> 
+               </xsl:when>
             </xsl:choose>
          </div>
-         
+
 
          <div class="mssContent" style="line-height:normal; foo: bar;">
             <xsl:variable name="widIdWithPoundSign">
                <xsl:text>#</xsl:text>
                <xsl:value-of select="$witId"/>
             </xsl:variable>
-            
+
             <xsl:for-each select="//tei:body//tei:note[not(@type = 'image') and ancestor::*/@wit=$widIdWithPoundSign]">
                <xsl:if test="not(ancestor::tei:note)">
                   <div>
@@ -565,7 +567,7 @@
                                  </xsl:otherwise>
                               </xsl:choose>
                            </div>
-                        </xsl:when>                            
+                        </xsl:when>
                         <xsl:when test="ancestor::tei:p and ancestor::tei:app">
                            <xsl:variable name="appId">
                               <xsl:text>apparatus_</xsl:text>
@@ -589,11 +591,11 @@
                      </xsl:choose>
                      <div class="position">
                         <xsl:choose>
-                           <xsl:when test="@type = 'headnote'">                                  
-                              <xsl:text>Headnote</xsl:text>                               
+                           <xsl:when test="@type = 'headnote'"> 
+                              <xsl:text>Headnote</xsl:text> 
                            </xsl:when>
-                           <xsl:when test="@type = 'editorialnote'">                                  
-                              <xsl:text>Editorial note</xsl:text>                               
+                           <xsl:when test="@type = 'editorialnote'"> 
+                              <xsl:text>Editorial note</xsl:text> 
                            </xsl:when>
                            <xsl:when test="ancestor::tei:app[@type='title']">
                               <xsl:text>Title note</xsl:text>
@@ -609,9 +611,9 @@
             </xsl:for-each>
             <div id="noNotesFound" class="noteContent"> Sorry, but there are no notes associated with
                any currently displayed witness. </div>
-            
-            
-            
+
+
+
          </div>
       </div>
    </xsl:template>
@@ -637,13 +639,13 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Amplified Edition</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Amplified Edition, 2nd</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
                   <xsl:text>Amplified Edition, 3rd</xsl:text>
-               </xsl:when> 
+               </xsl:when>
             </xsl:choose>
          </div>
          <div class="panelLockedHeader">
@@ -658,18 +660,18 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Amplified Edition</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Amplified Edition, 2nd</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
                   <xsl:text>Amplified Edition, 3rd</xsl:text>
-               </xsl:when>               
+               </xsl:when>
             </xsl:choose>
          </div>
-         
-         
-         
+
+
+
          <div class="mssContent">
             <xsl:if test="//tei:witDetail[@target = concat('#', $witId) and tei:media[@url]]">
                <!-- Add an audio player if there are audio files encoded -->
@@ -691,12 +693,12 @@
          </div>
       </div>
    </xsl:template>
-     
+
 <!-- Remove original byline
       <div class="byline">
          <xsl:if test="($witId = 'ft')"><xsl:if test="//tei:witness[@xml:id = $witId]/tei:persName"><xsl:text>— By </xsl:text></xsl:if></xsl:if>
          <xsl:if test="($witId != 'ft')"><xsl:if test="//tei:witness[@xml:id = $witId]/tei:persName"><xsl:text>— Edited by </xsl:text></xsl:if></xsl:if>
-         
+
          <xsl:for-each select="//tei:witness[@xml:id = $witId]/tei:persName">
             <xsl:text> </xsl:text>
             <xsl:value-of select="."/>
@@ -928,7 +930,7 @@
             </xsl:if>
             -->
             <!-- end of dynamic responsibilty statement, disabled -->
-            
+
             <!-- static responsibility statement -->
             <a><xsl:attribute name="target">_new</xsl:attribute><xsl:attribute name="href">/about-the-project.html</xsl:attribute><h3>The Pulter Project: Poet in the Making</h3></a>
             <ul>
@@ -937,19 +939,19 @@
                <li>Website designed by Sergei Kalugin, Northwestern University</li>
                <li>IT project consultation by Josh Honn, Northwestern University</li>
                <li>Project sponsored by Northwestern University, Brock University, and University of Leeds</li>
-            </ul>          
-            
+            </ul>
+
             <!-- Removed header suggesting link to explorations
             <h3>Beyond this Poem: Explorations of Pulter’s Works</h3>
              -->
-            <!-- Removed standard TEI encoding statement         
+            <!-- Removed standard TEI encoding statement
             <xsl:apply-templates select="tei:publicationStmt"/>
             <xsl:if test="tei:encodingDesc/tei:editorialDecl">
                <xsl:apply-templates select="tei:encodingDesc/tei:editorialDecl"/>
             </xsl:if>
-            <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:encodingDesc"/> 
+            <xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:encodingDesc"/>
              -->
-            
+
          </div>
       </div>
       <xsl:if test="//tei:notesStmt/tei:note[@type = 'critIntro']">
@@ -974,7 +976,7 @@
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
          </xsl:attribute>
-         
+
          <div class="panelBanner">
             <img class="closePanel" title="Close panel"
                src="/versioning-machine/vm-images/closePanel.png" alt="X (Close panel)"/> Index </div>
@@ -985,8 +987,8 @@
             </div>
          </div>
       </div>
-      
-      
+
+
    </xsl:template>
 
    <xsl:template match="tei:publicationStmt/tei:publisher">
@@ -1017,28 +1019,28 @@
 
   <!--NOTES PANEL CONTENT-->
    <!-- <xsl:template name="notesPanel">
-      <xsl:param name="witId"/>  
-      <div class="ui-widget-content ui-resizable panel mssPanel noDisplay"> 
-         <xsl:attribute name="id">             
+      <xsl:param name="witId"/>
+      <div class="ui-widget-content ui-resizable panel mssPanel noDisplay">
+         <xsl:attribute name="id"> 
             <xsl:text>note-</xsl:text>
-            <xsl:value-of select="$witId"/>  
+            <xsl:value-of select="$witId"/> 
          </xsl:attribute>
          <div class="panelBanner">
             <img class="closePanel" title="Close panel" src="../vm-images/closePanel.png"
-               alt="X (Close panel)"/> 
+               alt="X (Close panel)"/>
             <xsl:variable name="witTitle"><xsl:value-of select="//tei:witness[@xml:id = $witId]"/></xsl:variable>
             <xsl:choose>
-               <xsl:when test="@xml:id='ft'">                   
-                  <xsl:text>Transcription Notes</xsl:text>               
+               <xsl:when test="@xml:id='ft'"> 
+                  <xsl:text>Transcription Notes</xsl:text> 
                </xsl:when>
-               <xsl:when test="@xml:id='ee'">                   
-                  <xsl:text>Elemental Edition Notes</xsl:text>               
+               <xsl:when test="@xml:id='ee'"> 
+                  <xsl:text>Elemental Edition Notes</xsl:text> 
                </xsl:when>
-               <xsl:when test="@xml:id='ae'">                   
-                  <xsl:text>Amplified Edition Notes</xsl:text>               
+               <xsl:when test="@xml:id='ae'"> 
+                  <xsl:text>Amplified Edition Notes</xsl:text> 
                </xsl:when>
             </xsl:choose>
-         </div>      
+         </div>
          <div class="noteContent">
             <xsl:apply-templates select="//tei:body//tei:note">
                <xsl:with-param name="witId" select="$witId"/>
@@ -1046,13 +1048,13 @@
         </div>
       </div>
    </xsl:template> -->
-         
+
    <xsl:template name="notesPanel">
       <div id="notesPanel">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
          </xsl:attribute>
-         
+
          <div class="panelBanner">
             <img class="closePanel" title="Close panel" src="/versioning-machine/vm-images/closePanel.png"
                alt="X (Close panel)"/> All Notes </div>
@@ -1119,7 +1121,7 @@
                               </xsl:otherwise>
                            </xsl:choose>
                         </div>
-                     </xsl:when>                            
+                     </xsl:when>
                      <xsl:when test="ancestor::tei:p and ancestor::tei:app">
                         <xsl:variable name="appId">
                            <xsl:text>apparatus_</xsl:text>
@@ -1143,11 +1145,11 @@
                   </xsl:choose>
                   <div class="position">
                      <xsl:choose>
-                        <xsl:when test="@type = 'headnote'">                                  
-                           <xsl:text>Headnote</xsl:text>                               
+                        <xsl:when test="@type = 'headnote'"> 
+                           <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
-                        <xsl:when test="@type = 'editorialnote'">                                  
-                           <xsl:text>Editorial note</xsl:text>                               
+                        <xsl:when test="@type = 'editorialnote'"> 
+                           <xsl:text>Editorial note</xsl:text> 
                         </xsl:when>
                         <xsl:when test="ancestor::tei:app[@type='title']">
                            <xsl:text>Title note</xsl:text>
@@ -1165,14 +1167,14 @@
             any currently displayed witness. </div>
       </div>
    </xsl:template>
-   
-   
+
+
    <xsl:template name="note-ee">
       <div id="note-ee">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
          </xsl:attribute>
-         
+
          <div class="panelBanner">
             <img class="closePanel" title="Close panel" src="/versioning-machine/vm-images/closePanel.png"
                alt="X (Close panel)"/> All Notes </div>
@@ -1240,7 +1242,7 @@
                               </xsl:otherwise>
                            </xsl:choose>
                         </div>
-                     </xsl:when>                            
+                     </xsl:when>
                      <xsl:when test="ancestor::tei:p and ancestor::tei:app">
                         <xsl:variable name="appId">
                            <xsl:text>apparatus_</xsl:text>
@@ -1264,11 +1266,11 @@
                   </xsl:choose>
                   <div class="position">
                      <xsl:choose>
-                        <xsl:when test="@type = 'headnote'">                                  
-                           <xsl:text>Headnote</xsl:text>                               
+                        <xsl:when test="@type = 'headnote'"> 
+                           <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
-                        <xsl:when test="@type = 'editorialnote'">                                  
-                           <xsl:text>Editorial note</xsl:text>                               
+                        <xsl:when test="@type = 'editorialnote'"> 
+                           <xsl:text>Editorial note</xsl:text> 
                         </xsl:when>
                         <xsl:when test="ancestor::tei:app[@type='title']">
                            <xsl:text>Title note</xsl:text>
@@ -1286,12 +1288,12 @@
             any currently displayed witness. </div>
       </div>
    </xsl:template>
-   
-   
-   
-   
- 
-   
+
+
+
+
+
+
 
 
    <xsl:template match="//tei:body//text()[normalize-space()]">
@@ -1301,10 +1303,10 @@
    </xsl:template>
 
 
-   <!-- previously 
+   <!-- previously
          <xsl:template
       match="tei:head | tei:title | tei:epigraph | tei:div | tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div5 | tei:div6 | tei:div7 | tei:div8 | tei:lg | tei:ab"> -->
-   
+
    <xsl:template
       match="tei:head | tei:epigraph | tei:div | tei:div1 | tei:div2 | tei:div3 | tei:div4 | tei:div5 | tei:div6 | tei:div7 | tei:div8 | tei:lg | tei:ab">
       <xsl:param name="witId"/>
@@ -1338,38 +1340,38 @@
 
       </div>
    </xsl:template>
-   
+
    <xsl:template
       match="tei:title | tei:foreign | tei:persName">
       <xsl:param name="witId"/>
       <span>
          <xsl:attribute name="class">
             <xsl:value-of select="name(.)"/>
-            
+
             <xsl:if test="@n">
                <xsl:text> </xsl:text>
                <xsl:value-of select="name(.)"/>
                <xsl:text>-n</xsl:text>
                <xsl:value-of select="@n"/>
             </xsl:if>
-            
+
             <xsl:if test="@type">
                <xsl:text> </xsl:text>
                <xsl:text>type-</xsl:text>
                <xsl:value-of select="@type"/>
             </xsl:if>
-            
+
             <xsl:if test="@rend">
                <xsl:text> </xsl:text>
                <xsl:text>rend-</xsl:text>
                <xsl:value-of select="@rend"/>
             </xsl:if>
          </xsl:attribute>
-         
+
          <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
          </xsl:apply-templates>
-         
+
       </span>
    </xsl:template>
 
@@ -1379,9 +1381,9 @@
       <xsl:param name="imgId"/>
 
       <xsl:if test="$imgUrl != ''">
-         <span class="facsimile-toggle">                 
+         <span class="facsimile-toggle">
          <img src="{$pulterManuscriptIcon}" alt="Facsimile Image Placeholder" title="Open the image viewer">
-         
+
             <xsl:attribute name="class">
                <xsl:text>imgLink</xsl:text>
                <xsl:if test="$wit != ''">
@@ -1414,14 +1416,14 @@
 
    <!-- we'll add a specific fw detection, and... -->
    <xsl:template match="tei:fw[@type = 'catch']">
-      <span><xsl:attribute name="class"><xsl:text>fw-catchword</xsl:text></xsl:attribute><xsl:apply-templates></xsl:apply-templates></span>   
+      <span><xsl:attribute name="class"><xsl:text>fw-catchword</xsl:text></xsl:attribute><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-   
+
    <!-- we'll add a specific fw for sequence numbers, but... -->
    <xsl:template match="tei:fw[@type = 'seqNum']">
-      <span><xsl:attribute name="class"><xsl:text>fw-sequence-number</xsl:text></xsl:attribute><xsl:apply-templates></xsl:apply-templates></span>   
+      <span><xsl:attribute name="class"><xsl:text>fw-sequence-number</xsl:text></xsl:attribute><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-   
+
    <!-- by default, VM just throws away forme works -->
    <xsl:template match="tei:fw"/>
 
@@ -1434,7 +1436,7 @@
 
    <xsl:template match="tei:l">
       <xsl:param name="witId"/>
-      
+
       <xsl:if
          test="text()[normalize-space(.) != ''] or descendant::node()[contains(@wit, $witId)] or descendant::node()[@wit = '#all']">
 
@@ -1449,7 +1451,7 @@
                </xsl:otherwise>
             </xsl:choose>
          </xsl:variable>
-         <!-- These were here to accomodate rend specifications of indent(1), indent (2) with transformations to indent-1x, indent-2x for CSS purposes --> 
+         <!-- These were here to accomodate rend specifications of indent(1), indent (2) with transformations to indent-1x, indent-2x for CSS purposes -->
          <xsl:variable name="rendSpecIntermed" select="translate($rendSpecRaw,'(','-')"/>
          <xsl:variable name="rendSpecFinal" select="translate($rendSpecIntermed,')','x')"/>
 
@@ -1666,35 +1668,35 @@
          </xsl:otherwise>
       </xsl:choose>
    </xsl:template>
-   
+
 <!--milestone -->
- 
+
  <!--milestone for two horizontal lines serving to separate stanzas-->
    <xsl:template match="tei:milestone[@unit = 'stanza']">
       <div>
          <xsl:attribute name="class">
-            <xsl:text>short-horlines-left-right</xsl:text>               
+            <xsl:text>short-horlines-left-right</xsl:text>
             <xsl:if test="@ed">
                <xsl:value-of select="translate(@ed, '#', '')"/>
             </xsl:if>
          </xsl:attribute>
-         <xsl:if test="@rend = 'short-horlines-left-right'"> 
+         <xsl:if test="@rend = 'short-horlines-left-right'">
          <xsl:choose>
-            <xsl:when test="$showMilestoneAs='image'">              
+            <xsl:when test="$showMilestoneAs='image'">
                   <hr class="left"/>
                   <hr class="right"/>
             </xsl:when>
             <xsl:when test="$showMilestoneAs = 'text'">
                <xsl:text>[short horizontal lines left and right]</xsl:text>
-            </xsl:when> 
+            </xsl:when>
             <xsl:when test="$showMilestoneAs='none'">
                <xsl:text> </xsl:text>
             </xsl:when>
          </xsl:choose>
          </xsl:if>
       </div>
-   </xsl:template> 
-   
+   </xsl:template>
+
    <xsl:template match="tei:milestone[@unit = 'poem']">
       <div>
          <xsl:attribute name="class">
@@ -1710,7 +1712,7 @@
                </xsl:when>
                <xsl:when test="$showMilestoneAs = 'text'">
                   <xsl:text>[curled line]</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="$showMilestoneAs='none'">
                <xsl:text> </xsl:text>
             </xsl:when>
@@ -1723,7 +1725,7 @@
                </xsl:when>
                <xsl:when test="$showMilestoneAs = 'text'">
                   <xsl:text>[ascending straight line]</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="$showMilestoneAs='none'">
                   <xsl:text> </xsl:text>
                </xsl:when>
@@ -1736,7 +1738,7 @@
                </xsl:when>
                <xsl:when test="$showMilestoneAs = 'text'">
                   <xsl:text>[horizontal straight line]</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="$showMilestoneAs='none'">
                   <xsl:text> </xsl:text>
                </xsl:when>
@@ -1749,7 +1751,7 @@
                </xsl:when>
                <xsl:when test="$showMilestoneAs = 'text'">
                   <xsl:text>[tilde-shaped line]</xsl:text>
-               </xsl:when> 
+               </xsl:when>
                <xsl:when test="$showMilestoneAs='none'">
                   <xsl:text> </xsl:text>
                </xsl:when>
@@ -1767,7 +1769,7 @@
     </xsl:element>
   </xsl:template>
   <!-- milestone end -->
- 
+
    <xsl:template match="tei:label">
       <xsl:element name="div">
          <xsl:attribute name="class">
@@ -1776,10 +1778,10 @@
          <xsl:apply-templates></xsl:apply-templates>
       </xsl:element>
    </xsl:template>
- 
- 
- 
-   
+
+
+
+
    <xsl:template match="tei:table">
       <xsl:param name="witId"/>
       <table class="mssTable">
@@ -1865,8 +1867,8 @@
          </xsl:call-template>
       </xsl:if>
    </xsl:template>
-   
-   
+
+
 
    <!-- replaced by something more specific -->
 
@@ -1879,17 +1881,17 @@
          <xsl:apply-templates/>
       </span>
    </xsl:template>
-   
+
    <!-- NEW / Matt Taylor / Dec 2017
         FOR DETECING SPANS AND/OR WORDS WITH NOTES -->
-   
+
  <!--
    <xsl:template match="tei:w[.//tei:note]">
       <xsl:comment>Word Tag Matched Containing Note</xsl:comment>
       <span class="notespan"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-   --> 
-   
+   -->
+
    <xsl:template match="tei:seg[.//tei:note]">
       <xsl:comment>SEG tag found Containing Note</xsl:comment>
       <span class="notespan"><xsl:call-template name="render_seg_notes">
@@ -1898,33 +1900,33 @@
             </xsl:with-param>
       </xsl:call-template><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-   
+
    <xsl:template match="tei:seg[not(descendant::tei:note)]">
       <xsl:comment>SEG found not containing note</xsl:comment>
       <xsl:apply-templates></xsl:apply-templates>
    </xsl:template>
-   
 
-   
-   
+
+
+
  <!--Special textual renderings / Betsy Chou / June 2018-->
-   
+
    <xsl:template match="tei:seg[@rend='centered']">
       <span class="centered"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-   
+
    <xsl:template match="tei:seg[@rend='fancy']">
       <span class="fancy"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
- 
+
    <xsl:template match="tei:seg[@rend='mirror']">
       <span class="mirror"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-   
-   <!-- EDIT / Matt Taylor / Dec 2017
-        FOR REPLACING DEFAULT CHARACTERS  -->   
 
-   <!-- exclude tei:seg ancestors of notes 
+   <!-- EDIT / Matt Taylor / Dec 2017
+        FOR REPLACING DEFAULT CHARACTERS  -->
+
+   <!-- exclude tei:seg ancestors of notes
         matt
         another version with ancestors below -->
    <xsl:template match="tei:note[(not(@type = 'critIntro')) and (not(@type = 'headnote')) and (not(ancestor::tei:seg))]">
@@ -1971,8 +1973,8 @@
          </div>
       </div>
    </xsl:template>
-   
-   
+
+
    <xsl:template match="tei:note[(not(@type = 'critIntro')) and (not(@type = 'headnote')) and ((ancestor::tei:seg))]">
       <!-- this template would have normally rendered a note individually,
            but we have since replaced this with a better matching rule for
@@ -1980,7 +1982,7 @@
            a single div of class 'note' -->
       <!-- Notes will still render as part of XSLT transformation, but should
            not appear within VM as I have added the disabled-  prefix to the
-           class name (matt, august 2018) -->   
+           class name (matt, august 2018) -->
       <!--
          <div class="disabled-note">
             <strong>
@@ -2007,7 +2009,7 @@
          </div>
        -->
    </xsl:template>
-   
+
    <xsl:template match="tei:note[(@type='headnote')]" name="headnote">
       <xsl:param name="witId"/>
          <button class="headnote">Headnote</button>
@@ -2028,11 +2030,11 @@
                   </xsl:otherwise>
                </xsl:choose>
             </xsl:for-each>
-         </div>               
+         </div>
    </xsl:template>
-     
+
    <!--Added editorial note as a button-->
-   <xsl:template match="tei:note[(@type='editorialnote')]" name="editorialnote">   
+   <xsl:template match="tei:note[(@type='editorialnote')]" name="editorialnote">
       <xsl:param name="witId"/>
       <button class="editorialnote">Editorial note</button>
       <div class="editorialnote-text">
@@ -2052,17 +2054,17 @@
                </xsl:otherwise>
             </xsl:choose>
          </xsl:for-each>
-      </div>  
+      </div>
    </xsl:template>
 
-   <!-- notes within headnote and editorial note - BETSY - MAY 2018 -->  
+   <!-- notes within headnote and editorial note - BETSY - MAY 2018 -->
    <xsl:template match="tei:note[(@type='editorialnote') and (@type='headnote')]//tei:note">
       <br/>
       <xsl:apply-templates/>
-   </xsl:template> 
+   </xsl:template>
 
    <xsl:template match="tei:figure"/>
-   
+
    <xsl:template match="tei:app">
       <xsl:param name="witId"/>
       <xsl:variable name="selfNode" select="current()"/>
@@ -2223,7 +2225,7 @@
       <span class="notespan"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
    -->
-   
+
    <!-- NEW - WORD WITH NOTE TEMPLATE MATCH - NEW - MATT - DEC 2017 -->
    <xsl:template match="tei:w[.//tei:note]">
       <xsl:param name="witId"/>
@@ -2237,8 +2239,8 @@
          </xsl:call-template>
       </span>
     </xsl:template>
-   
-   
+
+
 
    <xsl:template match="tei:choice">
       <xsl:param name="witId"/>
@@ -2276,9 +2278,9 @@
          </xsl:otherwise>
       </xsl:choose>
    </xsl:template>
-   
+
    <!-- NEW - DISPLAY WORD WITH NOTE - NEW - MATT - DEC 2017 -->
-   
+
    <xsl:template name="displayWordWithNote">
       <xsl:param name="inline"></xsl:param>
       <xsl:param name="hover"></xsl:param>
@@ -2293,11 +2295,11 @@
                </strong>
                <xsl:comment>Beginning of XSL:TEXT in DISPLAYWORDWITHNOTE</xsl:comment>
                <xsl:text> </xsl:text>
-               <xsl:comment>End of XSL:TEXT in DISPLAYWORDWITHNOTE - Does the space need to be there?</xsl:comment>        
+               <xsl:comment>End of XSL:TEXT in DISPLAYWORDWITHNOTE - Does the space need to be there?</xsl:comment>
             </xsl:if>
             <xsl:apply-templates select="$hover" />
          </div>
-      </div>     
+      </div>
    </xsl:template>
 
    <xsl:template name="displayChoice">
@@ -2320,7 +2322,7 @@
                   <xsl:comment>End of XSL:TEXT in CHOICE</xsl:comment>
                </xsl:if>
                <xsl:apply-templates select="$hover"/>
-            
+
             <!-- /div -->
          </div>
       </div>
@@ -2350,7 +2352,7 @@
                      <xsl:variable name="strgLength-29" select="string-length($imgUrl) - 29"/>
                      <a title="{$imgUrl}">
                         <xsl:text>...</xsl:text>
-                        <xsl:value-of select="substring($imgUrl, $strgLength-29, 30)"/> 
+                        <xsl:value-of select="substring($imgUrl, $strgLength-29, 30)"/>
                      </a>
                   </xsl:when>
                   <xsl:otherwise>
@@ -2358,10 +2360,10 @@
                   </xsl:otherwise>
                </xsl:choose> -->
             </span>
-            
+
             <!-- update by matt <img class="viewerHandleRt closePanel" src="vmachine-Dateien/closePanelButton.htm"
                title="Close panel" alt="X (Close panel)"/>    UPDATE by Betsy, change close icon -->
-  
+
             <img class="viewerHandleRt closePanel" src="/versioning-machine/vm-images/closePanel.png"
                title="Close panel" alt="X (Close panel)"/>
          </div>
@@ -2443,7 +2445,7 @@
          </xsl:apply-templates>
       </div>
    </xsl:template>
-   
+
    <xsl:template name="createTimelinePoints">
       <xsl:text>var timelinePoints = new Array();</xsl:text>
       <xsl:for-each select="//tei:when">
@@ -2516,7 +2518,7 @@ timelineDurations['</xsl:text>
          </xsl:choose>
       </xsl:for-each>
    </xsl:template>
-   
+
    <!-- NOTES IN SEG TEMPLATE -->
    <xsl:template name="render_seg_notes">
       <div class="note">
@@ -2538,14 +2540,14 @@ timelineDurations['</xsl:text>
                   <xsl:otherwise>
                      <xsl:attribute name="class">note-entry general</xsl:attribute>
                   </xsl:otherwise>
-               </xsl:choose>            
+               </xsl:choose>
             <xsl:text> </xsl:text>
             <xsl:apply-templates/>
          </div>
       </xsl:for-each>
       </div>
    </xsl:template>
-   
+
    <!-- FOOTER TEMPLATE -->
    <xsl:template name="footerArea">
       <footer>
@@ -2577,6 +2579,6 @@ timelineDurations['</xsl:text>
                </div>
             </div>
          </div>
-      </footer>      
+      </footer>
    </xsl:template>
 </xsl:stylesheet>
