@@ -29,7 +29,7 @@ You should have the following terminal commands available:
 _TBA_
 
 ### Where Are All the Images?
-[Here](https://northwestern.box.com/s/gcdz9ye72zlsqp9k3z647oy3k0s845hv). There are two folders in the .zip archive:
+[Here](https://northwestern.box.com/s/j1s1l3r6uh3s4xlarzr2e3neo4utkl4o). There are two folders in the .zip archive:
 * `facs` — high-resolution manuscript facsimiles and their smaller previews;
 * `headnote-posters` — the collection of artwork to decorate individual poem pages. 
 
