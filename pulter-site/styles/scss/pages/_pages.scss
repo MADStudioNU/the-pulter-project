@@ -59,7 +59,7 @@
         right: 0;
 
         @include breakpoint(mobile) {
-          right: 0;
+          display: none;
         }
 
         li {
