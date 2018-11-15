@@ -318,6 +318,68 @@ gulp.task('xslt:lunr', function () {
   return runSequence('xslt:erase', 'xslt:lunrBuildSearchIndex');
 });
 
+gulp.task('xslt:sitemap', function () {
+  var prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  var suffix = '</urlset>';
+
+  var pages = [
+    'http://pulterproject.northwestern.edu/',
+    'http://pulterproject.northwestern.edu/about-hester-pulter-and-the-manuscript.html',
+    'http://pulterproject.northwestern.edu/about-project-conventions.html',
+    'http://pulterproject.northwestern.edu/about-the-project.html',
+    'http://pulterproject.northwestern.edu/how-to-cite-the-pulter-project.html',
+    'http://pulterproject.northwestern.edu/scholarship.html'
+  ];
+
+  loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
+    function (data) {
+      console.log('Hi! Sitemap Builder is here!');
+      var poemsInManifest = data;
+      console.log('Poems in the manifest: ' + poemsInManifest.length + '.');
+
+      var poemUrls = [];
+      var triades = poemsInManifest.map(function (poemObject) {
+        var slug = dashify(poemObject.seo, { condense: true });
+
+        return [
+          LIVE_SITE_BASE_URL + '/poems/ee/' + slug + '/',
+          LIVE_SITE_BASE_URL + '/poems/ae/' + slug + '/',
+          LIVE_SITE_BASE_URL + '/poems/vm/' + slug + '/'
+        ]
+      });
+
+      var length = triades.length;
+      for (var i = 0; i < length; i++) {
+        poemUrls = poemUrls.concat(triades[i]);
+      }
+
+      var urls = pages.concat(poemUrls);
+
+      urls = urls.map(function (url) {
+        return '<url><loc>' + url + '</loc></url>';
+      }).join('\n');
+
+      var stream1 = source('null.html');
+      stream1.end(prefix + urls + suffix);
+      stream1
+        .pipe(rename('sitemap.xml'))
+        .pipe(gulp.dest(SITE_BASE));
+
+      // poemsInManifest.forEach(function (p) {
+      //   console.log(dashify(p.seo, { condense: true }));
+      //   stream.pipe(appendPrepend.appendText('meow'));
+      // });
+
+      // return stream
+      //   .pipe(appendPrepend.appendText('meow'))
+      //   .pipe(rename('sitemap.xml'))
+      //   .pipe(gulp.dest(SITE_BASE));
+    }, function () {
+      console.log('ERROR: couldn\'t load the poem manifest!');
+      return gulpUtil.noop();
+    });
+});
+
 gulp.task('xslt:poems', function () {
   loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
     function (data) {
@@ -525,9 +587,6 @@ gulp.task('xslt:poems', function () {
   streamVM.pipe(rename('/index.html'))
     .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + VM_SUBFOLDER));
 });
-
-// Todo: add task that builds the sitemap.xml
-// gulp.task('xslt:siteManifest', function () {});
 
 gulp.task('xslt', function () {
   runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems');

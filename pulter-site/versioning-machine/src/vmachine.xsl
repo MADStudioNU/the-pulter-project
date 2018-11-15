@@ -70,7 +70,7 @@
          <meta charset="utf-8"/>
          <title>
             <xsl:value-of select="$truncatedTitle"></xsl:value-of>
-            <xsl:text> - The Pulter Project</xsl:text>
+            <xsl:text> &#8226; The Pulter Project Comparison Tool</xsl:text>
          </title>
 
          <!-- PULTER-PROJECT-SPECIFIC METADATA -->
