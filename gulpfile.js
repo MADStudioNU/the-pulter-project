@@ -359,21 +359,11 @@ gulp.task('xslt:sitemap', function () {
         return '<url><loc>' + url + '</loc></url>';
       }).join('\n');
 
-      var stream1 = source('null.html');
-      stream1.end(prefix + urls + suffix);
-      stream1
+      var stream = source('null.html');
+      stream.end(prefix + urls + suffix);
+      stream
         .pipe(rename('sitemap.xml'))
         .pipe(gulp.dest(SITE_BASE));
-
-      // poemsInManifest.forEach(function (p) {
-      //   console.log(dashify(p.seo, { condense: true }));
-      //   stream.pipe(appendPrepend.appendText('meow'));
-      // });
-
-      // return stream
-      //   .pipe(appendPrepend.appendText('meow'))
-      //   .pipe(rename('sitemap.xml'))
-      //   .pipe(gulp.dest(SITE_BASE));
     }, function () {
       console.log('ERROR: couldn\'t load the poem manifest!');
       return gulpUtil.noop();
