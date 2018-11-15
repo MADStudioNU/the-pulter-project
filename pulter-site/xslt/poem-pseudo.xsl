@@ -218,7 +218,7 @@
           <div class="tools">
             <div class="toggles">
               <div class="page-toggle toggle cormorant-garamond">
-                <a href="#pp">Pages</a>
+                <a href="#pp">Manuscript</a>
               </div>
               <!--<div class="gloss-toggle toggle cormorant-garamond">-->
                 <!--<a href="#pp">Glosses</a>-->
