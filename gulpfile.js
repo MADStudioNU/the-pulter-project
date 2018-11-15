@@ -338,7 +338,7 @@ gulp.task('xslt:sitemap', function () {
       console.log('Poems in the manifest: ' + poemsInManifest.length + '.');
 
       var poemUrls = [];
-      var triades = poemsInManifest.map(function (poemObject) {
+      var triads = poemsInManifest.map(function (poemObject) {
         var slug = dashify(poemObject.seo, { condense: true });
 
         return [
@@ -348,9 +348,9 @@ gulp.task('xslt:sitemap', function () {
         ]
       });
 
-      var length = triades.length;
+      var length = triads.length;
       for (var i = 0; i < length; i++) {
-        poemUrls = poemUrls.concat(triades[i]);
+        poemUrls = poemUrls.concat(triads[i]);
       }
 
       var urls = pages.concat(poemUrls);
@@ -359,7 +359,7 @@ gulp.task('xslt:sitemap', function () {
         return '<url><loc>' + url + '</loc></url>';
       }).join('\n');
 
-      var stream = source('null.html');
+      var stream = source('null.xml');
       stream.end(prefix + urls + suffix);
       stream
         .pipe(rename('sitemap.xml'))
@@ -579,5 +579,5 @@ gulp.task('xslt:poems', function () {
 });
 
 gulp.task('xslt', function () {
-  runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems');
+  runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems', 'xslt:sitemap');
 });
