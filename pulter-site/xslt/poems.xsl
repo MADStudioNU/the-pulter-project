@@ -2880,6 +2880,10 @@
       <pp:author>Frances E. Dolan</pp:author>
       <pp:title>Hester Pulter and the Blazon in Early Modern England</pp:title>
     </pp:exploration>
+    <pp:exploration hash="the-making-of-the-pulter-project" type="video">
+      <pp:author>C. A. Davis</pp:author>
+      <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+    </pp:exploration>
   </pp:explorations>
 
   <!-- Helper Vars -->
@@ -3333,11 +3337,13 @@
                         <xsl:attribute name="class">
                           <xsl:value-of select="'link'"/>
                         </xsl:attribute>
-                        <xsl:attribute name="data-exploration-title">
-                          <xsl:value-of select="./pp:title"/>
-                        </xsl:attribute>
                         <h3 class="title">
-                          <xsl:value-of select="./pp:title"/>
+                          <xsl:if test="@type">
+                            <xsl:attribute name="class">
+                              <xsl:value-of select="concat('title ', @type)"/>
+                            </xsl:attribute>
+                          </xsl:if>
+                          <xsl:apply-templates select="./pp:title/node()"/>
                         </h3>
                         <div class="by-line"><span class="by">by</span>
                           <span class="who"><xsl:value-of select="./pp:author"/></span></div>
@@ -3444,6 +3450,23 @@
   <xsl:template match="pp:explorations"/>
   <xsl:template match="pp:exploration"/>
 
+  <!-- Segments and their renditions -->
+  <xsl:template match="seg">
+    <xsl:choose>
+      <xsl:when test="./@rend">
+        <xsl:element name="span">
+          <xsl:attribute name="class">
+            <xsl:value-of select="./@rend"/>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </xsl:element>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <!-- Does this poem have "curations" attached? -->
   <xsl:template name="hasCurations">
     <xsl:param name="poemId"/>
@@ -3474,7 +3497,7 @@
               <xsl:value-of select="./pp:title"/>
             </xsl:attribute>
             <h3 class="lato">
-              <xsl:value-of select="./pp:title"/>
+              <xsl:apply-templates select="./pp:title/node()"/>
             </h3>
             <div class="by-line"><span class="by">by</span>
               <span class="who"><xsl:value-of select="./pp:author"/></span></div>

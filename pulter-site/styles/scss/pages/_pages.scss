@@ -232,7 +232,36 @@
     }
 
     .caption {
-      margin-top: 1em;
+      margin-top: 1.5em;
+      line-height: 1.66;
+      color: rgba(#fff, .66);
+    }
+  }
+
+  .vid-box {
+    $w: 80%;
+    margin: 4.5em 0;
+
+    img {
+      width: auto;
+      max-width: 100%;
+    }
+
+    iframe {
+      display: block;
+      width: $w;
+      height: 360/16 + em;
+
+      @include breakpoint(mobile) {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .caption {
+      width: $w;
+      margin-top: 1.5em;
+      line-height: 1.66;
       color: rgba(#fff, .66);
     }
   }

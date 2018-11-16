@@ -504,6 +504,35 @@ $themeColor: #ece9e2;
     }
   }
 
+  .vid-box {
+    margin-top: 3em;
+
+    &:not(:last-child) {
+      margin-bottom: 3em;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 360/18.5 + em;
+
+      @include breakpoint(mobile) {
+        height: auto;
+        width: auto;
+      }
+    }
+
+    .src {
+      font-size: .8em;
+      opacity: .8;
+      margin: 1.5em 0;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
   img {
     display: block;
     margin: 3em 0;

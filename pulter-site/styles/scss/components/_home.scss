@@ -640,6 +640,19 @@
               top: .33em;
             }
           }
+
+          &.video::after {
+            content: '';
+            display: inline-block;
+            width: 1em;
+            height: .85em;
+            margin-left: .66em;
+            position: relative;
+            top: .12em;
+            background: url('/images/exploration-video-mock.svg') no-repeat;
+            border: 1px solid rgba($pp_manuscriptInk, .15);
+            border-radius: 3px;
+          }
         }
 
         .by-line {
