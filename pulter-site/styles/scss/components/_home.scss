@@ -161,7 +161,7 @@
         .teaser-text {
           color: lighten($pp_manuscriptPaper, 6%);
           font-size: 1.1em;
-          margin-bottom: 7vh;
+          margin-bottom: 4vh;
           line-height: 1.61;
           display: inline-block;
           text-align: center;
@@ -171,7 +171,7 @@
 
           @include breakpoint(mobile) {
             font-weight: normal;
-            //font-size: 1em;
+            margin-bottom: 6vh;
           }
         }
 
@@ -181,20 +181,18 @@
           width: 100%;
 
           .vid {
-
-            .action-call {
+            //.action-call {
               //$connectorLength: 3em;
-
-              text-align: left;
-              display: inline-block;
-              vertical-align: middle;
+              //text-align: left;
+              //display: inline-block;
+              //vertical-align: middle;
               //margin-left: $connectorLength;
-              margin-left: 1.5em;
+              //margin-left: 1.5em;
               //padding-left: 1em;
-              font-style: italic;
-              color: rgba(#fff, .9);
+              //font-style: italic;
+              //color: rgba(#fff, .9);
               //border-left: 1px solid rgba($pp_shinyGold, .33);
-              position: relative;
+              //position: relative;
 
               //&::before {
               //  content: '';
@@ -207,18 +205,18 @@
               //  left: -$connectorLength;
               //}
 
-              @include breakpoint(mobile) {
-                display: block;
-                text-align: center;
-                margin: 1.5em 0 0 0;
-                font-size: ms(0);
-              }
-            }
+              //@include breakpoint(mobile) {
+              //  display: block;
+              //  text-align: center;
+              //  margin: 1.5em 0 0 0;
+              //  font-size: ms(0);
+              //}
+            //}
 
             .thumb {
-              $h: 3.33em;
+              $h: 2.25em;
               $ratio: 16/9;
-              $playIconSize: .85em;
+              $playIconSize: .6em;
 
               position: relative;
               display: inline-block;
@@ -296,7 +294,7 @@
               background: #343434;
               text-transform: uppercase;
               letter-spacing: 4px;
-              padding: 1.1em 22px 1em 25px;
+              padding: 1em 22px 1em 25px;
               line-height: 1;
               box-shadow: 0 0 .5em rgba(0, 0, 0, .25);
               font-weight: bold;
