@@ -48,7 +48,7 @@ $globalBorderRadius: 2px;
         }
 
         .pp-search-box {
-          z-index: 1;
+          z-index: 10;
           position: absolute;
           left: 13em;
 
@@ -80,7 +80,7 @@ $globalBorderRadius: 2px;
           right: 1.5em;
 
           .toggles {
-            min-width: 30em;
+            min-width: 100%;
             position: fixed;
             top: 2.2em;
             z-index: 9;
@@ -875,10 +875,6 @@ $globalBorderRadius: 2px;
       padding: 0 .5em;
       border-radius: 4px;
       background: #fff;
-      box-shadow: inset -1px 0 0 0 rgba(179, 179, 179, 0.30),
-      inset 0 -1px 0 0 rgba(179, 179, 179, 0.30),
-      inset 0 1px 0 0 rgba(179, 179, 179, 0.30),
-      inset 1px 0 0 0 rgba(179, 179, 179, 0.30);
       @include transition(all .2s);
 
       a { color: inherit; }
@@ -898,7 +894,7 @@ $globalBorderRadius: 2px;
       overflow: hidden;
       padding: 0;
       font-size: 1.25em;
-      box-shadow: 0 0 1px rgba(#000, .66);
+      border: rgba(#282828, .2) 1px solid;
       margin-right: 1.5em;
 
       a {

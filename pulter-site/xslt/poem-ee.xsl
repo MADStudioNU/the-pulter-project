@@ -172,13 +172,13 @@
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
-      <meta property="og:title" content="{$fullTitle}  &#8226; The Pulter Project" />
+      <meta property="og:title" content="{$fullTitle} &#8226; {$projectName}" />
       <meta property="og:image" content="/images/headnote-posters/h{$poemID}og.jpg" />
       <title>
         <xsl:value-of select="concat(
                     $fullTitle,
                     ' &#8226; ',
-                    $projectName
+                    'Elemental Edition'
                     )"/>
       </title>
       <link rel="stylesheet" type="text/css" href="/styles/styles.css"/>
@@ -215,7 +215,7 @@
                 <a href="/poems/ae/{$poemID}" title="Switch to the Amplified Edition">Amplified</a>
               </div>
               <div class="page-toggle toggle cormorant-garamond">
-                <a href="#0">Pages</a>
+                <a href="#0">Manuscript</a>
               </div>
               <div class="gloss-toggle toggle cormorant-garamond">
                 <a href="#0">Notes</a>

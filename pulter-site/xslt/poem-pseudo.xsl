@@ -183,13 +183,9 @@
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
-      <meta property="og:title" content="{$fullTitle} &#8226; The Pulter Project" />
+      <meta property="og:title" content="{$fullTitle} &#8226; {$projectName}" />
       <title>
-        <xsl:value-of select="concat(
-                    $fullTitle,
-                    ' &#8226; ',
-                    $projectName
-                    )"/>
+        <xsl:value-of select="$fullTitle"/>
       </title>
       <link rel="stylesheet" type="text/css" href="/styles/styles.css"/>
     </head>
@@ -218,7 +214,7 @@
           <div class="tools">
             <div class="toggles">
               <div class="page-toggle toggle cormorant-garamond">
-                <a href="#pp">Pages</a>
+                <a href="#pp">Manuscript</a>
               </div>
               <!--<div class="gloss-toggle toggle cormorant-garamond">-->
                 <!--<a href="#pp">Glosses</a>-->
