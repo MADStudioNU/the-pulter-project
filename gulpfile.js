@@ -359,7 +359,7 @@ gulp.task('xslt:sitemap', function () {
         return '<url><loc>' + url + '</loc></url>';
       }).join('\n');
 
-      var stream = source('null.xml');
+      var stream = source('null.html');
       stream.end(prefix + urls + suffix);
       stream
         .pipe(rename('sitemap.xml'))
@@ -579,5 +579,5 @@ gulp.task('xslt:poems', function () {
 });
 
 gulp.task('xslt', function () {
-  runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems', 'xslt:sitemap');
+  runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems');
 });
