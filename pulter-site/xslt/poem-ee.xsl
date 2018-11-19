@@ -177,7 +177,7 @@
       <title>
         <xsl:value-of select="concat(
                     $fullTitle,
-                    ' &#8226; ',
+                    ' - ',
                     'Elemental Edition'
                     )"/>
       </title>
