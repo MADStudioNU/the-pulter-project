@@ -155,6 +155,8 @@
         font-size: ms(-1);
         line-height: 1.61;
 
+        @include breakpoint(mobile) { width: 100%; }
+
         .note-box {
           padding: .75em 0;
 
@@ -215,7 +217,7 @@
         }
       }
 
-      .lg {
+      //.lg {
         //color: #282828;
         //font-size: 1.15em;
         //font-family: $pp_poetryFont;
@@ -236,9 +238,9 @@
         //  color: rgba($pp_manuscriptInk, .75);
         //  margin-bottom: 1.5 / .85 + em;
         //}
-      }
+      //}
 
-      @include breakpoint(mpobile) {
+      @include breakpoint(mobile) {
         width: 85%;
         font-size: 1em;
       }
