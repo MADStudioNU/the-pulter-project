@@ -70,7 +70,7 @@
          <meta charset="utf-8"/>
          <title>
             <xsl:value-of select="$truncatedTitle"></xsl:value-of>
-            <xsl:text> &#8226; Compare Editions</xsl:text>
+            <xsl:text> - Edition Comparison</xsl:text>
          </title>
 
          <!-- PULTER-PROJECT-SPECIFIC METADATA -->
