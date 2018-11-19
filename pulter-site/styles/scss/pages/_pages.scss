@@ -234,8 +234,13 @@
 
     .caption {
       margin-top: 1.5em;
-      line-height: 1.66;
+      line-height: 1.6;
       color: rgba(#fff, .66);
+
+      h6 {
+        margin-bottom: .25em;
+        color: rgba(#fff, .8);
+      }
     }
   }
 
@@ -262,8 +267,13 @@
     .caption {
       width: $w;
       margin-top: 1.5em;
-      line-height: 1.66;
+      line-height: 1.6;
       color: rgba(#fff, .66);
+
+      h6 {
+        margin-bottom: .25em;
+        color: rgba(#fff, .8);
+      }
     }
   }
 
