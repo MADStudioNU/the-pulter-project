@@ -209,16 +209,17 @@
       content: counter(count);
       counter-increment: count;
       position: absolute;
-      //left: -1.5em;
       right: 103%;
       top: -.12em;
       font-size: ms(0);
       text-align: right;
 
       @include breakpoint(mobile) {
-        left: -1.2em;
-        top: 0;
-        font-size: ms(-2);
+        text-align: right;
+        width: 1.66em;
+        left: -2.66em;
+        right: auto;
+        font-size: ms(0);
       }
     }
   }
