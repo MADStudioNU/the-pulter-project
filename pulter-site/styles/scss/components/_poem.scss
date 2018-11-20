@@ -34,6 +34,7 @@ $globalBorderRadius: 2px;
 
       .content {
         .to-index {
+          z-index: 10;
           width: 9em;
           position: absolute;
           display: inline-block;
@@ -59,10 +60,12 @@ $globalBorderRadius: 2px;
           form input[type=text] {
             width: 13em;
             border-color: rgba($pp_manuscriptPaper, .2);
+            background: #111;
 
             &:focus {
               width: 16em;
               border-color: rgba($pp_shinyGold, 0.8);
+              background: #181818;
             }
           }
 
