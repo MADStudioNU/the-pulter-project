@@ -16,7 +16,7 @@ var XML_SOURCES_FOLDER = 'pulter-poems/',
   PP_SEARCH_DOC_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl',
   LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js',
   ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js',
-  LIVE_SITE_BASE_URL = 'http://pulterproject.northwestern.edu';
+  LIVE_SITE_BASE_URL = 'https://pulterproject.northwestern.edu';
 
 var appendPrepend = require('gulp-append-prepend');
 var gulp = require('gulp');
@@ -227,7 +227,6 @@ gulp.task('files-deploy', function () {
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'search'));
 
   // Copy Google verification for
-  // http://pulterproject.northwestern.edu
   gulp.src(SITE_BASE + 'google1cf954f664c9b7de.html')
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE));
@@ -323,12 +322,12 @@ gulp.task('xslt:sitemap', function () {
   var suffix = '</urlset>';
 
   var pages = [
-    'http://pulterproject.northwestern.edu/',
-    'http://pulterproject.northwestern.edu/about-hester-pulter-and-the-manuscript.html',
-    'http://pulterproject.northwestern.edu/about-project-conventions.html',
-    'http://pulterproject.northwestern.edu/about-the-project.html',
-    'http://pulterproject.northwestern.edu/how-to-cite-the-pulter-project.html',
-    'http://pulterproject.northwestern.edu/scholarship.html'
+    'https://pulterproject.northwestern.edu/',
+    'https://pulterproject.northwestern.edu/about-hester-pulter-and-the-manuscript.html',
+    'https://pulterproject.northwestern.edu/about-project-conventions.html',
+    'https://pulterproject.northwestern.edu/about-the-project.html',
+    'https://pulterproject.northwestern.edu/how-to-cite-the-pulter-project.html',
+    'https://pulterproject.northwestern.edu/scholarship.html'
   ];
 
   loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
