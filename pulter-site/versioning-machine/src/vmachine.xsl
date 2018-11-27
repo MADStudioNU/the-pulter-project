@@ -254,6 +254,9 @@
                               <xsl:when test="@xml:id='a2'">
                                  <xsl:text>Amplified Edition, 2nd</xsl:text>
                               </xsl:when>
+                              <xsl:when test="@xml:id='a3'">
+                                 <xsl:text>Amplified Edition, 3rd</xsl:text>
+                              </xsl:when>
                            </xsl:choose>
                         </a>
                      </div>
@@ -328,6 +331,9 @@
                                 </xsl:when>
                                 <xsl:when test="@xml:id='a2'">
                                    <xsl:text>Amplified Edition, 2nd, Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='a3'">
+                                   <xsl:text>Amplified Edition, 3rd, Notes</xsl:text>
                                 </xsl:when>
                              </xsl:choose>
                           </a>
@@ -488,7 +494,7 @@
                <xsl:when test="@xml:id='a2'">
                   <xsl:text>Notes: Amplified Edition, 2nd</xsl:text>
                </xsl:when>
-               <xsl:when test="@xml:id='a2'">
+               <xsl:when test="@xml:id='a3'">
                   <xsl:text>Notes: Amplified Edition, 3rd</xsl:text>
                </xsl:when>
             </xsl:choose>
@@ -1084,6 +1090,9 @@
                            <xsl:when test="ancestor::*/@wit='#a2'">
                               <xsl:text>2nd Amplified Edition</xsl:text>
                            </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a3'">
+                              <xsl:text>3rd Amplified Edition</xsl:text>
+                           </xsl:when>
                         </xsl:choose>
                      </div>
                   </xsl:if>
@@ -1203,6 +1212,9 @@
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a2'">
                               <xsl:text>2nd Amplified Edition</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a3'">
+                              <xsl:text>3rd Amplified Edition</xsl:text>
                            </xsl:when>
                         </xsl:choose>
                         (<xsl:value-of select="translate(ancestor::*/@wit, '#', '')"/>)
