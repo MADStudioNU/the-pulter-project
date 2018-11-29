@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.65">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Hope</title>
+        <title type="sub">Poem #65</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_179.jpg" xml:id="f7610_179"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Scott-Baumann</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_000"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">165</fw><seg>The Hope<note type="physical">poem in different hand from main scribe</note></seg>
+                January   : 1665 :</rdg>
+            <rdg wit="#ee"><seg>The Hope<note type="physical">This poem is in a different hand from that of the main scribe, probably Pulter’s. Below the title is the date “January, 1665” also in Pulter’s hand.</note></seg></rdg>
+            <rdg wit="#ae"><seg>The Hope<note type="critical">In both this poem’s title reference to ‘The Hope’ and its narrative of reduction to dust, Pulter may allude to the Book of Common Prayer (which laid out the forms of worship for the post-Reformation church in England) and especially its burial service: “Forasmuch it hath pleased Almighty God of his great mercy to take unto himself the soul of our dear brother here departed: we therefore commit his body to the ground; earth to earth, ashes to ashes, dust to dust; in sure and certain hope of the Resurrection to eternal life, through our Lord Jesus Christ; who shall change our vile body, that it may be like unto his glorious body, according to the mighty working, whereby he is able to subdue all things to himself.” (See ‘Dust in ‘The Order for The Burial of the Dead’ in Curations for this poem.)</note></seg>
+                January 1665
+            </rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">From its opening, “Dear Death ... I’ll throw myself into thy arms”, this poem evokes the panache and paradox of John Donne’s “Holy Sonnets” (See ‘Dear Death’ in Curations for this poem). In his poem “Batter my heart”, Donne deploys similar erotic metaphors of embrace, while his ‘Death, be not proud’ addresses Death directly as Pulter does here  (See also Pulter’s poem <ref type="pp-poem-ref" corresp="19">“The Welcome” [Poem 19]</ref> which opens “Dear death thou’rt welcome…”). Pulter’s characteristic approach, though, is to infuse this daring address to death with another register of imagery, that of alchemy: God breaks down and builds up the speaker not through ravishment, as with Donne, but through chemical transformation. In the original manuscript, this poem’s only punctuation is the full stop halfway through the final line. This provides a sense of completion after the uplifting hope that God “Will raise me unto life”. Yet this hope is undercut by several other formal features: with fifteen lines, she extends beyond sonnet length; using a triplet after six couplets, she creates the anticipation of a further line which is not fulfilled; after the full stop in line 15 she creates abrupt uncertainty with the half line “I know not how”, a thought left hanging. The poem’s form questions its promised “hope”. (See Alice Eardley, ‘“I haue not time to point yr booke ... which I desire you yourselfe to doe”: Editing the Form of Early Modern Manuscript Verse’ in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Elizabeth Scott-Baumann and Ben Burton [Oxford: Oxford University Press, 2014], pp. 162-78).</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Deare Death deſolve theiſe mortall charms</rdg>
+            <rdg wit="#ee">Dear Death, dissolve these mortal charms,</rdg>
+            <rdg wit="#ae">Dear Death, dissolve these mortal charms</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">And then Ile throw my ſelfe into thy arms</rdg>
+            <rdg wit="#ee">And then I’ll throw myself into thy arms;</rdg>
+            <rdg wit="#ae">And then I’ll throw myself into Thy arms.</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Then though mayest uſe my carkes as thou lust</rdg>
+            <rdg wit="#ee">Then thou may’st use my carcass as thou <seg>lust<note type="gloss">choose; please</note></seg>,</rdg>
+            <rdg wit="#ae">Then Thou mayest use my <seg>carcass<note type="gloss">dead body</note></seg> as Thou lust</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Untill my boans (and little Luz) bee dust</rdg>
+            <rdg wit="#ee">Until my bones (and little <seg>luz<note type="critical">also known as the “os sacrum,” or sacred bone: a triangular bone low in the spine; in rabbinical legend, the nucleus of the body at the Resurrection</note></seg>) be <seg>dust<note type="critical">disintegrated matter; also original, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>:</rdg>
+            <rdg wit="#ae">Until my bones (and little <seg>luz<note type="critical">an esoteric term for a tiny spinal bone, originating from the Hebrew word for a nut and thought to be the seed of rebirth at the Day of Judgement. Some writers, like Nicholas Culpeper, dismissed the luz as a “ridiculous fable” (See ‘The “little luz”’ in Curations for this poem).</note></seg>) be dust.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Naye when that handfull is blow’n all about</rdg>
+            <rdg wit="#ee">Nay, when that handful is blown all about,</rdg>
+            <rdg wit="#ae">Nay, when that handful is blown all about</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Yett still the vitale ſalt will bee found out</rdg>
+            <rdg wit="#ee">Yet still the <seg>vital salt<note type="gloss">The alchemist Paracelsus expanded the Arabic doctrine that two principles, sulfur and mercury, were the roots of all things by adding a third principle, salt.</note></seg> will be found out;</rdg>
+            <rdg wit="#ae">Yet still the <seg>vital salt<note type="critical">salt was one of the three first principles in alchemy, according to Paracelsus, along with mercury and sulphur. Salt represented the body and was found in the ashes (see Lyndy Abraham, <title rend="italic">Dictionary of Alchemical Imagery</title>, Cambridge: CUP, 2001). In Matthew 5.13 of the Bible, man is also described as “the salt of the earth”.</note></seg> will be found out;</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">And when the vapour is breath’d out in Thunder</rdg>
+            <rdg wit="#ee">And <seg>when the vapor is breathed out in thunder<note type="critical">a theory of the source of thunder; see, e.g., “Thunder proceeds from a vapor lifted up from the earth.” Stephen Gosson, <title rend="italic">The Trumpet of War</title> (London, 1598), A3r.</note></seg></rdg>
+            <rdg wit="#ae">And when the vapour is breathed out in thunder</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Unto poore Mortalls Loſs, or paine, or wonder</rdg>
+            <rdg wit="#ee">Unto poor mortals’ loss, or pain, or wonder,</rdg>
+            <rdg wit="#ae">Unto poor mortals’ loss, or pain, or wonder,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">And all that is in thee to Atoms turn’d</rdg>
+            <rdg wit="#ee">And all that is in thee to <seg>atoms<note type="gloss">in ancient Greek philosophy and new seventeenth-century science, minute and indivisible particles of which matter is composed</note></seg> turned,</rdg>
+            <rdg wit="#ae">And all that is in Thee to <seg>atoms<note type="gloss">the smallest possible particle of which all matter is made</note></seg> turned</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And even thoſe Atoms in this Orb is burn’d</rdg>
+            <rdg wit="#ee">And even those atoms in this <seg>orb<note type="gloss">Earth</note></seg> is burned,</rdg>
+            <rdg wit="#ae">And even those atoms in <seg>this orb<note type="gloss">the earth; possibly also the circular vessel used for distillation in alchemy (see ‘Alchemical Circles’ in Curations for Poem 1).</note></seg> is burned,</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Yett still that God that can anihillate</rdg>
+            <rdg wit="#ee">Yet still that God that can annihilate</rdg>
+            <rdg wit="#ae">Yet still that God that can annihilate</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">This all, and itt of nothinge recreate</rdg>
+            <rdg wit="#ee">This all, and it <seg>of nothing recreate<note type="gloss">the idea that the universe was created by God ex nihilo (“from nothing”) was a point of theological doctrine and debate.</note></seg>,</rdg>
+            <rdg wit="#ae">This all, and it of nothing recreate,</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft"><seg>E[<del>e</del>]ven<note type="physical">first “e” blotted out after “E”</note></seg> Hee that hath ſupported mee till now</rdg>
+            <rdg wit="#ee">Even He that hath supported me till now,</rdg>
+            <rdg wit="#ae">Even He that hath supported me till now,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">To whom my ſoule doth praye and humbly bow</rdg>
+            <rdg wit="#ee">To whom my soul doth pray and humbly bow,</rdg>
+            <rdg wit="#ae">To whom my soul doth pray and humbly bow,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Will raiſe mee unto liffe. I know not <seg>how<note type="physical">remaining third of page blank</note></seg></rdg>
+            <rdg wit="#ee">Will <seg>raise me unto life<note type="gloss">allusion to the process, predicted in biblical book of Revelation, by which souls will be restored to their bodies and raised to heaven at the Resurrection, also known as the second coming of Christ or Final Judgment</note></seg>. I know not how.</rdg>
+            <rdg wit="#ae">Will raise me unto life. I know not how</rdg>
+        </app>
+      </l>
+     
+    </body>
+  </text>
+</TEI>
