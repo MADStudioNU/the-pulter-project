@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.72">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Two Mountebanks (Emblem 6)</title>
+        <title type="sub">Poem #72</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_192.jpg" xml:id="f7610_192"/>
+      <graphic url="./document_images/7610_193.jpg" xml:id="f7610_193"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Samantha Snively</persName> and <persName>Frances E. Dolan</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 6]</rdg>
+            <rdg wit="#ee">Two Mountebanks (Emblem 6)</rdg>
+            <rdg wit="#ae">Two Mountebanks</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">Our “amplified” editions seek to make the poems as accessible as possible by modernizing spelling and punctuation and providing only brief definitions for words, while discursive notes and the materials we gather for the “curations” section place Pulter’s poems into conversations. Then we use the notes and the materials we gather for the “curations” section to place Pulter’s poems into conversations. As we build the curations for a given poem—provisional and quirky as they are—we keep returning to the poem, re-reading, rethinking, and adding layers to the notes. We hope to show that Pulter was intellectually and politically embedded rather than isolated, taking up issues, genres, and tropes that also interested her contemporaries and that sometimes accrue unpredictable salience in later periods. Rather than focusing only on possible sources or influences, we cast a wide net both within the seventeenth century and outside it, trying to catch cultural materials Pulter might have engaged, some she excludes or ignores, and even some she probably could never have imagined, but that might stir readers today to make new connections (to Harry Potter, for instance). In other words, our curations don’t precede the poems, nor are they implied by the poems—as if the poem gathers them to itself (although it can sometimes feel that way) or hales them forth. Instead, as curators we weave the poem into a web of relations, seeking to open out rather than close down interpretive possibilities.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">One of Pulter’s two emblems featuring a poisonous duel, “Two Mountebanks” can be read as a commentary upon the medical marketplace in seventeenth-century England, as well as a reflection on the very real danger to patients’ bodies that doctors posed. In early modern England, patients had a wide range of medical practitioners to choose from. Licensed physicians from the College of Physicians in London were classically educated and skilled, but often unaffordable. Cheaper options abounded: surgeons could set bones, fix wounds, and administer medicine, but their knowledge was often experiential and, the College claimed, lacking an educated foundation. Apothecaries and chemists could make and administer remedies, but given the English fear of being poisoned by malicious or inexperienced doctors, apothecaries and chemists had to assert their legitimacy and authority continually. Those in the country had to make do with the care options around them—often, a traveling doctor, local midwife, or lady of the house (Wendy Wall, <title rend="italic">Staging Domesticity: Household Work and English Identity in Early Modern Drama</title> [Cambridge University Press, 2002]). Even as many lay people had some knowledge of how to heal, the College of Physicians was trying to make medical practice by non-College members illegal, claiming that unscrupulous or uneducated quacks could prey on patients and cause serious harm. 
+                  Much of educated early modern medicine was Galenic, based on the writings of Galen of Pergamon (129-200/216 AD), a Greek philosopher and surgeon. He believed that the body was governed by four humors (black bile, yellow bile, phlegm, and blood), and that health was achieved by keeping these humors in balance, through careful regulation of food, environment, activity, and personality. Another significant paradigm in the seventeenth century came from the writings of Theophrastus von Hohenheim, otherwise known as Paracelsus (1493-1541). Paracelsus based his chemical remedies on a thorough study of alchemy and the natural world. His writings taught that “like cures like”: if a disease had a chemical origin, it could be cured by a specific chemical remedy, rather than a generalized rebalancing of the humors. Paracelsus brought toxic chemicals like arsenic and mercury into common use, and English patients worried about the introduction of poisons into their remedies. Medical practitioners also worried about the consequences of misunderstanding Paracelsian doctrine. Without careful study, Paracelsus’ “like cures like” doctrine could produce toxic remedies in the hands of unscrupulous doctors like those in Pulter’s poem (Tanya Pollard, “‘No Faith in Physic’: Masquerades of Medicine Onstage and Off,” in <title rend="italic">Disease, Diagnosis and Cure on the Early Modern Stage</title>, ed. Stephanie Moss and Kaara Petersen [Ashgate, 2004]). Some early modern plays reflect this fear as well: in Act 4, scene 1 of <title rend="italic">Romeo and Juliet</title>, Friar Laurence gives Juliet a potion to fake her death. It is so convincing that Romeo believes her dead and subsequently poisons himself. 
+                  The two mountebanks’ weapons of choice draw upon these two dominant medical paradigms in the seventeenth century: the young gallant’s dressed dish of toads and the chemical poison verdigris echo Paracelsian doctrines of treating diseases with chemical compounds, while the old mountebank turns to classical philosophy and poisons found in nature, a practice closer to Galenism. The young mountebank’s toad-poison causes the older much agony, but he eventually recovers: since his poison had a chemical origin, it presumably could be cured by chemicals as well. In the end, the older mountebank succeeds because of his familiarity with classical knowledge, opposing “youthful” “wit” with “sage” knowledge of classics and the virtues of plants.
+                  However, the final lines of the poem present a paradox: Pulter admonishes her readers to trust their “betters” and not rely on their own wit, but the “better” she uses as an object lesson in this poem is the older mountebank, who remains a dubious medical authority despite his classical training. No one really wins this struggle over knowledge—the two contestants remain mountebanks trading poison. So what counts as reliable knowledge, and who can be trusted with medical authority? In order to discern this, and to avoid false peddlers of knowledge, one must use one’s wit. The poem seems to question the purpose of fighting over medical authority, and to cast suspicion on healers who attempt to build their own reputations by discrediting others. Readers are left with the realization that no medical knowledge is “perfect” or entirely trustworthy.
+              </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Two Mountebancks contended for A Stage</rdg>
+            <rdg wit="#ee">Two <seg>mountebanks<note type="gloss">peddlers of quack medicines</note></seg> contended for a <seg>stage<note type="gloss">mountebanks attracted crowd by performing tricks on a “bank,” bench or stage, usually the counter on which street vendors displayed goods to the public</note></seg>,</rdg>
+            <rdg wit="#ae">Two <seg>mountebanks<note type="critical">Mountebanks were largely considered early modern quacks. The <title rend="italic">Oxford English Dictionary</title> records that a “quack” is “A person who dishonestly claims to have medical or surgical skill, or who advertises false or fake remedies; a medical impostor” ("quack, n.2."). A mountebank, however, also served as public entertainment: “An itinerant charlatan who sold supposed medicines and remedies, frequently using various entertainments to attract a crowd of potential customers.”</note></seg> contended for a <seg>stage<note type="critical">For more on the early modern association of mountebanks and stages, see “Curations.” Thomas Coryat, for instance, notes that the word “mountebank” may derive from Italian for “one who mounts a stage.”</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">A Spruce Young Gallant, t’other <seg>well<note type="physical">erasure of earlier illegible letters under “ll”</note></seg> in Age</rdg>
+            <rdg wit="#ee">A <seg>spruce<note type="gloss">brisk, dapper in appearance</note></seg> young gallant, t’other well in age.	</rdg>
+            <rdg wit="#ae">A spruce young gallant, t’other well in age.</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">The various brags that ffurth’red this contention</rdg>
+            <rdg wit="#ee">The various <seg>brags<note type="gloss">boasts, pompous displays</note></seg> that furthered this contention</rdg>
+            <rdg wit="#ae">The various brags that furthered this contention</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Are too too tedious in this place to mention</rdg>
+            <rdg wit="#ee">Are too too tedious in this place to mention.</rdg>
+            <rdg wit="#ae">Are too, too tedious in this place to mention.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">The Governour of the Town did thus <seg>decide<note type="physical">thick ink on “c” and erasure or blurring of earlier illegible letter</note></seg></rdg>
+            <rdg wit="#ee">The governor of the town did thus decide</rdg>
+            <rdg wit="#ae">The governor of the town did thus decide</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">That by their Antidotes they Should bee tryed</rdg>
+            <rdg wit="#ee">That by their antidotes they should be <seg>tried<note type="gloss">tested</note></seg>.</rdg>
+            <rdg wit="#ae">That by their antidotes they should be <seg>tried<note type="gloss">tested and evaluated</note></seg></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Each of them poyſon Should the other give</rdg>
+            <rdg wit="#ee">Each of them poison should the other give,</rdg>
+            <rdg wit="#ae">Each of them poison should the other give,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">And <add place="below">^</add><add place="above">hee</add> that by Preparatives did live</rdg>
+            <rdg wit="#ee">And he that by <seg>preparatives<note type="gloss">medicines; preliminary acts; omens or warnings; acts that exemplify subsequent cases</note></seg> did live</rdg>
+            <rdg wit="#ae">And he that by <seg>preparatives<note type="gloss">medicines to prepare patient for treatment</note></seg> did live</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Should have the preſent Stage &amp; future Glory</rdg>
+            <rdg wit="#ee">Should have the present stage and future glory,</rdg>
+            <rdg wit="#ae">Should have the present stage and future glory,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And the defunct Should live in this Sad Story</rdg>
+            <rdg wit="#ee">And the defunct should live in this <seg>sad story<note type="gloss">this poem; his life</note></seg>.</rdg>
+            <rdg wit="#ae">And the <seg>defunct<note type="gloss">the one who died</note></seg> should live in this sad story.</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The Lots were drawn the Young man first did dreſs</rdg>
+            <rdg wit="#ee">The lots were drawn, the young man first did <seg>dress<note type="gloss">prepare</note></seg></rdg>
+            <rdg wit="#ae">The lots were drawn. The young man first did dress</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">An Ugly Toad in Sippets for his Meſs</rdg>
+            <rdg wit="#ee">An ugly toad in <seg>sippets<note type="gloss">bread pieces used for dipping</note></seg> for his <seg>mess<note type="gloss">serving of food</note></seg>,</rdg>
+            <rdg wit="#ae">An ugly <seg>toad<note type="critical">William Ramesey, the personal physician of Charles II, writing in 1665, notes that toads emit poison through their “urine, spittle, and breath, and also by the bite” (<title rend="italic">Life’s Security</title>, 226-229). He also records that they are “pernicious, by their quality and cold juice which they yield to such as eat them” (229). See the extracts from William Ramesey in “Curations.”</note></seg> in <seg>sippets<note type="gloss">pieces of bread used for dipping in sauce</note></seg> for his mess,</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">With Verdigrease for Sauce, this hee preſents</rdg>
+            <rdg wit="#ee">With <seg>verdigris<note type="gloss">greenish colored poisonous material forming on metals</note></seg> for sauce, this he presents,</rdg>
+            <rdg wit="#ae">With <seg>verdigris<note type="gloss">A green or greenish blue substance obtained artificially by putting acid on thin plates of copper (or a green rust naturally forming on copper and brass). Verdigris was often used as a pigment, as a dye, and in medicine. The young quacksalver doubles the doses of poison he serves up. We find a similar poison-on-poison recipe in Dr. Seuss’s How the Grinch Stole Christmas (1957), which describes the Grinch as “a three-decker sauerkraut and toadstool sandwich / With arsenic sauce.”</note></seg> for sauce. This he presents,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Which the ould Mountebanck Sadly Reſents</rdg>
+            <rdg wit="#ee">Which the old mountebank sadly <seg>resents<note type="gloss">feels injury or anger; smells out, detects, or perceives</note></seg>;</rdg>
+            <rdg wit="#ae">Which the old mountebank sadly resents;</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Yet hee with ma<add place="below">^</add><add place="above">n</add>y &ff;aces eat it up</rdg>
+            <rdg wit="#ee">Yet he with many <seg>faces<note type="gloss">expressions</note></seg> <seg>ate<note type="physical">manuscript has “eat,” as in l. 31 below</note></seg> it up.</rdg>
+            <rdg wit="#ae">Yet he with many faces <seg>ate<note type="physical">The manuscript has “eat,” as in line 31.</note></seg> it up.</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">The Sauce he most unwilling did Sup</rdg>
+            <rdg wit="#ee">The sauce he most unwilling did sup,</rdg>
+            <rdg wit="#ae">The sauce he most unwilling did sup,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">&ff;or the Young Quacksalver would never lean</rdg>
+            <rdg wit="#ee">For the young <seg>quacksalver<note type="gloss">charlatan physician</note></seg> would never lean</rdg>
+            <rdg wit="#ae">For the young <seg>quacksalver<note type="gloss">false doctor or medical practitioner. According to the <title rend="italic">OED</title>, “quacksalver” was in common usage in the seventeenth century, but in the eighteenth century was replaced by “quack,” a term still in use today.</note></seg> would never <seg>lean<note type="gloss">let up</note></seg></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Till like Jack Sprat hee lickt the platter clean</rdg>
+            <rdg wit="#ee">Till, <seg>like Jack Sprat<note type="critical">“lean” means “rest” but this word also plays on a meaning made explicit in the next line, to “make lean or thin.” According to the traditional rhyme: “Jack Sprat could eat no fat, / His wife could eat no lean: / And so betwixt them both, you see, / They lick'd the platter clean.”</note></seg>, he licked the platter clean.</rdg>
+            <rdg wit="#ae"><seg>Till like Jack Sprat he licked the platter clean.<note type="critical">Alice Eardley glosses this couplet as follows: “the young quacksalver would not bend in his resolve to force the older mountebank to consume the whole of his concoction” (<title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, ed. Eardley [Toronto:  Iter/Center for Reformation and Renaissance Studies, 2014]). The reference to Jack Sprat refers to an oft-repeated proverb: “Jack Sprat he loved no fat, and his wife she lov’d no lean: / And yet betwixt them both, they lick’t the platters clean” (John Ray, <title rend="italic">A Collection of English Proverbs</title> [Cambridge, 1678], p. 293). While that proverb draws attention to the Sprats’ team effort, here the younger mountebank forces the older one to lick up every bit of the poisoned mess on his own.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Then looking that hee Should have &ff;al’n &amp; died</rdg>
+            <rdg wit="#ee">Then, looking that he should have fall'n and died,</rdg>
+            <rdg wit="#ae">Then looking that he should have fall’n and died</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">his Young Antagonist hee did deride</rdg>
+            <rdg wit="#ee">His young antagonist he did <seg>deride<note type="gloss">laugh in scorn</note></seg>,</rdg>
+            <rdg wit="#ae">His young antagonist he did <seg>deride<note type="gloss">mock</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Saying</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_192" n="95r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_192"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_192"/>
+            </rdg>
+        </app>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Saying you gave to me a &ff;ulſome diſh</rdg>
+            <rdg wit="#ee">Saying, “You gave to me a <seg>fulsome<note type="gloss">filling or hard to digest; abundant; excessive; disgusting; lewd</note></seg> dish,</rdg>
+            <rdg wit="#ae">Saying, “you gave to me a <seg>fulsome<note type="critical">“Fulsome” has a number of meanings, many of which might be possible here. It can be used as an adjective to describe something that is full of some material, abundant or comprehensive. A rarer usage, contemporary with Pulter, means “offending against accepted standards of morality, morally reprehensible, deplorable,” which would certainly describe a dish of poison. “Fulsome” can also mean wearisome or tedious. When used in reference to food, it means “coarse, heavy, filling; difficult to digest, cloying” or “sickening, nauseating (in taste), sickly-sweet.” Fulsome can also describe something that is physically disgusting, filthy, or offensive to the sense of smell. Used in this poem, it points our attention to the way that poison overwhelms all the senses; as a metaphor for false medical knowledge, as Pulter uses it here, it impresses readers with the total threat to their bodies that false doctors pose.</note></seg> dish,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">But I will neatly Satiſfie your wiſh</rdg>
+            <rdg wit="#ee">But I will neatly satisfy your wish.</rdg>
+            <rdg wit="#ae">But I will neatly satisfy your wish.</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Ile offer what’s <seg><add place="below">\</add><add place="above">is \</add><note type="physical"> in different hand from main scribe</note></seg> pleaſing to your <seg>ſight<note type="physical">may correct earlier letters, especially under “i” and “h”</note></seg></rdg>
+            <rdg wit="#ee">I’ll offer what is pleasing to your sight,</rdg>
+            <rdg wit="#ae">I’ll offer what is pleasing to your sight:</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Nought but this little Peice of Acconite</rdg>
+            <rdg wit="#ee">Naught but this little piece of <seg>aconite<note type="gloss">poisonous plant, wolfsbane</note></seg>,</rdg>
+            <rdg wit="#ae">Nought but this little piece of <seg>aconite<note type="gloss">wolfsbane: a poisonous plant</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Which as Philoſophers doe all preſume</rdg>
+            <rdg wit="#ee">Which, as philosophers do all presume,</rdg>
+            <rdg wit="#ae">Which, as philosophers do all presume,</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Had it’s Originall from Serberus Spume</rdg>
+            <rdg wit="#ee">Had its original from <seg>Cerberus’s<note type="gloss">three-headed dog of underworld</note></seg> <seg>spume<note type="gloss">foam</note></seg>.</rdg>
+            <rdg wit="#ae">Had its original from <seg>Cerberus’s<note type="gloss">3-headed dog; guards underworld</note></seg> <seg>spume<note type="gloss">foam</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">When Strong Alcidos drew him up to Earth</rdg>
+            <rdg wit="#ee">When strong <seg>Alcides<note type="gloss">Hercules</note></seg> drew him up to Earth</rdg>
+            <rdg wit="#ae">When strong <seg>Alcides<note type="gloss">Hercules</note></seg> drew him up to Earth,</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">His foam gave (Hellish) Acconite its Birth</rdg>
+            <rdg wit="#ee"><seg>His foam gave hellish aconite its birth.”<note type="gloss">Legend has it that aconite grew from the foam of Cerberus’s mouth, when Hercules dragged him from Hades.</note></seg></rdg>
+            <rdg wit="#ae">His foam gave (hellish) aconite its birth.</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">The young Man fain would have this bit Refuſ’d</rdg>
+            <rdg wit="#ee">The young man <seg>fain<note type="gloss">eagerly</note></seg> would have this bit refused;</rdg>
+            <rdg wit="#ae">The young man <seg>fain<note type="gloss">gladly, with delight</note></seg> would have this bit refused.</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">The ould Man to Baf’ling beeing not Uſ’d</rdg>
+            <rdg wit="#ee">The old man to <seg>baffling<note type="gloss">being treated with contempt</note></seg> being not used,</rdg>
+            <rdg wit="#ae">The old man to <seg>baffling<note type="gloss">treating someone with scorn; insult</note></seg> being not used</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Gave him the Root which hee noe Sooner Eat</rdg>
+            <rdg wit="#ee">Gave him the root, which he no sooner ate</rdg>
+            <rdg wit="#ae">Gave him the root, which he no sooner ate</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">But his Sad Heart and every vein did Beat</rdg>
+            <rdg wit="#ee">But his sad heart and every vein did beat,</rdg>
+            <rdg wit="#ae">But his sad heart and every vein did beat.</rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">His Mouth to either Ear did Stretch Soe wide</rdg>
+            <rdg wit="#ee">His mouth to either ear did stretch so wide,</rdg>
+            <rdg wit="#ae">His mouth to either ear did stretch so wide</rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">And in this horrid poſture Strait he died</rdg>
+            <rdg wit="#ee">And in this horrid posture straight he died.</rdg>
+            <rdg wit="#ae">And in this horrid posture <seg>straight<note type="critical">immediately, right away. In the manuscript, “strait,” which carries the sense of close-fitting, tight, and confined. As a noun, adverb, and adjective, “strait” may give the line an alternate reading of “In this horrid posture confined he died...,” where “strait” modifies the gallant’s posture.</note></seg> he died.</rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Then let this Teach all in their youth full Age</rdg>
+            <rdg wit="#ee">Then let this teach all in their youthful age</rdg>
+            <rdg wit="#ae">Then let this teach all in their youthful age</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Not to contest with thoſe are ould and Sage</rdg>
+            <rdg wit="#ee">Not to contest with <seg>those<note type="gloss">those who</note></seg> are old and <seg>sage<note type="gloss">wise</note></seg>.</rdg>
+            <rdg wit="#ae">Not to contest with those are old and sage;</rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Nor like This Gallant on their Witt Relie</rdg>
+            <rdg wit="#ee">Nor like this <seg>gallant<note type="gloss">fashionable gentleman</note></seg> on their wit rely,</rdg>
+            <rdg wit="#ae">Nor like this gallant on their wit rely,</rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Least they like him e’re long doe grin̄ing lie</rdg>
+            <rdg wit="#ee">Least they, like him, ere long do grinning lie;</rdg>
+            <rdg wit="#ae">Least they like him e’re long do grinning lie.</rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">This bould Young Quack his proud Attempts did feild</rdg>
+            <rdg wit="#ee"><seg>This bold young quack, his proud attempts did feild;<note type="gloss">the young man is defeated by his own prideful shows; “feild,” in early modern usage, captures many of the following meanings: affected by touch; felled, as made to fall; foiled; failed; fielded, as in battled.</note></seg></rdg>
+            <rdg wit="#ae">This bold young quack his proud attempts did <seg>field<note type="gloss">In the manuscript, “feild,” which in early modern usage captures many of the following meanings: affected by touch; felled, as made to fall; foiled; failed; fielded, as in battled.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft"><seg>Then<note type="physical">in left margin</note></seg> Let mee ever to my betters yield</rdg>
+            <rdg wit="#ee">Then let me ever to my betters yield.</rdg>
+            <rdg wit="#ae">Then let me ever to my betters yield.</rdg>
+        </app>
+      </l>
+    </body>
+  </text>
+</TEI>
