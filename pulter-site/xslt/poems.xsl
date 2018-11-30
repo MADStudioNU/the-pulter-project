@@ -2299,6 +2299,45 @@
     </pp:poem>
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
+      <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>dissolution</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>soul/body</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>atoms</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+        <pp:keyword>creation</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>resurrection</pp:keyword>
+        <pp:keyword>mortality</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>mortality</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="66">
       <pp:title>Made When My Spirits Were Sunk Very Low</pp:title>
