@@ -334,8 +334,6 @@ gulp.task('xslt:sitemap', function () {
     function (data) {
       console.log('Hi! Sitemap Builder is here!');
       var poemsInManifest = data;
-      console.log('Poems in the manifest: ' + poemsInManifest.length + '.');
-
       var poemUrls = [];
       var triads = poemsInManifest.map(function (poemObject) {
         var slug = dashify(poemObject.seo, { condense: true });
