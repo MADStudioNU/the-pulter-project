@@ -53,9 +53,35 @@
   <xsl:variable name="amplifiedEditionIsAvailable" select="//tei:witness[@xml:id = $amplifiedEditionId]"/>
 
   <!-- Meta desc witness name chunk -->
-  <xsl:variable name="amplifiedEditionWitnessName">
-    <xsl:value-of
-      select="normalize-space(//tei:witness[@xml:id = $amplifiedEditionId]//text()[ancestor::tei:persName])"/>
+  <xsl:variable name="amplifiedEditionWitnesses">
+    <xsl:for-each select="//tei:witness[@xml:id = $amplifiedEditionId]//tei:persName">
+      <xsl:choose>
+        <xsl:when test="not(position() = last())">
+          <xsl:element name="span">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'who'"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+          </xsl:element>
+          <xsl:text> </xsl:text>
+          <xsl:element name="span">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'by'"/>
+            </xsl:attribute>
+            <xsl:text>and</xsl:text>
+          </xsl:element>
+          <xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:element name="span">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'who'"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+          </xsl:element>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:variable>
 
   <!-- Meta desc keywords chunk -->
@@ -152,7 +178,7 @@
       <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnessName}, 2018."/>
+      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnesses}, 2018."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -374,11 +400,11 @@
       <footer class="poem-footer">
         <img class="separator" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
         <div class="meta">
-          <xsl:if test="string-length($amplifiedEditionWitnessName)">
+          <xsl:if test="string-length($amplifiedEditionWitnesses)">
             <div class="witness">
               <p class="nl">Amplified Edition,</p>
               <p>
-                <span class="by">edited by</span><xsl:text> </xsl:text><span class="who"><xsl:value-of select="$amplifiedEditionWitnessName"/></span>
+                <span class="by">edited by</span><xsl:text> </xsl:text><span class="who"><xsl:value-of select="$amplifiedEditionWitnesses"/></span>
                 <xsl:if test="$editorialNote">
                   <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">i</a>
                 </xsl:if>
