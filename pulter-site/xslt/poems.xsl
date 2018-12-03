@@ -2483,7 +2483,7 @@
       <pp:title>The Turtle (Emblem 8)</pp:title>
     </pp:poem>
     <pp:poem id="75">
-      <pp:title>Scorned Medea (Emblem 9) </pp:title>
+      <pp:title>Scorned Medea (Emblem 9)</pp:title>
     </pp:poem>
     <pp:poem id="76">
       <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
