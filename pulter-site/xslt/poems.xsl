@@ -2436,6 +2436,17 @@
     </pp:poem>
     <pp:poem id="72">
       <pp:title>Two Mountebanks (Emblem 6)</pp:title>
+      <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Samantha Snively</pp:author>
+          <pp:author>Frances E. Dolan</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
