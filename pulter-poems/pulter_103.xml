@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.103">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Lion and the Fox (Emblem 38)</title>
+        <title type="sub">Poem #103</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_235.jpg" xml:id="f7610_235"/>
+      <graphic url="./document_images/7610_236.jpg" xml:id="f7610_236"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Victoria E. Burke</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_000"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's no catchword -->
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">CATCHWORD</fw>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's none -->
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="LINE TYPE"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 38]</rdg>
+            <rdg wit="#ee">The Lion and the Fox (Emblem 38)</rdg>
+            <rdg wit="#ae">Emblem 38</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations (such as tildes) are expanded with added letters in italics (with the exception of “y<add place="above">e</add>” which is rendered as “the”), superscriptions are lowered, colons indicating abbreviations are removed, and “ff” is modernized to “F.” The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">This emblem depicts an ill lion being cured by a fox who feeds him slaughtered apes. Pulter’s lion is a tyrannical king, and her repeated use of political language in the emblem (subjects, tyrant, highness, court, sovereign, royal) connotes the context of human rulers. She may be alluding to Machiavelli’s controversial advice tract <title rend="italic">The Prince</title>, as well as to the medieval beast fable tradition of the very crafty Reynard the Fox. As with all of Pulter’s emblems no actual picture is supplied, but the vivid depictions of animals and their behaviour clearly fit the genre’s traditional function of teaching a moral lesson (in this case, that of avoiding corrupt rulers and doctors).</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">The Lyon that of late Soe Domineer’d</rdg>
+            <rdg wit="#ee">The lion–that of late so domineered,</rdg>
+            <rdg wit="#ae">The Lyon that of late Soe Domineer’d</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">And, of his Subjects was not lov’d but fear’d</rdg>
+            <rdg wit="#ee">And of his subjects was not loved but feared–</rdg>
+            <rdg wit="#ae">And, of his Subjects was <seg>not lov’d but fear’d<note type="critical">While the lion is proverbially the king of the beasts, there may be an additional context of some of the language and imagery from Niccolò Machiavelli’s political treatise <title rend="italic">The Prince</title> (1513, first printed in Italian in 1532, and first printed in English in 1640). Chapter 17 of <title rend="italic">Nicholas Machiavel’s Prince … Translated out of Italian into English; by E.D…</title> (1640) is headed “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” (p. 128). The issue is resolved as follows: “I answer, a man would wish hee might bee the one and the other: but because hardly can they subsist both together, it is much safer to be feard, than be lov’d” (p. 130; see “Curations”). In line two of this emblem, Pulter notes that this lion was “not lov’d but fear’d.” A second way in which Pulter may be alluding to Machiavelli’s treatise is in her juxtaposition of a lion and a fox. In Chapter 18 of Machiavelli’s treatise (“In what manner Princes ought to keep their words,” p. 135) is the famous advice that a ruler should be both a lion and a fox, in that he should be both powerful and crafty (see “Curations”). Though Pulter is not making this precise point in her emblem, the brutality of her lion and the cunning of her fox may recall these archetypes. Machiavelli’s translator, Edward Dacres, acknowledges in his epistle to the reader that some people may disapprove of his decision to translate <title rend="italic">The Prince</title> into English, “For his maximes and tenents are condemnd of all, as pernicious to all Christian States, and hurtfull to all humane Societies” (sig. A4r). Pulter likely shared this common view of Machiavelli’s political theory, as is demonstrated by her firm condemnation of the lion king and his vulpine advisor.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Being Cloyd with Luxurie is Sick at last</rdg>
+            <rdg wit="#ee">Being cloyed with luxury, is sick at last;</rdg>
+            <rdg wit="#ae">Being Cloyd with Luxurie is Sick at last</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Then Doctor &ff;ox is Sent for all in hast</rdg>
+            <rdg wit="#ee">Then <seg>Doctor Fox<note type="critical">In medieval and Renaissance European beast fables, a fox was often a trickster figure; in the twelfth-century beast epic <title rend="italic">Roman de Renart</title>, the fox is summoned to address a lion king’s complaints. Most of these tales satirized the upper classes and clergy.</note></seg> is sent for all in haste.</rdg>
+            <rdg wit="#ae">Then <seg>Doctor Fox<note type="critical">Pulter is tapping into the medieval beast fable tradition of Reynard the Fox. Chaucer in “The Nun’s Priests’s Tale” of <title rend="italic">The Canterbury Tales</title> tells the story of Chaunticleer, the proud rooster who is fooled once but not twice by a fox, and William Caxton printed his translation of the history of Reynard the Fox from the Dutch in 1481 (<title rend="italic">The History of Reynard the Fox Translated and Printed by William Caxton in 1481</title>, edited by Donald B. Sands, Harvard University Press, 1960). One of Reynard’s trickster identities in the tradition is that of a false physician (for some images from a medieval manuscript, see “Curations”). Ben Jonson’s play <title rend="italic">Volpone or The Fox</title> (1607) depicts the main character (whose name translates in Latin and Italian as “fox”) disguising himself as a mountebank in act 2, scenes 2 and 3, to sell fraudulent medicines in the courtyard beneath the beautiful Celia’s window.</note></seg> is Sent for all in hast</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Hee Shakes the Glaſs and’s head, then feels his Puls’</rdg>
+            <rdg wit="#ee">He <seg>shakes the glass<note type="gloss">The doctor engages in showy (but ineffective) urinalysis.</note></seg>, <seg>and’s<note type="gloss">and his</note></seg> head, then feels his pulse,</rdg>
+            <rdg wit="#ae">Hee Shakes <seg>the Glass<note type="gloss">The flask or bottle into which the patient has provided a urine sample.</note></seg> and’s head, then feels his Puls’</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">And straight preſcribes a Medicine Revulſ</rdg>
+            <rdg wit="#ee">And straight prescribes a <seg>medicine revulse<note type="gloss">a remedy designed to draw fluids, such as blood or bile, out of the body.</note></seg>.</rdg>
+            <rdg wit="#ae">And straight prescribes a Medicine <seg>Revuls<note type="gloss">The <title rend="italic">OED</title> lists “revulse” as a verb but Pulter is using it as a noun (in the sense of “medicinal revulse”) or an adjective (modifying “Medicine” in inverted syntax) to mean a medicine which will “withdraw (humours, blood, etc.) from a part of the body by revulsion.”</note></seg></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">The Lyon trembles every vein did beat</rdg>
+            <rdg wit="#ee">The lion trembles! Every vein did beat;</rdg>
+            <rdg wit="#ae">The Lyon trembles every vein did beat</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The Doctor Sighing Said the danger’s great</rdg>
+            <rdg wit="#ee">The doctor, sighing, said, “The danger’s great.”</rdg>
+            <rdg wit="#ae">The Doctor Sighing Said the danger’s great</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">The Lyon Pants, could hardly draw his breath</rdg>
+            <rdg wit="#ee">The lion pants–could hardly draw his breath;</rdg>
+            <rdg wit="#ae">The Lyon Pants, could hardly draw his breath</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">None like A Tyrant is Soe fraid of Death</rdg>
+            <rdg wit="#ee">None like a tyrant is so ’fraid of death!</rdg>
+            <rdg wit="#ae">None like A Tyrant is Soe fraid of Death</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The Doctor that did mind nought but his gain</rdg>
+            <rdg wit="#ee">The doctor, that did <seg>mind<note type="gloss">care for</note></seg> <seg>nought<note type="gloss">nothing</note></seg> but his gain,</rdg>
+            <rdg wit="#ae">The <seg>Doctor that did mind nought but his gain<note type="critical">In the opening soliloquy of Christopher Marlowe’s play <title rend="italic">The Tragical History of Doctor Faustus</title> (1604), Faustus lists all of the subjects he claims to have mastered. After summoning Galen, the ancient authority on medicine, Faustus muses, “Be a physician, Faustus, heap up gold” (scene 1, line 14; <title rend="italic">The Norton Anthology of English Literature</title>, edited by Stephen Greenblatt et al., 9th ed., Vol. B, Norton, 2012, p. 1129). It is interesting that before he discusses the goal of medicine (“our body’s health,” line 17), he celebrates it as a means to generate wealth (just as Pulter’s Dr. Fox cares most about his fee).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Said <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> (I pray <w lemma="sir"><abbr>S<hi rend="superscript">r</hi></abbr></w>) wherabout’s <w lemma="your"><abbr>yo<hi rend="superscript">r</hi></abbr></w> pain</rdg>
+            <rdg wit="#ee">Said, “Sir, I pray, sir: whereabout’s your pain?”</rdg>
+            <rdg wit="#ae">Said S<hi rend="italic">i</hi>r (I pray S<hi rend="italic">i</hi>r) wherabout’s yo<hi rend="italic">u</hi>r pain</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">His Highnes Said, Some time I’m very chill</rdg>
+            <rdg wit="#ee">His Highness said, “Sometimes I’m very chill;</rdg>
+            <rdg wit="#ae">His Highnes Said, Some time I’m very chill</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Then burn, then Swet, doth down my &ff;ace diſtill</rdg>
+            <rdg wit="#ee">Then burn; then sweat doth down my face <seg>distill<note type="gloss">trickle, drip</note></seg>.”</rdg>
+            <rdg wit="#ae">Then burn, then Swet, doth down my Face distill</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">The Symptome’s good the Doctor Smileing Said</rdg>
+            <rdg wit="#ee">“The symptom’s good,” the doctor, smiling, said:</rdg>
+            <rdg wit="#ae">The Symptome’s good the Doctor Smileing Said</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Your Highnes Shall doe well bee not afraid</rdg>
+            <rdg wit="#ee">“Your Highness shall do well; be not afraid!</rdg>
+            <rdg wit="#ae">Your Highnes Shall doe well bee not afraid</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">There is A Sort of people ’ bout your Court</rdg>
+            <rdg wit="#ee">There is a sort of people ’bout your court–</rdg>
+            <rdg wit="#ae">There is A Sort of people ’bout your Court
+            </rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">They call them Apes, that oft have made you Sport</rdg>
+            <rdg wit="#ee">They call them apes–that oft have <seg>made you sport<note type="gloss">mocked you</note></seg>.</rdg>
+            <rdg wit="#ae">They call them Apes, that oft have made you Sport</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Their blood is Soveraign for your diſeas</rdg>
+            <rdg wit="#ee">Their blood is <seg>sovereign<note type="gloss">of remedies: superlatively efficacious or potent; of persons, superior or supreme in rank or power; holding the position of a ruler or monarch</note></seg> for your disease</rdg>
+            <rdg wit="#ae"><seg>Their blood is Soveraign for your diseas<note type="critical">The medicinal use of apes as a cure for lions is discussed by Edward Topsell in <title rend="italic">The Historie of Foure-Footed Beastes</title> (1607) and in Philemon Holland’s translation of Pliny’s <title rend="italic">The Historie of the World</title> (1601, 1634, and 1635). In his chapter “Of the Ape,” Topsell writes, “A Lyon ruleth the beasts of the earth, and a Dolphin the beasts of the sea, when the Dolphin is in age and sickness, she recouereth by eating a sea-ape: and so the Lyon by eating an ape of the earth, and therefore the Egiptians paint a Lyon eating an ape, to signifie, a sicke man curing himselfe” (p. 5). In his chapter “Of the Lyon,” Topsell notes that “They eate also Apes, but more for Phisicke then for nourishment” (p. 464), and “if hee can meete with an Ape, he deuoureth and eateth his flesh, and this is the principall remedy and medicine, which hee receiueth against all his diseases, both in youth and age, and when he groweth old, being no more able to hunt Harts, Boares, and such beasts, he exerciseth his whole strength in the hunting, and taking of Apes, whereupon he liueth totally” (p. 482). Pulter may have consulted the version of this lore from Pliny (a source she quoted elsewhere, such as in <ref type="pp-poem-ref" corresp="89">“The Marmottane” [Emblem 24]</ref>), since Pliny provides two details that she uses. These are that the apes mock the lion, and that the apes’ blood cures him: “The Lion is neuer sicke but of the peeuishnesse of his stomacke, loathing all meat: and then the way to cure him is to ty vnto him certaine shee Apes, which with their wanton mocking and making mowes [i.e., grimacing derisively] at him, may moue his patience, and driue him for the very indignitie of their malapert saucinesse, into a fit of madnesse; and then so soone as he hath tasted their bloud he is perfectly wel again: and this is the only help” (p. 202; book 8, chapter 16). Pulter has changed the mocking female apes into courtiers (“people ’bout your Court,” line 17), whose powerlessness is stressed by the pun on “Soveraign” (their sovereign, or ruler—the lion—sees their blood as sovereign, or the best cure for his illness, which he accesses by killing them). For fuller extracts from Topsell and Pliny, see “Curations.”</note></seg></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">And will <seg>the<note type="physical">line incomplete</note></seg></rdg>
+            <rdg wit="#ee">And will <seg>the<note type="physical">This line is incomplete in the manuscript.</note></seg></rdg>
+            <rdg wit="#ae">And will <seg>the<note type="critical">A space is left in the manuscript, suggesting that the poet or the scribe planned to return to complete the line.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">You know the Royall Eagle finds it good</rdg>
+            <rdg wit="#ee">You know the royal eagle finds it good;</rdg>
+            <rdg wit="#ae">You know the Royall Eagle finds it good</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">In his ould Age hee lives by Sucking blood</rdg>
+            <rdg wit="#ee">In his old age, he <seg>lives by sucking blood<note type="critical">“[T]he eagle when her beak overgroweth, sucketh blood.” <title rend="italic">The Bible and Holy Scriptures</title> (London, 1561), 228.</note></seg>.</rdg>
+            <rdg wit="#ae">In his ould Age hee <seg>lives by Sucking blood<note type="critical">In his chapter “Of Ægles,” Pliny claims there are six types of eagles (book 10, chapter 3). The royal eagle is the fifth and is “descended from the gentle and right airie of Ægles. This Ægle roial, is of a middle bignesse and of a reddish colour, a rare bird to be seene” (p. 272). He claims that all eagles “die not for age, nor vpon any sicknesse, but of very famine, by reason that the vpper beake of their bil is so far ouergrown and turns inward so much, that they are not able to open it to feed themselues” (p. 273). He doesn’t specifically mention that eagles suck blood to survive in their old age.</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Nay</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_236" n="116v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_236"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_236"/>
+            </rdg>
+        </app>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Nay <seg>if<note type="physical">above and to right of “f,” five disconnected “f”s, the first possibly “ſ”</note></seg> you’r loth, great Kings have don <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Same</rdg>
+            <rdg wit="#ee">Nay, if you’re <seg>loath<note type="gloss">reluctant</note></seg>, great kings have done the same,</rdg>
+            <rdg wit="#ae">Nay if you’r loth, great Kings have don the Same</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">&ff;or which they live Still in the book of &ff;ame</rdg>
+            <rdg wit="#ee">For which they live still in the book of fame:</rdg>
+            <rdg wit="#ae">For which they live Still in the book of Fame</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft"><seg>&ff;or<note type="physical">imperfectly erased “f” above end of this word</note></seg> fatting of their Nobles up in Cages</rdg>
+            <rdg wit="#ee">For fatting of their nobles up in cages,</rdg>
+            <rdg wit="#ae">For <seg>fatting of their Nobles up in Cages<note type="critical">Though the image of a tyrant fattening up his own nobles in cages continues the gruesome consumption imagery of the second half of the poem, the mention of cages may also recall the ruthless tyrant Tamburlaine, who keeps the captured Bajazeth, Emperor of Turkey, in a cage in acts 4 and 5 of Marlowe’s play (<title rend="italic">The Complete Works of Christopher Marlowe, Vol. 5: Tamburlaine the Great, Parts 1 and 2, and The Massacre at Paris with the Death of the Duke of Guise</title>, edited by David Fuller and Edward J. Esche, Oxford University Press, 1998, Oxford Scholarly Editions Online).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Eating their Mum̄ie <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> blood of Pages</rdg>
+            <rdg wit="#ee">Eating their <seg>mummy<note type="gloss">medicinal substance prepared from embalmed (usually human) flesh, or (dead) flesh generally; in Paracelsian alchemy, a vital principle or sovereign remedy</note></seg> with the blood of <seg>pages<note type="gloss">young servants</note></seg>.”</rdg>
+            <rdg wit="#ae">Eating their <seg>Mum<hi rend="italic">m</hi>ie<note type="gloss">Mummy or mummia is powder from an embalmed corpse, thought to have medicinal effects.</note></seg> with the blood of Pages</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">To an old Tyrant Melancholly grown</rdg>
+            <rdg wit="#ee">To an old tyrant <seg>melancholy<note type="gloss">gloomy, dejected, depressed</note></seg> grown,</rdg>
+            <rdg wit="#ae">To an old Tyrant Melancholly grown</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Noe Muſick pleaſeth but <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> dying groan</rdg>
+            <rdg wit="#ee">No music pleaseth but the dying groan</rdg>
+            <rdg wit="#ae"><seg>Noe Musick pleaseth but the dying groan<note type="critical">This may recall Herod’s slaughter of the innocents, or all the children of Bethlehem under the age of two, after the birth of Christ (Matthew 2:16-18). Like Herod who was angry that “he was mocked of the wise men,” the lion has been mocked by the apes at his court, according to the fox.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Of Innocents, then Straight <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Apes were Kil’d</rdg>
+            <rdg wit="#ee">Of innocents. Then straight the apes were killed;</rdg>
+            <rdg wit="#ae">Of Innocents, then Straight <seg>the Apes were Kil’d<note type="critical">In one of the earliest versions of the fox-physician and lion-patient story (from Phaedrus in the first century CE), the fox proposes wrapping the lion in the warm skin of a freshly killed wolf as a cure (Kenneth Varty, <title rend="italic">Reynard, Renart, Reinaert and Other Foxes in Medieval England: the Iconographic Evidence …</title>, Amsterdam University Press, 1999, p. 181).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">The Lyon Easd, The Doctors purſe was &ff;il’d</rdg>
+            <rdg wit="#ee">The lion eased; the doctor’s purse was filled.</rdg>
+            <rdg wit="#ae">The Lyon Easd, The Doctors purse was Fil’d</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">&ff;rom Such A Tyrant Heaven deliver mee</rdg>
+            <rdg wit="#ee">From such a tyrant, Heaven deliver me!</rdg>
+            <rdg wit="#ae"><seg>From Such A Tyrant Heaven deliver mee<note type="critical">Though Pulter was a royalist she was likely aware of the debates about royal tyranny during the 1640s, such as the French Huguenot tract <title rend="italic">Vindiciae contra tyrannos</title> partially translated and published by William Prynne in 1643 (David Norbrook, <title rend="italic">Writing the English Republic: Poetry, Rhetoric, and Politics, 1627-1660</title>, Cambridge University Press, 1999, p. 93). Pulter is evidently condemning the tyrant lion king in this poem, but that does not equate with pro-Parliamentarian or pro-Cromwellian sentiment in her case, reminding us of the complexity of these political issues in the mid-seventeenth century.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">And Such A Doctor let mee never See.</rdg>
+            <rdg wit="#ee">And such a doctor, let me never see.</rdg>
+            <rdg wit="#ae">And Such A Doctor let mee never See.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curled-line"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
+</TEI>
