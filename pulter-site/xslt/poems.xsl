@@ -2447,6 +2447,34 @@
           <pp:author>Frances E. Dolan</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>competition</pp:keyword>
+        <pp:keyword>medicine</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>youth</pp:keyword>
+        <pp:keyword>age</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>age</pp:keyword>
+        <pp:keyword>poison</pp:keyword>
+        <pp:keyword>performance</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>competition</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>youth</pp:tag>
+        <pp:tag>age</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>age</pp:tag>
+        <pp:tag>poison</pp:tag>
+        <pp:tag>performance</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>death</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
