@@ -135,13 +135,13 @@
       <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
       <app>
         <rdg wit="#ft">
-          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+          <pb ed="#ft" facs="#f7610_235" n="116r"/>
         </rdg>
         <rdg wit="#ee">
-          <pb ed="#ee" facs="#f7610_000"/>
+          <pb ed="#ee" facs="#f7610_235"/>
         </rdg>
         <rdg wit="#ae">
-          <pb ed="#ae" facs="#f7610_000"/>
+          <pb ed="#ae" facs="#f7610_235"/>
         </rdg>
       </app>
 
@@ -162,7 +162,7 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 38]</rdg>
-            <rdg wit="#ee">The Lion and the Fox (Emblem 38)</rdg>
+            <rdg wit="#ee">The Lion and the Fox<lb/>(Emblem 38)</rdg>
             <rdg wit="#ae">Emblem 38</rdg>
         </app>
         <app type="editorialnote">
@@ -179,9 +179,6 @@
           <rdg wit="#ft">
             <note type="headnote"></note>
           </rdg>
-          <rdg wit="#ee">
-            <note type="headnote"></note>
-          </rdg>
           <rdg wit="#ae">
               <note type="headnote">This emblem depicts an ill lion being cured by a fox who feeds him slaughtered apes. Pulter’s lion is a tyrannical king, and her repeated use of political language in the emblem (subjects, tyrant, highness, court, sovereign, royal) connotes the context of human rulers. She may be alluding to Machiavelli’s controversial advice tract <title rend="italic">The Prince</title>, as well as to the medieval beast fable tradition of the very crafty Reynard the Fox. As with all of Pulter’s emblems no actual picture is supplied, but the vivid depictions of animals and their behaviour clearly fit the genre’s traditional function of teaching a moral lesson (in this case, that of avoiding corrupt rulers and doctors).</note>
           </rdg>
@@ -191,14 +188,14 @@
       <l n="1">
         <app>
             <rdg wit="#ft">The Lyon that of late Soe Domineer’d</rdg>
-            <rdg wit="#ee">The lion–that of late so domineered,</rdg>
+            <rdg wit="#ee">The lion—that of late so domineered,</rdg>
             <rdg wit="#ae">The Lyon that of late Soe Domineer’d</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">And, of his Subjects was not lov’d but fear’d</rdg>
-            <rdg wit="#ee">And of his subjects was not loved but feared–</rdg>
+            <rdg wit="#ee">And of his subjects was not loved but feared—</rdg>
             <rdg wit="#ae">And, of his Subjects was <seg>not lov’d but fear’d<note type="critical">While the lion is proverbially the king of the beasts, there may be an additional context of some of the language and imagery from Niccolò Machiavelli’s political treatise <title rend="italic">The Prince</title> (1513, first printed in Italian in 1532, and first printed in English in 1640). Chapter 17 of <title rend="italic">Nicholas Machiavel’s Prince … Translated out of Italian into English; by E.D…</title> (1640) is headed “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” (p. 128). The issue is resolved as follows: “I answer, a man would wish hee might bee the one and the other: but because hardly can they subsist both together, it is much safer to be feard, than be lov’d” (p. 130; see “Curations”). In line two of this emblem, Pulter notes that this lion was “not lov’d but fear’d.” A second way in which Pulter may be alluding to Machiavelli’s treatise is in her juxtaposition of a lion and a fox. In Chapter 18 of Machiavelli’s treatise (“In what manner Princes ought to keep their words,” p. 135) is the famous advice that a ruler should be both a lion and a fox, in that he should be both powerful and crafty (see “Curations”). Though Pulter is not making this precise point in her emblem, the brutality of her lion and the cunning of her fox may recall these archetypes. Machiavelli’s translator, Edward Dacres, acknowledges in his epistle to the reader that some people may disapprove of his decision to translate <title rend="italic">The Prince</title> into English, “For his maximes and tenents are condemnd of all, as pernicious to all Christian States, and hurtfull to all humane Societies” (sig. A4r). Pulter likely shared this common view of Machiavelli’s political theory, as is demonstrated by her firm condemnation of the lion king and his vulpine advisor.</note></seg></rdg>
         </app>
       </l>
@@ -247,7 +244,7 @@
       <l n="9">
         <app>
             <rdg wit="#ft">The Lyon Pants, could hardly draw his breath</rdg>
-            <rdg wit="#ee">The lion pants–could hardly draw his breath;</rdg>
+            <rdg wit="#ee">The lion pants—could hardly draw his breath;</rdg>
             <rdg wit="#ae">The Lyon Pants, could hardly draw his breath</rdg>
         </app>
       </l>
@@ -303,7 +300,7 @@
       <l n="17">
         <app>
             <rdg wit="#ft">There is A Sort of people ’ bout your Court</rdg>
-            <rdg wit="#ee">There is a sort of people ’bout your court–</rdg>
+            <rdg wit="#ee">There is a sort of people ’bout your court—</rdg>
             <rdg wit="#ae">There is A Sort of people ’bout your Court
             </rdg>
         </app>
@@ -311,7 +308,7 @@
       <l n="18">
         <app>
             <rdg wit="#ft">They call them Apes, that oft have made you Sport</rdg>
-            <rdg wit="#ee">They call them apes–that oft have <seg>made you sport<note type="gloss">mocked you</note></seg>.</rdg>
+            <rdg wit="#ee">They call them apes—that oft have <seg>made you sport<note type="gloss">mocked you</note></seg>.</rdg>
             <rdg wit="#ae">They call them Apes, that oft have made you Sport</rdg>
         </app>
       </l>

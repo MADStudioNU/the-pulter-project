@@ -2778,6 +2778,40 @@
     </pp:poem>
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
+      <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>court</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>medicine</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>drink</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+        <pp:keyword>cannibalism</pp:keyword>
+        <pp:keyword>vice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>court</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
+        <pp:tag>vice</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
