@@ -353,7 +353,17 @@ gulp.task('xslt:sitemap', function () {
       var urls = pages.concat(poemUrls);
 
       urls = urls.map(function (url) {
-        return '<url><loc>' + url + '</loc></url>';
+        var priority = .5;
+
+        if (url.indexOf('/poems/vm') > -1) {
+          priority = .25
+        }
+
+        if (url.indexOf('/poems/ae') > -1) {
+          priority = .45
+        }
+
+        return '<url><loc>' + url + '</loc><priority>' + priority + '</priority></url>';
       }).join('\n');
 
       var stream = source('null.xml');

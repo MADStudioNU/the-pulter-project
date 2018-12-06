@@ -165,15 +165,10 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-122500056-2');
       </script>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <!--<meta name="description"-->
-            <!--content="A poem by Lady Hester Pulter (ca. 1607-1678){$keywordsMetaDescChunk}. Edited by {$elementalEditionWitnessName}{$elementalEditionWitnessPostfix}."/>-->
-      <meta name="description"
-            content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>
       <meta name="robots" content="noodp,noydir"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -183,10 +178,8 @@
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
-      <meta property="og:title" content="{$fullTitle} &#8226; {$projectName}" />
-      <title>
-        <xsl:value-of select="$fullTitle"/>
-      </title>
+      <meta property="og:title" content="{$fullTitle}" />
+      <title><xsl:value-of select="$fullTitle"/></title>
       <link rel="stylesheet" type="text/css" href="/styles/styles.css"/>
     </head>
   </xsl:template>

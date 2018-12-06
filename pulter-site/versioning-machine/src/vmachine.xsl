@@ -70,18 +70,16 @@
          <meta charset="utf-8"/>
          <title>
             <xsl:value-of select="$truncatedTitle"></xsl:value-of>
-            <xsl:text> - Edition Comparison</xsl:text>
+            <xsl:text> | Compare Editions</xsl:text>
          </title>
 
          <!-- PULTER-PROJECT-SPECIFIC METADATA -->
-         <meta name="description" content="Digital edition of poems authored by Hester Pulter with ability to compare multiple editions"/>
-         <meta name="robots" content="noodp,noydir" />
+         <meta name="description" content="Edition comparison tool"/>
          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-         <meta property="og:title" content="The Pulter Project • Poet in The Making"/>
-         <meta property="og:image" content="/images/pp-og-img.jpg" />
+         <meta property="og:title" content="{$truncatedTitle} | Compare Editions"/>
 
          <!-- ADD GOOGLE ANALYTICS -->
          <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
