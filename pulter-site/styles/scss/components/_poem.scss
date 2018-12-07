@@ -1571,15 +1571,15 @@ $defaultStrokeWidth: 6px;
         padding: .75em 1em .75em 1em;
         cursor: pointer;
         font-size: 1em;
-        color: rgba(#282828, .4);
-        border: 1px solid rgba(#282828, .1);
         display: inline-block;
         @include transition(all .3s);
+        background: #fff;
+        color: rgba(#282828, .9);
+        border: 1px solid rgba(#282828, .25);
 
         &:hover {
-          background: #fff;
-          color: $pp_manuscriptInk;
-          border: 1px solid rgba(#282828, .2);
+          color: rgba(#282828, 1);
+          border: 1px solid rgba(#282828, .33);
         }
 
         .idx, h3 {
@@ -1592,6 +1592,7 @@ $defaultStrokeWidth: 6px;
           font-size: .85em;
           position: relative;
           top: .23em;
+          color: rgba($pp_manuscriptInk, .66)
         }
 
         h3 {
@@ -1601,7 +1602,6 @@ $defaultStrokeWidth: 6px;
 
         @include breakpoint(mobile) {
           width: auto;
-
 
           h3 {
             margin-left: .33em;
