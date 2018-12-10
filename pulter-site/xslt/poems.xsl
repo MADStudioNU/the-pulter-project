@@ -2300,6 +2300,7 @@
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
       <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
