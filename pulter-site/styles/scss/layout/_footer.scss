@@ -19,6 +19,7 @@ $mobileLeftEdgeOffset: 2.25em;
 
   @include breakpoint(mobile) {
     border-top: none;
+    margin-top: 0;
   }
 
   .footer-box {
