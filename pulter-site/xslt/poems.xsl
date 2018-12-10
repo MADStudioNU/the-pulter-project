@@ -2307,7 +2307,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>Elizabeth Scott-BaumannZZZ</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
@@ -2438,6 +2438,7 @@
     <pp:poem id="72">
       <pp:title>Two Mountebanks (Emblem 6)</pp:title>
       <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
