@@ -2301,15 +2301,15 @@
       <pp:title>The Hope</pp:title>
       <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Elizabeth Scott-BaumannZZZ</pp:author>
-        </pp:edition>
-      </pp:editions>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Elizabeth Scott-BaumannZZZ</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>dissolution</pp:keyword>
@@ -2439,16 +2439,16 @@
       <pp:title>Two Mountebanks (Emblem 6)</pp:title>
       <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Samantha Snively</pp:author>
-          <pp:author>Frances E. Dolan</pp:author>
-        </pp:edition>
-      </pp:editions>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Samantha Snively</pp:author>-->
+          <!--<pp:author>Frances E. Dolan</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
       <pp:keywords>
         <pp:keyword>competition</pp:keyword>
         <pp:keyword>medicine</pp:keyword>
@@ -2781,15 +2781,15 @@
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
       <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Victoria E. Burke</pp:author>
-        </pp:edition>
-      </pp:editions>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Victoria E. Burke</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
       <pp:keywords>
         <pp:keyword>birds</pp:keyword>
         <pp:keyword>court</pp:keyword>

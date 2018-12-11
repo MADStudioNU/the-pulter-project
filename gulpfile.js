@@ -16,7 +16,7 @@ var XML_SOURCES_FOLDER = 'pulter-poems/',
   PP_SEARCH_DOC_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl',
   LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js',
   ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js',
-  LIVE_SITE_BASE_URL = 'https://pulterproject.northwestern.edu';
+  LIVE_SITE_BASE_URL = 'http://pulterproject.northwestern.edu';
 
 var appendPrepend = require('gulp-append-prepend');
 var gulp = require('gulp');
@@ -66,7 +66,7 @@ function filterById(collection, id) {
 }
 
 function getJSRedirectString(url, ignoreHash) {
-  return '<!DOCTYPE html><html><head><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script>';
+  return '<!DOCTYPE html><html><head><link rel="canonical" href="' + LIVE_SITE_BASE_URL + url + '" /><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script></head><body></body></html>';
 }
 
 /* DEV Tasks */
@@ -322,12 +322,12 @@ gulp.task('xslt:sitemap', function () {
   var suffix = '</urlset>';
 
   var pages = [
-    'https://pulterproject.northwestern.edu/',
-    'https://pulterproject.northwestern.edu/about-hester-pulter-and-the-manuscript.html',
-    'https://pulterproject.northwestern.edu/about-project-conventions.html',
-    'https://pulterproject.northwestern.edu/about-the-project.html',
-    'https://pulterproject.northwestern.edu/how-to-cite-the-pulter-project.html',
-    'https://pulterproject.northwestern.edu/scholarship.html'
+    LIVE_SITE_BASE_URL + '/',
+    LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
+    LIVE_SITE_BASE_URL + '/about-project-conventions.html',
+    LIVE_SITE_BASE_URL + '/about-the-project.html',
+    LIVE_SITE_BASE_URL + '/how-to-cite-the-pulter-project.html',
+    LIVE_SITE_BASE_URL + '/scholarship.html'
   ];
 
   loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
@@ -369,7 +369,7 @@ gulp.task('xslt:sitemap', function () {
       var stream = source('null.xml');
       stream.end(prefix + urls + suffix);
       stream
-        .pipe(rename('sitemap.xml'))
+        .pipe(rename('site.xml'))
         .pipe(gulp.dest(SITE_BASE));
     }, function () {
       console.log('ERROR: couldn\'t load the poem manifest!');
@@ -409,18 +409,18 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems/ee/' + slug);
+            console.log(LIVE_SITE_BASE_URL + '/poems' + EE_SUBFOLDER + '/' + slug);
 
             // Write /poems/{$edition}/{$id} redirect page
             var stream1 = source('redirect.html');
-            stream1.end(getJSRedirectString('../' + slug));
+            stream1.end(getJSRedirectString('/poems' + EE_SUBFOLDER + '/' + slug));
             stream1
               .pipe(rename(poemId + '/index.html'))
               .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + EE_SUBFOLDER));
 
             // Write /poems/{$id} redirect page to EE
             var stream2 = source('redirect.html');
-            stream2.end(getJSRedirectString('../ee/' + slug));
+            stream2.end(getJSRedirectString('/poems' + EE_SUBFOLDER + '/' + slug));
             stream2
               .pipe(rename(poemId + '/index.html'))
               .pipe(gulp.dest(POEMS_DESTINATION_FOLDER));
@@ -476,11 +476,11 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems/ae/' + slug);
+            console.log(LIVE_SITE_BASE_URL + '/poems' + AE_SUBFOLDER + '/' + slug);
 
             // Write the redirect page
             var streamN = source('redirect.html');
-            streamN.end(getJSRedirectString('../' + slug));
+            streamN.end(getJSRedirectString('/poems' + AE_SUBFOLDER + '/' + slug));
             streamN
               .pipe(rename(poemId + '/index.html'))
               .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + AE_SUBFOLDER));
@@ -536,11 +536,11 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems/vm/' + slug);
+            console.log(LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
 
             // Write the redirect page
             var streamN = source('redirect.html');
-            streamN.end(getJSRedirectString('../' + slug));
+            streamN.end(getJSRedirectString('/poems' + VM_SUBFOLDER + '/' + slug));
             streamN
               .pipe(rename(poemId + '/index.html'))
               .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + VM_SUBFOLDER));
