@@ -2301,15 +2301,15 @@
       <pp:title>The Hope</pp:title>
       <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
       <pp:poster/>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Elizabeth Scott-BaumannZZZ</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>dissolution</pp:keyword>
@@ -2439,16 +2439,16 @@
       <pp:title>Two Mountebanks (Emblem 6)</pp:title>
       <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
       <pp:poster/>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Samantha Snively</pp:author>-->
-          <!--<pp:author>Frances E. Dolan</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Samantha Snively</pp:author>
+          <pp:author>Frances E. Dolan</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>competition</pp:keyword>
         <pp:keyword>medicine</pp:keyword>
@@ -2781,15 +2781,15 @@
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
       <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Victoria E. Burke</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>birds</pp:keyword>
         <pp:keyword>court</pp:keyword>
@@ -3268,46 +3268,48 @@
                           </xsl:choose>
                         </h3>
                       </div>
-                      <xsl:if test="$firstLine">
-                        <p class="fl">
-                          <xsl:value-of select="concat($firstLine, '')" />
-                        </p>
-                        <xsl:element name="a">
-                          <xsl:attribute name="class">
-                          <xsl:value-of select="'to-vm'"/>
-                          </xsl:attribute>
-                          <xsl:attribute name="title">
-                          <xsl:value-of select="'Compare editions of this poem'"/>
-                          </xsl:attribute>
-                          <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/vm/', $poemId)"/>
-                          </xsl:attribute>
-                          <img class="i" src="/images/compare-icon.svg"/>
-                        </xsl:element>
+                      <xsl:if test="$isPublished">
+                        <xsl:if test="$firstLine">
+                          <p class="fl">
+                            <xsl:value-of select="concat($firstLine, '')" />
+                          </p>
+                          <xsl:element name="a">
+                            <xsl:attribute name="class">
+                              <xsl:value-of select="'to-vm'"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="title">
+                              <xsl:value-of select="'Compare editions of this poem'"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                              <xsl:value-of select="concat('/poems/vm/', $poemId)"/>
+                            </xsl:attribute>
+                            <img class="i" src="/images/compare-icon.svg"/>
+                          </xsl:element>
+                        </xsl:if>
+                        <xsl:choose>
+                          <xsl:when test="./pp:tags/pp:tag">
+                            <ul class="filter-tags">
+                              <xsl:for-each select="./pp:tags/pp:tag[position() &lt; 30]">
+                                <xsl:variable name="keywordValue" select="text()"/>
+                                <xsl:element name="li">
+                                  <xsl:attribute name="class">
+                                    <xsl:value-of select="'filter-tag'"/>
+                                  </xsl:attribute>
+                                  <xsl:attribute name="data-filter">
+                                    <xsl:variable name="formattedKeyword">
+                                      <xsl:call-template name="keywordStringFormatter">
+                                        <xsl:with-param name="input" select="$keywordValue"/>
+                                      </xsl:call-template>
+                                    </xsl:variable>
+                                    <xsl:value-of select="concat('.', $formattedKeyword)"/>
+                                  </xsl:attribute>
+                                  <xsl:value-of select="$keywordValue"/>
+                                </xsl:element>
+                              </xsl:for-each>
+                            </ul>
+                          </xsl:when>
+                        </xsl:choose>
                       </xsl:if>
-                      <xsl:choose>
-                        <xsl:when test="./pp:tags/pp:tag">
-                          <ul class="filter-tags">
-                            <xsl:for-each select="./pp:tags/pp:tag[position() &lt; 30]">
-                              <xsl:variable name="keywordValue" select="text()"/>
-                              <xsl:element name="li">
-                                <xsl:attribute name="class">
-                                  <xsl:value-of select="'filter-tag'"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="data-filter">
-                                  <xsl:variable name="formattedKeyword">
-                                    <xsl:call-template name="keywordStringFormatter">
-                                      <xsl:with-param name="input" select="$keywordValue"/>
-                                    </xsl:call-template>
-                                  </xsl:variable>
-                                  <xsl:value-of select="concat('.', $formattedKeyword)"/>
-                                </xsl:attribute>
-                                <xsl:value-of select="$keywordValue"/>
-                              </xsl:element>
-                            </xsl:for-each>
-                          </ul>
-                        </xsl:when>
-                      </xsl:choose>
                     </div><div class="secondary-column">
                     <xsl:variable name="editions" select="./pp:editions/pp:edition"/>
                     <xsl:choose>
