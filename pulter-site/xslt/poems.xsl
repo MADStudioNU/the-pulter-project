@@ -2341,6 +2341,23 @@
         <pp:tag>resurrection</pp:tag>
         <pp:tag>mortality</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="dear-death">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Dear Death</pp:title>
+          <pp:peek>Pulter’s striking opening address to “Dear Death” (used also in her poem “The Welcome”) may draw on some of John Donne’s Holy Sonnets, with the erotic (and violent) embrace of God in “Batter my heart” and the embrace of death in “Death, be not proud.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="knowledge-faith-and-doubt">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Knowledge, Faith and Doubt</pp:title>
+          <pp:peek>“The Hope” is a poem about the balance between faith and doubt and the role of knowledge in the interplay of these. The phrase which closes the poem, “I know not how,” might express doubt, or faith, in the absence of knowledge.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-little-luz">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>The “Little Luz”</pp:title>
+          <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="66">
       <pp:title>Made When My Spirits Were Sunk Very Low</pp:title>
