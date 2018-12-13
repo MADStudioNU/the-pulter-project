@@ -45,5 +45,8 @@
     "path": "^0.12.7",
     "run-sequence": "^2.2.1",
     "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "build-and-deploy": "gulp xslt:manifest; gulp xslt; gulp deploy; netlifyctl d -P dist;"
   }
 }
