@@ -464,6 +464,7 @@
     </pp:poem>
     <pp:poem id="9" type="pseudo">
       <pp:title>Like Lily Leaves</pp:title>
+      <pp:editions/>
     </pp:poem>
     <pp:poem id="10">
       <pp:title>Upon the Death of my Dear and Lovely Daughter, Jane Pulter</pp:title>
@@ -2121,6 +2122,7 @@
     </pp:poem>
     <pp:poem id="58" type="pseudo">
       <pp:title>For I No Liberty Expect To See</pp:title>
+      <pp:editions/>
     </pp:poem>
     <pp:poem id="59">
       <pp:title>My Love is Fair</pp:title>
@@ -3016,15 +3018,17 @@
   <!-- JSON manifest generator -->
   <xsl:template match="pulterProjectPoemManifestJSON">
       <xsl:text>[</xsl:text>
-      <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem[pp:editions or @type = 'pseudo']">
+      <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
         <xsl:variable name="poemId" select="./@id"/>
         <xsl:variable name="seoTitle" select="./pp:seoTitle/text()"/>
         <xsl:variable name="isPseudo" select="./@type = 'pseudo'"/>
+        <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
         <xsl:text>{</xsl:text>
         <xsl:if test="$isPseudo">
           <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', $isPseudo,'', ',')"/>
         </xsl:if>
-        <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;')"/>
+        <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;', ',')"/>
+        <xsl:value-of select="concat('&quot;isPublished&quot;: ', $isPublished)"/>
         <xsl:apply-templates>
             <xsl:with-param name="seoTitle" select="$seoTitle"/>
         </xsl:apply-templates>

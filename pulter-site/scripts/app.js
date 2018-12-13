@@ -372,7 +372,7 @@ var PP = (function ($) {
         var l1 =
           'Hi! Welcome to Hester Pulter\'s "' +
           pConfig.title +
-          '" (poem ' +
+          '" (Poem ' +
           pConfig.id +
           ').';
 
@@ -398,6 +398,7 @@ var PP = (function ($) {
             $headnoteToggles = $body.find('.headnote-toggle'),
             $facsimileToggle = $body.find('.facsimile-toggle'),
             $poemNoteTriggers = $body.find('.poem-note-trigger'),
+            $title = $body.find('.poem-title'),
             $navs = $body.find('.nav'),
             $ctxs,
             $curationBlurb = $('.curation-blurb');
@@ -408,6 +409,7 @@ var PP = (function ($) {
 
           // Local variables
           var manifest;
+          var manifestOfPublished;
           var indexRequest = PP.getPoemIndex();
 
           renderPoemElements();
@@ -415,7 +417,10 @@ var PP = (function ($) {
           indexRequest
             .done(function (data) {
               manifest = data;
-              enableNavigation();
+              manifestOfPublished = manifest.filter(function (poem) {
+                return poem.isPublished !== false;
+              });
+              onManifestAcquired();
             })
             .fail(function () {
               console.log('Manifest loading error!');
@@ -811,11 +816,11 @@ var PP = (function ($) {
           }
 
           // In-poem navigation
-          function enableNavigation() {
+          function onManifestAcquired() {
             $navs.addClass('on');
             var currentIdx;
 
-            $.each(manifest, function (idx, el) {
+            $.each(manifestOfPublished, function (idx, el) {
               if (+el.id === config.id) {
                 currentIdx = idx;
                 return false;
@@ -829,7 +834,7 @@ var PP = (function ($) {
                 var destinationIdx;
 
                 if (dir === 'next') {
-                  destinationIdx = currentIdx + 1 < manifest.length ?
+                  destinationIdx = currentIdx + 1 < manifestOfPublished.length ?
                     currentIdx + 1 :
                     0;
                 }
@@ -837,16 +842,28 @@ var PP = (function ($) {
                 if (dir === 'prev') {
                   destinationIdx = currentIdx - 1 >= 0 ?
                     currentIdx - 1 :
-                    manifest.length - 1;
+                    manifestOfPublished.length - 1;
                 }
 
                 if (destinationIdx !== 'undefined') {
-                  window.location.href = '../' + dashify(manifest[destinationIdx].seo);
+                  window.location.href = '../' + dashify(manifestOfPublished[destinationIdx].seo);
                 }
               }
 
               return false;
-            })
+            });
+
+            // If not published
+            if (config.isPublished === false) {
+              var poemObj = manifest.filter(function (el) {
+                return +el.id === config.id
+              });
+
+              // Set the title from the manifest
+              if (poemObj && poemObj.length > 0) {
+                $body.find('.dynamic-title').text(poemObj[0].title);
+              }
+            }
           }
 
           function configureViewSetting(settingKey, value) {

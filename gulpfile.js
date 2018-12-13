@@ -16,7 +16,7 @@ var XML_SOURCES_FOLDER = 'pulter-poems/',
   PP_SEARCH_DOC_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl',
   LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js',
   ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js',
-  LIVE_SITE_BASE_URL = 'http://pulterproject.northwestern.edu';
+  LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 
 var appendPrepend = require('gulp-append-prepend');
 var gulp = require('gulp');
@@ -291,7 +291,7 @@ gulp.task('xslt:lunrBuildSearchIndex', function () {
           poemId = +poemId;
 
           var filtered = filterById(poemsInManifest, poemId);
-          var isPublished = filtered.length > 0;
+          var isPublished = filtered.length > 0 && filtered[0].isPublished;
           var isPseudo = filtered[0] ? (filtered[0].hasOwnProperty('isPseudo')) : false;
 
           if (isPublished && !isPseudo && isNumber(poemId)) {
@@ -320,28 +320,32 @@ gulp.task('xslt:lunr', function () {
 gulp.task('xslt:sitemap', function () {
   var prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   var suffix = '</urlset>';
+  var protocol = 'http:';
 
   var pages = [
-    LIVE_SITE_BASE_URL + '/',
-    LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
-    LIVE_SITE_BASE_URL + '/about-project-conventions.html',
-    LIVE_SITE_BASE_URL + '/about-the-project.html',
-    LIVE_SITE_BASE_URL + '/how-to-cite-the-pulter-project.html',
-    LIVE_SITE_BASE_URL + '/scholarship.html'
+    protocol + LIVE_SITE_BASE_URL + '/',
+    protocol + LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
+    protocol + LIVE_SITE_BASE_URL + '/about-project-conventions.html',
+    protocol + LIVE_SITE_BASE_URL + '/about-the-project.html',
+    protocol + LIVE_SITE_BASE_URL + '/how-to-cite-the-pulter-project.html',
+    protocol + LIVE_SITE_BASE_URL + '/scholarship.html'
   ];
 
   loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
     function (data) {
       console.log('Hi! Sitemap Builder is here!');
       var poemsInManifest = data;
+      var publishedPoems = poemsInManifest.filter(function (poemObj) {
+        return poemObj.isPublished;
+      });
       var poemUrls = [];
-      var triads = poemsInManifest.map(function (poemObject) {
+      var triads = publishedPoems.map(function (poemObject) {
         var slug = dashify(poemObject.seo, { condense: true });
 
         return [
-          LIVE_SITE_BASE_URL + '/poems/ee/' + slug + '/',
-          LIVE_SITE_BASE_URL + '/poems/ae/' + slug + '/',
-          LIVE_SITE_BASE_URL + '/poems/vm/' + slug + '/'
+          protocol + LIVE_SITE_BASE_URL + '/poems/ee/' + slug + '/',
+          protocol + LIVE_SITE_BASE_URL + '/poems/ae/' + slug + '/',
+          protocol + LIVE_SITE_BASE_URL + '/poems/vm/' + slug + '/'
         ]
       });
 
@@ -396,8 +400,8 @@ gulp.task('xslt:poems', function () {
           console.log('Poem #' + poemId + ', Elemental Edition.');
           console.log('Source: ' + fileName);
 
-          var filtered = filterById(poemsInManifest, poemId),
-            isPublished = filtered.length > 0;
+          var filtered = filterById(poemsInManifest, poemId);
+          var isPublished = filtered.length > 0;
 
           console.log(isPublished ? '✓Published to' : '𐄂Not published');
 
@@ -463,8 +467,8 @@ gulp.task('xslt:poems', function () {
           console.log('Poem #' + poemId + ', Amplified Edition.');
           console.log('Source: ' + fileName);
 
-          var filtered = filterById(poemsInManifest, poemId),
-            isPublished = filtered.length > 0;
+          var filtered = filterById(poemsInManifest, poemId);
+          var isPublished = filtered.length > 0;
 
           console.log(isPublished ? '✓Published to' : '𐄂Not published');
 
@@ -523,8 +527,8 @@ gulp.task('xslt:poems', function () {
           console.log('Poem #' + poemId + ', VM page.');
           console.log('Source: ' + fileName);
 
-          var filtered = filterById(poemsInManifest, poemId),
-            isPublished = filtered.length > 0;
+          var filtered = filterById(poemsInManifest, poemId);
+          var isPublished = filtered.length > 0;
 
           console.log(isPublished ? '✓Published to' : '𐄂Not published');
 

@@ -600,18 +600,6 @@ $globalBorderRadius: 2px;
         }
       }
 
-      &.empty {
-        background: none;
-        font-family: $pp_curatorialFont;
-        color: #aaa;
-        font-style: italic;
-        line-height: 1.61;
-        display: inline-block;
-        font-size: ms(0);
-        top: 0;
-        margin-top: 6em;
-      }
-
       .poem-footer {
         position: relative;
         padding-bottom: 5em;
@@ -684,6 +672,80 @@ $globalBorderRadius: 2px;
       // Consecutive poems spacing
       & + .poem {
         margin-top: 4.5em;
+      }
+
+      &.not-yet {
+
+        .dynamic-title {
+          width: 60%;
+
+          @include breakpoint(mobile) {
+            width: 90%;
+          }
+        }
+
+        main {
+          margin-top: 1.5em;
+          width: 60%;
+
+          @include breakpoint(mobile) {
+            width: 80%;
+          }
+
+          .poem-body {
+            opacity: .66;
+
+            .line-sims {
+              margin-bottom: 3em;
+
+              li {
+                background: rgba($pp_manuscriptPaper, .2);
+                height: 1.25em;
+                width: 75%;
+                margin-bottom: .66em;
+                border-radius: 2px;
+
+                &:last-of-type {
+                  @include background-gradient(rgba($pp_manuscriptPaper, .1), #fff)
+                }
+
+                @include breakpoint(mobile) {
+                  width: 90%;
+                }
+              }
+            }
+
+            .message {
+              font-size: .95em;
+            }
+          }
+
+          .not-yet-actions {
+            margin: 4.5em 0;
+
+            .pp-action {
+              font-style: normal;
+              background: rgba(#ECE9E2, .8);
+              color: #282828;
+              padding: .66em 14px .66em 15px;
+              border: 1px solid rgba($pp_manuscriptInk, .1);
+              font-size: .75em;
+              font-weight: bold;
+              border-radius: 3px;
+              display: inline-block;
+              @include transition(background .2s);
+
+              &:not(:last-child) {
+                margin-right: 1.5em;
+                margin-bottom: 1.5em;
+              }
+
+              &:hover {
+                background: darken(#ECE9E2, 1%);
+              }
+            }
+          }
+        }
       }
     }
   }

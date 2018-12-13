@@ -12,6 +12,7 @@
   <!-- VARIABLES BEGIN  -->
   <xsl:variable name="resourceId" select="/tei:TEI/@xml:id"/>
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
+  <xsl:variable name="isPublished" select="boolean(count($witnesses[starts-with(@xml:id, $amplifiedEditionsNamespace)]) &gt; 0)" />
   <xsl:variable name="projectName">The Pulter Project</xsl:variable>
   <xsl:variable name="amplifiedEditionId">ae</xsl:variable>
   <xsl:variable name="amplifiedEditionsNamespace" select="'a'"/>
@@ -37,7 +38,7 @@
         <xsl:value-of select="//tei:titleStmt/tei:title"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text>Untitled</xsl:text>
+        <xsl:text>Coming soon</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
@@ -163,6 +164,7 @@
           <xsl:value-of select="'PP.initPoem({'"/>
           <xsl:value-of select="concat('id: ', $poemID)"/>
           <xsl:value-of select="concat(', title: &quot;', $fullTitle, '&quot;')"/>
+          <xsl:value-of select="concat(', isPublished: ', string($isPublished))"/>
           <xsl:value-of select="concat(', hasPoster: ', $hasPoster)"/>
           <xsl:value-of select="concat(', hasCtx: ', $hasCurations)"/>
           <xsl:value-of select="'});'"/>
@@ -224,7 +226,7 @@
             <div class="toggles">
               <div class="edition-toggle toggle">
                 <a href="/poems/ee/{$poemID}" title="Switch to the Elemental Edition" class="to-ee">Elemental</a>
-                <a href="/poems/vm/{$poemID}" title="Open this poem in the the comparison tool" class="to-vm">
+                <a href="/poems/vm/{$poemID}" target="_blank" title="Open this poem in the the comparison tool" class="to-vm">
                   <img class="i" src="/images/compare-icon-b.svg"/>
                 </a>
                 <a href="#0" class="curr to-ae">Amplified</a>
@@ -256,9 +258,32 @@
           </xsl:for-each>
         </xsl:when>
         <xsl:otherwise>
-          <div class="poem empty">
-            <p>Amplified Edition is not yet available.</p>
-          </div>
+          <xsl:element name="section">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'poem collapsed not-yet'"/>
+            </xsl:attribute>
+            <header>
+              <div><h1 class="dynamic-title poem-title-line sssi-regular"></h1></div>
+            </header>
+            <main class="lato it">
+              <div class="poem-body">
+                <ul class="line-sims">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <p class="message">No amplified editions of this poem have been published yet.<br/>We welcome you to contribute one.</p>
+              </div>
+              <div class="not-yet-actions">
+                <a class="pp-action" href="mailto:pulterproject@gmail.com" target="_blank">Get in touch</a>
+                <a class="pp-action" href="#" onclick="window.history.go(-1);return false;">Go back</a>
+                <a class="pp-action" href="/#poems">Poem index</a>
+              </div>
+            </main>
+            <footer class="poem-footer">
+              <img class="separator" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
+            </footer>
+          </xsl:element>
         </xsl:otherwise>
         </xsl:choose>
       </xsl:element>
@@ -933,11 +958,11 @@
         <xsl:value-of select="concat('/poems/', $referencedPoemID)" />
       </xsl:attribute>
       <xsl:attribute name="title">
-        <xsl:value-of select="concat('Open Poem ', $referencedPoemID, ' in a new window')" />
+        <xsl:value-of select="concat('Go to Poem ', $referencedPoemID)" />
       </xsl:attribute>
-      <xsl:attribute name="target">
-        <xsl:value-of select="'_blank'"/>
-      </xsl:attribute>
+      <!--<xsl:attribute name="target">-->
+        <!--<xsl:value-of select="'_blank'"/>-->
+      <!--</xsl:attribute>-->
       <xsl:attribute name="class">
         <xsl:value-of select="'pp-poem-ref'"/>
       </xsl:attribute>
