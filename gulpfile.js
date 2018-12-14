@@ -25,6 +25,7 @@ var concat = require('gulp-concat');
 var dashify = require('dashify');
 var debug = require('gulp-debug');
 var flatMap = require('gulp-flatmap');
+var fs = require('fs');
 var sass = require('gulp-sass');
 var sourceMaps = require('gulp-sourcemaps');
 var loadJSON = require('load-json-file');
@@ -317,10 +318,22 @@ gulp.task('xslt:lunr', function () {
   return runSequence('xslt:erase', 'xslt:lunrBuildSearchIndex');
 });
 
-gulp.task('xslt:sitemap', function () {
+gulp.task('sitemap', function () {
   var prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   var suffix = '</urlset>';
   var protocol = 'http:';
+
+  var curations = fs.readdirSync(SITE_BASE + 'curations')
+    .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
+    .map(function (curationFileName) {
+      return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
+    });
+
+  var explorations = fs.readdirSync(SITE_BASE + 'explorations')
+    .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
+    .map(function (curationFileName) {
+      return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
+    });
 
   var pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
@@ -354,12 +367,19 @@ gulp.task('xslt:sitemap', function () {
         poemUrls = poemUrls.concat(triads[i]);
       }
 
-      var urls = pages.concat(poemUrls);
+      var urls = pages.concat(poemUrls, curations, explorations);
 
       urls = urls.map(function (url) {
         var priority = .5;
 
-        if (url.indexOf('/poems/vm') > -1) {
+        if (
+          url.indexOf('curations') > -1 ||
+          url.indexOf('explorations') > -1
+        ) {
+          priority = .33;
+        }
+
+          if (url.indexOf('/poems/vm') > -1) {
           priority = .25
         }
 
@@ -590,5 +610,5 @@ gulp.task('xslt:poems', function () {
 });
 
 gulp.task('xslt', function () {
-  runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems', 'xslt:sitemap');
+  runSequence('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems', 'sitemap');
 });
