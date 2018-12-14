@@ -7,7 +7,7 @@ $themeColor: #ece9e2;
   font-size: ms(0);
   border: none;
   max-height: 100%;
-  background: #ece9e2;
+  background: $themeColor;
   padding: 0 6em 0 3em;
   border-top: 4px solid rgba($pp_shinyGold, 1);
   width: 100%;
@@ -43,6 +43,27 @@ $themeColor: #ece9e2;
     padding: 0 1.5em 0 1.5em;
     width: 100%;
     border-radius: 0;
+  }
+
+  .escape-box {
+    //background: thistle;
+    max-width: inherit;
+    width: inherit;
+    text-align: right;
+    margin-left: -3em;
+    padding-right: 6em;
+    line-height: 1;
+    position: fixed;
+    z-index: 2;
+    top: 1em;
+
+    .escape {
+      font-size: ms(-4);
+      padding: 0;
+      margin: 0;
+      position: relative;
+      right: -(9 - 1.75em) / ms(-4) + em;
+    }
   }
 
   #content {
@@ -626,13 +647,13 @@ $themeColor: #ece9e2;
 
   // Poem reference
   .poem-ref {
-    background: rgba(#282828, .06);
-    font-size: ms(-3);
-    padding: 1.5em 10em 1.25em 4em;
+    background: rgba(224, 221, 215, 1);
+    margin-left: -3em;
+    padding: 1.1em 10em 1em 3em;
     border-bottom: 1px solid rgba(0, 0, 0, .05);
-    position: absolute;
+    position: fixed;
+    max-width: inherit;
     width: 100%;
-    left: 0;
     z-index: 2;
 
     @include breakpoint(mobile) {
@@ -646,12 +667,13 @@ $themeColor: #ece9e2;
     }
 
     .idx {
-      font-size: .75em;
+      font-size: ms(-3) * .75;
       color: rgba($pp_manuscriptInk, .66);
       margin-right: .75em;
     }
 
     .t {
+      font-size: ms(-3);
       display: inline;
       color: #282828;
       font-family: "Sssi", Garamond, serif;
