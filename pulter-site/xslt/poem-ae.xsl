@@ -272,7 +272,7 @@
                   <li></li>
                   <li></li>
                 </ul>
-                <p class="message">No amplified editions of this poem have been published yet.<br/>We welcome you to contribute one.</p>
+                <p class="message">No Amplified Editions of this poem have been published yet.<br/>We welcome you to propose one.</p>
               </div>
               <div class="not-yet-actions">
                 <a class="pp-action" href="mailto:pulterproject@gmail.com" target="_blank">Get in touch</a>

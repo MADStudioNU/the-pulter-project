@@ -252,7 +252,7 @@
                     <li></li>
                     <li></li>
                   </ul>
-                  <p class="message">The Elemental edition of this poem has not been published yet.<br/>Please check back later.</p>
+                  <p class="message">The Elemental Edition of this poem has not been published yet.<br/>Please check back later.</p>
                 </div>
                 <div class="not-yet-actions">
                   <a class="pp-action" href="#" onclick="window.history.go(-1);return false;">Go back</a>
