@@ -232,7 +232,7 @@
           <xsl:value-of select="'poem-sheet-list'"/>
         </xsl:attribute>
         <xsl:choose>
-          <xsl:when test="count($witnesses[starts-with(@xml:id, $elementalEditionId)]) &gt; 0">
+          <xsl:when test="$isPublished">
             <xsl:call-template name="poemContainer">
               <xsl:with-param name="witId" select="$elementalEditionId"/>
             </xsl:call-template>
@@ -266,7 +266,7 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:element>
-      <xsl:if test="$hasCurations = 'true'">
+      <xsl:if test="$hasCurations = 'true' and $isPublished">
         <section id="ctxs" class="lato">
           <header>
             <div class="label">
