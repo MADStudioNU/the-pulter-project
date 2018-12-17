@@ -2496,6 +2496,13 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>death</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="what-is-a-mountebank">
+          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:title>What Is a Mountebank?</pp:title>
+          <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
