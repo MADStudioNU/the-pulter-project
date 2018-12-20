@@ -373,7 +373,7 @@ gulp.task('sitemap', function () {
       urls = urls.map(function (url) {
         var priority = .5;
 
-        if (url.indexOf('//pulterproject.northwestern.edu/#poems')) {
+        if (url.indexOf('//pulterproject.northwestern.edu/#poems') > -1) {
           priority = .75;
         }
 
