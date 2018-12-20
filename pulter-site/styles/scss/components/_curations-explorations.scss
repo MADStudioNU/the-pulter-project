@@ -585,17 +585,25 @@ $themeColor: #ece9e2;
   h3 {
     font-family: $pp_curatorialFont;
     font-weight: bold;
-    margin: 3em 0 1.5em 0;
+    margin: 2.5em 0 1em 0;
   }
 
   h4 {
     font-family: $pp_curatorialFont;
     font-weight: bold;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: .9em;
 
     &:not(:first-child) {
       margin-top: 3em;
+    }
+  }
+
+  h3, h4 {
+    color: rgba(#282828, .9);
+
+    &.sssi {
+      font-family: $pp_poetryFont;
     }
   }
 
