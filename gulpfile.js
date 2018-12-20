@@ -337,6 +337,7 @@ gulp.task('sitemap', function () {
 
   var pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
+    protocol + LIVE_SITE_BASE_URL + '/#poems',
     protocol + LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
     protocol + LIVE_SITE_BASE_URL + '/about-project-conventions.html',
     protocol + LIVE_SITE_BASE_URL + '/about-the-project.html',
@@ -371,6 +372,10 @@ gulp.task('sitemap', function () {
 
       urls = urls.map(function (url) {
         var priority = .5;
+
+        if (url.indexOf('//pulterproject.northwestern.edu/#poems')) {
+          priority = .75;
+        }
 
         if (
           url.indexOf('curations') > -1 ||

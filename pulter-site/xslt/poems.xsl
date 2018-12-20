@@ -3073,8 +3073,8 @@
         <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>The Pulter Project, Poet in the Making</title>
-        <meta name="description" content="Digital edition of Hester Pulter's poems." />
+        <title>The Pulter Project: Poet in the Making</title>
+        <meta name="description" content="Digital edition of the poems written by Hester Pulter." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
