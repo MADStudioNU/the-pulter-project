@@ -72,10 +72,6 @@ $themeColor: #ece9e2;
     padding-top: 7em;
     font-size: .9em;
 
-    @include breakpoint(mobile) {
-      padding-top: 9.5em;
-    }
-
     &::after {
       $size: 2em;
 
@@ -665,8 +661,9 @@ $themeColor: #ece9e2;
     z-index: 2;
 
     @include breakpoint(mobile) {
-      padding-left: 2em;
-      padding-right: 9em;
+      padding-left: 1.5em;
+      padding-right: 4.5em;
+      right: 0;
     }
 
     .idx,
@@ -728,8 +725,8 @@ $themeColor: #ece9e2;
     @include transition(opacity .2s);
 
     @include breakpoint(mobile) {
-      top: 1.5em;
-      right: 1.5em;
+      top: 1.2em;
+      right: 1.2em;
     }
 
     &:hover {
