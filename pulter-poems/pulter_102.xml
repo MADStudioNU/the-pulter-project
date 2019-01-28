@@ -1,3 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.102">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Ugly Spider (Emblem 37)</title>
+        <title type="sub">Poem #102</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_233.jpg" xml:id="f7610_233"/>
+      <graphic url="./document_images/7610_234.jpg" xml:id="f7610_234"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Rachel Zhang</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 37]</rdg>
+            <rdg wit="#ee">The Ugly Spider (Emblem 37)</rdg>
+            <rdg wit="#ae">Emblem 37</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">Though the syntax, diction, capitalization, and spelling of Pulter’s poems may not conform to modern standards, it is analytically productive for the modern reader to consider the these elements as they appear in the manuscript; they may, for instance, create links between different parts of the text, emphasize particular words, or create syntactical slippage that encourages multiple interpretations. In order to retain Pulter’s unique poetic voice, as well as maintain the possibility of multiple interpretations created by her text, I take a conservative editorial approach. I have chosen not to modernize grammar, capitalization, or punctuation, and adhere to the original spelling in cases where doing so retains a particular tone or analytical complexity that would be lost in modernization (e.g. “then” in line 37, which if modernized to “than” would efface an alternate reading of the line).</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">This poem exemplifies Pulter’s strategy of complicating and even undercutting her own emblematic images. The poem initially analogizes human tyrants to a female spider, in order remind the reader that even tyrants succumb to death. Yet Pulter undermines the analogy in the poem’s subsequent lines. First, while the spider is female (perhaps an echo of classical and renaissance depictions of tyrants as unstable and effeminate), <seg>the only human tyrants she mentions are male<note type="critical">See Rebecca Bushnell’s discussion of tyranny in <title rend="italic">Tragedies of Tyrants: Political Thought and Theatre in the English Renaissance</title> (Ithaca: Cornell University Press, 1990).</note></seg>. More significantly, Pulter rejects the spider as a suitable analogy for human tyranny altogether at line 25, stating that man is far worse than the spider, and it is unfair to the spider to make the comparison. She even terms humans unique in their cannibalistic tendencies (seemingly ignoring other examples in her own emblem poems of animals eating their own kind). In so undercutting the poem’s initial premise, Pulter rejects the principle of analogy upon which emblem poems are based. Traditionally, readers are asked to identify with and learn from the emblematic image, based on that image being an analogue of some aspect of contemporary human life. In this poem, however, Pulter rejects the spider emblem as inadequate to the task of representing humanity’s tyrannical tendencies.
+                  Pulter’s reference to “he that hath three Kingdoms in his power,” i.e., the three kingdoms comprising Great Britain, suggests that events of Pulter’s own time are the inspiration for this reconfiguration of conventional emblem form. The British reference–likely referencing Oliver Cromwell–invites contemporary readings in a poem previously reliant on classical and biblical allusions. It may not be coincidental, therefore, that this hitherto anomalous contemporary reference immediately precedes the rejection of the spider analogy. Pulter suggests that where conventional emblem principles may have been suitable for previous historical contexts, events like the English civil wars require a reimagining of emblem poems’ formal premises.
+                  Perhaps it should not be surprising, therefore, that the second half of the poem introduces themes and texts seemingly out of character with the neoclassical bent of the earlier part of the poem. As Pulter moves from tyranny to cannibalism to praise of vegetarianism, the distance we have come thematically from the beginning of the poem is indexed by the difference between her earlier classical allusions and the Hindu Indian traders of her own time (“now”) lauded at line 34. Pulter likely draws her description of these “Banians” from Samuel Purchas’ <title rend="italic">Purchas his Pilgrimage</title> (1626), a beloved work of travel writing which also inspired Pulter’s romance, <title rend="italic">The Unfortunate Florinda</title>. Pulter lauds these traders so extensively that the speaker literally has to remind herself to control her sympathies in the succeeding (and final) couplet. 
+                  The final couplet thus struggles to instill order on a poem that in many ways embraces disorder. Biblical allusions in these final lines assert a Christian natural order of being, with God over man and man over animals, thereby licensing mankind’s killing of animals for food. Yet this licensing appears weak, even resigning, following the poem’s earlier promotion of vegetarianism. Moreover, the closing couplet underscores the distance the poem has traveled from its initial discussion of tyranny. Discussion of Britain’s own tyrant remains unresolved, along with the personal vitriol evinced by the speaker herself.
+              </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>Behold<note type="physical">end of previous poem occupies first quarter of page; poem begins after another quarter page</note></seg> how many Cobwebs doth invest</rdg>
+            <rdg wit="#ee">Behold how many cobwebs doth <seg>invest<note type="gloss">clothe, cover</note></seg></rdg>
+            <rdg wit="#ae">Behold how many Cobwebs doth invest</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">This ugly Spider in her nasty Nest</rdg>
+            <rdg wit="#ee">This ugly spider in her nasty nest,</rdg>
+            <rdg wit="#ae">This ugly <seg>Spider<note type="critical">A common inspiration for emblem poems. See e.g., Emblem XVIII of Book 1 of George Wither’s <title rend="italic">A Collection of Emblemes</title> (1635), which compares spiders to men who “without touch, of Conscience or Compassion, / Seeke how to be enricht by others wants, / And bring the Poore to utter desolation” (18).</note></seg> in her nasty Nest</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Where Barricado’d Shee in Ambuſh lies</rdg>
+            <rdg wit="#ee">Where, barricaded, she in ambush lies,</rdg>
+            <rdg wit="#ae">Where Barricado’d She in Ambush lies</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Domition<add place="below">^</add><add place="above">like</add> to Murther Sportive &ff;lyes</rdg>
+            <rdg wit="#ee"><seg>Domitian-like<note type="critical"> Domitian (51-96) was a Roman emperor who came to power as part of a siege waged by his father Vespasian against the general Vitellius. Surrounded on the Capitol by Vitellius’s troops, he managed to escape and, after Vitellius died in battle, was proclaimed Caesar. He was reputed to enjoy torturing and killing flies. “At the beginning of his reign he used to spend hours in seclusion every day, doing nothing but catch flies and stab them with a keenly-sharpened stylus” (Suetonius, <title rend="italic">The Lives of the Twelve Caesars</title> [Loeb Classical Library, 1914], p. 345).</note></seg>, to murder <seg>sportive<note type="gloss">playful, lively</note></seg> flies.</rdg>
+            <rdg wit="#ae"><seg>Domitian-like<note type="gloss">Roman emperor Domitian (51–96 CE) was known for his autocratic rule, imposing harsh morality laws and executing members of his own family. He is also cited as an example of tyranny in Peacham, <title rend="italic">Minerva Britanna</title> (1612), 144.</note></seg> to Murder Sportive Flies</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Yet Such A Monsterous Spider once I Saw</rdg>
+            <rdg wit="#ee">Yet such a monstrous spider once I saw</rdg>
+            <rdg wit="#ae">Yet Such A Monstrous Spider once I Saw</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">That would with Eaſe, &ff;lies, Waſps and Hornets draw</rdg>
+            <rdg wit="#ee">That would with ease flies, wasps and hornets draw</rdg>
+            <rdg wit="#ae">That would with Ease, Flies, Wasps and Hornets draw</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Most Cruelly into her Duſty Nest</rdg>
+            <rdg wit="#ee">Most cruelly into her dusty nest;</rdg>
+            <rdg wit="#ae">Most Cruelly into her Dusty Nest</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Then Tyrant Like Shee on their Blood would feast</rdg>
+            <rdg wit="#ee">Then, tyrant-like she on their blood would feast.</rdg>
+            <rdg wit="#ae">Then Tyrant-Like She on their Blood would feast</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Yet did I See A Slender Azure &ff;lye</rdg>
+            <rdg wit="#ee">Yet did I see a slender <seg>azure<note type="gloss">blue</note></seg> fly</rdg>
+            <rdg wit="#ae">Yet did I See A Slender Azure Fly</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft"><seg>Make<note type="physical">“Ma” appears original, but “ke” written over imperfectly erased letters, with imperfectly erased “te” visible after</note></seg> this blood Sucking Monster fall and die</rdg>
+            <rdg wit="#ee">Make this bloodsucking monster fall and die.</rdg>
+            <rdg wit="#ae">Make this blood Sucking Monster fall and die</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Soe the most impious Tirants in the World</rdg>
+            <rdg wit="#ee">So the most <seg>impious<note type="gloss">wicked</note></seg> tyrants in the world,</rdg>
+            <rdg wit="#ae">So the most impious Tyrants in the World</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Even in A moment to the Grave are Whorld</rdg>
+            <rdg wit="#ee">Even in a moment, to the grave are <seg>whirled<note type="critical">Pulter often describes death in terms of the revolving of elements; see Poem 16, Poem 40 and Poem 47. The spelling in the manuscript of this word –– “whorld” ––further emphasizes its homonym, “world,” which Pulter’s poems portray as caught up in a cycle of rotations and turns that include death. </note></seg>.</rdg>
+            <rdg wit="#ae">Even in A moment to the Grave are Whorled</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">that</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_234" n="115v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_234"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_234"/>
+            </rdg>
+        </app>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">That King of Terrours doth by Sentence Just</rdg>
+            <rdg wit="#ee">That <seg>king of terrors<note type="gloss">Death</note></seg> doth by sentence just</rdg>
+            <rdg wit="#ae">That <seg>King of Terrors<note type="critical">Bildad warns in Job 18:14 that evil people will be destroyed and brought to the “king of terrors.” Pulter may have sourced the phrase from Job directly, or from the numerous early modern sermons and biblical commentaries which use the term to refer to Death. See, for instance, Richard Baxter, <title rend="italic">The Saints Everlasting Rest</title> (1650), which asks, “Why is death to men the King of terrors else?” (334).</note></seg> doth by Sentence Just</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Grind even their very Skellitons to dust</rdg>
+            <rdg wit="#ee">Grind even their very skeletons to <seg>dust<note type="critical">Ecclesiastes 3:20: “All go unto one place; all are of the dust, and all turn to dust again.”</note></seg>;</rdg>
+            <rdg wit="#ae"><seg>Grind even their very Skeletons to dust<note type="critical">The image of Death as a bone grinder is a recurrent one in Pulter’s poetry; she writes in “The Center,” for instance, that Death “triumphant [will] perform his lust / Grinding in (spite) our very bones to dust” (15–6). The image may allude to Dante’s <title rend="italic">Inferno</title>, the final canto of which describes a three-headed Satan using each mouth “like a grinder” to torture Brutus, Cassius, and Judas (see “Texts &amp; Translations” in <ref corresp="https://digitaldante.columbia.edu/dante/divine-comedy/inferno/inferno-34/"><title rend="italic">Digital Dante</title></ref> ). This allusion is unlikely, however, as there is no evidence Pulter knew Italian and the <title rend="italic">Divine Comedy</title> was not translated into English until the eighteenth century. The image may be a cultural commonplace. 
+                Considering Pulter’s representation of Death as a bone grinder is also noteworthy as part of the cyclical process of life and death Pulter depicts throughout her poetry: in grinding bones to dust, Death returns man to his original state of creation, what Pulter calls his “first Principles” (<ref type="pp-poem-ref" corresp="33">“The Welcome [2]” (Poem 33)</ref>, l. 7). Usually Pulter follows such dissolution with an affirmation of resurrection: “The sleeping Dust will rise and speake,” she writes in <ref corresp="39" type="pp-poem-ref">“The Perfection of Patience and Knowledge” (Poem 39)</ref> (see also <ref type="pp-poem-ref" corresp="33">“The Welcome [2]” (Poem 33)</ref>, <ref type="pp-poem-ref" corresp="34">“To Aurora [3]” (Poem 34)</ref>). Here, however, Pulter omits imagery of resurrection, portraying dust as the final, conclusive end of tyrants.
+            </note></seg></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">When hee upon the pale Horse doth apear</rdg>
+            <rdg wit="#ee">When <seg>he upon the pale horse<note type="critical">Death; see Revelations 6:8: “And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him."</note></seg> doth appear,</rdg>
+            <rdg wit="#ae">When he upon the <seg>pale Horse<note type="critical">The pale horse is the last of the four horses of the Apocalypse described in Revelation. This horse is ridden by Death, and followed by Hell. Revelation 6:8 describes, “... [P]ower was given unto them over the fourth part of the earth, to kill with sword, and with hunger, and with death, and with the beasts of the earth.”</note></seg> doth appear</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">A Julianus then begins to fear</rdg>
+            <rdg wit="#ee">A <seg>Julianus<note type="critical">Roman emperor, also known as Julian the Apostate. Eardley cites Alexander Ross’s account of the legend of how Julian, having renounced religion and been injured, flung the blood from his wound into the air and cried out, “Thou has overcome me O Galilean” (referring to Christ). See Ross, <title rend="italic">The History of the World</title> (London, 1652), p. 85.</note></seg> then begins to fear,</rdg>
+            <rdg wit="#ae">A <seg>Julianus<note type="critical">Flavius Claudius Julianus (331/32–363 CE), later known as “the Apostate,” converted away from the Christianity of the post-Constantine Roman Empire in his youth. Upon becoming emperor, Julian instituted a policy of pagan restoration, reinstating temple worship and sacrificial cults throughout the empire. Alexander Ross’s <title rend="italic">The History of the World</title> (1652) (cited by Alice Eardley) notes that after being fatally shot in the liver, Julian flung his blood into the air and declared, “Thou hast overcome mee O Galilean”–a reference to Christ (85). Eardley, “An Edition of Lady Hester Pulter’s Book of ‘Emblemes’” (Ph.D. diss., University of Warwick, 2008), 2:113.</note></seg> then begins to fear</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Throwing his blood and Spirits in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Skies</rdg>
+            <rdg wit="#ee">Throwing his blood and spirits in the skies,</rdg>
+            <rdg wit="#ae">Throwing his blood and Spirits in the Skies</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Confes’d yet died in his Apostacies</rdg>
+            <rdg wit="#ee">Confessed, yet died, in his <seg>apostasies<note type="gloss">abandonment of one’s faith</note></seg>.</rdg>
+            <rdg wit="#ae">Confessed yet died in his Apostasies</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">What by the Wars was Alexanders gains</rdg>
+            <rdg wit="#ee">What by the wars was <seg>Alexander’s<note type="gloss">Alexander the Great, who reputedly died by poison</note></seg> gains</rdg>
+            <rdg wit="#ae">What by the Wars was Alexander’s gains</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">When guilt his Conſcience, poyſon Stung his veins</rdg>
+            <rdg wit="#ee">When guilt his conscience, poison, stung his veins?</rdg>
+            <rdg wit="#ae">When guilt his Conscience, <seg>poison Stung his veins<note type="gloss">The ill-founded theory that Alexander the Great (356–323 BC) was poisoned circulated widely in the Greco-Roman period as well as in later centuries, featuring, for example, in Machiavelli’s <title rend="italic">The Prince</title> (Book XIX).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Soe hee that hath three Kingdoms in his power</rdg>
+            <rdg wit="#ee"><seg>So he that hath three kingdoms in his power:<note type="gloss">Oliver Cromwell who ruled over England, Ireland and Scotland</note></seg></rdg>
+            <rdg wit="#ae">So <seg>he that hath three Kingdoms in his power<note type="critical">I agree with Alice Eardley in reading the lord of the “three Kingdoms” as a reference to Oliver Cromwell, who as Lord Protector of the Commonwealth ruled England, Scotland, and Ireland between 1653 and 1658 (“An Edition of Lady Hester Pulter’s Book of ‘Emblemes,” 2:114). Pulter similarly decries “they [that] have been three kingdoms’ sore annoyers” in “On Those Two Unparalleled Friends, Sir G.[eorge] Lisle and Sir C.[harles] Lucas,” a poem commemorating the deaths of two royalist leaders at the hands of the Parliamentarian army.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">What Comfort will they Yield that fatall hower</rdg>
+            <rdg wit="#ee">What comfort will they yield that fatal hour</rdg>
+            <rdg wit="#ae">What Comfort will they Yield that fatal hour</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">When as that Sea of Innocent blood Shall Rore</rdg>
+            <rdg wit="#ee"><seg>Whenas<note type="gloss">when</note></seg> that sea of innocent blood shall roar</rdg>
+            <rdg wit="#ae">When as that <seg>Sea of Innocent blood<note type="critical">The language here seems allusive, perhaps referring to the sea of blood indicative of God’s judgment in Revelation 16:2–3. Yet the phrase “sea of innocent blood” is not uncommon; Milton uses it to condemn Charles I in Chapter 2 of <title rend="italic">Eikonoklastes</title>, writing, “he thinks to scape that Sea of innocent blood wherein his own guilt inevitably hath plung’d him all over.”</note></seg> Shall Roar</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">To Heaven for vengence, who can but implore</rdg>
+            <rdg wit="#ee">To heaven for vengeance? Who can but <seg>implore<note type="gloss">request, pray for</note></seg>?</rdg>
+            <rdg wit="#ae">To Heaven for vengeance, who can but implore</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">But why doe I blame Spiders Tiranny</rdg>
+            <rdg wit="#ee">But why do I blame spider’s tyranny</rdg>
+            <rdg wit="#ae">But why do I blame Spider’s Tyranny</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Who forc’t by Huger Kills a <seg>ſilly<note type="physical">descender on first “l” imperfectly erased and smudged</note></seg> fly</rdg>
+            <rdg wit="#ee">Who, forced by hunger, kills a <seg>silly<note type="gloss">helpless, insignificant, foolish</note></seg> fly,</rdg>
+            <rdg wit="#ae">Who forced by Hunger Kills a silly fly</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">When Man’s <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> greatest Beast of prey of all</rdg>
+            <rdg wit="#ee">When man’s the greatest beast of prey of all?</rdg>
+            <rdg wit="#ae">When Man’s the greatest <seg>Beast of prey<note type="critical">The comparison of man to a beast of prey is not unique to Pulter. Geoffrey Whitney includes in <title rend="italic">A Choice of Emblemes</title> (1586) a poem with the epigram, <title rend="italic">Homo homini lupus</title> (Man is a wolf to man). “No mortall foe so full of poysoned spite, / As man, to man, when mischiefe he pretendes,” Whitney writes (144). Like Pulter, he notes that man does not treat animals with such cruelty.</note></seg> of all</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">His houſ a Shamble is or Butchers Stall</rdg>
+            <rdg wit="#ee">His house a <seg>shamble<note type="gloss">place where meat is sold</note></seg> is, or butcher’s stall.</rdg>
+            <rdg wit="#ae">His house a Shamble is or Butcher’s Stall</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">In all thoſe Books <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> I have Read I find</rdg>
+            <rdg wit="#ee">In all those books which I have read, I find</rdg>
+            <rdg wit="#ae">In <seg>all those Books which I have Read<note type="critical">Such references to the author’s learnedness are common in emblem books, e.g., Geoffrey Whitney’s reference to “divers authors” in his emblem comparing man to a wolf (<title rend="italic">A Choice of Emblemes</title> [1586], 144). As evidenced in this emblem, Pulter frequently demonstrates her familiarity with the Bible, Plutarch’s <title rend="italic">Lives</title>, Pliny’s <title rend="italic">Natural History</title>, and Purchas’ <title rend="italic">Purchas His Pilgrimage</title>; any of these may support Pulter’s assertion here, though <title rend="italic">Purchas His Pilgrimage</title> seems particularly pertinent. Alice Eardley discusses Pulter’s sources in Chapter Two of “An Edition of Lady Hester Pulter’s Book of ‘Emblemes,’” 1:102–124.</note></seg> I find</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">There’s none but Man doth Kill &amp; Eat his Kind</rdg>
+            <rdg wit="#ee">There’s none but man doth kill and <seg>eat his kind<note type="gloss">humans eat other animals</note></seg>.</rdg>
+            <rdg wit="#ae">There’s <seg>none but Man doth Kill and Eat his Kind<note type="critical">This phrase portrays humans as unique in killing other humans (“his Kind”). Unlike the spider, which only kills “silly fl[ies],” humans kill each other. Cf. Michel de Montaigne’s essay “On Cannibals,” which uses a cannibalistic civilization to critique the acts carried out “under the cloak of piety and religion” in his own society: “I consider it more barbarous to eat a man alive than to eat him dead” (Michel de Montaigne, <title rend="italic">Essays</title>, trans. J. M. Cohen [London: Penguin, 1993], 113).
+                This claim of man’s unique cannibalism is an ironic one given <ref type="pp-poem-ref" corresp="94">“The Cuckoo” (Emblem 29)</ref>, which documents multiple cases of animals killing their own kind. Moreover, such cannibalism sits awkwardly adjacent to the following lines discussing vegetarianism; even if man should not “Eat his [own] Kind,” it does not necessarily imply he should not eat animals. Eliding the two implies a strange kinship between humans and animals that Pulter rejects in her final lines.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft"><seg>The<note type="physical">in left margin: “xAntidiluvian”</note></seg> <seg><add place="above">x</add>AntidiLuvian<note type="physical">first “i” appears written over earlier “e”, “v” over “g”</note></seg> Patriachs happie were</rdg>
+            <rdg wit="#ee">The <seg>antediluvian patriarchs<note type="gloss">according to the Bible, the male authorities who existed before the flood. See the last note on their reputed vegetarianism until Noah was given permission to eat animals after the flood.</note></seg> happy were</rdg>
+            <rdg wit="#ae">The <seg>Antediluvian Patriarchs<note type="critical">Tradition holds that humans were vegetarians before the worldwide flood recounted in Genesis. Following the receding of flood waters, God licenses Noah’s eating of meat, declaring, “Every moving thing that liveth shall be meat for you” (Genesis 9:2–3).</note></seg> happy were</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">That liv’d by what the Earth did freely bear</rdg>
+            <rdg wit="#ee">That lived by what the earth did freely bear.</rdg>
+            <rdg wit="#ae">That lived by what the Earth did freely bear</rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">The Pithagorions noe blood would spill</rdg>
+            <rdg wit="#ee">The <seg>Pythagoreans<note type="gloss">Pythagoreans in the ancient Greek world abstained from eating animals partly because of their belief that humans and animals share a common soul, and partly because they appear to have considered the diet a healthier one.</note></seg> no blood would spill;</rdg>
+            <rdg wit="#ae">The <seg>Pithagorions<note type="critical">It is unclear whether the Greek philosopher and mathematician Pythagoras (c. 570–495 BCE) was himself a vegetarian. Regardless, his followers adhered to the vegetarian diet attributed to him, to such an extent that “vegetarianism” only replaced “pythagoreanism” in the nineteenth century. Pulter likely draws from Samuel Purchas’ widely popular <title rend="italic">Purchas His Pilgrimage</title> (1626), which recounts the Banians’ “Pythagorean errour” in loosing animals meant for slaughter (542).</note></seg> no blood would spill</rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">The Banians now noe Animals doe Kill</rdg>
+            <rdg wit="#ee">The <seg>Banians<note type="gloss">Hindu traders</note></seg> now no animals do kill</rdg>
+            <rdg wit="#ae">The <seg>Banians<note type="critical">Hindu Indian traders. The language of “redeem[ing]” indicates Pulter’s likely use of Purchas’ <title rend="italic">Purchas His Pilgrimage</title> (1626). In a section “Of the Banian and Cambayan Superstitions” (5.8.3), Purchas notes that the Banians “eat no flesh, nor ill any thing yea they redeem the beasts and birds maymed or sicke, and carry them to their Hospitals to be cured” (541).</note></seg> now no Animals do Kill</rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">But Such as Murtherers they doe Esteem</rdg>
+            <rdg wit="#ee">But such as murderers they do esteem</rdg>
+            <rdg wit="#ae">But Such as Murderers they do Esteem</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">And oft will buy thoſe Creatures to Redeem</rdg>
+            <rdg wit="#ee"><seg>And oft will buy those creatures to redeem.<note type="gloss">Hindu traders considered those who eat animal flesh to be murderers; they are reputed to have bought animals from butchers to save the animals’ lives.</note></seg></rdg>
+            <rdg wit="#ae">And oft will buy those Creatures to <seg>Redeem<note type="critical">Pulter’s use of “Redeem”–likely derived from Purchas–is economic, denoting a financial exchange whereby the animals are bought back. Yet it is particularly ironic in this context. Instead of God redeeming mankind, as he does in the biblical stories referenced a few lines later, Hindus are redeeming animals, thereby practicing a belief in the sanctity of life absent from Pulter’s own Christian nation.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">But Stay my Pen write noe more then is meet</rdg>
+            <rdg wit="#ee">But stay my pen, write no more than is <seg>meet<note type="gloss">appropriate</note></seg>,</rdg>
+            <rdg wit="#ae">But Stay my Pen write no more then is <seg>meet<note type="gloss">Pulter may be punning on “meat/mete,” suggesting both that it is inappropriate to say more, and that meat should be eaten “no more.”</note></seg></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Least I forget Noahs Licence, Peeters Sheet.</rdg>
+            <rdg wit="#ee">Lest I forget <seg>Noah’s license, Peter’s sheet<note type="critical">After the flood, according to the Bible, Noah is given permission to eat animal flesh: “Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things” (Genesis 9:3). See also God’s injunction for Peter to eat meat: “And he became very hungry, and would have eaten: but while they made ready, he fell into a trance, And saw heaven opened, and a certain vessel descending upon him, as it had been a great sheet knit at the four corners, and let down to the earth: Wherein were all manner of fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air. And there came a voice to him, Rise, Peter; kill, and eat” (Acts 10:10-13).</note></seg>.</rdg>
+            <rdg wit="#ae">Least I forget <seg>Noah’s License, Peter’s Sheet<note type="critical">Pulter here recalls two biblical examples of God licensing the eating of animals: Genesis 9:2–3, when God tells Noah that “Every moving thing that liveth shall be meat for you,” and Acts 10:9–16, when Peter receives a vision telling him to “kill, and eat” animals descending on a sheet from heaven, even those considered unclean by the Jews. Pulter thus rejects vegetarianism, even as she praises those who exhibit compassion towards animals. This final return to biblical text effectively suppresses the other religious paradigms that Pulter raises earlier, even as it reestablishes a traditional hierarchical order of being, with God ordaining humans as ascendant over the animals.</note></seg>.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
