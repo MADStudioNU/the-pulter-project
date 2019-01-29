@@ -1,3 +1,407 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.94">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Cuckoo (Emblem 29)</title>
+        <title type="sub">Poem #94</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_223.jpg" xml:id="f7610_223"/>
+      <graphic url="./document_images/7610_224.jpg" xml:id="f7610_224"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Rachel Zhang</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_000"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's no catchword -->
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">CATCHWORD</fw>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's none -->
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="LINE TYPE"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 29]</rdg>
+            <rdg wit="#ee">The Cuckoo (Emblem 29)</rdg>
+            <rdg wit="#ae">Emblem 29</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">Though the syntax, diction, capitalization, and spelling of Pulter’s poems may not conform to modern standards, it is analytically productive for the modern reader to consider these elements as they appear in the manuscript; they may, for instance, create links between different parts of the text, emphasize particular words, or create syntactical slippage that encourages multiple interpretations. In order to retain Pulter’s unique poetic voice, as well as maintain the possibility of multiple interpretations created by her text, I take a conservative editorial approach. I have chosen not to modernize grammar, capitalization, or punctuation, and adhere to the original spelling in cases where doing so retains a particular tone or analytical complexity that would be lost in modernization (e.g., “groan” in line 5, which conveys a physical utterance that would be lost if modernized to “grown”).</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">This emblem poem is unusual in multiple respects. First, like <ref type="pp-poem-ref" corresp="102">“The Ugly Spider” (Emblem 37)</ref>, it complicates the analogy between animals and humans that the poem initially suggests. Pulter’s presentation of the cuckoo, viper, wolf, and spider in the first section of the poem leads us to expect her comparison of these matricidal animals to humans; such a comparison–conventional in emblem books–would allow readers to apply the moral embodied by the animals to their own lives. Instead, however, Pulter declares that “Man is worse” than these matricidal animals. 
+                  This poem is also unusual in taking matricide as an emblematic theme. Many emblem books urge proper care of one’s parents; George Wither’s <seg><title rend="italic">A Collection of Emblems</title><note type="gloss">See Book 1, Emblem XIV in Wither, <title rend="italic">A Collection of Emblemes</title>, 14. For taking care of one’s parents, see for example Whitney, <title rend="italic">A Choice of Emblemes</title> (1586), 163.</note></seg> (1635) even warns against children “consum[ing]” their parents, as part of a larger warning against wasting one’s resources. Yet Pulter’s is the only English emblem poem devoted to matricide of which I am aware.This topic likely derives from conventional early modern depictions of the king’s relationship to his subjects as that of a parent to his children. Extensively discussed by political theorists, the comparison was openly propagated by earlier emblem books, as well as <seg>Stuart monarchs themselves<note type="critical">James I repeatedly compared monarchs to parents, writing in <title rend="italic">The True Lawe of Free Monarchies</title> (1598), “as fathers the good Princes, &amp; magistrates of the people of God acknowledge themselves to their subjects” (sig. 3r). Henry Peacham used James’ <title rend="italic">Basilikon Doron</title> (1599)–another expression of James’ patriarchal view of kingship–as the direct inspiration for his emblem book manuscripts, as well as the later printed <title rend="italic">Minerva Britanna</title> (1612); in the latter, he cites a passage from <title rend="italic">Basilikon Doron</title> for an emblem in which he writes, “We doe adore by nature, Princes good, / And gladly as our Parents, them obey.” Minerva Britanna, 144. For discussion of the king-parent comparison in relation to political theory, see Robert Filmer’s <title rend="italic">Patriarcha</title>, which was written in manuscript around 1628 but was not published until 1680. See also Deborah Shuger’s discussion of the representation of kings as nursing fathers in “Nursing Fathers: Patriarchy as a Cultural Ideal,” in Deborah Shuger, ed., <title rend="italic">Habits of Thought in the English Renaissance</title> (Berkeley: University of California Press, 1990), 218-249.</note></seg>. Thus the rebellion against and execution of Charles I during the civil wars–decried throughout Pulter’s manuscript–would be a sort of patricide, the destruction of England’s father by his rebellious subjects. The topic may also attest to George Herbert’s influence. Matricide is one of many spectres Herbert raises in “The Church-Porch,”which warns the reader against a series of vices and their consequences. Warning against drunkenness, Herbert writes, “He that is drunken may his mother kill, / Big with his sister” (31-2).
+                  The suggestion of Herbert’s influence on Pulter’s choice of topic is consistent with the influence of devotional lyric on Pulter’s emblems <seg>more broadly<note type="critical">See discussion of Pulter’s incorporation of devotional lyric into her emblems in Dunn [Zhang], “Breaking a Tradition: Hester Pulter and the English Emblem Book,” <title rend="italic">The Seventeenth Century</title> 30 (2015): 55-73.</note></seg>. Pulter’s devotional address in the poem’s final lines introduces a confessionalism unusual within emblem books. So “horrid” are the “impieties” of her own age in a time of civil war that Pulter turns away from her readers and ends her poem addressing God himself on her own behalf. Such a move is highly unconventional in emblem books like Pulter’s, which follow the tradition of Andrea Alciato’s <title rend="italic">Emblematum Liber</title> (1531) and exhort the reader to virtue with images drawn from nature, history, and cultural commonplaces. While Wither occasionally ends a poem with a prayer, the majority of Pulter’s emblems (twenty-nine) end focusing on the speaker’s own spiritual state. Such a move shirks emblem books’ traditional focus on the reader’s morality, and draws attention to the speaker’s internal piety, much as the conclusion of Herbert’s “Miserie” internalizes the moral drawn from an external emblem. As in Herbert’s poem, such internalization creates an ambiguity as to the guilty party: Is the speaker herself guilty of the sins she describes, or is she voluntarily taking on others’ sin? Unconventional as this confessional turn is in emblem poetry, it does offer a potential solution to the national crisis depicted earlier in Pulter’s poem: perhaps, the poem suggests, “Love and Gratefulness … may flow” to the nation at large as a consequence of the speaker’s own devotion, thereby creating a residual morality in England that will counter its matricidal sins against the monarchy.</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>The<note type="physical">poem begins on the same page as previous poem ends about halfway down</note></seg> Cuckoes conſtitution’s cold Shee knows</rdg>
+            <rdg wit="#ee"><seg>The cuckoo’s constitution’s cold<note type="gloss">Her character or temperament, largely determined by the balance or mixture of qualities in what was called humoral or Galenic physiology, is not disposed to animation or nurturing. Humoral theory saw bodies as intermixing fluids identified by their characteristics of being hot, dry, wet, cold.</note></seg>, she knows,</rdg>
+            <rdg wit="#ae">The Cuckoo’s constitution’s <seg>cold<note type="critical">The cuckoo’s “cold[ness]” may refer to the theory of the four bodily humors, an imbalance of which was believed to cause illness; excessive coldness was associated with being melancholic (cold and dry) or phlegmatic (cold and wet). Galen considered coldness and wetness particularly feminine qualities, associated with weakness, narrow chests, and cowardice, as opposed to hot and dry masculine qualities (Susan B. Mattern, <title rend="italic">Galen and the Rhetoric of Healing</title> [Baltimore, MD: Johns Hopkins University Press, 2008], 103). Given Pulter’s comparison of the cuckoo to Nero a few lines later, though, “cold” may not connote a gendered reading of the humors; it more likely refers to the cuckoo’s hard-heartedness towards its victims.</note></seg> She knows</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Therefore unto a Sparrows Nest Shee goes</rdg>
+            <rdg wit="#ee">Therefore unto a sparrow’s nest she goes,</rdg>
+            <rdg wit="#ae">Therefore unto a Sparrow’s Nest She goes</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Sucks up three Egs and in their Room lays one</rdg>
+            <rdg wit="#ee"><seg>Sucks up three eggs and in their room lays one,<note type="critical">Now known as a “brood parasite,” the cuckoo was known to lay her egg in another bird’s nest; the cuckoo baby, as this poem goes on to describe, then devours its new family. See Pliny, <title rend="italic">History of the World</title>, trans. Philemon Holland (London, 1634), 275.</note></seg></rdg>
+            <rdg wit="#ae">Sucks up three Eggs and <seg>in their Room lays one<note type="critical">This image derives from Pliny the Elder’s <title rend="italic">Natural History</title>, which describes the cuckoo’s practice of laying eggs in other birds’ nests; the cuckoo chick subsequently eats the other bird’s young and its adopted mother (X.IX).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Which the indulgent Bird Keeps as her own</rdg>
+            <rdg wit="#ee">Which <seg>the indulgent bird<note type="gloss">the compliant sparrow</note></seg> keeps as her own;</rdg>
+            <rdg wit="#ae">Which the <seg>indulgent<note type="critical">Emblem books frequently reproach children’s overindulgence by parents, e.g., Emblem 46 of Thomas Palmer’s <title rend="italic">Two Hundred Poosees</title> (c. 1565), p. 155 of Geoffrey Whitney’s <title rend="italic">A Choice of Emblemes</title> (1586), and Emblem XIV in Book 1 of George Wither’s <title rend="italic">A Collection of Emblemes</title> (1635). Pulter’s poem, though, chooses not to critique the sparrow’s “indulgen[ce],”a quality she encourages parents to have in Emblems 5, 10, and 41. Instead, she censures the actions of the children.</note></seg> Bird Keeps as her own</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">And when the gapeing Cuckoe was groan great</rdg>
+            <rdg wit="#ee">And when the <seg>gaping cuckoo<note type="gloss">open-mouthed baby cuckoo</note></seg> was grown great,</rdg>
+            <rdg wit="#ae">And when the gaping Cuckoo was groan great</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">I have Seen the Sparrow trembling bring her meat</rdg>
+            <rdg wit="#ee">I have seen the sparrow, trembling, bring her meat;</rdg>
+            <rdg wit="#ae">I have Seen the Sparrow trembling bring her meat</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">But yet Shee nouriſhed him Still to her power</rdg>
+            <rdg wit="#ee">But yet she nourished him still to her power</rdg>
+            <rdg wit="#ae">But yet She nourished him Still to her power</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Till hee ungratefully did her devour</rdg>
+            <rdg wit="#ee">’Til he, ungratefully, did her devour.</rdg>
+            <rdg wit="#ae">Till he ungratefully did her devour</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Soe Vipers Birth makes their own Dam̄s expire</rdg>
+            <rdg wit="#ee">So <seg>viper’s birth<note type="critical">It was thought that young snakes eat their way out of their mother’s womb, killing her in the process. See Holland, <title rend="italic">Natural History</title>, 1.302; Plin. HN 10.82.</note></seg> makes their own <seg>dams<note type="gloss">mothers</note></seg> expire,</rdg>
+            <rdg wit="#ae">So <seg>Vipers’ Birth<note type="critical">Pliny notes (in Philemon Holland’s translation) that when a viper delivers one baby, “the rest (impatient of so long delay) eat through their dams sides, and kil her.” <title rend="italic">Natural History</title> (1634), 302. Unlike Pulter, who uses this image to condemn the viper’s young, Henry Peacham’s <title rend="italic">Minerva Britanna</title> critiques the actions of the viper mother, analogizing it to the “Beastly lust” bred within which consumes the mind (152).</note></seg> makes their own Dames expire</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And Wolviſh whelps doe never ſee their Sire</rdg>
+            <rdg wit="#ee">And wolvish <seg>whelps<note type="gloss">young offspring</note></seg> do <seg>never see their sire<note type="critical">proverb alluding to the belief that female wolves would select a mate to impregnate her from a group of males; the other wolves would then seek revenge for not being selected by killing the father. See Nicholas Cox, <title rend="italic">The Gentleman’s Recreation</title> (London, 1686), pp. 122-23</note></seg>.</rdg>
+            <rdg wit="#ae"><seg>And Wolvish whelps do never see their Sire<note type="critical">Alice Eardley points to Nicholas Cox’s <title rend="italic">The Gentlemen’s Recreation</title> (1686) for an explanation of this line. Cox describes rival wolves’ practice of setting upon the male who successfully mates with the female; the revenge, he notes, “verifies the proverb: <hi rend="italic">Never</hi> Wolf <hi rend="italic">yet ever saw his Sire</hi>” (123). “An Edition of Lady Hester Pulter’s Book of ‘Emblemes’” (Ph.D. diss, University of Warwick, 2008), 2:92-3.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Even Soe Philangus gives three hundred Birth</rdg>
+            <rdg wit="#ee">Even so <seg>phalangies<note type="critical">poisonous spiders, whom Edward Topsell describes as matricidal: “<hi rend="italic">Phalangies</hi> do lay their eggs in a net or web, (which for the purpose they make very strong and thick) and sit upon them in very great number, and when their brood is increased to some growth, they kill their dam [mother] by their hard embracements, and fling her clean away; . . . They hatch at one time three hundred” (<title rend="italic">The Historie of Serpents</title>, 1608, p. 249).</note></seg> gives three hundred birth</rdg>
+            <rdg wit="#ae">Even So <seg>Philangus<note type="critical">The spider, or “phalangium.” Edward Topsell notes that phalangies’ eggs hatch three hundred at a time, and “do lay their Egges in a net or web, ... and sit upon them in very great number, and when their brood is increased to some growth, they kill their dam by their hard embracements, and fling her clean away.” <title rend="italic">Historie of Serpents</title> (1658), 770.</note></seg> gives three hundred Birth</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Who inſtantly Joyn all and Stop her Breath</rdg>
+            <rdg wit="#ee">Who instantly join all and stop her breath.</rdg>
+            <rdg wit="#ae">Who instantly Join all and Stop her Breath</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">But Man is wors caus hee Should better bee</rdg>
+            <rdg wit="#ee">But man is worse ’cause he should better be:</rdg>
+            <rdg wit="#ae">But Man is worse cause he Should better be</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Look back to former Ages and you’l See,</rdg>
+            <rdg wit="#ee">Look back to former ages and you’ll see</rdg>
+            <rdg wit="#ae">Look back to former Ages and you’ll See,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Children their old Sick parents have neglected</rdg>
+            <rdg wit="#ee">Children their old, sick parents have neglected;</rdg>
+            <rdg wit="#ae">Children their old Sick parents have neglected</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Some Nero Like their Mothers have deſcected</rdg>
+            <rdg wit="#ee"><seg>Some Nero-like their mothers have dissected.<note type="critical">Roman emperor Nero was reported to have killed his mother; “dissected” either refers to injuring her body or handling or viewing parts of her corpse after her death (see <ref type="pp-poem-ref" corresp="96">Old Aeschylus (Emblem 31)</ref>).</note></seg></rdg>
+            <rdg wit="#ae">Some <seg>Nero-like their Mothers have dissected<note type="critical">For reasons that remain obscure, the Roman emperor Nero (37–68 CE) decided to kill his mother Agrippina five years into his reign, an episode often considered the harbinger of Nero’s subsequent tyranny. As Edward Bolton recounts in <title rend="italic">Nero Caesar</title> (1624), some versions of Agrippina’s death describe that Nero “saw her body opened to behold the place of his conception” (43). Many accounts, however, describe only Nero’s handling or commenting upon Agrippina’s body (see, for example, Tacitus, <title rend="italic">Annals</title> XIV.9). Henry Peacham decries Nero’s tyranny in <title rend="italic">Minerva Britanna</title>, 144, without mentioning matricide. Pulter, though, seems fascinated with the rumor that Nero dissected Agrippina’s body after death; <ref type="pp-poem-ref" corresp="96">Old Aeschylus (Emblem 31)</ref> similarly describes Nero’s dissection of her body.</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">but</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_224" n="110v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_224"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_2240"/>
+            </rdg>
+        </app>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">But why Should wee look back to former Age</rdg>
+            <rdg wit="#ee">But why should we look back to former age</rdg>
+            <rdg wit="#ae">But why Should we look back to former Age</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">When Such impieties on this our Stage</rdg>
+            <rdg wit="#ee">When such impieties on this our stage</rdg>
+            <rdg wit="#ae">When Such <seg>impieties<note type="critical">Pulter likely alludes here to the execution of Charles I and other “impieties” committed by Parliament, such as those described in <ref type="pp-poem-ref" corresp="101">Doves and Pearls (Emblem 36)</ref>. This latter emblem depicts the parliamentarian army’s occupation of St. Paul’s Cathedral and the imprisonment of royalist soldiers in the royal stables at Charing Cross as “profan[ations]” of “a sacred fane [temple].”</note></seg> on this our <seg>Stage<note type="critical">Civil war writers commonly referred to Charles I as being executed upon a “stage,” given both the physical construction outside the Banqueting House upon which the king was killed, and the king’s reputation as an actor, in court masques as well as before the public. Andrew Marvell’s “An Horatian Ode upon Cromwell’s Return from Ireland” famously describes Charles I as a “royal actor” upon a “Tragic Scaffold.” If referencing Charles’ execution here, Pulter’s use of dramatic rhetoric is far less ambivalent than Marvell’s; her reference to the impious stage would be an outright condemnation of the regicide. Such theatrical rhetoric carries additional weight given the Protectorate context (c. 1650s) in which this emblem was likely composed: Pulter rhetorically resurrects the stage in defiance of the closure of public theatres by Charles I’s political opponents in 1642.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Have Acted been, all Nations in A maze</rdg>
+            <rdg wit="#ee">Have acted been? All nations in <seg>amaze<note type="gloss">amazement, astonishment</note></seg></rdg>
+            <rdg wit="#ae">Have Acted been, all Nations in A maze</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">&ff;or our deſerved, expected, vengence <seg>Gaze<note type="physical">“G” appears corrected from other letter; “z” also seems a correction</note></seg></rdg>
+            <rdg wit="#ee">For our deserved, expected vengeance gaze.</rdg>
+            <rdg wit="#ae">For our <seg>deserved, expected, vengeance Gaze<note type="critical"> Unlike the sparrow, who does not deserve to be eaten by her adopted chick, and the other maternal animals that Pulter cites, England “deserve[s]” and “expect[s]” vengeance for the crimes against its monarchical parent, these lines suggest. This makes the nation worse than animals, whose consumption by their offspring is undeserved, and who cannot expect justice. Yet these lines create ambiguity: It is unclear both who has committed the crimes and who is exacting “vengeance.” Is England “deserv[ing]” of vengeance upon itself, or does it “deserv[e]” to enact it? Similarly, does the “our” in line 20 refer to those who have suffered crimes, or those who perpetrated them? By allowing such ambiguity, Pulter suggests that England is both the victim of unspeakable crimes and the perpetrator of them, while encouraging the idea that retribution will come both from within England and from a divine power above it.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">When Crimes to Such a Magnitude doe Swell</rdg>
+            <rdg wit="#ee">When <seg>crimes<note type="critical">Though the crimes of the present time are unspecified here, other poems articulate Pulter’s denunciation of the civil war and of regicide.</note></seg> to such a magnitude do swell,</rdg>
+            <rdg wit="#ae">When Crimes to Such a Magnitude do Swell</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">They are (o Horrid) the &ff;orelorn of Hell</rdg>
+            <rdg wit="#ee">They are (O horrid!) the forlorn of Hell.</rdg>
+            <rdg wit="#ae">They are (o Horrid) the <seg>Forlorn of Hell<note type="critical">Pulter here deploys what is now an obsolete use of “forlorn,” denoting the state of being morally depraved or “doomed to destruction” (see <title rend="italic">OED</title> “forlorn,” adj. 2, 3). I read the “Forlorn of Hell” as referring to Charles’ subjects, the perpetrators of “Crimes,” rather than the “Crimes” themselves.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then o my <seg>Gracious<note type="physical">“r” appears corrected from earlier “o”</note></seg> God give mee thy grace</rdg>
+            <rdg wit="#ee">Then, O my gracious God, give me Thy grace</rdg>
+            <rdg wit="#ae">Then o my Gracious God give me thy grace</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Although my Sins thy Image doe deface</rdg>
+            <rdg wit="#ee"><seg>Although my sins Thy image do deface.<note type="gloss">To “deface” is to mar the features of, disfigure, or blot out; see also Genesis 1:26: “And God said, Let us make man in our image, after our likeness.”</note></seg></rdg>
+            <rdg wit="#ae">Although <seg>my Sins thy Image do deface<note type="critical">Genesis 1:26 notes that God made man “in our image” (KJV); this image is defaced by the shedding of blood, Genesis 9:6 implies: “Whoso sheddeth man's blood, by man shall his blood be shed: for in the image of God made he man.” The speaker’s acceptance of her own “defac[ing]” sin in this line is at odds with line 26, which implies that the speaker remains clean of “Such Horrid Crimes.” Such ambiguity echoes that of the preceding lines which similarly elide victim and perpetrator.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Yet from Such Horrid Crim’s preſerve mee Soe</rdg>
+            <rdg wit="#ee">Yet from such horrid crimes preserve me so</rdg>
+            <rdg wit="#ae">Yet from Such Horrid Crimes preserve me So</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">That Love and Gratefulnes from mee may flow</rdg>
+            <rdg wit="#ee">That love and gratefulness from me may flow.</rdg>
+            <rdg wit="#ae">That Love and Gratefulness <seg>from me<note type="critical">The turn from the first person plural (ll. 18, 20) to singular in these lines signals Pulter’s deviation from emblem convention. Rather than expounding upon the images of the matricidal animals to encourage the reader’s future morality, she turns inward; the speaker turns from the nation’s “Crimes” to her own “Sins,” as if she is taking on all of England’s sins as her own.</note></seg> may flow</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">And till above thy glorious face I see</rdg>
+            <rdg wit="#ee">And ’til above Thy glorious face I see,</rdg>
+            <rdg wit="#ae">And till above thy glorious face I see</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Give mee dear God Eternall Charitie</rdg>
+            <rdg wit="#ee">Give me, dear God, eternal <seg>charity<note type="gloss">Christian term for love of one’s fellow human beings</note></seg>.</rdg>
+            <rdg wit="#ae"><seg>Give me dear God Eternal Charity<note type="critical">This final couplet–evoking the speaker’s personal, future experience of heaven–is more reminiscent of Pulter’s devotional lyrics than other English emblem books. See, for instance, the final lines of <ref type="pp-poem-ref" corresp="1">The Eclipse</ref>, or <ref corresp="5" type="pp-poem-ref">Of Night and Morning</ref>. Such a devotional turn is extremely unusual in English emblem books, and may represent Pulter’s appeal to divine authority as a solution to what she portrays as unprecedented events.</note></seg></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>
