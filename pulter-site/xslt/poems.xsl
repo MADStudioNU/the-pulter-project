@@ -380,6 +380,33 @@
           <pp:author>Sarah C.E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="deep-ecologies">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>Deep Ecologies</pp:title>
+          <pp:peek>Today, the word “cetacean” refers specifically to a whale, dolphin, or porpoise, but it is derived from the Latin “cetus”, a broader term including many large and legendary marine creatures.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="globes-of-earth-and-light">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>Globes of Earth and Light</pp:title>
+          <pp:peek>The conclusion of Pulter’s poem reveals the tension between old and new astronomical models during the seventeenth century. To some degree, Pulter seems to uphold the Aristotelian distinction between the mutable, imperfect sublunary sphere and the perfect, regular universe beyond the moon.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-phoenix">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>The Phoenix</pp:title>
+          <pp:peek>Pulter’s brief description of the phoenix resembles conventional accounts of this mythological creature, including its vibrant gold and purple plumage.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-unicorn">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>The Unicorn</pp:title>
+          <pp:peek>Seventeenth-century writers did not always define a clear boundary between myth and fact, or locate this boundary in the same places as modern writers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="vegetal-animal-celestial">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>Vegetal, Animal, Celestial</pp:title>
+          <pp:peek>In “Universal Dissolution,” Hester Pulter’s narrator ascends through the levels of a hierarchical cosmological system rooted in Aristotelian philosophy.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="7">
       <pp:title>On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</pp:title>
