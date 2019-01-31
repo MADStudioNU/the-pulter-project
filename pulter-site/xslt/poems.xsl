@@ -1258,6 +1258,33 @@
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
+      <pp:curations>
+        <pp:curation status="on" hash="an-assize-sermon">
+          <pp:author>Wendy Wall</pp:author>
+          <pp:title>An Assize Sermon</pp:title>
+          <pp:peek>Pulter describes judgment day as “the blessed assize.” Assizes were criminal trials that were held twice a year before local juries; a judge visiting from London presided.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="aurora-and-phoebe">
+          <pp:author>Wendy Wall</pp:author>
+          <pp:title>Aurora and Phoebe</pp:title>
+          <pp:peek>Pulter often personifies the planets and astronomical events (dusk, dawn). This is a convention in Latin and Renaissance English poetry.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="flies-do-what-theyre-made-for">
+          <pp:author>Wendy Wall</pp:author>
+          <pp:title>Flies Do What They’re Made For</pp:title>
+          <pp:peek>But what is that? In “To Aurora [3]” (Poem 34), the speaker compares him- or herself unfavorably to insects: “In doing what they’re made for, every fly” fulfills God’s will, yet, in contrast, “Woe’s me: so do not I.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="moiling-in-the-earth">
+          <pp:author>Wendy Wall</pp:author>
+          <pp:title>Moiling in the Earth</pp:title>
+          <pp:peek>“Moiling in the earth,” as Pulter calls it in this poem, is the essence of human life, even if it is a distraction.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="more-ruminations-on-death-and-resurrection">
+          <pp:author>Wendy Wall</pp:author>
+          <pp:title>More Ruminations on Death and Resurrection</pp:title>
+          <pp:peek>Pulter’s speakers often remind themselves and readers that death is both inevitable and a fervently desired transition.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
