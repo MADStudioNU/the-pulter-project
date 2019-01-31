@@ -2422,6 +2422,33 @@
         <pp:tag>body</pp:tag>
         <pp:tag>praise</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="breath-and-song">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Breath and Song</pp:title>
+          <pp:peek>The image of breath is key to the poem, the soul on earth “breathing forth” her spiritual songs until death. The penultimate stanza, with its denial of death, may owe something to the opening stanza of John Donne’s “A Valediction Forbidding Mourning.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="devotional-lyrics">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Devotional Lyrics</pp:title>
+          <pp:peek>“Made When My Spirits Were Sunk Very Low” is one of many devotional lyrics in Pulter’s manuscript, of the kind written in physical and or spiritual “sickness and sorrow,” as the title to this poem describes.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="george-herbert">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>George Herbert</pp:title>
+          <pp:peek>George Herbert’s volume of devotional lyrics, _The Temple_ (1633), is the most obvious model for Pulter’s devotional lyrics, both this one and those listed as comparisons in another Curation for this poem, “Devotional Lyrics.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pilgrimage">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Pilgrimage</pp:title>
+          <pp:peek>Life on earth is described as “my few and evil days” in “Made when my Spirits were Sunk Very Low” (Poem 66), echoing Genesis 47:9, in which life is described as a pilgrimage.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="wings">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Wings</pp:title>
+          <pp:peek>A common devotional trope evoked in Pulter’s poem is that of wings by which the soul will ascend towards the divine. Pulter uses the image in that way in “Must I Thus Ever Interdicted Be” (Poem 55).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
