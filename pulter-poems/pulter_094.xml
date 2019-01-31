@@ -135,20 +135,13 @@
       <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
       <app>
         <rdg wit="#ft">
-          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+          <pb ed="#ft" facs="#f7610_223" n="110r"/>
         </rdg>
         <rdg wit="#ee">
-          <pb ed="#ee" facs="#f7610_000"/>
+          <pb ed="#ee" facs="#f7610_223"/>
         </rdg>
         <rdg wit="#ae">
-          <pb ed="#ae" facs="#f7610_000"/>
-        </rdg>
-      </app>
-
-      <!-- Remove if there's no catchword -->
-      <app>
-        <rdg wit="#ft">
-          <fw type="catch" place="bottom">CATCHWORD</fw>
+          <pb ed="#ae" facs="#f7610_223"/>
         </rdg>
       </app>
 
@@ -162,7 +155,7 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 29]</rdg>
-            <rdg wit="#ee">The Cuckoo (Emblem 29)</rdg>
+            <rdg wit="#ee">The Cuckoo<lb/>(Emblem 29)</rdg>
             <rdg wit="#ae">Emblem 29</rdg>
         </app>
         <app type="editorialnote">
@@ -315,7 +308,7 @@
                 <pb ed="#ee" facs="#f7610_224"/>
             </rdg>
             <rdg wit="#ae">
-                <pb ed="#ae" facs="#f7610_2240"/>
+                <pb ed="#ae" facs="#f7610_224"/>
             </rdg>
         </app>
       <l n="17">

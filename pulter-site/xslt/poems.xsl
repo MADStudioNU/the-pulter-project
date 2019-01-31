@@ -2884,6 +2884,18 @@
     </pp:poem>
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
+      <pp:firstLine></pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Rachel Zhang</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <!--<pp:keywords></pp:keywords>-->
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
