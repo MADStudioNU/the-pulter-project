@@ -438,7 +438,7 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems' + EE_SUBFOLDER + '/' + slug);
+            console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + EE_SUBFOLDER + '/' + slug);
 
             // Write /poems/{$edition}/{$id} redirect page
             var stream1 = source('redirect.html');
@@ -505,7 +505,7 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems' + AE_SUBFOLDER + '/' + slug);
+            console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + AE_SUBFOLDER + '/' + slug);
 
             // Write the redirect page
             var streamN = source('redirect.html');
@@ -565,7 +565,7 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
+            console.log('http:' + LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
 
             // Write the redirect page
             var streamN = source('redirect.html');
