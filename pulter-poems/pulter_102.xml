@@ -131,11 +131,21 @@
     </front>
 
     <body>
-
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_233" n="115r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_233"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_233"/>
+        </rdg>
+      </app>
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 37]</rdg>
-            <rdg wit="#ee">The Ugly Spider (Emblem 37)</rdg>
+            <rdg wit="#ee">The Ugly Spider<lb/>(Emblem 37)</rdg>
             <rdg wit="#ae">Emblem 37</rdg>
         </app>
         <app type="editorialnote">

@@ -2884,7 +2884,7 @@
     </pp:poem>
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
-      <pp:firstLine></pp:firstLine>
+      <pp:firstLine>The cuckoo’s constitution’s cold, she knows</pp:firstLine>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2951,6 +2951,18 @@
     </pp:poem>
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
+      <pp:firstLine>Behold how many cobwebs doth invest</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Rachel Zhang</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <!--<pp:keywords></pp:keywords>-->
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
