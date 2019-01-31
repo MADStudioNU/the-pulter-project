@@ -2949,6 +2949,28 @@
         <pp:tag>cannibalism</pp:tag>
         <pp:tag>vice</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="doctor-fox">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Doctor Fox and the Medieval Beast Fable</pp:title>
+          <pp:peek>The fox as physician has a long history in ancient and medieval fables. The fourteenth-century manuscript known as the Smithfield Decretals contains extensive decoration in its borders, including scenes from animal fables</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="lions-eating-apes">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Lions Eating Apes as a Cure for Illness</pp:title>
+          <pp:peek>At least two natural histories of the period, Edward Topsell’s _The historie of foure-footed beastes_ (1607) and Philemon Holland’s translation of Pliny’s _The historie of the world_ (1601, 1634, and 1635), discuss the medicinal use of apes for lions.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="machiavellis-lion-and-fox">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Machiavelli’s Lion and Fox</pp:title>
+          <pp:peek>Pulter’s construction of a scenario in which a lion king orders the killing of troublesome courtiers at the urging of a crafty fox may recall Niccolò Machiavelli’s famous advice that a ruler should be both a lion and a fox.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="machiavellis-prince">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Machiavelli’s Prince: Better to be Loved or Feared?</pp:title>
+          <pp:peek>When Pulter notes of the lion in line 2 that he “of his Subjects was not lov’d but fear’d” she seems to be evoking Niccolò Machiavelli’s chapter “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” from his political treatise _The Prince_.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
