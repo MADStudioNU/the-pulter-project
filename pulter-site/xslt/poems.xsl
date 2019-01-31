@@ -2646,6 +2646,36 @@
           <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>London</pp:keyword>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>reader</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>marriage</pp:keyword>
+        <pp:keyword>Others</pp:keyword>
+        <pp:keyword>slavery</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>performance</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>prayer</pp:keyword>
+      </pp:keywords>
+      <!--<pp:tags></pp:tags>-->
+      <pp:curations>
+        <pp:curation status="on" hash="the-devoted-turtledove">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>The Devoted Turtledove</pp:title>
+          <pp:peek>Where might Pulter have gotten her ideas about the turtledove? Some possibilities include the Bible, books about natural history, and works of literature.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-widows">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>The Widows</pp:title>
+          <pp:peek>With its description of virtuous mourning, Pulter’s turtledove emblem enters into a conversation with contemporary texts about widowhood, including how widows should behave and whether they should remarry.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="86">
       <pp:title>Raccoons (Emblem 21)</pp:title>
