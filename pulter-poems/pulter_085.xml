@@ -128,9 +128,12 @@
         </listWit>
       </div>
     </front>
-
     <body>
-
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_210" n="103v"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_210"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_210"/></rdg>
+      </app>
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 20]</rdg>
@@ -159,7 +162,6 @@
           </rdg>
         </app>
       </head>
-
       <l n="1">
         <app>
             <rdg wit="#ft">Who can but pitty this poor Turtle Dove</rdg>
