@@ -1,3 +1,654 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.39">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Perfection of Patience and Knowledge</title>
+        <title type="sub">Poem #39</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_117.jpg" xml:id="f7610_117"/>
+      <graphic url="./document_images/7610_118.jpg" xml:id="f7610_118"/>
+      <graphic url="./document_images/7610_119.jpg" xml:id="f7610_119"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Liza Blake</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_000"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's no catchword -->
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">CATCHWORD</fw>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's none -->
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="LINE TYPE"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The perfection of Patience and Knowledg</rdg>
+            <rdg wit="#ee">The Perfection of Patience and Knowledge</rdg>
+            <rdg wit="#ae">The Perfection of Patience and Knowledge</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">Poem 39 has some interesting choices for the editor and readers, both because of the particularities of the manuscript (there are two corrections that have a significant effect on the meaning of the lines around them), and because of the choices required by modernization. Because this is a poem about the quest for (and joys of) knowledge, I took these decisions as an editorial challenge: how can we <hi rend="italic">know</hi> what the final version of this poem is meant be? How would we translate the poem’s fantasy of total knowledge to editorial fantasies of mastery? 
+                  The poem’s answer, of course, is that in our world, this fantasy of knowledge is just that: a fantasy. I have therefore made editorial choices where I see fit, but have also created “ghost” visualizations of what other interesting options there are, not burying these choices in a textual apparatus or in notes only, but keeping them on the page for readers to <seg>see and consider<note type="critical">For a project exploring the ways digital forms might help us visualize variants, see Alan Galey’s <ref corresp="http://individual.utoronto.ca/alangaley/visualizingvariation/animated.html">“Visualizing Variation”</ref> project. </note></seg>. Those ghost options appear in grey above the choice that replaced them, but, like the poem reminds us, even the most still and motionless buried corpses will not always stay buried: “The sleeping dust will rise and speak” (l. 13). I explain my choices and what is at stake in those editorial decisions in footnotes. In a poem about knowledge, it is best to have as much information as possible, so my notes also include information about the choices made in previous editions, which are cited in the following abbreviated forms: 
+                  <hi rend="bold">Christian</hi>: an old-spelling annotated dissertation edition of Pulter’s poems: Hester Pulter, “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,” ed. Stefan Graham Christian (PhD diss., University of Massachusetts Amherst, 2012).
+                  <hi rend="bold">Eardley</hi>: a modernized and annotated edition of Pulter’s poems: <title rend="italic">Hester Pulter, Poems, Emblems, and the Unfortunate Florinda</title>, ed. Alice Eardley (Toronto: Iter, Inc. and the Centre for Renaissance and Reformation Studies, 2014).
+                  <hi rend="bold">Knight and Wall</hi>: a modernized and annotated “Elemental Edition” of Poem 39: Hester Pulter, “The Perfection of Patience and Knowledge,” ed. Leah Knight and Wendy Wall, <title rend="italic">The Pulter Project</title>
+                  Quotations from other Pulter poems are from Eardley’s edition, and are cited by line number. In addition, any Biblical quotations are from the King James Bible of 1611 (<title rend="italic">The Holy Bible, conteyning the Old Testament, and the New / newly translated out of the originall tongues, and with the former translations diligently compared and reuised, by His Maiesties speciall comandement; appointed to be read in churches</title> [London: by Robert Barker, printer to the Kings most Excellent Maiestie, 1611]), and are cited by chapter and verse. Biblical quotations in the headnote above come from this text, but have been modernized for ease of comparison. 
+                  Throughout, I have modernized the text’s spelling and capitalization to concur with the <title rend="italic">Oxford English Dictionary Online</title> (hereafter <title rend="italic">OED</title>) headwords; for example, since “embryon” exists as a headword in the <title rend="italic">OED</title>, I have not modernized it to “embryo.” I have also expanded poetic abbreviations where such expansions would not affect the meter for a modern reader. For example, I expanded “sublim’d” into “sublimed,” as a modern reader would naturally read that word with two syllables. In instances where a final “ed” in the manuscript seems to suggest an additional syllable, I have modernized as “èd” (for example, the manuscript’s “Loathed,” pronounced with two syllables for metrical purposes, became modernized as “loathèd”). I have also modernized punctuation, particularly attempting, in the process, to call attention to the structure of the poem’s argument, though all parentheses in the poem are from the manuscript. Notes gloss difficult words and sentences, provide references to echoes in Pulter’s and other works, and call attention to interesting textual and interpretive ambiguities.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">How is an embryo like a corpse? Both are models, in womb or tomb, of patience with cramped quarters—not a quality Pulter herself apparently possessed, since she often rails against her own sequestered state. In tetrameter lines by turns terse and lively, the speaker here alternately lambastes her soul for seeking freedom from this world and offers encouraging analogies of the eventual freeing of other beings once impeded by material bonds. She then envisions her soul’s flight to its celestial place of birth after her own bodily death. Although the pep-talk might work for the soul, it seems to worry the speaker, who seeks assurance that her soul will return to escort her to heaven (somewhat hilariously, she fears sleeping through the trumpeting of the Last Judgment). This reunion of speaker and soul is identified with their mutual perfection, in which their knowledge of worldly mysteries grows clear: transforming griefs to joys, elucidating everything from astronomy to politics, and reuniting them with both friends and a reciprocated knowledge of “[t]he eternal essence.”</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">	At first glance, “The Perfection of Patience and Knowledge” seems to be an extended riff on 1 Corinthians 13:12. Where the Biblical text says, “now I know in part, but then shall I know even as also I am known,” the poem concludes with the fantasy that after the Last Judgment, “we shall know (without which all is none) / The eternal essence, even as we are known” (ll. 58–59). What kind of knowledge, exactly, is promised in these lines is a question throughout the poem. After her soul “jogs” her awake for the Final Judgment, they (the speaker of the poem and her soul) will be refined, while the rest of the world is burned to ashes; “then we shall know” (l. 32), she promises to her soul, a variety of things, from astrology to astronomy to alchemy. The poem imaginatively inhabits the moment of the Last Judgment not in order to think about sin or salvation, but to indulge in the fantasy of total knowledge.
+                  However, the poem also challenges its own fantasy of achieving scientific knowledge: the knowledge of scientific fields gestured to in lines 30–53 seems to be different from the knowledge of the “eternal essence” promised by line 59, or even the love or charity that is the core subject of <seg>1 Corinthians 13<note type="critical">See the curation for this poem for a full transcription of 1 Corinthians 13, to put Pulter’s reading in its Biblical context.</note></seg>. Indeed, Pulter claims in line 55 that the ultimate knowledge of God will make the cosmological research questions of the poem’s middle “prove toys” (l. 55). Against the ending, Sarah Hutton has argued that the poem is entirely invested in the scientific questions of its own middle: “The anticipated re-union with the divine after death, hardly figures in the main body of the poem—not until the last line. The knowledge described in the poem is entirely secular, specifically <seg>cosmological<note type="critical">Sara Hutton, “Hester Pulter (c. 1596–1678). A Woman Poet and the New Astronomy,” <ref corresp="https://journals.openedition.org/episteme/729"><title rend="italic">Etudes Epistémè</title></ref> 14 (2008), 10.</note></seg>.” How you understand the poem’s sudden turn away from astronomy to the divine knowledge offered by St. Paul in 1 Corinthians radically changes your sense of the ultimate argument of the poem. In 1 Corinthians we are told that “whether there be knowledge, it shall vanish away. For we know in part …” (1 Corinthians 13:8–9). Is this a poem about scientific knowledge, or about forsaking the partial knowledge offered by worldly things for the more perfect knowledge (and love) of God? 
+                  Or is it about something else? The poem starts, after all, in a totally different place again: with an exhortation to her soul to wait more patiently for the death of the body, and a reflection on the natural physical dissolution of all matter. The three disjunctive parts of the poem—on the soul’s relationship to the body and resurrection (ll. 1–29); on scientific knowledges (ll. 30–53); on the knowledge of God (ll. 54–59)—are set up for the reader as a kind of puzzle, “a maze we now live under” (l. 33) that both astounds us (“a maze” could mean a <seg>sense of amazement<note type="critical"><title rend="italic">OED</title>, s.v. “maze, n.” For a comparable reading of Donne’s disjunctive poetic methods, see Liza Blake, “Lyric and Scientific Epistemologies: Bacon and Donne,” in <title rend="italic">Gathering Force: Early Modern British Literature in Transition</title>, 1557–1623, volume I, ed. Kristen Poole and Lauren Shohet (Cambridge: Cambridge University Press, forthcoming 2018): 171–83, esp. 177–83.</note></seg>), and invites us to solve its structure. The poem demands, with these elaborate turns of thought, that we read across and connect all three parts, partly through repetition and careful balancing of images. The first part begins by training you to watch for such patterns, listing four instances of matter in its potential (the unhatched egg; the unborn embryo) and then in its actualization (the chirping bird, the infant freed from the womb). But the repetitions stretch across sections as well: the “sleeping dust” of the corpse (l. 12) piles into the “dunghill globe of earth” (l. 20) that the soul escapes, only to return as the “orbs of wonder” (l. 32) in the second part. Those orbs of wonder that receive so much attention in the second part are themselves both actual globes (perhaps also dunghills, upon closer inspection), and mythological and astrological figures. 
+                  Perhaps the answer to all these repetitions, and to the questions the poem raises about its own hybridity, is patience. Despite the fact that the poem has received most attention for its scientific middle, the poem is not called just “The Perfection of Knowledge,” but “The Perfection of Patience and Knowledge”; the poem asks you to sit with it, to contemplate it, to go back and re-read as images and even words change meaning with each repetition and in different contexts (surely the “know” of line 32 cannot mean the same thing as the “know” of line 56, which is different again than the one in line 68). Perhaps the knowledge at stake is not just the science of the middle, or the theology of the end, but a kind of training in patient and careful thought, through the exploration of poetic repetition and form. Perhaps this patience is a form of the charity, or love, for which 1 Corinthians 13 advocates.
+              </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft">My Soul, in <seg>Str<del>a</del><add place="above">u</add>gling<note type="physical">“a” blotted and crossed with vertical line; “u” in different hand from main scribe</note></seg> thou dost Ill,</rdg>
+            <rdg wit="#ee">My soul: in struggling thou dost ill!</rdg>
+          <rdg wit="#ae">My soul, in <seg><seg>struggling<span rend="ghost">straggling</span></seg><note type="critical">In the manuscript this was originally “straggling,” before a second hand corrected it to “struggling.” The correction scolds the soul for resisting (the inevitability of death); the original, for delaying. I have adopted the latter hand’s correction. Christian, Eardley, and Knight and Wall all follow the corrector and give “struggling”.</note></seg> thou dost ill.</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">The Chicken in the Shell lies Still:</rdg>
+            <rdg wit="#ee">The chicken in the shell lies still;</rdg>
+          <rdg wit="#ae">The chicken in the shell lies <seg>still<note type="critical">“Still” has a double meaning here: either the chicken lies motionless in the egg, or it lies yet, it remains. The first perhaps implies that the chicken, before it is born, has not started moving; the second instills the yet-unborn chicken with more potential (it is still in the egg, but will one day break out). Which of the two meanings of “still” one understands will carry forward to the next lines as well: does the corpse lie motionless within the tomb, or does it yet lie in the tomb? Lines 11–15 suggest that the meaning of “still” as “yet” may be intended: the corpse still lies in the tomb, though one day it will rise.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">Soe doth the <seg>Embryon<note type="physical">“y” in darker ink over an “i”; “on” also in darker ink</note></seg> in the Womb,</rdg>
+            <rdg wit="#ee">So doth the embryo in the womb;</rdg>
+            <rdg wit="#ae">So doth the embryon in the womb;</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Soe doth the Corps, within the Tomb,</rdg>
+            <rdg wit="#ee">So doth the corpse within the tomb;</rdg>
+          <rdg wit="#ae">So doth the <seg>corpse within the tomb<note type="critical">This image potentially works differently than the others: the corpse lying still within a tomb suggests, perhaps, an ending rather than a beginning.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Soe doth the &ff;lower, Sleep in its Cauſe,</rdg>
+          <rdg wit="#ee"><seg>So doth the flower sleep in its cause—<note type="gloss">the flower dies into the earth, its place and material of origin</note></seg></rdg>
+          <rdg wit="#ae">So doth the flower sleep in its <seg>cause<note type="critical">The word “cause” here perhaps refers to the Aristotelian material cause, or matter: the potential for the flower sleeps in the matter that will eventually become that flower, as the potential for the chicken sleeps in the matter of the egg (see also Christian, 207n480). These lines are an echo of Pulter’s earlier poem <ref type="pp-poem-ref" corresp="6">“Universal Dissolution” (Poem 6)</ref>: “Those glorious flowers … / … hang their heads and weep / ’Cause in their causes they so soon must sleep. / So man to his first principles must turn …” (ll. 11, 13–15). In this earlier poem, where “cause” is a repeated word, it is clear that causes represent both potential as well as a dissolution of matter back into “first principles” or atoms.</note></seg>—</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Obedient all to Natures Laws.</rdg>
+            <rdg wit="#ee">Obedient, all, to nature’s laws.</rdg>
+            <rdg wit="#ae">Obedient all to Nature’s laws.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">But tho’ art Still Striving to bee free,</rdg>
+          <rdg wit="#ee">But <seg>thou’rt<note type="gloss">thou art</note></seg> still striving to be free,</rdg>
+            <rdg wit="#ae">But thou’rt still striving to be free,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">As if none were in Bonds but thee.</rdg>
+            <rdg wit="#ee">As if none were in bonds but thee.</rdg>
+            <rdg wit="#ae">As if none were in bonds but thee.</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Though for A time thourt cloath’d <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Earth:</rdg>
+            <rdg wit="#ee">Though for a time thou’rt clothed with earth,</rdg>
+          <rdg wit="#ae">Though for a time thou’rt <seg>clothed with earth<note type="gloss">i.e., though for now you, the soul, are still stuck in a body</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Er’e long thoult have a happy Birth.</rdg>
+          <rdg wit="#ee"><seg>Ere<note type="gloss">before</note></seg> long <seg>thou’lt<note type="gloss">thou wilt</note></seg> have a happy birth.</rdg>
+            <rdg wit="#ae">Ere long thou’lt have a happy birth.</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The Chirping Bird will Break its Shell,</rdg>
+            <rdg wit="#ee">The chirping bird will break its shell;</rdg>
+            <rdg wit="#ae">The chirping bird will break its shell;</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">The Infant Leave it’s Loathed Cell;</rdg>
+            <rdg wit="#ee">The infant leave its loathed cell;</rdg>
+            <rdg wit="#ae">The infant leave its loathèd cell;</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">The Sleeping Dust will rise and Speake,</rdg>
+            <rdg wit="#ee">The sleeping dust will rise and speak,</rdg>
+            <rdg wit="#ae">The sleeping dust will rise and speak,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">And will her Marble priſon Break:</rdg>
+          <rdg wit="#ee">And will her <seg>marble prison break<note type="gloss">the dust or ashes of the corpse (l.4) will be freed from its tomb</note></seg>;</rdg>
+          <rdg wit="#ae">And will her <seg>marble prison break<note type="critical">These lines gesture to the Resurrection, in which bodies will re-form and be reunited with their souls to face the Final Judgment.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">The &ff;lower her bevty will diſplay;</rdg>
+            <rdg wit="#ee">The flower her beauty will display;</rdg>
+            <rdg wit="#ae">The flower her beauty will display—</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft"><seg><del>And</del><add place="above">then</add><note type="physical">“then” in different hand from main scribe</note></seg> my infranchiſed Soul, away</rdg>
+          <rdg wit="#ee">Then, my <seg>enfranchised<note type="gloss">freed from confinement or subjection</note></seg> soul, away</rdg>
+          <rdg wit="#ae"><seg><seg>Then<span rend="ghost">And</span></seg><note type="critical">The manuscript originally read, “And,” and a second hand crossed out “And” and replaced it with “then.” The choice is significant: “and” implies that the soul’s flight will follow naturally with these other natural and supernatural occurrences (a chicken will emerge from an egg, a flower will bloom; the body will resurrect, the soul will travel beyond the sky), while “then” suggests that these natural and supernatural occurrences are perhaps either temporally or even causally linked: at the moment that these things happen, <hi rend="italic">then</hi> the soul will rest in everlasting life and light. The editorial tradition is divided on this correction: Christian gives “then”; Eardley, “And”; Knight and Wall, “Then”.</note></seg> my enfranchised soul, away</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Beyond the Skie, will take her flieght,</rdg>
+            <rdg wit="#ee">Beyond the sky will take her flight,</rdg>
+            <rdg wit="#ae">Beyond the sky, will take her flight,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">And rest aboue the Spheirs of Night;</rdg>
+          <rdg wit="#ee">And rest above the <seg>spheres of night<note type="gloss">concentric hollow globes imagined in ancient astronomy to revolve around the earth, carrying heavenly bodies (moon, sun, planets, fixed stars)</note></seg>,</rdg>
+            <rdg wit="#ae">And rest above the spheres of night</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">In everlasting Life And Light.</rdg>
+            <rdg wit="#ee">In everlasting life and light.</rdg>
+          <rdg wit="#ae">In everlasting life and <seg>light<note type="critical">The triplet, adding a third rhyme to the poem’s usual couplets, perhaps emphasizes the <hi rend="italic">beyond</hi> of the soul’s future flight.</note></seg>.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Scorning</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_118" n="57v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_118"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_118"/>
+            </rdg>
+        </app>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Scorning this Dunghill, Globe of Earth:</rdg>
+          <rdg wit="#ee">Scorning this <seg>dunghill<note type="gloss">pile of excrement</note></seg> globe of earth,</rdg>
+          <rdg wit="#ae">Scorning this <seg>dunghill globe of Earth<note type="gloss">The Earth is here imagined as being made up not of earth but of dung.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Shee’l goe from whence Shee had her Birth.</rdg>
+          <rdg wit="#ee">She’ll go <seg>from whence<note type="gloss">from where</note></seg> she had her birth.</rdg>
+            <rdg wit="#ae">She’ll go from whence she had her birth.</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">But (Ô my Soul) once more, Return</rdg>
+            <rdg wit="#ee">But (O my soul) once more, return,</rdg>
+          <rdg wit="#ae">But (O my soul!) <seg>once more return<note type="critical">The speaker here asks her soul to return even after its flight to “everlasting life and light,” thereby creating an interesting question about what or who the “me” is that is speaking the poem (the body? What remains of the speaker without a soul?).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">And call mee in my Silent Urn.</rdg>
+            <rdg wit="#ee">And call me in my silent urn.</rdg>
+            <rdg wit="#ae">And call me in my silent urn.</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+          <rdg wit="#ft">But <seg>if<note type="physical">crowded into space between the surrounding words</note></seg> a Sleep I then am found,</rdg>
+            <rdg wit="#ee">But if asleep I then am found,</rdg>
+            <rdg wit="#ae">But if asleep I then am found,</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Jog mee, and Say the Trump doth Sound.</rdg>
+          <rdg wit="#ee"><seg>Jog<note type="gloss">rouse; shake</note></seg> me, and say <seg>the trump doth sound<note type="critical">trumpet of Last Judgment; Revelation 8-11.</note></seg>.</rdg>
+          <rdg wit="#ae"><seg>Jog me, and say the trump doth sound;<note type="critical">Jog or nudge me awake, and tell me the trumpets of the Last Judgment are sounding. For the sounding of the trumpets see the Book of Revelations, chapters 8–10 (see also Eardley, 382).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Then will I riſe and fly away,</rdg>
+            <rdg wit="#ee">Then will I rise and fly away</rdg>
+            <rdg wit="#ae">Then will I rise and fly away</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">With thee to everlasting Day:</rdg>
+            <rdg wit="#ee">With thee to everlasting day;</rdg>
+            <rdg wit="#ae">With thee, to everlasting day.</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Then Shall our griefe and past annoys,</rdg>
+            <rdg wit="#ee">Then shall our grief and past annoys,</rdg>
+            <rdg wit="#ae">Then shall our grief and past annoys</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Bee Swallowed up of infinite Joys;</rdg>
+          <rdg wit="#ee">Be swallowed up <seg>of<note type="gloss">by or in</note></seg> infinite joys;</rdg>
+          <rdg wit="#ae"><seg>Be swallowed up of infinite joys:<note type="critical">i.e., Then all the small annoyances of the past shall be absorbed into infinite joy. See also the poem immediately after Poem 39 in the manuscript, <ref type="pp-poem-ref" corresp="40">“My Soul: Why Art Thou Full of Trouble?” (Poem 40)</ref>, ll. 38–40: “And all my past annoys / Shall swallowed be of infinite glory / And crowned with endless joys.” In both lines, the “of” seems to mean either “by” or “in.” I have added a colon at the end of this couplet, with the presumption that what follows is a list of the joys they can expect.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Then beeing perfect and Sublim’d,</rdg>
+          <rdg wit="#ee">Then, being perfect and <seg>sublimed<note type="gloss">purified; elevated morally or spiritually; chemically distilled</note></seg>,</rdg>
+            <rdg wit="#ae">Then being perfect and sublimed,</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Wee Shall diſcern this Globe Calcin’d:</rdg>
+          <rdg wit="#ee">We shall discern this globe <seg>calcined<note type="gloss">burnt to ash; purified</note></seg>:</rdg>
+          <rdg wit="#ae">We shall discern this globe <seg>calcined<note type="critical">In early alchemical terms, to sublime was to purify a substance, perhaps by converting it to a vapor; to calcine was to burn to ashes, “to reduce a mineral or metal to its purest or most refined residuum by driving off or consuming all the more volatile and perishable constituents” (<title rend="italic">OED</title>, s.v. “sublime, v.,” “calcine, v.”). On Pulter’s alchemy, see Jayne Archer, “‘A Perfect Circle?’: Alchemy in the Poetry of Hester Pulter,” <title rend="italic">Literature Compass</title> 2 (December 2005): 1–14.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Then Shall wee know theſe Orbs of Wonder,</rdg>
+          <rdg wit="#ee">Then shall we know these <seg>orbs of wonder<note type="critical">the “spheres of night” of l.18; and/or the heavenly bodies themselves</note></seg>,</rdg>
+            <rdg wit="#ae">Then shall we know these orbs of wonder,</rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Which in a maze wee now live under.</rdg>
+          <rdg wit="#ee">Which <seg>in a maze<note type="gloss">or, possibly, “amaze”: in confusion, terror, wonder</note></seg> we now live under.</rdg>
+          <rdg wit="#ae">Which in <seg><seg>a maze<span rend="ghost">amaze</span></seg><note type="critical">Though I have modernized as “a maze,” the manuscript may in fact read “amaze”; Christian transcribes it as one word, while Eardley and Knight and Wall give it as two. These two mean roughly the same thing—we live in a state of amazement—but “a maze” adds a second layer of meaning: we don’t just live in amazement under the “orbs of wonder,” wondering at the orbs and their motions; the motions of the stars and planets is like a maze, something potentially to be solved, not just wondered at.</note></seg> we now live under;</rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">And why Sad Saturns heavie eye,</rdg>
+          <rdg wit="#ee">And why sad <seg>Saturn’s heavy eye<note type="gloss">the planet Saturn was understood in astrology to have a baleful influence</note></seg></rdg>
+          <rdg wit="#ae">And why <seg>sad Saturn’s heavy eye<note type="critical">In astrology, the planet Saturn frequently represented melancholy. See Alice Eardley, “‘Saturn (whose aspects soe sads my soule)’: Lady Hester Pulter’s Feminine Melancholic Genius,” in <title rend="italic">New Ways of Looking at Old Texts, IV: Papers of the Renaissance English Text Society, 2002–2006</title>, ed. Michael Denbo (Tempe, AZ: Arizona State University, 2008), 239–54.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">&ff;rowns on mee with Malignancie.</rdg>
+            <rdg wit="#ee">Frowns on me with malignancy;</rdg>
+            <rdg wit="#ae">Frowns on me with malignancy;</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">And why Conjunctions Should foreshew,</rdg>
+          <rdg wit="#ee">And why <seg>conjunctions<note type="gloss">alignment of celestial bodies</note></seg> should foreshew,</rdg>
+            <rdg wit="#ae">And why conjunctions should foreshow</rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Som mighty Monarchies overthrow.</rdg>
+          <rdg wit="#ee">Some mighty <seg>monarchy’s<note type="physical">possibly plural, since spelled “Monarchies” in manuscript</note></seg> overthrow;</rdg>
+          <rdg wit="#ae">Some mighty <seg><seg>monarchies’<span rend="ghost">monarchy’s, monarchies</span></seg><note type="critical">As Knight and Wall note, the manuscript’s “Monarchies” could be modernized as either “monarchy’s” or “monarchies’”: why the conjunction of the planets could predict the overthrow of one or many monarchies. I have chosen the plural, as the more apocalyptic in this generally apocalyptic poem. Eardley also gives “monarchies’” while Knight and Wall give “monarchy’s”. In the manuscript, line 36 ends in a comma, perhaps suggesting a third way of reading the couplet: if “foreshow” and “overthrow” are parallel verbs both subordinated to “why,” these lines could ask not just why the conjunctions of the planets could be predictive, but also why or how the conjunction of planets could overthrow monarchies—with the conjunctions not just predicting but causing the overthrow of monarchies.</note></seg> overthrow;</rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">And by what (Swift and infinite) Power,</rdg>
+            <rdg wit="#ee">And by what (swift and infinite) power</rdg>
+            <rdg wit="#ae">And by what (swift and infinite) power</rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">Sol runs Three Hundred Miles an Hower.</rdg>
+          <rdg wit="#ee"><seg>Sol<note type="gloss">the sun</note></seg> runs three hundred miles an hour.</rdg>
+          <rdg wit="#ae"><seg>Sol runs three hundred miles an hour;<note type="gloss">“Sol” is the sun; the speaker wonders how “he” moves so quickly across the sky. These lines, which suggest that the sun moves, seem to be contradicted in lines 47–51.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">And Why pale Cinthia, doth Soe change</rdg>
+          <rdg wit="#ee">And why pale <seg>Cynthia<note type="gloss">moon (goddess)</note></seg> doth so change</rdg>
+            <rdg wit="#ae">And why pale Cynthia doth so change</rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Her Lovly face, as Shee doth Range</rdg>
+            <rdg wit="#ee">Her lovely face as she doth range</rdg>
+            <rdg wit="#ae">Her lovely face as she doth range</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">all</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_119" n="58r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_119"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_119"/>
+            </rdg>
+        </app>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">All Night, a Hunting in the Shade,</rdg>
+          <rdg wit="#ee">All night, <seg>a-hunting<note type="gloss">the classical moon goddess was often represented as a hunter</note></seg> in the shade;</rdg>
+          <rdg wit="#ae"><seg>All night, a-hunting in the shade;<note type="gloss">“Cynthia” is the moon, who is also the mythological goddess of chastity and the hunt; the speaker seeks the causes of the changing phases of the moon.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">And how fair Venus, can bee made</rdg>
+          <rdg wit="#ee">And how fair <seg>Venus<note type="gloss">second planet from the sun, identified with the morning star (in the “orient” or east) and evening star (in the “occident” or west); both Hesper or Hesperus and Vesper are epithets for the evening star</note></seg> can be made</rdg>
+          <rdg wit="#ae">And how fair <seg>Venus can be made<note type="gloss">Eardley states that “Hesperus” and “Vesperus” (now usually “Vesper”) were two names for the planet Venus, the former a corruption of the ancient Greek “Eosphorus” or morning star for when Venus appeared in the orient or the east, and the latter the name of the evening star when it appeared in the west (382). The speaker superficially wonders why one planet should have two names, or perhaps wonders, with the phrase “be made,” whether the change of name remakes the planet itself.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">Hesperus, in the Orient:</rdg>
+            <rdg wit="#ee">Hesperus, in the orient,</rdg>
+            <rdg wit="#ae">Hesperus in the orient,</rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">And Veſperus, in the Occident.</rdg>
+            <rdg wit="#ee">And Vesperus, in the occident;</rdg>
+            <rdg wit="#ae">And Vesperus in the occident;</rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+            <rdg wit="#ft">Or whether Etheriall &ff;ier doth Burn,</rdg>
+          <rdg wit="#ee">Or <seg>whether ethereal fire doth burn<note type="critical">Paracelsus identified “ethereal fire” as a life force circulating from heaven to earthly beings (Eardley).</note></seg>,</rdg>
+          <rdg wit="#ae">Or whether <seg>ethereal fire doth burn<note type="critical">Eardley connects ethereal fire to Paracelsian philosophy (137n672), from whence it spread as well to alchemical, neo-Platonic, and other branches of philosophy. See, e.g., Joseph Du Chesne, <title rend="italic">The practice of chymicall, and hermeticall physicke, for the preseruation of heath</title> (London, 1605), sig. P3r–v: “an ethereal fire … is neither hot nor drie, not consuming like the Elementarie fyre, but is a certaine Celestial fyre, … a fyre, I say, contempered, ful of life …”</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+            <rdg wit="#ft">Or that this Terren Globe, doth turn,</rdg>
+          <rdg wit="#ee">Or that this <seg>terrene<note type="gloss">earthly</note></seg> globe doth turn,	</rdg>
+            <rdg wit="#ae">Or that this terrene globe doth turn,</rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+            <rdg wit="#ft">The Sun beeing Center Unto all,</rdg>
+            <rdg wit="#ee">The sun being center unto all,</rdg>
+            <rdg wit="#ae">The sun being center unto all—</rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+            <rdg wit="#ft">And that hee ne’re doth riſe or fall,</rdg>
+          <rdg wit="#ee">And that <seg>he<note type="gloss">the sun</note></seg> ne’er doth rise or fall;</rdg>
+            <rdg wit="#ae">And that he ne’er doth rise or fall—</rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+            <rdg wit="#ft">Or whether they have a treble Motion,</rdg>
+          <rdg wit="#ee">Or whether they have <seg>a treble motion<note type="gloss">early modern astronomer Copernicus proposed a three-fold motion of the earth, a theory which controversially reversed ancient ideas</note></seg>,</rdg>
+          <rdg wit="#ae"><seg>Or whether they have a treble motion,<note type="critical">Interestingly, the choice in these lines is a minor one; it seems to be between simple heliocentrism and Copernican heliocentrism: either the terrene globe (the Earth) turns around the sun, which is the “center unto all,” or the Earth has a treble motion (in that it spins on its axis, revolves around the sun, and “shifts on its own axis”)—and therefore operates according to Copernican astronomy (Christian, 209n486; see also Eardley, 381). On Pulter’s heliocentrism as potentially Galilean, see Hutton, 5.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+            <rdg wit="#ft">Of which wee have Soe Smale a Notion.</rdg>
+            <rdg wit="#ee">Of which we have so small a notion.</rdg>
+            <rdg wit="#ae">Of which we have so small a notion.</rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+            <rdg wit="#ft">All this (and more) wee then Shall know,</rdg>
+            <rdg wit="#ee">All this (and more) we then shall know,</rdg>
+            <rdg wit="#ae">All this (and more) we then shall know,</rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+            <rdg wit="#ft">Which are Such wonders here below.</rdg>
+            <rdg wit="#ee">Which are such wonders here below.</rdg>
+            <rdg wit="#ae">Which are such wonders here below.</rdg>
+        </app>
+      </l>
+      <l n="54">
+        <app>
+            <rdg wit="#ft">But which will most increaſe our Joys,</rdg>
+            <rdg wit="#ee">But which will most increase our joys</rdg>
+            <rdg wit="#ae">But which will most increase our joys</rdg>
+        </app>
+      </l>
+      <l n="55">
+        <app>
+            <rdg wit="#ft">(Compard with which, theſe will prove toys,)</rdg>
+          <rdg wit="#ee">(Compared with which, these will prove <seg>toys<note type="gloss">trifles, whims</note></seg>):</rdg>
+          <rdg wit="#ae">(Compared with which, these will prove <seg>toys<note type="critical">This couplet initiates the final movement of the poem, in which the long catalog of her extra-terrestrial research program is reduced to insignificance, all her questions being mere “toys” or trifling questions. The interjection “ay me!” in line 57 further adds an affective dimension not necessarily present in earlier lines, helping to signal the change in direction that this final section offers.</note></seg>),</rdg>
+        </app>
+      </l>
+      <l n="56">
+        <app>
+            <rdg wit="#ft">Our unknown freinds wee then Shall know,</rdg>
+            <rdg wit="#ee">Our unknown friends we then shall know,</rdg>
+            <rdg wit="#ae">Our unknown friends we then shall know,</rdg>
+        </app>
+      </l>
+      <l n="57">
+        <app>
+            <rdg wit="#ft">Even thoſe (aye mee) wee lost below.</rdg>
+            <rdg wit="#ee">Even those (aye me) we lost below.</rdg>
+            <rdg wit="#ae">Even those (ay me!) we lost below.</rdg>
+        </app>
+      </l>
+      <l n="58">
+        <app>
+            <rdg wit="#ft">Nay wee Shall know (without which all is none)</rdg>
+            <rdg wit="#ee">Nay, we shall know (without which all is none)</rdg>
+            <rdg wit="#ae">Nay, we shall know (without which all is none)</rdg>
+        </app>
+      </l>
+      <l n="59">
+        <app>
+          <rdg wit="#ft">The Eternall Eſſence, even as wee are <seg>Known<note type="physical">Last quarter of page is blank, barring what may be a stray pen mark resembling the numeral “2” in the left margin near the bottom.</note></seg>.</rdg>
+            <rdg wit="#ee">The eternal essence, even as we are known.</rdg>
+          <rdg wit="#ae"><seg>The eternal essence, even as we are known.<note type="critical">As other editors have noted, these lines are a clear reference to 1 Corinthians 13:12: “For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen” (sig. R1v). There is some ambiguity in this line’s use of passive voice: we will know the eternal essence (God) even as we <hi rend="italic">are known</hi>—but by whom? It could mean that we will know God in the same way he knows us (completely), or it could mean that we will know God even as we are known by ourselves, even as we know ourselves—which, then, could be either completely, or incompletely. Does this poem climax with a vision of total, godlike, divine knowledge, or with a worry that the injunction to “know thyself” may, if not fully realized, cause an impartial knowledge of God’s eternal essence? How does this fantasy hold up to the claim of 1 Corinthians 13 that knowledge without love or charity is necessarily partial?</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
