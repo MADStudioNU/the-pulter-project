@@ -1504,6 +1504,32 @@
     </pp:poem>
     <pp:poem id="39">
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
+      <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Liza Blake</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>reproduction</pp:keyword>
+        <pp:keyword>soul/body</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>fire</pp:keyword>
+        <pp:keyword>elements</pp:keyword>
+        <pp:keyword>calcination</pp:keyword>
+        <pp:keyword>astrology</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>revolution</pp:keyword>
+        <pp:keyword>friendship</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+      </pp:keywords>
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
@@ -2717,7 +2743,7 @@
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
-      <pp:firstLine>Who can but pity this poor turtledove</pp:firstLine>
+      <pp:firstLine>Who can but pity this poor turtledoveF</pp:firstLine>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
