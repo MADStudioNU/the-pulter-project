@@ -323,18 +323,6 @@ gulp.task('sitemap', function () {
   var suffix = '</urlset>';
   var protocol = 'http:';
 
-  var curations = fs.readdirSync(SITE_BASE + 'curations')
-    .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
-    .map(function (curationFileName) {
-      return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
-    });
-
-  var explorations = fs.readdirSync(SITE_BASE + 'explorations')
-    .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
-    .map(function (curationFileName) {
-      return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
-    });
-
   var pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
     protocol + LIVE_SITE_BASE_URL + '/#poems',
@@ -348,8 +336,7 @@ gulp.task('sitemap', function () {
   loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
     function (data) {
       console.log('Hi! Sitemap Builder is here!');
-      var poemsInManifest = data;
-      var publishedPoems = poemsInManifest.filter(function (poemObj) {
+      var publishedPoems = data.filter(function (poemObj) {
         return poemObj.isPublished;
       });
       var poemUrls = [];
@@ -367,6 +354,29 @@ gulp.task('sitemap', function () {
       for (var i = 0; i < length; i++) {
         poemUrls = poemUrls.concat(triads[i]);
       }
+
+      var curations = fs.readdirSync(SITE_BASE + 'curations')
+        .filter(function (itemName) {
+          var publishedWithThisId = [];
+          var id = +itemName.split('-')[0].slice(1);
+
+          if (typeof id === 'number' && !isNaN(id)) {
+            publishedWithThisId = publishedPoems.filter(function (poem) {
+              return +poem.id === id;
+            });
+          }
+
+          return (itemName.indexOf('.html') > -1 && publishedWithThisId.length);
+        })
+        .map(function (curationFileName) {
+          return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
+        });
+
+      var explorations = fs.readdirSync(SITE_BASE + 'explorations')
+        .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
+        .map(function (curationFileName) {
+          return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
+        });
 
       var urls = pages.concat(poemUrls, curations, explorations);
 

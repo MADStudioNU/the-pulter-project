@@ -3647,7 +3647,7 @@
                         </xsl:when>
                     </xsl:choose>
                     </div>
-                    <xsl:if test="$hasCurations">
+                    <xsl:if test="$isPublished and $hasCurations">
                       <xsl:element name="a">
                         <xsl:attribute name="class">
                           <xsl:value-of select="'js-link to-curation'"/>
