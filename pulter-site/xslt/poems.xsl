@@ -380,6 +380,33 @@
           <pp:author>Sarah C.E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="deep-ecologies">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>Deep Ecologies</pp:title>
+          <pp:peek>Today, the word “cetacean” refers specifically to a whale, dolphin, or porpoise, but it is derived from the Latin “cetus”, a broader term including many large and legendary marine creatures.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="globes-of-earth-and-light">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>Globes of Earth and Light</pp:title>
+          <pp:peek>The conclusion of Pulter’s poem reveals the tension between old and new astronomical models during the seventeenth century. To some degree, Pulter seems to uphold the Aristotelian distinction between the mutable, imperfect sublunary sphere and the perfect, regular universe beyond the moon.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-phoenix">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>The Phoenix</pp:title>
+          <pp:peek>Pulter’s brief description of the phoenix resembles conventional accounts of this mythological creature, including its vibrant gold and purple plumage.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-unicorn">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>The Unicorn</pp:title>
+          <pp:peek>Seventeenth-century writers did not always define a clear boundary between myth and fact, or locate this boundary in the same places as modern writers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="vegetable-love">
+          <pp:author>Aylin Malcolm</pp:author>
+          <pp:title>Vegetable Love</pp:title>
+          <pp:peek>In “Universal Dissolution,” Hester Pulter’s narrator ascends through the levels of a hierarchical cosmological system rooted in Aristotelian philosophy.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="7">
       <pp:title>On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</pp:title>
@@ -1258,6 +1285,33 @@
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
+      <pp:curations>
+        <pp:curation status="on" hash="an-assize-sermon">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>An Assize Sermon</pp:title>
+          <pp:peek>Pulter describes judgment day as “the blessed assize.” Assizes were criminal trials that were held twice a year before local juries; a judge visiting from London presided.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="aurora-and-phoebe">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Aurora and Phoebe</pp:title>
+          <pp:peek>Pulter often personifies the planets and astronomical events (dusk, dawn). This is a convention in Latin and Renaissance English poetry.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="flies-do-what-theyre-made-for">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Flies Do What They’re Made For</pp:title>
+          <pp:peek>But what is that? In “To Aurora [3]” (Poem 34), the speaker compares him- or herself unfavorably to insects: “In doing what they’re made for, every fly” fulfills God’s will, yet, in contrast, “Woe’s me: so do not I.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="moiling-in-the-earth">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Moiling in the Earth</pp:title>
+          <pp:peek>“Moiling in the earth,” as Pulter calls it in this poem, is the essence of human life, even if it is a distraction.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="more-ruminations-on-death-and-resurrection">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>More Ruminations on Death and Resurrection</pp:title>
+          <pp:peek>Pulter’s speakers often remind themselves and readers that death is both inevitable and a fervently desired transition.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
@@ -1450,6 +1504,32 @@
     </pp:poem>
     <pp:poem id="39">
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
+      <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Liza Blake</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>reproduction</pp:keyword>
+        <pp:keyword>soul/body</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>fire</pp:keyword>
+        <pp:keyword>elements</pp:keyword>
+        <pp:keyword>calcination</pp:keyword>
+        <pp:keyword>astrology</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>revolution</pp:keyword>
+        <pp:keyword>friendship</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+      </pp:keywords>
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
@@ -2395,6 +2475,33 @@
         <pp:tag>body</pp:tag>
         <pp:tag>praise</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="breath-and-song">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Breath and Song</pp:title>
+          <pp:peek>The image of breath is key to the poem, the soul on earth “breathing forth” her spiritual songs until death. The penultimate stanza, with its denial of death, may owe something to the opening stanza of John Donne’s “A Valediction Forbidding Mourning.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="devotional-lyrics">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Devotional Lyrics</pp:title>
+          <pp:peek>“Made When My Spirits Were Sunk Very Low” is one of many devotional lyrics in Pulter’s manuscript, of the kind written in physical and or spiritual “sickness and sorrow,” as the title to this poem describes.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="george-herbert">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>George Herbert</pp:title>
+          <pp:peek>George Herbert’s volume of devotional lyrics, _The Temple_ (1633), is the most obvious model for Pulter’s devotional lyrics, both this one and those listed as comparisons in another Curation for this poem, “Devotional Lyrics.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pilgrimage">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Pilgrimage</pp:title>
+          <pp:peek>Life on earth is described as “my few and evil days” in “Made when my Spirits were Sunk Very Low” (Poem 66), echoing Genesis 47:9, in which life is described as a pilgrimage.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="wings">
+          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:title>Wings</pp:title>
+          <pp:peek>A common devotional trope evoked in Pulter’s poem is that of wings by which the soul will ascend towards the divine. Pulter uses the image in that way in “Must I Thus Ever Interdicted Be” (Poem 55).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
@@ -2496,6 +2603,28 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>death</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="what-is-a-mountebank">
+          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:title>What Is a Mountebank?</pp:title>
+          <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="aconite">
+          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:title>Aconite</pp:title>
+          <pp:peek>Aconite has a rich history; accounts of its origin and powers range from myth, to natural history, to chemistry, to Harry Potter.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="cooking-up-poisoned-messes-and-antidotes">
+          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:title>Cooking Up Poisoned Messes—and Antidotes</pp:title>
+          <pp:peek>Just as mountebanks were not always easy to distinguish from physicians or orators, so cooking and preparing medicines were interrelated. The young mountebank’s preparation of a “fulsome dish” with a sauce is not that different from other kinds of cooking; in turn, cookbooks might include recipes for antidotes.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="youth-and-age">
+          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:title>Youth and Age</pp:title>
+          <pp:peek>The contest between the two mountebanks is, among other things, a contest between old and young, building toward the assertion that the old are “betters.” Other comparisons of youth and old age can be satirical or didactic; they might defy age or attempt to defend it.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
@@ -2614,6 +2743,46 @@
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
+      <pp:firstLine>Who can but pity this poor turtledoveF</pp:firstLine>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Elizabeth Kolkovich</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>London</pp:keyword>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>reader</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>marriage</pp:keyword>
+        <pp:keyword>Others</pp:keyword>
+        <pp:keyword>slavery</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>performance</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>prayer</pp:keyword>
+      </pp:keywords>
+      <!--<pp:tags></pp:tags>-->
+      <pp:curations>
+        <pp:curation status="on" hash="the-devoted-turtledove">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>The Devoted Turtledove</pp:title>
+          <pp:peek>Where might Pulter have gotten her ideas about the turtledove? Some possibilities include the Bible, books about natural history, and works of literature.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-widows">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>The Widows</pp:title>
+          <pp:peek>With its description of virtuous mourning, Pulter’s turtledove emblem enters into a conversation with contemporary texts about widowhood, including how widows should behave and whether they should remarry.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="86">
       <pp:title>Raccoons (Emblem 21)</pp:title>
@@ -2741,6 +2910,18 @@
     </pp:poem>
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
+      <pp:firstLine>The cuckoo’s constitution’s cold, she knows</pp:firstLine>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Rachel Zhang</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
+      <!--<pp:keywords></pp:keywords>-->
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
@@ -2796,6 +2977,18 @@
     </pp:poem>
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
+      <pp:firstLine>Behold how many cobwebs doth invest</pp:firstLine>
+      <!--<pp:editions>-->
+        <!--<pp:edition type="elemental">-->
+          <!--<pp:author>Leah Knight</pp:author>-->
+          <!--<pp:author>Wendy Wall</pp:author>-->
+        <!--</pp:edition>-->
+        <!--<pp:edition type="amplified">-->
+          <!--<pp:author>Rachel Zhang</pp:author>-->
+        <!--</pp:edition>-->
+      <!--</pp:editions>-->
+      <!--<pp:keywords></pp:keywords>-->
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
@@ -2833,6 +3026,28 @@
         <pp:tag>cannibalism</pp:tag>
         <pp:tag>vice</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="doctor-fox">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Doctor Fox and the Medieval Beast Fable</pp:title>
+          <pp:peek>The fox as physician has a long history in ancient and medieval fables. The fourteenth-century manuscript known as the Smithfield Decretals contains extensive decoration in its borders, including scenes from animal fables</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="lions-eating-apes">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Lions Eating Apes as a Cure for Illness</pp:title>
+          <pp:peek>At least two natural histories of the period, Edward Topsell’s _The historie of foure-footed beastes_ (1607) and Philemon Holland’s translation of Pliny’s _The historie of the world_ (1601, 1634, and 1635), discuss the medicinal use of apes for lions.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="machiavellis-lion-and-fox">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Machiavelli’s Lion and Fox</pp:title>
+          <pp:peek>Pulter’s construction of a scenario in which a lion king orders the killing of troublesome courtiers at the urging of a crafty fox may recall Niccolò Machiavelli’s famous advice that a ruler should be both a lion and a fox.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="machiavellis-prince">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Machiavelli’s Prince: Better to be Loved or Feared?</pp:title>
+          <pp:peek>When Pulter notes of the lion in line 2 that he “of his Subjects was not lov’d but fear’d” she seems to be evoking Niccolò Machiavelli’s chapter “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” from his political treatise _The Prince_.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
@@ -3066,8 +3281,8 @@
         <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>The Pulter Project, Poet in the Making</title>
-        <meta name="description" content="Digital edition of Hester Pulter's poems." />
+        <title>The Pulter Project: Poet in the Making</title>
+        <meta name="description" content="Digital edition of the poems written by Hester Pulter." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -3432,7 +3647,7 @@
                         </xsl:when>
                     </xsl:choose>
                     </div>
-                    <xsl:if test="$hasCurations">
+                    <xsl:if test="$isPublished and $hasCurations">
                       <xsl:element name="a">
                         <xsl:attribute name="class">
                           <xsl:value-of select="'js-link to-curation'"/>

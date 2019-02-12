@@ -123,7 +123,7 @@
     <front>
       <div>
         <listWit>
-          <!--<witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>-->
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <!--<witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
           <!--<witness xml:id="ae">Amplified edition: By <persName>Samantha Snively</persName> and <persName>Frances E. Dolan</persName>.</witness>-->
         </listWit>
@@ -296,7 +296,7 @@
         <app>
             <rdg wit="#ft">Till like Jack Sprat hee lickt the platter clean</rdg>
             <rdg wit="#ee">Till, like Jack Sprat, he licked the platter clean.</rdg>
-            <rdg wit="#ae"><seg>Till like Jack Sprat he licked the platter clean.<note type="critical">Alice Eardley glosses this couplet as follows: “the young quacksalver would not bend in his resolve to force the older mountebank to consume the whole of his concoction” (<title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, ed. Eardley [Toronto:  Iter/Center for Reformation and Renaissance Studies, 2014]). The reference to Jack Sprat refers to an oft-repeated proverb: “Jack Sprat he loved no fat, and his wife she lov’d no lean: / And yet betwixt them both, they lick’t the platters clean” (John Ray, <title rend="italic">A Collection of English Proverbs</title> [Cambridge, 1678], p. 293). While that proverb draws attention to the Sprats’ team effort, here the younger mountebank forces the older one to lick up every bit of the poisoned mess on his own.</note></seg></rdg>
+            <rdg wit="#ae"><seg>Till like Jack Sprat he licked the platter clean<note type="critical">Alice Eardley glosses this couplet as follows: “the young quacksalver would not bend in his resolve to force the older mountebank to consume the whole of his concoction” (<title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, ed. Eardley [Toronto:  Iter/Center for Reformation and Renaissance Studies, 2014]). The reference to Jack Sprat refers to an oft-repeated proverb: “Jack Sprat he loved no fat, and his wife she lov’d no lean: / And yet betwixt them both, they lick’t the platters clean” (John Ray, <title rend="italic">A Collection of English Proverbs</title> [Cambridge, 1678], p. 293). While that proverb draws attention to the Sprats’ team effort, here the younger mountebank forces the older one to lick up every bit of the poisoned mess on his own.</note></seg>.</rdg>
         </app>
       </l>
       <l n="19">
@@ -375,7 +375,7 @@
       <l n="28">
         <app>
             <rdg wit="#ft">His foam gave (Hellish) Acconite its Birth</rdg>
-            <rdg wit="#ee"><seg>His foam gave hellish aconite its birth.”<note type="gloss">Legend has it that aconite grew from the foam of Cerberus’s mouth, when Hercules dragged him from Hades.</note></seg></rdg>
+            <rdg wit="#ee"><seg>His foam gave hellish aconite its birth<note type="gloss">Legend has it that aconite grew from the foam of Cerberus’s mouth, when Hercules dragged him from Hades.</note></seg>.”</rdg>
             <rdg wit="#ae">His foam gave (hellish) aconite its birth.</rdg>
         </app>
       </l>
@@ -452,7 +452,7 @@
       <l n="39">
         <app>
             <rdg wit="#ft">This bould Young Quack his proud Attempts did feild</rdg>
-            <rdg wit="#ee"><seg>This bold young quack, his proud attempts did feild;<note type="gloss">the young man is defeated by his own prideful shows; “feild,” in early modern usage, captures many of the following meanings: affected by touch; felled, as made to fall; foiled; failed; fielded, as in battled.</note></seg></rdg>
+            <rdg wit="#ee"><seg>This bold young quack, his proud attempts did feild<note type="gloss">the young man is defeated by his own prideful shows; “feild,” in early modern usage, captures many of the following meanings: affected by touch; felled, as made to fall; foiled; failed; fielded, as in battled.</note></seg>;</rdg>
             <rdg wit="#ae">This bold young quack his proud attempts did <seg>field<note type="gloss">In the manuscript, “feild,” which in early modern usage captures many of the following meanings: affected by touch; felled, as made to fall; foiled; failed; fielded, as in battled.</note></seg>.</rdg>
         </app>
       </l>

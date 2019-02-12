@@ -72,10 +72,6 @@ $themeColor: #ece9e2;
     padding-top: 7em;
     font-size: .9em;
 
-    @include breakpoint(mobile) {
-      padding-top: 9.5em;
-    }
-
     &::after {
       $size: 2em;
 
@@ -585,17 +581,25 @@ $themeColor: #ece9e2;
   h3 {
     font-family: $pp_curatorialFont;
     font-weight: bold;
-    margin: 3em 0 1.5em 0;
+    margin: 2.5em 0 1em 0;
   }
 
   h4 {
     font-family: $pp_curatorialFont;
     font-weight: bold;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: .9em;
 
     &:not(:first-child) {
       margin-top: 3em;
+    }
+  }
+
+  h3, h4 {
+    color: rgba(#282828, .9);
+
+    &.sssi {
+      font-family: $pp_poetryFont;
     }
   }
 
@@ -657,8 +661,9 @@ $themeColor: #ece9e2;
     z-index: 2;
 
     @include breakpoint(mobile) {
-      padding-left: 2em;
-      padding-right: 9em;
+      padding-left: 1.5em;
+      padding-right: 4.5em;
+      right: 0;
     }
 
     .idx,
@@ -720,8 +725,8 @@ $themeColor: #ece9e2;
     @include transition(opacity .2s);
 
     @include breakpoint(mobile) {
-      top: 1.5em;
-      right: 1.5em;
+      top: 1.2em;
+      right: 1.2em;
     }
 
     &:hover {

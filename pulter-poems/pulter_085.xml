@@ -1,3 +1,559 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.85">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>This Poor Turtledove (Emblem 20)</title>
+        <title type="sub">Poem #85</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="./document_images/7610_210.jpg" xml:id="f7610_210"/>
+      <graphic url="./document_images/7610_211.jpg" xml:id="f7610_211"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <!--<witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+          <!--<witness xml:id="ae">Amplified edition: By <persName>Elizabeth Kolkovich</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+    <body>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_210" n="103v"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_210"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_210"/></rdg>
+      </app>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 20]</rdg>
+            <rdg wit="#ee">This Poor Turtledove<lb/>(Emblem 20)</rdg>
+            <rdg wit="#ae">Turtledove (Emblem 20)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">In my editions, I prioritize accessibility and multiple interpretive possibilities. To prepare these poems for a wide range of readers, I have modernized erratic early modern spelling, punctuation, and capitalization to conform to standard American usage. I gloss archaic definitions and confusing syntax, and I expand contractions, unless needed to maintain the integrity of the poem’s form. My notes investigate how Pulter’s poems engage with the literature and culture of mid-seventeenth-century England. At the same time, I emphasize how her poems are unique, how they respond to one another and seem to reveal their author’s individual circumstances and philosophies. When a note relies on Alice Eardley’s edition of <title rend="italic">Pulter’s Poems, Emblems, and The Unfortunate Florinda</title> (Toronto: Iter, 2014), I cite her text generally as “Eardley.” Although my own interests guide my editorial decisions, I aim to facilitate multiple readings rather than to direct interpretation in a restrictive way. It is worth noting that although Pulter’s poems survive in only one known source, they are not necessarily stable texts. The source manuscript features variants and revisions that invite multiple interpretations. I encourage readers to refer to the manuscript transcriptions and images on this site; my notes alert readers when the manuscript’s original spelling or physical features are especially worth considering.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote">“This monster … survived twenty-four husbands. My uncle Edward P. did know her.” This marginal note appears in the scribal hand, but is surely in Pulter’s voice; we might therefore feel entitled to presume she proffers herself as both exemplar and counsellor to the women she addresses: “pass your idle times / As I do now, in writing harmless rhymes.” While a widowed bird, loyal to her dead mate, is this rhyme’s opening focus, Pulter’s attention soon shifts from birds to beasts in human form, such as the prolifically wedded woman her uncle once knew. Both the male and female of the species come in for scorn: the men for rambling and gambling in seedy city locales—parks, theaters, taverns—and their wives for following them there. Women are instead enjoined to be loyal like the turtledove: but wouldn’t such loyalty precisely entail following their mates, wherever they might go? Not by Pulter’s lights: her plan calls for staying home and being loyal in love primarily to God. Yet, as so often in Pulter’s verse, this emblem also resists the confinement of such a life, most notably (and startlingly) in characterizing the repeated widowing of the “Belgic beast” as enfranchisement, and marriage as slavery.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">This poem invites readers to imagine the turtledove (a small, timid, migratory bird with a plaintive song) as a model of loyalty and mourning. It advises widows to guard their sexual reputations by remaining chaste and avoiding places of ill repute, but also to embrace the creative freedom and time for religious devotion that widowhood enables. The poem is part of a section in Pulter’s manuscript titled “Emblems.” Emblem books were popular in early modern Europe, especially as teaching tools, but few women wrote in the genre. Although emblems typically combine a symbolic picture with text to create a pithy moral message, Pulter’s emblems include no images. Her turtledove emblem embraces the genre’s emphasis on moral instruction but refers more explicitly to contemporary politics and society, including allusions to specific English women and London sites. Toward the end of the poem, Pulter draws attention to her position as a female author when she advises other women to find pleasure in writing “harmless rhymes” as she does. Whereas Pulter writes often to or about her children, she rarely writes about her husband. Together with her description of her nuptial bed and Arthur’s nobility, beauty, and virtue in their early years together in <ref type="pp-poem-ref" corresp="44">A Solitary Discourse</ref>, the following poem is also noteworthy for its insistence that she models marital constancy. Although other Pulter poems prefer the country to London, this emblem’s recommendation that women should remain at home seems odd coming from a poet who regularly lamented her own seclusion at her country estate. We could interpret this poem as rationalizing her own experience or as exposing the limits of a biographical reading that privileges a consistent writing subject.</note>
+          </rdg>
+        </app>
+      </head>
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Who can but pitty this poor Turtle Dove</rdg>
+            <rdg wit="#ee">Who can but pity this poor turtledove,</rdg>
+          <rdg wit="#ae">Who can but pity this poor <seg>turtledove<note type="critical">Pulter elsewhere describes the turtledove as a widow, “Who mourning sits upon a withered spray” (<ref type="pp-poem-ref" corresp="43">Of a Young Lady at Oxford, 1646</ref>, line 11) and as “The mild and tenderhearted turtledove / That was so constant to her only love / Though she resolves to have no second mate, / Yet she her flight about the air doth take” (<ref corresp="57" type="pp-poem-ref">Why Must I Thus Forever Be Confined</ref>, lines 65-68). Pulter might have drawn on Biblical references that associate the turtledove with poverty, pity, and lamentation. The Psalms provide a pertinent example of mourning turtledoves who escape a sinful city (Psalm 55:1-11, King James Version), along with the line: “O deliver not the soul of thy turtledove unto the multitude of the wicked: forget not the congregation of thy poor for ever” (Psalm 74:19, King James Version). Pulter also might have been familiar with Philemon Holland’s English translation of Pliny’s Natural History, which describes doves as devoted to their mates.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Which was Soe kind and conſtant to her Love</rdg>
+            <rdg wit="#ee">Which was so kind and constant to her love?</rdg>
+          <rdg wit="#ae">Which was so <seg>kind<note type="gloss">loving and considerate, possibly with a hint of submission: obliging, agreeable</note></seg> and constant to her love?</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">And Since his Death his loſs She doth Deplore</rdg>
+          <rdg wit="#ee">And, since his death, his loss <seg>she<note type="gloss">the turtledove of the poem’s first line</note></seg> doth <seg>deplore<note type="gloss">lament</note></seg>;</rdg>
+          <rdg wit="#ae">And since his death, his loss she doth <seg>deplore<note type="gloss">mourn; bewail</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">&ff;or his dear Sake She’el never Couple more</rdg>
+          <rdg wit="#ee">For his dear sake she’ll never <seg>couple<note type="gloss">mate</note></seg> more.</rdg>
+            <rdg wit="#ae">For his dear sake, she’ll never couple more.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">When others Wanton blood doth Nimbly &ff;low</rdg>
+          <rdg wit="#ee">When others’ <seg>wanton<note type="gloss">The word has many interrelated and relevant connotations: undisciplined; rebellious; without regard for justice, propriety, or the feelings or rights of others; lustful; moving as if alive; free, playful; wasteful; frivolous, pleasure-seeking.</note></seg> blood doth nimbly flow,</rdg>
+          <rdg wit="#ae">When others’ <seg>wanton<note type="gloss">reckless, lively, frivolous, or lustful</note></seg> blood doth nimbly flow,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Warm’d with the Spring, hers then runs cool and Slow</rdg>
+            <rdg wit="#ee">Warmed with the spring, hers then runs cool and slow.</rdg>
+            <rdg wit="#ae">Warmed with the spring, hers then runs cool and slow.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Nor Vallentine though t’is A Tempting Tide</rdg>
+          <rdg wit="#ee"><seg>Nor Valentine, though ’tis a tempting tide<note type="critical">Valentine’s Day is portrayed as a time (“tide”) when it is “tempting” for birds to mate; the day is similarly portrayed in Chaucer’s <title rend="italic">Parliament of Fowls</title>, in which Valentine is the patron saint of mating birds.</note></seg>,</rdg>
+          <rdg wit="#ae"><seg>Nor Valentine, though ’tis a tempting tide<note type="gloss">Valentine’s Day tempts others to mate.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Can make her Say her Chast Reſolv’s aſide</rdg>
+          <rdg wit="#ee">Can make her <seg>say<note type="critical">Eardley interprets “say” as a scribal error for “lay,” and “resolve’s” as “resolves.” Our thanks to Liza Blake for pointing out the alternative interpretation we offer.</note></seg> <seg>her chaste resolve’s aside<note type="gloss">i.e., cannot make the turtledove say that her resolution to be chaste (faithful to her late mate) is set aside.</note></seg>—</rdg>
+          <rdg wit="#ae"><seg>Can make her say her chaste resolve’s aside<note type="critical">These seasonal temptations cannot make the turtledove rethink her vow of chastity. Eardley emends to “lay her chaste resolves aside”; I prefer the manuscript’s emphasis (with “say”) on the turtledove’s voice.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft"><seg>Not<note type="physical">“t” may be written over earlier “r”</note></seg> like that Wanton and Licentious Bird</rdg>
+          <rdg wit="#ee">Not like that wanton and <seg>licentious<note type="gloss">unchaste</note></seg> <seg>bird<note type="critical">No species of licentious bird is specified in this contrast with the chaste turtledove, although a particular species is implied in the phrasing. The sparrow was frequently associated with lust in other texts of the period, such as <title rend="italic">An history of the wonderful things of nature</title>, which calls the sparrow “the lust fullest almost of all Birds” (Joannes Jonstonus, 1657, p. 190).</note></seg></rdg>
+          <rdg wit="#ae">Not like that wanton and <seg>licentious bird<note type="critical">From Pulter’s other poetry, we might speculate that this unspecified wanton bird is a cuckoo or a sparrow. <ref type="pp-poem-ref" corresp="94">The Cuckoo (Emblem 29)</ref> and <ref corresp="57" type="pp-poem-ref">Why Must I Thus Forever Be Confined</ref> condemn the cuckoo’s selfish, indulgent behavior; <ref type="pp-poem-ref" corresp="55">Must I Thus Forever Indicted Be</ref> refers to “The wanton sparrow, and the chaster dove” (line 10).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Who looſing one a Second and A Third</rdg>
+          <rdg wit="#ee">Who, losing <seg>one<note type="gloss">one mate</note></seg>, a second, and a third,</rdg>
+            <rdg wit="#ae">Who, losing one, a second, and a third,</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft"><seg>Like<note type="physical">in left margin: “This Monster liv’d / <w lemma="within"><abbr>w<hi rend="superscript">th</hi>in</abbr></w> 2 Miles of – / Amsterdam, Shee – / Survivd 24 Huſbands / My Unckle Edw: P: / did know her”</note></seg> that Prodigious, Bedlam, Belgick, Beast,</rdg>
+          <rdg wit="#ee"><seg>Like that prodigious, bedlam, Belgic beast<note type="critical">A note in the left margin reads: “This monster lived within two miles of Amsterdam; she survived twenty-four husbands. My uncle Edward P. did know her.” “Prodigious” here means unnatural, abnormal, or extreme and prolific, and “bedlam” means mad or foolish, with reference to the Hospital of St. Mary of Bethlehem, an asylum for the mentally ill in London. “Belgic” refers to the Low Countries generally (including modern Netherlands and Belgium). Alice Eardley notes that Pulter’s husband had an uncle Edward who lived in Amsterdam.</note></seg>,</rdg>
+          <rdg wit="#ae">Like that <seg>prodigious<note type="gloss">freakishly abnormal</note></seg>, <seg>bedlam<note type="gloss">fit for Bedlam, the lunatic asylum of the Hospital of St. Mary of Bethlehem in London</note></seg>, <seg>Belgic<note type="gloss">Netherlandish</note></seg> <seg>beast<note type="critical">Marginal notes in Pulter’s manuscript explain that this “beast” was based on a real woman, whom her Uncle Edward knew, who lived near Amsterdam and survived twenty-four husbands. Pulter’s description is also informed by her reading of John Donne’s sermons. A note in the manuscript says: “St. Jerome remembers (with a holy scorn) that he saw a couple married in Rome: the man had had 20 wives, the woman 22 husbands. It was in the days of Pope Damascus. Doct. Donne’s sermon on Easter Day, folio 217.” Donne indeed included this anecdote in an Easter sermon, printed on page 217 of <title rend="italic">LXXX Sermons Preached by that Reverend and Learned Doctor John Donne</title> (1640).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Who had a Score of Huſbands at the least</rdg>
+          <rdg wit="#ee">Who had <seg>a score<note type="gloss">twenty</note></seg> of husbands at the least:</rdg>
+          <rdg wit="#ae">Who had a <seg>score<note type="gloss">twenty</note></seg> of husbands at the least.</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">A bitter Thraldome Shee deſerves to have</rdg>
+          <rdg wit="#ee">A bitter <seg>thralldom<note type="gloss">enslavement</note></seg> she deserves to have,</rdg>
+          <rdg wit="#ae">A bitter <seg>thralldom<note type="gloss">captivity</note></seg> she deserves to have,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Who being ffreed Soe Oft, would bee A Slave</rdg>
+            <rdg wit="#ee">Who, being freed so oft, would be a slave!</rdg>
+            <rdg wit="#ae">Who, being freed so oft, would be a slave,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft"><seg>Shame<note type="physical">in left margin: “<w lemma="saint"><abbr>S<hi rend="superscript">t</hi></abbr></w>: Jerom rembers - / (<w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> a holy Scorn) <w lemma="that"><abbr>y<hi rend="superscript">t</hi></abbr></w>. / hee sam a couple – / Maried in Room <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> / Man had had 20 Wives / <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Woman 22 Huſbands / It was in the days of / Pope Damaſcus / Doct: Duns sermon / on Easter Day fol: 217”</note></seg> of her Sex! Oh let her Loathed Name</rdg>
+          <rdg wit="#ee"><seg>Shame of her sex!<note type="physical">A note in the left margin reads, “St. Jerome remembers (with a holy scorn) that he saw a couple married in Rome: the man had had twenty wives, the woman twenty-two husbands. It was in the days of Pope Damascus.” The note cites as its source “Doctor [John] Donne’s sermon on Easter Day, fol. 217.”</note></seg> O, let her loathéd name</rdg>
+            <rdg wit="#ae">Shame of her sex! O, let her loathéd name</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Bee ne’re inroled in the Booke of &ff;ame.</rdg>
+          <rdg wit="#ee">Be ne’er enrolléd in the <seg>book of fame<note type="critical">the idea, prevalent in the period, of an imaginary record of those deserving the honour of permanent cultural memory (Sarah Wall-Randell, <title rend="italic">The Immaterial Book: Reading and Romance in Early Modern England</title> [University of Michigan Press, 2013], p. 6).</note></seg>;</rdg>
+            <rdg wit="#ae">Be ne’er enrolléd in the book of fame,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">But let Alcestis, and Artimitius, Story</rdg>
+          <rdg wit="#ee">But let <seg>Alcestis’s<note type="gloss">In Greek myth, Alcestis agrees to die in her husband’s place.</note></seg> and <seg>Artimitius’s<note type="gloss">Artemesia (“Artimitius” in the manuscript) was the wife of King Mausolus, for whom she built a monument at Halicarnassus considered among the seven wonders of the world.</note></seg> story</rdg>
+          <rdg wit="#ae">But let <seg>Alcestis’s and Artemisia’s story<note type="gloss">Alcestis and Artemisia, both married to kings in Greek mythology, serve as examples of especially devoted wives. Alcestis volunteered to die in her husband’s place, and Artemisia built an impressive burial monument for her husband that became one of the seven wonders of the ancient world.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Bee Still Remembred to her endles Glory</rdg>
+            <rdg wit="#ee">Be still remembered to her endless glory.</rdg>
+            <rdg wit="#ae">Be still remembered to her endless glory.</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Some Deboras, and Annas, Sure have been</rdg>
+          <rdg wit="#ee">Some <seg>Deborahs<note type="gloss">In the Bible, Deborah was a prophet, judge, and military leader who inspired the Israelite army to defeat the Canaanites (Judges 4-5, KJV).</note></seg> and <seg>Annas<note type="gloss">In the Bible, the prophet Anna was a devout widow for 84 years (Luke 2:36-7, KJV).</note></seg> sure have been,</rdg>
+          <rdg wit="#ae">Some <seg>Deborahs and Annas<note type="gloss">Deborah and Anna are devout Biblical prophets. Deborah was a judge and military leader; long-time widow Anna dedicated herself to fasting and prayer.</note></seg> sure have been,</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">But in this Age of ours few Such are Seen</rdg>
+            <rdg wit="#ee">But in this age of ours, few such are seen.</rdg>
+            <rdg wit="#ae">But in this age of ours, few such are seen.</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Then Ladyes im̄itate this Turtle Dove</rdg>
+            <rdg wit="#ee">Then, ladies, imitate this turtledove,</rdg>
+          <rdg wit="#ae"><seg>Then, ladies, imitate this turtledove<note type="critical">Because Pulter writes directly to her children in other poems, the “ladies” here might be her daughters, but this emblem appears to imagine a broader audience of genteel women.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">And Constant bee unto one onely Love</rdg>
+            <rdg wit="#ee">And constant be unto one only love.</rdg>
+            <rdg wit="#ae">And constant be unto one only love.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">then</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_211" n="104r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_211"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_211"/>
+            </rdg>
+        </app>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then if your Husſbands Rant it high and Game</rdg>
+          <rdg wit="#ee">Then if your husbands <seg>rant it<note type="gloss">be boisterously or uproariously merry; lead a riotous or dissolute life</note></seg> high, and <seg>game<note type="gloss">possibly, gamble or waste money and time in pastimes; in this context, more likely the obsolete connotation of indulging in amorous or flirtatious play</note></seg>,</rdg>
+          <rdg wit="#ae">Then if your husbands <seg>rant it high<note type="gloss">To “rant it high” is to talk wildly, dance merrily, sing loudly, or revel in grandiose ways.</note></seg> and <seg>game<note type="gloss">to sport, gamble, or flirt</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Beſure you Double not their Guilt and Shame</rdg>
+            <rdg wit="#ee">Be sure you double not their guilt and shame!</rdg>
+          <rdg wit="#ae"><seg>Be sure you double not their guilt and shame<note type="gloss">This line advises wives not to “double” (amplify) their husbands’ shame by nagging, but also not to “double” (duplicate) their husbands’ bad behavior.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+          <rdg wit="#ft">Leave of Hide Park, Hanes, Oxford Johns and <seg>Kate<del>s</del><note type="physical">“s” appears imperfectly blotted or erased</note></seg></rdg>
+          <rdg wit="#ee">Leave off <seg>Hyde Park, Hanes<note type="critical">Eardley suggests “Hanes” might be a scribal error for “James,” with reference to St. James’s Park: like Hyde Park, a public place in London of some ill repute.</note></seg>, <seg>Oxford John’s and Kate<note type="critical">In Pulter’s manuscript, “Kate” is followed by a partially blotted “s,” which suggested the possessive but did not suit the rhyme. The dissolute speaker in Edmund Gayton’s <title rend="italic">Wil[l] Bagnal’s Ghost[,] Or the Merry Devill of Gadmunton in his Perambulation of the Prisons of London</title> (London, 1655) exclaims, “O Oxford John’s O Oxford Kates” when reminiscing about dishes “which I last night did vomit all up” (p. 10); the impression, there as here, is that these are taverns in London with a low reputation. The same author, in <title rend="italic">The Art of Longevity, or, A Diaeteticall Instit[ut]ion</title> (London, 1659), praises “dear Oxford Kate” (a name which puns on “cate,” a term for a delicacy) for food and drink which “at the length will bring us unto Dis,” or hell (p. 42).</note></seg></rdg>
+          <rdg wit="#ae">Leave off <seg>Hyde Park, Hanes, Oxford John’s and Kate<note type="critical">Along with those mentioned in the next line, these are public places in London that attracted pleasure-seekers. Hyde Park was a pleasure garden; in <ref type="pp-poem-ref" corresp="2">The Invitation into the Country</ref>, Pulter calls it “a place of chief delight.” I agree with Eardley that “Hanes” is probably a scribal error for “James,” or St. James’s Park. Oxford Kate’s was a London tavern, and Oxford John’s might have been one as well. The poem implies that all four locations were places of ill repute.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Spring, Mulbery Garden, let them have a Date</rdg>
+          <rdg wit="#ee"><seg>Spring, Mulberry Garden<note type="critical">Spring Garden and Mulberry Garden were London parks; in 1654 John Evelyn in his diary referred to Mulberry Garden as “now the only place of refreshment about the town for persons of the best quality to be exceedingly cheated at; Cromwell and his partisans having shut up and seized on Spring Gardens, which till now had been the usual rendezvous for ladies and gallants at this season.” Charles Knight, <title rend="italic">London</title> (1841), p. 192.</note></seg>: let them <seg>have a date<note type="gloss">be finished</note></seg>.</rdg>
+          <rdg wit="#ae"><seg>Spring, Mulberry Garden<note type="critical">Spring Garden and Mulberry Garden were London parks. The speaker recommends an end “date” for their use for sinful behavior. <ref type="pp-poem-ref" corresp="2">The Invitation into the Country</ref> refers to Spring Garden as breeding “pleasures” and advises Pulter’s daughters Margaret and Penelope to escape London in 1647 into the country, where wives are modest. The turtledove emblem, which dates to 1653 or later, returns to the subject of London pleasures with increased scorn.</note></seg>: let them have a date.</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Buy not theſe &ff;ollyes at Soe dear A Rate</rdg>
+          <rdg wit="#ee">Buy not these follies at so <seg>dear<note type="gloss">costly</note></seg> a rate.</rdg>
+          <rdg wit="#ae">Buy not these <seg>follies<note type="gloss">foolishness, lewdness, or madness</note></seg> at so dear a rate.</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Theſe Places I know onely by their names</rdg>
+            <rdg wit="#ee">These places, I know only by their names,</rdg>
+            <rdg wit="#ae">These places I know only by their names,</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">But t’is theſe places which doe blast your &ff;ames</rdg>
+          <rdg wit="#ee">But ’tis these places which do blast your <seg>fames<note type="gloss">reputations</note></seg>.</rdg>
+            <rdg wit="#ae">But ’tis these places which do blast your fames.</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Who would with their dear Reputation part</rdg>
+            <rdg wit="#ee">Who would with their dear reputation part</rdg>
+            <rdg wit="#ae">Who would with their dear reputation part</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">To eat a Scurvey Cheeſcak or A Tart</rdg>
+          <rdg wit="#ee">To eat a <seg>scurvy<note type="gloss">worthless; diseased</note></seg> cheescake or a tart?</rdg>
+          <rdg wit="#ae">To eat a <seg>scurvy<note type="gloss">vile; shabby</note></seg> cheesecake or a tart?</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">&ff;or Such poor follyes who A broad would Roame</rdg>
+            <rdg wit="#ee">For such poor follies who abroad would roam?</rdg>
+            <rdg wit="#ae">For such poor follies, who abroad would roam?</rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Have wee not better every day at home</rdg>
+            <rdg wit="#ee">Have we not better every day at home?</rdg>
+          <rdg wit="#ae"><seg>Have we not better every day at home?<note type="gloss">London parks had tea houses that sold cheesecakes, tarts, and other treats (Eardley); this line advises women to eat and entertain themselves at home to avoid temptation and scandal.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">They Say to plays and Taverns Some doe goe</rdg>
+            <rdg wit="#ee">They say, to plays and taverns some do go;</rdg>
+            <rdg wit="#ae">They say to plays and taverns some do go;</rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">I say noe Modest Ladyes will doe Soe</rdg>
+            <rdg wit="#ee">I say, no modest ladies will do so.</rdg>
+            <rdg wit="#ae">I say no modest ladies will do so.</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Though Countis, Dutchis, or Protectors, Daughter,</rdg>
+          <rdg wit="#ee">Though countess, duchess, or <seg>Protector’s daughter<note type="gloss">Lord Protector was the title assumed in 1653 by Oliver Cromwell as head of state. Alice Eardley notes that the eldest of his four daughters, Bridget (1624–62), married her second husband—whom she met in St. James’s Park—only six months after the first had died.</note></seg></rdg>
+          <rdg wit="#ae">Though countess, duchess, or <seg>Protector’s daughter<note type="critical">Oliver Cromwell held the title of Lord Protector from December 1653 until his death in September 1658. He had four daughters. The eldest, Bridget, met her second husband in St. James’s Park and married him only six months after the death of her first husband (Eardley); Cromwell’s second daughter, Elizabeth, had a reputation for being spoiled and indulgent (Stefan Graham Christian, “The Poems of Lady Hester Pulter [1605?-1678]: An Annotated Edition” [PhD diss., U of Massachusetts Amherst, 2012], 35).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Those Places haunt, their &ff;ollyes Run not after</rdg>
+            <rdg wit="#ee"><seg>Those places haunt, their follies run not after<note type="gloss">Though noble ladies haunt those places, do not run after their follies.</note></seg>.</rdg>
+            <rdg wit="#ae">Those places haunt, their follies run not after.</rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Bee Modest then and follow mine advice</rdg>
+            <rdg wit="#ee">Be modest then, and follow mine advice:</rdg>
+            <rdg wit="#ae">Be modest then and follow mine advice;</rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">You’l find that vertue’s Pleaſanter then Vice</rdg>
+            <rdg wit="#ee">You’ll find that virtue’s pleasanter than vice.</rdg>
+            <rdg wit="#ae">You’ll find that virtue’s pleasanter than vice.</rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+          <rdg wit="#ft">Yet Anchorites I would not have you turn</rdg>
+          <rdg wit="#ee">Yet <seg>anchorites<note type="gloss">persons secluded from the world for religious reasons</note></seg> I would not have you turn,</rdg>
+          <rdg wit="#ae">Yet <seg>anchorites<note type="gloss">hermits</note></seg> I would not have you turn,</rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+          <rdg wit="#ft">Nor Halcions, <seg>no<del>’</del>r<note type="physical">imperfectly erased apostrophe</note></seg> bee your Huſbands Urn</rdg>
+          <rdg wit="#ee">Nor <seg>halcyons<note type="gloss">In classical myth, the halcyon was a bird thought to breed in a nest floating at sea and magically calming the wind and waves when brooding; the isolation of the nest is implicitly likened to other constrained and constraining situations in surrounding phrases.</note></seg>, nor be your <seg>husband’s urn<note type="gloss">The allusion may again be to Artemesia (see note on "Artimitius’s"), who drank her husband’s ashes, or may simply indicate that one need not mourn forever (as the urn does).</note></seg>;</rdg>
+          <rdg wit="#ae">Nor <seg>halcyons<note type="gloss">birds fabled to breed in a nest floating at sea in winter and to calm the waves. The speaker imagines (and rejects) a model of marriage in which an isolated wife only produces children and calms those around her. Likewise, widows can remain constant without completely isolating themselves.</note></seg>, <seg>nor be your husband’s urn<note type="gloss">Widows should not see themselves merely as vessels for their husbands’ memory.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+          <rdg wit="#ft">But Chastly live and Rather Spend <w lemma="your"><abbr>yo<hi rend="superscript">r</hi></abbr></w> dayes</rdg>
+          <rdg wit="#ee">But chastely live, and rather spend your days</rdg>
+          <rdg wit="#ae">But chastely live and rather spend your days</rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+          <rdg wit="#ft">In Setting &ff;orth Your great Creator’s praiſe</rdg>
+          <rdg wit="#ee">In setting forth your great Creator’s praise;</rdg>
+          <rdg wit="#ae">In setting forth your great Creator’s praise,</rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+          <rdg wit="#ft">And for diverſion pass your I’dle times</rdg>
+          <rdg wit="#ee">And, for diversion, pass your idle times</rdg>
+          <rdg wit="#ae">And for diversion pass your idle times</rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+          <rdg wit="#ft">As I doe now in writeing harmles Rimes</rdg>
+          <rdg wit="#ee">As I do now, in writing harmless rhymes.</rdg>
+          <rdg wit="#ae"><seg>As I do now, in writing harmless rhymes<note type="critical">Many early modern women writers used “modesty tropes,” a strategy Patricia Pender examines at length in <title rend="italic">Early Modern Women’s Writing and the Rhetoric of Modesty</title> (Palgrave, 2002). Pulter employs one here as she argues that writing “harmless” poetry facilitates modesty by preventing feminine idleness.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+          <rdg wit="#ft">Then for your Honnours, and your fair Souls Sake,</rdg>
+          <rdg wit="#ee">Then, for your honors’ and your fair souls’ sake,</rdg>
+          <rdg wit="#ae"><seg>Then for your honor’s and your fair soul’s sake<note type="gloss">The speaker stresses the value of her advice by identifying the stakes as high: a woman’s reputation and eternal resting place.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+          <rdg wit="#ft">Both my example, and my Councell take,</rdg>
+          <rdg wit="#ee">Both my example and my counsel take.</rdg>
+          <rdg wit="#ae">Both my example and my counsel take:</rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+          <rdg wit="#ft"><seg>Infine<note type="physical">first “n” crowded between surrounding letters in darker ink</note></seg> love God, the fountain of all good</rdg>
+          <rdg wit="#ee"><seg>In fine<note type="gloss">in sum</note></seg>, love God, the fountain of all good,</rdg>
+          <rdg wit="#ae"><seg>In fine<note type="gloss">In sum; to conclude</note></seg>, love God, the fountain of all good,</rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+          <rdg wit="#ft">Next thoſe ahe’d by Mariage, Grace, and blood,</rdg>
+          <rdg wit="#ee">Next those ahead by marriage, grace, and blood,</rdg>
+          <rdg wit="#ae">Next <seg>those ahead<note type="gloss">in a more advanced position. Eardley emends to “allied.”</note></seg> by marriage, grace, and blood,</rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+          <rdg wit="#ft"><seg>Toelets<note type="physical">first “e” added in a different hand</note></seg> live here in Chast and vertuous love</rdg>
+          <rdg wit="#ee">To let’s live here, in chaste and virtuous love,</rdg>
+          <rdg wit="#ae"><seg>To let’s<note type="gloss">To let us. The speaker says that looking first to God and second to appropriate role models will enable “us” (the speaker and other women) to live virtuously. Eardley emends to “So let’s live here.”</note></seg> live here in chaste and virtuous love,</rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+          <rdg wit="#ft">As <seg>wee’le<note type="physical">imperfectly erased descender visible below “w”</note></seg> goe on Eternally above</rdg>
+          <rdg wit="#ee"><seg>As we’ll go on eternally above<note type="gloss">The instruction is for readers to love God first, and then those directly in front of us (“ahead”) here on earth (our families) in order to let us live now as we will in the afterlife. “Next” bore other relevant connotations: it could mean nearest, immediately neighboring, closest in kinship or other association, or following in birth, rank, authority.</note></seg>.</rdg>
+          <rdg wit="#ae">As we’ll go on eternally above.</rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+          <rdg wit="#ft">Then o my God Aſſist mee with thy Grace</rdg>
+          <rdg wit="#ee">Then O, my God, assist me with Thy grace,</rdg>
+          <rdg wit="#ae">Then, O my God, assist me with Thy grace,</rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+          <rdg wit="#ft">That when I die I may but chang my place.</rdg>
+          <rdg wit="#ee">That, when I die, I may but change my place.</rdg>
+          <rdg wit="#ae">That when I die, I may but change my place.</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="straight-horline"/>
+        </rdg>
+      </app>
+    </body>
+  </text>
 </TEI>

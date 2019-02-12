@@ -123,7 +123,7 @@
     <front>
       <div>
         <listWit>
-          <!--<witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>-->
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <!--<witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
           <!--<witness xml:id="ae">Amplified edition: By <persName>Victoria E. Burke</persName>.</witness>-->
         </listWit>
@@ -162,8 +162,8 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 38]</rdg>
-            <rdg wit="#ee">The Lion and the Fox<lb/>(Emblem 38)</rdg>
-            <rdg wit="#ae">Emblem 38</rdg>
+          <rdg wit="#ee">The Lion and the Fox<lb/>(Emblem 38)</rdg>
+          <rdg wit="#ae">Emblem 38</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">

@@ -323,20 +323,9 @@ gulp.task('sitemap', function () {
   var suffix = '</urlset>';
   var protocol = 'http:';
 
-  var curations = fs.readdirSync(SITE_BASE + 'curations')
-    .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
-    .map(function (curationFileName) {
-      return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
-    });
-
-  var explorations = fs.readdirSync(SITE_BASE + 'explorations')
-    .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
-    .map(function (curationFileName) {
-      return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
-    });
-
   var pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
+    protocol + LIVE_SITE_BASE_URL + '/#poems',
     protocol + LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
     protocol + LIVE_SITE_BASE_URL + '/about-project-conventions.html',
     protocol + LIVE_SITE_BASE_URL + '/about-the-project.html',
@@ -347,8 +336,7 @@ gulp.task('sitemap', function () {
   loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
     function (data) {
       console.log('Hi! Sitemap Builder is here!');
-      var poemsInManifest = data;
-      var publishedPoems = poemsInManifest.filter(function (poemObj) {
+      var publishedPoems = data.filter(function (poemObj) {
         return poemObj.isPublished;
       });
       var poemUrls = [];
@@ -367,10 +355,37 @@ gulp.task('sitemap', function () {
         poemUrls = poemUrls.concat(triads[i]);
       }
 
+      var curations = fs.readdirSync(SITE_BASE + 'curations')
+        .filter(function (itemName) {
+          var publishedWithThisId = [];
+          var id = +itemName.split('-')[0].slice(1);
+
+          if (typeof id === 'number' && !isNaN(id)) {
+            publishedWithThisId = publishedPoems.filter(function (poem) {
+              return +poem.id === id;
+            });
+          }
+
+          return (itemName.indexOf('.html') > -1 && publishedWithThisId.length);
+        })
+        .map(function (curationFileName) {
+          return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
+        });
+
+      var explorations = fs.readdirSync(SITE_BASE + 'explorations')
+        .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
+        .map(function (curationFileName) {
+          return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
+        });
+
       var urls = pages.concat(poemUrls, curations, explorations);
 
       urls = urls.map(function (url) {
         var priority = .5;
+
+        if (url.indexOf('//pulterproject.northwestern.edu/#poems') > -1) {
+          priority = .75;
+        }
 
         if (
           url.indexOf('curations') > -1 ||
@@ -433,7 +448,7 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems' + EE_SUBFOLDER + '/' + slug);
+            console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + EE_SUBFOLDER + '/' + slug);
 
             // Write /poems/{$edition}/{$id} redirect page
             var stream1 = source('redirect.html');
@@ -500,7 +515,7 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems' + AE_SUBFOLDER + '/' + slug);
+            console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + AE_SUBFOLDER + '/' + slug);
 
             // Write the redirect page
             var streamN = source('redirect.html');
@@ -560,7 +575,7 @@ gulp.task('xslt:poems', function () {
               dashify(slug, {condense: true}) :
               'poem-' + poemId;
 
-            console.log(LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
+            console.log('http:' + LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
 
             // Write the redirect page
             var streamN = source('redirect.html');
