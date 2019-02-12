@@ -137,8 +137,8 @@
     </teiHeader>
     <facsimile>
         <graphic url="./document_images/7610_107.jpg" xml:id="f7610_107"/>
-         <graphic url="./document_images/7610_108.jpg" xml:id="f7610_108"/>
-         <graphic url="./document_images/7610_109.jpg" xml:id="f7610_109"/>
+        <graphic url="./document_images/7610_108.jpg" xml:id="f7610_108"/>
+        <graphic url="./document_images/7610_109.jpg" xml:id="f7610_109"/>
     </facsimile>
     <text>
         <front>
@@ -157,10 +157,6 @@
                 <rdg wit="#ee"><pb ed="#ee" facs="#f7610_107" n=""/></rdg>
                 <rdg wit="#ae"><pb ed="#ae" facs="#f7610_107" n=""/></rdg>
             </app>
-		
-            
-       
-            
             <head>
                 <app type="title">
                     <rdg wit="#ft"><fw facs="#f7610_107" type="pageNum" place="margin-topright">99</fw>To Aurora [3]</rdg>
@@ -174,9 +170,9 @@
                         capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, 
                         and indentation are all maintained; abbreviations and brevigraphs are not expanded; and 
                         superscript and subscript representations are retained. 
-                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full 
-                            conventions for the transcriptions here.</ref></note></rdg>
-                    <rdg wit="#ee"><note type="editorialnote">
+                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note></rdg>
+                    <rdg wit="#ee">
+                      <note type="editorialnote">
                         The aim of the elemental edition is to make the poems accessible to the largest variety of readers, 
                         which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and 
                         punctuation reflect current standard American usage; punctuation highlights syntax which might 
@@ -186,12 +182,8 @@
                         Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to 
                         allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various 
                         possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure 
-                        material. We rely (without citation) primarily on the Oxford English Dictionary (<title rend="italic">OED</title>), the Oxford 
-                        Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s 
-                        edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The 
-                        result is an edition we consider a springboard for further work on Pulter’s poetry. 
-                        <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions 
-                            for this edition here.</ref></note>
+                        material. We rely (without citation) primarily on the Oxford English Dictionary (<title rend="italic">OED</title>), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref>
+                      </note>
                     </rdg>
                     <rdg wit="#ae"><note type="editorialnote">My “amplified” editions seek to make the
                         poems as accessible as possible by modernizing spelling and punctuation and 
@@ -222,15 +214,21 @@
                 </app>
             <app type="headnote">
                 <rdg wit="#ft"><note type="headnote"></note></rdg>
-                <rdg wit="#ee"><note type="headnote">This poem is one of many in which Pulter meditates
+                <rdg wit="#ee">
+                  <note type="headnote">
+                    This poem is one of many in which Pulter meditates
                     on the dawn. She uses the occasion of the sunrise to reprimand her soul for not 
                     being willing to shake off corporeality, suffer death, and be resurrected (along 
                     with the “sleeping” body). Playing off of the aubade tradition, the speaker does not
                     sadly bid farewell to a lover, but instead seeks the ultimate moment of what she 
                     sees as a heavenly suppression of the flaws of mortal life; the moment of drinking
                     Christ’s redemptive blood (the communion) supersedes the classical Lethe, the river
-                    of forgetfulness that one crosses to get to the underworld.</note></rdg>
-                <rdg wit="#ae"><note type="headnote">One of Pulter’s four Aurora poems, this one begins
+                    of forgetfulness that one crosses to get to the underworld.
+                  </note>
+                </rdg>
+                <rdg wit="#ae">
+                  <note type="headnote">
+                    One of Pulter’s four Aurora poems, this one begins
                     with the classical allusion it shares with the other poems, celebrating the dawn in
                     song (a lyric genre called an aubade), and then dramatically shifts gears and 
                     genres, first into natural history and then from the observation of busy insects to
@@ -238,17 +236,17 @@
                     to neglecting god’s laws, failing to fulfill his will, forgetting what really 
                     matters, wasting time, fruitless grief, folly and lust, bad dreams, and horrid 
                     frights. This is a speaker who admits (even wallows in) doubt but builds to the hope
-                    of a spiritual clean slate.</note></rdg>
+                    of a spiritual clean slate.
+                  </note>
+                </rdg>
             </app>
             </head>
             
             <l n="1">
                 <app>
                     <rdg wit="#ft">Why? doth Pale Phœbe thus her bevty Shrowd.</rdg>
-                    <rdg wit="#ee">Why doth pale <seg>Phoebe<note type="gloss">moon goddess</note></seg>
-                     thus her beauty shroud?</rdg>
-                    <rdg wit="#ae">Why doth pale <seg>Phoebe<note type="gloss">moon personified as a 
-                        goddess</note></seg> thus her beauty shroud?</rdg>
+                    <rdg wit="#ee">Why doth pale <seg>Phoebe<note type="gloss">moon goddess</note></seg> thus her beauty shroud?</rdg>
+                    <rdg wit="#ae">Why doth pale <seg>Phoebe<note type="gloss">moon personified as a goddess</note></seg> thus her beauty shroud?</rdg>
                 </app>
             </l>
             <l n="2">
@@ -261,18 +259,15 @@
             <l n="3">
                 <app>
                     <rdg wit="#ft">It's cause her borrowed Lusters in the Wain?</rdg>
-                    <rdg wit="#ee"><seg>Is't<note type="physical">"It's" in manuscript</note></seg>
-                        'cause her borrowed luster’s in the wane,</rdg>
+                    <rdg wit="#ee"><seg>Is't<note type="physical">"It's" in manuscript</note></seg> 'cause her borrowed luster’s in the wane,</rdg>
                     <rdg wit="#ae">Is’t ’cause her borrowed luster’s in the wane?</rdg>
                 </app>
             </l>
             <l n="4">
                 <app>
                     <rdg wit="#ft">Or cause Auroras Purple Curtain's drawn.</rdg>
-                    <rdg wit="#ee">Or 'cause <seg>Aurora's<note type="gloss">goddess of the dawn</note>
-                    </seg> purple curtain's drawn?</rdg>
-                    <rdg wit="#ae">Or 'cause <seg>Aurora's<note type="gloss">dawn personified as a 
-                        goddess</note></seg> purple curtain's drawn?</rdg>
+                    <rdg wit="#ee">Or 'cause <seg>Aurora's<note type="gloss">goddess of the dawn</note></seg> purple curtain's drawn?</rdg>
+                    <rdg wit="#ae">Or 'cause <seg>Aurora's<note type="gloss">dawn personified as a goddess</note></seg> purple curtain's drawn?</rdg>
                 </app>
             </l>
             <l n="5">
@@ -293,21 +288,15 @@
             <l n="6">
                 <app>
                     <rdg wit="#ft">Chaseing Sad Darknes with her Orient eyes.</rdg>
-                    <rdg wit="#ee">Chasing sad darkness with her <seg>orient<note type="critical">
-                        associated with the part of the heavens in which the sun and celestial objects 
-                        appear to rise; eastern</note></seg> eyes;</rdg>
-                    <rdg wit="#ae">Chasing sad darkness with her <seg>orient<note type="gloss">facing 
-                        east or the rising sun</note></seg> eyes.</rdg>
+                    <rdg wit="#ee">Chasing sad darkness with her <seg>orient<note type="critical">associated with the part of the heavens in which the sun and celestial objects appear to rise; eastern</note></seg> eyes;</rdg>
+                    <rdg wit="#ae">Chasing sad darkness with her <seg>orient<note type="gloss">facing east or the rising sun</note></seg> eyes.</rdg>
                 </app>
             </l>
             <l n="7">
                 <app>
                     <rdg wit="#ft">And being Attended with the flying howres;</rdg>
-                    <rdg wit="#ee">And being attended with the flying <seg>Hours<note type="gloss">
-                        Horae, goddesses of the seasons</note></seg>,</rdg>
-                    <rdg wit="#ae">And being attended with the <seg>flying hours><note type="critical">
-                        The flying hours may be either the swift passage of time or the Hours or Horae,
-                        three sister goddesses who presided over the changing seasons.</note></seg>,</rdg>
+                    <rdg wit="#ee">And being attended with the flying <seg>Hours<note type="gloss">Horae, goddesses of the seasons</note></seg>,</rdg>
+                    <rdg wit="#ae">And being attended with the <seg>flying hours><note type="critical">The flying hours may be either the swift passage of time or the Hours or Horae, three sister goddesses who presided over the changing seasons.</note></seg>,</rdg>
                 </app>
             </l>
             <l n="8">
@@ -320,10 +309,7 @@
             <l n="9">
                 <app>
                     <rdg wit="#ft">&ff;illing with Honey Dew, each Gold inamlild Cup;</rdg>
-                    <rdg wit="#ee">Filling with <seg>honeydew<note type="gloss">This sugar-rich 
-                        liquid–excreted by insects, plant galls, and fungi on the leaves of plants–was
-                        formerly thought to originate from the sky in a manner similar to dew.</note>
-                    </seg> each gold-enamelled cup,</rdg>
+                    <rdg wit="#ee">Filling with <seg>honeydew<note type="gloss">This sugar-rich liquid—excreted by insects, plant galls, and fungi on the leaves of plants—was formerly thought to originate from the sky in a manner similar to dew.</note></seg> each gold-enamelled cup,</rdg>
                     <rdg wit="#ae">Filling with honeydew each gold enameled cup,</rdg>
                 </app>
             </l>
@@ -352,10 +338,8 @@
             <l n="12">
                 <app>
                     <rdg wit="#ft">And as I Solely Walk Sting my delay.</rdg>
-                    <rdg wit="#ee">And, as I <seg>solely<note type="gloss">solitarily</note></seg> walk, 
-                    sting my delay.</rdg>
-                    <rdg wit="#ae">And as I <seg>solely<note type="gloss">alone</note></seg> walk <seg>
-                        sting my delay.<note type="critical">The virgins seem to be the bees who “sting”
+                    <rdg wit="#ee">And, as I <seg>solely<note type="gloss">solitarily</note></seg> walk, sting my delay.</rdg>
+                    <rdg wit="#ae">And as I <seg>solely<note type="gloss">alone</note></seg> walk <seg> sting my delay.<note type="critical">The virgins seem to be the bees who “sting”
                             the speaker’s “delay,” both stinging her as she loiters or procrastinates 
                             and distressing her by offering their “toilsome” industry as a contrast to
                             her indolence. Their stinging virginity is both aggressive and penetrative.
@@ -471,12 +455,7 @@
                 <app>
                     <rdg wit="#ft">Within my Breast, elce what moves this desire</rdg>
                     <rdg wit="#ee">Within my breast; else what moves this desire?</rdg>
-                    <rdg wit="#ae">Within my breast––else what moves <seg>this desire
-                        <note type="critical">“This desire” appears to be the desire to respect rather 
-                            than neglect God’s laws and to escape the body, its folly and lust. At one
-                            level, then, it is a desire not to desire earthly pleasures but instead to 
-                            transcend them. See also Pulter’s poem <ref type="pp-poem-ref" corresp="18">“The Desire” (Poem 18)</ref>.</note></seg>
-                        ?--</rdg>
+                    <rdg wit="#ae">Within my breast—else what moves <seg>this desire<note type="critical">“This desire” appears to be the desire to respect rather than neglect God’s laws and to escape the body, its folly and lust. At one level, then, it is a desire not to desire earthly pleasures but instead to transcend them. See also Pulter’s poem <ref type="pp-poem-ref" corresp="18">The Desire</ref>.</note></seg>?—</rdg>
                 </app>
             </l>
             <l n="23">
@@ -504,12 +483,7 @@
                 <app>
                     <rdg wit="#ft">Put of thy folly, and wors then folley, Lust.</rdg>
                     <rdg wit="#ee">Put off thy folly, and worse than folly, lust,</rdg>
-                    <rdg wit="#ae">Put off thy folly and––worse than folly––<seg>lust
-                        <note type="critical">This confession of lust is striking, especially given the
-                            social pressures on women to be and seem chaste. While male poets often 
-                            confess or boast of lust, most female poets do not. The confession of lust 
-                            adds another layer to the possible meanings of “this desire,” a desire that
-                            must be distinguished from other, more bodily desires.</note></seg>;</rdg>
+                    <rdg wit="#ae">Put off thy folly and—worse than folly—<seg>lust<note type="critical">This confession of lust is striking, especially given the social pressures on women to be and seem chaste. While male poets often confess or boast of lust, most female poets do not. The confession of lust adds another layer to the possible meanings of “this desire,” a desire that must be distinguished from other, more bodily desires.</note></seg>;</rdg>
                 </app>
             </l>
             <l n="27">
@@ -559,8 +533,7 @@
                     </note></seg> whither <seg>do’st<note type="physical">"s" written over another letter 
                     </note></seg> <seg>thou<note type="physical">“u” written over a “y” with descender 
                         imperfectly erased</note></seg> &ff;ly,</rdg>
-                    <rdg wit="#ee">Ay me! O <seg>whither<note type="gloss">where</note></seg>, whither 
-                        dost thou fly?</rdg>
+                    <rdg wit="#ee">Ay me! O <seg>whither<note type="gloss">where</note></seg>, whither dost thou fly?</rdg>
                     <rdg wit="#ae"><seg>Ay me! O whither, whither dost thou fly?<note type="critical">
                         The relationship between “me” and “thou” starting in this line is a bit 
                         confusing. “Thou” refers back to “my slavish soul” in line 8.  “My body” must
@@ -589,26 +562,13 @@
                 <app>
                     <rdg wit="#ft">Repentant tears and dust, must clear thy Sight</rdg>
                     <rdg wit="#ee">Repentant tears and dust must clear thy sight</rdg>
-                    <rdg wit="#ae"><seg>Repentant tears and dust must clear thy sight
-                        <note type="critical">This line captures the paradox that dust will clear one’s
-                            sight and cleanse one’s soul. Central to Pulter’s theology, dust is the 
-                            primordial material from which humans emerge and to which they must return
-                            (Ecclesiastes 3.20); mortals must shake off the dirt and dust of their 
-                            mortality in death. But this line also suggests that dust is cleansing. This
-                            may be another example of how Pulter conjoins observation of nature and 
-                            theological reflection. Birds clean themselves with dust. We might even see
-                            a Pulter/poultry identification here. For example, <bibl>Adam Shewring’s
-                                <title rend="italic">The Plain-Dealing Poulterer: Or, A Poulterer’s Shop 
-                                    Opened</title> (London, 1695)</bibl>, reminds readers that to condition
-                            their feathers and eliminate lice and other pests, birds need to bathe 
-                            themselves “in sand, ashes, or such like” (sig. B6).</note></seg></rdg>
+                    <rdg wit="#ae"><seg>Repentant tears and dust must clear thy sight<note type="critical">This line captures the paradox that dust will clear one’s sight and cleanse one’s soul. Central to Pulter’s theology, dust is the primordial material from which humans emerge and to which they must return (Ecclesiastes 3.20); mortals must shake off the dirt and dust of their mortality in death. But this line also suggests that dust is cleansing. This may be another example of how Pulter conjoins observation of nature and theological reflection. Birds clean themselves with dust. We might even see a Pulter/poultry identification here. For example, <bibl>Adam Shewring’s <title rend="italic">The Plain-Dealing Poulterer: Or, A Poulterer’s Shop Opened</title> (London, 1695)</bibl>, reminds readers that to condition their feathers and eliminate lice and other pests, birds need to bathe themselves “in sand, ashes, or such like” (sig. B6).</note></seg></rdg>
                 </app>
             </l>
             <l n="34">
                 <app>
                     <rdg wit="#ft">Ere thou canst look on that Refulgent Light;</rdg>
-                    <rdg wit="#ee"><seg>Ere<note type="gloss">before</note></seg>  thou canst look on 
-                        that <seg>refulgent<note type="gloss">brilliant, glorious
+                    <rdg wit="#ee"><seg>Ere<note type="gloss">before</note></seg>  thou canst look on that <seg>refulgent<note type="gloss">brilliant, glorious
                         </note></seg> light.</rdg>
                     <rdg wit="#ae">Ere thou canst look on that <seg>refulgent<note type="gloss">radiant
                     </note></seg> light.</rdg>
@@ -617,16 +577,14 @@
             <l n="35">
                 <app>
                     <rdg wit="#ft">To Sleep in Grave, contented thou must bee,</rdg>
-                    <rdg wit="#ee">To sleep <seg>in grave<note type="gloss">entombed</note></seg>, 
-                        contented thou must be;</rdg>
+                    <rdg wit="#ee">To sleep <seg>in grave<note type="gloss">entombed</note></seg>, contented thou must be;</rdg>
                     <rdg wit="#ae">To sleep in grave, contented thou must be;</rdg>
                 </app>
             </l>
             <l n="36">
                 <app>
                     <rdg wit="#ft">Thy busie &ff;ancie too, must Sleep with thee.</rdg>
-                    <rdg wit="#ee">Thy busy <seg>fancy<note type="gloss">imagination</note></seg>, too,
-                        must sleep with thee.</rdg>
+                    <rdg wit="#ee">Thy busy <seg>fancy<note type="gloss">imagination</note></seg>, too, must sleep with thee.</rdg>
                     <rdg wit="#ae">Thy busy <seg>fancy<note type="gloss">imagination</note></seg>, too, 
                         <seg>must sleep with thee<note type="critical">The speaker here reminds him or 
                             herself and the reader that death will not only stop the body but the mind 
@@ -675,10 +633,8 @@
             <l n="40">
                 <app>
                     <rdg wit="#ft">My Dust the while Shall Sweetly Sleep below,</rdg>
-                    <rdg wit="#ee">My dust, the <seg>while<note type="gloss">meanwhile</note></seg>, 
-                        shall sweetly sleep below.</rdg>
-                    <rdg wit="#ae">My dust the <seg>while<note type="gloss">meanwhile</note></seg> shall
-                        sweetly sleep below.</rdg>
+                    <rdg wit="#ee">My dust, the <seg>while<note type="gloss">meanwhile</note></seg>, shall sweetly sleep below.</rdg>
+                    <rdg wit="#ae">My dust the <seg>while<note type="gloss">meanwhile</note></seg> shall sweetly sleep below.</rdg>
                 </app>
             </l>
             <l n="41">
@@ -693,8 +649,8 @@
                     <rdg wit="#ft">O welcom, o thrice Welcome, Such a Night.</rdg>
                     <rdg wit="#ee">O welcome, O thrice welcome, such a night.</rdg>
                     <rdg wit="#ae">O welcome, O thrice welcome, <seg>such a night<note type="critical">
-                        “Such a night”––the night of death’s sleep that clothes the body in “an honest 
-                        grave”––seems distinct from the night described in the poem’s opening lines, 
+                        “Such a night”—the night of death’s sleep that clothes the body in “an honest
+                        grave”—seems distinct from the night described in the poem’s opening lines,
                         simultaneously lyrical and quotidian. Yet the dawn that launches the poem also 
                         provides the imagery of curtains, shrouds, and enveloping, a covering that is 
                         protective but will also be swept aside with dawn or resurrection.</note></seg>.
@@ -741,20 +697,8 @@
             <l n="44">
                 <app>
                     <rdg wit="#ft">The Trump Shall sound, and then the Dead shall rise</rdg>
-                    <rdg wit="#ee"><seg>The trump shall sound and then the dead shall rise.
-                        <note type="critical"> in the book of Revelation in the bible, the trumpet 
-                            (“trump”) sounds at the Last Judgment, as souls rejoin their bodies and 
-                            ascend to heaven.</note></seg></rdg>
-                    <rdg wit="#ae"><seg>The trump shall sound, and then the dead shall rise.
-                        <note type="critical">Just as divine judgment might be understood by analogy to 
-                            legal procedures, those legal procedures, in Pulter’s England, were 
-                            intertwined with the church. At the beginning of each semi-annual meeting of
-                            an Assize court, a sermon was preached; usually, it was later published. A 
-                            sermon preached at the Assize held in Hertford (near where Pulter lived) in 
-                            1653 invites listeners to “consider the day of judgment” and links the 
-                            concepts of a final “trump” with judgment as Pulter does here: “The sound of
-                            the last trump may well cause a retreat, and call us off from an eager 
-                            pursuit of the flesh and world (Eccles. 11.9).” See “Curations.”</note></seg>
+                    <rdg wit="#ee"><seg>The trump shall sound and then the dead shall rise<note type="critical"> in the book of Revelation in the bible, the trumpet (“trump”) sounds at the Last Judgment, as souls rejoin their bodies and ascend to heaven.</note></seg>.</rdg>
+                    <rdg wit="#ae"><seg>The trump shall sound, and then the dead shall rise.<note type="critical">Just as divine judgment might be understood by analogy to legal procedures, those legal procedures, in Pulter’s England, were intertwined with the church. At the beginning of each semi-annual meeting of an Assize court, a sermon was preached; usually, it was later published. A sermon preached at the Assize held in Hertford (near where Pulter lived) in 1653 invites listeners to “consider the day of judgment” and links the concepts of a final “trump” with judgment as Pulter does here: “The sound of the last trump may well cause a retreat, and call us off from an eager pursuit of the flesh and world (Eccles. 11.9).” See “Curations.”</note></seg>
                     </rdg>
                 </app>
             </l>
@@ -780,8 +724,7 @@
             <l n="47">
                 <app>
                     <rdg wit="#ft">Then who dares aske, when as I Shine in Glory;</rdg>
-                    <rdg wit="#ee">Then, who dares ask, <seg>whenas<note type="gloss">when</note></seg>
-                        I shine in glory,</rdg>
+                    <rdg wit="#ee">Then, who dares ask, <seg>whenas<note type="gloss">when</note></seg> I shine in glory,</rdg>
                     <rdg wit="#ae">Then who dares ask, whenas I shine in glory,</rdg>
                 </app>
             </l>
@@ -797,10 +740,7 @@
             <l n="49">
                 <app>
                     <rdg wit="#ft">When wee have Drunk not Leath but Christs pure blood</rdg>
-                    <rdg wit="#ee"><seg>When we have drunk not Lethe, but Christ’s pure blood,
-                        <note type="critical">Lethe is a river in Hades that produces forgetfulness; in
-                            Christian ritual, communion, or the Eucharist, involves drinking wine that 
-                            represents the blood of Christ.</note></seg></rdg>
+                    <rdg wit="#ee"><seg>When we have drunk not Lethe, but Christ’s pure blood<note type="critical">Lethe is a river in Hades that produces forgetfulness; in Christian ritual, communion, or the Eucharist, involves drinking wine that represents the blood of Christ.</note></seg>,</rdg>
                     <rdg wit="#ae">When we have drunk not <seg>Lethe<note type="critical"> In Greek 
                         mythology, Lethe was a river in Hades; drinking its water was said to produce 
                         forgetfulness. Pulter here contrasts and links drinking this water of oblivion 
@@ -834,10 +774,7 @@
                 <app>
                     <rdg wit="#ft">Nothing remembred that will Cauſe annoy.</rdg>
                     <rdg wit="#ee">Nothing remembered that will cause annoy.</rdg>
-                    <rdg wit="#ae"><seg>Nothing remembered that will cause annoy.<note type="critical">
-                        This line is parallel to the emphasis on “obliviating” or consigning to 
-                        forgetfulness –– scrubbing the memory –– in Pulter’s poem <ref corresp="18" type="pp-poem-ref">“The Desire” (Poem 18)</ref>.
-                    </note></seg></rdg>
+                    <rdg wit="#ae"><seg>Nothing remembered that will cause annoy<note type="critical">This line is parallel to the emphasis on “obliviating” or consigning to forgetfulness—scrubbing the memory—in Pulter’s poem <ref corresp="18" type="pp-poem-ref">“The Desire” (Poem 18)</ref>.</note></seg>.</rdg>
                 </app>
             </l>
             <app>
@@ -849,4 +786,3 @@
         </body>
     </text>
 </TEI>
-

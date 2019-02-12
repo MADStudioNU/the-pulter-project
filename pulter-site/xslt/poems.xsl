@@ -1285,6 +1285,16 @@
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
+      <pp:firstLine>Why doth pale thus her beauty shroud?</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Frances E. Dolan</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="an-assize-sermon">
           <pp:author>Frances E. Dolan</pp:author>
@@ -1312,6 +1322,31 @@
           <pp:peek>Pulter’s speakers often remind themselves and readers that death is both inevitable and a fervently desired transition.</pp:peek>
         </pp:curation>
       </pp:curations>
+      <pp:keywords>
+        <pp:keyword>drink</pp:keyword>
+        <pp:keyword>vision</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>light/dark</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>day/night</pp:keyword>
+        <pp:keyword>moon</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>praise</pp:keyword>
+        <pp:keyword>soul/body</pp:keyword>
+        <pp:keyword>insects</pp:keyword>
+        <pp:keyword>sighs</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>Christ</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>Aurora</pp:keyword>
+      </pp:keywords>
+      <!--<pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
