@@ -404,7 +404,7 @@
         <pp:curation status="on" hash="vegetable-love">
           <pp:author>Aylin Malcolm</pp:author>
           <pp:title>Vegetable Love</pp:title>
-          <pp:peek>In “Universal Dissolution,” Hester Pulter’s narrator ascends through the levels of a hierarchical cosmological system rooted in Aristotelian philosophy.</pp:peek>
+          <pp:peek>The clay and earth of Pulter’s opening lines soon give way to flowers, as she describes the effects of time on deciduous and evergreen plants.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
