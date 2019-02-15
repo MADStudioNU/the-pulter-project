@@ -1104,25 +1104,16 @@ $globalBorderRadius: 2px;
       position: relative;
       white-space: pre-wrap;
       background: $backgroundColor;
-      box-shadow: inset 1px 0 $borderColor,
-      inset 0 1px $borderColor,
-      inset -1px 0 $borderColor,
-      inset 0 0-1px $borderColor;
+      border: 1px solid $borderColor;
 
       &:hover {
         background: $backgroundColorHover;
-        box-shadow: inset 1px 0 $borderColorHover,
-        inset 0 1px $borderColorHover,
-        inset -1px 0 $borderColorHover,
-        inset 0 0-1px $borderColorHover;
+        border: 1px solid $borderColorHover;
       }
 
       &.active {
         background: $backgroundColorActive;
-        box-shadow: inset 1px 0 $borderColorActive,
-        inset 0 1px $borderColorActive,
-        inset -1px 0 $borderColorActive,
-        inset 0 0-1px $borderColorActive;
+        border: 1px solid $borderColorActive;
       }
 
       &.multi {
@@ -1134,14 +1125,11 @@ $globalBorderRadius: 2px;
           position: absolute;
           height: 100%;
           left: 2px;
-          right: -2px;
-          top: 2px;
+          right: -3px;
+          top: 1px;
           z-index: -1;
           background: $backgroundColor;
-          box-shadow: inset 1px 0 $borderColor,
-          inset 0 1px $borderColor,
-          inset -1px 0 $borderColor,
-          inset 0 0-1px $borderColor;
+          border: 1px solid $borderColor;
           border-radius: 4px;
         }
       }
