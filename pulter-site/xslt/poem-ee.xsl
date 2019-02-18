@@ -720,7 +720,7 @@
     <xsl:variable name="currentSegNotesCount" select="count(./tei:note)"/>
     <xsl:variable name="noteId" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $elementalEditionId)]][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]) + 1"/>
 
-    <xsl:element name="span">
+    <xsl:element name="div">
       <xsl:attribute name="class">
         <xsl:value-of select="'poem-note-trigger'"/>
       </xsl:attribute>
