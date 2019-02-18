@@ -1544,7 +1544,7 @@ $defaultStrokeWidth: 6px;
   position: relative;
 
   .ghost {
-    color: rgba($pp_manuscriptInk, .6);
+    opacity: .5;
     font-size: .7em;
     position: absolute;
     transform: translateX(-25%);
@@ -1562,7 +1562,7 @@ $defaultStrokeWidth: 6px;
 
   .glosses-on & {
     .ghost {
-      opacity: 1;
+      opacity: .8;
       font-size: .5em;
       top: -.1em;
     }
@@ -1573,7 +1573,7 @@ $defaultStrokeWidth: 6px;
     .ghost {
       transform: none;
       text-align: left;
-      opacity: .75;
+      opacity: .5;
       font-size: .66em;
 
       &.above {

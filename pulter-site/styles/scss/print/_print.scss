@@ -139,6 +139,16 @@
           }
         }
 
+        .type-ghost-host {
+          .ghost {
+            opacity: .66;
+
+            &.above {
+              top: -.4em;
+            }
+          }
+        }
+
         footer.poem-footer {
           background: white;
           padding: 0 $air;
@@ -238,7 +248,7 @@
             // Misc
             .type-ghost-host {
               .ghost {
-                opacity: 1;
+                opacity: .5;
                 font-size: .7em;
 
                 &.above {
