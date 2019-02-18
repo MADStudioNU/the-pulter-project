@@ -769,19 +769,19 @@
 
   <!-- Segments and their renditions -->
   <xsl:template match="tei:seg">
-    <xsl:choose>
-      <xsl:when test="./@rend">
-        <xsl:element name="span">
-          <xsl:attribute name="class">
-            <xsl:value-of select="./@rend"/>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </xsl:element>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:if test="@type">
+          <xsl:text>type-</xsl:text>
+          <xsl:value-of select="@type"/>
+        </xsl:if>
+        <xsl:if test="@rend">
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="@rend"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
   </xsl:template>
 
   <!-- Various named segments -->

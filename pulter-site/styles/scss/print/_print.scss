@@ -234,6 +234,16 @@
                 }
               }
             }
+
+            // Misc
+            .type-ghost-host {
+              .ghost {
+                opacity: 1;
+                &.above {
+                  top: -.9em;
+                }
+              }
+            }
           }
         }
 

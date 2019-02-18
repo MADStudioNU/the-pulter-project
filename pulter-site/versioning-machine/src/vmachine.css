@@ -914,12 +914,12 @@ div.rend-right {
   text-align: right;
 }
 
-div.type-ghost-host {
+span.ghost-host {
   display: inline;
   position: relative;
 }
 
-div.type-ghost-host .textcontent:nth-of-type(2) {
+span.ghost-host .textcontent:nth-of-type(2) {
   opacity: .5;
   position: absolute;
   top: -1em;
