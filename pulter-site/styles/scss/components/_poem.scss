@@ -1553,7 +1553,7 @@ $defaultStrokeWidth: 6px;
     width: auto;
     text-align: center;
     line-height: 1;
-    @include transition(opacity .2s);
+    @include transition(all .2s);
 
     &.above {
       top: -.5em;
@@ -1562,7 +1562,9 @@ $defaultStrokeWidth: 6px;
 
   .glosses-on & {
     .ghost {
-      opacity: .33;
+      opacity: 1;
+      font-size: .5em;
+      top: -.1em;
     }
   }
 
@@ -1572,6 +1574,7 @@ $defaultStrokeWidth: 6px;
       transform: none;
       text-align: left;
       opacity: .75;
+      font-size: .66em;
 
       &.above {
         top: -1em;
