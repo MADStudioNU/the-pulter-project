@@ -1219,12 +1219,17 @@ $globalBorderRadius: 2px;
     .poem.expanded {
       header .poem-note-trigger {
         background: rgba($pp_manuscriptPaper, .1);
-        border: rgba(255, 255, 255, .5);
+        border: 1px solid rgba(255, 255, 255, .25);
         padding-top: 3px;
         padding-bottom: 4px;
 
         &:hover {
           background: rgba(255, 255, 255, .1);
+        }
+
+        &.active {
+          background: rgba(#b88b58, .15);
+          border: 1px solid #b88b58;
         }
       }
     }
