@@ -763,7 +763,7 @@
     <xsl:variable name="currentSegNotesCount" select="count(./tei:note)"/>
     <xsl:variable name="noteId" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]) + 1"/>
 
-    <xsl:element name="span">
+    <xsl:element name="div">
       <xsl:attribute name="class">
         <xsl:choose>
           <xsl:when test="$currentSegNotesCount &gt; 1">
@@ -819,19 +819,19 @@
 
   <!-- Segments and their renditions -->
   <xsl:template match="tei:seg">
-    <xsl:choose>
-      <xsl:when test="./@rend">
-        <xsl:element name="span">
-          <xsl:attribute name="class">
-            <xsl:value-of select="./@rend"/>
-          </xsl:attribute>
-          <xsl:apply-templates/>
-        </xsl:element>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:if test="@type">
+          <xsl:text>type-</xsl:text>
+          <xsl:value-of select="@type"/>
+        </xsl:if>
+        <xsl:if test="@rend">
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="@rend"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
   </xsl:template>
 
   <!-- Various named segments -->

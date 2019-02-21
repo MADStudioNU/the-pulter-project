@@ -1299,19 +1299,11 @@
       </div>
    </xsl:template>
 
-
-
-
-
-
-
-
    <xsl:template match="//tei:body//text()[normalize-space()]">
       <span class="textcontent">
          <xsl:value-of select="."/>
       </span>
    </xsl:template>
-
 
    <!-- previously
          <xsl:template
@@ -1878,10 +1870,7 @@
       </xsl:if>
    </xsl:template>
 
-
-
    <!-- replaced by something more specific -->
-
    <!-- NEW / Matt Taylor / Jan 2018
       FOR DETECTING SEGS WITH NOTE TARGETS
    -->
@@ -1916,8 +1905,17 @@
       <xsl:apply-templates></xsl:apply-templates>
    </xsl:template>
 
-
-
+  <!-- General seg with a "type" attribute -->
+  <xsl:template match="tei:seg[attribute::type]">
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:if test="@type">
+          <xsl:value-of select="@type"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
 
  <!--Special textual renderings / Betsy Chou / June 2018-->
 

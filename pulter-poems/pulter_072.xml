@@ -124,8 +124,8 @@
       <div>
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
-          <!--<witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
-          <!--<witness xml:id="ae">Amplified edition: By <persName>Samantha Snively</persName> and <persName>Frances E. Dolan</persName>.</witness>-->
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>Samantha Snively</persName> and <persName>Frances E. Dolan</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -154,6 +154,11 @@
           </rdg>
         </app>
         <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">
+                Imagine the perennial struggle between generations as a contest between a young and old doctor, each vying on a public stage to poison the other effectively. In this emblem, the old doctor is triumphant, having killed his young opponent, “the gallant.” Pulter interprets the outcome of this competition as a sage message about the need to respect the wisdom of our elders (our “betters”) when there are competing knowledges on the table. But the generational conflict here is unusually gruesome, in its detailing of the physical torture experienced by the contestants. The age-old divide is also expressed specifically as the opposition between an older tradition of simple herbal-based medicine and newer complex treatments that mix chemicals with natural toxins The older mountebank’s poison seems, on the surface, deceptively simple: it is merely the aconite plant (or wolfsbane). But its power, as the poem acknowledges, derives from its mythological origin: it was spewed from the mouth of Cerebus, the three-headed dog that guarded the gates of Hades. If the young gallant had read classical mythology instead of just paying attention to the latest medical trends, he would have seen in the natural world around him a hidden current of magical and mysterious powers. What more fitting a message for the emblem genre, itself deceptively simple?
+              </note>
+            </rdg>
           <rdg wit="#ae">
               <note type="headnote">
                 <p>
@@ -177,7 +182,7 @@
         <app>
             <rdg wit="#ft">Two Mountebancks contended for A Stage</rdg>
             <rdg wit="#ee">Two <seg>mountebanks<note type="gloss">peddlers of quack medicines</note></seg> contended for a <seg>stage<note type="gloss">mountebanks attracted crowd by performing tricks on a “bank,” bench or stage, usually the counter on which street vendors displayed goods to the public</note></seg>,</rdg>
-            <rdg wit="#ae">Two <seg>mountebanks<note type="critical">Mountebanks were largely considered early modern quacks. The <title rend="italic">Oxford English Dictionary</title> records that a “quack” is “A person who dishonestly claims to have medical or surgical skill, or who advertises false or fake remedies; a medical impostor” ("quack, n.2."). A mountebank, however, also served as public entertainment: “An itinerant charlatan who sold supposed medicines and remedies, frequently using various entertainments to attract a crowd of potential customers.”</note></seg> contended for a <seg>stage<note type="critical">For more on the early modern association of mountebanks and stages, see “Curations.” Thomas Coryat, for instance, notes that the word “mountebank” may derive from Italian for “one who mounts a stage.”</note></seg>,</rdg>
+            <rdg wit="#ae">Two <seg>mountebanks<note type="critical">Mountebanks were largely considered early modern quacks. The <title rend="italic">Oxford English Dictionary</title> records that a “quack” is “A person who dishonestly claims to have medical or surgical skill, or who advertises false or fake remedies; a medical impostor” (”quack, n.2.”). A mountebank, however, also served as public entertainment: “An itinerant charlatan who sold supposed medicines and remedies, frequently using various entertainments to attract a crowd of potential customers.”</note></seg> contended for a <seg>stage<note type="critical">For more on the early modern association of mountebanks and stages, see “Curations.” Thomas Coryat, for instance, notes that the word “mountebank” may derive from Italian for “one who mounts a stage.”</note></seg>,</rdg>
         </app>
       </l>
       <l n="2">
@@ -445,7 +450,7 @@
       <l n="38">
         <app>
             <rdg wit="#ft">Least they like him e’re long doe grin̄ing lie</rdg>
-            <rdg wit="#ee">Least they, like him, ere long do grinning lie;</rdg>
+            <rdg wit="#ee">Lest they, like him, ere long do grinning lie;</rdg>
             <rdg wit="#ae">Least they like him e’re long do grinning lie.</rdg>
         </app>
       </l>

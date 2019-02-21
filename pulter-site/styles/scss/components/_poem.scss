@@ -1067,6 +1067,7 @@ $globalBorderRadius: 2px;
   }
 
   .poem-note-trigger {
+    display: inline;
     color: inherit;
     padding: 0;
 
@@ -1104,25 +1105,16 @@ $globalBorderRadius: 2px;
       position: relative;
       white-space: pre-wrap;
       background: $backgroundColor;
-      box-shadow: inset 1px 0 $borderColor,
-      inset 0 1px $borderColor,
-      inset -1px 0 $borderColor,
-      inset 0 0-1px $borderColor;
+      border: 1px solid $borderColor;
 
       &:hover {
         background: $backgroundColorHover;
-        box-shadow: inset 1px 0 $borderColorHover,
-        inset 0 1px $borderColorHover,
-        inset -1px 0 $borderColorHover,
-        inset 0 0-1px $borderColorHover;
+        border: 1px solid $borderColorHover;
       }
 
       &.active {
         background: $backgroundColorActive;
-        box-shadow: inset 1px 0 $borderColorActive,
-        inset 0 1px $borderColorActive,
-        inset -1px 0 $borderColorActive,
-        inset 0 0-1px $borderColorActive;
+        border: 1px solid $borderColorActive;
       }
 
       &.multi {
@@ -1134,14 +1126,11 @@ $globalBorderRadius: 2px;
           position: absolute;
           height: 100%;
           left: 2px;
-          right: -2px;
-          top: 2px;
+          right: -3px;
+          top: 1px;
           z-index: -1;
           background: $backgroundColor;
-          box-shadow: inset 1px 0 $borderColor,
-          inset 0 1px $borderColor,
-          inset -1px 0 $borderColor,
-          inset 0 0-1px $borderColor;
+          border: 1px solid $borderColor;
           border-radius: 4px;
         }
       }
@@ -1230,12 +1219,17 @@ $globalBorderRadius: 2px;
     .poem.expanded {
       header .poem-note-trigger {
         background: rgba($pp_manuscriptPaper, .1);
-        border: rgba(255, 255, 255, .5);
+        border: 1px solid rgba(255, 255, 255, .25);
         padding-top: 3px;
         padding-bottom: 4px;
 
         &:hover {
           background: rgba(255, 255, 255, .1);
+        }
+
+        &.active {
+          background: rgba(#b88b58, .15);
+          border: 1px solid #b88b58;
         }
       }
     }
@@ -1547,6 +1541,51 @@ $defaultStrokeWidth: 6px;
 
 .poem-notes {
   display: none;
+}
+
+// Ghost words
+.type-ghost-host {
+  display: inline;
+  position: relative;
+
+  .ghost {
+    opacity: .5;
+    font-size: .7em;
+    position: absolute;
+    transform: translateX(-25%);
+    left: 0;
+    min-width: 200%;
+    width: auto;
+    text-align: center;
+    line-height: 1;
+    @include transition(all .2s);
+
+    &.above {
+      top: -.5em;
+    }
+  }
+
+  .glosses-on & {
+    .ghost {
+      opacity: .8;
+      font-size: .5em;
+      top: -.1em;
+    }
+  }
+
+  .full-sized-note &,
+  .compact-note & {
+    .ghost {
+      transform: none;
+      text-align: left;
+      opacity: .5;
+      font-size: .66em;
+
+      &.above {
+        top: -1em;
+      }
+    }
+  }
 }
 
 // Curations section

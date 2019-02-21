@@ -787,6 +787,8 @@ span.fw-sequence-number {
   color: #bababa;
 }
 
+
+
 .rend-underline,
 .rend-underscore {
   text-decoration: underline;
@@ -910,6 +912,20 @@ div.type-stanza {
 
 div.rend-right {
   text-align: right;
+}
+
+span.ghost-host {
+  display: inline;
+  position: relative;
+}
+
+span.ghost-host .textcontent:nth-of-type(2) {
+  opacity: .5;
+  position: absolute;
+  top: -1em;
+  left: 0;
+  min-width: 200%;
+  font-size: .9em;
 }
 
 .clickable {
@@ -1272,37 +1288,6 @@ div.panel.highlight,
   color: #aaa;
   margin: 0;
   line-height: 1.66;
-}
-
-#footer .footer-box .much-love {
-  max-width: 1.2em;
-  display: inline-block;
-  position: relative;
-  bottom: -2px;
-}
-
-@media (max-width: 40em) {
-  #footer .footer-box .much-love {
-    bottom: -1px;
-  }
-}
-
-#footer .footer-box .much-love .pix-1 {
-  fill: #eb4c47;
-  -webkit-animation: heartBeat 1s 0s both infinite;
-  animation: heartBeat 1s 0s both infinite;
-}
-
-#footer .footer-box .much-love .pix-2 {
-  fill: #ea433e;
-  -webkit-animation: heartBeat 1s 0.1s both infinite;
-  animation: heartBeat 1s 0.1s both infinite;
-}
-
-#footer .footer-box .much-love .pix-3 {
-  fill: #e93a35;
-  -webkit-animation: heartBeat 1s 0.2s both infinite;
-  animation: heartBeat 1s 0.2s both infinite;
 }
 
 @media (max-width: 40em) {
