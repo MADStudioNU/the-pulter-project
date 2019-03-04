@@ -144,21 +144,6 @@
           <pb ed="#ae" facs="#f7610_235"/>
         </rdg>
       </app>
-
-      <!-- Remove if there's no catchword -->
-      <app>
-        <rdg wit="#ft">
-          <fw type="catch" place="bottom">CATCHWORD</fw>
-        </rdg>
-      </app>
-
-      <!-- Remove if there's none -->
-      <app>
-        <rdg type="milestone" wit="#ft">
-          <milestone unit="poem" rend="LINE TYPE"/>
-        </rdg>
-      </app>
-
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 38]</rdg>
@@ -190,7 +175,7 @@
 
       <l n="1">
         <app>
-            <rdg wit="#ft">The Lyon that of late Soe Domineer’d</rdg>
+            <rdg wit="#ft">  The Lyon that of late Soe Domineer’d</rdg>
             <rdg wit="#ee">The lion—that of late so domineered,</rdg>
             <rdg wit="#ae">The Lyon that of late Soe Domineer’d</rdg>
         </app>
