@@ -365,6 +365,10 @@
     .fn {
       color: $pp_manuscriptPaper;
       font-size: ms(-3);
+
+      &:not(:last-child) {
+        margin-bottom: 1em;
+      }
     }
 
     .fn-anchor {
