@@ -90,6 +90,49 @@
     </pp:poem>
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
+      <pp:firstLine>Dear daughters, come, make haste away</pp:firstLine>
+      <pp:keywords>
+        <pp:keyword>pastoral</pp:keyword>
+        <pp:keyword>restoration</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>rivers</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>pastoral</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>rivers</pp:tag>
+      </pp:tags>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Liza Blake</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="come-away">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Come Away…</pp:title>
+          <pp:peek>To extend a pastoral invitation into the country was not a new thing, especially in the content of the English Civil War.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="country-and-country-house-poems">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Country and Country House Poems</pp:title>
+          <pp:peek>The idealization of the country over the city was a common poetic trope in the period, giving birth to the genre of the country house poem.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="how-to-do-things-with-political-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>How to Do Things with Political Poetry</pp:title>
+          <pp:peek>What is the purpose of political poetry? Does poetry merely reflect political events, or can it actually effect political change?</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="3">
       <pp:title>Aurora [1]</pp:title>
