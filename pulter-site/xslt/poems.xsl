@@ -2990,6 +2990,7 @@
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
       <pp:firstLine>The cuckoo’s constitution’s cold, she knows</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2999,8 +3000,30 @@
           <pp:author>Rachel Zhang</pp:author>
         </pp:edition>
       </pp:editions>
-      <!--<pp:keywords></pp:keywords>-->
-      <!--<pp:tags></pp:tags>-->
+      <pp:keywords>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>matricide</pp:keyword>
+        <pp:keyword>crimes</pp:keyword>
+        <pp:keyword>vegetarianism</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
+        <pp:keyword>England</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>prayer</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>matricide</pp:tag>
+        <pp:tag>crimes</pp:tag>
+        <pp:tag>vegetarianism</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>prayer</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
@@ -3057,6 +3080,7 @@
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
       <pp:firstLine>Behold how many cobwebs doth invest</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3066,8 +3090,24 @@
           <pp:author>Rachel Zhang</pp:author>
         </pp:edition>
       </pp:editions>
-      <!--<pp:keywords></pp:keywords>-->
-      <!--<pp:tags></pp:tags>-->
+      <pp:keywords>
+        <pp:keyword>insect</pp:keyword>
+        <pp:keyword>murder</pp:keyword>
+        <pp:keyword>vegetarianism</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>tyrrany</pp:keyword>
+        <pp:keyword>history</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>insect</pp:tag>
+        <pp:tag>murder</pp:tag>
+        <pp:tag>vegetarianism</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>Bible</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
@@ -3513,7 +3553,7 @@
             </div>
           </div>
           <div class="status-box">
-            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript.</span> <span class="status-reset">Reset</span></div>
+            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span> <span class="status-reset">Reset</span></div>
           </div>
           <section id="poems-section">
             <div class="list-view" id="poem-index-box">
