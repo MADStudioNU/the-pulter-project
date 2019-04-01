@@ -400,7 +400,7 @@ $globalBorderRadius: 2px;
 
         .expand-box {
           margin-bottom: 4em;
-          max-height: 4000px;
+          max-height: 5000px;
           height: auto;
           opacity: 1;
           position: relative;
@@ -449,6 +449,16 @@ $globalBorderRadius: 2px;
               opacity: .75;
               margin-bottom: .5em;
             }
+          }
+
+          // Headnote notes anchors
+          .headnote-fna {
+            color: darken($pp_manuscriptPaper, 30%);
+            font-size: .75em;
+            position: relative;
+            bottom: .66em;
+            margin-right: .1em;
+            margin-left: .15em;
           }
 
           .poem-details-options {
