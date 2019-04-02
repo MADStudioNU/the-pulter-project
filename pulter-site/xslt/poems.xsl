@@ -3001,28 +3001,25 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>birds</pp:keyword>
-        <pp:keyword>violence</pp:keyword>
-        <pp:keyword>matricide</pp:keyword>
-        <pp:keyword>crimes</pp:keyword>
-        <pp:keyword>vegetarianism</pp:keyword>
-        <pp:keyword>parents</pp:keyword>
-        <pp:keyword>England</pp:keyword>
         <pp:keyword>reproduction</pp:keyword>
-        <pp:keyword>death</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
         <pp:keyword>prayer</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>birds</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>murder</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>reptiles</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>sin</pp:tag>
         <pp:tag>violence</pp:tag>
-        <pp:tag>matricide</pp:tag>
-        <pp:tag>crimes</pp:tag>
-        <pp:tag>vegetarianism</pp:tag>
         <pp:tag>parents</pp:tag>
         <pp:tag>England</pp:tag>
-        <pp:tag>reproduction</pp:tag>
         <pp:tag>death</pp:tag>
-        <pp:tag>prayer</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="95">
@@ -3091,13 +3088,10 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>insect</pp:keyword>
-        <pp:keyword>murder</pp:keyword>
         <pp:keyword>vegetarianism</pp:keyword>
-        <pp:keyword>violence</pp:keyword>
         <pp:keyword>tyrrany</pp:keyword>
-        <pp:keyword>history</pp:keyword>
-        <pp:keyword>Bible</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>food</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>insect</pp:tag>
@@ -3107,6 +3101,9 @@
         <pp:tag>tyrrany</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>Bible</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>animals</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="103">
