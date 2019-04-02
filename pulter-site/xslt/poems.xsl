@@ -90,6 +90,49 @@
     </pp:poem>
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
+      <pp:firstLine>Dear daughters, come, make haste away</pp:firstLine>
+      <pp:keywords>
+        <pp:keyword>pastoral</pp:keyword>
+        <pp:keyword>restoration</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>rivers</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>pastoral</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>rivers</pp:tag>
+      </pp:tags>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:curations>
+        <pp:curation status="on" hash="come-away">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Come Away…</pp:title>
+          <pp:peek>To extend a pastoral invitation into the country was not a new thing, especially in the content of the English Civil War.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="country-and-country-house-poems">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Country and Country House Poems</pp:title>
+          <pp:peek>The idealization of the country over the city was a common poetic trope in the period, giving birth to the genre of the country house poem.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="how-to-do-things-with-political-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>How to Do Things with Political Poetry</pp:title>
+          <pp:peek>What is the purpose of political poetry? Does poetry merely reflect political events, or can it actually effect political change?</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="3">
       <pp:title>Aurora [1]</pp:title>
@@ -1540,6 +1583,7 @@
     <pp:poem id="39">
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
       <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
+      <pp:poster/>
       <!--<pp:editions>-->
         <!--<pp:edition type="elemental">-->
           <!--<pp:author>Leah Knight</pp:author>-->
@@ -2946,17 +2990,37 @@
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
       <pp:firstLine>The cuckoo’s constitution’s cold, she knows</pp:firstLine>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Rachel Zhang</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
-      <!--<pp:keywords></pp:keywords>-->
-      <!--<pp:tags></pp:tags>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Rachel Zhang</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>reproduction</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>prayer</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>murder</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>reptiles</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>death</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
@@ -3013,17 +3077,34 @@
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
       <pp:firstLine>Behold how many cobwebs doth invest</pp:firstLine>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Rachel Zhang</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
-      <!--<pp:keywords></pp:keywords>-->
-      <!--<pp:tags></pp:tags>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Rachel Zhang</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>vegetarianism</pp:keyword>
+        <pp:keyword>tyrrany</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>insect</pp:tag>
+        <pp:tag>murder</pp:tag>
+        <pp:tag>vegetarianism</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>animals</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
@@ -3469,7 +3550,7 @@
             </div>
           </div>
           <div class="status-box">
-            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript.</span> <span class="status-reset">Reset</span></div>
+            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span> <span class="status-reset">Reset</span></div>
           </div>
           <section id="poems-section">
             <div class="list-view" id="poem-index-box">

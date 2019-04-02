@@ -1285,10 +1285,11 @@
 
         .filter-tags {
           margin-top: 1.5em;
+          margin-right: 3em;
           padding-right: 3em;
 
           @include breakpoint(mobile) {
-            margin-top: 1.5em;
+            margin-right: 1.5em;
           }
 
           &::before {

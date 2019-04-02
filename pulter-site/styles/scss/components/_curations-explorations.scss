@@ -129,20 +129,7 @@ $themeColor: #ece9e2;
     max-width: 90%;
 
     @include breakpoint(mobile) { max-width: 100%; }
-
   }
-
-  // Sub-title
-  //.st {
-  //  font-size: ms(-1);
-  //  font-weight: 600;
-  //  margin-top: 3em;
-  //  margin-bottom: 1.5em;
-  //
-  //  & + .q {
-  //    margin-top: 0;
-  //  }
-  //}
 
   .by-line {
     display: inline-block;
@@ -292,11 +279,12 @@ $themeColor: #ece9e2;
     // Wider quotations
     &.wide {
       max-width: 100%;
-      padding-right: 1em;
+      padding-right: 1.5em;
     }
 
     &.full-width {
       width: 100%;
+      max-width: 100%;
     }
 
     // Qs with sidenotes

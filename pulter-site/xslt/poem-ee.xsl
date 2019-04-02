@@ -535,6 +535,9 @@
 
               <xsl:for-each select="$innerNotes">
                 <xsl:element name="li">
+                  <xsl:attribute name="id">
+                    <xsl:value-of select="concat('headnote-fn-', position())"/>
+                  </xsl:attribute>
                   <xsl:attribute name="class">
                     <xsl:value-of select="'block-note'"/>
                   </xsl:attribute>
@@ -572,6 +575,23 @@
     <xsl:apply-templates>
       <xsl:with-param name="witId" select="$witId"/>
     </xsl:apply-templates>
+  </xsl:template>
+
+  <!-- Headnote footnotes triggers -->
+  <xsl:template match="tei:seg[./tei:note][(ancestor::tei:app[@type='headnote'])]">
+    <xsl:param name="witId"/>
+
+    <xsl:element name="a">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'headnote-fna'"/>
+      </xsl:attribute>
+      <xsl:attribute name="href">
+        <xsl:value-of select="concat('#headnote-fn-', count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]//tei:note[@type='headnote']]) + 1)"/>
+      </xsl:attribute>
+      <xsl:apply-templates>
+        <xsl:with-param name="witId" select="$witId"/>
+      </xsl:apply-templates>
+    </xsl:element>
   </xsl:template>
 
   <!-- Editorial note -->
@@ -695,9 +715,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <!--
-      Page breaks and image viewer triggers
-  -->
+  <!-- Page breaks and image viewer triggers -->
   <xsl:template match="tei:pb">
     <div class="pb">
       <xsl:variable name="imageId" select="translate(@facs, '#', '')"/>

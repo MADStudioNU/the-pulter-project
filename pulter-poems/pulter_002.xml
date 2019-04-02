@@ -1,3 +1,1647 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.2">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Invitation into the Country</title>
+        <title type="sub">Poem #2</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_012.jpg" xml:id="f7610_012"/>
+      <graphic url="./document_images/7610_013.jpg" xml:id="f7610_013"/>
+      <graphic url="./document_images/7610_014.jpg" xml:id="f7610_014"/>
+      <graphic url="./document_images/7610_015.jpg" xml:id="f7610_015"/>
+      <graphic url="./document_images/7610_016.jpg" xml:id="f7610_016"/>
+      <graphic url="./document_images/7610_017.jpg" xml:id="f7610_017"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--            <witness xml:id="ae">Amplified edition: By <persName>Liza Blake</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Invitation into the Countrey to my D: D: M P: P P 1647 when his Sacred
+                <w lemma="Majestie"><abbr>Maj:<hi rend="superscript">tie</hi></abbr></w> was at unhappy home</rdg>
+          <rdg wit="#ee"><seg>The Invitation into the Country<note type="gloss">In the manuscript, this short title continues, specifying first that the invitation is to two of Pulter’s “dear daughters” who lived in the city of London: Margaret and Penelope (identified by their initials). The long title also notes that 1647 was “when his Sacred Majesty was at unhappy home,” probably a reference to Holdenby or Holmby (in Northamptonshire) where Charles I was held prisoner in 1647. Pulter was, during this time, in residence at her estate of Broadfield in Hertfordshire.</note></seg>, 1647</rdg>
+            <rdg wit="#ae"><seg>The Invitation into the Country, to my D. D. M. P. P. P., 1647, when his Sacred Majesty was at Unhappy Home<note type="gloss">i.e., to my Dear Daughters Margaret Pulter and Penelope Pulter</note><note type="textual">AE: to My D.[ear] D.[aughters] M.[argaret] P.[ulter], P.[enelope] P.[ulter], 1647, when His Sacred Majesty Was at Unhappy [Holmby]
+                KW: 1647
+                RSB: to my Dear Daughters, M.P., P.P., 1647, when his Sacred Majesty was at Unhappy Hour
+                The series of initials in the title stand for, most editors agree, “Dear Daughters Margaret Pulter [and] Penelope Pulter.” I have left the title abbreviated because the coyness of the initials prepares the reader for the poem to follow, which often refuses to directly name its subjects (e.g., Chloris and Amintas for the queen and king of England), and yet makes it easy for its readers to crack its “code.” See also the headnote to the poem for more on this coyness. The final word of the title is blotted in the manuscript, but is clearly “home,” which AE says may be “in reference to Holdenby or Holmby House in Northamptonshire where Charles was kept under house arrest from February 7 until June 4, 1647” (p. 48, n. 12).
+              </note></seg></rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote"><p> “The Invitation into the Country” is a glossing editor’s dream: filled with proper nouns, political figures, and references to mythological figures, local sites, rivers, birds, and plants, the poem positively and repeatedly cries out to be glossed. An early reader of the manuscript—whose hand is different from either the scribe’s or the correcting hand (most likely Pulter’s)—heard and responded to the poem’s cries for glossing, adding some notes in the margins showing that they had understood the references within (particularly, references to local rivers). The poem is not just an invitation for her daughters, inviting them to come into the country; it also invites you, its reader, to get lost in its specificities, in its proper nouns and lists of rivers and types of nymphs. But what is the political efficacy of getting so lost in details?</p>
+                  <p>As an editor, I attempted to respect this particularity of the poem—its desire for and invocation of glosses—and to provide information about the rivers, plants, and mythological figures Pulter names within. After all, a modern reader may not immediately know that a Napaea is a nymph of mountains, or that Grey’s Spring was a spring thought to have petrifying properties. On the other hand, the poem is curious in that its many specific references do not seem to enhance its overall argument: having more than that minimal information about a Napaea, or about Grey’s Spring, doesn’t significantly change or deepen your understanding of the lines that mention them: she hits on these specific references in passing, then moves on to other things. Providing <hi rend="italic">more</hi> information on these proper nouns seems like a distraction, in a poem that is so much about the relationship between politics and forms of distraction (literary and otherwise).</p>
+                  <p>I have therefore implemented a two-tiered system of glossing. First, for each of the poem’s many references to proper nouns, mythological figures, English plants, etc., I have provided a short reference, headed as a “GLOSS NOTE”. These references I have kept minimal and short—which is all the attention I think readers should give them, and all that I think understanding the poem requires. The changing density of boxes (which appear around a word or phrase to indicate a note) will also help readers see at a quick glance where the poem’s sometimes desperate or compulsive iteration of objects, rivers, etc. becomes most intense, and where it abates (for example, there is an explosion of references after the poem’s great break or volta at line 73). Most of these gloss notes are supplied from the <title rend="italic">OED</title>; other sources are documented in critical notes. Second, longer critical notes and textual notes, each labelled accordingly, explain editorial choices, paraphrase difficult words and sentences, provide references to echoes in Pulter’s works, and call attention to interesting textual and interpretive ambiguities.</p>
+                  <p>This poem had two kinds of intervention even in its life as a manuscript poem. As mentioned above, there are at least three contributors to this poem: the scribe who initially copied it; a correcting hand, probably Pulter’s; and a later marginal annotator who provided some initial glosses. My textual notes attempt to record interesting interventions in the early manuscript; in addition, where the early marginal annotator has provided a gloss, I provide their gloss, and label it with “GLOSS NOTE (ORIGINAL)”.</p>
+                  <p>Finally, perhaps because of the complicated history of editorial intervention in the manuscript, the text of this poem is somewhat unstable: different editors have seen different things in the manuscript, and have made different (sometimes silent) emendations. I have therefore included with the poem a textual apparatus, including information about the decisions that different transcriptions and editions have made around certain textual cruxes in the poem. These textual notes appear among my other notes. I refer to the manuscript in notes as <hi rend="bold">MS</hi>. Previous editions cited in textual and other notes are abbreviated as follows:</p>
+                  <p>
+                      <hi rend="bold">SGC:</hi> an old-spelling annotated dissertation edition of Pulter’s poems: Hester Pulter, “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,” ed. Stefan Graham Christian (PhD diss., University of Massachusetts Amherst, 2012).
+                      <hi rend="bold">AE:</hi> a modernized and annotated edition of Pulter’s poems: Hester Pulter, <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title>, ed. Alice Eardley (Toronto: Iter, Inc. and the Centre for Renaissance and Reformation Studies, 2014).
+                      <hi rend="bold">KW:</hi> a modernized and annotated “Elemental Edition”: Hester Pulter, “The Invitation into the Country, 1647” ed. Leah Knight and Wendy Wall, <title rend="italic">The Pulter Project: Poet in the Making</title>
+                      <hi rend="bold">RSB:</hi> a modernized and annotated edition of Poem 2 and a few others by Pulter: Hester Pulter, “The Invitation into the Country, to my Dear Daughters, M.P., P.P., 1647, when his Sacred Majesty was at Unhappy Hour,” in <title rend="italic">Women Poets of the English Civil War</title>, ed. Sarah C.E. Ross and Elizabeth Scott-Baumann (Manchester: Manchester University Press, 2018), pp. 92–98.
+                  </p>
+                  <p>With a few exceptions, I have modernized the text’s spelling and capitalization throughout to concur with the <title rend="italic">Oxford English Dictionary Online</title> headwords; this includes both the poem and the marginal annotator. I have also modernized punctuation, and expanded poetic abbreviations where such expansions would not affect the meter for a modern reader. For example, I expanded “Dispis’d” into “Despised,” as a modern reader would naturally read that word with two syllables. In instances where a final “ed” in the manuscript seems to suggest an additional syllable, I have modernized as “èd” (for example, the manuscript’s “changed,” pronounced with two syllables for metrical purposes, became modernized as “changèd”).</p>
+              </note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">In this poem, Pulter invites two of her London-based daughters, Margaret and Penelope, to leave the city and join her at Broadfield, her country estate. The poem first presents an elegiac and pastoral complaint about the social, sexual, and natural decline of the city due to the fact that King Charles has been removed from London and imprisoned in Holmby House by parliamentary forces. Using iambic tetrameter couplets, the poem champions the virtues of the countryside and rural life using conventional pastoral motifs, but then moves away from the typical comparison of court and city to concede that all areas have been corrupted by political unrest. Blending mythological and horticultural references with allusions to the topography of her estate and the region, the poem offers a political pastoral that ends with the hope of the restoration of the monarchy. Events discussed in the poem suggest that Pulter wrote this poem earlier than most in the Pulter’s collection.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote">
+                <p>What is a political poem? There is no question that this poem is political insofar as it has political content: the title’s explicit date (in the midst of the English Civil War) and mention of the king at “Unhappy Home” clearly signals the political setting and occasion for the poem. However, the poem begins not as an address to the king, but as an address to her daughters. The title’s mysterious string of initials—D. D. M. P. P. P.—gives itself away, deciphers itself, from the very first line. “Dear daughters, come,” it says, addressing her D[ear] D[aughters] M[argaret] P[ulter and] P[enelope] P[ulter]; in the process, it shows the “mixture of revelation and concealment” common in Royalist writers<seg>1<note type="gloss">1. Lois Potter, <title rend="italic">Secret Rites and Secret Writing: Royalist literature 1641–1660</title> (Cambridge: Cambridge University Press, 1989), p. 43.</note></seg>, using coded language not necessarily to hide a meaning, but to call attention to the thing being hidden. The contradictory impulses evident in the title—both boldly taking a political position (referring to the king as “his Sacred Majesty”) and using initials as an easily decoded encoding—also occur throughout the poem.</p>
+                <p>For example, it is difficult to say what genre this poem is. If the end of the title signals its desire to be a political poem, the start of the title, “An Invitation into the Country,” signals something very different. Students of Renaissance poetry may hear in the title an echo of Christopher Marlowe’s famous “Come live with me and be my love,” which invites a beloved into the country to enjoy simple, pastoral pleasures. Students of Pulter may hear in the poem itself echoes of her Emblem 20, <ref type="pp-poem-ref" corresp="85">This Poor Turtle Dove</ref>, which warns women about the evil temptations of London. Or readers may think of the seventeenth-century genre of the country house poem, which extols the virtues of country estates over crowded London streets. These poems of invitation and country-house poems themselves draw on the genre of the pastoral, which idealizes the country and the work of shepherds, and Pulter signals the pastoral nature of the poem not only by setting it in the countryside, but also by giving the King and Queen pastoral code names (Amintas and Chloris, respectively).</p>
+                <p>However, even as the beginning of the poem signals its generic affiliations, it also breaks them. “Invitation into the Country” begins, as promised, as a song of <hi rend="italic">invitation</hi>, including a repeated refrain (with variations): “Then come, sweet virgins, come away; / What is it that invites your stay?” The song of invitation progresses logically: first she details the unhappinesses of city life, and then the virtues of country life. While the city has “shepherds that no flocks do keep” (l. 19), the country has “careful shepherds” whose gentle guidance protects their flocks (l. 49ff). Then things take a turn. Pulter’s poem is approximately 190 lines long, with the first 72 lines falling into discrete stanzas ending in the refrain; between lines 72 and 73, the poem suddenly swerves into pastoral elegy, listing rivers, birds, flowers, plants, and mythological creatures all mourning the loss (but not death) of the king. In this revised pastoral elegiac landscape, “since Amintas [King Charles] went away, / Shepherds and sheep go <hi rend="bold">all</hi> astray” (ll. 75–76; emphasis added), and the lines right after the turn specifically catalogue the destruction of typical pastoral pleasures like maypoles and “lively lasses dancing round” (l. 86). Suddenly the poem is not a poem of invitation extolling country virtues, but is closer to John Milton’s pastoral elegy “Lycidas,” or closer still to Lucy Hutchinson’s political pastoral elegy “Musings in my Evening Walks at Owthorpe,” where trees and flowers “languish,” “drooping,” and “murmuring springs rise and complain / Then shrink into the earth again” (ll. 14, 13, 17–18).<seg>2<note type="gloss">2. Lucy Hutchinson, “Musings in my Evening Walks at Owthorpe,” in <title rend="italic">Women Poets of the English Civil War</title>, ed. Sarah C.E. Ross and Elizabeth Scott-Baumann (Manchester: Manchester University Press, 2018), pp. 290–92.</note></seg></p>
+                <p>This swerve also changes the poem formally: after line 72 there are no more stanza breaks, and the song’s refrain disappears until the very last lines, where it returns to end the poem:
+                    <l rend="indent">’Tis neither sight nor odor’s scent</l>
+                    <l rend="indent">Can my afflicted heart content</l>
+                    <l rend="indent">Until I see them both restored,</l>
+                    <l rend="indent">Whose absence hath been so deplored.</l>
+                    <l rend="indent">Just Heaven, hear our prayers and tears,</l>
+                    <l rend="indent">And place them in their shining spheres.</l>
+                    <l rend="indent">Then come, sweet daughters, come away:</l>
+                    <l rend="indent">To comfort me make no delay.</l>
+                    The radical turn in the middle of the poem raises many questions. Generically and formally the poem is fascinating, establishing a clear pattern only to egregiously, flauntingly break it. The sudden turn at line 73 almost seems like the beginning of a new poem, and a new genre, though the repetition of the refrain at the end insists on the unity of the two disparate halves. How are we to interpret the sudden swerve from a song of invitation into pastoral elegy, an instance of the pathetic fallacy run deliberately (and politically) wild? How do the two parts fit together, and why has Pulter combined two different genres in such a way as to let the seams so obviously show? And what are the politics of this formal and poetic disjunction?
+                </p>
+                <p>
+                   The final lines of the poem, quoted above, highlight the broader problem of this poem’s strange relationship to politics. It is not clear, in these lines, whose return it is that she desires: does the “them both” of line 185 refer to the king and queen of England (as most editors have assumed), or is she merely asking for her two daughters to return to her country estate at Broadfield to comfort her? The causal “then” of the refrain perhaps suggests the latter: “I will not be able to feel any comfort until I see <hi rend="italic">them</hi> restored—so come, daughters, and comfort me.” If the “them both” is in fact King Charles I and Queen Henrietta Maria then these final lines are even more bizarre: “Nothing will comfort me until the king and queen are restored—so, come, daughters, and comfort me, though I have literally just said that no comfort but the restoration of the monarchy will be comforting.” What is the poem asking for? What does it want? What comfort does it imagine?</p>
+                <p>The final lines, then, seem to worry at the larger political and poetical problem of the relationship between agency and despair. Is this a private poem of a mother missing her daughters, hoping they can cure her (and the countryside’s) despair? Or is it, even obliquely, requesting political, public solutions for her private despair? “Nothing can comfort me,” the end may be saying, “except the restoration of the monarchy. With that in mind: I am asking you to comfort me.” Does the request for emotional comfort cancel the implicit request for political action, or prompt it?</p>
+                <p>This problem, of whether emotion is an invocation of political agency or an invitation to political retreat, runs through the poem as a whole. Consider, for example, the image of the “weeping” fanes or temples with which the poem begins; seeing moisture dripping down walls is both a projection of her own sadness onto damp marble, but also an exhortation to feeling in others: “Hard hearts, insensible of woe, / Whom marble walls in grief outgo!” (ll. 7–8). Even marble walls, she tells her readers, are showing their grief; how much harder is the matter of your heart, to not do the same? This same problem is a preoccupation of much Royalist poetry, which responded to defeats with images of closed circles: Richard Lovelace’s snail “within [its] own self curled,” Alexander Brome’s circle of imprisoned carousers, Andrew Marvell’s desire to retreat into “The Garden” and “transcend” worldly troubles, converting potentially political impulses instead to “a green thought in a green shade.” The second part of Pulter’s poem, especially, responds to this strand of Royalist writing, and this poem’s curation <ref target="/poems/ae/the-invitation-into-the-country/#how-to-do-things-with-political-poetry" type="new-window-url">“How to Do Things with Political Poetry”</ref> provides examples both of some (beautiful) examples of Royalist poetic escapism, as well as examples of radical poems that mock the Royalists for retreating into verse, and are modelled instead on chants and calls to action.</p>
+                <p>Pulter’s “Invitation into the Country” situates itself among these political questions of pastoral poetry and agency, but it is striking that unlike some of her more explicitly topical political poems this poem offers not only commentary on a specific historical moment, but also a meta-reflection on the relationship between poetry and political agency; its formal problems—the questions of poetic form and genre—also become political problems.</p>
+            </note>
+          </rdg>
+        </app>
+      </head>
+
+      <lg type="stanza" n="1"><l n="1">
+        <app>
+            <rdg wit="#ft">Deare daughters come make hast away</rdg>
+            <rdg wit="#ee">Dear daughters, come, make haste away</rdg>
+            <rdg wit="#ae">Dear daughters, come, make haste, away!</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">from that Sad place make noe delay</rdg>
+          <rdg wit="#ee">From <seg>that sad place<note type="gloss">London</note></seg>; make no delay.</rdg>
+          <rdg wit="#ae">From <seg>that sad place<note type="gloss">London</note></seg> make no delay.</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Hee’s gon that was the Citties Grace</rdg>
+          <rdg wit="#ee"><seg>He’s<note type="gloss">King Charles is gone</note></seg> gone that was the city’s grace;</rdg>
+          <rdg wit="#ae"><seg>He’s<note type="gloss">King Charles</note></seg> gone that was the city’s grace;</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft"><seg>&ff;eirce<note type="physical">Apparently this word was first written as “ffor.” The first “e” was inserted later, the “o” overwritten as “i,” and “ce” crowded before “Hydras.”</note></seg> Hydras now Uſurps his place</rdg>
+          <rdg wit="#ee"><seg>Fierce Hydras<note type="gloss">The hydra was the many-headed serpent in classical mythology that could grow additional heads when one was cut off; it was eventually defeated by Hercules. Here Pulter identifies parliamentarians and Cromwell as heads of state proliferating monstrously after Charles’s imprisonment. See also <ref type="pp-poem-ref" corresp="6">"Universal Dissolution" (Poem 6)</ref>.</note></seg> now usurp his place.</rdg>
+          <rdg wit="#ae"><seg>Fierce Hydra<note type="gloss">the Hydra was the many-headed snake of Lerna, whose heads regenerated; in classical mythology, killed by Hercules</note><note type="textual">	SGC: Since Hydras now usurps
+            KW: Fierce Hydras now usurp
+            RSB: Five hydras now usurp
+            The MS has “Hydras,” which is either an alternate spelling of the name of the monster “Hydra,” or is a statement that London is filled with multiple hydras. I assumed it is an alternate spelling because of the singular verb “usurps,” though other editors read “hydras” as plural and emend the verb to “usurp.”
+          </note></seg> now usurps his place.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#ft">The <seg>Phanes<note type="physical">The “h” appears written over an earlier “l.”</note></seg> are over Grown with moſs</rdg>
+          <rdg wit="#ee">The <seg>fanes<note type="gloss">temples, shrines, or religious structures. The manuscript shows that the word was originally written as “planes,” which was then corrected to “phanes.” The original word is also viable since it refers to species of trees or natural landscapes.</note></seg> are overgrown with moss,</rdg>
+          <rdg wit="#ae">The <seg>fanes<note type="gloss">temples</note><note type="textual">SGC: Planes
+            RSB: planes.
+            In the MS, the letter after the “P” is either an “l” or an “h”; one was written over the other, though it is difficult to discern which came first and which is the correction. While it is not impossible that plains (or plane trees) would be overgrown with moss, I chose “Phanes” or fanes, temples, because in line eight she suggests that even marble walls are weeping more than are (human) English subjects.</note></seg> are overgrown with moss</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft">With Shedding teares for <seg>Englands<note type="physical">The “g” corrects an earlier “d” by the addition of a descender.</note></seg> loſs</rdg>
+            <rdg wit="#ee">With shedding tears for England’s loss,</rdg>
+            <rdg wit="#ae">With shedding tears for England’s loss:</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Hard hearts unſenceable of woe</rdg>
+          <rdg wit="#ee"><seg>Hard hearts<note type="gloss">in the English people</note></seg> insensible of woe,</rdg>
+            <rdg wit="#ae">Hard hearts, insensible of woe,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft">Whom Marble Wals in <seg>griefe<note type="physical">“ief” appears written over “eaſ.”</note></seg> out goe</rdg>
+            <rdg wit="#ee">Whom marble walls, in grief, outgo.</rdg>
+            <rdg wit="#ae">Whom marble walls in grief outgo!</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Then come Sweet virgins come away</rdg>
+            <rdg wit="#ee">Then come, sweet virgins, come away;</rdg>
+            <rdg wit="#ae">Then come, sweet virgins, come away;</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">What is it that invites your Stay</rdg>
+            <rdg wit="#ee">What is it that invites your stay?</rdg>
+            <rdg wit="#ae">What is it that invites your stay?</rdg>
+        </app>
+      </l>
+      </lg>
+      <lg n="2" type="stanza"><l n="11">
+        <app>
+            <rdg wit="#ft">What can you learn there elce but pride</rdg>
+            <rdg wit="#ee">What can you learn there else but pride,</rdg>
+            <rdg wit="#ae">What can you learn there else but pride,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">And what your bluſhes will not hide</rdg>
+            <rdg wit="#ee">And what your blushes will not hide?</rdg>
+            <rdg wit="#ae">And what your blushes will not hide?</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">There virgins lose theire Honour’ed name</rdg>
+            <rdg wit="#ee">There, virgins lose their honored name,</rdg>
+            <rdg wit="#ae">There virgins lose their honored name,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">which doth for ever blur theire fame</rdg>
+            <rdg wit="#ee">Which doth forever blur their fame.</rdg>
+            <rdg wit="#ae">Which doth forever blur their fame.</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft"><seg>Theire<note type="physical">The “i” (except the dot) is blotted.</note></seg> Huſbands looke with Jealous eyes</rdg>
+            <rdg wit="#ee">There, husbands look with jealous eyes,</rdg>
+            <rdg wit="#ae">There husbands look with jealous eyes,</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft">And wives <seg><del>deſceive</del><note type="physical">This word is cancelled with scribbles; some letters are visible, including an initial “d,” possiblly an “ſ” in the third position, and possibly a concluding “ceive.”</note></seg> <add place="below">^</add><add place="above">deceive</add> them and theire Spies;</rdg>
+            <rdg wit="#ee">And wives deceive them, and their spies.</rdg>
+            <rdg wit="#ae">And wives deceive them and their spies.</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+          <rdg wit="#ft">To Inns of Court, <seg><del>whole</del><note type="physical">This word is cancelled with multiple strike-throughs.</note></seg><add place="below">^</add><add place="above">and</add> Armies goe</rdg>
+          <rdg wit="#ee">To <seg>Inns of Court<note type="gloss">Four London Inns of Court—Gray’s Inn, Lincoln’s Inn, Middle Temple, and Inner Temple—served as law schools, where young men lived, were educated, and sought entertainment.</note></seg> and armies go</rdg>
+          <rdg wit="#ae">To <seg>Inns of Court<note type="gloss">buildings in London housing legal societies</note></seg> and armies go</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Wiſe Children theire owne Dads to know</rdg>
+            <rdg wit="#ee">Wise children, their own dads to know.</rdg>
+            <rdg wit="#ae">Wise children, their own dads to know.</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft"><seg>The<del>i</del>re<note type="physical">The “i” is erased and written over.</note></seg> Shepherds, that noe &ff;locks doe keepe,</rdg>
+            <rdg wit="#ee">There, shepherds that no flocks do keep,</rdg>
+            <rdg wit="#ae">There shepherds that no flocks do keep</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Like Butchers Mastives, worrie Sheepe</rdg>
+          <rdg wit="#ee"><seg>Like butcher’s mastiffs, worry sheep.<note type="gloss">A “butcher’s mastiff” was a breed of dog, associated with those kept by butchers to use in fighting and slaughtering animals. Here the analogy is to the pastoral overseers (clergymen) who threaten rather than protect their dependents.</note></seg></rdg>
+          <rdg wit="#ae">Like butchers’ <seg>mastiffs<note type="gloss">large, powerful dogs</note></seg> worry sheep.</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Then Come Sweete Children come away</rdg>
+            <rdg wit="#ee">Then come, sweet children, come away;</rdg>
+            <rdg wit="#ae">Then come, sweet children, come away;</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft"><seg>What?<note type="physical">The top of the question mark is reversed and short; a mark, possibly a colon, resembles some other question marks in manuscript.</note></seg> can allure you yet to Stay.</rdg>
+            <rdg wit="#ee">What can allure you yet to stay?</rdg>
+            <rdg wit="#ae">What can allure you yet to stay?</rdg>
+        </app>
+      </l></lg>
+      <lg n="3" type="stanza"><l n="23">
+        <app>
+            <rdg wit="#ft">Hide Parke a place of chiefe delight</rdg>
+          <rdg wit="#ee"><seg>Hyde Park<note type="gloss">A private, royal deer park in London before Charles I opened it to the public; it became a popular gathering place, and was a site for fortifications during the civil war.</note></seg>, a place of chief delight,</rdg>
+          <rdg wit="#ae"><seg>Hyde Park<note type="gloss">a park in central London; as the rest of the line indicates, a place of chief delight</note></seg>, a place of chief delight:</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Her buſhes mourne like Jewes in white</rdg>
+          <rdg wit="#ee">Her bushes mourn like <seg>Jews in white<note type="critical">In his book on comparative religions, Samuel Purchas mentions the Hebrew practice of dressing a corpse in the white clothing typically worn of the Feast of Reconciliation (see <title rend="italic">Purchas His Pilgrimage</title>, 1626, p. 206). It was more common to attribute white mourning clothes to various Asian cultures. See Pulter’s <ref type="pp-poem-ref" corresp="10">"Upon the Death of my Dear and Lovely Daughter, Jane Pulter" (Poem 10)</ref>, which mentions “Jews or Chinesses” mourning in clothes of “snowy white.”</note></seg>.</rdg>
+          <rdg wit="#ae"><seg>Her bushes mourn like Jews in white.<note type="critical">AE and KW note that this may be a confused reference to “Yom Kippur, the Jewish festival of atonement and repentance, during which it is traditional to wear white” (AE p. 49, n. 19; see also KW n. 7). SCG notes that the bushes dressed in white may also be a reference to the fact that after 1643, “Hyde Park was the scene of military encampment, its trees obscured by draped canvas” (p. 97, n. 56).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">The Stately Deer doe weeping Stray</rdg>
+            <rdg wit="#ee">The stately deer do weeping stray,</rdg>
+            <rdg wit="#ae">The stately deer do weeping stray,</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Anticipateing theire last day</rdg>
+            <rdg wit="#ee">Anticipating their last day.</rdg>
+            <rdg wit="#ae">Anticipating their last day.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Spring</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_013" n="5r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_013"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_013"/>
+            </rdg>
+        </app>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Spring Garden that ſuch pleaſures bred</rdg>
+          <rdg wit="#ee"><seg>Spring Garden<note type="critical">A London public resort, associated with entertainment, dining, drinking, and bowling; it was ordered closed in 1635. Although there is a decorative capital “S” in “Spring Garden” and a word rhyming with “stay” in the previous line, we have not interpreted this line as beginning a new stanza because it would create an unusual four-line stanza above.</note></seg>, that such pleasures bred,</rdg>
+          <rdg wit="#ae"><seg>Spring Garden<note type="gloss">a public pleasure garden</note></seg> that such pleasures bred</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Lookes dull and ſad Since Cloris fled</rdg>
+          <rdg wit="#ee">Looks dull and sad since <seg>Chloris<note type="gloss">goddess of the spring, and a common name for Charles I’s wife, Queen Henrietta Maria.</note></seg> fled.</rdg>
+          <rdg wit="#ae">Looks dull and sad since <seg>Chloris<note type="gloss">Greek goddess of flowers; Queen Henrietta Maria</note></seg> fled.</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">The Christall Thames her loss deplores</rdg>
+          <rdg wit="#ee">The crystal <seg>Thames<note type="gloss">river in England</note></seg> her loss <seg>deplores<note type="gloss">laments</note></seg></rdg>
+          <rdg wit="#ae">The crystal <seg>Thames<note type="gloss">the major river running through London</note></seg> her loss deplores,</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">And to the Sea her Griefe out Rores</rdg>
+          <rdg wit="#ee">And to the sea her grief <seg>outroars<note type="gloss">The primary sense is “roars out,” but it carries a secondary sense of the river’s noise drowning out that of the sea.</note></seg>.</rdg>
+            <rdg wit="#ae">And to the sea her grief outroars;</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">The Swans upon her Silver brest</rdg>
+            <rdg wit="#ee">The swans upon her silver breast</rdg>
+            <rdg wit="#ae">The swans upon her silver breast,</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Though dieing yet can find noe Rest,</rdg>
+            <rdg wit="#ee">Though dying, yet can find no rest,</rdg>
+            <rdg wit="#ae">Though dying, yet can find no rest,</rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">but full of griefe crie wella-d-aye</rdg>
+          <rdg wit="#ee">But full of grief cry, “<seg>welladay<note type="gloss">an exclamation of sorrow</note></seg>,”</rdg>
+            <rdg wit="#ae">But full of grief cry, “Welladay!”</rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">And Singing Sigh theire breath away</rdg>
+          <rdg wit="#ee">And, <seg>singing, sigh their breath away<note type="gloss">Swans were reputed to sing before dying.</note></seg>.</rdg>
+          <rdg wit="#ae">And, <seg>singing, sigh their breath away<note type="gloss">a reference to the “swan song” supposedly sung by swans before death</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Aye me then com make hast away</rdg>
+            <rdg wit="#ee">Ay me, then come, make haste away;</rdg>
+            <rdg wit="#ae">Ay me!—then come, make hast away;</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">&ff;rom that Sad place make noe delay</rdg>
+            <rdg wit="#ee">From that sad place make no delay.</rdg>
+            <rdg wit="#ae">From that sad place make no delay.</rdg>
+        </app>
+      </l>
+      </lg>
+      <lg n="4" type="stanza"><l n="37">
+        <app>
+          <rdg wit="#ft"><seg>Here’s<note type="physical">The “re” and apostrophe appear to be added later in thicker ink.</note></seg> <seg>&ff;low’ery<note type="physical"> The “e” is imperfectly erased; the apostrophe appears to have been added later in thicker ink.</note></seg> vales and Christall Springs</rdg>
+            <rdg wit="#ee">Here’s flow’ry vales and crystal springs;</rdg>
+          <rdg wit="#ae">Here’s <seg>flow’ry<note type="textual">	SGC: Flowery
+            RSB: flowery
+            The MS originally read “Flowery,” and then the “e” was struck out and an apostrophe was inserted after the “w.” I interpreted these corrections as an attempt to remove a syllable, which would make this line’s meter more regular, and modernized accordingly.</note></seg> vales and crystal springs;</rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+          <rdg wit="#ft"><seg>Here’s<note type="physical">The “re” appears to have been added later in thicker ink.</note></seg> ſhadey Groves, here ever ſings</rdg>
+            <rdg wit="#ee">Here’s shady groves, here ever sings</rdg>
+            <rdg wit="#ae">Here’s shady groves; here ever sings</rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">The Bulfinch Linnit Striving which</rdg>
+          <rdg wit="#ee">The <seg>bullfinch, linnet<note type="gloss">both songbirds</note></seg>, striving which</rdg>
+          <rdg wit="#ae">The <seg>bullfinch, linnet<note type="gloss">both birds known particularly as songbirds</note></seg>, striving which</rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">The Auditours Shall most bewitch;</rdg>
+            <rdg wit="#ee">The auditors shall most bewitch.</rdg>
+            <rdg wit="#ae">The auditors shall most bewitch.</rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">The early Larke long ere the Morne</rdg>
+          <rdg wit="#ee">The early lark, long <seg>ere<note type="gloss">before</note></seg> the morn</rdg>
+          <rdg wit="#ae">The early <seg>lark<note type="gloss">a songbird known for singing early in the day</note></seg>, long ere the morn</rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+          <rdg wit="#ft">with Roſes can her head <seg>Adorne<note type="physical">There is a circle (possibly part of a letter) to the right, and several smeared “M”s.</note></seg></rdg>
+            <rdg wit="#ee">With roses can her head adorn,</rdg>
+            <rdg wit="#ae">With roses can her head adorn,</rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">Sings Cheerfully a Roundelay</rdg>
+          <rdg wit="#ee">Sings cheerfully a <seg>roundelay<note type="gloss">short simple song</note></seg>,</rdg>
+          <rdg wit="#ae">Sings cheerfully a <seg>roundelay<note type="gloss">a bird’s song; a simple song with a refrain</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">Telling this lower world ’tis day</rdg>
+            <rdg wit="#ee">Telling this lower world ’tis day.</rdg>
+            <rdg wit="#ae">Telling this lower world ’tis day.</rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">Here Thruſhes, Wrens, and Red brests, ſing</rdg>
+            <rdg wit="#ee">Here thrushes, wrens, and redbreasts sing</rdg>
+          <rdg wit="#ae">Here thrushes, wrens, and <seg>redbreasts<note type="gloss">robins</note></seg> sing</rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+            <rdg wit="#ft">To welcome in the gladſom Spring</rdg>
+            <rdg wit="#ee">To welcome in the gladsome spring.</rdg>
+            <rdg wit="#ae">To welcome in the gladsome spring.</rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+            <rdg wit="#ft">Then come Sweet Maydens come away</rdg>
+            <rdg wit="#ee">Then come, sweet maidens, come away;</rdg>
+            <rdg wit="#ae">Then come, sweet maidens, come away;</rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+            <rdg wit="#ft">to this Sweet place make noe delay</rdg>
+            <rdg wit="#ee">To this sweet place make no delay.</rdg>
+            <rdg wit="#ae">To this sweet place make no delay.</rdg>
+        </app>
+      </l>
+      </lg>
+      <lg n="5" type="stanza"><l n="49">
+        <app>
+            <rdg wit="#ft">Here carefull Shepherds view there Sheepe</rdg>
+            <rdg wit="#ee">Here careful shepherds view their sheep;</rdg>
+            <rdg wit="#ae">Here careful shepherds view their sheep;</rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+            <rdg wit="#ft">They him, and he theire Soules doth keepe</rdg>
+          <rdg wit="#ee"><seg>They him, and he their souls doth keep.<note type="critical">In this extended conceit, the speaker suggests that the literal shepherds figure the pastoral care of clergymen and of God; her switch from plural shepherds to the singular relationship of God to his people creates a tension in the analogy. “They,” the sheep or church members, trust their being to “him” (the shepherd or clergyman) who “keeps,” or safeguards, the flocks. See Psalms 23:1: “The Lord is my shepherd; I shall not want.”</note></seg></rdg>
+          <rdg wit="#ae"><seg>They him, and he their souls, doth keep.<note type="critical">Other editors have noted the contrast between the gentle country shepherd described here and the vicious city shepherd of lines 19–20; see also lines 75–76.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+            <rdg wit="#ft">Bleſſings flow on them from aboue</rdg>
+            <rdg wit="#ee">Blessings flow on them from above</rdg>
+            <rdg wit="#ae">Blessings flow on them from above</rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+            <rdg wit="#ft">That are reciprocall in loue</rdg>
+            <rdg wit="#ee">That are reciprocal in love.</rdg>
+            <rdg wit="#ae">That are reciprocal in love.</rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+            <rdg wit="#ft">he in his boſome bear’s the Lambs.</rdg>
+            <rdg wit="#ee">He in his bosom bears the lambs</rdg>
+            <rdg wit="#ae">He in his bosom bears the lambs,</rdg>
+        </app>
+      </l>
+      <l n="54">
+        <app>
+          <rdg wit="#ft">And Gentlely leads the <seg>heavie Dams<note type="physical">These words appear on a slight ascension from the rest of the line, possibly in a different hand, or added later.</note></seg></rdg>
+          <rdg wit="#ee">And gently leads the <seg>heavy dams<note type="gloss">pregnant sheep</note></seg>;</rdg>
+          <rdg wit="#ae">And <seg>gently<note type="textual">The MS spells this word “Gentlely”; by modernizing I have removed a syllable and potentially altered the meter.</note></seg> leads the <seg>heavy dams<note type="gloss">pregnant mothers</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="55">
+        <app>
+            <rdg wit="#ft">He whistles those that goe Astray</rdg>
+            <rdg wit="#ee">He whistles those that go astray</rdg>
+            <rdg wit="#ae">He whistles those that go astray,</rdg>
+        </app>
+      </l>
+      <l n="56">
+        <app>
+            <rdg wit="#ft">By which meanes none runs quite away</rdg>
+            <rdg wit="#ee">By which means, none runs quite away.</rdg>
+          <rdg wit="#ae"><seg>By which means none runs quite away.<note type="textual">Between lines 56 and 57 is a page break in the manuscript; KW include a stanza break here (AE and RSB do not). I have not added a stanza break as other breaks occur only after refrains.</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">here</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_014" n="5v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_014"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_014"/>
+            </rdg>
+        </app>
+      <l n="57">
+        <app>
+            <rdg wit="#ft">Here Husbands free from Jealous eye</rdg>
+          <rdg wit="#ee"><seg>Here husbands, free from jealous eye,<note type="critical">This line begins after a page break in the manuscript so it it hard to determine whether it begins a new stanza or not. We have interpreted a stanza break here based on the repetition of the opening word “Here” (which begins the stanzas above and below), the fact that the scribe often uses more decorative capitals at the beginning of stanzas, and new stanzas begin after the refrain marked by rhyming words “stay” or “delay.” </note></seg></rdg>
+            <rdg wit="#ae">Here husbands, free from jealous eye,</rdg>
+        </app>
+      </l>
+      <l n="58">
+        <app>
+            <rdg wit="#ft">Haue wives as full of modesty</rdg>
+            <rdg wit="#ee">Have wives as full of modesty;</rdg>
+            <rdg wit="#ae">Have wives as full of modesty.</rdg>
+        </app>
+      </l>
+      <l n="59">
+        <app>
+          <rdg wit="#ft">They in theire Children <seg><del>doth</del><add place="above">both</add><note type="physical">It appears that the word in question was first written as “both”; then the first letter was corrected, to read “doth”; then the whole word was struck-through twice, with “both” inserted above.</note></seg> rejoyce</rdg>
+            <rdg wit="#ee">They, in their children, both rejoice,</rdg>
+          <rdg wit="#ae">They in their children <seg>both<note type="textual">	SGC: doth
+            AE: [doth]
+            The MS originally read “both”; this was replaced with “doth,” and then changed back, finally, to “both.”
+          </note></seg> rejoice,</rdg>
+        </app>
+      </l>
+      <l n="60">
+        <app>
+            <rdg wit="#ft">Commending still theire happy choyce</rdg>
+            <rdg wit="#ee">Commending still their happy choice:</rdg>
+            <rdg wit="#ae">Commending still their happy choice,</rdg>
+        </app>
+      </l>
+      <l n="61">
+        <app>
+            <rdg wit="#ft">Most kind, and free from all debate;</rdg>
+            <rdg wit="#ee">Most kind and free from all debate,</rdg>
+            <rdg wit="#ae">Most kind, and free from all debate,</rdg>
+        </app>
+      </l>
+      <l n="62">
+        <app>
+          <rdg wit="#ft"><seg>That[<del>?</del>]<note type="physical">A final letter, possibly an “s,” is imperfectly erased and/or blotted.</note></seg> noe true loue, can ever hate.</rdg>
+            <rdg wit="#ee">That no true love can ever hate.</rdg>
+          <rdg wit="#ae"><seg>That<note type="textual">The MS originally read “That’s,” which would have made line 62 its own independent clause: It is no true love that could ever hate.</note></seg> no true love can ever hate.</rdg>
+        </app>
+      </l>
+      <l n="63">
+        <app>
+            <rdg wit="#ft">Then come my Children come away</rdg>
+            <rdg wit="#ee">Then come, my children, come away;</rdg>
+            <rdg wit="#ae">Then come, my children, come away;</rdg>
+        </app>
+      </l>
+      <l n="64">
+        <app>
+            <rdg wit="#ft">To this Sweete place make noe delay</rdg>
+            <rdg wit="#ee">To this sweet place make no delay.</rdg>
+            <rdg wit="#ae">To this sweet place make no delay.</rdg>
+        </app>
+      </l></lg>
+      <lg n="6" type="stanza"><l n="65">
+        <app>
+          <rdg wit="#ft">Here virgins Sit in <seg>flow’ery<note type="physical">The “e” is imperfectly erased.</note></seg> Vales</rdg>
+          <rdg wit="#ee">Here virgins sit in flowery vales,</rdg>
+          <rdg wit="#ae">Here virgins sit in <seg>flow’ry<note type="textual">	SGC: flow’ery
+            KW: flowery
+            The MS originally read “flowery,” and then the “e” was struck out and an apostrophe was inserted after the “w.” I interpreted these corrections as an attempt to remove a syllable, which would make this line’s meter more regular, and modernized accordingly.</note></seg> vales,</rdg>
+        </app>
+      </l>
+      <l n="66">
+        <app>
+          <rdg wit="#ft">refresht by Sweet <seg>&ff;avoni<del>o</del>us<note type="physical">The second “o” is imperfectly erased.</note></seg> gales</rdg>
+          <rdg wit="#ee">Refreshed by sweet <seg>Favonius’s<note type="gloss">Latin name for the west wind, which was associated with springtime (also known as Zephyrus)</note></seg> <seg>gales<note type="gloss">strong winds</note></seg>,</rdg>
+          <rdg wit="#ae">Refreshed by sweet <seg>Favonious’<note type="gloss">the West wind</note><note type="textual">	AE: favorious
+            RSB: favorious
+          </note></seg> gales,</rdg>
+        </app>
+      </l>
+      <l n="67">
+        <app>
+          <rdg wit="#ft">Makeing them Anadems and poſes</rdg>
+          <rdg wit="#ee">Making <seg>them<note type="gloss">themselves</note></seg> <seg>anadems and poses<note type="gloss">“Anadems” were wreaths of flowers for the head; “poses” refers to posies, which were bunches of flowers as well as collections of short poems, devices or emblems</note></seg>,</rdg>
+          <rdg wit="#ae">Making them <seg>anadems and poses<note type="gloss">Anadems are floral wreaths or crowns; poses are small bunches of flowers.</note><note type="textual">	SGC: Diadems and poses
+            RSB: anadems and posies</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="68">
+        <app>
+          <rdg wit="#ft">Crowning theire Heads with new blowne Roses</rdg>
+          <rdg wit="#ee">Crowning their heads with <seg>new-blown<note type="gloss">blossoming</note></seg> roses.</rdg>
+          <rdg wit="#ae">Crowning their heads with <seg>new-blown roses<note type="gloss">newly bloomed or opened roses</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="69">
+        <app>
+          <rdg wit="#ft">In woods and Dales faire Maidens may</rdg>
+          <rdg wit="#ee">In woods and <seg>dales<note type="gloss">valleys</note></seg> fair maidens may,</rdg>
+          <rdg wit="#ae">In woods and dales fair maidens <seg>may<note type="gloss">hawthorn blossoms</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="70">
+        <app>
+          <rdg wit="#ft">Unfrighted freely gather May</rdg>
+          <rdg wit="#ee">Unfrighted, freely gather <seg>may<note type="gloss">Hawthorn blossom; the ritual of gathering may was often done on May Day, as the stanza later suggests.</note></seg>.</rdg>
+          <rdg wit="#ae">Unfrighted, freely gather may.</rdg>
+        </app>
+      </l>
+      <l n="71">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">Then lovely lasses, come away!</rdg>
+          <rdg wit="#ae">Then, lovely lasses, come away;</rdg>
+        </app>
+      </l>
+      <l n="72">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"><seg>To cheer my heart make no delay.<note type="critical">These pair of lines is inserted in the margin, probably in Pulter’s hand. We have inserted a stanza break after them, on the model of earlier stanzas which end after similar refrains.</note></seg></rdg>
+          <rdg wit="#ae"><seg>To cheer my heart make no delay.<note type="textual"><p>Lines 71–72 were inserted in the margin after the fact; I have embedded them in the poem as they offer the last refrain before the poem shifts into another mode (the refrain will occur again only at the very end). I have also inserted a stanza break after these lines, to match the stanza breaks that occur after other instances of the refrain in the poem. However, without these lines and without the stanza break, the shift is much more subtle, as the poem originally transitioned from song of invitation to dark lament on the state of the world with no formal or visual cues.</p><p>Every other editor inserts these lines, with the following changes: SGC puts the inserted lines in brackets and adds a stanza break afterwards; AE does not add a stanza break, and emphasizes their continuity with what follows by adding a comma at the end of line 72; KW and RSB add a stanza break after.</p></note></seg></rdg>
+        </app>
+      </l></lg>
+      <l n="73">
+        <app>
+          <rdg wit="#ft"><seg>But<note type="physical">To the left, two poetic lines are inserted in H2, broken into four lines: “<hi rend="superscript">x</hi>Then lovely laſſes / com awaye / To cheere my heart / make noe delaye.” Slashes show line breaks in the manuscript.</note></seg> oh thoſe times now changed <seg>bee<add place="above">x</add><note type="physical">The superscript “x” is in H2.</note></seg></rdg>
+          <rdg wit="#ee">But O, those times now <seg>changéd be<note type="gloss">The poem shifts at this point from comparing the city to the country, to showing the devastation that infiltrates even the pastoral landscape.</note></seg>;</rdg>
+          <rdg wit="#ae">But O, those times now changèd be!</rdg>
+        </app>
+      </l>
+      <l n="74">
+        <app>
+          <rdg wit="#ft">Sad Metamorphosis wee See</rdg>
+          <rdg wit="#ee">Sad metamorphosis we see.</rdg>
+          <rdg wit="#ae">Sad metamorphosis we see.</rdg>
+        </app>
+      </l>
+      <l n="75">
+        <app>
+          <rdg wit="#ft">&ff;or Since Amintas went away</rdg>
+          <rdg wit="#ee">For since <seg>Amintas<note type="gloss">pastoral name for Charles I</note></seg> went away,</rdg>
+          <rdg wit="#ae">For since <seg>Amintas<note type="gloss">King Charles I</note></seg> went away,</rdg>
+        </app>
+      </l>
+      <l n="76">
+        <app>
+          <rdg wit="#ft">Shepherds and Sheepe goe all aſtray</rdg>
+          <rdg wit="#ee">Shepherds and sheep go all astray.</rdg>
+          <rdg wit="#ae">Shepherds and sheep go all astray.</rdg>
+        </app>
+      </l>
+      <l n="77">
+        <app>
+          <rdg wit="#ft">Those that deſerved whole Groves of Bayes</rdg>
+          <rdg wit="#ee"><seg>Those that deserved whole groves of bays<note type="gloss">Writers who deserved the sign of poetic achievement, the wearing of the wreath made of laurel or bay leaves (as in poet laureate).</note></seg></rdg>
+          <rdg wit="#ae">Those that deserved whole groves of <seg>bays<note type="gloss">wreaths of bay or laurel branches were used to reward poetic or martial achievements</note></seg></rdg>
+        </app>
+      </l>
+      <l n="78">
+        <app>
+          <rdg wit="#ft">In Sighs conſume theire youthfull dayes</rdg>
+          <rdg wit="#ee">In <seg>sighs<note type="gloss">laments, but especially those in the form of poems, since it refers back to the title of the collection, <title rend="italic">Sighs Breathed Forth by the Noble Haddassas</title></note></seg> consume their youthful days;</rdg>
+          <rdg wit="#ae">In sighs consume their youthful days,</rdg>
+        </app>
+      </l>
+      <l n="79">
+        <app>
+          <rdg wit="#ft">And that faire <seg>fleecy flocks<note type="physical">The “y” in “fleecy” is written in thicker inkover a previous letter, possibly “e”; the “o” in “flocks” is written over an earlier letter. </note></seg> did keepe</rdg>
+          <rdg wit="#ee">And <seg>that<note type="gloss">those that</note></seg> fair fleecy flocks did keep,</rdg>
+          <rdg wit="#ae">And that fair fleecy flocks did keep</rdg>
+        </app>
+      </l>
+      <l n="80">
+        <app>
+          <rdg wit="#ft"><seg>Diſpiſ’d<note type="physical">The “e” is imperfectly erased, replaced with an apostrophe.</note></seg> in corners ſit and weepe</rdg>
+          <rdg wit="#ee">Despised in corners sit and weep.</rdg>
+          <rdg wit="#ae">Despised in corners, sit and weep.</rdg>
+        </app>
+      </l>
+      <l n="81">
+        <app>
+          <rdg wit="#ft">Since Cloris went both wife and Maid</rdg>
+          <rdg wit="#ee">Since Chloris went, both wife and maid</rdg>
+          <rdg wit="#ae">Since <seg>Chloris<note type="gloss">Greek goddess of flowers; Queen Henrietta Maria</note></seg> went, both wife and maid</rdg>
+        </app>
+      </l>
+      <l n="82">
+        <app>
+          <rdg wit="#ft">In loue and be<add place="below">^</add><add place="above">a</add>vty hath Decayed</rdg>
+          <rdg wit="#ee">In love and beauty hath decayed.</rdg>
+          <rdg wit="#ae">In love and beauty hath decayed.</rdg>
+        </app>
+      </l>
+      <l n="83">
+        <app>
+          <rdg wit="#ft">Where May poles shewed theire fe<add place="below">^</add><add place="above">a</add>thered head</rdg>
+          <rdg wit="#ee">Where <seg>maypoles<note type="gloss">tall poles, decorated with paint, flowers and greenery, which served as the centerpiece for May Day dances and celebrations; this ritual was opposed by some factions who were also hostile to Charles I.</note></seg> showed their feathered head,</rdg>
+          <rdg wit="#ae">Where <seg>maypoles<note type="gloss">poles decorated with flowers, to celebrate May Day</note></seg> showed their feathered head,</rdg>
+        </app>
+      </l>
+      <l n="84">
+        <app>
+          <rdg wit="#ft">Theire colour’d Inſign’s now are ſpread</rdg>
+          <rdg wit="#ee">There, colored <seg>ensigns<note type="gloss">military banners</note></seg> now are spread;</rdg>
+          <rdg wit="#ae"><seg>There<note type="textual">Though I have modernized this word as “There,” if we are meant to imagine the maypoles being repurposed as flagpoles it could instead have been modernized as “Their.”</note></seg> colored <seg>ensigns<note type="gloss">military banners or flags</note></seg> now are spread:</rdg>
+        </app>
+      </l>
+      <l n="85">
+        <app>
+          <rdg wit="#ft">Inſte<add place="above">a</add>d of Muſicks pleaſant ſound</rdg>
+          <rdg wit="#ee">Instead of music’s pleasant sound</rdg>
+          <rdg wit="#ae">Instead of music’s pleasant sound</rdg>
+        </app>
+      </l>
+      <l n="86">
+        <app>
+          <rdg wit="#ft">And lively laſſes danceing round</rdg>
+          <rdg wit="#ee">And lively lasses dancing round,</rdg>
+          <rdg wit="#ae">And lively lasses dancing round,</rdg>
+        </app>
+      </l>
+      <l n="87">
+        <app>
+          <rdg wit="#ft">Tumultuous Drums make Deafe our eares</rdg>
+          <rdg wit="#ee">Tumultuous <seg>drums<note type="gloss">military instruments</note></seg> make deaf our ears</rdg>
+          <rdg wit="#ae">Tumultuous drums make deaf our ears</rdg>
+        </app>
+      </l>
+      <l n="88">
+        <app>
+          <rdg wit="#ft">And Trumpets fill our hearts <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> feares</rdg>
+          <rdg wit="#ee">And trumpets fill our hearts with fears.</rdg>
+          <rdg wit="#ae">And trumpets fill our hearts with fears.</rdg>
+        </app>
+      </l>
+      <l n="89">
+        <app>
+          <rdg wit="#ft">In Shades where Nimphs did uſe to walke</rdg>
+          <rdg wit="#ee">In shades where nymphs did use to walk</rdg>
+          <rdg wit="#ae">In shades where <seg>nymphs<note type="gloss">semi-divine spirits inhabiting natural objects</note></seg> did use to walk,</rdg>
+        </app>
+      </l>
+      <l n="90">
+        <app>
+          <rdg wit="#ft">There Sons of Mars in Armour Stalke</rdg>
+          <rdg wit="#ee">There sons of <seg>Mars<note type="gloss">god of war </note></seg> in armor stalk.</rdg>
+          <rdg wit="#ae">There <seg>sons of Mars<note type="gloss">Mars is the god of war; the sons of Mars are soldiers.</note></seg> in armor stalk.</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">in</fw>
+        </rdg>
+      </app>
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_015" n="6r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_015"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_015"/>
+        </rdg>
+      </app>
+      <l n="91">
+        <app>
+          <rdg wit="#ft"><seg>Inamell’d<note type="physical">Beneath the apostrophe is an illegible erased letter.</note></seg> vales and Cristall Streames</rdg>
+          <rdg wit="#ee">Enameled vales and crystal streams</rdg>
+          <rdg wit="#ae"><seg>Enameled vales and crystal streams<note type="critical">In these next few lines, the rivers of England mourn the loss of the king and queen. Lines 94–95 say, roughly, that the rivers Mimram and Stort wear “mourning weeds,” which usually means dark clothes of mourning, but in this case may literally mean they wear weeds in their waters or on their banks.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="92">
+        <app>
+          <rdg wit="#ft">Proue now alas poore Bradfields dreames</rdg>
+          <rdg wit="#ee"><seg>Prove<note type="gloss">turn out to be</note></seg> now, alas, poor <seg>Broadfield’s<note type="gloss">Pulter’s estate</note></seg> dreams.</rdg>
+          <rdg wit="#ae">Prove now, alas, poor <seg>Broadfield’s<note type="gloss">Pulter’s estate in Hertfordshire (AE, p. 52, n. 38)</note></seg> dreams.</rdg>
+        </app>
+      </l>
+      <l n="93">
+        <app>
+          <rdg wit="#ft">Leas drooping Swans now Sadly Sing</rdg>
+          <rdg wit="#ee"><seg>Lea’s<note type="gloss">As an eighteenth-century reader notes in the margin, Lea, Beane, Mimram and Stort are all local rivers in Hertfordshire.The imagery suggests that the natural flow and crossing of the rivers register their attempt to express sorrow and find sympathy in shared tears.</note></seg> drooping swans now sadly sing</rdg>
+          <rdg wit="#ae"><seg>Leas’<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> drooping swans now sadly sing,</rdg>
+        </app>
+      </l>
+      <l n="94">
+        <app>
+          <rdg wit="#ft">And Beane comes weeping from her Spring</rdg>
+          <rdg wit="#ee">And Beane comes weeping from her spring.</rdg>
+          <rdg wit="#ae">And <seg>Beane<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> comes weeping from her spring;</rdg>
+        </app>
+      </l>
+      <l n="95">
+        <app>
+          <rdg wit="#ft">Mimmer and Sturt in mourning weeds</rdg>
+          <rdg wit="#ee">Mimram and Stort in mourning <seg>weeds<note type="gloss">clothes or plants</note></seg>,</rdg>
+          <rdg wit="#ae"><seg>Mimram<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> and <seg>Stort<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> in mourning weeds,</rdg>
+        </app>
+      </l>
+      <l n="96">
+        <app>
+          <rdg wit="#ft">Shewing theire hearts for griefe en’e <seg>bleeds<note type="physical">In the right margin, by a vertical line, appears this note in a third hand: “Been, Colne Lea, Mimmer, Stort, Ver, names of Rivers in Hartfordshire”</note></seg></rdg>
+          <rdg wit="#ee">Showing their hearts for grief e’en bleeds.</rdg>
+          <rdg wit="#ae">Showing their hearts for grief e’en <seg>bleeds<note type="textual">The word “bleeds” should, grammatically, be “bleed” (to agree with the plural subject “hearts”), but I have preserved “bleeds” to preserve the rhyme.</note></seg>:</rdg>
+        </app>
+      </l>
+      <l n="97">
+        <app>
+          <rdg wit="#ft">All run to Lea for ſome Reliefe</rdg>
+          <rdg wit="#ee">All run to Lea for some relief,</rdg>
+          <rdg wit="#ae">All run to <seg>Lea<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> for some relief,</rdg>
+        </app>
+      </l>
+      <l n="98">
+        <app>
+          <rdg wit="#ft">And in her boſome <seg><add place="above">pour</add> <del>beare</del><note type="physical">The insertion is in H2; “bear” is twice struck-through (except the final “e”).</note></seg> there griefe</rdg>
+          <rdg wit="#ee">And in her bosom pour their grief.</rdg>
+          <rdg wit="#ae">And in her bosom <seg>pour their grief<note type="gloss">All the rivers mentioned in these lines empty into the Lea.</note><note type="textual">The MS originally had “bear,” which was replaced with “pour.”</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="99">
+        <app>
+          <rdg wit="#ft">Thus Shee and they all weeping goe</rdg>
+          <rdg wit="#ee">Thus she and they all weeping go</rdg>
+          <rdg wit="#ae">Thus she and they all weeping go</rdg>
+        </app>
+      </l>
+      <l n="100">
+        <app>
+          <rdg wit="#ft">To tell the Thames theire grievous woe</rdg>
+          <rdg wit="#ee">To tell the Thames their grievous woe.</rdg>
+          <rdg wit="#ae"><seg>To tell the Thames<note type="gloss">The river Lea empties, eventually, into the Thames.</note></seg> their grievous woe.</rdg>
+        </app>
+      </l>
+      <l n="101">
+        <app>
+          <rdg wit="#ft">Vir lookes and ſees this Shire <add place="below">^</add><add place="above">looke</add> ſad</rdg>
+          <rdg wit="#ee"><seg>Ver<note type="gloss">local river</note></seg> looks and sees <seg>this shire<note type="gloss">Hertfordshire</note></seg> look sad;</rdg>
+          <rdg wit="#ae"><seg>Ver<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> looks and sees this shire look sad;</rdg>
+        </app>
+      </l>
+      <l n="102">
+        <app>
+          <rdg wit="#ft">Shee whirls about as Shee were mad</rdg>
+          <rdg wit="#ee">She whirls about <seg>as<note type="gloss">as if</note></seg> she were mad.</rdg>
+          <rdg wit="#ae">She whirls about as she were mad,</rdg>
+        </app>
+      </l>
+      <l n="103">
+        <app>
+          <rdg wit="#ft">Round Verulam his ruin’d Stones</rdg>
+          <rdg wit="#ee">Round <seg>Verulam his<note type="gloss">Veralum’s; Veralum was the abbreviated name for the ancient Roman town of Verulamium in Hertfordshire, the ruins of which were visible.</note></seg> ruinéd stones</rdg>
+          <rdg wit="#ae">Round <seg>Verulam<note type="gloss">Verulamium, a Roman British town, in ruins</note><note type="textual">SGC: Verulamium</note></seg> his ruined stones</rdg>
+        </app>
+      </l>
+      <l n="104">
+        <app>
+          <rdg wit="#ft">Shee Runs and tells to Colne her mones</rdg>
+          <rdg wit="#ee">She runs, and tells to <seg>Colne<note type="gloss">larger river, tributary of the Thames</note></seg> her moans;</rdg>
+          <rdg wit="#ae">She runs, and tells to <seg>Colne<note type="original">Beane, Colne, Lea, Mimram, Stort, Ver: names of Rivers in Hertfordshire [This original marginal note runs alongside lines 93–97.]</note></seg> her moans,</rdg>
+        </app>
+      </l>
+      <l n="105">
+        <app>
+          <rdg wit="#ft">&ff;or Since her Saint his blood was ſhed</rdg>
+          <rdg wit="#ee">For since <seg>her saint<note type="gloss">St. Alban, a resident of Verulamium, was the first British Christian martyr; he was converted by a fugitive priest whom he sheltered, and condemned to death by the pagan Emperor. The town was named St. Albans in his honor. Pulter alludes to the specifics of his martyrdom in <ref type="pp-poem-ref" corresp="4">"The Complaint of Thames, 1647" (Poem 4)</ref>.</note></seg> his blood was shed,</rdg>
+          <rdg wit="#ae">For since <seg>her saint<note type="gloss">St. Alban, British martyr associated with the nearby town St. Albans</note></seg> his blood was shed,</rdg>
+        </app>
+      </l>
+      <l n="106">
+        <app>
+          <rdg wit="#ft">Shee never grieved ſoe as ſhee <seg>ſaid<note type="physical">The “i” appears written over an earlier letter, possibly “e.”</note></seg></rdg>
+          <rdg wit="#ee">She never grieved so, as she said.</rdg>
+          <rdg wit="#ae">She never grieved so, as she said.</rdg>
+        </app>
+      </l>
+      <l n="107">
+        <app>
+          <rdg wit="#ft">Colne Simpathiſed with her in woe</rdg>
+          <rdg wit="#ee">Colne sympathized with her in woe,</rdg>
+          <rdg wit="#ae">Colne sympathized with her in woe,</rdg>
+        </app>
+      </l>
+      <l n="108">
+        <app>
+          <rdg wit="#ft">And to the Thames Resolved to goe</rdg>
+          <rdg wit="#ee">And to the <seg>Thames<note type="gloss">main river in south England</note></seg> resolved to go,</rdg>
+          <rdg wit="#ae">And to the Thames resolved to go.</rdg>
+        </app>
+      </l>
+      <l n="109">
+        <app>
+          <rdg wit="#ft">Cleare Purvall too came <seg>bubling out<note type="physical">In the right margin, in third hand: “the river Pyr near Hitchin.”</note></seg></rdg>
+          <rdg wit="#ee">Clear <seg>Purwell<note type="gloss">a nearby river; the eighteenth-century annotator of the manuscript defined Purwell as “the river Pyr near Hitchin”</note></seg> too came bubbling out,</rdg>
+          <rdg wit="#ae">Clear <seg>Purwell<note type="original">the river Pyr, near Hitchin</note><note type="critical">“Purwell” has perhaps changed names multiple times; the MS reads “Purvall,” and the marginal annotation reads “Pyr.” This line begins a long, winding sentence that runs from lines 109–122—perhaps mirroring the winding of the river Pyr?</note></seg> too came bubbling out,</rdg>
+        </app>
+      </l>
+      <l n="110">
+        <app>
+          <rdg wit="#ft">But long Shee did not Stand in doubt</rdg>
+          <rdg wit="#ee">But long she did not stand in doubt;</rdg>
+          <rdg wit="#ae">But long she did not stand in doubt;</rdg>
+        </app>
+      </l>
+      <l n="111">
+        <app>
+          <rdg wit="#ft">Seeing our Halcion dayes were dun</rdg>
+          <rdg wit="#ee">Seeing our <seg>halcyon<note type="gloss">peaceful, calm</note></seg> days were done,</rdg>
+          <rdg wit="#ae">Seeing our <seg>halcyon days<note type="gloss">peaceful or calm days</note></seg> were done,</rdg>
+        </app>
+      </l>
+      <l n="112">
+        <app>
+          <rdg wit="#ft">Shee loathed (ſhee Said) to ſee the Sun</rdg>
+          <rdg wit="#ee">She loathed (she said) to see the sun</rdg>
+          <rdg wit="#ae">She loathed (she said) to see the sun</rdg>
+        </app>
+      </l>
+      <l n="113">
+        <app>
+          <rdg wit="#ft">As he purſued the Chearfull day</rdg>
+          <rdg wit="#ee">As he pursued the cheerful day,</rdg>
+          <rdg wit="#ae">As he pursued the cheerful day,</rdg>
+        </app>
+      </l>
+      <l n="114">
+        <app>
+          <rdg wit="#ft">But turn’d her course another way</rdg>
+          <rdg wit="#ee">But turned her course another way.</rdg>
+          <rdg wit="#ae">But turned her course another way,</rdg>
+        </app>
+      </l>
+      <l n="115">
+        <app>
+          <rdg wit="#ft">And Sighing Shed forth tear’s as cleare</rdg>
+          <rdg wit="#ee">And, sighing, shed forth tears as clear</rdg>
+          <rdg wit="#ae">And, sighing, shed forth tears as clear</rdg>
+        </app>
+      </l>
+      <l n="116">
+        <app>
+          <rdg wit="#ft">as pearles and ran to Bedfordſhire</rdg>
+          <rdg wit="#ee">As pearls, and ran to Bedfordshire–</rdg>
+          <rdg wit="#ae">As pearls, and ran to <seg>Bedfordshire<note type="gloss">the county northeast of Hertfordshire</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="117">
+        <app>
+          <rdg wit="#ft">To Owes, who was So full of <seg>Griefe<note type="physical">In the right margin, in third hand: “The river, Ouſe.”</note></seg></rdg>
+          <rdg wit="#ee">To <seg>Ouse<note type="critical">The Purwell river follows this route, flowing toward Bedfordshire and into one of the longest British rivers, the Ouse. Pulter offers an origin myth in which the Purwell bend its natural course to the west, because her eastward view of the sun offended her grief.</note></seg>, who was so full of grief</rdg>
+          <rdg wit="#ae">To <seg>Ouse<note type="original">the river Ouse</note></seg>, who was so full of grief</rdg>
+        </app>
+      </l>
+      <l n="118">
+        <app>
+          <rdg wit="#ft">That Shee her Selfe did want Reliefe</rdg>
+          <rdg wit="#ee">That she herself did want relief–</rdg>
+          <rdg wit="#ae">That she herself did want relief,</rdg>
+        </app>
+      </l>
+      <l n="119">
+        <app>
+          <rdg wit="#ft">And ſaid would any place <seg>receive<note type="physical">Although the manuscript seems to read “rereive,” the scribe uses a secretary form of “c” (unusual for this hand) that looks like a modern “r.” Thanks to Liza Blake for calling this to our attention.</note></seg></rdg>
+          <rdg wit="#ee">And said, would any place receive</rdg>
+          <rdg wit="#ae">And said, would any place receive</rdg>
+        </app>
+      </l>
+      <l n="120">
+        <app>
+          <rdg wit="#ft">Her teares, She would her channell leave</rdg>
+          <rdg wit="#ee">Her tears, she would her channel leave,</rdg>
+          <rdg wit="#ae">Her tears, she would her channel leave,</rdg>
+        </app>
+      </l>
+      <l n="121">
+        <app>
+          <rdg wit="#ft">As when King Richards Reigne had date</rdg>
+          <rdg wit="#ee">As when <seg>King Richard’s<note type="gloss">In the English medieval War of the Roses, the Duke of Buckingham led a rebellion against Richard III, but was defeated, in part, due to the flooding of the Severn River.	</note></seg> reign had date;</rdg>
+          <rdg wit="#ae"><seg>As when King Richard’s reign had date—<note type="gloss">The Ouse river flooded during Richard III’s reign (AE p. 53, n. 49).</note><note type="critical">Eardley also notes that the flood famously stopped an invasion against the king; the image that this reference conjures, of a river coming to the assistance of the monarchy, may be deliberate here—though it is immediately undercut by the assertion that Ouse cannot perform such actions now.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="122">
+        <app>
+          <rdg wit="#ft">But this Shee was denied by fate</rdg>
+          <rdg wit="#ee">But this she was denied by fate.</rdg>
+          <rdg wit="#ae">But this she was denied by fate.</rdg>
+        </app>
+      </l>
+      <l n="123">
+        <app>
+          <rdg wit="#ft">Grayes Spring too Sadly makes her <seg>moane<note type="physical">In the right margin, in third hand: “a petrifying Spring at Bradfeld.”</note></seg>,</rdg>
+          <rdg wit="#ee"><seg>Gray’s Spring<note type="gloss">The eighteenth-century annotator identifies Gray’s Spring as a “petrifying spring” on Pulter’s estate of Broadfield. These springs slowly coat anything in them with minerals that harden and encrust them, thus seeming to petrify.</note></seg> too sadly makes her moan,</rdg>
+          <rdg wit="#ae"><seg>Gray’s Spring<note type="original">a petrifying spring at Bradfeld</note></seg>, <seg>too<note type="textual">Though I have taken “too” to mean “also,” it may also modify sadly as an intensifier, in which case there should be a comma after “sadly,” not “too” (or no comma at all).</note></seg>, sadly makes her moan,</rdg>
+        </app>
+      </l>
+      <l n="124">
+        <app>
+          <rdg wit="#ft">and with her teares turns moſs to Stone</rdg>
+          <rdg wit="#ee">And with her tears turns moss to stone;</rdg>
+          <rdg wit="#ae">And with her tears turns moss to stone,</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_016" n="6v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_016"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_016"/>
+        </rdg>
+      </app>
+      <l n="125">
+        <app>
+          <rdg wit="#ft">And Seeing delight with Cloris fled</rdg>
+          <rdg wit="#ee">And, seeing delight with Chloris fled,</rdg>
+          <rdg wit="#ae">And, seeing delight with Chloris fled,</rdg>
+        </app>
+      </l>
+      <l n="126">
+        <app>
+          <rdg wit="#ft">Shee Sighed and murmuring hid her head</rdg>
+          <rdg wit="#ee">She sighed and murmuring hid her head</rdg>
+          <rdg wit="#ae">She sighed, and murmuring hid her head</rdg>
+        </app>
+      </l>
+      <l n="127">
+        <app>
+          <rdg wit="#ft">Within her womb that gave her breath</rdg>
+          <rdg wit="#ee">Within her womb that gave her breath,</rdg>
+          <rdg wit="#ae">Within her womb that gave her <seg>birth<note type="textual">	SGC: breath
+            AE: breath
+            KW: breath
+            Though the MS reads “breath,” I have followed RSB and emended to “birth” to rhyme with “earth.”</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="128">
+        <app>
+          <rdg wit="#ft">Venting her griefe below the Earth</rdg>
+          <rdg wit="#ee">Venting her grief below the earth.</rdg>
+          <rdg wit="#ae">Venting her grief below the earth.</rdg>
+        </app>
+      </l>
+      <l n="129">
+        <app>
+          <rdg wit="#ft">The Nayedes here ſit in Rankes</rdg>
+          <rdg wit="#ee">The <seg>Naiades<note type="gloss">In classical mythology, these were nymphs inhabiting rivers and lakes, or female personifications of bodies of water.</note></seg> here sit in <seg>ranks<note type="gloss">rows</note></seg>,</rdg>
+          <rdg wit="#ae">The <seg>naïads<note type="gloss">river nymphs</note><note type="textual">In the MS, “naiads” is spelled “Nayedes”; I have spelled it “naïads” in an attempt to both modernize and restore the third syllable removed in modernization.</note></seg> here <seg>sit in ranks<note type="gloss">i.e., sit in rows.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="130">
+        <app>
+          <rdg wit="#ft">&ff;orelorne upon our withered bankes</rdg>
+          <rdg wit="#ee">Forlorn upon our withered banks,</rdg>
+          <rdg wit="#ae">Forlorn upon our withered banks,</rdg>
+        </app>
+      </l>
+      <l n="131">
+        <app>
+          <rdg wit="#ft">And Garlands make of Willow Boughs</rdg>
+          <rdg wit="#ee">And garlands make of <seg>willow<note type="gloss">trees associated with mourning</note></seg> boughs</rdg>
+          <rdg wit="#ae">And garlands make of <seg>willow<note type="gloss">a tree associated with grief and loss of a mate</note></seg> boughs</rdg>
+        </app>
+      </l>
+      <l n="132">
+        <app>
+          <rdg wit="#ft">To hide theire teares and Shade theire browes</rdg>
+          <rdg wit="#ee">To hide their tears and shade their brows.</rdg>
+          <rdg wit="#ae">To hide their tears and shade their brows.</rdg>
+        </app>
+      </l>
+      <l n="133">
+        <app>
+          <rdg wit="#ft">Since Cloris went our flowers fade</rdg>
+          <rdg wit="#ee">Since Chloris went, our flowers fade;</rdg>
+          <rdg wit="#ae">Since Chloris went our flowers fade;</rdg>
+        </app>
+      </l>
+      <l n="134">
+        <app>
+          <rdg wit="#ft">Noe pleaſure is in Hill or Shade</rdg>
+          <rdg wit="#ee">No pleasure is in hill or shade.</rdg>
+          <rdg wit="#ae">No pleasure is in hill or shade.</rdg>
+        </app>
+      </l>
+      <l n="135">
+        <app>
+          <rdg wit="#ft">Poore Phillomele doth ſit alone</rdg>
+          <rdg wit="#ee">Poor <seg>Philomel<note type="gloss">In mythology, Tereus rapes Philomela and cuts out her tongue; after she takes revenge, she is turned into a nightingale, known for her sorrowful song.</note></seg> doth sit alone,</rdg>
+          <rdg wit="#ae">Poor <seg>Philomel<note type="gloss">the nightingale, once a woman raped and mutilated</note></seg> doth sit alone,</rdg>
+        </app>
+      </l>
+      <l n="136">
+        <app>
+          <rdg wit="#ft">To Senceles trees now makes her mone</rdg>
+          <rdg wit="#ee">To senseless trees now makes her moan.</rdg>
+          <rdg wit="#ae">To senseless trees now makes her moan.</rdg>
+        </app>
+      </l>
+      <l n="137">
+        <app>
+          <rdg wit="#ft">Our Woods theire Choristers now lack</rdg>
+          <rdg wit="#ee">Our woods their <seg>choristers<note type="gloss">singing birds</note></seg> now lack:</rdg>
+          <rdg wit="#ae">Our woods their choristers now lack:</rdg>
+        </app>
+      </l>
+      <l n="138">
+        <app>
+          <rdg wit="#ft">The Woozles <seg>Whiſle<note type="physical">This word is possibly corrected from “Weeſle.”</note></seg> clad in black</rdg>
+          <rdg wit="#ee">The <seg>woozles<note type="gloss">Eardley interprets “woozle” as an “ouzel” or blackbird.</note></seg> whistle, clad in black,</rdg>
+          <rdg wit="#ae">The <seg>ouzels<note type="gloss">blackbirds</note></seg> whistle, clad in black,</rdg>
+        </app>
+      </l>
+      <l n="139">
+        <app>
+          <rdg wit="#ft">And the forſaken Turtle Dove</rdg>
+          <rdg wit="#ee">And the forsaken <seg>turtledove<note type="gloss">a bird known for its affection for its mate</note></seg></rdg>
+          <rdg wit="#ae">And the forsaken <seg>turtledove<note type="gloss">a bird known for its affection for its mate</note></seg></rdg>
+        </app>
+      </l>
+      <l n="140">
+        <app>
+          <rdg wit="#ft">Bewayles her owne and Cloris love</rdg>
+          <rdg wit="#ee">Bewails her own and Chloris’s love.</rdg>
+          <rdg wit="#ae">Bewails her own and Chloris’ love,</rdg>
+        </app>
+      </l>
+      <l n="141">
+        <app>
+          <rdg wit="#ft">The Hamadriades invokes</rdg>
+          <rdg wit="#ee">The <seg>Hamadryades<note type="gloss">In classical mythology, these were the nymphs of trees, whose lives were coterminous with their trees.</note></seg> invokes</rdg>
+          <rdg wit="#ae">The <seg>hamadryades<note type="gloss">wood nymphs that lived and died with the trees they inhabited</note><note type="textual">Properly modernized, this would be spelled “hamadryads”; I have retained the Latin form to maintain the original’s meter.</note></seg> invokes:</rdg>
+        </app>
+      </l>
+      <l n="142">
+        <app>
+          <rdg wit="#ft">The Goddeses inſhrin’d in Oakes</rdg>
+          <rdg wit="#ee">The goddesses enshrined in oaks,</rdg>
+          <rdg wit="#ae">The goddesses enshrined in oaks,</rdg>
+        </app>
+      </l>
+      <l n="143">
+        <app>
+          <rdg wit="#ft">Who fold theire yielding Armes a croſs</rdg>
+          <rdg wit="#ee">Who fold their yielding arms across</rdg>
+          <rdg wit="#ae">Who fold their yielding arms across,</rdg>
+        </app>
+      </l>
+      <l n="144">
+        <app>
+          <rdg wit="#ft"><seg>And weepe<note type="physical">The “d” is possibly written over another letter; in the space after “And” an imperfectly erased “n” is visible; the “we” of “weepe” appears written over other letters.</note></seg> with them Aminta’s loſs</rdg>
+          <rdg wit="#ee">And weep with them Amintas’s loss.</rdg>
+          <rdg wit="#ae">And weep with them Amintas’ loss.</rdg>
+        </app>
+      </l>
+      <l n="145">
+        <app>
+          <rdg wit="#ft">Som trees drop Gumm from theire ſad eyes</rdg>
+          <rdg wit="#ee">Some trees drop gum from their sad eyes</rdg>
+          <rdg wit="#ae">Some trees drop <seg>gum<note type="gloss">amber</note></seg> from their sad eyes</rdg>
+        </app>
+      </l>
+      <l n="146">
+        <app>
+          <rdg wit="#ft"><seg>T’<add place="below">\</add><add place="above">Im\</add>Mortaliſe<note type="physical">In the left margin, in third hand: “T’immortaliſe”; in the main text, “\Im\” is inserted in H2.</note></seg> ambitious &ff;lyes</rdg>
+          <rdg wit="#ee"><seg>T’immortalize ambitious flies;<note type="gloss">Various species of trees oozed a gum with medicinal benefits (which could “give relief,” as the next line suggests), gums that were, in poetic tradition, often construed as tears; some petrified as amber and could preserve flies.</note></seg></rdg>
+          <rdg wit="#ae">T’immortalize ambitious flies;</rdg>
+        </app>
+      </l>
+      <l n="147">
+        <app>
+          <rdg wit="#ft">Tho they can give us noe reliefe</rdg>
+          <rdg wit="#ee">Though <seg>they<note type="gloss">the trees</note></seg> can give us no relief,</rdg>
+          <rdg wit="#ae">Though they can give us no relief,</rdg>
+        </app>
+      </l>
+      <l n="148">
+        <app>
+          <rdg wit="#ft">The’le Simpathise with us in griefe</rdg>
+          <rdg wit="#ee">They’ll sympathize with us in grief.</rdg>
+          <rdg wit="#ae"><seg>They’ll sympathize with us in grief.<note type="critical">This couplet nicely captures the central problem of the poem: what kind of “relief” is sympathy?</note></seg></rdg>
+        </app>
+      </l>
+      <l n="149">
+        <app>
+          <rdg wit="#ft">The Oriads Sport and play noe more</rdg>
+          <rdg wit="#ee">The Oreads sport and play no more,</rdg>
+          <rdg wit="#ae">The <seg>oreads<note type="gloss">mountain nymphs</note></seg> sport and play no more,</rdg>
+        </app>
+      </l>
+      <l n="150">
+        <app>
+          <rdg wit="#ft">But great Amintas loſs deplore</rdg>
+          <rdg wit="#ee">But great Amintas’s loss <seg>deplore<note type="gloss">lament</note></seg>.</rdg>
+          <rdg wit="#ae">But great Amintas’ loss deplore;</rdg>
+        </app>
+      </l>
+      <l n="151">
+        <app>
+          <rdg wit="#ft">Inſted of Roſes <seg>Cyprus<note type="physical">The “u” in Cyprus is written over another letter, possibly an “e.”</note></seg> <seg>boughs<note type="physical">The letters “ugh” are written over other illegible letters.</note></seg></rdg>
+          <rdg wit="#ee">Instead of roses, <seg>cypress<note type="gloss">tree associated with mourning</note></seg> boughs</rdg>
+          <rdg wit="#ae">Instead of roses, <seg>cypress<note type="gloss">a tree associated with mourning</note></seg> boughs</rdg>
+        </app>
+      </l>
+      <l n="152">
+        <app>
+          <rdg wit="#ft">Pearld ov’er with Tears doth Shade theire browes</rdg>
+          <rdg wit="#ee">Pearled o’er with tears doth shade their brows.</rdg>
+          <rdg wit="#ae">Pearled <seg>o’er<note type="textual">MS had “ov’er”; I take this to mean she wished to drop a syllable from the word to make the line more regular, and so have modernized as “o’er.”</note></seg> with tears doth shade their brows;</rdg>
+        </app>
+      </l>
+      <l n="153">
+        <app>
+          <rdg wit="#ft">Diſſhevel’d torne neglected haire</rdg>
+          <rdg wit="#ee">Disheveled, torn, neglected hair</rdg>
+          <rdg wit="#ae">Disheveled, torn, neglected hair</rdg>
+        </app>
+      </l>
+      <l n="154">
+        <app>
+          <rdg wit="#ft">Hang ore theire throbing boſome bare</rdg>
+          <rdg wit="#ee">Hang o’er their throbbing bosom bare.</rdg>
+          <rdg wit="#ae">Hang o’er their throbbing bosom bare.</rdg>
+        </app>
+      </l>
+      <l n="155">
+        <app>
+          <rdg wit="#ft"><seg><del>Na[igh]</del><note type="physical">In the left margin, in third hand: “Nay”; the start of the struck-through word is “Na”; the remainder, scribbled out, is possibly “igh.”</note></seg> the Na’peas from theire Hills</rdg>
+          <rdg wit="#ee">Nay, the <seg>Napeae<note type="critical">mythological nymphs of woods, mountains, and rivers; Thomas Elyot defined them as “Goddesses of floures and woodes or rather elfes, hauntynge woodes” (<title rend="italic">Bibliotheca Eliotae</title>, 1542, sig. Y4v). Many contemporary writers identified them as nymphs whose domain was specifically the moisture of flowers (See, for instance, Vives’s commentary on St. Augustine, <title rend="italic">Of the City of God</title> [1610], p. 182).</note></seg> from their hills,</rdg>
+          <rdg wit="#ae">Nay, the <seg>Napaeas<note type="gloss">nymphs of the woods, mountains, or rivers</note><note type="textual">	SGC: Napeas
+            AE: Napaeae
+            KW: Napeae
+            RSB: Napaeae</note></seg> from their hills,</rdg>
+        </app>
+      </l>
+      <l n="156">
+        <app>
+          <rdg wit="#ft">Diſſolved with tears weepe Cristall rils</rdg>
+          <rdg wit="#ee">Dissolved with tears, weep crystal <seg>rills<note type="gloss">small streams</note></seg>.</rdg>
+          <rdg wit="#ae">Dissolved with tears, weep crystal <seg>rills<note type="gloss">streams</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="157">
+        <app>
+          <rdg wit="#ft">Those flowers which the Valleys Crown</rdg>
+          <rdg wit="#ee">Those flowers which the valleys crown,</rdg>
+          <rdg wit="#ae">Those flowers which the valleys crown,</rdg>
+        </app>
+      </l>
+      <l n="158">
+        <app>
+          <rdg wit="#ft">Or’e Charged with griefe theire Heads hang downe</rdg>
+          <rdg wit="#ee">O’ercharged with grief, their heads hang down.</rdg>
+          <rdg wit="#ae">O’ercharged with grief, their heads hang down;</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">ſince</fw>
+        </rdg>
+      </app>
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_017" n="7r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_017"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_017"/>
+        </rdg>
+      </app>
+      <l n="159">
+        <app>
+          <rdg wit="#ft">Since louely Cloris frighted fled</rdg>
+          <rdg wit="#ee">Since lovely Chloris frighted fled,</rdg>
+          <rdg wit="#ae">Since lovely Chloris, frighted, fled,</rdg>
+        </app>
+      </l>
+      <l n="160">
+        <app>
+          <rdg wit="#ft">The crown Imperiall hangs his head</rdg>
+          <rdg wit="#ee"><seg>The crown imperial<note type="critical">a flower; early modern books on plants described its different blooms or bells as each containing six droplets of water which mysteriously reappeared if removed (see John Gerard, <title rend="italic">Herbal</title>, 1633, p. 202). Pulter refers to this legendary account in <ref type="pp-poem-ref" corresp="51">"Made When I Was Not Well" (Poem 51)</ref> and <ref type="pp-poem-ref" corresp="49">"My Heart Why Dost Thou Throb So in My Breast?" (Poem 49)</ref>. </note></seg> hangs his head;</rdg>
+          <rdg wit="#ae">The <seg>crown imperial<note type="gloss">a flower associated with royalty</note></seg> hangs his head,</rdg>
+        </app>
+      </l>
+      <l n="161">
+        <app>
+          <rdg wit="#ft">His Princely breast or’ewhelm’d with feares</rdg>
+          <rdg wit="#ee">His princely breast o’erwhelmed with fears,</rdg>
+          <rdg wit="#ae">His princely breast o’erwhelmed with fears,</rdg>
+        </app>
+      </l>
+      <l n="162">
+        <app>
+          <rdg wit="#ft">Weeping at once Six Cristall teares</rdg>
+          <rdg wit="#ee">Weeping at once six crystal tears.</rdg>
+          <rdg wit="#ae">Weeping at once six crystal tears.</rdg>
+        </app>
+      </l>
+      <l n="163">
+        <app>
+          <rdg wit="#ft">To <seg>lovely<note type="physical">this word could be “louely” or “lonely”; the third letter is obstructed by the “g” above and is ambiguous</note></seg> Shades pale vi-letts creepe</rdg>
+          <rdg wit="#ee">To lovely shades pale vi’lets creep,</rdg>
+          <rdg wit="#ae">To <seg>lonely<note type="textual">	SGC: lovely
+            AE: lovely
+            KW: lovely
+            RSB: lovely
+            In early modern handwriting, “u” and “n” are written identically, so for the word I have given as “lonely” the MS could read either “lonely” or “louely” (lovely). I have interpreted the third graph (or letter) as an “n” as it makes more sense to me, in this dismal landscape, that the violet should creep into a <hi rend="italic">lonely</hi> shade for its weeping. Further, that the violet is unpitied (l. 164) is perhaps because, in the lonely shade, there is no one else around to pity it. The MS’s ambiguity, however, is an interesting one, especially given that there is an identically written word (lonely / louely) only four lines earlier that almost certainly means “lovely.”</note></seg> shades pale violets creep,</rdg>
+        </app>
+      </l>
+      <l n="164">
+        <app>
+          <rdg wit="#ft">And ther unpittied Sit and weepe</rdg>
+          <rdg wit="#ee">And there, unpitied, sit and weep.</rdg>
+          <rdg wit="#ae">And <seg>there<note type="textual">SGC: that</note></seg> unpitied sit and weep.</rdg>
+        </app>
+      </l>
+      <l n="165">
+        <app>
+          <rdg wit="#ft">The Royall Roſe that nere would yield</rdg>
+          <rdg wit="#ee">The royal rose that ne’er would yield,</rdg>
+          <rdg wit="#ae">The <seg>royal rose<note type="gloss">the Tudor rose; also playing on love poetry’s convention of blushes as “roses” in cheeks</note></seg> that ne’er would yield,</rdg>
+        </app>
+      </l>
+      <l n="166">
+        <app>
+          <rdg wit="#ft">But Stroue for Mast’ry in the field</rdg>
+          <rdg wit="#ee">But strove for mast’ry in the <seg>field<note type="gloss">battlefield; the fifteenth-century English civil wars between the Houses of York and Lancaster were represented by white and red roses respectively.</note></seg>,</rdg>
+          <rdg wit="#ae">But strove for mast’ry in the field,</rdg>
+        </app>
+      </l>
+      <l n="167">
+        <app>
+          <rdg wit="#ft">And, Cloris Cheeke neglected, fades</rdg>
+          <rdg wit="#ee">And Chloris’s cheek, neglected, fades</rdg>
+          <rdg wit="#ae">And Chloris’ cheek neglected, fades</rdg>
+        </app>
+      </l>
+      <l n="168">
+        <app>
+          <rdg wit="#ft">In Silent Solitary Shades.</rdg>
+          <rdg wit="#ee">In silent, solitary shades.</rdg>
+          <rdg wit="#ae">In silent solitary shades.</rdg>
+        </app>
+      </l>
+      <l n="169">
+        <app>
+          <rdg wit="#ft">The lilly and the July flower</rdg>
+          <rdg wit="#ee">The lily and the <seg>gillyflower<note type="gloss">carnation</note></seg></rdg>
+          <rdg wit="#ae">The lily and the <seg>July flower<note type="gloss">gillyflower or carnation</note><note type="textual">KW: gillyflower</note></seg></rdg>
+        </app>
+      </l>
+      <l n="170">
+        <app>
+          <rdg wit="#ft">Doe wiſh it were within theire power</rdg>
+          <rdg wit="#ee">Do wish it were within their power</rdg>
+          <rdg wit="#ae">Do wish it were within their power</rdg>
+        </app>
+      </l>
+      <l n="171">
+        <app>
+          <rdg wit="#ft">To Sleepe for ever in theire Caves</rdg>
+          <rdg wit="#ee">To sleep forever in their <seg>cause<note type="gloss">original, formative elements</note></seg>;</rdg>
+          <rdg wit="#ae">To sleep for ever in their <seg>cause<note type="textual">	SGC: Caves
+            RSB: caves
+            The manuscript reads “caves,” but the letters “u” and “v” were interchangeable in the period, so I have read it as “caues” to rhyme with “laws” and modernized as “cause.” The image of flowers “sleeping in their causes”—returning to their first principles, or existing as latent potentiality—is a common one in Pulter’s work; see also “Universal Dissolution” (Poem 6), l. 14, and “The Perfection of Patience and Knowledge” (Poem 39), l. 5.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="172">
+        <app>
+          <rdg wit="#ft">But ti’s denide by Natures Lawes.</rdg>
+          <rdg wit="#ee">But ’tis denied by Nature’s laws.</rdg>
+          <rdg wit="#ae">But ’tis denied by Nature’s laws.</rdg>
+        </app>
+      </l>
+      <l n="173">
+        <app>
+          <rdg wit="#ft">Th’. A<add place="above">u</add>ricola that Cures the giddy braine</rdg>
+          <rdg wit="#ee"><seg>Th’auricula<note type="critical">a flower, also called Bear’s-ear, named for the shape of its leaves. In his book, <title rend="italic">The Herbal, or General History of Plants</title>, John Gerard observes that the roots have beneficial effects for those who hike in high mountains (1633, p. 787).</note></seg> that cures the giddy brain,</rdg>
+          <rdg wit="#ae"><seg>Th’auricula<note type="gloss">a flower, also called Bear’s Ear, thought to cure dizziness at altitudes (AE p. 55, n. 63)</note></seg> that cures the giddy brain,</rdg>
+        </app>
+      </l>
+      <l n="174">
+        <app>
+          <rdg wit="#ft">Dizie with griefe hangs downe her head againe</rdg>
+          <rdg wit="#ee">Dizzy with grief, hangs down her head again.</rdg>
+          <rdg wit="#ae">Dizzy with grief, hangs down her head again.</rdg>
+        </app>
+      </l>
+      <l n="175">
+        <app>
+          <rdg wit="#ft">Then Shall not wee with griefe or’e flow</rdg>
+          <rdg wit="#ee">Then shall not we with grief o’erflow?</rdg>
+          <rdg wit="#ae">Then shall not we with grief o’erflow?</rdg>
+        </app>
+      </l>
+      <l n="176">
+        <app>
+          <rdg wit="#ft">Shall Vegetables us out goe</rdg>
+          <rdg wit="#ee">Shall vegetables us outgo?</rdg>
+          <rdg wit="#ae"><seg>Shall vegetables us outgo?<note type="critical">Pulter ends her catalogue of unhappy plants by suggesting that we (humans) should be ashamed to fall behind plants in pity. For this line to scan metrically, the word “vegetables” needs to be pronounced with four syllables.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="177">
+        <app>
+          <rdg wit="#ft">Thus neither Woods nor &ff;ields nor Hills</rdg>
+          <rdg wit="#ee">Thus neither woods, nor fields, nor hills,</rdg>
+          <rdg wit="#ae">Thus neither woods, nor fields, nor hills,</rdg>
+        </app>
+      </l>
+      <l n="178">
+        <app>
+          <rdg wit="#ft">Inamel’d Vales nor Cristall rills</rdg>
+          <rdg wit="#ee">Enameled vales, nor crystal rills,</rdg>
+          <rdg wit="#ae">Enameled vales, nor crystal rills,</rdg>
+        </app>
+      </l>
+      <l n="179">
+        <app>
+          <rdg wit="#ft">nor birds nor Trees nor flowers of Scent</rdg>
+          <rdg wit="#ee">Nor birds, nor trees, nor flowers of scent:</rdg>
+          <rdg wit="#ae">Nor birds, nor trees, nor flowers of scent,</rdg>
+        </app>
+      </l>
+      <l n="180">
+        <app>
+          <rdg wit="#ft">But doe this kingdomes loss reſent</rdg>
+          <rdg wit="#ee">But do this kingdom’s loss resent.</rdg>
+          <rdg wit="#ae">But do this kingdom’s loss resent.</rdg>
+        </app>
+      </l>
+      <l n="181">
+        <app>
+          <rdg wit="#ft">Then let us Still lament and grieve</rdg>
+          <rdg wit="#ee">Then let us still lament and grieve</rdg>
+          <rdg wit="#ae">Then let us still lament and grieve</rdg>
+        </app>
+      </l>
+      <l n="182">
+        <app>
+          <rdg wit="#ft">Till heaven in mercie doth Relieve</rdg>
+          <rdg wit="#ee">Till Heaven, in mercy, doth relieve.</rdg>
+          <rdg wit="#ae">Till heaven in mercy doth relieve.</rdg>
+        </app>
+      </l>
+      <l n="183">
+        <app>
+          <rdg wit="#ft">Tis neither ſight nor odours ſent</rdg>
+          <rdg wit="#ee">’Tis neither sight nor odor’s scent</rdg>
+          <rdg wit="#ae">’Tis neither sight nor <seg>odor’s scent<note type="critical">The MS reads “odours sent”; I have modernized as “odor’s scent” (no sights or smells can make me happy), but it could also be “odors sent,” with odors the direct object of sending, in which case these lines would say something like: no sights or odors sent to me could make me happy. In this case, she may be driving home to her daughters that they should not, e.g., send letters or flowers, but come <hi rend="italic">themselves</hi> to the country.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="184">
+        <app>
+          <rdg wit="#ft">can my aflicted heart content</rdg>
+          <rdg wit="#ee">Can my afflicted heart content,</rdg>
+          <rdg wit="#ae">Can my afflicted heart content</rdg>
+        </app>
+      </l>
+      <l n="185">
+        <app>
+          <rdg wit="#ft">Untill I ſee them both Reſtored</rdg>
+          <rdg wit="#ee">Until I see them both restored,</rdg>
+          <rdg wit="#ae"><seg>Until I see them both restored,<note type="critical">The “them” in question is almost certainly Chloris and Amintas, the queen and king of England. However, the return of the refrain at the end of the poem also introduces an ambiguity: perhaps she yearns not, or not only, for Chloris and Amintas, but also for the return of her two daughters, M. P. and P. P.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="186">
+        <app>
+          <rdg wit="#ft">Whoſe abſence hath been ſoe deplored</rdg>
+          <rdg wit="#ee">Whose absence hath been so deplored.</rdg>
+          <rdg wit="#ae">Whose absence hath been so deplored.</rdg>
+        </app>
+      </l>
+      <l n="187">
+        <app>
+          <rdg wit="#ft">Just Heaven heare our prayers and teares</rdg>
+          <rdg wit="#ee">Just Heaven, hear our prayers and tears</rdg>
+          <rdg wit="#ae">Just Heaven, hear our prayers and tears,</rdg>
+        </app>
+      </l>
+      <l n="188">
+        <app>
+          <rdg wit="#ft">And place them in theire Shineing <seg>Spheres<note type="physical"></note></seg></rdg>
+          <rdg wit="#ee">And place them in their <seg>shining spheres<note type="gloss">the form of the heavens</note></seg>.</rdg>
+          <rdg wit="#ae">And place them in their shining spheres.</rdg>
+        </app>
+      </l>
+      <l n="189">
+        <app>
+          <rdg wit="#ft">Then come Sweete Daughters come away</rdg>
+          <rdg wit="#ee">Then come, sweet daughters, come away;</rdg>
+          <rdg wit="#ae">Then come, sweet daughters, come away:</rdg>
+        </app>
+      </l>
+      <l n="190">
+        <app>
+          <rdg wit="#ft">To comfort me make noe delaye.</rdg>
+          <rdg wit="#ee">To comfort me make no delay.</rdg>
+          <rdg wit="#ae">To comfort me make no delay.</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="straight-horline"/>
+        </rdg>
+      </app>
+    </body>
+  </text>
 </TEI>
