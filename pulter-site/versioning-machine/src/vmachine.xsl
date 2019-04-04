@@ -2432,6 +2432,33 @@
          <xsl:value-of select="."/>
       </a>
    </xsl:template>
+
+  <xsl:template match="tei:ref[@type = 'pp-poem-ref']">
+    <xsl:variable name="referencedPoemID" select="./@corresp"/>
+    <xsl:element name="a">
+      <xsl:attribute name="href">
+        <xsl:value-of select="concat('/poems/', $referencedPoemID)" />
+      </xsl:attribute>
+      <xsl:attribute name="title">
+        <xsl:value-of select="concat('Go to Poem ', $referencedPoemID)" />
+      </xsl:attribute>
+      <xsl:attribute name="target">
+      <xsl:value-of select="'_blank'"/>
+      </xsl:attribute>
+      <xsl:attribute name="class">
+        <xsl:value-of select="'pp-poem-ref'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+
+      <xsl:element name="span">
+        <xsl:attribute name="class">
+          <xsl:value-of select="'idx'"/>
+        </xsl:attribute>
+        <xsl:value-of select="concat(' [Poem ', $referencedPoemID, ']')"/>
+      </xsl:element>
+    </xsl:element>
+  </xsl:template>
+
    <xsl:template match="tei:closer | tei:closer | tei:salute | tei:signed">
       <xsl:param name="witId"/>
       <div>
