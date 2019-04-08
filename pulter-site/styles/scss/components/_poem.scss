@@ -1122,6 +1122,10 @@ $globalBorderRadius: 2px;
       background: $backgroundColor;
       border: 1px solid $borderColor;
 
+      @include breakpoint(mobile) {
+        padding-bottom: 0;
+      }
+
       &:hover {
         background: $backgroundColorHover;
         border: 1px solid $borderColorHover;
