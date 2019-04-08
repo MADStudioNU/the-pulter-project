@@ -309,6 +309,7 @@ $globalBorderRadius: 2px;
         overflow: hidden;
 
         @include breakpoint(mobile) {
+          border-radius: 0;
           padding-left: $leftGutterMobile;
           padding-right: $leftGutterMobile;
         }
@@ -448,6 +449,10 @@ $globalBorderRadius: 2px;
               font-size: .85em;
               opacity: .75;
               margin-bottom: .5em;
+
+              .footnote-fn {
+                color: darken($pp_manuscriptPaper, 30%);
+              }
             }
           }
 
