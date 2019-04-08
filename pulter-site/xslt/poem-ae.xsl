@@ -590,15 +590,24 @@
               <xsl:attribute name="class">
                 <xsl:value-of select="'block-notes'"/>
               </xsl:attribute>
-
               <xsl:for-each select="$innerNotes">
+                <xsl:variable name="position" select="position()"/>
                 <xsl:element name="li">
                   <xsl:attribute name="id">
-                    <xsl:value-of select="concat('headnote-fn-', position())"/>
+                    <xsl:value-of select="concat('headnote-fn-', $position)"/>
                   </xsl:attribute>
                   <xsl:attribute name="class">
                     <xsl:value-of select="'block-note'"/>
                   </xsl:attribute>
+                  <xsl:element name="a">
+                    <xsl:attribute name="class">
+                      <xsl:value-of select="'footnote-fn'"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="href">
+                      <xsl:value-of select="concat('#headnote-fna-', $position)"/>
+                    </xsl:attribute>
+                    <xsl:value-of select="concat($position, '.&#160;')"/>
+                  </xsl:element>
                   <xsl:apply-templates select="./tei:note/node()"/>
                 </xsl:element>
               </xsl:for-each>
@@ -639,11 +648,15 @@
     <xsl:param name="witId"/>
 
     <xsl:element name="a">
+      <xsl:variable name="noteIndex" select="count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]//tei:note[@type='headnote']]) + 1"/>
+      <xsl:attribute name="id">
+        <xsl:value-of select="concat('headnote-fna-', $noteIndex)"/>
+      </xsl:attribute>
       <xsl:attribute name="class">
         <xsl:value-of select="'headnote-fna'"/>
       </xsl:attribute>
       <xsl:attribute name="href">
-        <xsl:value-of select="concat('#headnote-fn-', count(preceding::tei:seg[./tei:note][ancestor::tei:rdg[@wit=concat('#', $witId)]//tei:note[@type='headnote']]) + 1)"/>
+        <xsl:value-of select="concat('#headnote-fn-', $noteIndex)"/>
       </xsl:attribute>
       <xsl:apply-templates>
         <xsl:with-param name="witId" select="$witId"/>
