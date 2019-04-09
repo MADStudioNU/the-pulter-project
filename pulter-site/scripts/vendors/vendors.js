@@ -10967,10 +10967,11 @@ $('a[href*="#"]')
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             // Does a scroll target exist?
             if (target.length) {
+              console.log(target.offset().top);
                 // Only prevent default if animation is actually gonna happen
                 event.preventDefault();
                 $('html, body').animate({
-                    scrollTop: target.offset().top
+                    scrollTop: target.offset().top - 100
                 }, 1000, function() {
                     // Callback after animation
                     // Must change focus!
@@ -10981,7 +10982,7 @@ $('a[href*="#"]')
                     } else {
                         $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
                         $target.focus(); // Set focus again
-                    };
+                    }
                 });
             }
         }
