@@ -1,3 +1,377 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.70">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Virtue's Duel  (Emblem 4)</title>
+        <title type="sub">Poem #70</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_189.jpg" xml:id="f7610_189"/>
+      <graphic url="./document_images/7610_190.jpg" xml:id="f7610_190"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Millie Godfery</persName> and <persName>Sarah C. E. Ross</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 4]</rdg>
+            <rdg wit="#ee">Virtue's Duel  (Emblem 4)</rdg>
+            <rdg wit="#ae">Virtue’s Duel (Emblem 4)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">Hissing and cheering urban spectators gather to witness a duel between the forces of right and wrong. In this emblem, Pulter imagines parliamentarian and royalist battling in the English civil war as an allegorical contest reminiscent of the sporting games of classical Greece. Virtue, supported by her “second” or assistant Wisdom, battles mindfully with a frenzied Fortune, aided by Folly. The poem derides London citizens who desperately want Virtue to be bested, and are giddy with happiness when Folly is triumphant. As is typical in Pulter’s emblems, the speaker explicitly interprets the allegory by applying it to the current political situation, daring her reader to feel superior to the foolish crowds (or to see any victory as a sign of its intrinsic righteousness) since all have been complicit in witnessing the destruction of natural and divine law by wickedness (“impiety”). The poem ends with a lament for King Charles’s death, and a hope that Charles II might be restored to the throne, an act that the poem aligns with the resurrection of Christ (God’s “princely son”). </note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote"><p>Drawing on the thematic didacticism that is present throughout Pulter’s collection, this poem overtly politicizes the instructive affordances of the emblem genre. In this emblem, Virtue (with Wisdom as her “second”) fights a duel with Fortune (and her “second”, Folly), and the people of the city support Fortune and Folly (lines 2, 4). The poem’s final tercet makes overt the implications of these personifications: Virtue is associated with King Charles I, whom Pulter ardently supported, while Oliver Cromwell, republican and Lord Protector following Charles’s execution, is associated with Fortune, which here means chance or luck (<title rend="italic">OED</title> 1). Pulter has these two characters oppose each other in an “Olympic” duel and, true to this genre’s form, the emblem takes a moralising turn at line 21, condemning the actions of Fortune and Folly. Notably, Pulter uses the female pronouns “her” and “she” when personifying these qualities, feminizing her bitter depiction of the Civil War in contrast to the male figures she alludes to. The representations of these qualities do often take the form of feminized personification; in Wither’s emblem collection of 1635, multiple representations of Fortune depict her as “fickle … [in] the Favour she bestows”, using “slippery tricks” to tempt men, while Virtue offers “Her [beauty]” and “Her safe direction” (<title rend="italic">A Collection of Emblemes</title> [1635], 6, 174, 22). See Curation.</p>
+                  <p>Pulter’s characterization of Cromwell and his parliamentarian supporters resonates with her previous representations of Republican supporters in the earlier emblems. Pulter’s Nimrod in “Mighty Nimrod” (Emblem 1) has the same ambitious, “usurping” qualities which she identifies in the “[giddy]” and “[impious]” nature of Fortune and Folly, creating a continuity in her political message which is pursued throughout the emblem series (line 18; lines 4, 24). This poem grieves the “laws / Of God and nature” which have been “basely trampled on”, and employs the use of a rhyming tercet to conclude the poem (lines 22-23). This contrasts with the rhyming couplets that proceed it, drawing attention to the political intentions motivating the personified qualities. The final line looks to consolation via the restoration of the “princely son”, Charles II. This eventually occurred in May 1660, some years after Pulter is believed to have written the emblem (line 27).</p>
+              </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Vertue once in the Olympicks fought a Duell</rdg>
+          <rdg wit="#ee">Virtue once in the <seg>Olympics<note type="critical">Though referring to the famous sporting games held in ancient Greece and dedicated to Zeus, this phrase, as Stefan Christian notes, also had a local reference. Between 1612 and 1644, Robert Dover organized popular annual Olympic games in the Cotswolds with King James I’s blessing, but these were halted because of the civil war (Christian, 281).</note></seg> fought a duel––</rdg>
+          <rdg wit="#ae">Virtue once in the Olympics fought a <seg>duel<note type="critical">Throughout the medieval period, duelling was a common combative practice used by the aristocracy to settle disputes and assert honour. In the Renaissance, however, new attitudes towards duels resulted in attempts to ban them. James I published a treatise in 1616 outlawing the practice and similar movements to control the sport were seen across Europe, including in France under Louis XIII; see <title rend="italic">The Works of the Most High and Mighty Prince, James</title> [1616], 207. It is interesting then that Pulter makes the duel the subject of this politically charged emblem, emphasising open conflict (“the fray”, line 5) and perhaps the unruliness of Fortune, who disobeys the rules for power and honour by “madly la[ying] about” (line 10).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Her Second Wiſdome that transcendent Jewell</rdg>
+          <rdg wit="#ee">Her <seg>second<note type="gloss">the name for the person who acts as a dueller’s assistant and representative, one who helps in loading weapons and other logistics</note></seg>, Wisdom, that transcendent jewel.</rdg>
+          <rdg wit="#ae">Her <seg>second<note type="gloss">one who renders aid or support; one who acts as representative of a principal in a duel, carrying the challenge, arranging locality and loading weapons (<title rend="italic">OED</title> 9 and 9b)</note></seg>, Wisdom, that <seg>transcendent<note type="gloss">surpassing or excelling others of its kind; going beyond the ordinary limits (<title rend="italic">OED</title> 1a)</note></seg> jewel;</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">&ff;ortune Couragiously did her oppoſe</rdg>
+            <rdg wit="#ee">Fortune courageously did her oppose,</rdg>
+            <rdg wit="#ae">Fortune courageously did her oppose,</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And Giddily for Second, &ff;olly choſe</rdg>
+            <rdg wit="#ee">And giddily for second, Folly chose.</rdg>
+          <rdg wit="#ae">And <seg>giddily<note type="gloss">foolishly, insanely (<title rend="italic">OED</title>). Pulter is referring to Fortune “foolishly” choosing Folly as her second in the duel.</note></seg> for second Folly chose.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">The Sad Spectators griev’d to See this &ff;ray</rdg>
+          <rdg wit="#ee">The sad spectators grieved to see this <seg>fray<note type="gloss">fight, brawl, disturbance</note></seg>,</rdg>
+          <rdg wit="#ae">The <seg>sad<note type="gloss">melancholy, sorrowful; also firmly established in purpose or condition, which could refer to the beliefs of the “spectators” (<title rend="italic">OED</title> 2)</note></seg> spectators grieved to see this fray,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">&ff;earing that vertues Side would win the Day</rdg>
+            <rdg wit="#ee">Fearing that Virtue’s side would win the day.</rdg>
+            <rdg wit="#ae">Fearing that Virtue’s side would win the day;</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Thus pittying &ff;ortune, and her &ff;ellow, &ff;olly:</rdg>
+            <rdg wit="#ee">Thus pitying Fortune and her fellow, Folly,</rdg>
+            <rdg wit="#ae">Thus pitying Fortune and her fellow, Folly,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The Citty Cockneys Satt most Melancholly.</rdg>
+          <rdg wit="#ee">The city <seg>cockneys<note type="gloss">name for people born in London, sometimes used derisively. The city of London supported the Parliamentary forces in the civil war.</note></seg> sat most melancholy.</rdg>
+          <rdg wit="#ae">The city <seg>cockneys<note type="critical">“cockneys” refer to people born in the city of London (<title rend="italic">OED</title> 4a). Pulter references these people as “melancholy” over the prospect of Virtue (which the final tercet of the poem discloses as implying the monarchy) remaining in power. London, during the time of the Civil War, was overwhelmingly parliamentarian in its stance, thought of by royalists as the “sink of all the ill humors of the Kingdom” (C. H. Firth. “London During The Civil War”, <title rend="italic">History</title>, vol. 11, no. 41 [1926], 25).</note></seg> sat most melancholy.</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">But See the &ff;ate of Warr, &ff;ortune was Blind</rdg>
+            <rdg wit="#ee">But see the fate of war: Fortune was blind</rdg>
+          <rdg wit="#ae">But see the fate of war: <seg>Fortune was blind<note type="critical">The Roman goddess of fortune, Fortuna, was often depicted blindfolded; Pliny in <title rend="italic">Natural History</title>, a text on which Pulter often drew, describes Fortuna as a “blind, vague, roving, fickle, uncertain patroness of the unworthy” (Pliny 2.22 in Arya’s <title rend="italic">The Goddess Fortuna in Imperial Rome: Cult, Art, Text</title> [2002], 135). See also George Wither’s representation of Fortuna in his own emblem collection of 1635; he warns against her “slippery tricks”, depicting her as “blind” and with a “Fickleness /… like the Moones” (<title rend="italic">A Collection of Emblemes</title> [1635], 174).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And Madly lay’d about her &ff;oes to &ff;ind</rdg>
+          <rdg wit="#ee">And madly <seg>laid about<note type="gloss">dealt violent and repeated blows on all sides, made an attack, assailed; acted vigorously</note></seg>, her foes to find,</rdg>
+          <rdg wit="#ae">And madly <seg>laid<note type="gloss">struck down; overthrew, destroyed (<title rend="italic">OED</title> 1a and 1b)</note></seg> about her foes to find,</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Nor car’d on who, or where her blowes did lite</rdg>
+            <rdg wit="#ee">Nor cared on who or where her blows did light.</rdg>
+            <rdg wit="#ae">Nor cared on who, or where, her blows did light.</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">&ff;olly as bravely did maintain the &ff;ight</rdg>
+            <rdg wit="#ee">Folly as bravely did maintain the fight,</rdg>
+            <rdg wit="#ae">Folly as bravely did maintain the fight,</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Not valueing what Shee did or what Shee Said</rdg>
+            <rdg wit="#ee">Not valuing what she did or what she said;</rdg>
+            <rdg wit="#ae">Not valuing what she did, or what she said,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">And now the people that were Soe afraid</rdg>
+            <rdg wit="#ee">And now the people that were so afraid</rdg>
+          <rdg wit="#ae">And now <seg>the people<note type="gloss">the “city cockneys” of line 8; and see note to that line.</note></seg> that were so afraid</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft">Gan to Rejoyce, then vertue Shee <seg>gaue<note type="physical">“u” appears to replace other letter, possibly “n”</note></seg> place</rdg>
+          <rdg wit="#ee">’Gan to rejoice; then Virtue she <seg>gave place<note type="gloss">gave ground, yielded to pressure or force</note></seg>.</rdg>
+          <rdg wit="#ae">’Gan to rejoice. Then Virtue, she <seg>gave place<note type="gloss">surrendered, yielded</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Wiſdome drew back <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Slow but modest pace</rdg>
+            <rdg wit="#ee">Wisdom drew back with slow but modest pace;</rdg>
+            <rdg wit="#ae">Wisdom drew back with slow but modest pace;</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Then Acclamations made the Welken Ring</rdg>
+          <rdg wit="#ee">Then <seg>acclamations<note type="gloss">enthusiastic expressions of approval</note></seg> made the <seg>welkin<note type="gloss">sky, heavens, firmament; to make the “welkin ring” was to create a loud noise</note></seg> ring,</rdg>
+          <rdg wit="#ae">Then acclamations made the <seg>welkin ring<note type="critical">“welkin” refers to the sky, or the heavens; it is also used in phrases descriptive of loud sounds (<title rend="italic">OED</title> 2a and 2c). Pulter is saying that the “acclamations” of the republicans make the sky ring with noise, suggesting the sound of thunder; that is, there is a negative connotation which reflects her anti-parliamentary stance.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+          <rdg wit="#ft"><seg>Peans<note type="physical">“s” appears to replace other indiscernible, imperfectly erased letter.</note></seg> the People unto &ff;ortune Sing</rdg>
+          <rdg wit="#ee"><seg>Paeans<note type="gloss">songs of praise or thanksgiving; shouts or songs of triumph, joy, or exultation</note></seg> the people unto Fortune sing.</rdg>
+          <rdg wit="#ae"><seg>Paeans<note type="gloss">songs of praise; thanks-giving for deliverance, for victory (<title rend="italic">OED</title> 1)</note></seg> the people unto Fortune sing;</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">&ff;olly with &ff;ortunes help did wear the Crown</rdg>
+            <rdg wit="#ee">Folly with Fortune’s help did wear the crown;</rdg>
+            <rdg wit="#ae">Folly with Fortune’s help did wear the crown,</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Vertue with Wiſdome both were Hiſſed down</rdg>
+            <rdg wit="#ee">Virtue with Wisdom both were hisséd down.</rdg>
+          <rdg wit="#ae">Virtue with Wisdom both were <seg>hissed down<note type="critical">sibilant verb used to convey the derision of King Charles I by the Parliamentarians, led by Cromwell.</note></seg>.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">then</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_190" n="93v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_190"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_190"/>
+            </rdg>
+        </app>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Then let none by Succes Judg of the Cauſe</rdg>
+            <rdg wit="#ee">Then let none by success judge of the cause,</rdg>
+            <rdg wit="#ae">Then let none by success judge of the cause,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">&ff;or wee have liv’d (Ay mee) to See the Laws</rdg>
+            <rdg wit="#ee">For we have lived (ay me) to see the laws</rdg>
+            <rdg wit="#ae">For we have lived (ay me) to see the laws</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Of God and Nature baſely Trampl’d on</rdg>
+            <rdg wit="#ee">Of God and Nature basely trampled on,</rdg>
+            <rdg wit="#ae">Of God and Nature basely trampled on,</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">When bold Impiety the Vict’ry won</rdg>
+          <rdg wit="#ee">When bold <seg>impiety<note type="gloss">ungodliness; unrighteousness, wickedness</note></seg> the vict’ry won;</rdg>
+            <rdg wit="#ae">When bold impiety the vict’ry won.</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">And Such a king Kild at this Isle before</rdg>
+            <rdg wit="#ee">And such a king killed, <seg>that<note type="critical"></note></seg> this isle before</rdg>
+          <rdg wit="#ae">And such <seg>a king killed<note type="gloss">Pulter is referring to the execution of King Charles I, who was beheaded on 30 January 1649. This execution took place after a tumultuous period of rule which observed a split between the royalists and parliamentarians.</note></seg>, <seg>that<note type="critical">MS = “at”. We have followed the editors of the Elemental Edition in treating this as a a scribal error for the abbreviation “yt” (meaning “that”).</note></seg> this isle <seg>before<note type="critical">the first line of the rhyming tercet which concludes the poem. Where most of Pulter’s emblem poetry employs rhyming couplets, this emblem diverges at its conclusion, using a rhyming tercet to draw attention to the meaning behind the poem’s personifications: namely, the Civil War and her royalist perspective on it.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Did never See nor never will See more</rdg>
+            <rdg wit="#ee">Did never see, nor never will see more,</rdg>
+            <rdg wit="#ae">Did never see, nor never will see more,</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Unles our God his Princely Son Restore.</rdg>
+          <rdg wit="#ee"><seg>Unless our God his princely son restore.<note type="gloss">This line aligns Charles’s I’s son with the resurrected Christ, as Pulter hopes for a restoration of the monarchy (an event that would happen after this poem was written, but in her lifetime).</note></seg></rdg>
+          <rdg wit="#ae">Unless our God his <seg>princely son<note type="gloss">Pulter is referring to Charles (1630-1685), who was crowned Charles II in Scotland almost immediately after the execution of his father Charles I (see note for line 25). For most of the 1650s, however, he lived in exile in France, until, on 29 May 1660, he was crowned King Charles II of England. Pulter’s appeal in this final line suggests that the emblem was composed during the 1650s, prior to Charles’s restoration.</note></seg> restore.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
