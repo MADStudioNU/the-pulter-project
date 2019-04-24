@@ -1196,6 +1196,58 @@
     </pp:poem>
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
+      <pp:firstLine>O that the splendent and illustrious sun</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+        <pp:author>Leah Knight</pp:author>
+        <pp:author>Wendy Wall</pp:author>
+      </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+        <pp:keyword>trees</pp:keyword>
+        <pp:keyword>day</pp:keyword>
+        <pp:keyword>night</pp:keyword>
+        <pp:keyword>praise</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>sexuaity</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>creation</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>astrology</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>sexuaity</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>confinement</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="31">
       <pp:title>Made When I Was Sick, 1647</pp:title>
