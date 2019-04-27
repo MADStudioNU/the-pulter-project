@@ -12,9 +12,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-          <title>On the Horrid Murder
-              Of that Incomparable Prince
-          </title>
+          <title>On the Horrid Murder Of that Incomparable Prince</title>
         <title type="sub">Poem #14</title>
         <respStmt>
           <resp>Created by</resp>
@@ -126,7 +124,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -137,8 +135,7 @@
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the Horrid Murther of that incomparable  –
                 Prince, King Charles the &ff;irst
             </rdg>
-            <rdg wit="#ee">On the Horrid Murder
-                Of that <seg>Incomparable Prince<note type="gloss">In the manuscript, the title specifies: “King Charles the First.” In the English civil war between royalists and parliamentarians, Charles I was sentenced to death and beheaded in 1649.</note></seg>
+            <rdg wit="#ee">On the Horrid Murder Of that <seg>Incomparable Prince<note type="gloss">In the manuscript, the title specifies: “King Charles the First.” In the English civil war between royalists and parliamentarians, Charles I was sentenced to death and beheaded in 1649.</note></seg>
             </rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>

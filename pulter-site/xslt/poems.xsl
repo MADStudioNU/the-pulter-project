@@ -732,6 +732,13 @@
     </pp:poem>
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
+      <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
