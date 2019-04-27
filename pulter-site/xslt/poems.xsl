@@ -1061,6 +1061,13 @@
     </pp:poem>
     <pp:poem id="23">
       <pp:title>To Astraea</pp:title>
+      <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
