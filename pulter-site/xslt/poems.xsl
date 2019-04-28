@@ -2664,6 +2664,17 @@
     </pp:poem>
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
+      <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
