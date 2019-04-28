@@ -2673,6 +2673,17 @@
     </pp:poem>
     <pp:poem id="70">
       <pp:title>Virtue's Duel (Emblem 4)</pp:title>
+      <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
