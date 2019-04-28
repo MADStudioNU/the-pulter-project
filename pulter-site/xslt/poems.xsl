@@ -1822,6 +1822,13 @@
     </pp:poem>
     <pp:poem id="45">
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
+      <pp:firstLine>Sad, sick, and lame, as in my bed I lay,</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
