@@ -1157,6 +1157,13 @@
     </pp:poem>
     <pp:poem id="26">
       <pp:title>To Aurora [2]</pp:title>
+      <pp:firstLine></pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King's Most Excellent Majesty </pp:title>
