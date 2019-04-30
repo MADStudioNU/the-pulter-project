@@ -1,3 +1,447 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.26">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>To Aurora [2]</title>
+        <title type="sub">Poem #26</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_089.jpg" xml:id="f7610_089"/>
+      <graphic url="./document_images/7610_090.jpg" xml:id="f7610_090"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>To Aurora [2]</rdg>
+            <rdg wit="#ee">To Aurora [2]</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">Throughout her collection, Pulter repeatedly tests ways to poetically imagine and interpret the moment of sunrise, which usually has strong symbolic resonances in Christianity. But in this poem in which Pulter seeks consolation in the morning sky, she keeps her attention fully on a pagan mythological and female-populated world. The speaker commands her own eyes to take in the splendor of a personified goddess of the dawn, Aurora, who fills the beholder’s senses and enamors viewers. As she did in <ref type="pp-poem-ref" corresp="51">“Made When I Was Not Well” (Poem 51)</ref> and “Tell Me No More” (Poem 11), Pulter creates a radical response to the poetic convention of the blazon (a catalogue of body parts filled with comparisons). Rather than a male viewer anatomizing and eroticizing a female body, Pulter dwells on a temporal moment—sunrise—which emerges in sensuous corporeal detail, complete with curling hair, blushing cheeks, clear eyes, and fair breasts. The poem soon is filled with female goddesses: the reader is to imagine Astraea, the goddess of truth or justice, “naked in the arms of Light” (her mother Aurora); and Cynthia, goddess of the moon, hides in shame at Aurora’s superior radiant beauty, as do the other stars and planets visible only at night. In the second half of the poem, the speaker declares that she would have worshipped Aurora had she lived in pagan times, and she provides an extensive list of all the female deities she would reject (she does not imagine worshipping a male god at all). The irony of the poem’s ending lies in the fact that the rituals of worship (here, burning incense) obscure her view of the deified Aurora.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Look up Sad eyes behould the Smileing Morn:</rdg>
+            <rdg wit="#ee">Look up, sad eyes, behold the smiling morn,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">How Shee her Golden treſses doth Adorn</rdg>
+            <rdg wit="#ee">How <seg>she<note type="gloss">Aurora, goddess of dawn</note></seg> her golden <seg>tresses<note type="gloss">long locks of hair; braids of hair; figuratively applied to tendrils or rays of the sun</note></seg> doth adorn</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">With Sparkling Gem̄̄s and Roses Redolent</rdg>
+            <rdg wit="#ee">With sparkling gems and roses <seg>redolent<note type="gloss">fragrant</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And Julyflowers, whose Aromatick Sent</rdg>
+            <rdg wit="#ee">And <seg>gillyflowers<note type="gloss">July flowers or carnations; flowers scented like cloves</note></seg> whose aromatic scent</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Perfumes the World, look but up and See</rdg>
+            <rdg wit="#ee">Perfumes the world; look but up and see!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Trust mee her bevty will inamour thee</rdg>
+            <rdg wit="#ee">Trust me, her beauty will enamor thee.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Shee is Soe Sweet, Soe young, soe Heavenly faire</rdg>
+            <rdg wit="#ee">She is so sweet, so young, so heavenly fair,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">With blushing cheeks clear eyes, and curling Haire</rdg>
+            <rdg wit="#ee">With blushing cheeks, clear eyes, and curling hair.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">View that fair breast which in her prime of Youth</rdg>
+            <rdg wit="#ee">View that fair breast which, in her prime of youth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Gave nouriſhment unto eternall truth</rdg>
+            <rdg wit="#ee">Gave nourishment unto eternal <seg>Truth<note type="gloss">Astraea, goddess of justice, whom Pulter also identifies as the goddess of truth, born from Aurora</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Oh that I once could See that lovly Sight</rdg>
+            <rdg wit="#ee">O, that I once could see that lovely sight:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Astrea naked in the Arms of Light</rdg>
+            <rdg wit="#ee">Astraea, naked in the arms of <seg>Light<note type="gloss">Aurora</note></seg>!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">But oh I ne’re can See it till aboue</rdg>
+            <rdg wit="#ee">But O, I ne’er can see it, till above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">I am involv’d in endles Joy and Love</rdg>
+            <rdg wit="#ee">I am <seg>involved<note type="gloss">entangled, encompassed</note></seg> in endless joy and love.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">View then thoſe Robes <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> doth her limbs infold</rdg>
+            <rdg wit="#ee">View, then, those robes which doth her limbs enfold,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Rich purple fring’d with <seg>never<note type="physical">“er” appears crowded before next word, in different hand</note></seg> wasting Gold</rdg>
+            <rdg wit="#ee">Rich purple, fringed with <seg>never-wasting<note type="gloss">never-decaying</note></seg> gold.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Pale Cinthie doth her Sickly bevty Shrow’d</rdg>
+            <rdg wit="#ee">Pale <seg>Cynthie<note type="gloss">Cynthia, moon goddess</note></seg> doth her <seg>sickly<note type="gloss">pale, feeble</note></seg> beauty shroud,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">And for a vaile Shee wears a Sable Clowd</rdg>
+            <rdg wit="#ee">And for a veil <seg>she<note type="gloss">Cynthia</note></seg> wears a sable cloud;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">And</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_090" n="43v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_090"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_090"/>
+            </rdg>
+        </app>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">And all <seg><add place="below">^</add><add place="above"><w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w></add><note type="physical">“e” is superscript to the superscription</note></seg> other Glittring Globes of Light</rdg>
+            <rdg wit="#ee">And all the other glitt’ring globes of light</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Contract their beams, and trundle out of Sight</rdg>
+            <rdg wit="#ee">Contract their beams and <seg>trundle<note type="gloss">to revolve, roll</note></seg> out of sight.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Had I liv’d on the Multiplicity</rdg>
+            <rdg wit="#ee">Had I lived on the multiplicity</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Of Heathen Gods, my chief felicity</rdg>
+            <rdg wit="#ee">Of heathen gods, my chief felicity</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Would Surely bee rich Temples to Adorn</rdg>
+            <rdg wit="#ee">Would surely be rich temples to adorn</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Unto the Riſeing luster of the Morn</rdg>
+            <rdg wit="#ee">Unto the rising luster of the morn:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Juno, Belona, and the Queen of Love</rdg>
+            <rdg wit="#ee"><seg>Juno, Bellona, and the Queen of Love,<note type="gloss">Juno (chief Olympian goddess); Bellona (goddess of war); and Venus, “Queen” or goddess of love</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">And Shee whoſe Daughter turnd into a Dove</rdg>
+            <rdg wit="#ee"><seg>And she whose daughter turned into a dove,<note type="gloss">Assyrian goddess Derceto; mother of Semiramis, queen and goddess who founded the city of Babylon, led victorious armies, and, eventually, took the form of a dove and flew away</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Ould Berecinthia and her numerous brood</rdg>
+            <rdg wit="#ee">Old <seg>Berecynthia<note type="gloss">surname of Cybele; mother and fertility goddess whose worshippers went into ecstatic raptures</note></seg> and her numerous brood,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Cruell Diana pleasd with Virgins Blood</rdg>
+            <rdg wit="#ee">Cruel <seg>Diana<note type="gloss">goddess of chastity</note></seg>, pleased with virgin’s blood,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">With wandring Ceris all these would I <seg>Sleight<note type="physical">“S” written over other letter, probably “f”</note></seg></rdg>
+            <rdg wit="#ee">With wand’ring <seg>Ceres<note type="gloss">goddess of agriculture</note></seg>: all these would I slight,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">And victims offer unto none but Light</rdg>
+            <rdg wit="#ee">And victims offer unto none but Light.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Blew Doris, and her &ff;loating froathy train</rdg>
+            <rdg wit="#ee">Blue <seg>Doris<note type="gloss">sea goddess and mother of water nymphs</note></seg> and her floating frothy train,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Lucothia that in Stately Thebs did Reign</rdg>
+            <rdg wit="#ee"><seg>Leucothea<note type="gloss">sea goddess</note></seg> that in stately Thebes did reign,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Ises, the Cow, the Goddes, and the Maid</rdg>
+            <rdg wit="#ee"><seg>Isis, the cow, the goddess, and the maid,<note type="gloss">Isis is the Egyptian fertility and mother goddess, who was wife and sister of Osiris; protector of seafarers; often depicted with cow’s horns framing a disc of the sun</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Even all that on the wavey Empire Swayed</rdg>
+            <rdg wit="#ee">Even all that on the <seg>wavy empire<note type="gloss">the ocean</note></seg> <seg>swayed<note type="gloss">ruled</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Nor Should Shee Olympick Jupiter invoke</rdg>
+            <rdg wit="#ee">Nor should <seg>she<note type="gloss">Aurora</note></seg> <seg>Olympic Jupiter<note type="gloss">Olympus was the home of the gods; Jupiter was the supreme Roman deity as well as the god of light and of the heavens; here the speaker declares that if she had been a heathen, she would have built sacrificial fires so often to Aurora that Aurora would not have needed to appeal to Jupiter for redress for her lack of visible adoration (smoke).</note></seg> <seg>invoke<note type="gloss">summon, appeal to</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Becauſe <seg>her<note type="physical">“h” written over imperfectly erased “d”</note></seg> Alters did noe oft<add place="below">^</add><add place="above">n</add>er Smoke</rdg>
+            <rdg wit="#ee">Because her altars did no oft’ner smoke;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">&ff;or I with Incence would Soe clowd <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Skies</rdg>
+            <rdg wit="#ee">For I, with incense, would so cloud the skies</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">That Should obſcure the Luster of her eyes</rdg>
+            <rdg wit="#ee">That <seg>should<note type="gloss">it should</note></seg> obscure the luster of her eyes.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>
