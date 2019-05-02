@@ -1,3 +1,479 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.40">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>My Soul: Why Art Thou Full of Trouble?</title>
+        <title type="sub">Poem #40</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_120.jpg" xml:id="f7610_120"/>
+      <graphic url="./document_images/7610_121.jpg" xml:id="f7610_121"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+            <rdg wit="#ee">My Soul: Why Art Thou Full of Trouble?</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <lg n="1" type="stanza">
+          <l n="1">
+        <app>
+            <rdg wit="#ft">My Soul! why art though full of trouble?</rdg>
+            <rdg wit="#ee">My soul, why art thou full of trouble</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">And overwhelm’d with griefe:</rdg>
+            <rdg wit="#ee">And overwhelmed with grief?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Dost thou not know this <seg>World<del>’</del>s<note type="physical">imperfectly erased apostrophe between the “d” and “s”</note></seg> a bubble?</rdg>
+            <rdg wit="#ee">Dost thou not know this world’s a bubble</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And cannot Yield Relief.</rdg>
+            <rdg wit="#ee">And cannot yield relief?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+    <lg n="2" type="stanza">      
+    <l n="5">
+        <app>
+            <rdg wit="#ft">This life’s a Dream, of Mirth, or Sorrow;</rdg>
+            <rdg wit="#ee">This life’s a dream of mirth or sorrow</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Inveloped in Night:</rdg>
+            <rdg wit="#ee">Envelopéd in night;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">The Resurrection’s like the Morrow,</rdg>
+            <rdg wit="#ee">The <seg>Resurrection’s<note type="gloss">in Christianity, the rising to life of all dead people at the Last Judgment, the time when souls rejoin bodies</note></seg> like the morrow,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">As full of Life as Light.</rdg>
+            <rdg wit="#ee">As full of life as light.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </lg>
+      <lg n="3" type="stanza">
+          <l n="9">
+        <app>
+            <rdg wit="#ft">Then Sleight theſe Terren hopes, as toyes;</rdg>
+            <rdg wit="#ee">Then slight these <seg>terrene<note type="gloss">earthly</note></seg> hopes, as <seg>toys<note type="gloss">trivial things</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Think thou of better things:</rdg>
+            <rdg wit="#ee">Think thou of better things.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">&ff;rom all her Pleaſures, and her Joyes,</rdg>
+            <rdg wit="#ee">From all her pleasures and her joys,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Nought but Repentance <seg>ſprings<note type="physical">“ſ” possibly added later; “p” written over imperfectly erased letter with ascender</note></seg>.</rdg>
+            <rdg wit="#ee">Nought but repentance springs.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+      <lg n="4" type="stanza"><l n="13">
+        <app>
+            <rdg wit="#ft"><seg>Thy<note type="physical">horizontal line above; this line is not separated by a gap from the line above</note></seg> Mortall Nature nere deplore,</rdg>
+            <rdg wit="#ee">Thy mortal nature ne’er deplore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Let Death work all her Spight:</rdg>
+            <rdg wit="#ee">Let Death work all her spite;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">&ff;or thou shalt live, when Deaths noe more</rdg>
+            <rdg wit="#ee">For thou shalt live, when Death’s no more,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">In everlasting Light.</rdg>
+            <rdg wit="#ee">In <seg>everlasting light<note type="gloss">Heaven</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+      <lg n="5" type="stanza"><l n="17">
+        <app>
+            <rdg wit="#ft">What though thou into Aſhes turn,</rdg>
+            <rdg wit="#ee">What, though thou into ashes turn,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Thy Dust will find A Tomb:</rdg>
+            <rdg wit="#ee">Thy dust will find a tomb</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Within Some (ſafe and) Silent Urn:</rdg>
+            <rdg wit="#ee">Within some safe and silent urn</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">In black Oblivians Womb.</rdg>
+            <rdg wit="#ee">In black Oblivion’s womb.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">whether</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_121" n="59r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_121"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_121"/>
+            </rdg>
+        </app>
+      <lg n="6" type="stanza"><l n="21">
+        <app>
+            <rdg wit="#ft">Whether thou, Water, dos’t increaſe,</rdg>
+            <rdg wit="#ee">Whether thou water dost increase,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Or &ff;ier, or Ayer, or Earth:</rdg>
+            <rdg wit="#ee">Or <seg>fire, or air, or earth<note type="critical">in classical tradition, the four constitutive elements of the world and body; here Pulter understands her own death as contributing to the expansion and imbalance of one of these elements</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Yet am I Sure, to Rest in Peace;</rdg>
+            <rdg wit="#ee">Yet am I sure to rest in peace;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">My Soul aſſumes her Birth.</rdg>
+            <rdg wit="#ee">My soul <seg>assumes<note type="gloss">adopts; receives; takes upon oneself; puts on (a garb, aspect, form, or character)</note></seg> her birth.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="7" type="stanza"><l n="25">
+        <app>
+            <rdg wit="#ft">And if Pythagoras Saw Clear,</rdg>
+            <rdg wit="#ee">And if <seg>Pythagoras<note type="gloss">Greek philosopher known for his theory of the transmigration of souls at death (the word “transmigration” appears in the next stanza). In this theory, souls could transfer across life forms, from human to animal. Pulter assures her soul that it will not take the low form of a frog, even if Pythagoras is right in principle about transmigration.</note></seg> saw clear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Of this thou mayest Reſolve;</rdg>
+            <rdg wit="#ee">Of this thou mayest resolve:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Som Lamb, or Dove, then to apear,</rdg>
+            <rdg wit="#ee">Some lamb, or dove, then to appear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Noe Toad Shall thee Involve:</rdg>
+            <rdg wit="#ee">No toad shall thee <seg>involve<note type="gloss">entangle, envelop</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="8" type="stanza"><l n="29">
+        <app>
+            <rdg wit="#ft">Then whether Diſſolution,</rdg>
+            <rdg wit="#ee">Then whether <seg>dissolution<note type="critical">for the meter to be consistent with the poem, the words “dissolution,” “transmigration,” and “revolution” may have been pronounced each with five syllables (“tion” stretching into two syllables in each).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Or Tranſmigration:</rdg>
+            <rdg wit="#ee">Or transmigration,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Or rowling Revolution,</rdg>
+            <rdg wit="#ee">Or rolling revolution,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">All ends in thy Salvation.</rdg>
+            <rdg wit="#ee">All ends in thy salvation.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="9" type="stanza"><l n="33">
+        <app>
+            <rdg wit="#ft">Nothing Shall then aflict my Soul,</rdg>
+            <rdg wit="#ee">Nothing shall then afflict my soul</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">That paſſeth here below:</rdg>
+            <rdg wit="#ee">That passeth here below;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">&ff;or I above, (the Highest Pole</rdg>
+            <rdg wit="#ee">For I above the highest <seg>pole<note type="gloss">point of reference in the sky around which stars appear to revolve, or the point at which the earth’s axis meets heavens (derived from Ptolemy)</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Or Star) er’e long shall Goe.</rdg>
+            <rdg wit="#ee">Or star <seg>ere<note type="gloss">before</note></seg> long shall go.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="10" type="stanza"><l n="37">
+        <app>
+            <rdg wit="#ft">fforget I Shall then my Sad Story,</rdg>
+            <rdg wit="#ee">Forget I shall, then, my <seg>sad story<note type="gloss">life, narrative</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">And all my past annoys:</rdg>
+            <rdg wit="#ee">And all my past annoys</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">Shall Swallow’d bee of infinite Glory,</rdg>
+            <rdg wit="#ee">Shall swallowed be <seg>of<note type="gloss">in</note></seg> infinite glory</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">And Crownd with endleſ Joys.</rdg>
+            <rdg wit="#ee">And <seg>crowned<note type="critical">glorified, blessed; adorned with; rewarded. See Revelation 2:10: “Be thou faithful unto death, and I will give thee a crown of life.”</note></seg> with endless joys.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
