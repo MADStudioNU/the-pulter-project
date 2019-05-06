@@ -159,6 +159,17 @@
           </rdg>
         </app>
       </head>
+      <app>
+          <rdg wit="#ft">
+              <pb ed="#ft" facs="#f7610_120" n="58v"/>
+          </rdg>
+          <rdg wit="#ee">
+              <pb ed="#ee" facs="#f7610_120"/>
+          </rdg>
+          <rdg wit="#ae">
+              <pb ed="#ae" facs="#f7610_120"/>
+          </rdg>
+      </app>
 
       <lg n="1" type="stanza">
           <l n="1">
@@ -190,7 +201,7 @@
         </app>
       </l>
       </lg>
-    <lg n="2" type="stanza">      
+    <lg n="2" type="stanza">
     <l n="5">
         <app>
             <rdg wit="#ft">This life’s a Dream, of Mirth, or Sorrow;</rdg>
@@ -250,14 +261,9 @@
         </app>
       </l>
       </lg>
-        <app>
-            <rdg type="milestone" wit="#ft">
-                <milestone unit="poem" rend="straight-horline"/>
-            </rdg>
-        </app>
       <lg n="4" type="stanza"><l n="13">
         <app>
-            <rdg wit="#ft"><seg>Thy<note type="physical">horizontal line above; this line is not separated by a gap from the line above</note></seg> Mortall Nature nere deplore,</rdg>
+            <rdg wit="#ft"><seg><hi rend="overline">Thy</hi><note type="physical">horizontal line above; this line is not separated by a gap from the line above</note></seg> Mortall Nature nere deplore,</rdg>
             <rdg wit="#ee">Thy mortal nature ne’er deplore,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
