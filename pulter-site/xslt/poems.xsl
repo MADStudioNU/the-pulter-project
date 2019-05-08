@@ -1705,6 +1705,14 @@
     </pp:poem>
     <pp:poem id="42">
       <pp:title>Pardon Me, My Dearest Love</pp:title>
+      <pp:firstLine>Pardon me, my dearest love</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="43">
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
