@@ -1,3 +1,989 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.57">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Why Must I Thus Forever Be Confined</title>
+        <title type="sub">Poem #57</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_161.jpg" xml:id="f7610_161"/>
+      <graphic url="./document_images/7610_162.jpg" xml:id="f7610_162"/>
+      <graphic url="./document_images/7610_163.jpg" xml:id="f7610_163"/>
+      <graphic url="./document_images/7610_164.jpg" xml:id="f7610_164"/>
+      <graphic url="./document_images/7610_165.jpg" xml:id="f7610_165"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Victoria E. Burke</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_161" n="79r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_161"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_161"/>
+        </rdg>
+      </app>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+            <rdg wit="#ee">Why Must I Thus Forever Be Confined</rdg>
+          <rdg wit="#ae"><seg>Why must I thus forever bee confin’d<note type="critical">In the manuscript there is a large blank space at the top of the page where perhaps a title was intended to be placed.</note></seg></rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">This is a semi-diplomatic transcription in which original spelling and punctuation are retained, abbreviations (such as tildes) are expanded with added letters in italics, “ff” is modernized to “F,” superscriptions are lowered, and major alterations to the text (of a word or more, not individual letters) are noted in the footnotes. The retention of original spelling and punctuation has the potential to get us closer to the choices made by the poet and scribe, but some scribal details (such as abbreviations) do not seem substantive or meaning-bearing and run the risk of alienating a modern reader. The notes point out parallels I see with other writers, and particularly women writers, with the aims of placing Pulter in dialogue with ideas explored by other women around this time, and of tracing a kind of female poetic lineage or alternate canon.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">In Pulter’s manuscript, this poem’s conclusion is oddly separated from what precedes it by a sizeable gap—oddly, but also appropriately, since the final lines comprise a vision of the speaker’s final and total liberation from the confinement that the rest of the poem condemns. The envoy indicates the speaker’s confidence that death shall free her scattered atoms to “surround” our universe and recombine to “give a being to another world.” This liberated vision of liberation calmly counteracts the long litany of preceding complaints, in which the speaker rails against the injustice of a vast array of other, implicitly lower, creatures living freely while she cannot (she never explains why). If this part of the poem grows tiresome in repeating its formula, that tiresome formulaic repetition itself might itself model the experience she describes. But she also poignantly expresses concern for loved ones she is powerless to help while stuck in a situation (in apparent solitude and geographic isolation) utterly at odds with the mental freedom she desires, thinks she deserves, and (given world enough and time) envisions arriving with her transformation from being “buried … alive” on earth to experiencing a cosmic exhumation after death.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote"><p>In this poem the speaker repeatedly uses the language of confinement and restraint. She offers a catalogue of natural creatures who are free, contrasting each with her own immurement inside her house. Some of the creatures mentioned in Pulter’s catalogue are mentioned in the plural and so are not obviously gendered, but many of the individual creatures are female. In several poems, particularly her emblems, Pulter notes the gender of specific animals, giving her analysis an additional relevance to human behaviour (for example, see her laughing female tortoise in <ref type="pp-poem-ref" corresp="79">“The Porcupine” [Emblem 13]</ref>). Animals gendered female in this poem are the bee, beetle, silkworm, catoblepas, amphisbaena, oyster, flying fish, halcyon, swan, ostrich, turtle-dove, cuckoo, su, and canibal. In her discussions of the swan, ostrich, cuckoo, su, and canibal (and obliquely also the halcyon), she refers to their roles as mothers, and the ungendered raven is also a parent. In the case of the turtle-dove she highlights its constancy to one mate, as was typical in references to this bird.</p>
+                  <p>A few poems earlier in the manuscript, Pulter contrasts her confinement in a natural setting with the movement of the planets: “Must I be still confined to this sad grove / Whenas those vast and glorious globes above / Eternally in treble motions move?” (<ref type="pp-poem-ref" corresp="54">“A Solitary Complaint” [Poem 54]</ref>, ll. 1-3). The exact cause of her confinement in Poem 57 is not stated, but the vivid image of being “tied to one habitation” (l. 14) and “shut up in a country grange” (l. 18) suggests that she is required to stay at home, perhaps due to conflict during the civil war. Another meaning of confinement, the period of being in bed after giving birth to a child, was not current until 1774 (<title rend="italic">OED</title> 4) and so it is not likely the meaning here, though the title of Poem 45 makes clear that she wrote at least one poem soon after childbirth (<ref type="pp-poem-ref" corresp="45">“This Was Written in 1648, When I Lay in, With my Son John” [Poem 45]</ref>).</p>
+                <p>The situation of the speaker in Poem 57 invites a comparison with the motif of retreat or retirement often used by royalist writers: numerous critics have seen political significance in images of retreating to nature in poems of the 1640s and 1650s. With an exiled and then murdered king, cavalier poets depicted retreat as the rejection of the world in favour of erotic fulfilment (e.g., Abraham Cowley’s “The Wish”) or as a kind of alternate political action, among other possibilities. Hero Chalmers explains that “As royalists began to be forced into retreat by the sequestration of their estates, ejection from public office, imprisonment, or exile during the 1640s, a rhetoric of paradox emerged in the work of cavalier poets eager to convert withdrawal into self-assertion, disenfranchisement into power, confinement into freedom, and so on” (<title rend="italic">Royalist Women Writers 1650-1689</title>, Clarendon Press, 2004, p. 105). Katherine Philips, who like Pulter was a royalist poet, wrote a number of poems about retirement from the world which celebrate female friendship (for example, in “Friendship’s Mystery, To my dearest Lucasia” she writes “We court our own Captivity … ’Twere banishment to be set free” [ll. 16, 18]; see <ref target="/poems/ae/why-must-i-forever-be-confined/#versifying-captivity" type="new-window-url">“Versifying Captivity”</ref> in Curations for this poem). Retreat, for Pulter, is not an escape to an idyllic natural landscape, but instead a kind of imprisonment which she must suffer alone. Royalist writers also used imagery of imprisonment in their verse, sometimes to reflect their actual incarceration during the 1640s, as in the famous poem by Richard Lovelace “To Althea, From Prison” (see <ref target="/poems/ae/why-must-i-forever-be-confined/#versifying-captivity" type="new-window-url">“Versifying Captivity”</ref> in Curations for this poem). The typical movement in poems such as Lovelace’s is to contrast the speaker’s actual restraint with their inner freedom. Lovelace claims to be more free than gods, fish, and winds, but Pulter’s speaker does not celebrate; she links confinement with being “buried thus alive” (l. 20) and “enslaved to solitude” (l. 75). In this poem the speaker’s attitude to her confinement is entirely negative; while her mind is still free, she knows that true freedom will come only after death.</p>
+                  <p>In addition to a work of natural history that we know Pulter read (Philemon Holland’s translation of Pliny’s <title rend="italic">The historie of the world</title>), and works that she may or may not have read (Edward Topsell’s compilations on four-footed beasts and on serpents), other contemporary sources that she could have known offer catalogues of animals in relation to God’s creation of the world (Josuah Sylvester’s translation of Du Bartas, Simon Goulart’s commentary on Du Bartas, and John Swan’s <title rend="italic">Speculum mundi</title>; for full references see the relevant footnotes below). Thomas Browne discusses a catalogue of creatures in <title rend="italic">Pseudodoxia epidemica</title>, “almost an encyclopaedia of seventeenth-century misconceptions and new knowledge” (R.H. Robbins, ODNB entry on Browne).</p>
+            </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft"><seg>Why<note type="physical">There is a blank gap at the top of this page.</note></seg> must I thus forever bee confin’d</rdg>
+            <rdg wit="#ee">Why must I thus forever be confined</rdg>
+            <rdg wit="#ae">Why must I thus forever bee confin’d</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Against the noble &ff;reedome of my Mind</rdg>
+            <rdg wit="#ee">Against the noble freedom of my mind–</rdg>
+          <rdg wit="#ae">Against the <seg>noble<note type="critical">The word “noble” may connote here elevated and lofty, but also of a high social status. Pulter was the daughter of an earl and may be expressing indignation at the deprivations of this time of conflict.</note></seg> Freedome of my Mind</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">When as each hoarie Moth, and Gaudy &ff;ly</rdg>
+          <rdg wit="#ee"><seg>Whenas<note type="gloss">When</note></seg> each <seg>hoary moth, and gaudy fly<note type="gloss">“hoary” meaning grey- or white-haired; ancient, venerable; mouldy; hairy; possibly confused with “hory,” meaning filthy; “gaudy” meaning brilliantly fine, highly ornate, showy, but not necessarily in the disparaging sense now chiefly meant.</note></seg></rdg>
+          <rdg wit="#ae">When as each <seg>hoarie Moth, and Gaudy Fly<note type="critical">While “hoary” and “gaudy” may simply mean grey-haired or old (<title rend="italic">OED</title> 1a and c) and brilliantly fine or ornate (<title rend="italic">OED</title> 3a), respectively, the sense of both terms is probably derogatory (potentially, mouldy or musty [<title rend="italic">OED</title> 3] and glaringly showy [<title rend="italic">OED</title> 3a], respectively) given the context: Pulter laments that mere insects such as these have the privilege of freedom while she does not.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft">Within their Spheirs <seg>injoy<note type="physical">The “y” is written over another letter; this word is followed by an imperfectly erased second “y.”</note></seg> their Liberty</rdg>
+            <rdg wit="#ee">Within their spheres enjoy their liberty?</rdg>
+            <rdg wit="#ae">Within their Spheirs injoy their Liberty</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">The Virgin Bee her luscious Cell forſakes</rdg>
+            <rdg wit="#ee">The virgin bee her luscious cell forsakes</rdg>
+          <rdg wit="#ae">The Virgin Bee <seg>her<note type="critical">As mentioned in the headnote, many of the animals in Pulter’s catalogue are gendered female, and several are mothers.</note></seg> luscious Cell forsakes</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">And on A Thouſand &ff;lowers pleaſure Takes</rdg>
+            <rdg wit="#ee">And on a thousand flowers pleasure takes;</rdg>
+          <rdg wit="#ae">And <seg>on A Thousand Flowers pleasure Takes<note type="critical">In keeping with the series of contrasts that the poet is drawing between the unworthy or thoughtless freedom of mere insects and her own unjust imprisonment, she is here highlighting the apparent paradox of the virginal bee taking pleasure from a thousand flowers. This sexually suggestive formulation contrasts with the ways in which the speaker constructs herself as a faithful wife later in the poem (for example, see ll. 69-70).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">The glistring Beetle casts her Stag like Horns</rdg>
+          <rdg wit="#ee">The <seg>glist’ring<note type="gloss">glittering</note></seg> <seg>beetle<note type="critical">This passage conflates stag beetles and scarab or dung beetles. Male stag beetles have large mouth parts resembling antlers, probably used in fighting. Dung beetles form balls of feces as food and protection for their larvae, and may roll the balls quite far before burying them. Pliny indicated that “tumbling upon their back in dung, [dung beetles] do roll it into great round balls with their feet; and therein doe make nests for to bestow the little grubs (which are their young) against the cold of winter.” Trans. Philemon Holland, <title rend="italic">The History of the World</title> (London, 1601), 1:326. The idea of the beetle rolling dung from east to west to call “great Nature” alludes to the ancient Egyptian tendency to compare the scarab beetle rolling a ball of dung along the ground to the sun god rolling the sun across the sky.</note></seg> <seg>casts<note type="gloss">sheds</note></seg> her stag-like horns,</rdg>
+            <rdg wit="#ae">The glistring Beetle casts her Stag like Horns</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The next Year new her Stately &ff;ront adorns</rdg>
+          <rdg wit="#ee">The next year new her stately <seg>front<note type="gloss">forehead</note></seg> adorns:</rdg>
+            <rdg wit="#ae">The next Year new her Stately Front adorns</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">Shee Rowls her Unctious <seg>Embrio<note type="physical">The “i” may correct an earlier “e.”</note></seg> East &amp; West</rdg>
+          <rdg wit="#ee">She rolls her <seg>unctuous<note type="gloss">greasy</note></seg> embryo east and west</rdg>
+            <rdg wit="#ae">Shee Rowls her Unctious <seg>Embrio<note></note></seg> East &amp; West</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">To call great Nature who hears her behest</rdg>
+            <rdg wit="#ee">To call great Nature, who hears her behest;</rdg>
+            <rdg wit="#ae">To call great Nature who hears her behest</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The Silk worm &ff;eeds, then Works, then Shee inv<add place="below">^</add><add place="above">o</add>lv’s,</rdg>
+          <rdg wit="#ee">The silkworm feeds, then works, then she <seg>involves<note type="gloss">cocoons</note></seg></rdg>
+          <rdg wit="#ae">The Silk worm Feeds, then Works, then Shee <seg>involv’s<note type="critical">enfolds or envelops, i.e. cocoons. Though this image of cocooning may suggest confinement, the poet indicates that the silkworm does this temporarily to reproduce, but then flies freely until her death. In this context of the female silkworm, to “work” may have the sense of the female labour of weaving, sewing, or embroidering (<title rend="italic">OED</title> 25). In her autobiography, <title rend="italic">A True Relation of my Birth, Breeding, and Life, which was appended to Natures Pictures drawn by Fancies Pencil to the Life</title> (1656), Margaret Cavendish refers to the silkworm’s self-sufficiency and to its labour of spinning to illustrate her own process of poetic creation: “yet I must say this in the behalf of my thoughts, that I never found them idle; for if the senses brings no work in, they will work of themselves, like silk-wormes that spinns out of their own bowels” (<title rend="italic">Paper Bodies: A Margaret Cavendish Reader</title>, edited by Sylvia Bowerbank and Sara Mendelson, Broadview, 2000, p. 59). John Swan describes the bombyx or silk-worm in his <title rend="italic">Speculum mundi, Or A glasse representing the face of the world shewing both that it did begin, and must also end: the manner how, and time when, being largely examined. Whereunto is joyned an hexameron, or a serious discourse of the causes, continuance, and qualities of things in nature; occasioned as matter pertinent to the work done in the six dayes of the worlds creation</title> (1635), pp. 425-426. He uses the language of breaking free from a prison which is also a house, which parallels Pulter’s imagery in this poem: “when these daintie creatures have made them little husken houses, and spunne out the just length of their silken webs, they eat out themselves from those prisons; and (although they were worms before) yet then they appeare with their prettie wings, and flie about a while” (p. 426). I am grateful to Jessica Wolfe for drawing my attention to Swan and for discussing Thomas Browne with me (for the latter, see below).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Her Self, then Breeds, then &ff;lies till Shee diſſolv’s</rdg>
+          <rdg wit="#ee">Herself, then breeds, then flies till she <seg>dissolves<note type="gloss">dies</note></seg>.</rdg>
+          <rdg wit="#ae">Her Self, then Breeds, then Flies till Shee <seg>dissolv’s<note type="gloss">disintegrates or decomposes</note></seg></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">The Baſſalisk that kils by &ff;aſcination</rdg>
+          <rdg wit="#ee"><seg>The basilisk, that kills by fascination,<note type="gloss">mythical reptile, also called a cockatrice, hatched by a snake from a cock’s egg; it “kills by fascination” because its look, like a cast spell, is fatal.</note></seg></rdg>
+          <rdg wit="#ae">The <seg>Bassalisk<note type="critical">A basilisk or cockatrice is a mythical reptile which is said to hatch from a cock’s egg and to be able to kill its prey just by looking (<title rend="italic">OED</title>). With this animal Pulter moves from her examples of insects to what we would consider to be fantastical creatures. Not all sixteenth- and seventeenth-century writers would have agreed with modern conceptions that this was a mythical beast, however. In his <title rend="italic">Pseudodoxia epidemica, or, Enquiries into very many received tenents and commonly presumed truths</title> (1646), p. 118-121, Thomas Browne investigates various claims about the basilisk, observing (perhaps surprisingly in a work that tests received wisdom) “that such an animall there is, if we evade not the testimony of Scripture, and humane Writers, we cannot safely deny” (p. 118). Edward Topsell in his <title rend="italic">The historie of serpents. Or, The second booke of liuing creatures wherein is contained their diuine, naturall, and morall descriptions, with their liuely figures, names, conditions, kindes and natures of all venemous beasts: with their seuerall poysons and antidotes; their deepe hatred to mankind, and the wonderfull worke of God in their creation, and destruction. Necessary and profitable to all sorts of men: collected out of diuine scriptures, fathers, phylosophers, physitians, and poets: amplified with sundry accidentall histories, hierogliphicks, epigrams, emblems, and aenigmaticall obseruations</title> (1608), p. 125, describes the basilisk’s venom as noxious to humans in particular (see <ref target="/poems/ae/why-must-i-forever-be-confined/#creatures-venomous-and-offensive" type="new-window-url">“Creatures venomous, and offensive to man”</ref> in Curations for this poem; Topsell compares the corrupting beams that issue from a basilisk’s eyes to those from a menstruating woman which impair a mirror). Josuah Sylvester, in his translation <title rend="italic">Du Bartas his deuine weekes and workes</title> (1611), p. 149, describes the basilisk as having “pestilentiall breath / [which] Doth pearce firm Marble, and whose banefull ey / Wounds with a glance, so that the soundest dy.” The basilisk, dipsas, and amphisbaena all figure in Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148-149). Heinrich Cornelius Agrippa, writer of an influential work celebrating women which was translated into English in 1652, writes about the gender of the basilisk. The full title of this work is, <title rend="italic">The glory of women: or, A treatise declaring the excellency and preheminence of women above men, which is proved both by scripture, law, reason, and authority, divine, and humane. Written first in Latine by Henricus Cornelius Agrippa Knight, and doctor both of law and physicke. And presented to Margaret Augusta, Queen of the Austrians and Burgundians. And now translated into English, for the vertuous and beautifull female sex of the Commonwealth of England By Edw. Fleetwood, Gent</title>. In the context of a discussion that sometimes men are worse than the worst of women, Agrippa writes, “Furthermore, the Scriptures declare many men to be condemned to eternal torments, when no woman at any time condemned may be read of: to this may be added in way of testimony a prerogative of brutish nature, because the Eagle which is Queen of all Birds, always of the Female, never of the Male is found: &amp; it is said, that there is but one only Phaenix, and that a Female, which is in Egypt. But on the contrary, of the Serpent, which hath its name from King, I mean the <hi rend="italic">Basiliske</hi>, the most poysonous of all venemous creatures, there is none except a Male, which is impossible to be gendered a Female” (p. 18). For another treatment of the basilisk, see Pulter’s <ref type="pp-poem-ref" corresp="82">“The Cockatrice” (Emblem 16)</ref>.</note></seg> that kils by <seg>Fascination<note type="gloss">by casting a spell with its mere gaze</note></seg></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Is not Like mee tid’e to one Habitation</rdg>
+            <rdg wit="#ee">Is not like me tied to one habitation;</rdg>
+            <rdg wit="#ae">Is not Like mee tid’e to one Habitation</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Noe nor the Catablepe whoſe poyſonous eye</rdg>
+          <rdg wit="#ee">No, nor the <seg>catablepe<note type="critical">“catoblepas” in <title rend="italic">OED</title>; “The Catoblepas is said to be of like venomous nature, always going with her head into the ground, her sight otherwise being deadly.” Samuel Purchas, <title rend="italic">Purchas his Pilgrimage</title> (London, 1613), 467.</note></seg> whose pois’nous eye,</rdg>
+          <rdg wit="#ae">Noe nor the <seg>Catablepe<note type="critical">A catoblepas was described by ancient authors as an African animal that may have resembled a buffalo or gnu (<title rend="italic">OED</title>), but Pliny in <title rend="italic">The historie of the world: commonly called, The naturall historie of C. Plinius Secundus. Translated into English by Philemon Holland Doctor of Physicke</title> (1634, p. 206) groups the basilisk and catoblepas together as venomous serpents whose looks have the power to kill. See <ref target="/poems/ae/why-must-i-forever-be-confined/#creatures-venomous-and-offensive" type="new-window-url">“Creatures venomous, and offensive to man”</ref> in Curations for this poem for Pliny’s description of these beasts. Like Pliny, whose natural history we know Pulter consulted, given other references in her manuscript, Pulter groups them together (“Though these destroy yet may they freely Range,” l. 17). Pliny attributes the killing of grass and herbs to the basilisk, not the catoblepas, and genders both creatures male. Pulter genders the catoblepas female but does not give the basilisk a gender (see Agrippa’s claim, above, that the basilisk was always male). Pulter’s choice to gender this evil creature as female reminds us that she does not simply depict examples of positive female behaviour in her verse. For another treatment of the catoblepas, see Pulter’s <ref type="pp-poem-ref" corresp="98">“This Fell Catablepe” (Emblem 33)</ref>.</note></seg> whose poysonous eye</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Where ere Shee goes makes Graſs and &ff;lowers die</rdg>
+            <rdg wit="#ee">Where’er she goes, makes grass and flowers die:</rdg>
+            <rdg wit="#ae">Where ere Shee goes makes Grass and Flowers die</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Though theſe deſtroy yet may they freely Range</rdg>
+            <rdg wit="#ee">Though these destroy, yet may they freely range</rdg>
+            <rdg wit="#ae">Though these destroy yet may they freely Range</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Whils’t I am Shut up in a Countrey Grange</rdg>
+          <rdg wit="#ee">Whilst I am shut up in a <seg>country grange<note type="gloss">country house, farmhouse</note></seg>.</rdg>
+          <rdg wit="#ae">Whils’t I am Shut up in a Countrey <seg>Grange<note type="critical">A grange is a country house, sometimes with farm buildings attached and the residence of a gentleman farmer (<title rend="italic">OED</title>). Pulter is likely referring to Broadfield (or Bradfield), which was the name of the estate in the parish of Cottered in Hertfordshire owned by the Pulters. Henry Chauncy’s <title rend="italic">The Historical Antiquities of Hertfordshire</title> of 1700 gives the history of the estate, noting that Arthur Pulter retired to Bradfield shortly after the outbreak of the civil war. There he “liv’d a retir’d Life, and thro’ the importunity of his Wife, began to build a very fair House of Brick upon this Mannor, but dying he never finished it” (p. 72). His grandson James Forester ultimately “repaired the Mannor-House, which was much decay’d thro’ the want of finishing it at the time it was built” (p. 74). Perhaps some of Pulter’s despair at her domestic immurement was due to living in an unfinished renovation site.</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">my</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_162" n="79v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_162"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_162"/>
+            </rdg>
+        </app>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">My looks though Sad would make my freind revive</rdg>
+          <rdg wit="#ee">My <seg>looks<note type="gloss">glances, gazes</note></seg>, though sad, would make my friend revive;</rdg>
+          <rdg wit="#ae">My looks though Sad would make my <seg>freind<note type="critical">It isn’t clear whom she means by “freind.” Unlike the fatal glances of the basilisk and catoblepas, the speaker’s looks, though sad, would have the opposite effect and would bring a friend back to life.</note></seg> revive</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Why must I then bee buried thus alive</rdg>
+            <rdg wit="#ee">Why must I then be buried thus alive?</rdg>
+            <rdg wit="#ae">Why must I then bee buried thus alive</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">The Amphisbena that at both’s ends Kill</rdg>
+          <rdg wit="#ee">The <seg>amphisbaena<note type="gloss">mythological serpent with head at each end, able to move in either direction</note></seg>, that at both ends kill,</rdg>
+          <rdg wit="#ae">The <seg>Amphisbena<note type="critical">The amphisbaena is a mythical serpent with two heads which can move in either direction (<title rend="italic">OED</title>). Topsell calls this beast the Double-head and observes that “It hath a double-head, as though one mouth were not enough to vtter his poyson” (<title rend="italic">A historie of serpents</title> [1608], p. 151). For Topsell’s description of its poison, including its risk to pregnant women, see <ref target="/poems/ae/why-must-i-forever-be-confined/#creatures-venomous-and-offensive" type="new-window-url">“Creatures venomous, and offensive to man”</ref> in Curations for this poem. Thomas Browne is willing to admit the existence of the basilisk (see note above) but is much more sceptical about the existence of the amphisbaena, concluding that it is impossible for it to have two heads and still be one creature (“Againe, if any such thing there were, it were not to be obtruded by the name of Amphisbaena, or as an animall of one denomination; for properly that animall is not one, but multiplicious or many”; <title rend="italic">Pseudodoxia epidemica</title> [1646], p. 141).</note></seg> that at both’s ends Kill</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Doth &ff;reely Slide about where e’re Shee will</rdg>
+            <rdg wit="#ee">Doth freely slide about wheree’er she will;</rdg>
+            <rdg wit="#ae">Doth Freely Slide about where e’re Shee will</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">The Dipſus that doth make Men die <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Quaffing</rdg>
+          <rdg wit="#ee">The <seg>dipsas<note type="gloss">mythical serpent whose bite made the bitten want to drink (“quaff”) excessively.</note></seg> that doth make men die with quaffing,</rdg>
+          <rdg wit="#ae">The <seg>Dipsus<note type="gloss">The dipsas is a mythical serpent whose bite was said to cause a raging thirst (<title rend="italic">OED</title>). For Topsell’s description of the effects of its poison, see <ref target="/poems/ae/why-must-i-forever-be-confined/#creatures-venomous-and-offensive" type="new-window-url">“Creatures venomous, and offensive to man”</ref> in Curations for this poem.</note></seg> that doth make Men die with Quaffing</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">And the Tarantula that Kils <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Laughing</rdg>
+          <rdg wit="#ee">And the <seg>tarantula, that kills with laughing<note type="gloss">laughing was thought to be among the symptoms of a tarantula’s bite.</note></seg>,</rdg>
+          <rdg wit="#ae">And <seg>the Tarantula that Kils with Laughing<note type="critical">Topsell in <title rend="italic">The historie of serpents</title> (1608), p. 250, lists the potential reactions to the bite of a tarantula: “there will follow diuers and contrary accidents and symptomes, according to the various constitution, different complexion, and disposition of the partie wounded. For after they are hurt by the <hi rend="italic">Tarantula</hi>, you shall see some of them laugh, others contrariwise to weepe, some will clatter out of measure, so that you shall neuer get them to hold their tongues, and othersome againe you shall obserue to be as mute as fishes: this man sleepeth continuallie, and another cannot be brought to any rest at all, but runneth vp and downe, raging and rauing like a mad man.” According to John Swan, after being bitten, people “presently fall a laughing; and if musick be not forthwith brought them, they cannot choose but in a mortall merrie fit take leave of the world and die. Neither can they at all be cured, unless by hearing musick: and (as it is reported) if the cure be not throughly done, they dance ever after at the sound of musicks pleasing strains” (<title rend="italic">Speculum mundi</title> [1635], p. 425).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">With that Bold Worm <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> Kild <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Egiptian Queen</rdg>
+          <rdg wit="#ee">With that bold <seg>worm<note type="gloss">laughing was thought to be among the symptoms of a tarantula’s bite.</note></seg> which killed the <seg>Egyptian queen<note type="gloss">Cleopatra</note></seg></rdg>
+          <rdg wit="#ae">With <seg>that Bold Worm which Kild the Egiptian Queen<note type="gloss">The asp which killed Cleopatra.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">All &ff;reely crauling ’bout <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> World are Seen</rdg>
+            <rdg wit="#ee">All freely crawling ’bout the world are seen.</rdg>
+            <rdg wit="#ae">All Freely crauling ’bout the World are Seen</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Thus Inſcects, Reptals that Spontaneus breed</rdg>
+          <rdg wit="#ee">Thus insects, reptiles that <seg>spontaneous breed<note type="gloss">Aristotle posited that some life forms arose spontaneously from rotting matter.</note></seg>,</rdg>
+          <rdg wit="#ae">Thus <seg>Inscects, Reptals<note type="gloss">Pulter has discussed five types of insects, four mythical serpents, a spider, and a snake thus far. Her mixing of fantastical with real might strike us as unusual, but natural histories of the period did the same. In <title rend="italic">The historie of serpents</title>, Topsell treats not only serpents but also some insects (e.g., bees) and arachnids (spiders).</note></seg> that <seg>Spontaneus breed<note type="gloss">a reference to spontaneous generation: “the development of living organisms without the agency of pre-existing living matter, usually considered as resulting from changes taking place in some inorganic substance” (<title rend="italic">OED</title> 4a). Even creatures that were not created by God enjoy benefits the speaker does not.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">&ff;rom Such a Solitude as mine are &ff;reed</rdg>
+            <rdg wit="#ee">From such a solitude as mine are freed,</rdg>
+            <rdg wit="#ae">From Such a Solitude as mine are Freed</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">And I (oh my Sad heart) and onely I</rdg>
+            <rdg wit="#ee">And I (O my sad heart) and only I</rdg>
+            <rdg wit="#ae">And I (oh my Sad heart) and onely I</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Must in this Sad confinement living Die</rdg>
+            <rdg wit="#ee">Must in this sad confinement living die.</rdg>
+          <rdg wit="#ae">Must in this Sad confinement <seg>living Die<note type="critical">The oxymoron of “living Die” is a poignant depiction of her suffering due to her confinement away from loved ones.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">The Swiftest Dolphin and the vastest Whale</rdg>
+            <rdg wit="#ee">The swiftest dolphin and the vastest whale</rdg>
+            <rdg wit="#ae">The Swiftest Dolphin and the vastest Whale</rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+          <rdg wit="#ft">Are not immured as I in <seg>Walle<note type="physical">The “e” appears partly erased, possibly with a comma after it.</note></seg> or Pale</rdg>
+          <rdg wit="#ee">Are not <seg>immured<note type="gloss">enclosed</note></seg> as I, in wall or <seg>pale<note type="gloss">fence</note></seg>,</rdg>
+          <rdg wit="#ae">Are not immured as I in Walle or <seg>Pale<note type="critical">fence. The image of being enclosed by both walls and a fence suggests that, whether inside or outside on her estate, she is still psychologically trapped.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">But every Sort of &ff;ish even as they pleaſe</rdg>
+            <rdg wit="#ee">But every sort of fish, even as they please,</rdg>
+            <rdg wit="#ae">But every Sort of Fish even as they please</rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+          <rdg wit="#ft">Doe <seg>Dive<note type="physical">There is a blot above this word.</note></seg> and Swim about the Spacious Seas</rdg>
+            <rdg wit="#ee">Do dive and swim about the spacious seas;</rdg>
+            <rdg wit="#ae">Doe Dive and Swim about the Spacious Seas</rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Though the dull Oyster from A Rock is torn</rdg>
+            <rdg wit="#ee">Though the dull oyster from a rock is torn,</rdg>
+          <rdg wit="#ae">Though the dull <seg>Oyster<note type="critical">For another treatment of the oyster, see Pulter’s <ref type="pp-poem-ref" corresp="113">“The Oyster and the Mouse” (Emblem 48)</ref>.</note></seg> from A Rock is torn</rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Yet Shee with Sayls, and Wind and Tide is boarn</rdg>
+            <rdg wit="#ee">Yet she with sails, and wind, and tide is borne</rdg>
+            <rdg wit="#ae">Yet Shee with Sayls, and Wind and Tide is boarn</rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Or’e all the Swelling Billons at her Pleaſure</rdg>
+            <rdg wit="#ee">O’er all the swelling billows at her pleasure</rdg>
+          <rdg wit="#ae">Or’e all the Swelling <seg>Billons<note type="gloss">i.e., billows</note></seg> at her Pleasure</rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Untill the Cunning Crab on her takes Seaſure</rdg>
+            <rdg wit="#ee">Until the cunning crab on her takes seizure;</rdg>
+            <rdg wit="#ae">Untill the Cunning Crab on her takes Seasure</rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">The fflying ffish though Shee doth oft despair</rdg>
+          <rdg wit="#ee"><seg>The flying fish, though she doth oft despair,<note type="critical">Samuel Purchas gives this account of the persecuted (and thus, perhaps, apt to despair) flying fish: “Bonitos or Dolphines do chase the flying fish under the water, so that he is glad to flee from them out of the water to save his life.” <title rend="italic">Purchas his Pilgrims In Five Books</title> (London, 1625), 2:132.</note></seg></rdg>
+          <rdg wit="#ae"><seg>The Flying Fish though Shee doth oft despair<note type="critical">For an explanation of the flying fish’s despair, see the note in the elemental edition of this poem. For another treatment of the flying fish, see Pulter’s <ref type="pp-poem-ref" corresp="90">“This Flying Fish” (Emblem 25)</ref>.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">Yet shee com̄ands the Seas and vaster Ayr</rdg>
+            <rdg wit="#ee">Yet she commands the seas and vaster air;</rdg>
+            <rdg wit="#ae">Yet shee commands the Seas and vaster Ayr</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">And</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_163" n="80r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_163"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_163"/>
+            </rdg>
+        </app>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">And thoſe &ff;air Birds which hover Still above</rdg>
+          <rdg wit="#ee">And <seg>those fair birds<note type="critical">Eardley cites Simon Goulart, <title rend="italic">A Learned Summary Upon … Du Bartas</title> (London, 1621), l.241, in identifying these birds as manucodes, or birds of paradise.</note></seg> which hover still above,</rdg>
+            <rdg wit="#ae">And those Fair Birds which hover Still above</rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+          <rdg wit="#ft">Which are Soe <seg>&ff;arr<note type="physical">The second “r” is written over “e” in H2.</note></seg> indulgent to their Love</rdg>
+            <rdg wit="#ee">Which are so far indulgent to their love</rdg>
+            <rdg wit="#ae">Which are Soe Farr indulgent to their Love</rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">To let their &ff;emales lay upon their Back</rdg>
+            <rdg wit="#ee">To let their females lay upon their back:</rdg>
+          <rdg wit="#ae">To let <seg>their Females lay upon their Back<note type="critical">As noted in Alice Eardley’s edition, <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title>, by Lady Hester Pulter (Iter / Centre for Reformation and Renaissance Studies, 2014, p. 167), Simon Goulart identified these birds as manucodes or birds of paradise (in <title rend="italic">A learned summary upon the famous poeme of William of Saluste Lord of Bartas Wherin are discovered all the excellent secretts in metaphysicall physicall, morall, and historicall knowledge. Fitt for the learned to refresh theire memories, and for younger students to abreviat and further theire studies: wherin nature is discovered, art disclosed, and history layd open. Translated out of French, by T.L. D.M.P.</title> [1621], p. 241) For Goulart’s description of the female laying in the male’s back, see <ref target="/poems/ae/why-must-i-forever-be-confined/#good-and-bad-animal-parents" type="new-window-url">“Good and Bad Animal Parents”</ref> in Curations for this poem. For another treatment of the bird of paradise, see Pulter’s <ref type="pp-poem-ref" corresp="71">“The Manucodiats” (Emblem 5)</ref>.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">Noe Noble &ff;reedome Surely they can lack</rdg>
+            <rdg wit="#ee">No noble freedom surely they can lack,</rdg>
+            <rdg wit="#ae">Noe Noble Freedome Surely they can lack</rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">Nor doe they &ff;ear the terrables’t Tirants lower</rdg>
+          <rdg wit="#ee">Nor do they fear the terriblest tyrant’s <seg>lower<note type="gloss">scowl</note></seg></rdg>
+          <rdg wit="#ae">Nor doe they Fear the terrables’t Tirants <seg>lower<note type="gloss">frown or scowl</note></seg></rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+          <rdg wit="#ft">Should shut them in a <seg>Basteel<note type="physical">The “a” is possibly written over an “i.”</note></seg> or a Tower</rdg>
+          <rdg wit="#ee">Should shut them in a <seg>bastille<note type="gloss">prison, fortress</note></seg> or a tower,</rdg>
+          <rdg wit="#ae">Should shut them in a <seg>Basteel or a Tower<note type="critical">a “Basteel” is a bastille or fortified tower. These structures evoke some of the places of imprisonment royalists endured during the civil war years. For examples, including the Tower of London and the Castle in Oxford, see Jerome de Groot, “Prison Writing, Writing Prison during the 1640s and 1650s,” <title rend="italic">Huntington Library Quarterly</title>, vol. 72, no. 2, June 2009, pp. 193-215 (esp. 195-201).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+            <rdg wit="#ft">&ff;or they disdain to touch this dunghill earth</rdg>
+          <rdg wit="#ee">For they disdain to touch this <seg>dunghill<note type="gloss">filthy, like a pile of excrement</note></seg> earth;</rdg>
+          <rdg wit="#ae">For they disdain to touch this <seg>dunghill earth<note type="critical">The phrase “dunghill earth” is one Pulter uses repeatedly in her poetry. For example, in “<ref type="pp-poem-ref" corresp="28">O, My Afflicted Solitary Soul” (Poem 28)</ref> she asks, “Why dost thou in this dunghill earth delight”? (l. 12). See <ref target="/poems/ae/the-pismire/#what-is-a-dunghill" type="new-window-url">“What is a dunghill?”</ref> in the Curations for <ref type="pp-poem-ref" corresp="35">“The Pismire” (Poem 35)</ref> by Frances E. Dolan.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+            <rdg wit="#ft">Thus they injoy the &ff;reedome of their Birth</rdg>
+            <rdg wit="#ee">Thus they enjoy the freedom of their birth,</rdg>
+            <rdg wit="#ae">Thus they injoy the Freedome of their Birth</rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+            <rdg wit="#ft">But I to Solitude am Still confind</rdg>
+            <rdg wit="#ee">But I to solitude am still confined:</rdg>
+          <rdg wit="#ae">But <seg>I to Solitude am Still confind<note type="critical">This is the second of three depictions of Pulter’s confinement as a kind of solitude (the others are in lines 28 and 75). Not only does she crave freedom of movement, but she also portrays solitude as a kind of restraint or “Curb” on “A Noble Mind” (l. 50). Her use of the term noble in the following line recalls the “noble Freedome of my Mind” (of l. 2), as well as the “Noble Freedome” of the birds of paradise (l. 44), and looks ahead to her willingness to suffer this confinement for a “Noble End” (ll. 93-94), such as her God, king, country, friend, love, or children.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+            <rdg wit="#ft">The cruelst Curb unto A Noble Mind</rdg>
+            <rdg wit="#ee">The cruelest curb unto a noble mind.</rdg>
+            <rdg wit="#ae">The cruelst Curb unto A Noble Mind</rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+            <rdg wit="#ft">The Halcion that Calms the Rufling Seas</rdg>
+          <rdg wit="#ee">The <seg>halcyon<note type="gloss">bird fabled to calm the wind and waves magically when breeding by building a nest at sea</note></seg> that calms the ruffling seas</rdg>
+          <rdg wit="#ae">The <seg>Halcion<note type="critical">The halcyon is a green or blue kingfisher thought to magically calm the seas as it tends its floating nest (<title rend="italic">OED</title>). Swan, after describing the myth of Alcyone and Ceyx who were turned into halcyons, writes, “But without any fiction, this we are sure of, that it is a strange bird, and as it were natures dearest darling; seeing that in favour of her nests and young, the waters leave their raging, the windes their blowing, tempests have forgot to rise, and dayes appeare with quiet calms” (<title rend="italic">Speculum mundi</title> [1635], p. 417). The phrase “halcyon days” was used by royalists to depict the calm of Charles I’s reign before the civil war; Dolores Palomo notes that the myth of the halcyon was rarely used before 1630 by English writers, but that for three decades after that date it was a charged symbol of lost peace (“The Halcyon Moment of Stillness in Royalist Poetry,” <title rend="italic">Huntington Library Quarterly</title>, vol. 44, no. 3, Summer 1981, pp. 205-221 [p. 206]). Pulter herself uses the phrase “halcyon days” in two explicitly royalist poems that lament Charles’s imprisonment in 1647, <ref type="pp-poem-ref" corresp="2">“The Invitation into the Country” (Poem 2)</ref>, l. 111 and <ref type="pp-poem-ref" corresp="4">“The Complaint of Thames, 1647” (Poem 4)</ref>, l. 36.</note></seg> that Calms the Rufling Seas</rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+            <rdg wit="#ft">Is not Restraind but &ff;lyes where ere Shee pleaſe</rdg>
+            <rdg wit="#ee">Is not restrained, but flies where’er she please;</rdg>
+            <rdg wit="#ae">Is not Restraind but Flyes where ere Shee please</rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+            <rdg wit="#ft">Nor doth the Swan on Thames her Silver Breast</rdg>
+          <rdg wit="#ee">Nor doth the swan, on <seg>Thames<note type="gloss">river in England</note></seg> her <seg>silver breast<note type="gloss">the silver breast of the Thames, i.e., the water</note></seg>,</rdg>
+          <rdg wit="#ae">Nor doth the Swan on <seg>Thames her<note type="gloss">The poet depicts the River Thames as female with a silver breast, or shining waters.</note></seg> Silver Breast</rdg>
+        </app>
+      </l>
+      <l n="54">
+        <app>
+            <rdg wit="#ft">Ask leave to Riſe of from her Downey Nest</rdg>
+            <rdg wit="#ee">Ask leave to rise off from her downy nest;</rdg>
+            <rdg wit="#ae">Ask leave to Rise of from her Downey Nest</rdg>
+        </app>
+      </l>
+      <l n="55">
+        <app>
+          <rdg wit="#ft">The Rav’nous Ravens <seg>Dea&ff;<note type="physical">The “ff” is written over an imperfectly erased “th.”</note></seg> to their Young on’s cry</rdg>
+          <rdg wit="#ee">The <seg>rav’nous ravens<note type="critical">See Job 38:41, “Who provideth for the raven his food? when his young ones cry unto God, they wander for lack of meat.” See also a source cited in another of Pulter’s poems on the raven (Emblem 11, “The dubious raven”), Robert Sanderson, <title rend="italic">Twenty Sermons Formerly Preached</title> (London, 1656), 282: as Eardley notes, “in a sermon preached at Woburn, England”–under 30 miles from Pulter’s home–“in August 1647 Sanderson notes ‘if God so sufficiently provide for the young ravens, when the dams forsake them: will he not much more take care of us, when not our fathers and mothers forsake us?’”</note></seg>, deaf to their young ones’ cry,</rdg>
+          <rdg wit="#ae"><seg>The Rav’nous Ravens Deaff to their Young on’s cry<note type="critical">See the note in the elemental edition of this poem for more on the cruelty of the unmaternal raven, and see <ref target="/poems/ae/why-must-i-forever-be-confined/#good-and-bad-animal-parents" type="new-window-url">“Good and Bad Animal Parents”</ref> in Curations for this poem for Swan’s digression on the potential consequences to parents if they are cruel to their young. For another treatment of the raven, see Pulter’s <ref type="pp-poem-ref" corresp="77">“The Dubious Raven” (Emblem 11)</ref>.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="56">
+        <app>
+          <rdg wit="#ft"><seg>May<note type="physical">This word is corrected from “My” (with a former “y” imperfectly erased and a new “y” crowded in)</note></seg> in the Spacious Ayr most &ff;reely &ff;ly</rdg>
+            <rdg wit="#ee">May in the spacious air most freely fly;</rdg>
+            <rdg wit="#ae">May in the Spacious Ayr most Freely Fly</rdg>
+        </app>
+      </l>
+      <l n="57">
+        <app>
+            <rdg wit="#ft">But I aboue my life my Children Love</rdg>
+            <rdg wit="#ee">But I above my life my children love,</rdg>
+          <rdg wit="#ae">But I <seg>aboue<note type="gloss">Though Pulter cannot fly like the birds in her catalogue (the halcyon, swan, or raven) she uses the word “above” to connote that her love for her children is higher than her love for her own life. Each of her chosen birds leaves their nest, thus abandoning their young (as does the ostrich in her next example), while the speaker is in the position of not being able to leave home in order to comfort her own young who are separated from her.</note></seg> my life my Children Love</rdg>
+        </app>
+      </l>
+      <l n="58">
+        <app>
+            <rdg wit="#ft">Yet I to comfort them cannot Remoue</rdg>
+          <rdg wit="#ee">Yet I, to comfort them, <seg>cannot remove<note type="gloss">Pulter may allude to her inability to leave home (“remove”) to visit her children, perhaps because of her illness or the Civil War.</note></seg>.</rdg>
+            <rdg wit="#ae">Yet I to comfort them cannot Remoue</rdg>
+        </app>
+      </l>
+      <l n="59">
+        <app>
+            <rdg wit="#ft">The &ff;oolish Ostridg doth her egs expoſe</rdg>
+          <rdg wit="#ee">The <seg>foolish ostrich<note type="critical">See Job 39:14-15,18: the ostrich “leaveth her eggs in the earth, and warmeth them in dust, And forgetteth that the foot may crush them. … What time she lifteth up herself on high, she scorneth the horse and his rider.”</note></seg> doth her eggs expose</rdg>
+          <rdg wit="#ae">The Foolish <seg>Ostridg<note type="critical">For another treatment of the ostrich, see Pulter’s <ref type="pp-poem-ref" corresp="106">“The Ostrich” (Emblem 41)</ref>.</note></seg> doth her egs expose</rdg>
+        </app>
+      </l>
+      <l n="60">
+        <app>
+            <rdg wit="#ft">To Thouſand dangers er’e they doe diſcloſe</rdg>
+          <rdg wit="#ee">To thousand dangers ere they do <seg>disclose<note type="gloss">hatch</note></seg>,</rdg>
+          <rdg wit="#ae">To Thousand dangers er’e they doe <seg>disclose<note type="gloss">hatch</note></seg></rdg>
+        </app>
+      </l>
+      <l n="61">
+        <app>
+            <rdg wit="#ft">Yet proudly Shee by wind and Wing is boarn</rdg>
+            <rdg wit="#ee">Yet proudly she by wind and wing is born;</rdg>
+            <rdg wit="#ae">Yet proudly Shee by wind and Wing is boarn</rdg>
+        </app>
+      </l>
+      <l n="62">
+        <app>
+            <rdg wit="#ft">The Swiftest Horſ and Rider Shee doth Scorn</rdg>
+            <rdg wit="#ee">The swiftest horse and rider she doth scorn.</rdg>
+          <rdg wit="#ae"><seg>The Swiftest Hors and Rider Shee doth Scorn<note type="critical">See the note in the elemental edition of this poem for the reference to this story in Job 39:13-18. Swan recalls this biblical passage but adds that when the eggs neglected by their mother hatch, “then the males are forced to feed and cherish them.” He continues by comparing those women who will not nurse their children to the ostrich: “So have I seen many mothers refusing to nurse their children; and, if they could, would have others likewise bear them: but putting them forth, I beleeve many perish for want of care and due attendance: for it is not possible that a nurse should have that tender affection which belongs to a mother; and many times, with the nurses milk, the children suck the nurses vices. Necessitie therefore, and a prudent choice, should seek out nurses; as we see it Gen. 21.7” (<title rend="italic">Speculum mundi</title> [1635], p. 394).</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">but</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_164" n="80v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_164"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_164"/>
+            </rdg>
+        </app>
+      <l n="63">
+        <app>
+            <rdg wit="#ft">But I for mine would willingly diſſolve</rdg>
+          <rdg wit="#ee">But I, <seg>for mine<note type="gloss">i.e., for her children</note></seg>, would willingly <seg>dissolve<note type="gloss">die</note></seg>,</rdg>
+          <rdg wit="#ae">But <seg>I for mine would willingly dissolve<note type="critical">The speaker would willingly die for her children. Pulter uses the word “dissolve” and “dissolution” frequently in her verse as alchemical terms that relate to physical death (as, for example, in the title <ref type="pp-poem-ref" corresp="6">“Universal Dissolution” [Poem 6]</ref>).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="64">
+        <app>
+            <rdg wit="#ft">Yet Sad obſcurity doth mee involve</rdg>
+          <rdg wit="#ee">Yet sad obscurity doth me <seg>involve<note type="gloss">envelop, entangle</note></seg>.</rdg>
+          <rdg wit="#ae">Yet Sad obscurity doth mee <seg>involve<note type="gloss">surround or enfold</note></seg></rdg>
+        </app>
+      </l>
+      <l n="65">
+        <app>
+            <rdg wit="#ft">The mild and Tenderhearted Turtle Dove</rdg>
+            <rdg wit="#ee">The mild and tenderhearted turtledove</rdg>
+            <rdg wit="#ae">The mild and Tenderhearted Turtle Dove</rdg>
+        </app>
+      </l>
+      <l n="66">
+        <app>
+            <rdg wit="#ft">That was Soe conſtant to her onely Love</rdg>
+            <rdg wit="#ee">That was so constant to her only love,</rdg>
+            <rdg wit="#ae">That was Soe constant to her onely Love</rdg>
+        </app>
+      </l>
+      <l n="67">
+        <app>
+          <rdg wit="#ft">Though Shee reſolves to haue noe Second <seg>make<note type="physical">This is possibly corrected from “mate”; or “mate” is corrected from “make.”</note></seg></rdg>
+          <rdg wit="#ee">Though she resolves to have no second <seg>make<note type="gloss">mate</note></seg>,</rdg>
+          <rdg wit="#ae">Though Shee resolves to haue noe Second <seg>make<note type="critical"> i.e., mate (the word may have been corrected from “mate” by the scribe, to rhyme with “take” in the next line). The turtle-dove was famously faithful to its mate. For another treatment of the turtle-dove, see Pulter’s <ref type="pp-poem-ref" corresp="85">“This Poor Turtle Dove” (Emblem 20)</ref>.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="68">
+        <app>
+            <rdg wit="#ft">Yet Shee her &ff;lieght ab<add place="below">^</add><add place="above">u</add>ot the Ayr doth take</rdg>
+            <rdg wit="#ee">Yet she her flight about the air doth take;</rdg>
+            <rdg wit="#ae">Yet Shee her Flieght abuot the Ayr doth take</rdg>
+        </app>
+      </l>
+      <l n="69">
+        <app>
+            <rdg wit="#ft">But I that am more conſtant then this Dove</rdg>
+            <rdg wit="#ee">But I, that am more constant than this dove,</rdg>
+            <rdg wit="#ae">But I that am more constant then this Dove</rdg>
+        </app>
+      </l>
+      <l n="70">
+        <app>
+            <rdg wit="#ft">Unto my &ff;irst and last and onely Love</rdg>
+            <rdg wit="#ee">Unto my first and last and only love</rdg>
+          <rdg wit="#ae">Unto <seg>my First and last and onely Love<note type="critical">Pulter is referring to her constancy to her husband but since she predeceased him she cannot be making a direct biographical reference to a refusal to remarry after his death.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="71">
+        <app>
+            <rdg wit="#ft">Cannot from this Sad place (Ay mee) Remove.</rdg>
+            <rdg wit="#ee">Cannot from this sad place (ay me) remove.</rdg>
+            <rdg wit="#ae">Cannot from this Sad place (Ay mee) Remove.</rdg>
+        </app>
+      </l>
+      <l n="72">
+        <app>
+            <rdg wit="#ft">The Cuckow that doth put her egs to Nurs</rdg>
+          <rdg wit="#ee">The <seg>cuckoo<note type="gloss">The cuckoo bird lays its solitary egg in the nest of another bird; the cuckoo baby then devours its foster siblings. See Pliny, <title rend="italic">History of the World</title>, trans. Philemon Holland (London, 1634), 275.</note></seg> that doth put her eggs to nurse,</rdg>
+            <rdg wit="#ae">The Cuckow that doth put her egs to Nurs</rdg>
+        </app>
+      </l>
+      <l n="73">
+        <app>
+            <rdg wit="#ft">Then eats thear &ff;oster Brothers which is worſ</rdg>
+            <rdg wit="#ee">Then eats their foster brothers, which is worse,</rdg>
+          <rdg wit="#ae">Then <seg>eats thear Foster Brothers<note type="critical">The cuckoo’s offspring eats its foster siblings once it has been reared in another bird’s nest. For a description of this behaviour as described in Pliny's <title rend="italic">The historie of the world</title> (1634), p. 275, see <ref target="/poems/ae/why-must-i-forever-be-confined/#good-and-bad-animal-parents" type="new-window-url">“Good and Bad Animal Parents”</ref> in Curations for this poem. The cuckoo was etymologically linked with, and became popularly associated with, the term cuckold, “a derisive name for the husband of an unfaithful wife” (<title rend="italic">OED</title>), but in the popular imagination it is the male cuckoo who deposits its eggs in another bird’s nest, with the implication being that he has impregnated another man’s wife. Shakespeare’s comedy <title rend="italic">Love’s Labour’s Lost</title> ends with the song of the owl and the cuckoo: the refrain for the latter is “The cuckoo then on every tree / Mocks married men; for thus sings he: / ‘Cuckoo! / Cuckoo, cuckoo!’ O, word of fear, / Unpleasing to a married ear” (5.2.886-890, 895-899; edited by H.R. Woudhuysen, Arden edition, third series, Thomas Nelson and Sons, 1998, p. 295). Pulter focuses on the baby cuckoo’s ingratitude, and perhaps also by extension the mother cuckoo’s ingratitude to the family who raises her offspring, rather than the bird’s association with cuckoldry. Swan discusses the cuckoo’s association with both ingratitude and cuckoldry (see <ref target="/poems/ae/why-must-i-forever-be-confined/#good-and-bad-animal-parents" type="new-window-url">“Good and Bad Animal Parents”</ref> in Curations for this poem). For another treatment of the cuckoo, see Pulter’s <ref type="pp-poem-ref" corresp="94">“The Cuckoo” (Emblem 29)</ref>.</note></seg> which is wors</rdg>
+        </app>
+      </l>
+      <l n="74">
+        <app>
+            <rdg wit="#ft">Yet this Curst Embleme of ingratitude</rdg>
+            <rdg wit="#ee">Yet this cursed emblem of ingratitude</rdg>
+            <rdg wit="#ae">Yet this Curst Embleme of ingratitude</rdg>
+        </app>
+      </l>
+      <l n="75">
+        <app>
+            <rdg wit="#ft">Is not like mee inſlavd to Solitude</rdg>
+            <rdg wit="#ee">Is not like me enslaved to solitude.</rdg>
+          <rdg wit="#ae">Is not like mee <seg>inslavd to Solitude<note type="critical">The phrase “enslaved to solitude” again (as in lines 28 and 49) connects the speaker’s suffering with her isolation. In addition, this image of slavery contrasts powerfully with the repeated references to the freedom enjoyed by members of the natural world, no matter how unworthy.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="76">
+        <app>
+            <rdg wit="#ft">All volateeles from the Eagle to the Dove</rdg>
+          <rdg wit="#ee">All <seg>volatiles<note type="gloss">flying creatures</note></seg>, from the eagle to the dove,</rdg>
+          <rdg wit="#ae">All <seg>volateeles<note type="critical">i.e., volatiles: birds. The adjectival form of volatile suggests a relevant connotation to the speaker’s description of the birds (especially the raven, ostrich, and cuckoo): “Readily changing from one interest or mood to another; changeable, fickle; marked or characterized by levity or flightiness” (<title rend="italic">OED</title> B 4).</note></seg> from the Eagle to the Dove</rdg>
+        </app>
+      </l>
+      <l n="77">
+        <app>
+            <rdg wit="#ft">Their &ff;reedome freely both injoy and Love</rdg>
+            <rdg wit="#ee">Their freedom freely both enjoy and love,</rdg>
+            <rdg wit="#ae">Their Freedome freely both injoy and Love</rdg>
+        </app>
+      </l>
+      <l n="78">
+        <app>
+            <rdg wit="#ft">But I noe liberty expect to have</rdg>
+            <rdg wit="#ee">But I no liberty expect to have</rdg>
+            <rdg wit="#ae">But I noe liberty expect to have</rdg>
+        </app>
+      </l>
+      <l n="79">
+        <app>
+            <rdg wit="#ft">Untill I find my ffreedome in my Grave</rdg>
+            <rdg wit="#ee">Until I find my freedom in my grave.</rdg>
+            <rdg wit="#ae">Untill I find my Freedome in my Grave</rdg>
+        </app>
+      </l>
+      <l n="80">
+        <app>
+          <rdg wit="#ft">The <seg>S<del>m</del><add place="above">W</add>iftest<note type="physical">“w” is in a different hand from the main scribe (possibly H2) and blacker ink, directly above a scribbled out “m.”</note></seg> Su, noe Liberty can Lack</rdg>
+          <rdg wit="#ee">The swiftest <seg>su<note type="gloss">Edward Topsell writes “of a wild beast in the new-found world called Su”: “she flyeth very swift, carrying her young ones upon her back.” <title rend="italic">The History of Four-Footed Beasts</title>, p.660</note></seg> no liberty can lack</rdg>
+          <rdg wit="#ae">The Swiftest <seg>Su<note type="critical">The su is a beast supposedly from the New World; for Edward Topsell’s description from <title rend="italic">The historie of foure-footed beastes Describing the true and liuely figure of euery beast, with a discourse of their seuerall names, conditions, kindes, vertues (both naturall and medicinall) countries of their breed, their loue and hate to mankinde, and the wonderfull worke of God in their creation, preseruation, and destruction. Necessary for all diuines and students, because the story of euery beast is amplified with narrations out of Scriptures, fathers, phylosophers, physitians, and poets: wherein are declared diuers hyerogliphicks, emblems, epigrams, and other good histories, collected out of all the volumes of Conradus Gesner, and all other writers to this present day</title> (1607), p. 660, see <ref target="/poems/ae/why-must-i-forever-be-confined/#good-and-bad-animal-parents" type="new-window-url">“Good and Bad Animal Parents”</ref> in Curations. Pulter notes that it carries its offspring on its back, but Topsell’s description includes another detail about its savagery and its maternal devotion: if hunters trap her and her children she will kill them rather than allow them to be taken and tamed.</note></seg>, noe Liberty can Lack</rdg>
+        </app>
+      </l>
+      <l n="81">
+        <app>
+            <rdg wit="#ft">That bears her Spritely ofſpring on her back</rdg>
+            <rdg wit="#ee">That bears her sprightly offspring on her back;</rdg>
+            <rdg wit="#ae">That bears her Spritely ofspring on her back</rdg>
+        </app>
+      </l>
+      <l n="82">
+        <app>
+            <rdg wit="#ft">The Cannibal when Shee the Huntman hears</rdg>
+          <rdg wit="#ee">The <seg>canibal<note type="gloss">Simon Goulart describes the canibal as a small animal which “carrieth her young with her: for along her belly she openeth a bag made of skin … where she hideth them.” <title rend="italic">A Learned Summary Upon the Famous Poem of William of Saluste Lord of Bartas</title> (London, 1621), p.1.265.</note></seg>, when she the huntsman hears,</rdg>
+          <rdg wit="#ae">The <seg>Cannibal<note type="critical">According to Simon Goulart, the canibal is a small animal from the West Indies who hides her offspring in a pouch in her belly (<title rend="italic">A learned summary</title> [1621], p. 265; see <ref target="/poems/ae/why-must-i-forever-be-confined/#good-and-bad-animal-parents" type="new-window-url">“Good and Bad Animal Parents”</ref> in Curations for his description). The first sentence of Goulart’s description locates canibals in the country of Chiurca (possibly the island of Curaçao). Sylvester, in <title rend="italic">Du Bartas his deuine weekes and workes</title>, lists a number of “Fierce and vntameable beasts,” the last of which he particularly fears: “I fear the Beast, bred in the bloody Coast / Of <hi rend="italic">Cannibals</hi>, which thousand times (almost) / Re-whelps her whelps, and in her tender womb, / She doth as oft her living brood re-tomb” ([1611], p. 152). Syntactically, a beast that lives in “the bloody Coast of Cannibals” suggests a beast that lives in the coast populated by human cannibals, but the description of the beast, and the marginal reference to “<hi rend="italic">Chiurcae</hi>,” makes it likely that Sylvester means the fantastical animal called the canibal. For another treatment of the canibal, see Pulter’s <ref type="pp-poem-ref" corresp="76">“The Cunning Canibal” (Emblem 10)</ref>.</note></seg> when Shee the Huntman hears</rdg>
+        </app>
+      </l>
+      <l n="83">
+        <app>
+            <rdg wit="#ft">Her pretty young lings in a Wallet bears</rdg>
+          <rdg wit="#ee">Her pretty younglings in a <seg>wallet<note type="gloss">backpack, pouch</note></seg> bears;</rdg>
+          <rdg wit="#ae">Her pretty young lings in a <seg>Wallet<note type="gloss">bag or pack (i.e., a pouch like a kangaroo’s)</note></seg> bears</rdg>
+        </app>
+      </l>
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">thus</fw>
+        </rdg>
+      </app>
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_165" n="81r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_165"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_165"/>
+        </rdg>
+      </app>
+      <l n="84">
+        <app>
+          <rdg wit="#ft">Thus from Purſuers they are all Secure</rdg>
+          <rdg wit="#ee">Thus from pursuers they are all secure,</rdg>
+          <rdg wit="#ae">Thus from Pursuers they are all Secure</rdg>
+        </app>
+      </l>
+      <l n="85">
+        <app>
+          <rdg wit="#ft">But theſe Sad Shades doth mee Ay mee im̄ure</rdg>
+          <rdg wit="#ee">But <seg>these sad shades<note type="critical">here, seemingly with primary reference to the shade created by the walls of the country house, mentioned above, in which she is “immure[d]”; however, “shade” could also allude to a retired place, sheltered from the world, or to something with only fleeting or unsubstantial existence, such as the visible but impalpable form of a dead person, as well as an inseparable follower or companion</note></seg> doth me (ay me) immure,</rdg>
+          <rdg wit="#ae">But these Sad Shades doth mee Ay mee immure</rdg>
+        </app>
+      </l>
+      <l n="86">
+        <app>
+          <rdg wit="#ft">That I can̄ot aſſist mine in their Sorrow</rdg>
+          <rdg wit="#ee">That I cannot assist <seg>mine<note type="gloss">my children</note></seg> in their sorrow,</rdg>
+          <rdg wit="#ae">That <seg>I cannot assist mine in their Sorrow<note type="critical">The speaker laments that, unlike the su and the canibal, she cannot protect her children from harm. Another beast mentioned in one of the contemporary natural histories who protects her children from harm is the whale. Swan’s <title rend="italic">Speculum mundi</title> (1635), p. 368 notes of the “Balaena” that “it is a fish which shews great love and affection towards her young ones: For when they are little, being faint and weak, she takes them into her mouth to secure them from tempestuous surges; and when the tempest is over, she spues them again out into the sea. A fit embleme this, to teach all sorts of parents either in Church, Commonwealth, or private families, to provide for, and not destroy those under them; as also to secure them from dangers whensoever they arise.” Though Pulter mentions the whale as vast and free (above, ll. 31-32) she does not mention its maternal actions.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="87">
+        <app>
+          <rdg wit="#ft">Which makes mee Sigh &amp; weep both Eve and Morrow</rdg>
+          <rdg wit="#ee">Which makes me sigh and weep both eve and morrow.</rdg>
+          <rdg wit="#ae">Which makes mee Sigh &amp; weep both Eve and Morrow</rdg>
+        </app>
+      </l>
+      <l n="88">
+        <app>
+          <rdg wit="#ft">The Lyon, Tiger, Elaphant, and Bear:</rdg>
+          <rdg wit="#ee">The lion, tiger, elephant, and bear,</rdg>
+          <rdg wit="#ae">The Lyon, Tiger, Elaphant, and Bear:</rdg>
+        </app>
+      </l>
+      <l n="89">
+        <app>
+          <rdg wit="#ft">And Thouſands more, doe noe confinement &ff;ear.</rdg>
+          <rdg wit="#ee">And thousands more, do no confinement fear.</rdg>
+          <rdg wit="#ae">And Thousands more, doe noe confinement Fear.</rdg>
+        </app>
+      </l>
+      <l n="90">
+        <app>
+          <rdg wit="#ft">Thus Beasts, Birds, &ff;iſhes, Equivocall Worm &amp; &ff;ly</rdg>
+          <rdg wit="#ee">Thus beasts, birds, fishes, equivocal worm and fly</rdg>
+          <rdg wit="#ae">Thus <seg>Beasts, Birds, Fishes<note type="critical">Pulter’s taxonomy of creatures in l. 90 (beasts, birds, fishes, worms, and insects) is close but not identical to Pliny’s, whose books eight through eleven in his <title rend="italic">The historie of the world</title> treat land beasts, fish and water creatures, fowl and flying creatures, and small creatures and those that crawl on the ground. In the body of her poem Pulter starts with insects, moves to serpents, then fish, then birds, and finally to land beasts, specifically the su and the canibal (fantastical to us, but possibly not to Pulter), only briefly mentioning others in one line (lion, tiger, elephant, and bear, l. 88).</note></seg>, <seg>Equivocall Worm<note type="critical">equivocal: of uncertain nature; since “equivocal generation” relates to spontaneous generation (“equivocal,” <title rend="italic">OED</title> 3a), and Pulter mentions spontaneously generating reptiles in l. 27, this may be the sense she intends.</note></seg> &amp; Fly</rdg>
+        </app>
+      </l>
+      <l n="91">
+        <app>
+          <rdg wit="#ft">Injoy more liberty (woes mee) then I</rdg>
+          <rdg wit="#ee">Enjoy more liberty (woe’s me!) than I.</rdg>
+          <rdg wit="#ae">Injoy more liberty (<seg>woes mee<note type="gloss"> i.e., woe is me</note></seg>) then I</rdg>
+        </app>
+      </l>
+      <l n="92">
+        <app>
+          <rdg wit="#ft">Wer’t for my God, King, Countrey, or my &ff;reind,</rdg>
+          <rdg wit="#ee"><seg>Wer’t<note type="gloss">Were it</note></seg> for my God, King, country, or my friend,</rdg>
+          <rdg wit="#ae">Wer’t for my God, <seg>King<note type="critical">Pulter’s reference to the king, and her own willingness to suffer a beheading at l. 95, invites us to see a reference to the martyred Charles I, which indicates a date for the poem of after 30 January 1649.</note></seg>, Countrey, or my Freind,</rdg>
+        </app>
+      </l>
+      <l n="93">
+        <app>
+          <rdg wit="#ft">My Love, my Children, twere a Noble End</rdg>
+          <rdg wit="#ee">My love, my children, ’twere a noble end;</rdg>
+          <rdg wit="#ae">My Love, my Children, twere a Noble End</rdg>
+        </app>
+      </l>
+      <l n="94">
+        <app>
+          <rdg wit="#ft">Or wer’t for Sin my guilty Head I wo’d hide</rdg>
+          <rdg wit="#ee">Or wer’t for sin, my guilty head I would hide</rdg>
+          <rdg wit="#ae">Or wer’t for Sin my guilty Head I wo’d hide</rdg>
+        </app>
+      </l>
+      <l n="95">
+        <app>
+          <rdg wit="#ft">And Patiently the Stroke of Death abide</rdg>
+          <rdg wit="#ee">And patiently the stroke of death abide;</rdg>
+          <rdg wit="#ae">And Patiently the Stroke of Death abide</rdg>
+        </app>
+      </l>
+      <l n="96">
+        <app>
+          <rdg wit="#ft">Or wer’t my veniall Slip’s to expiate</rdg>
+          <rdg wit="#ee">Or wer’t my venial slips to <seg>expiate<note type="gloss">atone</note></seg>,</rdg>
+          <rdg wit="#ae">Or wer’t my <seg>veniall<note type="gloss">pardonable, not grave</note></seg> Slip’s to <seg>expiate<note type="gloss">make amends for</note></seg></rdg>
+        </app>
+      </l>
+      <l n="97">
+        <app>
+          <rdg wit="#ft">Then my Restraint would have a happie Date</rdg>
+          <rdg wit="#ee">Then my restraint would have a happy <seg>date<note type="gloss">end</note></seg>;</rdg>
+          <rdg wit="#ae">Then my Restraint would have a happie <seg>Date<note type="gloss">limit or endpoint</note></seg></rdg>
+        </app>
+      </l>
+      <l n="98">
+        <app>
+          <rdg wit="#ft">Or wert for debt I Soon could pay that Score</rdg>
+          <rdg wit="#ee">Or wer’t for debt, I soon could pay that score:</rdg>
+          <rdg wit="#ae">Or <seg>wert for debt I Soon could pay that Score<note type="critical">Pulter here concludes another list (just as she has catalogued creatures whose freedom contrasts cruelly with her restraint) to categorize all the things she would be willing to suffer for: her God, king, country, friend, love, children, sin, atonement for minor mistakes, or debt, presumably in a debtors’ prison (ll. 92-98).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="99">
+        <app>
+          <rdg wit="#ft">But t’is, Oh my Sad Soul, I’le Say noe more</rdg>
+          <rdg wit="#ee">But ’tis, O my sad soul–I’ll say no more.</rdg>
+          <rdg wit="#ae">But <seg>t’is, Oh my Sad Soul, I’le, Say noe more<note type="gloss"> In this unfinished statement she refuses to state the precise reason for her imprisonment.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="100">
+        <app>
+          <rdg wit="#ft">To God alone my Suffrings Il’e <seg>deplore<note type="physical">The final three lines are enclosed by a curving bracket on the right.</note></seg>.</rdg>
+          <rdg wit="#ee">To God alone my suff’rings I’ll <seg>deplore<note type="physical">rhyming triplet precedes gap on manuscript page before final lines.</note></seg>.</rdg>
+          <rdg wit="#ae"><seg>To God alone my Suffrings Il’e deplore.<note type="critical">The couplet rhyme scheme of this poem is altered so that the last three lines rhyme as a triplet, which is accentuated by the curved bracket on their right. There is a space in the manuscript between lines 100 and 101, inviting us to see the following poem or section as a postscript.</note></seg></rdg>
+        </app>
+      </l>
+      <lg><l n="101">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">For I no liberty expect to see</rdg>
+          <rdg wit="#ae">For I noe Liberty expect to See</rdg>
+        </app>
+      </l>
+      <l n="102">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">Until to <seg>atoms<note type="gloss">in ancient Greek philosophy, hypothetical particles, minute and indivisible, held as ultimate particles of matter; in emergent scientific theories in the seventeenth century, each of the particles of which matter is ultimately composed</note></seg> I disperséd be;</rdg>
+          <rdg wit="#ae">Untill to <seg>Atoms<note type="gloss">Atoms are indivisible particles from which matter is composed.</note></seg> I dispersed bee</rdg>
+        </app>
+      </l>
+      <l n="103">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">Then, being <seg>enfranchised<note type="gloss">freed from confinement or subjection</note></seg>, free as my verse,</rdg>
+          <rdg wit="#ae">Then <seg>beeing infranchis’d<note type="critical">Pulter writes about her freed or “enfranchised” soul or spirit ultimately returning to heaven in several poems, such as <ref type="pp-poem-ref" corresp="39">“The Perfection of Patience and Knowledge” (Poem 39)</ref>, ll. 16-20.</note></seg> Free as my Verse</rdg>
+        </app>
+      </l>
+      <l n="104">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">I shall surround this spacious universe,</rdg>
+          <rdg wit="#ae">I Shall Surround this Spacious Universe</rdg>
+        </app>
+      </l>
+      <l n="105">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">Until, by other atoms thrust and hurled,</rdg>
+          <rdg wit="#ae">Untill by other Atoms thrust and hurl’d</rdg>
+        </app>
+      </l>
+      <l n="106">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee">We give a being to another world.</rdg>
+          <rdg wit="#ae"><seg>Wee give a beeing to a nother World.<note type="critical">Pulter’s suggestion that atoms may form into another world recalls the speculation about alternate worlds in some of Margaret Cavendish’s poetry, such as “Of many Worlds in this World,” “A World in an Eare-Ring,” and “Severall Worlds in severall Circles” (<title rend="italic">Poems, and fancies</title> [1653], pp. 44-46; see <ref target="/poems/ae/why-must-i-forever-be-confined/#speculations-about-multiple-worlds" type="new-window-url">“Speculations about Multiple Worlds”</ref> in Curations for the first of these poems).</note></seg></rdg>
+        </app>
+      </l></lg>
+    </body>
+  </text>
 </TEI>
