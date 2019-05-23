@@ -2380,6 +2380,40 @@
     </pp:poem>
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
+      <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords></pp:keywords>
+      <pp:tags></pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="creatures-venomous-and-offensive-to-man">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>“Creatures venomous, and offensive to man”</pp:title>
+          <pp:peek>The basilisk, dipsas, and amphisbaena all figure in Josuah Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148-149 of his translation _Du Bartas his deuine weekes and workes_ of 1611).</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="good-and-bad-animal-parents">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Good and Bad Animal Parents</pp:title>
+          <pp:peek>Pulter was evidently interested in natural historians’ depictions of parents in the animal world. According to Simon Goulart, the male bird of paradise (or manucode) had a hollow back in which the female bird placed her eggs.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="speculations-about-multiple-worlds">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Speculations about Multiple Worlds</pp:title>
+          <pp:peek>Pulter writes of being dispersed into atoms upon her death in her six-line coda to “Why Must I Thus Forever Be Confined” (Poem 57). These atoms would surround the universe, be buffeted by other atoms, and then reform to constitute another world.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="versifying-captivity">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Versifying Captivity</pp:title>
+          <pp:peek>Many poets of the early modern period contemplated captivity. In the poems below, a female poet writes on friendship and captivity, and a male poet on love and captivity.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="58" type="pseudo">
       <pp:title>For I No Liberty Expect To See</pp:title>
