@@ -2990,7 +2990,8 @@
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
-      <pp:firstLine>Who can but pity this poor turtledoveF</pp:firstLine>
+      <pp:firstLine>Who can but pity this poor turtledove</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3277,6 +3278,7 @@
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
       <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
