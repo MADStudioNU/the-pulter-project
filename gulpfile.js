@@ -69,19 +69,19 @@ function getJSRedirectString(url, ignoreHash) {
 }
 
 /* DEV Tasks */
-gulp.task('browserSync', function () {
+gulp.task('browserSync', function (cb) {
   browserSync.init({
     server: {
       baseDir: SITE_BASE
     },
     options: {
-      reloadDelay: 250
+      reloadDelay: 200
     },
-    notify: false,
+    notify: true,
     logLevel: 'debug',
     logConnections: true,
     reloadDebounce: 200
-  });
+  }, cb);
 });
 
 gulp.task('images-deploy', function () {
@@ -246,11 +246,11 @@ gulp.task('default',
     'vendor-scripts',
     'scripts',
     'styles', function () {
-    gulp.watch(SITE_BASE + 'scripts/src/**', gulp.parallel(['scripts']));
-    gulp.watch(SITE_BASE + 'styles/scss/**', gulp.parallel(['styles']));
-    gulp.watch(SITE_BASE + 'versioning-machine/**/*.css').on('change', browserSync.reload);
-    gulp.watch(SITE_BASE + '**/*.html', gulp.parallel(['html']));
-  })
+      gulp.watch(SITE_BASE + 'scripts/src/**', gulp.series('scripts'));
+      gulp.watch(SITE_BASE + 'styles/scss/**', gulp.series('styles'));
+      gulp.watch(SITE_BASE + 'versioning-machine/**/*.css').on('change', browserSync.reload);
+      gulp.watch(SITE_BASE + '**/*.html', gulp.series('html'));
+    })
 );
 
 gulp.task('deploy', gulp.series('clean', gulp.parallel('vendor-scripts-deploy', 'scripts-deploy', 'styles-deploy', 'images-deploy'), 'files-deploy', (done) => {
