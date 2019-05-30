@@ -724,7 +724,7 @@ var PP = (function ($) {
               },
               showTheMilestones = {
                 targets: '.milestone',
-                offset: '-=2200',
+                offset: '-=1950',
                 opacity: {
                   value: [0, .5],
                   duration: 600

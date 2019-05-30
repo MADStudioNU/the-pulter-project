@@ -578,13 +578,15 @@ $globalBorderRadius: 2px;
 
         // Various milestones
         .milestone {
+          opacity: 0;
+
           &.left-gutter {
             height: 0;
             overflow: visible;
             display: inline-block;
             font-family: $pp_originalFont;
-            font-style: italic;
-            opacity: .5;
+            //font-style: italic;
+            font-size: ms(4);
 
             @include breakpoint(mobile) {
               height: auto;
