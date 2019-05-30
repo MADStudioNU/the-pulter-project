@@ -785,7 +785,7 @@ var PP = (function ($) {
               openSpeed: 400,
               closeSpeed: 200,
               otherClose: '.dismiss',
-              loading: '<p class="lato spinner">Loading the curation...</p>',
+              loading: '<p class="lato spinner">Loading the curation…</p>',
               beforeOpen: function () {
                 if (curationHash) {
                   window.location.hash = curationHash;
