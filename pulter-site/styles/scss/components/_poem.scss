@@ -585,8 +585,7 @@ $globalBorderRadius: 2px;
             overflow: visible;
             display: inline-block;
             font-family: $pp_originalFont;
-            //font-style: italic;
-            font-size: ms(4);
+            font-style: italic;
 
             @include breakpoint(mobile) {
               height: auto;
