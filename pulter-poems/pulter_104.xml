@@ -1,3 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.104">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Dolphin (Emblem 39)</title>
+        <title type="sub">Poem #104</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_237.jpg" xml:id="f7610_237"/>
+      <graphic url="./document_images/7610_238.jpg" xml:id="f7610_238"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_237" n="117r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_237"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_237"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 39]</rdg>
+            <rdg wit="#ee">The Dolphin (Emblem 39)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">Idle hands do the devil’s work, goes the proverb—but in Pulter’s admiring vision, dolphins, hands-free, toil joyfully on the side of angels. Drawing on intersecting tales from ancient myths and natural history, this poem celebrates dolphins as effective panders, fisherfolk, and chauffeurs, not to mention as loyal subjects in their own society and friends to humankind. The sheer length of this catalogue suggests the deliberately active life that the poem idealizes in humans as in dolphins. If these creatures can subsist as perpetual-motion machines, then people (endowed with reason) are exhorted to measure up to their activity, or exceed it. At the very least, they should avoid the deadly sloth the speaker castigates in her peers.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">All Creatures then the Dolphin are more Slow</rdg>
+          <rdg wit="#ee"><seg>All creatures than the dolphin are more slow<note type="critical">The idea that the dolphin was the speediest creature was promulgated by the ancient natural historian Pliny, whose ideas were circulating in English in Pulter’s time: “The swiftest of all other living creatures whatsoever, and not of sea-fish only, is the dolphin” (Pliny the Elder, trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Below &ff;air Cinthia (Neptune this did Know)</rdg>
+          <rdg wit="#ee"><seg>Below fair Cynthia<note type="gloss">Cynthia is an epithet for the moon (from the name of the classical goddess); the sense of the poem’s first line and a half is that, beneath the moon (thus, on earth), all creatures are slower than the dolphin.</note></seg>: <seg>Neptune<note type="gloss">classical god of the sea</note></seg> this did know.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">When lovly Amphitrite whoſe Splendent &ff;ame</rdg>
+          <rdg wit="#ee">When lovely <seg>Amphitrite<note type="gloss">classical sea goddess</note></seg>, whose <seg>splendent<note type="gloss">brilliant, gleaming</note></seg> <seg>fame<note type="gloss">reputation, renown</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Had kindled in his Breast a quenchles &ff;lame</rdg>
+            <rdg wit="#ee">Had kindled in his breast a quenchless flame,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Hee was his Spokesman to this daintie Doxie</rdg>
+          <rdg wit="#ee"><seg>He<note type="gloss">The dolphin</note></seg> was <seg>his<note type="gloss">Neptune’s</note></seg> spokesman to this <seg>dainty<note type="gloss">handsome; choice; delightful; precious; delicately beautiful; fastidious; scrupulous; reluctant</note></seg> <seg>doxy<note type="gloss">slang for mistress, paramour, prostitute</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Who Woo’d and won and Marry’d her by Proxie</rdg>
+          <rdg wit="#ee">Who wooed and won and <seg>married her by proxy<note type="critical">When Amphitrite proved reluctant to Neptune’s wooing, she “was brought to him by a dolphin, and made queen of the sea” (Edward Phillips, <title rend="italic">The New World of English Words</title> [London, 1652], sig. B4r). Sources differ as to whether Delphin, the dolphin-shaped sea god, persuaded or seized her on Neptune’s behalf; either approach might be what is figured here as marriage by proxy. Aaron J. Atsma, “Delphin,” <ref target="https://www.theoi.com/Ther/Delphin.html"><title rend="italic">Theoi Project</title></ref>.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Into her Wavie Bed hee &ff;lackd his Tayl</rdg>
+          <rdg wit="#ee">Into her wavy bed he <seg>flacked<note type="gloss">flapped</note></seg> his tail;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The Contract in noe Circumſtance did &ff;ayl</rdg>
+            <rdg wit="#ee">The contract in no circumstance did fail,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Yet would hee not the Royall Virgin leave</rdg>
+            <rdg wit="#ee">Yet would he not the royal virgin leave,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Least Some affront his Soveraign Should Receive</rdg>
+            <rdg wit="#ee">Lest some affront his sovereign should receive:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft">Like <seg><add place="above">x</add><note type="physical">in left margin: “<add place="above">x</add> My Lord Veru: / his Hist: of Hen: / <w lemma="the"><abbr>y:<hi rend="superscript">e</hi></abbr></w> 7.<hi rend="superscript">th</hi> &ff;ol: 80”; ascending line beneath</note></seg>Maximillian who did Brittain Wed</rdg>
+          <rdg wit="#ee">Like <seg>Maximilian<note type="critical">A note in the margin refers us to Francis Bacon’s <title rend="italic">History of the Reign of King Henry the Seventh</title> (London, 1629), “fol. 80,” where one finds an account the 1490 marriage of the Holy Roman Emperor, Maximilian I, to Anne of Brittany: “the marriage was consummate[d] by proxy, with a ceremony at that time in these parts new. For she was not only publicly contracted, but stated as a bride, and solemnly bedded; and after see was laid, there came in Maximilian’s ambassador with letters of procuration, and in the presence of sundry noble personages, men and women, put his leg (stripped naked to the knee) between the espousal sheets; to the end, that that ceremony might be thought to amount to a consummation.”</note></seg>, who did Britain wed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">With putting one bare leg into her Bed</rdg>
+            <rdg wit="#ee">With putting one bare leg into her bed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">King Charles too Nimble was for this Slow --</rdg>
+          <rdg wit="#ee">King Charles too nimble was for this slow <seg>___:<note type="critical">In place of the final word (likely, “ass”), a dotted line appears in the manuscript.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Himſelfe did wed, and Bed this Princely Laſs</rdg>
+          <rdg wit="#ee"><seg>Himself did wed and bed this princely lass.<note type="critical">The French King Charles VIII, named in the previous line, managed to marry Anne of Brittany upon “finding that this pretended consummation [of Anne and Maximilian, referred to three lines earlier] was rather an invention of court, than any ways valid by the laws of the church … and therefore it was void, and of no force” (Francis Bacon’s <title rend="italic">History of the Reign of King Henry the Seventh</title> [London, 1629], p. 80).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">The Dolphin Wiſer was then this great King</rdg>
+          <rdg wit="#ee">The dolphin wiser was than <seg>this great king<note type="gloss">The reference appears to be not to King Charles but to the Emperor Maximilian.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">&ff;or hee the Slipprie Virgin home did bring</rdg>
+            <rdg wit="#ee">For he the slippery virgin home did bring.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">This Active &ff;iſh <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> &ff;iſhermen will Joyn</rdg>
+          <rdg wit="#ee"><seg>This active fish with fishermen will join<note type="critical">On dolphins “assist[ing men] in their fishing,” see Pliny the Elder (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 240).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">In Catching Mullets, Sops and Spritely Wine</rdg>
+            <rdg wit="#ee">In catching mullets; sops and spritely wine</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">They have for pay, noe love to Man they lack</rdg>
+          <rdg wit="#ee">They have for pay. <seg>No love to man they lack<note type="critical">“The dolphin is a creature that carries a loving affection … unto man” (Pliny the Elder, trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">&ff;or Muſicall Orion on the Back</rdg>
+          <rdg wit="#ee">For musical <seg>Arion<note type="gloss">legendary ancient Greek poet and musician thrown into the sea by sailors but rescued by a dolphin</note></seg> on the back</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Of Dolphins Rod, Soe did two Pretty Boys</rdg>
+          <rdg wit="#ee">Of dolphins rode; so did <seg>two pretty boys<note type="critical">Stories of dolphins being fond of boys had long been in circulation; some are gathered by Pliny the Elder (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 239).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Some that Are Ridged count theſe vertues toys</rdg>
+            <rdg wit="#ee">Some that are rigid count these virtues toys.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">This &ff;iſh is Still in Motion till hee dies</rdg>
+            <rdg wit="#ee">This fish is still in motion till he dies,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">&ff;or though hee Sleeps yet Still hee never lies</rdg>
+          <rdg wit="#ee">For <seg>though he sleeps yet still he never lies<note type="critical">While Pulter’s source on this claim is not clear, modern science confirms that dolphins can “sleep while swimming slowly next to another animal” and that a mother dolphin “cannot stop swimming for the first several weeks of a newborn’s life,” since it will drown if she does (Bruce Hecker, <ref target="https://www.scientificamerican.com/article/how-do-whales-and-dolphin/">“How do Whales and Dolphins Sleep Without Drowning?”</ref> <title rend="italic">Scientific American</title>).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">But Sinks into the bottome of the Main</rdg>
+          <rdg wit="#ee">But sinks into the bottom of the <seg>main<note type="gloss">open sea</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Then Wakes and Springs up to the top again</rdg>
+          <rdg wit="#ee">Then wakes and <seg>springs up to the top again<note type="gloss">Pulter here again draws on Pliny the Elder’s account (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">hee’s</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_238" n="117v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_238"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_238"/>
+            </rdg>
+        </app>
+      <l n="27">
+        <app>
+          <rdg wit="#ft">Hee’s true <seg>to’s<note type="physical">in darker ink, possibly different hand from main scribe</note></seg> King, his Int’rest, and his end.</rdg>
+          <rdg wit="#ee">He’s true <seg>to’s<note type="gloss">to his</note></seg> <seg>king<note type="critical">Pliny the Elder is again Pulter’s source for the idea that “dolphins have a kind of commonwealth and public society among themselves” (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 240).</note></seg>, his <seg>int’rest<note type="gloss">right, title; benefit, profit</note></seg>, and his <seg>end<note type="gloss">purpose; ultimate state or condition</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">True to ungratefull man, himſelfe his freind</rdg>
+            <rdg wit="#ee">True to ungrateful man, himself his friend.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">By all theſe Circumſtances you may See</rdg>
+            <rdg wit="#ee">By all these circumstances you may see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">None but the Active Man a &ff;riend can bee</rdg>
+            <rdg wit="#ee">None but the active man a friend can be.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Thoſe that have Reaſon, and yet Idle bie</rdg>
+            <rdg wit="#ee">Those that have reason, and yet idle by,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Doe Just like Hogs noe good untill they Die</rdg>
+            <rdg wit="#ee">Do just like hogs, no good until they die.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Then think on Titus who would always Say</rdg>
+          <rdg wit="#ee">Then think on <seg>Titus<note type="critical">Titus Flavius Vespasianus, Roman emperor 79–81, “calling to mind one time as he sat at supper, that he had done nothing for any man that day, he uttered this memorable and praiseworthy apophthegm, ‘My friends, I have lost a day’” (Suetonius, <title rend="italic">The History of Twelve Caesars</title>, trans. Philemon Holland [London, 1606]. p. 256</note></seg>, who would always say,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">When hee had done none good, I have lost this day</rdg>
+            <rdg wit="#ee">When he had done none good, “I have lost this day.”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Remember Draco, Sure that Law was good</rdg>
+          <rdg wit="#ee">Remember <seg>Draco<note type="gloss">Athenian legislator (7th century BCE) notorious for imposing severe laws, with the death penalty even for trivial crimes (hence the adjective “draconian”).</note></seg>, sure that law was good,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">&ff;or Mother Idlenes was writ in Blood</rdg>
+          <rdg wit="#ee">For <seg>mother idleness was writ in blood<note type="gloss">Idleness was seen proverbially as the mother of all vice or sin. The idea expressed in this line is that such idleness (and thus vice) is inherent in human nature (“writ in blood”).</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Should hee Reform our villages and Towns</rdg>
+            <rdg wit="#ee">Should he reform our villages and towns,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Wee ſhould have Empty houſes &amp; larg Grounds</rdg>
+            <rdg wit="#ee">We should have empty houses and large grounds.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">That Law would take away (I fear) more lives</rdg>
+            <rdg wit="#ee">That law would take away (I fear) more lives</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">Of Countrey Gentlemen, and Cittizens Wives</rdg>
+            <rdg wit="#ee">Of country gentlemen, and citizens’ wives,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Then of the Natives Blood <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Spaniards Spil’d</rdg>
+          <rdg wit="#ee">Than of the <seg>natives’ blood the Spaniards spilled<note type="critical">Eardley notes this is a reference to colonial Spanish massacres of native peoples in South America, perhaps known to Pulter thanks to popular Protestant and anti-Spanish polemics.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">Or in theſe times our Seeking Saints have Kil’d</rdg>
+          <rdg wit="#ee">Or in these times <seg>our seeking saints<note type="critical">Pulter appears to characterize “saints” pejoratively here, likely in reference to the Puritanical (Calvinistic) opposition to her Royalist politics: this sect often referred to God’s chosen people (the elect) as saints; here, “seeking” likely means harassing or persecuting.</note></seg> have killed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">Then doe Some good whilst Light and Life have</rdg>
+            <rdg wit="#ee">Then do some good whilst light and life have;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">The Idle Man Anticipates the Grave.</rdg>
+            <rdg wit="#ee">The idle man anticipates the grave.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

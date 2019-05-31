@@ -1,3 +1,381 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.101">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Doves and Pearls (Emblem 36)</title>
+        <title type="sub">Poem #101</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_232.jpg" xml:id="f7610_232"/>
+      <graphic url="./document_images/7610_233.jpg" xml:id="f7610_233"/>
+
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_232" n="114v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_232"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_232"/>
+        </rdg>
+      </app>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 36]</rdg>
+            <rdg wit="#ee">Doves and Pearls (Emblem 36)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Come my Dear Pledges of our Conſtant Loves</rdg>
+          <rdg wit="#ee">Come, my dear <seg>pledges<note type="gloss">signs or tokens of favor, loyalty, love, or as guarantee; here, children as evidence of mutual love and duty between parents</note></seg> of our constant loves:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Come look upon theſe pretty innocent Doves</rdg>
+            <rdg wit="#ee">Come look upon these pretty, innocent doves!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">See how they Swallow Orient Pearls like Peas</rdg>
+          <rdg wit="#ee"><seg>See how they swallow orient pearls like peas:<note type="critical">The speaker instructs her children to observe doves eating pearls (which were sometimes considered medicinal). The source of this claim is not known; too late as a source for Pulter, but relatively contemporary, is a passing reference to “A cloudy pearl in a dove’s paunch,” in Robert Dixon’s <title rend="italic">Canidia, or, The Witches</title> (London, 1683), p. 208. Orient pearls are from the seas around India, versus those of less beauty in European mussels; generally, the phrase signifies a brilliant or precious pearl.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">A Cordiall which our greatest faintings Eas</rdg>
+          <rdg wit="#ee">A <seg>cordial<note type="gloss">medicine</note></seg> which our greatest faintings ease;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">And with their lives e’re with theſe Pearls the’l part</rdg>
+          <rdg wit="#ee">And with their lives <seg>ere<note type="gloss">before</note></seg> with these pearls they’ll part:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Soe treaſure Sacred truths within <w lemma="your"><abbr>yo<hi rend="superscript">r</hi>:</abbr></w> heart</rdg>
+            <rdg wit="#ee">So treasure sacred truths within your heart.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Though Tyrant Lapidaries Shew their Spight</rdg>
+          <rdg wit="#ee">Though tyrant <seg>lapidaries<note type="gloss">workers who cut, polish, set, and sell gems</note></seg> show their spite,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Your graces like theſe pearles will Shine more bright</rdg>
+            <rdg wit="#ee">Your graces, like these pearls, will shine more bright.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Deſpair not though you at their mercie lie</rdg>
+            <rdg wit="#ee">Despair not, though you at their mercy lie:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Your vertues live although your bodys die</rdg>
+          <rdg wit="#ee">Your <seg>virtues<note type="gloss">meaning not only morally good qualities but, in a medicinal context, strengthening or healing powers</note></seg> live, although your bodies die.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Then if you will in glory live above</rdg>
+            <rdg wit="#ee">Then, if you will in glory live above,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Like theſe white Doves thoſe bleſſed Unions Love</rdg>
+            <rdg wit="#ee">Like these white doves, those blesséd unions love;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">But Shun thoſe people which are like thoſe Swine</rdg>
+            <rdg wit="#ee">But shun those people which are like those swine</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Which at Gods word and Ministers Repine</rdg>
+          <rdg wit="#ee">Which at God’s word and minister’s <seg>repine<note type="gloss">grumble, complain</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Throw them the choicest Orient Pearls you have</rdg>
+            <rdg wit="#ee">Throw them the choicest orient pearls you have,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">They’ll trample’m in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> dirt and Ramp &amp; Rave</rdg>
+          <rdg wit="#ee">They’ll trample’m in the dirt and <seg>ramp<note type="gloss">rear on the hind legs; act in a furious, threatening way; rush about wildly; (of a woman) behave immodestly</note></seg> and rave;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">And when you think their malice at an end</rdg>
+            <rdg wit="#ee">And when you think their malice at an end,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">If God Restrain not they’ll <w lemma="your"><abbr>yo:<hi rend="superscript">r</hi></abbr></w> bowels Rend</rdg>
+          <rdg wit="#ee">If God restrain not, they’ll your bowels <seg>rend<note type="gloss">See Matthew 7:6: “Give not that which is holy unto the dogs, neither cast ye your pearls before swine, lest they trample them under their feet, and turn again and rend you” (“rend” meaning tear or wound).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Of theſe the Bore God’s vinyards that destroy</rdg>
+          <rdg wit="#ee">Of these, the <seg>boar God’s vineyards<note type="gloss">See Psalms 80:8-13: “Thou hast brought a vine out of Egypt: ... The boar out of the wood doth waste it.”</note></seg> <seg>that<note type="gloss">did</note></seg> destroy</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">And with their &ff;ilth his Sacred Phane Annoy</rdg>
+          <rdg wit="#ee">And with their filth his sacred <seg>fane<note type="gloss">temple</note></seg> annoy.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Soe mad Antiochus the Temple Stain’d</rdg>
+          <rdg wit="#ee"><seg>So mad Antiochus the temple stained;<note type="gloss">Antiochus Epiphanes, King of Syria, in 169 BCE defiled Jerusalem’s Temple.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">Even Soe our <seg>Janizaries<note type="physical">“i” appears adapted from second part of earlier “m”, and “z” to be written over another letter, perhaps “a”</note></seg> Po’les prophan’d</rdg>
+          <rdg wit="#ee">Even so <seg>our janizaries Paul’s prophaned<note type="gloss">Janizaries were Turkish soldiers, here identified with parliamentarians in England’s civil wars; “Paul’s” is St. Paul’s Cathedral, which had long been a resort for gossips, idlers, and disreputable people, and in the wars parliamentarians turned parts of it into cavalry barracks.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">making</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_233" n="115r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_233"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_233"/>
+            </rdg>
+        </app>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Makeing the Church a Stable and a Stews</rdg>
+          <rdg wit="#ee">Making the church a stable and a <seg>stews<note type="gloss">brothel</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">The while impriſoning Nobles in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Mews</rdg>
+          <rdg wit="#ee">The while <seg>imprisoning nobles in the mews<note type="critical">royal stables in London; Eardley cites a pamphlet claiming 4,500 royalists were jailed there after defeat at the Battle of Naseby. See <title rend="italic">The Manner How the Prisoners Are to Be Brought Into the City of London</title> (London, 1645), A4v.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">The greatest Mirackle our Saviour wrought</rdg>
+            <rdg wit="#ee">The greatest miracle our Savior wrought</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Was when he Scourg’d out thoſe <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> Sould &amp; bought.</rdg>
+          <rdg wit="#ee">Was when he <seg>scourged<note type="gloss">drove by force</note></seg> out <seg>those which sold and bought<note type="gloss">See Matthew 21:12: “Jesus went into the temple of God, and cast out all them that sold and bought in the temple, and overthrew the tables of the moneychangers, and the seats of them that sold doves …”</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curled-line"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
