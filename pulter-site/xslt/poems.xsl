@@ -3018,7 +3018,20 @@
         <pp:keyword>food</pp:keyword>
         <pp:keyword>prayer</pp:keyword>
       </pp:keywords>
-      <!--<pp:tags></pp:tags>-->
+      <pp:tags>
+        <pp:tag>chastity</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>family</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>poetry</pp:tag>
+        <pp:tag>death</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-devoted-turtledove">
           <pp:author>Elizabeth Zeman Kolkovich</pp:author>
