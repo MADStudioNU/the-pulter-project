@@ -57,7 +57,7 @@ $globalBorderRadius: 2px;
             display: none !important;
           }
 
-          form input[type=text] {
+          input[type=text] {
             width: 13em;
             border-color: rgba($pp_manuscriptPaper, .2);
             background: #111;
@@ -303,7 +303,6 @@ $globalBorderRadius: 2px;
         padding-top: 9em;
         padding-bottom: 1em;
         padding-left: $leftGutter;
-        border-radius: 2px 2px 0 0;
         position: relative;
         background: #fff;
         overflow: hidden;
@@ -435,6 +434,11 @@ $globalBorderRadius: 2px;
               &:hover {
                 background: lighten($pp_manuscriptPaper, 15%);
               }
+            }
+
+            .pp-curations-ref {
+              font-weight: bold;
+              color: #fff;
             }
           }
 
@@ -579,13 +583,14 @@ $globalBorderRadius: 2px;
 
         // Various milestones
         .milestone {
+          opacity: 0;
+
           &.left-gutter {
             height: 0;
             overflow: visible;
             display: inline-block;
             font-family: $pp_originalFont;
             font-style: italic;
-            opacity: .5;
 
             @include breakpoint(mobile) {
               height: auto;

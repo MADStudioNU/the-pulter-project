@@ -24,13 +24,3 @@ You should have the following terminal commands available:
 * `gulp xslt:lunr` — builds the search functionality
 * `gulp xslt` — runs all the commands from `xslt` namespace; re-compiles the whole site;
 * `gulp deploy` — builds a production version of the site and puts it in `/dist`.
-
-### Continuous Integration
-_TBA_
-
-### Where Are All the Images?
-[Here](https://northwestern.box.com/s/j1s1l3r6uh3s4xlarzr2e3neo4utkl4o). There are two folders in the .zip archive:
-* `facs` — high-resolution manuscript facsimiles and their smaller previews;
-* `headnote-posters` — the collection of artwork to decorate individual poem pages. 
-
-Download them and drop into `/pulter-site/images`.

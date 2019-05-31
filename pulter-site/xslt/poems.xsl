@@ -86,6 +86,16 @@
           <pp:title>Talking to Death</pp:title>
           <pp:peek>In “The Eclipse,” the speaker directly addresses God, using apostrophe to animate Death itself. The speaker’s warning that Death has been conquered by God (specifically, as the last stanza specifies, through Christ’s blood sacrifice) echoes John Donne, “Holy Sonnet” X:</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="black-monday-1652">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Black Monday (1652)</pp:title>
+          <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="eclipse-literature">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Eclipse Literature</pp:title>
+          <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="2">
@@ -732,6 +742,13 @@
     </pp:poem>
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
+      <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
@@ -1054,6 +1071,13 @@
     </pp:poem>
     <pp:poem id="23">
       <pp:title>To Astraea</pp:title>
+      <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
@@ -1143,6 +1167,13 @@
     </pp:poem>
     <pp:poem id="26">
       <pp:title>To Aurora [2]</pp:title>
+      <pp:firstLine>Look up, sad eyes, behold the smiling morn</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King's Most Excellent Majesty </pp:title>
@@ -1196,6 +1227,58 @@
     </pp:poem>
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
+      <pp:firstLine>O that the splendent and illustrious sun</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--        <pp:author>Leah Knight</pp:author>-->
+<!--        <pp:author>Wendy Wall</pp:author>-->
+<!--      </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Elizabeth Scott-Baumann</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+        <pp:keyword>trees</pp:keyword>
+        <pp:keyword>day</pp:keyword>
+        <pp:keyword>night</pp:keyword>
+        <pp:keyword>praise</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>sexuaity</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>creation</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>astrology</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>sexuaity</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>confinement</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="31">
       <pp:title>Made When I Was Sick, 1647</pp:title>
@@ -1329,15 +1412,15 @@
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
       <pp:firstLine>Why doth pale thus her beauty shroud?</pp:firstLine>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Frances E. Dolan</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:curations>
         <pp:curation status="on" hash="an-assize-sermon">
           <pp:author>Frances E. Dolan</pp:author>
@@ -1584,15 +1667,15 @@
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
       <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
       <pp:poster/>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Liza Blake</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:keywords>
         <pp:keyword>reproduction</pp:keyword>
         <pp:keyword>soul/body</pp:keyword>
@@ -1612,12 +1695,34 @@
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
+      <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements</pp:title>
+      <pp:firstLine>Have patience, my afflicted soul</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="42">
       <pp:title>Pardon Me, My Dearest Love</pp:title>
+      <pp:firstLine>Pardon me, my dearest love</pp:firstLine>
+      <pp:poster/>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="43">
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
@@ -1756,6 +1861,13 @@
     </pp:poem>
     <pp:poem id="45">
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
+      <pp:firstLine>Sad, sick, and lame, as in my bed I lay</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
@@ -2278,6 +2390,40 @@
     </pp:poem>
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
+      <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Victoria E. Burke</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+<!--      <pp:keywords></pp:keywords>-->
+<!--      <pp:tags></pp:tags>-->
+      <pp:curations>
+        <pp:curation status="on" hash="creatures-venomous-and-offensive-to-man">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>“Creatures venomous, and offensive to man”</pp:title>
+          <pp:peek>The basilisk, dipsas, and amphisbaena all figure in Josuah Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148-149 of his translation _Du Bartas his deuine weekes and workes_ of 1611).</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="good-and-bad-animal-parents">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Good and Bad Animal Parents</pp:title>
+          <pp:peek>Pulter was evidently interested in natural historians’ depictions of parents in the animal world. According to Simon Goulart, the male bird of paradise (or manucode) had a hollow back in which the female bird placed her eggs.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="speculations-about-multiple-worlds">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Speculations about Multiple Worlds</pp:title>
+          <pp:peek>Pulter writes of being dispersed into atoms upon her death in her six-line coda to “Why Must I Thus Forever Be Confined” (Poem 57). These atoms would surround the universe, be buffeted by other atoms, and then reform to constitute another world.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="versifying-captivity">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Versifying Captivity</pp:title>
+          <pp:peek>Many poets of the early modern period contemplated captivity. In the poems below, a female poet writes on friendship and captivity, and a male poet on love and captivity.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="58" type="pseudo">
       <pp:title>For I No Liberty Expect To See</pp:title>
@@ -2584,6 +2730,17 @@
     </pp:poem>
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
+      <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
@@ -2593,6 +2750,17 @@
     </pp:poem>
     <pp:poem id="70">
       <pp:title>Virtue's Duel (Emblem 4)</pp:title>
+      <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
@@ -2822,16 +2990,17 @@
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
-      <pp:firstLine>Who can but pity this poor turtledoveF</pp:firstLine>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Elizabeth Kolkovich</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+      <pp:firstLine>Who can but pity this poor turtledove</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>London</pp:keyword>
         <pp:keyword>love</pp:keyword>
@@ -2849,7 +3018,20 @@
         <pp:keyword>food</pp:keyword>
         <pp:keyword>prayer</pp:keyword>
       </pp:keywords>
-      <!--<pp:tags></pp:tags>-->
+      <pp:tags>
+        <pp:tag>chastity</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>family</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>poetry</pp:tag>
+        <pp:tag>death</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-devoted-turtledove">
           <pp:author>Elizabeth Zeman Kolkovich</pp:author>
@@ -3073,6 +3255,15 @@
     </pp:poem>
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
+      <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+<!--      <pp:keywords></pp:keywords>-->
+<!--      <pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
@@ -3109,15 +3300,16 @@
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
       <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
-      <!--<pp:editions>-->
-        <!--<pp:edition type="elemental">-->
-          <!--<pp:author>Leah Knight</pp:author>-->
-          <!--<pp:author>Wendy Wall</pp:author>-->
-        <!--</pp:edition>-->
-        <!--<pp:edition type="amplified">-->
-          <!--<pp:author>Victoria E. Burke</pp:author>-->
-        <!--</pp:edition>-->
-      <!--</pp:editions>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>birds</pp:keyword>
         <pp:keyword>court</pp:keyword>
@@ -3167,6 +3359,15 @@
     </pp:poem>
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
+      <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+<!--      <pp:keywords></pp:keywords>-->
+<!--      <pp:tags></pp:tags>-->
     </pp:poem>
     <pp:poem id="105">
       <pp:title>View but this Tulip (Emblem 40)</pp:title>
@@ -3522,9 +3723,7 @@
                 </a>
                 <div class="pp-search-box">
                   <div class="search">
-                    <form id="pp-search-form">
-                      <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />
-                    </form>
+                    <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />
                     <div class="results-box">
                       <ul class="results">
                         <li class="init">No results</li>

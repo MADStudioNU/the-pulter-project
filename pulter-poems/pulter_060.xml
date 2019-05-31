@@ -1,3 +1,592 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.57">
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.60">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>To Sir William Davenant: Upon the Unspeakable Loss of
+              the Most Conspicuous and Chief Ornament of His Frontispiece
+          </title>
+        <title type="sub">Poem #60</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_169.jpg" xml:id="f7610_169"/>
+      <graphic url="./document_images/7610_170.jpg" xml:id="f7610_170"/>
+      <graphic url="./document_images/7610_171.jpg" xml:id="f7610_171"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_169" n="83r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_169"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_169"/>
+        </rdg>
+      </app>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>To <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> <w lemma="william"><abbr>W:<hi rend="superscript">m</hi></abbr></w> D: Upon the unſpeakable Loſs of
+                the most conspicious and chief Ornament of
+                his &ff;rontispiece
+            </rdg>
+            <rdg wit="#ee"><seg>To Sir William Davenant: Upon the Unspeakable Loss of
+              the Most Conspicuous and Chief Ornament of His Frontispiece<note type="gloss">William Davenant (1606-1668) was a famous English playwright who served as poet laureate and was knighted by Charles I. In 1630, he contracted syphilis and took mercury as a cure, which disfigured his nose. An “ornament” is an accessory; a “frontispiece” is a face but also the front of a building, the engraved panel over an entrance, or the first page or title page of a book.</note></seg>
+            </rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w></rdg>
+            <rdg wit="#ee">Sir,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#ft"></rdg>
+          <rdg wit="#ee"></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Extreamly I deplore your loſs</rdg>
+          <rdg wit="#ee">Extremely I <seg>deplore<note type="gloss">lament</note></seg> your loss:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft">You’r like Cheapſide without a <seg>Croſs<note type="physical">“r” written over another letter</note></seg></rdg>
+          <rdg wit="#ee">You’re like <seg>Cheapside without a cross<note type="gloss">Cheapside was a location in London which had a stone carved cross erected on it to memorialize the funeral procession of King Edward I’s wife; the cross was destroyed in 1643 by an act of Parliament targeting “monuments of superstition and idolatry.”</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Or like A Diall <seg><del>Gnoman</del> <add place="above">and noe</add><note type="physical"></note></seg> Gnoman</rdg>
+          <rdg wit="#ee">Or like a dial and no <seg>gnomon<note type="gloss">A pin or rod that indicates the time of day by casting its shadow upon the surface of a sundial: a dial without the rod is useless.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">In pitty (trust mee) I think noe man</rdg>
+            <rdg wit="#ee">In pity (trust me) I think no man</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">But would his Leg or Arm expoſe</rdg>
+            <rdg wit="#ee">But would his leg or arm expose</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">To cut you out another Noſe</rdg>
+            <rdg wit="#ee">To cut you out another nose;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Nor of the &ff;emale Sex thers none</rdg>
+            <rdg wit="#ee">Nor of the female sex there’s none</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">But’ld bee one &ff;leſh though not one Bone</rdg>
+          <rdg wit="#ee"><seg>But’ld<note type="gloss">But would</note></seg> be <seg>one flesh, though not one bone<note type="critical">would marry him even if not agreeing to offer up their bones. On marriage as becoming “one flesh,” see Genesis 2:23-24: “And Adam said, this is now bone of my bones, and flesh of my flesh: she shall be called woman, because she was taken out of man. “Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.”
+          </note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">I though unknown would Sleight the pain</rdg>
+          <rdg wit="#ee">I, though unknown, would <seg>slight<note type="gloss">disregard</note></seg> the pain</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">That you might haue Soe great a gain</rdg>
+            <rdg wit="#ee">That you might have so great a gain.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Nay Any &ff;ool did hee know itt</rdg>
+            <rdg wit="#ee">Nay, any fool, did he know it,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Would give his Noſe to have <w lemma="your"><abbr>yo:<hi rend="superscript">r</hi></abbr></w> Wit</rdg>
+            <rdg wit="#ee">Would give his nose to have your wit,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">And I my Self would doe the Same</rdg>
+            <rdg wit="#ee">And I myself would do the same,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Did I not fear t’wold Blur my &ff;ame</rdg>
+          <rdg wit="#ee">Did I not fear ’twould <seg>blur my fame<note type="gloss">The loss of a nose could be a sign of syphilis or criminal punishment, thus hurting one’s reputation.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">I as once Said a Gallant Dame</rdg>
+          <rdg wit="#ee">I, as once said a <seg>gallant<note type="gloss">refined, noble</note></seg> dame,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">My Noſe would venture not my &ff;ame</rdg>
+          <rdg wit="#ee">My nose would <seg>venture<note type="gloss">risk</note></seg>, not my fame;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">&ff;or who but that Bright eye above</rdg>
+          <rdg wit="#ee">For who but that <seg>bright eye<note type="gloss">the sun, symbol of God</note></seg> above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Would know twere Charity not Love</rdg>
+            <rdg wit="#ee">Would know ’twere charity, not love.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Then <w>lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> your Pardon I must Beg</rdg>
+            <rdg wit="#ee">Then, sir, your pardon I must beg;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Excuſe my Noſe accept my Leg</rdg>
+            <rdg wit="#ee">Excuse my nose, <seg>accept my leg<note type="gloss"></note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_170" n="63v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_170"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_170"/>
+            </rdg>
+        </app>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">But yet beſure bot night and Day</rdg>
+            <rdg wit="#ee">But yet, be sure both night and day</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">&ff;or mee as for your Self you pray</rdg>
+            <rdg wit="#ee">For me, as for yourself, you pray;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">&ff;or if I &ff;irst should chance to goe</rdg>
+            <rdg wit="#ee">For if I first should chance to go</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">To viſit thoſe Sad Shades below</rdg>
+          <rdg wit="#ee">To visit those <seg>sad shades<note type="gloss">the netherworld or people in it</note></seg> below,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">As my &ff;rail &ff;leſh there putrifies</rdg>
+            <rdg wit="#ee">As my frail flesh there putrefies,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Your Noſe noe doubt will Sympathize</rdg>
+            <rdg wit="#ee">Your nose, no doubt, will sympathize.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">But this I fear least that blind Boy</rdg>
+          <rdg wit="#ee">But this I fear: lest that <seg>blind boy<note type="gloss">Cupid</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Which &ff;ate deſcend (Yet such a Toy</rdg>
+          <rdg wit="#ee">Which fate <seg>descends<note type="gloss">sends down</note></seg> (yet such a <seg>toy<note type="gloss">trivial thing</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">May take the Chit) Should Shoot again</rdg>
+          <rdg wit="#ee">May take the <seg>chit<note type="gloss">bratty child</note></seg>) should shoot again,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Then the Next loſs would bee <w lemma="your"><abbr>yo:<hi rend="superscript">r</hi></abbr></w> Brain</rdg>
+          <rdg wit="#ee"><seg>Then the next loss would be your brain.<note type="gloss">perhaps suggesting that Cupid (the “chit”) might not be able to resist Davenant, particularly his brain (the shiny “toy”) but “yet” (still) “take” it (shoot again), with the result that Davenant would lose his brain.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Some Coy Young Laſs you Might Adore</rdg>
+            <rdg wit="#ee">Some coy young lass you might adore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Which would prefer Some baſe Medore</rdg>
+          <rdg wit="#ee">Which would prefer some base <seg>Medore<note type="gloss">Medoro is a non-noble Moor (or Muslim) in Ludovico Ariosto’s 1532 poem, <title rend="italic">Orlando Furioso</title>, with whom Angelica (a Chinese princess at the court of Charlemagne) falls in love (thus rejecting the title character Orlando).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">And all your Witt and Titles Sleight</rdg>
+            <rdg wit="#ee">And all your wit and titles slight:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Imbrace a Page before a Knight</rdg>
+            <rdg wit="#ee">Embrace a page before a knight.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Then Should Some Nobleminded &ff;reind</rdg>
+            <rdg wit="#ee">Then should some noble-minded friend,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+          <rdg wit="#ft">Astolpho like to Heaven <seg>aſcend<note type="physical">“c” appears added later, in darker ink</note></seg></rdg>
+          <rdg wit="#ee"><seg>Astolfo-like<note type="gloss">Astolpho is a character in Ariosto’s <title rend="italic">Orlando Furioso</title> who flies in a flaming chariot to the moon where all things that have been lost on Earth are stored in jars. Here he recovers the wits that the title character Orlando had lost when rejected by his beloved. Astolfo makes Orlando snort his wits back up his nose.</note></seg>, to heaven ascend,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">And having Search’d neare and &ff;arr</rdg>
+            <rdg wit="#ee">And having searchéd near and far</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">And found your most capacious Jarr</rdg>
+            <rdg wit="#ee">And found your most capacious jar,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Then beeing with Joy Returnd again</rdg>
+            <rdg wit="#ee">Then being, with joy, returned again</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">You could not then Snuf up your Brain</rdg>
+            <rdg wit="#ee">You could not then snuff up your brain:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">Though all your Strenght you Should expoſe</rdg>
+            <rdg wit="#ee">Though all your strength you should expose</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">You want the Organe cal’d a Noſe</rdg>
+            <rdg wit="#ee">You want the organ called a nose.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_171" n="84r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_171"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_171"/>
+            </rdg>
+        </app>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">Prodigious the Knight Remains</rdg>
+          <rdg wit="#ee"><seg>Prodigious<note type="gloss">wondrous</note></seg>, the knight remains</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+            <rdg wit="#ft">Withous or Noſe, or &ff;ame or Brains,</rdg>
+          <rdg wit="#ee">Without <seg>or<note type="gloss">either</note></seg> nose, or fame, or brains.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+            <rdg wit="#ft">Then I bold ordinance Strook the Title of</rdg>
+          <rdg wit="#ee">Then a <seg>bold ordinance<note type="critical">Eardley speculates that this alludes to “An Ordinance Concerning the Peers of Parliament, and other Honors and Titles” (1646), which prevented peers created since 1642  from sitting in Parliament and voided their titles. Charles I had made Davenant a knight in 1643.</note></seg> struck the title off;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+            <rdg wit="#ft">Thus the proud Parces Sit and at us Scofe</rdg>
+          <rdg wit="#ee">Thus the proud <seg>Parcae<note type="gloss">the three female Fates</note></seg> sit, and at us scoff.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+            <rdg wit="#ft">What now remains the Man at Least</rdg>
+            <rdg wit="#ee">What now remains? The man at least?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+            <rdg wit="#ft">Noe Surely nothing left but Beast</rdg>
+            <rdg wit="#ee">No, surely nothing left but beast.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+            <rdg wit="#ft">Then Royall &ff;avour glu’d it on again</rdg>
+            <rdg wit="#ee">Then royal favor glued it on again,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+          <rdg wit="#ft">And now the <seg><w lemma="knight"><abbr>K:<hi rend="superscript">t</hi></abbr></w><note type="physical">“K” appears to correct earlier “R”</note></seg> is Bow-di’de and in grain</rdg>
+          <rdg wit="#ee">And now the knight is <seg>bow-dyed and ingrain<note type="gloss">“bow-dyed” is dyed scarlet (named for the Bow Bridge in proximity to the workplace of dyers); the state of being “ingrain,” or “ingrained,” is to have caused a dye to sink into the texture of a fabric and thus be indelible. These lines refer to King Charles’s knighting of Davenant in 1643, which restores the honor he lost when his nose was disfigured.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+            <rdg wit="#ft">Then Trample not that <w lemma="honour"><abbr>Hono:<hi rend="superscript">r</hi></abbr></w> in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Dust</rdg>
+            <rdg wit="#ee">Then trample not that honor in the dust</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="54">
+        <app>
+            <rdg wit="#ft">In beeing a Slave to thoſe are Slaves to Lust</rdg>
+          <rdg wit="#ee"><seg>In being a slave to those are slaves to lust.<note type="gloss">“those” is ambiguous, but generally signifies temptations.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curled-line"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

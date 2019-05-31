@@ -1,3 +1,369 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.42">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Pardon Me, My Dearest Love</title>
+        <title type="sub">Poem #42</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_127.jpg" xml:id="f7610_127"/>
+      <graphic url="./document_images/7610_128.jpg" xml:id="f7610_128"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_127" n="62r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_127"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_127"/>
+        </rdg>
+      </app>
+        
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+            <rdg wit="#ee">Pardon Me, My Dearest Love</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note resp="#lknight" type="headnote">Pulter’s only poem written to her husband consists of an apology for courting another “love.” In this poem, she unusually acknowledges her romantic and marital commitments by describing herself as her husband’s “poor turtledove,” a creature famed for virtuous and lifelong fidelity. Conceding that her husband has a right to her care and attention while she is on earth, she asks his pardon for her constant preoccupation with the allures of Heaven, her flights of fancy that allow her to activate the “sparkle” of heavenly essence in her soul and seemingly abandon “this dirty, dunghill earth.” The world materializes as a place of excrement, violent dismemberment, and sin, with the glories of heaven drawing out a “love” that Pulter represents as rivalling (rather than complementing) her romantic attachments on earth.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Pardon mee my Dearest Love</rdg>
+            <rdg wit="#ee">Pardon me, my dearest love,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">That I place my thoughts aboue</rdg>
+            <rdg wit="#ee">That I place my thoughts above.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">What’s Subſolary is yours</rdg>
+            <rdg wit="#ee">What’s <seg>subsolary<note type="gloss">beneath the sun</note></seg> is yours</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And Soe Shall Bee while Life indures</rdg>
+            <rdg wit="#ee">And so shall be while life endures.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Onely my aſpireing mind</rdg>
+            <rdg wit="#ee">Only my aspiring mind</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Noe felicity can find</rdg>
+            <rdg wit="#ee">No felicity can find</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">In this Dirty Dunghill Earth</rdg>
+            <rdg wit="#ee">In this dirty, <seg>dunghill<note type="gloss">excrement-like</note></seg> earth.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">My Soul Remembers still her Birth</rdg>
+            <rdg wit="#ee">My soul remembers still her birth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Shee beeing a Sparkle of that Light</rdg>
+            <rdg wit="#ee">She being a sparkle of that <seg>Light<note type="critical">originary divine spirit; see John 1:9: “That was the true Light, which lighteth every man that cometh into the world.”</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Which ne’re Shall Set in Death or night</rdg>
+            <rdg wit="#ee">Which ne’er shall set in death or night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Nothing here is worth her Love</rdg>
+            <rdg wit="#ee">Nothing here is worth her love;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Her Sum̄um bonum is above</rdg>
+            <rdg wit="#ee">Her <seg><foreign rend="italic">summum bonum</foreign><note type="gloss">supreme good</note></seg> is above.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">But this Body Shortly must</rdg>
+            <rdg wit="#ee">But this body shortly must</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Melt and moulder into Dust</rdg>
+            <rdg wit="#ee">Melt and moulder into <seg>dust<note type="critical">fine particles, esp. of disintegrating dead body; also, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">This due Debt cant bee denied</rdg>
+            <rdg wit="#ee">This due debt can’t be denied;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">The Elliments must mee Divide</rdg>
+            <rdg wit="#ee">The <seg>elements<note type="gloss">in ancient and premodern theory, the four constitutive substances of which all material bodies are compounded: earth, fire, air, and water</note></seg> must me divide.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Thus like Trators quarter’d out</rdg>
+            <rdg wit="#ee">Thus, like traitors <seg>quartered out<note type="gloss">A judicial penalty for high treason in England was “quartering” (or dividing) the body of the convicted person.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Are old Adams Rebell Rout</rdg>
+            <rdg wit="#ee">Are <seg>old Adam’s rebel rout<note type="gloss">Adam, the first human in the Judeo-Christian creation story, and an emblem of sin; a “rout” is a crowd.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Then Shall my infranchiſ’d Spirit</rdg>
+            <rdg wit="#ee">Then shall my <seg>enfranchised<note type="gloss">freed, privileged</note></seg> spirit</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Thoſe Eternall Joyes inherit</rdg>
+            <rdg wit="#ee">Those eternal joys inherit,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Which from mee Shall never part</rdg>
+            <rdg wit="#ee">Which from me shall never part:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">With theſe thoughts I cheer my heart</rdg>
+            <rdg wit="#ee">With these thoughts, I cheer my heart.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">then</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_128" n="62v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_128"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_128"/>
+            </rdg>
+        </app>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then pardon thy poor Turtle Dove</rdg>
+            <rdg wit="#ee">Then pardon thy poor <seg>turtledove<note type="gloss"> A bird known for its affection for its mate and soothing songs.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">That hath plac’d her thoughts aboue</rdg>
+            <rdg wit="#ee">That hath placed her thoughts above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Where is endles Joy and Love.</rdg>
+            <rdg wit="#ee">Where is endless joy and love.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

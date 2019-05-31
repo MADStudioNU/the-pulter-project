@@ -1,3 +1,365 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.80">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Stately Unicorn (Emblem 14)</title>
+        <title type="sub">Poem #80</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_202.jpg" xml:id="f7610_202"/>
+      <graphic url="./document_images/7610_203.jpg" xml:id="f7610_203"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_202" n="99v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_202"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_202"/>
+        </rdg>
+      </app>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 14]</rdg>
+            <rdg wit="#ee">The Stately Unicorn (Emblem 14)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>In<note type="physical">preceding poem occupies first third of page, followed by blank third; poem begins in bottom third</note></seg> A&ff;rica about the &ff;ountain’s brink</rdg>
+            <rdg wit="#ee">In Africa, about the fountain’s <seg>brink<note type="gloss">edge</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Where Beast Aſſemble, <seg>None<note type="physical">appears written over earlier word, possibly “more”</note></seg> p:ſumes to drink</rdg>
+            <rdg wit="#ee">Where beasts assemble, none presumes to drink</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Untill they See the Stately Unicorn</rdg>
+            <rdg wit="#ee">Until they see the stately <seg>unicorn<note type="gloss">A mythical animal whose single horn was reputed to possess medicinal or magical properties, especially in purifying poisons; according to legend, only a virgin could capture it.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Who Stirs the Poyſonous Waters <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> his Horn</rdg>
+            <rdg wit="#ee">Who stirs the poisonous waters with his horn;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Then with Extended Jaws they drink their &ff;ill</rdg>
+            <rdg wit="#ee">Then, with extended jaws, they drink their fill:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Thus hee the &ff;orrest Governeth at his Will</rdg>
+            <rdg wit="#ee">Thus he the forest governeth at his will.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Hee</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_203" n="100r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_203"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_203"/>
+            </rdg>
+        </app>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Hee Scorns all Huntsmen, who can never take</rdg>
+            <rdg wit="#ee">He scorns all huntsmen, who can never take</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">This Gallant Beast till they a Mayden make</rdg>
+            <rdg wit="#ee">This <seg>gallant<note type="gloss">brave, gorgeous</note></seg> beast, till they a maiden make</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">To Sit where hee doth haunt, him to allure</rdg>
+            <rdg wit="#ee">To sit where he doth haunt, him to allure;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">&ff;or in her lap hee’l lie and Sleep Secure</rdg>
+            <rdg wit="#ee">For in her lap he’ll lie and sleep secure.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Thus hee that Scorn’d his Potents Enemie</rdg>
+            <rdg wit="#ee">Thus he that scorned his <seg>potentest<note type="gloss">most potent, strongest</note></seg> enemy</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Is now inſlav’d by A Virgins Eye</rdg>
+            <rdg wit="#ee">Is now enslavéd by a virgin’s eye.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Soe Sampſon though Enabled from above</rdg>
+            <rdg wit="#ee">So <seg>Samson<note type="gloss">See Judges 13-16; a biblical Nazrite who possessed Herculean strength, he killed one thousand Philistines with the jaw bone of an ass; Delilah seduced and betrayed him by revealing the source of his strength (his hair). After being captured and blinded by his enemies, he was put to work in a mill before later regaining his strength.</note></seg>, though enabled from above,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">&ff;ound Death, and Ruin, from his Wanton Love</rdg>
+            <rdg wit="#ee">Found death and ruin from his wanton love;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Hee that a Thouſand Slaughterd with a Jaw</rdg>
+            <rdg wit="#ee">He that a thousand slaughtered with a jaw,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Beeing Blind and Captive, in A Mill did draw</rdg>
+            <rdg wit="#ee">Being blind and captive in a mill did <seg>draw<note type="gloss">work to move objects</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Soe Solloman allur’d by various Love</rdg>
+            <rdg wit="#ee">So <seg>Solomon<note type="gloss">see Kings 11:1-4; biblical king of Israel whose numerous foreign wives turned his heart toward idolatry (to worship material beings made of earthly elements, or “dust”)</note></seg>, allured by various <seg>love<note type="gloss">loves</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Did leave the True and Glorious God above</rdg>
+            <rdg wit="#ee">Did leave the true and glorious God above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">To Worſhip thoſe whoſe &ff;abrick is of Dust</rdg>
+            <rdg wit="#ee">To worship those whose fabric is of <seg>dust<note type="gloss">earth</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">The Wiſest King was thus inſlavd <seg>by<note type="physical">“b” possibly written over other letters</note></seg> Lust</rdg>
+            <rdg wit="#ee">The wisest king was thus enslaved by lust.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">The Strongest and the Wiſest thus you See</rdg>
+            <rdg wit="#ee">The strongest and the wisest thus you see,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">&ff;oold by their stre<add place="below">^</add><add place="above">n</add>ght and Wiſdome often bee</rdg>
+            <rdg wit="#ee">Fooled by their strength and wisdom often be.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then let all Youthfull Gallants warning take</rdg>
+            <rdg wit="#ee">Then let all youthful <seg>gallants<note type="gloss">amorous men</note></seg> warning take:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">To chooſe by Reaſon not for ffancies Sake.</rdg>
+            <rdg wit="#ee">To choose by reason, not <seg>for fancy’s sake<note type="gloss">for a whim; for an amorous inclination or love</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

@@ -197,9 +197,7 @@
           </a>
           <div class="pp-search-box">
             <div class="search">
-              <form id="pp-search-form">
-                <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />
-              </form>
+              <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />
               <div class="results-box">
                 <ul class="results">
                   <li class="init">No results</li>
@@ -923,6 +921,21 @@
         </div>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <!-- Basic ref -->
+  <xsl:template match="tei:ref">
+    <a class="link">
+      <xsl:attribute name="href">
+        <xsl:value-of select="@target"/>
+      </xsl:attribute>
+      <xsl:if test="@type">
+        <xsl:attribute name="class">
+          <xsl:value-of select="@type"/>
+        </xsl:attribute>
+      </xsl:if>
+      <xsl:value-of select="."/>
+    </a>
   </xsl:template>
 
   <!-- PP Poem links -->

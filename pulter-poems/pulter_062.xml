@@ -1,3 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.62">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>On the Fall of That Grand Rebel the Earl of Essex’s Effigies
+              in Harry the 7th’s Chapel in Westminster Abbey
+          </title>
+        <title type="sub">Poem #62</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_173.jpg" xml:id="f7610_173"/>
+      <graphic url="./document_images/7610_174.jpg" xml:id="f7610_174"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_173" n="85r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_173"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_173"/>
+        </rdg>
+      </app>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the Fall of that Grand Rebel the Earl of Eſsex
+                his Effigies in harry the 7th’s Chappel in Westminster <seg>Abby<note type="physical">poem in different hand from main scribe</note></seg>.
+            </rdg>
+            <rdg wit="#ee"><seg>On the Fall of That Grand Rebel the Earl of Essex’s Effigies
+                in Harry the 7th’s Chapel in Westminster Abbey<note type="gloss">Robert Devereux, 3rd Earl of Essex (1591-1646), was a parliamentarian officer whose statue (or “effigy) in Henry VII’s chapel at Westminster Abbey was desecrated by Royalist political foes. “Essex His Effigies” is a possessive, “Essex’s Effigies.” This poem, written on pages later added (or “tipped in”) to the manuscript, is not in the main scribe’s hand nor is it in the secondary hand.</note></seg>
+            </rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">When that Fierce Monster had uſurp’d the Place</rdg>
+            <rdg wit="#ee">When that fierce <seg>monster<note type="gloss">a hydra, as later lines reveal, here referring to all parliamentarian forces who executed Charles I.</note></seg> had usurped the place</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft"><w lemma="which"><abbr>w<hi rend="superscript">ch</hi></abbr></w> once (ah mee) our Royall King did grace</rdg>
+            <rdg wit="#ee">Which once (ah me!) our <seg>royal king<note type="gloss">Charles I</note></seg> did grace,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">One of her Heads, on topp of Fortune’s Wheel</rdg>
+            <rdg wit="#ee">One of her <seg>heads<note type="gloss">Essex’s</note></seg>, on top of Fortune’s wheel</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft"><w lemma="which"><abbr>w<hi rend="superscript">ch</hi></abbr></w> ever turns, grown giddy ’gan to reel</rdg>
+            <rdg wit="#ee">Which ever turns, grown giddy, <seg>’gan<note type="gloss">began</note></seg> to <seg>reel<note type="gloss">sway unsteadily, totter</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Just like Bellerophon mounting to the Skie</rdg>
+            <rdg wit="#ee">Just like <seg>Bellerophon<note type="gloss">mythological character who is punished by the gods after attempting to ride the winged horse Pegasus to get to the top of Mount Olympus.</note></seg> mounting to the sky,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">And looking down like him did brainſick die</rdg>
+            <rdg wit="#ee">And, looking down, like him did brainsick die;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Or like that Boy who thro’ his fond deſire</rdg>
+            <rdg wit="#ee">Or like that <seg>boy<note type="gloss">Phaeton, son of Helios, the sun god. He drove his father’s chariot across the sky for a day, but lost control and almost burned the entire Earth.</note></seg>, who through his fond desire</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">had almost ſett Heav’ns Axle-Tree on Fire</rdg>
+            <rdg wit="#ee">Had almost set heaven’s <seg>axle-tree<note type="gloss">axis, the imaginary straight line about which a celestial body rotates; the prolongation of that of the earth on which the heavens appear to revolve</note></seg> on fire;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Or like the Cretian youth who flew ſo high</rdg>
+            <rdg wit="#ee">Or like the <seg>Cretan youth<note type="gloss">Icarus attempted to escape entrapment in a labyrinth by flying with wings made of feathers and wax, but when he flew too near the sun, his wings melted and he drowned in the sea.</note></seg> who flew too high,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">His borrow’d plumes began to ſindge &amp; Fry</rdg>
+            <rdg wit="#ee">His borrowed plumes began to singe and fry:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">ſo this Bold Earl blown up <w lemma="with"><abbr>w<hi rend="superscript">th</hi></abbr></w> Pop’lar brath</rdg>
+            <rdg wit="#ee">So this bold earl blown up with pop’lar breath,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Unenvy’d &amp; unpitty’d fell to Earth</rdg>
+            <rdg wit="#ee">Unenvied and unpitied fell to Earth.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">This was the Man or rather the half Beast</rdg>
+            <rdg wit="#ee">This was the man, or rather the half beast–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">not like Alcides’s Tutor who Exprest</rdg>
+            <rdg wit="#ee">Not like <seg>Alcides’s tutor<note type="gloss">Alcides (or Hercules) had a centaur (half man and half horse) for a tutor named Chiron.</note></seg> who expressed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Both Natures &amp; from both the best did Cull.</rdg>
+            <rdg wit="#ee">Both natures, and from both the best did cull–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">This like Lybian Hammon had a horned Skull</rdg>
+            <rdg wit="#ee">This, like Lybian <seg>Hammon<note type="critical">the Carthaginian god Ba’al Hammon was depicted as a bearded older man with curling ram’s horns. Alleging that Essex had horns suggests that he might be a cuckold (the husband of an adulterous wife) or a devil.</note></seg>, had a hornéd skull.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">This was the first who had the bold Commiſsion</rdg>
+            <rdg wit="#ee">This was the first who had the bold commission</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">from Cannon’s mouth to thunder out <seg>Petition<del>s</del><note type="physical">final “s” imperfeclty erased</note></seg></rdg>
+            <rdg wit="#ee"><seg>From cannon’s mouth to thunder out petition;<note type="gloss">In 1642, Parliament took the bold step of raising its own army, and it appointed Robert Devereux to lead the forces. Pulter conveys the revolutionary nature of this commission by describing its authorization as a “petition” shot from a cannon (rather than a legitimate deliberative charge).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">The Copy came from Hell, thence ſuch thoughts Spring</rdg>
+            <rdg wit="#ee">The <seg>copy<note type="gloss">copytext, original</note></seg> came from Hell, thence such thoughts spring</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">with Sulph’rous breath to parly with their King</rdg>
+            <rdg wit="#ee">With sulf’rous breath to <seg>parley with their king<note type="gloss">Essex led the parliamentary forces, hoping to bring about a “parley” (or negotiation) with Charles I.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Yett hee that ne’re gain’d Honour here on Earth</rdg>
+            <rdg wit="#ee">Yet <seg>he<note type="gloss">Essex</note></seg> that ne’er gained honor here on Earth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">By Order they made triumph after Death</rdg>
+            <rdg wit="#ee">By order <seg>they<note type="gloss">the people, parliamentarians</note></seg> made triumph after death,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">And in deriſion of our Ancient Kings</rdg>
+            <rdg wit="#ee">And in derision of our ancient kings,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">his horned Image they to th’ Temple bring</rdg>
+            <rdg wit="#ee"><seg>His hornéd image they to the temple bring.<note type="gloss">Essex had not received public recognition until after his death, when he was monumentalized with a great show of mourning at Westminster Abbey.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">becauſe he was a member of the Dragon</rdg>
+            <rdg wit="#ee">Because he was a member of the <seg>dragon<note type="gloss">dragoon, or calvary soldier; “dragon” might refer to the Order of the Garter, the most prestigious order of chivalry in England and one whose insignia featured the dragon killed by their patron St. George. Both Essex’s grandfather and father had been inducted into the Order.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">they ſett him up just like the Idol Dagon</rdg>
+            <rdg wit="#ee">They set him up just like the idol <seg>Dagon<note type="gloss">In the Bible, Dagon is the deity of the ancient Philistines; the Philistines capture the Israelietes’ sacred Ark of the Covenant (the coffer containing the stone tablets on which the Ten Commandments were transcribed) and place them in the temple of Dagon at Ashdod. See 1 Samuel 5:2.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">by Israel’s ſacred Ark O bold Aſsumption</rdg>
+            <rdg wit="#ee">By Israel’s sacred ark. O bold assumption!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">&amp; certainly unparallel’d preſumption</rdg>
+            <rdg wit="#ee">And certainly unparalleled presumption!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_174" n="85v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_174"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_174"/>
+            </rdg>
+        </app>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Butt down he fell looſing his hands &amp; head,</rdg>
+            <rdg wit="#ee">But down he fell, losing his hands and head;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">his Father ſer’d ſo, liuing, hee ſo, dead.</rdg>
+            <rdg wit="#ee"><seg>His father served so<note type="gloss">Essex’s father, Robert Devereux (second Earl of Essex, 1565-1601) was beheaded for a rebellion against Elizabeth I; “serve” refers to both his violent service to his monarch and the nature of his execution (being treated deservedly in having his body mutilated).</note></seg>, living; he so, dead.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">ſuch End ſuch honour lett all Trayt<seg>[?]<note type="physical">The unidentified character signifies what might be “o” or “e,” written partly over and partly to the left of the letter “r.”</note></seg>ſ have</rdg>
+            <rdg wit="#ee">Such end, such honor, let all traitors have;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">but our Augustus Heav’n protect &amp; <seg>ſave<note type="physical">flourish at end of line</note></seg></rdg>
+            <rdg wit="#ee">But our <seg>Augustus<note type="critical">Augustus Caesar, the Roman emperor idealized for restoring peace and prosperity to Rome; here probably referring to Charles II, since the poem was more likely to have been written after the Restoration than before 1649, when Charles I was executed. The poem’s placement in the manuscript, along with material added after the 1650s, supports this theory.</note></seg>, Heav’n protect and save.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curled-line"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

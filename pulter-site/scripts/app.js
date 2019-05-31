@@ -724,7 +724,7 @@ var PP = (function ($) {
               },
               showTheMilestones = {
                 targets: '.milestone',
-                offset: '-=2200',
+                offset: '-=1950',
                 opacity: {
                   value: [0, .5],
                   duration: 600
@@ -785,7 +785,7 @@ var PP = (function ($) {
               openSpeed: 400,
               closeSpeed: 200,
               otherClose: '.dismiss',
-              loading: '<p class="lato spinner">Loading the curation...</p>',
+              loading: '<p class="lato spinner">Loading the curation…</p>',
               beforeOpen: function () {
                 if (curationHash) {
                   window.location.hash = curationHash;

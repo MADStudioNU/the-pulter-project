@@ -1,11 +1,7 @@
 .pp-search-box {
   display: none;
 
-  form {
-    display: inline-block;
-    position: relative;
-
-    input[type=text] {
+  input[type=text] {
       background: rgba(0, 0, 0, .4);
       border: 1px solid rgba(255, 255, 255, 0);
       box-shadow:
@@ -52,11 +48,10 @@
       }
     }
 
-    input[type=submit] {
+  input[type=submit] {
       @include vcenter;
       right: 1em;
     }
-  }
 
   .results-box {
     display: none;

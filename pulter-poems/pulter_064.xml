@@ -1,3 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.64">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>And Must the Sword this Controverse Decide</title>
+        <title type="sub">Poem #64</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_177.jpg" xml:id="f7610_177"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_177" n="87r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_177"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_177"/>
+        </rdg>
+      </app>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+            <rdg wit="#ee">And Must the Sword this Controverse Decide</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">This poem begins <foreign rend="italic">in medias res</foreign>: mid-sentence (“And”), and apparently in the midst of England’s civil wars, but sometime after the beheading of Charles I in 1649. In her opening query, the speaker seems to regret the inevitability of violence (“the sword”) as a solution to her country’s misrule, yet she still invokes divine vengeance upon her foes. Although she appears to implore God to condemn all factions, Pulter evidently excluded her own party from this condemnation: factions were dissidents; royalists were loyalists. The invocation of the “Lord of Hosts,” an epithet from the Hebrew Bible, suits the eye-for-an-eye endgame envisioned here: if the speaker has her way, the bloodthirsty shall be quenched by each other’s blood, and as they were mercilessly deaf to the cries of the innocent, so God shall be to theirs, at the end of their earthly lives or (implicitly) in a hellish hereafter. The speaker then prays for the eternal salvation of those she considers God’s chosen, and for the restoration at the end of time of their slain king: not, in this context, Christ, but Charles I (although the two were often identified in royalist imagery). As though to usher in this future peace (for some, anyhow), the concluding hortatory anaphora (“Let … Let”) and personified abstractions (time, grace, truth) evoke a serenity utterly at odds with the bloody clashes earlier in the poem.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>And<note type="physical">This poem is in a different hand from the main scribe, and is on paper that was tipped into the manuscript after binding.</note></seg> must the ſword this controverce deſide</rdg>
+            <rdg wit="#ee"><seg>And<note type="physical">This poem is probably in Pulter’s hand.</note></seg> must the sword this <seg>controverse<note type="gloss">obsolete form of “controversy”</note></seg> decide:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Which of theſe &ff;actions shall this kingdome ride</rdg>
+            <rdg wit="#ee">Which of these <seg>factions<note type="gloss">depreciative term for political (and often dissenting and disputatious) groups, here apparently alluding to warring sides in England’s civil wars</note></seg> shall this kingdom <seg>ride<note type="gloss">in this context, likely meaning dominate or control, oppress or tyrannize; connotations include gaining (unearned) advantage or aggrandizement from, and several senses related to violence (serving in a cavalry; going on horseback into battle; parading as punishment); figuratively, to ride hard (or to death).</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Great God loock <seg><del>down</del><note type="physical">double strike-through</note></seg> on their pride and heere their bosts</rdg>
+            <rdg wit="#ee">Great God, look on their pride and hear their boasts;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Declare thy ſelfe alone the Lord of Hosts</rdg>
+            <rdg wit="#ee">Declare thy self alone the <seg>Lord of Hosts<note type="gloss">epithet for God used often in the Old Testament, sometimes alluding to the multitude of attending angels and sometimes to Israel’s armies; in latter sense, suggestive of “God of armies or battles.”</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Confound their plotts and curs’t Imagination</rdg>
+            <rdg wit="#ee">Confound their plots and cursed imagination</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">That haue allmost desroy’d this Church and Nation</rdg>
+            <rdg wit="#ee">That have almost destroyed this church and nation.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">&ff;or blood they thirst, <seg>O<note type="physical">two short upright marks atop</note></seg> lett them bee imbrued</rdg>
+            <rdg wit="#ee">For blood they thirst: O, let them be <seg>imbrued<note type="gloss"></note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">In one anothers, that haue of bedu’ed</rdg>
+            <rdg wit="#ee">In one another’s, that have <seg>oft<note type="physical">The manuscript reads “of.”</note></seg> bedewed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">With tears ſad Widdows, and poore Orphans, eyes</rdg>
+            <rdg wit="#ee">With tears sad widows’ and poor orphans’ eyes;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Bee deffe <seg><del>the</del><note type="physical">double strike-through</note></seg> to theirs as they were to their cries</rdg>
+            <rdg wit="#ee">Be deaf to <seg>theirs, as they were to their<note type="gloss">“theirs” and “they” refer to the warring factions; “their” to the widows and orphans.</note></seg> cries.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">As in their highth they <seg>merrie<note type="physical">second “r” could be “t”</note></seg> ne’r would know</rdg>
+            <rdg wit="#ee">As in their <seg>height<note type="gloss">not only a high or the highest point (spatially), but eminence or elevation in status or exalted rank; haughtiness; the highest point or degree</note></seg> they mercy ne’er would know,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">In their extremes noe Mertie <seg><add place="above"><del>r</del></add><note type="physical">floating superscript “r” is blotted out in ink</note></seg> to them ſhow</rdg>
+            <rdg wit="#ee"><seg>In their extremes<note type="gloss">in the last moments or stage of life (as in the Latin <foreign rend="italic">in extremis</foreign>); given the spatial imagery in the line above (“height”), the meaning of “extreme” as a figurative position furthest from the (divine) center also resonates.</note></seg> no mercy to them show.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Butt in that dismale, Black, and Blooddy daye</rdg>
+            <rdg wit="#ee">But in that dismal, black, and bloody <seg>day<note type="gloss">the Day of Judgment at the end of time, when God will judge the living and resurrected dead and reward them with eternal “life” (see next line) or punish them accordingly</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Give all thy choſen ones their liffe a praye</rdg>
+            <rdg wit="#ee">Give all thy <seg>chosen ones<note type="gloss">originally, Israelites (“O ye seed of Israel his servant, ye children of Jacob, his chosen ones” [1 Chronicles 16:13]); in Protestant readings, any of God’s elect, chosen for salvation at the Day of Judgment</note></seg> their life, I pray,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">And lett our Longeinge eyes behold restor’d</rdg>
+            <rdg wit="#ee">And let our longing eyes behold, restored,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Our Gratious Kinge, whos loſs hath bin <seg>deplor’ed<note type="physical">second “e” scribbled out</note></seg></rdg>
+            <rdg wit="#ee">Our gracious <seg>king<note type="gloss">Charles I; the next line (“let him rest above”) suggests the poem was written after his beheading, which would prevent his being “restored” on earth; the speaker anticipates his restoration at the Day of Judgment instead.</note></seg>, whose loss hath been <seg>deplored<note type="gloss">lamented</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">ſoe longe by us <seg>O<note type="physical">two short upright marks atop</note></seg> lett him rest above <seg><del>in providence</del><note type="physical"></note></seg></rdg>
+            <rdg wit="#ee">So long by us. O, let him rest above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">In providence, and in the Orb of <seg>love<note type="physical">to right, after a space, vertical line curving to right at top</note></seg></rdg>
+            <rdg wit="#ee">In <seg>providence<note type="gloss">God’s omniscient and protective care</note></seg>, and in the <seg>orb of love<note type="gloss">apparently a reference to the divine realm (the Christian God being sometimes identified with love); “orb” as world, or a celestial sphere (as in a sun or planet); in astronomy, a hollow sphere thought to surround the earth and carry the planets and stars in their revolution.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Lett all his actions move as in his youth</rdg>
+            <rdg wit="#ee">Let all his actions move, as in his youth;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">And lett them turn upon the Poles of <del>th</del> truth</rdg>
+            <rdg wit="#ee">And let them turn upon the <seg>poles of truth<note type="critical">a metaphor extending the astronomical sense of the “orb of love” above, with “poles” signifying the ends of an axis on which something rotates (in this case, the axis being truth, and the actions of Charles I turning on that axis).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Let tym’s faire Virgin Daughter <seg><del>pe[?]</del><note type="physical">unidentified third letter crossed out</note></seg> pen his story</rdg>
+            <rdg wit="#ee">Let <seg>Time’s fair virgin daughter<note type="gloss">Proverbially, Truth is the daughter of Time.</note></seg> pen his story,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Whils’t Grace conduct’s him to Eternall Glory</rdg>
+            <rdg wit="#ee">Whilst Grace conducts him to eternal glory;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">And then when totall Nature is <seg>deſolve’d<note type="physical">second “e” may be scribbled out</note></seg></rdg>
+            <rdg wit="#ee">And then, when total nature is dissolved,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Lett Him and His in Glory bee involv’d</rdg>
+            <rdg wit="#ee">Let him and <seg>his<note type="gloss">those to whom he is closely related, his family or kindred; figuratively, the king’s followers</note></seg> in glory be involved;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">And on all thoſe that doe thy Isarell love</rdg>
+            <rdg wit="#ee">And on all those that do <seg>thy Israel<note type="gloss">literally, those descended from Israel or Jacob, so the Jewish or Hebrew nation; figuratively, here, God’s chosen, applied by Christians to Christians</note></seg> love,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Lett peace, and truth, flow on them from <seg>above<note type="physical">reverse of page blank</note></seg></rdg>
+            <rdg wit="#ee">Let peace, and truth, flow on them from above.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

@@ -1,3 +1,336 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.67">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Mighty Nimrod (Emblem 1)</title>
+        <title type="sub">Poem #67</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_185.jpg" xml:id="f7610_185"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Millie Godfery</persName> and <persName>Sarah C. E. Ross</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 1]</rdg>
+            <rdg wit="#ee">Mighty Nimrod (Emblem 1)</rdg>
+            <rdg wit="#ae">Mighty Nimrod (Emblem 1)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">Pulter’s first emblem canvasses the vain ambition of the builder of the biblical Tower of Babel, who famously sought by “terrestrial towers” to attain the heights of “super-celestial bowers”; she then associates this biblical parable with the Greek myth of the giants who similarly overreached in seeking heaven. But how different, really, was Pulter’s ambitious poetic project? Even as she lambasted Nimrod, might she have seen herself as “foolishly dreaming” that her own “mortal sight / Could view invisible, inaccessible light”? It seems so, since this poem eventually takes a sharp turn away from cursing the presumption of Nimrod and other pre-Christian usurpers—in what might well have been a glance at rebels against the English throne—to a self-abasing prayer for preservation against being found in their company. What she hopes might save her from that fate is her adherence to Christ’s alternative spiritual architecture: not a monolithic tower, but more modest “steps.”</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote">
+                <p>This is the first poem in Pulter’s emblem series titled “The Sighs of a Sad Soul Emblematically Breathed Forth by the Noble Hadassah”. Comprised of fifty-three emblems, this poetic project constitutes a unique contribution to the tradition of English emblem poems, as Pulter revises the traditional tripartite format of the emblem, consisting of <foreign rend="italic">inscriptio</foreign> (a motto), <foreign rend="italic">picturae</foreign> (visual image), and <foreign rend="italic">subscriptio</foreign> (a short epigrammatic verse). Pulter removes the visual image (<foreign rend="italic">picturae</foreign>) to form what are known as “naked” emblems, in doing so placing the emphasis on the visual qualities of her writing (Alice Eardley, <title rend="italic">Poems, Emblems, and The Unfortunate Florinda / Lady Hester Pulter</title> [Toronto; Iter and Centre for Reformation and Renaissance Studies, 2014], 28). By utilising the didactic affordances of the emblem genre, Pulter continues to address the personal and political concerns of her earlier occasional and devotional lyrics, attending to her experiences as a woman, mother, and royalist during the 1650s, in which the poems are believed to have been written.</p>
+                <p>Pulter begins her emblem collection here by asserting a political persona in contrast with the biblical Nimrod, the infamous conspirator behind the construction of the Tower of Babel. Nimrod’s ambitious project resulted in the division of language, God’s punishment for the vain aspirations which possessed Nimrod to seek beyond the “supercelestial bowers” of Heaven (line 8). Likening this to the gigantomachy (struggle between the gods and giants) detailed in Ovid’s <title rend="italic">Metamorphoses</title>, in which the earthly giants similarly sought a heavenly position, Pulter compares the ambition of  the giants and Nimrod. She invokes the suggestion of Ovid’s English translator, George Sandys, that in each story, their ambition results merely in confusion, “one [being] confounded with lighting, and the other by the confusion of languages” (George Sandys, <title rend="italic">Ovid’s Metamorphoses Englished</title> [New York: Garland, 1976], 27).</p>
+                <p>Pulter’s first emblem embodies the strongly visual evocations of “naked” emblems, while its accounts of vain, impious ambition suggest the politicised role the collection will proceed to take in its criticism of the current political landscape in England, as the “usurping Nimrods” (line 18) here pertain to the republican parliamentarians (Eardley 28). Pulter elicits an image of humble godly steps to contrast with the Tower of Babel’s “huge fabric” (line 2), imparting to her readers that, by following in God’s footsteps – namely the steps of virtue that are then presented in Pulter’s second emblem – one can be “preserve[d]” from this ambitious folly (lines 2, 21). This message, confirmed in the final two couplets via Pulter’s own turn inward to a meditational prayer, encompasses the direction her following fifty-two emblems will take, as Pulter explores her own relationship to God in relation to the political and personal contexts emerging out of the Civil War. Thus, this emblem establishes her poetic devotion as a political response to the events of the 1650s, as she establishes a moral superiority throughout the collection as a model for her readers to follow.</p>
+            </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">When Mighty Nimrode Hunting after fame</rdg>
+            <rdg wit="#ee">When mighty <seg>Nimrod<note type="gloss">In the biblical book of Genesis, the ruler of vast tracts of Mesopotamia, remembered as the builder of the tower of Babel.</note></seg>, hunting after fame,</rdg>
+            <rdg wit="#ae">When mighty <seg>Nimrod<note type="critical">In Genesis 11, Nimrod is the leader of those who, in seeking to build the Tower of Babel to reach the Heavens, are motivated by their desire to surpass their mortal position and make “a name” for themselves (KJV Gen. 11.4). God punished this ambitious action by replacing the ubiquitous language of all people on Earth with multiple languages, halting the construction of the Tower by destroying the ability to communicate. Note that in her account, Pulter shifts the Bible’s emphasis from the collective aim of the Babylonian people, focusing on Nimrod as the sole perpetrator of this ambitious desire. See Gen. 10-11. See also Paradise Lost 12.24-78 for Milton’s description of Nimrod’s “proud ambitious heart”. Sarah Ross compares these two depictions in “‘This Kingdoms Loss’: Hester Pulter’s Elegies and Emblems” (in <title rend="italic">Women, Poetry, and Politics in Seventeenth-Century Britain</title> [Oxford: Oxford University Press, 2015], 135–73 [160]).</note></seg>, hunting after fame,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Built this huge &ff;abrick to get him a Name</rdg>
+            <rdg wit="#ee">Built this huge <seg>fabric<note type="gloss">building; here, the tower of Babel; but in general, any product of skilled workmanship or construction (“fabrication”)</note></seg> to get him a <seg>name<note type="gloss">obtain a distinguished reputation or fame</note></seg></rdg>
+            <rdg wit="#ae">Built this huge <seg>fabric<note type="gloss">the Tower of Babel</note></seg> to get him a name</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">&ff;earing another Deluge might o’re flow</rdg>
+            <rdg wit="#ee">(Fearing another <seg>deluge<note type="gloss">the flood described in the biblical book of Genesis</note></seg> might o’erflow,</rdg>
+            <rdg wit="#ae">(Fearing another <seg>deluge<note type="critical">a great flood; a destructive overflowing of water (<title rend="italic">OED</title> 1). Here, “another deluge” alludes to the great Flood in the time of Noah, Nimrod’s great-grandfather (<title rend="italic">OED</title> 2; Gen. 10).</note></seg> might o’erflow,</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And all Mans petty Projects overthrow</rdg>
+            <rdg wit="#ee">And all man’s petty projects overthrow),</rdg>
+            <rdg wit="#ae">And all man’s petty projects overthrow),</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">With Slime and Brick, <seg>inſtede<note type="physical">“e” crowded between surrounding words, in darker ink and possibly different hand from main scribe</note></seg> of Lime and Stone</rdg>
+            <rdg wit="#ee"><seg>With slime and brick, instead of lime and stone,<note type="critical">Nimrod and the other “families of the sons of Noah” (Gen. 10:32) decide to “build us a city and a tower, whose top may reach unto heaven” (Gen. 11:4); their building materials are those Pulter specifies: “they had brick for stone, and slime had they for morter” (Gen. 11:3).</note></seg></rdg>
+            <rdg wit="#ae"><seg>With slime and brick, instead of lime and stone,<note type="gloss">The people of Babel, by the direction of Nimrod, worked to build “a tower with its top in the heavens”, using brick and slime, or “bitumen” (<title rend="italic">OED</title> 1: a mortar found in Babylon). See Gen. 11.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Hee meant to Reach Unto Gods glorious Throne</rdg>
+            <rdg wit="#ee">He meant to reach unto God’s glorious throne.</rdg>
+            <rdg wit="#ae">He meant to reach unto God’s glorious throne.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Oh vain! To think by thoſe terrestriall Towers</rdg>
+            <rdg wit="#ee">O, vain! To think by those terrestrial towers</rdg>
+            <rdg wit="#ae">Oh vain! To think by those <seg>terrestrial<note type="critical">relating to earth as opposed to heaven; earthly, mundane (<title rend="italic">OED</title> 1). Nimrod believes that reaching Heaven will endorse his “greatness”. “Terrestrial” emphasizes the mundaneness of the tower and thus Nimrod’s own mortality.</note></seg> towers</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">They could Ascend Super celestiall Bowers</rdg>
+            <rdg wit="#ee"><seg>They<note type="gloss">Nimrod and the other builders of the tower of Babel</note></seg> could ascend <seg>super-celestial<note type="gloss">above the skies, heavenly</note></seg> <seg>bowers<note type="gloss"> idealized dwellings</note></seg>,</rdg>
+            <rdg wit="#ae">They could ascend <seg>supercelestial<note type="critical">spatially refers to that place in the heavens and beyond (<title rend="italic">OED</title> 1) but it also can refer to the nature or character of someone as more than heavenly; this is the acknowledgement Nimrod seeks by building the tower (<title rend="italic">OED</title> 2).</note></seg> <seg>bowers<note type="gloss">idealised abodes (<title rend="italic">OED</title> 1b)</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">&ff;oolishly dreaming their dim Mortall Sight</rdg>
+            <rdg wit="#ee">Foolishly dreaming their dim mortal sight</rdg>
+            <rdg wit="#ae">Foolishly dreaming their <seg>dim mortal sight<note type="critical">Pulter draws on the ineffability topos: the idea that the light of God cannot be looked at directly, nor can it be described accurately by humans. God is described as “dwelling in unapproachable light” in which “no man has ever seen or ever can see him” (1 Tim. 16). See the invocation at the opening of Milton’s <title rend="italic">Paradise Lost</title>, Book 3, where he appeals for a “celestial Light” to shine inwards so he “may see and tell / Of things invisible to mortal sight” (3.51-5). Aemilia Lanyer also uses the topos in <title rend="italic">Salve Deus Rex Judaeorum</title>, exhorting that “in these Lines I may no further stray, / Than his most holy Spirit shall giue me Light: / That blindest Weakenesse be not over-bold” (Susanne Woods [ed.], <title rend="italic">Salve Deus Rex Judaeorum</title> [New York and Oxford: Oxford University Press, 1993], lines 301-304).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Could view inviſible inacceſible Light</rdg>
+            <rdg wit="#ee">Could view invisible, inaccessible light!</rdg>
+            <rdg wit="#ae">Could view invisible, inaccessible light!</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">&ff;rom this the &ff;iction of the Gyants Roſe</rdg>
+            <rdg wit="#ee">From this the <seg>fiction of the giants<note type="gloss">the Greek myth of ancient giant creatures including Briareus or “Egeous,” named below</note></seg> rose,</rdg>
+            <rdg wit="#ae">From this, the fiction of the <seg>giants<note type="critical">Pulter invokes a parallel between Gen. 11 and a story in Greek mythology regarding the ancient creatures’ gigantomachy, meaning struggle with the gods. Ovid’s Metamorphoses recounts the event, in which the giants piled Mount Pelion on top of Mount Olympus in an attempt to reach heaven. Pulter’s following lines retell Jove’s “tear[ing]” down of these mountains “with thunder” (see note to line 13). Pulter compares the actions of Nimrod to those of the giants (see Headnote); this comparison fuses and reconciles classical and biblical sources to confirm the lesson of the poem regarding impious ambition. See Sandys, <title rend="italic">Ovid’s Metamorphoses Englished</title> [New York: Garland, 1976], 4, 27-8.</note></seg> rose,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">When they the Olympick Dieties oppoſe</rdg>
+            <rdg wit="#ee">When they th’Olympic deities oppose;</rdg>
+            <rdg wit="#ae">When they the <seg>Olympic deities<note type="gloss">the twelve gods of the Greek Pantheon</note></seg> oppose;</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Then &ff;ierce Egeous Scornd Joves Thunderstocks</rdg>
+            <rdg wit="#ee">Then fierce <seg>Egeous<note type="critical">Eardley notes that “Egeous” appears to be Pulter’s Aegaeon, or Briareus, a giant in Greek myth who was understood to have fought against the Olympian gods (led by Zeus or Jove, as he is called in the next line).</note></seg> scorned Jove’s <seg>thunderstocks<note type="critical">i.e., lightning bolts: Pulter’s neologism, or a transcription error for “thunderstroke”; a “stock” can be a stake, which works figuratively to describe lightning; “stock” here could also refer to Jove’s store of such bolts</note></seg>,</rdg>
+            <rdg wit="#ae">Then fierce <seg>Egeous<note type="critical">Pulter is likely referring here to the Greek giant Aegaeon, or Briareus, as outlined by Eardley (<title rend="italic">Lady Hester Pulter: Poems, Emblems, and The Unfortunate Florinda</title> [Toronto; Iter and Centre for Reformation and Renaissance Studies, 2014], 365). Aegaeon was a part of the gigantomachy (see note on “giants”).</note></seg> scorned <seg>Jove’s<note type="gloss">the Roman God also known as Jupiter; the God of thunder and lightning, considered the equivalent to Zeus in Greek mythology</note></seg> <seg>thunderstocks<note type="gloss">Pulter’s neologism for “thunder stroke”; one usage of the word “stock” was to describe the act of thrusting a pointed weapon, possibly working figuratively to describe the act of a lightning bolt (<title rend="italic">OED</title> n.3, 1, 2); alternatively, Pulter could be implying the “stock” of lightning bolts Jove has (<title rend="italic">OED</title> 55a).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">When at his Head hee threw a Hundred Rocks</rdg>
+            <rdg wit="#ee">When at his head he threw a hundred rocks;</rdg>
+            <rdg wit="#ae">When at his head he threw a hundred rocks;</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Like Mole Hills Mount<add place="below">\</add><add place="above">taine \</add> upon Mountains Haild</rdg>
+            <rdg wit="#ee">Like molehills, mountain upon mountains hailed.</rdg>
+            <rdg wit="#ae">Like molehills, <seg>mountain<note type="physical">“Mount” has been written in the main scribal hand and “taine” inserted in the space above by a hand likely to be Pulter’s own. This is likely for metrical purposes.</note></seg> upon mountains hailed.</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Thus most preſumptiously they Heaven Scaild</rdg>
+            <rdg wit="#ee">Thus, most presumptuously, <seg>they<note type="gloss">the “tyrants”</note></seg> Heaven scaled,</rdg>
+            <rdg wit="#ae">Thus, most presumptuously, they Heaven scaled,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Till Thunder Rowted this Rebellioous Crew</rdg>
+            <rdg wit="#ee">Till thunder <seg>routed<note type="gloss">hurled, struck, beat; eradicated, destroyed; of thunder: roared, howled</note></seg> this rebellious crew.</rdg>
+            <rdg wit="#ae">Till thunder routed this rebellious crew.</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Soe let Uſurping Nimrod’s have their due</rdg>
+            <rdg wit="#ee">So let usurping Nimrods have their due:</rdg>
+            <rdg wit="#ae">So let <seg>usurping<note type="critical">Pulter addresses the act of usurpation throughout her emblem collection to contextualise the events leading up the period of the English republic; for example, see <ref type="pp-poem-ref" corresp="91">“Ambitious Apes” (Emblem 26)</ref>, which details numerous examples of ambition throughout history. Pulter warns that Nemesis, goddess of retribution, “will look down / On all usurpers”, and concludes that “all confusion from ambition springs,” so “’Tis best for everyone to keep his sphere” (lines 19-20, 40, 43).</note></seg> Nimrods have their due,</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Let their Accurſed plots prove their deluſion</rdg>
+            <rdg wit="#ee">Let their accurséd plots prove their delusion;</rdg>
+            <rdg wit="#ae">Let their accursed plots prove their delusion,</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">&ff;or &ff;anci’d Glory let them find confuſion</rdg>
+            <rdg wit="#ee"><seg>For fancied glory, let them find confusion.<note type="critical">By choosing to punctuate this line and the one above it so as to divide these lines evenly, we emphasize the parallelism of the prayer. In each line, one thing begets another version of and return for itself, which is in keeping with the poem’s general investment in substituting one condition for another (Christ’s for Nimrod’s). Yet these lines could be punctuated differently. If read “Let their accurséd plots prove their delusion / For fancied glory; let them find confusion,” the reader understands the object of delusion (“glory”) and experiences the rhetorically powerful command in the prayer: “let them find confusion.” At this time, “confusion” meant not only mental discomfort but also ruin, destruction, and perdition.</note></seg></rdg>
+            <rdg wit="#ae">For fancied glory, let them find confusion.</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">But from preſumption Lord preſerve my Soul</rdg>
+            <rdg wit="#ee">But from presumption, Lord preserve my soul,</rdg>
+            <rdg wit="#ae"><seg>But from presumption, Lord, preserve my soul,<note type="critical">Pulter’s emblem concludes with self-reflection, turning inwards as opposed to expanding outwards to encompass the audience in a larger moral truth. She addresses God in direct colloquy, asking Him to “preserve” her soul from “presumption”. Rachel Dunn writes that the effect of this is a “psalmic inwardness” which contrasts with the traditional emblem’s “exegetical unfolding” (“Breaking a Tradition: Hester Pulter and the English Emblem Book”, <title rend="italic">The Seventeenth Century</title>, 30.1 [2015], 64). This is a notable contrast from Milton’s appeal in <title rend="italic">Paradise Lost</title>, a text which, although certainly not an emblem itself, draws on the emblematic quality of seeking to unfold a greater truth to readers, encouraging their spiritual edification (Dunn 63-4). For comparison with Milton, see also note to “dim mortal sight”.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">That in thy Mercy I may Safely Rowl</rdg>
+            <rdg wit="#ee"><seg>That<note type="gloss">So that</note></seg> in thy mercy I may safely <seg>roll<note type="gloss">revolve or flow; proceed; curl up; be enveloped</note></seg>,</rdg>
+            <rdg wit="#ae">That in thy mercy I may safely <seg>roll<note type="critical">Noted in Eardley’s edition as meaning to “be enveloped”, and in Wall and Knight’s elemental edition as meaning “revolve or flow; proceed; curl up; be enveloped”. We would also add the theological meaning “to trust in”, specifically God or Christ (<title rend="italic">OED</title> 11a, b).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Resting in Christ that Bleſſed corner Stone</rdg>
+            <rdg wit="#ee">Resting in Christ, that blesséd <seg>cornerstone<note type="gloss">a stone used to hold together the others in a building</note></seg>;</rdg>
+            <rdg wit="#ae">Resting in Christ, that blessed <seg>corner-stone<note type="critical">the stone which consolidates a building; forms the quoin of a wall (<title rend="italic">OED</title> 1). This is appropriate given that this is also a biblical term used in reference to Christ as “the chief cornerstone” supporting the house of God (Ephesians 2.20).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Then by his steps I’le mount his Glorious Throne</rdg>
+            <rdg wit="#ee">Then by his steps I’ll mount his glorious throne.</rdg>
+            <rdg wit="#ae"><seg>Then by his steps I’ll mount his glorious throne.<note type="critical">This final line introduces the last couplet’s thematic image of godly steps that is pursued throughout Pulter’s emblem collection, as she embarks on a didactic expression of virtue to criticise of the lack thereof in her contemporary English political landscape. It also refers directly to the next (second) emblem’s listing of virtues, which culminate a similar image of godly steps. The image of climbing stairs also resonates with her “stairs of revolution”, an idea she associates in <ref type="pp-poem-ref" corresp="48">“Immense Fount of Truth” (Poem 48)</ref> with the transformation of body and soul after death (line 6).</note></seg></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

@@ -1,3 +1,696 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.45">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>This Was Written in 1648, When I Lay in, With my Son John</title>
+        <title type="sub">Poem #45</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_137.jpg" xml:id="f7610_137"/>
+      <graphic url="./document_images/7610_138.jpg" xml:id="f7610_138"/>
+      <graphic url="./document_images/7610_139.jpg" xml:id="f7610_139"/>
+      <graphic url="./document_images/7610_140.jpg" xml:id="f7610_140"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>This was written 1648, when I Lay Inn, with my
+              Son John <seg>[<del>?</del>]<note type="physical"> last letter (“r”) legible; first letter may be “P”; two letters with ascenders in middle, so deleted word may be “Pulter”; top of page has end of last poem</note></seg>, beeing my 15 Child, I beeing Soe
+                weak, that in Ten dayes and Nights I never moued
+                my Head one Jot from my Pillow, out of which great
+                weaknes, my gracious God Restored me, that <seg>I
+                  <note type="physical">flourish obliterates imperfectly erased letter to right</note></seg>                Still Live to magnifie his Mercie. <seg><note type="physical">ascending straight line beneath</note></seg>	   <seg>1655<note type="physical">in different hand from main scribe</note></seg></rdg>
+          <rdg wit="#ee"><seg>This Was Written in 1648, When I Lay in, With my Son John<note type="physical">The title continues, “This being my 15th child; I being so weak, that in ten days and nights I never moved my head one jot from my pillow, out of which great weakness, my gracious God restored me, that I still live to magnify his mercy.” Following this long title, in the hand of the main scribe, is the year “1665”; slightly to the right a different hand has corrected this to “1655.”</note></seg></rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Sad, Sick, and Lame, as in my Bed I lay</rdg>
+            <rdg wit="#ee">Sad, sick, and lame, as in my bed I lay,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Least Pain and Passion Should bear all the Sway</rdg>
+          <rdg wit="#ee">Lest pain and <seg>passion<note type="gloss">suffering</note></seg> should <seg>bear all the sway<note type="gloss">govern, rule; hold (highest) position of authority or power; exercise influence</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">My thoughts beeing free I bid <seg>them<note type="physical">“m” appears written over earlier “e”</note></seg> take their flieght</rdg>
+            <rdg wit="#ee">My thoughts being free, I bid them take their flight</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Above the Gloomey Shades of Death and Night</rdg>
+            <rdg wit="#ee">Above the gloomy shades of death and night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">They overjoyed with Such a Large Commiſſion</rdg>
+            <rdg wit="#ee">They, overjoyed with such a large commission,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">&ff;lew inſtantly without all intermiſſion</rdg>
+            <rdg wit="#ee">Flew instantly, without all intermission,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#ft">Up to <seg>that<note type="physical">corrected from “the” by additon of final “t” and closing of loop over “e”</note></seg> Spheir where Nights Pale Queen doth Run</rdg>
+          <rdg wit="#ee">Up to that sphere where <seg>night’s pale queen<note type="gloss">the moon</note></seg> doth run</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Round the Circumference of the Illustrious Sun</rdg>
+          <rdg wit="#ee">Round the circumference of the <seg>illustrious<note type="gloss">luminous; noble</note></seg> sun.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Her Globious Body Spacious was and Bright</rdg>
+          <rdg wit="#ee">Her <seg>globious<note type="gloss">spherical</note></seg> body spacious was, and bright;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">That Half alone that from Sols Beams had Light</rdg>
+          <rdg wit="#ee">That half alone that from <seg>Sol’s<note type="gloss">the sun’s</note></seg> beams had light;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The other was imured in Shades of Night</rdg>
+          <rdg wit="#ee">The other was <seg>immured<note type="gloss">enclosed</note></seg> in shades of night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Nor did Shee Seem to mee as Poets fain</rdg>
+          <rdg wit="#ee">Nor did she seem to me as poets <seg>feign<note type="gloss">invent, imagine</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Guiding her Chariot with A Silver Rein</rdg>
+            <rdg wit="#ee">Guiding her chariot with a silver rein,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Attir’d like Som fair Nimph or Virgin Queen</rdg>
+          <rdg wit="#ee">Attired like some fair <seg>nymph<note type="gloss">demi-goddess</note></seg> or virgin queen,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">With naked Neck and Arms and Robes of Green</rdg>
+            <rdg wit="#ee">With naked neck and arms and robes of green.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_138" n="67v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_138"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_138"/>
+            </rdg>
+        </app>
+      <l n="16">
+        <app>
+          <rdg wit="#ft">Love Sick <seg>EnDimion<note type="physical">“En” appears written in place of (and partly over) erased “in”</note></seg> oft hath thus her Seen</rdg>
+          <rdg wit="#ee">Lovesick <seg>Endymion<note type="gloss">in classical myth, a shepherd who loved the moon goddess</note></seg> oft hath thus her seen;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">But as my thoughts about her Orb was Hurld</rdg>
+            <rdg wit="#ee">But as my thoughts about her orb was hurled,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">I did perceive Shee was another World</rdg>
+            <rdg wit="#ee">I did perceive she was another world.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Thus beeing in my &ff;ancie raiſd soe fare</rdg>
+            <rdg wit="#ee">Thus being in my fancy raised so far,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">This World apear’d to mee another Star</rdg>
+            <rdg wit="#ee">This world appeared to me another star;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">And as the Moon a Shadow Casts and Light</rdg>
+            <rdg wit="#ee">And as the moon a shadow casts and light,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Soe is our Earth the Empres of their Night</rdg>
+            <rdg wit="#ee">So is our Earth the empress of their night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Next Venus Usher to the Night and Day</rdg>
+          <rdg wit="#ee">Next, <seg>Venus, usher to the night and day<note type="gloss">planet identified with the morning star (in the “orient” or east) and evening star (in the “occident” or west); hence her representation as “usher” to night and day</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Her ful &ff;aced Bevty to mee did Diſplay</rdg>
+          <rdg wit="#ee">Her <seg>full-faced<note type="gloss">fully visible</note></seg> beauty to me did display;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Some time Shee Waned then again increaſe</rdg>
+          <rdg wit="#ee">Sometimes she wanéd, then again <seg>increase<note type="gloss">increased; would increase</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Which in our humours cauſ or Warr or Peace</rdg>
+          <rdg wit="#ee">Which in our <seg>humors<note type="gloss">in ancient and medieval physiology, four bodily fluids (blood, phlegm, choler, and bile) believed to determine health, temperament, and behaviour (warring or peaceful)</note></seg> cause <seg>or<note type="gloss">either</note></seg> war or peace.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">My fancie next to Mercury would Run</rdg>
+            <rdg wit="#ee">My fancy next to Mercury would run,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">But craftily hee popt b<add place="below">\</add><add place="above">e</add>hind the Sun</rdg>
+            <rdg wit="#ee">But craftily he popped behind the sun.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">A wonder ti’s the medium beeing Soe Bright</rdg>
+            <rdg wit="#ee">A wonder ’tis, the medium being so bright,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+          <rdg wit="#ft">His Splendencie Should bee obſcur’d by <seg>Light<note type="physical">“L” replaces earlier letter, likely “N”</note></seg></rdg>
+          <rdg wit="#ee">His <seg>splendency<note type="gloss">brightness; magnificence</note></seg> should be obscured by light.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Nor could I Sols refulgent Orb discrie</rdg>
+          <rdg wit="#ee">Nor could I Sol’s <seg>refulgent<note type="gloss">brilliant; glorious</note></seg> orb <seg>descry<note type="gloss">perceive</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">His Raidient Beames dazled my tender eye</rdg>
+            <rdg wit="#ee">His radiant beams dazzled my tender eye;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">And now my Wonder is again Renewed</rdg>
+            <rdg wit="#ee">And now my wonder is again renewed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">That hee enlightening all could not bee vewed</rdg>
+            <rdg wit="#ee">That he, enlightening all, could not be viewed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Yet to my Reason this apeard the Best</rdg>
+            <rdg wit="#ee">Yet to my reason this appeared the best:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">That hee the Center was of all the Rest</rdg>
+            <rdg wit="#ee">That he the center was of all the rest</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">The Planets all like Bowlls Still trundling Round</rdg>
+          <rdg wit="#ee">The planets, all like <seg>bowls<note type="gloss">balls</note></seg> still trundling round</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">The vast Circumference of his Glorious Mound</rdg>
+            <rdg wit="#ee">The vast circumference of his glorious mound;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">hee</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_139" n="68r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_139"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_139"/>
+            </rdg>
+        </app>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">Hee Resting quickens all with Heat and Light</rdg>
+          <rdg wit="#ee">He, <seg>resting<note type="gloss">unmoving</note></seg>, <seg>quickens<note type="gloss">animates</note></seg> all with heat and light,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">And by the Earths motion makes our Day or Night</rdg>
+            <rdg wit="#ee">And by the Earth’s motion makes our day or night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Next Jupiter that Mild Auspicious Starr</rdg>
+          <rdg wit="#ee"><seg>Next Jupiter, that mild auspicious star:<note type="gloss">Jupiter is seen in astrology as “auspicious” (presenting a positive omen), temperate, wise, benevolent, and concerned with law and judgement.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">I did perceive about his Blazing Carr</rdg>
+          <rdg wit="#ee">I did perceive about his blazing <seg>car<note type="gloss">chariot</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">&ff;our bright Attendents alwayes hurrid Round</rdg>
+          <rdg wit="#ee"><seg>Four bright attendants<note type="gloss">the moons of Jupiter, discovered by Galileo in 1610.</note></seg> always hurried round;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">Next &ff;lagrant Mars where noe Such Moons are found</rdg>
+          <rdg wit="#ee">Next <seg>flagrant<note type="gloss">blazing</note></seg> Mars, where no such moons are found;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">Then Saturn (whose Aspects Soe Sads my Soul)</rdg>
+          <rdg wit="#ee"><seg>Then Saturn (whose aspects so sads my soul)<note type="gloss">The speaker is saddened by the planet’s “aspects,” or temporary positions in the sky; Saturn was understood in astrology to have a baleful influence.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+            <rdg wit="#ft">About whose Orb two Sickly Cinthias rowl</rdg>
+          <rdg wit="#ee">About whose orb two sickly <seg>Cynthias<note type="gloss">Cynthia is the moon goddess; in 1610, Galileo mistook Saturn’s rings for two moons.</note></seg> roll;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+            <rdg wit="#ft">Then on the &ff;ixed Stars I would have Gazed</rdg>
+          <rdg wit="#ee">Then on the <seg>fixed stars<note type="gloss">stars, which appear always to occupy the same position in the sky (as distinct from planets, known as “wandering stars”)</note></seg> I would have gazed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+            <rdg wit="#ft">But their vast Brightnes Soe my Mind Amazed</rdg>
+            <rdg wit="#ee">But their vast brightness so my mind amazed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="49">
+        <app>
+            <rdg wit="#ft">That my afrighted &ff;ancie Downward &ff;lew</rdg>
+            <rdg wit="#ee">That my affrighted fancy downward flew</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+            <rdg wit="#ft">Just as the Howers Auroras Curtain Drew</rdg>
+          <rdg wit="#ee">Just as <seg>the Hours Aurora’s curtain drew<note type="gloss">the Horae, Greek goddesses of seasons, are portrayed as the attendants of Aurora, the dawn; in drawing or pulling back her curtain, they expose her brightness.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+            <rdg wit="#ft">At which the Uglie Wife of Accharon</rdg>
+          <rdg wit="#ee">At which the ugly <seg>wife of Acheron<note type="gloss">Acheron, a river in classical underworld ruled by Hades, is here identified with its ruler; his wife is here identified with Nyx or Night.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+          <rdg wit="#ft">Bid <seg>drive<note type="physical">“r” written over indiscernible letter</note></seg> and Slaſhed her Drouſey Monsters on</rdg>
+            <rdg wit="#ee">Bid drive, and slashed her drowsy monsters on;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="53">
+        <app>
+            <rdg wit="#ft">With Her there went her first born Brat old Errour</rdg>
+            <rdg wit="#ee">With her there went her firstborn brat, old Error,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="54">
+        <app>
+            <rdg wit="#ft">And &ff;ierce Eumenedes poor Mortals terrour</rdg>
+          <rdg wit="#ee">And fierce <seg>Eumenides<note type="gloss">classical divinities of vengeance, also known as the Furies</note></seg>, poor mortals’ terror,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="55">
+        <app>
+            <rdg wit="#ft">Who with their Snakes, and whips, and Brands, were hurld</rdg>
+            <rdg wit="#ee">Who with their snakes, and whips, and brands, were hurled</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="56">
+        <app>
+            <rdg wit="#ft">To Strike Amazement to the Lower World</rdg>
+          <rdg wit="#ee">To strike <seg>amazement<note type="gloss">fear, alarm</note></seg> to the lower world;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="57">
+        <app>
+            <rdg wit="#ft">Beeing Scard themſelves at the aproach of Light</rdg>
+            <rdg wit="#ee">Being scared themselves at the approach of light,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="58">
+        <app>
+            <rdg wit="#ft">To our Antipodes they took their &ff;lieght</rdg>
+          <rdg wit="#ee">To our <seg>antipodes<note type="gloss">opposite side of the world</note></seg> they took their flight.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="59">
+        <app>
+            <rdg wit="#ft">Sin̄ſe Curſed ofſpring with their Dam did Trace</rdg>
+          <rdg wit="#ee">Sin’s curséd offspring with their <seg>dam<note type="gloss">mother</note></seg> did <seg>trace<note type="gloss">go, follow</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="60">
+        <app>
+            <rdg wit="#ft">That most Prodigious incestious Race</rdg>
+          <rdg wit="#ee">That most <seg>prodigious, incestuous race<note type="gloss">The offspring of Sin and Night are prodigious (likely in the sense of unnatural, but alternately or also: ominous; appalling; immense) and incestuous because, according to classical myth, Nyx or Night had children by her brother, Erebos, (signifying “darkness,” or the dark space leading to Hades or Hell); these children are, however, not identified in classical myth with Horror, Despair, and Sorrow, as here.</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="61">
+        <app>
+            <rdg wit="#ft">Pale Gastly, Shudring, Horrour, lost despair</rdg>
+            <rdg wit="#ee">Pale, ghastly, shuddering Horror, lost Despair,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="62">
+        <app>
+            <rdg wit="#ft">And Sobbing Sorrow, tearing of her Hair</rdg>
+            <rdg wit="#ee">And sobbing Sorrow, tearing off her hair:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">theſe</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_140" n="68v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_140"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_140"/>
+            </rdg>
+        </app>
+      <l n="63">
+        <app>
+            <rdg wit="#ft">These of her Sable Womb were born and Bred</rdg>
+          <rdg wit="#ee">These of <seg>her<note type="gloss">Night’s</note></seg> sable womb were born and bred,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="64">
+        <app>
+            <rdg wit="#ft">And from the Light with her now frighted fled</rdg>
+            <rdg wit="#ee">And from the light with her now frighted fled;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="65">
+        <app>
+            <rdg wit="#ft">And then my Mayds my Window Curtains Drew</rdg>
+            <rdg wit="#ee">And then my maids my window curtains drew,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="66">
+        <app>
+            <rdg wit="#ft">And as my Pain Soe Comforts did Renew</rdg>
+            <rdg wit="#ee">And, as my pain, so comforts did renew.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="67">
+        <app>
+            <rdg wit="#ft">Unto the God of truth, Light Life, and Love</rdg>
+            <rdg wit="#ee">Unto the God of truth, light, life, and love,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="68">
+        <app>
+          <rdg wit="#ft">Il’e Such Layes Here begin Shall end <seg>Aboue<note type="physical">“A” appears written over other letters, possibly “in”</note></seg>.</rdg>
+          <rdg wit="#ee">I’ll such <seg>lays<note type="gloss">short songs</note></seg> <seg>here begin shall end above<note type="gloss">that is, the speaker will begin writing or singing songs here that she will finish in Heaven</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="ascending-inkblot"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

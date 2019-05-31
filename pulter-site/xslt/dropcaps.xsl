@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-
                 xmlns:pp="http://madstudio.northwestern.edu/pp/xmlns/1"
                 exclude-result-prefixes="pp"
                 version="1.0">
