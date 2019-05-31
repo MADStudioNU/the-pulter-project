@@ -118,7 +118,6 @@
     <!-- List of all images associated with this document -->
       <graphic url="./document_images/7610_232.jpg" xml:id="f7610_232"/>
       <graphic url="./document_images/7610_233.jpg" xml:id="f7610_233"/>
-
   </facsimile>
   <text>
     <front>
@@ -126,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -147,7 +146,7 @@
       <head>
         <app type="title">
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 36]</rdg>
-            <rdg wit="#ee">Doves and Pearls (Emblem 36)</rdg>
+            <rdg wit="#ee">Doves and Pearls<lb/>(Emblem 36)</rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>
         <app type="editorialnote">

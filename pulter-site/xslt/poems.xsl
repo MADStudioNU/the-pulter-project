@@ -3255,6 +3255,15 @@
     </pp:poem>
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
+      <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords></pp:keywords>
+      <pp:tags></pp:tags>
     </pp:poem>
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
