@@ -86,12 +86,12 @@
           <pp:title>Talking to Death</pp:title>
           <pp:peek>In “The Eclipse,” the speaker directly addresses God, using apostrophe to animate Death itself. The speaker’s warning that Death has been conquered by God (specifically, as the last stanza specifies, through Christ’s blood sacrifice) echoes John Donne, “Holy Sonnet” X:</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="black-monday-1652">
+        <pp:curation status="off" hash="black-monday-1652">
           <pp:author>Lara Dodds</pp:author>
           <pp:title>Black Monday (1652)</pp:title>
           <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="eclipse-literature">
+        <pp:curation status="off" hash="eclipse-literature">
           <pp:author>Lara Dodds</pp:author>
           <pp:title>Eclipse Literature</pp:title>
           <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
@@ -4147,48 +4147,50 @@
     <xsl:param name="poemId"/>
     <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:curations/pp:curation">
       <xsl:variable name="status" select="./@status"/>
-      <li class="ctx">
-        <xsl:attribute name="data-ctx-hash">
-          <xsl:value-of select="./@hash"/>
-        </xsl:attribute>
-        <xsl:attribute name="data-status">
-          <xsl:value-of select="$status"/>
-        </xsl:attribute>
-        <div class="text">
-          <xsl:element name="a">
-            <xsl:attribute name="href">
-              <xsl:value-of select="concat('./#', ./@hash)"/>
-            </xsl:attribute>
-            <xsl:attribute name="data-curation-title">
-              <xsl:value-of select="./pp:title"/>
-            </xsl:attribute>
-            <h3 class="lato">
-              <xsl:apply-templates select="./pp:title/node()"/>
-            </h3>
-            <div class="by-line"><span class="by">by</span>
-              <span class="who"><xsl:value-of select="./pp:author"/></span></div>
-            <xsl:element name="p">
-              <xsl:attribute name="class">
-                <xsl:value-of select="'peek'"/>
+      <xsl:if test="$status = 'on'">
+        <li class="ctx">
+          <xsl:attribute name="data-ctx-hash">
+            <xsl:value-of select="./@hash"/>
+          </xsl:attribute>
+          <xsl:attribute name="data-status">
+            <xsl:value-of select="$status"/>
+          </xsl:attribute>
+          <div class="text">
+            <xsl:element name="a">
+              <xsl:attribute name="href">
+                <xsl:value-of select="concat('./#', ./@hash)"/>
               </xsl:attribute>
-              <xsl:variable name="peekText">
-                <xsl:value-of select="normalize-space(./pp:peek)"/>
-              </xsl:variable>
-              <xsl:variable name="peekLimit">
-                <xsl:value-of select="150" />
-              </xsl:variable>
-              <xsl:choose>
-                <xsl:when test="string-length($peekText) > $peekLimit">
-                  <xsl:value-of select="concat(substring($peekText, 1, $peekLimit), '…')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="$peekText"/>
-                </xsl:otherwise>
-              </xsl:choose>
+              <xsl:attribute name="data-curation-title">
+                <xsl:value-of select="./pp:title"/>
+              </xsl:attribute>
+              <h3 class="lato">
+                <xsl:apply-templates select="./pp:title/node()"/>
+              </h3>
+              <div class="by-line"><span class="by">by</span>
+                <span class="who"><xsl:value-of select="./pp:author"/></span></div>
+              <xsl:element name="p">
+                <xsl:attribute name="class">
+                  <xsl:value-of select="'peek'"/>
+                </xsl:attribute>
+                <xsl:variable name="peekText">
+                  <xsl:value-of select="normalize-space(./pp:peek)"/>
+                </xsl:variable>
+                <xsl:variable name="peekLimit">
+                  <xsl:value-of select="150" />
+                </xsl:variable>
+                <xsl:choose>
+                  <xsl:when test="string-length($peekText) > $peekLimit">
+                    <xsl:value-of select="concat(substring($peekText, 1, $peekLimit), '…')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="$peekText"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:element>
             </xsl:element>
-          </xsl:element>
-        </div>
-      </li>
+          </div>
+        </li>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
 
