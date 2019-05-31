@@ -87,7 +87,7 @@ gulp.task('browserSync', function (cb) {
 gulp.task('images-deploy', function () {
   return gulp.src([
     SITE_BASE + 'images/**/*',
-    '!' + SITE_BASE + 'images/README',
+    '!' + SITE_BASE + 'images/**/*.md',
     '!' + SITE_BASE + 'images/**/*.codekit3'
   ])
     .pipe(plumber())
