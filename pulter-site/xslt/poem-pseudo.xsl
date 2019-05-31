@@ -517,6 +517,21 @@
     </xsl:choose>
   </xsl:template>
 
+  <!-- Basic ref -->
+  <xsl:template match="tei:ref">
+    <a class="link">
+      <xsl:attribute name="href">
+        <xsl:value-of select="@target"/>
+      </xsl:attribute>
+      <xsl:if test="@type">
+        <xsl:attribute name="class">
+          <xsl:value-of select="@type"/>
+        </xsl:attribute>
+      </xsl:if>
+      <xsl:value-of select="."/>
+    </a>
+  </xsl:template>
+
   <!-- Poem links -->
   <xsl:template match="tei:ref[@type = 'pp-poem-ref']">
     <xsl:variable name="referencedPoemID" select="./@corresp"/>

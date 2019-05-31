@@ -975,6 +975,11 @@
       <xsl:attribute name="href">
         <xsl:value-of select="@target"/>
       </xsl:attribute>
+      <xsl:if test="@type">
+        <xsl:attribute name="class">
+          <xsl:value-of select="@type"/>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:value-of select="."/>
     </a>
   </xsl:template>
