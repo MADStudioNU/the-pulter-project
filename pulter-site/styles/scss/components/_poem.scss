@@ -435,6 +435,11 @@ $globalBorderRadius: 2px;
                 background: lighten($pp_manuscriptPaper, 15%);
               }
             }
+
+            .pp-curations-ref {
+              font-weight: bold;
+              color: #fff;
+            }
           }
 
           // Headnote notes
