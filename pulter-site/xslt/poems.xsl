@@ -3359,6 +3359,15 @@
     </pp:poem>
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
+      <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords></pp:keywords>
+      <pp:tags></pp:tags>
     </pp:poem>
     <pp:poem id="105">
       <pp:title>View but this Tulip (Emblem 40)</pp:title>
