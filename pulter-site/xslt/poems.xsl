@@ -1412,6 +1412,7 @@
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
       <pp:firstLine>Why doth pale thus her beauty shroud?</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
