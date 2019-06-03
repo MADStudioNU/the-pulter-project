@@ -1863,6 +1863,7 @@
     <pp:poem id="45">
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
       <pp:firstLine>Sad, sick, and lame, as in my bed I lay</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2495,6 +2496,13 @@
     </pp:poem>
     <pp:poem id="60">
       <pp:title>Extremely I Deplore Your Loss</pp:title>
+      <pp:firstLine></pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="61">
       <pp:title>The Weeping Wish</pp:title>
