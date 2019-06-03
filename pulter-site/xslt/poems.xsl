@@ -2760,6 +2760,7 @@
     <pp:poem id="70">
       <pp:title>Virtue's Duel (Emblem 4)</pp:title>
       <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
