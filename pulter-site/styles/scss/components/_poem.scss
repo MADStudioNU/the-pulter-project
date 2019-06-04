@@ -1435,6 +1435,7 @@ $defaultStrokeWidth: 6px;
 .citation-box {
   padding-left: 1.5em;
   line-height: 1.5;
+  text-shadow: none;
 
   .citation {
     font-family: $pp_poetryFont;
@@ -1453,14 +1454,13 @@ $defaultStrokeWidth: 6px;
 
   // Headnote notes
   .headnote & {
-    background: rgba(#000, .5);
-    padding: 1em 2em 1em 1em;
+    background: #F9F7F5;
+    padding: 1.25em 3em 1.25em 1.5em;
     display: inline-block;
     margin-top: 1.5em;
 
     .citation {
-      color: #fff;
-      font-size: 1.05em;
+      color: #000;
 
       p {
         &:not(:last-child) {
