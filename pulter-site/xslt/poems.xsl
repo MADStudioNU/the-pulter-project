@@ -2964,6 +2964,13 @@
     </pp:poem>
     <pp:poem id="80">
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
+      <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
