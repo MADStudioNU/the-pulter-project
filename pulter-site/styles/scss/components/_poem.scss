@@ -1231,6 +1231,13 @@ $globalBorderRadius: 2px;
 
   // Special rules for a note in header
   &.glosses-on {
+    .poem {
+      header .poem-note-trigger {
+        &.multi {
+          &::after { display: none; }
+        }
+      }
+    }
     .poem.expanded {
       header .poem-note-trigger {
         @include transition(none);
@@ -1244,8 +1251,6 @@ $globalBorderRadius: 2px;
       header .poem-note-trigger {
         background: rgba($pp_manuscriptPaper, .1);
         border: 1px solid rgba(255, 255, 255, .25);
-        padding-top: 3px;
-        padding-bottom: 4px;
 
         &:hover {
           background: rgba(255, 255, 255, .1);
