@@ -2750,6 +2750,7 @@
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
       <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
