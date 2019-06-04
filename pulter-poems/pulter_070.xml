@@ -131,6 +131,17 @@
     </front>
 
     <body>
+      <app>
+          <rdg wit="#ft">
+              <pb ed="#ft" facs="#f7610_189" n="93r"/>
+          </rdg>
+          <rdg wit="#ee">
+              <pb ed="#ee" facs="#f7610_189"/>
+          </rdg>
+          <rdg wit="#ae">
+              <pb ed="#ae" facs="#f7610_189"/>
+          </rdg>
+      </app>
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 4]</rdg>
@@ -349,7 +360,7 @@
       <l n="25">
         <app>
             <rdg wit="#ft">And Such a king Kild at this Isle before</rdg>
-            <rdg wit="#ee">And such a king killed, <seg>that<note type="critical"></note></seg> this isle before</rdg>
+            <rdg wit="#ee">And such a king killed, <seg>that<note type="critical">the manuscript has “at,” which seems to be an error for the abbreviation “yt,” which meant “that.” What the island of England has never seen is “such a king” rather than the fact of regicide.</note></seg> this isle before</rdg>
           <rdg wit="#ae">And such <seg>a king killed<note type="gloss">Pulter is referring to the execution of King Charles I, who was beheaded on 30 January 1649. This execution took place after a tumultuous period of rule which observed a split between the royalists and parliamentarians.</note></seg>, <seg>that<note type="critical">MS = “at”. We have followed the editors of the Elemental Edition in treating this as a a scribal error for the abbreviation “yt” (meaning “that”).</note></seg> this isle <seg>before<note type="critical">the first line of the rhyming tercet which concludes the poem. Where most of Pulter’s emblem poetry employs rhyming couplets, this emblem diverges at its conclusion, using a rhyming tercet to draw attention to the meaning behind the poem’s personifications: namely, the Civil War and her royalist perspective on it.</note></seg></rdg>
         </app>
       </l>
