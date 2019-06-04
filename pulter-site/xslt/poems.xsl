@@ -921,7 +921,14 @@
       </pp:curations>
     </pp:poem>
     <pp:poem id="19">
-      <pp:title>The Welcome</pp:title>
+      <pp:title>The Welcome [1]</pp:title>
+      <pp:firstLine>Dear Death, thou’rt welcome to my troubled soul</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
@@ -1697,6 +1704,7 @@
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
