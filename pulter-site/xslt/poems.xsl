@@ -743,6 +743,7 @@
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
       <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1235,6 +1236,7 @@
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
       <pp:firstLine>O that the splendent and illustrious sun</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
         <pp:author>Leah Knight</pp:author>
