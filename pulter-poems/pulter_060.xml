@@ -12,9 +12,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-          <title>To Sir William Davenant: Upon the Unspeakable Loss of
-              the Most Conspicuous and Chief Ornament of His Frontispiece
-          </title>
+          <title>To Sir William Davenant: Upon the Unspeakable Loss of the Most Conspicuous and Chief Ornament of His Frontispiece</title>
         <title type="sub">Poem #60</title>
         <respStmt>
           <resp>Created by</resp>
@@ -127,7 +125,7 @@
       <div>
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
 <!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
         </listWit>
       </div>
@@ -149,13 +147,9 @@
       </app>
       <head>
         <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>To <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> <w lemma="william"><abbr>W:<hi rend="superscript">m</hi></abbr></w> D: Upon the unſpeakable Loſs of
-                the most conspicious and chief Ornament of
-                his &ff;rontispiece
-            </rdg>
-            <rdg wit="#ee"><seg>To Sir William Davenant: Upon the Unspeakable Loss of
-              the Most Conspicuous and Chief Ornament of His Frontispiece<note type="gloss">William Davenant (1606-1668) was a famous English playwright who served as poet laureate and was knighted by Charles I. In 1630, he contracted syphilis and took mercury as a cure, which disfigured his nose. An “ornament” is an accessory; a “frontispiece” is a face but also the front of a building, the engraved panel over an entrance, or the first page or title page of a book.</note></seg>
-            </rdg>
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>To <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> <w lemma="william"><abbr>W:<hi rend="superscript">m</hi></abbr></w> D: Upon the unſpeakable Loſs of the most conspicious and chief Ornament of his &ff;rontispiece</rdg>
+          <rdg wit="#ee"><seg>To Sir William Davenant: Upon the Unspeakable Loss of the Most Conspicuous and Chief Ornament of His Frontispiece<note type="gloss">William Davenant (1606-1668) was a famous English playwright who served as poet laureate and was knighted by Charles I. In 1630, he contracted syphilis and took mercury as a cure, which disfigured his nose. An “ornament” is an accessory; a “frontispiece” is a face but also the front of a building, the engraved panel over an entrance, or the first page or title page of a book.</note></seg>
+          </rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>
         <app type="editorialnote">
@@ -211,7 +205,7 @@
       </l>
       <l n="5">
         <app>
-            <rdg wit="#ft">Or like A Diall <seg><del>Gnoman</del> <add place="above">and noe</add><note type="physical"></note></seg> Gnoman</rdg>
+            <rdg wit="#ft">Or like A Diall <seg><del>Gnoman</del> <add place="above">and noe</add><note type="physical">in H2; “and noe”  directly above cancelled “Gnoman,” struck-through twice</note></seg> Gnoman</rdg>
           <rdg wit="#ee">Or like a dial and no <seg>gnomon<note type="gloss">A pin or rod that indicates the time of day by casting its shadow upon the surface of a sundial: a dial without the rod is useless.</note></seg>;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
@@ -247,8 +241,7 @@
       <l n="10">
         <app>
             <rdg wit="#ft">But’ld bee one &ff;leſh though not one Bone</rdg>
-          <rdg wit="#ee"><seg>But’ld<note type="gloss">But would</note></seg> be <seg>one flesh, though not one bone<note type="critical">would marry him even if not agreeing to offer up their bones. On marriage as becoming “one flesh,” see Genesis 2:23-24: “And Adam said, this is now bone of my bones, and flesh of my flesh: she shall be called woman, because she was taken out of man. “Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.”
-          </note></seg>.</rdg>
+          <rdg wit="#ee"><seg>But’ld<note type="gloss">But would</note></seg> be <seg>one flesh, though not one bone<note type="critical">would marry him even if not agreeing to offer up their bones. On marriage as becoming “one flesh,” see Genesis 2:23-24: “And Adam said, this is now bone of my bones, and flesh of my flesh: she shall be called woman, because she was taken out of man. “Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.”</note></seg>.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -296,7 +289,7 @@
       </l>
       <l n="17">
         <app>
-            <rdg wit="#ft">I as once Said a Gallant Dame</rdg>
+          <rdg wit="#ft">I as once Said a Gallant Dame</rdg>
           <rdg wit="#ee">I, as once said a <seg>gallant<note type="gloss">refined, noble</note></seg> dame,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
@@ -324,7 +317,7 @@
       </l>
       <l n="21">
         <app>
-            <rdg wit="#ft">Then <w>lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> your Pardon I must Beg</rdg>
+            <rdg wit="#ft">Then <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> your Pardon I must Beg</rdg>
             <rdg wit="#ee">Then, sir, your pardon I must beg;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
@@ -332,7 +325,7 @@
       <l n="22">
         <app>
             <rdg wit="#ft">Excuſe my Noſe accept my Leg</rdg>
-            <rdg wit="#ee">Excuse my nose, <seg>accept my leg<note type="gloss"></note></seg>.</rdg>
+            <rdg wit="#ee">Excuse my nose, <seg>accept my leg<note type="gloss">The speaker will allow a skin graft from her leg, or she is offering to curtsy as she asks for pardon.</note></seg>.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -363,22 +356,22 @@
       </l>
       <l n="25">
         <app>
-            <rdg wit="#ft">&ff;or if I &ff;irst should chance to goe</rdg>
-            <rdg wit="#ee">For if I first should chance to go</rdg>
+          <rdg wit="#ft">&ff;or if I &ff;irst should chance to goe</rdg>
+          <rdg wit="#ee">For if I first should chance to go</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="26">
         <app>
-            <rdg wit="#ft">To viſit thoſe Sad Shades below</rdg>
+          <rdg wit="#ft">To viſit thoſe Sad Shades below</rdg>
           <rdg wit="#ee">To visit those <seg>sad shades<note type="gloss">the netherworld or people in it</note></seg> below,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="27">
         <app>
-            <rdg wit="#ft">As my &ff;rail &ff;leſh there putrifies</rdg>
-            <rdg wit="#ee">As my frail flesh there putrefies,</rdg>
+          <rdg wit="#ft">As my &ff;rail &ff;leſh there putrifies</rdg>
+          <rdg wit="#ee">As my frail flesh there putrefies,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -391,7 +384,7 @@
       </l>
       <l n="29">
         <app>
-            <rdg wit="#ft">But this I fear least that blind Boy</rdg>
+          <rdg wit="#ft">But this I fear least that blind Boy</rdg>
           <rdg wit="#ee">But this I fear: lest that <seg>blind boy<note type="gloss">Cupid</note></seg></rdg>
           <rdg wit="#ae"></rdg>
         </app>
@@ -433,22 +426,22 @@
       </l>
       <l n="35">
         <app>
-            <rdg wit="#ft">And all your Witt and Titles Sleight</rdg>
-            <rdg wit="#ee">And all your wit and titles slight:</rdg>
+          <rdg wit="#ft">And all your Witt and Titles Sleight</rdg>
+          <rdg wit="#ee">And all your wit and titles slight:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="36">
         <app>
-            <rdg wit="#ft">Imbrace a Page before a Knight</rdg>
-            <rdg wit="#ee">Embrace a page before a knight.</rdg>
+          <rdg wit="#ft">Imbrace a Page before a Knight</rdg>
+          <rdg wit="#ee">Embrace a page before a knight.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="37">
         <app>
-            <rdg wit="#ft">Then Should Some Nobleminded &ff;reind</rdg>
-            <rdg wit="#ee">Then should some noble-minded friend,</rdg>
+          <rdg wit="#ft">Then Should Some Nobleminded &ff;reind</rdg>
+          <rdg wit="#ee">Then should some noble-minded friend,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -461,43 +454,43 @@
       </l>
       <l n="39">
         <app>
-            <rdg wit="#ft">And having Search’d neare and &ff;arr</rdg>
-            <rdg wit="#ee">And having searchéd near and far</rdg>
+          <rdg wit="#ft">And having Search’d neare and &ff;arr</rdg>
+          <rdg wit="#ee">And having searchéd near and far</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="40">
         <app>
-            <rdg wit="#ft">And found your most capacious Jarr</rdg>
-            <rdg wit="#ee">And found your most capacious jar,</rdg>
+          <rdg wit="#ft">And found your most capacious Jarr</rdg>
+          <rdg wit="#ee">And found your most capacious jar,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="41">
         <app>
-            <rdg wit="#ft">Then beeing with Joy Returnd again</rdg>
-            <rdg wit="#ee">Then being, with joy, returned again</rdg>
+          <rdg wit="#ft">Then beeing with Joy Returnd again</rdg>
+          <rdg wit="#ee">Then being, with joy, returned again</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="42">
         <app>
-            <rdg wit="#ft">You could not then Snuf up your Brain</rdg>
-            <rdg wit="#ee">You could not then snuff up your brain:</rdg>
+          <rdg wit="#ft">You could not then Snuf up your Brain</rdg>
+          <rdg wit="#ee">You could not then snuff up your brain:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="43">
         <app>
-            <rdg wit="#ft">Though all your Strenght you Should expoſe</rdg>
-            <rdg wit="#ee">Though all your strength you should expose</rdg>
+          <rdg wit="#ft">Though all your Strenght you Should expoſe</rdg>
+          <rdg wit="#ee">Though all your strength you should expose</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="44">
         <app>
-            <rdg wit="#ft">You want the Organe cal’d a Noſe</rdg>
-            <rdg wit="#ee">You want the organ called a nose.</rdg>
+          <rdg wit="#ft">You want the Organe cal’d a Noſe</rdg>
+          <rdg wit="#ee">You want the organ called a nose.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -514,36 +507,36 @@
         </app>
       <l n="45">
         <app>
-            <rdg wit="#ft">Prodigious the Knight Remains</rdg>
+          <rdg wit="#ft">Prodigious the Knight Remains</rdg>
           <rdg wit="#ee"><seg>Prodigious<note type="gloss">wondrous</note></seg>, the knight remains</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="46">
         <app>
-            <rdg wit="#ft">Withous or Noſe, or &ff;ame or Brains,</rdg>
+          <rdg wit="#ft">Withous or Noſe, or &ff;ame or Brains,</rdg>
           <rdg wit="#ee">Without <seg>or<note type="gloss">either</note></seg> nose, or fame, or brains.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="47">
         <app>
-            <rdg wit="#ft">Then I bold ordinance Strook the Title of</rdg>
+          <rdg wit="#ft">Then I bold ordinance Strook the Title of</rdg>
           <rdg wit="#ee">Then a <seg>bold ordinance<note type="critical">Eardley speculates that this alludes to “An Ordinance Concerning the Peers of Parliament, and other Honors and Titles” (1646), which prevented peers created since 1642  from sitting in Parliament and voided their titles. Charles I had made Davenant a knight in 1643.</note></seg> struck the title off;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="48">
         <app>
-            <rdg wit="#ft">Thus the proud Parces Sit and at us Scofe</rdg>
+          <rdg wit="#ft">Thus the proud Parces Sit and at us Scofe</rdg>
           <rdg wit="#ee">Thus the proud <seg>Parcae<note type="gloss">the three female Fates</note></seg> sit, and at us scoff.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="49">
         <app>
-            <rdg wit="#ft">What now remains the Man at Least</rdg>
-            <rdg wit="#ee">What now remains? The man at least?</rdg>
+          <rdg wit="#ft">What now remains the Man at Least</rdg>
+          <rdg wit="#ee">What now remains? The man at least?</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -571,7 +564,7 @@
       <l n="53">
         <app>
             <rdg wit="#ft">Then Trample not that <w lemma="honour"><abbr>Hono:<hi rend="superscript">r</hi></abbr></w> in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Dust</rdg>
-            <rdg wit="#ee">Then trample not that honor in the dust</rdg>
+          <rdg wit="#ee">Then trample not that honor in the dust</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
