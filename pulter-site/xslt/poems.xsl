@@ -1228,15 +1228,16 @@
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
       <pp:firstLine>O that the splendent and illustrious sun</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--        <pp:author>Leah Knight</pp:author>-->
-<!--        <pp:author>Wendy Wall</pp:author>-->
-<!--      </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Elizabeth Scott-Baumann</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+        <pp:author>Leah Knight</pp:author>
+        <pp:author>Wendy Wall</pp:author>
+      </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>astronomy</pp:keyword>
