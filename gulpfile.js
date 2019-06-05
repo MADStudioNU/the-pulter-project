@@ -608,7 +608,7 @@ gulp.task('xslt:poems', function () {
                 dashify(slug, {condense: true}) :
                 'poem-' + poemId;
 
-              console.log('http:' + LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
+              console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
 
               // Write the redirect page
               var streamN = source('redirect.html');
