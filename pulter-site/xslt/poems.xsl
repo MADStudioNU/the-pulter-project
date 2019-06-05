@@ -3200,6 +3200,13 @@
     </pp:poem>
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
+      <pp:firstLine>The stately moose, being mounted up the hill</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
