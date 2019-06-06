@@ -2559,6 +2559,13 @@
     </pp:poem>
     <pp:poem id="62">
       <pp:title>On the Fall of that Grand Rebel</pp:title>
+      <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
