@@ -2979,6 +2979,7 @@
     <pp:poem id="80">
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
