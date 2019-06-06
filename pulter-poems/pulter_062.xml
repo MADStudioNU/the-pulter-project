@@ -12,9 +12,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-          <title>On the Fall of That Grand Rebel the Earl of Essex’s Effigies
-              in Harry the 7th’s Chapel in Westminster Abbey
-          </title>
+          <title>On the Fall of That Grand Rebel the Earl of Essex’s Effigies in Harry the 7th’s Chapel in Westminster Abbey</title>
         <title type="sub">Poem #62</title>
         <respStmt>
           <resp>Created by</resp>
@@ -127,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -150,8 +148,7 @@
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the Fall of that Grand Rebel the Earl of Eſsex
                 his Effigies in harry the 7th’s Chappel in Westminster <seg>Abby<note type="physical">poem in different hand from main scribe</note></seg>.
             </rdg>
-            <rdg wit="#ee"><seg>On the Fall of That Grand Rebel the Earl of Essex’s Effigies
-                in Harry the 7th’s Chapel in Westminster Abbey<note type="gloss">Robert Devereux, 3rd Earl of Essex (1591-1646), was a parliamentarian officer whose statue (or “effigy) in Henry VII’s chapel at Westminster Abbey was desecrated by Royalist political foes. “Essex His Effigies” is a possessive, “Essex’s Effigies.” This poem, written on pages later added (or “tipped in”) to the manuscript, is not in the main scribe’s hand nor is it in the secondary hand.</note></seg>
+            <rdg wit="#ee"><seg>On the Fall of That Grand Rebel the Earl of Essex’s Effigies in Harry the 7th’s Chapel in Westminster Abbey<note type="gloss">Robert Devereux, 3rd Earl of Essex (1591-1646), was a parliamentarian officer whose statue (or “effigy) in Henry VII’s chapel at Westminster Abbey was desecrated by Royalist political foes. “Essex His Effigies” is a possessive, “Essex’s Effigies.” This poem, written on pages later added (or “tipped in”) to the manuscript, is not in the main scribe’s hand nor is it in the secondary hand.</note></seg>
             </rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>
