@@ -1189,6 +1189,13 @@
     </pp:poem>
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
+      <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="29">
       <pp:title>My Soul's Sole Desire</pp:title>
