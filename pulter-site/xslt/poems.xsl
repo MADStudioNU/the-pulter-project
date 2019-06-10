@@ -1177,12 +1177,44 @@
       <pp:title>To Aurora [2]</pp:title>
       <pp:firstLine>Look up, sad eyes, behold the smiling morn</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:tags>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>scent</pp:keyword>
+        <pp:keyword>Aurora</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
+        <pp:keyword>day</pp:keyword>
+        <pp:keyword>night</pp:keyword>
+        <pp:keyword>beauty</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King's Most Excellent Majesty </pp:title>
