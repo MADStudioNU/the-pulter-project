@@ -1742,6 +1742,24 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:tags>
+        <pp:tag>love</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="43">
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
