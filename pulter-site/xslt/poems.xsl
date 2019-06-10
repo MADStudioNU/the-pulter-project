@@ -1176,6 +1176,7 @@
     <pp:poem id="26">
       <pp:title>To Aurora [2]</pp:title>
       <pp:firstLine>Look up, sad eyes, behold the smiling morn</pp:firstLine>
+      <pp:poster/>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -1188,6 +1189,13 @@
     </pp:poem>
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
+      <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="29">
       <pp:title>My Soul's Sole Desire</pp:title>
@@ -1728,12 +1736,30 @@
       <pp:title>Pardon Me, My Dearest Love</pp:title>
       <pp:firstLine>Pardon me, my dearest love</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:tags>
+        <pp:tag>love</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="43">
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
@@ -2559,6 +2585,13 @@
     </pp:poem>
     <pp:poem id="62">
       <pp:title>On the Fall of that Grand Rebel</pp:title>
+      <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
@@ -2623,6 +2656,7 @@
     <pp:poem id="64">
       <pp:title>And Must the Sword this Controverse Decide</pp:title>
       <pp:firstLine>And must the sword this controverse decide</pp:firstLine>
+      <pp:poster/>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -2972,6 +3006,7 @@
     <pp:poem id="80">
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
+      <pp:poster/>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
