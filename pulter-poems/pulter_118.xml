@@ -1,3 +1,575 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.118">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Fair Aurora (Emblem 53)</title>
+        <title type="sub">Poem #118</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_259.jpg" xml:id="f7610_259"/>
+      <graphic url="./document_images/7610_260.jpg" xml:id="f7610_260"/>
+      <graphic url="./document_images/7610_261.jpg" xml:id="f7610_261"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#7610_259" n="128r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_259"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_259"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw><seg>[Emblem 53]<note type="physical">Unlike surrounding poems in the “Emblems” section, no number precedes this poem.</note></seg></rdg>
+            <rdg wit="#ee">Fair Aurora (Emblem 53)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">When fair Aurora drest with Raidient Light</rdg>
+            <rdg wit="#ee">When fair Aurora, dressed with radiant light,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Had triumph’d o’re the Gloomey Shades of Night</rdg>
+            <rdg wit="#ee">Had triumphed o’er the gloomy shades of night–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">When Shee her Virgin beavty first diſcloſes</rdg>
+          <rdg wit="#ee">When she her <seg>virgin<note type="gloss">pure</note></seg> beauty first discloses,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Her dewey Curles Stuck full of half blown Roſes</rdg>
+          <rdg wit="#ee">Her dewy curls stuck full of <seg>half-blown<note type="gloss">half-blossomed</note></seg> roses,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Lapt in A Robe of Silver mixt with graie</rdg>
+          <rdg wit="#ee"><seg>Lapped<note type="gloss">wrapped up</note></seg> in a robe of silver mixed with gray,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Which did prognoſticate a glorious day</rdg>
+          <rdg wit="#ee">Which did <seg>prognosticate<note type="gloss">foretell</note></seg> a glorious day–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Out flew the active Amizonian Maid</rdg>
+          <rdg wit="#ee">Out flew the <seg>active Amazonian maid<note type="gloss">Amazons were legendary female warriors who served a queen; here used figuratively to describe a bee</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The Hills and Dales, not onely Shee Surveyd</rdg>
+            <rdg wit="#ee">The hills and dales not only she surveyed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">But out of every Gold <seg>Enameld<note type="physical">“E” and “e” appear written over earlier “i”s</note></seg> Cup</rdg>
+            <rdg wit="#ee">But out of every gold-enamelled cup</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Her Mornings draught of Nectar Shee did Sup</rdg>
+            <rdg wit="#ee">Her morning’s draught of nectar she did sup.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Nay where the Toad, and Spider poyſons found</rdg>
+            <rdg wit="#ee">Nay, where the toad and spider’s poison found</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Mell Shee Extracts, for this <add place="below">^</add> <add place="above">her</add> Wisdome’s Crownd</rdg>
+          <rdg wit="#ee"><seg>Mell<note type="gloss">honey</note></seg> she extracts; <seg>for this her wisdom’s crowned<note type="gloss">Bees were reputed to be able to turn poisons into honey.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft">On <seg>Nightſhade<note type="physical">“t” in different hand from main scribe</note></seg>, Henbane, Helliſh Acconite</rdg>
+          <rdg wit="#ee">On <seg>nightshade, henbane, hellish aconite<note type="gloss">all poisonous plants</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">On Opium, Hemlock, Shee doth Safely lite</rdg>
+          <rdg wit="#ee">On opium, hemlock she doth safely <seg>light<note type="gloss">land</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Thus being with choyce Extractions loaded well</rdg>
+            <rdg wit="#ee">Thus being with choice extractions loaded well,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Shee turn’d to flie to her Sexanguler Cell</rdg>
+          <rdg wit="#ee">She turned to fly to her <seg>sexangular<note type="gloss">six-sided</note></seg> cell.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">But takeing of my Garden in her way</rdg>
+          <rdg wit="#ee">But <seg>taking of<note type="gloss">apprehending</note></seg> my garden in her way,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Though full before Shee could not chooſe but Stay</rdg>
+            <rdg wit="#ee">Though full before, she could not choose but stay</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft">To See the <seg><add place="below">\</add> <add place="above">curious \</add><note type="physical">insertion in different hand from main scribe</note></seg> Ouricolas <seg><del>curious</del><note type="physical">double strike-through</note></seg> drest</rdg>
+          <rdg wit="#ee">To see the <seg>curious<note type="gloss">clever, elaborately made</note></seg> <seg>auriculas<note type="gloss">type of flower</note></seg> dressed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">More variously then Iris dewey breast</rdg>
+          <rdg wit="#ee">More variously than <seg>Iris’s<note type="gloss">goddess of the rainbow</note></seg> dewy breast.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Then were my Tulips painted in there Pride</rdg>
+            <rdg wit="#ee">Then were my tulips painted in their pride,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Which when this covetous Inſect Eſpi’de</rdg>
+            <rdg wit="#ee">Which, when this covetous insect espied,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">To carry home her wealth Shee’d not <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> power</rdg>
+            <rdg wit="#ee">To carry home her wealth she’d not the power</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Till Shee had Search’d the Sweets of every &ff;lower</rdg>
+            <rdg wit="#ee">Till she had searched the sweets of every flower.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">the</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_260" n="128v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_260"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_260"/>
+            </rdg>
+        </app>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">The Sun, from home, all, Influence Receives</rdg>
+          <rdg wit="#ee">The sun, <seg>from whom all influence receives<note type="gloss">“home” in the manuscript; all are influenced by the sun</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Bid them decline, The Tulip cloſ’d her Leaves</rdg>
+          <rdg wit="#ee">Bids them <seg>decline<note type="gloss">bend down, droop</note></seg>; the tulip closed her <seg>leaves<note type="gloss">petals</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">And in that painted Priſon Shut the Bee</rdg>
+            <rdg wit="#ee">And in that painted prison shut the bee,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">With her A Snail, who Slid about to See</rdg>
+          <rdg wit="#ee"><seg>With<note type="gloss">and with</note></seg> her a snail, who slid about (to see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Where to get out upon her Unctious brest</rdg>
+          <rdg wit="#ee">Where to get out) upon her <seg>unctuous<note type="gloss">greasy</note></seg> breast;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">But Seeing noe hope, Shee laid her down to rest</rdg>
+          <rdg wit="#ee">But seeing no hope, she laid <seg>her<note type="gloss">herself</note></seg> down to rest,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+          <rdg wit="#ft">Whilst the Angrie Bee <seg><del>doth</del><note type="physical">double strike-through</note></seg> <seg><add place="below">\</add><add place="above">did \</add><note type="physical">in different hand from main scribe</note></seg> Such A &ff;luttring Keep</rdg>
+          <rdg wit="#ee">Whilst the angry bee did such a flutt’ring <seg>keep<note type="gloss">make</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Shee nor her fellow Priſner could not Sleep</rdg>
+          <rdg wit="#ee"><seg>She<note type="gloss">Neither she</note></seg> nor her fellow pris’ner could not sleep.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">But Night being past, Delia diffuſ’d his Rais</rdg>
+          <rdg wit="#ee">But night being past, <seg>Delia<note type="gloss">here, Apollo, the sun god (named because he was from the island of Delos, usually called Delius)</note></seg> diffused his rays;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">The Tulip then her gilded Leaves diſplais</rdg>
+            <rdg wit="#ee">The tulip then her gilded leaves displays.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Out Slid the Snail, the Bee did fainting lie</rdg>
+            <rdg wit="#ee">Out slid the snail; the bee did fainting lie</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">And thus with Beating of her Self did die</rdg>
+            <rdg wit="#ee">And thus with beating of herself did die.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Then let impatient Spirits here but See</rdg>
+            <rdg wit="#ee">Then let impatient spirits here but see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">What ’tis to Struggle with their destinie</rdg>
+            <rdg wit="#ee">What ’tis to struggle with their destiny.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">Soe Stout Byrone in Priſon was inrag’d</rdg>
+          <rdg wit="#ee">So <seg>stout<note type="gloss">proud, arrogant</note></seg> <seg>Biron<note type="gloss">Charles de Gontant, duc de Biron; a celebrated sixteenth-century French soldier famed for his overweening pride and eventually executed for treason; in George Chapman’s play about him, <title rend="italic">The Conspiracy and Tragedy of Charles, Duke of Byron</title>, Biron’s sword is confiscated by the king.</note></seg> in prison was enraged,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">Knowing his King was to his Sword ingag’d</rdg>
+            <rdg wit="#ee">Knowing his king was to his sword engaged.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">When Bellizarus by A dog was led</rdg>
+          <rdg wit="#ee">When <seg>Belisarius<note type="gloss">successful general of sixth-century Roman emperor Justinian, later accused of conspiracy; reputedly, his eyes were put out and he ended his life as a beggar.</note></seg> by a dog was led,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">Being blind hee patiently did beg his Bread</rdg>
+            <rdg wit="#ee">Being blind, he patiently did beg his bread.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">Soe miſcre’nt Bajazet did Shew his Rage</rdg>
+          <rdg wit="#ee">So <seg>miscre’nt<note type="gloss">villainous</note></seg> <seg>Bajazeth<note type="gloss">fourteenth-century Turkish Emperor captured in war by Tamburlaine (the “proud Tartar”); in Christopher Marlowe’s play, <title rend="italic">Tamburlaine</title>, Bajazeth kills himself on the bars of his prison.</note></seg> did show his rage</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">When that proud Tarter put him in A Cage</rdg>
+            <rdg wit="#ee">When that proud Tartar put him in a cage;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">Scorning to bee A footstool to his Pride</rdg>
+            <rdg wit="#ee">Scorning to be a footstool to his pride,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="46">
+        <app>
+            <rdg wit="#ft">Hee daſh’d his Curſed Brains about &amp; died</rdg>
+            <rdg wit="#ee">He dashed his curséd brains about and died.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="47">
+        <app>
+            <rdg wit="#ft">When wiſe Calistines uſ’d with greater Scorn</rdg>
+          <rdg wit="#ee">When wise <seg>Callisthenes<note type="gloss">historian for Alexander the Great, reported by some to have been dismembered and displayed in a cage by Alexander in retribution for his criticisms; see Justin, <title rend="italic">Epitome of The Philippic History of Pompeius Trogus</title></note></seg>, used with greater scorn,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="48">
+        <app>
+            <rdg wit="#ft">Tyrannically mangled Soe was Born</rdg>
+          <rdg wit="#ee">Tyrannically mangled, <seg>so<note type="gloss">so it</note></seg> was <seg>borne<note type="gloss">endured</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">hee</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_261" n="129r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_261"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_261"/>
+            </rdg>
+        </app>
+      <l n="49">
+        <app>
+            <rdg wit="#ft">Hee being unmov’d Shew’d his Philoſophy</rdg>
+            <rdg wit="#ee">He, being unmoved, showed his philosophy:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="50">
+        <app>
+            <rdg wit="#ft">T’is Valianter by far to live then die</rdg>
+            <rdg wit="#ee">’Tis valianter by far to live than die.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="51">
+        <app>
+          <rdg wit="#ft">Then if noe hope <seg>of<note type="physical">imperfectly erased ascender follows</note></seg> Liberty you See</rdg>
+            <rdg wit="#ee">Then if no hope of liberty you see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="52">
+        <app>
+          <rdg wit="#ft">Think on the Snail, the Tulip and the <seg>Bee<note type="physical">remainder of page blank, as is reverse</note></seg></rdg>
+            <rdg wit="#ee">Think on the snail, the tulip, and the bee.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>
