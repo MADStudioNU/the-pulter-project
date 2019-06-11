@@ -3343,6 +3343,7 @@
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
       <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
