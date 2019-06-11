@@ -101,6 +101,7 @@
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
       <pp:firstLine>Dear daughters, come, make haste away</pp:firstLine>
+      <pp:poster/>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>restoration</pp:keyword>
@@ -1190,6 +1191,7 @@
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
       <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
