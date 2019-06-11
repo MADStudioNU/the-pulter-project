@@ -606,7 +606,7 @@ gulp.task('xslt:poems', function () {
 
               slug = slug ?
                 dashify(slug, {condense: true}) :
-                'poem-' + poemId;
+                'poem-' + poemId;``
 
               console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
 

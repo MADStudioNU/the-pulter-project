@@ -3609,6 +3609,13 @@
     </pp:poem>
     <pp:poem id="118">
       <pp:title>Fair Aurora (Emblem 53)</pp:title>
+      <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
