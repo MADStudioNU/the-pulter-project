@@ -3016,6 +3016,13 @@
     </pp:poem>
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
+      <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
