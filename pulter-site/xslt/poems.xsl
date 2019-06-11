@@ -3448,6 +3448,7 @@
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
       <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
