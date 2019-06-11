@@ -1,3 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.81">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Cruel Tiger (Emblem 15)</title>
+        <title type="sub">Poem #81</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="./document_images/7610_204.jpg" xml:id="f7610_204"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_204" n="100v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_204"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_204"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 15]</rdg>
+            <rdg wit="#ee">The Cruel Tiger (Emblem 15)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ft">
+            <note type="headnote"></note>
+          </rdg>
+          <rdg wit="#ee">
+              <note type="headnote">What makes a tiger like a lark? And each like a flying fish? In Pulter’s riddling emblem, the (rather surprising) answer is their pride and their undoing by it. In this, though, the tiger, lark, and flying fish are no worse than a long list of fallen biblical bigwigs, which the poem rapidly inventories. Pulter’s poetic claims here are, unusually, bolstered in many cases by marginal references to chapter and verse, in what appears to be her own hand: her facility as a Bible reader–perhaps even her pride in that skill–is clearly on display. The fact that she gets one reference wrong might be the exception that proves the rule that pride goeth before a fall.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">The Cruel Tiger Swiftly on doth Paſs</rdg>
+            <rdg wit="#ee">The cruel tiger swiftly on doth pass,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Scorning Purſuers, till a Cristall Glaſs</rdg>
+            <rdg wit="#ee">Scorning pursuers, till a crystal glass</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Layed purpoſely, at which Shee Stands at gaze</rdg>
+            <rdg wit="#ee">Laid purposely, at which she stands at gaze,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Her Self lovd be<add place="below">^</add><add place="above">a</add>vty makes her in A Maze</rdg>
+          <rdg wit="#ee">Her self-loved beauty makes her in <seg>a maze<note type="critical">Although spelled thus in the manuscript, the sense of the single word “amaze” (a state of stupefaction or wonder) is equally relevant. Invoking a truism, Richard Brathwaite notes that “it is written of the tiger, though a beast of a savage and truculent nature, that when they take away the young one, they set looking glasses ... in the way to stay the pursuit of the she tiger; wherein seeing herself represented by reflection of the glass, she there solaceth herself with the conceit of her own form, while the hunters make way for escape” (“The Turtle’s Triumph,” in <title rend="italic">Times Treasury, or, Academy</title> [London, 1652], p. 29).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Soe is the Early Riſeing Lark a laſs</rdg>
+            <rdg wit="#ee">So is the early rising lark, alas,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Onely inſnar’d with looking in A Glaſs</rdg>
+          <rdg wit="#ee">Only <seg>ensnared with looking in a glass<note type="critical">Among others in the period, Thomas Tuke alludes to the the practice of catching larks with mirrors: “fowlers with a glass / Make mounting larks come down to death apace” (<title rend="italic">A Discourse Against Painting and Tincturing of Women</title> [London, 1616], sig. B2v).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Pride makes the &ff;lying &ff;iſh diſplay her Wings</rdg>
+            <rdg wit="#ee">Pride makes the flying fish display her wings:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft">Then hungrie Hawks her little neck of <seg><add place="above">\w\</add>Rings<note type="physical">“\w\” in H2 and darker ink</note></seg></rdg>
+          <rdg wit="#ee">Then hungry <seg>hawks her little neck off wrings<note type="gloss">In <title rend="italic">The Observations of Sir Richard Hawkins Knight, in His Voyage into the South Sea</title>, Hawkins records a kind of hawk that “lie[s] soaring in the air, to see when they [flying fishes] spring, or take their flight,” and then eats them (p. 44).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">Theſe are noe wonders Sacred Stories <seg>Show<note type="physical">“o” possibly corrected from “e”</note></seg></rdg>
+            <rdg wit="#ee">These are no wonders; sacred stories show</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#ft">That Pride the greatest <seg>Monarchs<note type="physical">“s” in H2 and darker ink</note></seg> did o’re throw</rdg>
+            <rdg wit="#ee">That pride the greatest monarchs did o’erthrow.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft">Brave <seg><add place="above">%</add>Amazia<note type="physical">in left margin, H2: “•/• / 2 booke of kings / cha the fourteen / vers the 8 / [decorative 6 dots around one center dot] ſam the first Book [5 dots in circle] / chap the 13th / verse the 8th”</note></seg> gallant things did doe</rdg>
+          <rdg wit="#ee">Brave <seg>Amaziah<note type="gloss">In the left margin, in what is probably Pulter’s hand, is a note keyed to “Amaziah,” referring us to the Bible’s second book of Kings 14:8: “Then Amaziah sent messengers to Jehoash, the son of Jehoahaz son of Jehu, king of Israel, saying, Come, let us look one another in the face.” This King of Judah (800-783 BCE) slew ten thousand enemies (hence: “gallant things”), and was so proud of his accomplishment that he challenged the King of Israel, was humiliated, and later assassinated by his own people.</note></seg> gallant things did do,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft">Untill the Thistle did the <seg>Ceder<note type="physical">first “e” written over other illegible letter</note></seg> Wooe</rdg>
+          <rdg wit="#ee">Until <seg>the thistle did the cedar woo<note type="gloss">The phrase alludes to a parable sent by Jehoash to Amaziah (see previous note): in the parable, Jehoash and his kingdom are a mighty cedar, while Amaziah is identified with the measly thistle, which should not be so prideful as to challenge the cedar, as Amaziah had (a challenge Pulter represents here as “woo”ing).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Saul and *Uzzia, might have worn <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Crown</rdg>
+          <rdg wit="#ee"><seg>Saul<note type="gloss">Keyed to “Saul,” in the left margin, is a reference to the biblical Book of Samuel, chapter 13, verse 8: “And he tarried seven days, according to the set time that Samuel had appointed: but Samuel came not to Gilgal; and the people were scattered from him”; but it is in chapter 15 that Saul’s pride becomes more fully apparent: he disobeys God’s command to smite the Amalekites by sparing their king, Agag; this act of prideful disobedience is understood to have led to his falling out of divine favor and his subsequent downfall and death.</note></seg> and <seg>Uzziah<note type="gloss">In the left margin, probably in Pulter’s hand, is a note keyed to “Uzziah,” referring us to the Bible’s second Book of Chronicles, Chapter 27, verse 16”–a verse which does not exist. However, Chapter 26, verse 16, has this to say about Uzziah: “when he was strong, his heart was lifted up to his destruction: for he transgressed against the Lord his God, and went into the temple of the Lord to burn incense upon the altar of incense.”</note></seg> might have worn the crown,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#ft"><seg>Till<note type="physical">in left margin, H2: “* 2 Boock of Chrono / chap the 27th / vers the 16th”</note></seg> catching at the Miter both fell down</rdg>
+          <rdg wit="#ee">Till catching at the <seg>miter<note type="gloss">priest’s headdress</note></seg> both fell down.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Pride made good <add place="above">O</add>Hezechia to diſcloſe</rdg>
+          <rdg wit="#ee">Pride made good <seg>Hezekiah<note type="gloss">In the left margin, probably in Pulter’s hand, is a note keyed to “Hezekiah” referring us to the second biblical book of Kings, Chapter 20, verse 13: “And Hezekiah hearkened unto them, and shewed them all the house of his precious things, the silver, and the gold, and the spices, and the precious ointment, and all the house of his armour, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah shewed them not.” Hezekiah was King of Judah (727–698 BCE); after he showed off his treasures, the prophet Isaiah predicted the loss of all his property and his sons (who will be made eunuchs).</note></seg> to disclose</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft"><seg>Those<note type="physical">in left margin, H2: “o 2 Boock of Kings / 20 chap: vers the 13th”</note></seg> Secret Treaſures <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> his Sons did loſe</rdg>
+            <rdg wit="#ee">Those secret treasures which his sons did lose.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+          <rdg wit="#ft"><seg>The <add place="above">o</add> Assyrrian<note type="physical">Line through degree sign; to left of “The,” another such sign at far left page edge. In the same blacker ink as all the H2 markings on the page.</note></seg> King forgot his God, at least</rdg>
+          <rdg wit="#ee">The <seg>Assyrian king<note type="gloss">In the manuscript, there is a superscript circle to the left of “Assyrian,” and another such sign at the far left of the margin, as though for a reference which was never completed. The king in question is Nebuchadnezzar, who, for his pride in building Babylon, “ was driven from men, and did eat the grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles’ feathers, and his nails like birds’ claws” (KJV Daniel 4:29–33).</note></seg> forgot his god; <seg>at least<note type="critical">The sense here appears to be “at last,” a change that disrupts the rhyming couplet, so we have preserved the manuscript spelling.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">T’was Pride that did Tranceform him to a Beast</rdg>
+            <rdg wit="#ee">’Twas pride that did transform him to a beast.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Herode that would not give to God the Glory</rdg>
+          <rdg wit="#ee"><seg>Herod<note type="gloss">For failing to honor God, Herod is eaten by worms (KJV Acts 12:19–25).</note></seg>, that would not give to God the glory,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft">An Angell Struck, and Worms did end <seg>his<note type="physical">beneath “h,” two vertical marks</note></seg> Story</rdg>
+            <rdg wit="#ee">An angel struck, and worms did end his story.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Pride made our Parents know both good &amp; evil</rdg>
+            <rdg wit="#ee">Pride made our parents know both good and evil</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">And Pride did turn An Angell to a <seg>Devill<note type="physical">“i” written over other letter (likely “e”), as possibly is “e” (likely written over “o”)</note></seg></rdg>
+          <rdg wit="#ee">And <seg>pride did turn an angel to a devil<note type="gloss"> a reference to the angel Lucifer whose pride made him rebel against God, which led to his expulsion from heaven</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then by theſe Stories you may See at least</rdg>
+            <rdg wit="#ee">Then by these stories you may see at least</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">That Pride deſtroys, both, Angel, Man &amp; Beast.</rdg>
+            <rdg wit="#ee">That pride destroys both angel, man and beast.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+  </text>
 </TEI>
