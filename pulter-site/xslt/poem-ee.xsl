@@ -495,7 +495,7 @@
     </div>
     <div class="poem-title">
       <span class="poem-title-line poem-index lato">
-        <xsl:value-of select="concat('Poem ', $poemID, ', ')"/>
+        <xsl:value-of select="concat('Poem ', $poemID, ' · ')"/>
         <span class="edition-ref lato">Elemental Edition</span>
       </span>
       <h1 class="poem-title-line sssi-regular">
