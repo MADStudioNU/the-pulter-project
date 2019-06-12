@@ -495,7 +495,8 @@
     </div>
     <div class="poem-title">
       <span class="poem-title-line poem-index lato">
-        <xsl:value-of select="concat('Poem ', $poemID)"/>
+        <xsl:value-of select="concat('Poem ', $poemID, ', ')"/>
+        <span class="edition-ref lato">Elemental Edition</span>
       </span>
       <h1 class="poem-title-line sssi-regular">
         <xsl:apply-templates>
@@ -518,6 +519,13 @@
 
     <xsl:if test="./tei:rdg[@wit=concat('#', $witId)]/tei:note[@type='headnote']">
       <div class="expand-box">
+
+        <div class="witness-box">
+          <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">
+            <span class="by">Edited by</span><xsl:text> </xsl:text><span class="who leah-knight">Leah Knight</span><xsl:text> </xsl:text><span class="by">and</span><xsl:text> </xsl:text><span class="who wendy-wall">Wendy Wall</span>
+          </a>
+        </div>
+
         <div class="headnote lato">
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>

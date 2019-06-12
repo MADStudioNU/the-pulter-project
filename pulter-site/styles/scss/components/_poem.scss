@@ -300,7 +300,7 @@ $globalBorderRadius: 2px;
       }
 
       header {
-        padding-top: 9em;
+        padding-top: 5em;
         padding-bottom: 1em;
         padding-left: $leftGutter;
         position: relative;
@@ -369,13 +369,18 @@ $globalBorderRadius: 2px;
         .poem-index {
           position: relative;
           display: inline-block;
-          letter-spacing: 3px;
-          font-size: .8em;
+          letter-spacing: 2px;
+          font-size: .85em;
           text-transform: uppercase;
-          margin-bottom: 1.5em;
+          margin-bottom: 6em;
 
           @include breakpoint(mobile) {
             font-size: .85em;
+          }
+
+          .edition-ref {
+            font-weight: bold;
+            //color: #555;
           }
         }
 
@@ -409,6 +414,86 @@ $globalBorderRadius: 2px;
               opacity .4s,
               margin-bottom .4s
           );
+
+          .witness-box {
+            margin-top: -1.5em;
+            margin-bottom: 4em;
+            //padding-left: .55em;
+            //border-left: 2px solid $pp_darkGold;
+            position: relative;
+
+            // Arrow
+            //&::before {
+            //  $s: .4em;
+            //
+            //  content: '';
+            //  @include vcenter;
+            //  left: 0;
+            //  width: 0;
+            //  height: 0;
+            //  border-style: solid;
+            //  border-width: $s 0 $s $s * 1;
+            //  border-color: transparent transparent transparent $pp_darkGold;
+            //}
+
+            a {
+              vertical-align: middle;
+              display: inline-block;
+            }
+
+            .by {
+              color: $pp_manuscriptPaper;
+              font-size: ms(-2);
+              display: inline-block;
+              vertical-align: middle;
+              margin: 0 .33em;
+              font-family: $pp_curatorialFont;
+
+              &:first-of-type {
+                margin-left: .1em;
+              }
+            }
+
+            .who {
+              color: $pp_manuscriptPaper;
+              position: relative;
+              font-size: ms(-1);
+              font-family: $pp_curatorialFont;
+              padding-left: 1.7em;
+              font-weight: bold;
+              display: inline-block;
+              vertical-align: middle;
+              @include transition(color .2s);
+
+              &:hover {
+                color: whitesmoke;
+              }
+
+              &::before {
+                $s: 1.33em;
+
+                @include vcenter();
+                left: 0;
+                width: $s;
+                height: $s;
+                line-height: $s;
+                display: inline-block;
+                border-radius: 50%;
+                vertical-align: middle;
+                background-size: 100% auto;
+                border: 1px solid $pp_darkGold;
+              }
+
+              &.wendy-wall::before {
+                content: '';
+                background-image: url('/images/editors/wendy-wall.png'); }
+
+              &.leah-knight::before {
+                content: '';
+                background-image: url('/images/editors/leah-knight.png');
+              }
+            }
+          }
 
           .headnote {
             $air: 1;
@@ -487,9 +572,11 @@ $globalBorderRadius: 2px;
             }
 
             .by {
-              margin: 0 2em;
+              margin: 0 2.5em;
               font-size: .9em;
-              letter-spacing: 1px;
+              letter-spacing: 2px;
+              color: $pp_manuscriptPaper;
+              font-family: $pp_curatorialFont;
             }
 
             .to-ctx {
@@ -657,9 +744,10 @@ $globalBorderRadius: 2px;
               font-family: $pp_curatorialFont;
             }
 
-            //.who {
-            //  color: rgba($c, .75);
-            //}
+            .who {
+              font-style: normal;
+              font-weight: bold;
+            }
           }
         }
 
