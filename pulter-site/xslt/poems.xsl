@@ -1427,6 +1427,13 @@
     </pp:poem>
     <pp:poem id="33">
       <pp:title>The Welcome [2]</pp:title>
+      <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
