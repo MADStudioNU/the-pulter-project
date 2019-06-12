@@ -373,7 +373,7 @@ $globalBorderRadius: 2px;
           letter-spacing: 1px;
           //font-size: ms(-3);
           //font-weight: bold;
-          font-size: .9em;
+          font-size: .95em;
           //text-transform: uppercase;
           margin-bottom: 1.66em;
 
@@ -382,10 +382,12 @@ $globalBorderRadius: 2px;
           }
 
           .edition-ref {
+            font-size: .9em;
             font-weight: bold;
             letter-spacing: 2px;
             text-transform: uppercase;
-            //color: #555;
+            display: inline-block;
+            color: $pp_shinyGold;
           }
         }
 
@@ -1003,6 +1005,10 @@ $globalBorderRadius: 2px;
 
       .poem-index {
         color: rgba(40, 40, 40, .8);
+
+        .edition-ref {
+          color: $pp_darkGold;
+        }
       }
 
       .expand-box {
