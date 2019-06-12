@@ -370,7 +370,8 @@ $globalBorderRadius: 2px;
           position: relative;
           display: inline-block;
           letter-spacing: 2px;
-          font-size: .85em;
+          font-size: ms(-3);
+          //font-size: .8em;
           text-transform: uppercase;
           margin-bottom: 6em;
 
@@ -392,7 +393,7 @@ $globalBorderRadius: 2px;
 
           font-size: $fs;
           line-height: 1.5em;
-          margin-bottom: 1em;
+          margin-bottom: 1.33em;
           position: relative;
 
           .sub {
@@ -443,7 +444,8 @@ $globalBorderRadius: 2px;
 
             .by {
               color: $pp_manuscriptPaper;
-              font-size: ms(-2);
+              //font-size: ms(-2);
+              font-size: 1.1em;
               display: inline-block;
               vertical-align: middle;
               margin: 0 .33em;
@@ -744,10 +746,10 @@ $globalBorderRadius: 2px;
               font-family: $pp_curatorialFont;
             }
 
-            .who {
-              font-style: normal;
-              font-weight: bold;
-            }
+            //.who {
+              //font-style: normal;
+              //font-weight: bold;
+            //}
           }
         }
 
