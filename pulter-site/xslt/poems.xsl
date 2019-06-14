@@ -1428,6 +1428,7 @@
     <pp:poem id="33">
       <pp:title>The Welcome [2]</pp:title>
       <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
