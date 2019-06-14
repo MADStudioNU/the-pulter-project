@@ -2392,6 +2392,13 @@
     </pp:poem>
     <pp:poem id="55">
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
+      <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
