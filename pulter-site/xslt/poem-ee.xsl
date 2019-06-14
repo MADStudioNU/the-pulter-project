@@ -399,6 +399,12 @@
         <div id="editorial-note" class="editorial-note-box">
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3 class="sssi-regular">Editorial Note</h3>
+          <div class="c lato">
+            <p class="lato">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible.</p>
+            <p class="lato">After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry.</p>
+            <p class="lato">See the full conventions for the elemental edition <a href="/about-project-conventions.html#elemental-edition" target="_blank">here</a>.</p>
+          </div>
+          <img class="separator" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
           <div class="witness-box lato">
             <ul class="witnesses">
               <li class="witness">
@@ -410,11 +416,6 @@
                 <a href="https://www.english.northwestern.edu/people/faculty/wall-wendy.html" target="_blank"><span class="who wendy-wall pp-contributor">Wendy Wall</span>, <span class="aff">Northwestern University</span></a>
               </li>
             </ul>
-          </div>
-          <div class="c lato">
-            <p class="lato">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible.</p>
-            <p class="lato">After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry.</p>
-            <p class="lato">See the full conventions for the elemental edition <a href="/about-project-conventions.html#elemental-edition" target="_blank">here</a>.</p>
           </div>
         </div>
 
