@@ -403,6 +403,10 @@
             .who {
               font-weight: bold;
               padding-left: 0;
+
+              //&::before {
+              //  border: none;
+              //}
             }
 
             .aff {
