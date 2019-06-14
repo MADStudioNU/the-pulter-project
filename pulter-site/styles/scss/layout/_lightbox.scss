@@ -361,6 +361,18 @@
         font-size: ms(0);
       }
 
+      .c {
+        margin-top: 1.5em;
+        font-size: 1.1em;
+        color: #282828;
+      }
+
+      img.separator {
+        height: .6em;
+        display: block;
+        margin: 2.25em 0;
+      }
+
       .witness-box {
         font-size: 1.1em;
         //font-size: ms(-1);
@@ -368,7 +380,7 @@
         //background: rgba($pp_manuscriptInk, .06);
         //border: 1px solid $pp_manuscriptPaper;
         //border-left: 4px solid rgba($pp_manuscriptInk, .15);
-        margin-top: 2.25em;
+        //margin-top: 1.5em;
         //padding: 1em;
         display: inline-block;
         border-radius: 1px;
@@ -416,11 +428,6 @@
         }
       }
 
-      .c {
-        margin-top: 1.5em;
-        font-size: 1.1em;
-        color: #282828;
-      }
 
       p:not(:last-child) {
         margin: 1.5em 0;
