@@ -1,3 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.55">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Must I Thus Ever Interdicted Be</title>
+        <title type="sub">Poem #55</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_155.jpg" xml:id="f7610_155"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_155" n="76r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_155"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_155"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">147</fw>[Untitled]</rdg>
+            <rdg wit="#ee">Must I Thus Ever Interdicted Be</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">In tense, terse rhyming tercets, the speaker objects to her interdiction (or prohibition) from religious “comforts.” She complains that God restrains his “ordinances,” but it may be that her all-too-human fellows had a hand in the matter: Elizabeth Clarke has argued that the vicar of Pulter’s church may not have shared her sense of how to celebrate Communion, at a time when such matters divided a nation at war (115). So little or so much may have been enough to keep Pulter from attending church; and, if so, may have been yet another cause of the confinement she laments in other poems. Here, too, she seeks the restoration of the privilege of moving freely, as birds do, in God’s “sacred temple”: whether an actual church, membership therein, or more abstractly, creation as a whole. Until then, she seeks spiritual sustenance, possibly in such complaints as this one, the earthly form of the “hallelujahs” she promises one day to proffer in return for God’s pardon and pity.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+   <lg n="1" type="stanza">   <l n="1">
+        <app>
+            <rdg wit="#ft">Must I thus ever interdicted bee</rdg>
+            <rdg wit="#ee">Must I thus ever <seg>interdicted<note type="gloss">forbidden or restrained from something; in the church, cut off from offices or privileges</note></seg> be,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">My Gracious God to thee and onely thee</rdg>
+            <rdg wit="#ee">My gracious God? To Thee and only Thee</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">I will complain pardon and pitty mee</rdg>
+            <rdg wit="#ee">I will complain: pardon and pity me.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+     <lg n="2" type="stanza"> <l n="4">
+        <app>
+            <rdg wit="#ft">Have I thy Sacred Pledges took in vain</rdg>
+            <rdg wit="#ee">Have I Thy <seg>sacred pledges<note type="gloss">possibly a reference to marriage vows, or others associated with being a good Christian</note></seg> took in vain,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Or Heard thy Bleſſed word applauſ to gain</rdg>
+            <rdg wit="#ee">Or heard Thy blessed word applause to gain,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">That thou dost thus thine Ordinances re<add place="below">^</add><add place="above">strain</add></rdg>
+            <rdg wit="#ee">That Thou dost thus Thine <seg>ordinances<note type="gloss">authoritative decrees, plans, or arrangements; religious observances, such as the sacraments</note></seg> restrain?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+    <lg n="3" type="stanza">  <l n="7">
+        <app>
+            <rdg wit="#ft">If it bee Soe thy mercy I implore</rdg>
+            <rdg wit="#ee">If it be so, Thy mercy I implore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">To lay my Sins upon my Saviours Score</rdg>
+            <rdg wit="#ee"><seg>To lay my sins upon my Savior’s score<note type="gloss">To let Christ take on the weight of her sins, in his role as redeemer with God of sinful humanity</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">And mee unto thy Church again Restore</rdg>
+            <rdg wit="#ee">And me unto Thy church again restore.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+    <lg n="4" type="stanza">  <l n="10">
+        <app>
+            <rdg wit="#ft">The wanton Sparrow and the Chaster Dove</rdg>
+            <rdg wit="#ee">The <seg>wanton sparrow<note type="gloss">The sparrow was frequently associated with lust in other texts of the period, such as <title rend="italic">An History of the Wonderful Things of Nature</title>, which calls the sparrow “the lust fullest almost of all Birds” (Joannes Jonstonus,1657, p. 190).</note></seg> and the <seg>chaster dove<note type="gloss">The turtledove was understood to mate for life.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Within thy Sacred Temple &ff;reely move</rdg>
+            <rdg wit="#ee">Within Thy sacred <seg>temple<note type="critical">The “temple” here is as apt to be the created world (“sacred” because God-given) as it is to refer to a church (where birds might also be found).</note></seg> freely move;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">But I ay mee am kept from what I Love</rdg>
+            <rdg wit="#ee">But I (ay me!) am kept from what I love.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+  <lg n="5" type="stanza">    <l n="13">
+        <app>
+            <rdg wit="#ft">O let thy Spirit my Sad Soul Suſtain</rdg>
+            <rdg wit="#ee">O, let Thy Spirit my sad soul sustain</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Untill thoſe comforts I doe Reatain</rdg>
+            <rdg wit="#ee">Until those comforts I do reattain;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Then let mee never part with them again</rdg>
+            <rdg wit="#ee">Then let me never part with them again</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+   <lg n="6" type="stanza">   <l n="16">
+        <app>
+            <rdg wit="#ft">Untill my Captivated Soul takes wing</rdg>
+            <rdg wit="#ee">Until my captivated soul takes wing;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Then will I Halelujahs ever Sing</rdg>
+            <rdg wit="#ee">Then will I <seg>hallelujahs<note type="gloss">exclamations or songs in praise of God</note></seg> ever sing</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">To thee my Gracious <seg><add place="below">\</add><add place="above">God \</add><note type="physical">in different hand from main scribe</note></seg> and Glorious <seg>King<note type="physical">first punctuation likely a period, changed to exclamation mark by lighter ink. Reverse of page blank.</note></seg>!</rdg>
+            <rdg wit="#ee">To Thee, my gracious God and glorious king.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curled-line"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
