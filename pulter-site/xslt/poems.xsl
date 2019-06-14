@@ -1614,6 +1614,14 @@
     </pp:poem>
     <pp:poem id="37">
       <pp:title>Aurora [2]</pp:title>
+      <pp:firstLine>Lovely Aurora, when wilt thou appear</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+      <pp:edition type="elemental">
+        <pp:author>Leah Knight</pp:author>
+        <pp:author>Wendy Wall</pp:author>
+      </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
