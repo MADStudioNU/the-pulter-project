@@ -187,8 +187,7 @@ $globalBorderRadius: 2px;
 
           right: 4em * 1em / .8em;
           background: #fff;
-          font-size: .8em;
-          //font-weight: bold;
+          font-size: .85em;
           padding: 1em;
           cursor: pointer;
           @include transition(color .2s);
@@ -251,7 +250,11 @@ $globalBorderRadius: 2px;
           }
 
           .label::before {
+            font-style: italic;
+            font-size: ms(-1);
             content: 'Headnote';
+            letter-spacing: 0;
+            text-transform: none;
           }
         }
       }
@@ -313,30 +316,6 @@ $globalBorderRadius: 2px;
           padding-right: $leftGutterMobile;
         }
 
-        //.theme-toggle {
-        //    //display: none;
-        //    cursor: pointer;
-        //    //background: rgba(255, 255, 255, .5);
-        //    background: rgba(#DBD8D2, .5);
-        //    position: absolute;
-        //    //top: 4.5em;
-        //    top: 1em;
-        //    left: 1em;
-        //    //left: 13%;
-        //    display: block;
-        //    height: .75em;
-        //    width: .75em;
-        //    //border-radius: 50%;
-        //    border-radius: 2px;
-        //    //border: 1px solid rgba(255, 255, 255, .25);
-        //    opacity: .8;
-        //    @include transition(opacity .2s);
-        //
-        //    &:hover {
-        //        opacity: 1;
-        //    }
-        //}
-
         .poster {
           position: absolute;
           top: 0;
@@ -367,27 +346,15 @@ $globalBorderRadius: 2px;
         }
 
         .poem-index {
-          opacity: .85;
+          opacity: .66;
           position: relative;
           display: inline-block;
-          letter-spacing: 1px;
-          //font-size: ms(-3);
-          //font-weight: bold;
-          font-size: .95em;
-          //text-transform: uppercase;
-          margin-bottom: 1.66em;
+          font-style: italic;
+          font-size: ms(-1);
+          margin-bottom: 1em;
 
           @include breakpoint(mobile) {
             font-size: .85em;
-          }
-
-          .edition-ref {
-            font-size: .9em;
-            font-weight: bold;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            display: inline-block;
-            color: $pp_shinyGold;
           }
         }
 
@@ -423,25 +390,12 @@ $globalBorderRadius: 2px;
           );
 
           .witness-box {
-            margin-top: -1.5em;
-            margin-bottom: 4em;
-            //padding-left: .55em;
+            font-size: ms(-1);
+            margin-top: -2em;
+            margin-bottom: 2em;
+            //padding-left: .66em;
             //border-left: 2px solid $pp_darkGold;
             position: relative;
-
-            // Arrow
-            //&::before {
-            //  $s: .4em;
-            //
-            //  content: '';
-            //  @include vcenter;
-            //  left: 0;
-            //  width: 0;
-            //  height: 0;
-            //  border-style: solid;
-            //  border-width: $s 0 $s $s * 1;
-            //  border-color: transparent transparent transparent $pp_darkGold;
-            //}
 
             a {
               vertical-align: middle;
@@ -449,32 +403,28 @@ $globalBorderRadius: 2px;
             }
 
             .by {
-              color: $pp_manuscriptPaper;
-              //font-size: ms(-2);
-              font-size: 1em;
-              display: inline-block;
-              vertical-align: middle;
+              color: rgba(#fff, .66);
+              font-size: .9em;
               margin: 0 .33em;
+              line-height: 3;
               font-family: $pp_curatorialFont;
 
               &:first-of-type {
-                margin-left: .1em;
+                margin-left: 0;
               }
             }
 
             .who {
               color: $pp_manuscriptPaper;
               position: relative;
-              font-size: ms(-1);
+              font-size: ms(-2);
               font-family: $pp_curatorialFont;
-              padding-left: 1.7em;
+              padding-left: 1.75em;
               font-weight: bold;
-              display: inline-block;
-              vertical-align: middle;
               @include transition(color .2s);
 
               &:hover {
-                color: whitesmoke;
+                color: #fff;
               }
 
               &::before {
@@ -1007,7 +957,7 @@ $globalBorderRadius: 2px;
         color: rgba(40, 40, 40, .8);
 
         .edition-ref {
-          color: $pp_darkGold;
+          //color: $pp_darkGold;
         }
       }
 

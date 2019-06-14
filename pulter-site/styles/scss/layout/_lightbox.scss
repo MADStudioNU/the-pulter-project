@@ -361,6 +361,57 @@
         font-size: ms(0);
       }
 
+      .witness-box {
+        font-size: 1.1em;
+        //font-size: ms(-1);
+        //background: rgba($pp_manuscriptPaper, .33);
+        //background: rgba($pp_manuscriptInk, .06);
+        //border: 1px solid $pp_manuscriptPaper;
+        //border-left: 4px solid rgba($pp_manuscriptInk, .15);
+        margin: 2.25em 0 1em 0;
+        //padding: 1em;
+        display: inline-block;
+        border-radius: 1px;
+
+        .witnesses {
+          .witness {
+            position: relative;
+
+            a {
+              margin-left: 1.85em;
+              display: inline-block;
+              color: #222;
+
+              &::after {
+                $s: .66em;
+
+                content: '';
+                width: $s;
+                height: $s;
+                opacity: .85;
+                background: url('/images/external-link.svg') no-repeat 50% 50%;
+                background-size: 100% auto;
+                position: absolute;
+                margin-left: .15em;
+              }
+            }
+
+            &:not(:last-child) {
+              margin-bottom: .85em;
+            }
+
+            .who {
+              font-weight: bold;
+              padding-left: 0;
+            }
+
+            .aff {
+              opacity: .8;
+            }
+          }
+        }
+      }
+
       .c {
         margin-top: 1.5em;
         font-size: 1.1em;
