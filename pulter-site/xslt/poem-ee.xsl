@@ -406,7 +406,7 @@
             <p class="lato">After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry.</p>
             <p class="lato">See the full conventions for the elemental edition <a href="/about-project-conventions.html#elemental-edition" target="_blank">here</a>.</p>
           </div>
-          <img class="separator" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
+          <img class="separator print-hide" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
           <div class="witness-box lato">
             <ul class="witnesses">
               <li class="witness">
