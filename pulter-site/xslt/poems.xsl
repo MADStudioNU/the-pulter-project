@@ -3787,7 +3787,11 @@
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#282828" />
         <meta property="og:title" content="The Pulter Project, Poet in The Making" />
+        <meta name="og:description" content="Digital edition of the poems written by Hester Pulter." />
         <meta property="og:image" content="/images/pp-og-img.jpg" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="The Pulter Project: Poet in the Making" />
+        <meta name="twitter:image" content="https://pulterproject.northwestern.edu/images/pp-og-img.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/styles/styles.css" />
       </head>

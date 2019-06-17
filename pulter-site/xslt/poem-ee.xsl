@@ -165,7 +165,7 @@
       <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>
+      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University)."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -175,7 +175,9 @@
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
       <meta property="og:title" content="{$fullTitle} | Elemental Edition" />
-      <meta property="og:image" content="/images/headnote-posters/h{$poemID}og.jpg" />
+      <meta name="og:description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University)." />
+      <meta property="og:image" content="https://pulterproject.northwestern.edu/images/headnote-posters/h{$poemID}og.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
       <title>
         <xsl:value-of select="concat(
                     $fullTitle,
@@ -409,11 +411,11 @@
             <ul class="witnesses">
               <li class="witness">
                 <a href="https://brocku.ca/humanities/english-language-and-literature/faculty/leah-knight/" target="_blank">
-                  <span class="who leah-knight pp-contributor">Leah Knight</span>, <span class="aff">Brock University</span>
+                  <span class="who">Leah Knight</span>, <span class="aff">Brock University</span>
                 </a>
               </li>
               <li class="witness">
-                <a href="https://www.english.northwestern.edu/people/faculty/wall-wendy.html" target="_blank"><span class="who wendy-wall pp-contributor">Wendy Wall</span>, <span class="aff">Northwestern University</span></a>
+                <a href="https://www.english.northwestern.edu/people/faculty/wall-wendy.html" target="_blank"><span class="who">Wendy Wall</span>, <span class="aff">Northwestern University</span></a>
               </li>
             </ul>
           </div>
@@ -534,7 +536,7 @@
 
         <div class="witness-box">
           <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">
-            <span class="by">Edited by</span><xsl:text> </xsl:text><span class="who pp-contributor leah-knight">Leah Knight</span><xsl:text> </xsl:text><span class="by">and</span><xsl:text> </xsl:text><span class="who pp-contributor wendy-wall">Wendy Wall</span>
+            <span class="by">Edited by</span><xsl:text> </xsl:text><span class="who">Leah Knight</span><xsl:text> </xsl:text><span class="by">and</span><xsl:text> </xsl:text><span class="who">Wendy Wall</span>
           </a>
         </div>
 

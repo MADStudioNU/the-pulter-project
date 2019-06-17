@@ -180,7 +180,7 @@
       <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnesses}, 2018."/>
+      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnesses}."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -190,6 +190,9 @@
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
       <meta property="og:title" content="{$fullTitle} | Amplified Edition" />
+      <meta name="og:description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnesses}." />
+      <meta property="og:image" content="https://pulterproject.northwestern.edu/images/headnote-posters/h{$poemID}og.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:image" content="/images/headnote-posters/h{$poemID}og.jpg" />
       <title>
         <xsl:value-of select="concat(
