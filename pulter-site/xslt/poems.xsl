@@ -2393,6 +2393,7 @@
     <pp:poem id="55">
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
       <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
