@@ -3375,8 +3375,41 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+      <pp:keywords>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>medicine</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>jewel</pp:keyword>
+        <pp:keyword>virtue</pp:keyword>
+        <pp:keyword>plants</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>church</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>money</pp:keyword>
+        <pp:keyword>Christ</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>children</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>jewel</pp:tag>
+        <pp:tag>virtue</pp:tag>
+        <pp:tag>plants</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>church</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>money</pp:tag>
+        <pp:tag>Christ</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
@@ -3480,8 +3513,31 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>mobility</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>loyal</pp:keyword>
+        <pp:keyword>king</pp:keyword>
+        <pp:keyword>labor</pp:keyword>
+        <pp:keyword>history</pp:keyword>
+        <pp:keyword>countryside</pp:keyword>
+        <pp:keyword>fish</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>mobility</pp:tag>
+        <pp:tag>loyal</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>labor</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="105">
       <pp:title>View but this Tulip (Emblem 40)</pp:title>
