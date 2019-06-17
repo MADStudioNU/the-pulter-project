@@ -214,10 +214,10 @@
                 </a>
                 <a href="/poems/ae/{$poemID}" title="Switch to the Amplified Edition">Amplified</a>
               </div>
-              <div class="page-toggle toggle cormorant-garamond">
+              <div class="page-toggle toggle">
                 <a href="#0">Manuscript</a>
               </div>
-              <div class="gloss-toggle toggle cormorant-garamond">
+              <div class="gloss-toggle toggle">
                 <a href="#0">Notes</a>
               </div>
             </div>
