@@ -370,20 +370,17 @@
       img.separator {
         height: .55em;
         display: block;
-        margin: 2em 0 2.25em 0;
+        margin: 2em 0 2em 0;
       }
 
       .witness-box {
-        font-size: 1.1em;
         display: inline-block;
-        border-radius: 1px;
 
         .witnesses {
           .witness {
             position: relative;
 
             a {
-              margin-left: 1.85em;
               display: inline-block;
               color: #222;
 
@@ -402,7 +399,7 @@
             }
 
             &:not(:last-child) {
-              margin-bottom: .85em;
+              margin-bottom: .66em;
             }
 
             .who {

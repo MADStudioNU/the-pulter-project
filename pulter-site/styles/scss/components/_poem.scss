@@ -391,11 +391,11 @@ $globalBorderRadius: 2px;
 
           .witness-box {
             font-size: ms(-1);
-            margin-top: -2em;
-            margin-bottom: 2em;
+            margin-top: -2.5em;
+            margin-bottom: 1.5em;
             //padding-left: .66em;
             //border-left: 2px solid $pp_darkGold;
-            position: relative;
+            //position: relative;
 
             a {
               vertical-align: middle;
@@ -404,8 +404,9 @@ $globalBorderRadius: 2px;
 
             .by {
               color: rgba(#fff, .66);
-              font-size: .9em;
-              margin: 0 .33em;
+              font-size: .85em;
+              //font-size: ms(-3);
+              //margin: 0 .33em;
               line-height: 3;
               font-family: $pp_curatorialFont;
 
@@ -419,36 +420,11 @@ $globalBorderRadius: 2px;
               position: relative;
               font-size: ms(-2);
               font-family: $pp_curatorialFont;
-              padding-left: 1.75em;
               font-weight: bold;
               @include transition(color .2s);
 
               &:hover {
                 color: #fff;
-              }
-
-              &::before {
-                $s: 1.33em;
-
-                @include vcenter();
-                left: 0;
-                width: $s;
-                height: $s;
-                line-height: $s;
-                display: inline-block;
-                border-radius: 50%;
-                vertical-align: middle;
-                background-size: 100% auto;
-                border: 1px solid $pp_darkGold;
-              }
-
-              &.wendy-wall::before {
-                content: '';
-                background-image: url('/images/editors/wendy-wall.png'); }
-
-              &.leah-knight::before {
-                content: '';
-                background-image: url('/images/editors/leah-knight.png');
               }
             }
           }
