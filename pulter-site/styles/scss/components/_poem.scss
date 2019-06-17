@@ -1003,8 +1003,6 @@ $globalBorderRadius: 2px;
 
     .toggle {
       border: 1px solid rgba(#282828, .1);
-      font-family: $pp_poetryFont;
-      font-size: $fs;
       display: inline-block;
       vertical-align: middle;
       padding: 0 .5em;
@@ -1030,7 +1028,7 @@ $globalBorderRadius: 2px;
       padding: 0;
       font-size: 1.25em;
       border: rgba(#282828, .2) 1px solid;
-      margin-right: 1.5em;
+      margin-right: 1.1em;
 
       a {
         font-family: $pp_curatorialFont;
@@ -1124,6 +1122,13 @@ $globalBorderRadius: 2px;
           &.to-vm {display: none;}
         }
       }
+    }
+
+    .page-toggle,
+    .gloss-toggle {
+      font-family: $pp_curatorialFont;
+      font-size: 1.2em;
+      font-style: italic;
     }
 
     .page-toggle {

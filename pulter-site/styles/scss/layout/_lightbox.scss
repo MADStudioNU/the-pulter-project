@@ -370,7 +370,7 @@
       img.separator {
         height: .55em;
         display: block;
-        margin: 3em 0;
+        margin: 2em 0 2.25em 0;
       }
 
       .witness-box {
@@ -408,10 +408,6 @@
             .who {
               font-weight: bold;
               padding-left: 0;
-
-              //&::before {
-              //  border: none;
-              //}
             }
 
             .aff {
