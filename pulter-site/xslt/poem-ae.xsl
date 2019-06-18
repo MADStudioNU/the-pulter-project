@@ -1292,7 +1292,7 @@
     <xsl:param name="length"/>
     <xsl:choose>
       <xsl:when test="string-length($string) > $length">
-        <xsl:value-of select="concat(substring($string, 1, $length), '...')"/>
+        <xsl:value-of select="concat(substring($string, 1, $length), '…')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$string"/>

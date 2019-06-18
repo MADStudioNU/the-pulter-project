@@ -235,7 +235,7 @@ var PP = (function ($) {
               .text(
                 num +
                 (+num > 1 ? ' poems ' : ' poem ') +
-                ' matching ' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + ' tag '
+                ' matching “' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + '” '
               );
 
             return false;
@@ -261,7 +261,7 @@ var PP = (function ($) {
           openSpeed: 400,
           closeSpeed: 200,
           otherClose: '.dismiss',
-          loading: '<p class="lato spinner">Loading the exploration...</p>',
+          loading: '<p class="lato spinner">Loading the exploration…</p>',
           beforeOpen: function () {
             if (eHash) {
               window.location.hash = eHash;
@@ -271,8 +271,11 @@ var PP = (function ($) {
       }
 
       function resetStatusString() {
-        $status.find('.filter-status').text(
-          '' + poems.length + ' poems '
+        $status.find('.filter-status')
+          .text('' + poems.filter(
+            function(poem) {
+              return poem.isPublished;
+            }).length + ' poems '
         );
       }
 
@@ -593,7 +596,7 @@ var PP = (function ($) {
                 type: 'image',
                 variant: 'facs',
                 closeIcon: 'Close',
-                loading: 'One second...',
+                loading: 'One second…',
                 afterContent: function () {
                   var $image = $('.featherlight-image');
 
