@@ -367,6 +367,54 @@
         color: #282828;
       }
 
+      img.separator {
+        height: .55em;
+        display: block;
+        margin: 2em 0 2em 0;
+      }
+
+      .witness-box {
+        display: inline-block;
+
+        .witnesses {
+          .witness {
+            position: relative;
+
+            a {
+              display: inline-block;
+              color: #222;
+
+              &::after {
+                $s: .66em;
+
+                content: '';
+                width: $s;
+                height: $s;
+                opacity: .85;
+                background: url('/images/external-link.svg') no-repeat 50% 50%;
+                background-size: 100% auto;
+                position: absolute;
+                margin-left: .15em;
+              }
+            }
+
+            &:not(:last-child) {
+              margin-bottom: .66em;
+            }
+
+            .who {
+              font-weight: bold;
+              padding-left: 0;
+            }
+
+            .aff {
+              opacity: .8;
+            }
+          }
+        }
+      }
+
+
       p:not(:last-child) {
         margin: 1.5em 0;
       }

@@ -103,7 +103,7 @@
           padding: $air $air 0 $air;
 
           .poem-index {
-            font-size: 1em;
+            font-size: 1.25em;
           }
 
           .poem-title {
@@ -185,6 +185,17 @@
             .c {
               p { margin-bottom: 1em; }
               .block-note { opacity: .66; }
+            }
+
+            .witness-box {
+              margin-top: 2em;
+              a {
+
+                .who {
+                  font-weight: bold;
+                }
+                color: #444;
+              }
             }
           }
 

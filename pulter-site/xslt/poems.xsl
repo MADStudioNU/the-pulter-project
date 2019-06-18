@@ -101,6 +101,7 @@
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
       <pp:firstLine>Dear daughters, come, make haste away</pp:firstLine>
+      <pp:poster/>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>restoration</pp:keyword>
@@ -1080,7 +1081,8 @@
     <pp:poem id="23">
       <pp:title>To Astraea</pp:title>
       <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
-<!--      <pp:editions>-->
+      <pp:poster/>
+      <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
 <!--          <pp:author>Wendy Wall</pp:author>-->
@@ -1222,6 +1224,7 @@
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
       <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
+      <pp:poster/>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -1457,6 +1460,14 @@
     </pp:poem>
     <pp:poem id="33">
       <pp:title>The Welcome [2]</pp:title>
+      <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
+      <pp:poster/>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
@@ -1636,6 +1647,14 @@
     </pp:poem>
     <pp:poem id="37">
       <pp:title>Aurora [2]</pp:title>
+      <pp:firstLine>Lovely Aurora, when wilt thou appear</pp:firstLine>
+      <pp:poster/>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
@@ -2406,6 +2425,14 @@
     </pp:poem>
     <pp:poem id="55">
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
+      <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
+      <pp:poster/>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
@@ -2618,6 +2645,7 @@
     <pp:poem id="62">
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
+      <pp:poster/>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -3048,6 +3076,13 @@
     </pp:poem>
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
+      <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
@@ -3365,14 +3400,48 @@
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
       <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
-<!--      <pp:keywords></pp:keywords>-->
-<!--      <pp:tags></pp:tags>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>medicine</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>jewel</pp:keyword>
+        <pp:keyword>virtue</pp:keyword>
+        <pp:keyword>plants</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>church</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>money</pp:keyword>
+        <pp:keyword>Christ</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>children</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>jewel</pp:tag>
+        <pp:tag>virtue</pp:tag>
+        <pp:tag>plants</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>church</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>money</pp:tag>
+        <pp:tag>Christ</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
@@ -3469,14 +3538,38 @@
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
       <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
-<!--      <pp:keywords></pp:keywords>-->
-<!--      <pp:tags></pp:tags>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>mobility</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>loyal</pp:keyword>
+        <pp:keyword>king</pp:keyword>
+        <pp:keyword>labor</pp:keyword>
+        <pp:keyword>history</pp:keyword>
+        <pp:keyword>countryside</pp:keyword>
+        <pp:keyword>fish</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>mobility</pp:tag>
+        <pp:tag>loyal</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>labor</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="105">
       <pp:title>View but this Tulip (Emblem 40)</pp:title>
@@ -3631,6 +3724,14 @@
     </pp:poem>
     <pp:poem id="118">
       <pp:title>Fair Aurora (Emblem 53)</pp:title>
+      <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
+      <pp:poster/>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
@@ -3718,7 +3819,9 @@
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#282828" />
         <meta property="og:title" content="The Pulter Project, Poet in The Making" />
-        <meta property="og:image" content="/images/pp-og-img.jpg" />
+        <meta name="og:description" content="Digital edition of the poems written by Hester Pulter." />
+        <meta name="og:image" content="https://pulterproject.northwestern.edu/images/pp-og-img.jpg" />
+        <meta name="twitter:card" content="summary" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/styles/styles.css" />
       </head>

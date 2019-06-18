@@ -187,8 +187,7 @@ $globalBorderRadius: 2px;
 
           right: 4em * 1em / .8em;
           background: #fff;
-          font-size: .8em;
-          //font-weight: bold;
+          font-size: .85em;
           padding: 1em;
           cursor: pointer;
           @include transition(color .2s);
@@ -251,7 +250,11 @@ $globalBorderRadius: 2px;
           }
 
           .label::before {
+            font-style: italic;
+            font-size: ms(-1);
             content: 'Headnote';
+            letter-spacing: 0;
+            text-transform: none;
           }
         }
       }
@@ -300,7 +303,7 @@ $globalBorderRadius: 2px;
       }
 
       header {
-        padding-top: 9em;
+        padding-top: 8.5em;
         padding-bottom: 1em;
         padding-left: $leftGutter;
         position: relative;
@@ -312,30 +315,6 @@ $globalBorderRadius: 2px;
           padding-left: $leftGutterMobile;
           padding-right: $leftGutterMobile;
         }
-
-        //.theme-toggle {
-        //    //display: none;
-        //    cursor: pointer;
-        //    //background: rgba(255, 255, 255, .5);
-        //    background: rgba(#DBD8D2, .5);
-        //    position: absolute;
-        //    //top: 4.5em;
-        //    top: 1em;
-        //    left: 1em;
-        //    //left: 13%;
-        //    display: block;
-        //    height: .75em;
-        //    width: .75em;
-        //    //border-radius: 50%;
-        //    border-radius: 2px;
-        //    //border: 1px solid rgba(255, 255, 255, .25);
-        //    opacity: .8;
-        //    @include transition(opacity .2s);
-        //
-        //    &:hover {
-        //        opacity: 1;
-        //    }
-        //}
 
         .poster {
           position: absolute;
@@ -367,12 +346,12 @@ $globalBorderRadius: 2px;
         }
 
         .poem-index {
+          opacity: .66;
           position: relative;
           display: inline-block;
-          letter-spacing: 3px;
-          font-size: .8em;
-          text-transform: uppercase;
-          margin-bottom: 1.5em;
+          font-style: italic;
+          font-size: ms(-1);
+          margin-bottom: 1em;
 
           @include breakpoint(mobile) {
             font-size: .85em;
@@ -387,7 +366,7 @@ $globalBorderRadius: 2px;
 
           font-size: $fs;
           line-height: 1.5em;
-          margin-bottom: 1em;
+          margin-bottom: 1.33em;
           position: relative;
 
           .sub {
@@ -409,6 +388,46 @@ $globalBorderRadius: 2px;
               opacity .4s,
               margin-bottom .4s
           );
+
+          .witness-box {
+            font-size: ms(-1);
+            margin-top: -2.5em;
+            margin-bottom: 1.5em;
+            //padding-left: .66em;
+            //border-left: 2px solid $pp_darkGold;
+            //position: relative;
+
+            a {
+              vertical-align: middle;
+              display: inline-block;
+            }
+
+            .by {
+              color: rgba(#fff, .66);
+              font-size: .9em;
+              //font-size: ms(-3);
+              //margin: 0 .33em;
+              line-height: 3;
+              font-family: $pp_curatorialFont;
+
+              &:first-of-type {
+                margin-left: 0;
+              }
+            }
+
+            .who {
+              color: $pp_manuscriptPaper;
+              position: relative;
+              font-size: ms(-2);
+              font-family: $pp_curatorialFont;
+              font-weight: bold;
+              @include transition(color .2s);
+
+              &:hover {
+                color: #fff;
+              }
+            }
+          }
 
           .headnote {
             $air: 1;
@@ -487,9 +506,11 @@ $globalBorderRadius: 2px;
             }
 
             .by {
-              margin: 0 2em;
+              margin: 0 2.5em;
               font-size: .9em;
-              letter-spacing: 1px;
+              letter-spacing: 2px;
+              color: $pp_manuscriptPaper;
+              font-family: $pp_curatorialFont;
             }
 
             .to-ctx {
@@ -658,7 +679,8 @@ $globalBorderRadius: 2px;
             }
 
             //.who {
-            //  color: rgba($c, .75);
+              //font-style: normal;
+              //font-weight: bold;
             //}
           }
         }
@@ -909,6 +931,10 @@ $globalBorderRadius: 2px;
 
       .poem-index {
         color: rgba(40, 40, 40, .8);
+
+        .edition-ref {
+          //color: $pp_darkGold;
+        }
       }
 
       .expand-box {
@@ -953,8 +979,6 @@ $globalBorderRadius: 2px;
 
     .toggle {
       border: 1px solid rgba(#282828, .1);
-      font-family: $pp_poetryFont;
-      font-size: $fs;
       display: inline-block;
       vertical-align: middle;
       padding: 0 .5em;
@@ -980,7 +1004,7 @@ $globalBorderRadius: 2px;
       padding: 0;
       font-size: 1.25em;
       border: rgba(#282828, .2) 1px solid;
-      margin-right: 1.5em;
+      margin-right: 1.1em;
 
       a {
         font-family: $pp_curatorialFont;
@@ -1074,6 +1098,13 @@ $globalBorderRadius: 2px;
           &.to-vm {display: none;}
         }
       }
+    }
+
+    .page-toggle,
+    .gloss-toggle {
+      font-family: $pp_curatorialFont;
+      font-size: 1.2em;
+      font-style: italic;
     }
 
     .page-toggle {

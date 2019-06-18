@@ -1,3 +1,364 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.37">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Aurora [2]</title>
+        <title type="sub">Poem #37</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_113.jpg" xml:id="f7610_113"/>
+      <graphic url="./document_images/7610_114.jpg" xml:id="f7610_114"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_113" n="55r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_113"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_113"/>
+        </rdg>
+      </app>
+   
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">105</fw>Aurora [2]</rdg>
+            <rdg wit="#ee">Aurora [2]</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">The unfailing daily return of dawn offered Pulter a figure she returned to often in her verse, as in this, her second poem called “Aurora.” The poem begins as an imploring address from a melancholy speaker to a classical goddess, dawn’s personification; but if this poem participates in the genre of the aubade—addresses to the dawn—it is complicated by originating in pitch blackness: an objectionable condition from which the speaker seeks Aurora as savior. But she no sooner makes this appeal than she castigates it as a kind of optico-spiritual error, stemming from the limited vision of her mortal form; she thus reminds herself that earthly darkness is merely a matter of perspective: the lights in fact are always on, and someone’s always home, even if we cannot see them. The illumination in question is, of course, not just the astronomical kind (from the sun, the source of dawn’s light) but the sort associated here with truth and eternal life. The poem ends with a visionary cavalcade of physical and allegorical detail, anticipating what such heavenly light is like—and, with even plain daylight being so desirable, a sense of how much better it must be.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Lovly Aurora, when wilt thou apear?</rdg>
+          <rdg wit="#ee">Lovely <seg>Aurora<note type="gloss">classical goddess of the dawn</note></seg>, when wilt thou appear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">And with thy Lightſom looks, my Spirit Cheer.</rdg>
+          <rdg wit="#ee">And with thy <seg>lightsome<note type="gloss">graceful, elegant; light-hearted, cheerful, merry; enlivening, entertaining; nimble, quick</note></seg> looks my spirit cheer?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Mee thinks thou let’st old Night too much prevail,</rdg>
+          <rdg wit="#ee">Methinks thou let’st old <seg>Night<note type="gloss">classical goddess (Nyx)</note></seg> too much prevail;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Shee too Long laps us, in her Sable vail:</rdg>
+          <rdg wit="#ee">She too long <seg>laps<note type="gloss">enfolds, wraps; hems in; embraces</note></seg> us in her <seg>sable<note type="gloss">black</note></seg> veil,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Which makes mee fear, confuſed Chaos might</rdg>
+          <rdg wit="#ee">Which makes me fear confuséd <seg>Chaos<note type="gloss">oldest of the classical gods, and parent of Night (Nyx)</note></seg> might</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft">Involv this Globe, (once more) in <seg>Shades<note type="physical">“d” written over other letter</note></seg> of Night.</rdg>
+          <rdg wit="#ee"><seg>Involve<note type="gloss">enfold, envelop</note></seg> this globe (once more) in shades of Night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">&ff;ool that I am, Soe &ff;ooliſhly to think,</rdg>
+            <rdg wit="#ee">Fool that I am, so foolishly to think,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">As if t’were dark becauſe my eyes doe wink.</rdg>
+            <rdg wit="#ee">As if ’twere dark, because my eyes do wink,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">When hee <seg>(hath Said) (whoſe<note type="physical">parentheses lighter than surrounding marks; last one may be imperfectly erased</note></seg> word Shall never fayle,</rdg>
+            <rdg wit="#ee">When He hath said (whose word shall never fail),</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">That Truth, and Light, and Life, Should Still <w lemma="prevail"><abbr>p:<hi rend="superscript">e</hi>vail</abbr></w>.</rdg>
+            <rdg wit="#ee">That truth, and light, and life should still prevail.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Then doe but Shew the Luster of thine Eye,</rdg>
+          <rdg wit="#ee">Then do but show the <seg>luster<note type="gloss">sheen; beautiful radiance; splendour, glory</note></seg> of <seg>thine<note type="gloss">Aurora’s</note></seg> eye,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft">And theſe black <seg>Embryons<note type="physical">“y”, in thicker ink, written over earlier letter(s)</note></seg> <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> their Dam will fly.</rdg>
+          <rdg wit="#ee">And these black <seg>embryos<note type="gloss">unborn or not yet fully formed offspring; here, in allusion to the offspring of the classical Night, including Doom, Fate, Death, Dreams, Blame, Misery, the Hesperides, the Destinies (or Parcae), Nemesis, Deceit, Lovemaking, Old Age, and Strife. Hesiod, <title rend="italic">The Poems of Hesiod: Theogony, Works and Days, and the Shield of Herakles</title> (2017), 42, 45.</note></seg> with their dam will <seg>fly<note type="gloss">flee; rise suddenly into the air</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">If Day (my Soul) Soe Delectable bee,</rdg>
+          <rdg wit="#ee">If day (my soul) so <seg>delectable<note type="gloss">delightful, pleasant</note></seg> be,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">What will the Resurrection bee to thee</rdg>
+          <rdg wit="#ee">What will the <seg>Resurrection<note type="gloss">the process, predicted in biblical book of Revelation, by which souls will be restored to their bodies and raised to heaven; also known as the second coming of Christ or Final Judgment</note></seg> be to thee?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">When as the last (&amp; lowdest) Trump Shall Sound,</rdg>
+          <rdg wit="#ee"><seg>Whenas<note type="gloss">when</note></seg> the last (and loudest) <seg>trump<note type="gloss">the trumpet of the Last Judgment; Revelation 8-11.</note></seg> shall sound,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Which will bee heard the Univerſall Round,</rdg>
+            <rdg wit="#ee">Which will be heard the universe all round,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">That from our Drowſey Cauſes Shall us wake:</rdg>
+          <rdg wit="#ee">That from our drowsy <seg>causes<note type="critical">As Eardley notes, “Pulter uses the term to draw a connection between the grave (i.e., the earth), the atoms or first principles of which organisms are composed, and the origins of life; i.e., when living beings die they return to their place of origin.”</note></seg> shall us wake:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Then Shall wee Darknes, Dust, and Death, of Shake,</rdg>
+          <rdg wit="#ee">Then shall we darkness, <seg>dust<note type="gloss">disintegrated matter; also original, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>, and death off shake,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">And in our Sleeping Urns noe longer lie,</rdg>
+          <rdg wit="#ee">And in our sleeping <seg>urns<note type="gloss">metaphorically, tombs</note></seg> no longer lie,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">But beeing cloathd with imortality;</rdg>
+            <rdg wit="#ee">But being clothed with immortality,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">guided</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_114" n="55v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_114"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_114"/>
+            </rdg>
+        </app>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Guided by Grace, and Truth, where Love doth<add place="below">^</add><add place="above">Dwell</add></rdg>
+            <rdg wit="#ee">Guided by Grace and Truth where Love doth dwell,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Whilst Night, Death, Error, Shall bee trod to Hell.</rdg>
+            <rdg wit="#ee">Whilst Night, Death, Error shall bee trod to Hell.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft">Then on <seg>Soft<note type="physical">“S” corrects earlier letter</note></seg> mercies Wings Ile mount aboue;</rdg>
+            <rdg wit="#ee">Then on soft mercy’s wings I’ll mount above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Where all Shall end, but in endles Joy &amp; love.</rdg>
+            <rdg wit="#ee">Where all shall end, but in endless joy and love.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

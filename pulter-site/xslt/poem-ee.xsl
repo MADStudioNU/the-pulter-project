@@ -165,7 +165,7 @@
       <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University), 2018."/>
+      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University)."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -175,7 +175,11 @@
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
       <meta property="og:title" content="{$fullTitle} | Elemental Edition" />
-      <meta property="og:image" content="/images/headnote-posters/h{$poemID}og.jpg" />
+      <meta name="og:description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University)." />
+      <meta property="og:image" content="https://pulterproject.northwestern.edu/images/headnote-posters/h{$poemID}og.jpg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@pulterproject" />
+      <meta name="twitter:creator" content="@wendywall61" />
       <title>
         <xsl:value-of select="concat(
                     $fullTitle,
@@ -214,10 +218,10 @@
                 </a>
                 <a href="/poems/ae/{$poemID}" title="Switch to the Amplified Edition">Amplified</a>
               </div>
-              <div class="page-toggle toggle cormorant-garamond">
+              <div class="page-toggle toggle">
                 <a href="#0">Manuscript</a>
               </div>
-              <div class="gloss-toggle toggle cormorant-garamond">
+              <div class="gloss-toggle toggle">
                 <a href="#0">Notes</a>
               </div>
             </div>
@@ -404,6 +408,19 @@
             <p class="lato">After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry.</p>
             <p class="lato">See the full conventions for the elemental edition <a href="/about-project-conventions.html#elemental-edition" target="_blank">here</a>.</p>
           </div>
+          <img class="separator print-hide" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
+          <div class="witness-box lato">
+            <ul class="witnesses">
+              <li class="witness">
+                <a href="https://brocku.ca/humanities/english-language-and-literature/faculty/leah-knight/" target="_blank">
+                  <span class="who">Leah Knight</span>, <span class="aff">Brock University</span>
+                </a>
+              </li>
+              <li class="witness">
+                <a href="https://www.english.northwestern.edu/people/faculty/wall-wendy.html" target="_blank"><span class="who">Wendy Wall</span>, <span class="aff">Northwestern University</span></a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <xsl:variable name="elementalEditionSegsWithNotes" select="//tei:rdg[@wit=concat('#', $elementalEditionId)]//tei:seg[./tei:note][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]"/>
@@ -518,6 +535,13 @@
 
     <xsl:if test="./tei:rdg[@wit=concat('#', $witId)]/tei:note[@type='headnote']">
       <div class="expand-box">
+
+        <div class="witness-box">
+          <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">
+            <span class="by">Edited by</span><xsl:text> </xsl:text><span class="who">Leah Knight</span><xsl:text> </xsl:text><span class="by">and</span><xsl:text> </xsl:text><span class="who">Wendy Wall</span>
+          </a>
+        </div>
+
         <div class="headnote lato">
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
