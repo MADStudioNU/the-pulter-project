@@ -366,7 +366,7 @@ $globalBorderRadius: 2px;
 
           font-size: $fs;
           line-height: 1.5em;
-          margin-bottom: 1.33em;
+          margin-bottom: 2em;
           position: relative;
 
           .sub {
@@ -862,6 +862,7 @@ $globalBorderRadius: 2px;
         text-shadow: 0 0 1px rgba(0, 0, 0, .25);
         margin-bottom: 1.5em;
       }
+
       .headnote {
         text-shadow: 0 0 1px rgba(0, 0, 0, .5);
 
@@ -941,6 +942,10 @@ $globalBorderRadius: 2px;
         margin-bottom: 0;
         max-height: 0;
         opacity: 0;
+
+        .witness-box {
+          pointer-events: none;
+        }
 
         @include transition(
             max-height .4s,
