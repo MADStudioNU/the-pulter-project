@@ -178,6 +178,8 @@
       <meta name="og:description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Elemental Edition, edited by Leah Knight (Brock University) and Wendy Wall (Northwestern University)." />
       <meta property="og:image" content="https://pulterproject.northwestern.edu/images/headnote-posters/h{$poemID}og.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@pulterproject" />
+      <meta name="twitter:creator" content="@wendywall61" />
       <title>
         <xsl:value-of select="concat(
                     $fullTitle,
@@ -1264,7 +1266,7 @@
     <xsl:param name="length"/>
     <xsl:choose>
       <xsl:when test="string-length($string) > $length">
-        <xsl:value-of select="concat(substring($string, 1, $length), '...')"/>
+        <xsl:value-of select="concat(substring($string, 1, $length), '…')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$string"/>

@@ -987,7 +987,7 @@
          <div class="critContent">
             <h4>Index of Poems</h4>
             <div id="poemindex">
-               (loading...)
+               (loading…)
             </div>
          </div>
       </div>
@@ -2410,7 +2410,7 @@
       <xsl:param name="length"/>
       <xsl:choose>
          <xsl:when test="string-length($string) &gt; $length">
-            <xsl:value-of select="concat(substring($string, 1, $length), '...')"/>
+            <xsl:value-of select="concat(substring($string, 1, $length), '…')"/>
          </xsl:when>
          <xsl:otherwise>
             <xsl:value-of select="$string"/>

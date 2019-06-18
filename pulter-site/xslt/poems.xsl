@@ -118,15 +118,15 @@
         <pp:tag>grief</pp:tag>
         <pp:tag>rivers</pp:tag>
       </pp:tags>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Liza Blake</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:curations>
         <pp:curation status="on" hash="come-away">
           <pp:author>Liza Blake</pp:author>
@@ -745,12 +745,12 @@
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
       <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
@@ -925,12 +925,12 @@
     <pp:poem id="19">
       <pp:title>The Welcome [1]</pp:title>
       <pp:firstLine>Dear Death, thou’rt welcome to my troubled soul</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
@@ -1082,12 +1082,12 @@
       <pp:title>To Astraea</pp:title>
       <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+      <!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
@@ -1185,6 +1185,38 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:tags>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>scent</pp:keyword>
+        <pp:keyword>Aurora</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
+        <pp:keyword>day</pp:keyword>
+        <pp:keyword>night</pp:keyword>
+        <pp:keyword>beauty</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King's Most Excellent Majesty </pp:title>
@@ -1193,12 +1225,12 @@
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
       <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="29">
       <pp:title>My Soul's Sole Desire</pp:title>
@@ -1250,9 +1282,9 @@
       <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
-        <pp:author>Leah Knight</pp:author>
-        <pp:author>Wendy Wall</pp:author>
-      </pp:edition>
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
         <pp:edition type="amplified">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
@@ -1430,26 +1462,26 @@
       <pp:title>The Welcome [2]</pp:title>
       <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
       <pp:firstLine>Why doth pale thus her beauty shroud?</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Frances E. Dolan</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:curations>
         <pp:curation status="on" hash="an-assize-sermon">
           <pp:author>Frances E. Dolan</pp:author>
@@ -1617,12 +1649,12 @@
       <pp:title>Aurora [2]</pp:title>
       <pp:firstLine>Lovely Aurora, when wilt thou appear</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-      <pp:edition type="elemental">
-        <pp:author>Leah Knight</pp:author>
-        <pp:author>Wendy Wall</pp:author>
-      </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
@@ -1704,15 +1736,15 @@
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
       <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Liza Blake</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:keywords>
         <pp:keyword>reproduction</pp:keyword>
         <pp:keyword>soul/body</pp:keyword>
@@ -1734,22 +1766,22 @@
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements</pp:title>
       <pp:firstLine>Have patience, my afflicted soul</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="42">
       <pp:title>Pardon Me, My Dearest Love</pp:title>
@@ -1919,12 +1951,12 @@
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
       <pp:firstLine>Sad, sick, and lame, as in my bed I lay</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
@@ -2395,12 +2427,12 @@
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
       <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
@@ -2456,17 +2488,17 @@
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
       <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Victoria E. Burke</pp:author>
-        </pp:edition>
-      </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Victoria E. Burke</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+<!--      <pp:keywords></pp:keywords>-->
+<!--      <pp:tags></pp:tags>-->
       <pp:curations>
         <pp:curation status="on" hash="creatures-venomous-and-offensive-to-man">
           <pp:author>Victoria E. Burke</pp:author>
@@ -2560,12 +2592,12 @@
     <pp:poem id="60">
       <pp:title>Extremely I Deplore Your Loss</pp:title>
       <pp:firstLine></pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="61">
       <pp:title>The Weeping Wish</pp:title>
@@ -2614,12 +2646,12 @@
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
@@ -2685,12 +2717,12 @@
       <pp:title>And Must the Sword this Controverse Decide</pp:title>
       <pp:firstLine>And must the sword this controverse decide</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
@@ -2820,16 +2852,16 @@
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
       <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Millie Godfery</pp:author>
-          <pp:author>Sarah C. E. Ross</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
@@ -2841,16 +2873,16 @@
       <pp:title>Virtue's Duel (Emblem 4)</pp:title>
       <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Millie Godfery</pp:author>
-          <pp:author>Sarah C. E. Ross</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
@@ -3035,22 +3067,22 @@
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
       <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
@@ -3271,12 +3303,12 @@
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
       <pp:firstLine>The stately moose, being mounted up the hill</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
@@ -3694,12 +3726,12 @@
       <pp:title>Fair Aurora (Emblem 53)</pp:title>
       <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
       <pp:poster/>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
@@ -3788,10 +3820,8 @@
         <meta name="theme-color" content="#282828" />
         <meta property="og:title" content="The Pulter Project, Poet in The Making" />
         <meta name="og:description" content="Digital edition of the poems written by Hester Pulter." />
-        <meta property="og:image" content="/images/pp-og-img.jpg" />
+        <meta name="og:image" content="https://pulterproject.northwestern.edu/images/pp-og-img.jpg" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="The Pulter Project: Poet in the Making" />
-        <meta name="twitter:image" content="https://pulterproject.northwestern.edu/images/pp-og-img.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/styles/styles.css" />
       </head>
