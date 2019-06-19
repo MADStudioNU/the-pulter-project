@@ -2488,6 +2488,7 @@
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
       <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2497,8 +2498,60 @@
           <pp:author>Victoria E. Burke</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+      <pp:keywords>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>cannibalism</pp:keyword>
+        <pp:keyword>insects</pp:keyword>
+        <pp:keyword>reptiles</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>sorrow</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>fish</pp:keyword>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>complaint</pp:keyword>
+        <pp:keyword>dissolution</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>pleasure</pp:keyword>
+        <pp:keyword>vision</pp:keyword>
+        <pp:keyword>countryside</pp:keyword>
+        <pp:keyword>friendship</pp:keyword>
+        <pp:keyword>cannibalism</pp:keyword>
+        <pp:keyword>England</pp:keyword>
+        <pp:keyword>atoms</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>reptiles</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>pleasure</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="creatures-venomous-and-offensive-to-man">
           <pp:author>Victoria E. Burke</pp:author>
