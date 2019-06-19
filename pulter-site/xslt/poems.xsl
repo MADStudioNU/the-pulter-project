@@ -2644,7 +2644,8 @@
     </pp:poem>
     <pp:poem id="60">
       <pp:title>Extremely I Deplore Your Loss</pp:title>
-      <pp:firstLine></pp:firstLine>
+      <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
