@@ -128,8 +128,8 @@
       <div>
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
-<!--            <witness xml:id="ae">Amplified edition: By <persName>Liza Blake</persName>.</witness>-->
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Liza Blake</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -151,7 +151,7 @@
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Invitation into the Countrey to my D: D: M P: P P 1647 when his Sacred
                 <w lemma="Majestie"><abbr>Maj:<hi rend="superscript">tie</hi></abbr></w> was at unhappy home</rdg>
           <rdg wit="#ee"><seg>The Invitation into the Country<note type="gloss">In the manuscript, this short title continues, specifying first that the invitation is to two of Pulter’s “dear daughters” who lived in the city of London: Margaret and Penelope (identified by their initials). The long title also notes that 1647 was “when his Sacred Majesty was at unhappy home,” probably a reference to Holdenby or Holmby (in Northamptonshire) where Charles I was held prisoner in 1647. Pulter was, during this time, in residence at her estate of Broadfield in Hertfordshire.</note></seg>, 1647</rdg>
-            <rdg wit="#ae"><seg>The Invitation into the Country, to my D. D. M. P. P. P., 1647, when his Sacred Majesty was at Unhappy Home<note type="gloss">i.e., to my Dear Daughters Margaret Pulter and Penelope Pulter</note><note type="textual"><p>(For more on these textual notes and for an explanation of abbreviations, please see the "Editorial Note" at the top of this poem.)</p>
+            <rdg wit="#ae">The Invitation into the Country, <seg>to my D. D. M. P. P. P., 1647, when his Sacred Majesty was at Unhappy Home<note type="gloss">i.e., to my Dear Daughters Margaret Pulter and Penelope Pulter</note><note type="textual"><p>(For more on these textual notes and for an explanation of abbreviations, please see the "Editorial Note" at the top of this poem.)</p>
             <p><hi rend="bold">AE:</hi> to My D.[ear] D.[aughters] M.[argaret] P.[ulter], P.[enelope] P.[ulter], 1647, when His Sacred Majesty Was at Unhappy [Holmby]</p>
                 <p><hi rend="bold">KW:</hi> 1647</p>
                 <p><hi rend="bold">RSB:</hi> to my Dear Daughters, M.P., P.P., 1647, when his Sacred Majesty was at Unhappy Hour</p>
@@ -168,12 +168,12 @@
               <note type="editorialnote"><p> “The Invitation into the Country” is a glossing editor’s dream: filled with proper nouns, political figures, and references to mythological figures, local sites, rivers, birds, and plants, the poem positively and repeatedly cries out to be glossed. An early reader of the manuscript—whose hand is different from either the scribe’s or the correcting hand (most likely Pulter’s)—heard and responded to the poem’s cries for glossing, adding some notes in the margins showing that they had understood the references within (particularly, references to local rivers). The poem is not just an invitation for her daughters, inviting them to come into the country; it also invites you, its reader, to get lost in its specificities, in its proper nouns and lists of rivers and types of nymphs. But what is the political efficacy of getting so lost in details?</p>
                   <p>As an editor, I attempted to respect this particularity of the poem—its desire for and invocation of glosses—and to provide information about the rivers, plants, and mythological figures Pulter names within. After all, a modern reader may not immediately know that a Napaea is a nymph of mountains, or that Grey’s Spring was a spring thought to have petrifying properties. On the other hand, the poem is curious in that its many specific references do not seem to enhance its overall argument: having more than that minimal information about a Napaea, or about Grey’s Spring, doesn’t significantly change or deepen your understanding of the lines that mention them: she hits on these specific references in passing, then moves on to other things. Providing <hi rend="italic">more</hi> information on these proper nouns seems like a distraction, in a poem that is so much about the relationship between politics and forms of distraction (literary and otherwise). (For more on the politics of distraction, see the Headnote to this poem.)</p>
                   <p>I have therefore implemented a two-tiered system of glossing. First, for each of the poem’s many references to proper nouns, mythological figures, English plants, etc., I have provided a short reference, headed as a “GLOSS NOTE.” These references I have kept minimal and short—which is all the attention I think readers should give them, and all that I think understanding the poem requires. The changing density of boxes (which appear around a word or phrase to indicate a note) will also help readers see at a quick glance where the poem’s sometimes desperate or compulsive iteration of objects, rivers, etc. becomes most intense, and where it abates (for example, there is an explosion of references after the poem’s great break or volta at line 73). Most of these gloss notes are supplied from the <title rend="italic">OED</title>; other sources are documented in critical notes. Second, longer critical notes and textual notes, each labelled accordingly, explain editorial choices, paraphrase difficult words and sentences, provide references to echoes in Pulter’s works, and call attention to interesting textual and interpretive ambiguities.</p>
-                  <p>This poem had two kinds of intervention even in its life as a manuscript poem. As mentioned above, there are at least three contributors to this poem: the scribe who initially copied it; a correcting hand, probably Pulter’s; and a later marginal annotator who provided some initial glosses. My textual notes attempt to record interesting interventions in the early manuscript; in addition, where the early marginal annotator has provided a gloss, I provide their gloss, and label it with “GLOSS NOTE (ORIGINAL)”.</p>
+                  <p>This poem had two kinds of intervention even in its life as a manuscript poem. As mentioned above, there are at least three contributors to this poem: the scribe who initially copied it; a correcting hand, probably Pulter’s; and a later marginal annotator who provided some initial glosses. My textual notes record interesting interventions in the early manuscript; in addition, where the early marginal annotator has provided a gloss, I provide their gloss, and label it with “GLOSS NOTE (ORIGINAL)”.</p>
                   <p>Finally, perhaps because of the complicated history of editorial intervention in the manuscript, the text of this poem is somewhat unstable: different editors have seen different things in the manuscript, and have made different (sometimes silent) emendations. I have therefore included with the poem a textual apparatus, including information about the decisions that different transcriptions and editions have made around certain textual cruxes in the poem. These textual notes appear among my other notes. I refer to the manuscript in notes as <hi rend="bold">MS</hi>. Previous editions cited in textual and other notes are abbreviated as follows:</p>
                   <p>
                       <hi rend="bold">SGC:</hi> an old-spelling annotated dissertation edition of Pulter’s poems: Hester Pulter, “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,” ed. Stefan Graham Christian (PhD diss., University of Massachusetts Amherst, 2012).</p>
                       <p><hi rend="bold">AE:</hi> a modernized and annotated edition of Pulter’s poems: Hester Pulter, <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title>, ed. Alice Eardley (Toronto: Iter, Inc. and the Centre for Renaissance and Reformation Studies, 2014).</p>
-                      <p><hi rend="bold">KW:</hi> a modernized and annotated “Elemental Edition”: Hester Pulter, “The Invitation into the Country, 1647” ed. Leah Knight and Wendy Wall, <title rend="italic">The Pulter Project: Poet in the Making</title></p>
+                      <p><hi rend="bold">KW:</hi> a modernized and annotated “Elemental Edition”: Hester Pulter, “The Invitation into the Country, 1647” ed. Leah Knight and Wendy Wall, <title rend="italic">The Pulter Project: Poet in the Making</title>.</p>
                       <p><hi rend="bold">RSB:</hi> a modernized and annotated edition of Poem 2 and a few others by Pulter: Hester Pulter, “The Invitation into the Country, to my Dear Daughters, M.P., P.P., 1647, when his Sacred Majesty was at Unhappy Hour,” in <title rend="italic">Women Poets of the English Civil War</title>, ed. Sarah C.E. Ross and Elizabeth Scott-Baumann (Manchester: Manchester University Press, 2018), pp. 92–98.
                   </p>
                   <p>With a few exceptions, I have modernized the text’s spelling and capitalization throughout to concur with the <title rend="italic">Oxford English Dictionary Online</title> headwords; this includes both the poem and the marginal annotator. I have also modernized punctuation, and expanded poetic abbreviations where such expansions would not affect the meter for a modern reader. For example, I expanded “Dispis’d” into “Despised,” as a modern reader would naturally read that word with two syllables. In instances where a final “ed” in the manuscript seems to suggest an additional syllable, I have modernized as “èd” (for example, the manuscript’s “changed,” pronounced with two syllables for metrical purposes, became modernized as “changèd”).</p>
@@ -211,6 +211,7 @@
                 <p>The final lines, then, seem to worry at the larger political and poetical problem of the relationship between agency and despair. Is this a private poem of a mother missing her daughters, hoping they can cure her (and the countryside’s) despair? Or is it, even obliquely, requesting political, public solutions for her private despair? “Nothing can comfort me,” the end may be saying, “except the restoration of the monarchy. With that in mind: I am asking you to comfort me.” Does the request for emotional comfort cancel the implicit request for political action, or prompt it?</p>
                 <p>This problem, of whether emotion is an invocation of political agency or an invitation to political retreat, runs through the poem as a whole. Consider, for example, the image of the “weeping” fanes or temples with which the poem begins; seeing moisture dripping down walls is both a projection of her own sadness onto damp marble, but also an exhortation to feeling in others: “Hard hearts, insensible of woe, / Whom marble walls in grief outgo!” (ll. 7–8). Even marble walls, she tells her readers, are showing their grief; how much harder is the matter of your heart, to not do the same? This same problem is a preoccupation of much Royalist poetry, which responded to defeats with images of closed circles: Richard Lovelace’s snail “within [its] own self curled,” Alexander Brome’s circle of imprisoned carousers, Andrew Marvell’s desire to retreat into “The Garden” and “transcend” worldly troubles, converting potentially political impulses instead to “a green thought in a green shade.” The second part of Pulter’s poem, especially, responds to this strand of Royalist writing, and this poem’s curation <ref target="#ctxs" type="pp-curations-ref">How to Do Things with Political Poetry</ref> provides examples both of some (beautiful) examples of Royalist poetic escapism, as well as examples of radical poems that mock the Royalists for retreating into verse, and are modelled instead on chants and calls to action.</p>
                 <p>Pulter’s “Invitation into the Country” situates itself among these political questions of pastoral poetry and agency, but it is striking that unlike some of her more explicitly topical political poems this poem offers not only commentary on a specific historical moment, but also a meta-reflection on the relationship between poetry and political agency; its formal problems—the questions of poetic form and genre—also become political problems.</p>
+                <p>(For more information on how these political questions inform the editorial practice for this amplified edition, see the Editorial Note by clicking on the small "i" at the bottom of the poem.)</p>
             </note>
           </rdg>
         </app>
@@ -241,9 +242,9 @@
         <app>
           <rdg wit="#ft"><seg>&ff;eirce<note type="physical">Apparently this word was first written as “ffor.” The first “e” was inserted later, the “o” overwritten as “i,” and “ce” crowded before “Hydras.”</note></seg> Hydras now Uſurps his place</rdg>
           <rdg wit="#ee"><seg>Fierce Hydras<note type="gloss">The hydra was the many-headed serpent in classical mythology that could grow additional heads when one was cut off; it was eventually defeated by Hercules. Here Pulter identifies parliamentarians and Cromwell as heads of state proliferating monstrously after Charles’s imprisonment. See also <ref type="pp-poem-ref" corresp="6">Universal Dissolution</ref>, l. 71.</note></seg> now usurp his place.</rdg>
-          <rdg wit="#ae"><seg>Fierce Hydra<note type="gloss">the Hydra was the many-headed snake of Lerna, whose heads regenerated; in classical mythology, killed by Hercules</note><note type="textual">	SGC: Since Hydras now usurps
-            KW: Fierce Hydras now usurp
-            RSB: Five hydras now usurp
+          <rdg wit="#ae"><seg>Fierce Hydra<note type="gloss">the Hydra was the many-headed snake of Lerna, whose heads regenerated; in classical mythology, killed by Hercules</note><note type="textual">	<hi rend="bold">SGC:</hi> Since Hydras now usurps<br/>
+            <hi rend="bold">KW:</hi> Fierce Hydras now usurp<br/>
+            <hi rend="bold">RSB:</hi> Five hydras now usurp<br/>
             The MS has “Hydras,” which is either an alternate spelling of the name of the monster “Hydra,” or is a statement that London is filled with multiple hydras. I assumed it is an alternate spelling because of the singular verb “usurps,” though other editors read “hydras” as plural and emend the verb to “usurp.”
           </note></seg> now usurps his place.</rdg>
         </app>
@@ -252,8 +253,8 @@
         <app>
           <rdg wit="#ft">The <seg>Phanes<note type="physical">The “h” appears written over an earlier “l.”</note></seg> are over Grown with moſs</rdg>
           <rdg wit="#ee">The <seg>fanes<note type="gloss">temples, shrines, or religious structures. The manuscript shows that the word was originally written as “planes,” which was then corrected to “phanes.” The original word is also viable since it refers to species of trees or natural landscapes.</note></seg> are overgrown with moss,</rdg>
-          <rdg wit="#ae">The <seg>fanes<note type="gloss">temples</note><note type="textual">SGC: Planes
-            RSB: planes.
+          <rdg wit="#ae">The <seg>fanes<note type="gloss">temples</note><note type="textual"><hi rend="bold">SGC:</hi> Planes<br/>
+            <hi rend="bold">RSB:</hi> planes.<br/>
             In the MS, the letter after the “P” is either an “l” or an “h”; one was written over the other, though it is difficult to discern which came first and which is the correction. While it is not impossible that plains (or plane trees) would be overgrown with moss, I chose “Phanes” or fanes, temples, because in line eight she suggests that even marble walls are weeping more than are (human) English subjects.</note></seg> are overgrown with moss</rdg>
         </app>
       </l>
@@ -481,7 +482,7 @@
         <app>
             <rdg wit="#ft">Aye me then com make hast away</rdg>
             <rdg wit="#ee">Ay me, then come, make haste away;</rdg>
-            <rdg wit="#ae">Ay me!—then come, make hast away;</rdg>
+            <rdg wit="#ae">Ay me!—then come, make haste away;</rdg>
         </app>
       </l>
       <l n="36">
@@ -496,8 +497,8 @@
         <app>
           <rdg wit="#ft"><seg>Here’s<note type="physical">The “re” and apostrophe appear to be added later in thicker ink.</note></seg> <seg>&ff;low’ery<note type="physical"> The “e” is imperfectly erased; the apostrophe appears to have been added later in thicker ink.</note></seg> vales and Christall Springs</rdg>
             <rdg wit="#ee">Here’s flow’ry <seg>vales<note type="gloss">valleys</note></seg> and crystal springs;</rdg>
-          <rdg wit="#ae">Here’s <seg>flow’ry<note type="textual">	SGC: Flowery
-            RSB: flowery
+          <rdg wit="#ae">Here’s <seg>flow’ry<note type="textual">	<span class="bold">SGC:</span> Flowery<br/>
+            <span class="bold">RSB:</span> flowery<br/>
             The MS originally read “Flowery,” and then the “e” was struck out and an apostrophe was inserted after the “w.” I interpreted these corrections as an attempt to remove a syllable, which would make this line’s meter more regular, and modernized accordingly.</note></seg> vales and crystal springs;</rdg>
         </app>
       </l>
@@ -672,8 +673,8 @@
         <app>
           <rdg wit="#ft">They in theire Children <seg><del>doth</del><add place="above">both</add><note type="physical">It appears that the word in question was first written as “both”; then the first letter was corrected, to read “doth”; then the whole word was struck-through twice, with “both” inserted above.</note></seg> rejoyce</rdg>
             <rdg wit="#ee">They, in their children, both rejoice,</rdg>
-          <rdg wit="#ae">They in their children <seg>both<note type="textual">	SGC: doth
-            AE: [doth]
+          <rdg wit="#ae">They in their children <seg>both<note type="textual">	<span class="bold">SGC:</span> doth<br/>
+            <span class="bold">AE:</span> [doth]<br/>
             The MS originally read “both”; this was replaced with “doth,” and then changed back, finally, to “both.”
           </note></seg> rejoice,</rdg>
         </app>
@@ -717,8 +718,8 @@
         <app>
           <rdg wit="#ft">Here virgins Sit in <seg>flow’ery<note type="physical">The “e” is imperfectly erased.</note></seg> Vales</rdg>
           <rdg wit="#ee">Here virgins sit in flowery vales,</rdg>
-          <rdg wit="#ae">Here virgins sit in <seg>flow’ry<note type="textual">	SGC: flow’ery
-            KW: flowery
+          <rdg wit="#ae">Here virgins sit in <seg>flow’ry<note type="textual">	<span class="bold">SGC:</span> flow’ery<br/>
+            <span class="bold">KW:</span> flowery<br/>
             The MS originally read “flowery,” and then the “e” was struck out and an apostrophe was inserted after the “w.” I interpreted these corrections as an attempt to remove a syllable, which would make this line’s meter more regular, and modernized accordingly.</note></seg> vales,</rdg>
         </app>
       </l>
@@ -726,8 +727,8 @@
         <app>
           <rdg wit="#ft">refresht by Sweet <seg>&ff;avoni<del>o</del>us<note type="physical">The second “o” is imperfectly erased.</note></seg> gales</rdg>
           <rdg wit="#ee">Refreshed by sweet <seg>Favonius’s<note type="gloss">Latin name for the west wind, which was associated with springtime (also known as Zephyrus)</note></seg> <seg>gales<note type="gloss">strong winds</note></seg>,</rdg>
-          <rdg wit="#ae">Refreshed by sweet <seg>Favonious’<note type="gloss">the West wind</note><note type="textual">	AE: favorious
-            RSB: favorious
+          <rdg wit="#ae">Refreshed by sweet <seg>Favonious’<note type="gloss">the west wind</note><note type="textual">	<span class="bold">AE:</span> favorious<br/>
+            <span class="bold">RSB:</span> favorious<br/>
           </note></seg> gales,</rdg>
         </app>
       </l>
@@ -735,8 +736,8 @@
         <app>
           <rdg wit="#ft">Makeing them Anadems and poſes</rdg>
           <rdg wit="#ee">Making <seg>them<note type="gloss">themselves</note></seg> <seg>anadems and poses<note type="gloss">“Anadems” were wreaths of flowers for the head; “poses” refers to posies, which were bunches of flowers as well as collections of short poems, devices or emblems</note></seg>,</rdg>
-          <rdg wit="#ae">Making them <seg>anadems and poses<note type="gloss">Anadems are floral wreaths or crowns; poses are small bunches of flowers.</note><note type="textual">	SGC: Diadems and poses
-            RSB: anadems and posies</note></seg>,</rdg>
+          <rdg wit="#ae">Making them <seg>anadems and poses<note type="gloss">Anadems are floral wreaths or crowns; poses are small bunches of flowers.</note><note type="textual">	<span class="bold">SGC:</span> Diadems and poses<br/>
+            <span class="bold">RSB:</span> anadems and posies</note></seg>,</rdg>
         </app>
       </l>
       <l n="68">
@@ -750,14 +751,14 @@
         <app>
           <rdg wit="#ft">In woods and Dales faire Maidens may</rdg>
           <rdg wit="#ee">In woods and <seg>dales<note type="gloss">valleys</note></seg> fair maidens may,</rdg>
-          <rdg wit="#ae">In woods and dales fair maidens <seg>may<note type="gloss">hawthorn blossoms</note></seg>,</rdg>
+          <rdg wit="#ae">In woods and dales fair maidens may,</rdg>
         </app>
       </l>
       <l n="70">
         <app>
           <rdg wit="#ft">Unfrighted freely gather May</rdg>
           <rdg wit="#ee">Unfrighted, freely gather <seg>may<note type="gloss">Hawthorn blossom; the ritual of gathering may was often done on May Day, as the stanza later suggests.</note></seg>.</rdg>
-          <rdg wit="#ae">Unfrighted, freely gather may.</rdg>
+          <rdg wit="#ae">Unfrighted, freely gather <seg>may<note type="gloss">hawthorn blossoms</note></seg>.</rdg>
         </app>
       </l>
       <l n="71">
@@ -820,7 +821,7 @@
         <app>
           <rdg wit="#ft">And that faire <seg>fleecy flocks<note type="physical">The “y” in “fleecy” is written in thicker inkover a previous letter, possibly “e”; the “o” in “flocks” is written over an earlier letter. </note></seg> did keepe</rdg>
           <rdg wit="#ee">And <seg>that<note type="gloss">those that</note></seg> fair fleecy flocks did keep,</rdg>
-          <rdg wit="#ae">And that fair fleecy flocks did keep</rdg>
+          <rdg wit="#ae">And that fair fleecy flocks did keep,</rdg>
         </app>
       </l>
       <l n="80">
@@ -920,7 +921,7 @@
         <app>
           <rdg wit="#ft"><seg>Inamell’d<note type="physical">Beneath the apostrophe is an illegible erased letter.</note></seg> vales and Cristall Streames</rdg>
           <rdg wit="#ee">Enameled vales and crystal streams</rdg>
-          <rdg wit="#ae"><seg>Enameled vales and crystal streams<note type="critical">In these next few lines, the rivers of England mourn the loss of the king and queen. Lines 94–95 say, roughly, that the rivers Mimram and Stort wear “mourning weeds,” which usually means dark clothes of mourning, but in this case may literally mean they wear weeds in their waters or on their banks.</note></seg></rdg>
+          <rdg wit="#ae"><seg>Enameled vales and crystal streams<note type="critical">In these next few lines, the rivers of England mourn the loss of the king and queen. Lines 94–95 say, roughly, that the rivers Mimram and Stort wear “mourning weeds,” which usually means dark clothes of mourning, but in this case may literally mean they "wear" vegetal weeds in their waters or on their banks.</note></seg></rdg>
         </app>
       </l>
       <l n="92">
@@ -1004,7 +1005,7 @@
         <app>
           <rdg wit="#ft">Round Verulam his ruin’d Stones</rdg>
           <rdg wit="#ee">Round <seg>Verulam his<note type="gloss">Veralum’s; Veralum was the abbreviated name for the ancient Roman town of Verulamium in Hertfordshire, the ruins of which were visible.</note></seg> ruinéd stones</rdg>
-          <rdg wit="#ae">Round <seg>Verulam<note type="gloss">Verulamium, a Roman British town, in ruins</note><note type="textual">SGC: Verulamium</note></seg> his ruined stones</rdg>
+          <rdg wit="#ae">Round <seg>Verulam<note type="gloss">Verulamium, a Roman British town, in ruins</note><note type="textual"><hi rend="bold">SGC:</hi> Verulamium</note></seg> his ruined stones</rdg>
         </app>
       </l>
       <l n="104">
@@ -1094,7 +1095,7 @@
       <l n="116">
         <app>
           <rdg wit="#ft">as pearles and ran to Bedfordſhire</rdg>
-          <rdg wit="#ee">As pearls, and ran to Bedfordshire–</rdg>
+          <rdg wit="#ee">As pearls, and ran to Bedfordshire—</rdg>
           <rdg wit="#ae">As pearls, and ran to <seg>Bedfordshire<note type="gloss">the county northeast of Hertfordshire</note></seg>,</rdg>
         </app>
       </l>
@@ -1108,7 +1109,7 @@
       <l n="118">
         <app>
           <rdg wit="#ft">That Shee her Selfe did want Reliefe</rdg>
-          <rdg wit="#ee">That she herself did want relief–</rdg>
+          <rdg wit="#ee">That she herself did want relief—</rdg>
           <rdg wit="#ae">That she herself did want relief,</rdg>
         </app>
       </l>
@@ -1200,7 +1201,7 @@
         <app>
           <rdg wit="#ft">The Nayedes here ſit in Rankes</rdg>
           <rdg wit="#ee">The <seg>Naiades<note type="gloss">In classical mythology, these were nymphs inhabiting rivers and lakes, or female personifications of bodies of water.</note></seg> here sit in <seg>ranks<note type="gloss">rows</note></seg>,</rdg>
-          <rdg wit="#ae">The <seg>naïads<note type="gloss">river nymphs</note><note type="textual">In the MS, “naiads” is spelled “Nayedes”; I have spelled it “naïads” in an attempt to both modernize and restore the third syllable removed in modernization.</note></seg> here <seg>sit in ranks<note type="gloss">i.e., sit in rows.</note></seg>,</rdg>
+          <rdg wit="#ae">The <seg>naïads<note type="gloss">river nymphs</note><note type="textual">In the MS, “naiads” is spelled “Nayedes”; I have spelled it “naïads” in an attempt to both modernize and restore the third syllable removed in modernization. It should be pronounced Ni-ee-adds.</note></seg> here <seg>sit in ranks<note type="gloss">sit in rows</note></seg>,</rdg>
         </app>
       </l>
       <l n="130">
@@ -1382,10 +1383,10 @@
         <app>
           <rdg wit="#ft"><seg><del>Na[igh]</del><note type="physical">In the left margin, in third hand: “Nay”; the start of the struck-through word is “Na”; the remainder, scribbled out, is possibly “igh.”</note></seg> the Na’peas from theire Hills</rdg>
           <rdg wit="#ee">Nay, the <seg>Napeae<note type="critical">mythological nymphs of woods, mountains, and rivers; Thomas Elyot defined them as “Goddesses of floures and woodes or rather elfes, hauntynge woodes” (<title rend="italic">Bibliotheca Eliotae</title>, 1542, sig. Y4v). Many contemporary writers identified them as nymphs whose domain was specifically the moisture of flowers (See, for instance, Vives’s commentary on St. Augustine, <title rend="italic">Of the City of God</title> [1610], p. 182).</note></seg> from their hills,</rdg>
-          <rdg wit="#ae">Nay, the <seg>Napaeas<note type="gloss">nymphs of the woods, mountains, or rivers</note><note type="textual">	SGC: Napeas
-            AE: Napaeae
-            KW: Napeae
-            RSB: Napaeae</note></seg> from their hills,</rdg>
+          <rdg wit="#ae">Nay, the <seg>Napaeas<note type="gloss">nymphs of the woods, mountains, or rivers</note><note type="textual">	<span class="bold">SGC:</span> Napeas<br/>
+            <span class="bold">AE:</span> Napaeae<br/>
+            <span class="bold">KW:</span> Napeae<br/>
+            <span class="bold">RSB:</span> Napaeae</note></seg> from their hills,</rdg>
         </app>
       </l>
       <l n="156">
@@ -1457,10 +1458,10 @@
         <app>
           <rdg wit="#ft">To <seg>lovely<note type="physical">this word could be “louely” or “lonely”; the third letter is obstructed by the “g” above and is ambiguous</note></seg> Shades pale vi-letts creepe</rdg>
           <rdg wit="#ee">To lovely shades pale vi’lets creep,</rdg>
-          <rdg wit="#ae">To <seg>lonely<note type="textual">	SGC: lovely
-            AE: lovely
-            KW: lovely
-            RSB: lovely
+          <rdg wit="#ae">To <seg>lonely<note type="textual">	<span class="bold">SGC:</span> lovely<br/>
+            <span class="bold">AE:</span> lovely<br/>
+            <span class="bold">KW:</span> lovely<br/>
+            <span class="bold">RSB:</span> lovely<br/>
             In early modern handwriting, “u” and “n” are written identically, so for the word I have given as “lonely” the MS could read either “lonely” or “louely” (lovely). I have interpreted the third graph (or letter) as an “n” as it makes more sense to me, in this dismal landscape, that the violet should creep into a <hi rend="italic">lonely</hi> shade for its weeping. Further, that the violet is unpitied (l. 164) is perhaps because, in the lonely shade, there is no one else around to pity it. The MS’s ambiguity, however, is an interesting one, especially given that there is an identically written word (lonely / louely) only four lines earlier that almost certainly means “lovely.”</note></seg> shades pale violets creep,</rdg>
         </app>
       </l>
@@ -1468,7 +1469,7 @@
         <app>
           <rdg wit="#ft">And ther unpittied Sit and weepe</rdg>
           <rdg wit="#ee">And there, unpitied, sit and weep.</rdg>
-          <rdg wit="#ae">And <seg>there<note type="textual">SGC: that</note></seg> unpitied sit and weep.</rdg>
+          <rdg wit="#ae">And <seg>there<note type="textual"><span class="bold">SGC:</span> that</note></seg> unpitied sit and weep.</rdg>
         </app>
       </l>
       <l n="165">
@@ -1503,7 +1504,7 @@
         <app>
           <rdg wit="#ft">The lilly and the July flower</rdg>
           <rdg wit="#ee">The lily and the <seg>gillyflower<note type="gloss">carnation</note></seg></rdg>
-          <rdg wit="#ae">The lily and the <seg>July flower<note type="gloss">gillyflower or carnation</note><note type="textual">KW: gillyflower</note></seg></rdg>
+          <rdg wit="#ae">The lily and the <seg>July flower<note type="gloss">gillyflower or carnation</note><note type="textual"><span class="bold">KW:</span> gillyflower</note></seg></rdg>
         </app>
       </l>
       <l n="170">
@@ -1517,9 +1518,9 @@
         <app>
           <rdg wit="#ft">To Sleepe for ever in theire Caves</rdg>
           <rdg wit="#ee">To sleep forever in their <seg>cause<note type="gloss">original, formative elements</note></seg>;</rdg>
-          <rdg wit="#ae">To sleep for ever in their <seg>cause<note type="textual">	SGC: Caves
-            RSB: caves
-            The manuscript reads “caves,” but the letters “u” and “v” were interchangeable in the period, so I have read it as “caues” to rhyme with “laws” and modernized as “cause.” The image of flowers “sleeping in their causes”—returning to their first principles, or existing as latent potentiality—is a common one in Pulter’s work; see also “Universal Dissolution” (Poem 6), l. 14, and “The Perfection of Patience and Knowledge” (Poem 39), l. 5.</note></seg>,</rdg>
+          <rdg wit="#ae">To sleep for ever in their <seg>cause<note type="textual">	<span class="bold">SGC:</span> Caves<br/>
+            <span class="bold">RSB:</span> caves<br/>
+            The manuscript reads “caves,” but the letters “u” and “v” were interchangeable in the period, so I have read it as “caues” to rhyme with “laws” and modernized as “cause.” The image of flowers “sleeping in their causes”—returning to their first principles, or existing as latent potentiality—is a common one in Pulter’s work; see also <ref type="pp-poem-ref" corresp="6">Universal Dissolution (Poem 6)</ref>, l. 14, and <ref type="pp-poem-ref" corresp="39">The Perfection of Patience and Knowledge (Poem 39)</ref>, l. 5.</note></seg>,</rdg>
         </app>
       </l>
       <l n="172">
@@ -1657,7 +1658,7 @@
       </l>
       <app>
         <rdg type="milestone" wit="#ft">
-          <milestone unit="poem" rend="straight-horline"/>
+          <milestone unit="poem" rend="curline-right"/>
         </rdg>
       </app>
     </body>
