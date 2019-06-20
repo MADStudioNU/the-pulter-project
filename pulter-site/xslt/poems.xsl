@@ -925,6 +925,7 @@
     <pp:poem id="19">
       <pp:title>The Welcome [1]</pp:title>
       <pp:firstLine>Dear Death, thou’rt welcome to my troubled soul</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
