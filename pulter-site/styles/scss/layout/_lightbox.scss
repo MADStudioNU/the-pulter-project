@@ -384,7 +384,7 @@
               display: inline-block;
               color: #222;
 
-              &::after {
+              &[href]::after {
                 $s: .66em;
 
                 content: '';
@@ -399,7 +399,7 @@
             }
 
             &:not(:last-child) {
-              margin-bottom: .66em;
+              margin-bottom: .5em;
             }
 
             .who {
@@ -417,6 +417,16 @@
 
       p:not(:last-child) {
         margin: 1.5em 0;
+      }
+
+      // Editorial note footnote triggers
+      .editorialnote-fna {
+        color: darken($pp_manuscriptPaper, 40%);
+        font-size: .75em;
+        position: relative;
+        bottom: .66em;
+        margin-right: .1em;
+        margin-left: .15em;
       }
 
       // Editorial note notes

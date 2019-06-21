@@ -612,10 +612,10 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified" label="Amplified Edition A">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
         <pp:edition type="amplified" id="a2" label="Amplified Edition B">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:curations>
@@ -2370,7 +2370,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
@@ -2408,17 +2408,17 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="early-modern-astronomy">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>Scientific thinkers in the sixteenth and seventeenth centuries debated the planets’ position in our universe. Two competing models were the Ptolemaic or geocentric (the idea that the Earth was the center of the universe) and the Copernican or heliocentric (which imagined the sun at the center).</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-planets-in-poetry">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Planets in Poetry</pp:title>
           <pp:peek>In response to new scientific ideas, several seventeenth-century poets wrote about the planets and the Earth’s position in the universe. Compare Pulter’s conception of the universe (and God’s role in creating it) to those by John Donne, Henry More, and Margaret Cavendish below.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="complaint-poetry">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Complaint Poetry</pp:title>
           <pp:peek>“A Solitary Complaint” opens with a question about earthly pain that it never answers directly. Instead, it concludes by looking to God. Other poets in the period used complaint poetry to lament unrelenting sorrow or to pivot from earthly concerns to the promise of heavenly reward. The following three examples parallel aspects of Pulter’s poem.</pp:peek>
         </pp:curation>
@@ -3226,12 +3226,12 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-devoted-turtledove">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Devoted Turtledove</pp:title>
           <pp:peek>Where might Pulter have gotten her ideas about the turtledove? Some possibilities include the Bible, books about natural history, and works of literature.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-widows">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Widows</pp:title>
           <pp:peek>With its description of virtuous mourning, Pulter’s turtledove emblem enters into a conversation with contemporary texts about widowhood, including how widows should behave and whether they should remarry.</pp:peek>
         </pp:curation>

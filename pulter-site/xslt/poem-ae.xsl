@@ -60,7 +60,7 @@
         <xsl:when test="not(position() = last())">
           <xsl:element name="span">
             <xsl:attribute name="class">
-              <xsl:value-of select="'who'"/>
+              <xsl:value-of select="'who zzz'"/>
             </xsl:attribute>
             <xsl:value-of select="."/>
           </xsl:element>
@@ -466,6 +466,73 @@
                 </xsl:element>
               </xsl:if>
             </xsl:element>
+            <img class="separator print-hide" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
+
+            <div class="witness-box lato">
+              <ul class="witnesses">
+                <xsl:for-each select="//tei:witness[@xml:id = $amplifiedEditionId]//tei:persName">
+                  <xsl:variable name="witnessName" select="."/>
+
+                  <!-- Known Affiliations of the Editors -->
+                  <!-- TODO: move to a designated place -->
+                  <xsl:variable name="witnessAffiliation">
+                    <xsl:value-of select="''"/>
+                    <xsl:if test="$witnessName = 'Leah Knight'">
+                      <xsl:value-of select="'Brock University'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Wendy Wall'">
+                      <xsl:value-of select="'Northwestern University'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
+                      <xsl:value-of select="'Ohio State University'"/>
+                    </xsl:if>
+                  </xsl:variable>
+                  <xsl:variable name="witnessExternalURL">
+                    <xsl:value-of select="''"/>
+                    <xsl:if test="$witnessName = 'Leah Knight'">
+                      <xsl:value-of select="'https://brocku.ca/humanities/english-language-and-literature/faculty/leah-knight'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Wendy Wall'">
+                      <xsl:value-of select="'https://www.english.northwestern.edu/people/faculty/wall-wendy.html'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
+                      <xsl:value-of select="'https://english.osu.edu/people/kolkovich.1'"/>
+                    </xsl:if>
+                  </xsl:variable>
+
+                  <li class="witness">
+                    <xsl:element name="a">
+                      <xsl:attribute name="target">
+                        <xsl:value-of select="'_blank'"/>
+                      </xsl:attribute>
+
+                      <xsl:if test="$witnessExternalURL != ''">
+                        <xsl:attribute name="href">
+                          <xsl:value-of select="$witnessExternalURL"/>
+                        </xsl:attribute>
+                      </xsl:if>
+
+                      <xsl:element name="span">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'who'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="$witnessName"/>
+                      </xsl:element>
+
+                      <xsl:if test="$witnessAffiliation != ''">
+                        <xsl:element name="span">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'aff'"/>
+                          </xsl:attribute>
+                          , <xsl:value-of select="$witnessAffiliation"/>
+                        </xsl:element>
+                      </xsl:if>
+                    </xsl:element>
+                  </li>
+                </xsl:for-each>
+              </ul>
+            </div>
+
           </div>
         </xsl:if>
 
@@ -580,6 +647,40 @@
 
     <xsl:if test="./tei:rdg[@wit=concat('#', $witId)]/tei:note[@type='headnote']">
       <div class="expand-box">
+
+        <div class="witness-box">
+          <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">
+            <span class="by">Edited by</span><xsl:text> </xsl:text><xsl:for-each select="//tei:witness[@xml:id = $amplifiedEditionId]//tei:persName">
+            <xsl:choose>
+              <xsl:when test="not(position() = last())">
+                <xsl:element name="span">
+                  <xsl:attribute name="class">
+                    <xsl:value-of select="'who'"/>
+                  </xsl:attribute>
+                  <xsl:value-of select="."/>
+                </xsl:element>
+                <xsl:text> </xsl:text>
+                <xsl:element name="span">
+                  <xsl:attribute name="class">
+                    <xsl:value-of select="'by'"/>
+                  </xsl:attribute>
+                  <xsl:text>and</xsl:text>
+                </xsl:element>
+                <xsl:text> </xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:element name="span">
+                  <xsl:attribute name="class">
+                    <xsl:value-of select="'who'"/>
+                  </xsl:attribute>
+                  <xsl:value-of select="."/>
+                </xsl:element>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:for-each>
+          </a>
+        </div>
+
         <div class="headnote lato">
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
@@ -660,6 +761,20 @@
       <xsl:attribute name="href">
         <xsl:value-of select="concat('#headnote-fn-', $noteIndex)"/>
       </xsl:attribute>
+      <xsl:apply-templates>
+        <xsl:with-param name="witId" select="$witId"/>
+      </xsl:apply-templates>
+    </xsl:element>
+  </xsl:template>
+
+  <!-- Editorial note footnotes -->
+  <xsl:template match="tei:seg[./tei:note][(ancestor::tei:app[@type='editorialnote'])]">
+    <xsl:param name="witId"/>
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'editorialnote-fna'"/>
+      </xsl:attribute>
+
       <xsl:apply-templates>
         <xsl:with-param name="witId" select="$witId"/>
       </xsl:apply-templates>
