@@ -373,9 +373,9 @@ var PP = (function ($) {
       // Do we know enough to start reading?
       if (isNumber(+pConfig.id) && pConfig.id > 0) {
         var l1 =
-          'Hi! Welcome to Hester Pulter\'s "' +
+          'Hello and welcome to Hester Pulter’s “' +
           pConfig.title +
-          '" (Poem ' +
+          '” (Poem ' +
           pConfig.id +
           ').';
 
