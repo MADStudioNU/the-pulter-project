@@ -1220,7 +1220,7 @@
       </pp:keywords>
     </pp:poem>
     <pp:poem id="27">
-      <pp:title>On the King's Most Excellent Majesty </pp:title>
+      <pp:title>On the King’s Most Excellent Majesty</pp:title>
     </pp:poem>
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
@@ -1234,7 +1234,7 @@
       </pp:editions>
     </pp:poem>
     <pp:poem id="29">
-      <pp:title>My Soul's Sole Desire</pp:title>
+      <pp:title>My Soul’s Sole Desire</pp:title>
       <pp:firstLine>Thou that didst on the chaos move</pp:firstLine>
       <pp:poster/>
       <pp:editions>
@@ -2925,7 +2925,7 @@
       <pp:title>Heliotropians (Emblem 3)</pp:title>
     </pp:poem>
     <pp:poem id="70">
-      <pp:title>Virtue's Duel (Emblem 4)</pp:title>
+      <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
       <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
       <pp:poster/>
       <pp:editions>
@@ -3301,7 +3301,7 @@
         <pp:curation status="on" hash="mowbray-and-bolingbroke">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Mowbray and Bolingbroke</pp:title>
-          <pp:peek>One well-known account of the duel between Mowbray and Bolingbroke appears in Shakespeare's Richard II.</pp:peek>
+          <pp:peek>One well-known account of the duel between Mowbray and Bolingbroke appears in Shakespeare’s Richard II.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="tilt-yards-and-toys">
           <pp:author>Frances E. Dolan</pp:author>
@@ -4258,7 +4258,7 @@
             <div class="explorations-box">
               <div class="explorations">
                 <h2 class="label">Explorations</h2>
-                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don't show again</span></div>
+                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don’t show again</span></div>
                 <ul class="exploration-list">
                   <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
                     <xsl:variable name="status" select="./@status"/>
