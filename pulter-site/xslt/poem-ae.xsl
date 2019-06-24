@@ -1091,9 +1091,11 @@
   <!-- Basic ref -->
   <xsl:template match="tei:ref">
     <a class="link">
-      <xsl:attribute name="href">
-        <xsl:value-of select="@target"/>
-      </xsl:attribute>
+      <xsl:if test="@target">
+        <xsl:attribute name="href">
+          <xsl:value-of select="@target"/>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:if test="@type">
         <xsl:attribute name="class">
           <xsl:value-of select="@type"/>

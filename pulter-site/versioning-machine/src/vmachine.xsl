@@ -2420,9 +2420,11 @@
 
    <xsl:template match="tei:ref">
       <a class="link">
-         <xsl:attribute name="href">
+        <xsl:if test="@target">
+          <xsl:attribute name="href">
             <xsl:value-of select="@target"/>
-         </xsl:attribute>
+          </xsl:attribute>
+        </xsl:if>
          <!-- this seems somewhat invented, conditional setting of html:a@target from interp of tei:ref@type ? -->
          <xsl:if test="@type='new-window-url'">
             <xsl:attribute name="target">
