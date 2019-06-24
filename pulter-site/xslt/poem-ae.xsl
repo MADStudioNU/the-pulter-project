@@ -649,8 +649,31 @@
       <div class="expand-box">
 
         <div class="witness-box">
-          <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">
+          <xsl:element name="a">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'editor-note-trigger sssi-regular'"/>
+            </xsl:attribute>
+
+            <xsl:if test="$editorialNote">
+              <xsl:attribute name="href">
+                <xsl:value-of select="'#'"/>
+              </xsl:attribute>
+              <xsl:attribute name="data-featherlight-close-icon">
+                <xsl:value-of select="''"/>
+              </xsl:attribute>
+              <xsl:attribute name="data-featherlight-other-close">
+                <xsl:value-of select="'.dismiss'"/>
+              </xsl:attribute>
+              <xsl:attribute name="data-featherlight">
+                <xsl:value-of select="'#editorial-note'"/>
+              </xsl:attribute>
+              <xsl:attribute name="data-featherlight-variant">
+                <xsl:value-of select="'editorial-note'"/>
+              </xsl:attribute>
+            </xsl:if>
+
             <span class="by">Edited by</span><xsl:text> </xsl:text><xsl:for-each select="//tei:witness[@xml:id = $amplifiedEditionId]//tei:persName">
+
             <xsl:choose>
               <xsl:when test="not(position() = last())">
                 <xsl:element name="span">
@@ -678,7 +701,7 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:for-each>
-          </a>
+          </xsl:element>
         </div>
 
         <div class="headnote lato">
