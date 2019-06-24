@@ -2653,15 +2653,15 @@
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
       <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Victoria E. Burke</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>body</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
