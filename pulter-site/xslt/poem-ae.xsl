@@ -1099,6 +1099,11 @@
           <xsl:value-of select="@type"/>
         </xsl:attribute>
       </xsl:if>
+      <xsl:if test="@type='new-window-url'">
+        <xsl:attribute name="target">
+          <xsl:text>_blank</xsl:text>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:value-of select="."/>
     </a>
   </xsl:template>
