@@ -3689,7 +3689,7 @@
       </pp:curations>
     </pp:poem>
     <pp:poem id="106">
-      <pp:title>This Ostrich (Emblem 41)</pp:title>
+      <pp:title>The Ostrich (Emblem 41)</pp:title>
     </pp:poem>
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
