@@ -431,7 +431,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>Sarah C.E. Ross</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:curations>

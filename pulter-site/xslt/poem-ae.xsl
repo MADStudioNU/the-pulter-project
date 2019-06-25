@@ -485,6 +485,15 @@
                     <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
                       <xsl:value-of select="'Ohio State University'"/>
                     </xsl:if>
+                    <xsl:if test="$witnessName = 'Victoria E. Burke'">
+                      <xsl:value-of select="'University of Ottawa'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Frances E. Dolan'">
+                      <xsl:value-of select="'University of California at Davis'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Sarah C. E. Ross'">
+                      <xsl:value-of select="'Victoria University of Wellington'"/>
+                    </xsl:if>
                   </xsl:variable>
                   <xsl:variable name="witnessExternalURL">
                     <xsl:value-of select="''"/>
@@ -496,6 +505,15 @@
                     </xsl:if>
                     <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
                       <xsl:value-of select="'https://english.osu.edu/people/kolkovich.1'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Victoria E. Burke'">
+                      <xsl:value-of select="'https://uniweb.uottawa.ca/?lang=en#/members/571'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Frances E. Dolan'">
+                      <xsl:value-of select="'https://english.ucdavis.edu/people/fdolan'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Sarah C. E. Ross'">
+                      <xsl:value-of select="'https://www.victoria.ac.nz/seftms/about/staff/sarah-ross'"/>
                     </xsl:if>
                   </xsl:variable>
 
