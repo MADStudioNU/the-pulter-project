@@ -194,7 +194,6 @@
       <meta property="og:image" content="https://pulterproject.northwestern.edu/images/headnote-posters/h{$poemID}og.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@pulterproject" />
-      <meta property="og:image" content="/images/headnote-posters/h{$poemID}og.jpg" />
       <title>
         <xsl:value-of select="concat(
                     $fullTitle,
