@@ -26,7 +26,11 @@ pulter-site/sitemap.xml
 
 # Image assets
 pulter-site/images/facs
-pulter-site/images/headnote-posters
+#pulter-site/images/headnote-posters
 
 # Compiled stylesheet
 pulter-site/styles/styles.css
+
+# Compiled indices
+/pulter-site/index.html
+/pulter-site/pulter-manifest.json
