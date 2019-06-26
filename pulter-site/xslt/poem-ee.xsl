@@ -123,7 +123,7 @@
       <xsl:call-template name="htmlHead"/>
       <body>
         <xsl:attribute name="class">
-          <xsl:value-of select="'pp ee single-poem'"/>
+          <xsl:value-of select="concat('pp ee single-poem poem-', $poemID)"/>
         </xsl:attribute>
 
         <xsl:call-template name="mainContainer"/>

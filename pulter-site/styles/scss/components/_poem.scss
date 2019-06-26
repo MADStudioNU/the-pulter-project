@@ -352,10 +352,6 @@ $globalBorderRadius: 2px;
           font-style: italic;
           font-size: ms(-1);
           margin-bottom: 1em;
-
-          @include breakpoint(mobile) {
-            font-size: .85em;
-          }
         }
 
         h1 {
@@ -1600,10 +1596,6 @@ $defaultStrokeWidth: 6px;
   a.pp-poem-ref { color: #080808; }
 }
 
-// Edition-specific
-//.pp.single-poem.ee {}
-//.pp.single-poem.ae {}
-
 .poem-notes {
   display: none;
 }
@@ -1906,6 +1898,9 @@ $defaultStrokeWidth: 6px;
     }
   }
 }
+
+/* Poem/edition specific styles */
+@import "specifics";
 
 /* Contextual Material */
 @import "curations-explorations";

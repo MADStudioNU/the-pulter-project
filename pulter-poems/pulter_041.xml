@@ -134,6 +134,11 @@
     </front>
 
     <body>
+      <app>
+        <rdg wit="#ft"><pb ed="#ft" facs="#f7610_122" n="59v"/></rdg>
+        <rdg wit="#ee"><pb ed="#ee" facs="#f7610_122"/></rdg>
+        <rdg wit="#ae"><pb ed="#ae" facs="#f7610_122"/></rdg>
+      </app>
       <head>
         <app type="title">
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The invocation of the Elements the longest Night in the Year 1655</rdg>
@@ -163,41 +168,42 @@
       <l n="1">
         <app>
             <rdg wit="#ft">Have Patience my aflicted Soul,</rdg>
-            <rdg wit="#ee">Have patience, my afflicted soul:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Have patience, my afflicted soul:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Thou Shalt not Long in Darknes Rowl.</rdg>
-          <rdg wit="#ee">Thou shalt not long in darkness <seg>roll<note type="gloss">revolve; proceed; wander; be enveloped</note></seg>.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Thou shalt not long in darkness <seg>roll<note type="gloss">revolve; proceed; wander; be enveloped</note></seg>.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">I will the Elements implore,</rdg>
-            <rdg wit="#ee">I will the elements implore;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">I will the elements implore;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Then Shall I Need to beg noe More,</rdg>
-            <rdg wit="#ee">Then shall I need to beg no more</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Then shall I need to beg no more</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">To come unto my last best feast,</rdg>
-            <rdg wit="#ee">To come unto my last, best feast:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">To come unto my last, best feast:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
         <app>
             <rdg wit="#ee">
-                <lb ed="#ee"/></rdg>
+              <milestone unit="poem-section" rend="stanza-whitespace"/>
+            </rdg>
         </app>
         <app>
             <rdg wit="#ft"><milestone unit="poem-section" n="Water" rend="left-gutter"/></rdg>
@@ -206,105 +212,105 @@
       <l n="6">
         <app>
           <rdg wit="#ft"><seg>The<note type="physical">in left margin: “Water”</note></seg> Lymped Lady’es my <seg>first<note type="physical">“r” appears written over earlier letter, possibly “e”</note></seg> guest,</rdg>
-          <rdg wit="#ee">The <seg>limpid<note type="gloss">transparent</note></seg> lady’s my first guest;</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">The <seg>limpid<note type="gloss">transparent</note></seg> lady’s my first guest;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Cool Cristall Water take thy part,</rdg>
-          <rdg wit="#ee">Cool crystal Water, take <seg>thy part<note type="critical">This refers to water’s serving of the speaker’s “feast,” which is a figure for her body.</note></seg>:</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Cool crystal Water, take <seg>thy part<note type="critical">This refers to water’s serving of the speaker’s “feast,” which is a figure for her body.</note></seg>:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">&ff;irst that which Circles my Sad Heart.</rdg>
-            <rdg wit="#ee">First, that which circles my sad heart;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">First, that which circles my sad heart;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Or if my Tears will Satisfie,</rdg>
-            <rdg wit="#ee">Or, if my tears will satisfy,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Or, if my tears will satisfy,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">To tears Il’e quickly Rariefie,</rdg>
-          <rdg wit="#ee">To tears I’ll quickly <seg>rarefy<note type="gloss">dissipate</note></seg>.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">To tears I’ll quickly <seg>rarefy<note type="gloss">dissipate</note></seg>.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="11">
         <app>
           <rdg wit="#ft">Number them not, <seg><del>but</del><note type="physical">struck-through with multiple horizontal lines</note></seg> count <seg><del>each</del><note type="physical">struck-through with multiple horizontal lines</note></seg> Sand or Star,</rdg>
-            <rdg wit="#ee">Number them not; count sand or star–</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Number them not; count sand or star—</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">You’l Sooner Number them by farr,</rdg>
-            <rdg wit="#ee">You’ll sooner number them by far.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">You’ll sooner number them by far.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Oh that they had bin Shed for Sin,</rdg>
-            <rdg wit="#ee">O, that they had been shed for sin,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">O, that they had been shed for sin,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="14">
         <app>
           <rdg wit="#ft">Then they in <seg>heaven<note type="physical">“a” written over other letter</note></seg> had botle’d bin,</rdg>
-            <rdg wit="#ee">Then they in Heaven had bottled been!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Then they in Heaven had bottled been!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Why were they Shed? O aſk not why,</rdg>
-            <rdg wit="#ee">Why were they shed? O, ask not why;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Why were they shed? O, ask not why;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">If I repeat my woes, I dye</rdg>
-            <rdg wit="#ee">If I repeat my woes, I die</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">If I repeat my woes, I die</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">A dubble Death, O ask noe more,</rdg>
-            <rdg wit="#ee">A double death; O, ask no more;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">A double death; O, ask no more;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Let mee alone, my loſs deplore.</rdg>
-            <rdg wit="#ee">Let me alone my loss deplore.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Let me alone my loss deplore.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="19">
         <app>
           <rdg wit="#ft">&ff;air Nymph thoust <seg>oft<note type="physical">“t” possibly added later</note></seg> Quencht thirst in mee</rdg>
-          <rdg wit="#ee">Fair nymph, <seg>thou’st<note type="gloss">thou hast</note></seg> oft quenched thirst in me:	</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Fair nymph, <seg>thou’st<note type="gloss">thou hast</note></seg> oft quenched thirst in me:	</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Retaliate and drink up mee</rdg>
-            <rdg wit="#ee">Retaliate and drink up me!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Retaliate and drink up me!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -322,56 +328,56 @@
       <l n="21">
         <app>
             <rdg wit="#ft">Seaven Lovly Buds thou hast drawn dry,</rdg>
-          <rdg wit="#ee"><seg>Seven lovely buds thou hast drawn dry:<note type="gloss">The “buds” stand for seven of Pulter’s children who died.</note></seg></rdg>
+          <rdg wit="#ee" rend="left-gutter-1"><seg>Seven lovely buds thou hast drawn dry:<note type="gloss">The “buds” stand for seven of Pulter’s children who died.</note></seg></rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Oh Spare the Rest, or elce I dye,</rdg>
-            <rdg wit="#ee">O, spare the rest, or else I die</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">O, spare the rest, or else I die</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">A treble Death, O heare mee Speake,</rdg>
-            <rdg wit="#ee">A treble death. O hear me speak!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">A treble death. O hear me speak!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Let not my heart Soe often breake</rdg>
-            <rdg wit="#ee">Let not my heart so often break,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Let not my heart so often break,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">But Let Death Strike mee once for all,</rdg>
-            <rdg wit="#ee">But let Death strike me once for all;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">But let Death strike me once for all;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">A little blow will make mee &ff;all.</rdg>
-            <rdg wit="#ee">A little blow will make me fall.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">A little blow will make me fall.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Thou didst a whole World once involve</rdg>
-          <rdg wit="#ee"><seg>Thou didst a whole world once involve;<note type="gloss">allusion to the biblical flood; see Genesis 7.</note></seg></rdg>
+          <rdg wit="#ee" rend="left-gutter-1"><seg>Thou didst a whole world once involve;<note type="gloss">allusion to the biblical flood; see Genesis 7.</note></seg></rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Then let mee into thee diſsolve</rdg>
-            <rdg wit="#ee">Then let me into thee dissolve!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Then let me into thee dissolve!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -380,7 +386,7 @@
                 <lb ed="#ft"/>
             </rdg>
             <rdg wit="#ee">
-                <lb ed="#ee"/>
+                <milestone unit="poem-section" rend="stanza-whitespace"/>
             </rdg>
         </app>
         <app>
@@ -391,70 +397,70 @@
       <l n="29">
         <app>
           <rdg wit="#ft"><seg>Sweet<note type="physical">in left margin: “Ayr”</note></seg> Ayr, Refreſher of Mankind,</rdg>
-            <rdg wit="#ee">Sweet Air, refresher of mankind,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Sweet Air, refresher of mankind,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Let mee at last thy &ff;avour &ff;ind,</rdg>
-          <rdg wit="#ee">Let me at last thy <seg>flavor<note type="gloss">possibly figurative, as in the “fragrance” of renown; esteem, reputation; or, as in “savor,” delight, or pleasing quality</note></seg> find:</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Let me at last thy <seg>flavor<note type="gloss">possibly figurative, as in the “fragrance” of renown; esteem, reputation; or, as in “savor,” delight, or pleasing quality</note></seg> find:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Doe but exhast a little vapour,</rdg>
-          <rdg wit="#ee">Do but <seg>exhaust<note type="gloss">drain; suck up</note></seg> a little vapor,</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Do but <seg>exhaust<note type="gloss">drain; suck up</note></seg> a little vapor,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">Thoul’t quickly blow out my lifs tapour,</rdg>
-          <rdg wit="#ee"><seg>Thou’lt<note type="gloss">Thou wilt</note></seg> quickly blow out my life’s taper.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1"><seg>Thou’lt<note type="gloss">Thou wilt</note></seg> quickly blow out my life’s taper.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="33">
         <app>
           <rdg wit="#ft">T’will bee my last request <seg>to<note type="physical">appears written over imperfectly erased “of”</note></seg> thee</rdg>
-            <rdg wit="#ee">’Twill be my last request to thee;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">’Twill be my last request to thee;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Thourt free to all, bee Soe to mee,</rdg>
-            <rdg wit="#ee">Thou’rt free to all–be so to me!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Thou’rt free to all–be so to me!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">I oft have made thee Such a feast</rdg>
-            <rdg wit="#ee">I oft have made thee such a feast</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">I oft have made thee such a feast</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">That all the Odours, of the east</rdg>
-            <rdg wit="#ee">That all the odors of the east</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">That all the odors of the east</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="37">
         <app>
             <rdg wit="#ft">Could not with their Sweet Breath compare,</rdg>
-            <rdg wit="#ee">Could not with their sweet breath compare,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Could not with their sweet breath compare,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">Bloſſoms Soe Lovly Young and Rare,</rdg>
-            <rdg wit="#ee">Blossoms so lovely, young, and rare:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Blossoms so lovely, young, and rare:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -477,56 +483,56 @@
       <l n="39">
         <app>
             <rdg wit="#ft">The Woodbine, er’e Aurora doth Ariſe,</rdg>
-          <rdg wit="#ee">The woodbine, <seg>ere<note type="gloss">before</note></seg> <seg>Aurora<note type="gloss">goddess of dawn</note></seg> doth arise,</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">The woodbine, <seg>ere<note type="gloss">before</note></seg> <seg>Aurora<note type="gloss">goddess of dawn</note></seg> doth arise,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="40">
         <app>
             <rdg wit="#ft">The July &ff;lower before the Shadow &ff;lyes,</rdg>
-          <rdg wit="#ee">The <seg>gillyflower<note type="gloss">carnation</note></seg> before the shadow flies,</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">The <seg>gillyflower<note type="gloss">carnation</note></seg> before the shadow flies,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="41">
         <app>
           <rdg wit="#ft">The dewey Vi’let <seg>or<del>e</del><note type="physical">final “e” erased</note></seg> the halfe blown Roſe</rdg>
-          <rdg wit="#ee">The dewy violet, or the <seg>half-blown<note type="gloss">half-blossomed</note></seg> rose.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">The dewy violet, or the <seg>half-blown<note type="gloss">half-blossomed</note></seg> rose.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="42">
         <app>
             <rdg wit="#ft">Oh Say noe More–my grief or’e &ff;lowes</rdg>
-            <rdg wit="#ee">O say no more! My grief o’erflows;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">O say no more! My grief o’erflows;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="43">
         <app>
             <rdg wit="#ft">I into teares am Rarified,</rdg>
-          <rdg wit="#ee">I into tears am <seg>rarefied<note type="gloss">dissipated</note></seg>,</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">I into tears am <seg>rarefied<note type="gloss">dissipated</note></seg>,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="44">
         <app>
             <rdg wit="#ft">And thou thy part will bee denied</rdg>
-          <rdg wit="#ee"><seg>And thou thy part will be denied.<note type="gloss">The speaker implies she will dissolve wholly into watery tears, and thus deny Air any “part” in the feast of her body.</note></seg></rdg>
+          <rdg wit="#ee" rend="left-gutter-1"><seg>And thou thy part will be denied.<note type="gloss">The speaker implies she will dissolve wholly into watery tears, and thus deny Air any “part” in the feast of her body.</note></seg></rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="45">
         <app>
             <rdg wit="#ft">Oh take this Sigh then for thy part,</rdg>
-            <rdg wit="#ee">O take this sigh, then, for thy part,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">O take this sigh, then, for thy part,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="46">
         <app>
           <rdg wit="#ft">&ff;or Such another breaks my <seg>Heart<note type="physical">remaining half-page blank</note></seg>.</rdg>
-            <rdg wit="#ee">For such another breaks my heart.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">For such another breaks my heart.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -543,7 +549,7 @@
         </app>
         <app>
             <rdg wit="#ee">
-                <lb ed="#ee"/>
+                <milestone unit="poem-section" rend="stanza-whitespace"/>
             </rdg>
         </app>
         <app>
@@ -554,154 +560,154 @@
       <l n="47">
         <app>
           <rdg wit="#ft"><seg>Most<note type="physical">in left margin: “&ff;ier”</note></seg> Noble and Illustrious &ff;ier</rdg>
-            <rdg wit="#ee">Most noble and illustrious fire,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Most noble and illustrious fire,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="48">
         <app>
             <rdg wit="#ft">Whom (though I know not) I admire</rdg>
-            <rdg wit="#ee">Whom (though I know not) I admire:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Whom (though I know not) I admire:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="49">
         <app>
           <rdg wit="#ft">If Such an <seg>Ellement<note type="physical">first minuscule “e” appears corrected from earlier “i”</note></seg> there bee</rdg>
-            <rdg wit="#ee">If such an element there be,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">If such an element there be,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="50">
         <app>
           <rdg wit="#ft">My Strange <seg>petition<note type="physical">second “t” may correct other letter, perhaps “c”</note></seg> is to thee</rdg>
-            <rdg wit="#ee">My strange petition is to thee.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">My strange petition is to thee.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="51">
         <app>
             <rdg wit="#ft">Oh hearken to my last deſire</rdg>
-            <rdg wit="#ee">O hearken to my last desire</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">O hearken to my last desire</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="52">
         <app>
             <rdg wit="#ft">And help my Sad Soul to expire</rdg>
-            <rdg wit="#ee">And help my sad soul to expire!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">And help my sad soul to expire!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="53">
         <app>
             <rdg wit="#ft">Contract thy vigour hold thy heat</rdg>
-            <rdg wit="#ee">Contract thy vigor, hold thy heat:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Contract thy vigor, hold thy heat:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="54">
         <app>
             <rdg wit="#ft">Then will my heart forget to beat</rdg>
-            <rdg wit="#ee">Then will my heart forget to beat</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Then will my heart forget to beat</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="55">
         <app>
             <rdg wit="#ft">And trepidate within my Breast</rdg>
-          <rdg wit="#ee">And <seg>trepidate<note type="gloss">tremble</note></seg> within my breast.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">And <seg>trepidate<note type="gloss">tremble</note></seg> within my breast.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="56">
         <app>
             <rdg wit="#ft">O then how Sweet will bee my rest</rdg>
-            <rdg wit="#ee">O, then, how sweet will be my rest;</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">O, then, how sweet will be my rest;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="57">
         <app>
             <rdg wit="#ft">What a Sweet Slumber Shall I take</rdg>
-            <rdg wit="#ee">What a sweet slumber shall I take</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">What a sweet slumber shall I take</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="58">
         <app>
             <rdg wit="#ft">When my Sad Dreams doe mee forſake</rdg>
-            <rdg wit="#ee">When my sad dreams do me forsake</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">When my sad dreams do me forsake</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="59">
         <app>
             <rdg wit="#ft">And ceaſe my aflicted Soul t’afright</rdg>
-            <rdg wit="#ee">And cease my afflicted soul t’affright!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">And cease my afflicted soul t’affright!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="60">
         <app>
             <rdg wit="#ft">Welcome Oh welcome that blesst Night</rdg>
-            <rdg wit="#ee">Welcome, O welcome, that blessed night.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Welcome, O welcome, that blessed night.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="61">
         <app>
             <rdg wit="#ft">Then doe but my Short Breath Exhale</rdg>
-          <rdg wit="#ee">Then do but my short breath <seg>exhale<note type="gloss">draw up</note></seg>,</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Then do but my short breath <seg>exhale<note type="gloss">draw up</note></seg>,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="62">
         <app>
             <rdg wit="#ft">My Structure Straight to dust will fall</rdg>
-          <rdg wit="#ee">My structure straight to <seg>dust<note type="critical">finely disintegrated matter, or original formative physical materials; for the latter, see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> will fall.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">My structure straight to <seg>dust<note type="critical">finely disintegrated matter, or original formative physical materials; for the latter, see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> will fall.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="63">
         <app>
             <rdg wit="#ft">Welcome Oh welcome that blest Night</rdg>
-            <rdg wit="#ee">Welcome, O welcome, that blessed night,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Welcome, O welcome, that blessed night,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="64">
         <app>
             <rdg wit="#ft">Which Ushers in Eternall Light</rdg>
-            <rdg wit="#ee">Which ushers in eternal light!</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Which ushers in eternal light!</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="65">
         <app>
             <rdg wit="#ft">&ff;or what is Death but Cold and Night</rdg>
-            <rdg wit="#ee">For what is death but cold and night,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">For what is death but cold and night,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="66">
         <app>
             <rdg wit="#ft">Life beeing onely Heat and Light</rdg>
-            <rdg wit="#ee">Life being only heat and light?</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Life being only heat and light?</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="67">
         <app>
             <rdg wit="#ft">Then all my Heat to thee Il’e give</rdg>
-            <rdg wit="#ee">Then all my heat to thee I’ll give,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Then all my heat to thee I’ll give,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="68">
         <app>
             <rdg wit="#ft">And though I Die in thee I Live</rdg>
-            <rdg wit="#ee">And though I die, in thee I live.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">And though I die, in thee I live.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -718,8 +724,7 @@
         </app>
         <app>
             <rdg wit="#ee">
-                <lb ed="#ee"/>
-            </rdg>
+              <milestone unit="poem-section" rend="stanza-whitespace"/>            </rdg>
         </app>
         <app>
             <rdg wit="#ft"><milestone unit="poem-section" n="Dust, or Earth" rend="left-gutter"/></rdg>
@@ -729,98 +734,98 @@
       <l n="69">
         <app>
           <rdg wit="#ft"><seg>Dear<note type="physical">in left margin: “Dust, or Earth”; latter two words in different hand from main scribe; first third of page blank</note></seg> Dust from thee I drew my Birth</rdg>
-            <rdg wit="#ee">Dear Dust, from thee I drew my birth:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Dear Dust, from thee I drew my birth:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="70">
         <app>
             <rdg wit="#ft">Then come, and t’is but Earth to Earth</rdg>
-          <rdg wit="#ee">Then come, and ’tis but <seg>earth to earth<note type="critical">a common period phrase alluding to the body’s disintegration at death; see the <title rend="italic">Book of Common Prayer</title> burial service (London, 1549), Ee 4v: “earth to earth, ashes to ashes, dust to dust.”</note></seg>.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Then come, and ’tis but <seg>earth to earth<note type="critical">a common period phrase alluding to the body’s disintegration at death; see the <title rend="italic">Book of Common Prayer</title> burial service (London, 1549), Ee 4v: “earth to earth, ashes to ashes, dust to dust.”</note></seg>.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="71">
         <app>
             <rdg wit="#ft">My lovly Children thou hast taken</rdg>
-            <rdg wit="#ee">My lovely children thou hast taken:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">My lovely children thou hast taken:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="72">
         <app>
             <rdg wit="#ft">Shall their Sad Mother bee forſaken</rdg>
-            <rdg wit="#ee">Shall their sad mother be forsaken?</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Shall their sad mother be forsaken?</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="73">
         <app>
             <rdg wit="#ft">Aye mee thou took’st them<add place="below">^</add><add place="above">young&amp;</add> faire</rdg>
-            <rdg wit="#ee">Ay me, thou took’st them young and fair,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Ay me, thou took’st them young and fair,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="74">
         <app>
             <rdg wit="#ft">And leav’st mee here with Hoarie Haire</rdg>
-          <rdg wit="#ee">And leav’st me here with <seg>hoary<note type="gloss">grey or white</note></seg> hair.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">And leav’st me here with <seg>hoary<note type="gloss">grey or white</note></seg> hair.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="75">
         <app>
             <rdg wit="#ft">They Lovly faire with Snowey Skin</rdg>
-            <rdg wit="#ee">They lovely fair, with snowy skin,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">They lovely fair, with snowy skin,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="76">
         <app>
             <rdg wit="#ft">Did too too Soone thy favour win</rdg>
-            <rdg wit="#ee">Did too, too soon thy favor win.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Did too, too soon thy favor win.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="77">
         <app>
             <rdg wit="#ft">But I involved with Sin and Sorrow</rdg>
-            <rdg wit="#ee">But I, involved with sin and sorrow,</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">But I, involved with sin and sorrow,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="78">
         <app>
             <rdg wit="#ft">Sadly expect thee Night and Morrow</rdg>
-            <rdg wit="#ee">Sadly expect thee night and morrow.</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Sadly expect thee night and morrow.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="79">
         <app>
             <rdg wit="#ft">I ask noe Piramide nor Stately Tomb</rdg>
-            <rdg wit="#ee">I ask no pyramid nor stately tomb:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">I ask no pyramid nor stately tomb:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="80">
         <app>
             <rdg wit="#ft">Doe but involve mee in thy Spacious Womb</rdg>
-          <rdg wit="#ee">Do but <seg>involve<note type="gloss">envelop</note></seg> me in thy spacious womb.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">Do but <seg>involve<note type="gloss">envelop</note></seg> me in thy spacious womb.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="81">
         <app>
             <rdg wit="#ft">To Beg thys once dear Mother give mee leave</rdg>
-            <rdg wit="#ee">To beg this once, dear mother, give me leave:</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">To beg this once, dear mother, give me leave:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="82">
         <app>
             <rdg wit="#ft">Oh let thy Bowels yern and mee receive.</rdg>
-          <rdg wit="#ee">O let thy <seg>bowels<note type="gloss">intestines or the heart or core; also pity, compassion</note></seg> yearn, and me receive.</rdg>
+          <rdg wit="#ee" rend="left-gutter-1">O let thy <seg>bowels<note type="gloss">intestines or the heart or core; also pity, compassion</note></seg> yearn, and me receive.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
