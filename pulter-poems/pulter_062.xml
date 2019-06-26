@@ -238,7 +238,7 @@
       <l n="10">
         <app>
             <rdg wit="#ft">His borrow’d plumes began to ſindge &amp; Fry</rdg>
-            <rdg wit="#ee">His borrowed plumes began to singe and fry:</rdg>
+            <rdg wit="#ee">His borrowed <seg>plumes<note type="gloss">feathers</note></seg> began to singe and fry:</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -287,14 +287,14 @@
       <l n="17">
         <app>
             <rdg wit="#ft">This was the first who had the bold Commiſsion</rdg>
-            <rdg wit="#ee">This was the first who had the bold commission</rdg>
+            <rdg wit="#ee"><seg>This was the first who had the bold commission<note type="gloss">In 1642, Parliament took the bold step of raising its own army, and it appointed Robert Devereux to lead the forces. Pulter conveys the revolutionary nature of this commission by describing its authorization, in the next line, as a “petition” shot from a cannon (rather than a legitimate deliberative charge).</note></seg></rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">from Cannon’s mouth to thunder out <seg>Petition<del>s</del><note type="physical">final “s” imperfeclty erased</note></seg></rdg>
-            <rdg wit="#ee"><seg>From cannon’s mouth to thunder out petition;<note type="gloss">In 1642, Parliament took the bold step of raising its own army, and it appointed Robert Devereux to lead the forces. Pulter conveys the revolutionary nature of this commission by describing its authorization as a “petition” shot from a cannon (rather than a legitimate deliberative charge).</note></seg></rdg>
+            <rdg wit="#ee">From cannon’s mouth to thunder out petition;</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -315,7 +315,7 @@
       <l n="21">
         <app>
             <rdg wit="#ft">Yett hee that ne’re gain’d Honour here on Earth</rdg>
-            <rdg wit="#ee">Yet <seg>he<note type="gloss">Essex</note></seg> that ne’er gained honor here on Earth,</rdg>
+            <rdg wit="#ee"><seg>Yet he that ne’er gained honor here on Earth,<note type="gloss">Essex did not receive public recognition until after his death, when he was monumentalized with a great show of mourning at Westminster Abbey, as the next three lines indicate.</note></seg></rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -336,7 +336,7 @@
       <l n="24">
         <app>
             <rdg wit="#ft">his horned Image they to th’ Temple bring</rdg>
-            <rdg wit="#ee"><seg>His hornéd image they to the temple bring.<note type="gloss">Essex had not received public recognition until after his death, when he was monumentalized with a great show of mourning at Westminster Abbey.</note></seg></rdg>
+            <rdg wit="#ee">His hornéd image they to the temple bring.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>
@@ -409,7 +409,7 @@
       </l>
         <app>
             <rdg type="milestone" wit="#ft">
-                <milestone unit="poem" rend="curled-line"/>
+                <milestone unit="poem" rend="curline-right"/>
             </rdg>
         </app>
     </body>
