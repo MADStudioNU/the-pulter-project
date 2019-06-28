@@ -170,13 +170,16 @@
         @include breakpoint(mobile) { width: 100%; }
 
         .note-box {
-          padding: .75em 0;
-
           &:not(:last-child) {
             margin-bottom: .25em;
           }
+        }
 
-          &.labeled {
+        // Show labels for multi-part notes
+        &.multi {
+          .note-box {
+            padding: .75em 0;
+
             &::before {
               display: block;
               font-size: .66em;
