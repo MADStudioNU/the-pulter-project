@@ -52,6 +52,16 @@
         font-family: $pp_curatorialFont;
         color: rgba(darken($pp_manuscriptInk, 8%), .9);
 
+        .note-box {
+          &.original {
+            font-family: $pp_poetryFont;
+
+            &::before {
+              font-family: $pp_curatorialFont;
+            }
+          }
+        }
+
         p {
           &:not(:last-child) {
             margin: 1.5em 0;
@@ -180,6 +190,14 @@
           .note-box {
             padding: .75em 0;
 
+            &:first-child {
+              padding-top: 0;
+            }
+
+            &:last-child {
+              padding-bottom: 0;
+            }
+
             &::before {
               display: block;
               font-size: .66em;
@@ -200,6 +218,13 @@
 
             &.textual::before {
               content: 'Textual note';
+            }
+
+            &.original {
+              &::before {
+                font-family: $pp_curatorialFont;
+                content: 'Original gloss note';
+              }
             }
           }
         }
