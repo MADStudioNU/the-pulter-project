@@ -1,0 +1,58 @@
+.pp.single-poem {
+
+  // Poem 2
+  // Note labels in AE
+  &.poem-2.ae {
+    .featherlight .featherlight-content .content .note-box {
+      &::before {
+        display: block;
+        font-size: .66em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        opacity: .66;
+        margin-bottom: .75em;
+        color: $pp_manuscriptInk;
+      }
+
+      &.gloss::before {
+        content: 'Gloss note';
+      }
+
+      &.critical::before {
+        content: 'Critical note';
+      }
+
+      &.textual::before {
+        content: 'Textual note';
+      }
+
+      &.original::before {
+        content: 'Original gloss note';
+      }
+    }
+  }
+
+  // Poem 41
+  // Custom milestones in EE
+  &.poem-41 {
+    .poem main {
+      .milestone.left-gutter {
+        text-align: right;
+        max-width: 4em;
+        margin-left: -2.75em;
+        font-size: .8em;
+        position: relative;
+        bottom: -.15em;
+
+        @include breakpoint(mobile) {
+          height: auto;
+          margin-bottom: .5em;
+          font-size: 1em;
+          margin-left: 0;
+          text-align: left;
+          max-width: none;
+        }
+      }
+    }
+  }
+}

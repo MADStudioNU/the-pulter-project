@@ -116,7 +116,7 @@
   </teiHeader>
   <facsimile>
     <!-- List of all images associated with this document -->
-      <graphic url="./document_images/7610_179.jpg" xml:id="f7610_179"/>
+    <graphic url="./document_images/7610_179.jpg" xml:id="f7610_179"/>
   </facsimile>
   <text>
     <front>
@@ -124,17 +124,17 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-          <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Scott-Baumann</persName>.</witness>
+          <witness xml:id="ae">Amplified edition A: By <persName>Elizabeth Scott-Baumann</persName>.</witness>
+          <witness xml:id="a2">Amplified edition B: By <persName>Liza Blake</persName>.</witness>
         </listWit>
       </div>
     </front>
-
+    
     <body>
-
-      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      
       <app>
         <rdg wit="#ft">
-          <pb ed="#ft" facs="#f7610_179" n="0r"/>
+          <pb ed="#ft" facs="#f7610_179" n="88r"/>
         </rdg>
         <rdg wit="#ee">
           <pb ed="#ee" facs="#f7610_179"/>
@@ -142,16 +142,20 @@
         <rdg wit="#ae">
           <pb ed="#ae" facs="#f7610_179"/>
         </rdg>
+        <rdg wit="#a2">
+          <pb ed="#a2" facs="#f7610_179"/>
+        </rdg>
       </app>
-
+      
       <head>
         <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">165</fw><seg>The Hope<note type="physical">poem in H2</note></seg><lb/>
-                January   : 1665 :</rdg>
-            <rdg wit="#ee"><seg>The Hope<note type="physical">This poem is in a different hand from that of the main scribe, probably Pulter’s. Below the title is the date “January, 1665” also in Pulter’s hand.</note></seg></rdg>
-            <rdg wit="#ae"><seg>The Hope<note type="critical">In both this poem’s title reference to ‘The Hope’ and its narrative of reduction to dust, Pulter may allude to the <hi rend="italic">Book of Common Prayer</hi> (which laid out the forms of worship for the post-Reformation church in England) and especially its burial service: “Forasmuch it hath pleased Almighty God of his great mercy to take unto himself the soul of our dear brother here departed: we therefore commit his body to the ground; earth to earth, ashes to ashes, dust to dust; in sure and certain hope of the Resurrection to eternal life, through our Lord Jesus Christ; who shall change our vile body, that it may be like unto his glorious body, according to the mighty working, whereby he is able to subdue all things to himself.” (See ‘Dust in ‘The Order for The Burial of the Dead’ in Curations for this poem.)</note></seg>
-                January 1665
-            </rdg>
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">165</fw><seg>The Hope<note type="physical">poem in H2</note></seg><lb/>
+            January   : 1665 :</rdg>
+          <rdg wit="#ee"><seg>The Hope<note type="physical">This poem is in a different hand from that of the main scribe, probably Pulter’s. Below the title is the date “January, 1665” also in Pulter’s hand.</note></seg></rdg>
+          <rdg wit="#ae"><seg>The Hope<note type="critical">In both this poem’s title reference to ‘The Hope’ and its narrative of reduction to dust, Pulter may allude to the <hi rend="italic">Book of Common Prayer</hi> (which laid out the forms of worship for the post-Reformation church in England) and especially its burial service: “Forasmuch it hath pleased Almighty God of his great mercy to take unto himself the soul of our dear brother here departed: we therefore commit his body to the ground; earth to earth, ashes to ashes, dust to dust; in sure and certain hope of the Resurrection to eternal life, through our Lord Jesus Christ; who shall change our vile body, that it may be like unto his glorious body, according to the mighty working, whereby he is able to subdue all things to himself.” (See ‘Dust in ‘The Order for The Burial of the Dead’ in Curations for this poem.)</note></seg>
+            January 1665
+          </rdg>
+          <rdg wit="#a2">The Hope. January 1665.</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -160,123 +164,310 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-              <note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note>
+            <note type="editorialnote">With an undergraduate and graduate student audience in mind, this poem has been modernised in spelling and punctuation. Where modernisation would affect form, priority has been given to the integrity of the poem’s formal features (so, for instance, verb endings -est and -eth have been retained unmodernised; where the meter requires it, the verb ending -ed is accented, e.g., “Then shall thy blessèd influence”). Nouns have been capitalized only when there is clear personification. The notes provide information essential to understanding the poem, while the Headnote aims to stimulate readers’ own interpretations through suggesting literary or historical contexts, possible influences, comparable poems (by Pulter and by her predecessors and peers) and relevant critical arguments.</note>
           </rdg>
+          <rdg wit="#a2"><note type="editorialnote">Please see headnote.</note></rdg>
         </app>
         <app type="headnote">
           <rdg wit="#ee"><note type="headnote">“I have been half in love with easeful Death,” wrote Keats; “Call’d him soft names in many a mused rhyme, / To take into the air my quiet breath.” Pulter does as much in this poem, which begins like a love letter to Death. Its writer promises to throw herself into Death’s arms and let it use her body as it desires—if Death would only come. But the morbid seduction of the opening couplets soon shifts, as often in Pulter’s verse, to a fascinated meditation on the material reconfigurations which might follow our earthly life. Vital salt, vapor, atoms, and world-annihilating fire are all quickly canvassed as mere stages in a larger cosmological revolution directed by the only figure who upstages Death in Pulter’s <hi rend="italic">dramatis personae</hi>: the God who, she confidently predicts, shall turn the world upside-down by atomizing Death and returning her to life. The poem’s dramatic forward thrust through a single protracted sentence—driven by nearly breathless anaphoric hypotaxis, projecting us into an imagined future (“And then,” “Then,” “Nay, when,” “And when,” “And all,” “And even”)—is brought up short by a full stop and final confession: the speaker has no idea how what she envisions can actually come to be.
           </note></rdg>
           <rdg wit="#ae">
-              <note type="headnote">From its opening, “Dear Death … I’ll throw myself into thy arms”, this poem evokes the panache and paradox of John Donne’s ’Holy Sonnets’ (See ‘Dear Death’ in Curations for this poem). In his poem “Batter my heart”, Donne deploys similar erotic metaphors of embrace, while his ‘Death, be not proud’ addresses Death directly as Pulter does here  (See also Pulter’s poem <ref type="pp-poem-ref" corresp="19">The Welcome</ref> which opens “Dear death thou’rt welcome…”). Pulter’s characteristic approach, though, is to infuse this daring address to death with another register of imagery, that of alchemy: God breaks down and builds up the speaker not through ravishment, as with Donne, but through chemical transformation. In the original manuscript, this poem’s only full stop is halfway through the final line. This provides a sense of completion after the uplifting hope that God “Will raise me unto life”. Yet this hope is undercut by several other formal features: with fifteen lines, she extends beyond sonnet length; using a triplet after six couplets, she creates the anticipation of a further line which is not fulfilled; after the full stop in line 15 she creates abrupt uncertainty with the half line “I know not how”, a thought left hanging. The poem’s form questions its promised “hope”. (See Alice Eardley, ‘“I haue not time to point yr booke … which I desire you yourselfe to doe”: Editing the Form of Early Modern Manuscript Verse’ in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Elizabeth Scott-Baumann and Ben Burton [Oxford: Oxford University Press, 2014], pp. 162-78).</note>
+            <note type="headnote">From its opening, “Dear Death … I’ll throw myself into thy arms”, this poem evokes the panache and paradox of John Donne’s ’Holy Sonnets’ (See ‘Dear Death’ in Curations for this poem). In his poem “Batter my heart”, Donne deploys similar erotic metaphors of embrace, while his ‘Death, be not proud’ addresses Death directly as Pulter does here  (See also Pulter’s poem <ref type="pp-poem-ref" corresp="19">The Welcome</ref> which opens “Dear death thou’rt welcome…”). Pulter’s characteristic approach, though, is to infuse this daring address to death with another register of imagery, that of alchemy: God breaks down and builds up the speaker not through ravishment, as with Donne, but through chemical transformation. In the original manuscript, this poem’s only full stop is halfway through the final line. This provides a sense of completion after the uplifting hope that God “Will raise me unto life”. Yet this hope is undercut by several other formal features: with fifteen lines, she extends beyond sonnet length; using a triplet after six couplets, she creates the anticipation of a further line which is not fulfilled; after the full stop in line 15 she creates abrupt uncertainty with the half line “I know not how”, a thought left hanging. The poem’s form questions its promised “hope”. (See Alice Eardley, ‘“I haue not time to point yr booke … which I desire you yourselfe to doe”: Editing the Form of Early Modern Manuscript Verse’ in <bibl><title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Elizabeth Scott-Baumann and Ben Burton [Oxford: Oxford University Press, 2014], pp. 162-78)</bibl>.</note>
           </rdg>
+          <rdg wit="#a2"><note type="headnote">
+            <p>How hopeful is “The Hope”? Or rather, for what is it hopeful? The obvious answer would be that, as a citation of <bibl><title rend="italic">The booke of the common prayer</title></bibl>,<seg>1<note type="critical">See Elizabeth Scott-Baumann’s curation for this poem, <ref type="pp-curations-ref" target="#ctxs">“Dust,”</ref> and her note on the title in A065a (Hester Pulter, <bibl>“The Hope. January 1665” [A065a], ed. Elizabeth Scott-Baumann, <title rend="italic">The Pulter Project: Poet in the Making</title></bibl>).</note></seg> “The Hope” refers to the “certain hope of resurrection,” the Christian belief that every human body, no matter how dissolved or decayed, would be reformed and reunited with its soul before the Final Judgment. However, the poem also indulges itself in a fantasy of total personal dissolution, on par with the <ref type="pp-poem-ref" corresp="6">Universal Dissolution (Poem 6)</ref> imagined earlier in Pulter’s manuscript, but here writ small into the confines of her body. As the poem progresses, Pulter imagines being dissolved into dust, then broken down into salt (potentially a component of dust), completely annihilated—but then reminds us that God, somehow, will be able to recreate enough matter to resurrect her: “I know not how”. These four words, placed after the poem’s only period, are the crux of the poem. Do they gesture to a boundless faith? (I don’t know the science behind how he’ll do it, but I know he can because “He … hath supported me till now.”) Or do they gesture to a different kind of hope: a hope that maybe her death will not be the seed of a future resurrection, but an end? (“I know now how” he could possibly bring me and my body [see <ref type="pp-poem-ref" corresp="39">The Perfection of Patience and Knowledge (Poem 39)</ref>] back from the complete material dissolution I have just imagined: maybe I can hope that he won’t, that death will actually just be the end.)</p>
+            <p>Moving out to the rest of her corpus only complicates the question of what “The Hope” hopes for. She is a pious poet, and many of her poems share the conviction that God’s “blessèd influence / [will] Triumph o’er Death, her impotence” (<ref type="pp-poem-ref" corresp="20">Dear God, Turn Not Away Thy Face [Poem 20]</ref>, ll. 21–22). However, for every poem that trusts in God, there is a poem that fantasizes about the possible absoluteness of physical dissolution. In <ref type="pp-poem-ref" corresp="1">The Eclipse (Poem 1)</ref> she reminds the Earth of its “irrevocable dissolution / As well as mine” (ll. 22–23), and <ref type="pp-poem-ref" corresp="6">Universal Dissolution (Poem 6)</ref> ends with the following “consoling” advice: “Then my unsettled soul, be more resolved, / Seeing all this universe must be dissolved” (ll. 175–76). In <ref type="pp-poem-ref" corresp="17">The Circle [1] (Poem 17)</ref> she cries, “Then, gracious God, in Thee I’ll trust, / Although Thou crumble me to dust” (ll. 15–16)—given that “although” could mean both “even though” and “supposing that”, is the trust despite God’s crumbling ambitions, or because of them?<ref>2<note type="critical">See the <title rend="italic">Oxford English Dictionary</title>, s.v. “although, conj.,” 1.a. One could accumulate many more examples from Pulter: at times she imagines dust as the end of everything (see <ref type="pp-poem-ref" corresp="21">The Circle [2] (Poem 21)</ref>, ll. 13–14: “So man, the universe’s chiefest glory, / His primitive’s dust (alas) doth end his story”), and at other times she worries at the absolute finality of dust: “Should all annihilated be, / Which is as easy unto thee; / Oh what would then become of me?” (see <ref type="pp-poem-ref" corresp="16">The Revolution (Poem 16)</ref>, ll. 22–24).</note></ref> The impossibility of pinning down “The Hope” is best embodied in the following paradox from her “Universal Dissolution”: “When all’s to chaos turned, there will be peace” (l. 152). My curation for “The Hope,” entitled <ref type="pp-curations-ref" target="ctsx">“Wishing for the End,”</ref> provides other examples of the somewhat unusual desire for absolute and final death, as well as examples of nihilism, in seventeenth-century poetry.</p>
+            <p>Further complicating the poem—or rather, adding to its delicious ambiguity—is its almost complete lack of punctuation in the manuscript. The poem has six punctuation marks in total: two parentheses enclosing a phrase, two commas used to break up a list, one comma used to break up a line, and one period before the final four words (“I know not how”). Alice Eardley has written on the way punctuation works in this poem in particular. (See Scott-Baumann’s curation <ref type="pp-curations-ref" target="#ctxs">“Knowledge, Faith and Doubt”</ref> for an excerpt from Eardley’s essay.) The poem moves from imagining death to imagining increasingly small dissolutions, to the burning even of atoms, to the turn to God’s abilities, in what Eardley refers to as the poem’s “fluidity and gathering momentum,”<ref>3<note type="gloss"><bibl>Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse,” in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), p. 166.</bibl></note></ref> but where one might punctuate the poem to pause that momentum could radically change the message of the poem. Adding a hard stop after line 6, for example, makes a poem unambiguously about the promise of resurrection. With a hard stop (e.g., a semi-colon or period) after line 6, the poem would divide into two parts, each of which would end with resurrective optimism: even after dissolution into dust, the still-more-essential “vital salt” can “be found out” (lines 1–6); even when the world is turned into chaos, God will raise me unto life (lines 7–15). If, on the other hand, one reads the first ten lines as a consecutive accumulation of destruction on increasingly massive scales (where lines 7–8 do not change the subject from line 6, but go on to destroy even the vital salt that has been “found out”), the poem seems to build instead to a darker hope, conjuring image after image of destruction only to end with the (ill-supported) idea that God may, nevertheless, find something to recover.</p>
+            <p>I believe, therefore, that it is impossible for a modern editor to punctuate this poem in a way that preserves the question (What is the hope?) that I take to be constitutive of the poem itself.<seg>4<note type="critical">It is of course impossible to say whether Pulter intended her punctuation (or lack thereof) to function this way; early modern punctuation worked differently than modern punctuation. For an overview of early modern views on punctuation, see <bibl>Alicia Rodríguez-Álvarez, “Teaching Punctuation in Early Modern England,” <title rend="italic">Studia Anglica Posnaniensia</title> 46 (2010): 35–49</bibl>; see also my curation <ref type="pp-curations-ref" target="#ctxs">“Punctuating Poetry.”</ref></note></seg> It is worth noting, in addition, the unique aspects of this poem in the context of the manuscript as a whole. While the majority of the manuscript is written in a neat (and likely professional/secretarial) roundhand, this poem, and a few others, are written in a spiky italic hand that also has made frequent corrections to other poems in the manuscript. Though we don’t know for sure to whom any of the hands belong, most editors assume that the spiky hand that wrote “The Hope. January 1665” (and <ref type="pp-poem-ref" corresp="61">The Weeping Wish [Poem 61]</ref>) is Pulter’s.<seg>5<note type="critical">Stefan Christian in his dissertation edition merely refers to this hand as the second, editorial hand; see Hester Pulter, “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,” ed. Stefan Graham Christian (PhD diss., University of Massachusetts Amherst, 2012), pp. 3–6 for his discussion. Alice Eardley in her edition asserts confidently that the hand is Pulter’s (Hester Pulter, Poems, Emblems, and the Unfortunate Florinda, ed. Alice Eardley [Toronto: Iter, Inc. and the Centre for Renaissance and Reformation Studies, 2014], pp. 32–33, 180 n. 825), while Knight and Wall note that the hand is “probably Pulter’s”; see Hester Pulter, “The Hope” (E065), ed. Leah Knight and Wendy Wall, The Pulter Project: Poet in the Making, note on title.</note></seg> The relative scarcity of punctuation, therefore, may be authorial.</p>
+            <p>In editing the poem, therefore, I have pursued the editorial strategy that, I believe, makes it most possible to experience the poem’s ambiguity to the fullest: I have retained the punctuation of the manuscript (and bolded those marks to call attention to them), but, in the primary edition below, have not added any punctuation of my own on top of that original punctuation. I have also added extra spaces between each of the words; this I do to invite readers, as an exercise, to print (or copy-paste) the poem and attempt to add their own punctuation, as a way of gauging their interpretation of the poem. Below this bare, unpunctuated version, I give two alternate versions where I show the difference punctuation can make: these are entitled “The Hope [for Final Death]” and “The Hope [for Resurrection].” I encourage readers to add their own punctuation before comparing my two versions to their own.</p>
+            <p>In all three versions, I have modernized the text’s spelling and capitalization to concur with the <title rend="italic">Oxford English Dictionary Online</title> headwords, and have expanded poetic abbreviations where such expansions would not affect the meter for a modern reader. Quotations from other Pulter poems are from Wall and Knight’s elemental editions, and are cited by line number. Notes gloss difficult words and sentences and call attention to interesting textual and interpretive ambiguities.</p>
+          </note></rdg>
         </app>
       </head>
-
+      
       <l n="1">
         <app>
-            <rdg wit="#ft">Deare Death deſolve theiſe mortall charms</rdg>
-            <rdg wit="#ee">Dear Death, dissolve these mortal charms,</rdg>
-            <rdg wit="#ae">Dear Death, dissolve these mortal charms</rdg>
+          <rdg wit="#ft">Deare Death deſolve theiſe mortall charms</rdg>
+          <rdg wit="#ee">Dear Death, dissolve these mortal charms,</rdg>
+          <rdg wit="#ae">Dear Death, dissolve these mortal charms</rdg>
+          <rdg wit="#a2">Dear Death <seg>dissolve<note type="gloss">either “disintegrate, decompose”; or, figuratively, “loosen, unfasten, detach, release, set free”</note></seg> these <seg>mortal charms<note type="gloss">either those attractions of my living body; or those magical spells that hold my body together</note></seg></rdg>
         </app>
       </l>
       <l n="2">
         <app>
-            <rdg wit="#ft">And then Ile throw my ſelfe into thy arms</rdg>
-            <rdg wit="#ee">And then I’ll throw myself into thy arms;</rdg>
-            <rdg wit="#ae">And then I’ll throw myself into Thy arms.</rdg>
+          <rdg wit="#ft">And then Ile throw my ſelfe into thy arms</rdg>
+          <rdg wit="#ee">And then I’ll throw myself into thy arms;</rdg>
+          <rdg wit="#ae">And then I’ll throw myself into Thy arms.</rdg>
+          <rdg wit="#a2">And then I’ll throw my self into thy arms</rdg>
         </app>
       </l>
       <l n="3">
         <app>
-            <rdg wit="#ft">Then though mayest uſe my Carkes as thou lust</rdg>
-            <rdg wit="#ee">Then thou may’st use my carcass as thou <seg>lust<note type="gloss">choose; please</note></seg>,</rdg>
-            <rdg wit="#ae">Then Thou may’st use my <seg>carcass<note type="gloss">dead body</note></seg> as Thou lust</rdg>
+          <rdg wit="#ft">Then though mayest uſe my Carkes as thou lust</rdg>
+          <rdg wit="#ee">Then thou may’st use my carcass as thou <seg>lust<note type="gloss">choose; please</note></seg>,</rdg>
+          <rdg wit="#ae">Then Thou may’st use my <seg>carcass<note type="gloss">dead body</note></seg> as Thou lust</rdg>
+          <rdg wit="#a2">Then thou mayest use my carcass <seg>as thou lust<note type="critical">i.e., “as you please” or “as you desire”—the line says: you can do what you like with my body. The word “lust” also potentially adds to the romantic or even erotic image set up by line 2, where she imagines herself throwing herself into Death’s arms.</note></seg></rdg>
         </app>
       </l>
       <l n="4">
         <app>
-            <rdg wit="#ft">Untill my boans (and little Luz) bee dust</rdg>
-            <rdg wit="#ee">Until my bones (and little <seg>luz<note type="critical">also known as the “os sacrum,” or sacred bone: a triangular bone low in the spine; in rabbinical legend, the nucleus of the body at the Resurrection</note></seg>) be <seg>dust<note type="critical">disintegrated matter; also original, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>:</rdg>
-            <rdg wit="#ae">Until my bones (and little <seg>luz<note type="critical">an esoteric term for a tiny spinal bone, originating from the Hebrew word for a nut and thought to be the seed of rebirth at the Day of Judgement. Some writers, like Nicholas Culpeper, dismissed the luz as a “ridiculous fable” (See ‘The “little luz”’ in Curations for this poem).</note></seg>) be dust.</rdg>
+          <rdg wit="#ft">Untill my boans (and little Luz) bee dust</rdg>
+          <rdg wit="#ee">Until my bones (and little <seg>luz<note type="critical">also known as the “os sacrum,” or sacred bone: a triangular bone low in the spine; in rabbinical legend, the nucleus of the body at the Resurrection</note></seg>) be <seg>dust<note type="critical">disintegrated matter; also original, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>:</rdg>
+          <rdg wit="#ae">Until my bones (and little <seg>luz<note type="critical">an esoteric term for a tiny spinal bone, originating from the Hebrew word for a nut and thought to be the seed of rebirth at the Day of Judgement. Some writers, like Nicholas Culpeper, dismissed the luz as a “ridiculous fable” (See ‘The “little luz”’ in Curations for this poem).</note></seg>) be dust.</rdg>
+          <rdg wit="#a2">Until my bones (and little <seg>luz<note type="critical">As other editors have noted, the luz is a small (usually understood as indestructible) bone imagined as the seed of bodily resurrection at the Final Judgment. See, e.g., <bibl>John Gregory, <title rend="italic">Gregorii posthuma, or, Certain learned tracts</title> (London, 1649)</bibl>: “at the last Daie, a kinde of Plastical Dew shall fall down upon the Dead, and ingender with Luz, the little Bone spoken of before: and so out of this, all the rest of our Bones, and the whole Man shall spring forth” (p. 70); see also Elizabeth Scott-Baumann’s curation <ref type="pp-curations-ref" target="#ctxs">“The ‘Little Luz.’”</ref> Emphasizing that even the seed of resurrection is to be turned into dust suggests, perhaps, a hope that nothing will remain to allow for resurrection.</note></seg>) be <seg>dust<note type="critical">“Dust” may refer merely to small particles, or possibly (given lines 9–10) to atoms (the smallest particles of nature, according to atomic philosophy, which was very much in vogue in the mid-seventeenth century); dust was a common synonym for atoms in this period. On the many and complicated meanings of “dust” in the period, see Elizabeth Scott-Baumann’s curation <ref type="pp-curations-ref">“Dust.”</ref></note></seg></rdg>        
         </app>
       </l>
       <l n="5">
         <app>
-            <rdg wit="#ft">Naye when that handfull is blow’n all about</rdg>
-            <rdg wit="#ee">Nay, when that handful is blown all about,</rdg>
-            <rdg wit="#ae">Nay, when that handful is blown all about</rdg>
+          <rdg wit="#ft">Naye when that handfull is blow’n all about</rdg>
+          <rdg wit="#ee">Nay, when that handful is blown all about,</rdg>
+          <rdg wit="#ae">Nay, when that handful is blown all about</rdg>
+          <rdg wit="#a2"><seg>Nay<note type="critical">This “Nay” represents another major crux for potential punctuators; is it an emphatic exclamation as she realizes she hasn’t gone far enough and intends to go still further (no, dust isn’t enough: Death will find and break down that dust into the primary element of salt, smaller even than dust), or is it a cessation of the dissolving chain of thought and a turn to the positive (no, wait—even if I’m dust, God will find out the more fundamental salt)? The passive construction makes the subject of the “finding” impossible to discern.</note></seg> when that handful is blown all about</rdg>
         </app>
       </l>
       <l n="6">
         <app>
-            <rdg wit="#ft">Yett still the vitale ſalt will bee fownd out</rdg>
-            <rdg wit="#ee">Yet still the <seg>vital salt<note type="gloss">The alchemist Paracelsus expanded the Arabic doctrine that two principles, sulfur and mercury, were the roots of all things by adding a third principle, salt.</note></seg> will be found out;</rdg>
-            <rdg wit="#ae">Yet still the <seg>vital salt<note type="critical">salt was one of the three first principles in alchemy, according to Paracelsus, along with mercury and sulphur. Salt represented the body and was found in the ashes (see Lyndy Abraham, <title rend="italic">Dictionary of Alchemical Imagery</title>, Cambridge: CUP, 2001). In Matthew 5.13 of the Bible, man is also described as “the salt of the earth”.</note></seg> will be found out;</rdg>
+          <rdg wit="#ft">Yett still the vitale ſalt will bee fownd out</rdg>
+          <rdg wit="#ee">Yet still the <seg>vital salt<note type="gloss">The alchemist Paracelsus expanded the Arabic doctrine that two principles, sulfur and mercury, were the roots of all things by adding a third principle, salt.</note></seg> will be found out;</rdg>
+          <rdg wit="#ae">Yet still the <seg>vital salt<note type="critical">salt was one of the three first principles in alchemy, according to Paracelsus, along with mercury and sulphur. Salt represented the body and was found in the ashes (see <bibl>Lyndy Abraham, <title rend="italic">Dictionary of Alchemical Imagery</title>, Cambridge: CUP, 2001</bibl>). In Matthew 5.13 of the Bible, man is also described as “the salt of the earth”.</note></seg> will be found out;</rdg>
+          <rdg wit="#a2">Yet still the <seg>vital salt<note type="critical">In Paracelsian philosophy, all objects had three “principles”: sulphur, which made things combustible; salt, which gave things solidity, and mercury, which made things fluid or vaporous (and gave them “virtues, powers and arcana”); see <bibl>Walter Pagel, <title rend="italic">Paracelsus: An Introduction to Philosophical Medicine in the Era of the Renaissance</title>, 2nd, revised ed. (Basel: Karger, 1982), pp. 100–104 (quote from p. 101)</bibl>. Pulter’s “vital salt” would be, therefore, more elemental or primary even than dust.</note></seg> will be found out</rdg>
         </app>
       </l>
       <l n="7">
         <app>
-            <rdg wit="#ft">And when the vapour is breath’d out in Thunder</rdg>
-            <rdg wit="#ee">And <seg>when the vapor is breathed out in thunder<note type="critical">a theory of the source of thunder; see, e.g., “Thunder proceeds from a vapor lifted up from the earth.” Stephen Gosson, <title rend="italic">The Trumpet of War</title> (London, 1598), A3r.</note></seg></rdg>
-            <rdg wit="#ae">And when the vapour is breathed out in thunder</rdg>
+          <rdg wit="#ft">And when the vapour is breath’d out in Thunder</rdg>
+          <rdg wit="#ee">And <seg>when the vapor is breathed out in thunder<note type="critical">a theory of the source of thunder; see, e.g., “Thunder proceeds from a vapor lifted up from the earth.” <bibl>Stephen Gosson, <title rend="italic">The Trumpet of War</title> (London, 1598), A3r</bibl>.</note></seg></rdg>
+          <rdg wit="#ae">And when the vapour is breathed out in thunder</rdg>
+          <rdg wit="#a2">And <seg>when the vapor is breathed out in thunder<note type="critical">Following the invocation of Paracelsian “vital salt,” vapor also conjures the principle of mercury, sometimes associated with the spirit (as salt was associated with the body). In Aristotle’s <title rend="italic">Meterologica</title> II.ix (<bibl>Aristotle, <title rend="italic">Meteorologica</title>, ed. H.D.P. Lee [Cambridge, MA: Harvard University Press, 1952], pp. 223–25</bibl>), he argues that thunder is caused by the forceful exhalation of air from a cloud. The clause “When the vapor is breathed out in thunder” potentially works, therefore, both at the microcosmic level (when the spirit is forced out of the body: a “mortal’s loss, and pain”), or the macrocosmic level (some natural disaster leading to “mortals’ loss, and pain, and wonder”).</note></seg></rdg>
         </app>
       </l>
       <l n="8">
         <app>
-            <rdg wit="#ft">Unto poore Mortalls Loſs, or paine, or wonder</rdg>
-            <rdg wit="#ee">Unto poor mortals’ loss, or pain, or wonder,</rdg>
-            <rdg wit="#ae">Unto poor mortals’ loss, or pain, or wonder,</rdg>
+          <rdg wit="#ft">Unto poore Mortalls Loſs, or paine, or wonder</rdg>
+          <rdg wit="#ee">Unto poor mortals’ loss, or pain, or wonder,</rdg>
+          <rdg wit="#ae">Unto poor mortals’ loss, or pain, or wonder,</rdg>
+          <rdg wit="#a2">Unto poor mortals <seg>loss, or pain, or wonder<note type="critical">The list “loss, or pain, or wonder” is remarkable; if they are exclusive <hi rend="italic">or</hi>s, then the vapor brings either loss, pain, or wonder (but not all of them); if they are inclusive <hi rend="italic">or</hi>s, then “pain” is being used an an appositive redefinition of “loss,” and “wonder” redefines them both. Though the exclusive or seems the more obvious choice, remember that Pulter elsewhere writes in paradox: “When all’s to chaos turned there will be peace” (<ref type="pp-poem-ref" corresp="6">Universal Dissolution</ref>, l. 152).</note></seg></rdg>
         </app>
       </l>
       <l n="9">
         <app>
-            <rdg wit="#ft">And all that is in thee to Atoms turn’d</rdg>
-            <rdg wit="#ee">And all that is in thee to <seg>atoms<note type="gloss">in ancient Greek philosophy and new seventeenth-century science, minute and indivisible particles of which matter is composed</note></seg> turned,</rdg>
-            <rdg wit="#ae">And all that is in Thee to <seg>atoms<note type="gloss">the smallest possible particle of which all matter is made</note></seg> turned</rdg>
+          <rdg wit="#ft">And all that is in thee to Atoms turn’d</rdg>
+          <rdg wit="#ee">And all that is in thee to <seg>atoms<note type="gloss">in ancient Greek philosophy and new seventeenth-century science, minute and indivisible particles of which matter is composed</note></seg> turned,</rdg>
+          <rdg wit="#ae">And all that is in Thee to <seg>atoms<note type="gloss">the smallest possible particle of which all matter is made</note></seg> turned</rdg>
+          <rdg wit="#a2">And all that is in <seg>thee<note type="gloss">She presumably continues to address Death here.</note></seg> to atoms turned</rdg>
         </app>
       </l>
       <l n="10">
         <app>
-            <rdg wit="#ft">And even thoſe Atoms in this Orb is burn’d</rdg>
-            <rdg wit="#ee">And even those atoms in this <seg>orb<note type="gloss">Earth</note></seg> is burned,</rdg>
-            <rdg wit="#ae">And even those atoms in <seg>this orb<note type="gloss">the earth; possibly also the circular vessel used for distillation in alchemy (see ‘Alchemical Circles’ in Curations for Poem 1).</note></seg> is burned,</rdg>
+          <rdg wit="#ft">And even thoſe Atoms in this Orb is burn’d</rdg>
+          <rdg wit="#ee">And even those atoms in this <seg>orb<note type="gloss">Earth</note></seg> is burned,</rdg>
+          <rdg wit="#ae">And even those atoms in <seg>this orb<note type="gloss">the earth; possibly also the circular vessel used for distillation in alchemy (see ‘Alchemical Circles’ in Curations for Poem 1).</note></seg> is burned,</rdg>
+          <rdg wit="#a2">And even those atoms in this orb <seg>is burned<note type="gloss">Lines 9–10 potentially have a textual error, if you understand the verb “is” to modify “atoms.” It can be fixed with punctuation, if you turn “And even those atoms in this orb” to an intensifying interjection, making the subject of the verb the “all” of line 9 (“all that … is turned”). “This orb” is presumably the globe or Earth, but if one is tracing the exchanges between microcosm and macrocosm in the poem it could also possibly refer to the body.</note></seg></rdg>
         </app>
       </l>
       <l n="11">
         <app>
-            <rdg wit="#ft">Yett still that God that can anihillate</rdg>
-            <rdg wit="#ee">Yet still that God that can annihilate</rdg>
-            <rdg wit="#ae">Yet still that God that can annihilate</rdg>
+          <rdg wit="#ft">Yett still that God that can anihillate</rdg>
+          <rdg wit="#ee">Yet still that God that can annihilate</rdg>
+          <rdg wit="#ae">Yet still that God that can annihilate</rdg>
+          <rdg wit="#a2">Yet still that God that can annihilate</rdg>
         </app>
       </l>
       <l n="12">
         <app>
-            <rdg wit="#ft">This all, and itt of nothinge recreate</rdg>
-            <rdg wit="#ee">This all, and it <seg>of nothing recreate<note type="gloss">the idea that the universe was created by God ex nihilo (“from nothing”) was a point of theological doctrine and debate.</note></seg>,</rdg>
-            <rdg wit="#ae">This all, and it of nothing recreate,</rdg>
+          <rdg wit="#ft">This all, and itt of nothinge recreate</rdg>
+          <rdg wit="#ee">This all, and it <seg>of nothing recreate<note type="gloss">the idea that the universe was created by God ex nihilo (“from nothing”) was a point of theological doctrine and debate.</note></seg>,</rdg>
+          <rdg wit="#ae">This all, and it of nothing recreate,</rdg>
+          <rdg wit="#a2">This all, and <seg>it of nothing recreate<note type="critical">One major school of thought, drawing on Genesis 1:1, advocated that God made the universe <foreign rend="italic">ex nihilo</foreign>, or out of nothing. Here, unusually, Pulter pairs the idea that God can create <foreign rend="italic">ex nihilo</foreign> with the reminder that he can also annihilate everything to create that nothingness in the first place.</note></seg></rdg>
         </app>
       </l>
       <l n="13">
         <app>
-            <rdg wit="#ft"><seg>E[<del>e</del>]ven<note type="physical">first “e” blotted out after “E”</note></seg> Hee that hath ſupported mee till now</rdg>
-            <rdg wit="#ee">Even He that hath supported me till now,</rdg>
-            <rdg wit="#ae">Even He that hath supported me till now,</rdg>
+          <rdg wit="#ft"><seg>E[<del>e</del>]ven<note type="physical">first “e” blotted out after “E”</note></seg> Hee that hath ſupported mee till now</rdg>
+          <rdg wit="#ee">Even He that hath supported me till now,</rdg>
+          <rdg wit="#ae">Even He that hath supported me till now,</rdg>
+          <rdg wit="#a2">Even He that hath supported me till now</rdg>
         </app>
       </l>
       <l n="14">
         <app>
-            <rdg wit="#ft">To whom my ſoule doth praye and humbly bow</rdg>
-            <rdg wit="#ee">To whom my soul doth pray and humbly bow,</rdg>
-            <rdg wit="#ae">To whom my soul doth pray and humbly bow,</rdg>
+          <rdg wit="#ft">To whom my ſoule doth praye and humbly bow</rdg>
+          <rdg wit="#ee">To whom my soul doth pray and humbly bow,</rdg>
+          <rdg wit="#ae">To whom my soul doth pray and humbly bow,</rdg>
+          <rdg wit="#a2">To whom my soul doth pray and humbly bow</rdg>
         </app>
       </l>
       <l n="15">
         <app>
-            <rdg wit="#ft">Will raiſe mee unto liffe. I know not <seg>how<note type="physical">remaining third of page blank</note></seg></rdg>
-            <rdg wit="#ee">Will <seg>raise me unto life<note type="gloss">allusion to the process, predicted in biblical book of Revelation, by which souls will be restored to their bodies and raised to heaven at the Resurrection, also known as the second coming of Christ or Final Judgment</note></seg>. I know not how.</rdg>
-            <rdg wit="#ae">Will raise me unto life. I know not how</rdg>
+          <rdg wit="#ft">Will raiſe mee unto liffe. I know not <seg>how<note type="physical">remaining third of page blank</note></seg></rdg>
+          <rdg wit="#ee">Will <seg>raise me unto life<note type="gloss">allusion to the process, predicted in biblical book of Revelation, by which souls will be restored to their bodies and raised to heaven at the Resurrection, also known as the second coming of Christ or Final Judgment</note></seg>. I know not how.</rdg>
+          <rdg wit="#ae">Will raise me unto life. I know not how</rdg>
+          <rdg wit="#a2"><seg>Will raise me unto life<note type="gloss">will resurrect me</note></seg>. I know not how</rdg>
         </app>
       </l>
+      
+      <l n="0">
+        <app>
+          <rdg wit="#a2"><hi rend="bold">The Hope [for Final Death]</hi></rdg>
+        </app>
+      </l>
+      <l n="1">
+        <app>
+          <rdg wit="#a2">Dear Death! Dissolve these mortal charms,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#a2">And then I’ll throw my self into thy arms;</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#a2">Then thou mayest use my carcass, as thou lust,</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#a2">Until my bones (and little luz) be dust:</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#a2">Nay when that handful is blown all about,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#a2">Yet still the vital salt will be found out,</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#a2">And when the vapor is breathed out in thunder,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#a2">Unto poor mortals’ loss, or pain, or wonder,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#a2">And all that is in thee to atoms turned—</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#a2">And even those atoms in this orb—is burned,</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#a2">Yet still that God that can annihilate,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#a2">This all, and it of nothing recreate,</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#a2">Even He, that hath supported me till now,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#a2">To whom my soul doth pray and humbly bow,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#a2">Will raise me unto life. I know not how.</rdg>
+        </app>
+      </l>
+      
+      <l n="0">
+        <app>
+          <rdg wit="#a2"><hi rend="bold">The Hope [for Resurrection]</hi></rdg>
+        </app>
+      </l>
+      <l n="1">
+        <app>
+          <rdg wit="#a2">Dear Death, dissolve these mortal charms,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#a2">And then I’ll throw my self into thy arms,</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#a2">Then thou mayest use my carcass as thou lust,</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#a2">Until my bones (and little luz) be dust—</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#a2">Nay: when that handful is blown all about,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#a2">Yet still the vital salt will be found out.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#a2">And when the vapor is breathed out in thunder</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#a2">Unto poor mortal’s loss, or pain, or wonder,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#a2">And all that is in thee to atoms turned,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#a2">And even those atoms in this orb [are] burned,</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#a2">Yet still that God that can annihilate</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#a2">This all, and it of nothing recreate—</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#a2">Even He that hath supported me till now,</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#a2">To whom my soul doth pray and humbly bow—</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#a2">Will raise me unto life. I know not how.</rdg>
+        </app>
+      </l>
+      
     </body>
   </text>
 </TEI>

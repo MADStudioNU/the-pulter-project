@@ -138,7 +138,7 @@
       <xsl:call-template name="htmlHead"/>
       <body>
         <xsl:attribute name="class">
-          <xsl:value-of select="'pp ae single-poem'"/>
+          <xsl:value-of select="concat('pp ae single-poem poem-', $poemID)"/>
         </xsl:attribute>
 
         <xsl:call-template name="mainContainer"/>
@@ -500,6 +500,9 @@
                     <xsl:if test="$witnessName = 'Elizabeth Scott-Baumann'">
                       <xsl:value-of select="'King’s College London'"/>
                     </xsl:if>
+                    <xsl:if test="$witnessName = 'Tara L. Lyons'">
+                      <xsl:value-of select="'Illinois State University'"/>
+                    </xsl:if>
                   </xsl:variable>
                   <xsl:variable name="witnessExternalURL">
                     <xsl:value-of select="''"/>
@@ -526,6 +529,9 @@
                     </xsl:if>
                     <xsl:if test="$witnessName = 'Elizabeth Scott-Baumann'">
                       <xsl:value-of select="'https://www.kcl.ac.uk/people/dr-elizabeth-scott-baumann'"/>
+                    </xsl:if>
+                    <xsl:if test="$witnessName = 'Tara L. Lyons'">
+                      <xsl:value-of select="'https://cas.illinoisstate.edu/faculty_staff/profile.php?ulid=tllyons'"/>
                     </xsl:if>
                   </xsl:variable>
 
@@ -589,31 +595,31 @@
                   <xsl:apply-templates/>
                 </xsl:element>
                 <xsl:element name="div">
-                  <xsl:attribute name="class">
-                    <xsl:value-of select="'content'"/>
-                  </xsl:attribute>
-
                   <xsl:variable name="notes" select="./tei:note"/>
-
                   <xsl:choose>
                     <xsl:when test="count($notes) &gt; 1">
-                      <xsl:for-each select="./tei:note">
-                        <xsl:variable name="noteType" select="@type"/>
-
-                        <xsl:element name="div">
-                          <xsl:attribute name="class">
-                            <xsl:value-of select="concat('note-box labeled ', $noteType)"/>
-                          </xsl:attribute>
-                          <xsl:apply-templates/>
-                        </xsl:element>
-                      </xsl:for-each>
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'content multi'"/>
+                      </xsl:attribute>
                     </xsl:when>
                     <xsl:otherwise>
-                      <xsl:for-each select="./tei:note">
-                        <xsl:apply-templates/>
-                      </xsl:for-each>
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'content'"/>
+                      </xsl:attribute>
                     </xsl:otherwise>
                   </xsl:choose>
+                  <xsl:for-each select="./tei:note">
+                    <xsl:variable name="noteType" select="@type"/>
+
+                    <xsl:element name="div">
+                      <xsl:if test="$noteType">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="concat('note-box ', $noteType)"/>
+                        </xsl:attribute>
+                      </xsl:if>
+                      <xsl:apply-templates/>
+                    </xsl:element>
+                  </xsl:for-each>
                 </xsl:element>
               </xsl:element>
             </xsl:for-each>
