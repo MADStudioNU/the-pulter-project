@@ -612,11 +612,18 @@
                     <xsl:variable name="noteType" select="@type"/>
 
                     <xsl:element name="div">
-                      <xsl:if test="$noteType">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="concat('note-box ', $noteType)"/>
-                        </xsl:attribute>
-                      </xsl:if>
+                      <xsl:choose>
+                        <xsl:when test="$noteType">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="concat('note-box ', $noteType)"/>
+                          </xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'note-box'"/>
+                          </xsl:attribute>
+                        </xsl:otherwise>
+                      </xsl:choose>
                       <xsl:apply-templates/>
                     </xsl:element>
                   </xsl:for-each>
