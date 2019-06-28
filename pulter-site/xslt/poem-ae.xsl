@@ -614,7 +614,7 @@
                     <xsl:element name="div">
                       <xsl:if test="$noteType">
                         <xsl:attribute name="class">
-                          <xsl:value-of select="concat('note-box labeled ', $noteType)"/>
+                          <xsl:value-of select="concat('note-box ', $noteType)"/>
                         </xsl:attribute>
                       </xsl:if>
                       <xsl:apply-templates/>
