@@ -3056,9 +3056,51 @@
     </pp:poem>
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
+      <pp:firstLine>The Indian moose three young at once doth bear</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>equity</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>parent</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>division</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>sight</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="74">
       <pp:title>The Turtle (Emblem 8)</pp:title>
+      <pp:firstLine>How fast this creature runs upon the earth</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>fire</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
