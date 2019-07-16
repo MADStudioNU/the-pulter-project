@@ -2789,16 +2789,19 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
+        <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
+          <pp:author>Liza Blake</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>dissolution</pp:keyword>
         <pp:keyword>sexuality</pp:keyword>
-        <pp:keyword>soul/body</pp:keyword>
         <pp:keyword>dust</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
         <pp:keyword>alchemy</pp:keyword>
         <pp:keyword>atoms</pp:keyword>
         <pp:keyword>God</pp:keyword>
