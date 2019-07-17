@@ -2360,6 +2360,30 @@
     </pp:poem>
     <pp:poem id="53">
       <pp:title>Upon the Crown Imperial</pp:title>
+      <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:tags>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>God</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="54">
       <pp:title>A Solitary Complaint</pp:title>
