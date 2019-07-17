@@ -2893,6 +2893,11 @@
           <pp:title>Dear Death</pp:title>
           <pp:peek>Pulter’s striking opening address to “Dear Death” (used also in her poem “The Welcome”) may draw on some of John Donne’s Holy Sonnets, with the erotic (and violent) embrace of God in “Batter my heart” and the embrace of death in “Death, be not proud.”</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="dust">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Dust</pp:title>
+          <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="knowledge-faith-and-doubt">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>Knowledge, Faith and Doubt</pp:title>
