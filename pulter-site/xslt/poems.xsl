@@ -1778,6 +1778,28 @@
         <pp:tag>friendship</pp:tag>
         <pp:tag>afterlife</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="body-soul-dust">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Body, Soul, Dust</pp:title>
+          <pp:peek>When the speaker of this poem asks her soul to return to her in line 22, it raises the question: what, or who, is the speaker? The body corresponding to the soul? Something or someone else?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="reading-and-transforming-biblical-sources">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Reading (and Transforming) Biblical Sources</pp:title>
+          <pp:peek>“For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen,” reads 1 Corinthians 13:12. What, exactly, does this biblical verse mean?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="scientific-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>“Scientific” Poetry</pp:title>
+          <pp:peek>How “scientific” is “The Perfection of Patience and Knowledge,” in particular its middle section which uses the vocabularies of alchemy and astronomy?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-knowledge-of-god">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>The Knowledge of God</pp:title>
+          <pp:peek>Pulter’s poem ends with a promise that after the Final Judgment and Resurrection, “we shall know (without which all is none) / The eternal essence, even as we are known” (ll. 58–59).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
