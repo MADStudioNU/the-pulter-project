@@ -1747,9 +1747,10 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>reproduction</pp:keyword>
-        <pp:keyword>soul/body</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
         <pp:keyword>death</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
         <pp:keyword>confinement</pp:keyword>
         <pp:keyword>fire</pp:keyword>
         <pp:keyword>elements</pp:keyword>
@@ -1761,7 +1762,22 @@
         <pp:keyword>friendship</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
       </pp:keywords>
-      <!--<pp:tags></pp:tags>-->
+      <pp:tags>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
