@@ -947,6 +947,22 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>embodiment</pp:keyword>
+        <pp:keyword>heaven</pp:keyword>
+        <pp:keyword>eternity</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>welcome</pp:tag>
+        <pp:tag>fear</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
