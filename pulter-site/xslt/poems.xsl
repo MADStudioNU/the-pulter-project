@@ -1104,6 +1104,26 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>dawn</pp:keyword>
+        <pp:keyword>Astraea</pp:keyword>
+        <pp:keyword>sovereignty</pp:keyword>
+        <pp:keyword>embodiment</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>Astraea</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>morning</pp:tag>
+        <pp:tag>dawn</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>cosmos</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sight</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
