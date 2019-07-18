@@ -3140,6 +3140,14 @@
           <pp:author>Sarah C. E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>London</pp:keyword>
+        <pp:keyword>competition</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>London</pp:tag>
+        <pp:tag>competition</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
