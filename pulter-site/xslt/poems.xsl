@@ -2602,6 +2602,32 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>worship</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>complaint</pp:keyword>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+        <pp:keyword>Christ</pp:keyword>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>worship</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>song</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
