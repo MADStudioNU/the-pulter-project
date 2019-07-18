@@ -1532,8 +1532,32 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+      <pp:keywords>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>friendship</pp:keyword>
+        <pp:keyword>resurrection</pp:keyword>
+        <pp:keyword>sorrow</pp:keyword>
+        <pp:keyword>welcome</pp:keyword>
+        <pp:keyword>youth</pp:keyword>
+        <pp:keyword>fire</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>elements</pp:keyword>
+        <pp:keyword>transformation</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>death</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>welcome</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>youth</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
