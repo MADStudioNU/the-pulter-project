@@ -2571,7 +2571,7 @@ timelineDurations['</xsl:text>
                <xsl:choose>
                   <xsl:when test="@type = 'critical'">
                      <xsl:attribute name="class">note-entry critical</xsl:attribute>
-                     <div class="note-type-header">Critcal Note</div>
+                     <div class="note-type-header">Critical Note</div>
                   </xsl:when>
                   <xsl:when test="@type = 'biographical'">
                      <xsl:attribute name="class">note-entry biographical</xsl:attribute>
