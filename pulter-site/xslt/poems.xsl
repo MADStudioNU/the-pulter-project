@@ -4039,6 +4039,38 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>insects</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>beauty</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>drink</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>fate</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>countryside</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>Aurora</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>poison</pp:keyword>
+        <pp:keyword>sun</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>poison</pp:tag>
+        <pp:tag>sun</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
