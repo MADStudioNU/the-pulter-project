@@ -1917,7 +1917,7 @@
     </xsl:element>
   </xsl:template>
 
- <!--Special textual renderings / Betsy Chou / June 2018-->
+ <!--Special textual renderings / Betsy Chou et al. / beginning,June 2018-->
 
    <xsl:template match="tei:seg[@rend='centered']">
       <span class="centered"><xsl:apply-templates></xsl:apply-templates></span>
@@ -1930,9 +1930,6 @@
    <xsl:template match="tei:seg[@rend='mirror']">
       <span class="mirror"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
-
-   <!-- EDIT / Matt Taylor / Dec 2017
-        FOR REPLACING DEFAULT CHARACTERS  -->
 
    <!-- exclude tei:seg ancestors of notes
         matt
@@ -1951,6 +1948,10 @@
             </xsl:when>
             <xsl:when test="@type = 'gloss'">
                <xsl:text>g</xsl:text>
+            </xsl:when>
+            <!-- Editor's note (matt): original should really have been declared by TPP as gloss-original -->
+            <xsl:when test="@type = 'original'">
+               <xsl:text>go</xsl:text>
             </xsl:when>
             <xsl:otherwise>
                <xsl:text>*</xsl:text>
@@ -1971,6 +1972,12 @@
                   <xsl:when test="@type = 'gloss'">
                      <xsl:text><!--Gloss note:--></xsl:text>
                   </xsl:when>
+                  <xsl:when test="@type = 'original'">
+                     <xsl:text><!--Original-Gloss note:--></xsl:text>
+                  </xsl:when>
+                  <xsl:when test="@type = 'textual'">
+                     <xsl:text><!--TTextual note:--></xsl:text>
+                  </xsl:when>                  
                   <xsl:otherwise>
                      <xsl:text><!--Note:--></xsl:text>
                   </xsl:otherwise>
@@ -1985,7 +1992,7 @@
 
    <xsl:template match="tei:note[(not(@type = 'critIntro')) and (not(@type = 'headnote')) and ((ancestor::tei:seg))]">
       <!-- this template would have normally rendered a note individually,
-           but we have since replaced this with a better matching rule for
+           but we have since replaced this with a matching rule for
            segs containing notes, so that all of the notes can be combined into
            a single div of class 'note' -->
       <!-- Notes will still render as part of XSLT transformation, but should
@@ -2564,16 +2571,29 @@ timelineDurations['</xsl:text>
                <xsl:choose>
                   <xsl:when test="@type = 'critical'">
                      <xsl:attribute name="class">note-entry critical</xsl:attribute>
+                     <div class="note-type-header">Critcal Note</div>
                   </xsl:when>
                   <xsl:when test="@type = 'biographical'">
                      <xsl:attribute name="class">note-entry biographical</xsl:attribute>
+                     <div class="note-type-header">Biographical Note</div>
                   </xsl:when>
                   <xsl:when test="@type = 'physical'">
                      <xsl:attribute name="class">note-entry physical</xsl:attribute>
+                     <div class="note-type-header">Physical Note</div>
                   </xsl:when>
                   <xsl:when test="@type = 'gloss'">
                      <xsl:attribute name="class">note-entry gloss</xsl:attribute>
+                     <div class="note-type-header">Gloss Note</div>
                   </xsl:when>
+                  <xsl:when test="@type = 'original'">
+                     <xsl:attribute name="class">note-entry gloss-original</xsl:attribute>
+                     <div class="note-type-header">Gloss Note (Original)</div>
+                  </xsl:when>
+                  <xsl:when test="@type = 'textual'">
+                     <xsl:attribute name="class">note-entry gloss-original</xsl:attribute>
+                     <div class="note-type-header">Textual Note</div>
+                  </xsl:when>
+                  
                   <xsl:otherwise>
                      <xsl:attribute name="class">note-entry general</xsl:attribute>
                   </xsl:otherwise>
@@ -2608,9 +2628,9 @@ timelineDurations['</xsl:text>
                             P<span><xsl:attribute name="class">small-cap</xsl:attribute>roject</span>
                         </h5>
                      </div>
-                  <p>Copyright © 2018, Wendy Wall, Leah Knight, Northwestern University, others; <a href="/about-the-project.html#who">See all contributors.</a></p>
+                  <p>Copyright © 2018-2019 Wendy Wall, Leah Knight, Northwestern University, others; <a href="/about-the-project.html#who">See all contributors.</a></p>
                   <p>
-                  Portions based on Versioning Machine Copyright © 2015, Susan Schreibman</p>
+                  Portions based on Versioning Machine, Copyright © 2015 Susan Schreibman</p>
                   <p><a href="//v-machine.org/about/">
                   Learn more about Versioning Machine</a></p>
                </div>

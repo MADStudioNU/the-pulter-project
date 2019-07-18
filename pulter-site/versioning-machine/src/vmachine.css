@@ -660,6 +660,28 @@ div.note-entry.biographical {
   border: 0px dashed red;
 }
 
+div.note-entry.gloss-original {
+  border: 0px dashed lightgreen; 
+}
+
+div.note-entry.textual {
+  border: 0px dashed beige;
+}
+
+div.note-entry div.note-type-header {
+
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: .66;
+    margin-bottom: .75em;
+    color: #45342C;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 50%;
+}
+
+
 div.noteicon div.note {
   text-decoration: none !important;
 }
@@ -797,6 +819,10 @@ span.fw-sequence-number {
 .rend-italics,
 .rend-italic {
   font-style: italic;
+}
+
+.rend-bold {
+  font-weight: bold;
 }
 
 .rend-overstrike,
@@ -1121,7 +1147,7 @@ div.panel.highlight,
 
 #showNote {
   padding: 7px 20px;
-  font-size: 105%;
+  /*  font-size: 105%;  */
   color: black;
   text-align: left;
   background: white;
