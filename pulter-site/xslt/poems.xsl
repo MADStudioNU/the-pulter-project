@@ -1267,6 +1267,34 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>transience</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>suffering</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>transience</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>suffering</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>children</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="29">
       <pp:title>My Soul’s Sole Desire</pp:title>
@@ -1504,6 +1532,8 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords></pp:keywords>
+      <pp:tags></pp:tags>
     </pp:poem>
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
