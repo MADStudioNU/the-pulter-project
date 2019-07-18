@@ -751,6 +751,21 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>murder</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
