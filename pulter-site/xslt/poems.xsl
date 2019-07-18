@@ -3166,8 +3166,8 @@
         <pp:keyword>birds</pp:keyword>
         <pp:keyword>family</pp:keyword>
         <pp:keyword>love</pp:keyword>
-        <pp:keyword>emblem</pp:keyword>
         <pp:keyword>animals</pp:keyword>
+        <pp:keyword>emblem</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>birds</pp:tag>
@@ -3175,7 +3175,6 @@
         <pp:tag>food</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>family</pp:tag>
-        <pp:tag>love</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>parents</pp:tag>
