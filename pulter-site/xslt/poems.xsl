@@ -3119,6 +3119,22 @@
           <pp:author>Sarah C. E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>pride</pp:keyword>
+        <pp:keyword>rebellion</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>sin</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
