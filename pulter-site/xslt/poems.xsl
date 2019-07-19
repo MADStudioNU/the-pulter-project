@@ -3650,6 +3650,31 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>insecurity</pp:keyword>
+        <pp:keyword>nature</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>river</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>parent</pp:tag>
+        <pp:tag>nature</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>plants</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>prayer</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
