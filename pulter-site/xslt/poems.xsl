@@ -3379,6 +3379,24 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>power</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
+        <pp:keyword>sight</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>power</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>sight</pp:tag>
+        <pp:tag>dust</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
