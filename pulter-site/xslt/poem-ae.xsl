@@ -60,7 +60,7 @@
         <xsl:when test="not(position() = last())">
           <xsl:element name="span">
             <xsl:attribute name="class">
-              <xsl:value-of select="'who zzz'"/>
+              <xsl:value-of select="'who'"/>
             </xsl:attribute>
             <xsl:value-of select="."/>
           </xsl:element>
@@ -120,13 +120,12 @@
   <!-- TODO:
       find the first character of the very first line
   -->
-  <xsl:variable name="dropCap"
-                select="translate(substring($firstLineNormalized, 1, 1), $upperCaseAlphabet, $lowerCaseAlphabet)"/>
+  <xsl:variable name="dropCap" select="translate(substring($firstLineNormalized, 1, 1), $upperCaseAlphabet, $lowerCaseAlphabet)"/>
 
   <!-- Witnesses -->
   <xsl:variable name="witnesses" select="//tei:witness[@xml:id]"/>
 
-  <!-- Editorial note -->
+  <!-- AE Editorial note -->
   <xsl:variable name="editorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $amplifiedEditionId)]"/>
 
   <!-- VARIABLES END -->
@@ -175,12 +174,36 @@
 
   <!-- HTML Head -->
   <xsl:template name="htmlHead">
+
+    <xsl:variable name="descriptionMeta">
+      <xsl:if test="count($witnesses[starts-with(@xml:id, $amplifiedEditionsNamespace)]) &gt; 1">
+        <xsl:text>Amplified Editions by </xsl:text>
+
+        <xsl:for-each select="$witnesses">
+          <xsl:if test="starts-with(@xml:id, $amplifiedEditionsNamespace)">
+
+            <xsl:call-template name="poemBylineChunk">
+              <xsl:with-param name="witnessId" select="@xml:id"/>
+            </xsl:call-template>
+
+            <xsl:if test="not(position() = last())">
+              <xsl:text>, </xsl:text>
+            </xsl:if>`
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:if>
+
+      <xsl:if test="count($witnesses[starts-with(@xml:id, $amplifiedEditionsNamespace)]) = 1">
+        <xsl:value-of select="concat('Amplified Edition, edited by ', $amplifiedEditionWitnesses)"/>
+      </xsl:if>
+    </xsl:variable>
+
     <head>
       <script async="true" src="//www.googletagmanager.com/gtag/js?id=UA-122500056-2"><xsl:comment/></script>
       <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
       <meta charset="utf-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnesses}."/>
+      <meta name="description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. {$descriptionMeta}."/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
@@ -190,7 +213,7 @@
       <meta name="msapplication-TileColor" content="#da532c"/>
       <meta name="theme-color" content="#282828"/>
       <meta property="og:title" content="{$fullTitle} | Amplified Edition" />
-      <meta name="og:description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. Amplified Edition, edited by {$amplifiedEditionWitnesses}." />
+      <meta name="og:description" content="A poem by Hester Pulter (ca. 1605-1678){$keywordsMetaDescChunk}. {$descriptionMeta}." />
       <meta property="og:image" content="https://pulterproject.northwestern.edu/images/headnote-posters/h{$poemID}og.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@pulterproject" />
@@ -425,150 +448,28 @@
       </xsl:choose>
       <footer class="poem-footer">
         <img class="separator" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
+
+        <xsl:variable name="theEditorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $witId)]"/>
+
         <div class="meta">
           <xsl:if test="string-length($amplifiedEditionWitnesses)">
             <div class="witness">
               <p class="nl">Amplified Edition,</p>
               <p>
-                <span class="by">edited by</span><xsl:text> </xsl:text><span class="who"><xsl:value-of select="$amplifiedEditionWitnesses"/></span>
-                <xsl:if test="$editorialNote">
-                  <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editorial-note" data-featherlight-variant="editorial-note">i</a>
+                <span class="by">edited by</span><xsl:text> </xsl:text><span class="who"><xsl:call-template name="poemBylineChunk"><xsl:with-param name="witnessId" select="$witId"/></xsl:call-template></span>
+
+                <xsl:if test="$theEditorialNote">
+                  <a href="#" class="editor-note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="{concat('#editorial-note-', $witId)}" data-featherlight-variant="editorial-note">i</a>
                 </xsl:if>
               </p>
             </div>
           </xsl:if>
         </div>
-        <xsl:if test="$editorialNote">
-          <div id="editorial-note" class="editorial-note-box">
-            <span class="dismiss"><xsl:text> </xsl:text></span>
-            <h3 class="sssi-regular">Editorial Note</h3>
-            <xsl:element name="div">
-              <xsl:attribute name="class">
-                <xsl:value-of select="'c lato'"/>
-              </xsl:attribute>
-              <xsl:apply-templates select="$editorialNote/tei:note/node()"/>
-
-              <xsl:if test="boolean($editorialNote//tei:seg[./tei:note])">
-                <xsl:element name="ul">
-                  <xsl:attribute name="class">
-                    <xsl:value-of select="'block-notes'"/>
-                  </xsl:attribute>
-
-                  <xsl:for-each select="$editorialNote//tei:seg[./tei:note]">
-                    <xsl:element name="li">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'block-note'"/>
-                      </xsl:attribute>
-                      <xsl:apply-templates select="./tei:note/node()"/>
-                    </xsl:element>
-                  </xsl:for-each>
-                </xsl:element>
-              </xsl:if>
-            </xsl:element>
-            <img class="separator print-hide" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
-
-            <div class="witness-box lato">
-              <ul class="witnesses">
-                <xsl:for-each select="//tei:witness[@xml:id = $amplifiedEditionId]//tei:persName">
-                  <xsl:variable name="witnessName" select="."/>
-
-                  <!-- Known Affiliations of the Editors -->
-                  <!-- TODO: move to a designated place -->
-                  <xsl:variable name="witnessAffiliation">
-                    <xsl:value-of select="''"/>
-                    <xsl:if test="$witnessName = 'Leah Knight'">
-                      <xsl:value-of select="'Brock University'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Wendy Wall'">
-                      <xsl:value-of select="'Northwestern University'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
-                      <xsl:value-of select="'Ohio State University'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Victoria E. Burke'">
-                      <xsl:value-of select="'University of Ottawa'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Frances E. Dolan'">
-                      <xsl:value-of select="'University of California at Davis'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Sarah C. E. Ross'">
-                      <xsl:value-of select="'Victoria University of Wellington'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Lara Dodds'">
-                      <xsl:value-of select="'Mississippi State University'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Elizabeth Scott-Baumann'">
-                      <xsl:value-of select="'King’s College London'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Tara L. Lyons'">
-                      <xsl:value-of select="'Illinois State University'"/>
-                    </xsl:if>
-                  </xsl:variable>
-                  <xsl:variable name="witnessExternalURL">
-                    <xsl:value-of select="''"/>
-                    <xsl:if test="$witnessName = 'Leah Knight'">
-                      <xsl:value-of select="'https://brocku.ca/humanities/english-language-and-literature/faculty/leah-knight'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Wendy Wall'">
-                      <xsl:value-of select="'https://www.english.northwestern.edu/people/faculty/wall-wendy.html'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
-                      <xsl:value-of select="'https://english.osu.edu/people/kolkovich.1'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Victoria E. Burke'">
-                      <xsl:value-of select="'https://uniweb.uottawa.ca/?lang=en#/members/571'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Frances E. Dolan'">
-                      <xsl:value-of select="'https://english.ucdavis.edu/people/fdolan'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Sarah C. E. Ross'">
-                      <xsl:value-of select="'https://www.victoria.ac.nz/seftms/about/staff/sarah-ross'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Lara Dodds'">
-                      <xsl:value-of select="'https://www.english.msstate.edu/faculty/graduate-faculty/lara-dodds/'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Elizabeth Scott-Baumann'">
-                      <xsl:value-of select="'https://www.kcl.ac.uk/people/dr-elizabeth-scott-baumann'"/>
-                    </xsl:if>
-                    <xsl:if test="$witnessName = 'Tara L. Lyons'">
-                      <xsl:value-of select="'https://cas.illinoisstate.edu/faculty_staff/profile.php?ulid=tllyons'"/>
-                    </xsl:if>
-                  </xsl:variable>
-
-                  <li class="witness">
-                    <xsl:element name="a">
-                      <xsl:attribute name="target">
-                        <xsl:value-of select="'_blank'"/>
-                      </xsl:attribute>
-
-                      <xsl:if test="$witnessExternalURL != ''">
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="$witnessExternalURL"/>
-                        </xsl:attribute>
-                      </xsl:if>
-
-                      <xsl:element name="span">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'who'"/>
-                        </xsl:attribute>
-                        <xsl:value-of select="$witnessName"/>
-                      </xsl:element>
-
-                      <xsl:if test="$witnessAffiliation != ''">
-                        <xsl:element name="span">
-                          <xsl:attribute name="class">
-                            <xsl:value-of select="'aff'"/>
-                          </xsl:attribute>
-                          , <xsl:value-of select="$witnessAffiliation"/>
-                        </xsl:element>
-                      </xsl:if>
-                    </xsl:element>
-                  </li>
-                </xsl:for-each>
-              </ul>
-            </div>
-
-          </div>
+        <xsl:if test="$theEditorialNote">
+          <xsl:call-template name="editorialNoteBlock">
+            <xsl:with-param name="witnessId" select="$witId"/>
+            <xsl:with-param name="note" select="$theEditorialNote"/>
+          </xsl:call-template>
         </xsl:if>
 
         <xsl:variable name="thisAESegsWithNotes" select="//tei:rdg[@wit=concat('#', $witId)]//tei:seg[./tei:note][not(ancestor::tei:app[@type='headnote']) and not(ancestor::tei:app[@type='editorialnote'])]"/>
@@ -688,15 +589,17 @@
     <xsl:param name="witId"/>
 
     <xsl:if test="./tei:rdg[@wit=concat('#', $witId)]/tei:note[@type='headnote']">
-      <div class="expand-box">
 
+      <xsl:variable name="theEditorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $witId)]"/>
+
+      <div class="expand-box">
         <div class="witness-box">
           <xsl:element name="a">
             <xsl:attribute name="class">
               <xsl:value-of select="'editor-note-trigger sssi-regular'"/>
             </xsl:attribute>
 
-            <xsl:if test="$editorialNote">
+            <xsl:if test="$theEditorialNote">
               <xsl:attribute name="href">
                 <xsl:value-of select="'#'"/>
               </xsl:attribute>
@@ -707,42 +610,17 @@
                 <xsl:value-of select="'.dismiss'"/>
               </xsl:attribute>
               <xsl:attribute name="data-featherlight">
-                <xsl:value-of select="'#editorial-note'"/>
+                <xsl:value-of select="concat('#editorial-note-', $witId)"/>
               </xsl:attribute>
               <xsl:attribute name="data-featherlight-variant">
                 <xsl:value-of select="'editorial-note'"/>
               </xsl:attribute>
             </xsl:if>
 
-            <span class="by">Edited by</span><xsl:text> </xsl:text><xsl:for-each select="//tei:witness[@xml:id = $amplifiedEditionId]//tei:persName">
-
-            <xsl:choose>
-              <xsl:when test="not(position() = last())">
-                <xsl:element name="span">
-                  <xsl:attribute name="class">
-                    <xsl:value-of select="'who'"/>
-                  </xsl:attribute>
-                  <xsl:value-of select="."/>
-                </xsl:element>
-                <xsl:text> </xsl:text>
-                <xsl:element name="span">
-                  <xsl:attribute name="class">
-                    <xsl:value-of select="'by'"/>
-                  </xsl:attribute>
-                  <xsl:text>and</xsl:text>
-                </xsl:element>
-                <xsl:text> </xsl:text>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:element name="span">
-                  <xsl:attribute name="class">
-                    <xsl:value-of select="'who'"/>
-                  </xsl:attribute>
-                  <xsl:value-of select="."/>
-                </xsl:element>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:for-each>
+            <span class="by">Edited by</span><xsl:text> </xsl:text>
+            <xsl:call-template name="poemBylineChunk">
+              <xsl:with-param name="witnessId" select="$witId"/>
+            </xsl:call-template>
           </xsl:element>
         </div>
 
@@ -1458,6 +1336,185 @@
   <xsl:template match="//tei:encodingDesc/tei:tagsDecl"/>
 
   <xsl:template match="//tei:encodingDesc/tei:charDecl"/>
+
+  <!-- Poem byline template -->
+  <xsl:template name="poemBylineChunk">
+    <xsl:param name="witnessId"/>
+    <xsl:for-each select="//tei:witness[@xml:id = $witnessId]//tei:persName">
+        <xsl:choose>
+          <xsl:when test="not(position() = last())">
+            <xsl:element name="span">
+              <xsl:attribute name="class">
+                <xsl:value-of select="'who'"/>
+              </xsl:attribute>
+              <xsl:value-of select="."/>
+            </xsl:element>
+            <xsl:text> </xsl:text>
+            <xsl:element name="span">
+              <xsl:attribute name="class">
+                <xsl:value-of select="'by'"/>
+              </xsl:attribute>
+              <xsl:text>and</xsl:text>
+            </xsl:element>
+            <xsl:text> </xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:element name="span">
+              <xsl:attribute name="class">
+                <xsl:value-of select="'who'"/>
+              </xsl:attribute>
+              <xsl:value-of select="."/>
+            </xsl:element>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+  </xsl:template>
+
+  <!-- Editorial note block -->
+  <xsl:template name="editorialNoteBlock">
+    <xsl:param name="witnessId"/>
+    <xsl:param name="note"/>
+
+    <xsl:variable name="theNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $witnessId)]"/>
+
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'editorial-note-box'"/>
+      </xsl:attribute>
+      <xsl:attribute name="id">
+        <xsl:value-of select="concat('editorial-note-', $witnessId)"/>
+      </xsl:attribute>
+
+      <span class="dismiss"><xsl:text> </xsl:text></span>
+      <h3 class="sssi-regular">Editorial Note</h3>
+      <xsl:element name="div">
+        <xsl:attribute name="class">
+          <xsl:value-of select="'c lato'"/>
+        </xsl:attribute>
+
+        <xsl:apply-templates select="$theNote/tei:note/node()"/>
+
+        <xsl:if test="boolean($theNote//tei:seg[./tei:note])">
+          <xsl:element name="ul">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'block-notes'"/>
+            </xsl:attribute>
+
+            <xsl:for-each select="$theNote//tei:seg[./tei:note]">
+              <xsl:element name="li">
+                <xsl:attribute name="class">
+                  <xsl:value-of select="'block-note'"/>
+                </xsl:attribute>
+                <xsl:apply-templates select="./tei:note/node()"/>
+              </xsl:element>
+            </xsl:for-each>
+          </xsl:element>
+        </xsl:if>
+      </xsl:element>
+      <img class="separator print-hide" src="/images/macron.svg" alt="Macron symbol indicating the end of a poem."/>
+
+      <div class="witness-box lato">
+        <ul class="witnesses">
+          <xsl:for-each select="//tei:witness[@xml:id = $witnessId]//tei:persName">
+            <xsl:variable name="witnessName" select="."/>
+
+            <!-- Known Affiliations of the Editors -->
+            <!-- TODO: move to a designated place -->
+            <xsl:variable name="witnessAffiliation">
+              <xsl:value-of select="''"/>
+              <xsl:if test="$witnessName = 'Leah Knight'">
+                <xsl:value-of select="'Brock University'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Wendy Wall'">
+                <xsl:value-of select="'Northwestern University'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
+                <xsl:value-of select="'Ohio State University'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Victoria E. Burke'">
+                <xsl:value-of select="'University of Ottawa'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Frances E. Dolan'">
+                <xsl:value-of select="'University of California at Davis'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Sarah C. E. Ross'">
+                <xsl:value-of select="'Victoria University of Wellington'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Lara Dodds'">
+                <xsl:value-of select="'Mississippi State University'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Elizabeth Scott-Baumann'">
+                <xsl:value-of select="'King’s College London'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Tara L. Lyons'">
+                <xsl:value-of select="'Illinois State University'"/>
+              </xsl:if>
+            </xsl:variable>
+            <xsl:variable name="witnessExternalURL">
+              <xsl:value-of select="''"/>
+              <xsl:if test="$witnessName = 'Leah Knight'">
+                <xsl:value-of select="'https://brocku.ca/humanities/english-language-and-literature/faculty/leah-knight'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Wendy Wall'">
+                <xsl:value-of select="'https://www.english.northwestern.edu/people/faculty/wall-wendy.html'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Elizabeth Kolkovich'">
+                <xsl:value-of select="'https://english.osu.edu/people/kolkovich.1'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Victoria E. Burke'">
+                <xsl:value-of select="'https://uniweb.uottawa.ca/?lang=en#/members/571'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Frances E. Dolan'">
+                <xsl:value-of select="'https://english.ucdavis.edu/people/fdolan'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Sarah C. E. Ross'">
+                <xsl:value-of select="'https://www.victoria.ac.nz/seftms/about/staff/sarah-ross'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Lara Dodds'">
+                <xsl:value-of select="'https://www.english.msstate.edu/faculty/graduate-faculty/lara-dodds/'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Elizabeth Scott-Baumann'">
+                <xsl:value-of select="'https://www.kcl.ac.uk/people/dr-elizabeth-scott-baumann'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Tara L. Lyons'">
+                <xsl:value-of select="'https://cas.illinoisstate.edu/faculty_staff/profile.php?ulid=tllyons'"/>
+              </xsl:if>
+            </xsl:variable>
+
+            <li class="witness">
+              <xsl:element name="a">
+                <xsl:attribute name="target">
+                  <xsl:value-of select="'_blank'"/>
+                </xsl:attribute>
+
+                <xsl:if test="$witnessExternalURL != ''">
+                  <xsl:attribute name="href">
+                    <xsl:value-of select="$witnessExternalURL"/>
+                  </xsl:attribute>
+                </xsl:if>
+
+                <xsl:element name="span">
+                  <xsl:attribute name="class">
+                    <xsl:value-of select="'who'"/>
+                  </xsl:attribute>
+                  <xsl:value-of select="$witnessName"/>
+                </xsl:element>
+
+                <xsl:if test="$witnessAffiliation != ''">
+                  <xsl:element name="span">
+                    <xsl:attribute name="class">
+                      <xsl:value-of select="'aff'"/>
+                    </xsl:attribute>, <xsl:value-of select="$witnessAffiliation"/>
+                  </xsl:element>
+                </xsl:if>
+              </xsl:element>
+            </li>
+          </xsl:for-each>
+        </ul>
+      </div>
+    </xsl:element>
+  </xsl:template>
+
   <!-- TEMPLATES END -->
 
   <!-- UTILITIES BEGIN -->

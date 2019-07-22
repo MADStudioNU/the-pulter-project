@@ -1,3 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.73">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Indian Moose (Emblem 7)</title>
+        <title type="sub">Poem #73</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_194.jpg" xml:id="f7610_194"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Millie Godfery</persName> and <persName>Sarah C. E. Ross</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_194" n="95v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_194"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_194"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 7]</rdg>
+            <rdg wit="#ee">The Indian Moose<lb/>(Emblem 7)</rdg>
+            <rdg wit="#ae">The Indian Moose<lb/>(Emblem 7)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">What can we learn from the parenting habits of moose, apes, and eagles? Pulter proffers two lessons from the fauna whose examples she assembles here. The first is that we should show all our children “equal love”: the alternative is to spoil favorites, possibly to death, and neglect others so badly that they degenerate. This is the speaker’s lesson, which she points exclusively toward herself by poem’s end, as if it’s a principle she has trouble practicing. But mid-poem, her attention strays to the salutary way in which the moose (like human exemplars, biblical and mercantile) never puts her eggs in one basket but distributes her offspring widely so they cannot all be attacked at once. This pragmatic lesson has little to do with the high-minded invocation of equitable love: why are they in the same poem? So much is not clear; however, more than one of Pulter’s poems alludes to her far-flung daughters and her desire to bring them home. Perhaps the moose’s example made their distance seem more strategic, and thus more bearable; while the invocation to love all her offspring equally countered an impulse to do otherwise.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote"><p>Pulter’s focus in this poem is on parental love and the equal “manifest[ation]” of this to one's children (line 16). She draws on William Wood’s depiction of the Indian moose in his <title rend="italic">New England’s Prospect</title>, commending the animal’s equal division of “comforts” and “care” between her “three young” offspring ([1635], 16-19, esp. 18; lines 1-2). Utilising the moose as her predominant emblem in the poem, Pulter proceeds to compare the moose’s parental strategies with those of other animals, including the ape and the eagle, beasts that she criticises for their unequal division of affection between their young. Engaging in the discourses of Wood, Pliny, and Aesop, this emblem is indicative of the ways in which Pulter's emblems draw on esteemed literary, philosophical, and classical texts for her own didactic purposes.</p>
+                  <p>Pulter’s message of equal love develops and modifies slightly at line seven of the poem, as she emphasises the more strategic aspects of the “policy” by which the moose distributes her children as an act of preservation (line 7). Pulter salutes this unbiased act of separation as she observes the way that parenthood is at the mercy of chance. Several of her occasional lyrics indicate Pulter’s own struggle as mother of children who lived elsewhere, suggesting that Pulter champions the moose as an example of parental sacrifice; see <ref type="pp-poem-ref" corresp="2">The Invitation into the Country</ref> and <ref type="pp-poem-ref" corresp="38">To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</ref> for examples of Pulter’s occasional lyrics addressing her separation from her children. Her own experience of maternal loss—13 of her 15 children having pre-deceased her—must also have made her particularly sensitive to the devastating role chance could play in parenting.</p>
+                  <p>The poem itself acts as an instructive emblem aimed at parents, a divergence from the audience of children often addressed in her emblem collection; see, for instance, <ref type="pp-poem-ref" corresp="68">Come, My Dear Children (Emblem 2)</ref> and <ref type="pp-poem-ref" corresp="101">Doves and Pearls (Emblem 36)</ref>. “The Indian Moose” therefore illustrates the multiple layers of moral address Pulter achieves throughout her emblem collection. Pulter directly acknowledges her intended audience in line 15, stating “Let parents learn by what is writ above”. This imperative appears similarly in <ref type="pp-poem-ref" corresp="71">The Manucodiats (Emblem 5)</ref>, which evokes the emblem of  manucodiats—birds-of-paradise—as “transcend[ent]” examples of parental love; here, Pulter employs a similar command, stating “Let parents then learn here indulgency” (lines 10, 16).</p>
+                  <p>Despite her instruction to parents, the final line of Emblem 7 takes a “psalmic” turn inward, as Pulter appeals (indirectly) to God, desiring her own edification as a good protestant mother (Rachel Dunn [Zhang], “Breaking a Tradition: Hester Pulter and the English Emblem Book”, <title rend="italic">The Seventeenth Century</title>, 30.1 [2015], 55-73, 64). This is a significant feature of Pulter’s emblem collection as she often begins by providing a description of the emblem, followed by an explication of the moral, and then a conclusion of self-reflection, as characterised by an inward turn, to reflect upon her own mortal position as a virtuous protestant mother, wife, and royalist. For more on this aspect of Pulter’s emblem collection and a clear example, see <ref type="pp-poem-ref" corresp="67">Mighty Nimrod (Emblem 1)</ref>, esp. note to line 21 of our Amplified Edition.</p>
+              </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">The Indian Mooze three Young at once <seg><del>do</del><add place="below">^</add><add place="above"><del>doth</del><hi rend="superscript">doth</hi></add><note type="physical">above cancelled “do,” cancelled “doth,” scribbled out; above that, “doth” in different hand from main scribe</note></seg> bear</rdg>
+            <rdg wit="#ee">The <seg>Indian moose<note type="critical">As Eardley notes, this account appears to be based in William Wood’s description of the moose in <bibl><title rend="italic">New England’s Prospect</title> (London, 1634), p. 21</bibl>.</note></seg> three young at once doth bear,</rdg>
+            <rdg wit="#ae"><seg>The Indian moose three young at once doth bear,<note type="critical">Pulter’s source for this emblem is William Wood’s New England’s Prospect, a text aimed at giving a “true, lively, and experimental description” of the New England colony in the north-eastern region of America. Wood writes of moose that “They have generally three at a time, which they hide a mile from another, giving them sucke by turnes; thus they doe, that if the Woolfe should finde one, he might misse of the other” (<bibl><title rend="italic">New England’s Prospect</title> [1635], 16-19, esp. 18</bibl>). See also <ref type="pp-poem-ref" corresp="92">The Stately Moose (Emblem 27)</ref> for another description of the moose by Pulter, as she again draws on Wood’s description of the animal to highlight God as the only constant within the “frail” and “casual” aspects of life (line 39).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Which trebles both her Comforts and her care</rdg>
+            <rdg wit="#ee">Which <seg>trebles<note type="gloss">triples</note></seg> both her comforts and her <seg>care<note type="gloss"> attention, nurture, or protection, but also trouble, concern</note></seg>.</rdg>
+            <rdg wit="#ae">Which <seg>trebles<note type="gloss">triples; increases threefold (<title rend="italic">OED</title> 1)</note></seg> both her comforts and her care;</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Them equally Shee lovs none worst or best</rdg>
+            <rdg wit="#ee">Them equally she loves, none worst or best:</rdg>
+            <rdg wit="#ae">Them equally she loves, none worst or best</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Not like the Ape Which doth her love Attest</rdg>
+            <rdg wit="#ee">Not like the ape which doth her love attest</rdg>
+            <rdg wit="#ae">(<seg>Not like the ape<note type="critical">in Aesop’s fable “Ape and her two Cubs”, apes are said always to give birth to twins, one of which the mother loves and cares for, while the other she neglects. The consequence of this is that the one attended to is suffocated to death by the loving clasp of its mother’s arms, while the neglected one is “safe as safe could be” (<bibl><title rend="italic">Aesop improved, or, Above Three Hundred and Fifty Fables, mostly Aesop’s</title> [1673], 67</bibl>). Pliny also gives an account of apes in his Natural History, describing them as being “wondrous[ly] fond of their little ones … that in the end with very little clasping and clipping they kill them many times” (<bibl><title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>. Trans. Philemon Holland. Vol. 1 [1635], 231</bibl>).</note></seg> which doth her love <seg>attest<note type="gloss">use as evidence(<title rend="italic">OED</title>); demonstrate</note></seg></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">By hugling that Shee loves untill it <seg>Die[<del>?</del>]<note type="physical">single illegible blotted letter</note></seg></rdg>
+            <rdg wit="#ee">By <seg>huggling<note type="gloss">an obsolete form of “hugging”</note></seg> that she loves until it die;</rdg>
+            <rdg wit="#ae">By <seg>hugging<note type="physical">MS = “hugling”</note></seg> that she loves until it <seg>die<note type="physical">MS = a single illegible letter follows this word; “Die[?]” which has been blotted over</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">The other wraleing at her back hangs by)</rdg>
+            <rdg wit="#ee">The other, <seg>railing<note type="critical">complaining (the manuscript has “wraleing,” which Eardley proposes as “wrawling,” meaning inarticulate crying).</note></seg>, at her back <seg>hangs by<note type="critical">The ape’s “other” infant might simply be clinging to its mother’s back, but a “hang-by” was a term of contempt for a hanger-on; given this and some senses of the verb “to hang,” the phrase might suggest the baby ape’s parasitical or burdensome dependence.</note></seg>.</rdg>
+            <rdg wit="#ae">The other, <seg>wrawling<note type="critical">inarticulate bawling, squalling (OED 1). MS = “wraleing”. Note that the Elemental Edition of this poem modernises this to “railing”, meaning complaining. Our edition aligns itself with Eardley’s, who proposes “wrawling” as the modernised form of “wraleing” (<bibl><title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title> [Toronto: Iter and Centre for Reformation and Renaissance Studies, 2014], 195 n. 53</bibl>.</note></seg>, at her back hangs by).</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">To See her Policye would make one wonder</rdg>
+            <rdg wit="#ee">To see <seg>her<note type="gloss">i.e., the moose’s</note></seg> policy would make one <seg>wonder<note type="gloss">marvel</note></seg>,</rdg>
+            <rdg wit="#ae">To see her <seg>policy<note type="gloss">a stratagem (<title rend="italic">OED</title> 3); also meaning principle, or course of action (<title rend="italic">OED</title> 4). Pulter is referring to the moose’s strategy of separating her children to prevent multiple deaths; see note to line 1.</note></seg> would make one wonder,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">In placeing everyone a Mile a Sunder</rdg>
+            <rdg wit="#ee">In placing <seg>every one<note type="gloss">i.e., every one of her young</note></seg> a mile asunder,</rdg>
+            <rdg wit="#ae">In placing <seg>every one<note type="gloss">each one of the moose’s three calves</note></seg> a <seg>mile asunder<note type="gloss">a mile apart (<title rend="italic">OED</title> 1)</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">That if her &ff;oes on one of them Should lite</rdg>
+            <rdg wit="#ee">That if her foes on one of them should light,</rdg>
+            <rdg wit="#ae">That if her <seg>foes<note type="gloss">specifically wolves, as outlined by William Wood (see note to line 1)</note></seg> on one of them should <seg>light<note type="gloss">see, notice</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">The other two are Sav’d by this Sleight</rdg>
+            <rdg wit="#ee">The other two are savéd by this <seg>sleight<note type="gloss">stratagem, cunning policy, cleverness</note></seg>.</rdg>
+            <rdg wit="#ae">The other two are saved by this <seg>sleight<note type="gloss">cunning strategy employed to deceive (OED 1)</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The Patriark Soe diuided his three bands</rdg>
+            <rdg wit="#ee">The <seg>patr’arch so divided his three bands<note type="critical">The manuscript has “patriarch,” altered here to fit the meter. Eardley identifies the patriarch here as the biblical Jacob, who divided his children into three separate groups, so that his estranged brother Esau could not attack all at once (Genesis 33:1).</note></seg>,</rdg>
+            <rdg wit="#ae"><seg>The patriarch so divided his three bands<note type="critical">“The patriarch” is the biblical Jacob, who was regarded as the Patriarch of Israelites after being blessed with the name Israel following his fight with a divine being on his way home to Canaan; see Gen. 32. Jacob famously tricks his older twin Esau out of his father’s blessings, fulfilling God’s prophecy that “the elder shall serve the younger” (KJV Gen.25:23). To escape Esau’s murderous jealousy, Jacob flees to Harran where he creates his own family. On their return to his homeland of Canaan where Esau is leader, and upon hearing his brother is approaching with an army of four hundred, Jacob divides his children between his two wives and handmaids, hoping that if Esau attacks one group, the others will be saved; see Gen. 33. Pulter draws parallels between this biblical narrative and Wood’s account of the Indian moose, demonstrating how both use a similar strategy of dividing their children into groups in the hope that not all will be attacked. Pulter’s approval of the practice of separating children may also have had royalist implications: the plot to remove Charles’s younger brother James to France in April 1648 was crucial to the survival of the royal family (<bibl>W. A. Speck. “James II and VII.” <title rend="italic">Oxford Dictionary of National Biography</title> [2004</bibl>]).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">To Save them from his Cruell <seg>Brothers<note type="physical">“ro” and “ers” written over other indecipherable letters</note></seg> hands</rdg>
+            <rdg wit="#ee">To save them from his cruel brothers’ hands.</rdg>
+            <rdg wit="#ae">To save them from his <seg>cruel brother’s hands<note type="gloss">Esau, Jacob’s brother, who desires murderous revenge after Jacob tricks him out of his father’s blessings; see note to previous line.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Soe Merchants will not venter all they have</rdg>
+            <rdg wit="#ee">So merchants will not venture all they have</rdg>
+            <rdg wit="#ae">So merchants will not <seg>venture<note type="gloss">an act or occasion of trying one’s chance or fortune (<title rend="italic">OED</title> 3); gamble; play with chance</note></seg> all they have</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Within three Inches of the Swelling Wave</rdg>
+            <rdg wit="#ee">Within three inches of the swelling wave.</rdg>
+            <rdg wit="#ae">Within <seg>three inches of the swelling wave<note type="critical">Lines 13-14 refer to the wariness merchants feel in placing all their fortune in one ship, given the unpredictable nature of the sea. For a representation of this, see Antonio and Salarino’s opening conversation in Shakespeare’s <title rend="italic">The Merchant of Venice</title>, where Antonio makes it clear that “My ventures are not in one bottom trusted, / Nor to one place” (Edited by <bibl>John Drakakis [London: Bloomsbury Publishing, 2011], 1.1.41-2</bibl>). Pulter compares the strategies of merchants to those of good parents who do not place all their worth in one child.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Let Parents Learn by what is writ above</rdg>
+            <rdg wit="#ee">Let parents learn by what is writ above</rdg>
+            <rdg wit="#ae">Let parents learn by what is writ above</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">To manifest to Children equall Love</rdg>
+            <rdg wit="#ee">To manifest to children equal love:</rdg>
+            <rdg wit="#ae">To manifest to children equal love.</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Not Like the Eagle who her Young doth trie</rdg>
+            <rdg wit="#ee">Not like the <seg>eagle<note type="gloss">Eardley, citing Philemon Holland’s translation of <bibl>Pliny’s <title rend="italic">Natural History</title> (1.272)</bibl>, explains Pulter’s next zoological exemplar: “it was a commonplace that eagles force their young to gaze on the sun in order to test their worthiness. Those that fail the test turn into kites, birds of prey considered inferior to the eagle.”</note></seg>, who her young doth try</rdg>
+            <rdg wit="#ae">Not like <seg>the eagle<note type="critical">In Pliny’s <title>Natural History</title>, the eagle is described as a violent mother: “she only before her little ones be feathered, will beat and strike them with her wings, and thereby force them to looke full against the sun beames: now if she see any one of them to winke, or their eies to water at the raies of the sun, she turns it with the head forward out of the nest, as a bastard, and not right, nor none of hers; but bringeth up and cherisheth that whose eye will abide the light of the sun, as she looks directly upon him” (<bibl><title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus.</title> Trans. Philemon Holland. Vol. 1 [1635], 272</bibl>). In keeping with her emblem’s thematic concern with parenting, Pulter draws on this depiction of the mother eagle to criticize her favoring of the stronger over the weaker, a policy which rejects the equal giving of love that Pulter encourages.</note></seg>, who her young doth <seg>try<note type="gloss">test, put under trial (<title rend="italic">OED</title> 2)</note></seg></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">By the Tranſcendent brightnes of her Eye</rdg>
+            <rdg wit="#ee">By the transcendent brightness of <seg>her<note type="gloss">that is, Sol’s, or the sun’s (in the next line)</note></seg> eye;</rdg>
+            <rdg wit="#ae">By the transcendent brightness of her eye;</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Thoſe which cant Stare <seg>on<note type="physical">corrected from “at,” or reverse</note></seg> Sols Refulgent &ff;ace</rdg>
+            <rdg wit="#ee">Those which can’t stare on <seg>Sol’s<note type="gloss">the sun’s</note></seg> <seg>refulgent<note type="gloss">radiant, bright</note></seg> face,</rdg>
+            <rdg wit="#ae">Those which can’t stare at <seg>Sol’s<note type="gloss">the Latin word for sun, and the Roman god of the sun</note></seg> <seg>refulgent<note type="gloss">shining with, or reflecting, a brilliant light; radiant, resplendent; gleaming, lustrous (<title rend="italic">OED</title> 1).</note></seg> face,</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Shee Diſesteems as Baſtard Brats and Baſe</rdg>
+            <rdg wit="#ee">She <seg>disesteems<note type="glosss">disregards, despises</note></seg> as bastard brats and base;</rdg>
+            <rdg wit="#ae">She <seg>disesteems<note type="gloss">regards lightly, thinks little (or nothing) of; slights, despises (<title rend="italic">OED</title> 1a)</note></seg> as <seg>bastard brats and base<note type="critical"> Here, base means of lower, inferior quality (<title rend="italic">OED</title> 7a). For the association of “bastard” and “base”, see Edmund’s soliloquy in <bibl>Shakespeare’s <title rend="italic">King Lear</title>, I.II.6, 10</bibl>: “Why bastard? Wherefore base? ... “Why brand they us with base, base, bastardy”. Eardley punctuates this as “bastard, brats, and base”; however, in this context, both our edition and the elemental edition interpret “bastard” as an adjective for “brat” as opposed to a noun.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Theſe wanting then her Noble Education</rdg>
+            <rdg wit="#ee">These, <seg>wanting<note type="gloss">lacking</note></seg> then her noble education,</rdg>
+            <rdg wit="#ae">These, wanting then her noble education,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Degenerate to kites and keep their &ff;ashion</rdg>
+            <rdg wit="#ee">Degenerate to <seg>kites<note type="gloss">a type of bird of prey; also, in Pulter’s time, a term of reproach</note></seg> and keep their fashion.</rdg>
+            <rdg wit="#ae">Degenerate to <seg>kites<note type="gloss">a term of reproach or destestation (<title rend="italic">OED</title> 2). For another use of the term in this sense, see Antony’s address in <bibl>Shakespeare’s <title>Antony and Cleopatra</title>, III.VIII. 89</bibl>: “Ah, you kite!” “Kites” are also birds of prey regarded as inferior to eagles (<title rend="italic">OED</title> 1).</note></seg> and keep their fashion.</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Soe <seg><add place="below">\</add> <del>itt’is</del> <add place="above">tis \</add><note type="physical">superscript and subscript in different hand from main scribe</note></seg> when Parents doe a difference make</rdg>
+            <rdg wit="#ee">So ’tis when parents do a difference make:</rdg>
+            <rdg wit="#ae">So ’tis when parents do a difference make;</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Then O that Councell let mee ever take</rdg>
+            <rdg wit="#ee">Then, O, that counsel let me ever take.</rdg>
+            <rdg wit="#ae">Then O! That counsel let me ever take.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

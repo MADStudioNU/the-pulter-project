@@ -745,14 +745,27 @@
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
       <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
-      <pp:tags></pp:tags>
-      <pp:keywords></pp:keywords>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>murder</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
@@ -928,12 +941,28 @@
       <pp:title>The Welcome [1]</pp:title>
       <pp:firstLine>Dear Death, thou’rt welcome to my troubled soul</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>embodiment</pp:keyword>
+        <pp:keyword>heaven</pp:keyword>
+        <pp:keyword>eternity</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>welcome</pp:tag>
+        <pp:tag>fear</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
@@ -1085,14 +1114,32 @@
       <pp:title>To Astraea</pp:title>
       <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
-<!--      <pp:keywords></pp:keywords>-->
-<!--      <pp:tags></pp:tags>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>dawn</pp:keyword>
+        <pp:keyword>Astraea</pp:keyword>
+        <pp:keyword>sovereignty</pp:keyword>
+        <pp:keyword>embodiment</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>Astraea</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>morning</pp:tag>
+        <pp:tag>dawn</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>cosmos</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sight</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
@@ -1230,12 +1277,26 @@
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
       <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>transience</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>suffering</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+      </pp:keywords>
       <pp:tags>
         <pp:tag>soul</pp:tag>
         <pp:tag>body</pp:tag>
@@ -1250,20 +1311,6 @@
         <pp:tag>death</pp:tag>
         <pp:tag>children</pp:tag>
       </pp:tags>
-      <pp:keywords>
-        <pp:keyword>soul</pp:keyword>
-        <pp:keyword>body</pp:keyword>
-        <pp:keyword>afterlife</pp:keyword>
-        <pp:keyword>grief</pp:keyword>
-        <pp:keyword>light</pp:keyword>
-        <pp:keyword>dark</pp:keyword>
-        <pp:keyword>dust</pp:keyword>
-        <pp:keyword>transience</pp:keyword>
-        <pp:keyword>song</pp:keyword>
-        <pp:keyword>suffering</pp:keyword>
-        <pp:keyword>death</pp:keyword>
-        <pp:keyword>children</pp:keyword>
-      </pp:keywords>
     </pp:poem>
     <pp:poem id="29">
       <pp:title>My Soul’s Sole Desire</pp:title>
@@ -1495,17 +1542,17 @@
       <pp:title>The Welcome [2]</pp:title>
       <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>friendship</pp:keyword>
-        <pp:keyword>sorrow</pp:keyword>
         <pp:keyword>resurrection</pp:keyword>
+        <pp:keyword>sorrow</pp:keyword>
         <pp:keyword>welcome</pp:keyword>
         <pp:keyword>youth</pp:keyword>
         <pp:keyword>fire</pp:keyword>
@@ -1895,6 +1942,28 @@
         <pp:tag>friendship</pp:tag>
         <pp:tag>afterlife</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="reading-and-transforming-biblical-sources">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Reading (and Transforming) Biblical Sources</pp:title>
+          <pp:peek>“For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen,” reads 1 Corinthians 13:12. What, exactly, does this biblical verse mean?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="body-soul-dust">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Body, Soul, Dust</pp:title>
+          <pp:peek>When the speaker of this poem asks her soul to return to her in line 22, it raises the question: what, or who, is the speaker? The body corresponding to the soul? Something or someone else?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="scientific-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>“Scientific” Poetry</pp:title>
+          <pp:peek>How “scientific” is “The Perfection of Patience and Knowledge,” in particular its middle section which uses the vocabularies of alchemy and astronomy?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-knowledge-of-god">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>The Knowledge of God</pp:title>
+          <pp:peek>Pulter’s poem ends with a promise that after the Final Judgment and Resurrection, “we shall know (without which all is none) / The eternal essence, even as we are known” (ll. 58–59).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
@@ -2523,6 +2592,30 @@
     </pp:poem>
     <pp:poem id="53">
       <pp:title>Upon the Crown Imperial</pp:title>
+      <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:tags>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>God</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="54">
       <pp:title>A Solitary Complaint</pp:title>
@@ -2592,12 +2685,38 @@
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
       <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>worship</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>complaint</pp:keyword>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+        <pp:keyword>Christ</pp:keyword>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>worship</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>song</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
@@ -2952,16 +3071,19 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
+        <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
+          <pp:author>Liza Blake</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>dissolution</pp:keyword>
         <pp:keyword>sexuality</pp:keyword>
-        <pp:keyword>soul/body</pp:keyword>
         <pp:keyword>dust</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
         <pp:keyword>alchemy</pp:keyword>
         <pp:keyword>atoms</pp:keyword>
         <pp:keyword>God</pp:keyword>
@@ -2990,6 +3112,11 @@
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>Dear Death</pp:title>
           <pp:peek>Pulter’s striking opening address to “Dear Death” (used also in her poem “The Welcome”) may draw on some of John Donne’s Holy Sonnets, with the erotic (and violent) embrace of God in “Batter my heart” and the embrace of death in “Death, be not proud.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="dust">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Dust</pp:title>
+          <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="knowledge-faith-and-doubt">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
@@ -3071,16 +3198,32 @@
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
       <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Millie Godfery</pp:author>-->
-<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>pride</pp:keyword>
+        <pp:keyword>rebellion</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>sin</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
@@ -3092,16 +3235,24 @@
       <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
       <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Millie Godfery</pp:author>-->
-<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>London</pp:keyword>
+        <pp:keyword>competition</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>London</pp:tag>
+        <pp:tag>competition</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
@@ -3120,8 +3271,8 @@
         <pp:keyword>birds</pp:keyword>
         <pp:keyword>family</pp:keyword>
         <pp:keyword>love</pp:keyword>
-        <pp:keyword>emblem</pp:keyword>
         <pp:keyword>animals</pp:keyword>
+        <pp:keyword>emblem</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>birds</pp:tag>
@@ -3129,7 +3280,6 @@
         <pp:tag>food</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>family</pp:tag>
-        <pp:tag>love</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>parents</pp:tag>
@@ -3216,9 +3366,51 @@
     </pp:poem>
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
+      <pp:firstLine>The Indian moose three young at once doth bear</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>equity</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>parent</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>division</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>sight</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="74">
       <pp:title>The Turtle (Emblem 8)</pp:title>
+      <pp:firstLine>How fast this creature runs upon the earth</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>fire</pp:keyword>
+        <pp:keyword>tears</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
@@ -3286,12 +3478,30 @@
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>power</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
+        <pp:keyword>sight</pp:keyword>
+        <pp:keyword>dust</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>power</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>sight</pp:tag>
+        <pp:tag>dust</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
@@ -3523,12 +3733,37 @@
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
       <pp:firstLine>The stately moose, being mounted up the hill</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>insecurity</pp:keyword>
+        <pp:keyword>nature</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>river</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>parent</pp:tag>
+        <pp:tag>nature</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>plants</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>prayer</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
@@ -3946,12 +4181,44 @@
       <pp:title>Fair Aurora (Emblem 53)</pp:title>
       <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>insects</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>beauty</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>drink</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>fate</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>countryside</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>Aurora</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>poison</pp:keyword>
+        <pp:keyword>sun</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>poison</pp:tag>
+        <pp:tag>sun</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>

@@ -1,3 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.74">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Turtle (Emblem 8)</title>
+        <title type="sub">Poem #74</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_195.jpg" xml:id="f7610_195"/>
+      <graphic url="./document_images/7610_196.jpg" xml:id="f7610_196"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_195" n="96r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_195"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_195"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">8</fw>[Emblem 8]</rdg>
+            <rdg wit="#ee">The Turtle<lb/>(Emblem 8)</rdg>
+            <rdg wit="#ae">The Turtle<lb/>(Emblem 8)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Why do people obstinately cling to bad ways, even when facing death? In this emblem, Pulter assumes the persona of the wise counsellor who warns young people about the follies and vanities that can lead a person to damnation. She stacks example upon example of how animals and humans stubbornly refuse to give up immoral behaviors: from the “simple creature” of the title who revels in the earth and oceans, to mythical minute dragons who can exist only in burning fire, to misers who sink their investments in money. The speaker reserves the bulk of her reprimand for the frivolous gallants and ladies of her age who like to gamble, drink, indulge in fashions, and have sex. Calling these folks “ranters” connects the general riotous and noisy partiers to religious radicals in mid-seventeenth-century England who rejected religious authority. What seems to irritate the speaker is their complete immersion in their chosen worlds: as if earthbound pleasures have become the air they breathe. Being removed from sin and entertainment leaves these impassioned fools without the divine life support they need, much like a blubbering turtle gasping for breath or a fish washed ashore.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote"><p>In this emblem, Pulter turns her attention to earthly pleasures and the immorality of indulgence in them. She begins with the turtle as an emblem, describing the enjoyment the creature takes in running and swimming on the earth, which illustrates her “ignoble” nature. The turtle dislikes being inverted “to the skies”, which Pulter construes as an unwillingness to face God (line 5). She proceeds to highlight instances in the human world, criticising the “gallants”, “wanton[s]”, and “ranters” who choose to overindulge in base, earthly things like money, drink, and unchaste love rather than devote themselves to God (lines 12, 16, 20). For related emblems, see <ref type="pp-poem-ref" corresp="84">The Elephant (Emblem 19)</ref> and <ref type="pp-poem-ref" corresp="85">This Poor Turtle Dove (Emblem 20)</ref>, which use similar language to criticise overindulgence and folly. Pulter exposes these people who disobey God’s wishes, criticising intemperate behaviour for its ungratefulness.</p>
+                  <p>Key to unveiling this message is a subtle but striking use of form. While the emblem is, for the most part, in Pulter’s typical rhyming couplets, she uses two tercets at lines 5-7 and 24-6 to encapsulate her message: that “wantons”, like the turtle, indulge excessively in the pleasures of the world. These two tercets not only summarise the fate of the turtle and “rant[ing]” humans respectively, but link them together, as Pulter interrupts the overall rhyme scheme of the poem in each case. The repetition of the words “lie” and “die” across the two tercets further affirms the connection and emphasises the moral Pulter wishes to impart: that the pleasures of the world are vain, and those who overindulge in worldly things die in despair.</p>
+                  <p>Notably, the emblem’s moral message acquires political connotations: both Eardley and Christian point out that “ranter” was a derogatory term given to religious and political radicals, including those in the Antinomian sect arising in England around the time Pulter was composing her emblem collection (A<bibl>lice Eardley, “An Edition of Lady Hester Pulter’s Book of ‘Emblemes’.” PhD diss. [University of Warwick, 2008], 29 n. 20</bibl>; and <bibl>Stefan Christian, “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition.” PhD diss. [University of Massachusetts Amherst, 2012], 289</bibl>). As she does in many of her emblems, Pulter embeds her criticism of the social and political upheaval caused by the republican government in the wider religious instruction directed at her readers. The images of these indulgent ranters, gallants, and wantons remind us that in giving way to impulsive desires, we forget God and the service we owe Him while on earth. Using the two tercets to emphasise these consequences, she then begins her explicit address in the final four lines of the poem, as she implores: “hear a friend that tells you but the truth”, indicating the authorial role she possesses as she mediates the devotional message of servitude to God (line 32). Drawing on Ecclesiastes 12.1, Pulter urges her readers to “Remember thy creator in thy youth”, instructing against the careless indulgences she presents earlier and warning that otherwise “Hell will have its due” (lines 28, 30). Instead, she offers her expostulation: be God’s humble and devoted servant on earth and be safe from the earthly distractions which incur judgement.</p>
+            </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">How fast this Creature Runs upon <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Earth</rdg>
+          <rdg wit="#ee"><seg>How fast this creature runs upon the earth<note type="critical">“Fast” here means firmly fixed in its place; not easily moved or shaken. “Runs upon” refers to the action of pushing violently; driving its head fruitlessly against the earth. The line seems to invite the reader to see the creature as moving swiftly, but when l. 5 reveals that the creature is a turtle, it forces a return and reinterpretation of these initial lines.</note></seg>;</rdg>
+            <rdg wit="#ae">How fast this creature runs upon the earth;</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Her Loving it Shews her Ignoble Birth</rdg>
+          <rdg wit="#ee"><seg>Her loving it shows her ignoble birth.<note type="gloss">The turtle’s passion for the earth (ground) displays her  “ignoble birth,” meaning her base, sordid, lowly and dishonourable character.</note></seg></rdg>
+          <rdg wit="#ae">Her loving it shows her <seg>ignoble<note type="gloss">meaning base, especially when comparing animals and humans (<title rend="italic">OED</title> 1b and 2).</note></seg> birth.</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">How <seg>Swift<note type="physical">“w” written over imperfectly erased “h”</note></seg> Shee Swims within the Tamed Seas</rdg>
+          <rdg wit="#ee">How swift she swims within the <seg>taméd<note type="critical">Eardley sees this word as a scribal mistake for “tumid,” meaning swollen, puffed out with the wind,” but taméd also fits the turtle’s luxurious swimming in the calm oceans.</note></seg> seas;</rdg>
+          <rdg wit="#ae">How swift she swims within the <seg>tamed<note type="critical">Eardley proposes this as a scribal error actually meaning “tumid”, defining the swollen seas. Both our edition and the Elemental Edition retain it as it appears in the manuscript, however, as “tamed” evokes a fitting image of the turtle indulgently swimming in calm seas.</note></seg> seas;</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Let her but Grov’ling bee Shee is in Peas</rdg>
+          <rdg wit="#ee">Let her but <seg>grov’lling<note type="gloss">lying prone. According to Pliny, turtles found it pleasant to float facing downwards with their shells out of the water. Pulter reads their discomfort with being turned upside down as a refusal to look to God in Heaven.</note></seg> be, she is in peace.</rdg>
+          <rdg wit="#ae">Let her but grovelling be, she is in <seg>peace<note type="physical">manuscript= Peas</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">But doe but turn this Turtle to the Skies</rdg>
+            <rdg wit="#ee">But do but turn this turtle to the skies:</rdg>
+          <rdg wit="#ae">But do but <seg>turn this turtle to the skies<note type="gloss">Pulter criticizes the turtle’s unhappiness at being turned upwards, suggesting that this is a refusal to look to the heavens: see Headnote.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft"><seg>Shee Sighs and Sobs and diſcontented lies<note type="physical">line appears inserted later than next, in slightly smaller script, slightly overlapping lines immediately above and below</note></seg></rdg>
+          <rdg wit="#ee"><seg>She sighs and sobs and discontented lies,<note type="physical">The scribe added this line between two existing lines, thus correcting a couplet into a rhyming triplet.</note></seg></rdg>
+          <rdg wit="#ae"><seg>She sighs and sobs and discontented lies,<note type="critical">This line is inserted into the space between lines 5 and 7, possibly at a later date, as the inserted line overlaps and is written in smaller handwriting likely to be Pulter’s own. It is an important addition, given that it has the effect of creating a tercet, which marks the end of the description of the poem's opening image, the turtle. The tercet encapsulates the moralistic description of what happens if the turtle is inverted, the central moral of the poem, to which Pulter returns, in another tercet, at lines 24-6.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">And in this Paſsion bath’d in Tears Shee Dies</rdg>
+            <rdg wit="#ee">And in this passion, bathed in tears, she dies.</rdg>
+            <rdg wit="#ae">And in this passion bathed in tears she dies.</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Soe let a Miſer &ff;ear the loſs of’s Gold</rdg>
+          <rdg wit="#ee">So let a miser fear the loss <seg>of’s<note type="gloss">of his</note></seg> gold;</rdg>
+          <rdg wit="#ae">So let a miser fear the loss <seg>of’s<note type="gloss">of his</note></seg> gold,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">His Heart Like Nabals inſtantly is cold</rdg>
+          <rdg wit="#ee">His heart like <seg>Nabal’s<note type="gloss">In the Bible, Nabal is a rich man whose heart is turned to stone when he rejects the peace offering and request for resources that David sends to him. The story features Nabal’s wife, Abigail, who defies her husband so as to prevent war and negotiate a political truce. See 1 Sam 25: 2-42.</note></seg> instantly is cold.</rdg>
+          <rdg wit="#ae"><seg>His heart, like Nabal’s, instantly is cold.<note type="gloss">In the Bible, Nabal is a parsimonious farmer and landowner who lives in the city of Maon. When David, who is later the King of Israel and Judah, sends men down to pay their respects to Nabal, his “surly and mean” qualities are revealed as he rejects the greetings extended to him. David retaliates, preparing four hundred men to attack; however, Nabal’s wife Abigail appeases his anger by offering him a bounty of gifts. When Abigail later tells Nabal of the peace she has made, his heart turns to “stone” at the gifts she has given and he has a heart attack, a punishment by God for his ungenerous nature; see 1 Sam 25:3-38.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Tel him that Death is come to take his due</rdg>
+          <rdg wit="#ee">Tell <seg>him<note type="gloss">the miser</note></seg> that Death is come to take his due,</rdg>
+            <rdg wit="#ae">Tell him that Death is come to take his due;</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Hee’l call for Int’rest, or your Bonds Renew</rdg>
+            <rdg wit="#ee">He’ll call for interest or your bonds renew.</rdg>
+            <rdg wit="#ae">He’ll call for int’rest or your bonds renew.</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Bid Gallants leave their Dames, their Drink, their Dice</rdg>
+            <rdg wit="#ee">Bid gallants leave their dames, their drink, their dice;</rdg>
+          <rdg wit="#ae"><seg>Bid gallants leave their dames, their drink, their dice;<note type="critical">Pulter uses the word “gallant” in a derogatory sense, referring to vain men who are merely concerned with appearance, indulgence, and courting women (<title rend="italic">OED</title> b1, 3). Stefan Christian suggests that she may also use the word in reference to “failed Royalists, the so-called Cavaliers, whose military failure Pulter might well have connected to their moral failures” (<bibl>“The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition.” PhD diss., University of Massachusetts Amherst, 2012. 289</bibl>). Pulter uses similar language in <ref type="pp-poem-ref" corresp="84">“The Elephant” (Emblem 19)</ref>, esp. lines 16, 36-9; and <ref type="pp-poem-ref" corresp="85">“This Poor Turtle Dove” (Emblem 20)</ref>, esp. lines 23-4, emblems which are also concerned with irreligious behaviour.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Not they (the’le Swear) for preſent Paradiſe</rdg>
+            <rdg wit="#ee">Not they, they’ll swear, for present paradise.</rdg>
+          <rdg wit="#ae">Not they (they’ll swear) for <seg>present paradise<note type="gloss">Pulter criticises those who won’t give up their irreligious behaviours based on the instant gratification – “present paradise” – they receive from them (line 13). Our place on earth, she indicates, should be dedicated to God, who will then reward the diligent with a space in heaven, the true place of paradise.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Tel them (in Love) the’r at the Abiſſis Brink</rdg>
+          <rdg wit="#ee">Tell them in love they’re at <seg>th’abyss’s<note type="gloss">The abyss was infernal Hell, a seemingly bottomless gulf beneath the earth, or a general negative condition from which recovery was impossible or unlikely.</note></seg> brink;</rdg>
+          <rdg wit="#ae">Tell them (in love) they’re at the <seg>abyss’s brink<note type="gloss">the edge of the great deep or bottomless gulf believed in old cosmogonies to lie beneath the earth; the infernal pit, the abode of the dead, hell (<title rend="italic">OED</title> 1c). In the Bible, the earth, prior to its creation by God, is described as “without form, and void, and darkness upon the face of the deep” (Gen 1:1-3).</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft">Thel’e Yaul, and Baul &ff;or <seg>Wenches<note type="physical">light mark following may be poorly formed comma</note></seg> or more Drink</rdg>
+          <rdg wit="#ee">They’ll <seg>yawl and bawl<note type="gloss">cry out loudly</note></seg> for <seg>wenches<note type="gloss">wanton women in this context, though sometimes just meaning girls or lower-class servants</note></seg> or more drink.</rdg>
+          <rdg wit="#ae">They’ll <seg>yawl and bawl<note type="gloss">manuscript= Yaul and Baul. “yawl” meaning to shout, yell (<title rend="italic">OED</title>)</note></seg> for <seg>wenches<note type="gloss">wanton women; mistresses (<title rend="italic">OED</title> 2)</note></seg> or more drink.</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Bid a Lite Lady Leave her Wanton Love</rdg>
+          <rdg wit="#ee">Bid a <seg>light<note type="gloss">frivolous; unchaste; immodest</note></seg> lady leave her wanton love;</rdg>
+          <rdg wit="#ae">Bid a <seg>light<note type="gloss">wanton, unchaste; frivolous, unthinking (<title rend="italic">OED</title> 14)</note></seg> lady leave her wanton love,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Not Shee Shee Vows, for all the Joys Above</rdg>
+            <rdg wit="#ee">Not she, she vows, for all the joys above.</rdg>
+          <rdg wit="#ae">Not she, she vows, for all the <seg>joys above<note type="gloss">heaven</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Tell her, er’e long her Paint wont hide her Clay</rdg>
+          <rdg wit="#ee">Tell her, ere long <seg>her paint won’t hide her clay<note type="critical">Her cosmetics cannot cover over her mortality. Numerous Renaissance texts hold up women’s use of cosmetics as a futile and deceptive attempt to stay corruption and decay. See Hamlet’s meditations on Yorick’s skull (5.1) and Bosola’s hectoring of the Old Lady in <bibl>John Webster’s <title rend="italic">The Duchess of Malfi</title> (2.1)</bibl></note></seg>;</rdg>
+          <rdg wit="#ae">Tell her, ere long, <seg>her paint won’t hide her clay<note type="critical">Anti-cosmetic discourses gained traction in the sixteenth century, arguing that the art of painting a face was a blasphemous usurpation of God’s power (<bibl>Farah Karim-Cooper. “‘This Alters Not Thy Beauty’: Face-Paint, Gender, and Race in <title rend="italic">The English Moor</title>.” <title rend="italic">Early Theatre</title>, vol. 10, no. 2, 2014, pp. 140-1</bibl>). See, for example, Shakespeare’s Sonnet 127, in which cosmetics are “Fairing the foul with Art’s false borrowed face” (line 6).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">What doth Shee Care, Shel’e doe it while Shee may</rdg>
+            <rdg wit="#ee">What doth she care, she’ll do it while she may.</rdg>
+            <rdg wit="#ae">What doth she care, she’ll do it while she may.</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Put but Theſe Ranters where they cannot Rore</rdg>
+          <rdg wit="#ee">Put but these <seg>ranters<note type="gloss">people who declaim noisily; riotous, dissolute people; religious radicals in mid-seventeenth-century England who rejected religious authority and formal worship, and gained a reputation for ostentatiously promiscuous, drunken, or blasphemous behaviour.</note></seg> where they cannot <seg>roar<note type="gloss">behave in a lively and noisy manner</note></seg>,</rdg>
+          <rdg wit="#ae">Put but these <seg>ranters<note type="critical">noisy, riotous, dissolute people (<title rend="italic">OED</title> 3). Pulter employs this appellation frequently in criticisms of worldly indulgence; see <ref type="pp-poem-ref" corresp="85">This Poor Turtle Dove (Emblem 20)</ref> line 23, which criticizes husbands who “rant it high and game”, and <ref type="pp-poem-ref" corresp="84">The Elephant (Emblem 19)</ref> line 36, for the speaker’s reproach towards those who “drink, rant, throw the die”. Also see the Headnote for a discussion of the political meaning behind the word “ranter”.</note></seg> where they cannot roar,</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">They lye like &ff;ish on the forſaken Shore</rdg>
+          <rdg wit="#ee"><seg>They lie like fish on the forsaken shore.<note type="gloss">fish washed ashore and stranded on land, a figure for people out of their environment</note></seg></rdg>
+            <rdg wit="#ae">They lie like fish on the forsaken shore;</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">Or Curb theſe Gallants of their vain <seg>desire<del>s</del><note type="gloss">final “s” appears blotted out</note></seg></rdg>
+          <rdg wit="#ee">Or curb these <seg>gallants<note type="gloss">fashionable gentlemen</note></seg> of their vain desire,</rdg>
+            <rdg wit="#ae">Or curb these gallants of their vain desire,</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft">Their like <seg>Piraustys<note type="physical">first “s” crowded in, in darker link</note></seg> kept out of the &ff;ire</rdg>
+          <rdg wit="#ee">They’re like <seg>pyraustas<note type="gloss">The pyrausta was a “mythical moth-size dragon that, like the salamander, lives in fire” (Eardley). If removed from fire, the creature dies.</note></seg> kept out of the fire.</rdg>
+          <rdg wit="#ae">They’re like <seg>pyraustas<note type="critical">a mythical creature from Cyprus, described by Pliny as “a kind of four-footed creature, and yet winged (as big as the greater kind of flies)” which “so long as it remaines in the fire” lives (<bibl><title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>. Trans. Philemon Holland. Vol. 1 [1635], 330</bibl>). Pulter’s simile in this line compares “gallants” without “their vain desire” to these mythical fire creatures, who, without fire, literally perish; both, she observes, thrive off that which is typically destructive (line 22, 23).</note></seg> kept out of the fire;</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Or</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_196" n="96v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_196"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_196"/>
+            </rdg>
+        </app>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Or take theſe Wantons from their Vanity</rdg>
+            <rdg wit="#ee">Or take these wantons from their vanity;</rdg>
+            <rdg wit="#ae">Or take these wantons from their vanity,</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Thele like this Simple Creature blubling Lie</rdg>
+          <rdg wit="#ee">They’ll like this simple creature <seg>blubb’ring<note type="critical">The creature is the turtle; “blubb’ring” is corrected from “blubling” in the manuscript, since it seems to refer to the turtle’s sobbing in l. 5.</note></seg> lie,</rdg>
+          <rdg wit="#ae">These like <seg>this simple creature<note type="gloss">the turtle</note></seg> blubb'ring lie,</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">And in diſpaire most com̄only they Die</rdg>
+            <rdg wit="#ee">And in despair most commonly they die.</rdg>
+            <rdg wit="#ae">And in despair most commonly they die.</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Then hear a &ff;reind that Tels you but the Truth</rdg>
+            <rdg wit="#ee">Then hear a friend that tells you but the truth:</rdg>
+          <rdg wit="#ae"><seg>Then hear a friend<note type="critical">The emblem reaffirms the didactic message that is revealed in the tercets of lines 5-7 and 24-6: that our job is to serve God and avoid being distracted with temporary indulgences. In this direct address, Pulter assumes the role of a “friend” who is offering a moral exegesis as directed by God. For a discussion of Pulter’s poetic address to her “friends”, see <bibl>Sarah Ross’s <title rend="italic">Women, Poetry, and Politics in Seventeenth-Century Britain</title> [Oxford: Oxford University Press, 2015], 169-173</bibl>.</note></seg> that tells you but the truth;</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Remember thy Creator in thy Youth</rdg>
+            <rdg wit="#ee">Remember thy Creator in thy youth.</rdg>
+          <rdg wit="#ae"><seg>Remember thy Creator in thy youth,<note type="gloss">Pulter almost directly quotes Ecclesiastes 12.1 here: “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them”. She concludes her emblem by reminding readers always to pay God his due respects during youth, as the body and mind is, at this age, most able to serve God.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">And leave thoſe &ff;ollyes e’re they doe leave you</rdg>
+            <rdg wit="#ee">And leave those follies ere they do leave you,</rdg>
+            <rdg wit="#ae">And leave those follies ere they do leave you,</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Or elce expect that Hell will have its Due.</rdg>
+            <rdg wit="#ee">Or else expect that Hell will have its due.</rdg>
+            <rdg wit="#ae">Or else expect that Hell will have its due.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
