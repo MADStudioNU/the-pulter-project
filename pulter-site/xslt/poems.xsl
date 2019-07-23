@@ -2984,12 +2984,32 @@
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
       <pp:poster/>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>tyranny</pp:keyword>
+        <pp:keyword>fortune</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>fortune</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>hydra</pp:tag>
+        <pp:tag>breath</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>rebellion</pp:tag>
+        <pp:tag>treachery</pp:tag>      </pp:tags>
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
@@ -3123,11 +3143,21 @@
           <pp:title>Knowledge, Faith and Doubt</pp:title>
           <pp:peek>“The Hope” is a poem about the balance between faith and doubt and the role of knowledge in the interplay of these. The phrase which closes the poem, “I know not how,” might express doubt, or faith, in the absence of knowledge.</pp:peek>
         </pp:curation>
+<!--        <pp:curation status="on" hash="punctuating-poetry">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--          <pp:title>Punctuating Poetry</pp:title>-->
+<!--          <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>-->
+<!--        </pp:curation>-->
         <pp:curation status="on" hash="the-little-luz">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
         </pp:curation>
+<!--        <pp:curation status="on" hash="wishing-for-the-end">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--          <pp:title>Wishing for the End</pp:title>-->
+<!--          <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>-->
+<!--        </pp:curation>-->
       </pp:curations>
     </pp:poem>
     <pp:poem id="66">
