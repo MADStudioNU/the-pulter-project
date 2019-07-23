@@ -3054,10 +3054,20 @@
           <pp:title>Knowledge, Faith and Doubt</pp:title>
           <pp:peek>“The Hope” is a poem about the balance between faith and doubt and the role of knowledge in the interplay of these. The phrase which closes the poem, “I know not how,” might express doubt, or faith, in the absence of knowledge.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="punctuating-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Punctuating Poetry</pp:title>
+          <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="the-little-luz">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="wishing-for-the-end">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Wishing for the End</pp:title>
+          <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
