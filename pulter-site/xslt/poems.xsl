@@ -1789,6 +1789,36 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>truth</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
+        <pp:keyword>day</pp:keyword>
+        <pp:keyword>night</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
+        <pp:keyword>resurrection</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>Aurora</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>truth</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
