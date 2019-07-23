@@ -2901,6 +2901,26 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>tyranny</pp:keyword>
+        <pp:keyword>fortune</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>fortune</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>hydra</pp:tag>
+        <pp:tag>breath</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>rebellion</pp:tag>
+        <pp:tag>treachery</pp:tag>      </pp:tags>
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
