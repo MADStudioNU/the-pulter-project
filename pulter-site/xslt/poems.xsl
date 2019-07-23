@@ -2160,6 +2160,36 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>confinement</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>Earth</pp:keyword>
+        <pp:keyword>revolution</pp:keyword>
+        <pp:keyword>center</pp:keyword>
+        <pp:keyword>astrology</pp:keyword>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sorrow</pp:keyword>
+        <pp:keyword>song</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Earth</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>center</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>song</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
