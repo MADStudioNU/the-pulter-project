@@ -1616,26 +1616,25 @@
         </pp:curation>
       </pp:curations>
       <pp:keywords>
-        <pp:keyword>drink</pp:keyword>
-        <pp:keyword>vision</pp:keyword>
-        <pp:keyword>goddesses</pp:keyword>
-        <pp:keyword>light</pp:keyword>
-        <pp:keyword>dark</pp:keyword>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+        <pp:keyword>drink</pp:keyword>
+        <pp:keyword>vision</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
         <pp:keyword>day</pp:keyword>
         <pp:keyword>night</pp:keyword>
         <pp:keyword>moon</pp:keyword>
         <pp:keyword>flowers</pp:keyword>
         <pp:keyword>praise</pp:keyword>
-        <pp:keyword>soul</pp:keyword>
-        <pp:keyword>body</pp:keyword>
+        <pp:keyword>soul/body</pp:keyword>
         <pp:keyword>insects</pp:keyword>
         <pp:keyword>sighs</pp:keyword>
         <pp:keyword>sexuality</pp:keyword>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>dust</pp:keyword>
-        <pp:keyword>remembrance</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
         <pp:keyword>food</pp:keyword>
         <pp:keyword>Christ</pp:keyword>
