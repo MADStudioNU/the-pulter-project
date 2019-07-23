@@ -523,8 +523,15 @@ div.line {
 }
 
 div.line.with_large_left_marginalia {
+  /*  completely arbitrary amount of left margin, hopefully enough */
   margin-left: 6em;
 }
+
+div.line.with_large_left_marginalia.with_left_gutter_milestone {
+  /*  completely arbitrary amount of left margin, hopefully enough */
+  margin-left: 7em;
+}
+
 
 div.byline {
   font-family: 'Cormorant Garamond', serif;

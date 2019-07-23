@@ -1488,6 +1488,12 @@
                      <xsl:text> </xsl:text>
                      <xsl:text>with_large_left_marginalia</xsl:text>
                   </xsl:if>
+                  <xsl:if test="//tei:app/tei:rdg[contains(@wit, $witId)]//tei:milestone[@rend='left-gutter']">
+                     <xsl:text> </xsl:text>
+                     <xsl:text>with_large_left_marginalia</xsl:text>
+                     <xsl:text> </xsl:text>
+                     <xsl:text>with_left_gutter_milestone</xsl:text>                     
+                  </xsl:if>
                </xsl:attribute>
 
                <xsl:if test="@n">
