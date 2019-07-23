@@ -1616,31 +1616,59 @@
         </pp:curation>
       </pp:curations>
       <pp:keywords>
-        <pp:keyword>drink</pp:keyword>
-        <pp:keyword>vision</pp:keyword>
-        <pp:keyword>goddesses</pp:keyword>
-        <pp:keyword>light/dark</pp:keyword>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
-        <pp:keyword>day/night</pp:keyword>
+        <pp:keyword>goddesses</pp:keyword>
+        <pp:keyword>remembrance</pp:keyword>
+        <pp:keyword>drink</pp:keyword>
+        <pp:keyword>vision</pp:keyword>
+        <pp:keyword>light</pp:keyword>
+        <pp:keyword>dark</pp:keyword>
+        <pp:keyword>day</pp:keyword>
+        <pp:keyword>night</pp:keyword>
         <pp:keyword>moon</pp:keyword>
         <pp:keyword>flowers</pp:keyword>
         <pp:keyword>praise</pp:keyword>
-        <pp:keyword>soul/body</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+        <pp:keyword>body</pp:keyword>
         <pp:keyword>insects</pp:keyword>
         <pp:keyword>sighs</pp:keyword>
         <pp:keyword>sexuality</pp:keyword>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>dust</pp:keyword>
-        <pp:keyword>remembrance</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
         <pp:keyword>food</pp:keyword>
         <pp:keyword>Christ</pp:keyword>
         <pp:keyword>tears</pp:keyword>
         <pp:keyword>Aurora</pp:keyword>
       </pp:keywords>
-      <!--<pp:tags></pp:tags>-->
-    </pp:poem>
+      <pp:tags>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>vision</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>moon</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+      </pp:tags>    </pp:poem>
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
       <pp:firstLine>Walking abroad, once in a summer’s day</pp:firstLine>
