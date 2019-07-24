@@ -414,7 +414,17 @@ $themeColor: #ece9e2;
       }
     }
 
-    //& + .q {}
+    // Nested quotation/citation
+    .q {
+      font-size: .9em;
+      background: #fff;
+      padding: 1.5em;
+      margin-top: 1em;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 
   // Standalone source statements
@@ -634,6 +644,21 @@ $themeColor: #ece9e2;
     p {
       margin-bottom: 0;
       max-width: 100%;
+    }
+  }
+
+  // Inline block note
+  .inline-block-note {
+    background: rgba($pp_manuscriptInk, .04);
+    color: $pp_manuscriptInk;
+    font-size: .8em;
+    display: inline-block;
+    border-left: 2px $pp_manuscriptInk solid;
+    padding: .5em 1.5em .4em .66em;
+    margin-top: 2.25em;
+
+    .marker {
+      margin-right: .5em;
     }
   }
 
