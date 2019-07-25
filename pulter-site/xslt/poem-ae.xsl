@@ -1150,6 +1150,37 @@
     </xsl:element>
   </xsl:template>
 
+  <!-- Figures -->
+  <xsl:template match="tei:figure">
+    <xsl:param name="witId"/>
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'figure-box'"/>
+      </xsl:attribute>
+      <xsl:apply-templates>
+        <xsl:with-param name="witId" select="$witId"/>
+      </xsl:apply-templates>
+    </xsl:element>
+  </xsl:template>
+
+  <!-- Graphics (only images so far) -->
+  <xsl:template match="tei:graphic">
+    <img src="{@url}"/>
+  </xsl:template>
+
+  <!-- Bibliographic references in figures -->
+  <xsl:template match="tei:figure/tei:bibl">
+    <xsl:param name="witId"/>
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'bibl'"/>
+      </xsl:attribute>
+      <xsl:apply-templates>
+        <xsl:with-param name="witId" select="$witId"/>
+      </xsl:apply-templates>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
     <div id="bibPanel">
       <xsl:attribute name="class">
