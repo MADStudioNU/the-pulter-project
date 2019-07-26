@@ -769,6 +769,40 @@
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
+      <pp:firstLine>Let None Sigh More for Lucas or for Lisle</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>rivers</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>smell</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>church</pp:tag>
+        <pp:tag>body</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="16">
       <pp:title>The Revolution</pp:title>
