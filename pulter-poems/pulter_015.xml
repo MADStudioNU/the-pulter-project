@@ -1,3 +1,523 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.15">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Let None Sigh More for Lucas or for Lisle</title>
+        <title type="sub">Poem #15</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_071.jpg" xml:id="f7610_071"/>
+      <graphic url="./document_images/7610_072.jpg" xml:id="f7610_072"/>
+      <graphic url="./document_images/7610_073.jpg" xml:id="f7610_073"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_071" n="34r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_071"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_071"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the <seg>Same<note type="physical">previous poem concludes immediately above on same page</note></seg> [2]</rdg>
+          <rdg wit="#ee"><seg>Let None Sigh More for Lucas or for Lisle<note type="critical">In the manuscript, the title is “On the Same”: a reference to the previous poem in the manuscript, “On the Horrid Murder of that Incomparable Prince, King Charles the First”; we have provided an alternate title for clarity.</note></seg></rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Grief management in the face of public atrocities is a relatively new industry, but Pulter tried her hand at it in this poem, as well as the one before it in the manuscript; both were written as responses to the king’s execution by political opponents. Like the last poem, this one also begins with a ban on grieving <hi rend="italic">wrongly</hi>—in this case, by continuing to mourn the executions of three royalist commanders: George Lisle; Charles Lucas (both lamented in an earlier poem, <ref type="pp-poem-ref" corresp="7">On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>); and Arthur Capel, Pulter’s cousin-in-law. The enormity of the king’s death monopolizes all possible sighs and tears, sparing none for even such remarkable, but still lesser, lights. Pulter allows herself, early on, an outburst of baffled rage at those she could only regard as assassins: “How could they do it?” But soon the poem grows boldly to encompass more than her isolated, frustrated voice, through her ventriloquy of a mourning national church answered by divine assurance of a “second Charles”: possibly a prophetic claim, depending when the poem was written.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Let none Sigh more for Lucas or for Liſle</rdg>
+          <rdg wit="#ee">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">George Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the English civil war, executed by firing squad without trial after their defeat and capture at Colchester in 1648. Pulter makes these two the subject of <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Seing now the very Soule of this Sad Iſle</rdg>
+          <rdg wit="#ee">Seeing now the very soul of this <seg>sad isle<note type="gloss">Britain</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">(At which trembling invades my Soule) is Dead</rdg>
+          <rdg wit="#ee"><seg>(At which trembling invades my soul)<note type="critical">This parenthetical phrase seem to be placed, unusually, in the middle of the clause it modifies: “the very soul of this sad isle / … is dead.” That is, the primary sense appears to be that the speaker’s soul trembles at the death of the king, who is cast as Britain’s soul. However, the placement of the parenthetical phrase immediately after the reference to the king might also suggest that the speaker (or her soul) trembles–perhaps from fearful respect or awe–at the mere thought of her king, alive or dead.</note></seg> is dead,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And with our Sacred Soveraign Spirit’s fled</rdg>
+            <rdg wit="#ee">And with our sacred sovereign spirit’s fled</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">to</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_072" n="34v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_072"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_072"/>
+            </rdg>
+        </app>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">To Heaven, where Smileing he looks down</rdg>
+            <rdg wit="#ee">To Heaven, where, smiling, he looks down</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">And Sees these Monsters Strugling for his Crown</rdg>
+          <rdg wit="#ee">And sees <seg>these monsters<note type="gloss">the king’s opponents in the civil war</note></seg> struggling for his crown,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Whils’t his illustrious brows adorn’d with Glory</rdg>
+            <rdg wit="#ee">Whils’t his illustrious brows, adorned with glory,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Expects the finis of their Tragick Story</rdg>
+          <rdg wit="#ee">Expects the <seg><foreign rend="italic">finis</foreign><note type="gloss">conclusion (a word often placed at the end of a book)</note></seg> of their tragic story.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">How could they doe it; Sure they were afraid</rdg>
+            <rdg wit="#ee">How could they do it? Sure they were afraid,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And therefore call’d in Jews into their Aid</rdg>
+          <rdg wit="#ee">And therefore called in <seg>Jews<note type="critical">Citing Wilcher, Eardley indicates that it was common for Royalists to castigate their opponents as Jews, especially in the wake of the execution of Charles I, who was by analogy figured as Christ. See Robert Wilcher, <title rend="italic">Writing of Royalism, 1628–1660</title> (Cambridge: Cambridge University Press, 2001), 267–69. In <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends</ref>, Pulter draws on the period’s common bigoted rhetoric by labeling anti-Royalists as Jews, Turks and atheists; yet she interestingly chooses as her authorial moniker Haddassah or Esther, a Jewish heroine.</note></seg> into their aid,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Who their Redeemer and their King betray’d</rdg>
+          <rdg wit="#ee">Who <seg>their redeemer and their king<note type="gloss">These terms conflate references to King Charles and Jesus Christ or God.</note></seg> betrayed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Oh Horrid villains could they doe this deed</rdg>
+            <rdg wit="#ee">O, horrid villains! Could they do this deed?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft">To <seg>wound<note type="physical">imperfectly erased ascender (as for “l”) visible above “n”</note></seg> that <seg>Heart<note type="physical">“e” appears crowded between surrounding letters</note></seg> for whom all Should bleed</rdg>
+            <rdg wit="#ee">To wound that heart for whom all should bleed?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">And noble Capell let it bee thy Glory</rdg>
+          <rdg wit="#ee">And noble <seg>Capel<note type="gloss">Arthur Capel (1604–49), first cousin to Pulter’s husband and royalist commander, fought a losing battle at Colchester with Lisle and Lucas; he was imprisoned but escaped, only to be betrayed and then beheaded at the behest of parliament, two months after the king’s execution (ODNB).</note></seg>, let it be thy glory,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Though dead to live in his unparrild Story</rdg>
+          <rdg wit="#ee">Though dead, to live in <seg>his<note type="gloss">the king’s</note></seg> <seg>unparall’d<note type="critical">The manuscript has “unparrild,” for “unparalleled”; we maintain the abbreviation for the meter.</note></seg> story.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Take it not ill that wee could Scarce deplore</rdg>
+          <rdg wit="#ee">Take it not ill that we could scarce <seg>deplore<note type="gloss">lament</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">This Kingdoms loſs in thee when full before</rdg>
+          <rdg wit="#ee">This kingdom’s loss in thee, <seg>when full before<note type="gloss">The speaker asks Capel not to be offended that they could not mourn his death, when they were already full of grief owing to the king’s recent execution.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Thy loſs Heroick Kinsman wounded deep</rdg>
+            <rdg wit="#ee">Thy loss, heroic kinsman, wounded deep,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Had wee had power left to Sigh or weep</rdg>
+            <rdg wit="#ee">Had we had power left to sigh or weep;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Senceles wee were of private deſolation</rdg>
+            <rdg wit="#ee">Senseless we were of private desolation,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+          <rdg wit="#ft">Just like a <seg>&ff;lou[<del>?</del>]d<note type="physical">letter with ascender (possibly “l”) blotted to cancel</note></seg> after an Inundation</rdg>
+          <rdg wit="#ee">Just like a flood after an <seg>inundation<note type="gloss">overflow of water</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">Thus <seg>Nile<note type="physical">“e” appears written over (possibly after) earlier second “l”</note></seg> doth proudly Swell to looſe her name</rdg>
+          <rdg wit="#ee">Thus <seg>Nile doth proudly swell to lose her name<note type="gloss">The Egyptian river “loses [its] name” when it joins the Mediterranean sea and ceases to be a river.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">And bee involved in the Oceans fame</rdg>
+          <rdg wit="#ee">And be <seg>involved<note type="gloss">enveloped</note></seg> in the ocean’s fame;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Thus Stately Volgas in the Caſpian tost</rdg>
+          <rdg wit="#ee">Thus stately <seg>Volga’s in the Caspian<note type="gloss">The Russian river Volga flows into the Caspian Sea.</note></seg> tossed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">And Natures great deſign in thee is lost</rdg>
+          <rdg wit="#ee">And <seg>Nature’s great design in thee is lost<note type="gloss">The speaker suggests that Nature’s plan, in relation to Capel’s fate, cannot be perceived but is nonetheless present (like the rivers dissolved within the ocean or sea).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Soe</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_073" n="35r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_073"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_073"/>
+            </rdg>
+        </app>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Soe Mercury Surrounds the purest Gold</rdg>
+          <rdg wit="#ee"><seg>So Mercury surrounds the purest gold,<note type="gloss">The speaker suggests that mercury has a crucial relation to gold, as Capel does to Charles; the analogy is drawn from alchemy, in which mercury is a base element used to form the more valuable gold.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">And Phœbus beams doth Hermes light infould</rdg>
+          <rdg wit="#ee"><seg>And Phoebus’s beams doth Hermes’s light enfold,<note type="gloss">The speaker carries on the analogy between more and less valuable forms of light (related to Charles and Capel): the sun’s beams (those of Phoebus, the sun god) enclose those of Hermes, a messenger god (also identified with Mercury).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Hideing his Raidient &ff;ulgour from our Sight</rdg>
+          <rdg wit="#ee">Hiding his radiant <seg>fulgor<note type="gloss">dazzling brightness</note></seg> from our sight;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Soe is thy Splenden<add place="below">^</add><add place="above">cie</add> out Shin’d by light</rdg>
+          <rdg wit="#ee">So is thy <seg>splendency<note type="gloss">Capel’s splendor</note></seg> outshined by light.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Thy pardon greatest Soul grant I preſume</rdg>
+          <rdg wit="#ee">Thy pardon, <seg>greatest soul<note type="gloss">Charles I</note></seg>, grant; I presume</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Not to ad odours to thy choice perfume</rdg>
+          <rdg wit="#ee"><seg>Not to add odors to thy choice perfume.<note type="gloss">The speaker assures Charles I that she is not trying to to improve his reputation through her praise of Capel.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">I onely doe it to illustrate forth</rdg>
+            <rdg wit="#ee">I only do it to illustrate forth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">By his great vertue thy tranſcendent worth</rdg>
+          <rdg wit="#ee">By <seg>his<note type="gloss">Capel’s</note></seg> great virtue, <seg>thy<note type="gloss">the king’s</note></seg> transcendent worth.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Heroick Prince now Raiſ’d aboue their hate</rdg>
+            <rdg wit="#ee">Heroic prince, now raised above their hate,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Thou tramplest over Death and advers fate</rdg>
+            <rdg wit="#ee">Thou tramplest over death and adverse fate,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">And as one fate your bodyes did diſſolve</rdg>
+          <rdg wit="#ee">And, as one fate <seg>your bodies<note type="gloss">the king’s two bodies, a legal principle which saw the king to unite, in his person, a mortal, natural body, and an immortal body politic (here treated as “dissolve[d]” through the dissolution of the monarchy through the execution of Charles I).</note></seg> did dissolve,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+          <rdg wit="#ft">Soe <seg>imMortality<note type="physical">corrected from “in Mortality”</note></seg> Shall both involve</rdg>
+          <rdg wit="#ee">So immortality shall both <seg>involve<note type="gloss">envelop</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Just as our Martyrd King his Spirit fled</rdg>
+          <rdg wit="#ee">Just <seg>as<note type="gloss">when</note></seg> our martyred king his spirit fled,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">The Spouſe of Christ hung down her virgin head</rdg>
+          <rdg wit="#ee">The <seg>spouse of Christ<note type="gloss">a conventional term for the Christian church; see Ephesians, 5:22: “the husband is the head of the wife just as Christ is the head of the church.”</note></seg> hung down her virgin head,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+          <rdg wit="#ft">And Sighing Said my ffaiths defender’s <seg>Dead<note type="physical">Curved bracket appears to right of this line and two above it (those ending “fled,” “head,” and “Dead”).</note></seg></rdg>
+          <rdg wit="#ee">And, sighing, said: “<seg>My faith’s defender’s<note type="gloss">“Defender of the Faith” was among the official titles assumed by the monarchs of England at this time.</note></seg> dead.”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Then trickling tears down on her trembling breast</rdg>
+            <rdg wit="#ee">Then trickling tears down on her trembling breast,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">Shee Said (Ay mee) when Shall I Safely Rest</rdg>
+            <rdg wit="#ee">She said, “Ay me! When shall I safely rest?”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">At <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> a voice from Heaven Said weep noe more</rdg>
+          <rdg wit="#ee">At which <seg>a voice from Heaven<note type="gloss"> the voice of God</note></seg> said: “Weep no more;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">Nor my Heroick Champions Death Deplore</rdg>
+          <rdg wit="#ee">Nor my heroic <seg>champion’s<note type="gloss">i.e., Charles I</note></seg> death <seg>deplore<note type="gloss">lament</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+          <rdg wit="#ft">A Second Charles Shall all thy Joyes <seg>Restore<note type="physical">Curved bracket appears to right of this line and two above it (“more,” “Deplore,” and “ Restore”).The next page, marked “66”, is blank.</note></seg></rdg>
+            <rdg wit="#ee">A second Charles shall all thy joys restore.”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

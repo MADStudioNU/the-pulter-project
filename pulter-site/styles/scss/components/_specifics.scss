@@ -55,4 +55,30 @@
       }
     }
   }
+
+  // Poem 68
+  // Custom milestones in EE
+  &.poem-68 {
+    .poem main {
+      .milestone.left-gutter {
+        //height: auto;
+        background: darkgoldenrod;
+        text-align: left;
+        width: 8.5em;
+        margin-left: -6em;
+        font-size: .5em;
+        position: relative;
+        bottom: -.85em;
+
+        @include breakpoint(mobile) {
+          height: auto;
+          margin-bottom: .5em;
+          font-size: 1em;
+          margin-left: 0;
+          text-align: left;
+          max-width: none;
+        }
+      }
+    }
+  }
 }

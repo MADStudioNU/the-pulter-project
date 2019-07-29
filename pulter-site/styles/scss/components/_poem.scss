@@ -1645,6 +1645,25 @@ $defaultStrokeWidth: 6px;
   }
 }
 
+// Figures
+.figure-box {
+  position: relative;
+  margin: 2.25em 0;
+  width: 75%;
+
+
+  img {
+    max-width: 100%;
+    border: 1px solid #181818;
+  }
+
+  .bibl {
+    font-size: .85em;
+    opacity: .75;
+    margin-top: 1em;
+  }
+}
+
 // Curations section
 #ctxs {
   color: rgba(#4f1901, .1);
