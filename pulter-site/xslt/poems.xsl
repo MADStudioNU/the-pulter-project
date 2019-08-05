@@ -3512,6 +3512,13 @@
     </pp:poem>
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
+      <pp:firstLine>When scorned Medea saw Creusa led</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="76">
       <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
