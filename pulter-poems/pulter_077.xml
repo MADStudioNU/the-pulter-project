@@ -1,3 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.77">
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.00">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Dubious Raven (Emblem 11)</title>
+        <title type="sub">Poem #77</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_199.jpg" xml:id="f7610_199"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_199" n="98r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_199"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_199"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 11]</rdg>
+            <rdg wit="#ee">The Dubious Raven (Emblem 11)</rdg>
+            <rdg wit="#ae">The Dubious Raven (Emblem 11)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">Our priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in our view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts). <seg>1<note>1. See Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse”, in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</note></seg> All biblical references are to the King James Version (1612).</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">As often in her emblems, Pulter turns from some odd zoological fact about to offer a moral to an apparent plurality of listeners—here, an “us,” soon transmuted to a “thee”—before ending by addressing herself alone. But where other emblems seek a broad audience—such as the “parents” in <ref type="pp-poem-ref" corresp="73">The Indian Moose (Emblem 7)</ref>—here her “us” and “thee” seem, by poem’s end, identical with the speaker herself, or no more than herself and her “soul.” She counsels the latter against despair in the face of trying circumstances: dying friends and relations; parents bereft of comfort; her only love forsaking her. In the face of all this, the speaker proffers this little tidbit: did you know that God listens to raven mothers in their crises of faith–if only as to the parentage of their offspring? He does, by helpfully providing feathers that identify them as her own! So why should people worry? As if to forestall any number of easy comebacks, the speaker then rapidly changes the subject, while sticking with the general raven theme, by noting that God also deployed these birds, despite their hard hearts, to feed Elijah. How these matters interrelate (beyond their shared raven quotient) is unclear, but she links them loosely to a kind of lesson: “Thus God’s affections altereth every hour / To show to us His infinite love and power.” Is this … reassuring? Sometimes God likes ravens enough to have them feed his favourites; sometimes not so much, so they don’t even know their own babies. Uneasily, Pulter suggests that in the face of our uncertain (“dubious”) mortal circumstances, faith in God’s mercy—unpredictable yet infinite—is the only recourse, from ravens on up; and if ravens can handle it, so can she.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote"><p>In Emblem 11, Pulter fuses natural history with biblical citation to reinforce her readers’ trust in God. She draws on Pliny’s description of the raven in his Natural History, reintroducing the theme of parental love that we see in other emblems, such as <ref type="pp-poem-ref" corresp="71">“The Manucodiats” (Emblem 5)</ref> and <ref type="pp-poem-ref" corresp="73">The Indian Moose (Emblem 7)</ref>. Regarding the raven’s parental attitude as one of neglect and abandonment, Pulter disavows this behaviour. Her analogous treatment of another one of Pliny’s birds, the eagle, which appears in “The Indian Moose”, offers another instance of parental neglect.</p>
+                  <p>The focus of Pulter’s attention in this emblem, however, is less on those who are neglectful parents than it is on those who are neglected. The “callow” ravens are left defenceless in their young age, and God becomes their surrogate parent, taking care of them despite the cultural stigma surrounding these carrion-eating birds (line 2). Pulter poses the question: if God can respond so generously to the needs of ravens, “Why should His children then so faint and fear?” (line 6). She could be offering this as a consolation to herself, or to her own children, assuring them that trust in God will protect them even when “thy father and thy mother be / In no capacity to comfort thee” (lines 15-6). Her message is one of faith, emphasising that no matter how dire the circumstances, “sorrow” and “fear” are wasted given that God’s love is the ultimate provision (line 17). In the final couplet, Pulter directs the emblematic message most clearly at herself, countering her own “despair” with the reassurance that, if she has patience, God will respond (line 20). Here, Pulter herself is the young raven in the face of neglect.</p>
+                  <p>In establishing the raven as this emblem’s central image, Pulter draws on multiple depictions of the bird to justify her didactic portrayal of God as a carer for those without parents. Notes in the left-hand margin are keyed to specific words in the poem with a set of markers running “a” to “d”, explicitly indicating Pulter’s sources. These sources, which we detail in the line notes to the poem, include the biblical books of Psalms, Job, and Luke, Robert Sanderson’s <title rend="italic">Twenty Sermons Formerly Preached</title>, and Pliny’s <title rend="italic">Natural History</title>. The source notes are in the scribe’s hand, and so form part of the original poem’s presentation in Pulter’s manuscript; however, we have chosen to treat them as marginal notes, rather than an integral part of the poem. This contrasts with the marginal material that accompanies our edition of <ref type="pp-poem-ref" corresp="68">Come, My Dear Children</ref>, which we have treated as essential to the main text. Pulter’s use of marginal annotations in this poem could be compared to Lucy Hutchinson’s practice of including scriptural references in the margins of her biblical poem <title rend="italic">Order and Disorder</title>: see Elizabeth Scott-Baumann, “Lucy Hutchinson, the Bible and <title rend="italic">Order and Disorder</title>” (<title rend="italic">The Intellectual Culture of Puritan Women 1558-1680</title> [London: Palgrave Macmillan, 2011], pp. 176-89).</p>
+                
+            </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">The Dubious <seg><add place="above">a</add><note type="physical">in left margin: “a: Pſalm :147.v:9 / Job: 38: 41. / Luke: 12: 24 / See Doctor / Sanderſon out / of Aristottle / his 6 Hist: / Anui 6 / And Plinie / Natural Hist / 10: 12”</note></seg> Raven doth her young forſake</rdg>
+            <rdg wit="#ee">The <seg>dubious<note type="gloss">doubtful, uncertain</note></seg> <seg>raven<note type="critical">This poem features many marginal notes in the hand of the main scribe. Here, a marginal note cites sources for the raven: Psalm: 147:9 (“He giveth to the beast his food, and to the young ravens which cry.”); Job: 38:41 (“Who provideth for the raven his food? when his young ones cry unto God, they wander for lack of meat.”); Luke: 12:24 (“Consider the ravens: for they neither sow nor reap; which neither have storehouse nor barn; and God feedeth them: how much more are ye better than the fowls?”); and “Doctor Sanderson out of Aristotle … and Pliny,” which seems to be a reference to Robert Sanderson: “if God so sufficiently provide for the young ravens, when the dams forsake them: will he not much more take care of us, when our fathers and mothers forsake us? Are not we (stamped with his own image) much more valuable with him than many ravens[?]” <title rend="italic">Twenty Sermons Formerly Preached</title> (London, 1656), p.282. See the same author: “sometimes he [God] commanded the ravens to feed Elijah; a bird so unnatural to her young ones, that they might famish for her, if God did not otherwise provide for them; and therefore it is noted in the Scripture as a special argument of God’s providence, that he feedeth the young ravens that call upon him.” <title rend="italic">Two Sermons Preached at Paul’s Cross London</title> (London, 1628), p.115. Sanderson cites the same sources that appear in Pulter’s margin.</note></seg> doth her young forsake;</rdg>
+            <rdg wit="#ae">The <seg>dubious<note type="critical">Pulter uses the figure of the raven and its changeable attitude towards its young to support her description of God’s aid to those parentless. Hence, dubious here means wavering or fluctuating in opinion (<title rend="italic">OED</title> 2); and also of questionable or suspected character (<title rend="italic">OED</title> 1d).</note></seg> <seg>raven<note type="critical">A marker “a” above this word links to a marginal note in the scribal hand, listing Pulter’s sources for her construction of this image as “Psalm 147. v.9, Job 38:41, Luke 12:24, See Doctor Sanderson out of Aristotle his 6 Hist. Anui 6 and Pliny, Natural Hist. 10: 12”. Psalm 147.9 is: “He giveth to the beast his food: and to the young ravens which cry”. Job 38.41 is: “Who provideth for the raven his food? when his young ones cry unto God, they wander for lack of meat”. Luke 12.24 is: “Consider the raven, for they neither sow nor reap, which neither have storehouse nor barn, and God feedeth them: how much more are ye better than the fowls”. The Robert Sanderson note refers to a 1647 sermon preached at Woburn, where he states “He [God] feedeth the young ravens that call upon him”, noting that “ravens are observed soonest to forsake their yong ones”. He adds that, “whether the observation hold or no, it serveth to [his] purpose …  for it God so sufficiently provide for the yong ravens, when the dams forsake them: will he not much more take care of us, when not our Fathers and Mothers forsake us” (<title rend="italic">Twenty Sermons Formerly Preached</title> [1656], 828). Both Pliny and Aristotle provide accounts indicative of this representation. Pliny describes “unluckie” ravens who, upon perceiving “their young … [as] strong, chase and drive them away farre off”, while Aristotle describes the raven “eject[ing]” its chicks from the nest (Pliny, <title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>. Trans. Philemon Holland. Vol. 1 [1635], 276; Aristotle, <title rend="italic">Historia Animalium</title>, trans. A. L. Peck [London: William Heinemann, 1970], 6.6).</note></seg> doth her young forsake</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Whil’st Callow Shee noe Care of them will Take</rdg>
+            <rdg wit="#ee">Whilst <seg>callow<note type="gloss">without feathers</note></seg>, she no care of them will take</rdg>
+            <rdg wit="#ae">Whilst <seg>callow<note type="critical">of a young bird; without feathers, unfledged (OED 3a). Our punctuation of lines 1-2 differs from the Elemental Edition and Eardley, emphasising instead that “callow” applies to the “young” of line one, rather than the maternal “she” of line 2. The lines are unpunctuated in the manuscript.</note></seg>; she no care of them will take</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Till Shee peceives  their Plumes of Sable hew</rdg>
+            <rdg wit="#ee">Till she perceives their plumes of sable hue,</rdg>
+            <rdg wit="#ae">Till she perceives their plumes of <seg>sable hue<note type="gloss">black; of a dark colour</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">They beeing Nouriſhed with Celestiall Dew</rdg>
+            <rdg wit="#ee">They being nourished with <seg>celestial dew<note type="gloss">i.e, God provides for the young ravens.</note></seg>.</rdg>
+            <rdg wit="#ae">They being nourished with <seg>celestial dew<note type="critical">pertaining to heaven as the abode of God (<title rend="italic">OED</title> 2a); heavenly dew. Pulter suggests that it is God’s nourishment that provides the young ravens with the sustenance to grow. In the Bible, Elijah, whom Pulter references in line 8, condemns Ahab and Jezebel’s mutiny against God when he prophesizes that “there shall not be deaw nor raine these yeres”, possibly informing her use of the word “dew” as a provision by God given only to those deserving of it (KJV 1 Kings 17:1; see note for line 8). For another biblical representation of dew as a heavenly substance used by God as a signal to Prophet Gideon, see Judges 6:36-40.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">If God the voice of Volliteeles doth hear</rdg>
+            <rdg wit="#ee">If God the voice of <seg>volatiles<note type="gloss">flying creatures</note></seg> doth hear,</rdg>
+            <rdg wit="#ae">If God the voice of <seg>volatiles<note type="gloss">birds, or winged creatures in general (<title rend="italic">OED</title> 1, 2)</note></seg> doth hear,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Why Should his Children then Soe &ff;aint &amp; &ff;ear</rdg>
+            <rdg wit="#ee">Why should His children then so faint and fear?</rdg>
+            <rdg wit="#ae">Why should His children then so faint and fear?</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">T’was hee that theſe hard Hearted Birds did make</rdg>
+            <rdg wit="#ee">’Twas He that these hard-hearted birds did make</rdg>
+            <rdg wit="#ae">’Twas He that these <seg>hard-hearted birds<note type="critical">Alliteration here creates a hard sound to draw attention to the callous nature of the raven; this highlights the power of God to turn even the most uncaring birds into devoted servants.</note></seg> did make</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Of his <seg><add place="above">b</add><note type="physical">in left margin: “b: 1st of Kings / chap: 17: v: 4th”</note></seg>Eliah conſtant care to take</rdg>
+            <rdg wit="#ee"><seg>Of<note type="gloss">A marginal note offers a source for this passage on Elijah in 1 Kings 17:4, where God declares, “And it shall be, that thou [Elijah] shalt drink of the brook; and I have commanded the ravens to feed thee there.”</note></seg> His Elijah constant care to take;</rdg>
+            <rdg wit="#ae">Of His <seg>Elijah<note type="gloss">A marker “b” above “Elijah” links to a marginal notation: “1<add place="above">st</add> of Kings, chap. 17. V. 4”. 1 Kings 17.4 is: “And it shall bee, that thou shalt drinke of the brooke, and I have commanded the ravens to feed thee there”. In the Bible, Elijah prophesizes that the Kingdom of Israel, led by Ahab and his wife Jezebel, will suffer a drought where no “dew nor rain” shall fall, as a punishment for their idolatry and disloyalty to Yahweh. To protect Elijah from their retaliation, God orders him to hide “by the brooke Cherith” where he promises to send ravens with food to him (1 Kings 17:3-4).</note></seg> constant care to take;</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">When hee involved was in want and Sorrow</rdg>
+            <rdg wit="#ee">When he involvéd was in want and sorrow,</rdg>
+            <rdg wit="#ae">When he involved was in want and sorrow,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">They brought him Bread and &ff;leſh both E’ve &amp; Morrow</rdg>
+            <rdg wit="#ee"><seg>They brought him bread and flesh both eve and morrow.<note type="gloss">1 Kings 17:4: “And the ravens brought him [Elijah] bread and flesh in the morning, and bread and flesh in the evening.”</note></seg></rdg>
+            <rdg wit="#ae">They brought him bread and <seg>flesh<note type="gloss">Ravens are known as flesh eating birds who feed on carrion.</note></seg> both eve and morrow.</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Thus <seg>Gods<note type="physical">“s” appears blotted</note></seg> affections altereth Every hower</rdg>
+            <rdg wit="#ee">Thus God’s affections altereth every hour</rdg>
+            <rdg wit="#ae">Thus <seg>God’s affections altereth every hour<note type="gloss">Pulter contrasts the ravens’ “constant care” of Elijah, feeding him during the drought, with God’s apparently fluctuating affections, which she construes as a positive virtue. Divine inconstancy is a providential display of God’s superior love and power.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">To Shew to us <seg>his<note type="physical">“h” in different hand from main scribe and darker ink</note></seg> infinite Love and Power</rdg>
+            <rdg wit="#ee">To show to us His infinite love and power.</rdg>
+            <rdg wit="#ae">To show to us His infinite love and power.</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Then as thy &ff;reinds and near Relations Die</rdg>
+            <rdg wit="#ee">Then as thy friends and near relations die,</rdg>
+            <rdg wit="#ae">Then as thy friends and near relations die</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">To him alone (to him) for comfort &ff;lie</rdg>
+            <rdg wit="#ee">To Him alone (to Him) for comfort fly;</rdg>
+            <rdg wit="#ae">To Him alone (to Him) for comfort fly;</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">&ff;or though thy &ff;ather and thy Mother bee</rdg>
+            <rdg wit="#ee">For though thy father and thy mother be</rdg>
+            <rdg wit="#ae">For though thy father and thy mother be</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">In noe Capacitie to Comfort thee</rdg>
+            <rdg wit="#ee">In no capacity to comfort thee;</rdg>
+            <rdg wit="#ae">In no capacity to comfort thee,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">And though Succeſſive Sorrows and new &ff;ears</rdg>
+            <rdg wit="#ee">And though successive sorrows and new fears</rdg>
+            <rdg wit="#ae">And though successive sorrows and new fears</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Makes thee his <seg><add place="above">d</add><note type="physical">in left margin: “d: Mallachi / chap: 2: v: 13”</note></seg> Alter cover or’e with Tears</rdg>
+            <rdg wit="#ee"><seg>Makes<note type="gloss">A marginal note offers a source for this passage on the altar in Malachi 2:13: “And this have ye done again, covering the altar of the Lord with tears, with weeping, and with crying out, insomuch that he regardeth not the offering any more, or receiveth it with good will at your hand.”</note></seg> thee His altar cover o’er with tears;</rdg>
+            <rdg wit="#ae">Makes thee His <seg>altar<note type="critical">A marker “d” above “altar” links to a marginal notation: “Malachi chap. 2. V. 13”. Malachi 2.13 is: “And this have ye done again, covering the altar of the Lord with tears, with weeping, and with crying out, insomuch that he regardeth not the offering any more, or receiveth it with good will at your hand”. This specific verse reiterates God’s disapproval of excessive displays of remorse and supplication, especially when these only occur after being punished. Pulter allusion here suggests that even when loved ones die, God will be there to provide the guidance and love one feels they have lost, hence excessive sadness is not necessary. Contextually, the book of Malachi is the final book in the Old Testament, and it serves as a prophecy for the coming of Christ in the New Testament, suggesting that those who are good must persevere until he comes (Eardley, “An Edition of Lady Hester Pulter’s Book of ‘Emblemes’”. PhD diss., University of Warwick [2008], 35). Thus, Pulter utilizes this to provide her own didactic message of respite: regardless of the bad that happens, God will give refuge to those in need.</note></seg> cover o’er with tears,</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Nay though thy onely Love doth thee &ff;orſake</rdg>
+            <rdg wit="#ee">Nay, though thy only love doth thee forsake,</rdg>
+            <rdg wit="#ae">Nay, though thy only love doth thee forsake,</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Yet hee will then, thee to his Mercie take</rdg>
+            <rdg wit="#ee">Yet He will then thee to His mercy take.</rdg>
+            <rdg wit="#ae">Yet He will then thee to His mercy take.</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Deſpaire not then my Soul but Patient bee</rdg>
+            <rdg wit="#ee">Despair not then my soul, but patient be,</rdg>
+            <rdg wit="#ae">Despair not then, my soul, but patient be,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">&ff;or hee that hear’s Young Ravens will hear thee.</rdg>
+            <rdg wit="#ee">For He that hears young ravens will hear thee.</rdg>
+            <rdg wit="#ae">For He that hears young ravens will hear thee.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
