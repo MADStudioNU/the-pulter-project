@@ -118,15 +118,15 @@
         <pp:tag>grief</pp:tag>
         <pp:tag>rivers</pp:tag>
       </pp:tags>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Liza Blake</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="come-away">
           <pp:author>Liza Blake</pp:author>
@@ -3512,12 +3512,34 @@
     </pp:poem>
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
+      <pp:firstLine>When scorned Medea saw Creusa led</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="76">
       <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
     </pp:poem>
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
+      <pp:firstLine>The dubious raven doth her young forsake</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="78">
       <pp:title>This Vast Leviathan (Emblem 12)</pp:title>

@@ -1,3 +1,383 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.75">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Scorned Medea (Emblem 9)</title>
+        <title type="sub">Poem #75</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_196.jpg" xml:id="f7610_196"/>
+      <graphic url="./document_images/7610_197.jpg" xml:id="f7610_197"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>Millie Godfery</persName> and <persName>Sarah C. E. Ross</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each pagebreak should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_196" n="96v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_196"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_196"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 9]</rdg>
+          <rdg wit="#ee">Scorned Medea<lb/>(Emblem 9)</rdg>
+          <rdg wit="#ae">Scorned Medea<lb/>(Emblem 9)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote">Our priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in our view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts). <seg>1<note>1. See Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse”, in <title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</note></seg> All biblical references are to the King James Version (1612).</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Pulter here portrays two women, each betrayed in love by a man, and each responding to such betrayal in perfectly polar ways: Medea grows outrageously homicidal, while Ariadne’s patient piety is divinely rewarded. These contrasting portraits are then processed into a rather pat moral: “So,” the speaker calmly advises, if you’re afflicted, don’t go stabbing your children and poisoning your rival; just trust in God. The emblem might now be complete—but Pulter doesn’t stop. She proceeds to offer what seems a superfluous warning to “those / That injure others”: “not to trust their foes.” The warning’s utility emerges only in the final couplet, as the poem involutes toward its speaker’s special challenge: “my enemies within me be.” Rather than identifying with the wronged Creusa and Ariadne, or even an avenging Medea, the speaker offers a more terrifying prospect: others betray others, but she cannot trust <hi rend="italic">herself</hi>. She begs deliverance from this self-betraying self, a Creusa to her own Medea: an odd and unexpected doubling and division of Pulter’s otherwise often quite unitary-seeming identity.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote">
+              <p>Medea’s vengeance is this emblem’s central image, as Pulter moralises on the consequences of revenge, both for those who seek it, and those whose actions might provoke it. The story, relayed in Ovid’s <title rend="italic">Metamorphoses</title>, begins when Jason, leader of the Argonauts, arrives in Colchis to retrieve the Golden Fleece, which his uncle Pelias has requested in exchange for the throne of Iolcus. In Colchis, King Aeetes sets Jason three challenges he must complete in order to receive the fleece, and, in a “violent conflict between reason and passion”, Aeetes’ daughter Medea decides to aid him (Sandys 252).<seg>1<note type="gloss">George Sandys’s translation of <title rend="italic">Ovid’s Metamorphoses Englished</title> (1632) is the most contemporaneous translation to Pulter’s writing, and so we have used it as our point of reference in this edition [New York: Garland Publishing, 1976].</note></seg> Jason promises to marry Medea in return for her help, and they flee to Iolcus, where Medea then further assists her husband by murdering Pelias. When she returns to her husband, however, she discovers he has married Creusa, the daughter of King Creon. It is from this point that Pulter documents the revenge Medea enacts for this betrayal: setting fire to Creusa and committing infanticide.</p>
+              <p>Pulter contrasts Medea’s active display of revenge with the analogous story of Ariadne, also in the <title rend="italic">Metamorphoses</title>, whose passive response to a similar abandonment by her husband Theseus is to marry and devote herself to another, Bacchus. Where Medea’s “mad impiety” goes as far as to “dare the Gods to do as much by her”, Ariadne implores the “pity” of the Gods and is rewarded with a crown of constellations (lines 13, 14, 18). The moralising turn Pulter takes at the end of the poem is perhaps unexpected, however, as she moves her focus from comparing the actions of both women to instead highlighting the fate of Creusa as warning to “all those / That injure others not to trust their foes” (lines 23-4). It is worth noting that both women also appear as speakers in Ovid’s <title rend="italic">Heroides</title>, a text which also may have informed Pulter. This series of epistolary laments written by Ovid engage in the complaint genre to give Medea and Ariadne (alongside other female figures from Greek mythology) female-voiced narratives expressing the rejection and frustration they suffer in the <title rend="italic">Metamorphoses</title> (<title rend="italic">Heroides</title>, translated by John Sherburne [1639], pp. 55-61, 66-74). Pulter herself was well acquainted with the complaint genre: see <ref type="pp-poem-ref" corresp="4">The Complaint of Thames, 1647</ref>, <ref type="pp-poem-ref" corresp="6">Universal Dissolution</ref>, and <ref type="pp-poem-ref" corresp="56">A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</ref> for examples of political and religious complaints.</p>
+              <p>From line 21, Pulter shifts from her classical narrative to a Christian moral, suggesting that “trust in God” will, like Aradne’s piety, be “crowned” in reward. This movement from classical to Christian interpretation is affirmed in her final couplet, as she takes an inward turn to reflect on her own mortal condition and her susceptibility to sin. She asks God to “deliver” her from any “enemies” within, fearing that her own self is worse than the Medeas and Creusas of the world (lines 26, 25). This phrase echoes Matthew 6:13 [“deliver us from evil”], demonstrating a repurposing of the plural “us” to appeal to God for assistance from the “enemies” that she fears exist within her. Pulter here displays a “psalmic inwardness” which affirms the movement from a classical to Christian moral, as Pulter adapts the emblem form to conclude in self-reflection (Rachel Dunn [Zhang]. “Breaking a Tradition: Hester Pulter and the English Emblem Book”, <title rend="italic">The Seventeenth Century</title>, 30.1 [2015], 64). Thus, her ninth emblem offers a complex display of didacticism, offering three didactic resolutions: first, she encourages readers to be patient and devout like Ariadne, then she uses Creusa as a reminder to be aware of how one’s actions can provoke enemies, and finally she concludes with a meditation on her own fallibility. Her use of Ovid’s mythology to give greater affinity to her moral and religious expressions demonstrates a sophisticated engagement in contemporary humanist discourses, one that can also be seen in her comparison of the biblical figure Nimrod with Ovid’s ambitious giants in <ref type="pp-poem-ref" corresp="67">Mighty Nimrod (Emblem 1)</ref>.</p>
+            </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>When<note type="physical">poem begins on same page as previous poem ends</note></seg> <seg>Sco<del>o</del>rnd<note type="physical">second “o” blotted</note></seg> Medea Saw Crueſa led</rdg>
+            <rdg wit="#ee">When scorned <seg>Medea<note type="gloss">in various accounts of Greek myth, a princess and sorceress who fell in love with, married, and had children with Jason, who later abandoned her for Creusa</note></seg> saw Creusa led</rdg>
+          <rdg wit="#ae">When <seg>scorned<note type="gloss">despised, contemptible (<title rend="italic">OED</title>)</note></seg> <seg>Medea<note type="critical">daughter of Aeetes and Hecate, descendant of the sun god Helios. Pulter’s retelling of Medea’s revenge, which appears similarly in Book Seven of Ovid’s <title rend="italic">Metamorphoses</title>, is the basis for this emblem’s narrative of revenge. Proceeding from the point at which Medea discovers her beloved Jason has married Creusa, Pulter’s poem describes how Medea is spun into a vengeful stupor, demonstrating, as Sandys writes in his interpretation of Ovid’s text, that “no hatred is so deadly as that which proceeds from alienated love” (258). See Headnote for a detailed account of Medea’s story and its role in the emblem.</note></seg> saw <seg>Creusa<note type="gloss">daughter of King Creon and wife of Jason, Medea’s husband</note></seg> led,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">A Bride to her <seg>ungratefull<note type="physical">“ll” written over another letter</note></seg> Spouſes Bed</rdg>
+            <rdg wit="#ee">A bride to her ungrateful spouse’s bed,</rdg>
+          <rdg wit="#ae">A bride to her <seg>ungrateful spouse’s<note type="gloss">Medea’s husband Jason, who, while she is away on a mission to murder the King of Iolcus and restore his birthright to the throne, marries Creusa, breaking Medea’s heart. Pulter describes him as “ungrateful”, given the faithful way in which Medea has aided him in his quest for the Golden Fleece and restoration of the throne; see Headnote.</note></seg> bed,</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Shee Vow’d Reveng hid underneath a Smile</rdg>
+            <rdg wit="#ee">She vowed revenge, hid underneath a smile</rdg>
+          <rdg wit="#ae">She vowed revenge hid underneath a smile,</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Which did the Royall Virgin Soe beguile</rdg>
+            <rdg wit="#ee">Which did the <seg>royal virgin<note type="gloss">Creusa was the daughter of King Creon of Corinth.</note></seg> so beguile</rdg>
+          <rdg wit="#ae">Which did the <seg>royal virgin<note type="gloss">Creusa; see note for line 1</note></seg> so <seg>beguile<note type="gloss">deceive, delude (<title rend="italic">OED</title> 1a)</note></seg></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">That Shee Receiv’d of her the Robe &amp; Crown</rdg>
+            <rdg wit="#ee">That <seg>she<note type="gloss">Creusa</note></seg> received of <seg>her<note type="gloss">Medea</note></seg> the robe and crown</rdg>
+          <rdg wit="#ae">That she received of her the <seg>robe and crown<note type="gloss">In Sandys’s account of the story, Medea “sends a Crowne and a robe to Creusa, infected with magicall poyson: which being put on, sets her all on a flame: consuming Creon also, who came to her rescue” (Sandys 259).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">And overjoyed put on the Napthian Gown</rdg>
+            <rdg wit="#ee">And, overjoyed, put on the <seg>Napthian gown<note type="gloss">Naphtha was a flammable substance of liquid petroleum, used by Medea on Creusa’s wedding gown to burn her to death.</note></seg>;</rdg>
+          <rdg wit="#ae">And overjoyed put on the <seg>napthian gown<note type="gloss">Pliny’s <title rend="italic">Natural History</title> describes the substance naphtha as having a “great affinitie” with fire, which will “leap onto it immediately”. Here, Pliny reaffirms the link between naphtha and Medea, as he writes “Medea burnt her husbands concubine, by reason that her guirland annointed therewith, was caught by the fire, after she approached neere to the alters, with purpose to sacrifice” (<title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>. Trans. Philemon Holland. Vol. 1 [1635], 47).</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">But putting holy Incence in the &ff;ire</rdg>
+            <rdg wit="#ee">But, putting holy incense in the fire,</rdg>
+          <rdg wit="#ae">But putting holy incense in the fire,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The Pallas Soone became her &ff;un’rall Pier</rdg>
+            <rdg wit="#ee">The palace soon became her funeral pyre.</rdg>
+          <rdg wit="#ae">The palace soon became her fun’ral pyre;</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Then &ff;ierce Medea <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> her Dragons &ff;lew</rdg>
+            <rdg wit="#ee">Then fierce Medea with <seg>her dragons<note type="gloss">Medea’s chariot was drawn by dragons given to her by her grandfather, Helios, god of the sun.</note></seg> flew,</rdg>
+          <rdg wit="#ae">Then fierce Medea <seg>with her dragons flew<note type="gloss">Ovid writes “The ill-reveng’d [Medea] from Jasons fury fled. / Whom now the swift Titanian Dragons draw / To Pallas towres”, describing Medea’s escape to Athens on the dragons provided by her mother Hecate, who was a descendant of the Titans (Sandys 240).</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Killing her Children in their &ff;athers view</rdg>
+            <rdg wit="#ee"><seg>Killing her children in their father’s view.<note type="gloss">In some accounts, Medea deliberately murdered some of her children.</note></seg></rdg>
+          <rdg wit="#ae"><seg>Killing her children in their father’s view.<note type="gloss">Medea commits infanticide, killing her children Mermerus and Pheres, while Jason watches (Sandys 240).</note></seg></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Oh</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_197" n="97r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_197"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_197"/>
+            </rdg>
+        </app>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Oh Horrid! Shee (even Shee) that gave them Birth</rdg>
+            <rdg wit="#ee">O, horrid! She (even she) that gave them birth</rdg>
+          <rdg wit="#ae">Oh horrid! She (even she) that gave them birth,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Stab’d thoſe Sweet Boys then &ff;lung them to <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Earth</rdg>
+            <rdg wit="#ee">Stabbed those sweet boys, then flung them to the earth.</rdg>
+          <rdg wit="#ae">Stabbed those sweet boys, then flung them to the earth;</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Her mad Impiety did Rise thus &ff;ar</rdg>
+            <rdg wit="#ee">Her mad impiety did rise thus far</rdg>
+          <rdg wit="#ae">Her mad impiety did rise thus far</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">To dare the Gods to doe as much by Her</rdg>
+            <rdg wit="#ee">To dare the gods to do as much by her.</rdg>
+          <rdg wit="#ae">To dare the Gods to do as much by her.</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Poor Ariadna did not Soe when Shee</rdg>
+            <rdg wit="#ee">Poor <seg>Ariadne<note type="gloss">a figure of Greek myth; as Eardley notes, Theseus (not Jason) is usually seen as the husband who abandons her on the island of Naxos; Pulter conflates the mythological stories.</note></seg> did not so when she</rdg>
+          <rdg wit="#ae"><seg>Poor Ariadne<note type="gloss">Pulter draws on the analogous myth of Ariadne, which is also recounted in <title rend="italic">Metamorphoses</title>. Ariadne is the goddess of the labyrinth, and, upon falling in love with Theseus, who comes to Crete as a victim to be sacrificed for the Minotaurus, helps him to escape by giving a ball of string and instructions to find his way out of the labyrinth. She elopes with him to the Island of Dia; however, once they arrive Theseus, “forgetfull of the many merits of Ariadne, steales away by night, and forsakes his sleeping preserver” (Sandys 288-9).</note></seg> did not so when she</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">&ff;air Phedra in falce Jaſons Arms did See</rdg>
+            <rdg wit="#ee">Fair Phaedra in false Jason’s arms did see;</rdg>
+          <rdg wit="#ae">Fair <seg>Phaedra<note type="gloss">wife of Theseus and sister of Ariadne</note></seg> in false <seg>Jason’s<note type="gloss">Pulter appears to conflate the two stories of Medea and Ariadne, as she references “Jason”. Traditionally, it is Theseus who abandons Ariadne on the island of Naxos and marries her sister Phaedra.</note></seg> arms did see;</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">When Shee forſaken was on Naxus Shore</rdg>
+            <rdg wit="#ee">When she forsaken was on Naxos’s shore,</rdg>
+          <rdg wit="#ae">When he forsaken was on <seg>Naxos’ shore<note type="gloss">Ariadne and Theseus first arrive here upon eloping from Athens, only to discover it is Bacchus’s territory. Theseus abandons Ariadne in the middle of the night; see note for line 16.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">The Pitty of the Gods Shee did implore</rdg>
+            <rdg wit="#ee">The pity of the gods she did implore.</rdg>
+          <rdg wit="#ae">The pity of the gods she did implore;</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Then Liber Pater took her for his Spouſ</rdg>
+            <rdg wit="#ee">Then <seg>Liber Pater<note type="gloss">the god Dionysus; as Eardley notes, the crown he gives her is usually understood to have seven stars (the “orbs” in the next line), not nine.</note></seg> took her for his spouse;</rdg>
+          <rdg wit="#ae">Then <seg>Liber Pater<note type="gloss">Italian god of wine and fertility, often associated with Bacchus. After being left on Naxos, Bacchus discovers Ariadne and takes pity on her, making her his wife; see notes for lines 15 and 16.</note></seg> took her for his spouse;</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">With Nine Refulgent Orbs hee Crownd her brows</rdg>
+            <rdg wit="#ee">With nine <seg>refulgent<note type="gloss">radiant, bright</note></seg> orbs he crowned her brows.</rdg>
+          <rdg wit="#ae"><seg>With nine refulgent orbs he crowned her brows.<note type="gloss">In the myth of Ariadne, Bacchus converts her crown into a constellation “consist[ing] of eyght starrs” when he marries her. Upon Ariadne’s death, Bacchus then sets the crown among the stars, immortalising her in constellation (Sandys 290). Pulter’s constellation consists of nine rather than eight stars.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Soe though afflictions doth thy Soul surround</rdg>
+            <rdg wit="#ee">So, though afflictions doth thy soul surround,</rdg>
+          <rdg wit="#ae">So, though afflictions doth thy soul surround,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Yet trust in God they Patience will bee Crownd</rdg>
+            <rdg wit="#ee">Yet trust in God thy patience will be <seg>crowned<note type="gloss">glorified; rewarded</note></seg>.</rdg>
+          <rdg wit="#ae">Yet trust in God <seg>thy patience will be crowned<note type="critical">echoes Hebrews 6:12: “them who through faith and patience inherit the promises”. Fusing this New Testament echo and her classical story, Pulter moralises on her comparison between Medea and Ariadne, praising Ariadne’s passive response to Theseus’s betrayal of her. She emphasises that God will reward Ariadne’s reaction, as opposed to Medea’s violent revenge.</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then let this &ff;lameing &ff;abrick Warn all thoſe</rdg>
+            <rdg wit="#ee">Then let this <seg>flaming fabric<note type="critical">Since “fabric” can refer to cloth or a building, the phrase might refer to the torched “gown” (l.6) or the “palace” (l.8) that became Medea’s pyre.</note></seg> warn all those</rdg>
+          <rdg wit="#ae">Then let this <seg>flaming fabric<note type="gloss">Creusa’s “napthian gown” which sets on fire (line 6)</note></seg> warn all those</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">That injure others not to trust their &ff;oes</rdg>
+            <rdg wit="#ee">That injure others not to trust their foes:</rdg>
+          <rdg wit="#ae">That injure others not to trust their foes.</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">But oh my Enemies within mee bee</rdg>
+            <rdg wit="#ee">But O, my enemies within me be</rdg>
+          <rdg wit="#ae">But O! My enemies within me be;</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Then &ff;rom my Self Dear God deliver <seg>mee<note type="physical">remaining quarter-page blank</note></seg>.</rdg>
+            <rdg wit="#ee">Then from <seg>my self<note type="critical">The manuscript features a space between these words, which we have chosen to retain rather than to render them as a single word.</note></seg>, dear God, deliver me.</rdg>
+          <rdg wit="#ae">Then from <seg>my self<note type="critical">In contrast to the Elemental Edition and Eardley, we have preserved Pulter’s original spacing here, as it nicely isolates this entity of the “self” as an entity over which the speaker does not have control. Hence she turns to God, asking for his protection against the “enemies” which might deter her “self” from an appropriate path.</note></seg>, dear God, <seg>deliver me<note type="critical">a phrase which echoes Matthew 6:13: “deliver us from evil”. Pulter’s use of the plural “us,” as explained in the headnote, internalizes the external “enemies” of the biblical passage.</note></seg>.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

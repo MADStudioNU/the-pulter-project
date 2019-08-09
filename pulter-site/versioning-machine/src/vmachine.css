@@ -483,6 +483,26 @@ div#mssArea div.panel div.noteContent div.position {
   margin-left: -10px;
 }
 
+div#mssArea div.panel div.noteContent div.notetype {
+    margin-left: -10px;
+  
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: .66;
+    margin-bottom: .75em;
+    color: #45342C;
+    font-family: 'Lato', sans-serif;
+    font-size: 50%;
+}
+
+/*  div.paragraph in replaces the use of p to allow certain additional nesting of additional block items */
+div#mssArea div.panel div.noteContent div.paragraph {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+
 div#mssArea div.panel div.bibContent,
 div#mssArea div.panel div.critContent {
   padding: 16px 18px 24px;

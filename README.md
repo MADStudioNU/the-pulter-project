@@ -38,6 +38,9 @@ Poems that are published on the preview site but not on the production site.
 41
 60
 64
+68
+75
+77
 81
 
 &ast; *poem is up for publishing with the next production release*

@@ -609,6 +609,25 @@
                            </xsl:otherwise>
                         </xsl:choose>
                      </div>
+                     <div class="notetype">
+                        <xsl:choose>
+                           <xsl:when test="@type = 'critical'"> 
+                              <xsl:text>Critical note</xsl:text> 
+                           </xsl:when>
+                           <xsl:when test="@type = 'physical'"> 
+                              <xsl:text>Physical note</xsl:text> 
+                           </xsl:when>
+                           <xsl:when test="@type = 'gloss'"> 
+                              <xsl:text>Gloss note</xsl:text> 
+                           </xsl:when>
+                           <xsl:when test="@type = 'textual'"> 
+                              <xsl:text>Textual note</xsl:text> 
+                           </xsl:when>
+                           <xsl:when test="@type = 'original'"> 
+                              <xsl:text>Original gloss note</xsl:text> 
+                           </xsl:when>
+                        </xsl:choose>
+                     </div>
                      <xsl:apply-templates/>
                   </div>
                </xsl:if>
@@ -1152,20 +1171,40 @@
                   </xsl:choose>
                   <div class="position">
                      <xsl:choose>
+                        <xsl:when test="ancestor::tei:app[@type='title']">
+                           <xsl:text>Title note</xsl:text>
+                        </xsl:when>
+                        
                         <xsl:when test="@type = 'headnote'"> 
                            <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
                         <xsl:when test="@type = 'editorialnote'"> 
                            <xsl:text>Editorial note</xsl:text> 
-                        </xsl:when>
-                        <xsl:when test="ancestor::tei:app[@type='title']">
-                           <xsl:text>Title note</xsl:text>
-                        </xsl:when>
+                        </xsl:when>                                     
                         <xsl:otherwise>
                            <xsl:text><!--Note:--></xsl:text>
                         </xsl:otherwise>
                      </xsl:choose>
                   </div>
+                  <div class="notetype">
+                     <xsl:choose>
+                        <xsl:when test="@type = 'critical'"> 
+                           <xsl:text>Critical note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'physical'"> 
+                           <xsl:text>Physical note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'gloss'"> 
+                           <xsl:text>Gloss note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'textual'"> 
+                           <xsl:text>Textual note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'original'"> 
+                           <xsl:text>Original gloss note</xsl:text> 
+                        </xsl:when>
+                     </xsl:choose>
+                  </div>               
                   <xsl:apply-templates/>
                </div>
             </xsl:if>
@@ -1276,18 +1315,41 @@
                   </xsl:choose>
                   <div class="position">
                      <xsl:choose>
+                        <xsl:when test="ancestor::tei:app[@type='title']">
+                           <xsl:text>Title note</xsl:text>
+                        </xsl:when>
+                        
                         <xsl:when test="@type = 'headnote'"> 
                            <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
                         <xsl:when test="@type = 'editorialnote'"> 
                            <xsl:text>Editorial note</xsl:text> 
                         </xsl:when>
-                        <xsl:when test="ancestor::tei:app[@type='title']">
-                           <xsl:text>Title note</xsl:text>
-                        </xsl:when>
+                        
+
+                        
                         <xsl:otherwise>
                            <xsl:text><!--Note:--></xsl:text>
                         </xsl:otherwise>
+                     </xsl:choose>
+                  </div>
+                  <div class="notetype">
+                     <xsl:choose>
+                        <xsl:when test="@type = 'critical'"> 
+                           <xsl:text>Critical note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'physical'"> 
+                           <xsl:text>Physical note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'gloss'"> 
+                           <xsl:text>Gloss note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'textual'"> 
+                           <xsl:text>Textual note</xsl:text> 
+                        </xsl:when>
+                        <xsl:when test="@type = 'original'"> 
+                           <xsl:text>Original gloss note</xsl:text> 
+                        </xsl:when>
                      </xsl:choose>
                   </div>
                   <xsl:apply-templates/>
