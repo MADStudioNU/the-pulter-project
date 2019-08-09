@@ -3529,6 +3529,17 @@
     </pp:poem>
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
+      <pp:firstLine>The dubious raven doth her young forsake</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="78">
       <pp:title>This Vast Leviathan (Emblem 12)</pp:title>
