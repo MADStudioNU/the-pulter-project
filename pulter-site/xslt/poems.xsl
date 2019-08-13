@@ -1270,6 +1270,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:tags>
         <pp:tag>sacrifice</pp:tag>
