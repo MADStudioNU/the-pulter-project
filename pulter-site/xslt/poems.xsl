@@ -3533,6 +3533,7 @@
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
       <pp:firstLine>The dubious raven doth her young forsake</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
