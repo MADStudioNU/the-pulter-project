@@ -4395,10 +4395,10 @@
         <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
         <xsl:text>{</xsl:text>
         <xsl:if test="$isPseudo">
-          <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', $isPseudo,'', ',')"/>
+          <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', string($isPseudo),'', ',')"/>
         </xsl:if>
         <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;', ',')"/>
-        <xsl:value-of select="concat('&quot;isPublished&quot;: ', $isPublished)"/>
+        <xsl:value-of select="concat('&quot;isPublished&quot;: ', string($isPublished))"/>
         <xsl:apply-templates>
             <xsl:with-param name="seoTitle" select="$seoTitle"/>
         </xsl:apply-templates>
@@ -4415,7 +4415,7 @@
     <xsl:text disable-output-escaping='yes'>&lt;!doctype html&gt;</xsl:text>
     <html lang="en">
       <head>
-        <script async="true" src="//www.googletagmanager.com/gtag/js?id=UA-122500056-2"><xsl:comment/></script>
+        <script async="true" src="//www.googletagmanager.com/gtag/js?id=UA-122500056-2"><xsl:text> </xsl:text></script>
         <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-122500056-2');</script>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -4449,7 +4449,7 @@
                 </div>
                 <div class="emblem eventually">
                   <svg class="logo closed-path"
-                       xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xmlns="http://www.w3.org/2000/svg"
                        viewBox="0 0 184.02 149.73">
                     <defs>
                       <style>.cls-1{fill:url(#FF_Swatch);}</style>
@@ -4817,7 +4817,7 @@
                 <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don’t show again</span></div>
                 <ul class="exploration-list">
                   <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-                    <xsl:variable name="status" select="./@status"/>
+<!--                    <xsl:variable name="status" select="./@status"/>-->
                     <li class="exploration-trigger">
                       <xsl:attribute name="data-ctx-hash">
                         <xsl:value-of select="./@hash"/>
@@ -4895,8 +4895,8 @@
             <p>Those ready for more will enjoy the <span class="edition-label">amplified</span> editions, each governed by its own principles and more extensive annotation.</p>
           </div>
         </div>
-        <script src="/scripts/vendors/vendors.js"><xsl:comment/></script>
-        <script src="/scripts/app.js"><xsl:comment/></script>
+        <script src="/scripts/vendors/vendors.js"><xsl:text> </xsl:text></script>
+        <script src="/scripts/app.js"><xsl:text> </xsl:text></script>
         <script>$(document).ready(function(){PP.initHome();});</script>
       </body>
     </html>
