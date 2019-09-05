@@ -3516,6 +3516,7 @@
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
       <pp:firstLine>When scorned Medea saw Creusa led</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
