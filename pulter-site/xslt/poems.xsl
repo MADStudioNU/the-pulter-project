@@ -3354,6 +3354,18 @@
         <pp:tag>London</pp:tag>
         <pp:tag>competition</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="fickle-fortune">
+          <pp:author>Millie Godfrey and Sarah C. E. Ross</pp:author>
+          <pp:title>“Fickle” Fortune</pp:title>
+          <pp:peek>George Wither’s _A Collection of Emblemes_ (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-city-cockneys">
+          <pp:author>Millie Godfrey and Sarah C. E. Ross</pp:author>
+          <pp:title>The City Cockneys</pp:title>
+          <pp:peek>Pulter’s emblem works to demonstrate the restless and emotive public opinion surrounding the events of the Civil War, and particularly the execution itself.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
