@@ -1270,9 +1270,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Victoria E. Burke</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Victoria E. Burke</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:tags>
         <pp:tag>sacrifice</pp:tag>
@@ -2228,6 +2228,15 @@
         <pp:tag>sorrow</pp:tag>
         <pp:tag>song</pp:tag>
       </pp:tags>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="lying-in">-->
+<!--          <pp:author>Amanda Zoch</pp:author>-->
+<!--          <pp:title>Lying-In</pp:title>-->
+<!--          <pp:peek>-->
+<!--            In the title, Pulter situates this poem’s composition within her lying-in, a communal childbirth ritual that began with labor and continued for up to a month after delivery.-->
+<!--          </pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
@@ -3355,6 +3364,18 @@
         <pp:tag>London</pp:tag>
         <pp:tag>competition</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="fickle-fortune">
+          <pp:author>Millie Godfrey and Sarah C. E. Ross</pp:author>
+          <pp:title>“Fickle” Fortune</pp:title>
+          <pp:peek>George Wither’s _A Collection of Emblemes_ (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-city-cockneys">
+          <pp:author>Millie Godfrey and Sarah C. E. Ross</pp:author>
+          <pp:title>The City Cockneys</pp:title>
+          <pp:peek>Pulter’s emblem works to demonstrate the restless and emotive public opinion surrounding the events of the Civil War, and particularly the execution itself.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
@@ -3517,16 +3538,17 @@
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
       <pp:firstLine>When scorned Medea saw Creusa led</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Millie Godfery</pp:author>-->
-<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="76">
       <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
@@ -3631,6 +3653,7 @@
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
       <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
+<!--      <pp:poster/>-->
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->

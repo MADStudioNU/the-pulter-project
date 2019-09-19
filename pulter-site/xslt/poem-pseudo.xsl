@@ -624,6 +624,23 @@
     </span>
   </xsl:template>
 
+  <!-- Words -->
+  <xsl:template match="//tei:w">
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'word'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
+  <!-- Abbreviations -->
+  <xsl:template match="//tei:abbr">
+    <xsl:element name="span">
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
     <div id="bibPanel">
       <xsl:attribute name="class">
