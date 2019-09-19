@@ -3304,7 +3304,7 @@
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
       <pp:firstLine>Come, my dear children, come and happy be</pp:firstLine>
-      <pp:editions>
+<!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
 <!--          <pp:author>Wendy Wall</pp:author>-->
@@ -3313,7 +3313,7 @@
 <!--          <pp:author>Millie Godfery</pp:author>-->
 <!--          <pp:author>Sarah C. E. Ross</pp:author>-->
 <!--        </pp:edition>-->
-      </pp:editions>
+<!--      </pp:editions>-->
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
