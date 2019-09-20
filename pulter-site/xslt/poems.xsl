@@ -2305,11 +2305,11 @@
         <pp:tag>tears</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="the-myth-of-arachne">
-          <pp:author>Victoria E. Burke</pp:author>
-          <pp:title>The Myth of Arachne</pp:title>
+        <pp:curation status="on" hash="lark-mirrors">
+          <pp:author>Leah Knight</pp:author>
+          <pp:title>Lark Mirrors</pp:title>
           <pp:peek>
-            In the first line of the poem Pulter mentions Arachne or the spider. The spider’s link with the traditionally feminine arts of sewing and weaving makes it an interesting image of female creativity, though the myth, as retold in a contemporary natural history, makes it a story about the dangers of female pride.
+            How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).
           </pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="male-and-female-spiders">
@@ -2324,6 +2324,13 @@
           <pp:title>Mowers and the Birds they Kill</pp:title>
           <pp:peek>
             The central episode of this poem, the slaughter of the lark’s offspring by a careless and then malicious mower, finds an analogue in Andrew Marvell’s episode of the mower in “Upon Appleton House.”
+          </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-myth-of-arachne">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>The Myth of Arachne</pp:title>
+          <pp:peek>
+            In the first line of the poem Pulter mentions Arachne or the spider. The spider’s link with the traditionally feminine arts of sewing and weaving makes it an interesting image of female creativity, though the myth, as retold in a contemporary natural history, makes it a story about the dangers of female pride.
           </pp:peek>
         </pp:curation>
       </pp:curations>
@@ -3366,12 +3373,12 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="fickle-fortune">
-          <pp:author>Millie Godfrey and Sarah C. E. Ross</pp:author>
+          <pp:author>Millie Godfery</pp:author>
           <pp:title>“Fickle” Fortune</pp:title>
-          <pp:peek>George Wither’s _A Collection of Emblemes_ (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
+          <pp:peek>George Wither’s “A Collection of Emblemes” (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-city-cockneys">
-          <pp:author>Millie Godfrey and Sarah C. E. Ross</pp:author>
+          <pp:author>Millie Godfery</pp:author>
           <pp:title>The City Cockneys</pp:title>
           <pp:peek>Pulter’s emblem works to demonstrate the restless and emotive public opinion surrounding the events of the Civil War, and particularly the execution itself.</pp:peek>
         </pp:curation>
