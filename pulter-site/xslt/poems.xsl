@@ -3374,7 +3374,7 @@
         <pp:curation status="on" hash="fickle-fortune">
           <pp:author>Millie Godfery</pp:author>
           <pp:title>“Fickle” Fortune</pp:title>
-          <pp:peek>George Wither’s _A Collection of Emblemes_ (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
+          <pp:peek>George Wither’s “A Collection of Emblemes” (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-city-cockneys">
           <pp:author>Millie Godfery</pp:author>
