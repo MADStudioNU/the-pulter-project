@@ -3777,6 +3777,17 @@
     </pp:poem>
     <pp:poem id="87">
       <pp:title>The Hunted Hart (Emblem 22)</pp:title>
+      <pp:firstLine>The hunted hart, when she begins to tire</pp:firstLine>
+      <pp:poster/>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="88">
       <pp:title>The Toad and the Spider (Emblem 23)</pp:title>
