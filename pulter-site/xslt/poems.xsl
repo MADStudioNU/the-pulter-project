@@ -3672,6 +3672,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+        </pp:edition>
       </pp:editions>
     </pp:poem>
     <pp:poem id="82">
