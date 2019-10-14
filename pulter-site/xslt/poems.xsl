@@ -3838,6 +3838,34 @@
           <pp:author>Elizabeth Zeman Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>tears</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="dissolved-to-tears">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>Dissolved to Tears</pp:title>
+          <pp:peek>Pulter calls the dying hart “quite dissolved,” and the emblem’s speaker imagines herself dissolving “to tears.” The words “dissolve” and “dissolution” appear frequently in Pulter’s poetry.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="hunted-deer-in-poetry">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>Hunted Deer in Poetry</pp:title>
+          <pp:peek>Hunted deer appear in many earlier poems, especially by poets who imitated the fourteenth-century Italian poet Petrarch. A hunter pursuing a female deer is a prominent trope in Petrarchan literature, and one of the most famous examples is Thomas Wyatt’s “Whoso List to Hunt.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="seeking-dittany">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>Seeking Dittany</pp:title>
+          <pp:peek>Dittany is an aromatic shrub with tiny pink flowers, native to Greece, that has long been thought to have medicinal properties. It is described as a healing herb in texts written as long ago as ancient Rome and as recently as J. K. Rowling’s Harry Potter series.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="suspire">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>Suspire</pp:title>
+          <pp:peek>A key term in this poem is “suspire,” meaning to sigh or breathe out. Pulter uses the word only a few times in her poetry, but it is part of a matrix of related words that Pulter frequently employs connected to sighs and breathing.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="88">
       <pp:title>The Toad and the Spider (Emblem 23)</pp:title>
