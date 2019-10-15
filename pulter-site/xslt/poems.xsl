@@ -2312,13 +2312,13 @@
         <pp:tag>tears</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="lark-mirrors">
-          <pp:author>Leah Knight</pp:author>
-          <pp:title>Lark Mirrors</pp:title>
-          <pp:peek>
-            How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).
-          </pp:peek>
-        </pp:curation>
+<!--        <pp:curation status="on" hash="lark-mirrors">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:title>Lark Mirrors</pp:title>-->
+<!--          <pp:peek>-->
+<!--            How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).-->
+<!--          </pp:peek>-->
+<!--        </pp:curation>-->
         <pp:curation status="on" hash="male-and-female-spiders">
           <pp:author>Victoria E. Burke</pp:author>
           <pp:title>Male and Female Spiders</pp:title>
