@@ -12,7 +12,6 @@ $themeColor: #ece9e2;
   border-top: 4px solid rgba($pp_shinyGold, 1);
   width: 100%;
   max-width: 40em;
-  border-radius: 1px;
 
   // Curation spinner element
   .spinner {
@@ -561,7 +560,7 @@ $themeColor: #ece9e2;
 
     @include breakpoint(mobile) { max-width: 100%; }
   }
-  
+
   // Numbered lists
   //ol {
   //  margin-left: 1.5em;

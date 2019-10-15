@@ -1306,6 +1306,13 @@
         <pp:keyword>flowers</pp:keyword>
         <pp:keyword>body</pp:keyword>
       </pp:keywords>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="images-of-aurora">-->
+<!--          <pp:author>Victoria E. Burke</pp:author>-->
+<!--          <pp:title>Images of Aurora, Goddess of the Dawn</pp:title>-->
+<!--          <pp:peek>In this poem Pulter depicts the goddess Aurora sporting long curling golden hair adorned with jewels and flowers, possessing blushing cheeks and clear eyes, exposing a breast, and wearing purple robes fringed with gold.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King’s Most Excellent Majesty</pp:title>
@@ -3515,7 +3522,7 @@
         <pp:keyword>reproduction</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>parent</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>division</pp:tag>
@@ -3660,13 +3667,63 @@
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
       <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
-<!--      <pp:poster/>-->
+      <pp:poster/>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
 <!--          <pp:author>Wendy Wall</pp:author>-->
 <!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--        </pp:edition>-->
 <!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>pride</pp:keyword>
+        <pp:keyword>vanity</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>bible</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>church</pp:tag>
+        <pp:tag>tree</pp:tag>
+        <pp:tag>mirror</pp:tag>
+        <pp:tag>vanity</pp:tag>
+      </pp:tags>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="crystal-glass">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>Crystal Glass</pp:title>-->
+<!--          <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="lark-mirrors">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:title>Lark Mirrors</pp:title>-->
+<!--          <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="the-sin-of-pride">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>The Sin of Pride</pp:title>-->
+<!--          <pp:peek>Early modern thought about pride–an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God–was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="the-swift-savage-maternal-tiger">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>The Swift, Savage, Maternal Tiger</pp:title>-->
+<!--          <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="what-about-narcissus">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>What about Narcissus?</pp:title>-->
+<!--          <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
@@ -3741,7 +3798,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>chastity</pp:tag>
-        <pp:tag>bird</pp:tag>
+        <pp:tag>birds</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>marriage</pp:tag>
         <pp:tag>London</pp:tag>
@@ -3771,6 +3828,45 @@
     </pp:poem>
     <pp:poem id="87">
       <pp:title>The Hunted Hart (Emblem 22)</pp:title>
+      <pp:firstLine>The hunted hart, when she begins to tire</pp:firstLine>
+      <pp:poster/>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>tears</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="dissolved-to-tears">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>Dissolved to Tears</pp:title>-->
+<!--          <pp:peek>Pulter calls the dying hart “quite dissolved,” and the emblem’s speaker imagines herself dissolving “to tears.” The words “dissolve” and “dissolution” appear frequently in Pulter’s poetry.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="hunted-deer-in-poetry">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>Hunted Deer in Poetry</pp:title>-->
+<!--          <pp:peek>Hunted deer appear in many earlier poems, especially by poets who imitated the fourteenth-century Italian poet Petrarch. A hunter pursuing a female deer is a prominent trope in Petrarchan literature, and one of the most famous examples is Thomas Wyatt’s “Whoso List to Hunt.”</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="seeking-dittany">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>Seeking Dittany</pp:title>-->
+<!--          <pp:peek>Dittany is an aromatic shrub with tiny pink flowers, native to Greece, that has long been thought to have medicinal properties. It is described as a healing herb in texts written as long ago as ancient Rome and as recently as J. K. Rowling’s Harry Potter series.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="suspire">-->
+<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:title>Suspire</pp:title>-->
+<!--          <pp:peek>A key term in this poem is “suspire,” meaning to sigh or breathe out. Pulter uses the word only a few times in her poetry, but it is part of a matrix of related words that Pulter frequently employs connected to sighs and breathing.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="88">
       <pp:title>The Toad and the Spider (Emblem 23)</pp:title>
@@ -4073,7 +4169,7 @@
         <pp:keyword>food</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>insect</pp:tag>
+        <pp:tag>insects</pp:tag>
         <pp:tag>murder</pp:tag>
         <pp:tag>vegetarianism</pp:tag>
         <pp:tag>violence</pp:tag>

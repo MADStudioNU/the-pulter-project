@@ -1,3 +1,401 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.87">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Hunted Hart (Emblem 22)</title>
+        <title type="sub">Poem #87</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_213.jpg" xml:id="f7610_213"/>
+      <graphic url="./document_images/7610_214.jpg" xml:id="f7610_214"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Zeman Kolkovich</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_213" n="105r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_213"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_213"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 22]</rdg>
+            <rdg wit="#ee">The Hunted Hart<lb/>(Emblem 22)</rdg>
+            <rdg wit="#ae">“The Hunted Hart”<lb/>(Emblem 22)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">In my editions, I prioritize accessibility and multiple interpretive possibilities. To prepare these poems for a wide range of readers, I have modernized erratic early modern spelling, punctuation, and capitalization to conform to standard American usage. I gloss archaic definitions and confusing syntax, and I expand contractions, unless needed to maintain the integrity of the poem’s form. My notes investigate how Pulter’s poems engage with the literature and culture of mid-seventeenth-century England. At the same time, I emphasize how her poems are unique, how they respond to one another and seem to reveal their author’s individual circumstances and philosophies. It is worth noting that although Pulter’s poems survive in only one known source, they are not necessarily stable texts. The source manuscript features variants and revisions that invite multiple interpretations. I encourage readers to refer to the manuscript transcriptions and images on this site; my notes alert readers when the manuscript’s original spelling or physical features are especially worth considering.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+            <note type="headnote">Karl Marx concluded that “Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people.”<seg>1<note type="critical">Karl Marx, “<ref target="https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm" type="new-window-url">A Contribution to the Critique of Hegel’s Philosophy of Right Introduction,</ref>” 1844.</note></seg> Two centuries earlier, Pulter also shockingly imagined  her deity as a drug for oppressed creatures, much like the herbal medicine used by the deer in this emblem. Chased by hounds and arrow-wounded, such a creature is also found in “Upon the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10): but where the deer there dies, the hart in this poem eventually discovers dittany, a healing plant. This hart, skilled in herbalism, is so successful in self-medicating as to outrun all pursuers and attain a life that sounds, paradoxically, as restful as death itself, where in “sweet shades [she] doth rest in peace.” Such a restful death-in-life, or life-in-death, is also the goal of the soul, tenor to the deer’s vehicle: just as terrified, dogged by spiritual enemies, heart-broken, sighing, weeping, all but exhausted and indeed “dissolved”—when the soul finds her own, perhaps more enduring and saving, cure. The speaker concludes by asking God to “let me trust in Thee,” since her ordeal is not only to outpace foes but simply to believe in the efficacy of this legendary ancient medicine.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">In this poem, Pulter compares a wounded hart to a grieving soul. Like a deer nearing death who is restored by a medicinal plant, a pained soul can turn to Christ for comfort and peace. This emblem functions as a prayer or meditation; the speaker assures herself that her pain will end eventually if she trusts in God. At the same time, the poem does not minimize the pain of grief, as its suffering deer and emotionally exhausted speaker move frantically through a cruel, oppressive world. Although a hart is a male deer, Pulter assigns it and the soul feminine pronouns. A feminized “hunted hart” also appears in <ref type="pp-poem-ref" corresp="9">Like Lily Leaves</ref>, in which Pulter compares an arrow-struck deer to her dying daughter Jane, and <ref type="pp-poem-ref" corresp="90">This Flying Fish (Emblem 25)</ref>, which uses the same image as an analogy for the death of King Charles I. When considered alongside those poems, this emblem’s surviving hart seems to indulge a fantasy of a magic balm able to prevent such losses or heal a broken heart. It also draws attention to Pulter’s medical knowledge. Many early modern women served as medical caregivers in their households and learned about healing plants by reading books on herbalism.</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft"><seg>The<note type="physical">previous poem concludes at top of page</note></seg> hunted Hart when Shee begins to Tire</rdg>
+          <rdg wit="#ee">The hunted <seg>hart<note type="gloss">deer (generally referring to the male)</note></seg>, when she begins to tire,</rdg>
+          <rdg wit="#ae">The hunted <seg>hart<note type="gloss">male deer, with a pun on “heart”</note></seg>, when she begins to tire</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Before her Vitall Spirits doth expire</rdg>
+          <rdg wit="#ee">Before her <seg>vital spirits<note type="gloss">substances or fluids thought, at this time, to permeate the blood and organs and thought essential to the maintenance of life</note></seg> doth expire,</rdg>
+            <rdg wit="#ae">Before her vital spirits doth expire,</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Shee every way doth Rowl her weeping Eye</rdg>
+            <rdg wit="#ee">She every way doth roll her weeping eye;</rdg>
+            <rdg wit="#ae">She every way doth roll her weeping eye;</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">At last Shee finds her long’d for Dittany</rdg>
+          <rdg wit="#ee">At last she finds her longed for <seg>dittany<note type="gloss">a medicinal plant supposed to be able to expel weapons and heal wounds</note></seg>,</rdg>
+          <rdg wit="#ae">At last she finds her longed for <seg>dittany<note type="gloss">plant with medicinal properties. See <ref type="pp-curations-ref" target="#ctxs">Seeking Dittany</ref> in the Curations for this poem.</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Which having eat if Shee bee but alive</rdg>
+            <rdg wit="#ee">Which, having ate, if she be but alive,</rdg>
+          <rdg wit="#ae">Which, having <seg>eat<note type="gloss">eaten</note></seg>, if she be but alive,</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">It doth her fainting Spirit Soe Revive</rdg>
+            <rdg wit="#ee">It doth her fainting spirit so revive</rdg>
+            <rdg wit="#ae">It doth her fainting spirit so revive</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">That Shee out Runs all that her life purſue</rdg>
+            <rdg wit="#ee">That she outruns all that her life pursue;</rdg>
+            <rdg wit="#ae">That she outruns all that her life pursue.</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Though they their Courage and their cryes Renew</rdg>
+            <rdg wit="#ee">Though they their courage and their cries renew,</rdg>
+            <rdg wit="#ae">Though they their courage and their cries renew,</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Yet Shee trips on the Hounds their Yelping cease</rdg>
+            <rdg wit="#ee">Yet she trips on, the hounds their yelping cease,</rdg>
+            <rdg wit="#ae">Yet she trips on; the hounds their yelping cease,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And Shee in thoſe Sweet Shades doth Rest in Peace</rdg>
+          <rdg wit="#ee">And she in those sweet shades doth <seg>rest in peace<note type="critical">This phrase, still familiar and already active in Pulter’s lifetime as a wish for the dead, briefly suggests that the deer has died, rather than being saved by the dittany. This blurring of seeming opposites, salvation and death (figured as “rest” here and two lines later), alludes to the Christian context which follows.</note></seg>.</rdg>
+            <rdg wit="#ae">And she in those sweet shades doth rest in peace.</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Thus if at any time Shee bee opprest</rdg>
+            <rdg wit="#ee">Thus, if at any time she be oppressed,</rdg>
+            <rdg wit="#ae">Thus if at any time she be oppressed,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">In her lov’d Dittany Shee findeth Rest</rdg>
+            <rdg wit="#ee">In her loved dittany she findeth rest.</rdg>
+            <rdg wit="#ae">In her loved dittany, she findeth rest.</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Even <add place="below">^</add><add place="above">Soe</add> a Soul which is or’e whelmd with griefe</rdg>
+            <rdg wit="#ee">Even so, a soul which is o’erwhelmed with grief,</rdg>
+            <rdg wit="#ae">Even so, a soul which is o’erwhelmed with grief</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">And <add place="below">^</add><add place="above">in</add> this Empty Orb finds noe Reliefe</rdg>
+          <rdg wit="#ee">And in this empty <seg>orb<note type="gloss">Earth</note></seg> finds no relief,</rdg>
+          <rdg wit="#ae">And in this empty <seg>orb<note type="gloss">Earth</note></seg> finds no relief,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Though preſent Sorrows doth her heart oppreſs</rdg>
+            <rdg wit="#ee">Though present sorrows doth her heart oppress,</rdg>
+            <rdg wit="#ae">Though present sorrows doth her heart oppress</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">And future fears afflict her thoughts noe leſs</rdg>
+            <rdg wit="#ee">And future fears afflict her thoughts no less,</rdg>
+            <rdg wit="#ae">And future fears afflict her thoughts no less,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Though her Sad Soul with Suffrings gi’ns to Tire</rdg>
+          <rdg wit="#ee">Though her sad soul with suff’rings <seg>’gins<note type="gloss">begins</note></seg> to tire,</rdg>
+            <rdg wit="#ae">Though her sad soul with suff’rings ’gins to tire,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Her &ff;ainting Spirit Ready to expire</rdg>
+            <rdg wit="#ee">Her fainting spirit ready to expire,</rdg>
+            <rdg wit="#ae">Her fainting spirit ready to expire,</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">though</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_214" n="105v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_214"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_214"/>
+            </rdg>
+        </app>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Though Shee is purſued by her Goastly &ff;oes</rdg>
+          <rdg wit="#ee">Though she is pursued by her <seg>ghostly<note type="gloss">spiritual, incorporeal; in “ghostly foes,” the sense might include specters or devils, or figuratively worries and fears</note></seg> foes,</rdg>
+          <rdg wit="#ae">Though she is pursued by her <seg>ghostly<note type="gloss">spiritual</note></seg> foes,</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft">Who all her Ssins <seg><del>doe</del><note type="physical">double strike-through</note></seg> in their <seg><add place="below">\</add><add place="above">true \</add><note type="physical">in different hand from main scribe</note></seg> Coulours Shows</rdg>
+          <rdg wit="#ee">Who all her sins in <seg>their<note type="critical">The pronoun is ambiguous: its immediate antecedent is “sins” (the true colors of which are shown), but the “ghostly foes” of the preceding lines could also be revealing the sins by means of <hi rend="italic">their</hi> true colors. “To show one’s true colors” means to reveal one’s real character, especially when disreputable.</note></seg> true colors shows,</rdg>
+            <rdg wit="#ae">Who all her sins in their true colors shows,</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Her Soul beeing &ff;ild with Horrid Helliſh &ff;ears</rdg>
+            <rdg wit="#ee">Her soul being filled with horrid, hellish fears,</rdg>
+            <rdg wit="#ae">Her soul being filled with horrid, hellish fears,</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">Her Heart en’e <seg>broak<note type="physical">“o” written over other letter</note></seg> with Sighs, her eyes, <seg><w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w><note type="physical">colon beneath superscript “th”</note></seg> Tears,</rdg>
+            <rdg wit="#ee">Her heart e’en broke with sighs, her eyes with tears,</rdg>
+            <rdg wit="#ae">Her heart e’en broke with sighs, her eyes with tears,</rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Beeing quite diſſolvd, even fainting then Shee goes</rdg>
+          <rdg wit="#ee">Being quite <seg>dissolved<note type="gloss">disintegrated; weakened; destroyed; grew faint; dispersed; lost its binding force</note></seg>, even <seg>fainting<note type="gloss">losing heart, giving way; growing weak; swooning; fading</note></seg>: then she goes</rdg>
+          <rdg wit="#ae">Being quite <seg>dissolved<note type="gloss">melted into tears</note></seg>, even fainting, then she goes</rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">To him who for her Sake his life did loſe</rdg>
+          <rdg wit="#ee">To <seg>Him<note type="gloss">Jesus Christ</note></seg> who for her sake his life did lose.</rdg>
+          <rdg wit="#ae">To <seg>Him<note type="gloss">Jesus Christ</note></seg> who for her sake his life did lose.</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Then o my God though Sorrows doe involve</rdg>
+          <rdg wit="#ee">Then, O, my God, though sorrows do <seg>involve<note type="gloss">envelop, entangle; entwine (as in a spiral form); render intricate; implicate in a charge or crime; contain implicitly; include or affect in its operation; overwhelm or swallow up;</note></seg></rdg>
+          <rdg wit="#ae">Then O, my God, though sorrows do <seg>involve<note type="gloss">overwhelm, swallow up</note></seg></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">My Sinfull Soul, though I to Tears diſſolv</rdg>
+            <rdg wit="#ee">My sinful soul, though I to tears dissolve,</rdg>
+          <rdg wit="#ae">My sinful soul, though I <seg>to tears dissolve<note type="gloss">see <ref type="pp-curations-ref" target="#ctxs">Dissolved to Tears</ref> in the Curations for this poem</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Or though my Spirit I Suſpire to Ayre</rdg>
+          <rdg wit="#ee">Or though my spirit I <seg>suspire<note type="gloss">breathe [out]; sigh [forth], or utter with a sigh, esp. longingly. Pulter’s poems are titled as sighs “breathed forth.”</note></seg> to air,</rdg>
+          <rdg wit="#ae">Or though my spirit I <seg>suspire<note type="gloss">sigh; breathe out</note></seg> to air,</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Yet let mee trust in thee and not despair</rdg>
+            <rdg wit="#ee">Yet let me trust in Thee and not despair;</rdg>
+            <rdg wit="#ae">Yet let me trust in Thee and not despair;</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">And when my Sorrows and my Sins doe ceaſe</rdg>
+            <rdg wit="#ee">And when my sorrows and my sins do cease,</rdg>
+            <rdg wit="#ae">And when my sorrows and my sins do cease,</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+          <rdg wit="#ft">Let mee injoy thy everlasting <seg>Peace<note type="physical">remaining half page blank</note></seg></rdg>
+            <rdg wit="#ee">Let me enjoy Thy everlasting peace.</rdg>
+            <rdg wit="#ae">Let me enjoy Thy everlasting peace.</rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>
