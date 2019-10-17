@@ -4480,17 +4480,21 @@
 
   <!-- The Pulter Project Explorations -->
   <pp:explorations>
-    <pp:exploration hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
-      <pp:author>Lara Dodds</pp:author>
-      <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
-    </pp:exploration>
     <pp:exploration hash="and-space-may-produce-new-worlds">
       <pp:author>Lara Dodds</pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
     </pp:exploration>
+    <pp:exploration hash="hester-pulters-marriage">
+      <pp:author>Leah Knight</pp:author>
+      <pp:title>Hester Pulter’s Marriage: Facts and Fiction</pp:title>
+    </pp:exploration>
     <pp:exploration hash="hester-pulter-and-english-blazon">
       <pp:author>Frances E. Dolan</pp:author>
       <pp:title>Hester Pulter and the Blazon in Early Modern England</pp:title>
+    </pp:exploration>
+    <pp:exploration hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
+      <pp:author>Lara Dodds</pp:author>
+      <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
     </pp:exploration>
     <pp:exploration hash="the-making-of-the-pulter-project" type="video">
       <pp:author>C. A. Davis</pp:author>
