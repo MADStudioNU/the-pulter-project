@@ -3317,6 +3317,7 @@
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
       <pp:firstLine>Come, my dear children, come and happy be</pp:firstLine>
+      <pp:poster/>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
