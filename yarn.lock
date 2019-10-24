@@ -67,13 +67,13 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@netlify/build@0.0.26":
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-0.0.26.tgz#6c3402c36b9ef440904ce1381c4378e806e1b9f2"
-  integrity sha512-vDYFLO/iNRH10tFNiUJRVxwrtVXUVoq+dyMRpUA+02OwYewUgRG1/aNNFYvGRTt+qM0JJb0TVlEIVy0bq6eZfQ==
+"@netlify/build@0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-0.0.27.tgz#60fd3a25cd641066b364e74665cf470a6a6e2c17"
+  integrity sha512-ytVC6TxjEkL4Zg7gsw6qY514ogTDhijDtSpfAZLAuSe69+xn1+94XcPjyUmJaIUnY4hemxhA5PREuO4XK0RvsQ==
   dependencies:
     "@netlify/config" "0.0.3"
-    "@netlify/zip-it-and-ship-it" netlify/zip-it-and-ship-it#feature/async
+    "@netlify/zip-it-and-ship-it" "0.4.0-3"
     analytics "^0.2.5"
     array-flat-polyfill "^1.0.1"
     camelcase-keys "^6.0.1"
@@ -81,7 +81,7 @@
     clean-stack "^2.2.0"
     cpy "^7.2.0"
     del "^5.1.0"
-    execa "^3.1.0"
+    execa "^3.2.0"
     fast-glob "^3.1.0"
     figures "^3.0.0"
     filter-obj "^2.0.1"
@@ -150,27 +150,10 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.9.0.tgz#8ac676555df6d2ab38d1397f3b772e04fd518596"
   integrity sha512-9HpbxZX0LnU2IkaIYIjw6GCQZ6JMQ0Ai3F+9RrHr2jMAgXiiHRT19h2CiKEbjv44lYD5a0sRyV6kr+YRJVUQjg==
 
-"@netlify/zip-it-and-ship-it@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.3.1.tgz#931ba0b6f8d086b8ea2dba7cd69bf10959d3e529"
-  integrity sha512-vLKxc1/Kvy7c0TL6AMr39/3SIweMkXZXkfU5nUtw1DSBVXaz9aYtiFLBX8YOblJXFFs3rpcyhzmzctoQsOnqVA==
-  dependencies:
-    archiver "^3.0.0"
-    cliclopts "^1.1.1"
-    debug "^4.1.1"
-    elf-tools "^1.1.1"
-    glob "^7.1.3"
-    minimist "^1.2.0"
-    npm-packlist "^1.1.12"
-    p-all "^2.0.0"
-    precinct "^6.1.1"
-    read-pkg-up "^4.0.0"
-    require-package-name "^2.0.1"
-    resolve "^1.10.0"
-
-"@netlify/zip-it-and-ship-it@github:netlify/zip-it-and-ship-it#feature/async":
-  version "0.3.1"
-  resolved "https://codeload.github.com/netlify/zip-it-and-ship-it/tar.gz/5256d12ea8e7eb4fd87b2a7a1391e68118e09146"
+"@netlify/zip-it-and-ship-it@0.4.0-3":
+  version "0.4.0-3"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.4.0-3.tgz#fa3b78564a91bfdd695d66405d6d9a92447f6536"
+  integrity sha512-Wge2B9lRIy/YT4szwbjx7qAFOUfmj2oqSmXK/aMMvz7wzlkM7Wm72wk1JZmdej2RXgdWCY88tekz9fBpnjcwxA==
   dependencies:
     archiver "^3.0.0"
     common-path-prefix "^2.0.0"
@@ -188,6 +171,24 @@
     resolve "^1.10.0"
     util.promisify "^1.0.0"
     yargs "^14.2.0"
+
+"@netlify/zip-it-and-ship-it@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.3.1.tgz#931ba0b6f8d086b8ea2dba7cd69bf10959d3e529"
+  integrity sha512-vLKxc1/Kvy7c0TL6AMr39/3SIweMkXZXkfU5nUtw1DSBVXaz9aYtiFLBX8YOblJXFFs3rpcyhzmzctoQsOnqVA==
+  dependencies:
+    archiver "^3.0.0"
+    cliclopts "^1.1.1"
+    debug "^4.1.1"
+    elf-tools "^1.1.1"
+    glob "^7.1.3"
+    minimist "^1.2.0"
+    npm-packlist "^1.1.12"
+    p-all "^2.0.0"
+    precinct "^6.1.1"
+    read-pkg-up "^4.0.0"
+    require-package-name "^2.0.1"
+    resolve "^1.10.0"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -436,9 +437,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@^12.11.1":
-  version "12.11.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.6.tgz#2f8d551aef252de78f42acdccd53f5a8ce0cac4d"
-  integrity sha512-4uPUyY1Aofo1YzoypalYHNd2SnKYxH2b6LzXwpryZCJKA2XlagZSynXx5C8sfPH0r1cSltUpaVHV2q5sYXschQ==
+  version "12.11.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.7.tgz#57682a9771a3f7b09c2497f28129a0462966524a"
+  integrity sha512-JNbGaHFCLwgHn/iCckiGSOZ1XYHsKFwREtzPwSGCVld1SGhOlmZw2D4ZI94HQCrBHbADzW9m4LER/8olJTRGHA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3467,7 +3468,7 @@ execa@^2.0.3:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^3.1.0:
+execa@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-3.2.0.tgz#18326b79c7ab7fbd6610fd900c1b9e95fa48f90a"
   integrity sha512-kJJfVbI/lZE1PZYDI5VPxp8zXPO9rtxOkhpZ0jMKha56AI9y2gGVC6bkukStQf0ka5Rh15BA5m7cCCH4jmHqkw==
@@ -6751,12 +6752,12 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.19.0:
-  version "2.19.2"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.19.2.tgz#72d891c212b9bc8f0a897d738b86f08b52573e72"
-  integrity sha512-RNfU3qdxSXlzJclqb2lca8op0PtPQez0J+UNTa1vSRkUnjjgeATevcoteuZpDUJSDvfAbcVA2SzTJs07Z/fK3w==
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.19.3.tgz#df41897aec857b3a17b087d38227cb7bf5e49ff9"
+  integrity sha512-GyVc7ZV1RHIM7WBEIoh2TuUCpUxYOncjsMb4Blo2uiPWbnPHD0WwB2/JbElwp/gJgMuFPtUbQc4Fk7Hidk5o+w==
   dependencies:
     "@iarna/toml" "^2.2.3"
-    "@netlify/build" "0.0.26"
+    "@netlify/build" "0.0.27"
     "@netlify/cli-utils" "^1.0.7"
     "@netlify/zip-it-and-ship-it" "^0.3.1"
     "@oclif/command" "^1.5.18"
