@@ -1649,8 +1649,11 @@ $defaultStrokeWidth: 6px;
 .figure-box {
   position: relative;
   margin: 2.25em 0;
-  width: 75%;
+  max-width: 75%;
 
+  @include breakpoint(mobile) {
+    max-width: 90%;
+  }
 
   img {
     max-width: 100%;
@@ -1658,9 +1661,10 @@ $defaultStrokeWidth: 6px;
   }
 
   .bibl {
-    font-size: .85em;
-    opacity: .75;
-    margin-top: 1em;
+    font-size: .8em;
+    opacity: .8;
+    margin-top: 1.5em;
+    line-height: 1.5;
   }
 }
 
