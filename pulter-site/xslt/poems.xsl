@@ -66,6 +66,11 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
+        <pp:curation status="on" hash="black-monday-1652">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Black Monday (1652)</pp:title>
+          <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="controlling-the-sun">
           <pp:author>Wendy Wall</pp:author>
           <pp:title>Controlling the Sun</pp:title>
@@ -76,6 +81,11 @@
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>When Pulter alludes to astronomy, she signals an area of knowledge that had been rapidly changing in her lifetime. The older Ptolemaic view of the heavens, so important to poets, was being dismantled by Copernicus, Galileo, Tycho Brahe, Johannes Kepler, and others.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="eclipse-literature">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Eclipse Literature</pp:title>
+          <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="transformations-of-the-elements">
           <pp:author>Wendy Wall</pp:author>
           <pp:title>Transformations of the Elements</pp:title>
@@ -85,16 +95,6 @@
           <pp:author>Wendy Wall</pp:author>
           <pp:title>Talking to Death</pp:title>
           <pp:peek>In “The Eclipse,” the speaker directly addresses God, using apostrophe to animate Death itself. The speaker’s warning that Death has been conquered by God (specifically, as the last stanza specifies, through Christ’s blood sacrifice) echoes John Donne, “Holy Sonnet” X:</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="black-monday-1652">
-          <pp:author>Lara Dodds</pp:author>
-          <pp:title>Black Monday (1652)</pp:title>
-          <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="eclipse-literature">
-          <pp:author>Lara Dodds</pp:author>
-          <pp:title>Eclipse Literature</pp:title>
-          <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
