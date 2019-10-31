@@ -398,6 +398,13 @@ $themeColor: #ece9e2;
         }
       }
 
+      //&:not(.bottom) {
+      //  .src {
+      //    //font-size: 1.15em;
+      //    font-size: ms(-1);
+      //  }
+      //}
+
       &.bottom {
         margin-top: 2.25em;
         padding-top: 1.33em;
