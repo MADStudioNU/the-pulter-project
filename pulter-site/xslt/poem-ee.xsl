@@ -15,8 +15,8 @@
   <xsl:variable name="isPublished" select="boolean(count($witnesses[starts-with(@xml:id, $elementalEditionId)]) &gt; 0)" />
   <xsl:variable name="projectName">The Pulter Project</xsl:variable>
   <xsl:variable name="elementalEditionId">ee</xsl:variable>
-  <xsl:variable name="hasPoster">
-    <xsl:call-template name="hasPoster">
+  <xsl:variable name="poemPosterObject">
+    <xsl:call-template name="poemPoster">
       <xsl:with-param name="poemId">
         <xsl:value-of select="$poemID"/>
       </xsl:with-param>
@@ -150,7 +150,7 @@
           <xsl:value-of select="concat('id: ', $poemID)"/>
           <xsl:value-of select="concat(', title: &quot;', $fullTitle, '&quot;')"/>
           <xsl:value-of select="concat(', isPublished: ', string($isPublished))"/>
-          <xsl:value-of select="concat(', hasPoster: ', $hasPoster)"/>
+          <xsl:value-of select="concat(', poster: ', $poemPosterObject)"/>
           <xsl:value-of select="concat(', hasCtx: ', $hasCurations)"/>
           <xsl:value-of select="'});'"/>
         </script>
@@ -511,11 +511,10 @@
     <div class="poster">
       <xsl:variable name="posterDarkUrl" select="concat('/images/headnote-posters/h', $poemID, 'd.jpg')"/>
       <xsl:variable name="posterLightUrl" select="concat('/images/headnote-posters/h', $poemID, 'l.jpg')"/>
-      <xsl:if test="$hasPoster = 'true'">
+      <xsl:if test="$poemPosterObject != 'false'">
         <img src="{$posterDarkUrl}"/>
         <img src="{$posterLightUrl}"/>
       </xsl:if>
-      <xsl:text> </xsl:text>
     </div>
     <div class="poem-title">
       <span class="poem-title-line poem-index lato">

@@ -363,7 +363,7 @@ var PP = (function ($) {
       var defaults = {
         id: 0,
         title: '',
-        hasPoster: false,
+        poster: false,
         hasCtx: false
       };
 
@@ -401,7 +401,6 @@ var PP = (function ($) {
             $headnoteToggles = $body.find('.headnote-toggle'),
             $facsimileToggle = $body.find('.facsimile-toggle'),
             $poemNoteTriggers = $body.find('.poem-note-trigger'),
-            $title = $body.find('.poem-title'),
             $navs = $body.find('.nav'),
             $ctxs,
             $curationBlurb = $('.curation-blurb');
@@ -439,7 +438,7 @@ var PP = (function ($) {
           });
 
           // Set the posters
-          if (config.hasPoster) {
+          if (config.poster) {
             $body.addClass('has-poster');
             setPosterImage($poster, config.id, 'd');
           }
@@ -449,7 +448,7 @@ var PP = (function ($) {
             $body.addClass('ctx');
             $ctxs = $body.find('#ctxs');
 
-            if (config.hasPoster) {
+            if (config.poster) {
               setPosterImage($ctxs, config.id, 'l');
             }
 
@@ -623,11 +622,9 @@ var PP = (function ($) {
           });
 
           // Trigger poster info lightbox
-          // Todo: replace the fixture with data from the manifest
-          // Todo: remove the link with a formatted Chicago style reference string
           $posterInfoTrigger.on('click', function () {
-            var $self = $(this),
-              $noteMarkup = '<div class="poster-box"><img src="/images/headnote-posters/h' + config.id + 'p.jpg" /><div class="link-box"></div></div>';
+            var $self = $(this);
+            var $noteMarkup = '<div class="poster-box' + (config.poster.statement ? ' padded' : '') + '"><div class="image-box"><img src="/images/headnote-posters/h' + config.id + 'p.jpg" /></div>' + (config.poster.statement ? ('<div class="source-statement"><a ' + (config.poster.link ? ('href="' + config.poster.link + '" target="_blank" class="ref"') : '') + '>' + config.poster.statement + '</a></div>') : '') + '</div>';
 
             $self.addClass('active');
             $self.blur();
@@ -635,7 +632,7 @@ var PP = (function ($) {
             $.featherlight($noteMarkup, {
               variant: 'poster-info',
               closeIcon: '',
-              otherClose: '.poster-box img'
+              otherClose: '.image-box'
             });
 
             return false;

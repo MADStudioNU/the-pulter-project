@@ -14,8 +14,8 @@
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
   <xsl:variable name="projectName">The Pulter Project</xsl:variable>
   <xsl:variable name="elementalEditionId">ee</xsl:variable>
-  <xsl:variable name="hasPoster">
-    <xsl:call-template name="hasPoster">
+  <xsl:variable name="poemPosterObject">
+    <xsl:call-template name="poemPoster">
       <xsl:with-param name="poemId">
         <xsl:value-of select="$poemID"/>
       </xsl:with-param>
@@ -149,7 +149,7 @@
           <xsl:value-of select="'PP.initPoem({'"/>
           <xsl:value-of select="concat('id: ', $poemID)"/>
           <xsl:value-of select="concat(', title: &quot;', $fullTitle, '&quot;')"/>
-          <xsl:value-of select="concat(', hasPoster: ', $hasPoster)"/>
+          <xsl:value-of select="concat(', poster: ', $poemPosterObject)"/>
           <xsl:value-of select="concat(', hasCtx: ', $hasCurations)"/>
           <xsl:value-of select="'});'"/>
         </script>

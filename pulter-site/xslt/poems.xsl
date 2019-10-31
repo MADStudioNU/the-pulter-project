@@ -10,7 +10,10 @@
     <pp:poem id="1">
       <pp:title>The Eclipse</pp:title>
       <pp:firstLine>Why do those frowning vapors interpose</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksemuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>cosmology</pp:keyword>
         <pp:keyword>resurrection</pp:keyword>
@@ -101,7 +104,10 @@
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
       <pp:firstLine>Dear daughters, come, make haste away</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Guillaume Saint, after Nicolaes Pietersz. Landschap met herder en herderin en hun schapen, 1655. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169657"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>restoration</pp:keyword>
@@ -148,7 +154,9 @@
     <pp:poem id="3">
       <pp:title>Aurora [1]</pp:title>
       <pp:firstLine>Lovely Aurora, O how heavenly fair</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Elias van Nijmegen (possibly), Ontwerp voor een plafondschildering met Aurora die de Nacht verjaagt, 1677–1755. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.235944"/></pp:poster>
       <pp:keywords>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>dawn</pp:keyword>
@@ -220,7 +228,10 @@
     <pp:poem id="4">
       <pp:title>The Complaint of Thames, 1647</pp:title>
       <pp:firstLine>Late in an evening as I walked alone</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>L. Truchy, Women shelter in fear by a tree, as a deluge sweeps the land. Wellcome Collection. CC BY.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/c59q2ewg"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
@@ -280,7 +291,10 @@
     <pp:poem id="5">
       <pp:title>Of Night and Morning</pp:title>
       <pp:firstLine>Night like the grave, wherein we lie forelorn</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Vrouw aanschouwt de zonsopgang, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143311"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>night</pp:keyword>
         <pp:keyword>darkness</pp:keyword>
@@ -355,7 +369,10 @@
     <pp:poem id="6">
       <pp:title>Universal Dissolution</pp:title>
       <pp:firstLine>My soul, why art thou sad at the decay</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>P. Miotte, Astronomy: The 28 phases of the moon in a lunar month, 1646. Wellcome Collection. CC BY.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/kfzjpurt"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>mortality</pp:keyword>
         <pp:keyword>nature</pp:keyword>
@@ -465,7 +482,10 @@
     <pp:poem id="7">
       <pp:title>On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</pp:title>
       <pp:firstLine>Is Lisle and Lucas slain? O say not so!</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>The Loyall Sacrifice, after 1648. Trustees of the British Museum. CC BY-NC-SA 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref=""/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>royalism</pp:keyword>
         <pp:keyword>civil war</pp:keyword>
@@ -517,7 +537,10 @@
     <pp:poem id="8">
       <pp:title>On that Unparalleled Prince Charles the First, His Horrid Murder</pp:title>
       <pp:firstLine>Those glittering globes of light which grace</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, The Execution of Charles I. British Library, Shelfmark: Crach.1.Tab.4.c.1.(18.). Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//www.bl.uk/collection-items/print-of-the-execution-of-charles-i"/>
+      </pp:poster>
       <pp:tags>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>civil war</pp:tag>
@@ -551,7 +574,10 @@
       <pp:title>Upon the Death of my Dear and Lovely Daughter, Jane Pulter</pp:title>
       <pp:firstLine>All you that have indulgent parents been</pp:firstLine>
       <pp:seoTitle>Upon the Death of my Dear and Lovely Daughter</pp:seoTitle>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Elias van Nijmegen, Niobe voor haar overmoed gestraft, 1677-1755. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.232602"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>child loss</pp:keyword>
         <pp:keyword>maternity</pp:keyword>
@@ -644,7 +670,10 @@
     <pp:poem id="11">
       <pp:title>Tell Me No More [On the Same]</pp:title>
       <pp:firstLine>Tell me no more her hair was lovely brown</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan van de Sande, Jonge vrouw aangesproken door de Dood, 1610–1664. Rijksmuseum. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.170020"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -716,7 +745,10 @@
     <pp:poem id="13">
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
       <pp:firstLine>Why I sit sighing here, ask me no more</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Engraving by G. Noble, after Robert Smirke, King Charles I imprisoned in Carisbrooke castle, 1800. Wellcome Collection. CC BY.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/ewaadsfq"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>Charles I</pp:keyword>
         <pp:keyword>lamentation</pp:keyword>
@@ -744,7 +776,10 @@
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
       <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>The executioner after the beheading of Charles I of England, 1649. Portrait File, Houghton Library, Harvard University.</pp:sourceStatement>
+        <pp:sourceLink ref="//upload.wikimedia.org/wikipedia/commons/1/16/Houghton_Portrait_File_-_Charles_I_of_England_beheaded.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -770,7 +805,10 @@
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
       <pp:firstLine>Let None Sigh More for Lucas or for Lisle</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Bernard Baron, The Apotheosis, or, Death of the King, 1728.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:The-Apotheosis-or-Death-of-the-King-The-Beheading-of-King-Charles-I.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -807,7 +845,10 @@
     <pp:poem id="16">
       <pp:title>The Revolution</pp:title>
       <pp:firstLine>O Thou, which circumvolveth all</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Workshop of Bernard Picart, Voorstellingen van het planetenstelsel en van de maan, 1683-1733. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.306142"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -860,7 +901,10 @@
     <pp:poem id="17">
       <pp:title>The Circle [1]</pp:title>
       <pp:firstLine>In sighs and tears there is no end</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Robert Fludd, De Macrocosmi Principiis 1617-1618, p. 43. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/gtcxg8n5"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>circle</pp:keyword>
         <pp:keyword>tears</pp:keyword>
@@ -922,7 +966,10 @@
     <pp:poem id="18">
       <pp:title>The Desire</pp:title>
       <pp:firstLine>Dear God, vouchsafe from thy high throne</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Wallerant Vaillant, after Guido Reni, Mater Dolorosa, 1658–1677. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.46562"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>prayer</pp:keyword>
         <pp:keyword>transmutation</pp:keyword>
@@ -974,7 +1021,10 @@
     <pp:poem id="19">
       <pp:title>The Welcome [1]</pp:title>
       <pp:firstLine>Dear Death, thou’rt welcome to my troubled soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Schrijver Willem Sluiter wijst naar diverse voorwerpen en naar een huis waar een vrouw geschrokken is van de Dood die aanklopt, 1687. Rijksmuseum. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143324"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1001,7 +1051,10 @@
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
       <pp:firstLine>Dear God, turn not away Thy face</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Attributed to Dominicus Custos, after Wierix, after Maerten de Vos, Dialoog tussen Mens en Religie, c.1601-c.1615. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.100176"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>prayer</pp:keyword>
         <pp:keyword>mortality</pp:keyword>
@@ -1042,7 +1095,10 @@
     <pp:poem id="21">
       <pp:title>The Circle [2]</pp:title>
       <pp:firstLine>Those that the hidden chemic art profess</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Philips Galle, after Pieter Brueghel (I), Alchemist, 1556-1560. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.344542"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>alchemy</pp:keyword>
         <pp:keyword>vanity</pp:keyword>
@@ -1107,7 +1163,9 @@
     <pp:poem id="22">
       <pp:title>To Aurora [1]</pp:title>
       <pp:firstLine>Fair rosy virgin, when wilt thou arise</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Woman walking in the night, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143309"/></pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1147,7 +1205,10 @@
     <pp:poem id="23">
       <pp:title>To Astraea</pp:title>
       <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Enea Vico, after Francesco Salviati, Waarheid, 1533–1567. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.188412"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1178,7 +1239,10 @@
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
       <pp:firstLine>How long shall my dejected soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, Schepping van het licht, 1585. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.343199"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1229,7 +1293,10 @@
     <pp:poem id="25">
       <pp:title>The Circle [3]</pp:title>
       <pp:firstLine>To be unwilling or afraid to die</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Andreas van Luchtenburg (possibly), Hemelkaart met de noordelijke sterrenbeelden, in or after 1684 and before 1701. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.404771"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1264,7 +1331,10 @@
     <pp:poem id="26">
       <pp:title>To Aurora [2]</pp:title>
       <pp:firstLine>Look up, sad eyes, behold the smiling morn</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Crispijn van de Passe (I), Ochtend, 1611-1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.422567"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1320,7 +1390,10 @@
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
       <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Bartolommeo Coriolano, after Guido Reni, Sibille, c. 1609–1676. Rijksmuseum. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.50766"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1359,7 +1432,10 @@
     <pp:poem id="29">
       <pp:title>My Soul’s Sole Desire</pp:title>
       <pp:firstLine>Thou that didst on the chaos move</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Urania, 1601-1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117728"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1403,7 +1479,10 @@
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
       <pp:firstLine>O that the splendent and illustrious sun</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicolas Bocquet, after Rafaël, Astronomische voorstelling van de dageraad met twee putti, 1691. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.82371"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1459,7 +1538,10 @@
     <pp:poem id="31">
       <pp:title>Made When I Was Sick, 1647</pp:title>
       <pp:firstLine>O me, how sore, how sad is my poor heart</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hans Holbein (II), Oude vrouw en de Dood, 1538. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.31714"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1521,7 +1603,10 @@
     <pp:poem id="32">
       <pp:title>Aletheia’s Pearl</pp:title>
       <pp:firstLine>Fair Aletheia (when I was a girl)</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713, Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.44783"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1585,7 +1670,10 @@
     <pp:poem id="33">
       <pp:title>The Welcome [2]</pp:title>
       <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Boëtius Adamsz Bolswert, Kind in skelet van de Dood gekropen, 1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.84200"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1622,7 +1710,10 @@
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
       <pp:firstLine>Why doth pale thus her beauty shroud?</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, Last Judgment, 1600–1649. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.6622"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1716,7 +1807,10 @@
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
       <pp:firstLine>Walking abroad, once in a summer’s day</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de vlieg en de mieren, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168154"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1791,7 +1885,10 @@
     <pp:poem id="36">
       <pp:title>The Circle [4]</pp:title>
       <pp:firstLine>The eternal Spirit of life and love</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, God the father, 17th century. © Trustees of the British Museum. CC BY-NC-SA 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref=""/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>God</pp:keyword>
         <pp:keyword>creation</pp:keyword>
@@ -1826,7 +1923,10 @@
     <pp:poem id="37">
       <pp:title>Aurora [2]</pp:title>
       <pp:firstLine>Lovely Aurora, when wilt thou appear</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Caspar Luyken, after Jan Luyken, Embleem: zonsopgang, c. 1700. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.145372"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1867,7 +1967,10 @@
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
       <pp:firstLine>Come, my dear children, to this lonely place</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Plate by John Savage for Henry Chauncy, Historical Antiquities of Hertfordshire, 1700.</pp:sourceStatement>
+        <pp:sourceLink ref="//hesterpulter.com/wp-content/uploads/2013/08/Broadfield-Hall-002.jpg"/>
+      </pp:poster>
       <pp:seoTitle>To My Dear Jane, Margaret, and Penelope Pulter</pp:seoTitle>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1943,7 +2046,10 @@
     <pp:poem id="39">
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
       <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Pieter van Gunst, after Gerard de Lairesse, Anatomische studie van de binnenkant van de baarmoeder en een foetus, 1685. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.339414"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2011,7 +2117,10 @@
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.386240"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2022,7 +2131,10 @@
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements</pp:title>
       <pp:firstLine>Have patience, my afflicted soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicolaes Maes, Old Woman Saying Grace, Known as “The Prayer without End,” c. 1656. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.8948"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2033,7 +2145,10 @@
     <pp:poem id="42">
       <pp:title>Pardon Me, My Dearest Love</pp:title>
       <pp:firstLine>Pardon me, my dearest love</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Frans Hogenberg (workshop of), Executie van Ravaillac, 1610, 1610-1612. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.442242"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2062,7 +2177,10 @@
     <pp:poem id="43">
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
       <pp:firstLine>A noble pair, in love without compare</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Portret van Kenau Simonsdochter Hasselaer, 1573 [date on object]. 1600-1799. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.445453"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2123,7 +2241,10 @@
     <pp:poem id="44">
       <pp:title>A Solitary Discourse</pp:title>
       <pp:firstLine>How canst thou heavy be? Now she appears</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Saenredam, after Hendrick Goltzius, De Nacht, 1630. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169436"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2197,7 +2318,10 @@
     <pp:poem id="45">
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
       <pp:firstLine>Sad, sick, and lame, as in my bed I lay</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jacob de Gheyn (II), Woman on her deathbed, 1596-1601. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.29302"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2247,7 +2371,10 @@
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
       <pp:firstLine>See how Arachne doth her hours pass</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Dirk Stoop, Fabel van de leeuwerik en haar jongen, 1665. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.180175"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2344,7 +2471,10 @@
     <pp:poem id="47">
       <pp:title>Why Art Thou Sad at the Approach of Night</pp:title>
       <pp:firstLine>Why Art Thou Sad at the Approach of Night</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Willem Panneels, after Peter Paul Rubens, Oude vrouw en kind bij kaarslicht, 1631. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.160413"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2393,7 +2523,10 @@
     <pp:poem id="48">
       <pp:title>Immense Fount of Truth, Life, Love, Joy, Glory</pp:title>
       <pp:firstLine>Immense Fount of truth, life, love, joy, glory</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jacob Bos, after Rafaël, Jakobs droom, 1530-1580. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.85505"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2444,7 +2577,10 @@
     <pp:poem id="49">
       <pp:title>My Heart Why Dost Thou Throb So in My Breast?</pp:title>
       <pp:firstLine>My heart, why dost thou throb so in my breast?</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168157"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2491,7 +2627,10 @@
     <pp:poem id="50">
       <pp:title>My God, I Thee (and Only Thee) Adore</pp:title>
       <pp:firstLine>My God, I Thee (and only Thee) adore</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Francesco Villamena, after Rafaël, God creating the sun and the moon, 1626. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.188589"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2544,7 +2683,10 @@
     <pp:poem id="51">
       <pp:title>Made When I Was Not Well</pp:title>
       <pp:firstLine>My Soul why do’st thou Such a mourning make</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Lucas Vorsterman (I), After Adriaen Brouwer, IJdelheid (Superbia), 1619 – 1675. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.385436"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2608,7 +2750,9 @@
     <pp:poem id="52">
       <pp:title>The Wish</pp:title>
       <pp:firstLine>O, that I were a sun that I might send</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Voncken der liefde Jesu, van het godtbegerende zielenvier, 1687. Rijksmuseum, Amsterdam. Public domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143305"/></pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2652,7 +2796,10 @@
     <pp:poem id="53">
       <pp:title>Upon the Crown Imperial</pp:title>
       <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Basilius Besler, Copper engraving of the Crown Imperial: Corona Imperialis Polyanthos (Fritillaria imperialis), 1613. Kew collection. © Board of Trustees, RBG Kew.</pp:sourceStatement>
+        <pp:sourceLink ref="//powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2679,7 +2826,10 @@
     <pp:poem id="54">
       <pp:title>A Solitary Complaint</pp:title>
       <pp:firstLine>Must I be still confined to this sad grove</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Vrouw staande op een wereldbol, omgeven door de zon, maan, sterren en planeten, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143217"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2743,7 +2893,10 @@
     <pp:poem id="55">
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
       <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Cornelis Pietersz, Sitting Woman with Apron, Bega, 1641-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.27398"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2780,7 +2933,10 @@
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
       <pp:firstLine>Young Anne: Come, my dear sister, sit with me awhile</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Theodor de Bry, after Jean Jacques Boissard, Twee vrouwen bij een grafmonument, 1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.473262"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2831,7 +2987,10 @@
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
       <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicasius Rousseel, Paneel met bladranken en twee halve monsters, 1684. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.452660"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2925,7 +3084,10 @@
     <pp:poem id="59">
       <pp:title>My Love is Fair</pp:title>
       <pp:firstLine>And is thy love so wondrous fair?</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Harmensz Muller, after Cornelis Cornelisz van Haarlem, Arion op de Dolfijn, 1589. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.344645"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2988,7 +3150,10 @@
     <pp:poem id="60">
       <pp:title>Extremely I Deplore Your Loss</pp:title>
       <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from _De curtorum chirurgia per insitionem_ 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:Houghton_Typ_525.97.820_-_De_curtorum_chirurgia_per_insitionem,_icon_octua_-_cropped.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2999,7 +3164,10 @@
     <pp:poem id="61">
       <pp:title>The Weeping Wish</pp:title>
       <pp:firstLine>O, that the tears that trickle from mine eyes</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, De verschijning van een komeet in november 1618, 1618-1649. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.456821"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3042,7 +3210,10 @@
     <pp:poem id="62">
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hendrick Goltzius, after Cornelis Cornelisz. van Haarlem, Phaëton, 1588. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.450548"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3073,7 +3244,10 @@
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
       <pp:firstLine>Dear God, from Thy high throne look down</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Peter Dannoot, after Peter Paul Rubens, Hoofd van Christus met doornenkroon, 1644–1692. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.101191"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3133,7 +3307,10 @@
     <pp:poem id="64">
       <pp:title>And Must the Sword this Controverse Decide</pp:title>
       <pp:firstLine>And must the sword this controverse decide</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Raphaël Sadeler (I), naar Johann Mathias Kager, Onthoofding van de Heilige Florianus, 1615. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168917"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3144,7 +3321,10 @@
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
       <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Stefano della Bella, De Dood met een vrouw over zijn schouder, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.76620"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3222,7 +3402,10 @@
     <pp:poem id="66">
       <pp:title>Made When My Spirits Were Sunk Very Low</pp:title>
       <pp:firstLine>Droop not, my soul, nor hang the wing</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Amalie Baader, after Georg Friedrich Schmidt, after Rembrandt van Rijn, Biddende oude vrouw (Rembrandt’s moeder), 1773-c.1840. Rijkmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.364554"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3286,7 +3469,10 @@
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
       <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>M. van der Gucht after G. Hoet, The Builders of the Tower of Babel Start to Argue as Their Language is Confounded, ca. 1700. Wellcome Library. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/cmsfca3r"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3317,7 +3503,10 @@
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
       <pp:firstLine>Come, my dear children, come and happy be</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Collaert I,The Seven Virtues in a Roundel, with Faith at the Center,mid-16th century. The Metropolitan Museum of Art; 2000.372. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//library-artstor-org.proxy.library.brocku.ca/#/asset/SS7731421_7731421_11160957;prevRouteTS=1561470967474"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3359,7 +3548,10 @@
     <pp:poem id="70">
       <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
       <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Mishandeling van de vrouw van Masistes, 1699. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.144888"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3394,7 +3586,10 @@
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
       <pp:firstLine>The manucodiats, as authors write</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Ulisse Aldrovandi, Bird of Paradise, from _Ornotologia_, 1598. Wikimedia Commons. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File%3ABird_of_Paradise_from_Ulisse_Aldrovandi_Ornotologia.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3439,7 +3634,10 @@
     <pp:poem id="72">
       <pp:title>Two Mountebanks (Emblem 6)</pp:title>
       <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Caspar Luyken, Mirandors broer in dienst bij een kwakzalver, die zijn toneel op een marktplein heeft opgeslagen, 1695. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.377261"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3504,7 +3702,10 @@
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
       <pp:firstLine>The Indian moose three young at once doth bear</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Camillo Mariani, Mother Ape, 1595–96. Metropolitan Museum of Art, Accession number 2006.35. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:Mother_Ape_MET_DP137569.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3533,7 +3734,10 @@
     <pp:poem id="74">
       <pp:title>The Turtle (Emblem 8)</pp:title>
       <pp:firstLine>How fast this creature runs upon the earth</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Zeeschildpad, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184281"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3552,7 +3756,10 @@
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
       <pp:firstLine>When scorned Medea saw Creusa led</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Medea verwoest familie en huis van Jason, 1606. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184051"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3570,7 +3777,10 @@
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
       <pp:firstLine>The dubious raven doth her young forsake</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Saenredam, after Abraham Bloemaert, Elia wordt in de wildernis gevoed door de raven, 1604. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169230"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3588,7 +3798,10 @@
     <pp:poem id="79">
       <pp:title>The Porcupine (Emblem 13)</pp:title>
       <pp:firstLine>The porcupine went ruffling in his pride</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Stekelvarken, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184286"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3638,7 +3851,10 @@
     <pp:poem id="80">
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jean Duvet, De eenhoorn zuivert het water met zijn hoorn, 1540-1551. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41140"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3667,7 +3883,10 @@
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
       <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>After Adriaen Collaert, after Jan Collaert (II), after Jan van der Straet, Vossen, ram, luipaard en tijger, anonymous, 1635-1660. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.542877"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3728,7 +3947,10 @@
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
       <pp:firstLine>The cockatrice, as vulgarly received</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Wenceslaus Hollar, naar Aegidius Sadeler, naar Marcus Gheeraerts, Fabel van de basilisk en de wezel, 1644-1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.32127"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3769,7 +3991,10 @@
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
       <pp:firstLine>Who can but pity this poor turtledove</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Dirck de Bray, Twee tortelduiven in een ring met een steen, 1635-1694. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.87587"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3829,7 +4054,10 @@
     <pp:poem id="87">
       <pp:title>The Hunted Hart (Emblem 22)</pp:title>
       <pp:firstLine>The hunted hart, when she begins to tire</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Stefano della Bella, Ree opgejaagd door een jachthond, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.77301"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3871,7 +4099,10 @@
     <pp:poem id="88">
       <pp:title>The Toad and the Spider (Emblem 23)</pp:title>
       <pp:firstLine>The toad and spider once would try the might</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicolaes de Bruyn, Waterslang, kikkers en padden, 1581–1656. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.89193"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3943,7 +4174,10 @@
     <pp:poem id="89">
       <pp:title>The Marmottane (Emblem 24)</pp:title>
       <pp:firstLine>The marmottane’s for unity’s renowned</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Marmot, Antonio Tempesta, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184385"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3983,7 +4217,10 @@
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
       <pp:firstLine>The stately moose, being mounted up the hill</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hans Holbein (II), Schipper en de Dood, 1538. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.31719"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4022,7 +4259,10 @@
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
       <pp:firstLine>The cuckoo’s constitution’s cold, she knows</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>W. Hayes, A pied wagtail feeding a worm to a young cuckoo, 1766. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/khz6r7v8"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4066,7 +4306,10 @@
     <pp:poem id="98">
       <pp:title>This Fell Catablepe (Emblem 33)</pp:title>
       <pp:firstLine>Could this fell catablepe lift up her head</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Rund, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184320"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4106,7 +4349,10 @@
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
       <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Johannes Wierix, naar Gerard van Groeningen, Antiochus Epifanes rooft de tempel van Jeruzalem leeg, 1579. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.384737"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4152,7 +4398,10 @@
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
       <pp:firstLine>Behold how many cobwebs doth invest</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>P. Sluyter, Spider dragging a humming bird from its nest. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/n89w6enk"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4184,7 +4433,10 @@
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
       <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Allaert van Everdingen, Verdere leugens van Reinaert de vos, 1631–75. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.70707"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4244,7 +4496,10 @@
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
       <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hendrick Goltzius, Neptunus en Amphitrite, 1575-1607. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169321"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4280,7 +4535,10 @@
     <pp:poem id="105">
       <pp:title>View but this Tulip (Emblem 40)</pp:title>
       <pp:firstLine>View but this tulip, rose, or gillyflower</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>François van Bleyswijck, Stadsgezicht met Domkerk te Utrecht en allegorie met drie geleerden, 1681-1746. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.81185"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4366,7 +4624,10 @@
     <pp:poem id="114">
       <pp:title>A Russian Rustic (Emblem 49)</pp:title>
       <pp:firstLine>A Russian rustic clamb’ring up a tree</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, naar Marcus Gheeraerts (I), Fabel van de beer en de bijen, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168125"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4431,7 +4692,10 @@
     <pp:poem id="118">
       <pp:title>Fair Aurora (Emblem 53)</pp:title>
       <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jacob Marrel, Twee tulpen met wesp, vlinder en slak, 1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.636400"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4508,12 +4772,30 @@
   <xsl:variable name="ucAlphabet" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
 
   <!-- This is used to initialize a poem in JS -->
-  <xsl:template name="hasPoster">
+  <xsl:template name="poemPoster">
       <xsl:param name="poemId"/>
-      <xsl:choose>
-          <xsl:when test="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster">true</xsl:when>
-          <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
+      <xsl:variable name="hasPoster" select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster"/>
+    <xsl:variable name="sourceStatement" select="normalize-space(document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster/pp:sourceStatement/text())"/>
+    <xsl:variable name="sourceLink" select="normalize-space(document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster/pp:sourceLink/@ref)"/>
+
+    <xsl:choose>
+      <xsl:when test="$hasPoster">
+        <xsl:value-of select="'{'"/>
+        <xsl:if test="boolean($sourceStatement)">
+          <xsl:value-of select="concat('&quot;statement&quot;: &quot;', $sourceStatement,'&quot;')"/>
+        </xsl:if>
+        <xsl:if test="boolean($sourceStatement) and boolean($sourceLink)">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
+        <xsl:if test="boolean($sourceLink)">
+          <xsl:value-of select="concat('&quot;link&quot;: &quot;', $sourceLink,'&quot;')"/>
+        </xsl:if>
+        <xsl:value-of select="'}'"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>false</xsl:text>
+      </xsl:otherwise>
+  </xsl:choose>
   </xsl:template>
 
   <!-- JSON manifest generator -->
