@@ -3505,7 +3505,7 @@
       <pp:firstLine>Come, my dear children, come and happy be</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Jan Collaert I,The Seven Virtues in a Roundel, with Faith at the Center,mid-16th century. The Metropolitan Museum of Art; 2000.372. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="//library-artstor-org.proxy.library.brocku.ca/#/asset/SS7731421_7731421_11160957;prevRouteTS=1561470967474"/>
+        <pp:sourceLink ref="//www.metmuseum.org/art/collection/search/342989"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
