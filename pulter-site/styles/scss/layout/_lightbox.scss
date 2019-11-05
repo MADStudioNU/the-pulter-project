@@ -288,7 +288,7 @@
   }
 
   &.poster-info {
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .9);
 
     .featherlight-content {
       position: relative;
@@ -298,37 +298,71 @@
       padding: 0;
       text-align: center;
       max-height: 100%;
+      width: 80%;
       overflow: visible;
-      pointer-events: none;
 
       .poster-box {
-        position: relative;
-        padding: 0 0 4.5em 0;
-        height: 80%;
+        $offset: 10%;
+        $w: 40em;
+
+        height: 88%;
+
+        &.padded {
+          height: 100% - $offset;
+          padding-bottom: $offset;
+        }
+
+        .image-box {
+          position: relative;
+          width: 100%;
+          cursor: pointer;
+          height: 100%;
+        }
 
         img {
-          max-width: 50em;
+          @include vcenter;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          vertical-align: middle;
           max-height: 100%;
-          width: auto;
-          border-radius: 4px;
+          max-width: 40em;
+          border-radius: 3px;
           box-shadow: 0 0 10em rgba(0, 0, 0, .5);
         }
 
-        .link-box {
-          //padding: 3em 0;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          margin: 0 auto;
-          //background: salmon;
+        .source-statement {
+          display: block;
+          line-height: 1.61;
+          text-align: center;
+          font-family: $pp_curatorialFont;
+          font-weight: normal;
+          font-style: italic;
+          max-width: 36em;
+          margin: 1.75em auto 0 auto;
 
-          a.ext {
-            display: inline-block;
-            color: #fff;
-            font-size: .7em;
-            padding: .4em .8em .33em .85em;
-            min-width: 10em;
+          a {
+            color: lighten($pp_manuscriptPaper, 6%);
+            opacity: .85;
+
+            &.ref {
+              &:hover {
+                opacity: 1;
+              }
+
+              &::after {
+                $s: .75em;
+
+                content: '';
+                position: relative;
+                top: -.3em;
+                margin-left: .15em;
+                display: inline-block;
+                width: $s;
+                height: $s;
+                background: url('/images/external-link-w.svg') no-repeat 50% 50%;
+              }
+            }
           }
         }
       }
@@ -337,17 +371,15 @@
         max-width: 90%;
 
         .poster-box {
+
+          &.padded {
+            height: 80%;
+          }
+
           img {
             max-width: 100%;
           }
-
-          .link-box {
-            a.ext {
-              font-size: 1.2em;
-            }
-          }
         }
-
       }
     }
   }

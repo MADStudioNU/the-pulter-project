@@ -10,7 +10,10 @@
     <pp:poem id="1">
       <pp:title>The Eclipse</pp:title>
       <pp:firstLine>Why do those frowning vapors interpose</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksemuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>cosmology</pp:keyword>
         <pp:keyword>resurrection</pp:keyword>
@@ -66,6 +69,11 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
+        <pp:curation status="on" hash="black-monday-1652">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Black Monday (1652)</pp:title>
+          <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="controlling-the-sun">
           <pp:author>Wendy Wall</pp:author>
           <pp:title>Controlling the Sun</pp:title>
@@ -76,32 +84,30 @@
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>When Pulter alludes to astronomy, she signals an area of knowledge that had been rapidly changing in her lifetime. The older Ptolemaic view of the heavens, so important to poets, was being dismantled by Copernicus, Galileo, Tycho Brahe, Johannes Kepler, and others.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="transformations-of-the-elements">
-          <pp:author>Wendy Wall</pp:author>
-          <pp:title>Transformations of the Elements</pp:title>
-          <pp:peek>Poet Anne Bradstreet was, like Pulter, interested in transfigured states of material being. In a poem entitled “The Four Elements,” a personified Air meditates on the power of rarefaction:</pp:peek>
+        <pp:curation status="on" hash="eclipse-literature">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Eclipse Literature</pp:title>
+          <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="talking-to-death">
           <pp:author>Wendy Wall</pp:author>
           <pp:title>Talking to Death</pp:title>
           <pp:peek>In “The Eclipse,” the speaker directly addresses God, using apostrophe to animate Death itself. The speaker’s warning that Death has been conquered by God (specifically, as the last stanza specifies, through Christ’s blood sacrifice) echoes John Donne, “Holy Sonnet” X:</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="black-monday-1652">
-          <pp:author>Lara Dodds</pp:author>
-          <pp:title>Black Monday (1652)</pp:title>
-          <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="eclipse-literature">
-          <pp:author>Lara Dodds</pp:author>
-          <pp:title>Eclipse Literature</pp:title>
-          <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
+        <pp:curation status="on" hash="transformations-of-the-elements">
+          <pp:author>Wendy Wall</pp:author>
+          <pp:title>Transformations of the Elements</pp:title>
+          <pp:peek>Poet Anne Bradstreet was, like Pulter, interested in transfigured states of material being. In a poem entitled “The Four Elements,” a personified Air meditates on the power of rarefaction:</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
       <pp:firstLine>Dear daughters, come, make haste away</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Guillaume Saint, after Nicolaes Pietersz. Landschap met herder en herderin en hun schapen, 1655. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169657"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>restoration</pp:keyword>
@@ -148,7 +154,9 @@
     <pp:poem id="3">
       <pp:title>Aurora [1]</pp:title>
       <pp:firstLine>Lovely Aurora, O how heavenly fair</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Elias van Nijmegen (possibly), Ontwerp voor een plafondschildering met Aurora die de Nacht verjaagt, 1677–1755. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.235944"/></pp:poster>
       <pp:keywords>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>dawn</pp:keyword>
@@ -205,22 +213,25 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="pearled-over">
-          <pp:author>Victoria E. Burke</pp:author>
-          <pp:title>Pearled Over</pp:title>
-          <pp:peek>Pulter describes the goddess Aurora as “Pearl’d or’e with odours of the early East” (3). Here is an image of a seventeenth-century woman fashionably sporting pearls around her neck, in her ears, in her hair, and over her dress.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="the-many-headed-hydra">
           <pp:author>Victoria E. Burke</pp:author>
           <pp:title>The Many-Headed Hydra</pp:title>
           <pp:peek>Pulter refers to signs from heaven that humans think may portend some kind of political unrest, such as the shaking of a monarchy or the ending of an illegitimate government (25-28).</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pearled-over">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Pearled Over</pp:title>
+          <pp:peek>Pulter describes the goddess Aurora as “Pearl’d or’e with odours of the early East” (3). Here is an image of a seventeenth-century woman fashionably sporting pearls around her neck, in her ears, in her hair, and over her dress.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="4">
       <pp:title>The Complaint of Thames, 1647</pp:title>
       <pp:firstLine>Late in an evening as I walked alone</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>L. Truchy, Women shelter in fear by a tree, as a deluge sweeps the land. Wellcome Collection. CC BY.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/c59q2ewg"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>pastoral</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
@@ -280,7 +291,10 @@
     <pp:poem id="5">
       <pp:title>Of Night and Morning</pp:title>
       <pp:firstLine>Night like the grave, wherein we lie forelorn</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Vrouw aanschouwt de zonsopgang, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143311"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>night</pp:keyword>
         <pp:keyword>darkness</pp:keyword>
@@ -315,18 +329,18 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
+        <pp:curation status="on" hash="the-body-resurrected">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>The Body Resurrected</pp:title>
+          <pp:peek>
+            The poet Robert Aylett articulates the belief that only the bodies of the dead (not their souls) reside in the grave. In the passage below, Aylett describes the processes that purify the body before reconstitution at the resurrection.
+          </pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="burial-rites">
           <pp:author>Tara L. Lyons</pp:author>
           <pp:title>Burial Rites</pp:title>
           <pp:peek>
             Pulter’s hopeful anticipation of the second coming, when Christ will defeat death and sin, recalls the words spoken at English burial services in the first half of the seventeenth century.
-          </pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="doomsday">
-          <pp:author>Tara L. Lyons</pp:author>
-          <pp:title>Doomsday</pp:title>
-          <pp:peek>
-            The dawn of the day of resurrection is a time for exultation in Pulter’s “Of Night and Morning”. Her choice then to focus on the joy of rising to a new eternal life, rather than the anxiety of final judgement or the dread of doomsday, aligns with her speaker’s assumption that she will be among the chosen.
           </pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="daily-dying-and-rising">
@@ -336,6 +350,13 @@
             Pulter engages in a conventional meditation on death and resurrection in “Of Night and Morning”. Such meditations were designed to remind Christians of the inevitability of death as well as the promise of everlasting life if they were among the chosen.
           </pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="doomsday">
+          <pp:author>Tara L. Lyons</pp:author>
+          <pp:title>Doomsday</pp:title>
+          <pp:peek>
+            The dawn of the day of resurrection is a time for exultation in Pulter’s “Of Night and Morning”. Her choice then to focus on the joy of rising to a new eternal life, rather than the anxiety of final judgement or the dread of doomsday, aligns with her speaker’s assumption that she will be among the chosen.
+          </pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="night-in-ink">
           <pp:author>Tara L. Lyons</pp:author>
           <pp:title>“Night” in Ink</pp:title>
@@ -343,19 +364,15 @@
             On this folio page in Pulter’s manuscript (fol. 15), the scribe finishes copying Poem 4 and then records the whole of Poem 5 on the bottom third of the page. As can be seen below, the letter “N” in “Night”, both in the title and in the first and fifth lines, are visually highlighted by the scribe’s stylized loops and curls.
           </pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="the-body-resurrected">
-          <pp:author>Tara L. Lyons</pp:author>
-          <pp:title>The Body Resurrected</pp:title>
-          <pp:peek>
-            The poet Robert Aylett articulates the belief that only the bodies of the dead (not their souls) reside in the grave. In the passage below, Aylett describes the processes that purify the body before reconstitution at the resurrection.
-          </pp:peek>
-        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="6">
       <pp:title>Universal Dissolution</pp:title>
       <pp:firstLine>My soul, why art thou sad at the decay</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>P. Miotte, Astronomy: The 28 phases of the moon in a lunar month, 1646. Wellcome Collection. CC BY.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/kfzjpurt"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>mortality</pp:keyword>
         <pp:keyword>nature</pp:keyword>
@@ -465,7 +482,10 @@
     <pp:poem id="7">
       <pp:title>On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</pp:title>
       <pp:firstLine>Is Lisle and Lucas slain? O say not so!</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>The Loyall Sacrifice, after 1648. Trustees of the British Museum. CC BY-NC-SA 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref=""/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>royalism</pp:keyword>
         <pp:keyword>civil war</pp:keyword>
@@ -517,7 +537,10 @@
     <pp:poem id="8">
       <pp:title>On that Unparalleled Prince Charles the First, His Horrid Murder</pp:title>
       <pp:firstLine>Those glittering globes of light which grace</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, The Execution of Charles I. British Library, Shelfmark: Crach.1.Tab.4.c.1.(18.). Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//www.bl.uk/collection-items/print-of-the-execution-of-charles-i"/>
+      </pp:poster>
       <pp:tags>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>civil war</pp:tag>
@@ -551,7 +574,10 @@
       <pp:title>Upon the Death of my Dear and Lovely Daughter, Jane Pulter</pp:title>
       <pp:firstLine>All you that have indulgent parents been</pp:firstLine>
       <pp:seoTitle>Upon the Death of my Dear and Lovely Daughter</pp:seoTitle>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Elias van Nijmegen, Niobe voor haar overmoed gestraft, 1677-1755. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.232602"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>child loss</pp:keyword>
         <pp:keyword>maternity</pp:keyword>
@@ -624,11 +650,6 @@
           <pp:title>Child Loss Elegies</pp:title>
           <pp:peek>Pulter’s poem joins other notable elegies written about the death of a child in seventeenth-century England, including the following by Ben Jonson, Katherine Philips, Elizabeth Egerton, and Anne Bradstreet.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="white-lilies-and-red-roses">
-          <pp:author>Elizabeth Kolkovich</pp:author>
-          <pp:title>White Lilies and Red Roses</pp:title>
-          <pp:peek>Pulter’s description of her daughter Jane draws on conventions typically used by love poets in Petrarchan poetry, particularly the analogy of the beloved’s body parts with roses and lilies.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="the-hunted-deer">
           <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Hunted Deer</pp:title>
@@ -639,12 +660,20 @@
           <pp:title>The Sad Nightingale</pp:title>
           <pp:peek>Pulter’s poem follows the Italian poet Petrarch and several English authors in using the nightingale as a figure of mourning and sorrow.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="white-lilies-and-red-roses">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>White Lilies and Red Roses</pp:title>
+          <pp:peek>Pulter’s description of her daughter Jane draws on conventions typically used by love poets in Petrarchan poetry, particularly the analogy of the beloved’s body parts with roses and lilies.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="11">
       <pp:title>Tell Me No More [On the Same]</pp:title>
       <pp:firstLine>Tell me no more her hair was lovely brown</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan van de Sande, Jonge vrouw aangesproken door de Dood, 1610–1664. Rijksmuseum. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.170020"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -688,25 +717,25 @@
         <pp:tag>resurrection</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="poems-in-conversation">
+        <pp:curation status="on" hash="the-death-of-a-child">
           <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Poems in Conversation</pp:title>
-          <pp:peek>Pulter may borrow her opening phrase (“Tell me no more”) and dialogic structure, imagining and rebuffing an interlocutor, from other seventeenth-century poems. Her poem is thus about a kind of conversation and itself in conversation with a poetic convention.</pp:peek>
+          <pp:title>The Death of a Child</pp:title>
+          <pp:peek>The most famous early modern poems about children’s deaths focus on babies and young children. See, for example, Ben Jonson, “On My First Son.” Of Katherine Philips’s two poems about her “first and dearest child, Hector Philips,” who died shortly after his birth May 2, 1655, I have chosen this one because of its use of Pulterian tropes and diction.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="foolish-mourning">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Foolish Mourning</pp:title>
           <pp:peek>We can read Pulter’s poem as a kind of answer to this riddle in Shakespeare’s Twelfth Night, by which the Clown “proves” Olivia is a fool because she mourns for her brother’s soul although she believes it to be in heaven.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="the-death-of-a-child">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>The Death of a Child</pp:title>
-          <pp:peek>The most famous early modern poems about children’s deaths focus on babies and young children. See, for example, Ben Jonson, “On My First Son.” Of Katherine Philips’s two poems about her “first and dearest child, Hector Philips,” who died shortly after his birth May 2, 1655, I have chosen this one because of its use of Pulterian tropes and diction.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="fragrant-odors-immortalize-a-virgin-name">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Fragrant Odors Immortalize a Virgin Name</pp:title>
           <pp:peek>These passages come from annals of the First English Carmel (or Carmelite convent) founded in Antwerp in 1619. Beginning with the dissolution of the monasteries in 1539, some dispossessed English nuns joined convents abroad or banded together to attempt to continue a contemplative life; some daughters of English exiles entered local cloisters.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="poems-in-conversation">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Poems in Conversation</pp:title>
+          <pp:peek>Pulter may borrow her opening phrase (“Tell me no more”) and dialogic structure, imagining and rebuffing an interlocutor, from other seventeenth-century poems. Her poem is thus about a kind of conversation and itself in conversation with a poetic convention.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -716,7 +745,10 @@
     <pp:poem id="13">
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
       <pp:firstLine>Why I sit sighing here, ask me no more</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Engraving by G. Noble, after Robert Smirke, King Charles I imprisoned in Carisbrooke castle, 1800. Wellcome Collection. CC BY.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/ewaadsfq"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>Charles I</pp:keyword>
         <pp:keyword>lamentation</pp:keyword>
@@ -744,7 +776,10 @@
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
       <pp:firstLine>Let none presume to weep; tears are too weak</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>The executioner after the beheading of Charles I of England, 1649. Portrait File, Houghton Library, Harvard University.</pp:sourceStatement>
+        <pp:sourceLink ref="//upload.wikimedia.org/wikipedia/commons/1/16/Houghton_Portrait_File_-_Charles_I_of_England_beheaded.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -770,7 +805,10 @@
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
       <pp:firstLine>Let None Sigh More for Lucas or for Lisle</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Bernard Baron, The Apotheosis, or, Death of the King, 1728.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:The-Apotheosis-or-Death-of-the-King-The-Beheading-of-King-Charles-I.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -807,7 +845,10 @@
     <pp:poem id="16">
       <pp:title>The Revolution</pp:title>
       <pp:firstLine>O Thou, which circumvolveth all</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Workshop of Bernard Picart, Voorstellingen van het planetenstelsel en van de maan, 1683-1733. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.306142"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -860,7 +901,10 @@
     <pp:poem id="17">
       <pp:title>The Circle [1]</pp:title>
       <pp:firstLine>In sighs and tears there is no end</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Robert Fludd, De Macrocosmi Principiis 1617-1618, p. 43. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/gtcxg8n5"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>circle</pp:keyword>
         <pp:keyword>tears</pp:keyword>
@@ -922,7 +966,10 @@
     <pp:poem id="18">
       <pp:title>The Desire</pp:title>
       <pp:firstLine>Dear God, vouchsafe from thy high throne</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Wallerant Vaillant, after Guido Reni, Mater Dolorosa, 1658–1677. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.46562"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>prayer</pp:keyword>
         <pp:keyword>transmutation</pp:keyword>
@@ -974,7 +1021,10 @@
     <pp:poem id="19">
       <pp:title>The Welcome [1]</pp:title>
       <pp:firstLine>Dear Death, thou’rt welcome to my troubled soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Schrijver Willem Sluiter wijst naar diverse voorwerpen en naar een huis waar een vrouw geschrokken is van de Dood die aanklopt, 1687. Rijksmuseum. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143324"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1001,7 +1051,10 @@
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
       <pp:firstLine>Dear God, turn not away Thy face</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Attributed to Dominicus Custos, after Wierix, after Maerten de Vos, Dialoog tussen Mens en Religie, c.1601-c.1615. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.100176"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>prayer</pp:keyword>
         <pp:keyword>mortality</pp:keyword>
@@ -1042,7 +1095,10 @@
     <pp:poem id="21">
       <pp:title>The Circle [2]</pp:title>
       <pp:firstLine>Those that the hidden chemic art profess</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Philips Galle, after Pieter Brueghel (I), Alchemist, 1556-1560. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.344542"/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>alchemy</pp:keyword>
         <pp:keyword>vanity</pp:keyword>
@@ -1107,7 +1163,9 @@
     <pp:poem id="22">
       <pp:title>To Aurora [1]</pp:title>
       <pp:firstLine>Fair rosy virgin, when wilt thou arise</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Woman walking in the night, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143309"/></pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1147,7 +1205,10 @@
     <pp:poem id="23">
       <pp:title>To Astraea</pp:title>
       <pp:firstLine>Thou, blessed birth of the celestial morn</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Enea Vico, after Francesco Salviati, Waarheid, 1533–1567. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.188412"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1178,7 +1239,10 @@
     <pp:poem id="24">
       <pp:title>How Long Shall My Dejected Soul</pp:title>
       <pp:firstLine>How long shall my dejected soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, Schepping van het licht, 1585. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.343199"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1229,7 +1293,10 @@
     <pp:poem id="25">
       <pp:title>The Circle [3]</pp:title>
       <pp:firstLine>To be unwilling or afraid to die</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Andreas van Luchtenburg (possibly), Hemelkaart met de noordelijke sterrenbeelden, in or after 1684 and before 1701. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.404771"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1264,7 +1331,10 @@
     <pp:poem id="26">
       <pp:title>To Aurora [2]</pp:title>
       <pp:firstLine>Look up, sad eyes, behold the smiling morn</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Crispijn van de Passe (I), Ochtend, 1611-1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.422567"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1320,7 +1390,10 @@
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
       <pp:firstLine>O my afflicted solitary soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Bartolommeo Coriolano, after Guido Reni, Sibille, c. 1609–1676. Rijksmuseum. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.50766"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1359,7 +1432,10 @@
     <pp:poem id="29">
       <pp:title>My Soul’s Sole Desire</pp:title>
       <pp:firstLine>Thou that didst on the chaos move</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Urania, 1601-1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117728"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1403,7 +1479,10 @@
     <pp:poem id="30">
       <pp:title>The Center</pp:title>
       <pp:firstLine>O that the splendent and illustrious sun</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicolas Bocquet, after Rafaël, Astronomische voorstelling van de dageraad met twee putti, 1691. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.82371"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1459,7 +1538,10 @@
     <pp:poem id="31">
       <pp:title>Made When I Was Sick, 1647</pp:title>
       <pp:firstLine>O me, how sore, how sad is my poor heart</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hans Holbein (II), Oude vrouw en de Dood, 1538. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.31714"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1492,15 +1574,17 @@
         <pp:tag>friendship</pp:tag>
       </pp:tags>
       <pp:curations>
+        <pp:curation status="on" hash="the-good-death">
+          <pp:author>Helen Smith</pp:author>
+          <pp:title>The Good Death</pp:title>
+          <pp:peek>
+            John Donne’s “Hymn to God, My God, in my Sickness” meditates upon the speaker’s illness, and imagines the microcosm of his body as a map of the newly-expanded world. In contemplating his own death, Donne’s speaker finds solace in the promise of Christ’s resurrection, a figure for the sinner’s own restoration under God at the final judgement.
+          </pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="the-light-of-god">
           <pp:author>Helen Smith</pp:author>
           <pp:title>The Light of God</pp:title>
           <pp:peek>Augustine of Hippo’s “A Heavenly Treasure of Confortable Meditations” is a Catholic devotional text, published on the continent for illicit dissemination to English readers. The selected passage comes from Batt’s (a Jesuit priest) translation of Augustine’s Soliloquies, a text in which the Church Father enters into dialogue with his soul, in an attempt to understand it. The biblical references are to the apocryphal Book of Tobias, and to Genesis.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="a-tedious-pilgrimage">
-          <pp:author>Helen Smith</pp:author>
-          <pp:title>A Tedious Pilgrimage</pp:title>
-          <pp:peek>“The sinners glasse,“ an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,“ and lists in painful detail all the infelicities of mortality.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="memento-mori">
           <pp:author>Helen Smith</pp:author>
@@ -1509,19 +1593,20 @@
             Numerous images and objects functioned as memento mori (reminders of death), asking those who wore and looked at them to pause in the middle of their busy lives and prepare for their inevitable ends. The two elaborate examples below speak to the irony at the heart of this tradition: objects that were supposed to turn the viewer’s thoughts away from worldly things were frequently richly jewelled, delicately crafted, and expensive.
           </pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="the-good-death">
+        <pp:curation status="on" hash="a-tedious-pilgrimage">
           <pp:author>Helen Smith</pp:author>
-          <pp:title>The Good Death</pp:title>
-          <pp:peek>
-            John Donne’s “Hymn to God, My God, in my Sickness” meditates upon the speaker’s illness, and imagines the microcosm of his body as a map of the newly-expanded world. In contemplating his own death, Donne’s speaker finds solace in the promise of Christ’s resurrection, a figure for the sinner’s own restoration under God at the final judgement.
-          </pp:peek>
+          <pp:title>A Tedious Pilgrimage</pp:title>
+          <pp:peek>“The sinners glasse,“ an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,“ and lists in painful detail all the infelicities of mortality.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="32">
       <pp:title>Aletheia’s Pearl</pp:title>
       <pp:firstLine>Fair Aletheia (when I was a girl)</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713, Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.44783"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1585,7 +1670,10 @@
     <pp:poem id="33">
       <pp:title>The Welcome [2]</pp:title>
       <pp:firstLine>Death, come, and welcome; thou art my ancient friend</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Boëtius Adamsz Bolswert, Kind in skelet van de Dood gekropen, 1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.84200"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1622,7 +1710,10 @@
     <pp:poem id="34">
       <pp:title>To Aurora [3]</pp:title>
       <pp:firstLine>Why doth pale thus her beauty shroud?</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, Last Judgment, 1600–1649. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.6622"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1717,7 +1808,10 @@
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
       <pp:firstLine>Walking abroad, once in a summer’s day</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de vlieg en de mieren, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168154"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1792,7 +1886,10 @@
     <pp:poem id="36">
       <pp:title>The Circle [4]</pp:title>
       <pp:firstLine>The eternal Spirit of life and love</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, God the father, 17th century. © Trustees of the British Museum. CC BY-NC-SA 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref=""/>
+      </pp:poster>
       <pp:keywords>
         <pp:keyword>God</pp:keyword>
         <pp:keyword>creation</pp:keyword>
@@ -1827,7 +1924,10 @@
     <pp:poem id="37">
       <pp:title>Aurora [2]</pp:title>
       <pp:firstLine>Lovely Aurora, when wilt thou appear</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Caspar Luyken, after Jan Luyken, Embleem: zonsopgang, c. 1700. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.145372"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1868,7 +1968,10 @@
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
       <pp:firstLine>Come, my dear children, to this lonely place</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Plate by John Savage for Henry Chauncy, Historical Antiquities of Hertfordshire, 1700.</pp:sourceStatement>
+        <pp:sourceLink ref="//hesterpulter.com/wp-content/uploads/2013/08/Broadfield-Hall-002.jpg"/>
+      </pp:poster>
       <pp:seoTitle>To My Dear Jane, Margaret, and Penelope Pulter</pp:seoTitle>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1914,20 +2017,15 @@
         <pp:tag>goddess</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="broadfield-hertfordshire">
-          <pp:author>Victoria E. Burke</pp:author>
-          <pp:title>Broadfield, Hertfordshire</pp:title>
-          <pp:peek>The Pulters lived at an estate called Broadfield (or Bradfield) in the parish of Cottered in Hertfordshire. Sir Henry Chauncy’s The historical antiquities of Hertfordshire of 1700 gives the history of the estate, noting that Arthur Pulter retired to Bradfield after the outbreak of the civil war.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="alchemical-quintessence">
           <pp:author>Victoria E. Burke</pp:author>
           <pp:title>Alchemical Quintessence</pp:title>
           <pp:peek>In line 5 of this poem, Pulter uses the alchemical term “quintessence” to refer to the purest form of a substance. Pulter is claiming that no liquid, including the quintessence of alcohol, can enliven her depressed spirit.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="poetic-fancies">
+        <pp:curation status="on" hash="broadfield-hertfordshire">
           <pp:author>Victoria E. Burke</pp:author>
-          <pp:title>Poetic Fancies</pp:title>
-          <pp:peek>In lines 4 and 8, Pulter refers to her inventions or imaginings as “fancies.” The word “fancy” was synonymous with “imagination” at this time (OED 4) but in addition to referring to a process, it could also refer to the inventions or products of imagination.</pp:peek>
+          <pp:title>Broadfield, Hertfordshire</pp:title>
+          <pp:peek>The Pulters lived at an estate called Broadfield (or Bradfield) in the parish of Cottered in Hertfordshire. Sir Henry Chauncy’s The historical antiquities of Hertfordshire of 1700 gives the history of the estate, noting that Arthur Pulter retired to Bradfield after the outbreak of the civil war.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="did-women-play-football-in-the-seventeenth-century">
           <pp:author>Victoria E. Burke</pp:author>
@@ -1939,12 +2037,20 @@
           <pp:title>The Dissolution of Matter into the Four Elements</pp:title>
           <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements–fire, earth, air, and water–as forming the material of all life. In this case, she refers to the end of earthly life, on Judgment Day, when the elements will turn all matter into one of their four forms, and her daughters will be welcomed in heaven.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="poetic-fancies">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Poetic Fancies</pp:title>
+          <pp:peek>In lines 4 and 8, Pulter refers to her inventions or imaginings as “fancies.” The word “fancy” was synonymous with “imagination” at this time (OED 4) but in addition to referring to a process, it could also refer to the inventions or products of imagination.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="39">
       <pp:title>The Perfection of Patience and Knowledge</pp:title>
       <pp:firstLine>My soul: in struggling thou dost ill!</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Pieter van Gunst, after Gerard de Lairesse, Anatomische studie van de binnenkant van de baarmoeder en een foetus, 1685. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.339414"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -1987,32 +2093,35 @@
         <pp:tag>afterlife</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="reading-and-transforming-biblical-sources">
-          <pp:author>Liza Blake</pp:author>
-          <pp:title>Reading (and Transforming) Biblical Sources</pp:title>
-          <pp:peek>“For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen,” reads 1 Corinthians 13:12. What, exactly, does this biblical verse mean?</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="body-soul-dust">
           <pp:author>Liza Blake</pp:author>
           <pp:title>Body, Soul, Dust</pp:title>
           <pp:peek>When the speaker of this poem asks her soul to return to her in line 22, it raises the question: what, or who, is the speaker? The body corresponding to the soul? Something or someone else?</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="scientific-poetry">
-          <pp:author>Liza Blake</pp:author>
-          <pp:title>“Scientific” Poetry</pp:title>
-          <pp:peek>How “scientific” is “The Perfection of Patience and Knowledge,” in particular its middle section which uses the vocabularies of alchemy and astronomy?</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-knowledge-of-god">
           <pp:author>Liza Blake</pp:author>
           <pp:title>The Knowledge of God</pp:title>
           <pp:peek>Pulter’s poem ends with a promise that after the Final Judgment and Resurrection, “we shall know (without which all is none) / The eternal essence, even as we are known” (ll. 58–59).</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="reading-and-transforming-biblical-sources">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Reading (and Transforming) Biblical Sources</pp:title>
+          <pp:peek>“For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen,” reads 1 Corinthians 13:12. What, exactly, does this biblical verse mean?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="scientific-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>“Scientific” Poetry</pp:title>
+          <pp:peek>How “scientific” is “The Perfection of Patience and Knowledge,” in particular its middle section which uses the vocabularies of alchemy and astronomy?</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="40">
       <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.386240"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2023,7 +2132,10 @@
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements</pp:title>
       <pp:firstLine>Have patience, my afflicted soul</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicolaes Maes, Old Woman Saying Grace, Known as “The Prayer without End,” c. 1656. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.8948"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2034,7 +2146,10 @@
     <pp:poem id="42">
       <pp:title>Pardon Me, My Dearest Love</pp:title>
       <pp:firstLine>Pardon me, my dearest love</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Frans Hogenberg (workshop of), Executie van Ravaillac, 1610, 1610-1612. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.442242"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2063,7 +2178,10 @@
     <pp:poem id="43">
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
       <pp:firstLine>A noble pair, in love without compare</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Portret van Kenau Simonsdochter Hasselaer, 1573 [date on object]. 1600-1799. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.445453"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2124,7 +2242,10 @@
     <pp:poem id="44">
       <pp:title>A Solitary Discourse</pp:title>
       <pp:firstLine>How canst thou heavy be? Now she appears</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Saenredam, after Hendrick Goltzius, De Nacht, 1630. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169436"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2198,7 +2319,10 @@
     <pp:poem id="45">
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
       <pp:firstLine>Sad, sick, and lame, as in my bed I lay</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jacob de Gheyn (II), Woman on her deathbed, 1596-1601. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.29302"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2248,7 +2372,10 @@
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
       <pp:firstLine>See how Arachne doth her hours pass</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Dirk Stoop, Fabel van de leeuwerik en haar jongen, 1665. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.180175"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2345,7 +2472,10 @@
     <pp:poem id="47">
       <pp:title>Why Art Thou Sad at the Approach of Night</pp:title>
       <pp:firstLine>Why Art Thou Sad at the Approach of Night</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Willem Panneels, after Peter Paul Rubens, Oude vrouw en kind bij kaarslicht, 1631. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.160413"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2394,7 +2524,10 @@
     <pp:poem id="48">
       <pp:title>Immense Fount of Truth, Life, Love, Joy, Glory</pp:title>
       <pp:firstLine>Immense Fount of truth, life, love, joy, glory</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jacob Bos, after Rafaël, Jakobs droom, 1530-1580. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.85505"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2445,7 +2578,10 @@
     <pp:poem id="49">
       <pp:title>My Heart Why Dost Thou Throb So in My Breast?</pp:title>
       <pp:firstLine>My heart, why dost thou throb so in my breast?</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168157"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2492,7 +2628,10 @@
     <pp:poem id="50">
       <pp:title>My God, I Thee (and Only Thee) Adore</pp:title>
       <pp:firstLine>My God, I Thee (and only Thee) adore</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Francesco Villamena, after Rafaël, God creating the sun and the moon, 1626. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.188589"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2545,7 +2684,10 @@
     <pp:poem id="51">
       <pp:title>Made When I Was Not Well</pp:title>
       <pp:firstLine>My Soul why do’st thou Such a mourning make</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Lucas Vorsterman (I), After Adriaen Brouwer, IJdelheid (Superbia), 1619 – 1675. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.385436"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2589,11 +2731,6 @@
         <pp:tag>sexuality</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="illness-and-poetry">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Illness and Poetry</pp:title>
-          <pp:peek>Pulter wasn’t the only seventeenth-century poet for whom illness was an occasion to contemplate mortality and to make verse. The poems gathered here suggest the different ways her contemporaries linked sickness and poetry.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="aging-women">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Aging Women</pp:title>
@@ -2604,12 +2741,19 @@
           <pp:title>Erra Pater and the Sibyl</pp:title>
           <pp:peek>These were both figures popularly associated with age, wisdom—and error.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="illness-and-poetry">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Illness and Poetry</pp:title>
+          <pp:peek>Pulter wasn’t the only seventeenth-century poet for whom illness was an occasion to contemplate mortality and to make verse. The poems gathered here suggest the different ways her contemporaries linked sickness and poetry.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="52">
       <pp:title>The Wish</pp:title>
       <pp:firstLine>O, that I were a sun that I might send</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Voncken der liefde Jesu, van het godtbegerende zielenvier, 1687. Rijksmuseum, Amsterdam. Public domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143305"/></pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2653,7 +2797,10 @@
     <pp:poem id="53">
       <pp:title>Upon the Crown Imperial</pp:title>
       <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Basilius Besler, Copper engraving of the Crown Imperial: Corona Imperialis Polyanthos (Fritillaria imperialis), 1613. Kew collection. © Board of Trustees, RBG Kew.</pp:sourceStatement>
+        <pp:sourceLink ref="//powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2680,7 +2827,10 @@
     <pp:poem id="54">
       <pp:title>A Solitary Complaint</pp:title>
       <pp:firstLine>Must I be still confined to this sad grove</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Vrouw staande op een wereldbol, omgeven door de zon, maan, sterren en planeten, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143217"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2724,6 +2874,11 @@
         <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:curations>
+        <pp:curation status="on" hash="complaint-poetry">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>Complaint Poetry</pp:title>
+          <pp:peek>“A Solitary Complaint” opens with a question about earthly pain that it never answers directly. Instead, it concludes by looking to God. Other poets in the period used complaint poetry to lament unrelenting sorrow or to pivot from earthly concerns to the promise of heavenly reward. The following three examples parallel aspects of Pulter’s poem.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="early-modern-astronomy">
           <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Early Modern Astronomy</pp:title>
@@ -2734,17 +2889,15 @@
           <pp:title>The Planets in Poetry</pp:title>
           <pp:peek>In response to new scientific ideas, several seventeenth-century poets wrote about the planets and the Earth’s position in the universe. Compare Pulter’s conception of the universe (and God’s role in creating it) to those by John Donne, Henry More, and Margaret Cavendish below.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="complaint-poetry">
-          <pp:author>Elizabeth Kolkovich</pp:author>
-          <pp:title>Complaint Poetry</pp:title>
-          <pp:peek>“A Solitary Complaint” opens with a question about earthly pain that it never answers directly. Instead, it concludes by looking to God. Other poets in the period used complaint poetry to lament unrelenting sorrow or to pivot from earthly concerns to the promise of heavenly reward. The following three examples parallel aspects of Pulter’s poem.</pp:peek>
-        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="55">
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
       <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Cornelis Pietersz, Sitting Woman with Apron, Bega, 1641-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.27398"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2781,7 +2934,10 @@
     <pp:poem id="56">
       <pp:title>A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</pp:title>
       <pp:firstLine>Young Anne: Come, my dear sister, sit with me awhile</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Theodor de Bry, after Jean Jacques Boissard, Twee vrouwen bij een grafmonument, 1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.473262"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2832,7 +2988,10 @@
     <pp:poem id="57">
       <pp:title>Why Must I Thus Forever Be Confined</pp:title>
       <pp:firstLine>Why must I thus forever be confined</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicasius Rousseel, Paneel met bladranken en twee halve monsters, 1684. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.452660"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2926,7 +3085,10 @@
     <pp:poem id="59">
       <pp:title>My Love is Fair</pp:title>
       <pp:firstLine>And is thy love so wondrous fair?</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Harmensz Muller, after Cornelis Cornelisz van Haarlem, Arion op de Dolfijn, 1589. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.344645"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -2937,12 +3099,20 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="whos-fair-race-and-praise-of-the-beloved">
+        <pp:curation status="on" hash="amphitrite-and-the-dolphin">
           <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Who’s Fair? Race and Praise of the Beloved</pp:title>
-          <pp:peek>
-            These two poems draw our attention to the racialized implications of Pulter’s key word in Poem 59: “fair.” In the “Song of Songs” from the Old Testament, one of the oldest and most influential blazons of a beloved’s attributes, the word “fair” seems to mean simply “beautiful.”
-          </pp:peek>
+          <pp:title>Amphitrite and the Dolphin</pp:title>
+          <pp:peek>In various accounts of Neptune’s marriage to Amphitrite, a dolphin plays a crucial role: it might seize and transport her against her will, but it might also persuade her to marry—playing the role of the “wing man” or go-between Pulter’s speaker takes up in “My Love Is Fair.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="dolphins-as-friend-to-man-or-philanthropos">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Dolphins as Friends to Man or “Philanthropos”</pp:title>
+          <pp:peek>Pulter’s reference to the dolphin as “philanthropos” participates in a long tradition of depicting the dolphin, in visual art, natural history, mythology, and literature, as particularly devoted to humans, especially young men, carrying, rescuing, and assisting them.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="flora">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Flora</pp:title>
+          <pp:peek>This frontispiece, and a poem explaining it (“the mind of the front”), provides a vivid image of one of Pulter’s favorite figures, Flora, the Roman goddess of flowers and spring.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="triangulation-and-the-second-person">
           <pp:author>Frances E. Dolan</pp:author>
@@ -2951,20 +3121,12 @@
             Nancy Vickers argues that in some blazons, such as Shakespeare’s anti-blazon “My mistress’s eyes are nothing like the sun,” the speaker “by introducing the concept of merchandising into the economy of description, … transforms the direct line one would expect to unite lover and beloved into a triangle.
           </pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="flora">
+        <pp:curation status="on" hash="whos-fair-race-and-praise-of-the-beloved">
           <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Flora</pp:title>
-          <pp:peek>This frontispiece, and a poem explaining it (“the mind of the front”), provides a vivid image of one of Pulter’s favorite figures, Flora, the Roman goddess of flowers and spring.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="dolphins-as-friend-to-man-or-philanthropos">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Dolphins as Friends to Man or “Philanthropos”</pp:title>
-          <pp:peek>Pulter’s reference to the dolphin as “philanthropos” participates in a long tradition of depicting the dolphin, in visual art, natural history, mythology, and literature, as particularly devoted to humans, especially young men, carrying, rescuing, and assisting them.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="amphitrite-and-the-dolphin">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Amphitrite and the Dolphin</pp:title>
-          <pp:peek>In various accounts of Neptune’s marriage to Amphitrite, a dolphin plays a crucial role: it might seize and transport her against her will, but it might also persuade her to marry—playing the role of the “wing man” or go-between Pulter’s speaker takes up in “My Love Is Fair.”</pp:peek>
+          <pp:title>Who’s Fair? Race and Praise of the Beloved</pp:title>
+          <pp:peek>
+            These two poems draw our attention to the racialized implications of Pulter’s key word in Poem 59: “fair.” In the “Song of Songs” from the Old Testament, one of the oldest and most influential blazons of a beloved’s attributes, the word “fair” seems to mean simply “beautiful.”
+          </pp:peek>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -2989,7 +3151,10 @@
     <pp:poem id="60">
       <pp:title>Extremely I Deplore Your Loss</pp:title>
       <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from _De curtorum chirurgia per insitionem_ 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:Houghton_Typ_525.97.820_-_De_curtorum_chirurgia_per_insitionem,_icon_octua_-_cropped.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3000,7 +3165,10 @@
     <pp:poem id="61">
       <pp:title>The Weeping Wish</pp:title>
       <pp:firstLine>O, that the tears that trickle from mine eyes</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, De verschijning van een komeet in november 1618, 1618-1649. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.456821"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3043,7 +3211,10 @@
     <pp:poem id="62">
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hendrick Goltzius, after Cornelis Cornelisz. van Haarlem, Phaëton, 1588. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.450548"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3074,7 +3245,10 @@
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
       <pp:firstLine>Dear God, from Thy high throne look down</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Peter Dannoot, after Peter Paul Rubens, Hoofd van Christus met doornenkroon, 1644–1692. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.101191"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3134,7 +3308,10 @@
     <pp:poem id="64">
       <pp:title>And Must the Sword this Controverse Decide</pp:title>
       <pp:firstLine>And must the sword this controverse decide</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Raphaël Sadeler (I), naar Johann Mathias Kager, Onthoofding van de Heilige Florianus, 1615. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168917"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3145,7 +3322,10 @@
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
       <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Stefano della Bella, De Dood met een vrouw over zijn schouder, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.76620"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3203,16 +3383,16 @@
           <pp:title>Knowledge, Faith and Doubt</pp:title>
           <pp:peek>“The Hope” is a poem about the balance between faith and doubt and the role of knowledge in the interplay of these. The phrase which closes the poem, “I know not how,” might express doubt, or faith, in the absence of knowledge.</pp:peek>
         </pp:curation>
-<!--        <pp:curation status="on" hash="punctuating-poetry">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--          <pp:title>Punctuating Poetry</pp:title>-->
-<!--          <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>-->
-<!--        </pp:curation>-->
         <pp:curation status="on" hash="the-little-luz">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
         </pp:curation>
+<!--        <pp:curation status="on" hash="punctuating-poetry">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--          <pp:title>Punctuating Poetry</pp:title>-->
+<!--          <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>-->
+<!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="wishing-for-the-end">-->
 <!--          <pp:author>Liza Blake</pp:author>-->
 <!--          <pp:title>Wishing for the End</pp:title>-->
@@ -3223,7 +3403,10 @@
     <pp:poem id="66">
       <pp:title>Made When My Spirits Were Sunk Very Low</pp:title>
       <pp:firstLine>Droop not, my soul, nor hang the wing</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Amalie Baader, after Georg Friedrich Schmidt, after Rembrandt van Rijn, Biddende oude vrouw (Rembrandt’s moeder), 1773-c.1840. Rijkmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.364554"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3287,7 +3470,10 @@
     <pp:poem id="67">
       <pp:title>Mighty Nimrod (Emblem 1)</pp:title>
       <pp:firstLine>When mighty Nimrod, hunting after fame</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>M. van der Gucht after G. Hoet, The Builders of the Tower of Babel Start to Argue as Their Language is Confounded, ca. 1700. Wellcome Library. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/cmsfca3r"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3318,7 +3504,10 @@
     <pp:poem id="68">
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
       <pp:firstLine>Come, my dear children, come and happy be</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Collaert I,The Seven Virtues in a Roundel, with Faith at the Center,mid-16th century. The Metropolitan Museum of Art; 2000.372. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//www.metmuseum.org/art/collection/search/342989"/>
+      </pp:poster>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -3360,7 +3549,10 @@
     <pp:poem id="70">
       <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
       <pp:firstLine>Virtue once in the Olympics fought a duel</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Mishandeling van de vrouw van Masistes, 1699. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.144888"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3380,22 +3572,25 @@
         <pp:tag>competition</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="fickle-fortune">
-          <pp:author>Millie Godfery</pp:author>
-          <pp:title>“Fickle” Fortune</pp:title>
-          <pp:peek>George Wither’s “A Collection of Emblemes” (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="the-city-cockneys">
           <pp:author>Millie Godfery</pp:author>
           <pp:title>The City Cockneys</pp:title>
           <pp:peek>Pulter’s emblem works to demonstrate the restless and emotive public opinion surrounding the events of the Civil War, and particularly the execution itself.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="fickle-fortune">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:title>“Fickle” Fortune</pp:title>
+          <pp:peek>George Wither’s “A Collection of Emblemes” (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="71">
       <pp:title>The Manucodiats (Emblem 5)</pp:title>
       <pp:firstLine>The manucodiats, as authors write</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Ulisse Aldrovandi, Bird of Paradise, from _Ornotologia_, 1598. Wikimedia Commons. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File%3ABird_of_Paradise_from_Ulisse_Aldrovandi_Ornotologia.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3440,7 +3635,10 @@
     <pp:poem id="72">
       <pp:title>Two Mountebanks (Emblem 6)</pp:title>
       <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Caspar Luyken, Mirandors broer in dienst bij een kwakzalver, die zijn toneel op een marktplein heeft opgeslagen, 1695. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.377261"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3480,11 +3678,6 @@
         <pp:tag>death</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="what-is-a-mountebank">
-          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
-          <pp:title>What Is a Mountebank?</pp:title>
-          <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="aconite">
           <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
           <pp:title>Aconite</pp:title>
@@ -3494,6 +3687,11 @@
           <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
           <pp:title>Cooking Up Poisoned Messes—and Antidotes</pp:title>
           <pp:peek>Just as mountebanks were not always easy to distinguish from physicians or orators, so cooking and preparing medicines were interrelated. The young mountebank’s preparation of a “fulsome dish” with a sauce is not that different from other kinds of cooking; in turn, cookbooks might include recipes for antidotes.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="what-is-a-mountebank">
+          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:title>What Is a Mountebank?</pp:title>
+          <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="youth-and-age">
           <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
@@ -3505,7 +3703,10 @@
     <pp:poem id="73">
       <pp:title>The Indian Moose (Emblem 7)</pp:title>
       <pp:firstLine>The Indian moose three young at once doth bear</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Camillo Mariani, Mother Ape, 1595–96. Metropolitan Museum of Art, Accession number 2006.35. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:Mother_Ape_MET_DP137569.jpg"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3534,7 +3735,10 @@
     <pp:poem id="74">
       <pp:title>The Turtle (Emblem 8)</pp:title>
       <pp:firstLine>How fast this creature runs upon the earth</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Zeeschildpad, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184281"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3553,7 +3757,10 @@
     <pp:poem id="75">
       <pp:title>Scorned Medea (Emblem 9)</pp:title>
       <pp:firstLine>When scorned Medea saw Creusa led</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Medea verwoest familie en huis van Jason, 1606. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184051"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3571,7 +3778,10 @@
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
       <pp:firstLine>The dubious raven doth her young forsake</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jan Saenredam, after Abraham Bloemaert, Elia wordt in de wildernis gevoed door de raven, 1604. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169230"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3589,7 +3799,10 @@
     <pp:poem id="79">
       <pp:title>The Porcupine (Emblem 13)</pp:title>
       <pp:firstLine>The porcupine went ruffling in his pride</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Stekelvarken, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184286"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3624,22 +3837,25 @@
         <pp:tag>body</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="early-modern-tortoises">
-          <pp:author>Victoria E. Burke</pp:author>
-          <pp:title>Early Modern Tortoises</pp:title>
-          <pp:peek>Pulter has gendered her tortoise female. In one of the natural histories of the period, Edward Topsell’s The historie of serpents, the tortoise is typically male, with the exception of three stories below which appear together in the middle of his section on the tortoise.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="early-modern-porcupines">
           <pp:author>Victoria E. Burke</pp:author>
           <pp:title>Early Modern Porcupines</pp:title>
           <pp:peek>Among the natural histories that provide descriptions of porcupines are Pliny’s, which we know Pulter consulted, and Du Bartas’s (translated by Josuah Sylvester), which she might or might not have known. Du Bartas’s poem was a popular work that offered a catalogue of animals in relation to God’s creation of the world.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="early-modern-tortoises">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Early Modern Tortoises</pp:title>
+          <pp:peek>Pulter has gendered her tortoise female. In one of the natural histories of the period, Edward Topsell’s The historie of serpents, the tortoise is typically male, with the exception of three stories below which appear together in the middle of his section on the tortoise.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="80">
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jean Duvet, De eenhoorn zuivert het water met zijn hoorn, 1540-1551. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41140"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3668,7 +3884,10 @@
     <pp:poem id="81">
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
       <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>After Adriaen Collaert, after Jan Collaert (II), after Jan van der Straet, Vossen, ram, luipaard en tijger, anonymous, 1635-1660. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.542877"/>
+      </pp:poster>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -3729,7 +3948,10 @@
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
       <pp:firstLine>The cockatrice, as vulgarly received</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Wenceslaus Hollar, naar Aegidius Sadeler, naar Marcus Gheeraerts, Fabel van de basilisk en de wezel, 1644-1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.32127"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3770,7 +3992,10 @@
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
       <pp:firstLine>Who can but pity this poor turtledove</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Dirck de Bray, Twee tortelduiven in een ring met een steen, 1635-1694. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.87587"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3830,7 +4055,10 @@
     <pp:poem id="87">
       <pp:title>The Hunted Hart (Emblem 22)</pp:title>
       <pp:firstLine>The hunted hart, when she begins to tire</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Stefano della Bella, Ree opgejaagd door een jachthond, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.77301"/>
+      </pp:poster>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
 <!--          <pp:author>Leah Knight</pp:author>-->
@@ -3872,7 +4100,10 @@
     <pp:poem id="88">
       <pp:title>The Toad and the Spider (Emblem 23)</pp:title>
       <pp:firstLine>The toad and spider once would try the might</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Nicolaes de Bruyn, Waterslang, kikkers en padden, 1581–1656. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.89193"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3909,42 +4140,45 @@
         <pp:tag>afterlife</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="toad-and-spider">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Toad and Spider</pp:title>
-          <pp:peek>Edward Topsell describes the toad as “the most noble kind of frog, most venomous, and remarkable for courage and strength” (sig. R4r). This illustration is from the 1658 edition of Topsell.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="spiders">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Spiders</pp:title>
-          <pp:peek>[This coat of arms] bears a cobweb, in the center thereof, a spider proper.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="toads">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Toads</pp:title>
-          <pp:peek>This ballad, presented in the voice of the toad, points out that the sinful human’s poison is worse than the toad’s, because the toad’s poison can kill the body but not the soul.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="mowbray-and-bolingbroke">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Mowbray and Bolingbroke</pp:title>
           <pp:peek>One well-known account of the duel between Mowbray and Bolingbroke appears in Shakespeare’s Richard II.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="tilt-yards-and-toys">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Tilt-yards and Toys</pp:title>
-          <pp:peek>The tilt-yard was both a feature of courtly life, visible on maps, and a symbol of pointless human investments in what Pulter calls "subsolary toys."</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="pigeon-houses-of-cards">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Pigeon Houses of Cards</pp:title>
           <pp:peek>Seventeenth-century dovecotes resembled houses of cards.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="spiders">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Spiders</pp:title>
+          <pp:peek>[This coat of arms] bears a cobweb, in the center thereof, a spider proper.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="tilt-yards-and-toys">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Tilt-yards and Toys</pp:title>
+          <pp:peek>The tilt-yard was both a feature of courtly life, visible on maps, and a symbol of pointless human investments in what Pulter calls "subsolary toys."</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="toads">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Toads</pp:title>
+          <pp:peek>This ballad, presented in the voice of the toad, points out that the sinful human’s poison is worse than the toad’s, because the toad’s poison can kill the body but not the soul.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="toad-and-spider">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Toad and Spider</pp:title>
+          <pp:peek>Edward Topsell describes the toad as “the most noble kind of frog, most venomous, and remarkable for courage and strength” (sig. R4r). This illustration is from the 1658 edition of Topsell.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="89">
       <pp:title>The Marmottane (Emblem 24)</pp:title>
       <pp:firstLine>The marmottane’s for unity’s renowned</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Marmot, Antonio Tempesta, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184385"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -3984,7 +4218,10 @@
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
       <pp:firstLine>The stately moose, being mounted up the hill</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hans Holbein (II), Schipper en de Dood, 1538. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.31719"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4023,7 +4260,10 @@
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
       <pp:firstLine>The cuckoo’s constitution’s cold, she knows</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>W. Hayes, A pied wagtail feeding a worm to a young cuckoo, 1766. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/khz6r7v8"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4067,7 +4307,10 @@
     <pp:poem id="98">
       <pp:title>This Fell Catablepe (Emblem 33)</pp:title>
       <pp:firstLine>Could this fell catablepe lift up her head</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Antonio Tempesta, Rund, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184320"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4107,7 +4350,10 @@
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
       <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Johannes Wierix, naar Gerard van Groeningen, Antiochus Epifanes rooft de tempel van Jeruzalem leeg, 1579. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.384737"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4153,7 +4399,10 @@
     <pp:poem id="102">
       <pp:title>The Ugly Spider (Emblem 37)</pp:title>
       <pp:firstLine>Behold how many cobwebs doth invest</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>P. Sluyter, Spider dragging a humming bird from its nest. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/n89w6enk"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4185,7 +4434,10 @@
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
       <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Allaert van Everdingen, Verdere leugens van Reinaert de vos, 1631–75. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.70707"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4245,7 +4497,10 @@
     <pp:poem id="104">
       <pp:title>The Dolphin (Emblem 39)</pp:title>
       <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Hendrick Goltzius, Neptunus en Amphitrite, 1575-1607. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169321"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4281,7 +4536,10 @@
     <pp:poem id="105">
       <pp:title>View but this Tulip (Emblem 40)</pp:title>
       <pp:firstLine>View but this tulip, rose, or gillyflower</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>François van Bleyswijck, Stadsgezicht met Domkerk te Utrecht en allegorie met drie geleerden, 1681-1746. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.81185"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4318,25 +4576,25 @@
         <pp:tag>mythology</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="palingenesis">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Palingenesis</pp:title>
-          <pp:peek>These materials open up contexts for understanding the alchemical process of palingenesis, which Pulter analogizes to the resurrection of the body within Christian theology.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="resurrections-of-the-body">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Resurrections of the Body</pp:title>
-          <pp:peek>These materials present resurrections in other registers:  from Ovid’s story of the re-assembly of Hippolytus as Virbius, to which Pulter alludes, to the various domestic resurrections promoted and debated in the period in the realms of gardening, cooking, and medicine, to a ballad about a bizarre act of Royalist political theatre in 1661.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="domestic-resurrections-and-everyday-miracles">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Domestic Resurrections and Everyday Miracles</pp:title>
           <pp:peek>While palingenesis may have been an experimental process many held in doubt, even as they studied it with fascination, many other forms of resurrection and preservation were part of daily life, regularly attempted in gardens and kitchens and recommended or contested in print and manuscript texts.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="palingenesis">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Palingenesis</pp:title>
+          <pp:peek>These materials open up contexts for understanding the alchemical process of palingenesis, which Pulter analogizes to the resurrection of the body within Christian theology.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="posies-the-flower-writing-connection">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Posies: The Flower/Writing Connection</pp:title>
           <pp:peek>These texts help to contextualize Pulter’s decision to think about human bodily and spiritual life by means of plants, both in this poem and in others.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="resurrections-of-the-body">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Resurrections of the Body</pp:title>
+          <pp:peek>These materials present resurrections in other registers:  from Ovid’s story of the re-assembly of Hippolytus as Virbius, to which Pulter alludes, to the various domestic resurrections promoted and debated in the period in the realms of gardening, cooking, and medicine, to a ballad about a bizarre act of Royalist political theatre in 1661.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4367,7 +4625,10 @@
     <pp:poem id="114">
       <pp:title>A Russian Rustic (Emblem 49)</pp:title>
       <pp:firstLine>A Russian rustic clamb’ring up a tree</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, naar Marcus Gheeraerts (I), Fabel van de beer en de bijen, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168125"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4378,15 +4639,15 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="seventeenth-century-english-views-of-russians">
-          <pp:author>Victoria E. Burke</pp:author>
-          <pp:title>Seventeenth-Century English Views of Russians</pp:title>
-          <pp:peek>The rustic character featured in this emblem has a misguided view of religion in Pulter’s depiction, but is otherwise not particularly indebted to stereotypical views of Russians among English writers of the time.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="the-russian-rustic-and-the-hollow-tree">
           <pp:author>Victoria E. Burke</pp:author>
           <pp:title>The Russian Rustic and the Hollow Tree</pp:title>
           <pp:peek>The basic story of this emblem appears in many different sources of the period. It was attributed to a Russian ambassador to Rome named Demetrius, by way of Sebastian Münster, whose</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="seventeenth-century-english-views-of-russians">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Seventeenth-Century English Views of Russians</pp:title>
+          <pp:peek>The rustic character featured in this emblem has a misguided view of religion in Pulter’s depiction, but is otherwise not particularly indebted to stereotypical views of Russians among English writers of the time.</pp:peek>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -4432,7 +4693,10 @@
     <pp:poem id="118">
       <pp:title>Fair Aurora (Emblem 53)</pp:title>
       <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
-      <pp:poster/>
+      <pp:poster>
+        <pp:sourceStatement>Jacob Marrel, Twee tulpen met wesp, vlinder en slak, 1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.636400"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4509,12 +4773,30 @@
   <xsl:variable name="ucAlphabet" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
 
   <!-- This is used to initialize a poem in JS -->
-  <xsl:template name="hasPoster">
+  <xsl:template name="poemPoster">
       <xsl:param name="poemId"/>
-      <xsl:choose>
-          <xsl:when test="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster">true</xsl:when>
-          <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
+      <xsl:variable name="hasPoster" select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster"/>
+    <xsl:variable name="sourceStatement" select="normalize-space(document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster/pp:sourceStatement/text())"/>
+    <xsl:variable name="sourceLink" select="normalize-space(document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:poster/pp:sourceLink/@ref)"/>
+
+    <xsl:choose>
+      <xsl:when test="$hasPoster">
+        <xsl:value-of select="'{'"/>
+        <xsl:if test="boolean($sourceStatement)">
+          <xsl:value-of select="concat('&quot;statement&quot;: &quot;', $sourceStatement,'&quot;')"/>
+        </xsl:if>
+        <xsl:if test="boolean($sourceStatement) and boolean($sourceLink)">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
+        <xsl:if test="boolean($sourceLink)">
+          <xsl:value-of select="concat('&quot;link&quot;: &quot;', $sourceLink,'&quot;')"/>
+        </xsl:if>
+        <xsl:value-of select="'}'"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>false</xsl:text>
+      </xsl:otherwise>
+  </xsl:choose>
   </xsl:template>
 
   <!-- JSON manifest generator -->
