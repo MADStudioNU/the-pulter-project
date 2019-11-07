@@ -450,7 +450,7 @@ $themeColor: #ece9e2;
 
     &:before {
       content: 'Source:';
-      margin-right: .5em;
+      margin-right: .33em;
       display: inline-block;
       vertical-align: baseline;
       text-transform: uppercase;
@@ -663,8 +663,8 @@ $themeColor: #ece9e2;
     color: $pp_manuscriptInk;
     font-size: .8em;
     display: inline-block;
-    border-left: 2px $pp_manuscriptInk solid;
-    padding: .5em 1.5em .4em .66em;
+    border-left: 3px $pp_manuscriptInk solid;
+    padding: 1em 1.5em;
     margin-top: 2.25em;
 
     .marker {
