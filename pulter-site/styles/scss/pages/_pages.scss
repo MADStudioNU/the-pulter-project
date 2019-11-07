@@ -308,6 +308,12 @@
 
   .group {
     margin: 3em 0;
+
+    .group-comment {
+      font-size: 1em;
+      opacity: .66;
+      max-width: 66%;
+    }
   }
 
   .group-label {
