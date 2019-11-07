@@ -2359,15 +2359,15 @@
         <pp:tag>sorrow</pp:tag>
         <pp:tag>song</pp:tag>
       </pp:tags>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="lying-in">-->
-<!--          <pp:author>Amanda Zoch</pp:author>-->
-<!--          <pp:title>Lying-In</pp:title>-->
-<!--          <pp:peek>-->
-<!--            In the title, Pulter situates this poem’s composition within her lying-in, a communal childbirth ritual that began with labor and continued for up to a month after delivery.-->
-<!--          </pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="lying-in">
+          <pp:author>Amanda Zoch</pp:author>
+          <pp:title>Lying-In</pp:title>
+          <pp:peek>
+            In the title, Pulter situates this poem’s composition within her lying-in, a communal childbirth ritual that began with labor and continued for up to a month after delivery.
+          </pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="46">
       <pp:title>The Lark</pp:title>
