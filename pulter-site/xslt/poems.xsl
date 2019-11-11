@@ -11,7 +11,7 @@
       <pp:title>The Eclipse</pp:title>
       <pp:firstLine>Why do those frowning vapors interpose</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksemuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
       </pp:poster>
       <pp:keywords>
@@ -2684,7 +2684,7 @@
       <pp:title>Made When I Was Not Well</pp:title>
       <pp:firstLine>My Soul why do’st thou Such a mourning make</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Lucas Vorsterman (I), After Adriaen Brouwer, IJdelheid (Superbia), 1619 – 1675. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Lucas Vorsterman (I), after Adriaen Brouwer, IJdelheid (Superbia), 1619–1675. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.385436"/>
       </pp:poster>
       <pp:editions>
@@ -2751,7 +2751,7 @@
       <pp:title>The Wish</pp:title>
       <pp:firstLine>O, that I were a sun that I might send</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jan Luyken, Voncken der liefde Jesu, van het godtbegerende zielenvier, 1687. Rijksmuseum, Amsterdam. Public domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jan Luyken, Voncken der liefde Jesu, van het godtbegerende zielenvier, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143305"/></pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
@@ -3151,7 +3151,7 @@
       <pp:title>Extremely I Deplore Your Loss</pp:title>
       <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from _De curtorum chirurgia per insitionem_ 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public domain.</pp:sourceStatement>
+        <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from De curtorum chirurgia per insitionem 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:Houghton_Typ_525.97.820_-_De_curtorum_chirurgia_per_insitionem,_icon_octua_-_cropped.jpg"/>
       </pp:poster>
       <pp:editions>
@@ -3211,7 +3211,7 @@
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Hendrick Goltzius, after Cornelis Cornelisz. van Haarlem, Phaëton, 1588. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Hendrick Goltzius, after Cornelis Cornelisz van Haarlem, Phaëton, 1588. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.450548"/>
       </pp:poster>
       <pp:editions>
@@ -3504,7 +3504,7 @@
       <pp:title>Come, My Dear Children (Emblem 2)</pp:title>
       <pp:firstLine>Come, my dear children, come and happy be</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jan Collaert I,The Seven Virtues in a Roundel, with Faith at the Center,mid-16th century. The Metropolitan Museum of Art; 2000.372. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jan Collaert I, The Seven Virtues in a Roundel, with Faith at the Center, mid-16th century. The Metropolitan Museum of Art; 2000.372. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//www.metmuseum.org/art/collection/search/342989"/>
       </pp:poster>
       <pp:editions>
@@ -4175,7 +4175,7 @@
       <pp:title>The Marmottane (Emblem 24)</pp:title>
       <pp:firstLine>The marmottane’s for unity’s renowned</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Marmot, Antonio Tempesta, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Antonio Tempesta, Marmot, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184385"/>
       </pp:poster>
       <pp:editions>
