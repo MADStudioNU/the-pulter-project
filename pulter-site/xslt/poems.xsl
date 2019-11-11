@@ -4175,7 +4175,7 @@
       <pp:title>The Marmottane (Emblem 24)</pp:title>
       <pp:firstLine>The marmottane’s for unity’s renowned</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Marmot, Antonio Tempesta, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Antonio Tempesta, Marmot, in or before 1650. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.184385"/>
       </pp:poster>
       <pp:editions>
