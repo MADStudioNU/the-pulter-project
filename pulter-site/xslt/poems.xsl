@@ -2684,7 +2684,7 @@
       <pp:title>Made When I Was Not Well</pp:title>
       <pp:firstLine>My Soul why do’st thou Such a mourning make</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Lucas Vorsterman (I), After Adriaen Brouwer, IJdelheid (Superbia), 1619 – 1675. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Lucas Vorsterman (I), after Adriaen Brouwer, IJdelheid (Superbia), 1619–1675. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.385436"/>
       </pp:poster>
       <pp:editions>
