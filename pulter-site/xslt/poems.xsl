@@ -3151,7 +3151,7 @@
       <pp:title>Extremely I Deplore Your Loss</pp:title>
       <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from _De curtorum chirurgia per insitionem_ 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public domain.</pp:sourceStatement>
+        <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from De curtorum chirurgia per insitionem 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:Houghton_Typ_525.97.820_-_De_curtorum_chirurgia_per_insitionem,_icon_octua_-_cropped.jpg"/>
       </pp:poster>
       <pp:editions>
