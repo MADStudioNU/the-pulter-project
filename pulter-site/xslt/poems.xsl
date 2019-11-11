@@ -2751,7 +2751,7 @@
       <pp:title>The Wish</pp:title>
       <pp:firstLine>O, that I were a sun that I might send</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jan Luyken, Voncken der liefde Jesu, van het godtbegerende zielenvier, 1687. Rijksmuseum, Amsterdam. Public domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jan Luyken, Voncken der liefde Jesu, van het godtbegerende zielenvier, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143305"/></pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
