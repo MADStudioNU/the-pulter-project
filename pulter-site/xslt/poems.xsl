@@ -3211,7 +3211,7 @@
       <pp:title>On the Fall of that Grand Rebel</pp:title>
       <pp:firstLine>When that fierce monster had usurped the place</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Hendrick Goltzius, after Cornelis Cornelisz. van Haarlem, Phaëton, 1588. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Hendrick Goltzius, after Cornelis Cornelisz van Haarlem, Phaëton, 1588. Rjiksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.450548"/>
       </pp:poster>
       <pp:editions>
