@@ -3888,15 +3888,15 @@
         <pp:sourceStatement>After Adriaen Collaert, after Jan Collaert (II), after Jan van der Straet, Vossen, ram, luipaard en tijger, anonymous, 1635-1660. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.542877"/>
       </pp:poster>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>pride</pp:keyword>
         <pp:keyword>vanity</pp:keyword>
@@ -3917,33 +3917,33 @@
         <pp:tag>mirror</pp:tag>
         <pp:tag>vanity</pp:tag>
       </pp:tags>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="crystal-glass">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
-<!--          <pp:title>Crystal Glass</pp:title>-->
-<!--          <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="lark-mirrors">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:title>Lark Mirrors</pp:title>-->
-<!--          <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="the-sin-of-pride">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
-<!--          <pp:title>The Sin of Pride</pp:title>-->
-<!--          <pp:peek>Early modern thought about pride–an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God–was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="the-swift-savage-maternal-tiger">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
-<!--          <pp:title>The Swift, Savage, Maternal Tiger</pp:title>-->
-<!--          <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="what-about-narcissus">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
-<!--          <pp:title>What about Narcissus?</pp:title>-->
-<!--          <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="crystal-glass">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>Crystal Glass</pp:title>
+          <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="lark-mirrors">
+          <pp:author>Leah Knight</pp:author>
+          <pp:title>Lark Mirrors</pp:title>
+          <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-sin-of-pride">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>The Sin of Pride</pp:title>
+          <pp:peek>Early modern thought about pride–an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God–was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-swift-savage-maternal-tiger">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>The Swift, Savage, Maternal Tiger</pp:title>
+          <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="what-about-narcissus">
+          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:title>What about Narcissus?</pp:title>
+          <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="82">
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
