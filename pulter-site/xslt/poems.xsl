@@ -3931,7 +3931,7 @@
         <pp:curation status="on" hash="the-sin-of-pride">
           <pp:author>Elizabeth Zeman Kolkovich</pp:author>
           <pp:title>The Sin of Pride</pp:title>
-          <pp:peek>Early modern thought about pride–an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God–was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
+          <pp:peek>Early modern thought about pride (an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God) was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-swift-savage-maternal-tiger">
           <pp:author>Elizabeth Zeman Kolkovich</pp:author>
