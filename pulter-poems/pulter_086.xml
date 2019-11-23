@@ -1,3 +1,411 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.86">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Raccoons (Emblem 21)</title>
+        <title type="sub">Poem #86</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="./document_images/7610_212.jpg" xml:id="f7610_212"/>
+      <graphic url="./document_images/7610_213.jpg" xml:id="f7610_213"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Zeman Kolkovich</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_212" n="104v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_212"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_212"/>
+        </rdg>
+      </app>
+      
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 21]</rdg>
+            <rdg wit="#ee">Raccoons (Emblem 21)</rdg>
+            <rdg wit="#ae">"Witty, Nimble Creatures" (Emblem 21)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote"> In my editions, I prioritize accessibility and multiple interpretive possibilities. To prepare these poems for a wide range of readers, I have modernized erratic early modern spelling, punctuation, and capitalization to conform to standard American usage. I gloss archaic definitions and confusing syntax, and I expand contractions, unless needed to maintain the integrity of the poem’s form. When citing the Bible, I use the King James Version. When a note relies on Alice Eardley’s edition of <title rend="italic">Pulter’s Poems, Emblems, and The Unfortunate Florinda</title> (Toronto: Iter, 2014), I cite her text generally as “Eardley.” My notes investigate how Pulter’s poems engage with the literature and culture of mid-seventeenth-century England. At the same time, I emphasize how her poems are unique, how they respond to one another and seem to reveal their author’s individual circumstances and philosophies. It is worth noting that although Pulter’s poems survive in only one known source, they are not necessarily stable texts. The source manuscript features variants and revisions that invite multiple interpretations. I encourage readers to refer to the manuscript transcriptions and images on this site; my notes alert readers when the manuscript’s original spelling or physical features are especially worth considering.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Pulter is at her most people-pleasing in this emblem on teamwork; nonetheless, she starts as usual with an example from the animal world. She apparently later realized that she erred in naming the creature in question, and the behavior attributed here to raccoons better resembles that of beavers, at least as described by William Wood in a book aimed equally at “the mind-travelling reader” and “the future voyager” to America (as he puts it on his title page). Pulter’s own mind also travels, here––from Wood’s beavers to outstanding examples of human cooperation, and from London Bridge to ancient temples in the Middle East––before turning to the benefits of creaturely teamwork. Humans should learn the lesson embodied best by these furry “nimble creatures,” Pulter observes, to achieve great feats––including, ironically, the subjugation of other species. Her final example returns to the uniquely human domain, however, when she reflects on how no single person could possibly have written all of the books in the world––or, perhaps, even the number she consulted in composing this poem. This is Pulter’s paean to collaboration as an ideal (never an unproblematic category) that crosses centuries and even species.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">This poem argues that one person alone cannot build immense structures, tame large animals, or write all the books in the world. Addressing readers who love spectacle, Pulter invites them to examine an exotic animal that works naturally in groups. This animal is called a “raccoon” to fit the end rhyme of the opening triplet, but it acts more like a beaver, gnawing wood and pulling its companions by the tail. By crossing out the word “raccoons,” an early reader or editor of Pulter’s manuscript lends credence to the possibility that this word was an error. We might also note that the poem does not critique the idea of humans exploiting and forcing into submission a variety of other animals for the sake of entertainment.</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">You that love Poppit Playes, Maſks, Court Buffoons</rdg>
+            <rdg wit="#ee">You that love puppet plays, <seg>masques<note type="gloss">courtly theatrical entertainments</note></seg>, <seg>court buffoons<note type="gloss"> i.e., court jesters</note></seg>–</rdg>
+            <rdg wit="#ae">You that love <seg>poppet<note type="gloss">puppet</note></seg> plays, <seg>masques<note type="gloss">spectacular court entertainment that included choreographed dancing, speeches, and elaborate costumes and scenery</note></seg>, <seg>court buffoons<note type="gloss">court jesters: see the <ref type="pp-curations-ref" target="#ctxs">Puppets, Masques, and Buffoons</ref> Curation</note></seg>,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">You that love Cats, Apes Munks, and Babboons</rdg>
+            <rdg wit="#ee">You that love cats, apes, <seg>monks<note type="gloss">In context, “monkeys” seems intended. In the eighteenth century, “monks” referred to various animals whose form suggests “the cowled or tonsured figure of a monk” (OED).</note></seg>, and baboons,</rdg>
+            <rdg wit="#ae">You that love <seg>cats<note type="gloss">At the time, the Tower of London hosted a royal menagerie of exotic animals, including multiple wild cats: lions, leopards, pumas, and a tiger.</note></seg>, apes, <seg>munks<note type="gloss">monkeys. Monkeys were used in various “sports,” or popular and court entertainments, as well as on dramatic stages.</note></seg>, and baboons,</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Perhaps may pleaſure take in theſe <seg><del>Rackoons</del><note type="physical">double strike-through</note></seg></rdg>
+            <rdg wit="#ee">Perhaps may pleasure take in these <seg>raccoons<note type="gloss">This word is crossed out in the manuscript. Eardley notes that the account here is pertains to beavers, not raccoons, in an account found in William Wood’s <title rend="italic">New England’s Prospect</title> (London, 1634), p. 25.</note></seg>.</rdg>
+            <rdg wit="#ae">Perhaps may pleasure <seg>take<note type="gloss">The manuscript’s “sake” is probably an error for “take.”</note></seg> in these <seg><del>raccoons</del><note type="physical">In Pulter’s manuscript, this word is excised, with nothing to replace it. See the <ref type="pp-curations-ref" target="#ctxs">Raccoon or Beaver?</ref> Curation.</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">I’tt <seg>is<note type="physical">crowded between surrounding words</note></seg> the Prettiest Sport you ever Saw</rdg>
+            <rdg wit="#ee">It is the prettiest sport you ever saw</rdg>
+            <rdg wit="#ae">It is the prettiest sport you ever saw</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">To See theſe Witty, Nimble Creatures draw</rdg>
+            <rdg wit="#ee">To see these <seg>witty<note type="gloss">sensible; clever; wise; artful</note></seg>, nimble creatures <seg>draw<note type="gloss">to cause something to move toward oneself by applying force; to pull after one; to collect or assemble; to haul a load; to construct; to come together; to pull out (a root, e.g.)</note></seg>.</rdg>
+            <rdg wit="#ae">To see these witty, nimble creatures <seg>draw<note type="gloss">to pull, drag, or haul an object</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">The first to bite the Timber doth not fayl</rdg>
+            <rdg wit="#ee">The first to bite the <seg>timber<note type="gloss">the wood of growing trees used for building</note></seg> doth not fail;</rdg>
+            <rdg wit="#ae">The first to bite the timber doth not fail,</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">The Second puls him Backward by the Tayl</rdg>
+            <rdg wit="#ee">The second pulls him backward by the tail;</rdg>
+            <rdg wit="#ae">The second pulls him backward by the tail,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">The third doth Soe by him Soe on they goe</rdg>
+            <rdg wit="#ee">The third doth so by him; so on they go</rdg>
+            <rdg wit="#ae">The third doth so by him; so on they go</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">With Tayl in Teeth, Some Twenty in A Row</rdg>
+            <rdg wit="#ee">With tail in teeth, some twenty in a row.</rdg>
+            <rdg wit="#ae">With tail in teeth, some twenty in a row,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And when the first doth find his Jaws are Sore</rdg>
+            <rdg wit="#ee">And when the first doth find his jaws are sore,</rdg>
+            <rdg wit="#ae">And when the first doth find his jaws are sore,</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The next Relieves him and hee goes before</rdg>
+            <rdg wit="#ee">The next relieves him, and he goes before.</rdg>
+            <rdg wit="#ae">The next relieves him, and he goes before.</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Thus what the Strength of one could n’er attain</rdg>
+            <rdg wit="#ee">Thus, what the strength of one could ne’er attain,</rdg>
+            <rdg wit="#ae">Thus what the strength of one could ne’er attain,</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">With force united’s done with little pain</rdg>
+            <rdg wit="#ee">With force <seg>united’s<note type="gloss">united is</note></seg> done with little pain.</rdg>
+            <rdg wit="#ae">With force united’s done with little pain.</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Soe London Bridg that now on woolpacks Stands</rdg>
+            <rdg wit="#ee">So London Bridge, that now on <seg>woolpacks<note type="gloss">large bags into which wool is packed for carriage or sale. At one time the foundation of London Bridge was thought (wrongly) to be built on these, possibly because a tax on wool funded its construction.</note></seg> stands,</rdg>
+            <rdg wit="#ae">So London Bridge, that now on <seg>woolpacks<note type="gloss">woolsacks, or large bags into which wool is packed for sale. It became proverbial to say that London Bridge stood on wool because it was funded by a tax on wool.</note></seg> stands,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Was never don alone by one Man’s Hands</rdg>
+            <rdg wit="#ee">Was never done alone by one man’s hands;</rdg>
+            <rdg wit="#ae">Was never done alone by one man’s hands,</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Nor could one Man though never Soe well Skild</rdg>
+            <rdg wit="#ee">Nor could one man, though never so well skilled,</rdg>
+            <rdg wit="#ae">Nor could one man, though never so well skilled,</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">The Stately Structures in this <seg>Kingdome<note type="physical">written over imperfectly erased word beginning with “S”</note></seg> build</rdg>
+            <rdg wit="#ee">The stately structures in this kingdom build.</rdg>
+            <rdg wit="#ae">The stately structures in this <seg>kingdom<note type="physical">In Pulter’s manuscript, “kingdom” is written over an unknown word.</note></seg> build.</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">That Phane which for Diana’s Shrines Renownd</rdg>
+            <rdg wit="#ee">That fame which for <seg>Diana’s shrine’s renowned<note type="gloss"> The massive temple to Diana at Ephesus was the largest Greek temple in antiquity (with 127 columns, each 60 feet high) and known as one of the seven wonders of the ancient world.</note></seg>,</rdg>
+            <rdg wit="#ae">That <seg>fane<note type="gloss">temple</note></seg> which for <seg>Diana’s shrine’s renowned<note type="gloss">The temple of Diana, the Roman goddess of the moon and chastity, was one of the seven wonders of the ancient world.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">And that wherein noe Ax nor Ham̄ers <seg><del>&ff;</del><add place="above">S</add>ound<note type="physical">“ff” imperfectly blotted or changed to “ſ”; “s” in different hand from main scribe</note></seg></rdg>
+            <rdg wit="#ee">And <seg>that<note type="gloss">King Solomon’s temple, in which “there was neither hammer nor axe nor any tool of iron heard in the house, while it was in building” (1 Kings 6:7).</note></seg> wherein no axe nor hammer’s sound</rdg>
+            <rdg wit="#ae">And <seg>that<note type="gloss">King Solomon’s temple. According to 1 Kings 6:7, it “was built of stone made ready before it was brought thither: so that there was neither hammer nor axe nor any tool of iron heard in the house, while it was in building.”</note></seg> wherein no ax nor hammer’s sound</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Was ever heard, yet built of Polish’d Stone</rdg>
+            <rdg wit="#ee">Was ever heard, yet built of polished stone,</rdg>
+            <rdg wit="#ae">Was ever heard, yet built of polished stone,</rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Could never bee compoſd by one alone</rdg>
+            <rdg wit="#ee">Could never be composed by one alone.</rdg>
+            <rdg wit="#ae">Could never be composed by one alone.</rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Those Elaphants which Serve the Indian King</rdg>
+            <rdg wit="#ee"><seg>Those elephants which serve the Indian king,<note type="gloss">Anciently, elephants were the mounts of South Asian rajas, but they were also generally beasts of burden, used for transport and also weaponized to trample troops, batter forts, and serve as archery platforms.</note></seg></rdg>
+            <rdg wit="#ae">Those <seg>elephants which serve the Indian king<note type="critical">Philemon Holland’s translation of Pliny’s <title rend="italic">The History of the World</title> judges the wealth and power of Indian royalty by how many elephants they keep (sig. M3v).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">One never could into Subjection bring</rdg>
+            <rdg wit="#ee">One never could into subjection bring.</rdg>
+            <rdg wit="#ae">One never could into subjection bring;</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Nor</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_213" n="105r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_213"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_213"/>
+            </rdg>
+        </app>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Nor one alone could Curb soe of their Wills</rdg>
+            <rdg wit="#ee">Nor one alone could curb so of their wills</rdg>
+            <rdg wit="#ae">Nor one alone could curb so of their wills</rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft"><seg>&ff;our<note type="physical">in left margin: “In Canton they / keep 4000 Whalls / to grind Wheat &amp; Rice / In <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> description of / the World, fol: 122”</note></seg> Thousand Whalls to make them draw in Mills</rdg>
+            <rdg wit="#ee"><seg>Four thousand whales to make them draw in mills.<note type="gloss">In the left margin, the main scribe has written: “In Canton they keep 4000 whales to grind wheat and rice,” citing a book called <title rend="italic">The Description of the World</title>, at page 122. Eardley notes that Robert Johnson’s translation of Giovanni Botero’s <title rend="italic">Traveller’s Breviat, Or an Historical Description of the Most Famous Kingdoms in the World</title> (London, 1601) features this claim: “Amongst all admirables, one thing is worthy consideration, that in Canton they keep four thousand whales to grind corn and rice,” p. 122. For “draw,” see the note on the same word in line 5.</note></seg></rdg>
+            <rdg wit="#ae">Four thousand <seg>whales<note type="gloss">A marginal comment in the main scribe’s hand says, “In Canton, they keep 4000 whales to grind wheat and rice. In <title rend="italic">The Description of the World</title>, fol. 122.” This is a reference to Robert Johnson’s translation of Giovanni Botero’s Traveller’s <title rend="italic">Breviat, Or an Historical Description of the Most Famous Kingdoms in the World</title> (London, 1601) (Eardley).</note></seg> to make them draw in mills.</rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Nor could one Man thoſe numerous Vollumes write</rdg>
+            <rdg wit="#ee">Nor could one man those numerous volumes write</rdg>
+            <rdg wit="#ae">Nor could one man those numerous volumes write</rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">(Which now are Extant) and much leſs indite</rdg>
+            <rdg wit="#ee">(Which now are extant) and much less <seg>indite<note type="gloss">inspire or suggest words which are to be written down</note></seg>.</rdg>
+            <rdg wit="#ae">(Which now are extant) and much less <seg>indite<note type="gloss">dictate</note></seg>.</rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Thus Noble things both Sacred and Prophain</rdg>
+            <rdg wit="#ee">Thus noble things, both sacred and profane,</rdg>
+            <rdg wit="#ae">Thus noble things, both sacred and profane,</rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">The Witt or Strength of one could n’ere attain</rdg>
+            <rdg wit="#ee">The wit or strength of one could ne’er attain.</rdg>
+            <rdg wit="#ae">The wit or strength of one could ne’er attain;</rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Then let all hatefull Timo’ns come and See</rdg>
+            <rdg wit="#ee">Then let all hateful <seg>Timons<note type="gloss">an exemplary misanthrope of ancient Athens</note></seg> come and see</rdg>
+            <rdg wit="#ae">Then let all hateful <seg>Timons<note type="gloss">misanthropes. Timon is the name of a self-proclaimed man-hater in Plutarch’s <title rend="italic">Lives</title> and in Shakespeare and Middleton’s <title rend="italic">Timon of Athens</title>. See the <ref type="pp-curations-ref" target="#ctxs">Timon of Athens</ref> Curation.</note></seg> come and see</rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">The happy fruits of bleſſed Unitie.</rdg>
+            <rdg wit="#ee">The happy fruits of blesséd unity.</rdg>
+            <rdg wit="#ae">The happy fruits of blesséd unity.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
