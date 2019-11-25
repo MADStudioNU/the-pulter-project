@@ -3893,7 +3893,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
@@ -3918,7 +3918,7 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="crystal-glass">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Crystal Glass</pp:title>
           <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>
         </pp:curation>
@@ -3928,17 +3928,17 @@
           <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-sin-of-pride">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Sin of Pride</pp:title>
           <pp:peek>Early modern thought about pride (an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God) was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-swift-savage-maternal-tiger">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Swift, Savage, Maternal Tiger</pp:title>
           <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="what-about-narcissus">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>What about Narcissus?</pp:title>
           <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>
         </pp:curation>
@@ -4064,7 +4064,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
@@ -4075,22 +4075,22 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="dissolved-to-tears">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Dissolved to Tears</pp:title>
           <pp:peek>Pulter calls the dying hart “quite dissolved,” and the emblem’s speaker imagines herself dissolving “to tears.” The words “dissolve” and “dissolution” appear frequently in Pulter’s poetry.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="hunted-deer-in-poetry">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Hunted Deer in Poetry</pp:title>
           <pp:peek>Hunted deer appear in many earlier poems, especially by poets who imitated the fourteenth-century Italian poet Petrarch. A hunter pursuing a female deer is a prominent trope in Petrarchan literature, and one of the most famous examples is Thomas Wyatt’s “Whoso List to Hunt.”</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="seeking-dittany">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Seeking Dittany</pp:title>
           <pp:peek>Dittany is an aromatic shrub with tiny pink flowers, native to Greece, that has long been thought to have medicinal properties. It is described as a healing herb in texts written as long ago as ancient Rome and as recently as J. K. Rowling’s Harry Potter series.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="suspire">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Suspire</pp:title>
           <pp:peek>A key term in this poem is “suspire,” meaning to sigh or breathe out. Pulter uses the word only a few times in her poetry, but it is part of a matrix of related words that Pulter frequently employs connected to sighs and breathing.</pp:peek>
         </pp:curation>
