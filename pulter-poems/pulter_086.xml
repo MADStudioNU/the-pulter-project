@@ -78,7 +78,7 @@
           <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character’s status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -124,7 +124,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-            <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Zeman Kolkovich</persName>.</witness>
+            <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Kolkovich</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -145,7 +145,7 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 21]</rdg>
-            <rdg wit="#ee">Raccoons (Emblem 21)</rdg>
+            <rdg wit="#ee">Raccoons<lb/>(Emblem 21)</rdg>
             <rdg wit="#ae">"Witty, Nimble Creatures" (Emblem 21)</rdg>
         </app>
         <app type="editorialnote">
@@ -160,7 +160,7 @@
         </app>
         <app type="headnote">
           <rdg wit="#ee">
-              <note type="headnote">Pulter is at her most people-pleasing in this emblem on teamwork; nonetheless, she starts as usual with an example from the animal world. She apparently later realized that she erred in naming the creature in question, and the behavior attributed here to raccoons better resembles that of beavers, at least as described by William Wood in a book aimed equally at “the mind-travelling reader” and “the future voyager” to America (as he puts it on his title page). Pulter’s own mind also travels, here––from Wood’s beavers to outstanding examples of human cooperation, and from London Bridge to ancient temples in the Middle East––before turning to the benefits of creaturely teamwork. Humans should learn the lesson embodied best by these furry “nimble creatures,” Pulter observes, to achieve great feats––including, ironically, the subjugation of other species. Her final example returns to the uniquely human domain, however, when she reflects on how no single person could possibly have written all of the books in the world––or, perhaps, even the number she consulted in composing this poem. This is Pulter’s paean to collaboration as an ideal (never an unproblematic category) that crosses centuries and even species.</note>
+              <note type="headnote">Pulter is at her most people-pleasing in this emblem on teamwork; nonetheless, she starts as usual with an example from the animal world. She apparently later realized that she erred in naming the creature in question, and the behavior attributed here to raccoons better resembles that of beavers, at least as described by William Wood in a book aimed equally at “the mind-travelling reader” and “the future voyager” to America (as he puts it on his title page). Pulter’s own mind also travels, here—from Wood’s beavers to outstanding examples of human cooperation, and from London Bridge to ancient temples in the Middle East—before turning to the benefits of creaturely teamwork. Humans should learn the lesson embodied best by these furry “nimble creatures,” Pulter observes, to achieve great feats—including, ironically, the subjugation of other species. Her final example returns to the uniquely human domain, however, when she reflects on how no single person could possibly have written all of the books in the world—or, perhaps, even the number she consulted in composing this poem. This is Pulter’s paean to collaboration as an ideal (never an unproblematic category) that crosses centuries and even species.</note>
           </rdg>
           <rdg wit="#ae">
               <note type="headnote">This poem argues that one person alone cannot build immense structures, tame large animals, or write all the books in the world. Addressing readers who love spectacle, Pulter invites them to examine an exotic animal that works naturally in groups. This animal is called a “raccoon” to fit the end rhyme of the opening triplet, but it acts more like a beaver, gnawing wood and pulling its companions by the tail. By crossing out the word “raccoons,” an early reader or editor of Pulter’s manuscript lends credence to the possibility that this word was an error. We might also note that the poem does not critique the idea of humans exploiting and forcing into submission a variety of other animals for the sake of entertainment.</note>
