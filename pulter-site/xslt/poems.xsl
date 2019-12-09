@@ -4052,8 +4052,8 @@
       <pp:title>Raccoons (Emblem 21)</pp:title>
       <pp:firstLine>You that love puppet plays, masques, court buffoons</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anonymous, “North America,” with group of beavers building a dam. Wellcome Collection. CC BY</pp:sourceStatement>
-        <pp:sourceLink ref="//wellcomecollection.org/works/c975tpch"/>
+        <pp:sourceStatement>Herman Moll, A new and exact map of the dominions of the king of Great Britain on ye continent of North America, 1715</pp:sourceStatement>
+        <pp:sourceLink ref="//catalog.princeton.edu/catalog/5247924"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
