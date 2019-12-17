@@ -1803,8 +1803,7 @@
         <pp:tag>Christ</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>Aurora</pp:tag>
-      </pp:tags>
-    </pp:poem>
+      </pp:tags>    </pp:poem>
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
       <pp:firstLine>Walking abroad, once in a summer’s day</pp:firstLine>
@@ -3894,7 +3893,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
@@ -3919,7 +3918,7 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="crystal-glass">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Crystal Glass</pp:title>
           <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>
         </pp:curation>
@@ -3929,17 +3928,17 @@
           <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-sin-of-pride">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Sin of Pride</pp:title>
           <pp:peek>Early modern thought about pride (an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God) was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="the-swift-savage-maternal-tiger">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>The Swift, Savage, Maternal Tiger</pp:title>
           <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="what-about-narcissus">
-          <pp:author>Elizabeth Zeman Kolkovich</pp:author>
+          <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>What about Narcissus?</pp:title>
           <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>
         </pp:curation>
@@ -4051,6 +4050,55 @@
     </pp:poem>
     <pp:poem id="86">
       <pp:title>Raccoons (Emblem 21)</pp:title>
+      <pp:firstLine>You that love puppet plays, masques, court buffoons</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Herman Moll, A new and exact map of the dominions of the king of Great Britain on ye continent of North America, 1715</pp:sourceStatement>
+        <pp:sourceLink ref="//catalog.princeton.edu/catalog/5247924"/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>unity</pp:keyword>
+        <pp:keyword>community</pp:keyword>
+        <pp:keyword>labor</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>labor</pp:tag>
+        <pp:tag>elephant</pp:tag>
+        <pp:tag>pleasure</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>unity</pp:tag>
+        <pp:tag>court</pp:tag>
+        <pp:tag>power</pp:tag>
+      </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="puppets-masques-and-buffoons">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>Puppets, Masques, and Buffoons</pp:title>
+          <pp:peek>When Pulter seeks examples of spectacle, she settles on three: puppet plays, masques, and buffoons. Puppet plays were performed publicly throughout the seventeenth century in London, even when the theaters were closed in the 1640s and 1650s.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="raccoon-or-beaver?">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>Raccoon or Beaver?</pp:title>
+          <pp:peek>Pulter probably never saw a live raccoon or beaver. Raccoons are native to North America, and by Pulter’s time, beavers had been hunted to extinction in England. Pulter must have learned about such animals from books.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="timon-of-athens">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>Timon of Athens</pp:title>
+          <pp:peek>Plutarch wrote of an Athenian named Timon who eschewed humanity. His brief discussion of Timon appears in a section titled “The Life of Marcus Antonius,” presented here in the sixteenth-century English translation by Thomas North.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="87">
       <pp:title>The Hunted Hart (Emblem 22)</pp:title>
@@ -4065,7 +4113,7 @@
 <!--          <pp:author>Wendy Wall</pp:author>-->
 <!--        </pp:edition>-->
 <!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
 <!--        </pp:edition>-->
 <!--      </pp:editions>-->
       <pp:keywords>
@@ -4076,22 +4124,22 @@
       </pp:tags>
 <!--      <pp:curations>-->
 <!--        <pp:curation status="on" hash="dissolved-to-tears">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
 <!--          <pp:title>Dissolved to Tears</pp:title>-->
 <!--          <pp:peek>Pulter calls the dying hart “quite dissolved,” and the emblem’s speaker imagines herself dissolving “to tears.” The words “dissolve” and “dissolution” appear frequently in Pulter’s poetry.</pp:peek>-->
 <!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="hunted-deer-in-poetry">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
 <!--          <pp:title>Hunted Deer in Poetry</pp:title>-->
 <!--          <pp:peek>Hunted deer appear in many earlier poems, especially by poets who imitated the fourteenth-century Italian poet Petrarch. A hunter pursuing a female deer is a prominent trope in Petrarchan literature, and one of the most famous examples is Thomas Wyatt’s “Whoso List to Hunt.”</pp:peek>-->
 <!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="seeking-dittany">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
 <!--          <pp:title>Seeking Dittany</pp:title>-->
 <!--          <pp:peek>Dittany is an aromatic shrub with tiny pink flowers, native to Greece, that has long been thought to have medicinal properties. It is described as a healing herb in texts written as long ago as ancient Rome and as recently as J. K. Rowling’s Harry Potter series.</pp:peek>-->
 <!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="suspire">-->
-<!--          <pp:author>Elizabeth Zeman Kolkovich</pp:author>-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
 <!--          <pp:title>Suspire</pp:title>-->
 <!--          <pp:peek>A key term in this poem is “suspire,” meaning to sigh or breathe out. Pulter uses the word only a few times in her poetry, but it is part of a matrix of related words that Pulter frequently employs connected to sighs and breathing.</pp:peek>-->
 <!--        </pp:curation>-->

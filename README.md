@@ -1,7 +1,7 @@
 # The Pulter Project Central
 
 ## Welcome
-This repository contains everything the project needs to live and evolve exept two image collections: manuscript facsimiles ans [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
+This repository contains everything the project needs to live and evolve except two image collections: manuscript facsimiles (currently on Box) ans [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
 
 ## For the Editors
 These are the folders of the utmost interest for the contributing parties, as well as the editors:
@@ -12,9 +12,10 @@ These are the folders of the utmost interest for the contributing parties, as we
 
 ## For the Developers
 ### How to Start
-1. Make sure your machine has [Node.js](https://nodejs.org/en/) as well as [Java 6 runtime](https://support.apple.com/kb/dl1572?locale=en_US) installed.
-2. Install gulp-cli tool globally: `npm install gulp-cli -g`.
-3. Run `yarn install`.
+1. Make sure your machine has Node 8 (use [nvm](https://github.com/nvm-sh/nvm) to manage multiple Node versions) 
+2. As well as [Java 8 runtime](https://adoptopenjdk.net/) installed.
+3. Install gulp-cli tool globally: `npm install gulp-cli -g`.
+4. Run `yarn install`.
 
 You should have the following terminal commands available:
 * `gulp` — boots up the development web server with automatic JS/CSS compilation and browser reloading; this it the default mode for active development;
@@ -32,14 +33,6 @@ Branch `master` is deployed to the [production site](https://pulterproject.north
 
 #### Current Delta
 Poems that are published on the preview site but not on the production site.
-> 15
-40
-41
-60
-64
-68
-75
-77
-81
+> 68 86* 87
 
 &ast; *poem is up for publishing with the next production release*
