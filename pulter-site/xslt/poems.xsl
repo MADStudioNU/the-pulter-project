@@ -1803,7 +1803,8 @@
         <pp:tag>Christ</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>Aurora</pp:tag>
-      </pp:tags>    </pp:poem>
+      </pp:tags>
+    </pp:poem>
     <pp:poem id="35">
       <pp:title>The Pismire</pp:title>
       <pp:firstLine>Walking abroad, once in a summer’s day</pp:firstLine>
@@ -4117,10 +4118,26 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>medicine</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>transformation</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>tears</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>suffering</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>breath</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>afterlife</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="dissolved-to-tears">
