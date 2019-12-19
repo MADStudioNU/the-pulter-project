@@ -12,7 +12,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-          <title>The Welcome [2]</title>
+        <title>The Welcome [2]</title>
         <title type="sub">Poem #33</title>
         <respStmt>
           <resp>Created by</resp>
@@ -116,7 +116,7 @@
   </teiHeader>
   <facsimile>
     <!-- List of all images associated with this document -->
-      <graphic url="./document_images/7610_106.jpg" xml:id="f7610_106"/>
+    <graphic url="./document_images/7610_106.jpg" xml:id="f7610_106"/>
   </facsimile>
   <text>
     <front>
@@ -124,7 +124,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Andrea Crow</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -133,21 +133,21 @@
 
       <app>
         <rdg wit="#ft">
-            <pb ed="#ft" facs="#f7610_106" n="51v"/>
+          <pb ed="#ft" facs="#f7610_106" n="51v"/>
         </rdg>
         <rdg wit="#ee">
-            <pb ed="#ee" facs="#f7610_106"/>
+          <pb ed="#ee" facs="#f7610_106"/>
         </rdg>
         <rdg wit="#ae">
-            <pb ed="#ae" facs="#f7610_106"/>
+          <pb ed="#ae" facs="#f7610_106"/>
         </rdg>
       </app>
 
       <head>
         <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Welcome [2]</rdg>
-            <rdg wit="#ee">The Welcome [2]</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Welcome [2]</rdg>
+          <rdg wit="#ee">The Welcome [2]</rdg>
+          <rdg wit="#ae"><seg>The Welcome [2]<note type="critical">The poem’s title invokes the popular early modern genre of hospitality poetry, such as the country house poem or the invitation poem. As is often the case in Pulter’s poetry, she plays with this genre by substituting a reflection on her isolation in place of the community typically at the center of these poems. On Pulter’s engagement with the pose of isolation popular in Royalist poetry during the Interregnum, as well as the political networks in which her position as the lady of a country estate likely would have involved her, see Karen Britland, “Conspiring with ‘friends’: Hester Pulter’s Poetry and the Stanley Family at Cumberlow Green,” <title rend="italic">The Review of English Studies</title> 609, no. 292 (November 2018): 832-54.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -159,84 +159,84 @@
             <note type="editorialnote"></note>
           </rdg>
         </app>
-        <app type="headnote">          
+        <app type="headnote">
           <rdg wit="#ee">
-              <note type="headnote">Death is hailed as an old friend in this, the second of two poems so named. Both warmly address this usually-feared figure in casual diction which suggests the speaker’s utter comfort with her own mortality. An easy, homey analogy of dying with going to bed, however, soon collides with the more complex cosmology that is typical of much of Pulter’s verse. The result lets the speaker’s sense of humor (which depicts her posthumously taking a nap in oblivion) join with a serious vision of a more lasting, longed-for transformation of her being.</note>
+            <note type="headnote">Death is hailed as an old friend in this, the second of two poems so named. Both warmly address this usually-feared figure in casual diction which suggests the speaker’s utter comfort with her own mortality. An easy, homey analogy of dying with going to bed, however, soon collides with the more complex cosmology that is typical of much of Pulter’s verse. The result lets the speaker’s sense of humor (which depicts her posthumously taking a nap in oblivion) join with a serious vision of a more lasting, longed-for transformation of her being.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">The apparent simplicity of the short couplets and images of childhood that make up this brief poem are in tension with a persistent metrical irregularity that suggests resistant discomfort underlying the speaker’s overt claims to view death as a welcome, temporary rest.<seg>[1]<note type="critical">On Pulter desiring death, see Frances E. Dolan, <ref type="pp-curations-ref" target="#ctxs">Desiring Death</ref> (Curation, Poem 18) and <ref type="pp-curations-ref" target="#ctxs">More Ruminations on Death and Resurrection</ref> (Curation, Poem 3), Elizabeth Scott-Baumann, <ref type="pp-curations-ref" target="#ctxs">Dear Death</ref> (Curation, Poem 65), and Helen Smith, <ref type="pp-curations-ref" target="#ctxs">The Good Death</ref> (Curation, Poem 31) in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018).</note></seg> Pulter’s rhyme scheme and inventive use of rhetorical devices realizes in poetic form how death can at once be a definitive end (echoed in her consistently endstopped couplets) and a transformation that brings something new into being out of earlier material (echoed in the inventive forms of repetition in her use of homoioteleuton [the repetition of word endings]  and antanaclasis [repeating a word but changing its meaning]). Like the earlier poem, <ref type="pp-poem-ref" corresp="19">The Welcome [1]</ref>, the poem approaches Pulter’s constant theme of her impending mortality from the persona of a hospitable hostess, a role not unlike that which Pulter would have played in her estate at Broadfield. The mood of this poem shifts rapidly in a short space, from domestic scenes of going to bed, to elemental dissolution in the alchemical urn, and finally to the apocalypse.</note>
           </rdg>
         </app>
       </head>
 
       <l n="1">
         <app>
-            <rdg wit="#ft">Death come and welcome, thour’t my Ancient friend,</rdg>
-            <rdg wit="#ee">Death, come, and welcome; thou art my ancient friend;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">Death come and welcome, thour’t my Ancient friend,</rdg>
+          <rdg wit="#ee">Death, come, and welcome; thou art my ancient friend;</rdg>
+          <rdg wit="#ae"><seg>Death, come<note type="critical">The spondee (a metrical foot consisting of two stressed syllables) that opens this poem is one of a handful of pointed metrical irregularities in what is otherwise fairly regular iambic pentameter. In this case, Pulter’s spondee both sonically underscores the somberness of her invocation of death, and amplifies the surprising shift in the remainder of the line from a funereal mood to one of sociability and hospitality.</note></seg>, <seg>and welcome<note type="critical">Pulter’s use here of homoioteleuton (i.e. the repetition of word endings) is the first of a number of rhetorical devices she deploys in this poem that play with forms of repetition. See also the notes on the end rhymes in lines 5-6 and 7-8. Taken together, these devices perform a transformation of the words of the poem that is analogous to death as envisioned by Pulter: not as a rupture but as a remaking of one’s substance into a new form.</note></seg>; thou art my ancient friend,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
-            <rdg wit="#ft">Of all my Suffrings, thou <seg>wilt<note type="physical">“lt” appears written over earlier letters, possibly “th”</note></seg> make an end.</rdg>
-            <rdg wit="#ee">Of all my suff’rings, thou wilt make an end.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">Of all my Suffrings, thou <seg>wilt<note type="physical">“lt” appears written over earlier letters, possibly “th”</note></seg> make an end.</rdg>
+          <rdg wit="#ee">Of all my suff’rings, thou wilt make an end.</rdg>
+          <rdg wit="#ae">Of all my suff’rings, thou wilt make an <seg>end<note type="critical"> Each of the five couplets that make up this poem are endstopped, a formal device that mimics the tension Pulter explores between the power of death to, on the one hand, “make an end” in the dissolution of the body into “dust” and “first principles,” and, on the other hand, the continuation of the soul’s story after death, in the “everlasting Story” in which the soul participates in the afterlife.</note></seg>.</rdg>
         </app>
       </l>
       <l n="3">
         <app>
-            <rdg wit="#ft">Young Children crie, or grumble at the best,</rdg>
-            <rdg wit="#ee">Young children cry, or grumble at the best,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">Young Children crie, or grumble at the best,</rdg>
+          <rdg wit="#ee">Young children cry, or grumble at the best,</rdg>
+          <rdg wit="#ae">Young children cry, or grumble at the best,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
-            <rdg wit="#ft">To goe to Bed I know it is my Rest.</rdg>
-            <rdg wit="#ee">To go to bed; I know it is my rest.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">To goe to Bed I know it is my Rest.</rdg>
+          <rdg wit="#ee">To go to bed; I know it is my rest.</rdg>
+          <rdg wit="#ae">To go to bed; I know it is my rest.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
-            <rdg wit="#ft">Therefore as cheerfully Il’e lay mee Down</rdg>
-            <rdg wit="#ee">Therefore as cheerfully I’ll lay me down</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">Therefore as cheerfully Il’e lay mee Down</rdg>
+          <rdg wit="#ee">Therefore as cheerfully I’ll lay me down</rdg>
+          <rdg wit="#ae"><seg>Therefore as cheerfully<note type="critical">The two dactyls (a metrical foot consisting of one stressed syllable followed by two unstressed syllables) that begin this line connote a tension working against the easy acceptance of death the speaker articulates. At the same time, the irregular meter here may convey the singsong “cheerful” tone the line describes. These two implications together suggest that this attempt to evoke cheer in the face of death is uncomfortable and artificial.</note></seg> I’ll lay me down</rdg>
         </app>
       </l>
       <l n="6">
         <app>
-            <rdg wit="#ft">In Dust, as in the daintiest Bed of Down.</rdg>
-            <rdg wit="#ee">In <seg>dust<note type="gloss">the disintegrated particles of the physical body; also its primal elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> as in the <seg>daintiest<note type="critical">To preserve the meter, the word must be pronounced in two syllables (i.e., “daint” and “yest”).</note></seg> bed of down,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">In Dust, as in the daintiest Bed of Down.</rdg>
+          <rdg wit="#ee">In <seg>dust<note type="gloss">the disintegrated particles of the physical body; also its primal elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg> as in the <seg>daintiest<note type="critical">To preserve the meter, the word must be pronounced in two syllables (i.e., “daint” and “yest”).</note></seg> bed of down,</rdg>
+          <rdg wit="#ae">In dust as in the daintiest bed of <seg>down<note type="critical">Pulter’s use of antanaclasis—the repetition of a pair of homographs in two different senses, which is emphasized in the manuscript by the capitalization of both instances of the word “down”—is another example of her engagement in this poem with various forms of repetition as a means of meditating on how death at once transforms and preserves. In this case, the transformation she poetically enacts is not to the word as it is written, as in the first line, but rather to its meaning. In comparing laying herself “down” to die to a soft bed of “down,” Pulter further develops the poem’s central conceit of reframing death as gentle, familiar, and welcome.</note></seg>.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
-            <rdg wit="#ft">Where I to my first Principles must turn,</rdg>
-            <rdg wit="#ee">Where I to my <seg>first principles<note type="gloss">original, basic elements; formative constituent parts</note></seg> must turn,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">Where I to my first Principles must turn,</rdg>
+          <rdg wit="#ee">Where I to my <seg>first principles<note type="gloss">original, basic elements; formative constituent parts</note></seg> must turn,</rdg>
+          <rdg wit="#ae">Where I to my <seg>first principles<note type="gloss">The fundamental particles that make up the speaker’s body. The dissolution of the body into its originary elements is one of Pulter’s most common images. See <ref type="pp-poem-ref" corresp="1">The Eclipse</ref>, <ref type="pp-poem-ref" corresp="6">Universal Dissolution</ref>, <ref type="pp-poem-ref" corresp="41">The Invocation of the Elements</ref>, et al.</note></seg> must turn,</rdg>
         </app>
       </l>
       <l n="8">
         <app>
-            <rdg wit="#ft">And take a nap in Black Oblivions Urn.</rdg>
-            <rdg wit="#ee">And take a nap in black oblivion’s urn</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">And take a nap in Black Oblivions Urn.</rdg>
+          <rdg wit="#ee">And take a nap in black oblivion’s urn</rdg>
+          <rdg wit="#ae">And <seg>take a nap in black oblivion’s urn<note type="gloss">Cf. <ref type="pp-poem-ref" corresp="16">Universal Dissolution</ref>: “So man to his first principles must turn / And take a nap in black Oblivion’s urn” (ln. 15-16). The image, recurrent in Pulter’s poetry, is of the alchemist’s urn in which substances are reduced to their elemental forms and transformed into new substances. See also <ref type="pp-poem-ref" corresp="">The Revolution</ref>, <ref type="pp-poem-ref" corresp="">The Circle [1]</ref>, <ref type="pp-poem-ref" corresp="">The Circle [2]</ref>, <ref type="pp-poem-ref" corresp="">The Circle [3]</ref>, and <ref type="pp-poem-ref" corresp="">The Circle [4]</ref>, et al.</note></seg>.</rdg>
         </app>
       </l>
       <l n="9">
         <app>
-            <rdg wit="#ft">Untill the Sun of Life ariſe in Glory,</rdg>
-            <rdg wit="#ee">Until the <seg>sun of life<note type="gloss">an allusion, built into the pun, with the second coming of Christ as the <hi rend="italic">son</hi> of God</note></seg> arise in glory—</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">Untill the Sun of Life ariſe in Glory,</rdg>
+          <rdg wit="#ee">Until the <seg>sun of life<note type="gloss">an allusion, built into the pun, with the second coming of Christ as the <hi rend="italic">son</hi> of God</note></seg> arise in glory—</rdg>
+          <rdg wit="#ae">Until <seg>the sun of life<note type="critical">Pulter’s phrase most explicitly refers to Christ’s return. However, given Pulter’s repeated comparison of Charles I to a sun god, the idea of the restoration of the English monarchy is also evoked here.</note></seg> arise in glory—</rdg>
         </app>
       </l>
       <l n="10">
         <app>
-            <rdg wit="#ft">And then begins my everlasting Story.</rdg>
-            <rdg wit="#ee">And then begins my everlasting <seg>story<note type="gloss">life</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ft">And then begins my everlasting Story.</rdg>
+          <rdg wit="#ee">And then begins my everlasting <seg>story<note type="gloss">life</note></seg>.</rdg>
+          <rdg wit="#ae">And then begins my everlasting <seg>story<note type="critical">Pulter frequently rhymes “glory” with “story.” However, the placement of this feminine rhyme (a polysyllabic rhyme in which the final syllable is unstressed) at the end of this poem calls attention to its irregularity, which metrically mimics the speaker’s urgent pushing forward to this desired future.</note></seg>.</rdg>
         </app>
       </l>
     </body>
