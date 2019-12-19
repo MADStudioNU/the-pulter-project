@@ -1,3 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.27">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>On the King’s Most Excellent Majesty</title>
+        <title type="sub">Poem #27</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_091.jpg" xml:id="f7610_091"/>
+      <graphic url="./document_images/7610_092.jpg" xml:id="f7610_092"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>Andrea Crow</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_091" n="44r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_091"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_091"/>
+            </rdg>
+        </app>
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw><seg>On the Kinges moſt
+                exelent magisty<note type="physical">“K” possibly minuscule. terminal “-es’ graph in “kinges”; “On the kinges” written in H2, and “most exelent magisty” in another hand, not that of main scribe; to right of “magisty,” straight ascending line with two dots below near centre.</note></seg>         <seg>K. Charles <w lemma="first"><abbr>1<hi rend="superscript">st</hi></abbr></w>. <note type="physical">in another hand, different from the two used in the title and from the main scribe; curved bracket to left encloses two lines of title</note></seg></rdg>
+            <rdg wit="#ee"><seg>On the King’s Most Excellent Majesty<note type="physical">The title is probably all in Pulter’s hand, but in two different inks (changing at “Most Excellent Majesty”). In the manuscript, “K. Charles 1st” is written to the right of the title and a curved bracket; this is all possibly in the same early eighteenth-century hand which appears elsewhere in the manuscript.</note></seg></rdg>
+            <rdg wit="#ae">On the King’s Most Excellent Majesty</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Written, it appears, before the revolutions of the 1640s endangered England’s King Charles I and Queen Henrietta Maria–or at least before they ended the king’s life–this paean sees Pulter’s royalism at its most contented. The poem begins with conventional classical imagery and praise before shifting to a larger and revolving cosmic stage, where the victor’s crown which “encircle[s]” Charles’s brow is echoed in both the lowly “orbs” of Pulter’s ilk and the “shining spheres” she imagines the king and queen inhabiting after death. This brief poem outlines a theological version of the water cycle, where truth, peace, and grace fall from heaven to sluice through virtuous rulers into humbler humans, before the worthy all evaporate upward into heaven’s glory, to become the source of blessings they once sought; but the collapse of social distinction envisioned in this almost impossibly distant future does not signal, to be clear, any desire on the poet’s part for political revolution on earth.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">“On the King’s Most Excellent Majesty” is a densely allusive and highly ambiguous political poem. While on the surface the poem implies an encomium to Charles I and his wife Henrietta Maria, the speaker’s expressed desire for political stasis continually comes up against the inevitability of cycles of dissolution and transformation that are so central to Pulter’s poetry. Even as the poem articulates a Royalist longing for the continuation of Charles’s reign, it simultaneously suggests that such resistance to change is as outmoded as the geocentric model of the universe. The poem develops comparisons also made elsewhere in Pulter’s work between Charles I, the sun god Phoebus (the Roman equivalent of the Greek Apollo), and Julius Caesar. Its engagement with figures from Roman literature is in dialogue with the also notably ambivalent final book of Ovid’s <title rend="italic">Metamorphoses</title>, in which Caesar, like Charles and Henrietta Maria in this poem, is transformed into a star. Although this poem is written from a speaking-position located prior to the Interregnum, such ominous allusions to the death of a ruler suggest that this poem might have been written after Charles’s death. “On the King’s Most Excellent Majesty” also demonstrates the importance of women’s authority in Pulter’s work: Minerva is one of several recurring powerful female characters in Pulter’s collection. In this poem, she emphasizes the centrality of women’s roles in maintaining the state by creatively incorporating the myth of Apollo’s birth under the olive-tree that Minerva created, and by reworking Ovid’s depiction of a ruler’s apotheosis to include Henrietta Maria, treating her as equal to Charles in terms of her significance to the fate of the country. The queen is not mentioned in the title of this poem, but its structure serves to equate her importance with that of the king, turning from praise for Charles in the first eight lines to praise for Henrietta Maria, and finally collapsing both into a third-person collective “they” in the final eight lines.</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Victorious Palm, triumphing Lawrell <seg><del>Bowes</del><add place="above">Boughs</add><note type="physical">double strike-through; “Boughs” directly above “Bowes”</note></seg></rdg>
+            <rdg wit="#ee"><seg>Victorious palm, triumphing laurel boughs,<note type="gloss">The palm and laurel were classical symbols of victory.</note></seg></rdg>
+            <rdg wit="#ae">Victorious <seg>palm<note type="critical">The palm branch is a symbol of victory in the Roman tradition and also alludes to the Christian passion narrative. The palm bears special relevance to the references and images in this poem and throughout Pulter’s manuscript. The palm tree is where the phoenix, a recurring character in Pulter’s poetry, rebirths itself (see Ovid, <title rend="italic">Metamorphoses</title>, trans. Rolfe Humphries (Bloomington: Indiana UP, 2018), XV.393-98). Additionally, the sun god Phoebus, whom Pulter frequently uses as a figure for Charles I, was said to have been born between a palm tree and an olive tree on the island of Delos. Phoebus is thus sometimes referred to as “Delius,” while his twin sister Diana, is called Delia (see <title rend="italic">Metamorphoses</title> VI.333-337). In Pulter’s collection, however, “Delia” is consistently used to refer to Phoebus rather than his sister, as in line 16 of this poem. Additionally, according to Christian tradition, palm branches were waved and strewn in the path of Christ at his entrance into Jerusalem on the Sunday before his death (known as Palm Sunday), a connection that weaves an ominous undertone into this hopeful encomium. The phoenix, the cyclically returning sun, and the resurrected Christ all might imply Charles I’s rebirth through his son at the restoration of the monarchy.</note></seg>, triumphing <seg>laurel<note type="gloss">The laurel, like the palm, is also a Roman symbol of victory closely associated with Apollo. He is often depicted wearing a laurel wreath. Virgil describes the tree, also one of Caesar Augustus’ (r. 27 BCE-14 CE) favored symbols, as sacred to Apollo. See Virgil, <title rend="italic">Aeneid</title>, trans. Frederick Ahi (Oxford: Oxford UP, 2007), 7.59-63 and note to ln. 71 on p. 383.</note></seg> boughs,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Encircles round illustrious Casars Browes</rdg>
+            <rdg wit="#ee">Encircles round illustrious <seg>Caesar’s<note type="gloss">a generic term for a Roman emperor, to whom Charles I is likened here</note></seg> brows,</rdg>
+            <rdg wit="#ae"><seg>Encircles round<note type="critical">The phrase “encircle round”—along with the subsequent “our humble orbs” (7), “shining spheres” (13), and “by the primum mobile turned round” (15)—incorporate one of the most dominant motifs in Pulter’s manuscript: the circle. Pulter typically uses the circle to grapple with her inevitable mortality, imagining the dissolution of the body into its elemental form and the celestial afterlife of the soul. See, for example, <ref type="pp-poem-ref" corresp="16">The Revolution</ref>, <ref type="pp-poem-ref" corresp="17">The Circle [1]</ref>, <ref type="pp-poem-ref" corresp="21">The Circle [2]</ref>, <ref type="pp-poem-ref" corresp="25">The Circle [3]</ref>, and <ref type="pp-poem-ref" corresp="36">The Circle [4]</ref>. Her transposition of this conceit to the context of the rise and fall of monarchs in this poem exemplifies Pulter’s portrayal of the personal and the political as closely intertwined.</note></seg> <seg>illustrious<note type="critical">Illustrious most overtly means “famous.” However, like another of Pulter’s favorite terms, “influence,” the word at once evokes the ruler’s power and imagines him as an empty vessel directed by outside forces. Pulter cannily plays with this paradox: she frequently employs morphological variations on the word “illustrate” when discussing Charles I. This collocation invites the reader to consider the relationship between the astronomical phenomena of the natural world and the reigns of rulers. The term “illustrious” is ambiguous with regard to agency: it depicts the monarch as a powerful enlightening influence while also making him a passive receptacle who is filled with that “luster” by a higher power; cf. <ref type="pp-poem-ref" corresp="8">On that Unparalleled Prince Charles the First, His Horrid Murder</ref>: “Unless our God doth a second Charles illustrate / (Which oh, deny not), all our hopes are frustrate” (35-36).</note></seg> <seg>Caesar’s<note type="critical">Although “Caesar” was the title given to Roman rulers, Pulter, like many of her contemporaries, often uses the term to refer to English monarchs, in this case, Charles I. Pulter also refers to Charles I as Caesar in <ref type="pp-poem-ref" corresp="13">Upon the Imprisonment of His Sacred Majesty</ref>, where she writes, “And thy o’erflowing vengeance thunder down / On these usurpers of our Caesar’s crown” (5-6). The fact that “Caesar” was often used to refer to Julius Caesar in particular is especially relevant given this poem’s similarities to Book XV of Ovid’s <title rend="italic">Metamorphoses</title>, in which the palm and laurel also serve as central images, and which tells the story of Caesar’s transformation into a star, like that of Charles I and Henrietta Maria in this poem. See <title rend="italic">Metamorphoses</title> XV.837-848.</note></seg> brows,</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Whoſe valour fills with wonder future Story</rdg>
+            <rdg wit="#ee">Whose valor fills with wonder future <seg>story<note type="gloss">history</note></seg></rdg>
+            <rdg wit="#ae">Whose valor fills with wonder future story</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Whilst vertue Crowns him with im̄̄ortall Glory</rdg>
+            <rdg wit="#ee">Whilst virtue crowns him with immortal glory.</rdg>
+            <rdg wit="#ae">Whilst virtue crowns him with immortal glory.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Let <hi rend="underline">Pallas Sacred</hi> <seg><add place="above">bright Minerva’s</add><note type="physical">directly above “Pallas Sacred”</note></seg> Olive Tree Still Grow</rdg>
+            <rdg wit="#ee">Let <seg>bright Minerva’s<note type="gloss">In the manuscript, the phrase “bright Minerva’s” is written directly above “Pallas Sacred,” which is underlined. Minerva is the Roman goddess identified with the Greek Pallas, an epithet of Athena, goddess of wisdom and war.</note></seg> <seg>olive tree<note type="gloss">Athena’s sacred olive tree, seen as the source of prosperity in Athens</note></seg> still grow</rdg>
+            <rdg wit="#ae">Let bright <seg>Minerva’s<note type="critical">Pulter apparently emends the name originally copied out in the manuscript, “Pallas.” Pallas may refer to Minerva (i.e. the Greek goddess Athena), the Roman goddess of wisdom and war, a correction consistent with Pulter’s specific engagement with Roman literature and history in this poem. The original version of the line may have been intended to refer not only to Athena/Minerva but also to a character in the <title rend="italic">Aeneid</title> named Pallas, to whom Aeneas extends an olive branch as a sign of peace. See VIII.110-16.</note></seg> <seg>olive tree<note type="gloss">The olive tree is a symbol of both peace and victory. In Virgil’s <title rend="italic">Aeneid</title>, Aeneas offers Evander’s son Pallas an olive branch as a sign of peace (see note 6 above). In <title rend="italic">Metamorphoses</title>, Ovid recounts how Minerva won Athens in a contest with Neptune by causing an olive tree to rise from the ground, which she gifted to the city (VI.70-102).</note></seg> <seg>still grow<note type="critical">The word “still” can mean “consistently,” here expressing the speaker’s desire for the monarch’s reign to continue uninterrupted into the future. Yet “still,” in the sense of “unmoving,” paradoxically also implies a desires for stasis that is at odds with the “grow[th]” with which the word is paired. This tension suggests that the speaker’s desire that the kingdom will remain unchanged is doomed to be disappointed by the inevitable cycles of growth and transformation so central in Pulter’s work.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">To Shade his Throne, whence truth and Peace<add place="below">^</add><add place="above">may flow</add></rdg>
+            <rdg wit="#ee">To shade his throne, whence truth and peace may flow</rdg>
+            <rdg wit="#ae"><seg>To shade his throne<note type="gloss">The image of Minerva’s olive tree shading Caesar’s throne extends Pulter’s implicit comparison between Charles I and Phoebus, as Roman myth held that the god was born between an olive tree and a palm tree.</note></seg>, whence truth and peace may flow</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Down to our Humble Orbs; O let him live</rdg>
+            <rdg wit="#ee">Down to our humble orbs; O let him live</rdg>
+            <rdg wit="#ae"><seg>Down to our humble orbs<note type="critical">The “orbs” referenced here may refer to lower cosmic spheres, particularly the earth, or to the eyes of the monarchical subjects looking to the heavens. The comparison, explicit or implicit, of Charles I to the sun is a recurrent motif in Pulter’s poems. Cf. <ref type="pp-poem-ref" corresp="1">The Eclipse</ref> and <ref type="pp-poem-ref" corresp="8">On that Unparalled Prince Charles the First, His Horrid Murder</ref>. This comparison is an extension both of Pulter’s use of Apollo the sun god as a figure for Charles I and her interest in the relationship between celestial bodies and political change.</note></seg>; O let him live</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Still to receive from Heaven, to us to give</rdg>
+            <rdg wit="#ee">Still to receive from Heaven, to us to give.</rdg>
+            <rdg wit="#ae"><seg>Still to receive from Heaven, to us to give.<note type="critical">“Heaven” may be intended to be elided into a single beat (“heav’n”), as is the case in much of early modern poetry. If taken as two syllables, the extra beat in this line metrically may echo the speaker’s desire to stretch out and sustain a state of contentment against the cycles of fortune.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">And let his Lovly, Loyall, Royall Queen</rdg>
+            <rdg wit="#ee">And let his lovely, loyal, royal queen</rdg>
+            <rdg wit="#ae">And let his <seg>lovely, loyal, royal<note type="critical">The alliteration and internal rhyme in the phrase “lovely, loyal, royal” lyrically underscores the speaker’s desire for political continuity and harmony.</note></seg> <seg>queen<note type="gloss">Charles I’s wife, Henrietta Maria.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">To all Succeeding Ages Still bee Seen</rdg>
+            <rdg wit="#ee">To all succeeding ages still be seen</rdg>
+            <rdg wit="#ae">To all succeeding ages still be seen</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">A most unparrild pattern of true Love</rdg>
+            <rdg wit="#ee">A most <seg>unparalled<note type="critical">The manuscript has “unparilld”; modernizing to “unparalleled” would add two syllables to the line, so we have chosen this more metrical abbreviation.</note></seg> pattern of true love,</rdg>
+            <rdg wit="#ae">A most <seg>unparalled<note type="critical">Pulter’s elision of “unparalleled” to “unparalled” both maintains the line’s metrical regularity and aurally suggests a wish to see Henrietta Maria also remain “unperiled,” free from peril or threat.</note></seg> pattern of true love,</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Begun on earth ending in Heaven above</rdg>
+            <rdg wit="#ee">Begun on earth, ending in Heaven above.</rdg>
+            <rdg wit="#ae">Begun on earth, ending in Heaven above.</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">O let them in their Shineing <seg>Sphere’s<note type="physical">“re” written over earlier letters</note></seg> bee fixt</rdg>
+            <rdg wit="#ee">O <seg>let them in their shining spheres be fixed<note type="critical">possibly a reference to an Aristotelian, geocentric model of the universe, in which the deceased king and queen after death join the outermost concentric sphere, which carried the “fixed” stars, controlled the motion of all other spheres, and was itself controlled by supernatural agency</note></seg></rdg>
+            <rdg wit="#ae">O let them in their shining spheres be fixed</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">And never with Prodigious <seg>Met<add place="below">^</add><add place="above">e</add>oars mixt<note type="physical">“M” written over initial minuscule letter; “a” may be blotted; appears to cover earlier letter (likely “u”)</note></seg></rdg>
+            <rdg wit="#ee">And never with <seg>prodigious meteors<note type="gloss">Meteors were among the unusual natural phenomena long thought to act as signs of divine judgment.</note></seg> mixed,</rdg>
+            <rdg wit="#ae">And never with <seg>prodigious<note type="critical">The term “prodigious” carries several resonances, both positive and negative: ominous, unnatural, amazing, or excellent (<title rend="italic">OED</title>). This ambiguous word choice indicates Pulter’s speaker’s discomfort with the possible negative outcomes of future political changes, while also suggesting that this resistance is not only futile against the inevitable cycles that are fundamental to Pulter’s cosmology, but also fails to account for the possible good that might come from unpredictable changes.</note></seg> meteors mixed,</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">But by the <seg>Primū<del>m</del>Mobile<note type="physical">“M” darker, covering lower-case “m”</note></seg> turn’d Round</rdg>
+            <rdg wit="#ee">But by the <seg><foreign rend="italic">primum mobile</foreign><note type="gloss">in medieval Ptolemaic astronomy, the outer sphere which carried the inner spheres in its daily revolution around the earth; more generally, any original driving force; often an epithet for God</note></seg> turned round:</rdg>
+            <rdg wit="#ae">But by the <seg><foreign rend="italic">primum mobile</foreign><note type="critical">The <foreign rend="italic">primum mobile</foreign> is the outermost sphere in the geocentric model of the universe, responsible for governing the movements of all celestial bodies. However, many of Pulter’s poems demonstrate her belief in a heliocentric universe (see <ref type="pp-poem-ref" corresp="1">The Eclipse</ref>, Amplified Edition, note to line 18). This reference thus suggests that the speaker of this poem is futilely desiring an outmoded stasis that cannot be maintained. On Pulter and heliocentrism, see Louisa Hall, “Hester Pulter’s Brave New Worlds,” in <title rend="italic">Immortality and the Body in the Age of Milton</title>, ed. John Rumrich and Stephen Fallon (Cambridge: Cambridge UP, 2018): 171-86.</note></seg> turned round:</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Lasting as	<seg>Delia’s<note type="physical">preceding blank space shows erased “Dea” and possible ascender (as for “l”)</note></seg> let their Race bee &ff;ound</rdg>
+            <rdg wit="#ee">Lasting as <seg>Delia’s<note type="gloss">Delia is an epithet for Artemis, as Delios or Delius is for Apollo (since these divine Greek twins were both on the island of Delos).</note></seg> let their race be found.</rdg>
+            <rdg wit="#ae">Lasting as <seg>Delia’s<note type="gloss">Though Delia is typically a nickname for the goddess Diana, throughout Pulter’s manuscript she uses this name to refer to Delia’s brother Phoebus. The appellation refers to their birth on the island of Delos. See notes to lines 1 and 5.</note></seg> let their <seg>race<note type="critical">“Race” again evinces the tension in this poem between a desire for continuity, suggested by “race” in the sense of a social group imagined to be homogenous and bounded, and the constant encroachment of change, suggested by “race” in the sense of a running or riding contest and the journey through one’s life (<title rend="italic">OED</title>).</note></seg> be found.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">And</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_092" n="44v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_092"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_092"/>
+            </rdg>
+        </app>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">And when thoſe Glittring Globes are all Diſſolv’d</rdg>
+            <rdg wit="#ee">And when those glitt’ring <seg>globes<note type="gloss">the “spheres” of line 13</note></seg> are all dissolved,</rdg>
+            <rdg wit="#ae">And when <seg>those glittering globes<note type="gloss">the sun and the moon.</note></seg> are all dissolved,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Let them in endles Glory bee involvd</rdg>
+            <rdg wit="#ee">Let <seg>them<note type="gloss">the king and queen</note></seg> in endless glory be involved;</rdg>
+            <rdg wit="#ae"><seg>Let them in endless glory be involved;<note type="gloss"> I.e. “Let them be incorporated into endless glory.” The Latin root word of “involve,” “volvere,” meaning “to roll,” connects this movement to the other cyclical images in this poem.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Till when let Grace and bleſſing from above</rdg>
+            <rdg wit="#ee">Till when, let grace and blessing from above</rdg>
+            <rdg wit="#ae">Till when, let grace and blessing from above</rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Deſcend on them and all that doe them love.</rdg>
+            <rdg wit="#ee">Descend on them, and all that do them love.</rdg>
+            <rdg wit="#ae">Descend on them, and all that do them love.</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curline-right"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
