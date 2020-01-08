@@ -4089,7 +4089,7 @@
           <pp:title>Puppets, Masques, and Buffoons</pp:title>
           <pp:peek>When Pulter seeks examples of spectacle, she settles on three: puppet plays, masques, and buffoons. Puppet plays were performed publicly throughout the seventeenth century in London, even when the theaters were closed in the 1640s and 1650s.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="raccoon-or-beaver?">
+        <pp:curation status="on" hash="raccoon-or-beaver">
           <pp:author>Elizabeth Kolkovich</pp:author>
           <pp:title>Raccoon or Beaver?</pp:title>
           <pp:peek>Pulter probably never saw a live raccoon or beaver. Raccoons are native to North America, and by Pulter’s time, beavers had been hunted to extinction in England. Pulter must have learned about such animals from books.</pp:peek>
