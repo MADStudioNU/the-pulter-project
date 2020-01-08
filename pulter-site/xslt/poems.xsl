@@ -1386,6 +1386,34 @@
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King’s Most Excellent Majesty</pp:title>
+      <pp:firstLine>Victorious palm, triumphing laurel boughs</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Andrea Crow</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>king</pp:tag>
+        <pp:tag>queen</pp:tag>
+        <pp:tag>Heaven</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>planets</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="28">
       <pp:title>O, My Afflicted Solitary Soul</pp:title>
@@ -1398,6 +1426,9 @@
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Andrea Crow</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
@@ -1678,6 +1709,9 @@
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Andrea Crow</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
