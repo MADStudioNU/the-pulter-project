@@ -1387,15 +1387,15 @@
     <pp:poem id="27">
       <pp:title>On the King’s Most Excellent Majesty</pp:title>
       <pp:firstLine>Victorious palm, triumphing laurel boughs</pp:firstLine>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Andrea Crow</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Andrea Crow</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:keywords>
         <pp:keyword>civil war</pp:keyword>
         <pp:keyword>Charles I</pp:keyword>
@@ -1427,9 +1427,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Andrea Crow</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Andrea Crow</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>soul</pp:keyword>
@@ -1710,9 +1710,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Andrea Crow</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Andrea Crow</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
