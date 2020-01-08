@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Andrea Crow</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
             <rdg wit="#ee">O, My Afflicted Solitary Soul</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae"><seg>O, My Afflicted Solitary Soul<note type="critical">The lack of a title in the manuscript encourages the reader to see a continuity of thought between this poem and the previous poem, <ref type="pp-poem-ref" corresp="27">On the King’s Most Excellent Majesty</ref>. The previous poem’s image of the transformation of Charles I and Henrietta Maria into celestial bodies becomes, in this poem, the assumption of the speaker’s soul into heaven following the dissolution of the body. The implicit connections between these two poems exemplify how Pulter treats the personal trauma of obscure people as equivalent to the rise and fall of monarchs. This equivalence has both feminist and anti-autocratic implications in the significance it places on the domestic sphere and on the individual.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -165,7 +165,7 @@
               <note type="headnote">Beginning and ending with questions, the speaker in this poem grapples emotionally with the quandary of being both immaterial soul and mortal flesh. What begins as the speaker’s encouragement to her soul to ambitiously look past the ephemeral pleasures of the natural and finite world turns, by the end of this verse, into a desperate longing to be reunited with her loved ones and with God in heaven. Between these two rhetorical stances, the speaker belies her attraction to the sensual beauty of the landscape, as if trying to convince herself to disavow the joys she occasionally feels (“Then what’s this world we keep ado about?”). She also abruptly disrupts her wise self-counsel to confess a deep fear of death, of transforming into mere dust and ashes. Pulter’s inventive staging of the conventional Renaissance poetic debate between body and soul contrasts the transience and filth of the “dunghill earth” with the expansive flight of the soul into a paradisal heaven vividly imagined as celestial, sovereign and musical.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">The first part of this carefully-constructed poem finds the speaker stridently urging her<seg>[1]<note type="critical">The lack of a title in the manuscript encourages the reader to see a continuity of thought between this poem and the previous poem, <ref type="pp-poem-ref" corresp="27">On the King’s Most Excellent Majesty</ref>. The previous poem’s image of the transformation of Charles I and Henrietta Maria into celestial bodies becomes, in this poem, the assumption of the speaker’s soul into heaven following the dissolution of the body. The implicit connections between these two poems exemplify how Pulter treats the personal trauma of obscure people as equivalent to the rise and fall of monarchs. This equivalence has both feminist and anti-autocratic implications in the significance it places on the domestic sphere and on the individual.</note></seg> soul to accept her inevitable mortality. In neatly-organized quatrains, the speaker introduces a series of arguments and metaphors, some of which appear to rework similarly-themed poems by George Herbert, encouraging this externalized version of herself to look forward to its transcendence of what she calls “this dunghill earth.”<seg>[2]<note type="gloss">On Pulter’s frequent use of the dunghill as metaphor, see Frances E. Dolan, <ref type="pp-curations-ref" target="#ctxs">What is a Dunghill?</ref> (Curation, Poem 35) in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018).</note></seg> This pose of confidence is underscored by the poem’s regular meter and rhyme scheme, its clear argumentative structure, and the speaker’s use of rhetorical devices such as anaphora and rhetorical questions. Following the fifth quatrain, this certainty abruptly collapses, along with both the division between the speaker and her soul and the poem’s organizational structures. The final line of the poem restates the very reassurance that the speaker had offered to her soul--that it will someday leave her body--as a form of suicidal ideation arising from grief over the deaths of her children and fear in the face of the fact that she, like her children, must also “turn to dust and ashes” (22). This poem thematically connects to the previous poem in the manuscript, <ref type="pp-poem-ref" corresp="27">On the King’s Most Excellent Majesty</ref> , which imagines Charles I and Henrietta Maria, like Pulter’s children in this poem, transformed into celestial bodies. Through the juxtaposition of these two poems, Pulter makes her personal losses as significant to the lyric history recorded by her manuscript as the political conflicts facing the nation. See also the proximity of <ref type="pp-poem-ref" corresp="10">Upon the Death of my Dear and Lovely Daughter, Jane Pulter</ref> and <ref type="pp-poem-ref" corresp="11">Tell Me No More [On the Same]</ref> with <ref type="pp-poem-ref" corresp="14">On the Horrid Murder of that Incomparable Prince</ref> and <ref type="pp-poem-ref" corresp="15">Let None Sigh More for Lucas or for Lisle [On the Same (2)]</ref>.</note>
           </rdg>
         </app>
       </head>
@@ -174,140 +174,140 @@
         <app>
             <rdg wit="#ft">Oh my aflicted Solitary Soul</rdg>
             <rdg wit="#ee">O my afflicted solitary soul,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">O my afflicted solitary soul,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
           <rdg wit="#ft">Why <seg><del>di</del>d<add place="below">^</add><add place="above">o</add>st<note type="physical">“di” scribbled out</note></seg> thou Still In dust and Ashes Rowl</rdg>
           <rdg wit="#ee">Why dost thou still in dust and ashes <seg>roll<note type="gloss">move in cycles; move in an unsteady manner; rotate, turn, or pivot around; trust in God; wallow</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Why <seg>dost<note type="critical">The main scribe’s “didst” is corrected in the manuscript to “dost” here, which both lends a mood of dramatic immediacy to the speaker’s dialogue with her soul and punningly connects her enquiring “dost” to the “dust” introduced later in this line: the future decay of the body that her soul fears.</note></seg> thou still <seg>in dust and ashes roll<note type="critical">I.e., “Why are you, my soul, still in my body?” The speaker’s assertion is at once an affirmation of faith in the security of the afterlife and a form of suicidal ideation, which gradually becomes explicit over the course of the poem. In the manuscript, aside from at the break at line 21 and in the final line, Pulter’s couplets in this poem are not endstopped, though she uses endstops frequently elsewhere. This open-endedness is in tension with the desire to impose order expressed in the first five quatrains.</note></seg>,</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">As if thou were not of Celestiall Birth</rdg>
             <rdg wit="#ee">As if thou were not of celestial birth,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">As if thou were not of celestial birth,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Or thy beginning and thy end were earth</rdg>
             <rdg wit="#ee">Or thy beginning and thy end were earth?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Or<note type="gloss">“And as if.”</note></seg> thy beginning and thy end were earth?</rdg>
         </app>
       </l>
       <l n="5">
         <app>
           <rdg wit="#ft"><seg>Beleev’t<note type="physical"> “e” written over “l”</note></seg> thou Art a Sparkle of that light</rdg>
           <rdg wit="#ee">Believ’t, thou art a sparkle of that <seg>light<note type="gloss">Christian deity; see John 8:12: “Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.”</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Believ’t thou art a <seg>sparkle<note type="gloss">“Sparkle” refers both to a spark of fire and to a creative animating force, an image that places the soul in a liminal space between the material and immaterial world (<title rend="italic">OED</title>). Cf. <ref type="pp-poem-ref" corresp="42">Pardon Me, My Dearest Love</ref>: “My soul remembers still her birth. / She being a sparkle of that light, / Which ne’er shall set in death or night” (8-9).</note></seg> of that light</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Which is inviſible to our Mortall Sight</rdg>
             <rdg wit="#ee">Which is invisible to our mortal sight;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Which is <seg>invisible to our mortal sight<note type="critical">Cf. Milton’s address to light in the opening of book 3 of <title rend="italic">Paradise Lost</title>, esp. 3-5, “since God is light, / And never but in unapproached light / Dwelt from eternity.” John Milton, Paradise Lost, ed. Stephen Orgel and Jonathan Goldberg (Oxford: Oxford UP, 2008). Like Milton, Pulter raises questions, but does not come to definitive conclusions, about light as the substance that constitutes God’s form, a concept that similarly was called upon by writers who attempted to reckon with the indeterminate space between the material and immaterial worlds.</note></seg>;</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">And thou Art capable of endles Bliſs</rdg>
             <rdg wit="#ee">And thou art capable of endless bliss;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And thou art capable of endless bliss;</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Thou knowest nothing if thou knowest not this</rdg>
             <rdg wit="#ee">Thou knowest nothing, if thou knowest not this.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Thou knowest nothing, if thou knowest not this.<note type="critical">Pulter’s use of anaphora, repeating a word or words at the beginning of successive clauses, underscores the axiomatic certainty of the first five quatrains of the poem, which gives way in the latter portion of the poem to anxiety and doubt as the speaker’s effort to externalize her inner fears through the dialogue form begins to break down.</note></seg></rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Inlarge thy hopes (poor Soul) then reaſume</rdg>
             <rdg wit="#ee">Enlarge thy hopes (poor soul), then reassume</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Enlarge thy hopes <seg>(poor soul)<note type="critical">Through enclosing the “(poor soul)” in parentheses, the speaker ironically contains it even as she urges it to enlarge itself and transcend the material world.</note></seg>, then reassume</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Thy Ancient right, thou needs noe borrow’d Plume</rdg>
           <rdg wit="#ee">Thy ancient right; thou needs no borrowed <seg>plume<note type="gloss">feather</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thy ancient right; thou needs no <seg>borrowed plume<note type="critical">The image Pulter evokes here is similar to the conceit George Herbert uses in his poem “Easter-Wings,” in which the speaker imagines his soul grafted onto the Lord’s wing in order to better transcend the earthly world; see lines 19-20, “For, if I imp my wing on thine / Affliction shall advance the flight in me.” In Pulter’s poem, affliction too serves as a catalyst for the speaker’s future transcendence of the material world. However, she asserts that the soul is already fully equipped to make this departure.</note></seg>,</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">For thou hast noble Wings to take thy &ff;leight</rdg>
             <rdg wit="#ee">For thou hast noble wings to take thy flight.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For thou hast noble wings to take thy flight.</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Why dost thou in this dunghill earth delight</rdg>
           <rdg wit="#ee">Why dost thou in this <seg>dunghill<note type="gloss">pile of excrement</note></seg> earth delight?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Why dost thou in this dunghill earth delight?</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Wee talk of Sum̄ers, and Delicious Spri<add place="below">^</add><add place="above">n</add>gs</rdg>
             <rdg wit="#ee">We talk of summers and delicious springs;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">We talk of <seg>summers and delicious springs<note type="critical">Pulter here evokes another traditional answer to the problem of mortality in the early modern English lyric tradition: the <foreign rend="italic">carpe diem</foreign> poem, of which Christopher Marlowe’s “The Passionate Shepherd to His Love” is exemplary. Pulter’s speaker here asserts that poetic descriptions of the immediate beauty of the natural world do not reflect the reality of what she reframes as the “dunghill earth.”</note></seg>;</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">I am Resolv’d here are noe Such things</rdg>
           <rdg wit="#ee">I am <seg>resolvéd<note type="gloss">convinced</note></seg> here are no such things.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">I am resolvéd here are no such things.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Of &ff;lowery valleys and Salubrus Hills</rdg>
           <rdg wit="#ee">Of flowery valleys and <seg>salubrious<note type="gloss">health-giving</note></seg> hills,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Of flowery valleys and <seg>salubrious<note type="gloss">Health-giving.</note></seg> hills,</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Of Shadey Groves, and Purling Cristall Rills</rdg>
           <rdg wit="#ee">Of shady groves, and <seg>purling<note type="gloss">rippling</note></seg> crystal <seg>rills<note type="gloss">streams</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Of shady groves, and purling <seg>crystal<note type="critical">In lines 13-16, Pulter echoes language introduced earlier in her collection, in <ref type="pp-poem-ref" corresp="2">The Invitation into the Country</ref>: “Here’s flow’ry vales, and crystal springs, / Here’s shady groves” (37-38). The idea of Pulter’s country house as a locus amoenus, protected from a corrupted world, has become, in this poem, an empty “dream.” As in the fourth quatrain, Pulter’s lines here, too, closely mirror George Herbert’s work. Cf. “Jordan (1),” “Is it no verse, except enchanted groves / And sudden arbour shadow coarse-spun lines? / Must purling streams refresh a lover’s loves? / Must all be veil’d, while he that reads, divines?” (6-9). While Herbert wrestles with how devotional verse substitutes human inventions for God’s creation, Pulter transposes the groves and purling streams that Herbert associates with poetic artifice onto the natural world itself, going one step beyond Herbert by treating the material world too as insubstantial and artificial.</note></seg> <seg>rills<note type="gloss">Small streams.</note></seg>,</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Wee doe but Dream, in them wee laugh or weep</rdg>
             <rdg wit="#ee">We do but dream: in them, we laugh or weep,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>We<note type="critical">In this final quatrain of the first section of the poem, Pulter shifts from a dialogue form, in which the speaker addresses her soul in the second person, to the first-person plural, before collapsing this internal division in the final eleven lines. Thus, the speaker goes from reassuring an externalized version of herself to succumbing to personal anxiety.</note></seg> do but dream: in them, we laugh or <seg>weep<note type="critical">The centrality of sorrow in human life as the speaker imagines it is emphasized by the aural connection between the dominant pronoun in this quatrain, “we,” and the repeated word “weep”/“weeping.” See also ln. 20, “we weeping enter.”</note></seg>,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">And never wake untill in Death wee Sleep</rdg>
             <rdg wit="#ee">And never wake until in death we sleep.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And never wake until in death we sleep.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Then whats this World wee keep a doo about</rdg>
           <rdg wit="#ee">Then what’s this world we keep <seg>ado<note type="gloss">fussing</note></seg> about?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then what’s this world we keep ado about?</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Wee weeping enter and goe Sighing out</rdg>
             <rdg wit="#ee">We weeping enter, and go, sighing, out.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">We weeping enter, and go, sighing, out.</rdg>
         </app>
       </l>
         <app>
@@ -325,77 +325,77 @@
         <app>
             <rdg wit="#ft">(Aye mee) this thought of Death my courage,<add place="below">^</add><add place="above">dashes</add></rdg>
             <rdg wit="#ee">(Ay me!) this thought of death my courage dashes;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">(<seg>Ay me!<note type="critical"> The aural similarity of “Ay” to “I” underscores the sharp transition at this moment of the poem from the second-person reassurances the speaker offers to her soul to the collapse of both this internal division and the speaker’s sense of confidence in the face of her own mortality.</note></seg>) this thought of death my courage dashes;</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Must I and mine turn all to dust and Ashes</rdg>
             <rdg wit="#ee">Must I and mine turn all to dust and ashes?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Must I and mine turn all to dust and ashes?</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Death hath already from my weeping vine</rdg>
             <rdg wit="#ee">Death hath already from my weeping vine</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Death hath already from my weeping vine</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Torn Seaven faire Branches, <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> grief &amp; loſs is mine</rdg>
           <rdg wit="#ee"><seg>Torn seven fair branches<note type="gloss">Seven of Pulter’s children had died by 1655.</note></seg>; the grief and loss is mine,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Torn <seg>seven fair branches<note type="critical">Eardley notes that seven of Pulter’s children had died by 1655. The horticultural metaphors in these lines extends the speaker’s rejection of the image of the <foreign rend="italic">locus amoenus</foreign> and carpe diem rhetoric above. In place of a paradiscal space of immediate natural pleasures, Pulter depicts a garden that is slowly dying. This line also echoes the Duchess of Gloucester’s speech in <title rend="italic">Richard II</title>, “Edward’s seven sons, whereof thyself art one / Were as seven vials of his sacred blood, / Or seven fair branches springing from one root” (1.2.11-13). Thank you to Frances Dolan for pointing out this allusion.</note></seg>; the grief and loss is mine,</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">The Joy is theirs who now in Glory Shine</rdg>
             <rdg wit="#ee">The joy is theirs, who now in glory shine,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The joy is theirs, who now in glory <seg>shine<note type="critical">Like Charles I and Henrietta Maria in the previous poem, Pulter imagines her deceased children transfigured into celestial lights. As the speaker’s assurance breaks down, so too does the organizational structure of her poem: here, her strict couplet form is disrupted by an irregular three-line rhyme.</note></seg>,</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">And as they were to mee of infinite priſe</rdg>
             <rdg wit="#ee">And as they were to me of infinite price,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And as they were to me of infinite price,</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Soe now they planted are in Paradice</rdg>
             <rdg wit="#ee">So now they planted are in paradise</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So now they <seg>planted are in paradise<note type="gloss">Pulter completes the horticultural metaphor introduced at line 12, rejecting stock poetic images of the natural world in favor of heavenly paradise. See notes 14 and 18.</note></seg></rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Where their imaculate pure Virgin Souls</rdg>
           <rdg wit="#ee">Where their immaculate, pure, <seg>virgin<note type="gloss">unsullied, chaste</note></seg> souls</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Where their immaculate, pure, virgin souls</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">Are now inthron’d aboue the Stares or Poles</rdg>
           <rdg wit="#ee">Are now enthroned above the stars or <seg>poles<note type="gloss">places where the Earth’s axes meet the celestial sphere</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Are now enthroned above the stars or <seg>poles<note type="gloss">The celestial poles are the points above each of earth’s poles that intersect with the imagined celestial sphere encircling the earth.</note></seg>,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Where they injoy all &ff;ulnes of deſire</rdg>
           <rdg wit="#ee"><seg>Where they enjoy all fullness of desire.<note type="gloss">her children’s desires have been met in heaven</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Where they enjoy all fullness of desire.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
           <rdg wit="#ft">Oh when Shall I increase that Heavenly <seg>Quire<note type="physical">remaining half-page blank</note></seg>.</rdg>
             <rdg wit="#ee">O when shall I increase that heavenly choir?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">O when shall I increase that heavenly <seg>choir<note type="critical">n Pulter’s manuscript, the final word of this poem is spelled “quire,” a pun that links the speaker’s future lyric voice in the heavenly “choir” to its current manifestation in the “quires,” i.e. gatherings of folded leaves, of her manuscript.</note></seg>?</rdg>
         </app>
       </l>
         <app>
