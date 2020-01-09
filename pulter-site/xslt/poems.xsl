@@ -1387,6 +1387,10 @@
     <pp:poem id="27">
       <pp:title>On the King’s Most Excellent Majesty</pp:title>
       <pp:firstLine>Victorious palm, triumphing laurel boughs</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>G. Vertue, after A. van Dyck. King Charles I and Queen Henrietta Maria, 1742. Wellcome Collection. CC BY</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/g7trgmex"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
