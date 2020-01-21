@@ -1376,13 +1376,13 @@
         <pp:keyword>flowers</pp:keyword>
         <pp:keyword>body</pp:keyword>
       </pp:keywords>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="images-of-aurora">-->
-<!--          <pp:author>Victoria E. Burke</pp:author>-->
-<!--          <pp:title>Images of Aurora, Goddess of the Dawn</pp:title>-->
-<!--          <pp:peek>In this poem Pulter depicts the goddess Aurora sporting long curling golden hair adorned with jewels and flowers, possessing blushing cheeks and clear eyes, exposing a breast, and wearing purple robes fringed with gold.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="images-of-aurora">
+          <pp:author>Victoria E. Burke</pp:author>
+          <pp:title>Images of Aurora, Goddess of the Dawn</pp:title>
+          <pp:peek>In this poem Pulter depicts the goddess Aurora sporting long curling golden hair adorned with jewels and flowers, possessing blushing cheeks and clear eyes, exposing a breast, and wearing purple robes fringed with gold.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="27">
       <pp:title>On the King’s Most Excellent Majesty</pp:title>
