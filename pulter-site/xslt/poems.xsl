@@ -4443,6 +4443,23 @@
         <pp:tag>scent</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="elephant-and-dragon">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Elephant and Dragon</pp:title>
+          <pp:peek>“So the sly dragon,” Pulter writes, can kill a mighty elephant, dying in the process. How might Pulter have come to think this?</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="samson">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Samson</pp:title>
+          <pp:peek>“Death doth make all enmity to cease” in the examples offered here, by uniting opponents in the shared experience of death.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="whats-a-catablepe">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>What’s a catablepe?</pp:title>
+          <pp:peek>This poem begins with a gesture toward “this catablepe,” with its poisonous sight and strange antipathy to the tiny weasel. But what is a catablepe and how would Pulter or her readers know about this beast?</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="99">
       <pp:title>Mark but those Hogs (Emblem 34)</pp:title>
