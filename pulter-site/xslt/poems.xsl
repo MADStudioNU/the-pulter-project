@@ -533,6 +533,18 @@
           <pp:author>Frances E. Dolan</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="royalist-accounts-linking-the-execution-to-the-siege">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Royalist Accounts Linking the Execution to the Siege of Colchester</pp:title>
+          <pp:peek>Parliamentary forces laid siege to the town of Colchester beginning June 12, 1648. By the time of Lucas and Lisle’s executions in late August, then, the situation in Colchester was desperate.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-shooting-of-lucas-and-lisle">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>The shooting of Lucas and Lisle</pp:title>
+          <pp:peek>“Is Lucas and Lisle slain?” the speaker asks at the start of “On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester” (Poem 7).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="8">
       <pp:title>On that Unparalleled Prince Charles the First, His Horrid Murder</pp:title>
