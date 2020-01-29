@@ -1403,15 +1403,15 @@
         <pp:sourceStatement>G. Vertue, after A. van Dyck. King Charles I and Queen Henrietta Maria, 1742. Wellcome Collection. CC BY</pp:sourceStatement>
         <pp:sourceLink ref="//wellcomecollection.org/works/g7trgmex"/>
       </pp:poster>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Andrea Crow</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Andrea Crow</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>civil war</pp:keyword>
         <pp:keyword>Charles I</pp:keyword>
