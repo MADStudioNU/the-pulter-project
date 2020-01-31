@@ -3795,7 +3795,8 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
         <pp:edition type="amplified">
-          <pp:author>AE Editor</pp:author>
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
