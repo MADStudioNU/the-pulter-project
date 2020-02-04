@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
@@ -147,7 +146,7 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_187" type="pageNum" place="margin-topright">3</fw>[Emblem 3]</rdg>
-          <rdg wit="#ee">Heliotropians (Emblem 3)</rdg>
+          <rdg wit="#ee">Heliotropians<lb/>(Emblem 3)</rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>
         <app type="editorialnote">
@@ -344,7 +343,7 @@
       </l>
       <l n="23">
         <app>
-          <rdg wit="#ft">Even <seg>ſoe<note type="physical">corrected, possibly from “for”</note></seg> thoſe Soules <w lemma="which"><abbr>w:<hirend="superscript">ch</hirend></abbr></w> are to God united</rdg>
+          <rdg wit="#ft">Even <seg>ſoe<note type="physical">corrected, possibly from “for”</note></seg> thoſe Soules <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> are to God united</rdg>
           <rdg wit="#ee">Even so those souls which are to God united,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
@@ -379,7 +378,7 @@
       </l>
       <l n="28">
         <app>
-          <rdg wit="#ft">Though they y<add place="above">e</add> Martyrs<note type="physical">“y” appears correction of earlier erased letter</note></seg> in their Deaths doe &ff;ollow</rdg>
+          <rdg wit="#ft">Though they y<add place="above">e</add> <seg>Martyrs<note type="physical">“y” appears correction of earlier erased letter</note></seg> in their Deaths doe &ff;ollow</rdg>
           <rdg wit="#ee">Though they the martyrs in their deaths do follow.</rdg>
           <rdg wit="#ae"></rdg>
         </app>
