@@ -3595,6 +3595,39 @@
     </pp:poem>
     <pp:poem id="69">
       <pp:title>Heliotropians (Emblem 3)</pp:title>
+      <pp:firstLine>That many heliotropians there be</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>virtues</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>bible</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>plants</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>astronomy</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>constancy</pp:tag>
+        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>faith</pp:tag>
+        <pp:tag>pain</pp:tag>
+        <pp:tag>birth</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="70">
       <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
@@ -3795,7 +3828,8 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
 <!--        <pp:edition type="amplified">-->
-<!--          <pp:author>AE Editor</pp:author>-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
 <!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>

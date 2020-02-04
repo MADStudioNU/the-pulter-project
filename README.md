@@ -1,7 +1,7 @@
 # The Pulter Project Central
 
 ## Welcome
-This repository contains everything the project needs to live and evolve except two image collections: manuscript facsimiles (currently on Box) ans [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
+This repository contains everything the project needs to live and evolve except two image collections: manuscript facsimiles (currently on Box) and [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
 
 ## For the Editors
 These are the folders of the utmost interest for the contributing parties, as well as the editors:
@@ -33,6 +33,6 @@ Branch `master` is deployed to the [production site](https://pulterproject.north
 
 #### Current Delta
 Poems that are published on the preview site but not on the production site.
-> 68 86
+> 68 69
 
 &ast; *poem is up for publishing with the next production release*

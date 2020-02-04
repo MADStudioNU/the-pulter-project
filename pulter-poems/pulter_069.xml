@@ -1,3 +1,491 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.69">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Heliotropians (Emblem 3)</title>
+        <title type="sub">Poem 69</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_187.jpg" xml:id="f7610_187"/>
+    <graphic url="./document_images/7610_188.jpg" xml:id="f7610_188"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_187" n="92r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_187"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+      
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_187" type="pageNum" place="margin-topright">3</fw>[Emblem 3]</rdg>
+          <rdg wit="#ee">Heliotropians<lb/>(Emblem 3)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">A blue flower rises “many cubits” high out of the centre of the earth in order to track the sun across the sky from east to west. The image is already arresting, but Pulter takes it further: for, even after sunset, the flower still follows—not merely wilting back to earth, however, but “break[ing] through all to meet her radiant lover,” even on the very opposite side of the world. The ferocity of this literally ground-breaking flower, so radically active in its solar loyalty, then becomes an allegory of an equally violent devotion in “those souls which are to God united.” Theirs is no passive piety, as makes sense in the embattled world in which Pulter and her ilk practiced their faith during England’s civil wars.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft"><seg>That<note type="physical">poem begins on same page as previous one ends</note></seg> many Heliotropians there bee</rdg>
+            <rdg wit="#ee">That many <seg>heliotropians<note type="gloss">flowers which turn to follow the sun</note></seg> there be,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#ft">Philoſophers unanimously agree</rdg>
+            <rdg wit="#ee">Philosophers unanimously agree;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">But that A plant Should in the Center grow</rdg>
+            <rdg wit="#ee">But that a plant should in the <seg>center<note type="gloss">i.e., of the earth</note></seg> grow,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft">&ff;ew Naturalist to find the Truth will goe</rdg>
+            <rdg wit="#ee">Few naturalists to find the truth will go</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#ft">Soe &ff;ar below the Cavarus of the Dead</rdg>
+            <rdg wit="#ee">So far below the caverns of the dead</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft">To &ff;ind this Simple Simpring in her Bed</rdg>
+            <rdg wit="#ee">To find this <seg>simple<note type="gloss">a plant used as medicine</note></seg>, <seg>simp’ring<note type="gloss">perhaps in obsolete sense of “simmering”</note></seg> in her bed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#ft">Which Sends forth Branches through the Sea or Earth</rdg>
+            <rdg wit="#ee">Which sends forth branches through the sea or earth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft">And as the Sun doth Riſe begins her Birth</rdg>
+            <rdg wit="#ee">And, as the sun doth rise, begins her birth;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">Then as hee higher doth in Splender goe</rdg>
+            <rdg wit="#ee">Then, as <seg>he<note type="gloss">the sun</note></seg> higher doth in splendor go,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#ft">Even Soe this Azure &ff;lower doth Taller grow</rdg>
+            <rdg wit="#ee">Even so this <seg>azure<note type="gloss">blue</note></seg> flower doth taller grow,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft">And when hee Mounts to his Miridian Height</rdg>
+            <rdg wit="#ee">And when he mounts to his <seg>meridian<note type="gloss">midday</note></seg> height,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft">Then many Cubits Shee doth Stand <seg>upright<note type="physical">ht” written over other letters, possibly “th”</note></seg></rdg>
+            <rdg wit="#ee">Then many <seg>cubits<note type="gloss">ancient unit of measure, approximately equivalent to a forearm</note></seg> she doth stand upright</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft">Above the Earth, when to the Western Tracts</rdg>
+            <rdg wit="#ee">Above the earth, when to the western <seg>tracts<note type="gloss">regions</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#ft"><seg>Heſperion<note type="physical">“ſ” appears written over other letter</note></seg> goes her stature Shee contracts</rdg>
+            <rdg wit="#ee"><seg>Hesperion<note type="physical">In the manuscript, a long “s” appears written over another indecipherable letter; written thus, the word appears to merge “Hyperion,” and epithet for the sun, and “Hesperus,” a name for the evening star, which appears in the western part of the sky.</note></seg> goes, her stature she contracts;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft">Then when hee Hurries down the Olympick Hill</rdg>
+            <rdg wit="#ee">Then, when he hurries down th’Olympic hill</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft">Lower and Lower this brave &ff;lower growes still</rdg>
+            <rdg wit="#ee">Lower and lower, this brave flower grows still;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">but</fw>
+        </rdg>
+      </app>
+      
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_188" n="92v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_188"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+      
+      <l n="17">
+        <app>
+          <rdg wit="#ft">But when in Thetis Lap hee layes his Head</rdg>
+            <rdg wit="#ee">But when in <seg>Thetis’s<note type="gloss">sea nymph, often poetically portrayed as receiving the setting sun in her lap</note></seg> lap he lays his head,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+          <rdg wit="#ft">Shee Sadly Sinks into her earthly Bed</rdg>
+            <rdg wit="#ee">She sadly sinks into her earthly bed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft">When to the Antipodes hee doth apear</rdg>
+            <rdg wit="#ee">When to <seg>th’antipodes<note type="gloss">the opposite side of the world, and those who dwell there</note></seg> he doth appear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft">Shee follows him to tother Hemispheir</rdg>
+            <rdg wit="#ee">She follows him to th’other hemisphere,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+          <rdg wit="#ft">The Earth or Sea be’ng every where above her</rdg>
+            <rdg wit="#ee">The earth or sea being everywhere above her,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">Shee breaks through all to meet her Raidient Lover</rdg>
+          <rdg wit="#ee">She breaks through all to meet her radiant lover;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft">Even <seg>ſoe<note type="physical">corrected, possibly from “for”</note></seg> thoſe Soules <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> are to God united</rdg>
+          <rdg wit="#ee">Even so those souls which are to God united,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+          <rdg wit="#ft">Though in this vale of Tears they be benighted</rdg>
+          <rdg wit="#ee">Though in this vale of tears they be benighted,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+          <rdg wit="#ft">Yet still a Bleſſed Influence from above</rdg>
+          <rdg wit="#ee">Yet still a blessed influence from above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+          <rdg wit="#ft">Sweetly inclin’s them to a constant Love</rdg>
+          <rdg wit="#ee">Sweetly inclines them to a constant love:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+          <rdg wit="#ft">Though Tyrants in their innocent bloods doe Wallow</rdg>
+          <rdg wit="#ee">Though tyrants in their innocent bloods do wallow;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+          <rdg wit="#ft">Though they y<add place="above">e</add> <seg>Martyrs<note type="physical">“y” appears correction of earlier erased letter</note></seg> in their Deaths doe &ff;ollow</rdg>
+          <rdg wit="#ee">Though they the martyrs in their deaths do follow.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+          <rdg wit="#ft">Wheels, Jibbits Precipices Croſſes, &ff;lame</rdg>
+          <rdg wit="#ee"><seg>Wheels, gibbets, precipices, crosses, flame<note type="gloss">instruments of torture and execution</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+          <rdg wit="#ft">The’le break through all to magnifie his name</rdg>
+          <rdg wit="#ee">They’ll break through all to magnify His name.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+          <rdg wit="#ft">T’is neither Power nor <seg>Principallitie<note type="physical">final “i” written over other letter, probably “e”</note></seg></rdg>
+          <rdg wit="#ee"><seg>’Tis neither power nor principality,<note type="gloss">For this line and the next, see Romans, 8:38-9: “nor principalities, nor powers, ... nor any other creature, shall be able to separate us from the love of God.” Principalities are offices or officials, or the territories they claim.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+          <rdg wit="#ft">Dear God can Seperate my Soul from thee</rdg>
+          <rdg wit="#ee">Dear God, can separate my soul from thee;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+          <rdg wit="#ft">Nor all the Powers of Heaven Hell or Earth</rdg>
+          <rdg wit="#ee">Nor all the powers of Heaven, Hell, or Earth</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+          <rdg wit="#ft">Can keep my Soul from whence she had her Birth</rdg>
+          <rdg wit="#ee">Can keep my soul from whence she had her birth;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+          <rdg wit="#ft">Though Death Calcine my &ff;lesh &amp; bones to dust</rdg>
+          <rdg wit="#ee">Though death <seg>calcine<note type="gloss">purify</note></seg> my flesh and bones to <seg>dust<note type="critical">here, the disintegrated matter of her dead body; also identified with “first principles” (of the next line), the originating elements of humanity as described in Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+          <rdg wit="#ft">In my first Principles I’le in thee trust</rdg>
+          <rdg wit="#ee">In my first principles, I’ll in Thee trust.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+          <rdg wit="#ft">Ney even my Dust disperst shall Rest in hope</rdg>
+          <rdg wit="#ee">Nay, even my dust dispersed shall rest in hope</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+          <rdg wit="#ft">To <seg>meete<note type="physical">final “te” added later in different hand from main scribe; imperfectly erased descender below “t”</note></seg> my Saviour in A Horiſcope</rdg>
+          <rdg wit="#ee">To meet my Savior in a <seg>horoscope<note type="critical">an alignment of the heavenly bodies; the sense in this and surrounding lines is that the speaker’s disintegrated body after death (“dust”) will anticipate meeting Christ when the heavenly bodies align in a “horoscope” brighter than the current one.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+          <rdg wit="#ft">Infinitely then <seg>this<note type="physical">“thus” altered to “this,” or reverse</note></seg> our Orb more bright</rdg>
+          <rdg wit="#ee">Infinitely than this, our <seg>orb<note type="gloss">Earth</note></seg>, more bright–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+          <rdg wit="#ft">Not interwoven as as now with death &amp; Night</rdg>
+          <rdg wit="#ee">Not interwoven, as now, with death and night;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+          <rdg wit="#ft">Then though I Sadly here Sigh out my Story</rdg>
+          <rdg wit="#ee">Then, though I sadly here sigh out my story,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+          <rdg wit="#ft">Yet am I Sure to Riſe again to Glory.</rdg>
+          <rdg wit="#ee">Yet am I sure to rise again to glory.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="straight-ascendline"/>
+        </rdg>
+      </app>
+    </body>
+  </text>
 </TEI>
