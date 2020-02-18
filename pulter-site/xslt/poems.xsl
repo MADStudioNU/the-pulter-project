@@ -954,6 +954,26 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
+        <pp:curation status="on" hash="circles-and-labyrinths">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Circles and Labyrinths</pp:title>
+          <pp:peek>Mary Wroth’s “A Crown of Sonnets Dedicated to Love” is a corona of sonnets, each starting with the last line of the previous poem. As well as being formally circular, it is also about the cyclical, entrapping experience of love, and features a famous image of a labyrinth, used originally by Petrarch.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="circles-in-alchemy">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Circles in Alchemy</pp:title>
+          <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="devotional-circles">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Devotional Circles</pp:title>
+          <pp:peek>George Herbert’s “A Wreath,” Henry Vaughan’s “The World” and Andrew Marvell’s “The Coronet” reveal some of the devotional symbolism of circles for Pulter’s predecessors and peers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="donnes-circles">
+          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:title>Donne’s Circles</pp:title>
+          <pp:peek>John Donne often used images of circles and circularity, for both erotic and devotional poems. In “A Valediction Forbidding Mourning,” the compasses represent the movement of lovers, while in the two sermons excerpted below circles represent the cycle of life.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="dust">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>Dust</pp:title>
