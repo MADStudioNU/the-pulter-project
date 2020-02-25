@@ -534,6 +534,16 @@
         </pp:edition>
       </pp:editions>
 <!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="commemorating-the-dead">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>Commemorating the Dead</pp:title>-->
+<!--          <pp:peek>This poem is an anguished lament, but about what exactly? It discusses the killing and its perpetrators more vividly than it does the dead men. Is it an elegy for them?</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="male-friendship">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>Male Friendship</pp:title>-->
+<!--          <pp:peek>In Pulter’s account, Lucas and Lisle were, above all, “unparalleled friends.” We might then connect the poem to others about the love between male friends, and the capacity of such love to both sweeten life and survive death.</pp:peek>-->
+<!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="royalist-accounts-linking-the-execution-to-the-siege">-->
 <!--          <pp:author>Frances E. Dolan</pp:author>-->
 <!--          <pp:title>Royalist Accounts Linking the Execution to the Siege of Colchester</pp:title>-->
@@ -543,6 +553,16 @@
 <!--          <pp:author>Frances E. Dolan</pp:author>-->
 <!--          <pp:title>The shooting of Lucas and Lisle</pp:title>-->
 <!--          <pp:peek>“Is Lucas and Lisle slain?” the speaker asks at the start of “On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester” (Poem 7).</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="understanding-through-comparison">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>Understanding Through Comparison</pp:title>-->
+<!--          <pp:peek>This poem begins with a question. In its distraught search for answers and understanding, one of the places it looks is the ancient world.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="war-memorials">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>War Memorials</pp:title>-->
+<!--          <pp:peek>A stone slab in the floor of the north aisle of St. Giles’s church in Colchester covers and commemorates the remains of the two men, buried together.</pp:peek>-->
 <!--        </pp:curation>-->
 <!--      </pp:curations>-->
     </pp:poem>
