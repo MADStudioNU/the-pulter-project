@@ -3589,44 +3589,46 @@
 <!--        </pp:edition>-->
 <!--      </pp:editions>-->
       <pp:keywords>
-        <pp:keyword>death</pp:keyword>
-        <pp:keyword>afterlife</pp:keyword>
-        <pp:keyword>God</pp:keyword>
-        <pp:keyword>mortality</pp:keyword>
-        <pp:keyword>atoms</pp:keyword>
-        <pp:keyword>knowledge</pp:keyword>
+        <pp:keyword>virtues</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>bible</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>death</pp:tag>
-        <pp:tag>dissolution</pp:tag>
-        <pp:tag>sexuality</pp:tag>
-        <pp:tag>atoms</pp:tag>
+        <pp:tag>invitation</pp:tag>
         <pp:tag>soul</pp:tag>
-        <pp:tag>body</pp:tag>
-        <pp:tag>dust</pp:tag>
-        <pp:tag>alchemy</pp:tag>
-        <pp:tag>atoms</pp:tag>
-        <pp:tag>God</pp:tag>
-        <pp:tag>creation</pp:tag>
+        <pp:tag>mother</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>afterlife</pp:tag>
-        <pp:tag>resurrection</pp:tag>
-        <pp:tag>mortality</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>church</pp:tag>
+        <pp:tag>virtue</pp:tag>
+        <pp:tag>Aletheia</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="69">
       <pp:title>Heliotropians (Emblem 3)</pp:title>
       <pp:firstLine>That many heliotropians there be</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:poster>
+        <pp:sourceStatement>Robert Fludd, Sun, De metaphysico macrosmi … ortu, 1617. Wellcome Collection.</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/zt7rcw5e"/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
-        <pp:keyword>virtues</pp:keyword>
-        <pp:keyword>Christianity</pp:keyword>
-        <pp:keyword>parenting</pp:keyword>
-        <pp:keyword>bible</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>devotion</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>flowers</pp:tag>
@@ -3669,10 +3671,12 @@
       <pp:keywords>
         <pp:keyword>London</pp:keyword>
         <pp:keyword>competition</pp:keyword>
+        <pp:keyword>wisdom</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>London</pp:tag>
         <pp:tag>competition</pp:tag>
+        <pp:tag>wisdom</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-city-cockneys">
@@ -3753,18 +3757,11 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>competition</pp:keyword>
         <pp:keyword>medicine</pp:keyword>
-        <pp:keyword>food</pp:keyword>
-        <pp:keyword>youth</pp:keyword>
         <pp:keyword>age</pp:keyword>
-        <pp:keyword>animals</pp:keyword>
         <pp:keyword>food</pp:keyword>
         <pp:keyword>age</pp:keyword>
-        <pp:keyword>poison</pp:keyword>
-        <pp:keyword>performance</pp:keyword>
-        <pp:keyword>mythology</pp:keyword>
-        <pp:keyword>death</pp:keyword>
+        <pp:keyword>mountebank</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>competition</pp:tag>
