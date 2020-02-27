@@ -4897,7 +4897,7 @@
       <pp:title>The Caucasines (Emblem 52)</pp:title>
     </pp:poem>
     <pp:poem id="118">
-      <pp:title>Fair Aurora (Emblem 53)</pp:title>
+      <pp:title>The Snail, the Tulip, and the Bee (Emblem 53)</pp:title>
       <pp:firstLine>When fair Aurora, dressed with radiant light</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Jacob Marrel, Twee tulpen met wesp, vlinder en slak, 1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
