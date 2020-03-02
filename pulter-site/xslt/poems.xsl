@@ -3872,10 +3872,21 @@
       <pp:keywords>
         <pp:keyword>fire</pp:keyword>
         <pp:keyword>tears</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>money</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>money</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>cosmetics</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>God</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="75">
