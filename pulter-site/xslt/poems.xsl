@@ -4907,6 +4907,39 @@
     </pp:poem>
     <pp:poem id="116">
       <pp:title>British Brennus (Emblem 51)</pp:title>
+      <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement></pp:sourceStatement>
+        <pp:sourceLink ref=""/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Millie Godfery</pp:author>
+          <pp:author>Sarah C. E. Ross</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>England</pp:keyword>
+        <pp:keyword>restoration</pp:keyword>
+        <pp:keyword>Rome</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>war</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>Charles II</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>mythology</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>
