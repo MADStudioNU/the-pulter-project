@@ -2280,6 +2280,13 @@
         <pp:edition type="amplified">
           <pp:author>Lara Dodds</pp:author>
         </pp:edition>
+        <pp:curations>
+          <pp:curation status="on" hash="heroic-suicide">
+            <pp:author>Lara Dodds</pp:author>
+            <pp:title>Heroic Suicide and Women’s Writing</pp:title>
+            <pp:peek>Pulter’s “Of a Young Lady at Oxford, 1646” draws on the Stoic concept of heroic suicide by positioning the unnamed lady of the poem as an analogue of two famous female suicides, those of Lucretia and Thisbe.</pp:peek>
+          </pp:curation>
+        </pp:curations>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>sacrifice</pp:keyword>
@@ -4727,14 +4734,14 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-      </pp:editions>
-      <pp:curations>
-        <pp:curation status="on" hash="cetacean-relations">
-          <pp:author>Aylin Malcolm</pp:author>
-          <pp:title>Cetacean Relations</pp:title>
-          <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
-        </pp:curation>
-      </pp:curations>
+      </pp:editions><pp:curations>
+      <pp:curation status="on" hash="cetacean-relations">
+        <pp:author>Aylin Malcolm</pp:author>
+        <pp:title>Cetacean Relations</pp:title>
+        <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
+      </pp:curation>
+    </pp:curations>
+
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
