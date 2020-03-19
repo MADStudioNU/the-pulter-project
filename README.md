@@ -1,7 +1,7 @@
 # The Pulter Project Central
 
 ## Welcome
-This repository contains everything the project needs to live and evolve except two image collections: manuscript facsimiles (currently on Box) and [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
+This repository contains everything the project needs to live and evolve except two image collections: manuscript facsimiles ("facs" folder which is [currently on Box](https://northwestern.app.box.com/folder/30331780748)) and [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
 
 ## For the Editors
 These are the folders of the utmost interest for the contributing parties, as well as the editors:
