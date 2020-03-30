@@ -3669,7 +3669,7 @@
         <pp:tag>sexuality</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>constancy</pp:tag>
-        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>tyranny</pp:tag>
         <pp:tag>faith</pp:tag>
         <pp:tag>pain</pp:tag>
         <pp:tag>birth</pp:tag>
@@ -4642,7 +4642,7 @@
       </pp:editions>
       <pp:keywords>
         <pp:keyword>vegetarianism</pp:keyword>
-        <pp:keyword>tyrrany</pp:keyword>
+        <pp:keyword>tyranny</pp:keyword>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>food</pp:keyword>
       </pp:keywords>
@@ -4651,7 +4651,7 @@
         <pp:tag>murder</pp:tag>
         <pp:tag>vegetarianism</pp:tag>
         <pp:tag>violence</pp:tag>
-        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>tyranny</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>death</pp:tag>
