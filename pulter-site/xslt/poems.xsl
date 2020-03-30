@@ -2281,6 +2281,13 @@
           <pp:author>Lara Dodds</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="heroic-suicide">
+          <pp:author>Lara Dodds</pp:author>
+          <pp:title>Heroic Suicide and Women’s Writing</pp:title>
+          <pp:peek>Pulter’s “Of a Young Lady at Oxford, 1646” draws on the Stoic concept of heroic suicide by positioning the unnamed lady of the poem as an analogue of two famous female suicides, those of Lucretia and Thisbe.</pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>sacrifice</pp:keyword>
         <pp:keyword>death</pp:keyword>
@@ -3662,7 +3669,7 @@
         <pp:tag>sexuality</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>constancy</pp:tag>
-        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>tyranny</pp:tag>
         <pp:tag>faith</pp:tag>
         <pp:tag>pain</pp:tag>
         <pp:tag>birth</pp:tag>
@@ -4576,6 +4583,10 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>sin</pp:keyword>
@@ -4631,7 +4642,7 @@
       </pp:editions>
       <pp:keywords>
         <pp:keyword>vegetarianism</pp:keyword>
-        <pp:keyword>tyrrany</pp:keyword>
+        <pp:keyword>tyranny</pp:keyword>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>food</pp:keyword>
       </pp:keywords>
@@ -4640,7 +4651,7 @@
         <pp:tag>murder</pp:tag>
         <pp:tag>vegetarianism</pp:tag>
         <pp:tag>violence</pp:tag>
-        <pp:tag>tyrrany</pp:tag>
+        <pp:tag>tyranny</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>death</pp:tag>
@@ -4723,7 +4734,14 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-      </pp:editions>
+      </pp:editions><pp:curations>
+      <pp:curation status="on" hash="cetacean-relations">
+        <pp:author>Aylin Malcolm</pp:author>
+        <pp:title>Cetacean Relations</pp:title>
+        <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
+      </pp:curation>
+    </pp:curations>
+
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
@@ -4903,6 +4921,39 @@
     </pp:poem>
     <pp:poem id="116">
       <pp:title>British Brennus (Emblem 51)</pp:title>
+      <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement></pp:sourceStatement>
+        <pp:sourceLink ref=""/>
+      </pp:poster>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>England</pp:keyword>
+        <pp:keyword>restoration</pp:keyword>
+        <pp:keyword>Rome</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>war</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>Charles II</pp:tag>
+        <pp:tag>Christ</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>mythology</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>

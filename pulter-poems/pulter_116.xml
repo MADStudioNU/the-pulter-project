@@ -1,3 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.116">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>British Brennus (Emblem 51)</title>
+        <title type="sub">Poem #116</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_256.jpg" xml:id="f7610_256"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>Millie Godfery</persName> and <persName>Sarah C. E. Ross</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_256" n="126v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_256"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_256"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 51]</rdg>
+          <rdg wit="#ee">British Brennus<lb/>(Emblem 51)</rdg>
+          <rdg wit="#ae">British Brennus<lb/>(Emblem 51)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">Our priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in our view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts).<seg>[1]<note type="gloss">See Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse”, in <hi rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</hi>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178.</note></seg> All biblical references are to the King James Version (1612).</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">How can a single alphabetic letter collapse time? In this poem, Pulter draws from the story of the Gallic conquest of Rome (and the Romans’ subsequent overthrow of its captors) to stridently protest the Cromwellian regime while also plaintively imploring God to enact a political restoration of monarchy. Rather than merely creating an analogy between the Gauls’ invasion of Rome and the republicans’ victory in the English civil war, however, Pulter creates a kind of temporal vertigo. By insisting that the tyrannical Brennus is a British foreign invader of Rome (seen in her term “British Brennus”), Pulter makes the conquering English of the present seem the brutal villains of an ancient story. Secondly, Pulter allows the emblem to refer at once to past and present times by creating ambiguities around historical players whose names begin with the letter “C.” Can C refer to Camillus, the Roman hero, and Charles II, the exiled English king, simultaneously? But elsewhere refer to Cromwell? And to Christ? If names are withheld, can the reader make the present and past (and future, at the end of the poem) co-exist?</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote"><p>Pulter is outspokenly political in this emblem, the fourth to last poem in her series. Criticising Cromwell and his republican supporters, she draws parallels between their sacrilegious behaviour and the actions of the Gauls’ army, led by Brennus, Chief of Senones, in the Battle of Allia in 390 BCE. Plutarch records the battle: in the events preceding the conflict, the Gallic army spent “many dayes spoyling and sacking all thinges they founde in the houses, and in the ende dyd set them all a fyer, and destroyed them every one”. Finding those that “kept the forte of the Capitoll” unresponsive, they began to “put all to the sworde that came in their handes, young and olde, man, woman, and childe”. This then erupted into a long siege in which many were killed, lasting until the Romans were provoked to weigh a thousand pounds of gold to offer in surrender. Brennus, “in scorne and mockey” of this acquiescence, placed his sword on the scales where the gold was being weighed and declared “vae victis”, meaning “sorrowe to the vanquished”. Soon after, however, the banished Roman statesman and general Camillus returned and viciously retaliated, leading the Roman army to conquer the Gauls. See Plutarch, The lives of the noble Grecians and Romanes. Trans. by Thomas North [1579], 154-58.</p><p>Pulter compares Cromwell to the tyrannical Brennus in her opening epithet, "British Brennus", and proceeds with a description of the Civil War and the injustice displayed via this ancient story. She shortens the names of the crucial parties in both conflicts, so that Camillus, Cromwell, Charles I, and Charles II all appear as the “C.”, cleverly denoting both the ancient and contemporaneous parties in the analogy she is drawing. She confirms the analogy in a final rhyming quatrain, calling for a Camillus-type to restore England to glory, just as he did to Rome. Pulter turns to God, pleading for Charles II, as the rightful king, to return to the throne, to vanquish Oliver Cromwell. Pulter’s reference to Charles I’s execution and Charles II’s banishment, and her appeals for him to be restored (lines 13-14), suggest this emblem was written between 1651 and 1660.</p>
+              </note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">When Brittiſh Brennus Sack’d that Noble Citty</rdg>
+            <rdg wit="#ee">When <seg>British Brennus sacked that noble city<note type="gloss">Brennus was the chieftain of the Gauls (or Celts of Northern Europe) who was legendary for invading and destroying Rome in the fourth-century BCE. Presumably by describing Brennus as “British,” Pulter is comparing him to Oliver Cromwell, whom she elsewhere denounced as ruining the city of London as well as usurping the government.</note></seg>,</rdg>
+            <rdg wit="#ae">When <seg>British Brennus<note type="gloss">Oliver Cromwell, Pulter creates a parallel between Brennus, the Chief of Gauls who viciously fought and ridiculed the Romans during the Battle of Allia, and the actions of Cromwell in his rise to power; see Headnote.</note></seg> sacked that noble city,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">To Age, nor Sex, nor Infants hee Shew’d pitty</rdg>
+            <rdg wit="#ee"><seg>To age, nor sex, nor infants he shewed pity<note type="critical"> Plutarch describes the savage massacre of Rome by the Gauls, noting that they killed indiscriminately, including unresisting priests and patricians, as well as elderly people, women, and children. See <bibl><hi rend="italic">The Lives of the Noble Grecians and Romans</hi>, trans. Thomas North (1579), 153-4</bibl>.</note></seg>;</rdg>
+            <rdg wit="#ae"><seg>To age, nor sex, nor infants<note type="critical">Plutarch describes the actions of the Gaul army who, to provoke a response from the leaders of Rome, “put all to the sworde that came in their handes, young and olde, man, woman, and childe” (<bibl><hi rend="italic">The lives of the noble Grecians and Romanes</hi>. Trans. by Thomas North [1579], 154</bibl>).</note></seg> he showed pity.</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Then thoſe which did the Capitall defend</rdg>
+            <rdg wit="#ee">Then those which did the capital defend</rdg>
+            <rdg wit="#ae">Then those which did the capital defend</rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Waighed out their Gold to have their Suffrings End</rdg>
+            <rdg wit="#ee"><seg>Weighed out their gold<note type="gloss">The Romans reputedly took gold as a ransom for their city, but when, as the next lines describe, the gold was being weighed and measured, Brennus laid his sword on the scales, presumably as an act of contempt and perhaps in response to a complaint that the scales were weighted unfairly.</note></seg> to have their suff’rings end,</rdg>
+            <rdg wit="#ae"><seg>Weighed out their gold<note type="critical">In Plutarch’s account, those that “kept the forte of the Capitoll” offered a payment of “a thousand pounde weight of gold” if the Gauls would retreat from Rome and cease slaughtering their people (<bibl><hi rend="italic">The lives of the noble Grecians and Romanes</hi>. Trans. by Thomas North [1579], 154, 157</bibl>).</note></seg> to have their sufferings end,</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">On which the Brittain bold his Sword did lay</rdg>
+            <rdg wit="#ee">On which the <seg>Briton<note type="gloss">British person, here the English version of the tyrant invader Brennus</note></seg> bold his sword did lay;</rdg>
+            <rdg wit="#ae">On which <seg>the Britain<note type="gloss">Cromwell, the “British Brennus” of line 1</note></seg> bold <seg>his sword did lay<note type="critical">Brennus, in an act of ridicule, laid his sword on the scale being used to weight the gold offered by the Romans in surrender. When questioned as to the meaning of this, he uttered, “sorrowe to the vanquished”, which Pulter reproduces in lines 6 and 12 (<bibl><hi rend="italic">The lives of the noble Grecians and Romanes</hi>. Trans. by Thomas North [1579], 157</bibl>).</note></seg>;</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Woe to the Conquerd then the People Say</rdg>
+            <rdg wit="#ee"><seg>“Woe to the conquered,” then the people say.<note type="critical">Pulter revises the myth by having the conquered Romans lament their woe by uttering this famous phrase (“<hi rend="italic">vae victis</hi>,” Latin for “woe to the conquered”). Legend had it that Brennus articulated these words to the Romans when they complained about him laying his sword on the scales (as described above) in order to assert his pure, unadulterated power over war’s losers.</note></seg></rdg>
+            <rdg wit="#ae">“Woe to the conquered” then the people say.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Then came C		Banniſhed long <seg>before<note type="physical">“o” appears to correct earlier “e”; blank space in middle of line</note></seg></rdg>
+            <rdg wit="#ee">Then came <seg>C_______<note type="critical">The name left blank refers, in Roman history, to Marcus Furius Camillus, a Roman statesman and general, who, according to Livy, was regarded as the second founder of Rome after its occupation by Brennus and his Gauls. Having been accused of appropriating booty and banished, he returned triumphantly to settle the score with the Gauls (making them “pay the Romans’ score,” meaning revenging an injury or settling a debt). By leaving the name blank, Pulter allows the reader to imagine a British replay of this event, as “Charles II” might return from exile to overturn Cromwell.</note></seg>, banished long before,</rdg>
+            <rdg wit="#ae">Then came <seg>C.<note type="gloss">Marcus Furius Camillus, Roman statesman and general, who, after being banished from Rome, returned and led their army to victory, destroying the Gauls; see Headnote.</note></seg> <seg>,<note type="physical">A space, long enough for a word to be inserted, has been left at this point in the manuscript, possibly to invite readers to fill in the blank. Pulter has not been uniform in this practice, however, as the following use of “C.” abbreviations are formatted regularly, without added spacing.</note></seg> banished long before,</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">And made the Brittains pay the Romans Score</rdg>
+            <rdg wit="#ee">And made the Britons pay the Romans’ score.</rdg>
+            <rdg wit="#ae">And made the Britains pay the Romans’ score.</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Soe let all impious Sacrilegious men</rdg>
+            <rdg wit="#ee">So let all <seg>impious<note type="gloss">irreverent</note></seg>, sacrilegious men</rdg>
+            <rdg wit="#ae">So let all impious, <seg>sacrilegious<note type="gloss">stealing or misappropriating what is consecrated to God's service.</note></seg> men </rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Have Lex talionis, Heaven Say thou Amen</rdg>
+            <rdg wit="#ee">Have <seg><foreign rend="italic">lex talionis</foreign><note type="gloss">Latin for “law of retaliation,” according to which deserved punishment is commensurate and ideally mirrors the crime. See Exodus 21-25, which evokes a “life for life, eye for eye, tooth for tooth.”</note></seg>: Heaven, say Thou “Amen”!</rdg>
+            <rdg wit="#ae">Have <seg><foreign rend="italic">lex talionis</foreign><note type="gloss">Latin: the law of retaliation, “an eye for an eye, a tooth for a tooth” (OED). This moral occurs throughout the Bible: see Gen 9.6, “Who so sheddeth mans blood, by man shall his blood be shed”; and Exod. 21:23-25, “And if any mischiefe follow, then thou shalt give life for life, / Eye for eye, tooth for tooth, hand for hand, foote for foote, / Burning for burning, wound for wound, stripe for stripe.” Pulter argues that “impious, sacrilegious men” will be punished in accordance with their own crimes, specifically turning her criticisms to republicans.</note></seg>; heaven say thou “Amen”!</rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">If any underneath the Sun may Cry</rdg>
+            <rdg wit="#ee">If any underneath the sun may cry</rdg>
+            <rdg wit="#ae">If any underneath the sun may cry</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft"><seg>Ve victu<note type="physical">“u” may have been modified to “is,” with some blotting</note></seg>, Reader it is thou and I</rdg>
+            <rdg wit="#ee"><seg>“<foreign rend="italic">Vae victis</foreign>,”<note type="gloss">“Woe to the conquered,” as line 5 above explains; the cry of oppressed people, in Pulter’s unusual revision. As she explains in the next lines, England is the conquered entity currently under oppressive Cromwellian rule.</note></seg> reader, it is thou and I.</rdg>
+            <rdg wit="#ae"><seg><foreign rend="italic">Vae victis</foreign><note type="gloss">Latin for “woe to the vanquished” (OED “vae” 2a)</note></seg>, reader it is thou and I;</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">C: C: Kild and Ban̄iſhed wee w:th Sad hearts deplore</rdg>
+            <rdg wit="#ee"><seg>C.C.<note type="gloss">Charles I and his son Charles; here Pulter cryptically aligns the Gallic sack of Rome with the civil war in England.</note></seg> killed and banished, we with sad hearts <seg>deplore<note type="gloss">lament</note></seg>;</rdg>
+            <rdg wit="#ae"><seg>C.C., killed and banished<note type="critical">Charles I (1600-1649), who was executed by the Republican parliament near the end of the Civil War; and his son Charles II (1630-1685) who was exiled from England in 1651 until 1660, when he returned to England to be crowned king.</note></seg>, we with sad hearts deplore.</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Oh let A C: <seg><add place="above">Charles</add><note type="physical">in different ink and possibly different hand from main scribe</note></seg> come and our Joys Restore</rdg>
+            <rdg wit="#ee">O, let a <seg>C.<note type="critical">The bare letter “C” allows the reader to fill in the name as Camillus, the Roman statesman described above in the poem as overthrowing the Gauls in Rome, or as Charles II, whom Pulter hopes can be restored to the British throne. Someone has filled in the blank with “Charles” in the manuscript.</note></seg> come and our joys restore.</rdg>
+            <rdg wit="#ae">Oh, let a <seg>C<note type="critical">The abbreviation of “C.” here is notably ambiguous. Pulter continues to draw on Plutarch’s account of the Battle of Allia, referring to the role of Camillus in restoring the Roman army and conquering the Gauls to allude to Charles II as Britain’s modern-day version of this. “C.” here could also be invoking Christ.</note></seg><seg>.<note type="physical">“Charles” inserted above in what looks like the hand of the manuscript’s early eighteenth-century annotator.</note></seg> come and our joys restore!</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">&ff;or C: his Sake dear God I thee implore</rdg>
+            <rdg wit="#ee">For <seg>C. his sake<note type="gloss">Charles II’s sake, but perhaps with a resonance of “Christ’s sake”</note></seg>, dear God, I Thee implore,</rdg>
+            <rdg wit="#ae">For <seg>C.<note type="gloss">Charles II</note></seg>, his sake, dear God, I thee implore,</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Or wee are Slaves to C. <seg><add place="above">Cromwell</add><note type="physical">in different hand from main scribe</note></seg> <seg><del>for</del><note type="phsyical">double strike-through</note></seg> evermore.</rdg>
+            <rdg wit="#ee">Or we are slaves to <seg>C.<note type="gloss">Presumably “Cromwell,” which an annotator has penned in superscript; this not in the hand of the main scribe or that we identify as probably Pulter’s.</note></seg> evermore.</rdg>
+            <rdg wit="#ae">Or we are slaves to <seg>C<note type="critical">Cromwell. Pulter ends her poem with a rhyming quatrain in which she “implore[s]” God in an explicit address, asking him to “let” another Camillus, in the form of Charles II, return to restore the monarchy.</note></seg><seg>.<note type="physical">“Cromwell” inserted above in what looks like the hand of the manuscript’s early eighteenth-century annotator.</note></seg> <seg>forevermore<note type="physical">"for" has been crossed out. Because we have chosen to retain “C.” in the main text, we have also retained the original “for”, for the sake of scansion.</note></seg>?</rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
