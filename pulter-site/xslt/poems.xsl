@@ -4923,8 +4923,8 @@
       <pp:title>British Brennus (Emblem 51)</pp:title>
       <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement></pp:sourceStatement>
-        <pp:sourceLink ref=""/>
+        <pp:sourceStatement>Pierre Woeiriot (II), De stier van Phalaris, 1542–1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41147"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
