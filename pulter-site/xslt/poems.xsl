@@ -3916,6 +3916,18 @@
     </pp:poem>
     <pp:poem id="76">
       <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
+      <pp:curations>
+        <pp:curation status="on" hash="a-creature-called-a-cannibal">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>A creature called a cannibal?</pp:title>
+          <pp:peek>What kind of animal is Pulter’s cannibal? She appears to be describing a marsupial, a pouch-bearing mammal native to North America and Australia.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="indulgent-parenting">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>Indulgent Parenting</pp:title>
+          <pp:peek>In several poems, Pulter explores the implications of a parenting style that she calls “indulgent.” The…</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
