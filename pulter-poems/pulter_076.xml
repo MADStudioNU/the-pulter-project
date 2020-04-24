@@ -1,3 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.76">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wisest Creatures (Emblem 10)</title>
+        <title type="sub">Poem 76</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    
+      <graphic url="./document_images/7610_198.jpg" xml:id="f7610_198"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Zeman Kolkovich</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+           <pb ed="#ft" facs="#f7610_198" n="97v"/>
+        </rdg>
+        <rdg wit="#ee">
+           <pb ed="#ee" facs="#f7610_198"/>
+        </rdg>
+        <rdg wit="#ae">
+           <pb ed="#ae" facs="#f7610_198"/>
+        </rdg>
+      </app>
+
+      <app>
+        <rdg type="milestone" wit="#ft">
+           <milestone unit="poem" rend="straight-ascendline"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_198" type="pageNum" place="margin-topright">PG#</fw>[Emblem 10]</rdg>
+          <rdg wit="#ee">Wisest Creatures (Emblem 10)</rdg>
+          <rdg wit="#ae">The Cunning Cannibal (Emblem 10)</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote">In my editions, I prioritize accessibility and multiple interpretive possibilities. To prepare these poems for a wide range of readers, I have modernized erratic early modern spelling, punctuation, and capitalization to conform to standard American usage. I gloss archaic definitions and confusing syntax, and I expand contractions, unless needed to maintain the integrity of the poem’s form. My notes investigate how Pulter’s poems engage with the literature and culture of mid-seventeenth-century England. At the same time, I emphasize how her poems are unique, how they respond to one another and seem to reveal their author’s individual circumstances and philosophies. It is worth noting that although Pulter’s poems survive in only one known source, they are not necessarily stable texts. The source manuscript features variants and revisions that invite multiple interpretations. I encourage readers to refer to the manuscript transcriptions and images on this site; my notes alert readers when the manuscript’s original spelling or physical features are especially worth considering.</note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">How might Christian parents take example from animals who mother well? In this poem, the speaker seems to be defensive about possible objections to parents who are indulgent or lenient with their children. The poem’s erudition is signalled by marginal notes throughout, which corroborate information about animal habits, particularly by citing a 1621 book of commentary on the poetry of the famous French poet, Du Bartas. Drawing from this commentator’s details about female birds, beasts, sharks, and snakes, Pulter is able to show off her up-to-date knowledge of natural history while also wittily defending an unusual kind of seeming maternal cannibalism––those creatures who seem to incorporate and eat their young to protect them. The marginal commentator, which seems to offer Pulter’s information in the scribe’s hand, backs up its textual sources with testimony that one such creature was seen at a local fair. Pulter’s poem thus situates itself in a conversation that intersects poetic religious verse and a seventeenth-century version of zoology along with popular entertainment, while employing a textual apparatus that raises the issue of how we know what we know. Given Pulter’s poignant elegies on the death of her daughter elsewhere in the collection, and given the violence required in this poem to ensure true protection, this emblem perhaps goes beyond its moral approval of good parenting to reveal anxiety about whether humans can protect their offspring. The speaker asks, if animals are so lovingly protective as mothers, why can’t “we” Christians be the same? She then recovers her ground and fiercely denounces severe and negligent parents as having lost their humanity altogether.</note>
+          </rdg>
+          <rdg wit="#ae">
+              <note type="headnote">What can a mother do to protect her children? This emblem searches the natural world for models and finds an extreme possibility in an animal Pulter calls a “cannibal.” This creature, which carries its young in a “wallet” under its breast to protect them from predators, might be a marsupial (perhaps an American opossum or an Australian possum) or a mythical beast. The poem compares this creature to sea foxes and vipers, animals thought to ingest their mates, young, or mothers. In several other poems, Pulter advocates “indulgent” parenting, which she defines as the opposite of neglectful: loving children deeply and doing whatever it takes to keep them safe. Here she extends that argument to claim that we find such indulgence in nature, supporting the conclusion that parental indulgence is both natural and wise. Yet there is something horrifying lurking in the poem’s monsters, reference to danger, and central animal, whose name more commonly means a savage beast that eats its own kind. As the poem celebrates parents who “indulge” their children, it hints at darker implications of being an overprotective mother.</note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>Some<note type="physical">in left margin, over several lines: “a: The Birds of / Paradice Mintia / Co<hi rend="overline">m̄</hi>ont on Dubert: / the 5<add place="above">th</add> day &ff;ol: 241”</note></seg> <add place="above">a</add> Birds their bee Sure they noe love doe lack</rdg>
+            <rdg wit="#ee">Some <seg>birds<note type="gloss">As a marginal note in the scribe’s hand explained, these are “The Birds of Paradise, Mintia” (It is not clear what “Mintia” references but the correct animal described here is a manucodiat). The marginal note then provides the source of this information as a commentary on the poems of Guillaume de Saluste du Bartas, the renowned French sixteenth-century religious poet. The marginal note refers specifically to Simon Goulart’s commentary on Du Bartas’s Semaines (“Weeks”), epic poems expounding on the book of Genesis in the Bible, which were divided into the days of the week of creation. See <bibl>Simon Goulart, <title rend="italic">A Learned Summary Upon the Famous Poem of William of Salust, Lord Bartas</title> (London,1621), 5<add place="above">th</add> day, p. 241.</bibl></note></seg> there be, sure they no love do lack,</rdg>
+            <rdg wit="#ae">Some <seg>birds<note type="gloss">A marginal note in the scribe’s hand identifies these as “Birds of Paradise” and refers to Simon Goulart’s commentary on Du Bartas’s Semaines (1621), the fifth day, folio 241 (sig. Ii1r). Goulart describes this bird as shrouded in mystery and the subject of fables: it has no feet or wings but somehow remains perpetually in the air and therefore is never observed unless dead. A bird that transcends the earth appeals to the desire expressed by many of Pulter’s poems to move past mortal suffering and focus on heavenly reward. Pulter writes in more detail about birds of paradise (“manucodiats”) in <ref type="p-poem-ref" corresp="71">Emblem 5</ref>, including their generosity and parental unity when laying and protecting eggs.</note></seg> there be, sure they no love do lack,</rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Who bear their Spritely young ones on their Back</rdg>
+            <rdg wit="#ee">Who bear their spritely young ones on their back.</rdg>
+            <rdg wit="#ae">Who bear their sprightly young ones on their back;</rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">But of all Beasts the cunning <add place="above">b</add> Caniball</rdg>
+            <rdg wit="#ee">But of all beasts the <seg>cunning canibal<note type="gloss">Pulter does not refer here literally to a creature that eats its own kind but to an animal called a canibal, which she also references in “Why Must I Thus Forever Be Confined” (Poem 57). This poem does go on in later lines, however, to tease out the other meanings of this term by pointing to other animals that use a strikingly benevolent form of temporary cannibalism to protect their young. A marginal note in this poem directs the reader to information on this maternal creature (perhaps a possum) in Goulart’s commentary on Du Bartas’s poetry (in the section, “the 6<add place="above">th</add> Day”; although the page noted is 165, the correct page number is 265). The marginal note then testifies that the beast had been seen at Baldock Fair in 1653. “Baldock is a town in Hertfordshire, not far from where Pulter lived, which traditionally held fairs on the feasts of St. James, St. Andrew, and St. Matthew (July 25, November 30, and September 21)” (Eardley). The word “cunning” can simply mean clever practical skill, but it could hint of a deceptive craftiness.</note></seg></rdg>
+            <rdg wit="#ae">But of all beasts, the <seg>cunning<note type="gloss">Knowledgeable or clever. Can also have negative connotations (crafty, sly, opportunistic).</note></seg> <seg>cannibal<note type="gloss">In the margins, the scribe cites Simon Goulart’s commentary on Du Bartas’s Semaines (1621), the sixth day, folio 165 (an error for folio 265), and says a cannibal is a beast “seen by many at Baldock Fair 1653.” See <ref type="pp-curations-ref" target="#ctxs">A creature called a cannibal?</ref> for Goulart’s description of this creature; the Baldock Charter Fair was a street fair established by Royal Charter in Baldock, Hertfordshire.</note></seg></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">In <seg>kindnes<note type="physical">in left margin, over several lines: “b: the Same __ / Co<hi rend="overline">m̄</hi>etit <w><abbr>y<hi rend="superscript">e</hi></abbr></w> 6:<add place="above">th</add> day / folio 165. / Such a Beast was / Seen by many at / Buldock &ff;air / 1653”; ascending straight line beneath</note></seg> <seg><del>to</del> <add place="below">\</add><add place="above">to \</add><note type="physical">original “to” blotted; insertion in H2</note></seg> her Young excels them all</rdg>
+            <rdg wit="#ee">In kindness to her young excels them all.</rdg>
+            <rdg wit="#ae">In kindness to her young excels them all.</rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">&ff;or Shee A Wallet hath beneath her breast</rdg>
+            <rdg wit="#ee">For she a <seg>wallet<note type="gloss">a small pocket covered by a flap of skin</note></seg> hath beneath her breast;</rdg>
+            <rdg wit="#ae">For she a <seg>wallet<note type="gloss">pouch</note></seg> hath beneath her breast;</rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">When they’r purſued in that her Young doe Rest</rdg>
+            <rdg wit="#ee">When they’re pursued in <seg>that<note type="gloss">wallet or pocket</note></seg> her young do rest.</rdg>
+            <rdg wit="#ae">When they’re pursued, in that her young do rest.</rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft"><seg>As<note type="physical">in left margin, over several lines: after erased “A”, “<del>c: As the</del> [with double strike-through] / c: <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Co<hi rend="overline">m̄</hi>etit on / Duburtus ye 5<add place="above">th</add> day”</note></seg> the Sea <add place="above">c</add> &ff;ox all &ff;iſhes doth out go</rdg>
+            <rdg wit="#ee">As the <seg>sea fox<note type="gloss">a thrasher shark. A marginal note directs the reader again to information about this animal in Goulart’s 1621 commentary on the poetry of Du Bartas (the section labeled “The 5<add place="above">th</add> Day”).</note></seg> all fishes doth outgo</rdg>
+            <rdg wit="#ae">As the <seg>sea fox<note type="gloss">A kind of fish. Philemon Holland’s 1603 translation of <bibl>Plutarch’s <title rend="italic">The Philosophy</title></bibl> describes it as an especially clever fish: “The sea fox will not many times come near unto a hook, he recoileth back and is afraid of some deceitful guile; but say that he chance to be surprised quickly, he maketh shift to wind himself off again: for such is his strength, agility and slippery moisture withal that he will turn himself upside down with his tail upward, in such sort, that when by overturning his stomach all within is come forth, it can not choose but the hook looseth the hold which it had and falleth forth” (p. 971). At this moment in Pulter’s manuscript, a marginal note cites Simon Goulart’s commentary on <bibl>Du Bartas’s <title rend="italic">Semaines</title> (1621)</bibl>, the fifth day. Goulart identifies the sea fox as a predatory fish with a long tail who loves its young: “if any danger happen them, he presently swalloweth them down and keepeth them alive in his body, then being escaped, he casteth them up as he received them” (sig. Ff3r-Ff3v). A second note in Pulter’s manuscript draws attention to Goulart, Pliny, and Plutarch on the stork–a bird that does not appear in this poem.</note></seg> all fishes doth outgo</rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">In Subtilty, Soe doth her Love o’re &ff;low</rdg>
+            <rdg wit="#ee">In subtlety, so doth her love o’erflow;</rdg>
+            <rdg wit="#ae">In <seg>subtlety<note type="gloss">skill; cleverness</note></seg>, so doth her love o’erflow;</rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">&ff;or when her Cubs by Monsters are Purſu’d</rdg>
+            <rdg wit="#ee">For when her cubs by monsters are pursued,</rdg>
+            <rdg wit="#ae">For when her cubs by monsters are pursued,</rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">With Love and Wiſedome Shee is Soe indu’de</rdg>
+            <rdg wit="#ee">With love and wisdom she is so <seg>endued<note type="gloss">a pun since it means both “educated” and “something inwardly digested”</note></seg></rdg>
+            <rdg wit="#ae">With love and wisdom she is so <seg>endued<note type="gloss">The primary meaning is “invested with” (love and honor, in this case), but there might be resonances of a secondary meaning: to digest (as in food).</note></seg></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft"><seg>That<note type="physical">in left margin, over several lines: “d: The Stork look / Plinie 2:<add place="above">d</add> book / chap: 25:<add place="above">th</add> Look / Plutarch in ___ / [illegible]”; last word or partial word with blots may be “Issess”</note></seg> Shee doth Swallow them till danger’s past</rdg>
+            <rdg wit="#ee"><seg>That she doth swallow them till danger’s passed<note type="gloss">A marginal note references Pliny’s information on a stork, a creature not mentioned in this poem (2<add place="above">nd</add> book, chapter 25).</note></seg>,</rdg>
+            <rdg wit="#ae">That she doth swallow them ’til danger’s passed;</rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Then up again alive Shee doth them . Cast</rdg>
+            <rdg wit="#ee">Then up again alive she doth them cast.</rdg>
+            <rdg wit="#ae">Then up again alive she doth them cast.</rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">The Viper Soe her Young lins Swallows down</rdg>
+            <rdg wit="#ee">The <seg>viper<note type="gloss">snake, who in folklore was reputed to swallow and vomit up her young to keep them safe.</note></seg> so her younglings swallows down.</rdg>
+            <rdg wit="#ae">The <seg>viper<note type="gloss">A small venomous snake native to England and Europe. Vipers were fabled to be cannibalistic during both reproduction and birth. According to Pliny’s <title rend="italic">Natural History</title>, the female viper bites off the male’s head during mating for her “pleasure and delectation.” She then lays eggs “within her belly,” and once the first young viper is delivered, “the rest (impatient of so long delay) eat through the sides of their dam, and kill her.” See <bibl>Philemon Holland’s translation titled <title rend="italic">The History of the World</title> (1601), book 10, chapter 62, sig. Dd1r.</bibl></note></seg> so her younglings swallows down—</rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Of all the Rest Sure theſe may wear the Crown</rdg>
+            <rdg wit="#ee">Of all the rest sure these may wear the crown;</rdg>
+            <rdg wit="#ae">Of all the rest sure these may wear the crown.</rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Then by their Severall Storyes you may See</rdg>
+            <rdg wit="#ee">Then by their several stories you may see</rdg>
+            <rdg wit="#ae">Then by their several stories you may see</rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">The Wisest Creatures moſt indulgent bee</rdg>
+            <rdg wit="#ee">The wisest creatures most indulgent be.</rdg>
+            <rdg wit="#ae">The wisest creatures most indulgent be.</rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">If they doe Soe what Should wee Christians doe</rdg>
+            <rdg wit="#ee">If they do so, what should we Christians do</rdg>
+            <rdg wit="#ae">If they do so, what should we Christians do,</rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">That have the help of Grace and Nature too</rdg>
+            <rdg wit="#ee">That have the help of <seg>grace<note type="gloss">God’s benevolence and blessings</note></seg> and nature too?</rdg>
+            <rdg wit="#ae">That have the help of Grace and Nature too?</rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Sure <seg>thoſe<note type="physical">appears corrected from “they”</note></seg> that <seg><del>doe</del><note type="physical">double strike-through</note></seg> their <seg><add place="below">\</add><add place="above">own \</add><note type="physical">insertion in H2</note></seg> Childrens goods Neglects</rdg>
+            <rdg wit="#ee">Sure those that do their own children’s good neglects</rdg>
+            <rdg wit="#ae"><seg>Sure those that their own<note type="physical">This line is revised in the manuscript; this section originally read: “Sure those that do their.”</note></seg> children’s <seg>goods<note type="critical">Perhaps an odd plural form of the positive benefits that help a child thrive, or material possessions. The latter highlights a subtle economic thread in the poem, together with the word “wallet,” which also meant a beggar’s bag.</note></seg> <seg>neglects<note type="critical">This line has a problem with subject-verb agreement. The final word should be “neglect,” as in: those who neglect their own children’s goods. I retain the error so that “neglects” rhymes more cleanly with “insects.”</note></seg></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Are worſe then Birds, Beasſts, &ff;iſhes, or Inſects</rdg>
+            <rdg wit="#ee">Are worse than birds, beasts, fishes, or insects.</rdg>
+            <rdg wit="#ae">Are worse than birds, beasts, fishes, or insects.</rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

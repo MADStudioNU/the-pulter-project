@@ -8,12 +8,12 @@
   <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
 
   ]>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.104">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.76">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-          <title>The Dolphin (Emblem 39)</title>
-        <title type="sub">Poem #104</title>
+        <title>Wisest Creatures (Emblem 10)</title>
+        <title type="sub">Poem 76</title>
         <respStmt>
           <resp>Created by</resp>
           <persName>Leah Knight</persName>
@@ -116,8 +116,7 @@
   </teiHeader>
   <facsimile>
     <!-- List of all images associated with this document -->
-      <graphic url="./document_images/7610_237.jpg" xml:id="f7610_237"/>
-      <graphic url="./document_images/7610_238.jpg" xml:id="f7610_238"/>
+      <graphic url="./document_images/7610_198.jpg" xml:id="f7610_198"/>
   </facsimile>
   <text>
     <front>
@@ -125,30 +124,45 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Zeman Kolkovich</persName>.</witness>
         </listWit>
       </div>
     </front>
 
     <body>
 
+      <!-- Each pagebreake should be represented wih a block like this with the correct facs reference-->
       <app>
         <rdg wit="#ft">
-            <pb ed="#ft" facs="#f7610_237" n="117r"/>
+           <pb ed="#ft" facs="#f7610_198" n="97v"/>
         </rdg>
         <rdg wit="#ee">
-            <pb ed="#ee" facs="#f7610_237"/>
+           <pb ed="#ee" facs="#f7610_198"/>
         </rdg>
         <rdg wit="#ae">
-            <pb ed="#ae" facs="#f7610_237"/>
+           <pb ed="#ae" facs="#f7610_198"/>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's no catchword -->
+      <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">CATCHWORD</fw>
+        </rdg>
+      </app>
+
+      <!-- Remove if there's none -->
+      <app>
+        <rdg type="milestone" wit="#ft">
+           <milestone unit="poem" rend="straight-ascendline"/>
         </rdg>
       </app>
 
       <head>
         <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 39]</rdg>
-            <rdg wit="#ee">The Dolphin<lb/>(Emblem 39)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ft"><fw facs="#f7610_198" type="pageNum" place="margin-topright">PG#</fw>[Emblem 10]</rdg>
+          <rdg wit="#ee">Wisest Creatures (Emblem 10)</rdg>
+          <rdg wit="#ae">The Cunning Cannibal (Emblem 10)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -157,348 +171,159 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">In my editions, I prioritize accessibility and multiple interpretive possibilities. To prepare these poems for a wide range of readers, I have modernized erratic early modern spelling, punctuation, and capitalization to conform to standard American usage. I gloss archaic definitions and confusing syntax, and I expand contractions, unless needed to maintain the integrity of the poem’s form. My notes investigate how Pulter’s poems engage with the literature and culture of mid-seventeenth-century England. At the same time, I emphasize how her poems are unique, how they respond to one another and seem to reveal their author’s individual circumstances and philosophies. It is worth noting that although Pulter’s poems survive in only one known source, they are not necessarily stable texts. The source manuscript features variants and revisions that invite multiple interpretations. I encourage readers to refer to the manuscript transcriptions and images on this site; my notes alert readers when the manuscript’s original spelling or physical features are especially worth considering.</note>
           </rdg>
         </app>
         <app type="headnote">
           <rdg wit="#ee">
-              <note type="headnote">Idle hands do the devil’s work, goes the proverb—but in Pulter’s admiring vision, dolphins, hands-free, toil joyfully on the side of angels. Drawing on intersecting tales from ancient myths and natural history, this poem celebrates dolphins as effective panders, fisherfolk, and chauffeurs, not to mention as loyal subjects in their own society and friends to humankind. The sheer length of this catalogue suggests the deliberately active life that the poem idealizes in humans as in dolphins. If these creatures can subsist as perpetual-motion machines, then people (endowed with reason) are exhorted to measure up to their activity, or exceed it. At the very least, they should avoid the deadly sloth the speaker castigates in her peers.</note>
+              <note type="headnote">How might Christian parents take example from animals who mother well? In this poem, the speaker seems to be defensive about possible objections to parents who are indulgent or lenient with their children. The poem’s erudition is signalled by marginal notes throughout, which corroborate information about animal habits, particularly by citing a 1621 book of commentary on the poetry of the famous French poet, Du Bartas. Drawing from this commentator’s details about female birds, beasts, sharks, and snakes, Pulter is able to show off her up-to-date knowledge of natural history while also wittily defending an unusual kind of seeming maternal cannibalism––those creatures who seem to incorporate and eat their young to protect them. The marginal commentator, which seems to offer Pulter’s information in the scribe’s hand, backs up its textual sources with testimony that one such creature was seen at a local fair. Pulter’s poem thus situates itself in a conversation that intersects poetic religious verse and a seventeenth-century version of zoology along with popular entertainment, while employing a textual apparatus that raises the issue of how we know what we know. Given Pulter’s poignant elegies on the death of her daughter elsewhere in the collection, and given the violence required in this poem to ensure true protection, this emblem perhaps goes beyond its moral approval of good parenting to reveal anxiety about whether humans can protect their offspring. The speaker asks, if animals are so lovingly protective as mothers, why can’t “we” Christians be the same? She then recovers her ground and fiercely denounces severe and negligent parents as having lost their humanity altogether.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote">What can a mother do to protect her children? This emblem searches the natural world for models and finds an extreme possibility in an animal Pulter calls a “cannibal.” This creature, which carries its young in a “wallet” under its breast to protect them from predators, might be a marsupial (perhaps an American opossum or an Australian possum) or a mythical beast. The poem compares this creature to sea foxes and vipers, animals thought to ingest their mates, young, or mothers. In several other poems, Pulter advocates “indulgent” parenting, which she defines as the opposite of neglectful: loving children deeply and doing whatever it takes to keep them safe. Here she extends that argument to claim that we find such indulgence in nature, supporting the conclusion that parental indulgence is both natural and wise. Yet there is something horrifying lurking in the poem’s monsters, reference to danger, and central animal, whose name more commonly means a savage beast that eats its own kind. As the poem celebrates parents who “indulge” their children, it hints at darker implications of being an overprotective mother.</note>
           </rdg>
         </app>
       </head>
 
       <l n="1">
         <app>
-            <rdg wit="#ft">All Creatures then the Dolphin are more Slow</rdg>
-          <rdg wit="#ee"><seg>All creatures than the dolphin are more slow<note type="critical">The idea that the dolphin was the speediest creature was promulgated by the ancient natural historian Pliny, whose ideas were circulating in English in Pulter’s time: “The swiftest of all other living creatures whatsoever, and not of sea-fish only, is the dolphin” (Pliny the Elder, trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft"><seg>Some<note type="physical">in left margin, over several lines: “a: The Birds of / Paradice Mintia / Co<hi rend="overline">m̄</hi>ont on Dubert: / the 5<add place="above">th</add> day &ff;ol: 241”</note></seg> <add place="above">a</add> Birds their bee Sure they noe love doe lack</rdg>
+            <rdg wit="#ee">Some <seg>birds<note type="gloss">As a marginal note in the scribe’s hand explained, these are “The Birds of Paradise, Mintia” (It is not clear what “Mintia” references but the correct animal described here is a manucodiat). The marginal note then provides the source of this information as a commentary on the poems of Guillaume de Saluste du Bartas, the renowned French sixteenth-century religious poet. The marginal note refers specifically to Simon Goulart’s commentary on Du Bartas’s Semaines (“Weeks”), epic poems expounding on the book of Genesis in the Bible, which were divided into the days of the week of creation. See <bibl>Simon Goulart, <title rend="italic">A Learned Summary Upon the Famous Poem of William of Salust, Lord Bartas</title> (London,1621), 5<add place="above">th</add> day, p. 241.</bibl></note></seg> there be, sure they no love do lack,</rdg>
+            <rdg wit="#ae">Some <seg>birds<note type="gloss">A marginal note in the scribe’s hand identifies these as “Birds of Paradise” and refers to Simon Goulart’s commentary on Du Bartas’s Semaines (1621), the fifth day, folio 241 (sig. Ii1r). Goulart describes this bird as shrouded in mystery and the subject of fables: it has no feet or wings but somehow remains perpetually in the air and therefore is never observed unless dead. A bird that transcends the earth appeals to the desire expressed by many of Pulter’s poems to move past mortal suffering and focus on heavenly reward. Pulter writes in more detail about birds of paradise (“manucodiats”) in <ref type="p-poem-ref" corresp="71">Emblem 5</ref>, including their generosity and parental unity when laying and protecting eggs.</note></seg> there be, sure they no love do lack,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
-            <rdg wit="#ft">Below &ff;air Cinthia (Neptune this did Know)</rdg>
-          <rdg wit="#ee"><seg>Below fair Cynthia<note type="gloss">Cynthia is an epithet for the moon (from the name of the classical goddess); the sense of the poem’s first line and a half is that, beneath the moon (thus, on earth), all creatures are slower than the dolphin.</note></seg>: <seg>Neptune<note type="gloss">classical god of the sea</note></seg> this did know.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">Who bear their Spritely young ones on their Back</rdg>
+            <rdg wit="#ee">Who bear their spritely young ones on their back.</rdg>
+            <rdg wit="#ae">Who bear their sprightly young ones on their back;</rdg>
         </app>
       </l>
       <l n="3">
         <app>
-            <rdg wit="#ft">When lovly Amphitrite whoſe Splendent &ff;ame</rdg>
-          <rdg wit="#ee">When lovely <seg>Amphitrite<note type="gloss">classical sea goddess</note></seg>, whose <seg>splendent<note type="gloss">brilliant, gleaming</note></seg> <seg>fame<note type="gloss">reputation, renown</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">But of all Beasts the cunning <add place="above">b</add> Caniball</rdg>
+            <rdg wit="#ee">But of all beasts the <seg>cunning canibal<note type="gloss">Pulter does not refer here literally to a creature that eats its own kind but to an animal called a canibal, which she also references in “Why Must I Thus Forever Be Confined” (Poem 57). This poem does go on in later lines, however, to tease out the other meanings of this term by pointing to other animals that use a strikingly benevolent form of temporary cannibalism to protect their young. A marginal note in this poem directs the reader to information on this maternal creature (perhaps a possum) in Goulart’s commentary on Du Bartas’s poetry (in the section, “the 6<add place="above">th</add> Day”; although the page noted is 165, the correct page number is 265). The marginal note then testifies that the beast had been seen at Baldock Fair in 1653. “Baldock is a town in Hertfordshire, not far from where Pulter lived, which traditionally held fairs on the feasts of St. James, St. Andrew, and St. Matthew (July 25, November 30, and September 21)” (Eardley). The word “cunning” can simply mean clever practical skill, but it could hint of a deceptive craftiness.</note></seg></rdg>
+            <rdg wit="#ae">But of all beasts, the <seg>cunning<note type="gloss">Knowledgeable or clever. Can also have negative connotations (crafty, sly, opportunistic).</note></seg> <seg>cannibal<note type="gloss">In the margins, the scribe cites Simon Goulart’s commentary on Du Bartas’s Semaines (1621), the sixth day, folio 165 (an error for folio 265), and says a cannibal is a beast “seen by many at Baldock Fair 1653.” See <ref type="pp-curations-ref" target="#ctxs">A creature called a cannibal?</ref> for Goulart’s description of this creature; the Baldock Charter Fair was a street fair established by Royal Charter in Baldock, Hertfordshire.</note></seg></rdg>
         </app>
       </l>
       <l n="4">
         <app>
-            <rdg wit="#ft">Had kindled in his Breast a quenchles &ff;lame</rdg>
-            <rdg wit="#ee">Had kindled in his breast a quenchless flame,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">In <seg>kindnes<note type="physical">in left margin, over several lines: “b: the Same __ / Co<hi rend="overline">m̄</hi>etit <w><abbr>y<hi rend="superscript">e</hi></abbr></w> 6:<add place="above">th</add> day / folio 165. / Such a Beast was / Seen by many at / Buldock &ff;air / 1653”; ascending straight line beneath</note></seg> <seg><del>to</del> <add place="below">\</add><add place="above">to \</add><note type="physical">original “to” blotted; insertion in H2</note></seg> her Young excels them all</rdg>
+            <rdg wit="#ee">In kindness to her young excels them all.</rdg>
+            <rdg wit="#ae">In kindness to her young excels them all.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
-            <rdg wit="#ft">Hee was his Spokesman to this daintie Doxie</rdg>
-          <rdg wit="#ee"><seg>He<note type="gloss">The dolphin</note></seg> was <seg>his<note type="gloss">Neptune’s</note></seg> spokesman to this <seg>dainty<note type="gloss">handsome; choice; delightful; precious; delicately beautiful; fastidious; scrupulous; reluctant</note></seg> <seg>doxy<note type="gloss">slang for mistress, paramour, prostitute</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">&ff;or Shee A Wallet hath beneath her breast</rdg>
+            <rdg wit="#ee">For she a <seg>wallet<note type="gloss">a small pocket covered by a flap of skin</note></seg> hath beneath her breast;</rdg>
+            <rdg wit="#ae">For she a <seg>wallet<note type="gloss">pouch</note></seg> hath beneath her breast;</rdg>
         </app>
       </l>
       <l n="6">
         <app>
-            <rdg wit="#ft">Who Woo’d and won and Marry’d her by Proxie</rdg>
-          <rdg wit="#ee">Who wooed and won and <seg>married her by proxy<note type="critical">When Amphitrite proved reluctant to Neptune’s wooing, she “was brought to him by a dolphin, and made queen of the sea” (Edward Phillips, <title rend="italic">The New World of English Words</title> [London, 1652], sig. B4r). Sources differ as to whether Delphin, the dolphin-shaped sea god, persuaded or seized her on Neptune’s behalf; either approach might be what is figured here as marriage by proxy. Aaron J. Atsma, “Delphin,” <title rend="italic"><ref target="https://www.theoi.com/Ther/Delphin.html">Theoi Project</ref></title>.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">When they’r purſued in that her Young doe Rest</rdg>
+            <rdg wit="#ee">When they’re pursued in <seg>that<note type="gloss">wallet or pocket</note></seg> her young do rest.</rdg>
+            <rdg wit="#ae">When they’re pursued, in that her young do rest.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
-            <rdg wit="#ft">Into her Wavie Bed hee &ff;lackd his Tayl</rdg>
-          <rdg wit="#ee">Into her wavy bed he <seg>flacked<note type="gloss">flapped</note></seg> his tail;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft"><seg>As<note type="physical">in left margin, over several lines: after erased “A”, “<del>c: As the</del> [with double strike-through] / c: <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Co<hi rend="overline">m̄</hi>etit on / Duburtus ye 5<add place="above">th</add> day”</note></seg> the Sea <add place="above">c</add> &ff;ox all &ff;iſhes doth out go</rdg>
+            <rdg wit="#ee">As the <seg>sea fox<note type="gloss">a thrasher shark. A marginal note directs the reader again to information about this animal in Goulart’s 1621 commentary on the poetry of Du Bartas (the section labeled “The 5<add place="above">th</add> Day”).</note></seg> all fishes doth outgo</rdg>
+            <rdg wit="#ae">As the <seg>sea fox<note type="gloss">A kind of fish. Philemon Holland’s 1603 translation of <bibl>Plutarch’s <title rend="italic">The Philosophy</title></bibl> describes it as an especially clever fish: “The sea fox will not many times come near unto a hook, he recoileth back and is afraid of some deceitful guile; but say that he chance to be surprised quickly, he maketh shift to wind himself off again: for such is his strength, agility and slippery moisture withal that he will turn himself upside down with his tail upward, in such sort, that when by overturning his stomach all within is come forth, it can not choose but the hook looseth the hold which it had and falleth forth” (p. 971). At this moment in Pulter’s manuscript, a marginal note cites Simon Goulart’s commentary on <bibl>Du Bartas’s <title rend="italic">Semaines</title> (1621)</bibl>, the fifth day. Goulart identifies the sea fox as a predatory fish with a long tail who loves its young: “if any danger happen them, he presently swalloweth them down and keepeth them alive in his body, then being escaped, he casteth them up as he received them” (sig. Ff3r-Ff3v). A second note in Pulter’s manuscript draws attention to Goulart, Pliny, and Plutarch on the stork–a bird that does not appear in this poem.</note></seg> all fishes doth outgo</rdg>
         </app>
       </l>
       <l n="8">
         <app>
-            <rdg wit="#ft">The Contract in noe Circumſtance did &ff;ayl</rdg>
-            <rdg wit="#ee">The contract in no circumstance did fail,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">In Subtilty, Soe doth her Love o’re &ff;low</rdg>
+            <rdg wit="#ee">In subtlety, so doth her love o’erflow;</rdg>
+            <rdg wit="#ae">In <seg>subtlety<note type="gloss">skill; cleverness</note></seg>, so doth her love o’erflow;</rdg>
         </app>
       </l>
       <l n="9">
         <app>
-            <rdg wit="#ft">Yet would hee not the Royall Virgin leave</rdg>
-            <rdg wit="#ee">Yet would he not the royal virgin leave,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">&ff;or when her Cubs by Monsters are Purſu’d</rdg>
+            <rdg wit="#ee">For when her cubs by monsters are pursued,</rdg>
+            <rdg wit="#ae">For when her cubs by monsters are pursued,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
-            <rdg wit="#ft">Least Some affront his Soveraign Should Receive</rdg>
-            <rdg wit="#ee">Lest some affront his sovereign should receive:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">With Love and Wiſedome Shee is Soe indu’de</rdg>
+            <rdg wit="#ee">With love and wisdom she is so <seg>endued<note type="gloss">a pun since it means both “educated” and “something inwardly digested”</note></seg></rdg>
+            <rdg wit="#ae">With love and wisdom she is so <seg>endued<note type="gloss">The primary meaning is “invested with” (love and honor, in this case), but there might be resonances of a secondary meaning: to digest (as in food).</note></seg></rdg>
         </app>
       </l>
       <l n="11">
         <app>
-          <rdg wit="#ft">Like <seg><add place="above">x</add><note type="physical">in left margin: “<add place="above">x</add> My Lord Veru: / his Hist: of Hen: / <w lemma="the"><abbr>y:<hi rend="superscript">e</hi></abbr></w> 7.<hi rend="superscript">th</hi> &ff;ol: 80”; ascending line beneath</note></seg>Maximillian who did Brittain Wed</rdg>
-          <rdg wit="#ee">Like <seg>Maximilian<note type="critical">A note in the margin refers us to Francis Bacon’s <title rend="italic">History of the Reign of King Henry the Seventh</title> (London, 1629), “fol. 80,” where one finds an account the 1490 marriage of the Holy Roman Emperor, Maximilian I, to Anne of Brittany: “the marriage was consummate[d] by proxy, with a ceremony at that time in these parts new. For she was not only publicly contracted, but stated as a bride, and solemnly bedded; and after see was laid, there came in Maximilian’s ambassador with letters of procuration, and in the presence of sundry noble personages, men and women, put his leg (stripped naked to the knee) between the espousal sheets; to the end, that that ceremony might be thought to amount to a consummation.”</note></seg>, who did Britain wed</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft"><seg>That<note type="physical">in left margin, over several lines: “d: The Stork look / Plinie 2:<add place="above">d</add> book / chap: 25:<add place="above">th</add> Look / Plutarch in ___ / [illegible]”; last word or partial word with blots may be “Issess”</note></seg> Shee doth Swallow them till danger’s past</rdg>
+            <rdg wit="#ee"><seg>That she doth swallow them till danger’s passed<note type="gloss">A marginal note references Pliny’s information on a stork, a creature not mentioned in this poem (2<add place="above">nd</add> book, chapter 25).</note></seg>,</rdg>
+            <rdg wit="#ae">That she doth swallow them ’til danger’s passed;</rdg>
         </app>
       </l>
       <l n="12">
         <app>
-            <rdg wit="#ft">With putting one bare leg into her Bed</rdg>
-            <rdg wit="#ee">With putting one bare leg into her bed.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">Then up again alive Shee doth them . Cast</rdg>
+            <rdg wit="#ee">Then up again alive she doth them cast.</rdg>
+            <rdg wit="#ae">Then up again alive she doth them cast.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
-            <rdg wit="#ft">King Charles too Nimble was for this Slow --</rdg>
-          <rdg wit="#ee">King Charles too nimble was for this slow <seg>___:<note type="critical">In place of the final word (likely, “ass”), a dotted line appears in the manuscript.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">The Viper Soe her Young lins Swallows down</rdg>
+            <rdg wit="#ee">The <seg>viper<note type="gloss">snake, who in folklore was reputed to swallow and vomit up her young to keep them safe.</note></seg> so her younglings swallows down.</rdg>
+            <rdg wit="#ae">The <seg>viper<note type="gloss">A small venomous snake native to England and Europe. Vipers were fabled to be cannibalistic during both reproduction and birth. According to Pliny’s <title rend="italic">Natural History</title>, the female viper bites off the male’s head during mating for her “pleasure and delectation.” She then lays eggs “within her belly,” and once the first young viper is delivered, “the rest (impatient of so long delay) eat through the sides of their dam, and kill her.” See <bibl>Philemon Holland’s translation titled <title rend="italic">The History of the World</title> (1601), book 10, chapter 62, sig. Dd1r.</bibl></note></seg> so her younglings swallows down—</rdg>
         </app>
       </l>
       <l n="14">
         <app>
-            <rdg wit="#ft">Himſelfe did wed, and Bed this Princely Laſs</rdg>
-          <rdg wit="#ee"><seg>Himself did wed and bed this princely lass.<note type="critical">The French King Charles VIII, named in the previous line, managed to marry Anne of Brittany upon “finding that this pretended consummation [of Anne and Maximilian, referred to three lines earlier] was rather an invention of court, than any ways valid by the laws of the church … and therefore it was void, and of no force” (Francis Bacon’s <title rend="italic">History of the Reign of King Henry the Seventh</title> [London, 1629], p. 80).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">Of all the Rest Sure theſe may wear the Crown</rdg>
+            <rdg wit="#ee">Of all the rest sure these may wear the crown;</rdg>
+            <rdg wit="#ae">Of all the rest sure these may wear the crown.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
-            <rdg wit="#ft">The Dolphin Wiſer was then this great King</rdg>
-          <rdg wit="#ee">The dolphin wiser was than <seg>this great king<note type="gloss">The reference appears to be not to King Charles but to the Emperor Maximilian.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">Then by their Severall Storyes you may See</rdg>
+            <rdg wit="#ee">Then by their several stories you may see</rdg>
+            <rdg wit="#ae">Then by their several stories you may see</rdg>
         </app>
       </l>
       <l n="16">
         <app>
-            <rdg wit="#ft">&ff;or hee the Slipprie Virgin home did bring</rdg>
-            <rdg wit="#ee">For he the slippery virgin home did bring.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">The Wisest Creatures moſt indulgent bee</rdg>
+            <rdg wit="#ee">The wisest creatures most indulgent be.</rdg>
+            <rdg wit="#ae">The wisest creatures most indulgent be.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
-            <rdg wit="#ft">This Active &ff;iſh <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> &ff;iſhermen will Joyn</rdg>
-          <rdg wit="#ee"><seg>This active fish with fishermen will join<note type="critical">On dolphins “assist[ing men] in their fishing,” see Pliny the Elder (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 240).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">If they doe Soe what Should wee Christians doe</rdg>
+            <rdg wit="#ee">If they do so, what should we Christians do</rdg>
+            <rdg wit="#ae">If they do so, what should we Christians do,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
-            <rdg wit="#ft">In Catching Mullets, Sops and Spritely Wine</rdg>
-            <rdg wit="#ee">In catching mullets; sops and spritely wine</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">That have the help of Grace and Nature too</rdg>
+            <rdg wit="#ee">That have the help of <seg>grace<note type="gloss">God’s benevolence and blessings</note></seg> and nature too?</rdg>
+            <rdg wit="#ae">That have the help of Grace and Nature too?</rdg>
         </app>
       </l>
       <l n="19">
         <app>
-            <rdg wit="#ft">They have for pay, noe love to Man they lack</rdg>
-          <rdg wit="#ee">They have for pay. <seg>No love to man they lack<note type="critical">“The dolphin is a creature that carries a loving affection … unto man” (Pliny the Elder, trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">Sure <seg>thoſe<note type="physical">appears corrected from “they”</note></seg> that <seg><del>doe</del><note type="physical">double strike-through</note></seg> their <seg><add place="below">\</add><add place="above">own \</add><note type="physical">insertion in H2</note></seg> Childrens goods Neglects</rdg>
+            <rdg wit="#ee">Sure those that do their own children’s good neglects</rdg>
+            <rdg wit="#ae"><seg>Sure those that their own<note type="physical">This line is revised in the manuscript; this section originally read: “Sure those that do their.”</note></seg> children’s <seg>goods<note type="critical">Perhaps an odd plural form of the positive benefits that help a child thrive, or material possessions. The latter highlights a subtle economic thread in the poem, together with the word “wallet,” which also meant a beggar’s bag.</note></seg> <seg>neglects<note type="critical">This line has a problem with subject-verb agreement. The final word should be “neglect,” as in: those who neglect their own children’s goods. I retain the error so that “neglects” rhymes more cleanly with “insects.”</note></seg></rdg>
         </app>
       </l>
       <l n="20">
         <app>
-            <rdg wit="#ft">&ff;or Muſicall Orion on the Back</rdg>
-          <rdg wit="#ee">For musical <seg>Arion<note type="gloss">legendary ancient Greek poet and musician thrown into the sea by sailors but rescued by a dolphin</note></seg> on the back</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ft">Are worſe then Birds, Beasſts, &ff;iſhes, or Inſects</rdg>
+            <rdg wit="#ee">Are worse than birds, beasts, fishes, or insects.</rdg>
+            <rdg wit="#ae">Are worse than birds, beasts, fishes, or insects.</rdg>
         </app>
       </l>
-      <l n="21">
-        <app>
-            <rdg wit="#ft">Of Dolphins Rod, Soe did two Pretty Boys</rdg>
-          <rdg wit="#ee">Of dolphins rode; so did <seg>two pretty boys<note type="critical">Stories of dolphins being fond of boys had long been in circulation; some are gathered by Pliny the Elder (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 239).</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="22">
-        <app>
-            <rdg wit="#ft">Some that Are Ridged count theſe vertues toys</rdg>
-            <rdg wit="#ee">Some that are rigid count these virtues toys.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="23">
-        <app>
-            <rdg wit="#ft">This &ff;iſh is Still in Motion till hee dies</rdg>
-            <rdg wit="#ee">This fish is still in motion till he dies,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="24">
-        <app>
-            <rdg wit="#ft">&ff;or though hee Sleeps yet Still hee never lies</rdg>
-          <rdg wit="#ee">For <seg>though he sleeps yet still he never lies<note type="critical">While Pulter’s source on this claim is not clear, modern science confirms that dolphins can “sleep while swimming slowly next to another animal” and that a mother dolphin “cannot stop swimming for the first several weeks of a newborn’s life,” since it will drown if she does (Bruce Hecker, <ref target="https://www.scientificamerican.com/article/how-do-whales-and-dolphin/">“How do Whales and Dolphins Sleep Without Drowning?”</ref> <title rend="italic">Scientific American</title>).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="25">
-        <app>
-            <rdg wit="#ft">But Sinks into the bottome of the Main</rdg>
-          <rdg wit="#ee">But sinks into the bottom of the <seg>main<note type="gloss">open sea</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="26">
-        <app>
-            <rdg wit="#ft">Then Wakes and Springs up to the top again</rdg>
-          <rdg wit="#ee">Then wakes and <seg>springs up to the top again<note type="gloss">Pulter here again draws on Pliny the Elder’s account (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-        <app>
-            <rdg wit="#ft">
-                <fw type="catch" place="bottom">hee’s</fw>
-            </rdg>
-        </app>
-        <app>
-            <rdg wit="#ft">
-                <pb ed="#ft" facs="#f7610_238" n="117v"/>
-            </rdg>
-            <rdg wit="#ee">
-                <pb ed="#ee" facs="#f7610_238"/>
-            </rdg>
-            <rdg wit="#ae">
-                <pb ed="#ae" facs="#f7610_238"/>
-            </rdg>
-        </app>
-      <l n="27">
-        <app>
-          <rdg wit="#ft">Hee’s true <seg>to’s<note type="physical">in darker ink, possibly different hand from main scribe</note></seg> King, his Int’rest, and his end.</rdg>
-          <rdg wit="#ee">He’s true <seg>to’s<note type="gloss">to his</note></seg> <seg>king<note type="critical">Pliny the Elder is again Pulter’s source for the idea that “dolphins have a kind of commonwealth and public society among themselves” (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 240).</note></seg>, his <seg>int’rest<note type="gloss">right, title; benefit, profit</note></seg>, and his <seg>end<note type="gloss">purpose; ultimate state or condition</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="28">
-        <app>
-            <rdg wit="#ft">True to ungratefull man, himſelfe his freind</rdg>
-            <rdg wit="#ee">True to ungrateful man, himself his friend.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="29">
-        <app>
-            <rdg wit="#ft">By all theſe Circumſtances you may See</rdg>
-            <rdg wit="#ee">By all these circumstances you may see</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="30">
-        <app>
-            <rdg wit="#ft">None but the Active Man a &ff;riend can bee</rdg>
-            <rdg wit="#ee">None but the active man a friend can be.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="31">
-        <app>
-            <rdg wit="#ft">Thoſe that have Reaſon, and yet Idle bie</rdg>
-            <rdg wit="#ee">Those that have reason, and yet idle by,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="32">
-        <app>
-            <rdg wit="#ft">Doe Just like Hogs noe good untill they Die</rdg>
-            <rdg wit="#ee">Do just like hogs, no good until they die.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="33">
-        <app>
-            <rdg wit="#ft">Then think on Titus who would always Say</rdg>
-          <rdg wit="#ee">Then think on <seg>Titus<note type="critical">Titus Flavius Vespasianus, Roman emperor 79–81, “calling to mind one time as he sat at supper, that he had done nothing for any man that day, he uttered this memorable and praiseworthy apophthegm, ‘My friends, I have lost a day’” (Suetonius, <title rend="italic">The History of Twelve Caesars</title>, trans. Philemon Holland [London, 1606]. p. 256</note></seg>, who would always say,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="34">
-        <app>
-            <rdg wit="#ft">When hee had done none good, I have lost this day</rdg>
-            <rdg wit="#ee">When he had done none good, “I have lost this day.”</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="35">
-        <app>
-            <rdg wit="#ft">Remember Draco, Sure that Law was good</rdg>
-          <rdg wit="#ee">Remember <seg>Draco<note type="gloss">Athenian legislator (7th century BCE) notorious for imposing severe laws, with the death penalty even for trivial crimes (hence the adjective “draconian”).</note></seg>, sure that law was good,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="36">
-        <app>
-            <rdg wit="#ft">&ff;or Mother Idlenes was writ in Blood</rdg>
-          <rdg wit="#ee">For <seg>mother idleness was writ in blood<note type="gloss">Idleness was seen proverbially as the mother of all vice or sin. The idea expressed in this line is that such idleness (and thus vice) is inherent in human nature (“writ in blood”).</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="37">
-        <app>
-            <rdg wit="#ft">Should hee Reform our villages and Towns</rdg>
-            <rdg wit="#ee">Should he reform our villages and towns,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="38">
-        <app>
-            <rdg wit="#ft">Wee ſhould have Empty houſes &amp; larg Grounds</rdg>
-            <rdg wit="#ee">We should have empty houses and large grounds.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="39">
-        <app>
-            <rdg wit="#ft">That Law would take away (I fear) more lives</rdg>
-            <rdg wit="#ee">That law would take away (I fear) more lives</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="40">
-        <app>
-            <rdg wit="#ft">Of Countrey Gentlemen, and Cittizens Wives</rdg>
-            <rdg wit="#ee">Of country gentlemen, and citizens’ wives,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="41">
-        <app>
-            <rdg wit="#ft">Then of the Natives Blood <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Spaniards Spil’d</rdg>
-          <rdg wit="#ee">Than of the <seg>natives’ blood the Spaniards spilled<note type="critical">Eardley notes this is a reference to colonial Spanish massacres of native peoples in South America, perhaps known to Pulter thanks to popular Protestant and anti-Spanish polemics.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="42">
-        <app>
-            <rdg wit="#ft">Or in theſe times our Seeking Saints have Kil’d</rdg>
-          <rdg wit="#ee">Or in these times <seg>our seeking saints<note type="critical">Pulter appears to characterize “saints” pejoratively here, likely in reference to the Puritanical (Calvinistic) opposition to her Royalist politics: this sect often referred to God’s chosen people (the elect) as saints; here, “seeking” likely means harassing or persecuting.</note></seg> have killed.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="43">
-        <app>
-            <rdg wit="#ft">Then doe Some good whilst Light and Life have</rdg>
-            <rdg wit="#ee">Then do some good whilst light and life have;</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="44">
-        <app>
-            <rdg wit="#ft">The Idle Man Anticipates the Grave.</rdg>
-            <rdg wit="#ee">The idle man anticipates the grave.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-        <app>
-            <rdg type="milestone" wit="#ft">
-                <milestone unit="poem" rend="straight-horline"/>
-            </rdg>
-        </app>
     </body>
   </text>
 </TEI>
