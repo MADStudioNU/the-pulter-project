@@ -3246,7 +3246,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="60">
-      <pp:title>Extremely I Deplore Your Loss</pp:title>
+      <pp:title>To Sir William Davenant: Upon the Unspeakable Loss of the Most Conspicuous and Chief Ornament of His Frontispiece</pp:title>
       <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from De curtorum chirurgia per insitionem 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public Domain.</pp:sourceStatement>
