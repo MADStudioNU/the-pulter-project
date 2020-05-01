@@ -27,7 +27,7 @@ You should have the following terminal commands available:
 * `gulp deploy` — builds a production version of the site and puts it in `/dist`.
 
 ### Development and Production
-Branch `develop` is deployed to the ["preview site"](https://pulterproject-dev-4slasb7dfnyuier8z7y2.netlify.com/#poems).
+Branch `develop` is deployed to the ["preview site"](https://pulterproject-dev-4slasb7dfnyuier8z7y2.netlify.app/#poems).
 
 Branch `master` is deployed to the [production site](https://pulterproject.northwestern.edu/#poems).
 

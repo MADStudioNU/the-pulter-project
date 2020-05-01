@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>Aylin Malcolm</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
         <app type="title">
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 39]</rdg>
             <rdg wit="#ee">The Dolphin<lb/>(Emblem 39)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">The Dolphin</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -157,7 +157,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote"><p>Given the complexity of this poem’s subject matter, I chose to privilege legibility in my edition by using modern spelling, capitalization, and punctuation. Abbreviations are expanded silently, and superscripts are lowered, although I have preserved some contractions (“to’s,” “int’rest”) where these suit the meter. My “gloss notes” offer definitions of archaic terms (or terms that have shifted in meaning since the seventeenth century), often based on the <title rend="italic">Oxford English Dictionary</title>, as well as paraphrases of difficult sentences. The “critical notes” address Pulter’s literary and social contexts, including the translations of classical texts that she may have known, and the scholarship on dolphins that was circulating during her life.</p><p>I also include contemporary findings in marine biology and cetology when these relate to Pulter’s descriptions of dolphins. In some cases, early modern knowledge is remarkably consistent with modern views, while other recent discoveries highlight the degree to which marine science has changed. Comparing Pulter’s knowledge with modern science reveals our continuing fascination with dolphins, and how little we still understand about these humanlike inhabitants of an alien, oceanic world.</p></note>
           </rdg>
         </app>
         <app type="headnote">
@@ -165,7 +165,7 @@
               <note type="headnote">Idle hands do the devil’s work, goes the proverb—but in Pulter’s admiring vision, dolphins, hands-free, toil joyfully on the side of angels. Drawing on intersecting tales from ancient myths and natural history, this poem celebrates dolphins as effective panders, fisherfolk, and chauffeurs, not to mention as loyal subjects in their own society and friends to humankind. The sheer length of this catalogue suggests the deliberately active life that the poem idealizes in humans as in dolphins. If these creatures can subsist as perpetual-motion machines, then people (endowed with reason) are exhorted to measure up to their activity, or exceed it. At the very least, they should avoid the deadly sloth the speaker castigates in her peers.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote"><p>The charismatic marine mammal at the center of Pulter’s thirty-ninth emblem poem is a tireless mediator. Part allegorical figure representing an industrious life, part diplomat, Pulter’s dolphin moves between mythology and science, between human society and the ocean, and even between deities. Like modern scientists, early modern writers often noted the similarities between dolphins and humans, including their intelligence and tendency to form strong social bonds. For Pulter, this gregarious cetacean prompts reflections on several political and literary topics, including the matrimonial turmoil produced by fifteenth-century military ventures, the restrictions placed on women who have been chosen to marry kings, the horrors of the English Civil War, and a wide array of classical characters, from sea-gods to mullet fishers.</p><p>Above all, this poem engages with the questions of what makes us human, and how we should define the limits of sentience. For early modern writers, the answers should have been simple: humans were the only life forms created in the image of God, and as Aristotle had established, <seg>1<note type="gloss"><bibl>Aristotle, <title rend="italic">De Anima</title>, trans. J[ohn] A[lexander] Smith (Oxford: Clarendon, 1931), 2.3.</bibl></note>the only species with the capacity for rational thought</seg>. “The Dolphin” is indeed primarily concerned with human conduct, and Pulter’s dolphin functions as a carefully constructed metaphor, encouraging readers to become more productive and tenacious. But a dolphin is a slippery subject, cavorting on the boundary between human and nonhuman – flirting with sea-nymphs, sampling wine, and falling in love. Humans, meanwhile, have a great capacity for sloth, and may never measure up to the dolphin’s speed and efficiency. The inevitable conclusion is that we would be better humans if we were more like dolphins. Like many of Pulter’s poems, “The Dolphin” therefore deserves to be read not only for its literary merits, but also for its remarkable views of the (non)human condition, as well as its reflections on seventeenth-century developments in history, philosophy, and science.</p></note>
           </rdg>
         </app>
       </head>
@@ -174,182 +174,182 @@
         <app>
             <rdg wit="#ft">All Creatures then the Dolphin are more Slow</rdg>
           <rdg wit="#ee"><seg>All creatures than the dolphin are more slow<note type="critical">The idea that the dolphin was the speediest creature was promulgated by the ancient natural historian Pliny, whose ideas were circulating in English in Pulter’s time: “The swiftest of all other living creatures whatsoever, and not of sea-fish only, is the dolphin” (Pliny the Elder, trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>All creatures than the dolphin are more slow<note type="critical">Much of Pulter’s information about the natural world can be traced to Pliny the Elder’s Natural History (77–79 CE), which was available in an English translation by Philemon Holland. Pliny begins his chapter on dolphins by stating that this creature is faster than any other animal and “swifter than the arrow shot out of a bow” (<bibl><title rend="italic">The History of the World</title>, vol. 1, trans. Philemon Holland [London: Adam Islip, 1601], IX.viii, p. 238</bibl>). Pulter inverts Pliny’s statement, emphasizing the slowness of other creatures by placing this word in the rhyming position. In fact, the common dolphin is capable of achieving speeds up to 64 km/h (40 mph), making it the fastest marine mammal, but far slower than the sailfish, which can travel at over 100 km/h (60 mph).</note></seg></rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Below &ff;air Cinthia (Neptune this did Know)</rdg>
           <rdg wit="#ee"><seg>Below fair Cynthia<note type="gloss">Cynthia is an epithet for the moon (from the name of the classical goddess); the sense of the poem’s first line and a half is that, beneath the moon (thus, on earth), all creatures are slower than the dolphin.</note></seg>: <seg>Neptune<note type="gloss">classical god of the sea</note></seg> this did know.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Below fair <seg>Cynthia<note type="critical">The moon. Originally an epithet for the Greek goddess Artemis (Roman counterpart: Diana), referring to her mythological birthplace of Mount Cynthos on the Island of Delos, “Cynthia” also came to be applied to Selene (Roman counterpart: Luna), the moon goddess with whom Artemis was often conflated. In the geocentric model of the universe (which had not been fully discredited in Pulter’s time), “fair Cynthia” or the moon marked the boundary between the mutable sublunary region and the unchanging superlunary spheres. The classical elements of earth, water, air, and fire made up everything below the moon, while the superlunary realm was filled with a more refined fifth element known as aether. Pulter’s interest in the new heliocentric models advanced by the likes of Galileo Galilei and Johannes Kepler is evident from poems such as <ref type="pp-poem-ref" corresp="1">“The Eclipse” (Poem 1)</ref> and <ref type="pp-poem-ref" corresp="52">“The Wish” (Poem 52)</ref>. Yet she continues to use the moon as a conventional boundary between earth and sky, speaking to the instability of seventeenth-century astronomy. Indeed, the notion of aether persisted in some form until after the Michelson-Morley experiment of 1887.</note></seg> – <seg>Neptune<note type="critical">Neptune (Greek counterpart: Poseidon) was the classical god of the sea, storms, and horses, often depicted riding in a chariot drawn by dolphins or hippocampi (fish-horse hybrids). The planet that modern astronomers call “Neptune” was unknown until the nineteenth century.</note></seg> this did know.</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">When lovly Amphitrite whoſe Splendent &ff;ame</rdg>
           <rdg wit="#ee">When lovely <seg>Amphitrite<note type="gloss">classical sea goddess</note></seg>, whose <seg>splendent<note type="gloss">brilliant, gleaming</note></seg> <seg>fame<note type="gloss">reputation, renown</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When lovely <seg>Amphitrite<note type="critical">The goddess of the sea and safe passage, Amphitrite (Roman counterpart: Salacia) was the wife of Poseidon. According to some versions of her legend (including the narrative in the Poeticon Astronomicon, a popular text that was attributed to Gaius Julius Hyginus in Pulter’s time), she declined Poseidon’s initial offer of marriage and fled west to Atlas. Poseidon sent a dolphin (or in some versions, the dolphin god Delphinus) to follow her across the sea. When the dolphin returned with Amphitrite, Poseidon rewarded him by creating the constellation Delphinus. See <bibl><title rend="italic">The Myths of Hyginus</title>, ed. and trans. Mary Grant (Lawrence: University of Kansas Press, 1960), 2.17.</bibl></note></seg>, whose <seg>splendent<note type="gloss">bright, shining. Derived (like “resplendent”) from Latin <foreign rend="italic">splendere</foreign>.</note></seg> fame</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Had kindled in his Breast a quenchles &ff;lame</rdg>
             <rdg wit="#ee">Had kindled in his breast a quenchless flame,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Had kindled in his breast a quenchless flame,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Hee was his Spokesman to this daintie Doxie</rdg>
           <rdg wit="#ee"><seg>He<note type="gloss">The dolphin</note></seg> was <seg>his<note type="gloss">Neptune’s</note></seg> spokesman to this <seg>dainty<note type="gloss">handsome; choice; delightful; precious; delicately beautiful; fastidious; scrupulous; reluctant</note></seg> <seg>doxy<note type="gloss">slang for mistress, paramour, prostitute</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>He was his spokesman<note type="critial">The dolphin was Neptune’s spokesman. Pulter’s dolphin is consistently presented as male, and early modern natural histories rarely contain extensive information on female dolphins, although many claimed that dolphins mated with their bellies together and the female on her back. The ostensible sexual passivity of both women and female dolphins was one of many traits that these species were said to share. See <bibl>Pierre Belon, <title rend="italic">L’histoire naturelle des estranges poissons marins…</title>, vol. 2 (Paris: Regnaud Chaudiere, 1551), fol. 40r</bibl>; <bibl>Conrad Gessner, <title rend="italic">Historiae animalium</title>, vol. 4 (Frankfurt: Andreas Cambier, 1604), p. 242 [322]</bibl>; and <bibl>Guillaume Rondelet, <title rend="italic">Libri de piscibus marinis…</title> (Lyon: Mathias Bonhomme, 1554), p. 462</bibl>. The word “spokesman” also raises the question of whether nonhuman species possess the capacity for language, a matter of great interest to early modern writers. Philosophers in this period generally agreed that only humans were capable of true speech, since the abstract thought underlying language required a rational soul. However, Pulter depicts the dolphin as an active mediator on Poseidon’s behalf. Modern scientists recognize that dolphins use a complex system of clicks and whistles, including distinctive sounds for each individual that are comparable to a human’s name, but the question of whether this constitutes “language” remains open. On early modern beliefs about animal speech, see <bibl>R[ichard] W. Serjeantson, “The Passions and Animal Language, 1540–1700,” <title rend="italic">Journal of the History of Ideas</title> 62.3 (2001), pp. 425–444.</bibl></note></seg> to this <seg>dainty doxy<note type="critial"></note>dainty: precious, delicate, beautiful; doxy: a mistress or prostitute. This alliterative epithet provides a useful rhyme for “proxy” in the following line, but its meaning is ambivalent, in contrast to the poem’s unqualified praise of the dolphin. Pulter’s equivocal description of Amphitrite highlights the contradictory roles that women often play in literature, being depicted as fragile, delicate individuals who are also cunning seducers.</seg>,</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Who Woo’d and won and Marry’d her by Proxie</rdg>
           <rdg wit="#ee">Who wooed and won and <seg>married her by proxy<note type="critical">When Amphitrite proved reluctant to Neptune’s wooing, she “was brought to him by a dolphin, and made queen of the sea” (Edward Phillips, <title rend="italic">The New World of English Words</title> [London, 1652], sig. B4r). Sources differ as to whether Delphin, the dolphin-shaped sea god, persuaded or seized her on Neptune’s behalf; either approach might be what is figured here as marriage by proxy. Aaron J. Atsma, “Delphin,” <title rend="italic"><ref target="https://www.theoi.com/Ther/Delphin.html">Theoi Project</ref></title>.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Who wooed and won and <seg>married her by proxy<note type="critical">Marriage by proxy occurs when one or both individuals are physically absent during the ceremony, often being represented by another person. Historical examples include the marriage of Charles I of England to Henrietta Maria of France, which occurred during Pulter’s lifetime, and the short-lived marriage of Maximilian I, Holy Roman Emperor, to Anne of Brittany. Pulter’s phrasing here therefore sets up the comparison with Maximilian in line 11. She may also have been inspired by the active role that Delphinus takes in the <title rend="italic">Poeticon Astronomicon</title>, which states that he “came at last to the maiden, persuaded her to marry Neptunus, and himself took charge of the wedding” (2.17).</note></seg>.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Into her Wavie Bed hee &ff;lackd his Tayl</rdg>
           <rdg wit="#ee">Into her wavy bed he <seg>flacked<note type="gloss">flapped</note></seg> his tail;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Into her wavy bed he <seg>flacked<note type="critical">flapped, slapped. Derived from the Middle English <hi rend="italic">flacken</hi> and originally onomatopoeic, this term was typically used to describe the movements of birds and fish. Since “to flack” could also mean “to throb or pulsate,” Pulter’s diction heightens the erotic quality of this scene, as the dolphin’s wooing culminates in Amphitrite’s bed.</note></seg> his tail;</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">The Contract in noe Circumſtance did &ff;ayl</rdg>
             <rdg wit="#ee">The contract in no circumstance did fail,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The contract in no circumstance did fail,</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Yet would hee not the Royall Virgin leave</rdg>
             <rdg wit="#ee">Yet would he not the royal virgin leave,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet would he not the royal virgin leave</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Least Some affront his Soveraign Should Receive</rdg>
             <rdg wit="#ee">Lest some affront his sovereign should receive:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Lest some affront his sovereign should receive,</rdg>
         </app>
       </l>
       <l n="11">
         <app>
           <rdg wit="#ft">Like <seg><add place="above">x</add><note type="physical">in left margin: “<add place="above">x</add> My Lord Veru: / his Hist: of Hen: / <w lemma="the"><abbr>y:<hi rend="superscript">e</hi></abbr></w> 7.<hi rend="superscript">th</hi> &ff;ol: 80”; ascending line beneath</note></seg>Maximillian who did Brittain Wed</rdg>
           <rdg wit="#ee">Like <seg>Maximilian<note type="critical">A note in the margin refers us to Francis Bacon’s <title rend="italic">History of the Reign of King Henry the Seventh</title> (London, 1629), “fol. 80,” where one finds an account the 1490 marriage of the Holy Roman Emperor, Maximilian I, to Anne of Brittany: “the marriage was consummate[d] by proxy, with a ceremony at that time in these parts new. For she was not only publicly contracted, but stated as a bride, and solemnly bedded; and after see was laid, there came in Maximilian’s ambassador with letters of procuration, and in the presence of sundry noble personages, men and women, put his leg (stripped naked to the knee) between the espousal sheets; to the end, that that ceremony might be thought to amount to a consummation.”</note></seg>, who did Britain wed</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Like <seg>Maximillian<note type="critical">Maximilian I, Holy Roman Emperor (1459–1519). A sign next to “Maximillian” in the manuscript directs readers to a note in the margin: “My lordveru: his Hist: of Hen: ye 7th ffol: 80.” This note refers to the <bibl><title rend="italic">History of the Reign of King Henry the Seventh</title> written by Francis Bacon, Baron of Verulam (London: W[illiam] Stansby, 1622)</bibl>, which contains a description of Maximilian’s proxy marriage to Anne of Brittany.</note></seg>, who did <seg>Britain<note type="critical">Anne of Brittany (1477–1514). Anne was crowned Duchess of Brittany at the age of twelve and married Maximilian I by proxy in 1490, when she was thirteen. Displeased at the prospect of Habsburg influence in a territory that refused to accept French suzerainty, King Charles VIII of France (1470–1498) besieged Rennes, where Anne was living, in 1491. After Rennes fell, Anne married Charles, despite the fact that Charles was engaged to Maximilian’s eleven-year-old daughter, Margaret. Anne’s marriage to Maximilian was annulled, and Margaret, who had been living at the French court since 1483, returned to Maximilian. Since the marriage contract indicated that Anne would marry Charles’s successor if he died without male heirs, she is also the only woman in history to have become Queen consort of France twice, marrying Charles’s cousin Louis XII (1462–1515) in 1498.</note></seg> wed</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">With putting one bare leg into her Bed</rdg>
             <rdg wit="#ee">With putting one bare leg into her bed.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With putting <seg>one bare leg<note type="critical">Francis Bacon includes this alleged “consummation by proxy” in his description of Maximilian and Anne’s proxy marriage: “there came in Maximilian’s ambassador with letters of procuration, and in the presence of sundry nobly personages, men and women, put his leg (stripped naked to the knee) between the espousal sheets, to the end that that ceremony might be thought to amount to a consummation” (<bibl><title rend="italic">History of the Reign of King Henry the Seventh</title> [London: W[illiam] Stansby, 1622], p. 80, with modernized spelling and punctuation.</bibl>) The dolphin’s tail in Pulter’s poem is therefore aligned with both the ambassador’s leg and the human phallus that this leg represents. In fact, dolphin tail fins, or flukes, have a closer evolutionary relationship with the tails of cats and dogs than they do with human legs. Dolphins also have two front flippers and two vestigial hind limbs, which are homologous to human arms and legs.</note></seg> into her bed.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">King Charles too Nimble was for this Slow --</rdg>
           <rdg wit="#ee">King Charles too nimble was for this slow <seg>___:<note type="critical">In place of the final word (likely, “ass”), a dotted line appears in the manuscript.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>King Charles<note type="gloss">Charles VIII of France (1470–1492)</note></seg> too nimble was for this slow <seg>––<note type="critical">The manuscript omits the final word of this line, which is likely “ass.” Although this remained the typical term for a donkey until well into the eighteenth century, its secondary meaning – a foolish person – dates back to Old English.</note></seg>;</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Himſelfe did wed, and Bed this Princely Laſs</rdg>
           <rdg wit="#ee"><seg>Himself did wed and bed this princely lass.<note type="critical">The French King Charles VIII, named in the previous line, managed to marry Anne of Brittany upon “finding that this pretended consummation [of Anne and Maximilian, referred to three lines earlier] was rather an invention of court, than any ways valid by the laws of the church … and therefore it was void, and of no force” (Francis Bacon’s <title rend="italic">History of the Reign of King Henry the Seventh</title> [London, 1629], p. 80).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Himself did wed and bed this <seg>princely<note type="gloss">noble, befitting a prince</note></seg> lass.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">The Dolphin Wiſer was then this great King</rdg>
           <rdg wit="#ee">The dolphin wiser was than <seg>this great king<note type="gloss">The reference appears to be not to King Charles but to the Emperor Maximilian.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>The dolphin wiser was than this great king<note type="critical">This slightly ambiguous line likely refers to Maximilian, rather than Charles. Early modern writers generally believed that humans were unique in their capacity for rational thought, although some species put pressure on this absolute distinction (see the "Cetacean Relations” Curation). Pulter’s statement is therefore not at all complimentary to Maximilian.</note></seg>,</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">&ff;or hee the Slipprie Virgin home did bring</rdg>
             <rdg wit="#ee">For he the slippery virgin home did bring.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For he the <seg>slippery<note type="critical">able to escape or slip away easily; perhaps both literal and figurative, given the watery context. In the seventeenth century, “slippery” could be used euphemistically to indicate wantonness and sexual immodesty. Thus in Shakespeare’s <title rend="italic">Winter’s Tale</title>, King Leontes of Sicily asks the trustworthy Camillo if he believes that Queen Hermione of Sicily, whom Leontes falsely suspects of adultery, is “slippery” (<bibl>William Shakespeare, <title rend="italic">The Winter’s Tale</title>, ed. Barbara A. Mowat and Paul Werstine, Folger Shakespeare Library [New York: Simon &amp; Schuster, 1998], I.ii.329-35, pp. 29-31</bibl>). The phrase “slippery virgin” can therefore be understood as a paradox: Amphitrite is both virginal and licentious, while her union to Neptune both has and has not been consummated. Pulter’s peculiar wording may also reflect the unique character of this interspecies encounter: specifically, the dolphin’s anatomical characteristics (including his retractable genitalia) may encourage us to read it as sensual beyond the conventions of normative heterosexuality.</note></seg> virgin home did bring.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">This Active &ff;iſh <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> &ff;iſhermen will Joyn</rdg>
           <rdg wit="#ee"><seg>This active fish with fishermen will join<note type="critical">On dolphins “assist[ing men] in their fishing,” see Pliny the Elder (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 240).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">This active <seg>fish<note type="critical">In the seventeenth century, the word “fish” typically referred to any animal that spends its life in water, including marine mammals. Yet early modern writers recognized that there were key differences between dolphins and the species that modern scientists classify as Osteichthyes (bony fish); for instance, whales and dolphins were known to produce milk for their offspring. Humans could also interact with air-breathing dolphins in their natural environments, making it easier to study their behaviours and cognitive abilities. In contrast, Myra E. Wright observes that efforts to study bony fish were almost entirely limited to dead specimens; thus “[e]arly modern English fish are deadened, flattened, and removed from their environments in the very texts that celebrate their complex mental lives” (<bibl><title rend="italic">The Poetics of Angling in Early Modern England</title> [New York and Abingdon: Routledge, 2018], p. 4</bibl>).</note></seg> <seg>with fishermen will join<note type="critical">Pliny describes dolphins working with humans to catch mullets off the coast of Languedoc (trans. Holland, IX.viii). Similar narratives persisted until Pulter’s time; for example, the thirteenth-century German scholar Albertus Magnus noted that dolphins would hunt with Italian fishermen (<bibl><title rend="italic">On Animals: A Medieval Summa Zoologica</title>, trans. Kenneth F. Kitchell Jr. and Irven Michael Resnick [Columbus: Ohio State University Press, 2018], 24.40</bibl>), and the sixteenth-century Dutch fishmonger Adriaen Coenen claimed that dolphins near Narbonne not only herded mullets into fishing nets, but also helped to inspect the nets (<bibl><title rend="italic">The Whale Book: Whales and Other Marine Animals as Described by Adriaen Coenen in 1584</title>, ed. Florike Egmond and Peter Mason [London: Reaktion, 2003], pp. 94–5</bibl>). Recently, a group of bottlenose dolphins in southern Brazil has drawn attention for collaborating with humans to catch grey mullets. See <bibl>Paulo C. Simões-Lopes et al., “Dolphin Interactions with the Mullet Artisanal Fishing on Southern Brazil,” <title rend="italic">Revista Brasileira de Zoologia</title> 15.3 (1998): pp. 709–26</bibl> and <bibl>Mauricio L. Santos et al., “No Mullet, No Gain: Cooperation Between Dolphins and Cast Net Fishermen in Southern Brazil,” <title rend="italic">Zoologia</title> 35 (2018): pp. 1-13</bibl>.</note></seg></rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">In Catching Mullets, Sops and Spritely Wine</rdg>
             <rdg wit="#ee">In catching mullets; sops and spritely wine</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">In catching <seg>mullets<note type="critical">The word “mullet” may refer to any fish of the taxonomically disparate families Mugilidae (“grey mullets”) or Mullidae (“red mullets”). Although grey mullets are numerous in English waters, the classical references throughout Pulter’s poem suggest that she is referring to the two species of red mullets found in the Mediterranean, <hi rend="italic">Mullus barbatus</hi> and <hi rend="italic">Mullus surmuletu</hi>s, which have been valuable food sources since the Roman period. According to Pliny (chapter IX.xvii in Holland’s translation), the Romans raised red mullets in ponds and served them alive, since these fish undergo complex colour changes as they expire. Indeed, Seneca the Younger (ca. 4 BCE–65 CE) made a point of castigating those who believe that “[n]othing is more beautiful than a dying surmullet” in his <bibl><title rend="italic">Natural Questions</title> (trans. Thomas H. Corcoran, Loeb Classical Library 450 [Cambridge, MA: Harvard University Press, 1971], III.18.1)</bibl>. Descriptions of the enormous sums paid for single mullets in Pliny, Macrobius, and Tertullian evoke the modern trade in bluefin tuna. See <bibl>Pliny, <title rend="italic">Natural History</title>, trans. H[arris] Rackham, Loeb Classical Library 353 (Cambridge, MA: Harvard University Press, 1940), IX.xxx-xxxi</bibl>; <bibl>Seneca the Younger, <title rend="italic">Natural Questions</title>, trans. Thomas H. Corcoran, Loeb Classical Library 450 (Cambridge, MA: Harvard University Press, 1971), III.18.1</bibl>; <bibl>Macrobius, <title rend="italic">Saturnalia</title>, ed. and trans. Robert Kaster, Loeb Classical Library 511 (Cambridge, MA: Harvard University Press, 2011), III.16.9</bibl>; and <bibl>Tertullian, <title rend="italic">On the Mantle (De Pallio)</title>, Tertulliani Opera, vol. 2, ed. Dom Eligius Dekkers, Corpus Christianorum, Series Latina 2 (Turnhout: Brepols, 1954), V.6.</bibl></note></seg>; <seg>sops<note type="gloss">a piece of bread soaked in wine</note></seg> and <seg>spritely<note type="gloss">invigorating, flavourful</note></seg> wine</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">They have for pay, noe love to Man they lack</rdg>
           <rdg wit="#ee">They have for pay. <seg>No love to man they lack<note type="critical">“The dolphin is a creature that carries a loving affection … unto man” (Pliny the Elder, trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>They have for pay<note type="critical">The custom of rewarding dolphins with bread and wine is also found in Pliny (trans. Holland, IX.viii). Bread and wine were central to Roman society; indeed, Cato recommended that a farm worker receive at least 7 quadrantals (560 pounds/189 kg) of wine per year (<bibl><title rend="italic">De Agricultura</title>, trans. W. D. Hooper and Harrison Boyd Ash, Loeb Classical Library 283 [Cambridge, MA: Harvard University Press, 1934], 57, pp. 72-3</bibl>). The dolphins’ appreciation of these treats would therefore have been a sign of their similarities to humans. While it remains unclear whether most mammals enjoy consuming alcohol, this behaviour has been studied in vervet monkeys and African elephants. Dolphins have also been observed in trance-like states after ingesting tetrodotoxin, a nerve toxin that pufferfish excrete when stressed, although it is unlikely that they would pursue this experience deliberately.</note></seg>. No <seg>love<note type="critical">Dolphins were often said to feel affection for humans. Holland’s translation of Pliny gives an endearing account of their tendency to follow ships: “Of a man he is nothing afraid, neither avoideth from him as a stranger, but of himself meeteth with their ships, playeth and disporteth himself, and fetcheth a thousand frisks and gambols before them. He will swim along by the mariners, as it were for a wager who should make way most speedily, and always out-goeth them, saile they with never so good a forewind.” (IX.viii, with modernized spelling and punctuation)</note></seg> to man they lack,</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">&ff;or Muſicall Orion on the Back</rdg>
           <rdg wit="#ee">For musical <seg>Arion<note type="gloss">legendary ancient Greek poet and musician thrown into the sea by sailors but rescued by a dolphin</note></seg> on the back</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For musical <seg>Arion<note type="critical">semi-legendary Ancient Greek poet and Dionysiac citharist, said to have invented the dithyramb. According to the legend recounted in Herodotus’s <bibl><title rend="italic">Histories</title> (trans. Robin Waterfield [Oxford: Oxford University Press, 2008], 1.23–24, pp. 11–12)</bibl>, which also appears in the <bibl><title rend="italic">Poeticon Astronomicon</title> (trans. Grant, 2.17)</bibl> and <bibl>Pliny’s <title rend="italic">Natural History</title> (trans. Holland, IX.viii)</bibl>, Arion was returning home after winning a competition in Sicily when the ship’s crew attacked him for his prize money. When asked how he wanted to die, Arion begged to sing a final song in praise of Apollo. His playing attracted a group of dolphins, creatures often said to enjoy music; Holland’s translation of Pliny claims that dolphins are “delighted … with harmonie in song” (IX.viii). After finishing his song, Arion jumped into the sea, but a dolphin carried him safely to Taenarum. In some versions of this narrative, the dolphin died when Arion failed to help it return to the water, but Apollo placed it among the stars, producing an alternate mythological origin of the constellation Delphinus (see note for “Amphitrite”). On early modern uses of the Arion myth, including its eroticism in Shakespeare’s <title rend="italic">Twelfth Nigh</title>t (1.2.10-17) and its use of music as a bridge between species, see <bibl>Steve Mentz, “‘Half-Fish, Half-Flesh’: Dolphins, the Ocean, and Early Modern Humans,” <title rend="italic">The Indistinct Human in Renaissance Literature</title>, ed. Jean E. Feerick and Vin Nardizzi (London: Palgrave Macmillan, 2012), pp. 39-41.</bibl></note></seg> on the back</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Of Dolphins Rod, Soe did two Pretty Boys</rdg>
           <rdg wit="#ee">Of dolphins rode; so did <seg>two pretty boys<note type="critical">Stories of dolphins being fond of boys had long been in circulation; some are gathered by Pliny the Elder (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 239).</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Of dolphins rode; so did <seg>two pretty boys<note type="critical">Pliny mentions several boys who had special relationships with dolphins, two of whom rode on a dolphin’s back (trans. Holland, IX.viii). The first, a poor boy who lived near Lucrine Lake in southern Italy, often rode to school on a dolphin that he called “Simo” (Snubnose). This dolphin “loved [the boy] wond[rously] well,” and when the child took sick and died, the dolphin continued to come to their meeting place until he was found dead of sorrow on the shore. The second boy was Hermias of Iasos, whose death by drowning so grieved his dolphin companion that the dolphin beached himself and died.</note></seg>.</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Some that Are Ridged count theſe vertues toys</rdg>
             <rdg wit="#ee">Some that are rigid count these virtues toys.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Some that are <seg>rigid<note type="gloss">stiff, strict, unemotional</note></seg> count these virtues <seg>toys<note type="gloss">trifles, frivolous acts</note></seg>.</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">This &ff;iſh is Still in Motion till hee dies</rdg>
             <rdg wit="#ee">This fish is still in motion till he dies,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">This fish is <seg>still in motion<note type="critical">Pulter’s striking phrase draws on two distinct uses of “still,” which could mean “perpetually” (its primary function here) or, paradoxically, “motionless” (as it does in the following line).</note></seg> till he dies,</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">&ff;or though hee Sleeps yet Still hee never lies</rdg>
           <rdg wit="#ee">For <seg>though he sleeps yet still he never lies<note type="critical">While Pulter’s source on this claim is not clear, modern science confirms that dolphins can “sleep while swimming slowly next to another animal” and that a mother dolphin “cannot stop swimming for the first several weeks of a newborn’s life,” since it will drown if she does (Bruce Hecker, <ref target="https://www.scientificamerican.com/article/how-do-whales-and-dolphin/">“How do Whales and Dolphins Sleep Without Drowning?”</ref> <title rend="italic">Scientific American</title>).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For though he sleeps, yet still he never lies,</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">But Sinks into the bottome of the Main</rdg>
           <rdg wit="#ee">But sinks into the bottom of the <seg>main<note type="gloss">open sea</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But sinks into the bottom of the <seg>main<note type="gloss"> open sea, short for “main sea”</note></seg>,</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Then Wakes and Springs up to the top again</rdg>
           <rdg wit="#ee">Then wakes and <seg>springs up to the top again<note type="gloss">Pulter here again draws on Pliny the Elder’s account (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 238).</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then <seg>wakes and springs up to the top again<note type="critical">Unlike humans, for whom breathing is an involuntary function, dolphins are voluntary breathers who must return to the surface to expel and inhale air. In the wild, dolphins generally only experience deep sleep in one brain hemisphere at a time. This allows them to remain conscious enough to “spring up to the top” to breathe, as well as watch for predators.</note></seg>.</rdg>
         </app>
       </l>
         <app>
@@ -372,126 +372,126 @@
         <app>
           <rdg wit="#ft">Hee’s true <seg>to’s<note type="physical">in darker ink, possibly different hand from main scribe</note></seg> King, his Int’rest, and his end.</rdg>
           <rdg wit="#ee">He’s true <seg>to’s<note type="gloss">to his</note></seg> <seg>king<note type="critical">Pliny the Elder is again Pulter’s source for the idea that “dolphins have a kind of commonwealth and public society among themselves” (trans. Philemon Holland, <title rend="italic">The History of the World</title> [London, 1634], volume 1, p. 240).</note></seg>, his <seg>int’rest<note type="gloss">right, title; benefit, profit</note></seg>, and his <seg>end<note type="gloss">purpose; ultimate state or condition</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He’s true <seg>to’s<note type="gloss">to his</note></seg> <seg>king<note type="critical">This “king” could be another reference to Poseidon or to the complex structure of dolphin societies described in Pliny (trans. Holland, IX.viii). More broadly, the dolphin may have evoked royalty due to its association with the heir apparent of France, who was called the “Dauphin” (French for “dolphin”) and bore arms with heraldic dolphins.</note></seg>, his <seg>int’rest<note type="gloss">right; benefit; a thing or cause in which one has a stake</note></seg>, and his end;</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">True to ungratefull man, himſelfe his freind</rdg>
             <rdg wit="#ee">True to ungrateful man, himself his friend.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">True to <seg>ungrateful man<note type="critical">In his <title rend="italic">Book of the Governor</title>, a text dealing with the education of future rulers, Thomas Elyot affirms that ingratitude is “[t]he most damnable vice” and that “[i]n this vice, men be much worse than beasts. For divers of them [i.e. many beasts] will remember a benefit long after they [have] received it” (<bibl><title rend="italic">The book named the Governor, devised by sir Thomas Elyot knight</title> [London: Thomas Berthelet, 1537], fols. 152r–v, with modernized spelling and punctuation</bibl>). For nonhuman beasts, loyalty to one’s “interests” may therefore result in excessive loyalty to humans, and even in animal suffering. Thus Elyot relates a series of anecdotes demonstrating the extreme loyalty of dogs (some dating back to Pliny), including those that refused to eat after their masters had died (152v–153r). Similarly, many of the stories that Pulter references in “The Dolphin” end poorly for the dolphins involved (see notes for “Arion” and “two pretty boys”).</note></seg>, <seg>himself his friend<note type="gloss">i.e. the dolphin is friend to ungrateful man</note></seg>.</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">By all theſe Circumſtances you may See</rdg>
             <rdg wit="#ee">By all these circumstances you may see</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">By all these circumstances you may see</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">None but the Active Man a &ff;riend can bee</rdg>
             <rdg wit="#ee">None but the active man a friend can be.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">None but the <seg>active man<note type="critical">Here, the dolphin comes to represent a human ideal: the industrious, generous, and loyal “active man.” Even as Pulter stresses the importance of striving for this ideal, her use of a nonhuman creature as its exemplar raises questions about whether humans may ever achieve it.</note></seg> a friend can be.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Thoſe that have Reaſon, and yet Idle bie</rdg>
             <rdg wit="#ee">Those that have reason, and yet idle by,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Those that have <seg>reason<note type="critical">Pulter indicates that humans, who have the unique benefit of a rational soul, should at least be able to equal the dolphin’s productivity. For more information about early modern views of animal sentience, and the notion of rationality as limited to humans, see the “Cetacean Relations” Curation.</note></seg> and yet idle by</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">Doe Just like Hogs noe good untill they Die</rdg>
             <rdg wit="#ee">Do just like hogs, no good until they die.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Do, just like <seg>hogs<note type="critical">Just as early modern writers recognized the similarities between humans and dolphins (see the “Cetacean Relations” Curation), so were they intrigued by the anatomical correspondences between humans and pigs. Edward Topsell writes, “it is most certain that inwardly [pigs] do more resemble a man’s body than an ape” (<bibl><title rend="italic">The Historie of Four-Footed Beasts and Serpents</title> [London: E[lizabeth] Cotes, 1658], pp. 514–5, with modernized spelling</bibl>). Pulter thus sets up a dichotomy using two species that resemble humans, implicitly asking readers to choose whether they will be more like a pig or a dolphin.</note></seg>, no good until they die.</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">Then think on Titus who would always Say</rdg>
           <rdg wit="#ee">Then think on <seg>Titus<note type="critical">Titus Flavius Vespasianus, Roman emperor 79–81, “calling to mind one time as he sat at supper, that he had done nothing for any man that day, he uttered this memorable and praiseworthy apophthegm, ‘My friends, I have lost a day’” (Suetonius, <title rend="italic">The History of Twelve Caesars</title>, trans. Philemon Holland [London, 1606]. p. 256</note></seg>, who would always say,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then think on <seg>Titus<note type="critical">Titus Flavius Caesar Vespasianus Augustus (39–81 CE). The older son of Vespasian (Roman emperor 69–79 CE), Titus was Roman emperor from 79 to 81 CE. During his short rule, Titus oversaw rebuilding efforts after the eruption of Vesuvius (79 CE) and issued new silver denarii with an anchor-and-dolphin device. The well-known printer Aldus Manutius adopted the anchor and dolphin as his printer’s device in 1502, after which it became a popular choice for publisher’s colophons, including that of Doubleday in the twentieth century.</note></seg>, who would always say,</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">When hee had done none good, I have lost this day</rdg>
             <rdg wit="#ee">When he had done none good, “I have lost this day.”</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When he had done none good, “<seg>I have lost this day<note type="critical">A statement attributed to Titus by Suetonius in his Lives of the Twelve Caesars, translated into English by Philemon Holland (<bibl><title rend="italic">The Historie of Twelve Caesars</title>, vol. 2 [London: Matthew Lownes, 1606], p. 230</bibl>).</note></seg>.”</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">Remember Draco, Sure that Law was good</rdg>
           <rdg wit="#ee">Remember <seg>Draco<note type="gloss">Athenian legislator (7th century BCE) notorious for imposing severe laws, with the death penalty even for trivial crimes (hence the adjective “draconian”).</note></seg>, sure that law was good,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Remember <seg>Draco<note type="gloss">first legislator of classical Athens (7th century BCE). Draco created the first written constitution of Athens, but his laws were extremely harsh, and nearly all were repealed by Solon in the early 6th century BCE. According to Plutarch’s “Life of Solon” (<bibl><title rend="italic">Lives</title>, vol. 1, trans. Bernadotte Perrin, Loeb Classical Library 46 [Cambridge, MA: Harvard University Press, 1914], 17.1, pp. 448-51</bibl>), Draco’s punishments included the death penalty for minor crimes like idleness and stealing salad. Pulter, who might have known this history via Sir Thomas North’s translation of Plutarch (1579), seems to be claiming that indolence is so widespread in her society that if Draco’s laws were revived, there would be few individuals left.</note></seg>, sure that law was good,</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">&ff;or Mother Idlenes was writ in Blood</rdg>
           <rdg wit="#ee">For <seg>mother idleness was writ in blood<note type="gloss">Idleness was seen proverbially as the mother of all vice or sin. The idea expressed in this line is that such idleness (and thus vice) is inherent in human nature (“writ in blood”).</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For <seg>Mother Idleness<note type="critical">The common view of idleness as the “mother” of other sins may be informed by the feminine gendering of the Latin noun <foreign rend="italic">acedia</foreign> (listlessness, sloth, torpor).</note></seg> was <seg>writ in blood<note type="gloss">innate to humans</note></seg>.</rdg>
         </app>
       </l>
       <l n="37">
         <app>
             <rdg wit="#ft">Should hee Reform our villages and Towns</rdg>
             <rdg wit="#ee">Should he reform our villages and towns,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Should <seg>he<note type="critical">Draco</note></seg> reform our villages and towns,</rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">Wee ſhould have Empty houſes &amp; larg Grounds</rdg>
             <rdg wit="#ee">We should have empty houses and large grounds.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">We should have empty houses and <seg>large<note type="gloss">spacious, i.e. depopulated</note></seg> grounds.</rdg>
         </app>
       </l>
       <l n="39">
         <app>
             <rdg wit="#ft">That Law would take away (I fear) more lives</rdg>
             <rdg wit="#ee">That law would take away (I fear) more lives</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>That law<note type="gloss">harsh legislation like the laws that Draco established in Ancient Athens</note></seg> would take away (I fear) more lives</rdg>
         </app>
       </l>
       <l n="40">
         <app>
             <rdg wit="#ft">Of Countrey Gentlemen, and Cittizens Wives</rdg>
             <rdg wit="#ee">Of country gentlemen, and citizens’ wives,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Of country gentlemen and citizens’ wives</rdg>
         </app>
       </l>
       <l n="41">
         <app>
             <rdg wit="#ft">Then of the Natives Blood <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Spaniards Spil’d</rdg>
           <rdg wit="#ee">Than of the <seg>natives’ blood the Spaniards spilled<note type="critical">Eardley notes this is a reference to colonial Spanish massacres of native peoples in South America, perhaps known to Pulter thanks to popular Protestant and anti-Spanish polemics.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Than of the <seg>natives’<note type="gloss">indigenous peoples in the Americas</note></seg> blood the Spaniards spilled,</rdg>
         </app>
       </l>
       <l n="42">
         <app>
             <rdg wit="#ft">Or in theſe times our Seeking Saints have Kil’d</rdg>
           <rdg wit="#ee">Or in these times <seg>our seeking saints<note type="critical">Pulter appears to characterize “saints” pejoratively here, likely in reference to the Puritanical (Calvinistic) opposition to her Royalist politics: this sect often referred to God’s chosen people (the elect) as saints; here, “seeking” likely means harassing or persecuting.</note></seg> have killed.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or in these times <seg>our seeking saints have killed<note type="critical">This line is probably a reference to Puritans, who referred to themselves as “saints” (among other terms). Pulter’s royalist perspective informs a great deal of her poetry. Several of her other poems address the imprisonment and execution of Charles I, as well as the deaths of her friends, George Lisle and Charles Lucas, royalist commanders who were executed after the Siege of Colchester ended in August 1648.</note></seg>.</rdg>
         </app>
       </l>
       <l n="43">
         <app>
             <rdg wit="#ft">Then doe Some good whilst Light and Life have</rdg>
             <rdg wit="#ee">Then do some good whilst light and life have;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then do some good whilst light and life you have;</rdg>
         </app>
       </l>
       <l n="44">
         <app>
             <rdg wit="#ft">The Idle Man Anticipates the Grave.</rdg>
             <rdg wit="#ee">The idle man anticipates the grave.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The idle man anticipates the grave.</rdg>
         </app>
       </l>
         <app>
@@ -502,3 +502,4 @@
     </body>
   </text>
 </TEI>
+

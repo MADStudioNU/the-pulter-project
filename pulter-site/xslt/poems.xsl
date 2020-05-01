@@ -3246,7 +3246,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="60">
-      <pp:title>Extremely I Deplore Your Loss</pp:title>
+      <pp:title>To Sir William Davenant: Upon the Unspeakable Loss of the Most Conspicuous and Chief Ornament of His Frontispiece</pp:title>
       <pp:firstLine>Sir, Extremely I deplore your loss</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Gasparo Tagliacozzi, Illustration, plate 8, from De curtorum chirurgia per insitionem 1597, cropped. Typ 525.97.820, Houghton Library, Harvard University. Public Domain.</pp:sourceStatement>
@@ -3916,6 +3916,18 @@
     </pp:poem>
     <pp:poem id="76">
       <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="a-creature-called-a-cannibal">-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
+<!--          <pp:title>A creature called a cannibal?</pp:title>-->
+<!--          <pp:peek>What kind of animal is Pulter’s cannibal? She appears to be describing a marsupial, a pouch-bearing mammal native to North America and Australia.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="indulgent-parenting">-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
+<!--          <pp:title>Indulgent Parenting</pp:title>-->
+<!--          <pp:peek>In several poems, Pulter explores the implications of a parenting style that she calls “indulgent.” The…</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
@@ -4734,7 +4746,8 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-      </pp:editions><pp:curations>
+      </pp:editions>
+      <pp:curations>
       <pp:curation status="on" hash="cetacean-relations">
         <pp:author>Aylin Malcolm</pp:author>
         <pp:title>Cetacean Relations</pp:title>
@@ -4923,8 +4936,8 @@
       <pp:title>British Brennus (Emblem 51)</pp:title>
       <pp:firstLine>Come, my dear pledges of our constant loves</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement></pp:sourceStatement>
-        <pp:sourceLink ref=""/>
+        <pp:sourceStatement>Pierre Woeiriot (II), De stier van Phalaris, 1542–1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.157228"/>
       </pp:poster>
 <!--      <pp:editions>-->
 <!--        <pp:edition type="elemental">-->
