@@ -3915,7 +3915,33 @@
       </pp:editions>
     </pp:poem>
     <pp:poem id="76">
-      <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
+      <pp:title>Wisest Creatures (Emblem 10)</pp:title>
+      <pp:firstLine></pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>mother</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>food</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>protection</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+      </pp:keywords>
       <pp:curations>
         <pp:curation status="on" hash="a-creature-called-a-cannibal">
           <pp:author>Elizabeth Kolkovich</pp:author>
