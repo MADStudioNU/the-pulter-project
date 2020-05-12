@@ -3916,7 +3916,7 @@
     </pp:poem>
     <pp:poem id="76">
       <pp:title>Wisest Creatures (Emblem 10)</pp:title>
-      <pp:firstLine></pp:firstLine>
+      <pp:firstLine>Some birds there be, sure they no love do lack</pp:firstLine>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
