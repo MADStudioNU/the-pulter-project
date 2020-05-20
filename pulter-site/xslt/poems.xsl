@@ -2054,6 +2054,18 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>Aurora</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="christian-mortalism">
+          <pp:author>Kenneth Graham</pp:author>
+          <pp:title>Christian Mortalism from the Bible to Pulter</pp:title>
+          <pp:peek>Pulter’s frequent references to a soul that sleeps may be no more than metaphorical flights of fancy, but they may also be contributions to an ancient debate about what happens to the soul after death.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-poetry-of-night-and-day">
+          <pp:author>Kenneth Graham</pp:author>
+          <pp:title>The Poetry of Night and Day</pp:title>
+          <pp:peek>Poems like “Aurora [2]” contribute to literary traditions that draw on the imagery and mythologies of day and night, light and dark, to write about good and evil, life and death.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="38">
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
@@ -3637,6 +3649,13 @@
         <pp:tag>virtue</pp:tag>
         <pp:tag>Aletheia</pp:tag>
       </pp:tags>
+      <pp:curations>
+      <pp:curation status="on" hash="blessed-steps">
+        <pp:author>Millie Godfery and Sarah C. E. Ross</pp:author>
+        <pp:title>Blessed Steps</pp:title>
+        <pp:peek>Pulter invites her children, in her second emblem, to follow her ascension of what she calls “blessed steps,” which she identifies with a sequence of virtuous abstractions starting (appropriately, at the bottom) with “Humility” and ending with “Charity.”</pp:peek>
+      </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="69">
       <pp:title>Heliotropians (Emblem 3)</pp:title>
