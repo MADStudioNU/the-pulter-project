@@ -1266,7 +1266,7 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="elemental">
+        <pp:edition type="amplified">
           <pp:author>Lara Dodds</pp:author>
         </pp:edition>
       </pp:editions>
