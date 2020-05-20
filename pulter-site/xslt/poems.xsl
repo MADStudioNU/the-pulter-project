@@ -4775,14 +4775,14 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-      </pp:editions><pp:curations>
-      <pp:curation status="on" hash="cetacean-relations">
+      </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="cetacean-relations">
         <pp:author>Aylin Malcolm</pp:author>
         <pp:title>Cetacean Relations</pp:title>
         <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
-      </pp:curation>
-    </pp:curations>
-
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
