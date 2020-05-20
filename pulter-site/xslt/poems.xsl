@@ -2206,7 +2206,7 @@
       </pp:curations>
     </pp:poem>
     <pp:poem id="40">
-      <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
+      <pp:title>My Soul, Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
