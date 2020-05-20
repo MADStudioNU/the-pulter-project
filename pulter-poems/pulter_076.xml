@@ -88,7 +88,7 @@
         </hyphenation>
       </editorialDecl>
       <charDecl>
-        
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
         <glyph xml:id="ffllig">
           <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
         </glyph>
@@ -109,14 +109,14 @@
         <language ident="en-GB">British English</language>
       </langUsage>
       <textClass>
-        
+        <!-- dewey decimal system class code 821: English Poetry -->
         <classCode scheme="DDC22">821</classCode>
       </textClass>
     </profileDesc>
   </teiHeader>
   <facsimile>
-    
-      <graphic url="./document_images/7610_198.jpg" xml:id="f7610_198"/>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_198.jpg" xml:id="f7610_198"/>
   </facsimile>
   <text>
     <front>
@@ -124,28 +124,23 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
 <!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
-<!--          <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Zeman Kolkovich</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>Elizabeth Kolkovich</persName>.</witness>-->
         </listWit>
       </div>
     </front>
 
     <body>
 
+      <!-- Each pagebreake should be represented wih a block like this with the correct facs reference-->
       <app>
         <rdg wit="#ft">
-           <pb ed="#ft" facs="#f7610_198" n="97v"/>
+          <pb ed="#ft" facs="#f7610_198" n="97v"/>
         </rdg>
         <rdg wit="#ee">
-           <pb ed="#ee" facs="#f7610_198"/>
+          <pb ed="#ee" facs="#f7610_198"/>
         </rdg>
         <rdg wit="#ae">
-           <pb ed="#ae" facs="#f7610_198"/>
-        </rdg>
-      </app>
-
-      <app>
-        <rdg type="milestone" wit="#ft">
-           <milestone unit="poem" rend="straight-ascendline"/>
+          <pb ed="#ae" facs="#f7610_198"/>
         </rdg>
       </app>
 
@@ -177,9 +172,9 @@
 
       <l n="1">
         <app>
-            <rdg wit="#ft"><seg>Some<note type="physical">in left margin, over several lines: “a: The Birds of / Paradice Mintia / Co<hi rend="overline">m̄</hi>ont on Dubert: / the 5<add place="above">th</add> day &ff;ol: 241”</note></seg> <add place="above">a</add> Birds their bee Sure they noe love doe lack</rdg>
-            <rdg wit="#ee">Some <seg>birds<note type="gloss">As a marginal note in the scribe’s hand explained, these are “The Birds of Paradise, Mintia” (It is not clear what “Mintia” references but the correct animal described here is a manucodiat). The marginal note then provides the source of this information as a commentary on the poems of Guillaume de Saluste du Bartas, the renowned French sixteenth-century religious poet. The marginal note refers specifically to Simon Goulart’s commentary on Du Bartas’s Semaines (“Weeks”), epic poems expounding on the book of Genesis in the Bible, which were divided into the days of the week of creation. See <bibl>Simon Goulart, <title rend="italic">A Learned Summary Upon the Famous Poem of William of Salust, Lord Bartas</title> (London,1621), 5<add place="above">th</add> day, p. 241.</bibl></note></seg> there be, sure they no love do lack,</rdg>
-            <rdg wit="#ae">Some <seg>birds<note type="gloss">A marginal note in the scribe’s hand identifies these as “Birds of Paradise” and refers to Simon Goulart’s commentary on Du Bartas’s Semaines (1621), the fifth day, folio 241 (sig. Ii1r). Goulart describes this bird as shrouded in mystery and the subject of fables: it has no feet or wings but somehow remains perpetually in the air and therefore is never observed unless dead. A bird that transcends the earth appeals to the desire expressed by many of Pulter’s poems to move past mortal suffering and focus on heavenly reward. Pulter writes in more detail about birds of paradise (“manucodiats”) in <ref type="p-poem-ref" corresp="71">Emblem 5</ref>, including their generosity and parental unity when laying and protecting eggs.</note></seg> there be, sure they no love do lack,</rdg>
+            <rdg wit="#ft"><seg>Some<note type="physical">in left margin, over several lines: “a: The Birds of / Paradice Mintia / Com̄ont on Dubert: / the 5<add place="above">th</add> day &ff;ol: 241”</note></seg> <add place="above">a</add> Birds their bee Sure they noe love doe lack</rdg>
+            <rdg wit="#ee">Some <seg>birds<note type="gloss">As a marginal note in the scribe’s hand explained, these are “The Birds of Paradise, Mintia” (It is not clear what “Mintia” references but the correct animal described here is a manucodiat). The marginal note then provides the source of this information as a commentary on the poems of Guillaume de Saluste du Bartas, the renowned French sixteenth-century religious poet. The marginal note refers specifically to Simon Goulart’s commentary on Du Bartas’s <title rend="italic">Semaines</title> (“Weeks”), epic poems expounding on the book of Genesis in the Bible, which were divided into the days of the week of creation. See <bibl>Simon Goulart, <title rend="italic">A Learned Summary Upon the Famous Poem of William of Salust, Lord Bartas</title> (London,1621), 5<add place="above">th</add> day, p. 241.</bibl></note></seg> there be, sure they no love do lack,</rdg>
+            <rdg wit="#ae">Some <seg>birds<note type="gloss">A marginal note in the scribe’s hand identifies these as “Birds of Paradise” and refers to Simon Goulart’s commentary on Du Bartas’s <title rend="italic">Semaines</title> (1621), the fifth day, folio 241 (sig. Ii1r). Goulart describes this bird as shrouded in mystery and the subject of fables: it has no feet or wings but somehow remains perpetually in the air and therefore is never observed unless dead. A bird that transcends the earth appeals to the desire expressed by many of Pulter’s poems to move past mortal suffering and focus on heavenly reward. Pulter writes in more detail about birds of paradise (“manucodiats”) in <ref type="pp-poem-ref" corresp="71">Emblem 5</ref>, including their generosity and parental unity when laying and protecting eggs.</note></seg> there be, sure they no love do lack,</rdg>
         </app>
       </l>
       <l n="2">
@@ -192,13 +187,13 @@
       <l n="3">
         <app>
             <rdg wit="#ft">But of all Beasts the cunning <add place="above">b</add> Caniball</rdg>
-            <rdg wit="#ee">But of all beasts the <seg>cunning canibal<note type="gloss">Pulter does not refer here literally to a creature that eats its own kind but to an animal called a canibal, which she also references in “Why Must I Thus Forever Be Confined” (Poem 57). This poem does go on in later lines, however, to tease out the other meanings of this term by pointing to other animals that use a strikingly benevolent form of temporary cannibalism to protect their young. A marginal note in this poem directs the reader to information on this maternal creature (perhaps a possum) in Goulart’s commentary on Du Bartas’s poetry (in the section, “the 6<add place="above">th</add> Day”; although the page noted is 165, the correct page number is 265). The marginal note then testifies that the beast had been seen at Baldock Fair in 1653. “Baldock is a town in Hertfordshire, not far from where Pulter lived, which traditionally held fairs on the feasts of St. James, St. Andrew, and St. Matthew (July 25, November 30, and September 21)” (Eardley). The word “cunning” can simply mean clever practical skill, but it could hint of a deceptive craftiness.</note></seg></rdg>
-            <rdg wit="#ae">But of all beasts, the <seg>cunning<note type="gloss">Knowledgeable or clever. Can also have negative connotations (crafty, sly, opportunistic).</note></seg> <seg>cannibal<note type="gloss">In the margins, the scribe cites Simon Goulart’s commentary on Du Bartas’s Semaines (1621), the sixth day, folio 165 (an error for folio 265), and says a cannibal is a beast “seen by many at Baldock Fair 1653.” See <ref type="pp-curations-ref" target="#ctxs">A creature called a cannibal?</ref> for Goulart’s description of this creature; the Baldock Charter Fair was a street fair established by Royal Charter in Baldock, Hertfordshire.</note></seg></rdg>
+          <rdg wit="#ee">But of all beasts the <seg>cunning canibal<note type="gloss">Pulter does not refer here literally to a creature that eats its own kind but to an animal called a canibal, which she also references in <ref type="pp-poem-ref" corresp="57"> “Why Must I Thus Forever Be Confined” (Poem 57) </ref>. This poem does go on in later lines, however, to tease out the other meanings of this term by pointing to other animals that use a strikingly benevolent form of temporary cannibalism to protect their young. A marginal note in this poem directs the reader to information on this maternal creature (perhaps a possum) in Goulart’s commentary on Du Bartas’s poetry (in the section, “the 6<add place="above">th</add> Day”; although the page noted is 165, the correct page number is 265). The marginal note then testifies that the beast had been seen at Baldock Fair in 1653. “Baldock is a town in Hertfordshire, not far from where Pulter lived, which traditionally held fairs on the feasts of St. James, St. Andrew, and St. Matthew (July 25, November 30, and September 21)” (Eardley). The word “cunning” can simply mean clever practical skill, but it could hint of a deceptive craftiness.</note></seg></rdg>
+            <rdg wit="#ae">But of all beasts, the <seg>cunning<note type="gloss">Knowledgeable or clever. Can also have negative connotations (crafty, sly, opportunistic).</note></seg> <seg>cannibal<note type="gloss">In the margins, the scribe cites Simon Goulart’s commentary on Du Bartas’s <title rend="italic">Semaines</title> (1621), the sixth day, folio 165 (an error for folio 265), and says a cannibal is a beast “seen by many at Baldock Fair 1653.” See <ref type="pp-curations-ref" target="#ctxs">A creature called a cannibal?</ref> for Goulart’s description of this creature; the Baldock Charter Fair was a street fair established by Royal Charter in Baldock, Hertfordshire.</note></seg></rdg>
         </app>
       </l>
       <l n="4">
         <app>
-            <rdg wit="#ft">In <seg>kindnes<note type="physical">in left margin, over several lines: “b: the Same __ / Co<hi rend="overline">m̄</hi>etit <w><abbr>y<hi rend="superscript">e</hi></abbr></w> 6:<add place="above">th</add> day / folio 165. / Such a Beast was / Seen by many at / Buldock &ff;air / 1653”; ascending straight line beneath</note></seg> <seg><del>to</del> <add place="below">\</add><add place="above">to \</add><note type="physical">original “to” blotted; insertion in H2</note></seg> her Young excels them all</rdg>
+          <rdg wit="#ft"><seg>In<note type="physical">in left margin, over several lines: “b: the Same __ / Com̄etit <w><abbr>y<hi rend="superscript">e</hi></abbr></w> 6:<add place="above">th</add> day / folio 165. / Such a Beast was / Seen by many at / Buldock &ff;air / 1653”; ascending straight line beneath</note></seg> kindnes <seg><del>to</del> <add place="below">\</add><add place="above">to \</add><note type="physical">original “to” blotted; insertion in H2</note></seg> her Young excels them all</rdg>
             <rdg wit="#ee">In kindness to her young excels them all.</rdg>
             <rdg wit="#ae">In kindness to her young excels them all.</rdg>
         </app>
@@ -219,7 +214,7 @@
       </l>
       <l n="7">
         <app>
-            <rdg wit="#ft"><seg>As<note type="physical">in left margin, over several lines: after erased “A”, “<del>c: As the</del> [with double strike-through] / c: <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Co<hi rend="overline">m̄</hi>etit on / Duburtus ye 5<add place="above">th</add> day”</note></seg> the Sea <add place="above">c</add> &ff;ox all &ff;iſhes doth out go</rdg>
+            <rdg wit="#ft"><seg>As<note type="physical">in left margin, over several lines: after erased “A”, “<del>c: As the</del> [with double strike-through] / c: <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Com̄etit on / Duburtus ye 5<add place="above">th</add> day”</note></seg> the Sea <add place="above">c</add> &ff;ox all &ff;iſhes doth out go</rdg>
             <rdg wit="#ee">As the <seg>sea fox<note type="gloss">a thrasher shark. A marginal note directs the reader again to information about this animal in Goulart’s 1621 commentary on the poetry of Du Bartas (the section labeled “The 5<add place="above">th</add> Day”).</note></seg> all fishes doth outgo</rdg>
             <rdg wit="#ae">As the <seg>sea fox<note type="gloss">A kind of fish. Philemon Holland’s 1603 translation of <bibl>Plutarch’s <title rend="italic">The Philosophy</title></bibl> describes it as an especially clever fish: “The sea fox will not many times come near unto a hook, he recoileth back and is afraid of some deceitful guile; but say that he chance to be surprised quickly, he maketh shift to wind himself off again: for such is his strength, agility and slippery moisture withal that he will turn himself upside down with his tail upward, in such sort, that when by overturning his stomach all within is come forth, it can not choose but the hook looseth the hold which it had and falleth forth” (p. 971). At this moment in Pulter’s manuscript, a marginal note cites Simon Goulart’s commentary on <bibl>Du Bartas’s <title rend="italic">Semaines</title> (1621)</bibl>, the fifth day. Goulart identifies the sea fox as a predatory fish with a long tail who loves its young: “if any danger happen them, he presently swalloweth them down and keepeth them alive in his body, then being escaped, he casteth them up as he received them” (sig. Ff3r-Ff3v). A second note in Pulter’s manuscript draws attention to Goulart, Pliny, and Plutarch on the stork–a bird that does not appear in this poem.</note></seg> all fishes doth outgo</rdg>
         </app>
@@ -315,6 +310,11 @@
             <rdg wit="#ae">Are worse than birds, beasts, fishes, or insects.</rdg>
         </app>
       </l>
+      <app>
+        <rdg type="milestone" wit="#ft">
+          <milestone unit="poem" rend="straight-ascendline"/>
+        </rdg>
+      </app>
     </body>
   </text>
 </TEI>

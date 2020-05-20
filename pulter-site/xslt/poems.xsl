@@ -2206,7 +2206,7 @@
       </pp:curations>
     </pp:poem>
     <pp:poem id="40">
-      <pp:title>My Soul: Why Art Thou Full of Trouble?</pp:title>
+      <pp:title>My Soul, Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
@@ -3915,7 +3915,33 @@
       </pp:editions>
     </pp:poem>
     <pp:poem id="76">
-      <pp:title>The Cunning Canibal (Emblem 10)</pp:title>
+      <pp:title>Wisest Creatures (Emblem 10)</pp:title>
+      <pp:firstLine>Some birds there be, sure they no love do lack</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>mother</pp:tag>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>food</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>protection</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+      </pp:keywords>
 <!--      <pp:curations>-->
 <!--        <pp:curation status="on" hash="a-creature-called-a-cannibal">-->
 <!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
@@ -4746,8 +4772,7 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-      </pp:editions>
-      <pp:curations>
+      </pp:editions><pp:curations>
       <pp:curation status="on" hash="cetacean-relations">
         <pp:author>Aylin Malcolm</pp:author>
         <pp:title>Cetacean Relations</pp:title>
