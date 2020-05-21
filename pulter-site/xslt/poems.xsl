@@ -3939,15 +3939,19 @@
     <pp:poem id="76">
       <pp:title>Wisest Creatures (Emblem 10)</pp:title>
       <pp:firstLine>Some birds there be, sure they no love do lack</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:poster>
+        <pp:sourceStatement>Stefano della Bella, Vrouw met baby zittend op een taboeret, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.76725"/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>parents</pp:tag>
@@ -3964,18 +3968,18 @@
         <pp:keyword>parenting</pp:keyword>
         <pp:keyword>Christianity</pp:keyword>
       </pp:keywords>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="a-creature-called-a-cannibal">-->
-<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
-<!--          <pp:title>A creature called a cannibal?</pp:title>-->
-<!--          <pp:peek>What kind of animal is Pulter’s cannibal? She appears to be describing a marsupial, a pouch-bearing mammal native to North America and Australia.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="indulgent-parenting">-->
-<!--          <pp:author>Elizabeth Kolkovich</pp:author>-->
-<!--          <pp:title>Indulgent Parenting</pp:title>-->
-<!--          <pp:peek>In several poems, Pulter explores the implications of a parenting style that she calls “indulgent.” The…</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="a-creature-called-a-cannibal">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>A creature called a cannibal?</pp:title>
+          <pp:peek>What kind of animal is Pulter’s cannibal? She appears to be describing a marsupial, a pouch-bearing mammal native to North America and Australia.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="indulgent-parenting">
+          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:title>Indulgent Parenting</pp:title>
+          <pp:peek>In several poems, Pulter explores the implications of a parenting style that she calls “indulgent.” The…</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="77">
       <pp:title>The Dubious Raven (Emblem 11)</pp:title>
