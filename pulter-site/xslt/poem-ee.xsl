@@ -798,7 +798,7 @@
         <xsl:value-of select="$currentSegNotesCount"/>
       </xsl:attribute>
       <xsl:attribute name="data-note-length">
-        <xsl:value-of select="string-length(./tei:note/node())"/>
+        <xsl:value-of select="string-length(./tei:note)"/>
       </xsl:attribute>
       <xsl:attribute name="data-note-edition">
         <xsl:value-of select="$elementalEditionId"/>
