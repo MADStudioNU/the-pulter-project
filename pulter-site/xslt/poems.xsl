@@ -3936,6 +3936,10 @@
     <pp:poem id="76">
       <pp:title>Wisest Creatures (Emblem 10)</pp:title>
       <pp:firstLine>Some birds there be, sure they no love do lack</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Stefano della Bella, Vrouw met baby zittend op een taboeret, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.76725"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
