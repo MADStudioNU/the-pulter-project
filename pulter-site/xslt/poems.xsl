@@ -3352,7 +3352,8 @@
         <pp:tag>violence</pp:tag>
         <pp:tag>bible</pp:tag>
         <pp:tag>rebellion</pp:tag>
-        <pp:tag>treachery</pp:tag>      </pp:tags>
+        <pp:tag>treachery</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
@@ -3653,11 +3654,11 @@
         <pp:tag>Aletheia</pp:tag>
       </pp:tags>
       <pp:curations>
-      <pp:curation status="on" hash="blessed-steps">
-        <pp:author>Millie Godfery and Sarah C. E. Ross</pp:author>
-        <pp:title>Blessed Steps</pp:title>
-        <pp:peek>Pulter invites her children, in her second emblem, to follow her ascension of what she calls “blessed steps,” which she identifies with a sequence of virtuous abstractions starting (appropriately, at the bottom) with “Humility” and ending with “Charity.”</pp:peek>
-      </pp:curation>
+        <pp:curation status="on" hash="blessed-steps">
+          <pp:author>Millie Godfery and Sarah C. E. Ross</pp:author>
+          <pp:title>Blessed Steps</pp:title>
+          <pp:peek>Pulter invites her children, in her second emblem, to follow her ascension of what she calls “blessed steps,” which she identifies with a sequence of virtuous abstractions starting (appropriately, at the bottom) with “Humility” and ending with “Charity.”</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="69">
