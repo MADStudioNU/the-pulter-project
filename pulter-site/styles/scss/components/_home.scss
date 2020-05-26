@@ -6,6 +6,7 @@
   position: relative;
   color: #fff;
   background: #181818;
+  overflow-x: hidden;
 
   &::after {
     content: '';
