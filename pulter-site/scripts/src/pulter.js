@@ -68,9 +68,9 @@ var PP = (function ($) {
 
       // Enable Flowtype
       $body.flowtype({
-        fontRatio: 75,
+        fontRatio: 85,
         minimum: 600,
-        maximum: 1600,
+        maximum: 1200,
         minFont: 10,
         maxFont: 48
       });
@@ -430,7 +430,7 @@ var PP = (function ($) {
 
           // Enable Flowtype
           $body.flowtype({
-            fontRatio: 75,
+            fontRatio: 85,
             minimum: 600,
             maximum: 1200,
             minFont: 10,

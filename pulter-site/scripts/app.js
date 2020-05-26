@@ -434,7 +434,7 @@ var PP = (function ($) {
             minimum: 600,
             maximum: 1200,
             minFont: 10,
-            maxFont: 48
+            maxFont: 40
           });
 
           // Set the posters
