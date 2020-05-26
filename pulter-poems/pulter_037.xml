@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Kenneth Graham</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
         <app type="title">
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">105</fw>Aurora [2]</rdg>
             <rdg wit="#ee">Aurora [2]</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">Aurora [2]</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -157,7 +157,10 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote"><p>This is a modern (Canadian) spelling edition that preserves the capitalization of nouns when they clearly refer to mythological beings. I have also modernized punctuation. References to the Bible are to the 1611 Authorized Version (the King James Bible).</p>
+                <p>My only controversial editorial decision is to remove the word “but” from the final line, where the manuscript reading of “but in” adds an extrametrical syllable without, in my view, strengthening the meaning of the line.  There are three reasons for making this change. First, Pulter is an excellent metrist, and in no other poem does she allow a comparable metrical interruption – an extra syllable not easily elided – in the final line. Second, phrases such as “in endless love” and “in endless glory” are so frequent in her poetry as to be formulaic (I count eight), and two poems echo the “end in endless” formula of “Aurora [2]”: <ref type="pp-poem-ref" corresp="10">“Upon the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10)</ref>, “Which now her soul doth end in endless glory” (l. 34), and <ref type="pp-poem-ref" corresp="32">“Aletheia’s Pearl” (Poem 32)</ref>, “My troubles all would end in endless glory” (l. 48). In no other case does she add a “but.” Third, while “but” could combine with “in” to give the sense of “only in,” serving, in effect, as an intensifier, it appears to me that this locution normally followed “never,” hence retaining some of the adversative function of “but.” For example, Robert Bolton writes that the “heart of man” without God “shall never find rest; but in endless woe and restless torments” (<bibl><title rend="italic">Mr. Bolton’s Last and Learned Work of the Four Last Things</title> [London, 1632], 225 [modernized]</bibl>), while William Jemmat claims that “Faith never leaves the soul, but in endless and unspeakable blessedness” (<bibl><title rend="italic">The Rock, or, A Settled Heart in Unsettled Times</title> [London, 1644], 28 [modernized]</bibl>). In short, the manuscript line is metrically clumsy, uncharacteristic of Pulter in its phrasing, and somewhat unidiomatic.</p>
+                  <p>Of course, none of this proves beyond a reasonable doubt that the manuscript is corrupt here, so if I were publishing a conventional edition of the poem I might have decided, despite these reservations, to include the full line as it is written in the manuscript.  But knowing that <title rend="italic">The Pulter Project</title> makes other versions of the poem available to readers allows me to publish what I suspect, based on the preponderance of the evidence, is the line Pulter wrote.</p>
+              </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -165,7 +168,7 @@
               <note type="headnote">The unfailing daily return of dawn offered Pulter a figure she returned to often in her verse, as in this, her second poem called “Aurora” and the fifth poem in the manuscript dedicated to this figure. The poem begins as an imploring address from a melancholy speaker to a classical goddess, dawn’s personification; but if this poem participates in the genre of the aubade—addresses to the dawn—it is complicated by originating in pitch blackness: an objectionable condition from which the speaker seeks Aurora as savior. But she no sooner makes this appeal than she castigates it as a kind of optico-spiritual error, stemming from the limited vision of her mortal form; she thus reminds herself that earthly darkness is merely a matter of perspective: the lights in fact are always on, and someone’s always home, even if we cannot see them. The illumination in question is, of course, not just the astronomical kind (from the sun, the source of dawn’s light) but the sort associated here with truth and eternal life. The poem ends with a visionary cavalcade of physical and allegorical detail, anticipating what such heavenly light is like—and, with even plain daylight being so desirable, a sense of how much better it must be.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote">“Aurora [2]” holds a central place in Pulter’s poetic exploration of life, death, and rebirth. Characteristically, the poem draws upon both a Classical understanding of the mythical contest between the creative forces of light and the destructive forces of darkness and a Christian belief in the ultimate triumph of supernatural good over evil. At the mythical level, the forces of darkness and death are represented chiefly by Night, while Aurora shines the light of joy and love. As a Christian text, the poem draws its inspiration at least partly from 1 Corinthians 15:51-53, which reveals a mysterious change that will take place at the last trumpet, when the dead shall rise and “put on” immortality – as an alternative to sleep. There is some tension between the poem’s Classical and Christian elements, and the tension plays out in the personal drama of a speaker who expresses “fear” in lines 5-6, criticizes such fearful thoughts as foolish in line 7, and devotes the remainder of the poem to Christian consolation. The poem shifts decisively from its Classical to its Christian frame of reference with the appeal to the “Word” at line 9, and at lines 13-14 introduces what will be its chief metaphorical conceit: Night is to death as day is to the Resurrection. This is a familiar conceit, expressed in detail by George Gascoigne (see the Curation for this poem, <ref type="pp-curations-ref" target="#ctxs">“The Poetry of Night and Day”</ref>), and present elsewhere in Pulter’s own verse (see especially <ref type="pp-poem-ref" corresp="40">“My Soul, Why Art Thou Full of Trouble?” [Poem 40]</ref>: “This life’s a dream of mirth or sorrow / Envelopèd in night. / The Resurrection’s like the morrow / As full of life as light” (ll.5-8)). But the strength of the poem lies in Pulter’s ability to bring new life to familiar materials. Here, her materials include the mythology of Aurora and Night, the philosophy of mortalism and atomic dissolution, and a number of biblical commonplaces.</note>
           </rdg>
         </app>
       </head>
@@ -174,140 +177,140 @@
         <app>
             <rdg wit="#ft">Lovly Aurora, when wilt thou apear?</rdg>
           <rdg wit="#ee">Lovely <seg>Aurora<note type="gloss">classical goddess of the dawn</note></seg>, when wilt thou appear,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Lovely <seg>Aurora<note type="gloss">the Roman goddess of the dawn. Aurora appears in various forms in Classical literature, from the famous “rosy-fingered Dawn” of the Iliad to Ovid and Virgil. Alice Eardley notes that Pulter “draws particularly heavily on symbolism relating to cycles of light and dark, at the heart of which appears Aurora, Roman goddess of dawn, or the morning, and her daughter Astraea, or Truth, who brings light to the world after a period of darkness” (<bibl>Eardley, ed., <title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, by Lady Hester Pulter, The Other Voice in Early Modern Europe: The Toronto Series vol. 32 [Iter and Centre for Reformation and Renaissance Studies, 2014], 27</bibl>).</note></seg>, when wilt thou appear</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">And with thy Lightſom looks, my Spirit Cheer.</rdg>
           <rdg wit="#ee">And with thy <seg>lightsome<note type="gloss">graceful, elegant; light-hearted, cheerful, merry; enlivening, entertaining; nimble, quick</note></seg> looks my spirit cheer?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And with thy lightsome looks my spirit cheer?</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Mee thinks thou let’st old Night too much prevail,</rdg>
           <rdg wit="#ee">Methinks thou let’st old <seg>Night<note type="gloss">classical goddess (Nyx)</note></seg> too much prevail;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Methinks thou let’st old <seg>Night<note type="gloss">As in “Aurora [1],” Night is one of Aurora’s chief antagonists, a menacing maternal figure whose illegitimate children (the “black Embryons” of line 12, and the “Spurious breed” of <ref type="pp-poem-ref" corresp="3">“Aurora [1]” (Poem 3)</ref>, l. 37) include Death, Doom, and Fate. For a longer list, see the note to “embryos” in the Elemental Edition.</note></seg> too much prevail;</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Shee too Long laps us, in her Sable vail:</rdg>
           <rdg wit="#ee">She too long <seg>laps<note type="gloss">enfolds, wraps; hems in; embraces</note></seg> us in her <seg>sable<note type="gloss">black</note></seg> veil,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">She too long <seg>laps<note type="gloss">enfolds or wraps (OED)</note></seg> us in her <seg>sable veil<note type="critical">That night wore a sable veil was a poetic commonplace. A particularly distinguished example appears in Mary Sidney Herbert’s translation of Psalm 139: “Do thou thy best, O secret night, / In sable veil to cover me: / Thy sable veil / Shall vainly fail. / With day unmasked my night shall be, / For night is day, and darkness light, / O father of all lights, to thee” (<bibl><title rend="italic">The Sidney Psalter</title>, ed. Hannibal Hamlin, Michael G. Brennan, Margaret P. Hannay, and Noel J. Kinnamon [Oxford: Oxford University Press, 2009], ll.36-42</bibl>).</note></seg>,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Which makes mee fear, confuſed Chaos might</rdg>
           <rdg wit="#ee">Which makes me fear confuséd <seg>Chaos<note type="gloss">oldest of the classical gods, and parent of Night (Nyx)</note></seg> might</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which makes me fear confusèd <seg>Chaos<note type="gloss">the primordial state before the creation of the universe, typically described as confused because it contained only formless matter. For Pulter, it was a state of darkness, as in Genesis 1:2, immediately before God creates light: “And the earth was without form, and void; and darkness was upon the face of the deep.” For a comparison, see <ref type="pp-poem-ref" corresp="16">“The Revolution” (Poem 16)</ref>, ll. 13-15: “Shouldst thou thy glorious beams recall, / To horrid chaos they would fall / And darkness would involve them all.” Writers have long associated Chaos with Night. In Hesiod’s <title rend="italic">Theogony</title>, for example, Chaos is the mother of Night, while in Milton’s <title rend="italic">Paradise Lost</title> Night is the consort of Chaos.</note></seg> might</rdg>
         </app>
       </l>
       <l n="6">
         <app>
           <rdg wit="#ft">Involv this Globe, (once more) in <seg>Shades<note type="physical">“d” written over other letter</note></seg> of Night.</rdg>
           <rdg wit="#ee"><seg>Involve<note type="gloss">enfold, envelop</note></seg> this globe (once more) in shades of Night.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Involve<note type="gloss">Pulter frequently uses this word in its Latin sense of enwrap or envelope.</note></seg> this globe (once more) in shades of night.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">&ff;ool that I am, Soe &ff;ooliſhly to think,</rdg>
             <rdg wit="#ee">Fool that I am, so foolishly to think,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Fool that I am, so foolishly to <seg>think<note type="critical">the rhyme between “think” and (in the next line) “wink” may recall some lines in another aubade, Donne’s “The Sun Rising”: “Thy beams, so reverend, and strong / Why shouldst thou think? / I could eclipse and cloud them with a wink, / But that I would not lose her sight so long” (<bibl><title rend="italic">John Donne</title>, ed. John Carey [Oxford: Oxford University Press, 1990], ll.11-14</bibl>). Whether intentional or not, the echo points the contrast between the two morning poems. For Donne’s speaker, lying happily in bed with his beloved, the sun is a “Busy old fool” with the potential to interrupt his bliss, while for Pulter darkness distracts from the truth represented by the light of day. In Donne’s more conventional aubade, dawn arrives too soon; in Pulter’s poem, it cannot arrive soon enough.</note></seg>,</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">As if t’were dark becauſe my eyes doe wink.</rdg>
             <rdg wit="#ee">As if ’twere dark, because my eyes do wink,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">As if ’twere dark because my eyes do wink,</rdg>
         </app>
       </l>
       <l n="9">
         <app>
           <rdg wit="#ft">When hee <seg>(hath Said) (whoſe<note type="physical">parentheses lighter than surrounding marks; last one may be imperfectly erased</note></seg> word Shall never fayle,</rdg>
             <rdg wit="#ee">When He hath said (whose word shall never fail),</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">When he hath said (whose <seg>Word<note type="gloss">God’s Word, including the biblical promise of everlasting life</note></seg> shall never fail)</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">That Truth, and Light, and Life, Should Still <w lemma="prevail"><abbr>p:<hi rend="superscript">e</hi>vail</abbr></w>.</rdg>
             <rdg wit="#ee">That truth, and light, and life should still prevail.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That truth and light and life should <seg>still<note type="gloss">always</note></seg> prevail.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Then doe but Shew the Luster of thine Eye,</rdg>
           <rdg wit="#ee">Then do but show the <seg>luster<note type="gloss">sheen; beautiful radiance; splendour, glory</note></seg> of <seg>thine<note type="gloss">Aurora’s</note></seg> eye,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then do but show the lustre of thine eye,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
           <rdg wit="#ft">And theſe black <seg>Embryons<note type="physical">“y”, in thicker ink, written over earlier letter(s)</note></seg> <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> their Dam will fly.</rdg>
           <rdg wit="#ee">And these black <seg>embryos<note type="gloss">unborn or not yet fully formed offspring; here, in allusion to the offspring of the classical Night, including Doom, Fate, Death, Dreams, Blame, Misery, the Hesperides, the Destinies (or Parcae), Nemesis, Deceit, Lovemaking, Old Age, and Strife. Hesiod, <title rend="italic">The Poems of Hesiod: Theogony, Works and Days, and the Shield of Herakles</title> (2017), 42, 45.</note></seg> with their dam will <seg>fly<note type="gloss">flee; rise suddenly into the air</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And these black <seg>Embryons<note type="gloss">embryos</note></seg> with their dam will fly.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">If Day (my Soul) Soe Delectable bee,</rdg>
           <rdg wit="#ee">If day (my soul) so <seg>delectable<note type="gloss">delightful, pleasant</note></seg> be,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">If day (my soul) so <seg>delectable<note type="critical">Pulter may have accented the first and third syllables, as in Latin <foreign rend="italic">delectare</foreign>, to delight.</note></seg> be,</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">What will the Resurrection bee to thee</rdg>
           <rdg wit="#ee">What will the <seg>Resurrection<note type="gloss">the process, predicted in biblical book of Revelation, by which souls will be restored to their bodies and raised to heaven; also known as the second coming of Christ or Final Judgment</note></seg> be to thee?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">What will the <seg>Resurrection<note type="gloss">the rising of the dead, usually understood in Christian theology to occur at the Last Judgement (when the last trumpet of line 15 shall sound). This is sometimes called the General Resurrection, as distinguished from the Resurrection of Christ.</note></seg> be to thee?</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">When as the last (&amp; lowdest) Trump Shall Sound,</rdg>
           <rdg wit="#ee"><seg>Whenas<note type="gloss">when</note></seg> the last (and loudest) <seg>trump<note type="gloss">the trumpet of the Last Judgment; Revelation 8-11.</note></seg> shall sound,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Whenas<note type="gloss">when</note></seg> the last (and loudest) <seg>trump shall sound<note type="critical">“Behold, I shew you a mystery; We shall not all sleep, but we shall all be changed, In a moment, in the twinkling of an eye, at the last trump: for the trumpet shall sound, and the dead shall be raised incorruptible, and we shall be changed. For this corruptible must put on incorruption, and this mortal must put on immortality” (1 Cor. 15:51-53)</note></seg>,</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Which will bee heard the Univerſall Round,</rdg>
             <rdg wit="#ee">Which will be heard the universe all round,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which will be heard the universal round,</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">That from our Drowſey Cauſes Shall us wake:</rdg>
           <rdg wit="#ee">That from our drowsy <seg>causes<note type="critical">As Eardley notes, “Pulter uses the term to draw a connection between the grave (i.e., the earth), the atoms or first principles of which organisms are composed, and the origins of life; i.e., when living beings die they return to their place of origin.”</note></seg> shall us wake:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That from our drowsy <seg>causes<note type="critical">In Pulter’s poems, causes are typically the places where bodies, dissolved into their elements (the “dust” of line 18), sleep while awaiting a call to new life. Causes, then, are also places of origin, holding the matter that will produce a thing. Pulter’s use of the term likely derives at least in part from the Aristotelian idea of the material cause, “that out of which a thing comes to be and which persists” (<bibl>Aristotle, <title rend="italic">Physics</title> II.3, in <title rend="italic">Basic Works of Aristotle</title>, ed. Richard McKeon [New York: Random House, 1941], 240</bibl>). The mid-seventeenth century provides some close parallels. For example, a song in Thomas Carew’s 1640 <title rend="italic">Poems</title> begins, “Ask me no more where Jove bestows, / When June is past, the fading rose; / For in your beauty’s orient deep / These flowers, as in their causes, sleep” (<bibl><title rend="italic">Seventeenth-Century British Poetry, 1603-1660</title>, ed. John P. Rumrich and Gregory Chaplin [New York: Norton, 2006], 317</bibl>); and in <title rend="italic">Religio Medici</title> (1642) Sir Thomas Browne describes human life before conception as “that general and common existence we are conceived to hold in our Chaos, and while we sleep within the bosom of our causes” (<bibl><title rend="italic">Selected Writings</title>, ed. Geoffrey Keynes [Chicago: University of Chicago Press, 1968], 46 [modernized]</bibl>). Other instances in Pulter’s poems include <ref type="pp-poem-ref" corresp="6">“Universal Dissolution, Made When I Was with Child, of my 15th Child, my Son, John, I Being, Everyone Thought, in a Consumption, 1648” (Poem 6)</ref> (“Trust me, they seem to hang their heads and weep / ’Cause in their causes they so soon must sleep” (ll.13-14; also lines 32 and 46)); <ref type="pp-poem-ref" corresp="39">“The Perfection of Patience and Knowledge” (Poem 39)</ref> (“The chicken in the shell lies still, / So doth the embryo in the womb, / So doth the corpse within the tomb, / So doth the flower sleep in its cause, / Obedient all to Nature’s laws” (ll.2-6)); and <ref type="pp-poem-ref" corresp="47">“Why Art Thou Sad at the Approach of Night” (Poem 47)</ref> (“In causes all sleep best” (l.32)).</note></seg> shall us wake,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Then Shall wee Darknes, Dust, and Death, of Shake,</rdg>
           <rdg wit="#ee">Then shall we darkness, <seg>dust<note type="gloss">disintegrated matter; also original, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>, and death off shake,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then shall we darkness, dust, and death <seg>off shake<note type="gloss">A common inversion of shake off. Shaking the dust off one’s feet is a gesture of departure in several New Testament texts (see Matthew 10:14, Mark 6:11, Luke 9:5, and Acts 13:51), and is used in this sense by Fulke Greville in <title rend="italic">Caelica</title> 88: “When thou the dust hast shaken from thy feet” (<bibl><title rend="italic">Selected Poems</title>, ed. Thom Gunn [Chicago: University of Chicago Press, 1968], l.14</bibl>). Sleep, too, was sometimes said to be shaken off. A close parallel to Pulter’s lines appears in Richard Lovelace’s “Night. To Lucasta,” where Lucasta plays the role Aurora plays in Pulter’s poem: “Night! loathed jailor of the locked up sun, / And tyrant-turnkey on committed day; /… Thou dost arise our living hell, / With thee groans, terrors, furies dwell, / Until Lucasta doth awake, / And with her beams these heavy chains off shake.” For the complete text of Lovelace’s poem, see <ref type="pp-curations-ref" target="#ctxs">“The Poetry of Night and Day”</ref> in Curations.</note></seg>,</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">And in our Sleeping Urns noe longer lie,</rdg>
           <rdg wit="#ee">And in our sleeping <seg>urns<note type="gloss">metaphorically, tombs</note></seg> no longer lie,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And in our <seg>sleeping<note type="critical">Many (but not all) of Pulter’s poems are consistent with the controversial doctrine of mortalism, defined by the OED as “The belief that the soul is mortal and dies with the body, or lies unconscious until the final resurrection.” Mortalist belief was often expressed after the Reformation through the metaphor of sleep, as it may have been by Pulter. See <ref type="pp-curations-ref" target="#ctxs">“Christian Mortalism from the Bible to Pulter”</ref> in Curations.</note></seg> <seg>urns<note type="critical">The dead in Pulter’s poems often sleep in urns, awaiting rebirth. The closest parallel is found in <ref type="pp-poem-ref" corresp="39">“The Perfection of Patience and Knowledge” (Poem 39)</ref>: “But oh my soul, once more, return, / And call me in my silent urn. / But if asleep I then am found, / Jog me, and say the trump doth sound” (ll. 22-25). Also see  <ref type="pp-poem-ref" corresp="6">“Universal Dissolution, Made When I Was with Child, of my 15th Child, my Son, John, I Being, Everyone Thought, in a Consumption, 1648” (Poem 6)</ref> and <ref type="pp-poem-ref" corresp="40">“My Soul, Why Art Thou Full of Trouble?” (Poem 40)</ref>. Urns are frequently a place of final rest in Roman epitaphs and in seventeenth-century poetry. The last line of Robert Herrick’s “The Dirge of Jephthah’s Daughter,” for example, is “And leave thee sleeping in thy urn” (<bibl><title rend="italic">His Noble Numbers</title> [London, 1647], 27</bibl>).</note></seg> no longer lie;</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">But beeing cloathd with imortality;</rdg>
             <rdg wit="#ee">But being clothed with immortality,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But being <seg>clothed with immortality<note type="gloss">A religious commonplace, perhaps deriving from 1 Corinthians 15:51-53, where it offers a transformative alternative to sleeping (see note above to “trump shall sound”)</note></seg>,</rdg>
         </app>
       </l>
         <app>
@@ -330,28 +333,28 @@
         <app>
             <rdg wit="#ft">Guided by Grace, and Truth, where Love doth<add place="below">^</add><add place="above">Dwell</add></rdg>
             <rdg wit="#ee">Guided by Grace and Truth where Love doth dwell,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Guided by grace and truth, where love doth dwell,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Whilst Night, Death, Error, Shall bee trod to Hell.</rdg>
             <rdg wit="#ee">Whilst Night, Death, Error shall be trod to Hell.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Whilst Night, death, error, shall be trod to hell,</rdg>
         </app>
       </l>
       <l n="23">
         <app>
           <rdg wit="#ft">Then on <seg>Soft<note type="physical">“S” corrects earlier letter</note></seg> mercies Wings Ile mount aboue;</rdg>
             <rdg wit="#ee">Then on soft mercy’s wings I’ll mount above</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then on soft <seg>mercy’s wings<note type="critical">a common conceit, suggested by Psalm 17:7-8: “Shew thy marvellous lovingkindness, O thou that savest by thy right hand them which put their trust in thee from those that rise up against them. Keep me as the apple of the eye, hide me under the shadow of thy wings.” For example, a 1646 edition of <title rend="italic">The Psalter of David with Titles and Collects</title> follows this psalm with a prayer reading, in part, “hide us under the shadow of thy wings of mercy and providence” (27)</note></seg> I’ll mount above,</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Where all Shall end, but in endles Joy &amp; love.</rdg>
             <rdg wit="#ee">Where all shall end, but in endless joy and love.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Where all shall end <seg>in<note type="gloss">the manuscript reads “but in.” See the Editorial Note for discussion of this emendation.</note></seg> <seg>endless joy and love<note type="critical">this phrase also ends <ref type="pp-poem-ref" corresp="42">“Pardon Me, My Dearest Love” (Poem 42)</ref> and appears in <ref type="pp-poem-ref" corresp="26">“To Aurora [2]” (Poem 26)</ref>, l. 14</note></seg>.</rdg>
         </app>
       </l>
         <app>
