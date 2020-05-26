@@ -5632,10 +5632,6 @@
             </a>
           </footer>
         </div>
-        <div id="pp-home-image-collection">
-          <img src="/images/pp-manuscript-o.png" />
-          <img src="/images/table-cloth-flowers.jpg" />
-        </div>
         <div id="editions-blurb" class="lightbox-content">
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Edition Types</h3>
