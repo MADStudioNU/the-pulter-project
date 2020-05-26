@@ -484,7 +484,7 @@
       <pp:firstLine>Is Lisle and Lucas slain? O say not so!</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>The Loyall Sacrifice, after 1648. Trustees of the British Museum. CC BY-NC-SA 4.0.</pp:sourceStatement>
-        <pp:sourceLink ref=""/>
+        <pp:sourceLink ref="//www.britishmuseum.org/collection/object/P_1896-1230-4"/>
       </pp:poster>
       <pp:keywords>
         <pp:keyword>royalism</pp:keyword>
