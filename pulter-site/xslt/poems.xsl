@@ -974,11 +974,6 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="circles-and-labyrinths">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
-          <pp:title>Circles and Labyrinths</pp:title>
-          <pp:peek>Mary Wroth’s “A Crown of Sonnets Dedicated to Love” is a corona of sonnets, each starting with the last line of the previous poem. As well as being formally circular, it is also about the cyclical, entrapping experience of love, and features a famous image of a labyrinth, used originally by Petrarch.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="circles-in-alchemy">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
           <pp:title>Circles in Alchemy</pp:title>
