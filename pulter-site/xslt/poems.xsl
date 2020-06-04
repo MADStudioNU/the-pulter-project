@@ -1976,7 +1976,7 @@
       <pp:firstLine>The eternal Spirit of life and love</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Anonymous, God the father, 17th century. © Trustees of the British Museum. CC BY-NC-SA 4.0.</pp:sourceStatement>
-        <pp:sourceLink ref=""/>
+        <pp:sourceLink ref="//www.britishmuseum.org/collection/object/P_1955-0616-1"/>
       </pp:poster>
       <pp:keywords>
         <pp:keyword>God</pp:keyword>
