@@ -2909,7 +2909,7 @@
       <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Basilius Besler, Copper engraving of the Crown Imperial: Corona Imperialis Polyanthos (Fritillaria imperialis), 1613. Kew collection. © Board of Trustees, RBG Kew.</pp:sourceStatement>
-        <pp:sourceLink ref="//powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
+        <pp:sourceLink ref="http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
