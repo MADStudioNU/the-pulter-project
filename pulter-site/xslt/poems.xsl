@@ -3792,7 +3792,7 @@
       <pp:firstLine>Two mountebanks contended for a stage</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Caspar Luyken, Mirandors broer in dienst bij een kwakzalver, die zijn toneel op een marktplein heeft opgeslagen, 1695. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.377261"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.41496"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
