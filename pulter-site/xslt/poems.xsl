@@ -4000,6 +4000,13 @@
     </pp:poem>
     <pp:poem id="78">
       <pp:title>This Vast Leviathan (Emblem 12)</pp:title>
+      <pp:firstLine>This vast leviathan, whose breathing blows</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="79">
       <pp:title>The Porcupine (Emblem 13)</pp:title>
@@ -4190,6 +4197,13 @@
     </pp:poem>
     <pp:poem id="83">
       <pp:title>The Piper of Hamelin (Emblem 17)</pp:title>
+      <pp:firstLine>When God (who is to mercy most inclined)</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
     </pp:poem>
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
