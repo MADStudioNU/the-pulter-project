@@ -4632,7 +4632,7 @@
       <pp:title>Mark but those Hogs (Emblem 34)</pp:title>
     </pp:poem>
     <pp:poem id="100">
-      <pp:title>This Soul, that Bird, and Fish (Emblem 35)</pp:title>
+      <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
     </pp:poem>
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
