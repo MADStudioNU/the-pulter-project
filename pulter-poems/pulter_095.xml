@@ -1,3 +1,350 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.95">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Ugly Sow (Emblem 30)</title>
+        <title type="sub">Poem 95</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_225.jpg" xml:id="f7610_225"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_225" n="111r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_225"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_225"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">30</fw>[Emblem 30]</rdg>
+          <rdg wit="#ee">The Ugly Sow (Emblem 30)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Pigs, boars, and hogs do not fare well in Pulter’s moral zoo. As in <ref type="pp-poem-ref" corresp="99">“Mark But Those Hogs” (Emblem 34)</ref> where grunting, earth-bound pigs are unfavorably compared to heavenly turtledoves, Pulter here contrasts the filth of pigs to the purity of ermines. Citing proverbial, biblical, and mythological sources, Pulter explores the pig’s refusal to remain pure even when cleansed: like the dog who slurps up his own vomit, the pig almost cannot resist falling back into muddy cycles of immorality. Pulter interprets the ermine’s legendary willingness to sacrifice herself rather than have her fur tainted in Christian terms: her whiteness is precious because washed by Christ’s blood. The poem is formally innovative in dividing into two sections, each composed of two stanzas of triplets followed by a 6-line stanza of couplets. While the narrator seems to be guiding readers from a position of moral confidence, the ending couplet transforms into a plea that makes her complicit in the struggle to avoid being swine-like in the mire of life.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+        <lg n="1" type="stanza"> <l n="1">
+        <app>
+            <rdg wit="#ft">  This Ugly Sow descended of that Bore</rdg>
+            <rdg wit="#ee">This ugly sow, descended of <seg>that boar<note type="gloss">the boar that killed Adonis when he was hunting; Venus, Adonis’s lover, had warned him not to engage in this deadly sport.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft"> Which Epitragius, Lovers intrales Tore</rdg>
+            <rdg wit="#ee">Which <seg>Epitragia’s<note type="gloss">Aphrodite Epitragia (“riding on a she-goat”) was another name for Venus, goddess of love, reputedly derived from a story in which Theseus sacrificed a goat to her and it changed genders.</note></seg>, lover’s entrails tore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Whoſe death the Queen of Love did Soe deplore</rdg>
+            <rdg wit="#ee">Whose death the <seg>queen of love<note type="gloss">Venus, or Aphrodite</note></seg> did so <seg>deplore<note type="gloss">lament</note></seg>:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="2" type="stanza"> <l n="4">
+        <app>
+            <rdg wit="#ft">  This lothſome Beast beſmear’d <w lemma="what"><abbr>w:<hi rend="superscript">t</hi></abbr></w> dirt &amp; blood</rdg>
+            <rdg wit="#ee">This loathsome beast, besmeared with dirt and blood,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Being newly waſh’d in Yonder Cristall flood</rdg>
+            <rdg wit="#ee">Being newly washed in yonder crystal flood,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Yet now you See Shee’s wallowing in the Mud</rdg>
+            <rdg wit="#ee">Yet now you see she’s wallowing in the mud.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="3" type="stanza"> <l n="7">
+        <app>
+            <rdg wit="#ft">Soe penitence and pennance, Some noe more</rdg>
+            <rdg wit="#ee">So penitence and penance, some no more</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Doe valew, then to Sin on A new Score</rdg>
+            <rdg wit="#ee">Do value than to sin on a new <seg>score<note type="gloss">account or reckoning</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Thus like the dog they to their vomit turn</rdg>
+            <rdg wit="#ee">Thus <seg>like the dog they to their vomit turn<note type="gloss">proverbial. “But it is happened unto them according to the true proverb, The dog is turned to his own vomit again; and the sow that was washed to her wallowing in the mire” (2 Peter 2:22). See also “As a dog returneth to his vomit, so a fool returneth to his folly” (Proverbs 26:11).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Licking that ffilth up which they Seem’d to Spurn</rdg>
+            <rdg wit="#ee">Licking that filth up which they seemed to spurn;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">But thoſe which loathingly their Sins deplore</rdg>
+            <rdg wit="#ee">But those which loathingly their sins deplore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Beeing Cleans’d if poſſible will Sin noe more</rdg>
+            <rdg wit="#ee">Being cleansed, if possible will sin no more.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="4" type="stanza"> <l n="13">
+        <app>
+            <rdg wit="#ft">But as the Ermine (which you See purſued</rdg>
+            <rdg wit="#ee">But as <seg>the ermine<note type="gloss">animal in the weasel family known for its white coat; an emblem of purity</note></seg> (which you see pursued</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">By thoſe which long to have their chaps imbru’de</rdg>
+            <rdg wit="#ee">By <seg>those which long to have their chaps imbrued<note type="gloss">hunting dogs who long to bite the ermine, having their jaws (“chaps) “imbrued” (stained) with blood.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">In innocent blood) by Nature <seg>is<note type="physical">“s” written over another letter</note></seg> indu’de</rdg>
+            <rdg wit="#ee">In innocent blood) by Nature is <seg>endued<note type="gloss">invested; endowed</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="5" type="stanza"> <l n="16">
+        <app>
+            <rdg wit="#ft">With Such a loathing of impuritie</rdg>
+            <rdg wit="#ee">With such a loathing of impurity,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Rather then o’re a dirty place Shee’l flie</rdg>
+            <rdg wit="#ee">Rather than o’er a dirty place <seg>she’ll fly<note type="gloss">the ermine will flee</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Sheel Yield unto her Curſed foes and die</rdg>
+            <rdg wit="#ee"><seg>She’ll yield unto her cursed foes and die<note type="gloss">The ermine was legendary for being willing to die rather than have her pure white fur blemished.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg n="6" type="stanza"> <l n="19">
+        <app>
+            <rdg wit="#ft">Soe Shee that knows her Self to bee Gods Child</rdg>
+            <rdg wit="#ee">So she that knows herself to be God’s child</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Will die A Thouſand deaths e’re bee defild</rdg>
+            <rdg wit="#ee">Will die a thousand deaths <seg>ere<note type="gloss">before</note></seg> be defiled.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Shee knows her Saviours guiltles blood did flow</rdg>
+            <rdg wit="#ee">She knows <seg>her Savior’s guiltless blood did flow<note type="gloss">Christ sacrificed himself in being crucified.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">To waſh her sinfull Soul as white as Snow</rdg>
+            <rdg wit="#ee">To wash her sinful soul as white as snow.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then Ermin like let my Sad Soul expire</rdg>
+            <rdg wit="#ee">Then ermine-like let my sad soul expire,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft"><seg>Whi<add place="below">v</add><add place="above">l</add>st<note type="physical">caret inverted</note></seg> others Hoglike tumble in the Mire.</rdg>
+            <rdg wit="#ee">Whilst others hog-like tumble in the <seg>mire<note type="gloss">mud; state of degradation</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+        
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+        
+    </body>
+  </text>
 </TEI>
