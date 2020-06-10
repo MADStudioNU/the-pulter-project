@@ -1,3 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.99">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Mark But Those Hogs (Emblem 34)</title>
+        <title type="sub">Poem #99</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Katrina Garofalo</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+      <graphic url="./document_images/7610_230.jpg" xml:id="f7610_230"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_230" n="113v"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_230"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_230"/>
+        </rdg>
+      </app>
+      
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">34</fw>[Emblem 34]</rdg>
+            <rdg wit="#ee">Mark But Those Hogs (Emblem 34)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Which would you rather be: hog or dove? Pulter makes the choice even easier than it might first seem with her contrasting portraits of the dietary habits of each creature. Grunting hogs root for nuts with their snouts in the dirt, never even thinking to thank those who made them fall to the ground in the first place, while turtledoves alternate between dainty sips, grateful prayers, and thoughts of still higher things than mere food and drink. But then comes the twist: doves, though innocent, are often sacrificial victims, while hogs, through no virtue of their own, have the good fortune to be banned from the altar. This is the moral quandary on which Pulter’s final invocation turns: knowing all this, <hi rend="italic">now</hi> which would you rather be? She claims the choice remains clear.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <lg type="stanza" n="1"><l n="1">
+        <app>
+            <rdg wit="#ft">Mark but those Hogs <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> underneath yond tree</rdg>
+            <rdg wit="#ee"><seg>Mark but<note type="gloss">Consider only, or just notice</note></seg> those hogs which, underneath <seg>yon<note type="gloss">that (implying something within view)</note></seg> tree</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Nuſling and eating Acorns, you may See</rdg>
+            <rdg wit="#ee"><seg>Nuzzling<note type="gloss">digging or rooting up with the snout</note></seg> and eating acorns, you may see:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">they never cast an eye to thoſe which Shake</rdg>
+            <rdg wit="#ee"><seg>They never cast an eye to those which shake;<note type="gloss">Eardley notes that the shaking of acorns from trees was a common practice among swine farmers.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Soe thankles People doe Gods bleſſings take</rdg>
+            <rdg wit="#ee">So thankless people do God’s blessings take</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">And never doe his bounteous Love Adore</rdg>
+            <rdg wit="#ee">And never do His bounteous love adore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">But Swiniſhly Root on and Grunt for more</rdg>
+            <rdg wit="#ee">But swinishly root on and grunt for more;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Soe gripeing Worldlings Still their Wealthe increase</rdg>
+            <rdg wit="#ee">So <seg>griping worldlings<note type="gloss">someone who is grasping or greedy and dedicated to earthly (instead of heavenly) pleasures and interests</note></seg> still their wealth increase</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">And onely pray their bags may Rest in peace</rdg>
+            <rdg wit="#ee">And only pray their <seg>bags<note type="gloss">money bags</note></seg> may rest in peace;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Soe Grumbling &ff;armers Still turn up the Earth</rdg>
+            <rdg wit="#ee">So grumbling farmers still turn up the earth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">&ff;earing that every Shower will cauſ a Dearth</rdg>
+            <rdg wit="#ee"><seg>Fearing that every shower will cause a dearth.<note type="gloss">The misguided farmers (from the line above) plow their fields, but are overly concerned that rain will kill the crops) rather than appreciating the nourishing rain from heaven.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Even Soe voluptius Gallants dance along</rdg>
+            <rdg wit="#ee">Even so <seg>voluptuous gallants<note type="gloss">“gallants” are men and women of fashion and pleasure who are inclined to “voluptuous” ease, luxury, and gratification of the senses</note></seg> dance along,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Their meetings ending in A drunken Song</rdg>
+            <rdg wit="#ee">Their meetings ending in a drunken song.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l></lg>
+      <lg type="stanza" n="2"><l n="13">
+        <app>
+            <rdg wit="#ft">When Like the Chast &amp; conſtant turtle Dove</rdg>
+            <rdg wit="#ee">When, like the chaste and constant turtledove,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Which takes a Sip then throws her eyes above</rdg>
+            <rdg wit="#ee">Which takes a sip then throws her eyes above,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Gods Children here but Sip of Terren Toys</rdg>
+            <rdg wit="#ee">God’s children here but sip of <seg>terrene toys<note type="gloss">“toys” are amorous sports; trumpery, rubbish, playthings, amusements; “terrene” can mean earthly, secular, temporal, material, or human</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Then turn their thoughts to true Celestiall Joys</rdg>
+            <rdg wit="#ee">Then turn their thoughts to true celestial joys,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Like Innocent Doves they often victims die</rdg>
+            <rdg wit="#ee">Like innocent doves, they often victims die,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">When Hogs his Sacred Alter come not Nie</rdg>
+            <rdg wit="#ee">When <seg>hogs His sacred altar come not nigh<note type="critical">Eardley notes the biblical allusions in this line and the one above: “Isa. 66:3 states that the sacrificing of swine pollutes the sacred church and is therefore an abomination. Here this is compared with the sacrifice of the doves in Luke 2:24, which provides a prefiguration of the death of Christ.”</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Then let the Reader trie, which best hee loves</rdg>
+            <rdg wit="#ee">Then let the reader <seg>try<note type="gloss">sift or distinguish; ascertain, find out (i.e., by effort or experiment, effort, experience); test, put to proof</note></seg> which best he loves</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">To imitate, baſe Hogs or Turtle Doves</rdg>
+            <rdg wit="#ee">To imitate: base hogs or turtledoves.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">But as for mee ’tis my Souls Sole deſire</rdg>
+            <rdg wit="#ee">But as for me, ’tis my soul’s sole desire</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Like Spotles Doves to live and Soe expire.</rdg>
+            <rdg wit="#ee">Like <seg>spotless<note type="gloss">innocent, free from sin, pure</note></seg> doves to live and so expire.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
