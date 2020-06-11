@@ -4588,9 +4588,40 @@
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
+      <pp:firstLine>This ugly sow, descended of that boar</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>innocence</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>pigs</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>innocence</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>soul</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
+      <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords></pp:keywords>
+      <pp:tags></pp:tags>
     </pp:poem>
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
@@ -4651,6 +4682,15 @@
     </pp:poem>
     <pp:poem id="99">
       <pp:title>Mark but those Hogs (Emblem 34)</pp:title>
+      <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords></pp:keywords>
+      <pp:tags></pp:tags>
     </pp:poem>
     <pp:poem id="100">
       <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
