@@ -4625,6 +4625,29 @@
     </pp:poem>
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
+      <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>monarchy</pp:keyword>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>parenting</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>monarchy</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>jealousy</pp:tag>
+        <pp:tag>elephant</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>parenting</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="98">
       <pp:title>This Fell Catablepe (Emblem 33)</pp:title>

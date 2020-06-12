@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_227" type="pageNum" place="margin-topright">32</fw>[Emblem 32]</rdg>
-            <rdg wit="#ee">The Lion and the Ass (Emblem 32)</rdg>
+            <rdg wit="#ee">The Lion and the Ass<lb/>(Emblem 32)</rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>
         <app type="editorialnote">
