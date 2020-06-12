@@ -4681,7 +4681,7 @@
       </pp:curations>
     </pp:poem>
     <pp:poem id="99">
-      <pp:title>Mark but those Hogs (Emblem 34)</pp:title>
+      <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
       <pp:editions>
         <pp:edition type="elemental">
@@ -4896,7 +4896,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="105">
-      <pp:title>View but this Tulip (Emblem 40)</pp:title>
+      <pp:title>View But This Tulip (Emblem 40)</pp:title>
       <pp:firstLine>View but this tulip, rose, or gillyflower</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>François van Bleyswijck, Stadsgezicht met Domkerk te Utrecht en allegorie met drie geleerden, 1681-1746. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
