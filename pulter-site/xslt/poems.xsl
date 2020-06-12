@@ -4739,15 +4739,15 @@
         <pp:keyword>sacrifice</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tags>animals</pp:tags>
-        <pp:tags>pigs</pp:tags>
-        <pp:tags>money</pp:tags>
-        <pp:tags>ingratitude</pp:tags>
-        <pp:tags>birds</pp:tags>
-        <pp:tags>sacrifice</pp:tags>
-        <pp:tags>purity</pp:tags>
-        <pp:tags>drink</pp:tags>
-        <pp:tags>food</pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>pigs</pp:tag>
+        <pp:tag>money</pp:tag>
+        <pp:tag>ingratitude</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>purity</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>food</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="100">
