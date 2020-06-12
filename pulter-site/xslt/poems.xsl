@@ -4620,8 +4620,28 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+      <pp:keywords>
+        <pp:keyword>fate</pp:keyword>
+        <pp:keyword>mortality</pp:keyword>
+        <pp:keyword>writing</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>prophecy</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>writer</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>author</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
@@ -4712,8 +4732,23 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:keywords></pp:keywords>
-      <pp:tags></pp:tags>
+      <pp:keywords>
+        <pp:keyword>pigs</pp:keyword>
+        <pp:keyword>money</pp:keyword>
+        <pp:keyword>ingratitude</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tags>animals</pp:tags>
+        <pp:tags>pigs</pp:tags>
+        <pp:tags>money</pp:tags>
+        <pp:tags>ingratitude</pp:tags>
+        <pp:tags>birds</pp:tags>
+        <pp:tags>sacrifice</pp:tags>
+        <pp:tags>purity</pp:tags>
+        <pp:tags>drink</pp:tags>
+        <pp:tags>food</pp:tags>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="100">
       <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
