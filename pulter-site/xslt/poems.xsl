@@ -4752,6 +4752,32 @@
     </pp:poem>
     <pp:poem id="100">
       <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
+      <pp:firstLine>Seest thou this horizontal bird, whose eyes</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>constancy</pp:keyword>
+        <pp:keyword>purity</pp:keyword>
+        <pp:keyword>creation</pp:keyword>
+        <pp:keyword>comfort</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>constancy</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>Heaven</pp:tag>
+        <pp:tag>sight</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>purity</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>comfort</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
