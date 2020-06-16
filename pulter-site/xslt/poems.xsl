@@ -3619,16 +3619,16 @@
         <pp:sourceStatement>Jan Collaert I, The Seven Virtues in a Roundel, with Faith at the Center, mid-16th century. The Metropolitan Museum of Art; 2000.372. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//www.metmuseum.org/art/collection/search/342989"/>
       </pp:poster>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Millie Godfery</pp:author>
-          <pp:author>Sarah C. E. Ross</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Millie Godfery</pp:author>-->
+<!--          <pp:author>Sarah C. E. Ross</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:keywords>
         <pp:keyword>virtues</pp:keyword>
         <pp:keyword>Christianity</pp:keyword>
