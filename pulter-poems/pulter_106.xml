@@ -1,3 +1,434 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.106">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Ostrich (Emblem 41)</title>
+        <title type="sub">Poem #106</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Katrina Garofalo</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Sam Nguyen</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="./document_images/7610_241.jpg" xml:id="f7610_241"/>
+      <graphic url="./document_images/7610_242.jpg" xml:id="f7610_242"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+            <pb ed="#ft" facs="#f7610_241" n="119r"/>
+        </rdg>
+        <rdg wit="#ee">
+            <pb ed="#ee" facs="#f7610_241"/>
+        </rdg>
+        <rdg wit="#ae">
+            <pb ed="#ae" facs="#f7610_241"/>
+        </rdg>
+      </app>
+ 
+      <head>
+        <app type="title">
+            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">41</fw>[Emblem 41]</rdg>
+            <rdg wit="#ee">The Ostrich (Emblem 41)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">The mother ostrich in this emblem is doubly vain, since her high self-regard (or vanity) coincides with her deeply inadequate parenting skills, such that “she lays and labors all in vain.” While the speaker might first play the haughty ostrich for laughs, this emblem’s primary concern connects with several deeply serious poems by Pulter on the importance of loving (or even “indulgent”) parenting. Examples of birds who exhibit better and worse mothering are woven throughout this heartfelt critique of English parents who “sell their children, ne’er to see them more” – a shocking claim that brings into the poem’s orbit the slave trade in Africa and the English subjection of the Irish. These moral and social failures provide a sharp contrast to the divine parent-child relations she posits as a model for the wisdom of her attachment to her own offspring. The speaker ends with a humble plea to God to let her be an instrument to reproduce not just children but the blessing of love.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">The Estrich with her gallant gaudy plum̄es</rdg>
+            <rdg wit="#ee">The ostrich, with her <seg>gallant gaudy plumes<note type="gloss">gorgeous or showy (“gallant”) brilliantly fine or ornate (“gaudy”) feathers</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">In her great wit and Courage Soe Preſumes</rdg>
+            <rdg wit="#ee">In her great <seg>wit<note type="gloss">intellect</note></seg> and courage so presumes</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">That as with wind and wing upright Shees bo’rn</rdg>
+            <rdg wit="#ee">That, <seg>as with<note type="gloss">since with</note></seg> wind and wing upright she’s borne,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">The Horſe and’s valient Rider Shee doth Scorn</rdg>
+            <rdg wit="#ee">The horse <seg>and’s<note type="gloss">and his</note></seg> valiant rider she doth scorn.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">But folly is Concom̃itant with Pride</rdg>
+            <rdg wit="#ee">But folly is <seg>concomitant<note type="gloss">concurrent, accompanied</note></seg> with pride,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">&ff;or Shee her precious Egs in Sand doth hide</rdg>
+            <rdg wit="#ee">For she her precious eggs in sand doth hide,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">&ff;orgetting that the Travellor’s foot may Cruſh</rdg>
+            <rdg wit="#ee">Forgetting that the traveler’s foot may crush</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Their Tender Shell, nor doth Shee Care a Ruſh</rdg>
+            <rdg wit="#ee"><seg>Their tender shell<note type="critical">The preceding account closely tracks the biblical book of Job 39:14-18, in which the ostrich is described as scorning the horse and rider and being negligent of her offspring: she “leaveth her eggs in the earth, ... and forgetteth that the foot may crush them.”</note></seg>; nor doth she <seg>care a rush<note type="gloss">care at all</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Though Shee her young doe never See again</rdg>
+            <rdg wit="#ee">Though she her young do never see again.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And thus Shee lays and labours all in vain</rdg>
+            <rdg wit="#ee">And thus she lays and labors all in vain,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Cauſ God hath Underſtanding her deni’de</rdg>
+            <rdg wit="#ee">’Cause God hath understanding her denied.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">&ff;or Love, and Wiſdome, never will Reſide</rdg>
+            <rdg wit="#ee">For love and wisdom never will reside</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">With Arogance for they Are from above</rdg>
+            <rdg wit="#ee">With arrogance, for they are from above,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">&ff;rom God who is the &ff;ountain of all Love</rdg>
+            <rdg wit="#ee">From God, who is the fountain of all love.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">The Estrich then the Cuckow is &ff;ar worſs</rdg>
+            <rdg wit="#ee">The ostrich than the cuckoo is far worse,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">&ff;or Shee doth onely put her Egs to Nurſs</rdg>
+            <rdg wit="#ee">For <seg>she doth only put her eggs to nurse<note type="gloss">Many cuckoos lay their eggs in the nests of other birds, who feed (“nurse”) them.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Hard is her Meat but harder is her Heart</rdg>
+            <rdg wit="#ee"><seg>Hard is her meat<note type="gloss">The flesh of the cuckoo is tough for humans to eat.</note></seg>, but harder is her heart,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">That with her new lay’d Ovums thus can part</rdg>
+            <rdg wit="#ee">That with her new laid <seg>ovums<note type="gloss">eggs</note></seg> thus can part.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Oh my Sad Soul this mak’s my Heart e’ne bleed</rdg>
+            <rdg wit="#ee">Oh, my sad soul: this makes my heart e’en bleed!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">None but baſe Engliſh and Cams curſed Seed</rdg>
+            <rdg wit="#ee">None but base English and <seg>Ham’s curséd seed<note type="gloss">In the Bible, Ham’s son Canaan is cursed by his grandfather, Noah (Genesis 9:20-27) causing his descendants to become subject to Israelites. Numerous early modern texts suggest that Ham’s dark-skinned lineage populated Africa.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">doe</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_242" n="119v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_242"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_242"/>
+            </rdg>
+        </app>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Doe Sell their Children ne’re to See them more</rdg>
+            <rdg wit="#ee">Do <seg>sell their children, ne’er to see them more<note type="critical">Eardley suggests that this line might refer to the sale of royalist political prisoners, criminals, and Irish to the West Indies as indentured servants or slaves in the 1650s.</note></seg>!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Such Barbariſme all Christians muſt deplore</rdg>
+            <rdg wit="#ee">Such barbarism all Christians must <seg>deplore<note type="gloss">lament</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Cruell’s the Eſtrich crueller their heart</rdg>
+            <rdg wit="#ee">Cruel’s the ostrich: crueller their heart</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">That with their dear bought Children thus can part</rdg>
+            <rdg wit="#ee">That with their <seg>dear-bought<note type="gloss">obtained at a great cost</note></seg> children thus can part,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">When as the Stork her Young doe bear &amp; feed</rdg>
+            <rdg wit="#ee"><seg>Whenas<note type="gloss">When; seeing that</note></seg> the stork her young do bear and feed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft"><seg>Which<note type="physical">“ich” appears written over earlier letters</note></seg> they Retaliate in Age and Need</rdg>
+            <rdg wit="#ee"><seg>Which they retaliate in age and need––<note type="gloss">The young storks support their parents when old. Here, “retaliate” means to repay a kindness or service.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">By which the Noble Reader plain may See</rdg>
+            <rdg wit="#ee">By which the noble reader plain may see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">That &ff;ooliſh Creatures least indulgent bee</rdg>
+            <rdg wit="#ee">That foolish creatures least indulgent be.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Let Parents then to theirs extend their Love</rdg>
+            <rdg wit="#ee">Let parents then to <seg>theirs<note type="gloss">their offspring</note></seg> extend their love,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Seeing Naturall affection’s from above</rdg>
+            <rdg wit="#ee">Seeing natural affection’s from above.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Then Gracious God into my Soul infuſe</rdg>
+            <rdg wit="#ee">Then, gracious God, into my soul infuse</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Thy Love and Wiſdome that it may diffuſe</rdg>
+            <rdg wit="#ee">Thy love and wisdom, that it may diffuse</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">To all my Children great as well as leſs</rdg>
+            <rdg wit="#ee">To all my children, great as well as less;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Then ô my God that Love and Wiſdome bleſs.</rdg>
+            <rdg wit="#ee">Then, O my God, that love and wisdom bless.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
