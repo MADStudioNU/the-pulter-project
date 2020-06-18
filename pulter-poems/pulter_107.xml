@@ -1,3 +1,434 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.107">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>This Huge Leviathan (Emblem 42)</title>
+        <title type="sub">Poem #107</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Katrina Garofalo</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <graphic url="./document_images/7610_243.jpg" xml:id="f7610_243"/>
+    <graphic url="./document_images/7610_244.jpg" xml:id="f7610_244"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_243" n="120r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_243"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_243"/>
+        </rdg>
+      </app>
+    
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">42</fw>[Emblem 42]</rdg>
+          <rdg wit="#ee">This Huge Leviathan (Emblem 42)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+            <note type="headnote">What starts as a lesson in not underestimating a seemingly less powerful foe takes a dramatic turn in this emblem, which becomes a meditation on the unexpected consequences of riding animals: whales, Hydra-like horses, and demonically possessed pigs. Pulter first draws on traveler’s tales to describe the way that Native Americans use their intelligence to overpower and devour whales: after cramming poles up their nostrils, they allegedly ride the whales until they tire and beach themselves. After summing up this fable’s moral–that brains can overcome brawn–the narrator reverses both the rider’s fate and the moral by imagining Oliver Crowell figuratively riding an unruly populace. Unable to control the beast (as Native Americans so ably could), Cromwell is heading to a tragic end that Pulter aligns with the devil driving animals into eternal damnation; turning from horses to swine, Pulter imagines the fate of the nation by recounting the story of Jesus transferring demons from a person into pigs, who then drowned themselves in the ocean. In this unusual emblem, the moral shifts: a warning against pride in brawn in favor of brains converts into a plea to shake off the devil. Humans perhaps only seem superior when we subdue other creatures: we too are vulnerable to being “ridden” by forces beyond our control.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft">This huge Laviathan for all his Strength</rdg>
+            <rdg wit="#ee">This huge <seg>leviathan<note type="gloss">a large sea animal; here, a whale</note></seg>, for all his strength,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Is by an Indians Witt Subdu’d at <seg>length<note type="physical">“th” written over “ht”</note></seg></rdg>
+            <rdg wit="#ee">Is <seg>by an Indian’s wit subdued<note type="critical">In a collection of travel accounts appears a similar story: “The manner the Indians of Florida use … to take these whales … is, they … swimming approach near the whale’s side, then with great dexterity they leap to his neck, and there they ride as on horse-back, … then he thrusts a sharpe and strong stake … into the whale’s nostril, … the whale doth furiously beat the sea, and raiseth mountains of water, running into the deep with great violence, and presently riseth again, not knowing what to do for pain: the Indian still sits firm, … in the end he [the whale] comes near the land, and remains on ground by the hugeness of his body, unable any more to move; then a great number of Indians … kill him, and cut his flesh in pieces, … using it for meate.” Samuel Purchas, ed., <title rend="italic">Purchas his Pilgrims, in Five Books</title> (London, 1625), p. 931. This account derives from the account entitled “Observations … of Josephus Acosta, a Learned Jesuit, Touching the Natural History of ... the West Indies” (Book 5, Part 2, Chapter 2, Section 2).</note></seg> at length.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">Who can but Such a Monſtr’ous bulk deride</rdg>
+          <rdg wit="#ee">Who can but such a monstrous bulk deride,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft">Who Suffers one upon his Neck to Ride</rdg>
+            <rdg wit="#ee">Who <seg>suffers<note type="gloss">tolerates; permits; undergoes or endures, as with pain or distress; sustains injury</note></seg> one upon his neck to ride,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#ft">Knocking in Billets into either Noſe</rdg>
+            <rdg wit="#ee">Knocking in <seg>billets<note type="gloss">thick sticks used as a weapon</note></seg> into either <seg>nose<note type="gloss">nostril</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft">Whence Seas, and Shoals, of &ff;iſhes ever &ff;lows</rdg>
+            <rdg wit="#ee">Whence seas and <seg>shoals<note type="gloss">schools</note></seg> of fishes ever flows?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#ft">Nor cares hee though hee bounce, or &ff;lounce, or beat,</rdg>
+            <rdg wit="#ee">Nor cares <seg>he though he<note type="gloss">The first “he” is the “Indian”; the second is the whale</note></seg> bounce, or flounce, or beat</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft">Against the Rocks, yet Still hee keeps his Seat</rdg>
+          <rdg wit="#ee">Against the rocks, yet still he keeps his seat</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">And Spight of’s teeth hee Rides him to the Shores</rdg>
+            <rdg wit="#ee">And spite <seg>of’s<note type="gloss">of his (the whale’s)</note></seg> teeth, he rides him to the shores</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#ft">Where &ff;il’d with Horrour hee his Life out Rores</rdg>
+            <rdg wit="#ee">Where, filled with horror, <seg>he<note type="gloss">the whale</note></seg> his life <seg>out roars<note type="critical">both figuratively breathing out his life with a loud cry (roaring out) and competitively outroaring his life (uttering a loud cry that extends beyond his life)</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+          <rdg wit="#ft">Thus hee Triumphant Lites, thus ends his Toyl</rdg>
+            <rdg wit="#ee">Thus <seg>he triumphant lights<note type="gloss">the rider triumphantly dismounts</note></seg>; thus ends his toil,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft">Cutting his Unctious Collops out to boyl</rdg>
+            <rdg wit="#ee">Cutting his <seg>unctuous collops<note type="gloss">oily, greasy, fat, or rich pieces of flesh or slices of meat</note></seg> out to boil.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft">By this you See that Witt doth oft Subdue</rdg>
+          <rdg wit="#ee">By this you see that wit doth oft subdue</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">The greatest Strenght this <seg>Elaphants<note type="physical">“s” appears added later, in different hand from main scribe</note></seg> finds True</rdg>
+            <rdg wit="#ee">The greatest strength; <seg>this elephants find true<note type="critical">The elephant’s service to humans (construed here as strength being subdued by wit) is recounted in Pliny’s natural history, where we learn that “the king they adore, they kneel before him” and “the lesser sort … serve the Indians in good stead to care and plough their ground.” Philemon Holland, translator (1601), C. Plinius Secundus, <title rend="italic">The Historie of the World</title> (London, 1601), <ref target="https://penelope.uchicago.edu/holland/pliny8.html" type="new-window-url">Book 8, Chapter 1</ref>. Chapter 8 of the same book describes ways of hunting elephants, including one method described as “subtle and deceitful” (and thus full of wit in the early modern sense of the term).</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft">And Soe the Youths of Theſaly did tame</rdg>
+          <rdg wit="#ee">And so the youths of Thessaly did tame</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft">The Warlike Horſe, Soe Bulls they overcame</rdg>
+            <rdg wit="#ee"><seg>The warlike horse<note type="gloss">An ancient Thessalonian tribe (inhabiting a region in Greece) was renowned for its expert horsemanship.</note></seg>; so bulls they overcame,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+          <rdg wit="#ft">Whence cald Centaurus, <del>Soe against their Wills</del></rdg>
+            <rdg wit="#ee"><seg>Whence called Centaurus<note type="gloss">The Thessalonian youths who tamed horses and bulls were known as centaurs–mythical creatures with the lower body of horses and the upper body of humans–owing to their expert riding.</note></seg>; so, against their wills,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+          <rdg wit="#ft"><del>&ff;our Thouſand Whales are forcd to draw in Mills</del></rdg>
+            <rdg wit="#ee"><seg>Four thousand whales are forced to draw in mills.<note type="critical">This line and the phrase above, “So against their wills,” are struck through in the manuscript but not, we think erroneously, replaced with new text that would preserve meter and line uniformity. As a marginal note beside <ref type="pp-curations-ref" target="#ctxs">“Raccoons” (Emblem 21)</ref> specifies, a popular ethnographic traveller’s book recounted that the Chinese harnessed the labor of four thousand whales to process grain. Eardley identifies the source as Botero Giovanni, <title rend="italic">The Traveler’s Breviat; Or, an Historical Description of the Most Famous Kingdoms in the World</title> (London: 1601), p. 22.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft">Then though thy Strength &amp; Courage doe tranſcend</rdg>
+          <rdg wit="#ee">Then though thy strength and courage do transcend,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft">Bee not too Proud, nor on them both depend</rdg>
+          <rdg wit="#ee">Be not too proud, nor on them both depend;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+          <rdg wit="#ft">Doe not thy deſpicablest ffoe deſpiſe</rdg>
+          <rdg wit="#ee">Do not thy despicablest foe despise,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">&ff;or from the Vulgar one you See did Rise</rdg>
+            <rdg wit="#ee">For, from <seg>the vulgar<note type="gloss">the common crowd</note></seg>, <seg>one<note type="critical">probably referring to Oliver Cromwell, a non-elite statesman who led Parliamentarians against King Charles I during the English Civil War, and later became Lord Protector.</note></seg> you see did rise,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft">Which did the &ff;ierce and Monst’rous Hidra back</rdg>
+            <rdg wit="#ee">Which did the fierce and monstrous <seg>Hydra back<note type="gloss">The hydra was the many-headed serpent in classical mythology that could grow additional heads when one was cut off; it was commonly used to describe an unruly mob. To “back” was to mount or ride on, but also to support, bet on, or stand behind.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+          <rdg wit="#ft">The Jade was resty and did Rideing lack</rdg>
+            <rdg wit="#ee"><seg>The jade was resty and did riding lack;<note type="gloss">The horse (jade) was resistant or lazy (resty) and had not been ridden much.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">now</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_244" n="120v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_244"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_244"/>
+            </rdg>
+        </app>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Now the Tame Beast <seg>bot<add place="below">\</add><add place="above">h \</add><note type="physical">insertion marks and “h” in H2</note></seg> Whip &amp; ſpur abides</rdg>
+            <rdg wit="#ee">Now the tame beast both whip and spur abides;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Needs must they Gallop, whom <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Devill <seg>drives<note type="physical">“v” may have been written over an original medial “d,” with an initial “d” added later; alternatively, an initial “d” may have been imperfectly erased and blotted, and an original “v” changed to a medial “d.”</note></seg></rdg>
+            <rdg wit="#ee"><seg>Needs must they gallop whom the devil drives.<note type="gloss">This is a proverbial expression; the manuscript might be corrected to read “rides” instead of “drives,” or the correction might have been the reverse.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Soe when hee did poſſes the Heard of Swine</rdg>
+            <rdg wit="#ee">So when <seg>he did possess the herd of swine<note type="gloss">This line and the next refers to the biblical account of how Jesus performed an exorcism on a man by transferring the devils possessing him into a herd of swine, who then ran over a cliff and drowned in the sea (see, e.g., Mark 5:2-13). “He” in this line refers to the devil.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">They Straight Ran Headlong into Neptunes brine</rdg>
+            <rdg wit="#ee">They straight ran headlong into <seg>Neptune’s brine<note type="gloss">an epithet for the ocean (with Neptune as its god)</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Then let the giddy Monſter warning take</rdg>
+            <rdg wit="#ee">Then let the <seg>giddy monster<note type="gloss">Cromwell or any ruler relying on the animalic crowd</note></seg> warning take,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Least they precipitate into that Lake</rdg>
+            <rdg wit="#ee">Lest they <seg>precipitate<note type="gloss">be thrown suddenly or violently, especially into an undesirable state; fall headlong or plunge; hurry</note></seg> into that lake</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Where Sulphur mixt <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> never quenched &ff;ire</rdg>
+            <rdg wit="#ee"><seg>Where sulfur mixed with never-quenchéd fire,<note type="gloss">This line and the next refer to the Christian account of the end of the world when the devil, false prophets, and sinners are all cast into a burning lake of fire (hell). See Revelation 20:10 and 21:8. Sulfur was a substance associated with volcanic regions.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Where they <del>ſhall</del><seg><add place="above">Still</add><note type="physical">written directly above cancelled “ſhall,” in H2</note></seg> die yet never quite expire</rdg>
+            <rdg wit="#ee">Where they still die, yet never quite expire.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Then take my counſell &amp; the &ff;ind <seg>of<note type="physical">trailing descender from “p”above blends into “f”</note></seg> throw</rdg>
+            <rdg wit="#ee">Then take my counsel and the <seg>fiend<note type="gloss">the devil</note></seg> off throw,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Least hee and you into perdition goe</rdg>
+            <rdg wit="#ee">Lest he and you into perdition go.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
