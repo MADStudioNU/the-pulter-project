@@ -5104,7 +5104,7 @@
     </pp:poem>
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
-      <pp:firstLine>The Brahman, th’angry deities to appease,</pp:firstLine>
+      <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
