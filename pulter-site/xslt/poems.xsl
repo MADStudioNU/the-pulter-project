@@ -4630,7 +4630,7 @@
         <pp:tag>prophecy</pp:tag>
         <pp:tag>fate</pp:tag>
         <pp:tag>bird</pp:tag>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>writer</pp:tag>
         <pp:tag>bible</pp:tag>
         <pp:tag>fate</pp:tag>
@@ -4768,7 +4768,7 @@
       <pp:tags>
         <pp:tag>constancy</pp:tag>
         <pp:tag>bird</pp:tag>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>Heaven</pp:tag>
         <pp:tag>sight</pp:tag>
         <pp:tag>fish</pp:tag>
@@ -5073,6 +5073,31 @@
     </pp:poem>
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
+      <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>devil</pp:keyword>
+        <pp:keyword>Native Americans</pp:keyword>
+        <pp:keyword>demonic possession</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>whale</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>devil/demon</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>pigs</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
