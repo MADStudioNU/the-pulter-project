@@ -5104,6 +5104,39 @@
     </pp:poem>
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
+      <pp:firstLine>The Brahman, th’angry deities to appease,</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>suicide</pp:keyword>
+        <pp:keyword>rebirth</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>suicide</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>rebirth</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>parent</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>heaven</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>Christ</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
