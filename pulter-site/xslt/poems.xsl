@@ -4653,10 +4653,10 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>monarchy</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
         <pp:keyword>love</pp:keyword>
         <pp:keyword>violence</pp:keyword>
-        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>jealousy</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
