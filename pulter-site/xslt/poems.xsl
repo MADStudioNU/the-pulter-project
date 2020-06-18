@@ -5046,6 +5046,30 @@
     </pp:poem>
     <pp:poem id="106">
       <pp:title>The Ostrich (Emblem 41)</pp:title>
+      <pp:firstLine>The ostrich, with her gallant gaudy plumes</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>race</pp:keyword>
+        <pp:keyword>pride</pp:keyword>
+        <pp:keyword>parental love</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>children</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>parenting</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>Bible</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
