@@ -27,7 +27,7 @@
 	* @license vmachine.css for VM 5.0
 	* Updated: Aug 10 2015 by roman bleier
 	* Adds CSS styling to VM 5.0
-	
+
 	**/
 body {
   width: 100%;
@@ -390,13 +390,13 @@ div#mssArea div.panel div.panelLockedHeader {
    padding: 5px 7px 3px 12px;
    font-family: 'Cormorant Garamond', serif;
    font-weight: 300;
-   color: white; 
-   font-weight: normal; 
+   color: white;
+   font-weight: normal;
    background-color: #a8a8a8;
    border: 1px solid #ffffff;
    /*  box-shadow: 2px 2px 5px grey; */
    /*  opacity: 0.95; */
-   
+
    /*  don't show this panel, initially, show it only on scroll as needed */
    display: none;
 }
@@ -448,11 +448,11 @@ div#mssArea div.panel div.mssContent img.imgLink {
 }
 
  .facsimile-toggle {
-/* 
+/*
     Not presently used.
-*/ 
+*/
 }
-  
+
 .facs-images {
   float: right;
 }
@@ -485,7 +485,7 @@ div#mssArea div.panel div.noteContent div.position {
 
 div#mssArea div.panel div.noteContent div.notetype {
     margin-left: -10px;
-  
+
     text-transform: uppercase;
     letter-spacing: 0.2em;
     opacity: .66;
@@ -688,7 +688,7 @@ div.note-entry.biographical {
 }
 
 div.note-entry.gloss-original {
-  border: 0px dashed lightgreen; 
+  border: 0px dashed lightgreen;
 }
 
 div.note-entry.textual {
@@ -814,10 +814,10 @@ span.segnotespan {
 /* disabled border styling inspired by Newton letters project */
 /* replaced by more standard text decoration specification, Sept 2018 */
 .rend-overline {
-  /* 
+  /*
    * border-width: 1px;
    * border-style: solid none none none;
-   */  
+   */
    text-decoration: overline;
 }
 
@@ -913,12 +913,15 @@ div.poemend img {
 }
 
 div.milestone.left-gutter {
-  position: absolute;
-  display: inline-block;
-  font-style: italic;
-  font-size: .8em;
-  opacity: .5;
-  font-family: "Sssi", Garamond, serif;
+    position: absolute;
+    display: inline-block;
+    font-style: italic;
+    font-size: 0.6em;
+    opacity: 0.5;
+    font-family: "Sssi", Garamond, serif;
+    max-width: 9em;
+    line-height: normal;
+    margin-top: 0.6em;
 }
 
 div.label.left-margin {
