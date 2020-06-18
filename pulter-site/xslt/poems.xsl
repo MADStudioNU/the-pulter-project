@@ -5101,6 +5101,31 @@
     </pp:poem>
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
+      <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>witchcraft</pp:keyword>
+        <pp:keyword>humility</pp:keyword>
+        <pp:keyword>vanity</pp:keyword>
+        <pp:keyword>pride</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>vanity</pp:tag>
+        <pp:tag>witchcraft</pp:tag>
+        <pp:tag>ocean</pp:tag>
+        <pp:tag>wind</pp:tag>
+        <pp:tag>gods</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>humility</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
