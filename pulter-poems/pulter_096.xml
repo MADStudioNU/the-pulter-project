@@ -1,3 +1,454 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.96">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Old Aeschylus (Emblem 31)</title>
+        <title type="sub">Poem 96</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_226.jpg" xml:id="f7610_226"/>
+    <graphic url="./document_images/7610_227.jpg" xml:id="f7610_227"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_226" n="111v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_226"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_226"/>
+        </rdg>
+      </app>
+        
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_226" type="pageNum" place="margin-topright">31</fw>[Emblem 31]</rdg>
+            <rdg wit="#ee">Old Aeschylus<lb/>(Emblem 31)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">It is a mistake to want to know your fate, Pulter argues here. Once you do, you’ll want to change it, and you can’t; a destiny foreknown is not forestalled. Her first exhibit is a fellow poet, whose attempt to outwit the prediction that he’d die from something falling from above only brings about such a death: he goes to an open field, where a plummeting turtle smashes in his skull. This seemingly unexpected death was, of course, expected, indeed predicted—as are all deaths, or as they should be, this <hi rend="italic">memento mori</hi> poem reminds us: while each of us will die, we cannot and should not inquire about the details, Pulter opines. Yet she herself is awfully tempted, if we can judge by how urgently (in the poem’s late-breaking, self-reflective turn) she implores that she should “never know [her] destiny,” and “not here anticipate [her] grave.” To do so, she frets, is to be buried alive: a paradoxical state reflecting a certain ambivalence, in this poem as in others, toward life and death on (and in) earth, and perhaps what follows too. Her projected solution is devotion to God’s purpose, which might reframe consciousness of mortality.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"> Old Eſculus being told that hee Should die</rdg>
+            <rdg wit="#ee">Old <seg>Aeschylus<note type="gloss">Prolific Greek playwright who was told by an oracle that he would die by something from the heavens. According to legend, this prophecy was realized when he was killed by a turtle shell dropped by an eagle.</note></seg>, being told that he should die</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">By the deſcent of Something from on High</rdg>
+            <rdg wit="#ee">By the descent of something from on high,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Into the field hee went and Satt him down</rdg>
+            <rdg wit="#ee">Into the field he went and sat him down.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">The Sun Shone bright upon his glistring Crown</rdg>
+            <rdg wit="#ee">The sun shone bright upon his <seg>glist’ring crown<note type="gloss">glittering head. Aeschylus is bald (and thus a target for the eagle).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">&ff;or hee to Eriſine had Sacrifis’d</rdg>
+            <rdg wit="#ee"><seg>For he to Erycine had sacrificed<note type="gloss">Aeschylus is devoted to “Erycine,” a name for Venus, the goddess of love, derived from her temple on Mount Eryx. In humoral medicine, it was thought that “one major way to induce coldness, and thus baldness, was too much sexual activity” (<bibl>Anu Korhonen, “Strange Things Out of Hair: Baldness and Masculinity in Early Modern England,” <title rend="italic">The Sixteenth Century Journal</title>, vol. 41, no. 2 [2010], pp. 371-91 at p. 380</bibl>).</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Pitty a Poet thus was Stigmatiz’d</rdg>
+            <rdg wit="#ee"><seg>Pity<note type="gloss">It is a pity</note></seg> a poet thus was <seg>stigmatized<note type="gloss">scarred, branded, or disgraced. Baldness is here construed as a stigma.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">A Towring Eagle let her prey fall down</rdg>
+            <rdg wit="#ee">A tow’ring eagle let her prey fall down</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">In hope to break the Eſcallup on his Crown</rdg>
+            <rdg wit="#ee">In hope to break <seg>th’escallop<note type="gloss">shell</note></seg> on his crown.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Shee had her wiſh it broke the fatall Shell</rdg>
+            <rdg wit="#ee">She had her wish; it broke the fatal shell,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And Struck the Poets Ryming Soul to Hell</rdg>
+            <rdg wit="#ee">And struck the poet’s rhyming soul to Hell.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Then let none Curiouſly prie in their &ff;ate</rdg>
+            <rdg wit="#ee">Then let none curiously pry in their fate,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">&ff;or none can lengthen or make Short their date</rdg>
+            <rdg wit="#ee">For none can lengthen or make short their date.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">&ff;or Surely none their &ff;ortune can prevent</rdg>
+            <rdg wit="#ee">For surely none their fortune can prevent,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Unleſs a Meſſenger from Heaven bee Sent</rdg>
+            <rdg wit="#ee">Unless a messenger from Heaven be sent</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">With a <seg>Rep<add place="above">r:</add>.ieve<note type="physical">“r” appears in different hand from main scribe; superscript colon in same hand may represent insertion marks</note></seg>, Soe Hezechias Tears</rdg>
+            <rdg wit="#ee">With a reprieve; so <seg>Hezekiah’s tears<note type="gloss">See 2 Kings: 20:1-6, which tells of how Hezekiah wept and prayed when the prophet Isaiah told him of Hezekiah’s impending death; in response, God extended his life by fifteen years.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">A pardon did obtain for <del>&ff;ourteen</del><seg><add place="above">&ff;ifteen</add><note type="physical">in different hand from main scribe, directly above doubly struck-through “ffourteen”</note></seg> Years</rdg>
+            <rdg wit="#ee">A pardon did obtain for fifteen years.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">This Jezabell found true that fatall hour</rdg>
+            <rdg wit="#ee">This <seg>Jezebel<note type="gloss">Jezebel was the wife of Ahab, King of Israel. She was a worshipper of Baal caught in religious wars; Elijah’s prophecy, that dogs would eat her corpse, came true.</note></seg> found true that fatal hour</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">When Dogs her Curſſed Karcas did Devour</rdg>
+            <rdg wit="#ee">When dogs her curséd carcass did devour.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Nor could domition Croſs his Prophets fate</rdg>
+            <rdg wit="#ee">Nor could <seg>Domitian<note type="gloss">Domitian was a Roman emperor who failed to disprove one of Ascletarion’s prophecies. He also tried unsuccessfully to evade a soothsayer’s prediction of his own death.</note></seg> cross his prophet’s fate</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Or ad a minute to his own lives date</rdg>
+            <rdg wit="#ee">Or add a minute to his own life’s date.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Though Cæſar did the fatall Ides Know</rdg>
+            <rdg wit="#ee"><seg>Though Caesar did the fatal Ides know<note type="gloss">A soothsayer foretold the death of Roman emperor Julius Caesar, who was stabbed to death on the “Ides” (or fifteenth day) of March.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">At twenty and three wounds his blood did flow</rdg>
+            <rdg wit="#ee">At twenty and three wounds his blood did flow.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Soe Agrippina was her fate foretold</rdg>
+            <rdg wit="#ee">So Agrippina was her fate foretold,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Yet her deſcection Nero did behould</rdg>
+            <rdg wit="#ee"><seg>Yet her dissection Nero did behold<note type="gloss">As Agrippina had been foretold by an astrologer, Roman emperor Nero killed his mother and passionately viewed (“dissected”) each part of her corpse.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">then</fw>
+            </rdg>
+        </app>
+        
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_227" n="112r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_227"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_227"/>
+            </rdg>
+        </app>
+        
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Then let mee never Know my Destinie</rdg>
+            <rdg wit="#ee">Then let me never know my destiny,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">But every day Soe live that when I die</rdg>
+            <rdg wit="#ee">But every day so live that when I die</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">I may with comfort lay theſe Ruins down</rdg>
+            <rdg wit="#ee">I may with comfort lay these ruins down</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">In dust tis ſofter farr then finest Down</rdg>
+            <rdg wit="#ee">In <seg>dust<note type="gloss">the material from which life derives to and to which it will return; see Genesis 3:19: “for dust thou art, and unto dust shalt thou return.”</note></seg>; ’tis softer far than finest <seg>down<note type="gloss">soft feathers</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Nor is that Pillow Stuft with Cares or fears</rdg>
+            <rdg wit="#ee">Nor is that pillow stuffed with cares or fears,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Nor Shall I wake as now to Sighs and tears</rdg>
+            <rdg wit="#ee">Nor shall I wake as now to sighs and tears.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Yet o my God this Comfort let mee have</rdg>
+            <rdg wit="#ee">Yet O, my God, this comfort let me have:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Let mee not here Anticipate my Grave</rdg>
+            <rdg wit="#ee">Let me not here anticipate my grave;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Yet if I must alive thus buried bee</rdg>
+            <rdg wit="#ee">Yet <seg>if I must alive thus buried be<note type="gloss">The speaker reads her own anticipation of the grave (see the previous line), through worrying or wondering about her fate, as a form of living death.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Let mee yet live my gracious God to thee</rdg>
+            <rdg wit="#ee">Let me yet live, my gracious God, to Thee.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Then Soe aſſist my Soul in her Sad Story</rdg>
+            <rdg wit="#ee">Then so assist my soul in her sad story,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">That though I fall yet I may Riſe to Glory.</rdg>
+            <rdg wit="#ee">That though I fall, yet I may rise to glory.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curline-right"/>
+            </rdg>
+        </app>
+        
+    </body>
+  </text>
 </TEI>

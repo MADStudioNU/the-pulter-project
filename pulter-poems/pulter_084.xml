@@ -1,3 +1,517 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.84">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Elephant (Emblem 19)</title>
+        <title type="sub">Poem 84</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_208.jpg" xml:id="f7610_208"/>
+    <graphic url="./document_images/7610_209.jpg" xml:id="f7610_209"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_208" n="102v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_208"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_208"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_208" type="pageNum" place="margin-topright">19</fw>[Emblem 19]</rdg>
+          <rdg wit="#ee">The Elephant<lb/>(Emblem 19)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Elephants provide the model for a surprising number of virtues in this poem. If upper-class Royalists in England had emulated their piety, industriousness, bravery, and fidelity, Pulter suggests, they might have turned the political tide and prevented the regicide of King Charles I, along with the side benefit of keeping their wives in line. Drawing on moralizing natural histories, Pulter excoriates the elites of her own class for their interlaced personal and political failures, flaws which extend into the realm of sexuality. Gentlemen, she advises directly at the poem’s conclusion, need to stop wasting their time by gallivanting about, drinking and gambling. If they don’t attend to their mates (which the male elephants do so scrupulously that they murder mates suspected of infidelity), they are likely to wind up with wives who fritter away their time attending plays, frequenting taverns, and committing adultery. The elephant’s graceful bowing to the rising sun, with which the emblem begins, gives way to a stern lecture on how the social hierarchy may crumble under the weight of its own immorality.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">    The Eliphant when Raidiant Sol Doth Riſe</rdg>
+            <rdg wit="#ee">The elephant, when radiant <seg>Sol<note type="gloss">personification of the Sun and an ancient Roman god</note></seg> doth rise,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Devoutly bows with Elevated Eyes</rdg>
+            <rdg wit="#ee">Devoutly bows; with elevated eyes</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Hee offers up his Morning Sacrifice</rdg>
+            <rdg wit="#ee">He offers up his morning sacrifice.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Some may perhaps this vain Religion Sleight</rdg>
+            <rdg wit="#ee">Some may perhaps this <seg>vain religion<note type="gloss">Pulter’s description of the elephants’ worship, which may seem “vain” (idle, unprofitable, useless) to some, is drawn from Edward Topsell: “They have also a kind of Religion, for they worship, reverence, and observe the course of the Sun, Moon, and Stars … they reverence the Sun rising, holding up their trunk or hand to heaven, in congratulation of her rising” (<bibl>Edward Topsell, <title rend="italic">History of Four-Footed Beasts</title> [1607], p. 192; cited by Stefan Christian, “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition.” PhD diss. [University of Massachusetts Amherst, 2012], p. 310</bibl>).</note></seg> slight,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">But of all Creatures I would Worſhip Light</rdg>
+            <rdg wit="#ee">But of all <seg>creatures<note type="gloss">created things; the created universe</note></seg>, I would worship light.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Their vallour too the Orient Kingdooms trie</rdg>
+            <rdg wit="#ee"><seg>Their<note type="gloss">the elephants’</note></seg> valor too the <seg>Orient kingdoms try<note type="gloss">the countries in the East “try” (test or prove)</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">&ff;or in the &ff;eild they’l bravly &ff;ighting die</rdg>
+            <rdg wit="#ee">For in the field they’ll bravely fighting die;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">And when the Indians theſe beaſts doe Hire</rdg>
+            <rdg wit="#ee">And when <seg>the Indians these beasts do hire<note type="gloss">Pulter’s description of the elephants as launching ships, fighting in battle, and mating is based on <bibl>Pliny, <title rend="italic">The History of the World</title>, trans. Philemon Holland (London, 1634), 8th chapter, pp. 192-99</bibl>.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">To Lanch their Ships, when one begins to tire</rdg>
+            <rdg wit="#ee">To launch their ships, when one begins to tire,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Thel’e bring another to lift in his place</rdg>
+            <rdg wit="#ee">They’ll bring another to lift in his place;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">But Rather then hee’l <add place="below">^</add><add place="above">live</add> to know diſgrace</rdg>
+            <rdg wit="#ee">But rather than he’ll live to know disgrace,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Hee’l draw and Shov’e not onely till hee tires</rdg>
+            <rdg wit="#ee">He’ll draw and shove not only till he tires,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">But Straining Bursts and Soe his Soul expires</rdg>
+            <rdg wit="#ee">But straining, bursts; and so his soul expires,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">As Rather chooſing to Abrupt his Story</rdg>
+            <rdg wit="#ee">As rather choosing to <seg>abrupt<note type="gloss">break off</note></seg> his <seg>story<note type="gloss">life</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Then live and let another take his Glory</rdg>
+            <rdg wit="#ee">Than live and let another take his glory.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">&ff;or Chastitie this Gallant Creature’s Crown’d</rdg>
+            <rdg wit="#ee">For chastity this <seg>gallant<note type="gloss">attractive in manners; excellent, admirable</note></seg> creature’s crowned,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">&ff;or when hee hath a Lovly &ff;emale &ff;ound</rdg>
+            <rdg wit="#ee">For when he hath a lovely female found</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">And mutuall &ff;lames doe in their boſomes Glow</rdg>
+            <rdg wit="#ee">And mutual flames do in their bosoms glow,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">They modestly into the Shades doe goe</rdg>
+            <rdg wit="#ee">They modestly into the <seg>shades<note type="gloss">shadows</note></seg> do go;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">There free from Company that might Annoy</rdg>
+            <rdg wit="#ee">There, free from company that might annoy,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">They Innocently each other doe Injoy</rdg>
+            <rdg wit="#ee">They innocently each other do enjoy.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">yet</fw>
+            </rdg>
+        </app>
+        
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_209" n="103r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_209"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_209"/>
+            </rdg>
+        </app>
+        
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Yet hee’s Soe tender of his Reputation</rdg>
+            <rdg wit="#ee">Yet he’s so <seg>tender of<note type="gloss">concerned with</note></seg> his reputation</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Hee kills his &ff;emale if hee doubts Scortation</rdg>
+            <rdg wit="#ee">He kills his female if he <seg>doubts scortation<note type="gloss">fears adultery</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">By this the Gallants of our Age may See</rdg>
+            <rdg wit="#ee">By this the <seg>gallants<note type="gloss">men of fashion and pleasure; fine gentlemen (sometimes ironic); those who pay attention to ladies; lovers or (derogatively) paramours</note></seg> of our age may see,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">In beeing Athiest’s worſ then Beaſts <seg>they<note type="physical">darker “h” possibly over another letter</note></seg> bee</rdg>
+            <rdg wit="#ee">In being <seg>atheists<note type="gloss">those who deny or disbelieve the existence of God but used as an anti-Royalist label for religious or political opponents in England’s civil war</note></seg>, worse than beasts they be.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Like them in Noble Actions Strive to exceed</rdg>
+            <rdg wit="#ee"><seg>Like them in noble actions<note type="gloss">Be like them in noble actions; this is directed to the reader</note></seg>, strive to exceed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Each other, this Want did make Us Bleed</rdg>
+            <rdg wit="#ee">Each other: this <seg>want<note type="gloss">lack or flaw</note></seg> did make us bleed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">In our brave King, for had you valiant been</rdg>
+            <rdg wit="#ee">In <seg>our brave king<note type="gloss">Charles I, executed by beheading in 1649; “this want did make us bleed / In our brave king” suggests that a flaw in England or its nobility led to the nation metaphorically losing blood when the king bled (at his execution).</note></seg>. For had you valiant been,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Soe Sad A <seg>change<note type="physical">darker “e” possibly in different hand from main scribe</note></seg> as this wee ne’re had Seen</rdg>
+            <rdg wit="#ee">So sad a change as this we ne’er had seen.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">&ff;or had not Lords in Noble breeding faild</rdg>
+            <rdg wit="#ee">For had not <seg>lords in noble breeding failed<note type="gloss">Pulter suggests that aristocrats (“lords”), also known as nobles, failed to live up to their upbringing as such (thus invoking “noble” in its moral sense).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Tin<add place="below">^</add><add place="above">c</add>kers and Coblers never had prevaild</rdg>
+            <rdg wit="#ee"><seg>Tinkers and cobblers<note type="gloss">pot-menders and shoemakers; here, representatives of commoners</note></seg> never had prevailed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">But wee our Wants and loſſes may deplore</rdg>
+            <rdg wit="#ee"><seg>But<note type="gloss">Nothing but</note></seg> we our wants and losses may <seg>deplore<note type="gloss">lament</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">But Sin alone that Sets us on the Score</rdg>
+            <rdg wit="#ee">But sin alone, that <seg>sets us on the score<note type="gloss">causes us to be in debt</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Then yet bee chast and thoſe you chooſe in youth</rdg>
+            <rdg wit="#ee">Then yet be chaste, and those you choose in youth,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Loue Conſtantly for truth deſerveth Truth</rdg>
+            <rdg wit="#ee">Love constantly, for <seg>truth<note type="gloss">here, in the sense of fidelity (i.e., marital fidelity to “those you choose in youth”)</note></seg> deserveth truth.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Neglect them not, to drink, Rant, throw y<add place="above">e</add> Die</rdg>
+            <rdg wit="#ee">Neglect them not, to <seg>drink, rant, throw the die<note type="gloss">drink alcohol, “rant” (be jovial, boisterous, or uproariously merry; lead a riotous or dissolute life; sing loudly, dance or play music), or gamble (throw dice)</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">&ff;or to temptation then they open lie</rdg>
+            <rdg wit="#ee">For to temptation then <seg>they<note type="gloss">the wives</note></seg> open lie.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">In com̄on meetings they fool out their days</rdg>
+            <rdg wit="#ee">In <seg>common meetings<note type="gloss">public gatherings open to all classes of people; “common” could refer to the community of a people or place, or the subset distinguished as from those of higher rank; it was sometimes used as a slur to imply lower-class status.</note></seg> they fool out their days</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">At Bauls, and Taverns, Seeing Wanton Plays</rdg>
+            <rdg wit="#ee">At balls and taverns, seeing <seg>wanton<note type="gloss">rebellious, unruly, lawless; lustful, inciting lasciviousness; profligate, wasteful; frivolous, pleasure-seeking</note></seg> plays.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">To Cenſure you In earnest I am Loth</rdg>
+            <rdg wit="#ee">To censure you in earnest I am <seg>loath<note type="gloss">averse, reluctant</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">But Sure you want or<seg><del>,</del><note type="physical">comma erased imperfectly</note></seg> Vallour, Witt, or both</rdg>
+            <rdg wit="#ee">But sure <seg>you want or valor, wit<note type="gloss">you lack either bravery or “wit” (reason, intellect)</note></seg>, or both.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">Your Ladyes are Soe Laviſh of their &ff;ames</rdg>
+            <rdg wit="#ee">Your ladies are so <seg>lavish of their fames<note type="gloss">either the noblewomen are so extravagant or undisciplined in spending money that their reputations are damaged; or they are so extravagant in circulating that they get bad reputations</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">They have quite out gone our Wanton Citty Dames</rdg>
+            <rdg wit="#ee">They have quite <seg>outgone our wanton city dames<note type="gloss">exceeded unruly or lustful London-based, non-elite women</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">&ff;or Honnours Sake looke too’t, for Shame at least</rdg>
+            <rdg wit="#ee">For honor’s sake look <seg>to’t<note type="gloss">to it; here referring to moral behavior in general, or attending to their wives in particular</note></seg>; for shame at least!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="45">
+        <app>
+            <rdg wit="#ft">You See a Wittall is below a Beast.</rdg>
+            <rdg wit="#ee">You see a <seg>wittol<note type="gloss">a contented man who knows that his wife is unfaithful; also, a half-witted person</note></seg> is below a beast.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+      
+    </body>
+  </text>
 </TEI>

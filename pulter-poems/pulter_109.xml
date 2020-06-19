@@ -1,3 +1,462 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.109">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Brahman (Emblem 44)</title>
+        <title type="sub">Poem #109</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_246.jpg" xml:id="f7610_246"/>
+    <graphic url="./document_images/7610_247.jpg" xml:id="f7610_247"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_246" n="121v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_246"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_246"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 44]</rdg>
+            <rdg wit="#ee">The Brahman<lb/>(Emblem 44)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote"> “Who would not such a blessed change explore?” asks the speaker in this poem, contemplating a transformative suicide that will purify the soul. After all, the first two examples she conjures up suggest a glorious, if painful, rebirth: the philosopher Calanus, in frying himself on his own funeral pyre, renders his soul “pristine,” and the mythological Phoenix’s death preserves an essence that reassumes extravagantly splendid feathered form. Although she rejects the actions of two non-Christian examples, Pulter proclaims a willingness to shed her mortality like a well-worn set of clothes or a theatrical costume, with faith that God will gather up her deteriorated bits of flesh at the Last Judgment and reunite her body with her soul in eternal heaven. The poem uses the prospect of death to reflect on Pulter’s role as a writer, first in her reference to herself as Hadassah, the biblical Queen Esther whom Pulter chose as her authorial pseudonym (one of the manuscript’s titles is <title rend="italic">Poems Breathed Forth by the Noble Hadassas</title>). Second, it is telling that her future vision of death and salvation involves a re-enactment of the Word’s (God’s) creation of the world that ends in artistic production. When God will “reinspire” or breathe into her scattered mortal remains, they will convert into ascending atoms and burst forth in poetic hymns of praise. </note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+          <rdg wit="#ft"><seg>The<note type="physical">poem begins two-thirds down the page; previous poem concludes at top of the page followed by blank space</note></seg> Brackman Th’angrie Deities to appeas</rdg>
+            <rdg wit="#ee">The <seg>Brahman<note type="gloss">Hindu priest, here referring to the legendary philosopher and gymnosophist Calanus (or Kalanus) who self-immolated in the presence of Alexander the Great. See <bibl>Plutarch, <title rend="italic">The Lives of the Noble Grecians and Romans</title>, trans. Thomas North (London, 1579), p. 759.</bibl></note></seg>, th’angry deities to appease,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+          <rdg wit="#ft">Hee being afflicted with a Sad diſeaſe</rdg>
+            <rdg wit="#ee">He being afflicted with a sad disease,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+          <rdg wit="#ft">Unwilling to bee grated thus aſunder</rdg>
+            <rdg wit="#ee">Unwilling to be <seg>grated<note type="gloss">scraped, pulverized; figuratively, irritated (here, by an intestinal disorder)</note></seg> thus asunder,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+          <rdg wit="#ft">Hee did an Act made Alexander wonder</rdg>
+            <rdg wit="#ee">He did an act made Alexander wonder:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+          <rdg wit="#ft">&ff;or on his &ff;unerall, fllagrant, <seg>Pile<note type="physical">“le” written over other letters</note></seg> hee lies</rdg>
+            <rdg wit="#ee">For on his funeral <seg>flagrant<note type="gloss">burning</note></seg> <seg>pile<note type="gloss">that is, the heap of fuel, or pyre, for his cremation</note></seg> he lies,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+          <rdg wit="#ft">Becoming thus both Priest and Sacrifice</rdg>
+            <rdg wit="#ee">Becoming thus both priest and sacrifice.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+          <rdg wit="#ft">What was Corporeall the &ff;ire Conſumes</rdg>
+            <rdg wit="#ee">What was corporeal, the fire consumes;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+          <rdg wit="#ft">His Soul its <seg>Priſtine<note type="physical">second “i” in different ink over earlier “e”; final “e” appears added later, in different ink</note></seg> Glory Reaſſumes</rdg>
+            <rdg wit="#ee">His soul its pristine glory reassumes.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+          <rdg wit="#ft">Soe doth the Phœnix &ff;an her guilded Wings</rdg>
+            <rdg wit="#ee">So doth the <seg>Phœnix<note type="gloss">the Egyptian bird who was reborn from her ashes after burning in a sacrificial fire</note></seg> fan her gilded wings</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+          <rdg wit="#ft">Till Phœbus Raiſe her Gaudy &ff;eathers Sings</rdg>
+            <rdg wit="#ee">Till <seg>Phœbus’s<note type="gloss">the sun god’s</note></seg> rays her gaudy feathers <seg>sings<note type="gloss">a northern British form of “singes,” pronounced to rhyme with “wings”</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+        <rdg wit="#ft">
+          <fw type="catch" place="bottom">then</fw>
+        </rdg>
+      </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_247" n="122r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_247"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_247"/>
+            </rdg>
+        </app>
+        
+      <l n="11">
+        <app>
+          <rdg wit="#ft">Then in that Light in which Shee lives Shee &ff;ryes</rdg>
+            <rdg wit="#ee">Then, in that light in which she lives, she fries—</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+          <rdg wit="#ft">A glorious Virgin Victim, thus Shee Dies</rdg>
+            <rdg wit="#ee">A glorious virgin victim; thus she dies.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+          <rdg wit="#ft">Thus though the <seg>&ff;ire<note type="physical">“re” written over other letters, possibly “er</note></seg> her groſſer part conſumes</rdg>
+            <rdg wit="#ee">Thus though the fire her <seg>grosser<note type="gloss">more material, substantial, dense (than, by implication, the spirit or soul); more perceptible to the senses</note></seg> part consumes,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#ft">A principle is left which Reaſſumes</rdg>
+            <rdg wit="#ee">A principle is left which reassumes</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+          <rdg wit="#ft">The Azure, Purple, Skarlet, Golden Plumes</rdg>
+            <rdg wit="#ee">The <seg>azure<note type="gloss">blue</note></seg>, purple, scarlet, golden <seg>plumes<note type="gloss">feathers</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+          <rdg wit="#ft">Which did Adorn, her Gorgious gaudy Mother</rdg>
+            <rdg wit="#ee">Which did adorn her gorgeous <seg>gaudy<note type="gloss">highly ornate, showy (not, at this time, necessarily in a negative sense, as now)</note></seg> mother;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+          <rdg wit="#ft">Thus they ſucceed and Still exceed each other</rdg>
+            <rdg wit="#ee">Thus they succeed and still exceed each other.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+          <rdg wit="#ft">Who would not ſuch a bleſſed change explore</rdg>
+            <rdg wit="#ee">Who would not such a blessed change <seg>explore<note type="gloss">investigate, consider</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+          <rdg wit="#ft">Or who would Such a change as this deplore</rdg>
+            <rdg wit="#ee">Or who would such a change as this <seg>deplore<note type="gloss">lament, regret</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+          <rdg wit="#ft">Although I cannot in Sols &ff;ulgour &ff;rie</rdg>
+            <rdg wit="#ee">Although I cannot in <seg>Sol’s fulgor<note type="gloss">the sun’s dazzling brightness</note></seg> fry,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+          <rdg wit="#ft">Nor dare not like this Gymnoſophist die</rdg>
+            <rdg wit="#ee">Nor dare not like this <seg>Gymnosophist<note type="gloss">ancient Hindu mystical contemplative sect whose members wore very little clothing, ate no meat, and practiced asceticism and self-inflected hardships</note></seg> die</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+          <rdg wit="#ft">Such <seg>Stoicall<note type="physical">imperfectly erased descender below “c”</note></seg> tricks a Chriſtian Spirit loaths</rdg>
+            <rdg wit="#ee">(Such <seg>Stoical<note type="gloss">traits of those practicing the philosophy of Stoicism, commonly identified as austerity, indifference to pleasure and pain, acceptance of suffering, and repression of feeling</note></seg> tricks a Christian spirit loathes),</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+          <rdg wit="#ft">Yet as old Aaron did put of his Cloaths</rdg>
+            <rdg wit="#ee">Yet as old <seg>Aaron did put off his clothes<note type="gloss">On God’s command, Moses stripped his brother Aaron of his clothes before Aaron’s death (Aaron died for disobeying God). See Numbers 20: 23-29.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+          <rdg wit="#ft">Soe I being Worn with Sorrow, Sin, and Age,</rdg>
+            <rdg wit="#ee">So I, being worn with sorrow, sin, and age,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+          <rdg wit="#ft">Quite tird with Acting in this Scene and Stage</rdg>
+            <rdg wit="#ee">Quite tired with acting in this scene and stage,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+          <rdg wit="#ft">Would gladly my Mortality lay by</rdg>
+            <rdg wit="#ee">Would gladly my mortality lay by.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+          <rdg wit="#ft">Who then can Say Hadaſſah here doth Lie</rdg>
+            <rdg wit="#ee">Who then can say, “<seg>Hadassah<note type="gloss">Pulter’s chosen pseudonym, the Hebrew form of the name of the heroic biblical Queen Esther (Esther being a variant of Hester)</note></seg> here doth <seg>lie<note type="gloss">to remain in a recumbent position or posture of subjection; to dwell or be quartered in; be passive, tell an untruth</note></seg>,”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+          <rdg wit="#ft">When as my Soul ſhall Reaſſend above</rdg>
+            <rdg wit="#ee"><seg>Whenas<note type="gloss">seeing that; at a time which</note></seg> my soul shall reascend above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+          <rdg wit="#ft">To God the &ff;ount of Life, Light, Joy, and Love.</rdg>
+            <rdg wit="#ee">To God, the fount of life, light, joy, and love?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+          <rdg wit="#ft">Nor Shall my Scattred dust forgotten Rest</rdg>
+            <rdg wit="#ee">Nor shall my scattered dust forgotten rest,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+          <rdg wit="#ft">But <seg>like<note type="physical">erased descender under the “k”</note></seg> the <seg>Embryo[<del>?</del>]<note type="physical">“yo” written over other letters, in darker ink; two following letters scribbled out in same ink</note></seg> in the Phœnix Nest</rdg>
+            <rdg wit="#ee">But like the embryo in the Phœnix nest,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+          <rdg wit="#ft">That Word that Nothing did create in vain</rdg>
+            <rdg wit="#ee"><seg>That Word that nothing did create in vain<note type="gloss">God’s word as creative force: “In the beginning was the Word, and the Word was with God, and the Word was God … All things were made by him; and without him was not any thing made that was made” (John 1: 103)</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+          <rdg wit="#ft">Shall Reinſpire my Dormient Duſt again</rdg>
+            <rdg wit="#ee">Shall reinspire my <seg>dormant dust<note type="gloss">in biblical accounts, the dormant (slumbering, inert) material from which life derives to and to which it will return; see Genesis 3:19: “for dust thou art, and unto dust shalt thou return.”</note></seg> again;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+          <rdg wit="#ft">And from obſcurity my Atomes Raiſe</rdg>
+            <rdg wit="#ee">And from obscurity my atoms raise</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+          <rdg wit="#ft">To ſing in Joy his Everlasting praiſe</rdg>
+            <rdg wit="#ee">To sing in joy His everlasting praise,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+          <rdg wit="#ft">And Reunite my Body to my Spirit</rdg>
+            <rdg wit="#ee"><seg>And reunite my body to my spirit<note type="gloss">a reference to the Christian belief in the reunion of the dead body and spirit in heaven at the Final Judgment or end of the world. The next lines link such salvation to Christ’s sacrifice.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+          <rdg wit="#ft">That wee may thoſe Eternall Joys inherit</rdg>
+            <rdg wit="#ee">That we may those eternal joys inherit,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+          <rdg wit="#ft">Which I may claim by my dear Saviours Merrit.</rdg>
+            <rdg wit="#ee">Which I may claim by my dear Savior’s merit.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>      
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

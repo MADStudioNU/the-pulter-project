@@ -1,3 +1,496 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.108">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>This Stately Ship (Emblem 43)</title>
+        <title type="sub">Poem #108</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_244.jpg" xml:id="f7610_244"/>
+    <graphic url="./document_images/7610_245.jpg" xml:id="f7610_245"/>
+    <graphic url="./document_images/7610_246.jpg" xml:id="f7610_246"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_244" n="120v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_244"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_244"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 43]</rdg>
+            <rdg wit="#ee">This Stately Ship<lb/>(Emblem 43)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">By offering examples of how diminutive and seemingly insignificant things (flies, worms, clothes) can overcome even the mightiest people, this emblem warns against the vanity of human overconfidence and pride (vices that Pulter sees in the tyrannies of English politics of the day). The central conceit is of a magisterial ship able to battle and survive the worst ocean storms; Pulter develops this conventional metaphor of the ship of state by asking the reader to imaginatively fuse two stories of sailors battling the elements: Aeneas, in conflict with the goddess Juno when fleeing Troy, and King James VI of Scotland (later James I of England), who believed witches tried to wreck him and his queen at sea as an attack on royal power. As it turns out, small suckerfish–invisibly glued to the keel of a boat–could accomplish what powerful tempests at sea could not: halt the ship in its tracks. The poem’s central image of an anchored ship morphs at this point in the poem into numerous sailing vessels from Roman and Greek histories, all of which succumbed to the unexpected power of a something lower down on the food chain.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <lg type="stanza" n="1">
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>This<note type="physical">first third of page occupied by end of previous poem; second third blank</note></seg> Stately Ship Courted by Winds &amp; Tide</rdg>
+            <rdg wit="#ee">This stately ship, courted by winds and tide,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Upon the Curling Billows Swiftly Rides</rdg>
+            <rdg wit="#ee">Upon the curling billows swiftly rides,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Proud of her Carri’dg nothing Shee did fear</rdg>
+            <rdg wit="#ee">Proud of her carriage; nothing she did fear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">&ff;or Cæſar and his &ff;ortunes Shee did bear</rdg>
+            <rdg wit="#ee">For <seg>Caesar and his fortunes she did bear<note type="gloss">The first eight lines of this poem describe how Aeneas sought to sail away from the defeated city of Troy after the Trojan war. Virgil (at the opening of in his <title rend="italic">Aeneid</title>) narrates how the goddess Juno disrupted Aeneas’s voyage by means of storms created by Aeolus (the wind god), before Neptune (god of the ocean and sympathetic to Aeneas as the son of his niece, Venus) intervened. The Roman Emperor Julius Caesar traced his lineage to Ascanius, son of Aeneas.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Great Neptune for his lovly Neeces ſake</rdg>
+            <rdg wit="#ee">Great Neptune, for his lovely niece’s sake,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Did Charg old Eolus a peace to make</rdg>
+            <rdg wit="#ee">Did charge old Aeolus a peace to make</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Between thoſe bluſtring Tetarks, all Jarrs</rdg>
+            <rdg wit="#ee">Between <seg>those blust’ring tetrarchs<note type="gloss">four joint rulers; here, the winds from the four cardinal directions</note></seg>, all <seg>jars<note type="gloss">discords, disputes</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Which &ff;ills his Trembling Kingdoms <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> ſuch Wars</rdg>
+            <rdg wit="#ee"><seg>Which<note type="gloss">Of which</note></seg> fills his trembling kingdoms with such wars.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">the</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_245" n="121r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_245"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_245"/>
+            </rdg>
+        </app>
+  
+      <l n="9">
+        <app>
+            <rdg wit="#ft">The Halcion too her Young had new diſcloſ’d</rdg>
+            <rdg wit="#ee">The <seg>halcyon<note type="gloss">a mythical bird, formerly a daughter of Aelous, who would calm the seas when the halcyon brooded over her nest at sea; also, the kingfisher bird</note></seg>, too, her young had new disclosed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And all but one Trade Wind were now Repoſ’d</rdg>
+            <rdg wit="#ee">And all but one <seg>trade wind<note type="gloss">steady unidirectional wind, especially at sea</note></seg> were now <seg>reposed<note type="gloss">at rest; tranquil</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">I verily think Some Elfin Lapland Hags</rdg>
+            <rdg wit="#ee">I verily think some <seg>elfin Lapland hags<note type="gloss">Folklore had it that witches (“hags”) from the region of Finland would sell wind to mariners. See <bibl>James George Frazier, <title rend="italic">The Golden Bough: A Study in Magic and Religion</title>, (New York: Macmillan, 1923), vol. 1, p. 81.</bibl></note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Had put the one and Thirty Winds in Bags</rdg>
+            <rdg wit="#ee">Had put the one-and-thirty winds in bags,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">As when the Learned’st of great &ff;ergus Seed</rdg>
+            <rdg wit="#ee">As when <seg>the learned’st of great Fergus’s seed<note type="gloss">James VI of Scotland, who became James I of England, claimed descent from Fergus, the first king of Scotland. In this and the lines that follow, Pulter alludes to the fact that when James I travelled back to Scotland (emblemized by the River Tweed) from Denmark with his bride, Anne (here called an “elf”), they encountered storms that James attributed to the devices of witchcraft. In Scottish witchcraft trials in the 1590s, some women were charged with attempting to destroy the monarchy by sinking his ship.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Did fetch the Elve, to Marry <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> his Tweed</rdg>
+            <rdg wit="#ee">Did fetch the elf to marry with his Tweed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">They Gave the King old Borus in A Purſs</rdg>
+            <rdg wit="#ee"><seg>They gave the king old Borus in a purse<note type="gloss">Boreas was the name given by the Greeks to the north wind. Here Pulter might be alluding to the fact that Ulysses received the winds in a leather bag from Aeolus, the wind god; but she fuses it into the story of the Northern witches who reputedly caused King James of Scotland’s ships to go awry.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">I wiſh noe Witches ever may doe Worſs</rdg>
+            <rdg wit="#ee">I wish no witches ever may do worse.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">And thus this Gallant Ship did make her Way</rdg>
+            <rdg wit="#ee">And thus this <seg>gallant<note type="gloss">noble, stately</note></seg> ship did make her way</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">When too their Strang Amazement Shee did Stay</rdg>
+            <rdg wit="#ee">When, to their strange amazement, she did <seg>stay<note type="gloss">halt; remain fixed</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Some <seg>&ff;url’d<note type="physical">blot over “l”</note></seg> the Sayls and others tri’de ye Oar</rdg>
+            <rdg wit="#ee">Some furled the sails, and others tried the oar;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">A Thouſand other Tricks they did explore</rdg>
+            <rdg wit="#ee">A thousand other tricks they did explore.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Noe Shelf, nor Sand, nor dangerous Rock was near</rdg>
+            <rdg wit="#ee">No <seg>shelf<note type="gloss">a sandbank in the sea rendering the water shallow and dangerous</note></seg>, nor sand, nor dangerous rock was near,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Which made them Some Infernall <del>malles</del><seg><add place="above">malice</add><note type="physical">directly above <del>malles</del></note></seg> fear</rdg>
+            <rdg wit="#ee">Which made them some infernal malice fear.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">At <seg><del>l</del><note type="physical">crossed out with three slanted lines</note></seg> last great Julius made one Dive and feel</rdg>
+            <rdg wit="#ee">At last, great <seg>Julius<note type="gloss">Julius Caesar. Pulter puts Julius Caesar into a story that her source (Pliny) attributed to other Roman leaders (Mark Antony and Roman Emperor Caius, or Caligula). See <bibl>Pliny, <title rend="italic">The History of The World</title>, trans. Philemon Holland (London, 1634), Book 32, Ch. 1: pp. 425-26.</bibl></note></seg> made one dive and feel,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Who found a Re<hi rend="overline">m</hi>ora Stick on y<hi rend="superscript">e</hi> Keell</rdg>
+            <rdg wit="#ee"><seg>Who<note type="gloss">and</note></seg> found a <seg>remora<note type="gloss">(Latin for “delay); a fish with a sucker for attaching to the undersides of sea creatures or ships, also called an Echeneis. Numerous emblem books and literary texts of the day described ships delayed or halted by small sea creatures. See <bibl>E. W. Gudger, “Some Old Time Figures of the Shipholder, Echeneis or Remora, Holding the Ship,” <title rend="italic">Isis</title> (1930),13:2, pp. 340-52.</bibl></note></seg> stick on the keel.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft"><seg>Theſe<note type="physical">in left margin: “*Plinie 9th Book / Chap: 2d fol: 249”</note></seg> Staid the Ship if *Plinie Tels the truth</rdg>
+            <rdg wit="#ee"><seg>These stayed the ship, if Pliny tells the truth<note type="gloss">In the margin left of this line, a note refers readers to Pliny’s ninth book, chapter 2, folio 249; Chapter 25 (rather than Chapter 2) of the ninth book of Philemon Holland’s translation of Pliny’s natural history states that fish called echeneis (or “stay-ships”) “chanced upon a time to cleave fast unto a ship, bringing messengers from Periander, with commission to geld all the noblemen’s sons in Gnidos, and stayed it a long time.” <bibl>Pliny, <title rend="italic">The History of the World</title>, trans. Philemon Holland (London, 1634), p. 249.</bibl></note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">When Periander Sent to Geld the Youth</rdg>
+            <rdg wit="#ee">When <seg>Periander sent to geld the youth<note type="gloss">Periander, an ancient tyrant in Corinth, had three hundred sons of his enemies castrated as punishment for their killing of his son.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Of <seg>Gnidos<note type="physical">“n” written over other letter</note></seg>, I wiſh Some <seg><del>&ff;ind</del><add place="below">^</add><add place="above">Fiend</add><note type="physical">triple strike-through; subscript caret below “<del>nd</del>"</note></seg> may Stay</rdg>
+            <rdg wit="#ee">Of <seg>Knidos<note type="gloss">a Greek city in Asia Minor, in modern Turkey; “Gnidos” in the manuscript</note></seg>. I wish some fiend may stay</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Thoſe Ships which ſuch proud Tyrants doe obey</rdg>
+            <rdg wit="#ee">Those ships which such proud tyrants do obey;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">But if A Starr ſhould Shoot whilst I wiſh Soe</rdg>
+            <rdg wit="#ee">But <seg>if a star should shoot whilst I wish so<note type="gloss">A common superstition was that a wish made on a shooting star would come true.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">&ff;ew Ships from Brittiſh Harbours then would goe</rdg>
+            <rdg wit="#ee">Few ships from British harbors then would go.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">By this wee See how poor A thing will Stop</rdg>
+            <rdg wit="#ee">By this we see how poor a thing will stop</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Mans prowd deſigns twas <seg>Mordicai<note type="physical">final “i” appears written over an earlier “s”</note></seg> Stiff knee</rdg>
+            <rdg wit="#ee">Man’s proud designs. ’Twas <seg>Mordecai’s stiff knee<note type="gloss">In the biblical Book of Esther, the Jewish Mordecai is the cousin of Queen Esther. His refusal to bow to Haman, the king’s chief advisor, leads Haman to plan a massacre of the Jews and Mordecai’s hanging; Haman, however, winds up hanged on the gallows he built for Mordecai.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">That trust up Ha<hi rend="overline">m</hi>on on the &ff;atall Tree</rdg>
+            <rdg wit="#ee">That trussed up Haman on the fatal tree;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">A</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_246" n="121v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_246"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_246"/>
+            </rdg>
+        </app>
+        
+      <l n="34">
+        <app>
+            <rdg wit="#ft">A worm abrupted great Agryppas Glory</rdg>
+            <rdg wit="#ee"><seg>A worm abrupted great Agrippa’s glory<note type="gloss">Herod Agrippa I “was eaten of worms, and gave up the ghost” because “he gave not God the glory” (Acts 12:23).</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">A &ff;ly did End <seg>Pope<note type="physical">imperfectly erased line after “e”</note></seg> Alexanders Story</rdg>
+            <rdg wit="#ee"><seg>A fly did end Pope Alexander’s story<note type="gloss">Legend had it that the twelfth century Pope Adrian IV died because he drank water with a fly in it and choked. Pulter resituates this incident as happening to one of the popes named Alexander.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Soe &ff;air <seg>Cr<add place="below">^</add><add place="above">e</add>u<del>e</del>ſa<note type="physical">inserted “e” in different hand and ink; original “e” blotted out</note></seg> in her height of Pride</rdg>
+            <rdg wit="#ee">So fair <seg>Creusa<note type="gloss">The second wife of Jason, whose first wife, Medea, douses Creusa’s garment (the “mantle” of the next line) with a flammable liquid which burns Creusa to death.</note></seg>, in her height of pride,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">By an inflamable Rich Mantle died</rdg>
+            <rdg wit="#ee">By an inflammable rich mantle died.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+      
+      <lg type="stanza" n="2">
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Then let us all move humble in our <seg>Sphe<del>er</del><note type="physical">“p” shows erased ascender (as for “h”); final two letters scribbled out</note></seg> <seg><add place="above">Sphere</add><note type="physical">in different hand from main scribe</note></seg></rdg>
+            <rdg wit="#ee">Then let us all move humble in our sphere,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">And then <seg>no<del>e</del><note type="physical">“e” scribbled over</note></seg> Re<hi rend="overline">m</hi>ora wee need to &ff;ear.</rdg>
+            <rdg wit="#ee">And then no remora we need to fear.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      </lg>
+        
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

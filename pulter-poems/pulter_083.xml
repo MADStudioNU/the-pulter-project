@@ -1,3 +1,497 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.83">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Piper of Hamelin (Emblem 17)</title>
+        <title type="sub">Poem 83</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_206.jpg" xml:id="f7610_206"/>
+    <graphic url="./document_images/7610_207.jpg" xml:id="f7610_207"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_206" n="101v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_206"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_206"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_206" type="pageNum" place="margin-topright">17</fw>[Emblem 17]</rdg>
+          <rdg wit="#ee">The Piper of Hamelin<lb/>(Emblem 17)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">What begins as a poem heralding God’s ability to use animals to punish errant humans dramatically changes into a fable in which animal control is just a commercial venture gone bad. This poem briefly surveys a host of divine plagues, powered by the weapons of mass destruction that are God’s creatures: rabbits, moles, frogs, snakes, insects (even <hi rend="italic">lice</hi>!), as well as that most notorious plague beast, the rat–which leads to a retelling of the still-familiar story of the pied piper of Hamelin kidnapping an entire town’s children when the town failed to pay him for clearing the rats. No mere horror story about stranger danger, as it has become for children and parents both today, this is Pulter’s unexpected morality tale about the problems of avarice and the importance of keeping one’s word. Grief for lost children, which Pulter represents so poignantly and personally elsewhere in her poems, is here just punishment for dishonorable action.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">  When God (who is to Mercie most inclin’d)</rdg>
+            <rdg wit="#ee">When God (who is to mercy most inclined)</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">  To puniſh or to trie hath once deſign’d</rdg>
+            <rdg wit="#ee">To punish or to <seg>try<note type="gloss"> to subject to trial</note></seg> hath once <seg>designed<note type="gloss">marked out, designated; appointed, assigned, destined</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">A People, each Reptell or inſect</rdg>
+            <rdg wit="#ee">A people, each reptile or insect</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Or baſest Animal will not neglect</rdg>
+            <rdg wit="#ee">Or basest animal <seg>will not neglect<note type="gloss">that is, God will not neglect these creatures</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">But will their Habitation Soe Annoy</rdg>
+            <rdg wit="#ee">But will their habitation so annoy,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Without a Countermand they’l all deſtroy</rdg>
+            <rdg wit="#ee"><seg>Without a countermand, they’ll all destroy<note type="gloss">The sense of the poem’s opening sentence is that, without a divine “countermand” (an order revoking God’s previous command), the creatures he has designated as plagues upon a given people will destroy everything in their path.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Thus Spain by Rabbits, Moles made Theſaly</rdg>
+            <rdg wit="#ee"><seg>Thus<note type="gloss">In this and the next five lines, Pulter summarizes Pliny’s <title rend="italic">Natural History</title> where he writes (in Book 8, Chapter 29) of “what cities and nations have been utterly destroyed by little beasts.” After noting that “much hurt and damage hath been known to come from small contemptible creatures, which otherwise are of no reckoning and account,” Pliny mentions many of the same creatures and locales as Pulter does. (<bibl>C. Plinius Secundus <title rend="italic">The Historie of the World</title>. Trans. Philemon Holland [1601]: pp. 192-234, https://penelope.uchicago.edu/holland/pliny8.html</bibl>).</note></seg> Spain by rabbits, <seg>moles made Thessaly<note type="gloss">This phrase is completed in the next line: “moles made Thessaly … a desert lie.”</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Locusts made Affrica a Deſert lye</rdg>
+            <rdg wit="#ee">Locusts made Africa a desert lie;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">&ff;rance &ff;rogs, Amycle Serpents, did deſtroy</rdg>
+            <rdg wit="#ee">France frogs, <seg>Amyclæ<note type="gloss">a city near Sparta in ancient Peloponnesia</note></seg> serpents, did destroy;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">&ff;lyes, Lice, and &ff;rogs, all Egypt did Annoy</rdg>
+            <rdg wit="#ee">Flies, lice, and frogs, all Egypt did annoy;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Gyaros Rats, and too too many more</rdg>
+            <rdg wit="#ee"><seg>Gyaros<note type="gloss">a Greek island</note></seg>, rats; and too, too many more</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Their Sufferings (though not Sins) did then deplore</rdg>
+            <rdg wit="#ee">Their sufferings (though not sins) did then <seg>deplore<note type="gloss">lament, mourn, tell with grief</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">This made the Town of <seg>Hamell<note type="physical">final “l” appears written over “e”</note></seg> Stand in Doubt</rdg>
+            <rdg wit="#ee">This made the town of <seg>Hamelin<note type="gloss">a market town in Lower Saxony, Germany</note></seg> <seg>stand in doubt<note type="gloss">to continue in a state of doubt, or, more likely here, “doubt” in the sense of apprehension or dread</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Cauſe of thoſe vermine they had Such a Rowt</rdg>
+            <rdg wit="#ee">’Cause <seg>of those vermin they had such a rout<note type="gloss">Pulter refers to the legend of the Pied Piper of Hamelin, in which the town was infested with a rat plague (or “rout”: a crowd or pack, especially a noisy, disordered, or violent one).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">They tri’de all <add place="below">^</add><add place ="above">waies, as</add> poyſons, Traps, and Catts.</rdg>
+            <rdg wit="#ee">They tried all ways, <seg>as<note type="gloss">such as</note></seg> poisons, traps, and cats,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Yet Still their Houſes pesterd were with Rats</rdg>
+            <rdg wit="#ee">Yet still their houses pestered were with rats.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">At last a Piper chance’d to come that way</rdg>
+            <rdg wit="#ee">At last a piper chanced to come that way,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">With whom they bargaind for a Certain pay</rdg>
+            <rdg wit="#ee">With whom they bargained, for a certain pay,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Their Town of this baſe Loathſom Beaſts to free</rdg>
+            <rdg wit="#ee"><seg>Their town of these base loathsome beasts to free<note type="physical">In the manuscript’s left margin, just below this poetic summary of the tale, is a reference to her source “See the story of this pied piper at large in Verstegan, folio 85”; see <bibl><title rend="italic">A Restitution of Decayed Intelligence</title> (London, 1605), 85</bibl>.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft"><seg>The<note type="physical">in left margin: “See the Story / of this Pied Piper/ at Larg in Verstegan / ffolio 85”</note></seg> &ff;ruits of Curſed Avarice now See</rdg>
+            <rdg wit="#ee">The fruits of curséd avarice now see.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">This &ff;ellow pipeing went to <seg>Weaſers<note type="physical">“W” appears written over “w”</note></seg> brim</rdg>
+            <rdg wit="#ee">This fellow piping went to <seg>Weser<note type="gloss">a river in Germany</note></seg> brim,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">And all the Rats Ran danceing after him</rdg>
+            <rdg wit="#ee">And all the rats ran dancing after him;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_207" n="102r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_207"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_207"/>
+            </rdg>
+        </app>
+        
+      <l n="23">
+        <app>
+            <rdg wit="#ft">  Then instantly they Skipt into the Stream</rdg>
+            <rdg wit="#ee">Then instantly they skipped into the stream.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Though Some may thinkt a &ff;iction or A dream</rdg>
+            <rdg wit="#ee">Though some may <seg>think’t<note type="gloss">think it</note></seg> a fiction or a dream,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Yet true it is for drowning was their &ff;ate</rdg>
+            <rdg wit="#ee">Yet true it is, for drowning was their fate;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">But how <seg>t’was<note type="physical">“s” written over former letter with ascender, possibly “t”</note></seg> don noe Story doth Relate</rdg>
+            <rdg wit="#ee">But how ’twas done, no story doth relate.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">&ff;or whether a Teleſma hee did take</rdg>
+            <rdg wit="#ee">For whether a <seg>talisman<note type="gloss">charm</note></seg> he did take,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">&ff;ive such of Gold The Philiſtin’s did make</rdg>
+            <rdg wit="#ee"><seg>Five such of gold the Philistines did make<note type="gloss">God punishes the Philistines with destruction and hemorrhoids for taking the Ark of Covenant; to be relieved of their sufferings, the Philistines are told to present to God five golden emerods and five golden mice.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Or what hee did I think noe man can Say</rdg>
+            <rdg wit="#ee">Or what he did, I think no man can say;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">But when hee came and aſked for his pay</rdg>
+            <rdg wit="#ee">But when he came and askéd for his pay,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">The <seg>Burger’s<note type="physical">“’s” in darker ink; “r” could be another “s”</note></seg> in their Gravitie Refuſ’d</rdg>
+            <rdg wit="#ee">The <seg>burghers<note type="gloss">“’s” in darker ink; “r” could be another “s”</note></seg> in their gravity refused</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">To pay the Sam̄e, the Piper thus abuſ’d</rdg>
+            <rdg wit="#ee">To pay the same; the piper, thus abused,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">did vow Reveng, they bid him doe his worst</rdg>
+            <rdg wit="#ee">Did vow revenge; they bid him do his worst.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Now See how Breach of Promiſe is Accurst</rdg>
+            <rdg wit="#ee">Now see how breach of promise is accursed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">The &ff;ellow Pipeing went away againe</rdg>
+            <rdg wit="#ee">The fellow piping went away again,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">A Hundred and Thirty Children in his Train</rdg>
+            <rdg wit="#ee">A hundred and thirty children in his train;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Into a hill hee led theſe pretty Boys</rdg>
+            <rdg wit="#ee">Into a hill he led these pretty boys,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">And thus <seg>their<note type="physical">perhaps written over earlier letters</note></seg> Parents lost their hopes, and Joys,</rdg>
+            <rdg wit="#ee">And thus their parents lost their hopes and joys;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">Which with Sad Hearts they now too late deplore</rdg>
+            <rdg wit="#ee">Which, with sad hearts, they now too late <seg>deplore<note type="gloss">lament; tell with grief; mourn; give up as hopeless</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">&ff;or they nor hee were ever heard of more</rdg>
+            <rdg wit="#ee">For they, nor he, were ever heard of more.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">By theſe their grievous Suff’rings you may See</rdg>
+            <rdg wit="#ee">By these, their grievous suff’rings, you may see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">that breach of Promiſe puniſhd Sure will bee</rdg>
+            <rdg wit="#ee">That breach of promise punished sure will be.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">Then keep your word for better or for worſ</rdg>
+            <rdg wit="#ee">Then keep your word, for better or for worse,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="44">
+        <app>
+            <rdg wit="#ft">Lest with theſe Saxons you pertake like Curſ</rdg>
+            <rdg wit="#ee">Lest with these <seg>Saxons<note type="gloss">inhabitants of Saxony, here referring to the people of Hamelin in Lower Saxony</note></seg> you partake like curse.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

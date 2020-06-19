@@ -1,3 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.78">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>This Vast Leviathan (Emblem 12)</title>
+        <title type="sub">Poem 78</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_200.jpg" xml:id="f7610_200"/>
+    
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_200" n="98v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_200"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_200"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_200" type="pageNum" place="margin-topright">12</fw>[Emblem 12]</rdg>
+          <rdg wit="#ee">This Vast Leviathan<lb/>(Emblem 12)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">In this emblem, Pulter draws on two animals–the whale and the crocodile–to exemplify a common lesson: because people in a social hierarchy are interdependent, those at the top should appreciate the labors of those below. But there is nothing predictable about the vivid, or even lurid, scenarios she paints of creatures who are medicated and fed by the intestinal juices, waste products, and half-chewed food scraps of other creatures. Drawing on Jewish lore, the Bible, and natural history, the speaker first imagines Jonah’s three-day voyage into the belly of the beast as an invigorating retreat featuring a diet of fatty tissue with a side dish of “poignant sauce and unctuous caviar;” yet even the whale, whose powerful instrumentality as a host is divinely sanctioned, cannot survive without the help of a tiny fish, who benefits in turn from the whale’s leftovers. The Egyptian crocodile’s symbiotic relationship with a wren provides the second example: in sentences whose shifting pronouns make the identities of three animals dizzyingly unstable, the speaker shows that the powerful crocodile depends on a small bird’s warning that rats will crawl into its body to feast on its intestines; as a reward, the wren gets to pick half-eaten food from the beast’s teeth. The reader may remember the visceral disgust created by her examples more than Pulter’s simple if valuable moral about interdependency.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">  This Vast Leviathan Whoſe Breathing blows</rdg>
+            <rdg wit="#ee">This vast <seg>leviathan<note type="gloss">a large sea animal; here, a whale</note></seg>, whose breathing blows</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Huge &ff;loods and Sholes of &ff;iſhes through his Noſe</rdg>
+            <rdg wit="#ee">Huge floods and <seg>shoals<note type="gloss">schools; a large number of sea creatures swimming together</note></seg> of fishes through his nose;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Hee whoſe &ff;air Conſort in Salt Pickle lyes</rdg>
+            <rdg wit="#ee">He <seg>whose fair consort in salt pickle lies<note type="gloss">According to rabbinical literature, God first produced a male and female leviathan, but to prevent the species from multiplying and destroying the world, he killed the female and preserved her flesh to serve at a banquet for the righteous after the Messiah arrives. See Emil G. Hirsch, Kaufmann Kohler, Solomon Schechter, Isaac Broydé, “Leviathan and Behemoth,” jewishencyclopedia.com.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">To feast the Jewes or elce their Talmond lies</rdg>
+            <rdg wit="#ee">To feast the Jews (or else their <seg>Talmud<note type="gloss">body of Jewish laws and interpretations</note></seg> lies);</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Even hee who treated Jonas in his Belly</rdg>
+            <rdg wit="#ee">Even <seg>he who treated Jonah in his belly<note type="gloss">When Jonah is cast into the sea by fellow mariners who suspect he brings misfortune, God sends a great fish, traditionally thought of as a whale, to swallow Jonah and save him; he remains in the belly of the fish for three days and three nights (Jonah 1:15-17).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft"><seg>With<note type="physical">imperfectly erased ascender over “i”</note></seg> wholſom Chilus and Provokeing Gelley,</rdg>
+            <rdg wit="#ee">With wholesome <seg>chilus<note type="gloss">the milky bodily fluid formed during digestion of fatty food</note></seg> and <seg>provoking jelly<note type="gloss">seemingly a reference to whale wax or oil used as medicine (since it is “provoking”–possibly a purgative–and is used here to “treat” Jonah)</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft"><seg>E*ven<note type="physical">in left margin: “x*even hee [“x” and “even hee” not struck-through but erased] / With poynant Sauce / And Unctious Caveare / A Diet as reſtorative / ar Rare”</note></seg> hee the Chief of all the Sons of Pride</rdg>
+            <rdg wit="#ee">With <seg>poignant<note type="gloss">of a sharp taste or smell</note></seg> sauce and <seg>unctuous<note type="gloss">oily, greasy, fat, rich</note></seg> caviar,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Cannot purſue his prey without a Guide</rdg>
+            <rdg wit="#ee">A diet as restorative as rare–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">The little Muſculus doth Swim before</rdg>
+            <rdg wit="#ee">Even he, the <seg>chief of all the sons of pride<note type="gloss">Biblical description of the Leviathan: “a king over all the children of pride” (Job 41:34).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Least hee in Shelves or Sands his Bulk Should Moor</rdg>
+            <rdg wit="#ee">Cannot pursue his prey without a guide.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">And of the Whales abundance Shee but lives</rdg>
+            <rdg wit="#ee"><seg>The little musculus doth swim before<note type="gloss"> Pliny, in his natural history, writes of a fish “called Musculus Marinus, which goeth before the whale … as his guide”; elsewhere, in a chapter entitled, “Of the enmity and amity which is between fishes and other water beasts,” of the “society and fellowship” between whales and this fish: “whereas the whale aforesaid hath no use of his eyes … the other swimmeth before him, serveth him instead of eyes and lights, to show when he is near the shelves and shallows, wherein he may be soone grounded, so big and huge he is.” See Book 11, Chapter 37, and Book 9, Chapter 62, in Philemon Holland’s translation of The History of the World (London, 1601).</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">The Emperious Monſter <seg>Sc<add place="above">r</add>apes<note type="physical">“r” appears in different hand from main scribe</note></seg>, and Mam̄ucks gives</rdg>
+            <rdg wit="#ee">Lest <seg>he<note type="gloss">the leviathan, or whale</note></seg> in shelves or sands his bulk should moor.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Soe may you See Nils Caymen gapeing lye</rdg>
+            <rdg wit="#ee"><seg>And of the whale’s abundance she but lives<note type="gloss">That is, the whole diet of the musculus derives from the whale’s excess supply.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+          <rdg wit="#ft">Whilst in and out his Mouth the<add place="above">x</add> Wren doth &ff;lie</rdg>
+            <rdg wit="#ee">Th’imperious <seg>monster<note type="gloss">the whale</note></seg> scraps and <seg>mammocks<note type="gloss">scraps or shreds; broken or torn pieces</note></seg> gives.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft"><seg>To<note type="physical">in left margin: “<add place="above">x</add> Trochilos Plinie / Book 11:th Chap: 3d”</note></seg> wake him when the *Ichneumon her &ff;oe</rdg>
+          <rdg wit="#ee">So may you see Nile’s <seg>caiman<note type="gloss">a term loosely applied to some members of the crocodile family</note></seg> gaping lie</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Into her Lothed Intralls Strives to goe</rdg>
+          <rdg wit="#ee">Whilst in and out his mouth <seg>the wren<note type="physical">In the manuscript, an “x” between these words is keyed to a note in the left margin, which refers us to Pliny’s account of the “Trochilos”; the citation is to Book 11, Chapter 3, but in Philemon Holland’s translation, Book 8, Chapter 25 features this account of the Nile crocodile: “When he hath filled his belly with fishes, he lieth to sleep … and for that he is a great and greedy devourer, somewhat of the meat sticketh evermore between his teeth. In regard whereof cometh the wren, a little bird called there Trochilos, and the king of birds in Italy: and she, for her victual’s sake, hoppeth first about his mouth, falleth to pecking and picking it with her little neb or bill, and so forward to the teeth, which she cleanseth; and all to make him gape. Then getteth she within his mouth, which he openeth the wider, by reason that he taketh so great delight in this her scraping and scouring of his teeth and jaws.” <bibl>Philemon Holland, trans., C. Plinius Secundus, <title rend="italic">The Historie of the World</title> (London, 1601)</bibl>.</note></seg> doth fly</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">&ff;or which the Putred &ff;leſh Shee picks away</rdg>
+          <rdg wit="#ee">To wake him when the <seg>ichneumon<note type="physical">An asterisk by this word in the manuscript is keyed to a note in the margin referring us to Pliny’s natural history, Book 8, Chapter 23; while that chapter features the ichneumon (a type of mongoose), the poem’s account is actually a continuation of material from Chapter 25: “when [the crocodile] is lulled as it were fast asleep with this pleasure and contentment of his: the rat of India, or ichneumon ... spieth his vantage, and seeing him lie thus broad gaping, whippeth into his mouth, and shooteth himself down his throat as quick as an arrow, and then gnaweth his bowels, eateth an hole through his belly, and so killeth him.” <bibl>Philemon Holland, trans., C. Plinius Secundus, <title rend="italic">The Historie of the World</title> (London, 1601)</bibl>.</note></seg>, <seg>her<note type="critical">the caiman’s (or crocodile’s), whose gender, according to the pronouns, seemingly shifts from male to female. While this may be a scribal error, it was not corrected by the hand that is probably Pulter’s; as such, the gender confusion may enhance the general blurring of identities created by confusing pronouns designating the bird and crocodile in the next lines. Eardley alters this pronoun, as well as the next two referring to the crocodile, to “him,” which stabilizes the crocodile’s gender. A reader might just as legitimately alter the two pronouns used earlier to refer to the crocodile to create a consistently female-gendered animal.</note></seg> foe,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft"><seg>Between<note type="physical">in left margin: “*Or Indian or [inserted in different hand from main scribe] Pharos /  Rat Plinie Book 8 / chap: 23”</note></seg> her teeth, this beeing all her pay</rdg>
+          <rdg wit="#ee">Into her loathéd <seg>entrails<note type="gloss">internal organs, usually the intestines; here figuratively for the interior of the body</note></seg> strives to go;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">Soe greatest Monarchs poorest vaſſals need</rdg>
+          <rdg wit="#ee">For which the putrid flesh <seg>she<note type="gloss">the wren</note></seg> picks away</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Soe hungry Peſants pamper’d Nobles &ff;eed</rdg>
+          <rdg wit="#ee">Between her teeth, this being all her pay.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Then let thoſe that are placed the rest above</rdg>
+          <rdg wit="#ee">So greatest monarchs poorest vassals need;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Answer their labour with their care and Love</rdg>
+          <rdg wit="#ee">So hungry peasants pampered nobles feed.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft"><seg>And<note type="phsyical">in left margin: “Ecclesiasties / chap,5: v: 9”</note></seg> Pittie thoſe which labor at the Plough</rdg>
+          <rdg wit="#ee">Then let those that are placed the rest above</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">T’is God that made the difference and not thou.</rdg>
+          <rdg wit="#ee">Answer their labor with their care and love,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+          <rdg wit="#ee"><seg>And pity those which labor at the plough<note type="physical">A note in the margin cites the biblical Ecclesiastes, Chapter 5, verse 9: “Moreover the profit of the earth is for all: the king himself is served by the field.”</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+          <rdg wit="#ee">’Tis God that made the difference and not thou.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

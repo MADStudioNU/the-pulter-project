@@ -4000,6 +4000,13 @@
     </pp:poem>
     <pp:poem id="78">
       <pp:title>This Vast Leviathan (Emblem 12)</pp:title>
+      <pp:firstLine>This vast leviathan, whose breathing blows</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="79">
       <pp:title>The Porcupine (Emblem 13)</pp:title>
@@ -4190,9 +4197,23 @@
     </pp:poem>
     <pp:poem id="83">
       <pp:title>The Piper of Hamelin (Emblem 17)</pp:title>
+      <pp:firstLine>When God (who is to mercy most inclined)</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
+      <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
@@ -4567,12 +4588,86 @@
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
+      <pp:firstLine>This ugly sow, descended of that boar</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>innocence</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>pigs</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>innocence</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>soul</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
+      <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>fate</pp:keyword>
+        <pp:keyword>mortality</pp:keyword>
+        <pp:keyword>writing</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>prophecy</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>writer</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>author</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
+      <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>love</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>jealousy</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>monarchy</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>jealousy</pp:tag>
+        <pp:tag>elephant</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>parenting</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="98">
       <pp:title>This Fell Catablepe (Emblem 33)</pp:title>
@@ -4629,10 +4724,60 @@
       </pp:curations>
     </pp:poem>
     <pp:poem id="99">
-      <pp:title>Mark but those Hogs (Emblem 34)</pp:title>
+      <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
+      <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>pigs</pp:keyword>
+        <pp:keyword>money</pp:keyword>
+        <pp:keyword>ingratitude</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>pigs</pp:tag>
+        <pp:tag>money</pp:tag>
+        <pp:tag>ingratitude</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>purity</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>food</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="100">
-      <pp:title>This Soul, that Bird, and Fish (Emblem 35)</pp:title>
+      <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
+      <pp:firstLine>Seest thou this horizontal bird, whose eyes</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>constancy</pp:keyword>
+        <pp:keyword>purity</pp:keyword>
+        <pp:keyword>creation</pp:keyword>
+        <pp:keyword>comfort</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>constancy</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>Heaven</pp:tag>
+        <pp:tag>sight</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>purity</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>comfort</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="101">
       <pp:title>Doves and Pearls (Emblem 36)</pp:title>
@@ -4835,7 +4980,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="105">
-      <pp:title>View but this Tulip (Emblem 40)</pp:title>
+      <pp:title>View But This Tulip (Emblem 40)</pp:title>
       <pp:firstLine>View but this tulip, rose, or gillyflower</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>François van Bleyswijck, Stadsgezicht met Domkerk te Utrecht en allegorie met drie geleerden, 1681-1746. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
@@ -4901,15 +5046,122 @@
     </pp:poem>
     <pp:poem id="106">
       <pp:title>The Ostrich (Emblem 41)</pp:title>
+      <pp:firstLine>The ostrich, with her gallant gaudy plumes</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>race</pp:keyword>
+        <pp:keyword>pride</pp:keyword>
+        <pp:keyword>parental love</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>children</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>parenting</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>Bible</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
+      <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>devil</pp:keyword>
+        <pp:keyword>Native Americans</pp:keyword>
+        <pp:keyword>demonic possession</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>whale</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>devil/demon</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>pigs</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
+      <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>witchcraft</pp:keyword>
+        <pp:keyword>humility</pp:keyword>
+        <pp:keyword>vanity</pp:keyword>
+        <pp:keyword>pride</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>vanity</pp:tag>
+        <pp:tag>witchcraft</pp:tag>
+        <pp:tag>ocean</pp:tag>
+        <pp:tag>wind</pp:tag>
+        <pp:tag>gods</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>humility</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
+      <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>suicide</pp:keyword>
+        <pp:keyword>rebirth</pp:keyword>
+        <pp:keyword>sacrifice</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>suicide</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>rebirth</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>parent</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>heaven</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>atoms</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>Christ</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
@@ -4992,16 +5244,16 @@
         <pp:sourceStatement>Pierre Woeiriot (II), De stier van Phalaris, 1542–1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.157228"/>
       </pp:poster>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
 <!--        <pp:edition type="amplified">-->
 <!--          <pp:author>Millie Godfery</pp:author>-->
 <!--          <pp:author>Sarah C. E. Ross</pp:author>-->
 <!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>civil war</pp:keyword>
         <pp:keyword>England</pp:keyword>
@@ -5036,6 +5288,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Whitney Sperrazza</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>insects</pp:keyword>
