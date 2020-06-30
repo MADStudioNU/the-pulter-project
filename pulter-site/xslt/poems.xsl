@@ -5047,6 +5047,10 @@
     <pp:poem id="106">
       <pp:title>The Ostrich (Emblem 41)</pp:title>
       <pp:firstLine>The ostrich, with her gallant gaudy plumes</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Anselmus Boëtius de Boodt (mogelijk), Struisvogel (Struthio camelus), 1596-1610. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.674098"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5102,6 +5106,10 @@
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
       <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Jan Brandes, Een tonijn, een haai en een remora, 1788. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.214530"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
