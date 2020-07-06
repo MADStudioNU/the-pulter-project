@@ -4238,7 +4238,7 @@
         <pp:keyword>sexuality</pp:keyword>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>marriage</pp:keyword>
-        <pp:keyword>Others</pp:keyword>
+        <pp:keyword>Other(s)</pp:keyword>
         <pp:keyword>slavery</pp:keyword>
         <pp:keyword>remembrance</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
@@ -4505,6 +4505,33 @@
     </pp:poem>
     <pp:poem id="91">
       <pp:title>Ambitious Apes (Emblem 26)</pp:title>
+      <pp:firstLine>Those that employéd are the apes to catch</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>slavery</pp:keyword>
+        <pp:keyword>ambition</pp:keyword>
+        <pp:keyword>bible</pp:keyword>
+        <pp:keyword>history</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>ambition</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>slavery</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>government</pp:tag>
+        <pp:tag>monarchy</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>war</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>history</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
