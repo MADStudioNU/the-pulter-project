@@ -1,3 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.90">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Emblem 25</title>
+        <title type="sub">Poem 90</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_218.jpg" xml:id="f7610_218"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_218" n="107v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_218"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_218"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_218" type="pageNum" place="margin-topright">25</fw>[Emblem 25]</rdg>
+          <rdg wit="#ee">Emblem 25</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote"> Damned if you do, damned if you don’t–this emblem asks the reader to imagine three seemingly unrelated creatures who must choose between equally hazardous options: the flying fish who faces predators whether leaping in the sky or diving beneath the waters; a wounded deer who can flee and bleed to death, or get caught when resting to conserve energy; and Charles I, who surrendered during the civil war to those in his native Scotland (who betrayed him) in order to evade English armies. Envisioning the king as akin to a quivering and bleeding deer connects him imagistically with Pulter’s dying daughter, Jane, in <ref type="pp-poem-ref" corresp="10">“Upon the Death of my Dear and Lovely Daughter” (Poem 10)</ref>, thus showing the crossover between Pulter’s vocabularies for expressing political and personal elegy. Yet what at first seems a lesson in futility turns, in this emblem’s final four lines, to a discovery of consolation, since Charles’ death offers a paradoxical triumph: martyrdom allows for fame and duration beyond the individual life. Pulter concludes not by drawing out the implications of the Christian paradox of dying to live, but by schooling her readers to put their tribulations into a larger perspective: after all, life could always be worse, as her three examples demonstrate–and even that “worse” might be, unexpectedly, conjoined with the very best.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">Behold this flying &ff;iſh with Shineing Wings</rdg>
+            <rdg wit="#ee">Behold: this flying fish, with shining wings,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">When <seg>&ff;orth<note type="physical">“orth” appears written over other letters; two imperfectly erased ascenders visible at end</note></seg> the Swelling Billows up Shee Springs</rdg>
+            <rdg wit="#ee">When <seg>forth the swelling billows up she springs<note type="gloss">“forth” here indicates moving onwards or forwards from the billows, or ocean waves.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Thinking but all in vain to flie away</rdg>
+            <rdg wit="#ee">Thinking, but all in vain, to fly away,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">To hungry Hawks, and Kites, becom’s a prey</rdg>
+            <rdg wit="#ee">To hungry hawks and <seg>kites<note type="gloss">birds of prey</note></seg> becomes a prey.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Then down into the deep Shee dives again</rdg>
+            <rdg wit="#ee">Then down into the deep she dives again;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">But then her &ff;oes within the &ff;rothey Main</rdg>
+            <rdg wit="#ee">But then her foes within the frothy <seg>main<note type="gloss">open sea</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Whales, Sharks, Boneetoſ <del>lie</del>, <add place="below">\</add> <add place="above">lie \</add> and Watch each hour</rdg>
+            <rdg wit="#ee">(Whales, sharks, <seg>bonitos<note type="gloss">medium-sized, tuna-like fish</note></seg>) lie and <seg>watch<note type="gloss">keep watch, as in await a time in which, as the next line explains, to devour the creature</note></seg>, each hour,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">This helples, harmles, Creature to devour</rdg>
+            <rdg wit="#ee">This helpless, harmless creature to devour.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Let diſcontented Spirits come and See</rdg>
+            <rdg wit="#ee">Let discontented spirits come and see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">This perfect Map of infilicity</rdg>
+            <rdg wit="#ee">This perfect <seg>map<note type="gloss">a summary or epitome; an embodiment or incarnation of a quality</note></seg> of <seg>infelicity<note type="gloss">unhappiness; misfortune</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Soe have I Seen a Hart <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Hounds opprest</rdg>
+            <rdg wit="#ee">So have I seen a <seg>hart<note type="gloss">a male deer (here gendered female)</note></seg> with hounds oppressed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">An Arrow Sticking in her quivering Breast</rdg>
+            <rdg wit="#ee">An arrow sticking in her quivering breast;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">If Shee goes on her guiltles blood still &ff;lows</rdg>
+            <rdg wit="#ee">If she goes on, her guiltless blood still flows;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">If Shee stands Still Shee &ff;als amongst her foes</rdg>
+            <rdg wit="#ee">If she stands still, she falls amongst her foes.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">S,oe have I known (oh Sad) the Best of Kings</rdg>
+            <rdg wit="#ee">So have I known (O, sad) <seg>the best of kings<note type="gloss">Charles I</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">(Ay mee the thought of this such horrour brings</rdg>
+            <rdg wit="#ee">(<seg>Ay me<note type="gloss">an expression of anguish</note></seg>, the thought of this such horror brings</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">To my Sad Soul) his Princely Spirit poſed</rdg>
+            <rdg wit="#ee">To my sad soul), his princely spirit posed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">In Strange Delem̄as every where incloſed</rdg>
+            <rdg wit="#ee">In strange dilemmas, everywhere enclosed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">By his ,and Gods depreſſed Iſraell’s foes</rdg>
+            <rdg wit="#ee">By his and <seg>God’s depressed Israel’s foes<note type="gloss">God’s chosen people, Israel, are here compared to the English, who are “depressed” (brought low or oppressed as well as dejected) by their “foes” in the civil wars of the 1640s.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">In this great Strait his native Side hee choſe</rdg>
+            <rdg wit="#ee">In this great <seg>strait<note type="gloss">dilemma or difficult choice; confined place; time of need or difficult circumstances</note></seg>, <seg>his native side<note type="gloss">in the civil wars, the Scottish side (since Charles I was born in Scotland)</note></seg> he chose.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Perfidious Scot thou this base plot did’st Lay</rdg>
+            <rdg wit="#ee"><seg>Perfidious Scot<note type="gloss">a generic Scottish person, or the Scots in general, castigated for treachery (perfidy)</note></seg>, thou <seg>this base plot<note type="gloss"> As Eardley notes, Charles I surrendered in April 1646 to the Scots, who the next year released him to England’s Parliament, under whose authority he was executed in 1649.</note></seg> did’st lay;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Iſcariot like thou didst thy Kings betray</rdg>
+            <rdg wit="#ee"><seg>Iscariot-like<note type="gloss">Judas Iscariot, as the disciple who betrayed Jesus Christ to the authorities, became emblematic of treachery.</note></seg> thou didst thy <seg>kings<note type="gloss">The plural “kings” suggests that Pulter refers not only to Charles I but to Christ as another monarch betrayed by the Scots.</note></seg> betray.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Hee lost his life but got a lasting &ff;ame</rdg>
+            <rdg wit="#ee"><seg>He<note type="gloss">Charles I, with echoes of Christ, from the line above</note></seg> lost his life, but got a lasting <seg>fame<note type="gloss">reputation; renown</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Thuſs beeing overcome hee overcame</rdg>
+            <rdg wit="#ee">Thus, being overcome, he overcame.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Then Patient bee though things fit not thy Wiſh</rdg>
+            <rdg wit="#ee">Then patient be, though things fit not thy wish;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Thou might’st a been, King, Hart, or &ff;lying &ff;iſh,</rdg>
+            <rdg wit="#ee">Thou might’st have been king, hart, or flying fish.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-ascendline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
