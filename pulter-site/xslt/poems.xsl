@@ -4502,6 +4502,32 @@
     </pp:poem>
     <pp:poem id="90">
       <pp:title>This Flying Fish (Emblem 25)</pp:title>
+      <pp:firstLine>Behold: this flying fish, with shining wings</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>betrayal</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>patience</pp:keyword>
+        <pp:keyword>risk</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>patience</pp:tag>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>whale</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>betrayal</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="91">
       <pp:title>Ambitious Apes (Emblem 26)</pp:title>
