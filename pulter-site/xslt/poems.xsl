@@ -4007,6 +4007,22 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>dependency</pp:keyword>
+        <pp:keyword>mutuality</pp:keyword>
+        <pp:keyword>whales</pp:keyword>
+        <pp:keyword>crocodiles</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>whale</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>dependency</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>class</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="79">
       <pp:title>The Porcupine (Emblem 13)</pp:title>
@@ -4204,6 +4220,27 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keywords>promise</pp:keywords>
+        <pp:keywords>Pied Piper</pp:keywords>
+        <pp:keywords>children</pp:keywords>
+        <pp:keywords>suffering</pp:keywords>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>suffering</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>sins</pp:tag>
+        <pp:tag>water</pp:tag>
+        <pp:tag>music</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>money</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>promise</pp:tag>
+        <pp:tag>curse</pp:tag>
+        <pp:tag>punishment</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
