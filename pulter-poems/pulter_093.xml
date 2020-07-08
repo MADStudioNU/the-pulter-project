@@ -1,3 +1,425 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.93">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Vain Herostratus (Emblem 28)</title>
+        <title type="sub">Poem #93</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_222.jpg" xml:id="f7610_222"/>
+    <graphic url="./document_images/7610_223.jpg" xml:id="f7610_223"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_222" n="109v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_222"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_222"/>
+        </rdg>
+      </app>
+
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+            <rdg wit="#ee">Vain Herostratus<lb/>(Emblem 28)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Notoriety: this is the focus of Pulter’s emblem, which rehearses the story of men whose ambitious drive for fame led to their destruction. The imaginative geography of this emblem stretches across ancient Greece, Syria, Persia, Babylon, Jerusalem, Gallic Northern Europe, and contemporary Ireland, unearthing a vast array of examples of impiety and sacrilege. While the last part of the poem focuses on the just deserts that anti-heroes such as Cambyses, Belshazzar, and Brennus suffered, the poem begins with the more particular conundrum of how the drive for fame can twist into notoriety instead: the very desire to be commemorated morphs into the curse of not being forgotten as a villain. Pulter’s one mention of a <hi rend="italic">woman</hi> seeking fame is, unusually, herself, offered as a counterexample to the powerful male rulers she mentions. Why is seeking “splendent fame” valid for a poet who hopes to embody the role of “Hadassah” (Queen Esther from the Bible, and Pulter’s chosen pseudonym for her authorship)? Maybe the poem belies a concern about authorial ambition: if choosing between notoriety and oblivion, she states, the choice is clear—she does not wish to join the ranks of the famed criminals whose legendary status the poem perpetuates. The limited circulation of Pulter’s poems, their relegation to oblivion for hundreds of years, and her emergence as a poet later in time makes her reflections on fame and oblivion especially meaningful. </note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><fw type="seqNum" place="inline">28</fw>Vain <seg>Erostratus<note type="physical">“o” appears written over earlier “a”</note></seg> was Soe fond of &ff;ame</rdg>
+            <rdg wit="#ee">Vain <seg>Herostratus<note type="gloss">A Greek arsonist who burnt Diana’s temple at Ephesus to ensure his immortal fame (his name is now a nickname for those who commit criminal acts to gain notoriety).</note></seg> was so fond of fame,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Hee Set this Sacred Temple on A &ff;lame</rdg>
+            <rdg wit="#ee">He set this sacred temple on a flame:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">That Stately Structure which was Soe Renownd</rdg>
+            <rdg wit="#ee">That stately structure which was so renowned,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And for the Image of Diana Crown’d</rdg>
+            <rdg wit="#ee">And for the image of <seg>Diana<note type="gloss">in Roman mythology, the virgin huntress and goddess of chastity, whose image in the Ephesian temple was thought to be crafted by the gods. These lines echo Acts 19:35: “what man is there that knoweth not how that the city of the Ephesians is a worshipper of the great goddess Diana, and of the image which fell down from Jupiter?”</note></seg> crowned,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Which fell from Jupiter, whom they implor’d</rdg>
+            <rdg wit="#ee">Which fell from <seg>Jupiter<note type="gloss">king of the Roman gods</note></seg>, whom they implored–</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Whom Epheſus and all the World Ador’d</rdg>
+            <rdg wit="#ee">Whom <seg>Ephesus<note type="gloss">ancient city on the west coast of Asia Minor (present-day Turkey)</note></seg> and all the world adored.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Thus Some out of Ambition Some for gain</rdg>
+            <rdg wit="#ee">Thus some out of ambition, some for gain,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Mingle together holy and Prophane</rdg>
+            <rdg wit="#ee">Mingle together holy and profane.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Soe Citties, Phanes, and Alters, Some have burnd</rdg>
+            <rdg wit="#ee">So cities, <seg>fanes<note type="gloss">temples</note></seg>, and altars some have burned,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">And Monarchies into confutions turn’d</rdg>
+            <rdg wit="#ee">And monarchies into <seg>confusions<note type="gloss">ruins; disorders, commotions; mixtures in which distinct elements are lost by mingling</note></seg> turned.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">My Dear Hibernia made this Story good</rdg>
+            <rdg wit="#ee"><seg>My dear Hibernia<note type="gloss">Hibernia was the Latin name for Ireland, where Pulter was born</note></seg> made this story good</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">When Cristall Shannon ran <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w>Christian blood</rdg>
+            <rdg wit="#ee"><seg>When crystal Shannon ran with Christian blood<note type="gloss">a reference to the Irish Rebellion of 1641, led by Irish Catholic gentry, whom some Protestants did not see as “Christian”; the River Shannon in Ireland was of major strategic importance in this and other military campaigns.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">As noe Edict could make that villain die</rdg>
+            <rdg wit="#ee"><seg>As no <seg>edict<note type="gloss">an order issued by a sovereign to his subjects</note></seg> could make that villain die<note type="gloss">Pulter returns to her initial example of Herostratus; after he burned Diana’s temple, the ruler issued an order (an “edict”) banning mention of Herostratus’s name; the law was ultimately ineffective, as evidenced by this poem.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Soe theſe Are Odious to poſterity</rdg>
+            <rdg wit="#ee"><seg>So these are odious to posterity<note type="gloss">“these” refers to the villains mentioned above who burned “cities, fanes, and altars” and turned monarchies to confusion; since no law can erase their infamy, they will be “odious” (repulsive) to future generations.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Then let mee ever have a Splendent fame</rdg>
+            <rdg wit="#ee">Then let me ever have a <seg>splendent<note type="gloss">shining from within, brilliant, magnificent, grand</note></seg> fame,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Or let me looſ Hadaſſah my lov’d Name</rdg>
+            <rdg wit="#ee">Or let me lose <seg>Hadassah<note type="gloss">Pulter’s pseudonym, which she established through titles to the manuscript and in some poems; the name for the heroic Jewish Queen Esther in the bible (“Esther” being a variant of “Hester”)</note></seg>, my loved name.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">&ff;ar better in Oblivion live and Die</rdg>
+            <rdg wit="#ee">Far better in oblivion live and die</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Then to <seg>Survive<note type="physical">“i” written over earlier “e”; second “v” produced by erasing descender on earlier “y”</note></seg> with theſe in infamie</rdg>
+            <rdg wit="#ee">Than to survive with these in infamy.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">What got <seg>Antiochus<note type="physical">“n” may correct earlier letter or letters</note></seg> then Epiphanus</rdg>
+            <rdg wit="#ee">What got <seg>Antiochus, then Epiphanes<note type="gloss">Antiochus IV, a Seleucid king of Syria (c. 215–163 BC), who gained the surname “Epiphanes,” or “Renowned.”</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">More then the Epithete of Epimanus</rdg>
+            <rdg wit="#ee">More than <seg>the epithet of Epimanes<note type="gloss">Antiochus Epiphanes’s attempt to conquer the Jews (plundering Jerusalem and its holy sites) was seen as capricious and resulted in a revival of Jewish nationalism and the Maccabean revolt; Jewish people then referred to him as “Epimanus”(meaning insane) rather than “Epiphanus” (meaning Renowned)</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Or what gaind Bre<hi rend="overline">n</hi>us after all his plunder</rdg>
+            <rdg wit="#ee">Or what gained <seg>Brennus after all his plunder<note type="gloss">Brennus, chieftain of the Gauls (or Celts of Northern Europe), legendary not only for invading and destroying Rome but for plundering the religious sanctuary of Delphi in the fourth-century BCE.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">When hee <seg>ands<note type="physical">“s” in darker ink</note></seg> Men Receivd their pay in Thunder</rdg>
+            <rdg wit="#ee">When he <seg>and’s<note type="gloss">and his</note></seg> men <seg>received their pay in thunder<note type="gloss">The gods, according to legend, punished Brennus for his sacreligious plundering of temples by subjecting him and his men to thunder, lightning, and hail.</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Were they not <seg>Sacrelegious<note type="physical">“i” written over other letter, possibly “e”</note></seg> villains both</rdg>
+            <rdg wit="#ee">Were they not sacrilegious villains both?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Doth not poſterity their names ene loath</rdg>
+            <rdg wit="#ee">Doth not posterity their names e’en loathe?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_223" n="110r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_223"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_223"/>
+            </rdg>
+        </app>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">What pleaſure had Belſhaſſer in his feast</rdg>
+            <rdg wit="#ee">What pleasure had <seg>Belshazzar<note type="gloss">At a feast, the last king of Babylon (as the next lines describe) sacrilegiously praised the gods associated with vessels his father had plundered from Jerusalem’s temples; he then saw a mysterious hand write a legend of doom on a wall and was slain that night. See Daniel 5:1-13.</note></seg> in his feast,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Or what his Grandſir when hee was A Beast</rdg>
+            <rdg wit="#ee">Or what <seg>his grandsire<note type="gloss">Nebuchadnezzar (Belshazzar’s father, not his grandfather) went insane after plundering holy vessels from Jerusalem. See Daniel 4 and 5:21: “his heart was made like the beasts, and his dwelling was with the wild asses: they fed him with grass like oxen.”</note></seg> when he was a beast?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">One took the Sacred Utenſils away</rdg>
+            <rdg wit="#ee">One took the sacred utensils away;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">The other praiſd the Gods of Gold, and Clay,</rdg>
+            <rdg wit="#ee">The other praised the gods of gold and clay;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Nor would they bee Reformed of their Errour</rdg>
+            <rdg wit="#ee">Nor would they be reformed of their error</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Till one was Strook with madnes to’ther Terrour</rdg>
+            <rdg wit="#ee">Till one was struck with madness, th’other terror.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">What Got Cambice at Horned Ha<hi rend="overline">m</hi>ons hand</rdg>
+            <rdg wit="#ee">What got <seg>Cambyses at horned Ammon’s hand<note type="gloss">Cambyses II, a king of Persia whose force of 50,000 was (as the next line indicates) buried in a sandstorm in Egypt after attacking the temple of the god Ammon’s oracle.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">When &ff;ifty Thouſand men died in ye Sand</rdg>
+            <rdg wit="#ee">When fifty thousand men died in the sand?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">What will they Get that doe our Phanes prophain</rdg>
+            <rdg wit="#ee"><seg>What will they get that do our fanes profane<note type="gloss">Since Pulter wrote as a Royalist in the midst and wake of England’s civil wars, this is likely a reference to the opposing Parliamentarian and Puritan forces damaging (and thus “profan[ing]” or desecrating) churches.</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Sure Shame, and Horrour, will bee all their gain</rdg>
+            <rdg wit="#ee">Sure shame and horror will be all their gain.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>
