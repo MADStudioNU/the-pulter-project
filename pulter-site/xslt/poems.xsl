@@ -4221,10 +4221,10 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keywords>promise</pp:keywords>
-        <pp:keywords>Pied Piper</pp:keywords>
-        <pp:keywords>children</pp:keywords>
-        <pp:keywords>suffering</pp:keywords>
+        <pp:keyword>promise</pp:keyword>
+        <pp:keyword>Pied Piper</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>suffering</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>violence</pp:tag>
@@ -5266,6 +5266,33 @@
     </pp:poem>
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
+      <pp:firstLine>In Mainz, when corn was grown excessive dear</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>tyranny</pp:keyword>
+        <pp:keyword>punishment</pp:keyword>
+        <pp:keyword>justice</pp:keyword>
+        <pp:keyword>revenge</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>compassion</pp:tag>
+        <pp:tag>dawn</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>generosity</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>justice</pp:tag>
+        <pp:tag>planets</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>punishment</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="112">
       <pp:title>The Turtle and his Paramour (Emblem 47)</pp:title>
