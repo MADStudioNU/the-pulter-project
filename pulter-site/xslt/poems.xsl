@@ -5286,6 +5286,31 @@
     </pp:poem>
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
+      <pp:firstLine>Aristomenes, his strange ambiguous fate</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>faith</pp:keyword>
+        <pp:keyword>imprisonment</pp:keyword>
+        <pp:keyword>liberty</pp:keyword>
+        <pp:keyword>race</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>comfort</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>faith</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>race</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
