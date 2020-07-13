@@ -33,6 +33,6 @@ Branch `master` is deployed to the [production site](https://pulterproject.north
 
 #### Current Delta
 Poems that are published on the preview site but not on the production site.
-> E78 E83 E84 E93 E95 E96 E97 E99 E100 A101 E107 E108 E109 E110 E111 A116 A118
+> E78 E83 E84 E93 E95 E96 E97 E99 E100 A101 E107 E108 E109 E110 E111 E112 A116 A118
 
 &ast; *poem is up for publishing with the next production release*
