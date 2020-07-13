@@ -4637,6 +4637,29 @@
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
+      <pp:firstLine>Vain Herostratus was so fond of fame</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>fame</pp:keyword>
+        <pp:keyword>ambition</pp:keyword>
+        <pp:keyword>impiety</pp:keyword>
+        <pp:keyword>justice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>author</pp:tag>
+        <pp:tag>ambition</pp:tag>
+        <pp:tag>justice</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>violence</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
