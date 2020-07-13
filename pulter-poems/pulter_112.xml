@@ -124,7 +124,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -173,7 +173,7 @@
       <l n="1">
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">47</fw>When as that Geniall Univerſall &ff;ire</rdg>
-            <rdg wit="#ee"><seg>Whenas<note type="gloss">Seeing as; when</note></seg> that <seg>genial<note type="gloss">of or relating to marriage or procreation; natural</note></seg> universal fire</rdg>
+            <rdg wit="#ee"><seg>When as<note type="gloss">Seeing as; when</note></seg> that <seg>genial<note type="gloss">of or relating to marriage or procreation; natural</note></seg> universal fire</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>

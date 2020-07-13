@@ -5344,6 +5344,30 @@
     </pp:poem>
     <pp:poem id="112">
       <pp:title>The Turtle and his Paramour (Emblem 47)</pp:title>
+      <pp:firstLine>When as that genial universal fire</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>tyranny</pp:keyword>
+        <pp:keyword>rape</pp:keyword>
+        <pp:keyword>modesty</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>chastity</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>rape</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>
