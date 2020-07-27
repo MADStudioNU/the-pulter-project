@@ -4702,6 +4702,10 @@
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
       <pp:firstLine>This ugly sow, descended of that boar</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Marcus de Bye, naar Paulus Potter, Liggend varken, 1657. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.89847"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
