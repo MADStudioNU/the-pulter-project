@@ -4007,6 +4007,22 @@
 <!--          <pp:author>Wendy Wall</pp:author>-->
 <!--        </pp:edition>-->
 <!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>dependency</pp:keyword>
+        <pp:keyword>mutuality</pp:keyword>
+        <pp:keyword>whales</pp:keyword>
+        <pp:keyword>crocodiles</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>whale</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>dependency</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>class</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="79">
       <pp:title>The Porcupine (Emblem 13)</pp:title>
@@ -4204,6 +4220,27 @@
 <!--          <pp:author>Wendy Wall</pp:author>-->
 <!--        </pp:edition>-->
 <!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>promise</pp:keyword>
+        <pp:keyword>Pied Piper</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>suffering</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>suffering</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>sins</pp:tag>
+        <pp:tag>water</pp:tag>
+        <pp:tag>music</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>money</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>promise</pp:tag>
+        <pp:tag>curse</pp:tag>
+        <pp:tag>punishment</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
@@ -4238,7 +4275,7 @@
         <pp:keyword>sexuality</pp:keyword>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>marriage</pp:keyword>
-        <pp:keyword>Others</pp:keyword>
+        <pp:keyword>Other(s)</pp:keyword>
         <pp:keyword>slavery</pp:keyword>
         <pp:keyword>remembrance</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
@@ -4502,9 +4539,62 @@
     </pp:poem>
     <pp:poem id="90">
       <pp:title>This Flying Fish (Emblem 25)</pp:title>
+      <pp:firstLine>Behold: this flying fish, with shining wings</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>betrayal</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>patience</pp:keyword>
+        <pp:keyword>risk</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>patience</pp:tag>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>bird</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>whale</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>betrayal</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="91">
       <pp:title>Ambitious Apes (Emblem 26)</pp:title>
+      <pp:firstLine>Those that employéd are the apes to catch</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>slavery</pp:keyword>
+        <pp:keyword>ambition</pp:keyword>
+        <pp:keyword>bible</pp:keyword>
+        <pp:keyword>history</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>ambition</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>slavery</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>government</pp:tag>
+        <pp:tag>monarchy</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>war</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>history</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
@@ -4547,6 +4637,29 @@
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
+      <pp:firstLine>Vain Herostratus was so fond of fame</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>fame</pp:keyword>
+        <pp:keyword>ambition</pp:keyword>
+        <pp:keyword>impiety</pp:keyword>
+        <pp:keyword>justice</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>author</pp:tag>
+        <pp:tag>ambition</pp:tag>
+        <pp:tag>justice</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>violence</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="94">
       <pp:title>The Cuckoo (Emblem 29)</pp:title>
@@ -4589,12 +4702,16 @@
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
       <pp:firstLine>This ugly sow, descended of that boar</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:poster>
+        <pp:sourceStatement>Marcus de Bye, naar Paulus Potter, Liggend varken, 1657. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.89847"/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>mythology</pp:keyword>
         <pp:keyword>sin</pp:keyword>
@@ -5173,12 +5290,88 @@
     </pp:poem>
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
+      <pp:firstLine>Aristomenes, his strange ambiguous fate</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>faith</pp:keyword>
+        <pp:keyword>imprisonment</pp:keyword>
+        <pp:keyword>liberty</pp:keyword>
+        <pp:keyword>race</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animal</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>comfort</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>faith</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>race</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
+      <pp:firstLine>In Mainz, when corn was grown excessive dear</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>tyranny</pp:keyword>
+        <pp:keyword>punishment</pp:keyword>
+        <pp:keyword>justice</pp:keyword>
+        <pp:keyword>revenge</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>compassion</pp:tag>
+        <pp:tag>dawn</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>generosity</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>justice</pp:tag>
+        <pp:tag>planets</pp:tag>
+        <pp:tag>revenge</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>punishment</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="112">
       <pp:title>The Turtle and his Paramour (Emblem 47)</pp:title>
+      <pp:firstLine>When as that genial universal fire</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>tyranny</pp:keyword>
+        <pp:keyword>rape</pp:keyword>
+        <pp:keyword>modesty</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>chastity</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>rape</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>tyranny</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>

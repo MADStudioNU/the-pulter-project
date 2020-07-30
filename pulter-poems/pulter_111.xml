@@ -1,3 +1,482 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.111">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Bishop and the Rats (Emblem 46)</title>
+        <title type="sub">Poem #111</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <persName>Sam Nguyen</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_249.jpg" xml:id="f7610_249"/>
+    <graphic url="./document_images/7610_250.jpg" xml:id="f7610_250"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_249" n="123r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_249"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_249"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 46]</rdg>
+            <rdg wit="#ee">The Bishop and the Rats<lb/>(Emblem 46)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Is it possible to flee from punishment for your sins? In this emblem, Pulter fuses two of her favorite themes: the danger of underestimating even the seemingly slightest adversaries, (which she commonly typifies by mice, rats, flies, and lice) and the karma-like cycling of the material and spiritual world. Here, Pulter spins these twin arguments out of the folk legend associated with the Mouse Tower in Germany (which echoes the Polish legend of Popiel). The story tells of how the tyrant Hatto, who cruelly denounced peasants as the true vermin of the earth and burned them to death, was then the subject of God’s revenge by literal vermin who chased him to a tower in a river and ate him alive. After describing other famous figures who gruesomely choked on flies or whose bodies were ridden with lice, Pulter unearths the possible silver lining of a world where you can never hide from God’s judgment: the divine will always be able to pierce the worst darkness to offer mercy and comfort. The phantasmagoric fate of being eaten alive by mice prompts Pulter’s resolve to accept the world’s endless cycles: “For should I take Aurora’s golden wings,” she exclaims, in imagining trying to escape the world, “And fly her shining circle, still it brings / Me whence I came.” The frightening prospect of “what goes around comes around” converts, in the end, into an embrace of the inevitable return to divinely mandated origins.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><fw type="seqNum" place="inline">46</fw><seg>In<note type="physical">in left margin; previous poem concludes at top of same page, followed by blank space; poem begins mid-page</note></seg> <seg>Ments<note type="physical">in different hand from main scribe</note></seg> when Corn was grown exceſſive dear</rdg>
+            <rdg wit="#ee">In <seg>Mainz<note type="gloss">a city in Germany</note></seg>, when <seg>corn<note type="gloss">grain in general (not just maize)</note></seg> was grown excessive <seg>dear<note type="gloss">expensive</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">By Rats, and Mice, which in Huge Swarms apear</rdg>
+            <rdg wit="#ee">By rats and mice, which in huge swarms appear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">The Hippocritticall Biſhop of the place</rdg>
+            <rdg wit="#ee">The <seg>hypocritical bishop<note type="gloss">Archbishop Hatto, noted for being wicked and miserly: “hypocritical” should be pronounced as four syllables.</note></seg> of the place</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Did Seem to pitty much the peoples Caſe</rdg>
+            <rdg wit="#ee">Did seem to pity much the people’s case;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">And them unto a gallant &ff;east invited</rdg>
+            <rdg wit="#ee">And them unto a <seg>gallant<note type="gloss">showy, attractive, splendid</note></seg> feast invited,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">As if in Charity hee had delighted</rdg>
+            <rdg wit="#ee">As if in charity he had delighted;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">But when hee had gotten them to his deſire</rdg>
+            <rdg wit="#ee">But when he had <seg>gotten them to his desire<note type="gloss">gotten them where he wanted them</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Hee (o <seg>inhumane<note type="physical">no closed parenthesis</note></seg> Set the Barn on &ff;ire</rdg>
+            <rdg wit="#ee">He (O, inhumane!) set the barn on fire.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">And thus theſe wretched Creatures all did die</rdg>
+            <rdg wit="#ee">And thus these wretched creatures all did die,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">&ff;or which his Curſed Soul in Hell did &ff;rie</rdg>
+            <rdg wit="#ee">For which <seg>his curséd soul in Hell did fry<note type="gloss">The poem here points to the bishop’s eventual damnation, while the next ten lines indicate what happened immediately after the barn burning but before his death.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Then pointing to them burning, (Said) look here</rdg>
+            <rdg wit="#ee">Then, pointing to them burning, said, “Look here!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Theſe are the Vermine make our Corn Soe dear</rdg>
+            <rdg wit="#ee">These are the vermin make our corn so dear!”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">But See Gods Judgments doth this wretch purſue</rdg>
+            <rdg wit="#ee">But see, God’s judgments doth this wretch pursue,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Which made him Soon thoſe Curſed Actions Rue</rdg>
+            <rdg wit="#ee">Which made him soon those curséd actions <seg>rue<note type="gloss">regret; lament</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">&ff;or Nasty Ratts Still after him did Run</rdg>
+            <rdg wit="#ee">For nasty rats still after him did run,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Not to bee Scar’d by Tel’sma or Gun</rdg>
+            <rdg wit="#ee">Not to be scared by <seg>talisman<note type="gloss">charm</note></seg> or gun.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+       
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">at</fw>
+            </rdg>
+        </app>    
+        
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_250" n="123v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_250"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_250"/>
+            </rdg>
+        </app>
+        
+      <l n="17">
+        <app>
+            <rdg wit="#ft">At last hee built a Tower in the Seas</rdg>
+            <rdg wit="#ee">At last he built a tower in the seas,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Hopeing that there he might Remain in <seg>peace<note type="physical">“c” possibly written over an “s”</note></seg></rdg>
+            <rdg wit="#ee">Hoping that there he might remain in peace.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">But infinite Uglie Rats did thither Swim</rdg>
+            <rdg wit="#ee">But infinite ugly rats did thither swim,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">And to his Horrid pain devoured him</rdg>
+            <rdg wit="#ee">And, to his horrid pain, devouréd him.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">&ff;irst let this teach us to compaſſionate</rdg>
+            <rdg wit="#ee">First, let this teach us <seg>to compassionate<note type="gloss">to pity; the object of pity are “those” in the next line who are less fortunate</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">(If wee abound) thoſe whoſe diſaſterous &ff;ate</rdg>
+            <rdg wit="#ee">(If we <seg>abound<note type="gloss">are plentiful, prosperous, rich</note></seg>) those whose disastrous fate</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Have made them miſerable, next wee may See</rdg>
+            <rdg wit="#ee">Have made them miserable. Next, we may see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">&ff;rom Gods Revenging hand noe place is free</rdg>
+            <rdg wit="#ee">From God’s revenging hand no place is free;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">&ff;or each deſpiſed Reptile or Inſect</rdg>
+            <rdg wit="#ee">For each despiséd reptile or insect</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">He can impower, when wee his Laws neglect</rdg>
+            <rdg wit="#ee">He can empower, when we his laws neglect.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Pope Alexander was Choked with A &ff;lie</rdg>
+            <rdg wit="#ee"><seg>Pope Alexander was choked with a fly<note type="gloss">Legend had it that the twelfth century Pope Adrian IV died because he choked on a fly in his drink. Pulter resituates this incident as happening to one of the popes named Alexander.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft"><seg>Scilla<note type="physical">cancelled asterisk above the “S”</note></seg> and Herod, by A Lows did die</rdg>
+            <rdg wit="#ee"><seg>Sulla and Herod by a louse did die<note type="gloss">Sulla (a Roman general and politician, 138–78 BCE) and Herod the Great (Roman king of Judaea, 11 BC–44 AD) were both tyrants who reputedly had deaths involved with worms: Sulla died of a lice infestation (phthiriasis) and Herod, according to Acts 12:21-23, was eaten by worms after God struck him dead with lightning.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft"><seg>T’is<note type="physical">in left margin, in H2: “* / Cruell Popula and / his curssed wiffe / [short horizontal line between text] By the ſame dismalle / ſtroake did end / their liffe”</note></seg> * neither Earth nor Sea nor Ayr nor Skie</rdg>
+            <rdg wit="#ee"><seg>Cruel Popiel and his curséd wife<note type="gloss">Popiel (which is corrupted to “Popula’ in the manuscript) was a legendary ninth-century Slavic, ruler who, at the instigation of his wife, poisoned family members conspiring against him. The rats and mice feeding on the corpses of those murdered then pursued and devoured the couple alive. See <bibl>Sabine Baring-Gould, <title rend="italic">Curious Myths of the Middle Ages: The Sangreal, Pope Joan, The Wandering Jew, and Others</title> (Mineola, NY: Dover, 2005), 256.</bibl> Thanks to Katharine Maus and Rob Stauffer for locating this legend.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">To which A Sad deſpairing Soul can &ff;lie</rdg>
+            <rdg wit="#ee">By the <seg>same dismal stroke<note type="gloss"> being eaten by rats, as was Hatto</note></seg> did end their life.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">&ff;or Should I take Auroras Golden Wings</rdg>
+            <rdg wit="#ee">’Tis neither earth, nor sea, nor air, nor sky</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">And &ff;lie her Shining Circle Still it brings</rdg>
+            <rdg wit="#ee">To which a sad despairing soul can <seg>fly<note type="gloss">flee</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Mee whence I came, or Should Nights Sable Carr</rdg>
+            <rdg wit="#ee">For should I take <seg>Aurora’s<note type="gloss">goddess of the dawn’s</note></seg> golden wings</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Mee Hurrie where is neither Moon nor Starr</rdg>
+            <rdg wit="#ee">And fly her shining circle, still it brings</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Yet would (my Glorious God) one <seg>Raie<note type="physical">blot near base of decorative descender for “R”</note></seg></rdg>
+            <rdg wit="#ee">Me whence I came; or should Night’s sable <seg>car<note type="gloss">chariot; Nyx, goddess of Night, was often depicted riding a dark chariot pulled by horses, trailing the sky.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Of thine involve my Soul in Endles day</rdg>
+            <rdg wit="#ee">Me hurry where is neither moon nor star,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Then Seeing noe place will Hide my Si<hi rend="overline">n</hi>s &amp; mee</rdg>
+            <rdg wit="#ee">Yet would (my glorious God) one ray</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">I’le from thy Justice to thy Mercie &ff;lee.</rdg>
+            <rdg wit="#ee">Of Thine <seg>involve<note type="gloss">entangle, envelop</note></seg> my soul in endless day.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+          <rdg wit="#ft"></rdg>
+            <rdg wit="#ee">Then, seeing no place will hide my sins and me,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+          <rdg wit="#ft"></rdg>
+            <rdg wit="#ee">I’ll from Thy justice to Thy mercy flee.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>   
+        
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

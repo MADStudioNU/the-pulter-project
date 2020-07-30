@@ -1,3 +1,395 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.110">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aristomenes (Emblem 45)</title>
+        <title type="sub">Poem 110</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_024.jpg" xml:id="f7610_248"/>
+    <graphic url="./document_images/7610_025.jpg" xml:id="f7610_249"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_248" n="122v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_248"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_248"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 45]</rdg>
+          <rdg wit="#ee">Aristomenes<lb/>(Emblem 45)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+            <note type="headnote">People find support, comfort, and freedom where they least expect it—from those they consider enemies or even inferiors. In this emblem, Pulter turns to animal fables, Greek history, the Bible, and contemporary political struggles to show the widespread applicability of this lesson. The poem begins with the story of how the ancient Greek Aristomenes wisely did not give way to fear when a fox entered his prison; instead he used a seeming enemy to make a jailbreak. This apparently universal moral, however, is predicated on specific social hierarchies, as we see in the story of how the biblical prophet Jeremiah is saved by the unexpected compassion of an African (identified in the poem as a “cursed race”) and in the mention of how national stereotypes shape expectations. Directed to “her royal friends” and the royal family, Pulter tailors her lesson to offer hope specifically to Royalists imprisoned by Parliamentarians during the civil war and its aftermath. While the poem’s ending appears simply to invoke the comfort of divine providence, it implicitly adds an odd twist to the overall moral: in presenting comfort and punishment, God's salvation becomes aligned with the unexpected rescue offered by subversive figures and forces marked as outsiders by their species, race, nationality, or sect.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><fw type="seqNum" place="inline">45</fw>Ariſtominus his Strang Ambiguous &ff;ate</rdg>
+          <rdg wit="#ee"><seg>Aristomenes<note type="gloss">Aristomenes was a hero of seventh-century BCE Greece who, as this poem recounts, held out in a stronghold for eleven years, escaping capture several times, once (according to legend) by grasping a fox’s tail in order to be led to the hole by which it had entered.</note></seg>, his strange ambiguous fate,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Unto the Noble Reader I’le Relate</rdg>
+          <rdg wit="#ee">Unto the noble reader I’ll relate.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Thrice of his Liberty hee was Reſtrain’d</rdg>
+          <rdg wit="#ee">Thrice of his liberty he was restrained;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Thrice by A Miracle his freedome gain’d</rdg>
+          <rdg wit="#ee">Thrice by a miracle his freedom gained.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Last in A diſmale Dung’on hee was put</rdg>
+          <rdg wit="#ee">Last in a dismal dungeon he was put</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">&ff;rom Light, and Joy, to Night, &amp; Sorrow ſhut</rdg>
+          <rdg wit="#ee">From light and joy, to night and sorrow shut.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Noe &ff;ellows but dead Bodys bout him Lay</rdg>
+          <rdg wit="#ee">No fellows but dead bodies ’bout him lay,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">On which ô Strang A Jaccall came to prey</rdg>
+          <rdg wit="#ee">On which–O, strange!–a jackal came to prey.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Hee whoſe Couragious Heart did never fayl</rdg>
+          <rdg wit="#ee">He whose courageous heart did never fail</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Start up and Caught old Renard by the Tayl</rdg>
+          <rdg wit="#ee"><seg>Start<note type="gloss">Started</note></seg> up and caught old <seg>Reynard<note type="gloss">traditional name for a fox who is the trickster hero of European folk tales</note></seg> by the tail.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The ffrighted &ff;ox Returnd the way Shee came</rdg>
+          <rdg wit="#ee">The frighted fox returned the way she came;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Hee kept in’s hold in hope to doe y<add place="above">e</add> Same</rdg>
+          <rdg wit="#ee"><seg>He kept in’s<note type="gloss">Aristomenes kept the fox in his grasp.</note></seg> hold, in hope to do the same.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">And when the hole too little was (Alas)</rdg>
+          <rdg wit="#ee">And when the hole too little was (alas!),</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Hee Scrapt it bigger till himſelf could paſs</rdg>
+          <rdg wit="#ee">He scraped it bigger till himself could pass.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">The Anchorite with’s nails Soe digs his Grave</rdg>
+          <rdg wit="#ee">The <seg>anchorite<note type="gloss">person who has withdrawn from the world and lives in confinement, often for religious reasons; this line refers to the anchorite’s commitment to contemplate death.</note></seg> <seg>with’s<note type="gloss">with his</note></seg> nails so digs his grave;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Hee Scrapt, his Life and Liberty to have</rdg>
+          <rdg wit="#ee">He scraped, his life and liberty to have.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Then let my Royall ffriends that Captive bee</rdg>
+          <rdg wit="#ee">Then let my <seg>royal friends that captive be<note type="gloss">supporters of Charles I imprisoned during the civil war</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">The various &ff;ortune of this Warior See</rdg>
+          <rdg wit="#ee">The <seg>various<note type="gloss">changeful; marked by variety of incident or action</note></seg> fortune of this warrior see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">And Rest in hope, for though noe help bee found</rdg>
+          <rdg wit="#ee">And rest in hope; for though no help be found</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Above, yet it may come from under ground</rdg>
+          <rdg wit="#ee">Above, yet it may come from underground.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Who would have thought one of Chams Curſed Race</rdg>
+          <rdg wit="#ee">Who would have thought one of <seg>Ham’s cursed race<note type="gloss">In the Bible, Ham’s son Canaan is cursed by his grandfather, Noah, causing his descendants to become subject to Israelites (Genesis 9:20–27). Numerous early modern texts suggest that Ham’s dark-skinned lineage populated Africa. This and the next line refer to the Ethiopian eunuch Ebed-melech who cared for the imprisoned prophet Jeremiah (Jeremiah 38:10).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Should onely pitty Jeremias Caſe</rdg>
+          <rdg wit="#ee">Should only pity <seg>Jeremiah’s case<note type="gloss">the biblical prophet’s imprisonment for treason</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">Or</fw>
+            </rdg>
+        </app>
+        
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_249" n="123r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_249"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_249"/>
+            </rdg>
+        </app>
+        
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Or who that Merodock Should Comfort bring</rdg>
+          <rdg wit="#ee">Or who that <seg>Merodach<note type="gloss">The Babylonian monarch Amel-Marduk (Evil-Merodach in the Bible) freed Jehoiachin (king of Judah) from imprisonment after Merodach inherited the throne from his father, Nebuchadnezzar (2 Kings 25.27–30). This was unexpected benevolence since Nebuchadnezzar had imprisoned Jehoiachin.</note></seg> should comfort bring</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">To Judas <seg><del>blind</del><note type="physical">double strike-through</note></seg> <seg><add place="below">\</add><add place="above">sad \</add><note type="physical">in different hand from main scribe</note></seg> dejected Captive, King</rdg>
+          <rdg wit="#ee">To Judah’s sad, dejected, captive king?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Or that The Swaſhing <seg>Sweads<note type="physical">“w” originally “h”</note></seg> Should hear y<add place="above">e</add> Moan</rdg>
+          <rdg wit="#ee">Or that the <seg>swashing Swedes<note type="gloss">Because the English caricatured the Swedish as ostentatious, blustering, swaggering, and swashbuckling, their sympathy for a deposed Protestant leader is noted as unusual.</note></seg> should hear the moan</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Of Reans Elector him to Reinthrone</rdg>
+          <rdg wit="#ee"><seg>Of Rhine’s elector, him to reinthrone<note type="gloss">The introduction of Sweden’s support for the Protestants was a major turning point in the European Thirty Years’ War (the conflict between Protestants and Catholic Holy Roman Empire-Hapsburgs, 1618–1648). After the war, Charles I Louis, son of the deposed Protestant Elector Frederick V (1596–1632) was reinstated as Elector Palatine (a territory now in Germany).</note></seg>?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Then let the Royall <seg>branches<note type="physical">imperfectly erased descender (as for “g”) under “c”</note></seg> Trust in God</rdg>
+          <rdg wit="#ee">Then let <seg>the royal branches<note type="gloss">descendent of the king; the royal family “tree”</note></seg> trust in God:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">The Staff of Comfort Still Succeeds the Rod.</rdg>
+          <rdg wit="#ee"><seg>The staff of comfort still succeeds the rod<note type="gloss">God always offers the comfort of his “staff” (a stick used to guide one in walking) more than or after using his “rod,” a stick used as an instrument of punishment. The passage picks up on language from Psalms 23:4: “Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.”</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

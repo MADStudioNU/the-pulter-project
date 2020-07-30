@@ -1,3 +1,501 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.91">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Ambitious Apes (Emblem 26)</title>
+        <title type="sub">Poem #91</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_219.jpg" xml:id="f7610_219"/>
+    <graphic url="./document_images/7610_220.jpg" xml:id="f7610_220"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_219" n="108r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_219"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_219"/>
+        </rdg>
+      </app>
+
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 26]</rdg>
+            <rdg wit="#ee">Ambitious Apes<lb/>(Emblem 26)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">A dreadful fate awaits those who try to move above their station, this emblem warns. Demonstrating her familiarity with an array of historical, biblical, mythological, and sources, Pulter shows how this lesson applies across space and time: from overly ambitious Roman emperors to powerful Assyrian queens; from Old Testament Israelite rulers to apes who inappropriately dress in human clothes. To see how all overly zealous ascents to power will necessarily be crushed, one simply needs to look at imperial conquests (like Spain’s conquest of Muslim territories) that lead to defeat. Pulter also directs her vision of the cycling of authority and its vanquishing to contemporary politics, mourning the loss of the pre-war English government and condemning “one O” (implicitly, Oliver Cromwell) for wreaking death and destruction on England in the civil war. Written during the Protectorate, the poem seems to ask with bitter glee: what nemesis awaits the horrific political overreaching of our own day?</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><fw type="seqNum" place="inline">26</fw>Thoſe that imployed are the Apes to catch</rdg>
+            <rdg wit="#ee">Those <seg>that<note type="gloss">who</note></seg> employéd are the apes to catch,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">The places where they Haunt they Uſe to watch</rdg>
+            <rdg wit="#ee">The places <seg>where they haunt they use to watch<note type="gloss">Ape-catchers routinely keep an eye on the apes’ usual habitation (“haunt”)</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Stockings, and Cloths, abo<add place="below">^</add><add place="above">u</add>t the Ground they Scatter</rdg>
+            <rdg wit="#ee">Stockings and clothes about the ground they scatter.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Then inſtantly the Apes begin to chatter</rdg>
+            <rdg wit="#ee">Then instantly the apes begin to chatter;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">And beeing Ambitious to bee in the &ff;aſhion</rdg>
+            <rdg wit="#ee">And being ambitious to be in the fashion</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Just as wee imitate our neighbour Nation</rdg>
+            <rdg wit="#ee">(Just as we imitate <seg>our neighbor nation<note type="gloss">France, commonly known as setting fashion trends at the time</note></seg>),</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">They draw them on, the Huntsmen then they See</rdg>
+            <rdg wit="#ee"><seg>They draw them on<note type="gloss">The apes pull on the clothes</note></seg>. The huntsmen then they see;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Then every Ape begins to take A tree</rdg>
+            <rdg wit="#ee">Then every ape begins to <seg>take<note type="gloss">climb</note></seg> a tree.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">But up they could not get for all their pains</rdg>
+            <rdg wit="#ee">But up they could not get for all their <seg>pains<note type="gloss">efforts</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">They Strait were caught and led away in Chains</rdg>
+            <rdg wit="#ee">They straight were caught and led away in chains.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Thus thoſe which took a Town once from the Moors</rdg>
+            <rdg wit="#ee">Thus those which took a town once from the Moors</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Through their Ambition were inſlav’d to Boores</rdg>
+            <rdg wit="#ee">Through their ambition were enslaved to <seg>boors<note type="gloss">peasants, especially Dutch or German; sometimes used pejoratively. This couplet possibly alludes to the Dutch conquest of Gibraltar from Spain in 1607; the Spanish (“those which took a town” in the preceding line) had overthrown Moorish (North African Muslim) rule of Gilbraltar in 1492 (Eardley).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Symirimus that was old Ni<hi rend="overline">n</hi>is Love</rdg>
+            <rdg wit="#ee"><seg>Semiramis, that was old Ninus’s love<note type="gloss">In Assyrian mythology, Semiramis is a goddess and queen to Ninus, founder of Nineveh, after whose death she founded Babylon and led victorious armies until, opposed by her son, she took the form of a dove and flew away.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">T’was her Ambition turnd her to a Dove</rdg>
+            <rdg wit="#ee">’Twas her ambition turned her to a dove.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Crook’d backs Ambition made five Monarchs Yield</rdg>
+            <rdg wit="#ee"><seg>Crook’d-Back’s ambition made five monarchs yield<note type="gloss">Crook’d-Back, or crookback, was a nickname applied to Richard III, who overcame five monarchs in his rise to power.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Whose Score hee pay’d again in Boſworth &ff;ield</rdg>
+            <rdg wit="#ee"><seg>Whose score he paid again in Bosworth field<note type="gloss">At the Battle of Bosworth (1485), Richard III was killed by Henry Tudor, the future Henry VII.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Ambition made one O his Soveraign Kill</rdg>
+            <rdg wit="#ee">Ambition made one <seg>O<note type="gloss">What seems like an emotional exclamation can also signify Oliver Cromwell’s first initial; Cromwell led the Parliamentarians who killed King Charles I during the English Civil War.</note></seg> his sovereign kill,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">And to mak’t good much I<hi rend="overline">n</hi>ocent blood to Spill</rdg>
+            <rdg wit="#ee">And to <seg>mak’t<note type="gloss">make it</note></seg> good, much innocent blood to spill.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">But ther’s a Nemuſes that will look Down</rdg>
+            <rdg wit="#ee">But there’s a <seg>Nemesis<note type="gloss">In Greek mythology, personification of the gods’ disapproval, jealousy, and retribution.</note></seg> that will look down</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">On all Uſurpers of their Maſters Crown</rdg>
+            <rdg wit="#ee">On all usurpers of their masters’ <seg>crown<note type="gloss">crowns</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Soe Jezabell bid furious Jehew See</rdg>
+            <rdg wit="#ee">So <seg>Jezebel bid furious Jehu<note type="gloss">Jezebel, as the widow of Israel’s King Ahab, was killed by Jehu, who became king; before her death, Jezebel says to Jehu, “Had Zimri peace, who slew his master?” (2 Kings 9:31).</note></seg> see</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">The Curſed end of Nimries Treacherie</rdg>
+            <rdg wit="#ee">The curséd end of <seg>Zimri’s treachery<note type="gloss">In the Bible, Zimri is a captain who kills the king of Israel and makes himself king; he himself in turn is defeated and killed (2 Kings 9:30–31).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Photion the Royall &ff;amily Subdued</rdg>
+            <rdg wit="#ee"><seg>Phocion the royal family subdued<note type="gloss">One faction of the Athenian leadership accused Phocion (an Athenian general and statesman, 402-318 BCE) of enabling the death of Antipater (the Madedonian statesman); Phocion was put to death for treason. Pulter alters her likely source (Plutarch) by crediting Phocion’s guilt, when Phocion was generally remembered as a just and moral leader. See <bibl>Plutarch, <title rend="italic">The Lives of the Noble Grecians and Romans</title>, trans. Thomas North (London, 1579), pp. 797-814</bibl>.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">And in their Princely blood his hands <seg>imBruwed<note type="physical">part of “m” appears added later (changing “in” to “im”); “u” appears written over an earlier letter</note></seg></rdg>
+            <rdg wit="#ee">And in their princely blood his hands <seg>imbrued<note type="gloss">Phocion’s hands are stained or steeped in the royal family’s blood, or (in another sense) infected by it.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Which horrid Action hee and <add place="below">^</add><add place="above">his</add> all <seg><del>his</del><note type="physical">struck-through with multiple horizontal lines</note></seg> Rued</rdg>
+            <rdg wit="#ee">Which horrid action <seg>he and his<note type="gloss">Phocion and his supporters/family</note></seg> all rued.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Andronicus that made his Soveraign Bleed</rdg>
+            <rdg wit="#ee"><seg>Andronicus<note type="gloss">After defeating the Goths, the Roman general Titus Andronicus gave permission to sacrifice the eldest son of Tamora, queen of the Goths, to appease the souls of his dead sons, and thereby unleashed a series of horrific acts of revenge.</note></seg>, that made his sovereign bleed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Cryed out at Last don’t bruiſe A bruiſed Reed</rdg>
+            <rdg wit="#ee">Cried out at last, “Don’t bruise a bruiséd reed.”</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Soe Diocles the fateall Boar puld down</rdg>
+          <rdg wit="#ee">So <seg>Diocles the fatal boar pulled down<note type="gloss">Diocletian (also known as Diocles) was Roman emperor from 284 to 305, a position he achieved in part by killing Aper (Latin for “boar”), thus fulfilling the prediction that he would become emperor only after he killed a boar. See, for example, Fletcher and Massinger, <bibl><title rend="italic">The Prophetess</title>, in Francis Beaumont and John Fletcher, <title rend="italic">Comedies and Tragedies</title> [London, 1647]).</bibl> Diocletian was the first Roman emperor to abdicate his position voluntarily. Thanks to Sam Nguyen for information in this note.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+          <rdg wit="#ft">And <seg>triump’h’d[<del>?</del>]n<note type="physical">“d” partly blotted, as is letter that follows, possibly “o”; above latter is ascending slash</note></seg> his Murther’d Maſters Crown</rdg>
+            <rdg wit="#ee">And triumphed in his murdered master’s crown,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">till</fw>
+            </rdg>
+        </app> 
+        
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_220" n="108v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_220"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_220"/>
+            </rdg>
+        </app>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Till finding it too heavie lay’d it by</rdg>
+            <rdg wit="#ee">Till, finding it too heavy, laid it by;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">But <seg><del>yet for</del><note type="physical">struck-through with multiple horizontal lines</note></seg> yet for all hee by the Sword did Die</rdg>
+            <rdg wit="#ee">But yet, <seg>for all<note type="gloss">even though he set aside the crown; or possibly, for his crimes</note></seg>, he by the sword did die.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">Pompias ambition would noe Superiour have</rdg>
+            <rdg wit="#ee"><seg>Pompey’s ambition<note type="gloss">Gnaeus Pompeius Magnus, known as Pompey the Great, formed the First Triumvirate with Caesar and Crassus, but disagreement with Caesar resulted in civil war. </note></seg> would no superior have;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Hee lost his hopes in Ægypt found A grave</rdg>
+            <rdg wit="#ee"><seg>He lost his hopes, in Egypt found a grave<note type="gloss">Pompey, defeated at the battle of Pharsalus, fled to Egypt, where he was murdered.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">Cæſar noe Equall ever would abide</rdg>
+            <rdg wit="#ee"><seg>Cæsar no equal ever would abide<note type="gloss">Julius Caesar, Roman dictator, was murdered (as the next line indicates) in a conspiracy led by his senators.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Hee had his Aime Yet <seg>by<note type="physical">in different hand from main scribe</note></seg> the Senate Died</rdg>
+            <rdg wit="#ee">He had his aim, yet by the senate died.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Ambition made the Trumviry end</rdg>
+            <rdg wit="#ee">Ambition made <seg>the trumviri<note type="gloss">an association of three magistrates for joint administration; here, the First Triumvirate (see note above on “Pompey’s ambition”)</note></seg> end</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">When each to other Sacrificed his &ff;reind</rdg>
+            <rdg wit="#ee">When each to other sacrificed his friend.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Ambition made the Ephory give or’e</rdg>
+            <rdg wit="#ee">Ambition made the <seg>ephory<note type="gloss">In ancient Greek, “ephor” refers to a board of magistrates in some divisions of ancient Greece (Dorian states).</note></seg> give o’er</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">And kick’d King, Lords, &amp; Co<hi rend="overline">m</hi>ons, out of doors</rdg>
+            <rdg wit="#ee"><seg>And kicked king, lords, and commons, out of doors<note type="gloss">After the civil war ended, Parliamentarians in England restructured the government and abolished the titles designating kingship and the representative bodies of the House of Lords and House of Commons.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">Thus all Confuſion from Ambition Springs</rdg>
+            <rdg wit="#ee">Thus all confusion from ambition springs:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Apes would bee men, and all men, would bee Kings</rdg>
+            <rdg wit="#ee">Apes would be men, and all men would be kings.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="42">
+        <app>
+            <rdg wit="#ft">Then by this Emblem it doth plain apear</rdg>
+            <rdg wit="#ee">Then, by this emblem it doth plain appear,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="43">
+        <app>
+            <rdg wit="#ft">T’is best for every one to keep his Sphere.</rdg>
+            <rdg wit="#ee">’Tis best for every one to keep his <seg>sphere<note type="gloss">social station, place, or position; domain in which one’s activities or faculties find scope</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
