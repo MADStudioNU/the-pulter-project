@@ -5375,6 +5375,34 @@
     </pp:poem>
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>
+      <pp:firstLine>When royal Fergus’s line did rule this realm</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>insecurity</pp:keyword>
+        <pp:keyword>faith</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>father</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>planets</pp:tag>
+        <pp:tag>security</pp:tag>
+        <pp:tag>writing</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="114">
       <pp:title>A Russian Rustic (Emblem 49)</pp:title>
