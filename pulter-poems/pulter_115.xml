@@ -1,3 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.115">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Phalaris and the Brazen Bull (Emblem 50)</title>
+        <title type="sub">Poem #115</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_255.jpg" xml:id="f7610_255"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_255" n="126r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_255"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_255"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 50]</rdg>
+            <rdg wit="#ee">Phalaris and the Brazen Bull<lb/>(Emblem 50)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">How terribly just to die in the very torture device one invented! Pulter canvasses classical history and myth for tales of lawless, tyrannical figures known for having baked, stretched, chopped, drowned, bashed, and torn their unsuspecting victims to death—only to suffer the same fate themselves. She both wishes for, and finally prophesies, the extension of this pattern of comeuppance to those she condemns as the lawless tyrants of her own day: primarily, the Civil War “regicides” who killed Charles I. Pulter’s fantasy of vengeance escalates from one of racial and national boundary-crossings (the punitive transformation of British Parliamentarians into West Indian slaves) into her enemies’ full descent into Hell. In the conclusion of this revenge fantasy, Pulter imagines their roars of eternal pain echoing the poem’s opening cries, such that, formally, the poem simulates the cycle of justice it describes.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><fw type="seqNum" place="inline">50</fw>When Phalaris for Tiranny Soe &ff;am’d</rdg>
+            <rdg wit="#ee">When <seg>Phalaris<note type="gloss">Phalaris of Acragas (ca. 570-549 BCE) was a Sicilian tyrant famed for his cruelty generally, and especially for roasting enemies alive by enclosing them in a bronze bull with a fire burning underneath; victims’ screams sounded like the bull roaring.</note></seg>, for tyranny so famed,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Had Seen the Braſen Bul <seg>Pirillus<note type="physical">second “i” possibly corrected from “e”</note></seg> &ff;ram’d</rdg>
+            <rdg wit="#ee">Had seen <seg>the brazen bull Perillus framed<note type="gloss">The bull was invented (“framed”) by Perillus of Athens as a device for executing criminals; Phalaris admired the device and made Perillus its first victim.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Hee made him &ff;irst the Horrid pain Explore</rdg>
+            <rdg wit="#ee">He made him first the horrid pain <seg>explore<note type="gloss">discover; examine; test</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And with his life his cunning out to Roar</rdg>
+            <rdg wit="#ee">And with his life his cunning <seg>out to roar<note type="gloss">figuratively, breathing out his life (and losing his cleverness) with a loud cry</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Thus as Pirillus in the Bull was put</rdg>
+            <rdg wit="#ee">Thus, as Perillus in the bull was put,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Procrustus to his Bed was Stretcht or Cutt</rdg>
+            <rdg wit="#ee"><seg>Procrustes to his bed was stretched or cut<note type="gloss">In Greek myth, the innkeeper and robber Procrustes forced travelers onto a bed and made them fit it either by stretching or cutting off their limbs; he was finally killed by Theseus with his own invention.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">And hee that Kickd down People to the Seas</rdg>
+            <rdg wit="#ee">And <seg>he that kicked down people to the seas<note type="gloss">In Greek myth, the robber Sciron forced passersby to wash his feet, then kicked them into the sea to be eaten by a sea monster. He was killed when Theseus threw him into the sea.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Receiv’d the like Ramnuſa to apeas</rdg>
+            <rdg wit="#ee">Received the like, <seg>Rhamnusia<note type="gloss">Greek goddess of vengeance (also called Nemesis)</note></seg> to appease.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Soe hee that with his &ff;orhead daſh’d out Brains</rdg>
+            <rdg wit="#ee">So <seg>he that with his forehead dashed out brains<note type="gloss">Termerus was a bandit in Greek myth who murdered passersby by ramming his head against theirs; he was murdered when Theseus smashed his skull (Eardley).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Had like for like, What alſoe was his gains</rdg>
+            <rdg wit="#ee">Had like for like. What also was <seg>his<note type="gloss">In Greek mythology, Sinis robbed and dismembered travelers by fastening their limbs to pine branches, bending down the trees, and then suddenly letting them go (Eardley); Theseus kills Sinis in similar fashion (as the speaker suggests two lines later).</note></seg> gains</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">That tween two Trees did Kill men Cruelly</rdg>
+            <rdg wit="#ee">That ’tween two trees did kill men cruelly?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Did hee not by the Self Same Tortour Die</rdg>
+            <rdg wit="#ee">Did he not by the self-same torture die?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Oh that all thoſe that &ff;latter Tiranny</rdg>
+            <rdg wit="#ee">O, that all those that flatter tyranny</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Might first their own accursed projects trie</rdg>
+            <rdg wit="#ee">Might first their own accurséd projects try!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Then that &ff;ell Tyrant that in Newburg Raignd</rdg>
+            <rdg wit="#ee">Then <seg>that fell tyrant that in Newbury reigned<note type="gloss">Eardley suggests the manuscript’s “Newburg” might be Newbury, where in 1643 Robert Devereux, third Earl of Essex, led the army against the king; we have read “Newburg” in the manuscript as a transcription error for “Newbury” (pronounced, here, “Newb’ry,” to fit the meter).</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Should first unto the &ff;at’all Stag bin Chaind</rdg>
+            <rdg wit="#ee">Should first unto the <seg>fatal stage been chained<note type="gloss">This seems to be a Royalist wish that a Parliamentarian leader would have been subject to the fate that awaited Charles I, who was chained and executed on a platform in a venue used sometimes as a theatrical stage. The manuscript has “stag” instead of “stage.”</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Then thoſe that made the Engine to pull Down</rdg>
+            <rdg wit="#ee">Then those that made the <seg>engine<note type="gloss">tricky; contrivance; plot or snare; machine, especially of war but also in theater instrument of torture</note></seg> to pull down</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">His Sacred Head which wore <add place="below">^</add><add place="above"><seg>o:r<note type="physical">"r" in double superscript</note></seg></add> Brittiſh Crown</rdg>
+            <rdg wit="#ee"><seg>His sacred head<note type="gloss">that of Charles I, who was beheaded in 1649</note></seg> which wore our British crown.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">When Lamb like on that Alter hee did lie</rdg>
+            <rdg wit="#ee">When lamb-like on that altar he did lie,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Why did not Oliver that Pulley trie</rdg>
+            <rdg wit="#ee">Why did not <seg>Oliver<note type="gloss">Oliver Cromwell, who led the Parliamentarians in defeating and executing Charles I during the English Civil War</note></seg> that <seg>pulley<note type="gloss">part of a gallows for hanging; “pulley” could allude to the use of such a device in torture</note></seg> try?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Were Some Condemnd the Ax would moue alone</rdg>
+            <rdg wit="#ee"><seg>Were some condemned, the axe would move alone<note type="gloss">Some are so villainous that no executioner would be needed, since the axe would be moved to act of its own accord.</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">As Tyburn for <add place="above"><seg>thoſe<note type="physical">in darker ink than surrounding words</note></seg></add> Regicides doe groan</rdg>
+            <rdg wit="#ee">As <seg>Tyburn<note type="gloss">a place of public execution in London</note></seg> for those <seg>regicides<note type="gloss">the king’s killers</note></seg> do groan.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Then Should their Children to Jame’ca goe</rdg>
+            <rdg wit="#ee">Then should their children to <seg>Jamaica<note type="gloss">Jamaica, captured by the British in 1655, was among the islands in the West Indies used to exile Royalists during the interregnum.</note></seg> go;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Their <seg>Staits<note type="physical">blot after “i”</note></seg> Sequstred Widdow Eyes o’reflow</rdg>
+            <rdg wit="#ee"><seg>Their ’states sequestered<note type="gloss">regicides’ estates (properties) should be confiscated (or “sequestered”), as the Royalists’ goods were during and after the civil wars.</note></seg>, <seg>widow eyes o’erflow<note type="gloss">regicides’ widows’ eyes should be overflowing with grief over their husbands’ deaths.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Sure thoſe that doe their ffellow Chriſtians Sell</rdg>
+            <rdg wit="#ee">Sure <seg>those that do their fellow Christians sell<note type="gloss">the Parliamentarians who sold Royalists into slavery, as the lines above indicate (“to Jamaica go”), by sending them to the West Indies</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Will in their Conſcience feel the flames of Hell</rdg>
+            <rdg wit="#ee">Will in their conscience feel the flames of Hell.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">That Worm will graw though for A time ’tis hid</rdg>
+            <rdg wit="#ee">That <seg>worm will gnaw<note type="gloss">proverbial for something eating away at one’s conscience; also figuratively, the pains of Hell</note></seg>, though for a time ’tis hid,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">And make them Roar worſ then <seg>Pirillus<note type="physical">first “i” is written over an “e”</note></seg> did.</rdg>
+            <rdg wit="#ee">And make them roar worse than Perillus did.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="straight-horline"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>
