@@ -4540,6 +4540,10 @@
     <pp:poem id="90">
       <pp:title>This Flying Fish (Emblem 25)</pp:title>
       <pp:firstLine>Behold: this flying fish, with shining wings</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>J. Basire, A flying fish and its enemies of the air and water, including an albatros and a dolphin. Wellcome Collection. CC BY</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/j35234az/"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
