@@ -5615,6 +5615,10 @@
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
       <pp:firstLine>An old man through a town did often pass</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Cornelis Anthonisz, Fabel van de vader, de zoon en de ezel (drie van de vier blokken), 1509-1553. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.401849"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
