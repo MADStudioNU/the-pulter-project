@@ -5465,6 +5465,35 @@
     </pp:poem>
     <pp:poem id="115">
       <pp:title>Phalaris and the Brazen Bull (Emblem 50)</pp:title>
+      <pp:firstLine>When Phalaris, for tyranny so famed</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>justice</pp:keyword>
+        <pp:keyword>punishment</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>torture</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>punishment</pp:tag>
+        <pp:tag>slavery</pp:tag>
+        <pp:tag>justice</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>guilt</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="116">
       <pp:title>British Brennus (Emblem 51)</pp:title>
