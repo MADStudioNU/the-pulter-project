@@ -4014,7 +4014,7 @@
         <pp:keyword>crocodiles</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>whale</pp:tag>
         <pp:tag>bible</pp:tag>
         <pp:tag>food</pp:tag>
@@ -4554,7 +4554,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>patience</pp:tag>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>bird</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>whale</pp:tag>
@@ -5304,7 +5304,7 @@
         <pp:keyword>race</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>bible</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
@@ -5610,6 +5610,29 @@
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
+      <pp:firstLine>An old man through a town did often pass</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>mockery</pp:keyword>
+        <pp:keyword>popular opinion</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>mockery</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>folly</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>history</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="120">
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>
