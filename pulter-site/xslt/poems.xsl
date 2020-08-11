@@ -5504,6 +5504,31 @@
     </pp:poem>
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>
+      <pp:firstLine>The Caucasines with locusts were annoyed</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>insects</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>plagues</pp:keyword>
+        <pp:keyword>religion</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>gods</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>plagues</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>filth</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="118">
       <pp:title>The Snail, the Tulip, and the Bee (Emblem 53)</pp:title>
