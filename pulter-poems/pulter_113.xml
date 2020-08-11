@@ -1,3 +1,450 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.113">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Oyster and the Mouse (Emblem 48)</title>
+        <title type="sub">Poem 113</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_252.jpg" xml:id="f7610_252"/>
+    <graphic url="./document_images/7610_253.jpg" xml:id="f7610_253"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_252" n="124v"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_252"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_252"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_252" type="pageNum" place="margin-topright">PG#</fw>[Emblem 48]</rdg>
+          <rdg wit="#ee">The Oyster and the Mouse<lb/>(Emblem 48)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+              <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">This poem relates a tale which Pulter’s father may have told about his time as Lord Treasurer to James I. At first, it seems a merely amusing anecdote: a mouse, scampering across a dining table, is caught when an oyster (one of the dishes) snaps shut. The ocean’s changing tides bizarrely affect even the dinner table, stimulating the oyster to snap open and release the mouse. Pulter briefly toys with setting this episode in mock-epic form before treating it, instead, in a more characteristic manner. First, she reads the trapped mouse as emblematic of the sinful soul, temporarily walled up in a fleshly shell. Then, she pins this universal scenario to the particular politics of interregnum England, a time when “a vulgar”—presumably, Oliver Cromwell or his son, Richard—had “rise[n] to reign” in place of the “noble spirit” he “restrain[ed].” That usurped spirit is, first and foremost, Charles I (Pulter’s beloved, imprisoned, then beheaded king), but also her royalist compatriots (among them, many nobles) and indeed herself, since she frequently railed against confinement. In the end, the tidal metaphor offers a kind of comfort, since it suggests we must all, mouse-like, merely wait out any uncomfortable but temporary phase, in politics as in mortality.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft">When Royall &ff;ergus Line did Rule this Realm</rdg>
+            <rdg wit="#ee">When royal <seg>Fergus’s line<note type="gloss">descendants of Fergus, the first king of Scotland</note></seg> did rule this realm,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">My &ff;ather had the Third place at the Helme</rdg>
+            <rdg wit="#ee"><seg>My father had the third place at the helm<note type="gloss">Pulter speaks here in her own voice of her father, James Ley, who served James I as Lord Treasurer from 1624 to 1628.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Out of the Privie Kitchin came his Meat</rdg>
+            <rdg wit="#ee">Out of the <seg>privy kitchen<note type="gloss">i.e., the king’s private kitchen</note></seg> came his <seg>meat<note type="gloss">food generally as well as flesh specifically</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Of Sixteen Diſhes hee might dayly Eat</rdg>
+            <rdg wit="#ee">Of sixteen dishes he might daily eat.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">All things that were in Seaſon out were Sought</rdg>
+            <rdg wit="#ee">All things that were in season <seg>out were sought<note type="gloss">were sought out</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Amongst the Rest they Welfleet Oysters Brought</rdg>
+            <rdg wit="#ee">Amongst the rest they <seg>Wallfleet oysters<note type="gloss">See <bibl>John Norden, <title rend="italic">Speculi Britanniae Pars: An Historical and Chorographical Description of the Country of Essex, Edited from the Original Manuscript in the Marquess of Salisbury’s Library at Hatfield</title>, ed. Henry Ellis (London, 1840), p. 10</bibl>: “Some part of the sea shore of Essex yieldeth the best oysters in England, which are called Wallfleet oysters.”</note></seg> brought;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Which being Set Ready till my &ff;ather Comes</rdg>
+            <rdg wit="#ee">Which, being set ready till my father comes,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">A Mouſ leaps on the Table for the Crumbs</rdg>
+            <rdg wit="#ee">A mouse leaps on the table for the crumbs;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">Then Skipping up and down her Tayl did Glide</rdg>
+            <rdg wit="#ee">Then, skipping up and down, her tail did glide</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">By chance betwixt the Shels, T’was then full Tide</rdg>
+            <rdg wit="#ee">By chance betwixt the shells; <seg>’twas then full tide<note type="gloss">Early modern thinking suggested that even an oyster served for dinner could “gapeth for air,” or open, “against the tide” (<bibl>Thomas Johnson, <title rend="italic">Cornucopiae, or Diverse Secrets</title> [London, 1595], sig. B4v</bibl>).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">The Oyſter &ff;eeling one within her Hoſ</rdg>
+            <rdg wit="#ee">The oyster, feeling one within her house,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Clapt cloſe her doors, and thus ſhee Catch’d <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Mou’s</rdg>
+            <rdg wit="#ee">Clapped close her doors, and thus she catched the mouse.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Oh that I now could Speak the Mecian Tongues</rdg>
+            <rdg wit="#ee">O, that I now could speak the <seg>Micean tongues<note type="gloss">imaginary term for the languages spoken by mice</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">Or &ff;rogian Language but I want Such <seg>Lungs<note type="physical">“u” written over an “a”</note></seg></rdg>
+            <rdg wit="#ee">Or <seg>Frogian language<note type="gloss">imaginary term for the language spoken by frogs</note></seg>! But I want such lungs</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">As hee that writ the diſmale bloody &ff;ights</rdg>
+            <rdg wit="#ee">As <seg>he that writ the dismal bloody fights<note type="gloss">John Ogilby published popular and politicized translations of Aesop’s fables in the 1650s, which included the fable of a battle between the empires of the mouse and frog; the description of animal languages, in lines above, and the heroic dueling of the animals are drawn from this fable.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Betwixt the &ff;rogian and the Mecian Lnights</rdg>
+            <rdg wit="#ee">Betwixt the Frogian and the Micean knights.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Surely noe Weomen and I think few Men</rdg>
+            <rdg wit="#ee">Surely no women, and I think few men,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Can dance Soe well as hee <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> feet and Pen</rdg>
+            <rdg wit="#ee">Can <seg>dance so well as he<note type="gloss">Ogilby was a dancing master as well as a translator who (as the next lines indicate) did not learn Latin and Greek until late in life.</note></seg> with <seg>feet<note type="gloss">In addition to meaning parts of legs, “feet” refers to units of poetic meter.</note></seg> and pen;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">But hee thoſe Tongu’s as I have heard did Seek</rdg>
+            <rdg wit="#ee">But he those tongues, as I have heard, did seek</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Before hee Learnd the Latin<seg><del>e</del><note type="physical">e is smeared over</note></seg>’or the Greek</rdg>
+            <rdg wit="#ee">Before he learned the Latin or the Greek.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">But now the Captive Mouſ her dubious &ff;ate</rdg>
+            <rdg wit="#ee">But now the captive mouse her dubious fate</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">In my own Mother Tongue I must Relate</rdg>
+            <rdg wit="#ee">In my own mother tongue I must relate.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">As</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_253" n="125r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_253"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_253"/>
+            </rdg>
+        </app>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">As her impriſonment came by A &ff;low</rdg>
+            <rdg wit="#ee">As her imprisonment came by <seg>a flow<note type="gloss">of the tide</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">Soe the next happy Tide did let her goe</rdg>
+            <rdg wit="#ee">So the next <seg>happy<note type="gloss">fortunate; fortuitous</note></seg> tide did let her go.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">O wonderfull who would have ever thought</rdg>
+            <rdg wit="#ee">Oh, wonderful! Who would have ever thought</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">That from the Deliane Twins help Should bee brought</rdg>
+            <rdg wit="#ee">That from <seg>the Delian twins<note type="gloss">Apollo and Artemis, Greek god and goddess of the sun and moon, respectively; tides are caused by the sun and moon.</note></seg> help should be brought?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">Then let us learn while &ff;leſh doth here immure</rdg>
+            <rdg wit="#ee">Then let us learn, while flesh doth here <seg>immure<note type="gloss">enclose in walls; imprison</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Our <seg>Sinfull<note type="physical">“n” originally written as “t”</note></seg> Souls, not think our Selves Secure</rdg>
+            <rdg wit="#ee">Our sinful souls—not think our selves secure.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">As this dul &ff;iſh was Torn up from A Rock</rdg>
+            <rdg wit="#ee">As <seg>this dull fish<note type="gloss">the oyster</note></seg> was torn up from a rock,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">This Spritely Mous in Priſon thus to Lock
+            </rdg>
+            <rdg wit="#ee">This <seg>spritely<note type="gloss">vigorous; energetic</note></seg> mouse in prison thus to lock,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Soe from A vulgar one may Rise to Raign</rdg>
+            <rdg wit="#ee">So, from a <seg>vulgar<note type="gloss">a person from the common class in a community, associated with being uneducated; Pulter is referring to Oliver Cromwell, a non-elite statesman who led Parliamentarians against King Charles I during the English civil war, and later became Lord Protector.</note></seg>, one may rise to reign</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">That many a Noble Spirit may Restrain</rdg>
+            <rdg wit="#ee">That many a noble spirit may restrain.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">This is too true, Yet let them patient bee</rdg>
+            <rdg wit="#ee">This is too true; yet let them patient be,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">&ff;or Tide, or Time, or Death, will Set them free.</rdg>
+            <rdg wit="#ee">For tide, or time, or death, will set them free.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Then trust in God, Extoll him Day, and Night:</rdg>
+            <rdg wit="#ee">Then trust in God, <seg>extol<note type="gloss">elevate with praise</note></seg> Him day and night:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">ffor Sun, and Moon, and Stars, Shall for thee &ff;ight.</rdg>
+            <rdg wit="#ee">For sun, and moon, and stars, shall for thee fight.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg type="milestone" wit="#ft">
+                <milestone unit="poem" rend="curline-right"/>
+            </rdg>
+        </app>
+    </body>
+  </text>
 </TEI>

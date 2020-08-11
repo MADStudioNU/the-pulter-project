@@ -4014,7 +4014,7 @@
         <pp:keyword>crocodiles</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>whale</pp:tag>
         <pp:tag>bible</pp:tag>
         <pp:tag>food</pp:tag>
@@ -4540,12 +4540,16 @@
     <pp:poem id="90">
       <pp:title>This Flying Fish (Emblem 25)</pp:title>
       <pp:firstLine>Behold: this flying fish, with shining wings</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:poster>
+        <pp:sourceStatement>J. Basire, A flying fish and its enemies of the air and water, including an albatros and a dolphin. Wellcome Collection. CC BY</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/j35234az/"/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>betrayal</pp:keyword>
         <pp:keyword>Charles I</pp:keyword>
@@ -4554,7 +4558,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>patience</pp:tag>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>bird</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>whale</pp:tag>
@@ -5304,7 +5308,7 @@
         <pp:keyword>race</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>animal</pp:tag>
+        <pp:tag>animals</pp:tag>
         <pp:tag>bible</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
@@ -5375,6 +5379,34 @@
     </pp:poem>
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>
+      <pp:firstLine>When royal Fergus’s line did rule this realm</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>food</pp:keyword>
+        <pp:keyword>insecurity</pp:keyword>
+        <pp:keyword>faith</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>father</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>planets</pp:tag>
+        <pp:tag>security</pp:tag>
+        <pp:tag>writing</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="114">
       <pp:title>A Russian Rustic (Emblem 49)</pp:title>
@@ -5437,6 +5469,35 @@
     </pp:poem>
     <pp:poem id="115">
       <pp:title>Phalaris and the Brazen Bull (Emblem 50)</pp:title>
+      <pp:firstLine>When Phalaris, for tyranny so famed</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>justice</pp:keyword>
+        <pp:keyword>punishment</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>torture</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>tyranny</pp:tag>
+        <pp:tag>punishment</pp:tag>
+        <pp:tag>slavery</pp:tag>
+        <pp:tag>justice</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>guilt</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="116">
       <pp:title>British Brennus (Emblem 51)</pp:title>
@@ -5476,6 +5537,31 @@
     </pp:poem>
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>
+      <pp:firstLine>The Caucasines with locusts were annoyed</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>insects</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>plagues</pp:keyword>
+        <pp:keyword>religion</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>insects</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>gods</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>plagues</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>filth</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="118">
       <pp:title>The Snail, the Tulip, and the Bee (Emblem 53)</pp:title>
@@ -5528,6 +5614,29 @@
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
+      <pp:firstLine>An old man through a town did often pass</pp:firstLine>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
+      <pp:keywords>
+        <pp:keyword>violence</pp:keyword>
+        <pp:keyword>mockery</pp:keyword>
+        <pp:keyword>popular opinion</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>mockery</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>folly</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>king</pp:tag>
+        <pp:tag>history</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="120">
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>

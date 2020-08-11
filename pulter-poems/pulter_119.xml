@@ -1,3 +1,445 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.119">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>An Old Man, a Stripling, and an Ass (Emblem 54)</title>
+        <title type="sub">Poem 119</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_263.jpg" xml:id="f7610_263"/>
+    <graphic url="./document_images/7610_264.jpg" xml:id="f7610_264"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <!-- Each page break should be represented wih a block like this with the correct facs reference-->
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_263" n="130r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_263"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_263"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 54]</rdg>
+          <rdg wit="#ee">An Old Man, a Stripling, and an Ass<lb/>(Emblem 54)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">You can’t please all of the people all of the time: Pulter transforms that truism into both political history and prophecy in a poem which begins as a light-hearted fable before taking a darkly murderous turn. The villain here is the instability and inconstancy of public opinion, figured commonly as a multi-headed Hydra. Pulter uses the Aesopian tale of how people mercilessly mock any choice made by a man riding through town to threaten Oliver Cromwell and those who came to power with him in the aftermath of the civil war: Cromwell will undoubtedly be hoisted on his own petard and suffer the violent fates of others in history who relied on popular acclamation to overthrow sovereignty.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>An<note type="physical">Unlike surrounding poems in the “Emblems” section, no number precedes this poem.</note></seg> old Man through a Town did often paſs</rdg>
+            <rdg wit="#ee">An old man through a town did often pass;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">With him a pretty Stripling and an Aſs</rdg>
+            <rdg wit="#ee">With him, a pretty <seg>stripling<note type="gloss">a youth</note></seg> and an ass.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">The Man did Ride, the Boy was Pedester</rdg>
+            <rdg wit="#ee">The man did ride; the boy was <seg>pedester<note type="gloss">on foot</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">As fit it was, he wait upon his Master</rdg>
+            <rdg wit="#ee"><seg>As fit it was, he wait upon his master<note type="gloss">since it was suitable for him to serve his master</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">At this the people Laughed out alowd</rdg>
+            <rdg wit="#ee">At this, the people laughéd out aloud,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">Saying the Man was mercieles or proud</rdg>
+            <rdg wit="#ee">Saying the man was merciless or proud</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">To let the pretty Child goe Swetting by</rdg>
+            <rdg wit="#ee">To let the pretty child go sweating by,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Whils’t hee Rode Ambling in his Majestie</rdg>
+            <rdg wit="#ee">Whilst he rode, ambling in his majesty.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">The boy Rode next the Man did trudg a foot</rdg>
+            <rdg wit="#ee"><seg>The boy rode next<note type="gloss">that is, the man dismounted and the boy mounted the horse</note></seg>; the man did trudge afoot:</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">But then the people did Soe laugh and Shout</rdg>
+            <rdg wit="#ee">But then, the people did so laugh and shout</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Becauſe the Man did favour Soe the Lad</rdg>
+            <rdg wit="#ee">Because the man did favor so the lad</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">To goe a foot whilst hee Rode on his Pad</rdg>
+            <rdg wit="#ee">To go afoot whilst he rode on his <seg>pad<note type="gloss">usually, a riding horse; here, the ass; alternatively, a saddle or saddle pad</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Next time this poor Man through <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Town did Paſs</rdg>
+            <rdg wit="#ee">Next time this poor man through the town did pass,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft">The Man and Boy got both upon the Aſs</rdg>
+            <rdg wit="#ee">The man and boy got both upon the ass;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">But then the People bad him lite for Shame</rdg>
+            <rdg wit="#ee">But then the people bade him <seg>light, for shame<note type="gloss">“light” as in alight or dismount; “for shame” ventriloquizes the people’s admonition, as does the next line.</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">Hee’d Spoyl the Aſs or make him Sick or Lame</rdg>
+            <rdg wit="#ee">He’d <seg>spoil<note type="gloss">injure</note></seg> the ass, or make him sick, or lame.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">Next time beſide the Aſs they both did walk</rdg>
+            <rdg wit="#ee">Next time, beside the ass they both did walk;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">But then they were the Town and Countreys talk</rdg>
+            <rdg wit="#ee">But then they were the town and county’s talk.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">The people laughd and made the Welken Ring</rdg>
+            <rdg wit="#ee">The people laughed and <seg>made the welkin ring<note type="gloss">an expression indicative of a loud noise (with “welkin” meaning the sky)</note></seg>;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Children their &ff;olly up and down did Sing</rdg>
+            <rdg wit="#ee">Children their folly up and down did sing.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">Once more the Man Reſolvd the Road to paſs</rdg>
+            <rdg wit="#ee">Once more the man resolved the road to pass,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">And then the Youth and hee did bear the Aſs</rdg>
+            <rdg wit="#ee">And then the youth and he did <seg>bear<note type="gloss">carry</note></seg> the ass,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">at</fw>
+            </rdg>
+        </app>
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_264" n="130v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_264"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_264"/>
+            </rdg>
+        </app>
+        
+      <l n="23">
+        <app>
+            <rdg wit="#ft">At which the people did Soe laugh &amp; Rore</rdg>
+            <rdg wit="#ee">At which the people did so laugh and roar</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">That the poor Man would never more explore</rdg>
+            <rdg wit="#ee">That the poor man would ne’er more <seg>explore<note type="gloss">attempt</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">The Hidrian monſtossity to pleaſe</rdg>
+            <rdg wit="#ee">The <seg>Hydrian monstrosity<note type="gloss">The Hydra was the many-headed serpent in classical mythology that could grow additional heads when one was cut off; the adjective can be used to refer to anything similarly destructive, multi-headed, or hard to kill.</note></seg> to please,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">But Sadly <hi rend="subscript">^</hi><hi rend="superscript">flung</hi> his Aſs into the Seas</rdg>
+            <rdg wit="#ee">But sadly flung his ass into the seas.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">By this you See they doe themſelvs delude</rdg>
+            <rdg wit="#ee">By this you see they do themselves delude</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">That think to pleas the giddy multitude</rdg>
+            <rdg wit="#ee">That think to please the <seg>giddy<note type="gloss">flighty, inconstant; whirling with bewildering speed</note></seg> multitude.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Andronicus did make this Story good</rdg>
+            <rdg wit="#ee"><seg>Andronicus<note type="gloss">Andronicus had his joint emperor of Greece, Alexius, killed; the people then revolted against and tortured Andronicus.</note></seg> did make this story good;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Even hee <w lemma="that"><abbr>y:<hi rend="superscript">t</hi></abbr></w> Shed his Royall Soverraigns blood</rdg>
+            <rdg wit="#ee">Even he that shed his royal sovereign’s blood,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Sejanus Soe by popular breath up born</rdg>
+            <rdg wit="#ee"><seg>Sejanus<note type="gloss">an influential officer in ancient Rome who was arrested and executed (with his body was torn to pieces by the crowd) on suspicion of intent to kill the emperor Tiberius</note></seg>, so by pop’lar breath up borne,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="32">
+        <app>
+            <rdg wit="#ft">By Barrierus was in peeces Torn</rdg>
+            <rdg wit="#ee">By <seg>Briareus<note type="gloss">The manuscript reads “Barrierus,” which Eardley interprets as Briareus, a monster in ancient Greek mythology with a hundred arms and fifty heads.</note></seg> was in pieces torn.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Soe Some alive the Hidras love will Rue</rdg>
+            <rdg wit="#ee">So <seg>some alive<note type="gloss">Oliver Cromwell and those who came to power in his regime, supported by popular opinion</note></seg> the Hydra’s love will rue</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="34">
+        <app>
+            <rdg wit="#ft">When as to them they give to theſe their due</rdg>
+            <rdg wit="#ee"><seg>Whenas<note type="gloss">When</note></seg> <seg>to them they give to these their due<note type="gloss">when people rely on popular opinion (referred to in the line above as the “Hydra’s love”); to give someone their due is to pay respect to them.</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">&ff;or certainly ’twill one day come to paſs</rdg>
+            <rdg wit="#ee">For certainly ’twill one day come to pass</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">They’l have the death and Buriall of this <seg>Aſs<note type="physical">poem followed by blank page</note></seg></rdg>
+            <rdg wit="#ee">They’ll have the death and burial of <seg>this ass<note type="gloss">Cromwell, whom the speaker hopes will be rejected and destroyed like the ass in the fable</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+    </body>
+  </text>
 </TEI>

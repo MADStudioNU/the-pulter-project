@@ -1,3 +1,398 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.117">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>The Caucasines (Emblem 52)</title>
+        <title type="sub">Poem #117</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_257.jpg" xml:id="f7610_257"/>
+    <graphic url="./document_images/7610_258.jpg" xml:id="f7610_258"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+<!--          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_257" n="127r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_257"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_257"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 52]</rdg>
+            <rdg wit="#ee">The Caucasines<lb/>(Emblem 52)</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">Be careful what you wish for, since you just might get it; but don’t stop hoping, wishing, and praying, because who knows what might happen? So goes the (understandably) tangled moral in this response to the chaos of Britain’s civil wars and the ensuing interregnum. Creaturely images of parasites and predators form a concatenation of opaque references to infestations of animals (locusts, ibis, serpents), identified in the manuscript’s margin with specific factions and figures (Presbyterians, Cromwell, Independents). For Pulter, this poem is unusually explicit in identifying the political players involved. Despite the clarity suggested by such one-to-one allegories, the speaker’s zoological emblems primarily serve to show the challenge of choosing who to trust in times of civil upheaval, when seeming saviors can disappear, or even prove enemies in the end. </note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><fw type="seqNum" place="inline">52</fw>The <seg>Ca<add place="above">u.</add>caſines<note type="physical">“u.” directly above erased letter(s), perhaps “m” or “ni”; insertion in different hand from main scribe</note></seg> with Locusts were anoy’d</rdg>
+            <rdg wit="#ee"><seg>The Caucasines with locusts were annoyed<note type="gloss">In a discussion of locusts and “how they may be killed and driven away,” Edward Topsell includes this account of the Seleucides of Mount Cassian: “the inhabitants of the Mount Cassian [Caucasines] formerly obtained [the Seleucides] to be sent by Jupiter against the locusts that destroyed their corn. These birds come yearly to help them, but whither they fly back, or whence they come, no man can tell. So soon as the locusts are destroyed they forsake the mountain, and go home again.” <bibl><title rend="italic">History of Four-Footed Beasts</title>, (London, 1658), p. 988.</bibl></note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">That all their <seg>Herbs<note type="physical">“s” added later in different hand from main scribe</note></seg> and &ff;ruits were quite deſtroyd</rdg>
+            <rdg wit="#ee">That all their <seg>herbs<note type="gloss">plants</note></seg> and fruits were quite destroyed;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">Whilst with Sad Hearts their Suffrings they deplore</rdg>
+            <rdg wit="#ee">Whilst with sad hearts their suff’rings they <seg>deplore<note type="gloss">lament</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">And the aſſistance of the Gods implore</rdg>
+            <rdg wit="#ee">And the assistance of the gods implore,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">The Selucides Birds never Seen before</rdg>
+            <rdg wit="#ee">The Seleucides birds, ne’er seen before,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">With their united Strength and numerous power</rdg>
+            <rdg wit="#ee">With their united strength and num’rous power</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">Did inſtantly theſe Locusts all devour</rdg>
+            <rdg wit="#ee">Did instantly these locusts all devour.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Their Work being don they Straight &ff;lew all away</rdg>
+            <rdg wit="#ee">Their work being done, they straight flew all away,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">And ne’re wore Seen nor heard of to this day</rdg>
+            <rdg wit="#ee">And ne’er were seen nor heard of to this day.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Soe Serpents once the Egyptians did A<hi rend="overline">n</hi>oy</rdg>
+            <rdg wit="#ee">So serpents once th’Egyptians did annoy;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Then Ibis came and did theſe Worms diſtroy</rdg>
+            <rdg wit="#ee">Then <seg>ibis came and did these worms destroy<note type="gloss">Edward Topsell’s <title rend="italic">History of Four-Footed Beasts</title> indicates that, “of all other fowls enemies to serpents, there is none greater or more deadly, than the bird called ibis, which the Egyptians do wonderfully honor; for when swarms of serpents come into Egypt out of the Arabian gulfs and fens, these birds meet and destroy them.” <bibl>London, 1658, p. 610.</bibl></note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">But with his putred &ff;ilth hee ten times more</rdg>
+            <rdg wit="#ee">But with his putrid filth he ten times more</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Afflicted them, then they were e’re before</rdg>
+            <rdg wit="#ee"><seg>Afflicted them<note type="gloss">Egyptians were thought to cultivate and nourish the ibis to clean up garbage and pests, but this strategy backfired because of the filth and excrement that these birds left. See <bibl>William Yonger’s sermon, <title rend="italic">The Unrighteous Judge</title> (London, 1621), p. 20.</bibl></note></seg> than they were e’er before.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft"><seg>Soe<note type="physical">in left margin: “<add place="above">x</add> Presbitery”, with “bitery” in different hand from main scribe</note></seg> this Sad Kingdome <add place="above">x</add>Locusts did o’re Run</rdg>
+            <rdg wit="#ee"><seg>So this sad kingdom locusts<note type="gloss">In the manuscript, a marginal note identifies the locusts who are overrunning the “sad kingdom” (England) as Presbyterians, an anti-Royalist faction.</note></seg> did o’errun,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">Such Clowds (Ay mee) as did Eclips <del>the</del> <add place="below">^</add><seg><add place="above">o:r</add><note type="physical">“r” in double superscript</note></seg> Sun</rdg>
+            <rdg wit="#ee">Such clouds (ay me!) as did eclipse our sun.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">What houſs of this baſe Vermine then were free</rdg>
+            <rdg wit="#ee">What house of this base vermin then were free?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft"><seg>Such<note type="physical">in left margin: “* Independ”, with “epend” in different hand from main scribe</note></seg> a like Armie let mee never See</rdg>
+            <rdg wit="#ee">Such a like army let me never see.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Then *Animal’s came were never Seen before</rdg>
+            <rdg wit="#ee">Then <seg>an’mals<note type="gloss">In the manuscript, a marginal note identifies the “animals” with the Independent faction in the civil wars.</note></seg> came <seg>were<note type="gloss">that were</note></seg> never seen before,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">And put theſe down, none did their loſs deplore</rdg>
+            <rdg wit="#ee">And put <seg>these<note type="gloss">the Presbyterians</note></seg> down; none did their loss deplore.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">Theſe Subtile Serpents over all did crawl</rdg>
+            <rdg wit="#ee">These <seg>subtle<note type="gloss">shrewd; crafty; treacherous</note></seg> serpents over all did crawl;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">To Heaven for Remedy wee then did call</rdg>
+            <rdg wit="#ee">To <seg>Heaven<note type="gloss">pronounced here and two lines below as one syllable ("Heav'n")</note></seg> for remedy <seg>we<note type="gloss">the supporters of Charles I in England</note></seg> then did call.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft"><seg>Then<note type="physical">in left margin: “*Protector”, with “tector” in different hand from main scribe</note></seg> *Ibis came and Swoll’d this whole &ff;rie</rdg>
+            <rdg wit="#ee">Then <seg>ibis<note type="gloss">A marginal note in the manuscript identifies the ibis with “Protector,” a reference to Oliver Cromwell, entitled Lord Protector as head of state after the civil wars (1653-8); the title was subsequently passed to his son, Richard (1658-9).</note></seg> came and swallowed this whole <seg>fry<note type="gloss">a collective term for young or insignificant beings, especially as of a crowd or swarm</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">Some did Repent that they to Heaven did crie</rdg>
+            <rdg wit="#ee">Some did repent that they to Heaven did cry,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        
+        <app>
+            <rdg wit="#ft">
+                <fw type="catch" place="bottom">for</fw>
+            </rdg>
+        </app>
+        
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_258" n="127v"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_258"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_258"/>
+            </rdg>
+        </app>
+        
+      <l n="24">
+        <app>
+            <rdg wit="#ft">&ff;or all that Sacred was hee did pollute</rdg>
+            <rdg wit="#ee">For all that sacred was, he did pollute;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">Yet let us once again to God make Sute</rdg>
+            <rdg wit="#ee">Yet let us once again to God make suit.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Who Knows the Tumid and Tumultuous Seas</rdg>
+            <rdg wit="#ee">Who knows? The <seg>tumid<note type="gloss">swollen</note></seg> and tumultuous seas</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">May bring a &ff;riend y<hi rend="superscript">t</hi> may <w lemma="our"><abbr>o:<hi rend="superscript">r</hi></abbr></w> Suffrings Eas</rdg>
+            <rdg wit="#ee">May bring a friend that may our suff’rings ease.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="28">
+        <app>
+            <rdg wit="#ft">Soe Rochill by A Shoal of Unknown &ff;iſh</rdg>
+            <rdg wit="#ee"><seg>So Rochelle, by a shoal of unknown fish<note type="gloss">When Catholic troops besieged the coastal French town of La Rochelle in 1572 and 1573, a large number of fish washed ashore and saved the city from starvation, as the next line indicates. See <bibl><title rend="italic">The Protestant Reformation in France: History of the Hugenots</title> (London, 1847), Vol. 2, 418-19.</bibl></note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Out liv’d their Sieg above their hopes &amp; Wiſh.</rdg>
+            <rdg wit="#ee">Outlived their siege above their hopes and wish.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+
+    </body>
+  </text>
 </TEI>
