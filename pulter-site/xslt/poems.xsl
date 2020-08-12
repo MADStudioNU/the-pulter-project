@@ -4001,6 +4001,10 @@
     <pp:poem id="78">
       <pp:title>This Vast Leviathan (Emblem 12)</pp:title>
       <pp:firstLine>This vast leviathan, whose breathing blows</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, Krokodil, Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.343654"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
