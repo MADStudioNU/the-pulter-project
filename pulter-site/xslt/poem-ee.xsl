@@ -861,6 +861,16 @@
     </xsl:choose>
   </xsl:template>
 
+  <!-- TEI del -->
+  <xsl:template match="tei:del">
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'deleted'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <!-- Milestones -->
   <xsl:template match="tei:milestone">
     <xsl:if test="@unit = 'poem-section'">

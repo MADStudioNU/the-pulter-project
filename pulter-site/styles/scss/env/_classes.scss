@@ -95,9 +95,21 @@
 }
 
 .place-above {
-  font-size: .5em;
+  font-size: .75em;
   position: relative;
-  bottom: 1em;
+  bottom: .66em;
+  line-height: 0;
+}
+
+.place-below {
+  font-size: .75em;
+  position: relative;
+  top: .4em;
+  line-height: 0;
+}
+
+.deleted {
+  text-decoration: line-through;
 }
 
 .sup,

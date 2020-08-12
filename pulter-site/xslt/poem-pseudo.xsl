@@ -602,6 +602,16 @@
     </span>
   </xsl:template>
 
+  <!-- TEI del -->
+  <xsl:template match="tei:del">
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'deleted'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <!-- Bibliographic references -->
   <xsl:template match="tei:bibl">
     <xsl:param name="witId"/>
