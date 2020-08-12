@@ -4218,6 +4218,10 @@
     <pp:poem id="83">
       <pp:title>The Piper of Hamelin (Emblem 17)</pp:title>
       <pp:firstLine>When God (who is to mercy most inclined)</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Henry Marsh, after John La Farge, The Pied Piper of Hamelin, 1868. The Metropolitan Museum of Art; Rogers Fund, 1921; 21.65.4. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//www.metmuseum.org/art/collection/search/381680"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
