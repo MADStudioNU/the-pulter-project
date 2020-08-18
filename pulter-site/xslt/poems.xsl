@@ -5652,6 +5652,19 @@
     </pp:poem>
     <pp:poem id="120">
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>
+      <pp:firstLine>Somnus, why art thou still to me unkind?</pp:firstLine>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>tears</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
     </pp:poem>
   </pp:poems>
 
