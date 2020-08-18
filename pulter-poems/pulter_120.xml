@@ -1,3 +1,487 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+
+  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.120">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+          <title>Somnus</title>
+        <title type="sub">Poem #120</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <persName>Leah Knight</persName>
+          <persName>Wendy Wall</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Katherine Poland</persName>
+          <persName>Matthew Taylor</persName>
+          <persName>Betsy Chou</persName>
+          <persName>Emily Andrey</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>IT-project consultation by</resp>
+          <persName>Josh Honn</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Northwestern University</orgName>
+          <orgName>Brock University</orgName>
+          <orgName>University of Leeds</orgName>
+        </sponsor>
+        <principal>
+          <persName/>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, transformations, and notes</resp>
+          <persName>Leah Knight</persName>
+          <orgName>Brock University</orgName>
+          <persName>Wendy Wall</persName>
+          <orgName>Northwestern University</orgName>
+        </respStmt>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <msDesc>
+            <msIdentifier>
+              <repository>See witness list.</repository>
+            </msIdentifier>
+          </msDesc>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+      <samplingDecl>
+        <p/>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+        </correction>
+        <normalization>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+        </normalization>
+        <quotation>
+          <p>Original quotation marks, if any, are preserved.</p>
+        </quotation>
+        <hyphenation>
+          <p>Original hyphenation is preserved.</p>
+        </hyphenation>
+      </editorialDecl>
+      <charDecl>
+        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+        <glyph xml:id="ffllig">
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+        </glyph>
+      </charDecl>
+      <classDecl>
+        <taxonomy xml:id="DDC22">
+          <bibl>
+            <title>Dewey Decimal Classification</title>
+            <edition/>
+            <publisher/>
+            <pubPlace/>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-GB">British English</language>
+      </langUsage>
+      <textClass>
+        <!-- dewey decimal system class code 821: English Poetry -->
+        <classCode scheme="DDC22">821</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- List of all images associated with this document -->
+    <graphic url="./document_images/7610_024.jpg" xml:id="f7610_000"/>
+    <graphic url="./document_images/7610_025.jpg" xml:id="f7610_000"/>
+    <graphic url="./document_images/7610_026.jpg" xml:id="f7610_000"/>
+  </facsimile>
+  <text>
+    <front>
+      <div>
+        <listWit>
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
+        </listWit>
+      </div>
+    </front>
+
+    <body>
+
+      <app>
+        <rdg wit="#ft">
+          <pb ed="#ft" facs="#f7610_000" n="0r"/>
+        </rdg>
+        <rdg wit="#ee">
+          <pb ed="#ee" facs="#f7610_000"/>
+        </rdg>
+        <rdg wit="#ae">
+          <pb ed="#ae" facs="#f7610_000"/>
+        </rdg>
+      </app>
+
+      <head>
+        <app type="title">
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
+          <rdg wit="#ee">Somnus</rdg>
+          <rdg wit="#ae">AE TITLE</rdg>
+        </app>
+        <app type="editorialnote">
+          <rdg wit="#ft">
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+          </rdg>
+          <rdg wit="#ee">
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+          <rdg wit="#ae">
+            <note type="editorialnote"></note>
+          </rdg>
+        </app>
+        <app type="headnote">
+          <rdg wit="#ee">
+              <note type="headnote">This fragment of a poem, in what is probably Pulter’s hand, appears on a loose sheet in a folder associated with the bound volume in which her other poems are found. Although a complete copy might someday be found, Pulter appears not to have finished this experimental dream vision about a relatively recent event: the 1667 battle, known as the Raid on the Medway, which ended in the destruction by the Dutch navy of the fort and shipyard at Sheerness, on England’s east coast. Part of the Second Anglo-Dutch War, this was one of the worst defeats ever suffered by the British navy, which saw many warships destroyed or captured and the hasty arrangement by Charles II of an unfavorable treaty. The few extant verses of what promises an epic treatment of these events are framed by the speaker’s recurrent nightmare visions which mingle her distress with an incongruous perception of Sheerness remaining “unconquered” despite the “purple gore” that sprinkles the sea. The speaker’s horrified amazement joins that of the powerful and resplendent water gods and goddesses, mustering (too late, it must be said) as British reinforcements under Saturn’s command. Neptune, Triton, Nereus, Doris: the speaker, perched on a rock above the fray, witnesses a catalogue of mythic powerhouses whom she has imaginatively installed into current political events. What dreamy counterfactual scenario might have ensued, if the poem continued past its opening catalogue and into the martial action one might expect to follow? We will only know if the poem’s continuation one day comes to light.</note>
+          </rdg>
+          <rdg wit="#ae">
+            <note type="headnote"></note>
+          </rdg>
+        </app>
+      </head>
+
+      <l n="1">
+        <app>
+            <rdg wit="#ft"><seg>ſomnus<note type="physical">on loose sheet, in folder associated with manuscript; hand appears same as in “The Weepeinge Wishe”</note></seg> why art thou ſtill to mee unkinde?</rdg>
+            <rdg wit="#ee"><seg>Somnus<note type="gloss">Roman god of sleep</note></seg>, why art thou still to me unkind?</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="2">
+        <app>
+            <rdg wit="#ft">Why doe all els ſuch comfort finde</rdg>
+            <rdg wit="#ee">Why do all else such comfort find</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="3">
+        <app>
+            <rdg wit="#ft">In thy imbrace? but I and only I</rdg>
+            <rdg wit="#ee">In thy embrace? But I, and only I,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="4">
+        <app>
+            <rdg wit="#ft">Allternately (aye mee) doe live and die</rdg>
+            <rdg wit="#ee">Alternately (ay me) do <seg>live and die<note type="gloss">wake and sleep; sleep was commonly referred to as the image of death; for instance, John Donne calls rest and sleep Death’s “pictures” (“Death Be Not Proud,” l. 5).</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="5">
+        <app>
+            <rdg wit="#ft">Thy fellow Morphius too doth ſhew his ſpite</rdg>
+            <rdg wit="#ee">Thy fellow <seg>Morpheus<note type="gloss">son of Somnus and Roman god of dreams</note></seg> too doth show his spite</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="6">
+        <app>
+            <rdg wit="#ft">When from his Horney gate <seg>[?]<note type="physical">single letter, possibly “d,” blotted on bottom half</note></seg> hee doth affright</rdg>
+            <rdg wit="#ee">When from his <seg>horny gate<note type="gloss">The gates of horn and ivory is a literary image (originally from <title rend="italic">The Odyssey</title>) distinguishing two kinds of dreams: those passing through the gate of horn are true, while those passing through the gate of ivory are deceptive. Many writers used the term “horny gate” to describe Morpheus’s dream invasions. See, for instance, <bibl><title rend="italic">Du Bartas His Divine Weeks and Works</title>, trans. Josuah Sylvester (London, 1641), p. 249.</bibl></note></seg> he doth affright</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="7">
+        <app>
+            <rdg wit="#ft">My troubled ſoul, as hee did t’hother night</rdg>
+            <rdg wit="#ee">My troubled soul, as he did th’other night.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="8">
+        <app>
+            <rdg wit="#ft">Oh <seg><del>y</del><note type="physical">blotted only on top half</note></seg> my ſad hart would itt might prove a dream</rdg>
+            <rdg wit="#ee">O my sad heart, would it might prove a dream!</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="9">
+        <app>
+            <rdg wit="#ft">In that uncounquerd sheere wher Thameses ſtreame</rdg>
+            <rdg wit="#ee">In that <seg>unconquered Sheer, when Thames’s stream<note type="gloss">At Sheerness (on England’s eastern coast) the river Medway (mentioned in the next line) joins with the estuary of the Thames river; it is presumably called “unconquered” here in relation to the 1667 Dutch attack there in the Second Anglo-Dutch War, despite the fact that both contemporary and later accounts consider the battle there to have been a resounding defeat of the English navy.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="10">
+        <app>
+            <rdg wit="#ft">Joyened with faire Medwaye <del>did</del>,<seg><add place="above">doth</add><note type="physical">directly over “did”</note></seg> their tribute paye</rdg>
+            <rdg wit="#ee">Joined with fair Medway doth their <seg>tribute<note type="gloss">an offering paid as a duty, here also alluding to the the fact that a “tributary” is a stream flowing into a river</note></seg> pay,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="11">
+        <app>
+            <rdg wit="#ft">Thar on a lofty rock mee thought I laye</rdg>
+            <rdg wit="#ee">There on a lofty rock me thought I lay;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="12">
+        <app>
+            <rdg wit="#ft">Then on the tremblinge booſome of the deepe</rdg>
+            <rdg wit="#ee">Then, on the trembling bosom of the deep,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="13">
+        <app>
+            <rdg wit="#ft">Huge floods of tears poore Thames did weepe</rdg>
+            <rdg wit="#ee">Huge floods of tears poor Thames did weep</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="14">
+        <app>
+            <rdg wit="#ft"><seg>To<note type="physical">“+” in left margin</note></seg> ſee the ſea ſprinc’led with purple gore</rdg>
+            <rdg wit="#ee"><seg>To<note type="physical">A mark (“+”) appears in the left margin, as though to signal an insertion of a phrase which is not present in the manuscript.</note></seg> see the sea sprinkled with purple gore.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="15">
+        <app>
+            <rdg wit="#ft">The ſad Nereades did much deplore</rdg>
+            <rdg wit="#ee">The sad <seg>Nereides<note type="gloss">in Greek legend, the fifty daughters of Doris and Nereus; sea nymphs</note></seg> did much <seg>deplore<note type="gloss">lament</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="16">
+        <app>
+            <rdg wit="#ft">This <del>change</del>, <seg><add place="above">omen</add><note type="physical">directly over “change”</note></seg> great Neptune was amazed</rdg>
+            <rdg wit="#ee">This omen. Great <seg>Neptune<note type="gloss">Roman god of water and the sea</note></seg> was amazed</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="17">
+        <app>
+            <rdg wit="#ft">As hee upon those blooddy <seg>billow<note type="physical">blot immediately after may obscure final “s”</note></seg> gaz’d</rdg>
+            <rdg wit="#ee">As he upon those bloody billows gazed;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="18">
+        <app>
+            <rdg wit="#ft">Then instantly hee <seg>bad blu<note type="physical">“bad” may have read “bid” originally, or reverse; “blu” appears written over “buw”</note></seg> Triton ſound</rdg>
+            <rdg wit="#ee">Then, instantly he bid blue <seg>Triton<note type="gloss">son of Neptune, represented as a fish with a human head, who makes the ocean roar by blowing through his shell</note></seg> sound</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="19">
+        <app>
+            <rdg wit="#ft">His wrethed Trumpe t’was hard the Oceane rownd</rdg>
+            <rdg wit="#ee">His wreathéd <seg>trump<note type="gloss">trumpet</note></seg>—’twas heard the ocean round—</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="20">
+        <app>
+            <rdg wit="#ft">To ſummun each <seg><del>great</del><add place="above">ſea \</add><note type="physical">“ſea \” written directly atop “<del>great</del>”</note></seg> God, and Godes faire</rdg>
+            <rdg wit="#ee">To summon each sea god and goddess fair,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="21">
+        <app>
+            <rdg wit="#ft">That <seg>to<note type="physical">“t” appears to correct earlier “o”</note></seg> our narrough ſeas they should repaire</rdg>
+            <rdg wit="#ee">That to our narrow seas they should <seg>repair<note type="gloss">return</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="22">
+        <app>
+            <rdg wit="#ft">Then did they come from every ſea and strand</rdg>
+            <rdg wit="#ee">Then did they come from every sea and <seg>strand<note type="gloss">shore, coast</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="23">
+        <app>
+            <rdg wit="#ft">To heer their kinge ſaturnius dread command</rdg>
+            <rdg wit="#ee">To hear their king <seg>Saturnus’s<note type="gloss">Latin for Saturn, the Roman god associated by the Romans with the Greek god Kronos, the father of the first-generation Olympians</note></seg> dread command.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="24">
+        <app>
+            <rdg wit="#ft">ſome did bestride Philanthropes broad backe</rdg>
+            <rdg wit="#ee">Some did bestride <seg>Philanthrope’s<note type="gloss">The name (etymologically, “lover of humanity”) refers in classical literature to the dolphin; it is based on the animal’s alleged friendliness to people, which in some cases included allowing people to ride (“bestride”) them.</note></seg> broad back;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="25">
+        <app>
+            <rdg wit="#ft">The <seg>Nimphes<note type="physical">final part of “h” appears added to earlier “l,” crowded between surrounding letters</note></seg> in Perley ſhells, not one <seg>thar<note type="physical">“a” appears to correct earlier “ei”</note></seg> lacks</rdg>
+            <rdg wit="#ee">The <seg>nymphs<note type="gloss">semi-divine spirits in the form of maidens inhabiting the sea, rivers, mountains, woods, trees; often portrayed in poetry as attendants on a god</note></seg> in pearly shells, not one there lacks</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="26">
+        <app>
+            <rdg wit="#ft">Of all great Oceanus watry traine</rdg>
+            <rdg wit="#ee">Of all great <seg>Oceanus’s<note type="gloss">in Greek mythology, the son of Uranus (Heaven) and Gaia (Earth); the personification of the great river believed to encircle the world</note></seg> wat’ry <seg>train<note type="gloss">a body of attendants or followers</note></seg>,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="27">
+        <app>
+            <rdg wit="#ft">But floteinge came upon the frothey maine</rdg>
+            <rdg wit="#ee">But floating came upon the frothy <seg>main<note type="gloss">open sea</note></seg>.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft"><milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/></rdg>
+            <rdg wit="#ee"><milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/></rdg>
+            <rdg wit="#ae"><milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/></rdg>
+        </app>
+      <l n="28">
+        <app>
+            <rdg wit="#ft"><seg>Emperiall<note type="physical">in left margin: “Nereus 1”</note></seg> Nereus frist did lead the waye</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Imperial <seg>Nereus<note type="gloss">an old sea god, father of the Nereides</note></seg> first did lead the way,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="29">
+        <app>
+            <rdg wit="#ft">Who o’ur the tumed waves bares cheeffest ſwaye</rdg>
+            <rdg wit="#ee">Who o’er the <seg>tumid<note type="gloss">swelling; puffed with wind</note></seg> waves bears chiefest sway;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="30">
+        <app>
+            <rdg wit="#ft">Rich <seg><del>purple</del><note type="physical">twice struck-through</note></seg> orient gemms his purple robe adorninge</rdg>
+            <rdg wit="#ee">Rich <seg>orient gems<note type="gloss">possibly, pearls, especially those from near India; alternatively, any jewel from or associated with the Orient, the part of the globe east of Europe; “orient” could refer to a bright red color (like sunrise in the east), to the color or lustre of the best pearls (understood to come from the East), or to anything brilliant or resplendent.</note></seg> his purple robe adorning,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="31">
+        <app>
+            <rdg wit="#ft">Which cast a luster like the blusheinge morninge</rdg>
+            <rdg wit="#ee">Which cast a luster like the blushing morning.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+
+        <app>
+            <rdg wit="#ft">
+                <pb ed="#ft" facs="#f7610_000" n="0r"/>
+            </rdg>
+            <rdg wit="#ee">
+                <pb ed="#ee" facs="#f7610_000"/>
+            </rdg>
+            <rdg wit="#ae">
+                <pb ed="#ae" facs="#f7610_000"/>
+            </rdg>
+        </app>
+        
+      <l n="32">
+        <app>
+            <rdg wit="#ft">This glistringe Charott drawn with <del>Cro</del> pranceinge fishe</rdg>
+            <rdg wit="#ee">This <seg>glist’ring<note type="gloss">for “glistering,” meaning sparkling or glittering</note></seg> chariot drawn with prancing fish,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="33">
+        <app>
+            <rdg wit="#ft">Which would have ſatisfied prowed <seg>[?]<note type="physical">diagonally struck-through text, possibly “ff[<del>?</del>]”</note></seg> Phaetons wishe</rdg>
+            <rdg wit="#ee">Which would have satisfied proud <seg>Phaeton’s<note type="gloss">Phaeton was the rash son of Helios, the Greek sun god, who, when riding his father’s chariot, lost control of it and almost destroyed the world by fire (had Zeus not killed Phaeton and restored order).</note></seg> wish.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+        <app>
+            <rdg wit="#ft"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
+            <rdg wit="#ee"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
+            <rdg wit="#ae"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
+        </app>
+      <l n="34">
+        <app>
+            <rdg wit="#ft"><seg>Just<note type="physical">in left margin: “Doris 2”</note></seg> by his ſide faire fruetfull Doris came</rdg>
+            <rdg wit="#ee" rend="left-gutter-1">Just by his side, fair fruitful <seg>Doris<note type="gloss">a sea goddess, wife of Nereus and mother of the Nereides</note></seg> came,</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="35">
+        <app>
+            <rdg wit="#ft">Whos numeros iſsew doth inlarge her fame</rdg>
+            <rdg wit="#ee">Whose numerous <seg>issue<note type="gloss">offspring</note></seg> doth enlarge her fame;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="36">
+        <app>
+            <rdg wit="#ft">Riche Orient Perls her ſnowey neck did grace</rdg>
+            <rdg wit="#ee">Rich orient pearls her snowy neck did grace;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="37">
+        <app>
+            <rdg wit="#ft">Her ſparklinge Crowne gave luster to her face</rdg>
+            <rdg wit="#ee">Her sparkling crown gave luster to her face;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="38">
+        <app>
+            <rdg wit="#ft">Between her brests a rich Carbuncle ſhone</rdg>
+            <rdg wit="#ee">Between her breasts a rich <seg>carbuncle<note type="gloss">a large precious stone of a red or fiery color; a mythical jewel reputed to emit light in darkness</note></seg> shone;</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="39">
+        <app>
+            <rdg wit="#ft">The univerce afforded not a ſtone</rdg>
+            <rdg wit="#ee">The universe afforded not a stone</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="40">
+        <app>
+            <rdg wit="#ft">That equal’d itt for ſplendentie of light</rdg>
+            <rdg wit="#ee">That equalled it for <seg>splendency<note type="gloss">splendor, brilliance</note></seg> of light.</rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+      <l n="41">
+        <app>
+            <rdg wit="#ft">Itt rul’d the rest as Cinthia doth the night</rdg>
+            <rdg wit="#ee">It ruled the rest as <seg>Cynthia<note type="gloss">the personification of the moon</note></seg> doth the <seg>night<note type="gloss">The poem breaks off here and is unfinished.</note></seg></rdg>
+          <rdg wit="#ae"></rdg>
+        </app>
+      </l>
+
+    </body>
+  </text>
 </TEI>
