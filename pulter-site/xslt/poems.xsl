@@ -5661,9 +5661,21 @@
       </pp:editions>
       <pp:keywords>
         <pp:keyword>tears</pp:keyword>
+        <pp:keyword>dream</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>England</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>sleep</pp:tag>
+        <pp:tag>dreams</pp:tag>
+        <pp:tag>war</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>gods</pp:tag>
+        <pp:tag>water</pp:tag>
+        <pp:tag>dawn</pp:tag>
+        <pp:tag>moon</pp:tag>
+        <pp:tag>England</pp:tag>
       </pp:tags>
     </pp:poem>
   </pp:poems>
