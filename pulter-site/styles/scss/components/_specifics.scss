@@ -32,17 +32,18 @@
     }
   }
 
-  // Poem 41
+  // Poems 41 and 120
   // Custom milestones in EE
-  &.poem-41 {
+  &.poem-41,
+  &.poem-120 {
     .poem main {
       .milestone.left-gutter {
         text-align: right;
-        max-width: 4em;
-        margin-left: -2.75em;
+        //max-width: 4em;
+        //margin-left: -2.75em;
         font-size: .8em;
         position: relative;
-        bottom: -.15em;
+        bottom: -.23em;
 
         @include breakpoint(mobile) {
           height: auto;
@@ -54,6 +55,16 @@
         }
       }
     }
+  }
+
+  &.poem-41 .poem main .milestone.left-gutter {
+    max-width: 4em;
+    margin-left: -2.75em;
+  }
+
+  &.poem-120 .poem main .milestone.left-gutter {
+    max-width: 5em;
+    margin-left: -3.33em;
   }
 
   // Poem 68

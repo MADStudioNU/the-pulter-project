@@ -116,9 +116,8 @@
   </teiHeader>
   <facsimile>
     <!-- List of all images associated with this document -->
-    <graphic url="./document_images/7610_024.jpg" xml:id="f7610_000"/>
-    <graphic url="./document_images/7610_025.jpg" xml:id="f7610_000"/>
-    <graphic url="./document_images/7610_026.jpg" xml:id="f7610_000"/>
+    <graphic url="./document_images/7610_265.jpg" xml:id="f7610_000"/>
+    <graphic url="./document_images/7610_266.jpg" xml:id="f7610_000"/>
   </facsimile>
   <text>
     <front>
@@ -361,9 +360,13 @@
         </app>
       </l>
         <app>
-            <rdg wit="#ft"><milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/></rdg>
-          <rdg wit="#ee" rend="left-gutter-1"><milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/></rdg>
-          <rdg wit="#ae" rend="left-gutter-1"><milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/></rdg>
+          <rdg wit="#ft">
+            <milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/>
+          </rdg>
+          <rdg wit="#ee">
+            <milestone unit="poem-section" n="Nereus 1" rend="left-gutter"/>
+          </rdg>
+          <rdg wit="#ae"></rdg>
         </app>
       <l n="28">
         <app>
@@ -421,9 +424,9 @@
         </app>
       </l>
         <app>
-            <rdg wit="#ft"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
-          <rdg wit="#ee" rend="left-gutter-1"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
-          <rdg wit="#ae" rend="left-gutter-1"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
+          <rdg wit="#ft"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
+          <rdg wit="#ee"><milestone unit="poem-section" n="Doris 2" rend="left-gutter"/></rdg>
+          <rdg wit="#ae"></rdg>
         </app>
       <l n="34">
         <app>
