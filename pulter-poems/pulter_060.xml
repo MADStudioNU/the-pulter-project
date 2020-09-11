@@ -126,7 +126,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Emily Cock</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -150,7 +150,7 @@
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>To <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> <w lemma="william"><abbr>W:<hi rend="superscript">m</hi></abbr></w> D: Upon the unſpeakable Loſs of the most conspicious and chief Ornament of his &ff;rontispiece</rdg>
           <rdg wit="#ee"><seg>To Sir William Davenant: Upon the Unspeakable Loss of the Most Conspicuous and Chief Ornament of His Frontispiece<note type="gloss">William Davenant (1606-1668) was a famous English playwright who served as poet laureate and was knighted by Charles I. In 1630, he contracted syphilis and took mercury as a cure, which disfigured his nose. An “ornament” is an accessory; a “frontispiece” is a face but also the front of a building, the engraved panel over an entrance, or the first page or title page of a book.</note></seg>
           </rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">To <seg><w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> <w lemma="william"><abbr>W:<hi rend="superscript">m</hi></abbr></w> D:<note type="critical">“Sir William Davenant” (1606–1668). Despite Pulter’s use of initials, there would have been little ambiguity around the identity of this knight. Davenant had contracted the pox in the late 1620s or early 1630s (in 1633 he refers to himself as a ‘long-sick Poet’). The Queen’s physician, Thomas Cademan, treated Davenant with a customary mercury salivation, in which mercury was rubbed, inhaled or ingested into the body to prompt saliva and sweating and ‘flush out’ the disease. Davenant addressed public poems of thanks that conceded his receipt of ‘Devill <hi rend="italic">Mercurie</hi>’, thus acknowledging the venereal nature of his distemper <bibl>(Mary Edmond, <title rend="italic">Rare Sir William Davenant</title> [Manchester: Manchester University Press, 1987], pp. 45–46)</bibl>. After the bridge of his nose collapsed and flattened, this became a common point of ribaldry among political and poetic rivals, whose poems are discussed in detail by Marcus Nevitt <bibl>(‘The Insults of Defeat: Royalist Responses to Sir William Davenant’s <title rend="italic">Gondibert</title> [1651]’ <title rend="italic">The Seventeenth Century</title> 24.2 [2009]: pp 287–304)</bibl>.</note></seg> Upon the unspeakable Loss of the <seg>most conspicuous and chief Ornament<note type="critical">While Pulter’s tone is mildly hyperbolic, surgeons who wrote on injuries and disfigurements to the nose often remarked on its centrality and importance for the face’s beauty, and thus the need to take particular care to reduce scarring and misshaping. Pulter refers to the importance of shape in <ref type="pp-poem-ref" corresp="11">Tell Me No More [On the Same]</ref> when she praises her daughter’s “white even nose”.</note></seg> of his Frontispiece</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -159,7 +159,8 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote"><p>I have opted to complement the modernised Elemental Edition with a semi-diplomatic transcription in order to give readers a sense of the gains and losses in each style. I have retained original spelling and punctuation, but amended uses of u/v/w, i/j, and ff/F. Where a colon and superscription indicating abbreviation is incidental rather than substantive this has been expanded with italics; so too for the single use of a thorn for ‘the’.</p>
+              <p>The poem does not have as many classical references as some of Pulter’s other work, but instead builds from a central trope drawn from contemporary medicine and science, which I have explained for the general reader. The annotations are therefore less explanatory than interpretive, based on my reading of the poem in the context of British responses to the nose and especially nose reconstruction and transplantation (see <bibl>Cock, <title rend="italic">Rhinoplasty and the nose in early modern British medicine and culture</title> [Manchester: Manchester University Press, 2019]</bibl>). As I attempt to show, there is more to this poem than a funny joke about legs and noses.</p></note>
           </rdg>
         </app>
         <app type="headnote">
@@ -167,7 +168,8 @@
             <note type="headnote">Sir William Davenant, who was about Pulter’s age, famously suffered from a sexually-transmitted disease as well as its cure: the medicinal application of mercury, which we now know to be terribly poisonous. The consequent disfigurement of his nose is the somewhat unusual (for Pulter) subject matter of this poem, which is equally unusual in its direct address of Davenant. While overtly sympathizing with his loss, the speaker’s imagery and imagination ranges boldly from the witty to the caustic and grotesque.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote"><p>In this humorous and rather uncharacteristic poem, Pulter uses contemporary understanding of nose reconstruction and transplantation to engage with Interregnum politics by imaginatively offering the playwright and poet Sir William Davenant a piece of her own body for the reconstruction of his nose. Davenant’s nasal bridge was famously sunken through the effects of the pox (syphilis) and its customary treatment with mercury. This association with venereal disease, and wider uses of nose cutting as a stigmatising punishment, meant that nasal disfigurements were considered highly dishonourable in early modern Europe.</p>
+                  <p>While it had its roots in real surgical procedures to rebuild a nose, lip, or ear from a flap of the patient’s own skin, the full transplantation of a skin graft between individuals was largely a fantasy, which was used by British authors to a range of discursive ends. The graft employed to reconstruct the nose was understood to remain absolutely part of the original person, and it was thought to die when the original person did due to a medical phenomenon known as ‘sympathy’.  Thus, through the logic of the transplant, part of Pulter’s private body is imaginatively attached to Davenant and brought into public politics. Within the poem, the success and longevity of Davenant’s new nose—and the Royalist project and authority it represents—become contingent upon Pulter. If he fails to offer sufficient loyal service, prayers for Pulter, and care for the nose in recompense, he will be truly worth the dishonour of noselessness.</p></note>
           </rdg>
         </app>
       </head>
@@ -176,7 +178,7 @@
         <app>
             <rdg wit="#ft"><w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w></rdg>
             <rdg wit="#ee">Sir,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">S<hi rend="italic">ir</hi></rdg>
         </app>
       </l>
       <l n="2">
@@ -190,140 +192,140 @@
         <app>
             <rdg wit="#ft">Extreamly I deplore your loſs</rdg>
           <rdg wit="#ee">Extremely I <seg>deplore<note type="gloss">lament</note></seg> your loss:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Extreamly <seg>I deplore your loss<note type="critical">Pulter has created a mock version of what Kate Lilley calls the ‘proxy elegy’, commemorating the death of Davenant’s nose by offering him her sympathy and an attempt at reparation <bibl>(Kate Lilley, ‘True State Within: Women’s Elegy 1640–1700’, in Isobel Grundy and Susan Wiseman [eds.] <title rend="italic">Women, Writing, History 1640–1740</title> [London: Batsford, 1992]: pp 72–92)</bibl>.</note></seg></rdg>
         </app>
       </l>
       <l n="4">
         <app>
           <rdg wit="#ft">You’r like Cheapſide without a <seg>Croſs<note type="physical">“r” written over another letter</note></seg></rdg>
           <rdg wit="#ee">You’re like <seg>Cheapside without a cross<note type="gloss">Cheapside was a location in London which had a stone carved cross erected on it to memorialize the funeral procession of King Edward I’s wife; the cross was destroyed in 1643 by an act of Parliament targeting “monuments of superstition and idolatry.”</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">You’r like <seg>Cheapside without a Cross<note type="critical">The elaborate Eleanor Cross in Cheapside had been erected in 1289 by Edward I in memory of his wife. Royalists considered its removal on 2 May 1643 a highly symbolic blow against civil and religious values. By pairing this simile with a further comparison to a sundial without a gnomon (the protruding arm that casts a shadow), Pulter draws attention to both the symbolic and functional importance of the nose for Davenant’s face.</note></seg></rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Or like A Diall <seg><del>Gnoman</del> <add place="above">and noe</add><note type="physical">in H2; “and noe”  directly above cancelled “Gnoman,” struck-through twice</note></seg> Gnoman</rdg>
           <rdg wit="#ee">Or like a dial and no <seg>gnomon<note type="gloss">A pin or rod that indicates the time of day by casting its shadow upon the surface of a sundial: a dial without the rod is useless.</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or like a Dial and noe Gnoman</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">In pitty (trust mee) I think noe man</rdg>
             <rdg wit="#ee">In pity (trust me) I think no man</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In pitty (trust mee) I think noe man</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">But would his Leg or Arm expoſe</rdg>
             <rdg wit="#ee">But would his leg or arm expose</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But would his Leg or Arm expose</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">To cut you out another Noſe</rdg>
             <rdg wit="#ee">To cut you out another nose;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To <seg>cut you out another Nose<note type="critical">Pulter refers to belief that a new nose could be constructed from skin or flesh taken from another person. The origins for this belief lie in Bolognese surgeon Gaspare Tagliacozzi’s (1545–1599) techniques for reconstructing a nose, lip or ear using skin flaps taken from the patient’s own arm, which he detailed in a lavishly illustrated Latin folio, <bibl><title rend="italic">De curtorum chirurgia per insitionem</title> (Venice: 1597)</bibl> (for Tagliacozzi’s operation and career in the context of Italian surgery see <bibl>Valeria Finucci, <title rend="italic">The Prince’s Body: Vincenzo Gonzaga and Renaissance Medicine</title> [Cambridge, Mass.: Harvard University Press, 2015)</bibl>; <bibl>Paolo Savoia, <title rend="italic">Gaspare Tagliacozzi and Early Modern Surgery: Faces, Men, and Pain</title> [London: Routledge, 2019]</bibl>). The use of skin flaps in this way has ancient origins, but in early modern Europe Tagliacozzi enjoyed a monopolist (but controversial) reputation after publication. Professional misunderstandings and popular rumours led to widespread belief that the new nose could also be built using a graft from someone else, though Tagliacozzi had rejected the feasibility of this operation.</note></seg></rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Nor of the &ff;emale Sex thers none</rdg>
             <rdg wit="#ee">Nor of the female sex there’s none</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor of the Female Sex thers none</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">But’ld bee one &ff;leſh though not one Bone</rdg>
           <rdg wit="#ee"><seg>But’ld<note type="gloss">But would</note></seg> be <seg>one flesh, though not one bone<note type="critical">would marry him even if not agreeing to offer up their bones. On marriage as becoming “one flesh,” see Genesis 2:23-24: “And Adam said, this is now bone of my bones, and flesh of my flesh: she shall be called woman, because she was taken out of man. “Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.”</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But’ld bee <seg>one Flesh though not one Bone<note type="critical">Pulter’s invocation of flesh and bone echoes Genesis 2:23–24, but hesitation to be of the same ‘Bone’ as Davenant may also refer to the skeletal damage caused by syphilis, which as ‘rotting shins’ was a ubiquitous referent.</note></seg></rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">I though unknown would Sleight the pain</rdg>
           <rdg wit="#ee">I, though unknown, would <seg>slight<note type="gloss">disregard</note></seg> the pain</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I though <seg>unknown<note type="critical">The suggestion that Pulter is ‘unknown’ to Davenant means that he is unlikely to have seen this poem, despite its direct address to him (“Sir,” “your,” etc) and reiterates that the graft was never a literal offer. It also means that Pulter is unlikely to have known other members of the Royalist ‘Cavendish Circle’ in Paris who promoted sympathetic medicine, such as Walter Charleton and Sir Kenelm Digby, thus further restricting her sources for this knowledge (on these men and sympathy see <bibl>Lobis</bibl>; <bibl>Elizabeth Hedrick, “Romancing the Salve: Sir Kenelm Digby and the Powder of Sympathy”, <title rend="italic">The British Journal for the History of Science</title> 41.2 (2008): 161–85</bibl>; <bibl>Emily Booth, <title rend="italic">A Subtle and Mysterious Machine: The Medical World of Walter Charleton (1619-1707)</title> [Dordrecht: Springer, 2006]</bibl>).</note></seg> would <seg>sleight the pain<note type="critical">Pulter’s iteration that she would slight (brush off, disregard) the pain of the operation undercuts the modesty of her surrounding protestations that <hi rend="italic">anyone</hi>, male or female, would be willing to give up their flesh to help restore Davenant’s nose and honour, thus increasing the value of her offer.</note></seg></rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">That you might haue Soe great a gain</rdg>
             <rdg wit="#ee">That you might have so great a gain.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That you might have Soe great a gain</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Nay Any &ff;ool did hee know itt</rdg>
             <rdg wit="#ee">Nay, any fool, did he know it,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nay Any Fool did hee know itt</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Would give his Noſe to have <w lemma="your"><abbr>yo:<hi rend="superscript">r</hi></abbr></w> Wit</rdg>
             <rdg wit="#ee">Would give his nose to have your wit,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Would <seg>give his Nose<note type="critical">One strand of the nose graft story suggested that an actual nose would be transplanted to the patient, and may have been encouraged by the larger number of successful nose reattachments than skin flap reconstructions in the period. But Pulter recognises that this would be an imbalanced transaction: just as Davenant’s wit fails to make up for the lack of his own nose in terms of professional authority and personal identity, so too would it be insufficient payment for any other person who was to provide their own nose for his respite.</note></seg> to have yo<hi rend="italic">ur</hi> Wit</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">And I my Self would doe the Same</rdg>
             <rdg wit="#ee">And I myself would do the same,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And I my Self would doe the same</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Did I not fear t’wold Blur my &ff;ame</rdg>
           <rdg wit="#ee">Did I not fear ’twould <seg>blur my fame<note type="gloss">The loss of a nose could be a sign of syphilis or criminal punishment, thus hurting one’s reputation.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Did I not fear t’wold <seg>Blur my Fame<note type="critical">Giving Davenant her own nose will transfer his problem onto her, and lead people to suspect that she has lost her nose to the pox too.</note></seg></rdg>
         </app>
       </l>
       <l n="17">
         <app>
           <rdg wit="#ft">I as once Said a Gallant Dame</rdg>
           <rdg wit="#ee">I, as once said a <seg>gallant<note type="gloss">refined, noble</note></seg> dame,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I as once said a Gallant Dame</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">My Noſe would venture not my &ff;ame</rdg>
           <rdg wit="#ee">My nose would <seg>venture<note type="gloss">risk</note></seg>, not my fame;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">My Nose would venture not my Fame</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">&ff;or who but that Bright eye above</rdg>
           <rdg wit="#ee">For who but that <seg>bright eye<note type="gloss">the sun, symbol of God</note></seg> above</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For who but that Bright eye above</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Would know twere Charity not Love</rdg>
             <rdg wit="#ee">Would know ’twere charity, not love.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Would know twere <seg>Charity not Love<note type="critical">This is in part a denial of a sexual relationship, through which Davenant might have passed on his noselessness. But in emphasising that this will be an act of charity, Pulter also elevates herself above Davenant as the recipient, and leads them into a relationship of hospitality.</note></seg></rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Then <w lemma="sir"><abbr>S:<hi rend="superscript">r</hi></abbr></w> your Pardon I must Beg</rdg>
             <rdg wit="#ee">Then, sir, your pardon I must beg;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then S<hi rend="italic">ir</hi> your Pardon I must Beg</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Excuſe my Noſe accept my Leg</rdg>
             <rdg wit="#ee">Excuse my nose, <seg>accept my leg<note type="gloss">The speaker will allow a skin graft from her leg, or she is offering to curtsy as she asks for pardon.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Excuse my Nose <seg>accept my Leg<note type="critical">Having established that her nose is too valuable to give up, Pulter must beg Davenant’s pardon for offering a skin graft from her leg instead. This qualification also fulfils gendered requirements of humility, as Pulter does not presume herself to be able to fully replace Davenant’s own, God-given nose.</note></seg></rdg>
         </app>
       </l>
         <app>
@@ -341,154 +343,154 @@
         <app>
             <rdg wit="#ft">But yet beſure bot night and Day</rdg>
             <rdg wit="#ee">But yet, be sure both night and day</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>But<note type="critical">The reciprocal obligations of Pulter’s offer start to become apparent, as she uses the graft and understandings of medical sympathy to establish an imaginative relationship with Davenant, and a debt from him that gives her political influence within the poem.</note></seg> yet besure <seg>bot<note type="gloss">both</note></seg> night and Day</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">&ff;or mee as for your Self you pray</rdg>
             <rdg wit="#ee">For me, as for yourself, you pray;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For mee as for your Self you pray</rdg>
         </app>
       </l>
       <l n="25">
         <app>
           <rdg wit="#ft">&ff;or if I &ff;irst should chance to goe</rdg>
           <rdg wit="#ee">For if I first should chance to go</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For if I First should chance to goe</rdg>
         </app>
       </l>
       <l n="26">
         <app>
           <rdg wit="#ft">To viſit thoſe Sad Shades below</rdg>
           <rdg wit="#ee">To visit those <seg>sad shades<note type="gloss">the netherworld or people in it</note></seg> below,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To visit those sad shades below</rdg>
         </app>
       </l>
       <l n="27">
         <app>
           <rdg wit="#ft">As my &ff;rail &ff;leſh there putrifies</rdg>
           <rdg wit="#ee">As my frail flesh there putrefies,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">As my <seg>Frail Flesh<note type="critical">While the ‘Frail Flesh’ is a rhetorical commonplace for Pulter and others, possibly originating in the Wycliffe Bible’s translation of Matthew 26:41, Pulter’s use here includes an element of performed humility: though she emphasises the ‘frailty’ of her own body, it is Davenant’s that has fallen out of his control.</note></seg> there putrifies</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Your Noſe noe doubt will Sympathize</rdg>
             <rdg wit="#ee">Your nose, no doubt, will sympathize.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Your Nose noe doubt will <seg>Sympathize<note type="critical">'Sympathy' was a system of influence between matter that was at a physical distance (see <bibl>Seth Lobis, <title rend="italic">The Virtue of Sympathy: Magic, Philosophy, and Literature in Seventeenth-Century England</title> [New Haven, CT: Yale University Press, 2015]</bibl>; <bibl>Evelyn L. Forget, ‘Evocations of Sympathy: Sympathetic Imagery in Eighteenth-Century Social Theory and Physiology’, <title rend="italic">History of Political Economy</title> 35 (2005): 282–308</bibl>). Medically it could be used to treat a patient elsewhere, such as healing a wound by applying a ‘weapon salve’ to the weapon that had made it. When applied to allograft rhinoplasty, the doctrine of sympathy dictated that when the person from whom the skin graft was taken died, the new nose would ‘die’ with them. Sympathy was contentious, and increasingly elaborate stories of nose transplants would later be used to satirise believers (<bibl>Alanna Skuse, ‘“Keep your face out of my way or I'll bite off your nose”: Homoplastics, Sympathy, and the Noble Body in The Tatler, 1710’, <title rend="italic">Journal for Early Modern Cultural Studies</title> 17.4 (2017): 113-132</bibl>). Samuel Butler included a joke about a reconstructed nose in the first part of his wildly successful mock-epic poem, <title rend="italic">Hudibras</title> (1662), which cemented the mythology of the sympathetic nose as being sourced from a lower-class man’s buttocks (in <bibl>Butler, ‘The brawny part of Porter’s Bum’</bibl>) to restore the nose of a higher-status man. Thus Pulter warns Davenant that he should pray for the preservation of her own life as much as his, since if she dies (visits the ‘sad shades below’) so too will his new nose. Pulter’s reiteration that Davenant’s new nose will in fact be <hi rend="italic">her</hi> skin offers an imaginative means by which a piece of her body will be present at the centre of Royalist politics, while the rest of her is politely ensconced in her country estate.</note></seg></rdg>
         </app>
       </l>
       <l n="29">
         <app>
           <rdg wit="#ft">But this I fear least that blind Boy</rdg>
           <rdg wit="#ee">But this I fear: lest that <seg>blind boy<note type="gloss">Cupid</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But this I fear least that blind Boy</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Which &ff;ate deſcend (Yet such a Toy</rdg>
           <rdg wit="#ee">Which fate <seg>descends<note type="gloss">sends down</note></seg> (yet such a <seg>toy<note type="gloss">trivial thing</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which Fate descend (Yet such a Toy</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">May take the Chit) Should Shoot again</rdg>
           <rdg wit="#ee">May take the <seg>chit<note type="gloss">bratty child</note></seg>) should shoot again,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">May take the Chit) should shoot again</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">Then the Next loſs would bee <w lemma="your"><abbr>yo:<hi rend="superscript">r</hi></abbr></w> Brain</rdg>
           <rdg wit="#ee"><seg>Then the next loss would be your brain.<note type="gloss">perhaps suggesting that Cupid (the “chit”) might not be able to resist Davenant, particularly his brain (the “toy”), and will strike again, making him figuratively lose his head as well as his nose.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then the Next loss would bee yo<hi rend="italic">ur</hi> Brain</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">Some Coy Young Laſs you Might Adore</rdg>
             <rdg wit="#ee">Some coy young lass you might adore,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Some Coy Young Lass you Might Adore</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Which would prefer Some baſe Medore</rdg>
           <rdg wit="#ee">Which would prefer some base <seg>Medore<note type="gloss">Medoro is a non-noble Moor (or Muslim) in Ludovico Ariosto’s 1532 poem, <title rend="italic">Orlando Furioso</title>, with whom Angelica (a Chinese princess at the court of Charlemagne) falls in love (thus rejecting the title character Orlando).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which would prefer some base <seg>Medore<note type="critical">Pulter’s brother-in-law was the son of John Harington, who translated Ariosto’s <title rend="italic">Orlando Furioso</title>, and she refers to the book frequently (<bibl>Alice Eardley, ‘Introduction’, in Eardley (ed.) <title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title> [Toronto: Centre for Reformation and Renaissance Studies, 2014]: pp 1–38, at p. 17</bibl>). The virtuous Orlando is jilted by his beloved, Angelica, in favour of an African soldier, Medore, and loses his wits. Pulter suggests that Davenant’s noselessness might lead to similar rejections if it cannot balance out his good qualities of nobility and intelligence, leading him to be rejected by a Lass whom Cupid (the “blind Boy”) leads him to adore. Nevitt highlights that Orlando’s fault “is as much a renunciation of religious and political allegiance as it is a capitulation to bestial instinct”, thus rendering Pulter’s integration of the poem further commentary on Davenant’s possible exacerbation of sexual with <hi rend="italic">political</hi> weakness (<bibl>‘Insults’, 289</bibl>).</note></seg></rdg>
         </app>
       </l>
       <l n="35">
         <app>
           <rdg wit="#ft">And all your Witt and Titles Sleight</rdg>
           <rdg wit="#ee">And all your wit and titles slight:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And all your Witt and Titles sleight</rdg>
         </app>
       </l>
       <l n="36">
         <app>
           <rdg wit="#ft">Imbrace a Page before a Knight</rdg>
           <rdg wit="#ee">Embrace a page before a knight.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Imbrace a Page before a Knight</rdg>
         </app>
       </l>
       <l n="37">
         <app>
           <rdg wit="#ft">Then Should Some Nobleminded &ff;reind</rdg>
           <rdg wit="#ee">Then should some noble-minded friend,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then should some Nobleminded Freind</rdg>
         </app>
       </l>
       <l n="38">
         <app>
           <rdg wit="#ft">Astolpho like to Heaven <seg>aſcend<note type="physical">“c” appears added later, in darker ink</note></seg></rdg>
           <rdg wit="#ee"><seg>Astolfo-like<note type="gloss">Astolpho is a character in Ariosto’s <title rend="italic">Orlando Furioso</title> who flies in a flaming chariot to the moon where all things that have been lost on Earth are stored in jars. Here he recovers the wits that the title character Orlando had lost when rejected by his beloved. Astolfo makes Orlando snort his wits back up his nose.</note></seg>, to heaven ascend,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Astolpho like to <seg>Heaven<note type="critical">Like Pulter’s skin graft assisting Davenant while she is far away, another “Nobleminded Friend” will need to travel to Heaven to retrieve Davenant’s brains. She thus evokes the possible contributions of networks of friends, especially dispersed Royalists.</note></seg> ascend</rdg>
         </app>
       </l>
       <l n="39">
         <app>
           <rdg wit="#ft">And having Search’d neare and &ff;arr</rdg>
           <rdg wit="#ee">And having searchéd near and far</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And having search’d neare and Farr</rdg>
         </app>
       </l>
       <l n="40">
         <app>
           <rdg wit="#ft">And found your most capacious Jarr</rdg>
           <rdg wit="#ee">And found your most capacious jar,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And found your most <seg>capacious Jarr<note type="critical">Pulter further compliments Davenant’s ‘wit’ by suggesting his brain would require a very large container.</note></seg></rdg>
         </app>
       </l>
       <l n="41">
         <app>
           <rdg wit="#ft">Then beeing with Joy Returnd again</rdg>
           <rdg wit="#ee">Then being, with joy, returned again</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then beeing with Joy Returnd again</rdg>
         </app>
       </l>
       <l n="42">
         <app>
           <rdg wit="#ft">You could not then Snuf up your Brain</rdg>
           <rdg wit="#ee">You could not then snuff up your brain:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">You could not then <seg>snuf up your Brain<note type="critical">Orlando’s wits sit in a jar on the moon, and he snorts them back into his head after they are collected by Astolpho. Pulter reminds Davenant that without a nose he will have no such recourse.</note></seg></rdg>
         </app>
       </l>
       <l n="43">
         <app>
           <rdg wit="#ft">Though all your Strenght you Should expoſe</rdg>
           <rdg wit="#ee">Though all your strength you should expose</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Though all your <seg>strenght<note type="gloss">strength</note></seg> you should expose</rdg>
         </app>
       </l>
       <l n="44">
         <app>
           <rdg wit="#ft">You want the Organe cal’d a Noſe</rdg>
           <rdg wit="#ee">You want the organ called a nose.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">You want the Organe cal’d a Nose</rdg>
         </app>
       </l>
         <app>
@@ -506,70 +508,70 @@
         <app>
           <rdg wit="#ft">Prodigious the Knight Remains</rdg>
           <rdg wit="#ee"><seg>Prodigious<note type="gloss">wondrous</note></seg>, the knight remains</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Prodigious the Knight Remains</rdg>
         </app>
       </l>
       <l n="46">
         <app>
           <rdg wit="#ft">Withous or Noſe, or &ff;ame or Brains,</rdg>
           <rdg wit="#ee">Without <seg>or<note type="gloss">either</note></seg> nose, or fame, or brains.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Withous<note type="gloss">Orlando’s wits sit in a jar on the moon, and he snorts them back into his head after they are collected by Astolpho. Pulter reminds Davenant that without a nose he will have no such recourse.</note></seg> <seg>or Nose, or Fame, or Brains<note type="critical">Pulter admonishes Davenant for what she perceived was an increasing likelihood that he would defect to serve the Parliamentarians by tying political honour to sexual honour, with the corruption in Davenant’s nose at risk of spreading to his ‘fame [and] brains’. A knight with title but no intelligence, reputation, or nose would be a monstrous wonder (‘prodigious’).</note></seg>,</rdg>
         </app>
       </l>
       <l n="47">
         <app>
           <rdg wit="#ft">Then I bold ordinance Strook the Title of</rdg>
           <rdg wit="#ee">Then a <seg>bold ordinance<note type="critical">Eardley speculates that this alludes to “An Ordinance Concerning the Peers of Parliament, and other Honors and Titles” (1646), which prevented peers created since 1642  from sitting in Parliament and voided their titles. Charles I had made Davenant a knight in 1643.</note></seg> struck the title off;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then A bold ordinance <seg>strook the Title of<note type="gloss">Parliament’s ‘bold ordinance’ of 1646 voided (struck off) any titles conferred by the King since May 20, 1642, thus including Davenant’s knighthood granted in 1643.</note></seg></rdg>
         </app>
       </l>
       <l n="48">
         <app>
           <rdg wit="#ft">Thus the proud Parces Sit and at us Scofe</rdg>
           <rdg wit="#ee">Thus the proud <seg>Parcae<note type="gloss">the three female Fates</note></seg> sit, and at us scoff.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thus the proud <seg>Parces<note type="critical">The Parcae are the three female Fates. Pulter’s anglicised plural, corrected in modernised editions to the Latin ‘Parcae’, may add further weight to suggestions she accessed Latin texts only in translation: in particular, Sarah Hutton and Alice Eardley suggest that she may have come to knowledge of Galileo through <bibl>Henry More’s (1614–1687) <title rend="italic">Philosophical Poems</title> (1647) (Eardley, ‘Introduction’, p. 11)</bibl>. ‘Parcae’ appears differently throughout the manuscript: from a possessive ‘Parces’ (<ref type="pp-poem-ref" corresp="32">Aletheia's Pearl (Poem 32)</ref>) and plural ‘Parce’ (<ref type="pp-poem-ref" corresp="6">Universal Dissolution (Poem 6)</ref>), to blotted plurals ‘Parce<del>s</del>[?]’ (<ref type="pp-poem-ref" corresp="1">The Eclipse (Poem 1)</ref>) and ‘Parci<del>a</del>[?]’ (<ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester (Poem 7)</ref>). This adds further weight to my belief that she was unfamiliar with Tagliacozzi’s original <title rend="italic">De curtorum chirurgia per insitionem</title>, and instead accessed understanding of the nose reconstructions from sympathy books like Walter Charlton’s translation of <bibl>Johannes Baptista van Helmont’s <title rend="italic">A Ternary of Paradoxes</title> (London: 1649)</bibl>.</note></seg> sit and at us Scofe</rdg>
         </app>
       </l>
       <l n="49">
         <app>
           <rdg wit="#ft">What now remains the Man at Least</rdg>
           <rdg wit="#ee">What now remains? The man at least?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">What now remains the Man at Least</rdg>
         </app>
       </l>
       <l n="50">
         <app>
             <rdg wit="#ft">Noe Surely nothing left but Beast</rdg>
             <rdg wit="#ee">No, surely nothing left but beast.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Noe surely nothing left but <seg>Beast<note type="critical">Pulter’s warnings about the lure of a “Coy Young Lass” and Davenant as “Beast” signal her disapproval of the libertine tendencies of men like Davenant, evident throughout her oeuvre (see for example <ref type="pp-poem-ref" corresp="84">The Elephant (Emblem 19)</ref> and <title rend="italic">The Unfortunate Florinda</title>, which Peter C. Herman discusses in detail: <bibl>‘Lady Hester Pulter’s “The Unfortunate Florinda”: Race, Religion, and the Politics of Rape’ <title rend="italic">Renaissance Quarterly</title> 63.4 [2010]: pp 1208–1246</bibl>).</note></seg></rdg>
         </app>
       </l>
       <l n="51">
         <app>
             <rdg wit="#ft">Then Royall &ff;avour glu’d it on again</rdg>
             <rdg wit="#ee">Then royal favor glued it on again,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then Royall Favour <seg>glu’d<note type="critical">The use of ‘glued’ for the restitution of Davenant’s knighthood parallels it with the reattachment of his nose.</note></seg> it on again</rdg>
         </app>
       </l>
       <l n="52">
         <app>
           <rdg wit="#ft">And now the <seg><w lemma="knight"><abbr>K:<hi rend="superscript">t</hi></abbr></w><note type="physical">“K” appears to correct earlier “R”</note></seg> is Bow-di’de and in grain</rdg>
           <rdg wit="#ee">And now the knight is <seg>bow-dyed and ingrain<note type="gloss">“bow-dyed” is dyed scarlet (named for the Bow Bridge in proximity to the workplace of dyers); the state of being “ingrain,” or “ingrained,” is to have caused a dye to sink into the texture of a fabric and thus be indelible. These lines refer to King Charles’s knighting of Davenant in 1643, which restores the honor he lost when his nose was disfigured.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And now the K<hi rend="italic">night</hi> is Bow-di’de and in grain</rdg>
         </app>
       </l>
       <l n="53">
         <app>
             <rdg wit="#ft">Then Trample not that <w lemma="honour"><abbr>Hono:<hi rend="superscript">r</hi></abbr></w> in <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Dust</rdg>
           <rdg wit="#ee">Then trample not that honor in the dust</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then Trample not that Hono<hi rend="italic">ur</hi> in <hi rend="italic">the</hi> <seg>Dust<note type="critical">As Eardley notes, Pulter’s employment of ‘dust’ generally draws on its Biblical use as matter of human mortality: ‘for dust thou art, and unto dust shalt thou return’ (Genesis 3:19). More broadly, Pulter here continues her juxtaposition of esteemed qualities (honour, wit, nobility) with the baseness affiliated with Davenant’s sexual misbehaviour and corporal loss.</note></seg></rdg>
         </app>
       </l>
       <l n="54">
         <app>
             <rdg wit="#ft">In beeing a Slave to thoſe are Slaves to Lust</rdg>
           <rdg wit="#ee"><seg>In being a slave to those are slaves to lust.<note type="gloss">“those” is ambiguous, but generally signifies temptations.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In beeing a Slave to those are Slaves to Lust</rdg>
         </app>
       </l>
         <app>
