@@ -4262,6 +4262,30 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>elephants</pp:keyword>
+        <pp:keyword>morality</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>marriage</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>city</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>constancy</pp:tag>
+        <pp:tag>elephant</pp:tag>
+        <pp:tag>jealousy</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>theater</pp:tag>
+        <pp:tag>vice</pp:tag>
+        <pp:tag>worship</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
