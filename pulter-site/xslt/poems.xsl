@@ -40,24 +40,24 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>astronomy</pp:tag>
-        <pp:tag>resurrection</pp:tag>
-        <pp:tag>mortality</pp:tag>
-        <pp:tag>soul</pp:tag>
         <pp:tag>body</pp:tag>
-        <pp:tag>transformation</pp:tag>
-        <pp:tag>elements</pp:tag>
-        <pp:tag>confinement</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>fate</pp:tag>
         <pp:tag>Christ</pp:tag>
-        <pp:tag>transience</pp:tag>
+        <pp:tag>confinement</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>dissolution</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>resurrection</pp:tag>
         <pp:tag>revolution</pp:tag>
         <pp:tag>sin</pp:tag>
-        <pp:tag>mythology</pp:tag>
-        <pp:tag>day</pp:tag>
-        <pp:tag>night</pp:tag>
-        <pp:tag>food</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>transience</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -117,11 +117,11 @@
         <pp:keyword>rivers</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>pastoral</pp:tag>
         <pp:tag>restoration</pp:tag>
-        <pp:tag>civil war</pp:tag>
-        <pp:tag>parents</pp:tag>
-        <pp:tag>grief</pp:tag>
         <pp:tag>rivers</pp:tag>
       </pp:tags>
       <pp:editions>
@@ -179,29 +179,29 @@
         <pp:keyword>praise</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>goddesses</pp:tag>
-        <pp:tag>astrology</pp:tag>
-        <pp:tag>beauty</pp:tag>
-        <pp:tag>sexuality</pp:tag>
-        <pp:tag>mythology</pp:tag>
-        <pp:tag>praise</pp:tag>
-        <pp:tag>day</pp:tag>
-        <pp:tag>night</pp:tag>
-        <pp:tag>flowers</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>friendship</pp:tag>
-        <pp:tag>Aurora</pp:tag>
-        <pp:tag>violence</pp:tag>
-        <pp:tag>light</pp:tag>
-        <pp:tag>dark</pp:tag>
-        <pp:tag>sun</pp:tag>
-        <pp:tag>grief</pp:tag>
-        <pp:tag>soul</pp:tag>
-        <pp:tag>body</pp:tag>
-        <pp:tag>God</pp:tag>
         <pp:tag>animals</pp:tag>
-        <pp:tag>scent</pp:tag>
+        <pp:tag>astrology</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>body</pp:tag>
         <pp:tag>children</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>violence</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -253,30 +253,30 @@
         <pp:keyword>politics</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>pastoral</pp:tag>
-        <pp:tag>complaint</pp:tag>
-        <pp:tag>Charles I</pp:tag>
-        <pp:tag>restoration</pp:tag>
-        <pp:tag>London</pp:tag>
-        <pp:tag>sorrow</pp:tag>
-        <pp:tag>rivers</pp:tag>
-        <pp:tag>slander</pp:tag>
-        <pp:tag>countryside</pp:tag>
-        <pp:tag>tears</pp:tag>
-        <pp:tag>race</pp:tag>
-        <pp:tag>Other(s)</pp:tag>
-        <pp:tag>transformation</pp:tag>
-        <pp:tag>fire</pp:tag>
-        <pp:tag>dissolution</pp:tag>
-        <pp:tag>grief</pp:tag>
-        <pp:tag>sexuality</pp:tag>
         <pp:tag>birds</pp:tag>
-        <pp:tag>redemption</pp:tag>
         <pp:tag>calcination</pp:tag>
-        <pp:tag>remembrance</pp:tag>
+        <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>dissolution</pp:tag>
         <pp:tag>England</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>pastoral</pp:tag>
+        <pp:tag>race</pp:tag>
+        <pp:tag>redemption</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>restoration</pp:tag>
+        <pp:tag>rivers</pp:tag>
         <pp:tag>sacrifice</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>slander</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -307,17 +307,17 @@
         <pp:keyword>light</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>resurrection</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>light</pp:tag>
+        <pp:tag>Christ</pp:tag>
         <pp:tag>dark</pp:tag>
         <pp:tag>day</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>grave</pp:tag>
+        <pp:tag>light</pp:tag>
         <pp:tag>night</pp:tag>
-        <pp:tag>vision</pp:tag>
+        <pp:tag>resurrection</pp:tag>
         <pp:tag>sin</pp:tag>
         <pp:tag>sun</pp:tag>
-        <pp:tag>grave</pp:tag>
-        <pp:tag>Christ</pp:tag>
+        <pp:tag>vision</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -414,33 +414,33 @@
         <pp:keyword>decay</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>mortality</pp:tag>
-        <pp:tag>astronomy</pp:tag>
-        <pp:tag>dissolution</pp:tag>
-        <pp:tag>reproduction</pp:tag>
-        <pp:tag>illness</pp:tag>
-        <pp:tag>tears</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>soul</pp:tag>
-        <pp:tag>body</pp:tag>
-        <pp:tag>flowers</pp:tag>
-        <pp:tag>trees</pp:tag>
-        <pp:tag>birds</pp:tag>
         <pp:tag>animals</pp:tag>
-        <pp:tag>transformation</pp:tag>
-        <pp:tag>fish</pp:tag>
-        <pp:tag>fate</pp:tag>
-        <pp:tag>dust</pp:tag>
-        <pp:tag>goddesses</pp:tag>
+        <pp:tag>astronomy</pp:tag>
         <pp:tag>Aurora</pp:tag>
-        <pp:tag>light</pp:tag>
-        <pp:tag>dark</pp:tag>
-        <pp:tag>day</pp:tag>
-        <pp:tag>night</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>body</pp:tag>
         <pp:tag>center</pp:tag>
         <pp:tag>complaint</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>fate</pp:tag>
         <pp:tag>fire</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>goddesses</pp:tag>
+        <pp:tag>illness</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>mortality</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>reproduction</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>trees</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -507,22 +507,22 @@
         <pp:keyword>Charles I</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>civil war</pp:tag>
-        <pp:tag>love</pp:tag>
-        <pp:tag>mythology</pp:tag>
-        <pp:tag>friendship</pp:tag>
-        <pp:tag>cannibalism</pp:tag>
-        <pp:tag>violence</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>fame</pp:tag>
-        <pp:tag>resurrection</pp:tag>
-        <pp:tag>sexuality</pp:tag>
-        <pp:tag>Other(s)</pp:tag>
-        <pp:tag>remembrance</pp:tag>
         <pp:tag>afterlife</pp:tag>
-        <pp:tag>fate</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>Christ</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>violence</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -573,20 +573,26 @@
         <pp:sourceStatement>Anonymous, The Execution of Charles I. British Library, Shelfmark: Crach.1.Tab.4.c.1.(18.). Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//www.bl.uk/collection-items/print-of-the-execution-of-charles-i"/>
       </pp:poster>
+      <pp:keywords>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>royalism</pp:keyword>
+        <pp:keyword>regicide</pp:keyword>
+        <pp:keyword>astronomy</pp:keyword>
+      </pp:keywords>
       <pp:tags>
         <pp:tag>astronomy</pp:tag>
-        <pp:tag>civil war</pp:tag>
-        <pp:tag>decapitation</pp:tag>
-        <pp:tag>violence</pp:tag>
-        <pp:tag>restoration</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>light</pp:tag>
-        <pp:tag>dark</pp:tag>
-        <pp:tag>mythology</pp:tag>
-        <pp:tag>grief</pp:tag>
         <pp:tag>Charles I</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>dark</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>decapitation</pp:tag>
         <pp:tag>elements</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>restoration</pp:tag>
         <pp:tag>sighs</pp:tag>
+        <pp:tag>violence</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -647,22 +653,22 @@
         <pp:keyword>light</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>elegy</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>body</pp:tag>
         <pp:tag>daughter</pp:tag>
         <pp:tag>death</pp:tag>
-        <pp:tag>grief</pp:tag>
+        <pp:tag>elegy</pp:tag>
         <pp:tag>family</pp:tag>
-        <pp:tag>birds</pp:tag>
-        <pp:tag>sun</pp:tag>
-        <pp:tag>illness</pp:tag>
-        <pp:tag>song</pp:tag>
         <pp:tag>flowers</pp:tag>
-        <pp:tag>transformation</pp:tag>
-        <pp:tag>body</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>illness</pp:tag>
         <pp:tag>mortality</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
-        <pp:tag>animals</pp:tag>
+        <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -731,22 +737,22 @@
         <pp:keyword>dialogue</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>elegy</pp:tag>
-        <pp:tag>blazon</pp:tag>
-        <pp:tag>birds</pp:tag>
-        <pp:tag>song</pp:tag>
-        <pp:tag>scent</pp:tag>
-        <pp:tag>Aurora</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>daughters</pp:tag>
-        <pp:tag>remembrance</pp:tag>
-        <pp:tag>mythology</pp:tag>
-        <pp:tag>soul</pp:tag>
-        <pp:tag>body</pp:tag>
-        <pp:tag>grief</pp:tag>
-        <pp:tag>fame</pp:tag>
         <pp:tag>afterlife</pp:tag>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>blazon</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>daughters</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>elegy</pp:tag>
+        <pp:tag>fame</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>remembrance</pp:tag>
         <pp:tag>resurrection</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>soul</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-death-of-a-child">
@@ -788,15 +794,15 @@
         <pp:keyword>England</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
         <pp:tag>Charles I</pp:tag>
+        <pp:tag>children</pp:tag>
         <pp:tag>confinement</pp:tag>
-        <pp:tag>sighs</pp:tag>
+        <pp:tag>dissolution</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>revenge</pp:tag>
-        <pp:tag>afterlife</pp:tag>
-        <pp:tag>children</pp:tag>
+        <pp:tag>sighs</pp:tag>
         <pp:tag>tears</pp:tag>
-        <pp:tag>dissolution</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -826,12 +832,12 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>Charles I</pp:tag>
-        <pp:tag>tears</pp:tag>
-        <pp:tag>grief</pp:tag>
-        <pp:tag>sighs</pp:tag>
-        <pp:tag>death</pp:tag>
         <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>grief</pp:tag>
         <pp:tag>murder</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>tears</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="15">
@@ -854,24 +860,24 @@
         <pp:keyword>Christianity</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>tears</pp:tag>
-        <pp:tag>grief</pp:tag>
-        <pp:tag>Charles I</pp:tag>
-        <pp:tag>England</pp:tag>
         <pp:tag>afterlife</pp:tag>
-        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>alchemy</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>Charles I</pp:tag>
         <pp:tag>Christ</pp:tag>
-        <pp:tag>history</pp:tag>
+        <pp:tag>church</pp:tag>
         <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
         <pp:tag>rivers</pp:tag>
         <pp:tag>sighs</pp:tag>
-        <pp:tag>alchemy</pp:tag>
-        <pp:tag>sun</pp:tag>
-        <pp:tag>light</pp:tag>
         <pp:tag>smell</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>church</pp:tag>
-        <pp:tag>body</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>tears</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="16">
@@ -910,24 +916,24 @@
         <pp:keyword>revolution</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>God</pp:tag>
-        <pp:tag>dissolution</pp:tag>
-        <pp:tag>calcination</pp:tag>
-        <pp:tag>transformation</pp:tag>
-        <pp:tag>creation</pp:tag>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>atoms</pp:tag>
         <pp:tag>breath</pp:tag>
-        <pp:tag>light</pp:tag>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>creation</pp:tag>
         <pp:tag>dark</pp:tag>
+        <pp:tag>dissolution</pp:tag>
         <pp:tag>elements</pp:tag>
-        <pp:tag>fire</pp:tag>
-        <pp:tag>reader</pp:tag>
         <pp:tag>fame</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>reader</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>revolution</pp:tag>
-        <pp:tag>tears</pp:tag>
         <pp:tag>sighs</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>transformation</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="17">
@@ -949,20 +955,20 @@
         <pp:keyword>grief</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>creation</pp:tag>
-        <pp:tag>prayer</pp:tag>
-        <pp:tag>tears</pp:tag>
-        <pp:tag>sighs</pp:tag>
-        <pp:tag>soul</pp:tag>
         <pp:tag>body</pp:tag>
-        <pp:tag>transformation</pp:tag>
-        <pp:tag>elements</pp:tag>
-        <pp:tag>sorrow</pp:tag>
+        <pp:tag>circle</pp:tag>
+        <pp:tag>creation</pp:tag>
+        <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>elements</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>grief</pp:tag>
-        <pp:tag>dissolution</pp:tag>
-        <pp:tag>circle</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1030,18 +1036,18 @@
         <pp:keyword>heaven,</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>complaint</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>prayer</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>sorrow</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>vanity</pp:tag>
-        <pp:tag>resurrection</pp:tag>
-        <pp:tag>sorrow</pp:tag>
-        <pp:tag>complaint</pp:tag>
-        <pp:tag>song</pp:tag>
-        <pp:tag>God</pp:tag>
-        <pp:tag>fate</pp:tag>
-        <pp:tag>dust</pp:tag>
-        <pp:tag>afterlife</pp:tag>
-        <pp:tag>death</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1085,14 +1091,14 @@
         <pp:keyword>eternity</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>freedom</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>soul</pp:tag>
         <pp:tag>body</pp:tag>
-        <pp:tag>sighs</pp:tag>
-        <pp:tag>friendship</pp:tag>
-        <pp:tag>welcome</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>fear</pp:tag>
+        <pp:tag>freedom</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>welcome</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="20">
@@ -1115,19 +1121,19 @@
         <pp:keyword>rebirth</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>prayer</pp:tag>
-        <pp:tag>mortality</pp:tag>
-        <pp:tag>food</pp:tag>
         <pp:tag>afterlife</pp:tag>
-        <pp:tag>praise</pp:tag>
-        <pp:tag>day</pp:tag>
-        <pp:tag>night</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>light</pp:tag>
         <pp:tag>dark</pp:tag>
-        <pp:tag>God</pp:tag>
-        <pp:tag>song</pp:tag>
+        <pp:tag>day</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>elements</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>light</pp:tag>
+        <pp:tag>mortality</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>praise</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>song</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1917,7 +1923,7 @@
         <pp:keyword>dust</pp:keyword>
         <pp:keyword>dirt</pp:keyword>
         <pp:keyword>body</pp:keyword>
-        <pp:keyword>insect(s)</pp:keyword>
+        <pp:keyword>insects</pp:keyword>
         <pp:keyword>mortality</pp:keyword>
         <pp:keyword>motherhood</pp:keyword>
         <pp:keyword>work</pp:keyword>
@@ -2231,6 +2237,30 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>transmigration</pp:keyword>
+        <pp:keyword>salvation</pp:keyword>
+        <pp:keyword>revolution</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>night</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>remembrance</pp:tag>
+        <pp:tag>resurrection</pp:tag>
+        <pp:tag>revolution</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>transience</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements</pp:title>
@@ -2245,6 +2275,34 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>elements</pp:keyword>
+        <pp:keyword>solstice</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>dissolution</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>age</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>drink</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>elements</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>mother</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>sigh</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>welcome</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="42">
       <pp:title>Pardon Me, My Dearest Love</pp:title>
@@ -2501,25 +2559,25 @@
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
         <pp:keyword>song</pp:keyword>
-        <pp:keyword>bird(s)</pp:keyword>
-        <pp:keyword>animal(s)</pp:keyword>
-        <pp:keyword>insect(s)</pp:keyword>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>insects</pp:keyword>
         <pp:keyword>soul</pp:keyword>
         <pp:keyword>birth</pp:keyword>
-        <pp:keyword>flower(s)</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
         <pp:keyword>offspring</pp:keyword>
         <pp:keyword>friends</pp:keyword>
-        <pp:keyword>spider(s)</pp:keyword>
+        <pp:keyword>spiders</pp:keyword>
         <pp:keyword>weaving</pp:keyword>
         <pp:keyword>sheep</pp:keyword>
-        <pp:keyword>snail(s)</pp:keyword>
+        <pp:keyword>snails</pp:keyword>
         <pp:keyword>rural</pp:keyword>
         <pp:keyword>countryman</pp:keyword>
         <pp:keyword>laborer</pp:keyword>
         <pp:keyword>mower</pp:keyword>
         <pp:keyword>praise</pp:keyword>
         <pp:keyword>mourning</pp:keyword>
-        <pp:keyword>nest(s)</pp:keyword>
+        <pp:keyword>nests</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>labor</pp:tag>
@@ -2956,11 +3014,11 @@
         <pp:keyword>science</pp:keyword>
         <pp:keyword>confinement</pp:keyword>
         <pp:keyword>astrology</pp:keyword>
-        <pp:keyword>planet(s)</pp:keyword>
+        <pp:keyword>planets</pp:keyword>
         <pp:keyword>earth</pp:keyword>
-        <pp:keyword>sun(s)</pp:keyword>
+        <pp:keyword>suns</pp:keyword>
         <pp:keyword>light</pp:keyword>
-        <pp:keyword>moon(s)</pp:keyword>
+        <pp:keyword>moons</pp:keyword>
         <pp:keyword>sky</pp:keyword>
         <pp:keyword>religion</pp:keyword>
         <pp:keyword>spirituality</pp:keyword>
@@ -3066,7 +3124,7 @@
         <pp:keyword>sadness</pp:keyword>
         <pp:keyword>lamentation</pp:keyword>
         <pp:keyword>loss</pp:keyword>
-        <pp:keyword>flower(s)</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
         <pp:keyword>dialogue</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
         <pp:keyword>woe</pp:keyword>
@@ -3274,6 +3332,30 @@
           <pp:author>Emily Cock</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>nose</pp:keyword>
+        <pp:keyword>satire</pp:keyword>
+        <pp:keyword>lust</pp:keyword>
+        <pp:keyword>fate</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>body</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>dust</pp:tag>
+        <pp:tag>elegy</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>friendship</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>satire</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="61">
       <pp:title>The Weeping Wish</pp:title>
@@ -3383,7 +3465,7 @@
         <pp:keyword>Christian god</pp:keyword>
         <pp:keyword>body</pp:keyword>
         <pp:keyword>dust</pp:keyword>
-        <pp:keyword>sigh(s)</pp:keyword>
+        <pp:keyword>sighs</pp:keyword>
         <pp:keyword>air</pp:keyword>
         <pp:keyword>transformation</pp:keyword>
       </pp:keywords>
@@ -3432,6 +3514,28 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>England</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>prayer</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>afterlife</pp:tag>
+        <pp:tag>bible</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>elegy</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>pride</pp:tag>
+        <pp:tag>providence</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>violence</pp:tag>
+        <pp:tag>vision</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
@@ -3937,6 +4041,21 @@
           <pp:author>Sarah C. E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>betrayal</pp:keyword>
+        <pp:keyword>vengeance</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+        <pp:keyword>Christianity</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>betrayal</pp:tag>
+        <pp:tag>children</pp:tag>
+        <pp:tag>enemies</pp:tag>
+        <pp:tag>faith</pp:tag>
+        <pp:tag>mother</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>violence</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="76">
       <pp:title>Wisest Creatures (Emblem 10)</pp:title>
@@ -4000,6 +4119,25 @@
           <pp:author>Sarah C. E. Ross</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>birds</pp:keyword>
+        <pp:keyword>God</pp:keyword>
+        <pp:keyword>faith</pp:keyword>
+        <pp:keyword>comfort</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>birds</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>family</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="78">
       <pp:title>This Vast Leviathan (Emblem 12)</pp:title>
@@ -5476,13 +5614,13 @@
         <pp:keyword>liberation</pp:keyword>
         <pp:keyword>Saint Nicholas</pp:keyword>
         <pp:keyword>Russians</pp:keyword>
-        <pp:keyword>bee(s)</pp:keyword>
+        <pp:keyword>bees</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
         <pp:keyword>captivity</pp:keyword>
-        <pp:keyword>tree(s)</pp:keyword>
+        <pp:keyword>trees</pp:keyword>
         <pp:keyword>honey</pp:keyword>
-        <pp:keyword>saint(s)</pp:keyword>
-        <pp:keyword>bear(s)</pp:keyword>
+        <pp:keyword>saints</pp:keyword>
+        <pp:keyword>bears</pp:keyword>
         <pp:keyword>remedies</pp:keyword>
         <pp:keyword>restraint</pp:keyword>
       </pp:keywords>
