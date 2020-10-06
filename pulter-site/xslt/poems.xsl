@@ -4256,12 +4256,36 @@
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
       <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:keywords>
+        <pp:keyword>elephants</pp:keyword>
+        <pp:keyword>morality</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>marriage</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>city</pp:tag>
+        <pp:tag>civil war</pp:tag>
+        <pp:tag>class</pp:tag>
+        <pp:tag>constancy</pp:tag>
+        <pp:tag>elephant</pp:tag>
+        <pp:tag>jealousy</pp:tag>
+        <pp:tag>love</pp:tag>
+        <pp:tag>marriage</pp:tag>
+        <pp:tag>sacrifice</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>sin</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>theater</pp:tag>
+        <pp:tag>vice</pp:tag>
+        <pp:tag>worship</pp:tag>
+      </pp:tags>
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
@@ -4584,12 +4608,12 @@
     <pp:poem id="91">
       <pp:title>Ambitious Apes (Emblem 26)</pp:title>
       <pp:firstLine>Those that employéd are the apes to catch</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>slavery</pp:keyword>
         <pp:keyword>ambition</pp:keyword>
@@ -4653,12 +4677,12 @@
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
       <pp:firstLine>Vain Herostratus was so fond of fame</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>fame</pp:keyword>
         <pp:keyword>ambition</pp:keyword>
@@ -4746,12 +4770,12 @@
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
       <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>fate</pp:keyword>
         <pp:keyword>mortality</pp:keyword>
@@ -4778,12 +4802,12 @@
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
       <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>love</pp:keyword>
@@ -4858,12 +4882,12 @@
     <pp:poem id="99">
       <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>pigs</pp:keyword>
         <pp:keyword>money</pp:keyword>
@@ -4885,12 +4909,12 @@
     <pp:poem id="100">
       <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
       <pp:firstLine>Seest thou this horizontal bird, whose eyes</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>constancy</pp:keyword>
         <pp:keyword>purity</pp:keyword>
@@ -5210,12 +5234,12 @@
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
       <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>devil</pp:keyword>
@@ -5242,12 +5266,12 @@
         <pp:sourceStatement>Jan Brandes, Een tonijn, een haai en een remora, 1788. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.214530"/>
       </pp:poster>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>witchcraft</pp:keyword>
         <pp:keyword>humility</pp:keyword>
@@ -5270,12 +5294,12 @@
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
       <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>suicide</pp:keyword>
         <pp:keyword>rebirth</pp:keyword>
@@ -5306,12 +5330,12 @@
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
       <pp:firstLine>Aristomenes, his strange ambiguous fate</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>faith</pp:keyword>
         <pp:keyword>imprisonment</pp:keyword>
@@ -5334,12 +5358,12 @@
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
       <pp:firstLine>In Mainz, when corn was grown excessive dear</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>tyranny</pp:keyword>
         <pp:keyword>punishment</pp:keyword>
@@ -5364,12 +5388,12 @@
     <pp:poem id="112">
       <pp:title>The Turtle and his Paramour (Emblem 47)</pp:title>
       <pp:firstLine>When as that genial universal fire</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>tyranny</pp:keyword>
         <pp:keyword>rape</pp:keyword>
@@ -5391,12 +5415,12 @@
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>
       <pp:firstLine>When royal Fergus’s line did rule this realm</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>body</pp:keyword>
         <pp:keyword>food</pp:keyword>
@@ -5481,12 +5505,12 @@
     <pp:poem id="115">
       <pp:title>Phalaris and the Brazen Bull (Emblem 50)</pp:title>
       <pp:firstLine>When Phalaris, for tyranny so famed</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>justice</pp:keyword>
         <pp:keyword>punishment</pp:keyword>
@@ -5549,12 +5573,12 @@
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>
       <pp:firstLine>The Caucasines with locusts were annoyed</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>insects</pp:keyword>
         <pp:keyword>civil war</pp:keyword>
@@ -5630,12 +5654,12 @@
         <pp:sourceStatement>Cornelis Anthonisz, Fabel van de vader, de zoon en de ezel (drie van de vier blokken), 1509-1553. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.401849"/>
       </pp:poster>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>violence</pp:keyword>
         <pp:keyword>mockery</pp:keyword>
@@ -5656,12 +5680,12 @@
     <pp:poem id="120">
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>
       <pp:firstLine>Somnus, why art thou still to me unkind?</pp:firstLine>
-<!--      <pp:editions>-->
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Leah Knight</pp:author>-->
-<!--          <pp:author>Wendy Wall</pp:author>-->
-<!--        </pp:edition>-->
-<!--      </pp:editions>-->
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
       <pp:keywords>
         <pp:keyword>tears</pp:keyword>
         <pp:keyword>dream</pp:keyword>
