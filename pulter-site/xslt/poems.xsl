@@ -779,6 +779,37 @@
     </pp:poem>
     <pp:poem id="12">
       <pp:title>The Garden, or The Contention of Flowers</pp:title>
+      <pp:firstLine>Once in my garden as alone I lay</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Jan Luyken, Vrouw plukt rozen in een tuin,  1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143255"/>
+      </pp:poster>
+      <pp:editions>
+        <pp:edition type="elemental">
+          <pp:author>Leah Knight</pp:author>
+          <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+      </pp:editions>
+      <pp:tags>
+        <pp:tag>calcination</pp:tag>
+        <pp:tag>competition</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>Islam</pp:tag>
+        <pp:tag>medicine</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>religion</pp:tag>
+        <pp:tag>scent</pp:tag>
+        <pp:tag>sexuality</pp:tag>
+        <pp:tag>tears</pp:tag>
+      </pp:tags>
+      <pp:keywords>
+        <pp:keyword>tears</pp:keyword>
+        <pp:keyword>flowers</pp:keyword>
+        <pp:keyword>competition</pp:keyword>
+        <pp:keyword>mythology</pp:keyword>
+      </pp:keywords>
     </pp:poem>
     <pp:poem id="13">
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
