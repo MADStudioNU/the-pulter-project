@@ -5851,6 +5851,10 @@
       <pp:author>C. A. Davis</pp:author>
       <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
     </pp:exploration>
+    <pp:exploration hash="what-else-is-in-the-manuscript">
+      <pp:author>Wendy Wall</pp:author>
+      <pp:title>What Else Is In the Manuscript? Or, Where Did Pulter’s Poems Live?</pp:title>
+    </pp:exploration>
   </pp:explorations>
 
   <!-- Helper Vars -->
