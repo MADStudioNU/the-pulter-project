@@ -711,7 +711,8 @@ var PP = (function ($) {
                 },
                 easing: 'easeInOutElastic',
                 delay: function (target, index) {
-                  return 30 * index;
+                  // Animate only first 50 lines
+                  return index < 50 ? 30 * index : 50 * 30;
                 }
               },
               showThePageBreaks = {
