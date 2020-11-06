@@ -500,10 +500,6 @@ $themeColor: #ece9e2;
     margin-top: 4.5em;
   }
 
-  p + .img-box {
-
-  }
-
   .img-box {
     margin: 2.5em 0;
     padding-left: 1em;
@@ -534,7 +530,7 @@ $themeColor: #ece9e2;
         display: inline-block;
         content: '⬆';
         color: rgba($pp_manuscriptInk, 1);
-        margin-right: .5em;
+        margin-right: .4em;
       }
     }
 
@@ -631,7 +627,7 @@ $themeColor: #ece9e2;
     font-family: $pp_curatorialFont;
     font-weight: bold;
     margin-bottom: 1.25em;
-    font-size: 1.05em;
+    font-size: 1.1em;
 
     &:not(:first-child) {
       margin-top: 2.5em;
@@ -852,7 +848,7 @@ $themeColor: #ece9e2;
   }
 
   #content {
-    margin-bottom: 3em;
+    //margin-bottom: 3em;
     padding-top: 3em;
 
     main {
