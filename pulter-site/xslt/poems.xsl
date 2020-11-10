@@ -784,12 +784,12 @@
         <pp:sourceStatement>Jan Luyken, Vrouw plukt rozen in een tuin,  1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143255"/>
       </pp:poster>
-      <pp:editions>
-        <pp:edition type="elemental">
-          <pp:author>Leah Knight</pp:author>
-          <pp:author>Wendy Wall</pp:author>
-        </pp:edition>
-      </pp:editions>
+<!--      <pp:editions>-->
+<!--        <pp:edition type="elemental">-->
+<!--          <pp:author>Leah Knight</pp:author>-->
+<!--          <pp:author>Wendy Wall</pp:author>-->
+<!--        </pp:edition>-->
+<!--      </pp:editions>-->
       <pp:tags>
         <pp:tag>calcination</pp:tag>
         <pp:tag>competition</pp:tag>
@@ -5882,10 +5882,10 @@
       <pp:author>C. A. Davis</pp:author>
       <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
     </pp:exploration>
-    <pp:exploration hash="what-else-is-in-the-manuscript">
-      <pp:author>Wendy Wall</pp:author>
-      <pp:title>What Else Is In the Manuscript? Or, Where Did Pulter’s Poems Live?</pp:title>
-    </pp:exploration>
+<!--    <pp:exploration hash="what-else-is-in-the-manuscript">-->
+<!--      <pp:author>Wendy Wall</pp:author>-->
+<!--      <pp:title>What Else Is In the Manuscript? Or, Where Did Pulter’s Poems Live?</pp:title>-->
+<!--    </pp:exploration>-->
   </pp:explorations>
 
   <!-- Helper Vars -->
