@@ -45,23 +45,26 @@ $themeColor: #ece9e2;
   }
 
   .escape-box {
-    //background: thistle;
-    max-width: inherit;
-    width: inherit;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
     text-align: right;
-    margin-left: -3em;
-    padding-right: 6em;
-    line-height: 1;
     position: fixed;
     z-index: 2;
-    top: 1em;
+    top: .5em;
 
     .escape {
-      font-size: ms(-4);
-      padding: 0;
-      margin: 0;
-      position: relative;
-      right: -(9 - 1.75em) / ms(-4) + em;
+      pointer-events: all;
+      font-size: ms(-5);
+      padding: .5em .5em .5em .66em;
+      margin: 0 1.5em 0 0;
+      background: $pp_manuscriptInk;
+      color: lighten($pp_manuscriptPaper, 10%);
+      border-radius: 1px;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
@@ -69,7 +72,7 @@ $themeColor: #ece9e2;
     position: relative;
     padding-bottom: 6em;
     padding-top: 6em;
-    font-size: .9em;
+    //font-size: .9em;
 
     &::after {
       $size: 2em;
@@ -162,6 +165,14 @@ $themeColor: #ece9e2;
         display: inline-block;
         width: 3em;
       }
+    }
+  }
+
+  section {
+    //&.main {}
+
+    &.less {
+      font-size: .9em;
     }
   }
 
@@ -490,7 +501,7 @@ $themeColor: #ece9e2;
   }
 
   .img-box {
-    margin: 3em 0 2em 0;
+    margin: 2.5em 0;
     padding-left: 1em;
 
     @include breakpoint(mobile) {
@@ -498,27 +509,28 @@ $themeColor: #ece9e2;
     }
 
     img {
-      margin-bottom: 0;
+      margin: 0;
     }
 
-    .caption {
+    .caption,
+    .simple-caption {
       font-size: .8em;
       width: 90%;
-      margin: 2em 0 1.5em 0;
-      color: rgba(0, 0, 0, .9);
+      margin: 1.5em 0;
+      color: rgba($pp_manuscriptInk, .8);
       line-height: 1.5;
       //font-style: italic;
       text-transform: none;
       letter-spacing: 0;
-      //border-left: 4px solid rgba($pp_manuscriptInk, .66);
-      //padding-left: 1em;
+    }
 
+    .caption {
       &::before {
         font-size: 1em;
         display: inline-block;
         content: '⬆';
         color: rgba($pp_manuscriptInk, 1);
-        margin-right: .5em;
+        margin-right: .4em;
       }
     }
 
@@ -530,16 +542,17 @@ $themeColor: #ece9e2;
   }
 
   .vid-box {
-    margin-top: 3em;
+    margin-top: 2.5em;
 
     &:not(:last-child) {
-      margin-bottom: 3em;
+      margin-bottom: 2.5em;
     }
 
     iframe {
       display: block;
       width: 100%;
       height: 360/18.5 + em;
+      background: rgba($pp_manuscriptInk, .2);
 
       @include breakpoint(mobile) {
         height: auto;
@@ -568,12 +581,21 @@ $themeColor: #ece9e2;
     @include breakpoint(mobile) { max-width: 100%; }
   }
 
-  // Numbered lists
-  //ol {
-  //  margin-left: 1.5em;
-  //}
-
   // Lists
+  ol,
+  ul {
+    color: #282828;
+    margin-bottom: 1.5em;
+
+    li {
+      margin-bottom: .66em;
+    }
+
+    &.ind {
+      margin-left: 1.5em;
+    }
+  }
+
   .src-list {
     font-size: .9em;
     color: $pp_manuscriptInk;
@@ -585,26 +607,35 @@ $themeColor: #ece9e2;
     }
   }
 
+  // Unnumbered lists
+  ul {
+    list-style: disc;
+  }
+
+  // Numbered lists
+  //ol {}
+
   // Headings
   h3 {
     font-family: $pp_curatorialFont;
     font-weight: bold;
-    margin: 2.5em 0 1em 0;
+    margin: 2.5em 0 1.5em 0;
+    font-size: ms(-1);
   }
 
   h4 {
     font-family: $pp_curatorialFont;
     font-weight: bold;
-    margin-bottom: 1em;
-    font-size: .9em;
+    margin-bottom: 1.25em;
+    font-size: 1.1em;
 
     &:not(:first-child) {
-      margin-top: 3em;
+      margin-top: 2.5em;
     }
   }
 
   h3, h4 {
-    color: rgba(#282828, .9);
+    color: $pp_manuscriptInk;
 
     &.sssi {
       font-family: $pp_poetryFont;
@@ -737,6 +768,17 @@ $themeColor: #ece9e2;
     }
   }
 
+  .pre {
+    color: rgba($pp_manuscriptInk, 1);
+    position: relative;
+    bottom: 1px;
+    font-size: .8em;
+    line-height: .85em;
+    padding: .4em .4em .2em .4em;
+    background: rgba($pp_manuscriptInk, .15);
+    white-space: nowrap;
+  }
+
   // Dismiss action
   #content .dismiss {
     cursor: pointer;
@@ -780,12 +822,12 @@ $themeColor: #ece9e2;
   }
 }
 
-// Standalone pages overrides
+// Standalone page overrides
 .curation-page,
 .exploration-page {
   border-radius: 0;
-  width: 60%;
-  max-width: 40em;
+  width: 80%;
+  max-width: 30em;
   margin: 0 auto;
 
   @include breakpoint(mobile) {
@@ -806,7 +848,7 @@ $themeColor: #ece9e2;
   }
 
   #content {
-    margin-bottom: 3em;
+    //margin-bottom: 3em;
     padding-top: 3em;
 
     main {
