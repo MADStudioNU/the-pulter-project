@@ -46,7 +46,7 @@ var PP = (function ($) {
             setTimeout(function () {
               enableInteractivity();
 
-              if(hash === 'explorations') {
+              if (hash === 'explorations') {
                 $('#' + hash)[0].scrollIntoView();
               }
             }, 400);
