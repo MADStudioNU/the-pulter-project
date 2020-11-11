@@ -4761,6 +4761,10 @@
     <pp:poem id="91">
       <pp:title>Ambitious Apes (Emblem 26)</pp:title>
       <pp:firstLine>Those that employéd are the apes to catch</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Anonymous, Illustration for the fable “Jupiter and the Ape,” by J. Ogilby, 1600-1676. Wellcome Collection. CC BY</pp:sourceStatement>
+        <pp:sourceLink ref="//wellcomecollection.org/works/qs9sdqxt"/>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
