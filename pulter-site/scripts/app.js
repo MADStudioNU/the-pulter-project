@@ -75,7 +75,7 @@ var PP = (function ($) {
         maxFont: 48
       });
 
-      // Button click handlers
+      // Various click event handlers
       $toIntro.on('click', navigateToIntro);
       $readAction.on('click', navigateToIndex);
       $explorationsAction.on('click', navigateToExplorations);
@@ -253,6 +253,7 @@ var PP = (function ($) {
 
       function openExploration(eHash) {
         var ctxUrl = '/explorations/' + eHash + '.html #content';
+        var oldHash = window.location.hash;
 
         $.featherlight(ctxUrl, {
           variant: 'curation',
@@ -265,6 +266,42 @@ var PP = (function ($) {
           beforeOpen: function () {
             if (eHash) {
               window.location.hash = eHash;
+            }
+          },
+          afterContent: function () {
+            var $imagesWithZoom = $('img[data-zoom]');
+            $imagesWithZoom.on('click', function () {
+              var $imageWithZoom = $(this);
+              var imageSrc = $imageWithZoom.attr('src');
+              var zoomImgSrc = $imageWithZoom.data('zoom');
+
+              if (imageSrc && zoomImgSrc) {
+                var $image;
+
+                $.featherlight(imageSrc, {
+                  type: 'image',
+                  variant: 'facs',
+                  closeIcon: 'Close',
+                  loading: 'One second…',
+                  afterContent: function () {
+                    $image = $('.featherlight-image');
+                    $image.attr('data-zoom', zoomImgSrc);
+
+                    new Drift($image[0], {
+                      inlinePane: true,
+                      hoverDelay: 400
+                    });
+                  },
+                  beforeClose: function () {
+                    $('.drift-zoom-pane').remove();
+                  }
+                });
+              }
+            });
+          },
+          afterClose: function () {
+            if (oldHash !== eHash) {
+              window.location.hash = oldHash;
             }
           }
         });
@@ -581,9 +618,9 @@ var PP = (function ($) {
 
           // Facs
           $facsimileToggle.on('click', function () {
-            var $self = $(this),
-              imageId = $self.data('image-id'),
-              drift;
+            var $self = $(this);
+            var imageId = $self.data('image-id');
+            var drift;
 
             gtag('event', 'facsimile_viewed', {
               'event_category': 'engagement',
@@ -598,24 +635,15 @@ var PP = (function ($) {
                 loading: 'One second…',
                 afterContent: function () {
                   var $image = $('.featherlight-image');
-
                   $image.attr('data-zoom', '/images/facs/' + imageId + '.jpg');
 
-                  drift = new Drift($image[0], {
-                    paneContainer: document.querySelector('.featherlight-content'),
-                    // showWhitespaceAtEdges: true,
-                    // containInline: true,
-                    // inlineOffsetX: 100,
-                    // inlineOffsetY: 100,
-                    // hoverBoundingBox: true,
-                    // injectBaseStyles: false,
-                    inlinePane: true
+                  new Drift($image[0], {
+                    inlinePane: true,
+                    hoverDelay: 400
                   });
-
-                  drift.enable();
                 },
-                afterClose: function () {
-                  drift.disable();
+                beforeClose: function () {
+                  $('.drift-zoom-pane').remove();
                 }
               });
             }
