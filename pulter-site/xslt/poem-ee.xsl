@@ -224,6 +224,9 @@
               <div class="gloss-toggle toggle">
                 <a href="#0">Notes</a>
               </div>
+              <div class="lines-toggle toggle">
+                <a href="#0">#</a>
+              </div>
             </div>
           </div>
         </div>
@@ -665,14 +668,6 @@
         </xsl:if>
       </xsl:attribute>
 
-      <xsl:if test="@n">
-        <xsl:if test="@type">
-          <xsl:attribute name="data-order">
-            <xsl:value-of select="@n"/>
-          </xsl:attribute>
-        </xsl:if>
-      </xsl:if>
-
       <xsl:apply-templates>
         <xsl:with-param name="witId" select="$witId"/>
       </xsl:apply-templates>
@@ -696,17 +691,27 @@
         </xsl:choose>
       </xsl:attribute>
 
-      <xsl:attribute name="data-order">
+      <xsl:variable name="lineNumberValue">
         <xsl:choose>
           <xsl:when test="@n">
             <xsl:value-of select="@n"/>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of
-              select="count(preceding::tei:l[descendant::tei:rdg]) + 1"/>
+            <xsl:value-of select="count(preceding::tei:l[descendant::tei:rdg]) + 1"/>
           </xsl:otherwise>
         </xsl:choose>
+      </xsl:variable>
+
+      <xsl:attribute name="id">
+        <xsl:value-of select="concat('l-', $lineNumberValue)"/>
       </xsl:attribute>
+
+      <xsl:element name="span">
+        <xsl:attribute name="class">
+          <xsl:value-of select="'line-number-value'"/>
+        </xsl:attribute>
+        <xsl:value-of select="$lineNumberValue"/>
+      </xsl:element>
 
       <xsl:apply-templates>
         <xsl:with-param name="witId" select="$witId"/>

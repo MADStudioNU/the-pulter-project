@@ -1,4 +1,17 @@
 .pp.single-poem {
+  // Poem 1
+  // Line numbers adjustments
+  &.poem-1 {
+    .mc .poem main {
+      .line-number-value {
+        left: 1em;
+
+        @include breakpoint(mobile) {
+          left: -3.33em;
+        }
+      }
+    }
+  }
 
   // Poem 2
   // Note labels in AE
@@ -32,11 +45,44 @@
     }
   }
 
+  // Poem 12
+  // Custom milestones in EE
+  &.poem-12 {
+    .mc .poem main {
+      .milestone.left-gutter {
+        text-align: right;
+        width: 6em;
+        margin-left: -5.25em;
+        font-size: .75em;
+        position: relative;
+        bottom: -.25em;
+
+        @include breakpoint(mobile) {
+          height: auto;
+          margin: .6em 0;
+          font-size: 1em;
+          text-align: left;
+          max-width: 10em;
+          width: auto;
+          bottom: 0;
+        }
+      }
+
+      .line-number-value {
+        left: 1em;
+
+        @include breakpoint(mobile) {
+          left: -3.33em;
+        }
+      }
+    }
+  }
+
   // Poems 41 and 120
   // Custom milestones in EE
   &.poem-41,
   &.poem-120 {
-    .poem main {
+    .mc .poem main {
       .milestone.left-gutter {
         text-align: right;
         font-size: .8em;
@@ -51,12 +97,20 @@
           bottom: 0;
         }
       }
+
+      .line-number-value {
+        left: 1em;
+
+        @include breakpoint(mobile) {
+          left: -3.33em;
+        }
+      }
     }
   }
 
   &.poem-41 .poem main .milestone.left-gutter {
-    max-width: 4em;
-    margin-left: -2.75em;
+    width: 4em;
+    margin-left: -3.5em;
 
     @include breakpoint(mobile) {
       max-width: 10em;
@@ -66,8 +120,8 @@
   }
 
   &.poem-120 .poem main .milestone.left-gutter {
-    max-width: 5em;
-    margin-left: -3.33em;
+    width: 5em;
+    margin-left: -4.25em;
 
     @include breakpoint(mobile) {
       max-width: 10em;
@@ -79,18 +133,18 @@
   // Poem 68
   // Custom milestones in EE
   &.poem-68 {
-    .poem main {
+    .mc .poem main {
       .milestone.left-gutter {
         text-align: left;
         width: 8.5em;
-        margin-left: -6em;
+        margin-left: -6.75em;
         font-size: .5em;
         position: relative;
         bottom: -.85em;
 
         @include breakpoint(mobile) {
           height: auto;
-          margin: .6em 0;
+          margin: 1em 0 .66em 0;
           font-size: 1em;
           text-align: left;
           max-width: 15em;
@@ -98,29 +152,12 @@
           bottom: 0;
         }
       }
-    }
-  }
 
-  // Poem 12
-  // Custom milestones in EE
-  &.poem-12 {
-    .poem main {
-      .milestone.left-gutter {
-        text-align: right;
-        width: 6em;
-        margin-left: -5em;
-        font-size: .75em;
-        position: relative;
-        bottom: -.25em;
+      .line-number-value {
+        left: 1em;
 
         @include breakpoint(mobile) {
-          height: auto;
-          margin: .6em 0;
-          font-size: 1em;
-          text-align: left;
-          max-width: 10em;
-          width: auto;
-          bottom: 0;
+          left: -3.33em;
         }
       }
     }

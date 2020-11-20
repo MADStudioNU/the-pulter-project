@@ -430,21 +430,23 @@ var PP = (function ($) {
           var pulterState = pulterState || store.namespace('pulterState');
 
           // DOM variables
-          var $poemSheetList = $body.find('#poem-sheet-list'),
-            $poster = $body.find('.poster'),
-            $posterInfoTrigger = $body.find('.poster-info-trigger'),
-            $glossToggle = $body.find('.gloss-toggle'),
-            $pageToggle = $body.find('.page-toggle'),
-            $headnoteToggles = $body.find('.headnote-toggle'),
-            $facsimileToggle = $body.find('.facsimile-toggle'),
-            $poemNoteTriggers = $body.find('.poem-note-trigger'),
-            $navs = $body.find('.nav'),
-            $ctxs,
-            $curationBlurb = $('.curation-blurb');
+          var $poemSheetList = $body.find('#poem-sheet-list');
+          var $poster = $body.find('.poster');
+          var $posterInfoTrigger = $body.find('.poster-info-trigger');
+          var $glossToggle = $body.find('.gloss-toggle');
+          var $pageToggle = $body.find('.page-toggle');
+          var $lineNumbersToggle = $body.find('.lines-toggle');
+          var $headnoteToggles = $body.find('.headnote-toggle');
+          var $facsimileToggle = $body.find('.facsimile-toggle');
+          var $poemNoteTriggers = $body.find('.poem-note-trigger');
+          var $navs = $body.find('.nav');
+          var $ctxs;
+          var $curationBlurb = $('.curation-blurb');
 
           // Read the storage and set the states if needed
           if (pulterState.has('pagesOn')) { $body.addClass('pages-on'); }
           if (pulterState.has('glossesOn')) { $body.addClass('glosses-on'); }
+          if (pulterState.has('linesOn')) { $body.addClass('lines-on'); }
 
           // Local variables
           var manifest;
@@ -542,6 +544,7 @@ var PP = (function ($) {
             } else {
               configureViewSetting('glosses', true);
 
+              // Questionable, but this is what Wendy & Leah want
               $headnoteToggles
                 .closest('.poem')
                 .removeClass('collapsed')
@@ -559,6 +562,19 @@ var PP = (function ($) {
               }
             } else {
               configureViewSetting('pages', true);
+            }
+          });
+
+          // Line number toggle
+          $lineNumbersToggle.on('click', function () {
+            if (pulterState.has('linesOn')) {
+              if ($body.hasClass('lines-on')) {
+                configureViewSetting('lines', false);
+              } else {
+                configureViewSetting('lines', true);
+              }
+            } else {
+              configureViewSetting('lines', true);
             }
           });
 
