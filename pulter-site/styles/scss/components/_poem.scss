@@ -593,11 +593,43 @@ $globalBorderRadius: 2px;
             width: 2em;
             text-align: right;
             line-height: 1;
-            opacity: 0;
+            display: none;
             user-select: none;
-            @include transition(opacity .2s);
+            -webkit-user-select: none;
+            @include transition(color .2s);
 
-            // TODO: add styles for line "deep linking"
+            &:hover {
+              color: #222;
+              cursor: pointer;
+            }
+
+            @include breakpoint(mobile) {
+              pointer-events: none;
+            }
+          }
+
+          // Line link copying
+          &.linked-line-highlight {
+            background: rgba($pp_shinyGold, .5);
+            border: 1px solid rgba($pp_darkGold, .5);
+            border-radius: 4px;
+            padding-left: .25em;
+
+            .line-number-value {
+              color: #222;
+            }
+          }
+
+          // Copy confirmation bubble
+          .link-copy-confirmation {
+            color: whitesmoke;
+            background: #181818;
+            font-size: ms(-4);
+            border-radius: 6px;
+            padding: .33em .5em;
+            font-family: $pp_curatorialFont;
+            @include vcenter();
+            right: 0;
           }
         }
 
@@ -615,7 +647,7 @@ $globalBorderRadius: 2px;
         .lg,
         .l {
           margin-top: 0;
-          @include transition(margin-top .6s);
+          @include transition(margin-top .6s, background .3s, padding .3s);
         }
 
         // Various milestones
@@ -1294,7 +1326,7 @@ $globalBorderRadius: 2px;
 
     .mc .poem main {
       .line-number-value {
-        opacity: 1;
+        display: inline-block;
       }
     }
   }
