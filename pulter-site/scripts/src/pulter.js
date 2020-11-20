@@ -439,6 +439,7 @@ var PP = (function ($) {
           var $headnoteToggles = $body.find('.headnote-toggle');
           var $facsimileToggle = $body.find('.facsimile-toggle');
           var $poemNoteTriggers = $body.find('.poem-note-trigger');
+          var $lineNumberLinkTriggers = $body.find('.line-number-value');
           var $navs = $body.find('.nav');
           var $ctxs;
           var $curationBlurb = $('.curation-blurb');
@@ -681,6 +682,52 @@ var PP = (function ($) {
 
             return false;
           });
+
+          // Trigger clipboard copying of a line deep link
+          $lineNumberLinkTriggers.on('click', function () {
+            var $self = $(this);
+            var $theLine = $self.closest('.l');
+            var hash = '#' + $self.closest('.l').attr('id');
+            var fullLink = window.location.origin + window.location.pathname + hash;
+
+            navigator.clipboard.writeText(fullLink)
+              .then(function (value) {
+                if ($theLine.find('.link-copy-confirmation').length === 0) {
+                  var confirmationEl = '<span class="link-copy-confirmation">Link to line copied!</span>';
+                  $theLine.addClass('when-link-copied');
+                  $theLine.append(confirmationEl);
+
+                  setTimeout(function () {
+                    $theLine.removeClass('when-link-copied');
+                    $theLine.find('.link-copy-confirmation').remove();
+                  }, 1500);
+                }
+              }, function (err) {
+                console.log('Sorry, unable to copy!');
+              });
+          });
+
+          // Highlight the line if arrived with a "deep link"
+          var isLineDeepLinkPresent = window.location.hash.indexOf('#l-') > -1;
+          if (isLineDeepLinkPresent) {
+            var lineElId = window.location.hash;
+            var $line = $(lineElId);
+
+            if ($line.length > 0) {
+              console.log('foo!')
+              setTimeout(function () {
+                $('body').animate({
+                  scrollTop: $line.offset().top - 100
+                }, 2500, 'swing');
+
+                $line.addClass('linked-line-highlight');
+
+                setTimeout(function () {
+                  $line.removeClass('linked-line-highlight');
+                }, 5000);
+              }, 1000);
+            }
+          }
 
           // "Renders" the poem
           function renderPoemElements() {
