@@ -1,3 +1,5 @@
+@import "../env/vars";
+@import "../env/mixins";
 @import '../vendor/featherlight';
 @import '../vendor/drift';
 
@@ -579,6 +581,56 @@ $globalBorderRadius: 2px;
               padding-left: $paddingLeft;
             }
           }
+
+          // Line numbers
+          .line-number-value {
+            font-family: $pp_curatorialFont;
+            font-size: ms(-5);
+            color: rgba($pp_manuscriptPaper, 1);
+            position: absolute;
+            left: -3.33em;
+            bottom: 1em;
+            width: 2em;
+            text-align: right;
+            line-height: 1;
+            display: none;
+            user-select: none;
+            -webkit-user-select: none;
+            @include transition(color .2s);
+
+            &:hover {
+              color: #222;
+              cursor: pointer;
+            }
+
+            @include breakpoint(mobile) {
+              pointer-events: none;
+            }
+          }
+
+          // Line link copying
+          &.linked-line-highlight {
+            background: rgba($pp_shinyGold, .5);
+            border: 1px solid rgba($pp_darkGold, .5);
+            border-radius: 4px;
+            padding-left: .25em;
+
+            .line-number-value {
+              color: #222;
+            }
+          }
+
+          // Copy confirmation bubble
+          .link-copy-confirmation {
+            color: whitesmoke;
+            background: #181818;
+            font-size: ms(-4);
+            border-radius: 6px;
+            padding: .33em .5em;
+            font-family: $pp_curatorialFont;
+            @include vcenter();
+            right: 0;
+          }
         }
 
         .pb {
@@ -595,7 +647,7 @@ $globalBorderRadius: 2px;
         .lg,
         .l {
           margin-top: 0;
-          @include transition(margin-top .6s);
+          @include transition(margin-top .6s, background .3s, padding .3s);
         }
 
         // Various milestones
@@ -1102,19 +1154,29 @@ $globalBorderRadius: 2px;
     }
 
     .page-toggle,
-    .gloss-toggle {
+    .gloss-toggle,
+    .lines-toggle {
       font-family: $pp_curatorialFont;
       font-size: 1.2em;
+    }
+
+    .page-toggle,
+    .gloss-toggle {
       font-style: italic;
     }
 
     .page-toggle {
       background: #F3EFE3;
-      a { color: rgba($pp_manuscriptInk, .5); }
+      a {
+        color: rgba($pp_manuscriptInk, .5);
+      }
     }
 
-    .gloss-toggle {
-      a { color: rgba(#282828, .5); }
+    .gloss-toggle,
+    .lines-toggle {
+      a {
+        color: rgba(#282828, .5);
+      }
     }
   }
 
@@ -1139,7 +1201,9 @@ $globalBorderRadius: 2px;
       .gloss-toggle {
         border: 1px solid rgba(#282828, .2);
 
-        a { color: #282828; }
+        a {
+          color: #282828;
+        }
       }
     }
 
@@ -1198,7 +1262,9 @@ $globalBorderRadius: 2px;
       .page-toggle {
         border: 1px solid rgba($pp_manuscriptInk, .2);
 
-        a { color: #282828; }
+        a {
+          color: #282828;
+        }
       }
     }
 
@@ -1243,6 +1309,24 @@ $globalBorderRadius: 2px;
       @include breakpoint(mobile) {
         border: 1px solid #ccc;
         opacity: 1;
+      }
+    }
+  }
+
+  &.lines-on {
+    .tools .toggles {
+      .lines-toggle {
+        border: 1px solid rgba(#282828, .2);
+
+        a {
+          color: #282828;
+        }
+      }
+    }
+
+    .mc .poem main {
+      .line-number-value {
+        display: inline-block;
       }
     }
   }

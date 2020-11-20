@@ -24,6 +24,20 @@
   .pp.single-poem {
     $air: 1.5em;
 
+    &.lines-on {
+      .mc {
+        padding-left: 1em;
+      }
+    }
+
+    &.glosses-on {
+      .poem.expanded header {
+        .poem-note-trigger {
+          background: none;
+        }
+      }
+    }
+
     .mc {
       width: 100%;
       max-width: none;
@@ -83,7 +97,8 @@
         }
 
         // Mute all note triggers
-        .poem-note-trigger {
+        .poem-note-trigger,
+        header .poem-note-trigger {
           background: none;
           background: rgba(#fff, 0);
           border: none;
@@ -189,12 +204,13 @@
 
             .witness-box {
               margin-top: 2em;
+
               a {
+                color: #333;
 
                 .who {
                   font-weight: bold;
                 }
-                color: #444;
               }
             }
           }
@@ -293,6 +309,13 @@
           .expand-box {
             display: block;
 
+            .witness-box a {
+              .by,
+              .who {
+                color: #444;
+              }
+            }
+
             .headnote {
               color: #282828;
               text-shadow: none;
@@ -300,12 +323,18 @@
               border-top: 1px solid rgba(#000, .1);
               border-bottom: 1px solid rgba(#000, .1);
               padding-bottom: 1.5em;
+              padding-top: 1.5em;
             }
 
             .poem-details-options {
               display: none;
             }
           }
+        }
+
+        // Line numbers
+        main .l .line-number-value {
+          color: #888;
         }
       }
     }

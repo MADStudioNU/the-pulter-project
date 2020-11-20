@@ -37,6 +37,10 @@
 		background: rgba(0, 0, 0, 0.8);
 	}
 
+	.featherlight:not(:last-of-type) {
+		background: rgba(0, 0, 0, 0.8);
+	}
+
 	.featherlight:before {
 		/* position: trick to center content vertically */
 		content: '';

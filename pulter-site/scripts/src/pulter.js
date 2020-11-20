@@ -75,7 +75,7 @@ var PP = (function ($) {
         maxFont: 48
       });
 
-      // Button click handlers
+      // Various click event handlers
       $toIntro.on('click', navigateToIntro);
       $readAction.on('click', navigateToIndex);
       $explorationsAction.on('click', navigateToExplorations);
@@ -253,6 +253,7 @@ var PP = (function ($) {
 
       function openExploration(eHash) {
         var ctxUrl = '/explorations/' + eHash + '.html #content';
+        var oldHash = window.location.hash;
 
         $.featherlight(ctxUrl, {
           variant: 'curation',
@@ -265,6 +266,42 @@ var PP = (function ($) {
           beforeOpen: function () {
             if (eHash) {
               window.location.hash = eHash;
+            }
+          },
+          afterContent: function () {
+            var $imagesWithZoom = $('img[data-zoom]');
+            $imagesWithZoom.on('click', function () {
+              var $imageWithZoom = $(this);
+              var imageSrc = $imageWithZoom.attr('src');
+              var zoomImgSrc = $imageWithZoom.data('zoom');
+
+              if (imageSrc && zoomImgSrc) {
+                var $image;
+
+                $.featherlight(imageSrc, {
+                  type: 'image',
+                  variant: 'facs',
+                  closeIcon: 'Close',
+                  loading: 'One second…',
+                  afterContent: function () {
+                    $image = $('.featherlight-image');
+                    $image.attr('data-zoom', zoomImgSrc);
+
+                    new Drift($image[0], {
+                      inlinePane: true,
+                      hoverDelay: 400
+                    });
+                  },
+                  beforeClose: function () {
+                    $('.drift-zoom-pane').remove();
+                  }
+                });
+              }
+            });
+          },
+          afterClose: function () {
+            if (oldHash !== eHash) {
+              window.location.hash = oldHash;
             }
           }
         });
@@ -393,21 +430,24 @@ var PP = (function ($) {
           var pulterState = pulterState || store.namespace('pulterState');
 
           // DOM variables
-          var $poemSheetList = $body.find('#poem-sheet-list'),
-            $poster = $body.find('.poster'),
-            $posterInfoTrigger = $body.find('.poster-info-trigger'),
-            $glossToggle = $body.find('.gloss-toggle'),
-            $pageToggle = $body.find('.page-toggle'),
-            $headnoteToggles = $body.find('.headnote-toggle'),
-            $facsimileToggle = $body.find('.facsimile-toggle'),
-            $poemNoteTriggers = $body.find('.poem-note-trigger'),
-            $navs = $body.find('.nav'),
-            $ctxs,
-            $curationBlurb = $('.curation-blurb');
+          var $poemSheetList = $body.find('#poem-sheet-list');
+          var $poster = $body.find('.poster');
+          var $posterInfoTrigger = $body.find('.poster-info-trigger');
+          var $glossToggle = $body.find('.gloss-toggle');
+          var $pageToggle = $body.find('.page-toggle');
+          var $lineNumbersToggle = $body.find('.lines-toggle');
+          var $headnoteToggles = $body.find('.headnote-toggle');
+          var $facsimileToggle = $body.find('.facsimile-toggle');
+          var $poemNoteTriggers = $body.find('.poem-note-trigger');
+          var $lineNumberLinkTriggers = $body.find('.line-number-value');
+          var $navs = $body.find('.nav');
+          var $ctxs;
+          var $curationBlurb = $('.curation-blurb');
 
           // Read the storage and set the states if needed
           if (pulterState.has('pagesOn')) { $body.addClass('pages-on'); }
           if (pulterState.has('glossesOn')) { $body.addClass('glosses-on'); }
+          if (pulterState.has('linesOn')) { $body.addClass('lines-on'); }
 
           // Local variables
           var manifest;
@@ -505,6 +545,7 @@ var PP = (function ($) {
             } else {
               configureViewSetting('glosses', true);
 
+              // Questionable, but this is what Wendy & Leah want
               $headnoteToggles
                 .closest('.poem')
                 .removeClass('collapsed')
@@ -522,6 +563,19 @@ var PP = (function ($) {
               }
             } else {
               configureViewSetting('pages', true);
+            }
+          });
+
+          // Line number toggle
+          $lineNumbersToggle.on('click', function () {
+            if (pulterState.has('linesOn')) {
+              if ($body.hasClass('lines-on')) {
+                configureViewSetting('lines', false);
+              } else {
+                configureViewSetting('lines', true);
+              }
+            } else {
+              configureViewSetting('lines', true);
             }
           });
 
@@ -581,9 +635,9 @@ var PP = (function ($) {
 
           // Facs
           $facsimileToggle.on('click', function () {
-            var $self = $(this),
-              imageId = $self.data('image-id'),
-              drift;
+            var $self = $(this);
+            var imageId = $self.data('image-id');
+            var drift;
 
             gtag('event', 'facsimile_viewed', {
               'event_category': 'engagement',
@@ -598,24 +652,15 @@ var PP = (function ($) {
                 loading: 'One second…',
                 afterContent: function () {
                   var $image = $('.featherlight-image');
-
                   $image.attr('data-zoom', '/images/facs/' + imageId + '.jpg');
 
-                  drift = new Drift($image[0], {
-                    paneContainer: document.querySelector('.featherlight-content'),
-                    // showWhitespaceAtEdges: true,
-                    // containInline: true,
-                    // inlineOffsetX: 100,
-                    // inlineOffsetY: 100,
-                    // hoverBoundingBox: true,
-                    // injectBaseStyles: false,
-                    inlinePane: true
+                  new Drift($image[0], {
+                    inlinePane: true,
+                    hoverDelay: 400
                   });
-
-                  drift.enable();
                 },
-                afterClose: function () {
-                  drift.disable();
+                beforeClose: function () {
+                  $('.drift-zoom-pane').remove();
                 }
               });
             }
@@ -637,6 +682,52 @@ var PP = (function ($) {
 
             return false;
           });
+
+          // Trigger clipboard copying of a line deep link
+          $lineNumberLinkTriggers.on('click', function () {
+            var $self = $(this);
+            var $theLine = $self.closest('.l');
+            var hash = '#' + $self.closest('.l').attr('id');
+            var fullLink = window.location.origin + window.location.pathname + hash;
+
+            navigator.clipboard.writeText(fullLink)
+              .then(function (value) {
+                if ($theLine.find('.link-copy-confirmation').length === 0) {
+                  var confirmationEl = '<span class="link-copy-confirmation">Link to line copied!</span>';
+                  $theLine.addClass('when-link-copied');
+                  $theLine.append(confirmationEl);
+
+                  setTimeout(function () {
+                    $theLine.removeClass('when-link-copied');
+                    $theLine.find('.link-copy-confirmation').remove();
+                  }, 1500);
+                }
+              }, function (err) {
+                console.log('Sorry, unable to copy!');
+              });
+          });
+
+          // Highlight the line if arrived with a "deep link"
+          var isLineDeepLinkPresent = window.location.hash.indexOf('#l-') > -1;
+          if (isLineDeepLinkPresent) {
+            var lineElId = window.location.hash;
+            var $line = $(lineElId);
+
+            if ($line.length > 0) {
+              console.log('foo!')
+              setTimeout(function () {
+                $('body').animate({
+                  scrollTop: $line.offset().top - 100
+                }, 2500, 'swing');
+
+                $line.addClass('linked-line-highlight');
+
+                setTimeout(function () {
+                  $line.removeClass('linked-line-highlight');
+                }, 5000);
+              }, 1000);
+            }
+          }
 
           // "Renders" the poem
           function renderPoemElements() {

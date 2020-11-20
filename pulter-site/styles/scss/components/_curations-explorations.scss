@@ -1,3 +1,6 @@
+@import "../env/vars";
+@import "../env/mixins";
+
 /* Curation content styles */
 $themeColor: #ece9e2;
 
@@ -169,6 +172,7 @@ $themeColor: #ece9e2;
   }
 
   section {
+    margin-bottom: 2.5em;
     //&.main {}
 
     &.less {
@@ -510,6 +514,10 @@ $themeColor: #ece9e2;
 
     img {
       margin: 0;
+
+      &[data-zoom] {
+        cursor: zoom-in;
+      }
     }
 
     .caption,
@@ -587,6 +595,10 @@ $themeColor: #ece9e2;
     color: #282828;
     margin-bottom: 1.5em;
 
+    @include breakpoint(mobile) {
+      margin-left: 1em;
+    }
+
     li {
       margin-bottom: .66em;
     }
@@ -614,6 +626,140 @@ $themeColor: #ece9e2;
 
   // Numbered lists
   //ol {}
+
+  // Table of Contents
+  .toc {
+    font-size: .8em;
+    background: darken(rgba($pp_manuscriptInk, 1), 8%);
+    color: whitesmoke;
+    font-weight: bold;
+    max-width: 80%;
+
+    @include breakpoint(mobile) {
+      max-width: 100%;
+    }
+
+    .header,
+    .item-marker {
+      color: rgba($pp_manuscriptPaper, .75);
+    }
+
+    ul {
+      list-style: none;
+
+      ul {
+        margin-top: .85em;
+        font-size: .95em;
+      }
+    }
+
+    a {
+      color: whitesmoke;
+      transition: color .1s ease-in-out;
+
+      &:hover {
+        color: $pp_shinyGold;
+      }
+    }
+  }
+
+  // Back to top
+  .back-to-top-box {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: right;
+    z-index: 1;
+    font-size: .75em;
+
+    .back-to-top {
+      background: darken(rgba($pp_manuscriptInk, 1), 8%);
+      color: whitesmoke;
+      transition: color .1s ease-in-out;
+      font-weight: bold;
+      display: inline-block;
+      padding: 0 .75em;
+      border-radius: 2px;
+
+      .item-marker {
+        color: rgba($pp_manuscriptPaper, .75);
+      }
+
+      &:hover {
+        color: $pp_shinyGold;
+      }
+    }
+  }
+
+  // "Collapsible" blocks
+  .collapsible {
+    $rounded-corners: 3px;
+
+    border-radius: $rounded-corners;
+
+    input.collapsible__toggle {
+      display: none;
+    }
+
+    .collapsible__label {
+      font-weight: bold;
+      display: block;
+      padding: 1em 1em 1em 1.5em;
+      cursor: pointer;
+      border-radius: $rounded-corners;
+      @include transition(all 0.25s ease-out);
+
+      &:hover {
+        color: rgba($pp_manuscriptPaper, 1);
+      }
+    }
+
+    .collapsible__content {
+      border-radius: 0 0 $rounded-corners $rounded-corners;
+      max-height: 0;
+      overflow: hidden;
+      @include transition(max-height .25s ease-in-out);
+    }
+
+    .collapsible__inner-content {
+      padding: 0 1.5em;
+      margin-top: .5em;
+
+      @include breakpoint(mobile) {
+        padding: 0;
+      }
+
+      &.vertical-padding {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+      }
+    }
+
+    .collapsible__label::before {
+      content: ' ';
+      display: inline-block;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid rgba($pp_manuscriptPaper, .75);
+      vertical-align: middle;
+      margin-right: .6rem;
+      transform: translateY(-2px);
+      transition: transform .2s ease-out;
+    }
+
+    input.collapsible__toggle:checked + .collapsible__label {
+      border-radius: $rounded-corners $rounded-corners 0 0;
+
+      &::before {
+        transform: rotate(90deg) translateX(-0px);
+      }
+
+      + .collapsible__content {
+        max-height: 500vh;
+      }
+    }
+  }
 
   // Headings
   h3 {
