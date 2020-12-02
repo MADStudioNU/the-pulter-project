@@ -710,13 +710,12 @@ var PP = (function ($) {
           });
 
           // Highlight the line if arrived with a "deep link"
-          var isLineDeepLinkPresent = window.location.hash.indexOf('#l-') > -1;
+          var isLineDeepLinkPresent = window.location.hash.indexOf('#tppl-') > -1;
           if (isLineDeepLinkPresent) {
             var lineElId = window.location.hash;
             var $line = $(lineElId);
 
             if ($line.length > 0) {
-              console.log('foo!')
               setTimeout(function () {
                 $('body').animate({
                   scrollTop: $line.offset().top - 100
