@@ -690,21 +690,23 @@ var PP = (function ($) {
             var hash = '#' + $self.closest('.l').attr('id');
             var fullLink = window.location.origin + window.location.pathname + hash;
 
-            navigator.clipboard.writeText(fullLink)
-              .then(function (value) {
-                if ($theLine.find('.link-copy-confirmation').length === 0) {
-                  var confirmationEl = '<span class="link-copy-confirmation">Link to line copied!</span>';
-                  $theLine.addClass('when-link-copied');
-                  $theLine.append(confirmationEl);
+            if (navigator.clipboard) {
+              navigator.clipboard.writeText(fullLink)
+                .then(function (value) {
+                  if ($theLine.find('.link-copy-confirmation').length === 0) {
+                    var confirmationEl = '<span class="link-copy-confirmation">Link to line copied!</span>';
+                    $theLine.addClass('when-link-copied');
+                    $theLine.append(confirmationEl);
 
-                  setTimeout(function () {
-                    $theLine.removeClass('when-link-copied');
-                    $theLine.find('.link-copy-confirmation').remove();
-                  }, 1500);
-                }
-              }, function (err) {
-                console.log('Sorry, unable to copy!');
-              });
+                    setTimeout(function () {
+                      $theLine.removeClass('when-link-copied');
+                      $theLine.find('.link-copy-confirmation').remove();
+                    }, 1500);
+                  }
+                }, function (err) {
+                  console.log('Sorry, unable to copy!');
+                });
+            }
           });
 
           // Highlight the line if arrived with a "deep link"
