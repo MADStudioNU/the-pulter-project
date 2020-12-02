@@ -390,18 +390,6 @@
         </xsl:choose>
       </xsl:attribute>
 
-      <xsl:attribute name="data-order">
-        <xsl:choose>
-          <xsl:when test="@n">
-            <xsl:value-of select="@n"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of
-              select="count(preceding::tei:l[descendant::tei:rdg]) + 1"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-
       <xsl:apply-templates>
         <xsl:with-param name="witId" select="$witId"/>
       </xsl:apply-templates>

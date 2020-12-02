@@ -776,7 +776,7 @@
         </xsl:variable>
 
         <xsl:attribute name="id">
-          <xsl:value-of select="concat('l-', $lineNumberValue)"/>
+          <xsl:value-of select="concat('tppl-', $witId, '-', $lineNumberValue)"/>
         </xsl:attribute>
 
         <xsl:element name="span">
