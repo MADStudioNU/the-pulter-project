@@ -678,45 +678,48 @@
   <xsl:template match="tei:l">
     <xsl:param name="witId"/>
     <xsl:variable name="tagClass" select="name(.)"/>
+    <xsl:variable name="lineHasCurrentReading" select="tei:app/tei:rdg[@wit=concat('#', $witId)]"/>
 
-    <div>
-      <xsl:attribute name="class">
-        <xsl:choose>
-          <xsl:when test="@rend">
-            <xsl:value-of select="concat($tagClass, ' ', @rend)"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$tagClass"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:attribute>
-
-      <xsl:variable name="lineNumberValue">
-        <xsl:choose>
-          <xsl:when test="@n">
-            <xsl:value-of select="@n"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="count(preceding::tei:l[descendant::tei:rdg]) + 1"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-
-      <xsl:attribute name="id">
-        <xsl:value-of select="concat('l-', $lineNumberValue)"/>
-      </xsl:attribute>
-
-      <xsl:element name="span">
+    <xsl:if test="$lineHasCurrentReading">
+      <xsl:element name="div">
         <xsl:attribute name="class">
-          <xsl:value-of select="'line-number-value'"/>
+          <xsl:choose>
+            <xsl:when test="@rend">
+              <xsl:value-of select="concat($tagClass, ' ', @rend)"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$tagClass"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:attribute>
-        <xsl:value-of select="$lineNumberValue"/>
-      </xsl:element>
 
-      <xsl:apply-templates>
-        <xsl:with-param name="witId" select="$witId"/>
-      </xsl:apply-templates>
-    </div>
+        <xsl:variable name="lineNumberValue">
+          <xsl:choose>
+            <xsl:when test="@n">
+              <xsl:value-of select="@n"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="count(preceding::tei:l[descendant::tei:rdg]) + 1"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+
+        <xsl:attribute name="id">
+          <xsl:value-of select="concat('l-', $lineNumberValue)"/>
+        </xsl:attribute>
+
+        <xsl:element name="span">
+          <xsl:attribute name="class">
+            <xsl:value-of select="'line-number-value'"/>
+          </xsl:attribute>
+          <xsl:value-of select="$lineNumberValue"/>
+        </xsl:element>
+
+        <xsl:apply-templates>
+          <xsl:with-param name="witId" select="$witId"/>
+        </xsl:apply-templates>
+      </xsl:element>
+    </xsl:if>
   </xsl:template>
 
   <!-- Apparatus -->
