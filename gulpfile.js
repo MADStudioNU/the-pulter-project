@@ -327,7 +327,7 @@ gulp.task('xslt:lunr', gulp.series('xslt:erase', 'xslt:lunrBuildSearchIndex', (d
 gulp.task('sitemap', function () {
   var prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   var suffix = '</urlset>';
-  var protocol = 'http:';
+  var protocol = 'https:';
 
   var pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
