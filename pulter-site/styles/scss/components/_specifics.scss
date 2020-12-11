@@ -3,6 +3,10 @@
   // Line numbers adjustments
   &.poem-1 {
     .mc .poem main {
+      .milestone.left-gutter {
+        margin-left: -.15em;
+      }
+
       .line-number-value {
         left: 1em;
 
