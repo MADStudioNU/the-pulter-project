@@ -675,10 +675,10 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" label="Amplified Edition A">
+        <pp:edition type="amplified" label="Amplified Edition I">
           <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
+        <pp:edition type="amplified" id="a2" label="Amplified Edition II">
           <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
@@ -3567,12 +3567,18 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" label="Amplified Edition A">
+        <pp:edition type="amplified" label="Amplified Edition I">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified" id="a2" label="Amplified Edition B">-->
+<!--        <pp:edition type="amplified" id="a2" label="Amplified Edition II">-->
 <!--          <pp:author>Liza Blake</pp:author>-->
 <!--        </pp:edition>-->
+<!--        <pp:edition type="amplified" id="a3" label="Amplified Edition III">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified" id="a4" label="Amplified Edition IV">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--      </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
