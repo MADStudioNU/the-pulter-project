@@ -5809,6 +5809,13 @@
         <pp:tag>poison</pp:tag>
         <pp:tag>sun</pp:tag>
       </pp:tags>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="pulters-garden">-->
+<!--          <pp:author>Whitney Sperrazza</pp:author>-->
+<!--          <pp:title>Pulter’s Garden</pp:title>-->
+<!--          <pp:peek>Pulter’s poems are full of gardens. In some poems, such as “The Lark,” the poet observes something in the garden that prompts an extended meditation.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="119">
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
