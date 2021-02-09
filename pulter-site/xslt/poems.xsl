@@ -675,10 +675,10 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" label="Amplified Edition I">
+        <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a2" label="Amplified Edition II">
+        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
           <pp:author>Elizabeth Kolkovich</pp:author>
         </pp:edition>
       </pp:editions>
@@ -3567,16 +3567,16 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" label="Amplified Edition I">
+        <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a2" label="Amplified Edition II">
+        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
           <pp:author>Liza Blake</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a3" label="Amplified Edition III">
+        <pp:edition type="amplified" id="a3" label="Amplified Edition C">
           <pp:author>Liza Blake</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a4" label="Amplified Edition IV">
+        <pp:edition type="amplified" id="a4" label="Amplified Edition D">
           <pp:author>Liza Blake</pp:author>
       </pp:edition>
       </pp:editions>
