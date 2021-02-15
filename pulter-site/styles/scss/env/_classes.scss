@@ -123,6 +123,12 @@
   font-size: .75em;
 }
 
+// Attention, special highlight
+.attention {
+  color: $pp_attentionPlease;
+  font-weight: bold;
+}
+
 // Footnote number
 .fn-num {
   opacity: .5;
