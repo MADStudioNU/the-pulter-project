@@ -838,6 +838,11 @@
   <!-- Segments and their renditions -->
   <xsl:template match="tei:seg">
     <xsl:element name="span">
+      <xsl:if test="@id">
+        <xsl:attribute name="id">
+          <xsl:value-of select="@id"/>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:attribute name="class">
         <xsl:if test="@type">
           <xsl:text>type-</xsl:text>
