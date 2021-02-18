@@ -453,9 +453,16 @@ $globalBorderRadius: 2px;
               }
             }
 
+            // Local links to Curation section
             .pp-curations-ref {
               font-weight: bold;
               color: #fff;
+            }
+
+            // In-headnote local links
+            .pp-edition-section-ref {
+              color: inherit;
+              border-bottom: dashed 1px darken($pp_manuscriptPaper, 35%);
             }
           }
 
