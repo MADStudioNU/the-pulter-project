@@ -13,6 +13,7 @@
       <pp:poster>
         <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
+        <pp:altText>An angel leans on a cross, holding a book in the air, with a skeleton underfoot.</pp:altText>
       </pp:poster>
       <pp:keywords>
         <pp:keyword>cosmology</pp:keyword>
