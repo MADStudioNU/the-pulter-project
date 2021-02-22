@@ -3631,6 +3631,11 @@
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="manuscript-ambiguities">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Manuscript Ambiguities</pp:title>
+          <pp:peek>Pulter’s manuscript went through waves of correction and revision, and there is evidence to suggest that Pulter herself revised the manuscript after it had been copied out by another hand.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="punctuating-poetry">
           <pp:author>Liza Blake</pp:author>
           <pp:title>Punctuating Poetry</pp:title>
