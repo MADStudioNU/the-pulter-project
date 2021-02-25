@@ -455,8 +455,11 @@ $globalBorderRadius: 2px;
 
             // Local links to Curation section
             .pp-curations-ref {
-              font-weight: bold;
-              color: #fff;
+              color: whitesmoke;
+
+              &:hover {
+                color: #fff;
+              }
             }
 
             // In-headnote local links
@@ -2010,6 +2013,17 @@ $defaultStrokeWidth: 6px;
         @include transition(color .2s);
       }
     }
+  }
+}
+
+// Curation section local links
+.pp-curations-ref {
+  font-weight: bold;
+  color: inherit;
+  @include transition(color .2s);
+
+  &:hover {
+    color: #181818;
   }
 }
 
