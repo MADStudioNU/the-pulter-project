@@ -13,6 +13,7 @@
       <pp:poster>
         <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
+        <pp:altText>An angel leans on a cross, holding a book in the air, with a skeleton underfoot.</pp:altText>
       </pp:poster>
       <pp:keywords>
         <pp:keyword>cosmology</pp:keyword>
@@ -3532,6 +3533,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Elizabeth Sauer</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>Charles I</pp:keyword>
@@ -3554,6 +3558,28 @@
         <pp:tag>violence</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="pulter-reads-bradstreets-tenth-muse">-->
+<!--          <pp:author>Elizabeth Sauer</pp:author>-->
+<!--          <pp:title>Pulter reads Bradstreet’s <seg rend="it">Tenth Muse</seg></pp:title>-->
+<!--          <pp:peek>Pulter’s library probably included a copy of Anne Bradstreet’s “Tenth Muse” (1650). The title page of the volume singles out Bradstreet’s poem entitled “A Dialogue between Old England and New.”</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="pulter-reads-eikon-basilike">-->
+<!--          <pp:author>Elizabeth Sauer</pp:author>-->
+<!--          <pp:title>Pulter reads <seg rend="it">Eikon Basilike</seg></pp:title>-->
+<!--          <pp:peek>A copy of “Eikon Basilike” (Eikōn basilikē) would have found its way into Pulter’s book collection. She was acquainted with the printer of the King’s book, William Dugard.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="pulter-reads-geffrey-whitneys-a-choice-of-emblemes">-->
+<!--          <pp:author>Elizabeth Sauer</pp:author>-->
+<!--          <pp:title>Pulter reads Geffrey Whitney’s <seg rend="it">A Choice of Emblemes</seg></pp:title>-->
+<!--          <pp:peek>Evidence from throughout her poetry manuscript makes a very strong case for Pulter’s ownership of a copy of Geffrey Whitney’s “A Choice of Emblemes,” and Other Devises (Leiden, 1586), which surely was among the inspirations for her emblem series (of 53 poems).</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="pulter-reads-george-sandyss-paraphrase-upon-job">-->
+<!--          <pp:author>Elizabeth Sauer</pp:author>-->
+<!--          <pp:title>Pulter reads George Sandys’s <seg rend="it">Paraphrase Upon Job</seg></pp:title>-->
+<!--          <pp:peek>Pulter likely owned a copy of George Sandys’s “A Paraphrase Upon the Divine Poems,” which features, as its first main biblical book, the Book of Job.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
@@ -3630,6 +3656,11 @@
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
         </pp:curation>
+<!--        <pp:curation status="on" hash="manuscript-ambiguities">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--          <pp:title>Manuscript Ambiguities</pp:title>-->
+<!--          <pp:peek>Pulter’s manuscript went through waves of correction and revision, and there is evidence to suggest that Pulter herself revised the manuscript after it had been copied out by another hand.</pp:peek>-->
+<!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="punctuating-poetry">-->
 <!--          <pp:author>Liza Blake</pp:author>-->
 <!--          <pp:title>Punctuating Poetry</pp:title>-->
@@ -6404,7 +6435,7 @@
                       <h5>T<span class="small-cap">he</span> P<span class="small-cap">ulter</span> P<span class="small-cap">roject</span></h5>
                     </a>
                   </div>
-                  <p>Copyright © 2018<br/> Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
+                  <p>Copyright © 2021<br/> Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
                   <p>Except where otherwise noted, this site is licensed<br/> under a Creative Commons CC BY-NC-SA 4.0 License.</p>
                 </div><nav class="right">
                 <h6>

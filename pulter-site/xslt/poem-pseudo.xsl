@@ -228,7 +228,7 @@
                 <h5>T<span class="small-cap">he</span> P<span class="small-cap">ulter</span> P<span class="small-cap">roject</span></h5>
               </a>
             </div>
-            <p>Copyright © 2018<br/> Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
+            <p>Copyright © 2021<br/> Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
             <p>Except where otherwise noted, this site is licensed<br/> under a Creative Commons CC BY-NC-SA 4.0 License.</p>
           </div><nav class="right">
           <h6>

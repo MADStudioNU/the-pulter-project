@@ -354,7 +354,7 @@
                 <h5>T<span class="small-cap">he</span> P<span class="small-cap">ulter</span> P<span class="small-cap">roject</span></h5>
               </a>
             </div>
-            <p>Copyright © 2018<br/> Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
+            <p>Copyright © 2021<br/> Wendy Wall, Leah Knight, Northwestern University, <a href="/about-the-project.html#who">others</a>.</p>
             <p>Except where otherwise noted, this site is licensed<br/> under a Creative Commons CC BY-NC-SA 4.0 License.</p>
           </div><nav class="right">
           <h6>
@@ -1531,6 +1531,9 @@
               <xsl:if test="$witnessName = 'Emily Cock'">
                 <xsl:value-of select="'Cardiff University'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Elizabeth Sauer'">
+                <xsl:value-of select="'Brock University'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1572,6 +1575,9 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Emily Cock'">
                 <xsl:value-of select="'https://www.cardiff.ac.uk/people/view/958435-cock-emily'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Elizabeth Sauer'">
+                <xsl:value-of select="'https://brocku.ca/humanities/english-language-and-literature/faculty/elizabeth-sauer/#wip'"/>
               </xsl:if>
             </xsl:variable>
 
