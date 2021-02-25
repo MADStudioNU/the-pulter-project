@@ -3570,15 +3570,15 @@
         <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
-          <pp:author>Liza Blake</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified" id="a3" label="Amplified Edition C">
-          <pp:author>Liza Blake</pp:author>
-        </pp:edition>
-        <pp:edition type="amplified" id="a4" label="Amplified Edition D">
-          <pp:author>Liza Blake</pp:author>
-      </pp:edition>
+<!--        <pp:edition type="amplified" id="a2" label="Amplified Edition B">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified" id="a3" label="Amplified Edition C">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified" id="a4" label="Amplified Edition D">-->
+<!--          <pp:author>Liza Blake</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
