@@ -29,8 +29,12 @@ You should have the following terminal commands available:
 ### Development and Production
 Branch `develop` is deployed to the ["preview site"](https://pulterproject-dev-4slasb7dfnyuier8z7y2.netlify.app/#poems).
 
+Install Netlify CLI tool: `npm install netlify-cli -g. Log in using [TPP's credentials](https://slate.weinberg.northwestern.edu/display/FCS/Pulter+Project+Internet+Accounts).
+
+Use this one-liner to publish the site: `gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
+
 Branch `master` is deployed to the [production site](https://pulterproject.northwestern.edu/#poems).
 
 #### Current Delta
 Poems that are published on the preview site but not on the production site.
-> —
+> A64 A65b A65c A65d

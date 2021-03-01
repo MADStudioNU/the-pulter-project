@@ -348,3 +348,11 @@ a.pp-curation-ref:visited {
   font-style: italic;
   color: rgba(lighten(#624532, 2%), .9);
 }
+
+/* Whitespace related classes */
+  // Force "pre" everywhere
+.preserve-whitespace-hard,
+  // "pre" only where applied
+.collapse-whitespace-soft {
+  white-space: pre-wrap;
+}

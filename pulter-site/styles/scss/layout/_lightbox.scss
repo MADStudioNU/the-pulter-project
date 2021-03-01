@@ -44,8 +44,12 @@
   &.compact-note,
   &.full-sized-note {
     .featherlight-content {
-      h5 {
+      .note-title {
         font-family: $pp_originalFont;
+
+        .preserve-whitespace-soft {
+           white-space: normal;
+         }
       }
 
       .content {
@@ -120,7 +124,7 @@
       box-shadow: 0 0 4px 0 rgba(40, 40, 40, .08);
       max-height: 30em;
 
-      h5 {
+      .note-title {
         margin-bottom: 1em;
       }
 
@@ -166,7 +170,7 @@
       border-radius: 2px;
       box-shadow: 0 0 4px 0 rgba(40, 40, 40, .08);
 
-      h5 {
+      .note-title {
         font-family: $pp_originalFont;
         margin-bottom: 1em;
         font-size: ms(0);
