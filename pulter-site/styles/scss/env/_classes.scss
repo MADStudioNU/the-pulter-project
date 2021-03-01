@@ -353,6 +353,6 @@ a.pp-curation-ref:visited {
   // Force "pre" everywhere
 .preserve-whitespace-hard,
   // "pre" only where applied
-.collapse-whitespace-soft {
+.preserve-whitespace-soft {
   white-space: pre-wrap;
 }
