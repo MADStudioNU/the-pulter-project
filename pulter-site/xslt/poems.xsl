@@ -3533,9 +3533,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Elizabeth Sauer</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Elizabeth Sauer</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>Charles I</pp:keyword>
@@ -3558,28 +3558,28 @@
         <pp:tag>violence</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="pulter-reads-bradstreets-tenth-muse">-->
-<!--          <pp:author>Elizabeth Sauer</pp:author>-->
-<!--          <pp:title>Pulter reads Bradstreet’s <seg rend="it">Tenth Muse</seg></pp:title>-->
-<!--          <pp:peek>Pulter’s library probably included a copy of Anne Bradstreet’s “Tenth Muse” (1650). The title page of the volume singles out Bradstreet’s poem entitled “A Dialogue between Old England and New.”</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="pulter-reads-eikon-basilike">-->
-<!--          <pp:author>Elizabeth Sauer</pp:author>-->
-<!--          <pp:title>Pulter reads <seg rend="it">Eikon Basilike</seg></pp:title>-->
-<!--          <pp:peek>A copy of “Eikon Basilike” (Eikōn basilikē) would have found its way into Pulter’s book collection. She was acquainted with the printer of the King’s book, William Dugard.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="pulter-reads-geffrey-whitneys-a-choice-of-emblemes">-->
-<!--          <pp:author>Elizabeth Sauer</pp:author>-->
-<!--          <pp:title>Pulter reads Geffrey Whitney’s <seg rend="it">A Choice of Emblemes</seg></pp:title>-->
-<!--          <pp:peek>Evidence from throughout her poetry manuscript makes a very strong case for Pulter’s ownership of a copy of Geffrey Whitney’s “A Choice of Emblemes,” and Other Devises (Leiden, 1586), which surely was among the inspirations for her emblem series (of 53 poems).</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="pulter-reads-george-sandyss-paraphrase-upon-job">-->
-<!--          <pp:author>Elizabeth Sauer</pp:author>-->
-<!--          <pp:title>Pulter reads George Sandys’s <seg rend="it">Paraphrase Upon Job</seg></pp:title>-->
-<!--          <pp:peek>Pulter likely owned a copy of George Sandys’s “A Paraphrase Upon the Divine Poems,” which features, as its first main biblical book, the Book of Job.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="pulter-reads-bradstreets-tenth-muse">
+          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:title>Pulter reads Bradstreet’s <seg rend="it">Tenth Muse</seg></pp:title>
+          <pp:peek>Pulter’s library probably included a copy of Anne Bradstreet’s “Tenth Muse” (1650). The title page of the volume singles out Bradstreet’s poem entitled “A Dialogue between Old England and New.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pulter-reads-eikon-basilike">
+          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:title>Pulter reads <seg rend="it">Eikon Basilike</seg></pp:title>
+          <pp:peek>A copy of “Eikon Basilike” (Eikōn basilikē) would have found its way into Pulter’s book collection. She was acquainted with the printer of the King’s book, William Dugard.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pulter-reads-geffrey-whitneys-a-choice-of-emblemes">
+          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:title>Pulter reads Geffrey Whitney’s <seg rend="it">A Choice of Emblemes</seg></pp:title>
+          <pp:peek>Evidence from throughout her poetry manuscript makes a very strong case for Pulter’s ownership of a copy of Geffrey Whitney’s “A Choice of Emblemes,” and Other Devises (Leiden, 1586), which surely was among the inspirations for her emblem series (of 53 poems).</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pulter-reads-george-sandyss-paraphrase-upon-job">
+          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:title>Pulter reads George Sandys’s <seg rend="it">Paraphrase Upon Job</seg></pp:title>
+          <pp:peek>Pulter likely owned a copy of George Sandys’s “A Paraphrase Upon the Divine Poems,” which features, as its first main biblical book, the Book of Job.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="65">
       <pp:title>The Hope</pp:title>
