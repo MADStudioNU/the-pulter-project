@@ -528,7 +528,7 @@
         <xsl:text>_blank</xsl:text>
       </xsl:attribute>
       </xsl:if>
-      <xsl:value-of select="."/>
+      <xsl:apply-templates/>
     </a>
   </xsl:template>
 
