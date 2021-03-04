@@ -84,8 +84,9 @@
           color: #080808;
           border: 1px solid rgba($pp_manuscriptInk, .12);
           background: rgba(lighten($pp_manuscriptInk, 20%), .1);
-          //padding-top: 1px;
-          //padding-bottom: 1px;
+
+          // Experimental
+          white-space: nowrap;
 
           &:hover {
             background: whitesmoke;
