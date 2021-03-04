@@ -85,9 +85,6 @@
           border: 1px solid rgba($pp_manuscriptInk, .12);
           background: rgba(lighten($pp_manuscriptInk, 20%), .1);
 
-          // Experimental
-          white-space: nowrap;
-
           &:hover {
             background: whitesmoke;
             border: 1px solid rgba($pp_manuscriptInk, .2);
@@ -95,7 +92,6 @@
 
           @include breakpoint(mobile) {
             font-size: .8em;
-            white-space: normal;
 
             .idx {
               bottom: .16em;
@@ -232,6 +228,15 @@
                 content: 'Original gloss note';
               }
             }
+          }
+        }
+
+        .pp-poem-ref {
+          // Experimental!
+          white-space: nowrap;
+
+          @include breakpoint(mobile) {
+            white-space: normal;
           }
         }
       }
