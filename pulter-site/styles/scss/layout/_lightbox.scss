@@ -84,8 +84,6 @@
           color: #080808;
           border: 1px solid rgba($pp_manuscriptInk, .12);
           background: rgba(lighten($pp_manuscriptInk, 20%), .1);
-          //padding-top: 1px;
-          //padding-bottom: 1px;
 
           &:hover {
             background: whitesmoke;
@@ -230,6 +228,15 @@
                 content: 'Original gloss note';
               }
             }
+          }
+        }
+
+        .pp-poem-ref {
+          // Experimental!
+          white-space: nowrap;
+
+          @include breakpoint(mobile) {
+            white-space: normal;
           }
         }
       }
