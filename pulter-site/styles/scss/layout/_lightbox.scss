@@ -95,6 +95,7 @@
 
           @include breakpoint(mobile) {
             font-size: .8em;
+            white-space: normal;
 
             .idx {
               bottom: .16em;
