@@ -340,7 +340,6 @@ div.panel {
 }
 
 /* mirror text */
-
 span.mirror {
   color: #bababa;
   display: block;
@@ -354,6 +353,11 @@ span.mirror {
 span.centered {
   display: block;
   text-align: center;
+}
+
+/* text with whitespace preserved */
+span.preserve-whitespace-soft {
+  white-space: pre-wrap;
 }
 
 /*position:absolute to prevent that adjacent panels get moved on resize*/

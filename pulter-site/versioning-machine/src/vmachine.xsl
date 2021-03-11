@@ -1413,8 +1413,11 @@
    </xsl:template>
 
    <xsl:template match="//tei:body//text()[normalize-space()]">
-      <span class="textcontent">
-         <xsl:value-of select="."/>
+      <span>
+        <xsl:attribute name="class">
+          <xsl:text>textcontent</xsl:text>
+        </xsl:attribute>
+        <xsl:value-of select="."/>
       </span>
    </xsl:template>
 
@@ -2048,6 +2051,10 @@
 
    <xsl:template match="tei:seg[@rend='mirror']">
       <span class="mirror"><xsl:apply-templates></xsl:apply-templates></span>
+   </xsl:template>
+
+   <xsl:template match="tei:seg[@rend='preserve-whitespace-soft']">
+      <span class="preserve-whitespace-soft"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
 
    <!-- exclude tei:seg ancestors of notes
