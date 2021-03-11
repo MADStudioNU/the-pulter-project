@@ -870,6 +870,12 @@ span.fw-sequence-number {
   /* fancy stuff */
 }
 
+/* "attention" is a special attention made to certain text segments, as in some Amplified Editions */
+.rend-attention {
+  color: #eb4c47;
+  font-weight: bold;
+}
+
 .place-above,
 .rend-superscript {
   vertical-align: super;
