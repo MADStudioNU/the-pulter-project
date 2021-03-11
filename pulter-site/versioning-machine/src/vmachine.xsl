@@ -248,13 +248,21 @@
                               </xsl:when>
                               <xsl:when test="@xml:id='ae'">
                                  <xsl:text>Amplified Edition</xsl:text>
+                                 <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                               </xsl:when>
                               <xsl:when test="@xml:id='a2'">
-                                 <xsl:text>Amplified Edition, 2nd</xsl:text>
+                                 <xsl:text>Amplified Edition B</xsl:text>
                               </xsl:when>
                               <xsl:when test="@xml:id='a3'">
-                                 <xsl:text>Amplified Edition, 3rd</xsl:text>
+                                 <xsl:text>Amplified Edition C</xsl:text>
                               </xsl:when>
+                              <xsl:when test="@xml:id='a4'">
+                                 <xsl:text>Amplified Edition D</xsl:text>
+                              </xsl:when>
+                              <xsl:when test="@xml:id='a5'">
+                                 <xsl:text>Amplified Edition E</xsl:text>
+                              </xsl:when>
+
                            </xsl:choose>
                         </a>
                      </div>
@@ -325,13 +333,21 @@
                                    <xsl:text>Elemental Edition Notes</xsl:text>
                                 </xsl:when>
                                 <xsl:when test="@xml:id='ae'">
-                                   <xsl:text>Amplified Edition Notes</xsl:text>
+                                   <xsl:text>Amplified Edition</xsl:text>
+                                   <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
+                                   <xsl:text> Notes</xsl:text>
                                 </xsl:when>
                                 <xsl:when test="@xml:id='a2'">
-                                   <xsl:text>Amplified Edition, 2nd, Notes</xsl:text>
+                                   <xsl:text>Amplified Edition B Notes</xsl:text>
                                 </xsl:when>
                                 <xsl:when test="@xml:id='a3'">
-                                   <xsl:text>Amplified Edition, 3rd, Notes</xsl:text>
+                                   <xsl:text>Amplified Edition C Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='a4'">
+                                   <xsl:text>Amplified Edition D Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='a5'">
+                                  <xsl:text>Amplified Edition E Notes</xsl:text>
                                 </xsl:when>
                              </xsl:choose>
                           </a>
@@ -488,12 +504,19 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Notes: Amplified Edition</xsl:text>
+                  <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
-                  <xsl:text>Notes: Amplified Edition, 2nd</xsl:text>
+                  <xsl:text>Notes: Amplified Edition B</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
-                  <xsl:text>Notes: Amplified Edition, 3rd</xsl:text>
+                  <xsl:text>Notes: Amplified Edition C</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a4'">
+                  <xsl:text>Notes: Amplified Edition D</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a5'">
+                  <xsl:text>Notes: Amplified Edition E</xsl:text>
                </xsl:when>
             </xsl:choose>
          </div>
@@ -662,12 +685,19 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Amplified Edition</xsl:text>
+                  <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
-                  <xsl:text>Amplified Edition, 2nd</xsl:text>
+                  <xsl:text>Amplified Edition B</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
-                  <xsl:text>Amplified Edition, 3rd</xsl:text>
+                  <xsl:text>Amplified Edition C</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a4'">
+                  <xsl:text>Amplified Edition D</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a5'">
+                  <xsl:text>Amplified Edition E</xsl:text>
                </xsl:when>
             </xsl:choose>
          </div>
@@ -683,12 +713,19 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Amplified Edition</xsl:text>
+                  <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
-                  <xsl:text>Amplified Edition, 2nd</xsl:text>
+                  <xsl:text>Amplified Edition B</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
-                  <xsl:text>Amplified Edition, 3rd</xsl:text>
+                  <xsl:text>Amplified Edition C</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a4'">
+                  <xsl:text>Amplified Edition D</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a5'">
+                  <xsl:text>Amplified Edition E</xsl:text>
                </xsl:when>
             </xsl:choose>
          </div>
@@ -1103,12 +1140,19 @@
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#ae'">
                               <xsl:text>Amplified Edition</xsl:text>
+                              <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a2'">
-                              <xsl:text>2nd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition B</xsl:text>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a3'">
-                              <xsl:text>3rd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition C</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a4'">
+                              <xsl:text>Amplified Edition D</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a5'">
+                              <xsl:text>Amplified Edition E</xsl:text>
                            </xsl:when>
                         </xsl:choose>
                      </div>
@@ -1174,13 +1218,13 @@
                         <xsl:when test="ancestor::tei:app[@type='title']">
                            <xsl:text>Title note</xsl:text>
                         </xsl:when>
-                        
+
                         <xsl:when test="@type = 'headnote'"> 
                            <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
                         <xsl:when test="@type = 'editorialnote'"> 
                            <xsl:text>Editorial note</xsl:text> 
-                        </xsl:when>                                     
+                        </xsl:when>
                         <xsl:otherwise>
                            <xsl:text><!--Note:--></xsl:text>
                         </xsl:otherwise>
@@ -1204,7 +1248,7 @@
                            <xsl:text>Original gloss note</xsl:text> 
                         </xsl:when>
                      </xsl:choose>
-                  </div>               
+                  </div>
                   <xsl:apply-templates/>
                </div>
             </xsl:if>
@@ -1246,12 +1290,19 @@
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#ae'">
                               <xsl:text>Amplified Edition</xsl:text>
+                              <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a2'">
-                              <xsl:text>2nd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition B</xsl:text>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a3'">
-                              <xsl:text>3rd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition C</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a4'">
+                              <xsl:text>Amplified Edition D</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a5'">
+                              <xsl:text>Amplified Edition E</xsl:text>
                            </xsl:when>
                         </xsl:choose>
                         (<xsl:value-of select="translate(ancestor::*/@wit, '#', '')"/>)
@@ -1318,16 +1369,16 @@
                         <xsl:when test="ancestor::tei:app[@type='title']">
                            <xsl:text>Title note</xsl:text>
                         </xsl:when>
-                        
+
                         <xsl:when test="@type = 'headnote'"> 
                            <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
                         <xsl:when test="@type = 'editorialnote'"> 
                            <xsl:text>Editorial note</xsl:text> 
                         </xsl:when>
-                        
 
-                        
+
+
                         <xsl:otherwise>
                            <xsl:text><!--Note:--></xsl:text>
                         </xsl:otherwise>
@@ -1554,7 +1605,7 @@
                      <xsl:text> </xsl:text>
                      <xsl:text>with_large_left_marginalia</xsl:text>
                      <xsl:text> </xsl:text>
-                     <xsl:text>with_left_gutter_milestone</xsl:text>                     
+                     <xsl:text>with_left_gutter_milestone</xsl:text>
                   </xsl:if>
                </xsl:attribute>
 
@@ -2045,7 +2096,7 @@
                   </xsl:when>
                   <xsl:when test="@type = 'textual'">
                      <xsl:text><!--TTextual note:--></xsl:text>
-                  </xsl:when>                  
+                  </xsl:when>
                   <xsl:otherwise>
                      <xsl:text><!--Note:--></xsl:text>
                   </xsl:otherwise>
@@ -2661,7 +2712,7 @@ timelineDurations['</xsl:text>
                      <xsl:attribute name="class">note-entry gloss-original</xsl:attribute>
                      <div class="note-type-header">Textual Note</div>
                   </xsl:when>
-                  
+
                   <xsl:otherwise>
                      <xsl:attribute name="class">note-entry general</xsl:attribute>
                   </xsl:otherwise>
