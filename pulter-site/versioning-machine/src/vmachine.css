@@ -360,6 +360,13 @@ span.preserve-whitespace-soft {
   white-space: pre-wrap;
 }
 
+/* special section break */
+span.section-break-three-stars {
+  display: block;
+  text-align: center;
+}
+
+
 /*position:absolute to prevent that adjacent panels get moved on resize*/
 div.panel.ui-resizable {
   position: absolute;

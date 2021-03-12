@@ -2057,6 +2057,12 @@
       <span class="preserve-whitespace-soft"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
 
+   <!-- "nl tac" is combination of 2 css classes introduced with a primacy for the reader view in order to define centered section breaks in the headnote -->
+   <!-- ordinarily, this might have otherwise been defined with a single, or compound-hyphenated word, like 'section-break-three-stars' -->
+   <xsl:template match="tei:seg[@rend='nl tac']">
+      <span class="section-break-three-stars"><xsl:apply-templates></xsl:apply-templates></span>
+   </xsl:template>
+
    <!-- exclude tei:seg ancestors of notes
         matt
         another version with ancestors below -->
