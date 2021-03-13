@@ -821,6 +821,15 @@ span.segnotespan {
   color: #000000;
 }
 
+/* a hack for two successive notes in the TEI with only whitespace in-between,
+    which will be stripped by xslt strip-space since it will not look like a
+    relevant space.
+    -
+ */
+span.notespan + span.notespan {
+    margin-left: .25em;
+}
+
 /* rend=overline / NEW / Matt Taylor / Nov 2017 */
 /* disabled border styling inspired by Newton letters project */
 /* replaced by more standard text decoration specification, Sept 2018 */

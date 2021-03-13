@@ -3,9 +3,11 @@
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns="http://www.w3.org/1999/xhtml">
 
-   <xsl:output method="html" doctype-system="about:legacy-compat"/>
-
-   <!-- <xsl:strip-space elements="*" /> -->
+   <xsl:output omit-xml-declaration="yes" indent="no" method="html" doctype-system="about:legacy-compat"/>
+   <xsl:strip-space elements="*"/>
+   <!-- strip-space was disabled for most of early PP, re-enabled
+         per issue #540, hopefully will only need hack for two
+         successive notes, similar hack found in reading view -->
 
    <!-- IMPORT SETTINGS -->
    <xsl:include href="settings.xsl"/>
