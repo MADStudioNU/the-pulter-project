@@ -9,248 +9,253 @@
 
   ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.53">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-          <title>Upon the Crown Imperial</title>
-        <title type="sub">Poem #53</title>
-        <respStmt>
-          <resp>Created by</resp>
-          <persName>Leah Knight</persName>
-          <persName>Wendy Wall</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Encoded by</resp>
-          <persName>Katherine Poland</persName>
-          <persName>Matthew Taylor</persName>
-          <persName>Betsy Chou</persName>
-          <persName>Emily Andrey</persName>
-          <orgName>Northwestern University</orgName>
-        </respStmt>
-        <respStmt>
-          <resp>IT-project consultation by</resp>
-          <persName>Josh Honn</persName>
-        </respStmt>
-        <sponsor>
-          <orgName>Northwestern University</orgName>
-          <orgName>Brock University</orgName>
-          <orgName>University of Leeds</orgName>
-        </sponsor>
-        <principal>
-          <persName/>
-        </principal>
-      </titleStmt>
-      <editionStmt>
-        <edition n="1"/>
-        <respStmt>
-          <resp>Transcription, transformations, and notes</resp>
-          <persName>Leah Knight</persName>
-          <orgName>Brock University</orgName>
-          <persName>Wendy Wall</persName>
-          <orgName>Northwestern University</orgName>
-        </respStmt>
-      </editionStmt>
-      <extent/>
-      <publicationStmt>
-        <ab/>
-      </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <msDesc>
-            <msIdentifier>
-              <repository>See witness list.</repository>
-            </msIdentifier>
-          </msDesc>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p/>
-      </projectDesc>
-      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
-      <samplingDecl>
-        <p/>
-      </samplingDecl>
-      <editorialDecl>
-        <correction>
-          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
-          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
-        </correction>
-        <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
-        </normalization>
-        <quotation>
-          <p>Original quotation marks, if any, are preserved.</p>
-        </quotation>
-        <hyphenation>
-          <p>Original hyphenation is preserved.</p>
-        </hyphenation>
-      </editorialDecl>
-      <charDecl>
-        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
-        <glyph xml:id="ffllig">
-          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
-        </glyph>
-      </charDecl>
-      <classDecl>
-        <taxonomy xml:id="DDC22">
-          <bibl>
-            <title>Dewey Decimal Classification</title>
-            <edition/>
-            <publisher/>
-            <pubPlace/>
-          </bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="en-GB">British English</language>
-      </langUsage>
-      <textClass>
-        <!-- dewey decimal system class code 821: English Poetry -->
-        <classCode scheme="DDC22">821</classCode>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <facsimile>
-    <!-- List of all images associated with this document -->
-      <graphic url="./document_images/7610_152.jpg" xml:id="f7610_152"/>
-  </facsimile>
-  <text>
-    <front>
-      <div>
-        <listWit>
-          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
-          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
-        </listWit>
-      </div>
-    </front>
-
-    <body>
-
-      <app>
-        <rdg wit="#ft">
-            <pb ed="#ft" facs="#f7610_152" n="74v"/>
-        </rdg>
-        <rdg wit="#ee">
-            <pb ed="#ee" facs="#f7610_152"/>
-        </rdg>
-        <rdg wit="#ae">
-            <pb ed="#ae" facs="#f7610_152"/>
-        </rdg>
-      </app>
-  
-      <head>
-        <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">144</fw>Upon the Crown Imperiall</rdg>
-            <rdg wit="#ee">Upon the <seg>Crown Imperial<note type="gloss">here, a large ornamental flower with a ring of flowers hanging below an upright leafy tuft; elsewhere, the crown of an emperor or empress</note></seg></rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
-        </app>
-        <app type="editorialnote">
-          <rdg wit="#ft">
-            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
-          </rdg>
-          <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
-          <rdg wit="#ae">
-            <note type="editorialnote"></note>
-          </rdg>
-        </app>
-        <app type="headnote">
-          <rdg wit="#ee">
-              <note type="headnote">As in <ref type="pp-poem-ref" corresp="12">The Garden</ref>, Pulter reads in the botanical world a host of otherwise human-seeming concerns with such things as courtship, constancy, and heroism. Here, a female flower offers non-violent resistance to a masculine sun who burns with lust; she does so through the mere yet steady moisture of her tears. The speaker, ironically, is just as desirous as is the sun of the flower’s emblematic equilibrium—and, through excess, just as lacking in what she loves. It thus seems fitting that the lines are frequently hypermetrical, flush with syllables which threaten to overflow the poem’s grounding in iambic pentameter.</note>
-          </rdg>
-          <rdg wit="#ae">
-            <note type="headnote"></note>
-          </rdg>
-        </app>
-      </head>
-
-      <l n="1">
-        <app>
-            <rdg wit="#ft">Why doth the Tears Stand in the Orient eyes</rdg>
-            <rdg wit="#ee">Why doth the tears stand in the <seg>orient<note type="gloss">from or facing sunrise, or the Eastern hemisphere (relative to Europe); often with connotations of beauty, radiance, or the colour of the dawn (bright red)</note></seg> eyes</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="2">
-        <app>
-            <rdg wit="#ft">Of the Imperiall Crown th’imergenties</rdg>
-            <rdg wit="#ee">Of the imperial crown? <seg>Th’emergencies<note type="gloss">things unexpectedly arising or issuing from concealment or confinement</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="3">
-        <app>
-            <rdg wit="#ft">Of her Sad Heart Just to that Height doth Riſe</rdg>
-            <rdg wit="#ee">Of her sad heart just to that height doth rise.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="4">
-        <app>
-            <rdg wit="#ft">Though Cataracts fall or numerous drops diſtill</rdg>
-            <rdg wit="#ee">Though <seg>cataracts<note type="gloss">waterfalls, or other violent downpours, sometimes with connotations of a divine source</note></seg> fall, or numerous drops <seg>distill<note type="gloss">trickle, drip, or condense from a vapor into droplets</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="5">
-        <app>
-            <rdg wit="#ft">Yet Shee is like the conſtant Caſpian Still</rdg>
-            <rdg wit="#ee">Yet she is like <seg>the constant Caspian<note type="gloss">The Caspian Sea is a completely enclosed saltwater body; lacking an outlet, it may have been emblematic of constancy owing to its apparently unchanging water level.</note></seg> still.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="6">
-        <app>
-            <rdg wit="#ft">Though Phœbus courts her with his amorous Raiſe</rdg>
-            <rdg wit="#ee">Though <seg>Phœbus<note type="gloss">classical sun god</note></seg> courts her with his amorous rays,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="7">
-        <app>
-            <rdg wit="#ft">And with his burning kiſſes oft Eſsais</rdg>
-            <rdg wit="#ee">And with his burning kisses oft <seg>essays<note type="gloss">attempts</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="8">
-        <app>
-            <rdg wit="#ft">Yet finds hee it &ff;ar far above his Power</rdg>
-            <rdg wit="#ee">Yet finds he it far, far above his power</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="9">
-        <app>
-            <rdg wit="#ft">To exhail one Tear &ff;rom this Heroick &ff;lower</rdg>
-            <rdg wit="#ee"><seg>To exhale<note type="gloss">to disengage from the surface, by e.g. sending up in vapor; to draw out, or up, or cause to flow</note></seg> one tear from this heroic flower,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="10">
-        <app>
-            <rdg wit="#ft">But Shee Remains oh that my Soul did Soe</rdg>
-            <rdg wit="#ee">But she remains; O, that my soul did so,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="11">
-        <app>
-            <rdg wit="#ft">Ever Brimfull yet never overflow.</rdg>
-            <rdg wit="#ee">Ever brimful, yet never <seg>overflow<note type="gloss">i.e., overflowing</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-        <app>
-            <rdg type="milestone" wit="#ft">
-                <milestone unit="poem" rend="curline-right"/>
-            </rdg>
-        </app>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Upon the Crown Imperial</title>
+                <title type="sub">Poem #53</title>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <persName>Emily Andrey</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT-project consultation by</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+                    <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- List of all images associated with this document -->
+        <graphic url="./document_images/7610_152.jpg" xml:id="f7610_152"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+                    <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+                    <witness xml:id="ae">Amplified edition: By <persName>Elisa Tersigni</persName>.</witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            
+            <app>
+                <rdg wit="#ft">
+                    <pb ed="#ft" facs="#f7610_152" n="74v"/>
+                </rdg>
+                <rdg wit="#ee">
+                    <pb ed="#ee" facs="#f7610_152"/>
+                </rdg>
+                <rdg wit="#ae">
+                    <pb ed="#ae" facs="#f7610_152"/>
+                </rdg>
+            </app>
+            
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">144</fw>Upon the Crown Imperiall</rdg>
+                    <rdg wit="#ee">Upon the <seg>Crown Imperial<note type="gloss">here, a large ornamental flower with a ring of flowers hanging below an upright leafy tuft; elsewhere, the crown of an emperor or empress</note></seg></rdg>
+                    <rdg wit="#ae">Upon the Crown Imperiall</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft">
+                        <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ee">
+                        <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae">
+                        <note type="editorialnote"><p>This edition is a semi-diplomatic transcription; it preserves the original spelling (including “&ff;” at the start of a word), capitalization, punctuation, and lineation. As the Elemental Edition offers a modernized and punctuated version of the poem, this Amplified Edition is meant as a complement, opening up alternative interpretations. Thus, the footnotes detail the challenges of reading Pulter’s idiosyncratic grammar and spelling, and offer options for readings, rather than solutions.</p><p>The editor thanks Melissa Auclair, Clarissa Chenovick, Justine DeCamillis, Julia Fine, Leah Knight, Randall McLeod, Bénédicte Miyamoto, Nathan Murray, Timothy P.J. Perry, Haylie Swenson, K Vanderpark, Wendy Wall, and the anonymous reviewers for their helpful suggestions. The editor also acknowledges the support of the Folger Shakespeare Library and the Andrew W. Mellon Foundation.</p></note>
+                    </rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ee">
+                        <note type="headnote">As in <ref type="pp-poem-ref" corresp="12">The Garden</ref>, Pulter reads in the botanical world a host of otherwise human-seeming concerns with such things as courtship, constancy, and heroism. Here, a female flower offers non-violent resistance to a masculine sun who burns with lust; she does so through the mere yet steady moisture of her tears. The speaker, ironically, is just as desirous as is the sun of the flower’s emblematic equilibrium—and, through excess, just as lacking in what she loves. It thus seems fitting that the lines are frequently hypermetrical, flush with syllables which threaten to overflow the poem’s grounding in iambic pentameter.</note>
+                    </rdg>
+                    <rdg wit="#ae">
+                        <note type="headnote"><p>Hester Pulter’s manuscript divides her work into poems (“Poems Breathed Forth by the Noble Hadassas”) and emblems (“The Sighs of a Sad Soul Emblematically Breathed Forth by the Noble Hadassah”). “Upon the Crown Imperiall” (Poem 53) (a reference to the Corona <foreign rend="italic">imperialis</foreign> flower), could have been placed with the emblems, and yet it is not. Like emblems, this poem has a moral; but it is personal.</p><p>In “Upon the Crown Imperiall”, Pulter does not merely recycle contemporaries’ conventions; she refashions them for herself: although “corona” is grammatically feminine in Latin, seventeenth-century English herbals and garden manuals present the crown imperial flower as neuter or masculine;<seg>1<note type="gloss">For examples, see the Curation <ref type="pp-curations-ref" target="#ctxs">“The Crown Imperial in the Early Modern English Imagination”</ref>.</note></seg> Pulter makes it feminine. The flower’s name invites comparison to the imperial crown, a comparison upon which many contemporary writers rely, although Pulter does not. In Ben Jonson’s <hi rend="italic">Loues triumph through Callipolis</hi> (1631) and James Shirley’s <hi rend="italic">The triumph of peace</hi> (1634), the flower appears as “an emblem of royal power able to provide peace and protection”.<seg>2<note type="gloss">Young, 89.</note></seg> Conversely, it figured in anti-royalist critiques, as in George Herbert’s poem “Peace”, in which the speaker “sp[ies] a gallant flower”, and then digs into the dirt to find “a worm devoure what show’d so well”.<seg>3<note type="gloss">Young, 90.</note></seg> While Pulter’s poetry suggests she read Herbert’s work and was familiar with contemporary herbals and garden manuals, she draws an entirely different picture. Pulter’s flower is not just royal, but also feminine, heroic, and stoic.</p><p>The poem’s conceit rests on an intimate connection between the heart and the eyes. The whitish “faire Orient pearles” of “most cleere shining sweet water” (to quote John Gerard’s <hi rend="italic">Herbal</hi>) contained within the flower’s characteristic hanging bells are the “Tears”, the “imergenties” of her sad heart. Rather than openly shed them, the flower holds her tears still in her eyes, hidden from plain view. Phœbus—the classical sun god and god of poetry—“courts” the flower and “essais” (assays, i.e. tests, or tries to seduce her) her with his “burning kisses”; not being heliotropic, the flower does not turn to him. Instead, by hanging her head, she turns away from his kisses and averts her gaze, blocking the route to her heart.</p><p>The connection between her heart and eyes reveals the flower’s uniquely feminine, stoic heroism, in which a delicate and precise balance is struck between feeling profound emotions and expressing them, avoiding excessive emotional display and indulgence. In early modern England, tears were gendered and important but troubling humoral phenomena, especially for women, for whom both crying and not crying could be suspect. By demonstrating quiet crying without shedding tears, the flower has negotiated a modest constancy. The heart is the source of her tears, which “rise” to her eyes; but the heart is also the (etymological) root of <hi rend="italic">courage</hi>.</p><p>The speaker, unlike the flower, is not able to strike this balance and is prone to excess: as Knight and Wall note in the headnote to their Elemental Edition, the poem does not stick to rhyming couplets in iambic pentameter. It includes an odd line<seg>4<note type="gloss">The second line does not belong to a couplet, though it is a near rhyme with the first and third lines.</note></seg> and lines “flush with syllables”, with the exception of the final couplet: “But shee Remains oh that my soul did soe / Ever Brimfull yet never overflow.” Pulter’s manuscript almost entirely lacks punctuation; in their Elemental Edition, Knight and Wall add punctuation to these final two lines: “But she remains; O, that my soul did so, / Ever brimful, yet never overflow.” But these lines might be punctuated differently: “But she remains—O, that my soul did so— / Ever brimful, yet never overflow.” This alternate punctuation makes clearer the speaker’s plaintive desiring of the flower’s virtues for herself and confirms that the flower remains brimful but not overflowing, unlike the speaker who has presumably shed too many tears, a demonstration of emotional excess. Ironically, it is in these final two lines—the only lines that unambiguously adhere to the poem’s implied structure—that the speaker reveals her own lack of emotional restraint. And yet, it is the speaker’s emotional interjection that strikes the balance between restraint and indulgence, equalizing the line with the ‘right’ number of syllables.</p><p>As much of Pulter’s poetry is autobiographical and about her struggles with grief, we are tempted to read the speaker’s voice as Pulter’s own. In such a reading, one might recall that Phœbus is not just the god of the sun, but also the god of poetry, perhaps tempting Pulter to use poetry to stoke, rather than soothe, her grief. In this metaphor, her pen’s ink flows as readily as her tears.</p><p>Bibliography</p><p><bibl>Dunn, Rachel. “Breaking a Tradition: Hester Pulter and the English Emblem Book.” <hi rend="italic">The Seventeenth Century</hi>, 30.1 (2015): 55–73.</bibl></p>
+<p><bibl>Gerard, John. <hi rend="italic">The herball or Generall historie of plantes</hi>. 1633. (STC 11751)</bibl></p>
+<p>Knight, Leah and Wendy Wall. Headnote to Elemental Edition of “Poem 53: Upon the Crown Imperial.” <hi rend="italic">The Pulter Project</hi>.</p>
+<p><bibl>Playfere, Thomas. <hi rend="italic">The meane in mourning</hi>. Widow Orwin: London, 1595. (STC 20015)</bibl></p>
+<p><bibl>Primrose, Gilbert. <hi rend="italic">The Christian mans teares and Christs comforts</hi>. London, 1625. (STC 20389)</bibl></p>
+<p><bibl>Young, R.V. “A Note on the ‘Crown Imperiall’ in Herbert’s ‘Peace.’” <hi rend="italic">George Herbert Journal</hi>, 21:1–2 (Fall 1997/Spring 1998), 89–92.</bibl></p></note>
+                    </rdg>
+                </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Why doth the Tears Stand in the Orient eyes</rdg>
+                    <rdg wit="#ee">Why doth the tears stand in the <seg>orient<note type="gloss">from or facing sunrise, or the Eastern hemisphere (relative to Europe); often with connotations of beauty, radiance, or the colour of the dawn (bright red)</note></seg> eyes</rdg>
+                    <rdg wit="#ae">Why <seg>doth<note type="critical">While “doth” is the contemporary third-person singular of “do,” Pulter uses it for both third-person singular and plural, as again in line 3.</note></seg> the Tears stand in the <seg>Orient<note type="critical">Contemporary herbals name the flower also as the “<foreign rend="italic">Lilium Byzantinum</foreign>” (Byzantian lily) and “<foreign rend="italic">Lilium Persicum</foreign>” (Persian lily) and say the flower originates in Constantinople. The writing of early modern botanists suggest that the flower was an exciting new import in late-sixteenth-century England but that it had become a “denizen” of English gardens by the time Pulter was writing. The crown imperial flower was therefore popular enough to be recognized by name but was still recognized as being of Eastern origin.</note></seg> eyes</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Of the Imperiall Crown th’imergenties</rdg>
+                    <rdg wit="#ee">Of the imperial crown? <seg>Th’emergencies<note type="gloss">things unexpectedly arising or issuing from concealment or confinement</note></seg></rdg>
+                    <rdg wit="#ae">Of the <seg>Imperiall Crown<note type="gloss">The “imperial crown” represents empire by synecdoche. Pulter’s gesture to the crown, in inverting the flower’s name, underscores the royal stature of the flower, rather, it seems, than serving as a pointed reference to the empire itself.</note></seg> <seg>th’imergenties<note type="critical">This is an idiosyncratic spelling of “emergencies,” meaning “things emerging from concealment.” The word derives from the Latin emergentia (which would explain variant spellings using “t” rather than “c”). This idiosyncratic spelling is consistent with another word with a modern “cy” ending found in the manuscript: splendency is spelled both “splendencie” (<ref type="pp-poem-ref" corresp="#6">Poem 6</ref>) and “splendentie” (<ref type="pp-poem-ref" corresp="#10">Poem 10</ref>). The word “imergenties” is a near—but not perfect—rhyme with “eyes” and “Rise”.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">Of her Sad Heart Just to that Height doth Riſe</rdg>
+                    <rdg wit="#ee">Of her sad heart just to that height doth rise.</rdg>
+                    <rdg wit="#ae">Of <seg>her Sad Heart<note type="critical">Pulter repeatedly uses the phrase “sad heart” to describe the speaker of her poems. While the speaker’s identity is not always clear, poems such as <ref type="pp=poem-ref" corresp="#10">“Upon the Death of my Dear and Lovely Daughter, Jane Pulter” (Poem 10)</ref> suggest that Pulter uses the phrase to describe her own heart. Thus, Pulter may see the crown imperial flower as an ideal model for herself.</note></seg> I<seg>ust to that Height doth Rise<note type="critical">As tears were gendered and loaded with contradictory meanings (penitent, performative, indulgent), they were treated suspiciously. By identifying the flower’s heart as the source, the speaker clarifies that these are real and warranted tears. In <hi rend="italic">Christian mans teares</hi> (1625), Gilbert Primrose notes that “…of our Teares, some causes are <hi rend="italic">indifferent</hi>, some <hi rend="italic">ill</hi>, some <hi rend="italic">good</hi>” (p.85) and Thomas Playfere, in <hi rend="italic">The Meane in Mourning</hi> (1595), clarifies that “trew teares” are “not droppes of water, running from the eyes which may be soone forced with onions or such like, but drops of blood issuing from the heart” (H1v or p.98).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Though Cataracts fall or numerous drops diſtill</rdg>
+                    <rdg wit="#ee">Though <seg>cataracts<note type="gloss">waterfalls, or other violent downpours, sometimes with connotations of a divine source</note></seg> fall, or numerous drops <seg>distill<note type="gloss">trickle, drip, or condense from a vapor into droplets</note></seg>,</rdg>
+                    <rdg wit="#ae">Though <seg>Cataracts<note type="gloss">In the early modern period, as today, a cataract referred both to a waterfall and an eye condition, in which the lens of the eye is clouded.</note></seg> fall or numerous drops <seg>distill<note type="gloss">An alchemical term referring to the process of distillation, in which a substance is vaporized and then condensed. For more on Pulter’s interest in alchemy, see Elizabeth Scott-Baumann’s Curation for <ref type="pp-poem-ref" corresp="#21">“The Circle [2]” (Poem 21)</ref> on <ref type="pp-curations-ref" target="#ctxs">“Alchemy and Devotion.”</ref></note></seg></rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Yet Shee is like the conſtant Caſpian Still</rdg>
+                    <rdg wit="#ee">Yet she is like <seg>the constant Caspian<note type="gloss">The Caspian Sea is a completely enclosed saltwater body; lacking an outlet, it may have been emblematic of constancy owing to its apparently unchanging water level.</note></seg> still.</rdg>
+                    <rdg wit="#ae">Yet shee is like <seg>the constant Caspian<note type="gloss">The Caspian Sea is a large salt-water lake between eastern Europe and Asia. It figures frequently in early modern literature as a demonstration of constancy, since its water level appears static. It appears also in Pulter’s <ref type="pp-poem-ref" corresp="#15">“Let None Sigh More for Lucas or for Lisle” (Poem 15).</ref></note></seg> still</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">Though Phœbus courts her with his amorous Raiſe</rdg>
+                    <rdg wit="#ee">Though <seg>Phœbus<note type="gloss">classical sun god</note></seg> courts her with his amorous rays,</rdg>
+                    <rdg wit="#ae">Though <seg>Phœbus<note type="gloss">Phœbus is Apollo, the sun god and god of poetry.</note></seg> courts her with his amorous Raise</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">And with his burning kiſſes oft Eſsais</rdg>
+                    <rdg wit="#ee">And with his burning kisses oft <seg>essays<note type="gloss">attempts</note></seg>,</rdg>
+                    <rdg wit="#ae">And with his <seg>burning<note type="gloss">When figurative and connected to the intransitive forms of the verb: passionate (OED); when connected to the transitive forms of the verb: affecting with heat (OED).</note></seg> kisses oft <seg>essais<note type="gloss">I.e., ‘assays,’ “to tempt.” It is also an alchemical term meaning “tests the purity and material composition of a compound” (OED).</note></seg></rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">Yet finds hee it &ff;ar far above his Power</rdg>
+                    <rdg wit="#ee">Yet finds he it far, far above his power</rdg>
+                    <rdg wit="#ae">Yet finds hee it &ff;ar far above his Power</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">To exhail one Tear &ff;rom this Heroick &ff;lower</rdg>
+                    <rdg wit="#ee"><seg>To exhale<note type="gloss">to disengage from the surface, by e.g. sending up in vapor; to draw out, or up, or cause to flow</note></seg> one tear from this heroic flower,</rdg>
+                    <rdg wit="#ae"><seg>To exhail<note type="gloss">To cause (tears) to flow (OED).</note></seg> <seg>one Tear<note type="gloss">The flower is a model of constancy because its “tears” are firmly attached to its bell. John Gerard says of the flower’s “pearles”: “notwithstanding if they may be suffered to stand still in the floure according to his owne nature, they wil neuer fall away, no not if you strike the plant vntill it be broken.”</note></seg> &ff;rom this <seg>Heroick<note type="gloss">Brave, courageous, noble (OED).</note></seg> fflower</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">But Shee Remains oh that my Soul did Soe</rdg>
+                    <rdg wit="#ee">But she remains; O, that my soul did so,</rdg>
+                    <rdg wit="#ae">But shee Remains oh that my soul did soe</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Ever Brimfull yet never overflow.</rdg>
+                    <rdg wit="#ee">Ever brimful, yet never <seg>overflow<note type="gloss">i.e., overflowing</note></seg>.</rdg>
+                    <rdg wit="#ae">Ever Brimfull yet never <seg>overflow<note type="critical"><p>The concluding “overflow” presents some issues for interpretation. If, as this Amplified Edition offers, “&ff;lower” is the subject of “overflow,” the line should end in “overflows” to be grammatically correct; however, Pulter may have chosen “overflow” for its rhyming with “soe.” If, as in Knight and Wall’s Elemental Edition, “soul” is the subject, then we can take “overflow” as a subjunctive form in a wish (though this would also be grammatically awkward, following “did” in the previous line). “Overflow” might even be read as an adjective that balances “Brimfull”; however, this would have been an exceptional use of the word as there is no instance of “overflow” used as an adjective recorded in the OED, and the OED records the first use of “overflowed” as an adjective in 1671.</p><p>It is also worth noting that, in the Elemental Edition’s reading, the use of the verb “remain” to mean “to continue in the same state” predates the current OED entry, which records its first instance in 1701 and records its use only in recipes, making Pulter’s use of this sense exceptional. However, this Amplified Edition’s reading of the verb “remain” as having the complementing adjectival phrase “ever brimfull” is common and therefore more likely.</p></note></seg>.</rdg>
+                </app>
+            </l>
+            <app>
+                <rdg type="milestone" wit="#ft">
+                    <milestone unit="poem" rend="curline-right"/>
+                </rdg>
+            </app>
+        </body>
+    </text>
 </TEI>
