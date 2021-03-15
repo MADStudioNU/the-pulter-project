@@ -851,6 +851,7 @@
    </xsl:template>
 
    <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
+      <xsl:param name="witId"/>
       <div id="bibPanel">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
@@ -894,7 +895,9 @@
                         </em>
                         <xsl:text> </xsl:text>
                      </xsl:if>
-                     <xsl:apply-templates/>
+                     <xsl:apply-templates>
+                      <xsl:with-param name="witId" select="$witId"/>
+                     </xsl:apply-templates>
                      <xsl:if test="position() != last()">
                         <hr/>
                      </xsl:if>
@@ -1112,6 +1115,7 @@
    </xsl:template> -->
 
    <xsl:template name="notesPanel">
+      <xsl:param name="witId"/>
       <div id="notesPanel">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
@@ -1251,7 +1255,9 @@
                         </xsl:when>
                      </xsl:choose>
                   </div>
-                  <xsl:apply-templates/>
+                     <xsl:apply-templates>
+                      <xsl:with-param name="witId" select="$witId"/>
+                     </xsl:apply-templates>
                </div>
             </xsl:if>
          </xsl:for-each>
@@ -1262,6 +1268,7 @@
 
 
    <xsl:template name="note-ee">
+      <xsl:param name="witId"/>
       <div id="note-ee">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
@@ -1405,7 +1412,9 @@
                         </xsl:when>
                      </xsl:choose>
                   </div>
-                  <xsl:apply-templates/>
+                     <xsl:apply-templates>
+                      <xsl:with-param name="witId" select="$witId"/>
+                     </xsl:apply-templates>
                </div>
             </xsl:if>
          </xsl:for-each>
@@ -1548,8 +1557,9 @@
    <xsl:template match="tei:fw"/>
 
    <xsl:template match="tei:note[@type = 'critIntro']//tei:l">
+      <xsl:param name="witId"/>
       <div class="line">
-         <xsl:apply-templates/>
+         <xsl:apply-templates><xsl:with-param name="witId" select="$witId"/></xsl:apply-templates>
       </div>
    </xsl:template>
 
@@ -1766,7 +1776,6 @@
             </xsl:if>
          </hr>
       </xsl:if>
-
    </xsl:template>
 
 
@@ -1999,9 +2008,12 @@
       FOR DETECTING SEGS WITH NOTE TARGETS
    -->
    <xsl:template match="tei:seg[attribute::corresp]">
+      <xsl:param name="witId"/>
       <xsl:comment>SEG TAG MATCHED THAT HAS CORRESP</xsl:comment>
       <span class="segnotespan">
-         <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
       </span>
    </xsl:template>
 
@@ -2016,28 +2028,36 @@
    -->
 
    <xsl:template match="tei:seg[.//tei:note]">
+      <xsl:param name="witId"/>
       <xsl:comment>SEG tag found Containing Note</xsl:comment>
       <span class="notespan"><xsl:call-template name="render_seg_notes">
             <xsl:with-param name="segcontents">
                <xsl:value-of select="."/>
             </xsl:with-param>
-      </xsl:call-template><xsl:apply-templates></xsl:apply-templates></span>
+            <xsl:with-param name="witId" select="$witId"/>
+      </xsl:call-template><xsl:apply-templates><xsl:with-param name="witId" select="$witId"/></xsl:apply-templates></span>
    </xsl:template>
 
    <xsl:template match="tei:seg[not(descendant::tei:note)]">
+    <xsl:param name="witId"/>
       <xsl:comment>SEG found not containing note</xsl:comment>
-      <xsl:apply-templates></xsl:apply-templates>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
    </xsl:template>
 
   <!-- General seg with a "type" attribute -->
   <xsl:template match="tei:seg[attribute::type]">
+    <xsl:param name="witId"/>
     <xsl:element name="span">
       <xsl:attribute name="class">
         <xsl:if test="@type">
           <xsl:value-of select="@type"/>
         </xsl:if>
       </xsl:attribute>
-      <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
     </xsl:element>
   </xsl:template>
 
@@ -2062,13 +2082,29 @@
    <!-- "nl tac" is combination of 2 css classes introduced with a primacy for the reader view in order to define centered section breaks in the headnote -->
    <!-- ordinarily, this might have otherwise been defined with a single, or compound-hyphenated word, like 'section-break-three-stars' -->
    <xsl:template match="tei:seg[@rend='nl tac']">
-      <span class="section-break-three-stars"><xsl:apply-templates></xsl:apply-templates></span>
+    <xsl:param name="witId"/>
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:text>section-break-three-stars</xsl:text>
+      </xsl:attribute>
+      <xsl:if test="@id">
+        <xsl:attribute name="id">
+          <xsl:value-of select="@id"/>
+          <xsl:text>_</xsl:text>
+          <xsl:value-of select="$witId"/>
+        </xsl:attribute>
+      </xsl:if>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
+    </xsl:element>
    </xsl:template>
 
    <!-- exclude tei:seg ancestors of notes
         matt
         another version with ancestors below -->
    <xsl:template match="tei:note[(not(@type = 'critIntro')) and (not(@type = 'headnote')) and (not(ancestor::tei:seg))]">
+      <xsl:param name="witId"/>
       <div class="noteicon">
          <xsl:choose>
             <xsl:when test="@type = 'critical'">
@@ -2118,7 +2154,9 @@
                </xsl:choose>
             </strong>
             <xsl:text> </xsl:text>
-            <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
          </div>
       </div>
    </xsl:template>
@@ -2163,7 +2201,9 @@
       <xsl:param name="witId"/>
          <button class="headnote">Headnote</button>
          <div class="headnote-text">
-            <xsl:apply-templates></xsl:apply-templates>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
             <br/>
             <xsl:text> — </xsl:text>
             <xsl:for-each select="//tei:witness[@xml:id = $witId]/tei:persName">
@@ -2187,7 +2227,9 @@
       <xsl:param name="witId"/>
       <button class="editorialnote">Editorial note</button>
       <div class="editorialnote-text">
-         <xsl:apply-templates></xsl:apply-templates>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
          <br/>
          <xsl:text> — </xsl:text>
          <xsl:for-each select="//tei:witness[@xml:id = $witId]/tei:persName">
@@ -2208,8 +2250,11 @@
 
    <!-- notes within headnote and editorial note - BETSY - MAY 2018 -->
    <xsl:template match="tei:note[(@type='editorialnote') and (@type='headnote')]//tei:note">
+     <xsl:param name="witId"/>
       <br/>
-      <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
    </xsl:template>
 
    <xsl:template match="tei:figure"/>
@@ -2600,6 +2645,20 @@
         <xsl:value-of select="concat(' [Poem ', $referencedPoemID, ']')"/>
       </xsl:element>
     </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="tei:ref[@type = 'pp-edition-section-ref']">
+    <xsl:param name="witId"/>
+      <a class="link">
+        <xsl:if test="@target">
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+            <xsl:text>_</xsl:text>
+            <xsl:value-of select="$witId"/>
+          </xsl:attribute>
+        </xsl:if>
+         <xsl:value-of select="."/>
+      </a>
   </xsl:template>
 
    <xsl:template match="tei:closer | tei:closer | tei:salute | tei:signed">
