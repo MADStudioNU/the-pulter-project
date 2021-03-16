@@ -364,6 +364,11 @@ span.preserve-whitespace-soft {
 span.section-break-three-stars {
   display: block;
   text-align: center;
+
+  /* hack for anchor scrolling target to not go behind permanent, z-index header */
+  /* should probably be replaced by scroll-margin-top */
+  padding-top: 15em;
+	margin-top: -15em;
 }
 
 
