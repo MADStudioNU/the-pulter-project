@@ -3596,15 +3596,15 @@
         <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Elizabeth Scott-Baumann</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified" id="a2" label="Amplified Edition B">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified" id="a3" label="Amplified Edition C">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--        </pp:edition>-->
-<!--        <pp:edition type="amplified" id="a4" label="Amplified Edition D">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
+          <pp:author>Liza Blake</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified" id="a3" label="Amplified Edition C">
+          <pp:author>Liza Blake</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified" id="a4" label="Amplified Edition D">
+          <pp:author>Liza Blake</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
@@ -3656,21 +3656,21 @@
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
         </pp:curation>
-<!--        <pp:curation status="on" hash="manuscript-ambiguities">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--          <pp:title>Manuscript Ambiguities</pp:title>-->
-<!--          <pp:peek>Pulter’s manuscript went through waves of correction and revision, and there is evidence to suggest that Pulter herself revised the manuscript after it had been copied out by another hand.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="punctuating-poetry">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--          <pp:title>Punctuating Poetry</pp:title>-->
-<!--          <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="wishing-for-the-end">-->
-<!--          <pp:author>Liza Blake</pp:author>-->
-<!--          <pp:title>Wishing for the End</pp:title>-->
-<!--          <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>-->
-<!--        </pp:curation>-->
+        <pp:curation status="on" hash="manuscript-ambiguities">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Manuscript Ambiguities</pp:title>
+          <pp:peek>Pulter’s manuscript went through waves of correction and revision, and there is evidence to suggest that Pulter herself revised the manuscript after it had been copied out by another hand.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="punctuating-poetry">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Punctuating Poetry</pp:title>
+          <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="wishing-for-the-end">
+          <pp:author>Liza Blake</pp:author>
+          <pp:title>Wishing for the End</pp:title>
+          <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="66">
