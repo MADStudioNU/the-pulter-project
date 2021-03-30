@@ -811,6 +811,13 @@
         <pp:keyword>competition</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
       </pp:keywords>
+      <pp:curations>
+        <pp:curation status="on" hash="flower-people">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Flower People</pp:title>
+          <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="13">
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
