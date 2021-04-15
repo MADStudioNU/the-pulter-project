@@ -340,7 +340,6 @@ div.panel {
 }
 
 /* mirror text */
-
 span.mirror {
   color: #bababa;
   display: block;
@@ -355,6 +354,23 @@ span.centered {
   display: block;
   text-align: center;
 }
+
+/* text with whitespace preserved */
+span.preserve-whitespace-soft {
+  white-space: pre-wrap;
+}
+
+/* special section break */
+span.section-break-three-stars {
+  display: block;
+  text-align: center;
+
+  /* hack for anchor scrolling target to not go behind permanent, z-index header */
+  /* should probably be replaced by scroll-margin-top */
+  padding-top: 15em;
+	margin-top: -15em;
+}
+
 
 /*position:absolute to prevent that adjacent panels get moved on resize*/
 div.panel.ui-resizable {
@@ -810,6 +826,15 @@ span.segnotespan {
   color: #000000;
 }
 
+/* a hack for two successive notes in the TEI with only whitespace in-between,
+    which will be stripped by xslt strip-space since it will not look like a
+    relevant space.
+    -
+ */
+span.notespan + span.notespan {
+    margin-left: .25em;
+}
+
 /* rend=overline / NEW / Matt Taylor / Nov 2017 */
 /* disabled border styling inspired by Newton letters project */
 /* replaced by more standard text decoration specification, Sept 2018 */
@@ -864,6 +889,12 @@ span.fw-sequence-number {
 
 .rend-fancy {
   /* fancy stuff */
+}
+
+/* "attention" is a special attention made to certain text segments, as in some Amplified Editions */
+.rend-attention {
+  color: #eb4c47;
+  font-weight: bold;
 }
 
 .place-above,

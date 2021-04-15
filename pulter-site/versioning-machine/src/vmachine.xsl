@@ -3,9 +3,11 @@
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0"
    xmlns="http://www.w3.org/1999/xhtml">
 
-   <xsl:output method="html" doctype-system="about:legacy-compat"/>
-
-   <!-- <xsl:strip-space elements="*" /> -->
+   <xsl:output omit-xml-declaration="yes" indent="no" method="html" doctype-system="about:legacy-compat"/>
+   <xsl:strip-space elements="*"/>
+   <!-- strip-space was disabled for most of early PP, re-enabled
+         per issue #540, hopefully will only need hack for two
+         successive notes, similar hack found in reading view -->
 
    <!-- IMPORT SETTINGS -->
    <xsl:include href="settings.xsl"/>
@@ -248,13 +250,21 @@
                               </xsl:when>
                               <xsl:when test="@xml:id='ae'">
                                  <xsl:text>Amplified Edition</xsl:text>
+                                 <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                               </xsl:when>
                               <xsl:when test="@xml:id='a2'">
-                                 <xsl:text>Amplified Edition, 2nd</xsl:text>
+                                 <xsl:text>Amplified Edition B</xsl:text>
                               </xsl:when>
                               <xsl:when test="@xml:id='a3'">
-                                 <xsl:text>Amplified Edition, 3rd</xsl:text>
+                                 <xsl:text>Amplified Edition C</xsl:text>
                               </xsl:when>
+                              <xsl:when test="@xml:id='a4'">
+                                 <xsl:text>Amplified Edition D</xsl:text>
+                              </xsl:when>
+                              <xsl:when test="@xml:id='a5'">
+                                 <xsl:text>Amplified Edition E</xsl:text>
+                              </xsl:when>
+
                            </xsl:choose>
                         </a>
                      </div>
@@ -325,13 +335,21 @@
                                    <xsl:text>Elemental Edition Notes</xsl:text>
                                 </xsl:when>
                                 <xsl:when test="@xml:id='ae'">
-                                   <xsl:text>Amplified Edition Notes</xsl:text>
+                                   <xsl:text>Amplified Edition</xsl:text>
+                                   <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
+                                   <xsl:text> Notes</xsl:text>
                                 </xsl:when>
                                 <xsl:when test="@xml:id='a2'">
-                                   <xsl:text>Amplified Edition, 2nd, Notes</xsl:text>
+                                   <xsl:text>Amplified Edition B Notes</xsl:text>
                                 </xsl:when>
                                 <xsl:when test="@xml:id='a3'">
-                                   <xsl:text>Amplified Edition, 3rd, Notes</xsl:text>
+                                   <xsl:text>Amplified Edition C Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='a4'">
+                                   <xsl:text>Amplified Edition D Notes</xsl:text>
+                                </xsl:when>
+                                <xsl:when test="@xml:id='a5'">
+                                  <xsl:text>Amplified Edition E Notes</xsl:text>
                                 </xsl:when>
                              </xsl:choose>
                           </a>
@@ -488,12 +506,19 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Notes: Amplified Edition</xsl:text>
+                  <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
-                  <xsl:text>Notes: Amplified Edition, 2nd</xsl:text>
+                  <xsl:text>Notes: Amplified Edition B</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
-                  <xsl:text>Notes: Amplified Edition, 3rd</xsl:text>
+                  <xsl:text>Notes: Amplified Edition C</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a4'">
+                  <xsl:text>Notes: Amplified Edition D</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a5'">
+                  <xsl:text>Notes: Amplified Edition E</xsl:text>
                </xsl:when>
             </xsl:choose>
          </div>
@@ -662,12 +687,19 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Amplified Edition</xsl:text>
+                  <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
-                  <xsl:text>Amplified Edition, 2nd</xsl:text>
+                  <xsl:text>Amplified Edition B</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
-                  <xsl:text>Amplified Edition, 3rd</xsl:text>
+                  <xsl:text>Amplified Edition C</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a4'">
+                  <xsl:text>Amplified Edition D</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a5'">
+                  <xsl:text>Amplified Edition E</xsl:text>
                </xsl:when>
             </xsl:choose>
          </div>
@@ -683,12 +715,19 @@
                </xsl:when>
                <xsl:when test="@xml:id='ae'">
                   <xsl:text>Amplified Edition</xsl:text>
+                  <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                </xsl:when>
                <xsl:when test="@xml:id='a2'">
-                  <xsl:text>Amplified Edition, 2nd</xsl:text>
+                  <xsl:text>Amplified Edition B</xsl:text>
                </xsl:when>
                <xsl:when test="@xml:id='a3'">
-                  <xsl:text>Amplified Edition, 3rd</xsl:text>
+                  <xsl:text>Amplified Edition C</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a4'">
+                  <xsl:text>Amplified Edition D</xsl:text>
+               </xsl:when>
+               <xsl:when test="@xml:id='a5'">
+                  <xsl:text>Amplified Edition E</xsl:text>
                </xsl:when>
             </xsl:choose>
          </div>
@@ -812,6 +851,7 @@
    </xsl:template>
 
    <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
+      <xsl:param name="witId"/>
       <div id="bibPanel">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
@@ -855,7 +895,9 @@
                         </em>
                         <xsl:text> </xsl:text>
                      </xsl:if>
-                     <xsl:apply-templates/>
+                     <xsl:apply-templates>
+                      <xsl:with-param name="witId" select="$witId"/>
+                     </xsl:apply-templates>
                      <xsl:if test="position() != last()">
                         <hr/>
                      </xsl:if>
@@ -1073,6 +1115,7 @@
    </xsl:template> -->
 
    <xsl:template name="notesPanel">
+      <xsl:param name="witId"/>
       <div id="notesPanel">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
@@ -1103,12 +1146,19 @@
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#ae'">
                               <xsl:text>Amplified Edition</xsl:text>
+                              <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a2'">
-                              <xsl:text>2nd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition B</xsl:text>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a3'">
-                              <xsl:text>3rd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition C</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a4'">
+                              <xsl:text>Amplified Edition D</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a5'">
+                              <xsl:text>Amplified Edition E</xsl:text>
                            </xsl:when>
                         </xsl:choose>
                      </div>
@@ -1174,13 +1224,13 @@
                         <xsl:when test="ancestor::tei:app[@type='title']">
                            <xsl:text>Title note</xsl:text>
                         </xsl:when>
-                        
+
                         <xsl:when test="@type = 'headnote'"> 
                            <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
                         <xsl:when test="@type = 'editorialnote'"> 
                            <xsl:text>Editorial note</xsl:text> 
-                        </xsl:when>                                     
+                        </xsl:when>
                         <xsl:otherwise>
                            <xsl:text><!--Note:--></xsl:text>
                         </xsl:otherwise>
@@ -1204,8 +1254,10 @@
                            <xsl:text>Original gloss note</xsl:text> 
                         </xsl:when>
                      </xsl:choose>
-                  </div>               
-                  <xsl:apply-templates/>
+                  </div>
+                     <xsl:apply-templates>
+                      <xsl:with-param name="witId" select="$witId"/>
+                     </xsl:apply-templates>
                </div>
             </xsl:if>
          </xsl:for-each>
@@ -1216,6 +1268,7 @@
 
 
    <xsl:template name="note-ee">
+      <xsl:param name="witId"/>
       <div id="note-ee">
          <xsl:attribute name="class">
             <xsl:text>ui-widget-content ui-resizable panel noDisplay</xsl:text>
@@ -1246,12 +1299,19 @@
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#ae'">
                               <xsl:text>Amplified Edition</xsl:text>
+                              <xsl:if test="//tei:TEI//tei:witness[@xml:id='a2']"><xsl:text> A</xsl:text></xsl:if>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a2'">
-                              <xsl:text>2nd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition B</xsl:text>
                            </xsl:when>
                            <xsl:when test="ancestor::*/@wit='#a3'">
-                              <xsl:text>3rd Amplified Edition</xsl:text>
+                              <xsl:text>Amplified Edition C</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a4'">
+                              <xsl:text>Amplified Edition D</xsl:text>
+                           </xsl:when>
+                           <xsl:when test="ancestor::*/@wit='#a5'">
+                              <xsl:text>Amplified Edition E</xsl:text>
                            </xsl:when>
                         </xsl:choose>
                         (<xsl:value-of select="translate(ancestor::*/@wit, '#', '')"/>)
@@ -1318,16 +1378,16 @@
                         <xsl:when test="ancestor::tei:app[@type='title']">
                            <xsl:text>Title note</xsl:text>
                         </xsl:when>
-                        
+
                         <xsl:when test="@type = 'headnote'"> 
                            <xsl:text>Headnote</xsl:text> 
                         </xsl:when>
                         <xsl:when test="@type = 'editorialnote'"> 
                            <xsl:text>Editorial note</xsl:text> 
                         </xsl:when>
-                        
 
-                        
+
+
                         <xsl:otherwise>
                            <xsl:text><!--Note:--></xsl:text>
                         </xsl:otherwise>
@@ -1352,7 +1412,9 @@
                         </xsl:when>
                      </xsl:choose>
                   </div>
-                  <xsl:apply-templates/>
+                     <xsl:apply-templates>
+                      <xsl:with-param name="witId" select="$witId"/>
+                     </xsl:apply-templates>
                </div>
             </xsl:if>
          </xsl:for-each>
@@ -1362,8 +1424,11 @@
    </xsl:template>
 
    <xsl:template match="//tei:body//text()[normalize-space()]">
-      <span class="textcontent">
-         <xsl:value-of select="."/>
+      <span>
+        <xsl:attribute name="class">
+          <xsl:text>textcontent</xsl:text>
+        </xsl:attribute>
+        <xsl:value-of select="."/>
       </span>
    </xsl:template>
 
@@ -1492,8 +1557,9 @@
    <xsl:template match="tei:fw"/>
 
    <xsl:template match="tei:note[@type = 'critIntro']//tei:l">
+      <xsl:param name="witId"/>
       <div class="line">
-         <xsl:apply-templates/>
+         <xsl:apply-templates><xsl:with-param name="witId" select="$witId"/></xsl:apply-templates>
       </div>
    </xsl:template>
 
@@ -1554,7 +1620,7 @@
                      <xsl:text> </xsl:text>
                      <xsl:text>with_large_left_marginalia</xsl:text>
                      <xsl:text> </xsl:text>
-                     <xsl:text>with_left_gutter_milestone</xsl:text>                     
+                     <xsl:text>with_left_gutter_milestone</xsl:text>
                   </xsl:if>
                </xsl:attribute>
 
@@ -1710,7 +1776,6 @@
             </xsl:if>
          </hr>
       </xsl:if>
-
    </xsl:template>
 
 
@@ -1943,9 +2008,12 @@
       FOR DETECTING SEGS WITH NOTE TARGETS
    -->
    <xsl:template match="tei:seg[attribute::corresp]">
+      <xsl:param name="witId"/>
       <xsl:comment>SEG TAG MATCHED THAT HAS CORRESP</xsl:comment>
       <span class="segnotespan">
-         <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
       </span>
    </xsl:template>
 
@@ -1960,28 +2028,36 @@
    -->
 
    <xsl:template match="tei:seg[.//tei:note]">
+      <xsl:param name="witId"/>
       <xsl:comment>SEG tag found Containing Note</xsl:comment>
       <span class="notespan"><xsl:call-template name="render_seg_notes">
             <xsl:with-param name="segcontents">
                <xsl:value-of select="."/>
             </xsl:with-param>
-      </xsl:call-template><xsl:apply-templates></xsl:apply-templates></span>
+            <xsl:with-param name="witId" select="$witId"/>
+      </xsl:call-template><xsl:apply-templates><xsl:with-param name="witId" select="$witId"/></xsl:apply-templates></span>
    </xsl:template>
 
    <xsl:template match="tei:seg[not(descendant::tei:note)]">
+    <xsl:param name="witId"/>
       <xsl:comment>SEG found not containing note</xsl:comment>
-      <xsl:apply-templates></xsl:apply-templates>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
    </xsl:template>
 
   <!-- General seg with a "type" attribute -->
   <xsl:template match="tei:seg[attribute::type]">
+    <xsl:param name="witId"/>
     <xsl:element name="span">
       <xsl:attribute name="class">
         <xsl:if test="@type">
           <xsl:value-of select="@type"/>
         </xsl:if>
       </xsl:attribute>
-      <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
     </xsl:element>
   </xsl:template>
 
@@ -1999,10 +2075,36 @@
       <span class="mirror"><xsl:apply-templates></xsl:apply-templates></span>
    </xsl:template>
 
+   <xsl:template match="tei:seg[@rend='preserve-whitespace-soft']">
+      <span class="preserve-whitespace-soft"><xsl:apply-templates></xsl:apply-templates></span>
+   </xsl:template>
+
+   <!-- "nl tac" is combination of 2 css classes introduced with a primacy for the reader view in order to define centered section breaks in the headnote -->
+   <!-- ordinarily, this might have otherwise been defined with a single, or compound-hyphenated word, like 'section-break-three-stars' -->
+   <xsl:template match="tei:seg[@rend='nl tac']">
+    <xsl:param name="witId"/>
+    <xsl:element name="span">
+      <xsl:attribute name="class">
+        <xsl:text>section-break-three-stars</xsl:text>
+      </xsl:attribute>
+      <xsl:if test="@id">
+        <xsl:attribute name="id">
+          <xsl:value-of select="@id"/>
+          <xsl:text>_</xsl:text>
+          <xsl:value-of select="$witId"/>
+        </xsl:attribute>
+      </xsl:if>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
+    </xsl:element>
+   </xsl:template>
+
    <!-- exclude tei:seg ancestors of notes
         matt
         another version with ancestors below -->
    <xsl:template match="tei:note[(not(@type = 'critIntro')) and (not(@type = 'headnote')) and (not(ancestor::tei:seg))]">
+      <xsl:param name="witId"/>
       <div class="noteicon">
          <xsl:choose>
             <xsl:when test="@type = 'critical'">
@@ -2045,14 +2147,16 @@
                   </xsl:when>
                   <xsl:when test="@type = 'textual'">
                      <xsl:text><!--TTextual note:--></xsl:text>
-                  </xsl:when>                  
+                  </xsl:when>
                   <xsl:otherwise>
                      <xsl:text><!--Note:--></xsl:text>
                   </xsl:otherwise>
                </xsl:choose>
             </strong>
             <xsl:text> </xsl:text>
-            <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
          </div>
       </div>
    </xsl:template>
@@ -2097,7 +2201,9 @@
       <xsl:param name="witId"/>
          <button class="headnote">Headnote</button>
          <div class="headnote-text">
-            <xsl:apply-templates></xsl:apply-templates>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
             <br/>
             <xsl:text> — </xsl:text>
             <xsl:for-each select="//tei:witness[@xml:id = $witId]/tei:persName">
@@ -2121,7 +2227,9 @@
       <xsl:param name="witId"/>
       <button class="editorialnote">Editorial note</button>
       <div class="editorialnote-text">
-         <xsl:apply-templates></xsl:apply-templates>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
          <br/>
          <xsl:text> — </xsl:text>
          <xsl:for-each select="//tei:witness[@xml:id = $witId]/tei:persName">
@@ -2142,8 +2250,11 @@
 
    <!-- notes within headnote and editorial note - BETSY - MAY 2018 -->
    <xsl:template match="tei:note[(@type='editorialnote') and (@type='headnote')]//tei:note">
+     <xsl:param name="witId"/>
       <br/>
-      <xsl:apply-templates/>
+         <xsl:apply-templates>
+            <xsl:with-param name="witId" select="$witId"/>
+         </xsl:apply-templates>
    </xsl:template>
 
    <xsl:template match="tei:figure"/>
@@ -2536,6 +2647,20 @@
     </xsl:element>
   </xsl:template>
 
+  <xsl:template match="tei:ref[@type = 'pp-edition-section-ref']">
+    <xsl:param name="witId"/>
+      <a class="link">
+        <xsl:if test="@target">
+          <xsl:attribute name="href">
+            <xsl:value-of select="@target"/>
+            <xsl:text>_</xsl:text>
+            <xsl:value-of select="$witId"/>
+          </xsl:attribute>
+        </xsl:if>
+         <xsl:value-of select="."/>
+      </a>
+  </xsl:template>
+
    <xsl:template match="tei:closer | tei:closer | tei:salute | tei:signed">
       <xsl:param name="witId"/>
       <div>
@@ -2661,7 +2786,7 @@ timelineDurations['</xsl:text>
                      <xsl:attribute name="class">note-entry gloss-original</xsl:attribute>
                      <div class="note-type-header">Textual Note</div>
                   </xsl:when>
-                  
+
                   <xsl:otherwise>
                      <xsl:attribute name="class">note-entry general</xsl:attribute>
                   </xsl:otherwise>
