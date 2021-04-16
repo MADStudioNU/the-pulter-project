@@ -811,7 +811,7 @@
         <pp:keyword>competition</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
       </pp:keywords>
-      <pp:curations>
+<!--      <pp:curations>-->
 <!--        <pp:curation status="on" hash="flower-people">-->
 <!--          <pp:author>Frances E. Dolan</pp:author>-->
 <!--          <pp:title>Flower People</pp:title>-->
@@ -822,7 +822,7 @@
 <!--          <pp:title>The Botanical Blazon</pp:title>-->
 <!--          <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>-->
 <!--        </pp:curation>-->
-      </pp:curations>
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="13">
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
