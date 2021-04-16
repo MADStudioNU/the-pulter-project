@@ -812,15 +812,20 @@
         <pp:keyword>mythology</pp:keyword>
       </pp:keywords>
       <pp:curations>
-        <pp:curation status="on" hash="flower-people">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Flower People</pp:title>
-          <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="the-botanical-blazon">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>The Botanical Blazon</pp:title>
           <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="expanding-our-understanding-of-flora">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Expanding Our Understanding of Flora</pp:title>
+          <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="flower-people">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Flower People</pp:title>
+          <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
