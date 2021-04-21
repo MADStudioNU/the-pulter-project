@@ -2310,7 +2310,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="41">
-      <pp:title>The Invocation of the Elements</pp:title>
+      <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
       <pp:firstLine>Have patience, my afflicted soul</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Nicolaes Maes, Old Woman Saying Grace, Known as “The Prayer without End,” c. 1656. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
