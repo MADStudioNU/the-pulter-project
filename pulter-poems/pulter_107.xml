@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Anna Rebecca Lewis</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">42</fw>[Emblem 42]</rdg>
           <rdg wit="#ee">This Huge Leviathan<lb/>(Emblem 42)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">This Huge Leviathan (Emblem 42)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -157,7 +157,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">This edition modernizes the spelling and punctuation of Pulter’s text in order to make it accessible to a broad readership. I consulted Alice Eardley’s edition of the poem, although my editorial decisions vary significantly from hers (cited as <seg>“Eardley”<note type="gloss"><title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title> (Iter Inc., Centre for Reformation and Renaissance Studies, 2014), pp. 245–6.</note></seg> in this edition). Research on Indigenous whaling practices is hindered by the fact that there are few surviving accounts of whaling in the Americas dating from the seventeenth century and they are authored by European writers who were often at several removes from their reported sources. The term “Indian” features prominently in the poem and the historical texts included in my Curations. The poem seems to be based on a Spanish explorer’s account of a whale hunt by the Tequesta, a tribe that inhabited the southeastern coast of Florida until the mid-eighteenth century (see the Curation <ref type="pp-curations-ref" target="#ctxs">“Whaling Legends”</ref> for further discussion of Pulter’s source material). But Pulter’s subject is the archetypal uncivilized Indian, a fictional character with no relation to the Tequesta. In my notes I have opted to use the descriptor “Indigenous,” with the acknowledgement that this label is also an invention of European colonizers that fails to capture the diversity of the native peoples and cultures existing in America.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -165,7 +165,7 @@
             <note type="headnote">What starts as a lesson in not underestimating a seemingly less powerful foe takes a dramatic turn in this emblem, which becomes a meditation on the unexpected consequences of riding animals: whales, Hydra-like horses, and demonically possessed pigs. Pulter first draws on traveler’s tales to describe the way that Native Americans use their intelligence to overpower and devour whales: after cramming poles up their nostrils, they allegedly ride the whales until they tire and beach themselves. After summing up this fable’s moral—that brains can overcome brawn—the narrator reverses both the rider’s fate and the moral by imagining Oliver Crowell figuratively riding an unruly populace. Unable to control the beast (as Native Americans so ably could), Cromwell is heading to a tragic end that Pulter aligns with the devil driving animals into eternal damnation; turning from horses to swine, Pulter imagines the fate of the nation by recounting the story of Jesus transferring demons from a person into pigs, who then drowned themselves in the ocean. In this unusual emblem, the moral shifts: a warning against pride in brawn in favor of brains converts into a plea to shake off the devil. Humans perhaps only seem superior when we subdue other creatures: we too are vulnerable to being “ridden” by forces beyond our control.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote">This is the second of two emblems Pulter wrote about the leviathan, a sea monster in the Bible that is typically identified with the whale (see also <ref type="pp-poem-ref" corresp="78">“This Vast Leviathan” [Emblem 12]</ref>). The poem is a striking depiction of a whale hunt in which a so-called “Indian” man rides a whale like a horse and kills it by driving wooden stakes into its blowholes. The story can be traced back to Spanish travel narratives of the late sixteenth century, with the hunt supposedly witnessed firsthand by an explorer in Florida. My objective is to offer readers a postcolonial presentation of the text, one that questions European representations of Indigenous peoples. The archival challenges to creating a postcolonial reading are discussed in the Editorial Note. The poem and the texts included in my Curations for this poem illustrate how Indigenous peoples and their ways of life reached the status of myth in Europe by way of explorer publications. This emblem can fruitfully be viewed in the context of early modern literature about North America, in which Christian theology was intertwined with an imperialist agenda. Pulter injects the tale of the whale hunt with allusions to classical mythology and Bible stories. In her hands it becomes fable-like, with the symbolism of the emblem operating on multiple levels; what begins as a classic battle of strength versus wit turns into a warning about the Devil on a sinner’s back. Pulter aligns her English readers with the whale and the Indigenous hunter with the Devil, suggesting that there is also a contest for dominance between European and Indigenous American peoples. Central to the poem is the theme of taming—the danger of being mastered by demonic forces or peoples and the need to bring Indigenous populations under Christian European rule.</note>
           </rdg>
         </app>
       </head>
@@ -174,168 +174,168 @@
         <app>
           <rdg wit="#ft"><fw type="seqNum" place="inline">42</fw>This huge Laviathan for all his Strength</rdg>
             <rdg wit="#ee">This huge <seg>leviathan<note type="gloss">a large sea animal; here, a whale</note></seg>, for all his strength,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This huge <seg>leviathan<note type="gloss">An aquatic animal of monstrous size, often identified with the whale. In the Bible, the leviathan is a creation of God that represents his might, but also sometimes a symbol of evil. See the Curation “The Leviathan and the Bible” below.</note></seg>, for all his strength,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Is by an Indians Witt Subdu’d at <seg>length<note type="physical">“th” written over “ht”</note></seg></rdg>
             <rdg wit="#ee">Is <seg>by an Indian’s wit subdued<note type="critical">In a collection of travel accounts appears a similar story: “The manner the Indians of Florida use … to take these whales … is, they … swimming approach near the whale’s side, then with great dexterity they leap to his neck, and there they ride as on horse-back, … then he thrusts a sharpe and strong stake … into the whale’s nostril, … the whale doth furiously beat the sea, and raiseth mountains of water, running into the deep with great violence, and presently riseth again, not knowing what to do for pain: the Indian still sits firm, … in the end he [the whale] comes near the land, and remains on ground by the hugeness of his body, unable any more to move; then a great number of Indians … kill him, and cut his flesh in pieces, … using it for meate.” Samuel Purchas, ed., <title rend="italic">Purchas his Pilgrims, in Five Books</title> (London, 1625), p. 931. This account derives from the account entitled “Observations … of Josephus Acosta, a Learned Jesuit, Touching the Natural History of … the West Indies” (Book 5, Part 2, Chapter 2, Section 2).</note></seg> at length.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Is by an <seg>Indian’s<note type="gloss">i.e., An Indigenous inhabitant of what is now North America. The original story on which the emblem is based took place in Florida. See the Curation <ref type="pp-curations-ref" target="#ctxs">“Whaling Legends.”</ref></note></seg> wit subdued at length.</rdg>
         </app>
       </l>
       <l n="3">
         <app>
           <rdg wit="#ft">Who can but Such a Monſtr’ous bulk deride</rdg>
           <rdg wit="#ee">Who can but such a monstrous bulk deride,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Who can but such a monstrous bulk <seg>deride<note type="gloss"> Laugh at in contempt or scorn (<title rend="italic">OED</title>, “deride, v.” 1).</note></seg>,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
           <rdg wit="#ft">Who Suffers one upon his Neck to Ride</rdg>
             <rdg wit="#ee">Who <seg>suffers<note type="gloss">tolerates; permits; undergoes or endures, as with pain or distress; sustains injury</note></seg> one upon his neck to ride,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Who <seg>suffers<note type="gloss">Endures or submits to (<title rend="italic">OED</title>, “suffer, v.” 1).</note></seg> one upon his neck to ride,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
           <rdg wit="#ft">Knocking in Billets into either Noſe</rdg>
             <rdg wit="#ee">Knocking in <seg>billets<note type="gloss">thick sticks used as a weapon</note></seg> into either <seg>nose<note type="gloss">nostril</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Knocking in <seg>billets<note type="gloss">A thick stick used as a weapon (<title rend="italic">OED</title>, “billet, n.2” 2). This manner of killing whales was reported in several European travel books in the sixteenth and seventeenth centuries. See the Curation <ref type="pp-curations-ref" target="#ctxs">“Whaling Legends.”</ref></note></seg> into either <seg>nose<note type="gloss"> i.e., nostril (the blowhole of a whale). Baleen whales have two blowholes, while toothed whales have one. Baleen whales feed off of tiny organisms like plankton, krill, and small fish, which are filtered through baleen, long bristles made of keratin blocking the entrance to their mouths.</note></seg>,</rdg>
         </app>
       </l>
       <l n="6">
         <app>
           <rdg wit="#ft">Whence Seas, and Shoals, of &ff;iſhes ever &ff;lows</rdg>
             <rdg wit="#ee">Whence seas and <seg>shoals<note type="gloss">schools</note></seg> of fishes ever flows?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Whence<note type="gloss">From which place.</note></seg> seas and <seg>shoals<note type="gloss">Schools.</note></seg> of fishes ever flows?</rdg>
         </app>
       </l>
       <l n="7">
         <app>
           <rdg wit="#ft">Nor cares hee though hee bounce, or &ff;lounce, or beat,</rdg>
             <rdg wit="#ee">Nor cares <seg>he though he<note type="gloss">The first “he” is the “Indian”; the second is the whale</note></seg> bounce, or flounce, or beat</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor cares <seg>he though he<note type="critical"> The first “he” refers to the hunter and the second to the whale. The pronouns become somewhat confused here, blurring the divide between man and beast. Indigenous peoples were often dehumanized in European writing through the description of them in animalistic terms.</note></seg> bounce, or <seg>flounce<note type="gloss"> Flounder, struggle; typically used to describe horses or aquatic animals (<title rend="italic">OED</title>, “flounce, v.1” 2).</note></seg>, or beat</rdg>
         </app>
       </l>
       <l n="8">
         <app>
           <rdg wit="#ft">Against the Rocks, yet Still hee keeps his Seat</rdg>
           <rdg wit="#ee">Against the rocks, yet still he keeps his seat</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Against the rocks, yet still he keeps his seat</rdg>
         </app>
       </l>
       <l n="9">
         <app>
           <rdg wit="#ft">And Spight of’s teeth hee Rides him to the Shores</rdg>
             <rdg wit="#ee">And spite <seg>of’s<note type="gloss">of his (the whale’s)</note></seg> teeth, he rides him to the shores</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>And spite of’s<note type="gloss"> In spite of his (i.e., the whale’s).</note></seg> <seg>teeth<note type="gloss">The whale has two blowholes, or “nose[s]” (line 5), indicating that it is a baleen whale, but here Pulter refers to its teeth (baleen whales have two blowholes, while toothed whales have one).</note></seg> he rides him to the shores,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
           <rdg wit="#ft">Where &ff;il’d with Horrour hee his Life out Rores</rdg>
             <rdg wit="#ee">Where, filled with horror, <seg>he<note type="gloss">the whale</note></seg> his life <seg>out roars<note type="critical">both figuratively breathing out his life with a loud cry (roaring out) and competitively outroaring his life (uttering a loud cry that extends beyond his life)</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Where, filled with horror, <seg>he<note type="gloss">The whale.</note></seg> his life <seg>outroars<note type="gloss">Cries out. Also used to describe a loud noise of breath escaping (<title rend="italic">OED</title>, “roar, v.1” 1a and 3d). Here the whale roars out as his last breath leaves him.</note></seg>.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
           <rdg wit="#ft">Thus hee Triumphant Lites, thus ends his Toyl</rdg>
             <rdg wit="#ee">Thus <seg>he triumphant lights<note type="gloss">the rider triumphantly dismounts</note></seg>; thus ends his toil,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thus <seg>he<note type="gloss">The "Indian."</note></seg> triumphant <seg>’lights<note type="gloss">Alights, or dismounts.</note></seg>, thus ends his toil,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
           <rdg wit="#ft">Cutting his Unctious Collops out to boyl</rdg>
             <rdg wit="#ee">Cutting his <seg>unctuous collops<note type="gloss">oily, greasy, fat, or rich pieces of flesh or slices of meat</note></seg> out to boil.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Cutting his <seg>unctuous<note type="gloss">Fatty (<title rend="italic">OED</title>,“unctuous, adj.” 1b).</note></seg> <seg>collops<note type="gloss">Slices of meat (<title rend="italic">OED</title>, “collop, n.1” 2).</note></seg> out to boil.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
           <rdg wit="#ft">By this you See that Witt doth oft Subdue</rdg>
           <rdg wit="#ee">By this you see that wit doth oft subdue</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">By this you see that wit doth oft subdue</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">The greatest Strenght this <seg>Elaphants<note type="physical">“s” appears added later, in different hand from main scribe</note></seg> finds True</rdg>
             <rdg wit="#ee">The greatest strength; <seg>this elephants find true<note type="critical">The elephant’s service to humans (construed here as strength being subdued by wit) is recounted in Pliny’s natural history, where we learn that “the king they adore, they kneel before him” and “the lesser sort … serve the Indians in good stead to care and plough their ground.” Philemon Holland, translator (1601), C. Plinius Secundus, <title rend="italic">The Historie of the World</title> (London, 1601), <ref target="https://penelope.uchicago.edu/holland/pliny8.html" type="new-window-url">Book 8, Chapter 1</ref>. Chapter 8 of the same book describes ways of hunting elephants, including one method described as “subtle and deceitful” (and thus full of wit in the early modern sense of the term).</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The greatest strength; this <seg>elephants<note type="critical">Eardley notes that Pulter was familiar with a section of Pliny the Elder’s Natural History about elephants. Pliny claims that elephants, of all the animals in the world, “commeth nearest in wit and capacity to men,” but even they “do whatsoever they are commanded,” serving Indians from the king down to the farmers.<bibl> Philemon Holland (translator), <title rend="italic">The History of the World</title> (London: 1634), Book 8, Chapter 1, p. 192. Via <title rend="italic"><ref target="http://name.umdl.umich.edu/A09763.0001.001" type="new-window-url">Early English Books Online Text Creation Partnership</ref></title>,</bibl></note></seg> find true,</rdg>
         </app>
       </l>
       <l n="15">
         <app>
           <rdg wit="#ft">And Soe the Youths of Theſaly did tame</rdg>
           <rdg wit="#ee">And so the youths of Thessaly did tame</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And so the youths of Thessaly did tame</rdg>
         </app>
       </l>
       <l n="16">
         <app>
           <rdg wit="#ft">The Warlike Horſe, Soe Bulls they overcame</rdg>
             <rdg wit="#ee"><seg>The warlike horse<note type="gloss">An ancient Thessalonian tribe (inhabiting a region in Greece) was renowned for its expert horsemanship.</note></seg>; so bulls they overcame,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The warlike horse; so bulls they overcame,</rdg>
         </app>
       </l>
       <l n="17">
         <app>
           <rdg wit="#ft">Whence cald Centaurus, <del>Soe against their Wills</del></rdg>
             <rdg wit="#ee"><seg>Whence called Centaurus<note type="gloss">The Thessalonian youths who tamed horses and bulls were known as centaurs—mythical creatures with the lower body of horses and the upper body of humans—owing to their expert riding.</note></seg>; so, against their wills,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Whence<note type="gloss">As a result (<title rend="italic">OED</title>, whence, adv. and conj.” 4).</note></seg> called <seg>Centaurs<note type="gloss">creatures in Greek mythology with the upper body of a man and the lower body of a horse. Eardley cites George Sandys’ translation of the origin story of the centaurs by Ovid: Thessaly was a region in northern Greece that became infested with bulls and its ruler, King Ixion, offered a reward to whoever could kill them. The inhabitants of Mount Pelion “gored [the bulls] with their javelins,” and the onlookers in Thessaly were so amazed by their horsemanship that they presumed the men and their horses “to be but one creature,” and henceforth they were called “centaurs.” George Sandys, <title rend="italic">Ovid’s Metamorphosis</title> (Oxford: 1632), Book 12, p. 418. Via <title rend="italic"><ref target="https://hdl.handle.net/2027/uc1.31822009492828?urlappend=%3Bseq=440" type="new-window-url">HathiTrust</ref></title></note></seg>; so against their wills,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
           <rdg wit="#ft"><del>&ff;our Thouſand Whales are forcd to draw in Mills</del></rdg>
             <rdg wit="#ee"><seg>Four thousand whales are forced to draw in mills.<note type="critical">This line and the phrase above, “So against their wills,” are struck through in the manuscript but not, we think erroneously, replaced with new text that would preserve meter and line uniformity. As a marginal note beside <ref type="pp-poem-ref" corresp="86">Raccoons (Emblem 21)</ref> specifies, a popular ethnographic traveller’s book recounted that the Chinese harnessed the labor of four thousand whales to process grain. Eardley identifies the source as Botero Giovanni, <title rend="italic">The Traveler’s Breviat; Or, an Historical Description of the Most Famous Kingdoms in the World</title> (London: 1601), p. 22.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Four thousand whales are forced to <seg>draw<note type="gloss">Pull. Used to describe a draught animal, a working animal such as a horse that draws something like a plough (<title rend="italic">OED</title>, “draw, v.” 2a).</note></seg> in <seg>mills<note type="critical">This sentence has been struck out in the manuscript. Eardley notes that it echoes lines 24–5 of Emblem 21, “Nor one alone could curb so of their wills / Four thousand whales to make them draw in mills,” which lists great feats of strength. Pulter seems to be imagining whales pulling the wheels of mills in order to grind grain. See the Curation <ref type="pp-curations-ref" target="#ctxs">“Whales Working in Mills” to learn more about the inspiration for this image.</ref></note></seg>.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
           <rdg wit="#ft">Then though thy Strength &amp; Courage doe tranſcend</rdg>
           <rdg wit="#ee">Then though thy strength and courage do transcend,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then, though thy strength and courage do <seg>transcend<note type="gloss">Exceed. The strength and courage of the whale surpass those of the hunter, but he is bested by the hunter’s wit</note></seg>,</rdg>
         </app>
       </l>
       <l n="20">
         <app>
           <rdg wit="#ft">Bee not too Proud, nor on them both depend</rdg>
           <rdg wit="#ee">Be not too proud, nor on them both depend;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Be not too proud, nor on them both depend.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
           <rdg wit="#ft">Doe not thy deſpicablest ffoe deſpiſe</rdg>
           <rdg wit="#ee">Do not thy despicablest foe despise,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Do not thy <seg>despicablest<note type="gloss"></note>Exceed. The strength and courage of the whale surpass those of the hunter, but he is bested by the hunter’s wit</seg> <seg>foe<note type="critical"></note>Possibly referring to the Devil, the arch-foe, or arch-enemy, of mankind (<title rend="italic">OED</title>, “foe, n” P1).</seg><seg>despise<note type="critical">“Despise” here means to look down upon, rather than to hate (<title rend="italic">OED</title>, “despise, v.”). Pulter warns her readers not to underestimate their enemies.</note></seg>,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
           <rdg wit="#ft">&ff;or from the Vulgar one you See did Rise</rdg>
             <rdg wit="#ee">For, from <seg>the vulgar<note type="gloss">the common crowd</note></seg>, <seg>one<note type="critical">probably referring to Oliver Cromwell, a non-elite statesman who led Parliamentarians against King Charles I during the English Civil War, and later became Lord Protector.</note></seg> you see did rise,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For from the <seg>vulgar, one<note type="critical"></note>From the vulgar race of the so-called “Indians,” one man did rise.</seg>, you see, did rise</rdg>
         </app>
       </l>
       <l n="23">
         <app>
           <rdg wit="#ft">Which did the &ff;ierce and Monst’rous Hidra back</rdg>
             <rdg wit="#ee">Which did the fierce and monstrous <seg>Hydra back<note type="gloss">The hydra was the many-headed serpent in classical mythology that could grow additional heads when one was cut off; it was commonly used to describe an unruly mob. To “back” was to mount or ride on, but also to support, bet on, or stand behind.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which did the fierce and monstrous <seg>Hydra<note type="critical"></note>A snakelike sea monster in Greek and Roman mythology with many heads that regrew when severed, finally killed by Hercules: “one [head] being cut off, two rose in the room more terrible than the former, which Hercules assailed and destroyed by suddenly cauterizing her headless necks.” Curiously, Pulter’s analogy aligns the Indigenous hunter with Hercules, a revered hero of Western mythology. See <bibl>George Sandys, <title rend="italic">Ovid’s Metamorphosis</title> (Oxford: 1632), Book 9, p. 335. Via <title rend="italic"><ref target="https://hdl.handle.net/2027/uc1.31822009492828?urlappend=%3Bseq=345" type="new-window-url">HathiTrust</ref></title></bibl>. In the Bible, the leviathan is also described as having many heads. See Ps. 74:14 in the Curation <ref type="pp-curations-ref" target="#ctxs">“The Leviathan and the Bible.”</ref></seg> <seg>back<note type="gloss">Mount.</note></seg>.</rdg>
         </app>
       </l>
       <l n="24">
         <app>
           <rdg wit="#ft">The Jade was resty and did Rideing lack</rdg>
             <rdg wit="#ee"><seg>The jade was resty and did riding lack;<note type="gloss">The horse (jade) was resistant or lazy (resty) and had not been ridden much.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The <seg>jade<note type="gloss">“A contemptuous name for a horse; a horse of inferior breed” (<title rend="italic">OED</title>, “jade, n.1” 1a). Here referring to the whale.</note></seg> was <seg>resty<note type="gloss"></note> Rebellious, refusing to advance or obey commands, typically with reference to a horse. (<title rend="italic">OED</title>, “resty, adj.2” 1a).</seg> and did <seg>riding lack<note type="gloss">Was not accustomed to being ridden.</note></seg>.</rdg>
         </app>
       </l>
         <app>
@@ -358,70 +358,71 @@
         <app>
             <rdg wit="#ft">Now the Tame Beast <seg>bot<add place="below">\</add><add place="above">h \</add><note type="physical">insertion marks and “h” in H2</note></seg> Whip &amp; ſpur abides</rdg>
             <rdg wit="#ee">Now the tame beast both whip and spur abides;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Now the tame beast both whip and <seg>spur<note type="gloss">a small, spiked wheel attached to the heel of a horseback rider’s boot. When the rider digs his heels into the horse’s flanks, the spurs urge the horse forward.</note></seg> <seg>abides<note type="gloss">Submits to.</note></seg>;</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Needs must they Gallop, whom <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Devill <seg>drives<note type="physical">“v” may have been written over an original medial “d,” with an initial “d” added later; alternatively, an initial “d” may have been imperfectly erased and blotted, and an original “v” changed to a medial “d.”</note></seg></rdg>
             <rdg wit="#ee"><seg>Needs must they gallop whom the devil drives.<note type="gloss">This is a proverbial expression; the manuscript might be corrected to read “rides” instead of “drives,” or the correction might have been the reverse.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Needs must they gallop whom the Devil <seg>rides<note type="critical">The manuscript here has been corrected, the final word “drives” changed to “rides” or vice versa. This line is based on a proverb, which typically concludes with “drives” (<title rend="italic">OED</title>, “needs, adv.” 5). Pulter may have altered the word to “rides” to rhyme with the previous line. Samuel Purchas cites this proverb in his book Purchas His Pilgrimes: “Needs must they goe whom the diuell driueth.” Eardley cites Purchas as Pulter’s source for this whaling story. See the Curation <ref type="pp-curations-ref" target="#ctxs">“Whaling Legends”</ref>. <bibl><title rend="italic">Purchas His Pilgrimes</title> (London: 1625), Book 1, ch. 3, p. 63, via <title rend="italic"><ref target="http://name.umdl.umich.edu/A71305.0001.001" type="new-window-url">Early English Books Online Text Creation Partnership</ref></title></bibl></note></seg>.</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Soe when hee did poſſes the Heard of Swine</rdg>
             <rdg wit="#ee">So when <seg>he did possess the herd of swine<note type="gloss">This line and the next refers to the biblical account of how Jesus performed an exorcism on a man by transferring the devils possessing him into a herd of swine, who then ran over a cliff and drowned in the sea (see, e.g., Mark 5:2-13). “He” in this line refers to the devil.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">So when <seg>he<note type="gloss">The Devil.</note></seg> did possess the herd of <seg>swine<note type="critical">Eardley notes that this is a reference to a miracle performed by Jesus in which he exorcises a legion of demons from a man and transfers them into a herd of pigs, which become possessed and run into the sea and drown. The story is found in Mark 5:1–20 (included in the Curation <ref type="pp-curations-ref" target="#ctxs">“The Miracle of the Swine”</ref>), Matt. 8:28–34, and Luke 8:26–39.
+            </note></seg>,</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">They Straight Ran Headlong into Neptunes brine</rdg>
             <rdg wit="#ee">They straight ran headlong into <seg>Neptune’s brine<note type="gloss">an epithet for the ocean (with Neptune as its god)</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">They straight ran headlong into Neptune’s <seg>brine<note type="gloss">The sea; Neptune is the Roman god of the sea.</note></seg>.</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">Then let the giddy Monſter warning take</rdg>
             <rdg wit="#ee">Then let the <seg>giddy monster<note type="gloss">Cromwell or any ruler relying on the animalic crowd</note></seg> warning take,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then let the <seg>giddy monster<note type="gloss"> The whale. “Giddy” may refer to either the physical whirling about of the body, or a dizzy, confused state of mind. Derived from the Old English <hi rend="italic">gidig</hi>, meaning insane, or possessed by a god (<title rend="italic">OED</title>, “giddy, adj.” 2).</note></seg> warning take,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Least they precipitate into that Lake</rdg>
             <rdg wit="#ee">Lest they <seg>precipitate<note type="gloss">be thrown suddenly or violently, especially into an undesirable state; fall headlong or plunge; hurry</note></seg> into that lake</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Lest <seg>they<note type="gloss">The Indian and the whale.</note></seg> <seg>precipitate<note type="gloss">Plunge.</note></seg> into that lake</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Where Sulphur mixt <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> never quenched &ff;ire</rdg>
             <rdg wit="#ee"><seg>Where sulfur mixed with never-quenchéd fire<note type="gloss">This line and the next refer to the Christian account of the end of the world when the devil, false prophets, and sinners are all cast into a burning lake of fire (hell). See Revelation 20:10 and 21:8. Sulfur was a substance associated with volcanic regions.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Where <seg>sulphur mixed with never-quenchèd fire<note type="critical">Sulphur is also known as brimstone. In Revelation, the final book of the New Testament, Satan is “cast into the lake of fire and brimstone . . . and shall be tormented day and night for ever and ever” (20:10). Also cast into this lake is a beast of the sea, a demonic monster associated with the Devil. John, the narrator of Revelation, describes the beast in terms similar to the hydra of Greek and Roman mythology: “I . . . saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy . . . And I saw one of his heads as it were wounded to death; and his deadly wound was healed: and all the world wondered after the beast” (Rev. 13:1–3).</note></seg>,</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">Where they <del>ſhall</del><seg><add place="above">Still</add><note type="physical">written directly above cancelled “ſhall,” in H2</note></seg> die yet never quite expire</rdg>
             <rdg wit="#ee">Where they still die, yet never quite expire.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Where they still die, yet never quite expire.</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">Then take my counſell &amp; the &ff;ind <seg>of<note type="physical">trailing descender from “p”above blends into “f”</note></seg> throw</rdg>
             <rdg wit="#ee">Then take my counsel and the <seg>fiend<note type="gloss">the devil</note></seg> off throw,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then take my counsel and the <seg>fiend<note type="gloss">The Devil.</note></seg> <seg>off throw<note type="gloss">Throw off.</note></seg>,</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Least hee and you into perdition goe</rdg>
             <rdg wit="#ee">Lest he and you into perdition go.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Lest he and <seg>you<note type="critical">Pulter’s emblems often conclude with a lesson in morality. In this emblem, she aligns readers with the whale. They should renounce the Devil, who will attempt to steer them onto the path to damnation. But her association of the Devil with an Indigenous man is also suggestive of her anxiety about Indigenous peoples, presented here as a threat to Christian society.</note></seg> into <seg>perdition<note type="gloss">Eternal damnation in hell.</note></seg> go.</rdg>
         </app>
       </l>
         <app>
