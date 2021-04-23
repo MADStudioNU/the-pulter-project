@@ -5605,6 +5605,11 @@
     <pp:poem id="112">
       <pp:title>The Turtle and his Paramour (Emblem 47)</pp:title>
       <pp:firstLine>When as that genial universal fire</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Cherubino Alberti (mogelijk), naar Polidoro da Caravaggio, naar Cherubino Alberti, Apollo en Daphne, ca. 1590-ca. 1600. Rijksmuseum, Amsterdam.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.71379"/>
+        <pp:altText>Apollo pursues Daphne, grasping for her hair as her feet take root and she changes into a laurel.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
