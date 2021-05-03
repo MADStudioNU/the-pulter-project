@@ -3039,6 +3039,13 @@
         <pp:keyword>tears</pp:keyword>
         <pp:keyword>God</pp:keyword>
       </pp:keywords>
+      <pp:curations>
+        <pp:curation status="on" hash="the-crown-imperial-in-the-early-modern-english-imagination">
+          <pp:author>Elisa Tersigni</pp:author>
+          <pp:title>The Crown Imperial in the Early Modern English Imagination</pp:title>
+          <pp:peek>Although not endemic, the “Corona imperialis” (crown imperial) was a known and popular plant in seventeenth-century England. It is not clear precisely when the flower was introduced to Europe, but it was likely in the latter half of the sixteenth century, perhaps through Emperor Maximilian II or his son Rudolf II and their botanists, Rembert Dodoens (Dodoneus) and Charles de l’Ecluse (Clusius).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="54">
       <pp:title>A Solitary Complaint</pp:title>
