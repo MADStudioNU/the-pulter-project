@@ -5816,6 +5816,11 @@
       <pp:title>The Caucasines (Emblem 52)</pp:title>
       <pp:firstLine>The Caucasines with locusts were annoyed</pp:firstLine>
       <pp:editions>
+      <pp:poster>
+        <pp:sourceStatement>Pieter de Jode (II) (toegeschreven aan), Portret van Oliver Cromwell, 1628–1670. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.129840"/>
+        <pp:altText>A portrait of Oliver Cromwell.</pp:altText>
+      </pp:poster>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
