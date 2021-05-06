@@ -5929,6 +5929,11 @@
     <pp:poem id="120">
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>
       <pp:firstLine>Somnus, why art thou still to me unkind?</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Jacob de Gheyn (III), Slaap, 1606-1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.378505"/>
+        <pp:altText>Somnus leans against a wall, sleeping, while a horn releases thick smoke around him.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
