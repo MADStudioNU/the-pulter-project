@@ -835,6 +835,11 @@
           <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>
           <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="images-of-flowers">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Images of Flowers</pp:title>
+          <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="13">
@@ -5747,6 +5752,11 @@
     <pp:poem id="115">
       <pp:title>Phalaris and the Brazen Bull (Emblem 50)</pp:title>
       <pp:firstLine>When Phalaris, for tyranny so famed</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Pierre Woeiriot (II), De stier van Phalaris, 1542–1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41147"/>
+        <pp:altText></pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5815,12 +5825,12 @@
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>
       <pp:firstLine>The Caucasines with locusts were annoyed</pp:firstLine>
-      <pp:editions>
       <pp:poster>
         <pp:sourceStatement>Pieter de Jode (II) (toegeschreven aan), Portret van Oliver Cromwell, 1628–1670. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.129840"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.129840"/>
         <pp:altText>A portrait of Oliver Cromwell.</pp:altText>
       </pp:poster>
+      <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
@@ -5936,7 +5946,7 @@
       <pp:firstLine>Somnus, why art thou still to me unkind?</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Jacob de Gheyn (III), Slaap, 1606-1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.378505"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.378505"/>
         <pp:altText>Somnus leans against a wall, sleeping, while a horn releases thick smoke around him.</pp:altText>
       </pp:poster>
       <pp:editions>
