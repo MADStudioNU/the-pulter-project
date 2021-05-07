@@ -5755,7 +5755,7 @@
       <pp:poster>
         <pp:sourceStatement>Pierre Woeiriot (II), De stier van Phalaris, 1542–1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41147"/>
-        <pp:altText></pp:altText>
+        <pp:altText>Three men force another inside a bull statue while others build a fire beneath it and an enthroned man and followers look on.</pp:altText>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
