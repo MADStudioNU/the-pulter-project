@@ -790,6 +790,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:tags>
         <pp:tag>calcination</pp:tag>
@@ -812,15 +815,30 @@
         <pp:keyword>mythology</pp:keyword>
       </pp:keywords>
 <!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="the-botanical-blazon">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>The Botanical Blazon</pp:title>-->
+<!--          <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="expanding-our-understanding-of-flora">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>Expanding Our Understanding of Flora</pp:title>-->
+<!--          <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>-->
+<!--        </pp:curation>-->
 <!--        <pp:curation status="on" hash="flower-people">-->
 <!--          <pp:author>Frances E. Dolan</pp:author>-->
 <!--          <pp:title>Flower People</pp:title>-->
 <!--          <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>-->
 <!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="the-botanical-blazon">-->
+<!--        <pp:curation status="on" hash="the-flowers-of-pulters-library-myths">-->
 <!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>The Botanical Blazon</pp:title>-->
-<!--          <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>-->
+<!--          <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>-->
+<!--          <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="images-of-flowers">-->
+<!--          <pp:author>Frances E. Dolan</pp:author>-->
+<!--          <pp:title>Images of Flowers</pp:title>-->
+<!--          <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>-->
 <!--        </pp:curation>-->
 <!--      </pp:curations>-->
     </pp:poem>
@@ -2305,7 +2323,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="41">
-      <pp:title>The Invocation of the Elements</pp:title>
+      <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
       <pp:firstLine>Have patience, my afflicted soul</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Nicolaes Maes, Old Woman Saying Grace, Known as “The Prayer without End,” c. 1656. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
@@ -3026,6 +3044,18 @@
         <pp:keyword>tears</pp:keyword>
         <pp:keyword>God</pp:keyword>
       </pp:keywords>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="the-crown-imperial-in-the-early-modern-english-imagination">-->
+<!--          <pp:author>Elisa Tersigni</pp:author>-->
+<!--          <pp:title>The Crown Imperial in the Early Modern English Imagination</pp:title>-->
+<!--          <pp:peek>Although not endemic, the “Corona imperialis” (crown imperial) was a known and popular plant in seventeenth-century England. It is not clear precisely when the flower was introduced to Europe, but it was likely in the latter half of the sixteenth century, perhaps through Emperor Maximilian II or his son Rudolf II and their botanists, Rembert Dodoens (Dodoneus) and Charles de l’Ecluse (Clusius).</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="tears-and-ink">-->
+<!--          <pp:author>Elisa Tersigni</pp:author>-->
+<!--          <pp:title>Tears and Ink</pp:title>-->
+<!--          <pp:peek>The tears-as-ink metaphor enacts crying, weeping, and sobbing, all of which had complicated and sometimes contradictory meanings. Early-modern poets played with the humoral relationship between ink and bodily fluids, including blood, sweat, and tears.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="54">
       <pp:title>A Solitary Complaint</pp:title>
@@ -3106,6 +3136,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Kenneth Graham</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>worship</pp:keyword>
@@ -5444,6 +5477,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Anna Rebecca Lewis</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
@@ -5594,6 +5630,11 @@
     <pp:poem id="112">
       <pp:title>The Turtle and his Paramour (Emblem 47)</pp:title>
       <pp:firstLine>When as that genial universal fire</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Cherubino Alberti (mogelijk), naar Polidoro da Caravaggio, naar Cherubino Alberti, Apollo en Daphne, ca. 1590-ca. 1600. Rijksmuseum, Amsterdam.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.71379"/>
+        <pp:altText>Apollo pursues Daphne, grasping for her hair as her feet take root and she changes into a laurel.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5711,6 +5752,11 @@
     <pp:poem id="115">
       <pp:title>Phalaris and the Brazen Bull (Emblem 50)</pp:title>
       <pp:firstLine>When Phalaris, for tyranny so famed</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Pierre Woeiriot (II), De stier van Phalaris, 1542–1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41147"/>
+        <pp:altText>Three men force another inside a bull statue while others build a fire beneath it and an enthroned man and followers look on.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5779,6 +5825,11 @@
     <pp:poem id="117">
       <pp:title>The Caucasines (Emblem 52)</pp:title>
       <pp:firstLine>The Caucasines with locusts were annoyed</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Pieter de Jode (II) (toegeschreven aan), Portret van Oliver Cromwell, 1628–1670. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.129840"/>
+        <pp:altText>A portrait of Oliver Cromwell.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5893,6 +5944,11 @@
     <pp:poem id="120">
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>
       <pp:firstLine>Somnus, why art thou still to me unkind?</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Jacob de Gheyn (III), Slaap, 1606-1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.378505"/>
+        <pp:altText>Somnus leans against a wall, sleeping, while a horn releases thick smoke around him.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>

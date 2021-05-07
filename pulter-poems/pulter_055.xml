@@ -124,7 +124,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+<!--          <witness xml:id="ae">Amplified edition: By <persName>Kenneth Graham</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -146,7 +146,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">147</fw>[Untitled]</rdg>
             <rdg wit="#ee">Must I Thus Ever Interdicted Be</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">Must I thus ever interdicted be?</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -155,7 +155,8 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">This is a modern (Canadian) spelling edition, punctuated according to current conventions. I have silently retained archaic words (“thee,” “thy”) and forms (“Have … took”) when the sense remains clear to modern readers. I have also modernized texts cited in the notes. References to the Bible are to the 1611 Authorized Version (the King James Bible).
+              </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -163,7 +164,15 @@
               <note type="headnote">In tense, terse rhyming tercets, the speaker objects to her interdiction (or prohibition) from religious “comforts.” She complains that God restrains his “ordinances,” but it may be that her all-too-human fellows had a hand in the matter: Elizabeth Clarke has argued that the vicar of Pulter’s church may not have shared her sense of how to celebrate Communion, at a time when such matters divided a nation at war (115). So little or so much may have been enough to keep Pulter from attending church; and, if so, may have been yet another cause of the confinement she laments in other poems. Here, too, she seeks the restoration of the privilege of moving freely, as birds do, in God’s “sacred temple”: whether an actual church, membership therein, or more abstractly, creation as a whole. Until then, she seeks spiritual sustenance, possibly in such complaints as this one, the earthly form of the “hallelujahs” she promises one day to proffer in return for God’s pardon and pity.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote"> <p>At the heart of Poem 55 lies the chief mystery of Pulter’s lyrics: why was she “confined to this sad grove” (<ref type="pp-poem-ref" corresp="54">A Solitary Complaint</ref>, l.1) and perhaps unable to attend church for some period of time? The surrounding poems provide no clues. In Poem 54, Pulter refers to her confinement in terms so general that they may be meant to describe nothing less than the state of corporeal existence. Poem 56, a dialogue between two of Pulter’s daughters, mentions her only in the final line, where we hear that “she’s alone” (<ref type="pp-poem-ref" corresp="56"> A Dialogue Between Two Sisters, Virgins Bewailing Their Solitary Life</ref>, l.54). Poem 57 teases the reader before declining to solve the mystery. After comparing her solitary confinement to the freedom and fellowship enjoyed by numerous animals, Pulter lists things that are <hi rend="italic">not</hi> responsible for her confinement, then censors herself in a way that suggests some shame would follow if she revealed her secret: “But ’tis, O my sad soul—I’ll say no more. / To God alone my suff’rings I’ll deplore” (<ref type="pp-poem-ref" corresp="57"> Why Must I Thus Forever Be Confined</ref>, ll.99-100). The poem prepares for a revelation that never comes.</p> 
+                <p>Although we can’t be certain that it addresses the same biographical situation as these poems, Poem 55 suggests a possible explanation: Pulter may have faced corrective discipline from her local church. In early modern England, a national system of church courts still oversaw and regulated many aspects of daily life, punishing such transgressions as heresy, blasphemy, defamation, drunkenness, and sexual immorality. Those found guilty faced penalties ranging from admonition and penance to suspension (which prevented offenders from attending church) and excommunication (which meant separation from Christian society). Between 1646 and 1660, however, the church courts were formally abrogated, leaving individual churches to manage their own discipline. As Bernard Capp notes, exclusion from the sacraments “was now the strongest disciplinary sanction the clergy possessed, and many were determined to use it to best advantage” (<bibl><title rend="italic">England’s Culture Wars: Puritan Reformation and its Enemies in the Interregnum, 1649-1660</title> [Oxford University Press, 2012], 124</bibl>). Given her royalism and possible Laudian sympathies, Pulter may have clashed with the minister of her parish church, Thomas Gardiner, a Presbyterian, and that disagreement may have led Gardiner to censure her (on Pulter and Laudianism, see Elizabeth Clarke, “Women in Church and in Devotional Spaces.” In <title rend="italic">The Cambridge Companion to Early Modern Women’s Writing</title>, edited by Laura Lunger Knoppers. Cambridge: Cambridge University Press, 2009, 115; and <bibl>Alice Eardley, Introduction, <title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, Toronto: Iter and Centre for Reformation and Renaissance Studies, 2014, 13-21</bibl>).</p>
+                <p>Poem 55 offers evidence that Pulter was excluded from the sacraments and possibly prevented from attending church. She begins by asking if she must “ever” be “interdicted,” which in an ecclesiastical context usually means to be excluded from the services of the church. The second stanza suggests that the interdiction applies in particular to the sacraments: the “sacred pledges” of line 4 likely denote the Eucharistic bread and wine, and “ordinances” in line 6 refers to religious observances and ceremonies, including the sacraments. Stanza four’s contrast between the speaker and birds that move freely inside the church suggests that church attendance, too, may have been forbidden Pulter. But the poem leaves the mystery largely intact, raising more questions than it answers. Because there is no antecedent for “thus” (l.1), the poem’s opening lacks specificity (compare the similar first line of Poem 57, “Why must I thus forever be confined”). Who has interdicted her, how, and for how long? The interrogative mood continues in the second stanza, where the speaker seems to cast about for an explanation. Pulter’s poem here resembles one of its possible sources, Mary Sidney Herbert’s translation of Psalm 84, which asks: “Ah! Why should I / From altars thine excluded lie?” (<bibl><title rend="italic">The Sidney Psalter</title>, ed. Hannibal Hamlin, Michael G. Brennan, Margaret P. Hannay, and Noel J. Kinnamon [Oxford University Press, 2009], 163</bibl>). We never learn why. </p>
+                <p>The poem’s relative opacity about these matters leaves open an alternative possibility: Pulter, at odds with the style of worship being practiced in her parish church, may have chosen not to attend its services. In this case “interdicted” would refer not to an action taken against Pulter but to the general state of affairs in which her preferred liturgy, based on the Book of Common Prayer, had been abolished. “[T]hy sacred pledges” and “thine ordinances” would then refer to aspects of true worship believed by Pulter to be temporarily absent. Pulter wrote the poem at a time when many held strong feelings about what constituted a true church, denying legitimacy to churches they felt lacked the essential components of “thy sacred Word” truly preached and the sacraments properly administered. Pulter may have believed that, for her to be restored to “thy Church,” her church would have to restore Word and Sacrament in the forms she believed necessary.</p>
+               <p> Either way, probing the poem’s mysteries reveals a submerged tension between God and the church, an institution with the potential either to connect her to or to separate her from God. Throughout the poem, Pulter carefully avoids attributing agency to the church authorities who may have censured her, and she repeatedly bypasses their authority in order to address God directly. The second and third lines pointedly state that she will complain “to thee and only thee,” which invites us to ask to whom else she might complain. One obvious answer is the church, so the line carries a hint of defiance, a hint that is amplified if the questions of the second stanza are rhetorical. Whether we so hear them or not, the agency of the interdict has moved entirely to God by line 6, where “thus” is repeated, now firmly tied to God’s action of restraining his ordinances. Pulter continues to foreground God’s agency in the third stanza, where she implores his mercy to restore her to the church, and in the fifth stanza, where she prays his spirit to sustain her soul. But the agency of the church continues to haunt the poem as an unstated presence. Who or what keeps Pulter from what she loves in line 12? How will she “reattain” the “comforts” of the church in line 14? Why did she “part with them” (l.15) in the first place? By whom or what has her soul been “captivated” (l.16)? </p>
+                <p>The subtle tension between the church’s agency and authority and God’s again plays itself out in the poem’s second half at the affective level. The separation from the church that the speaker laments is amatory: “I—ay me!—am kept from what I love” (l.12). To be deprived of what she loves is to be deprived of its “comforts,” and the loss makes her “sad” (ll.13-14). Her loss of the church’s comforts is related to her loss of God, who is of course included in “what I love,” but it is not identical to it. In fact, the poet hasn’t entirely lost God, who appears in the poem as a spirit, as a saviour, and as a gracious judge who hears complaints and grants mercy—in other words, all three persons of the Trinity are present in the poem, and all appear to be present to Pulter. So why is a church’s interdict so concerning? Here the poem implicitly asks about the church’s role in mediating access to the divine—one of the central questions posed by the Protestant Reformation. Can God be known outside the church? Is loving the church the same as loving God? </p>
+              <p>  As if to address such questions, the last two stanzas establish a hierarchy of comforts that places God emphatically both before and above the church. They do so in a way common in Pulter’s poems, through chronology. Three times are imagined and sequenced through a repeated temporal construction. The first time is now—the time of writing—when God’s spirit sustains the poet. This time will last “Until” (l.14) she reattains the comforts of the church. This second time (“Then” in line 15) will last “Until” (l.16) she is finally freed by death, which will initiate a third time—eternity (“Then” in line 17)—when she will sing God’s praises. Line 17’s distant echo of Line 1’s “ever” marks the superiority of this eternal time to the temporary phase of interdiction, and answers the first line’s question—in the negative. Finally, Pulter’s indication that even a soul in church remains “captivated” asserts emphatically that, whatever comforts the church may offer, they are inferior to those that will be revealed after death.</p>
+              
+              </note>
           </rdg>
         </app>
       </head>
@@ -172,126 +181,127 @@
         <app>
             <rdg wit="#ft">Must I thus ever interdicted bee</rdg>
             <rdg wit="#ee">Must I thus ever <seg>interdicted<note type="gloss">forbidden or restrained from something; in the church, cut off from offices or privileges</note></seg> be,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Must I thus <seg>ever<note type="critical">possibly in the sense of “forever,” but possibly meaning “constantly, incessantly.” The contrast with the use of “ever” in line 17, where the sense of “forever” is undeniable, points out that this interdict will not last forever.</note></seg> <seg>interdicted<note type="gloss">forbidden, debarred; from the ecclesiastical sense of the verb <hi rend="italic">interdict</hi>, “To cut off authoritatively from religious offices or privileges” (OED 3).</note></seg> be?</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">My Gracious God to thee and onely thee</rdg>
             <rdg wit="#ee">My gracious God? To Thee and only Thee</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">My gracious God, to thee and only thee</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">I will complain pardon and pitty mee</rdg>
             <rdg wit="#ee">I will complain: pardon and pity me.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">I will complain. Pardon and pity me.</rdg>
         </app>
       </l></lg>
      <lg n="2" type="stanza"> <l n="4">
         <app>
             <rdg wit="#ft">Have I thy Sacred Pledges took in vain</rdg>
             <rdg wit="#ee">Have I Thy <seg>sacred pledges<note type="gloss">possibly a reference to marriage vows, or others associated with being a good Christian</note></seg> took in vain,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Have I thy <seg>sacred pledges<note type="critical">The most likely sense of <hi rend="italic">pledges</hi> is “A thing given or taken as a sign or token of favour, loyalty, love, etc., or as a guarantee of something to come” (OED 4.a), possibly referring here to the bread and wine taken in Communion, as in “The Order of the Ministration of the Holy Communion” in the Book of Common Prayer: “he hath instituted and ordained holy mysteries, as pledges of his love, and continual remembrance of his death, to our great and endless comfort” (<bibl><title rend="italic">The Book of Common Prayer, 1559</title>, ed. John E. Booty [University of Virginia Press, 1976], 259</bibl>). The Prayer Book’s role in church liturgy had been abolished in 1645, but in the second half of the seventeenth century the phrase sacred pledges frequently referred to the Eucharistic elements. For example, in <title rend="italic">The Rule and Exercises of Holy Dying</title> (1651) Jeremy Taylor emphasizes the need to be “worthy communicants of these sacred pledges” in his discussion of “the holy sacrament … of Christ’s body and blood” (280). </note></seg> took in vain,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Or Heard thy Bleſſed word applauſ to gain</rdg>
             <rdg wit="#ee">Or heard Thy blessed word applause to gain,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or heard <seg>thy blessed Word<note type="gloss">the Bible, especially as preached and so “heard.”</note></seg> applause to gain,</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">That thou dost thus thine Ordinances re<add place="below">^</add><add place="above">strain</add></rdg>
             <rdg wit="#ee">That Thou dost thus Thine <seg>ordinances<note type="gloss">authoritative decrees, plans, or arrangements; religious observances, such as the sacraments</note></seg> restrain?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That thou dost thus thine <seg>ordinances<note type="gloss">OED 3.a, “That which is ordained or decreed by God,” and 4.a, “A practice or usage authoritatively enjoined or prescribed; <hi rend="italic">esp</hi>. a religious or ceremonial observance, as the sacraments,” are both relevant.</note></seg> <seg>restrain<note type="gloss">limit or withhold, possibly with the legal sense of prohibiting (OED 1.c).</note></seg>?</rdg>
         </app>
       </l></lg>
     <lg n="3" type="stanza">  <l n="7">
         <app>
             <rdg wit="#ft">If it bee Soe thy mercy I implore</rdg>
             <rdg wit="#ee">If it be so, Thy mercy I implore,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">If it be so, thy mercy I implore</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">To lay my Sins upon my Saviours Score</rdg>
             <rdg wit="#ee"><seg>To lay my sins upon my Savior’s score<note type="gloss">To let Christ take on the weight of her sins, in his role as redeemer with God of sinful humanity</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To lay my sins upon my Saviour’s <seg>score<note type="gloss">account. Like the term <hi rend="italic">redemption</hi>, “To lay my sins upon my Saviour’s score” is a financial metaphor in which Christ pays for the sins of others, which here are placed on his account.</note></seg>,</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">And mee unto thy Church again Restore</rdg>
             <rdg wit="#ee">And me unto Thy church again restore.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And me unto thy Church again restore.</rdg>
         </app>
       </l></lg>
     <lg n="4" type="stanza">  <l n="10">
         <app>
             <rdg wit="#ft">The wanton Sparrow and the Chaster Dove</rdg>
             <rdg wit="#ee">The <seg>wanton sparrow<note type="gloss">The sparrow was frequently associated with lust in other texts of the period, such as <title rend="italic">An History of the Wonderful Things of Nature</title>, which calls the sparrow “the lust fullest almost of all Birds” (Joannes Jonstonus, 1657, p. 190).</note></seg> and the <seg>chaster dove<note type="gloss">The turtledove was understood to mate for life.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>The wanton sparrow and the chaster dove<note type="critical">Sparrows are proverbially lecherous, while doves are symbols of marital fidelity (see Pulter’s <ref type="pp-poem-ref" corresp="85">This Poor Turtledove (Emblem 20)</ref>, line 1, “Who can but pity this poor turtledove,” and line 9, “that wanton and licentious bird”). Both are biblical birds sometimes found inside cathedrals and large churches, a fact mentioned in the Psalms: “Yea, the sparrow hath found an house, and the swallow a nest for herself, where she may lay her young, <hi rend="italic">even</hi> thine altars, O Lord of hosts, my King, and my God. Blessed <hi rend="italic">are</hi> they that dwell in thy house: they will be still praising thee” (Psalm 84:3-4). There is some irony or sense of unfairness in the contrast, since “ye are of more value than many sparrows” (Matthew 10:31; Luke 12:7).</note></seg></rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Within thy Sacred Temple &ff;reely move</rdg>
             <rdg wit="#ee">Within Thy sacred <seg>temple<note type="critical">The “temple” here is as apt to be the created world (“sacred” because God-given) as it is to refer to a church (where birds might also be found).</note></seg> freely move;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Within thy sacred temple <seg>freely<note type="critical">The contrast between Pulter’s restricted movement and the birds’ freedom to move within the temple has roots in psalm culture. According to a marginal note to Psalm 84 in the Geneva Bible, “the poor birds have more liberty than I.” Some translators incorporated this idea into the text of the psalm. Mary Sidney Herbert, for example, wrote that “The sparrow knoweth / The house where that free and fearless she resideth,” and John Milton refers to “the Sparrow freed from wrong” in his version (<bibl><title rend="italic">The Sidney Psalter</title>, ed. Hannibal Hamlin, Michael G. Brennan, Margaret P. Hannay, and Noel J. Kinnamon [Oxford University Press, 2009], 163</bibl>; <bibl>John Milton: <title rend="italic">Complete Poems and Major Prose</title>, ed. Merritt Y. Hughes [Odyssey Press, 1957], 154</bibl>).
+          </note></seg> move,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">But I ay mee am kept from what I Love</rdg>
             <rdg wit="#ee">But I (ay me!) am kept from what I love.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But I—ay me!—am kept from what I love.</rdg>
         </app>
       </l></lg>
   <lg n="5" type="stanza">    <l n="13">
         <app>
             <rdg wit="#ft">O let thy Spirit my Sad Soul Suſtain</rdg>
             <rdg wit="#ee">O, let Thy Spirit my sad soul sustain</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">O let <seg>thy Spirit<note type="critical">the Holy Spirit; traditionally, the third person of the Trinity.</note></seg> my sad soul sustain</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Untill thoſe comforts I doe Reatain</rdg>
             <rdg wit="#ee">Until those comforts I do reattain;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Until those comforts I do reattain.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Then let mee never part with them again</rdg>
             <rdg wit="#ee">Then let me never part with them again</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then let me never part with them again</rdg>
         </app>
       </l></lg>
    <lg n="6" type="stanza">   <l n="16">
         <app>
             <rdg wit="#ft">Untill my Captivated Soul takes wing</rdg>
             <rdg wit="#ee">Until my captivated soul takes wing;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Until my <seg>captivated<note type="gloss">made captive, enthralled. For a possibly related poetic treatment of “Hester” as “A captive maid,” see <bibl>Francis Quarles, <title rend="italic">Emblemes</title> (1635), Book 4, Emblem VI</bibl>.</note></seg> soul takes wing.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Then will I Halelujahs ever Sing</rdg>
             <rdg wit="#ee">Then will I <seg>hallelujahs<note type="gloss">exclamations or songs in praise of God</note></seg> ever sing</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then will I hallelujahs ever sing</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">To thee my Gracious <seg><add place="below">\</add><add place="above">God \</add><note type="physical">in different hand from main scribe</note></seg> and Glorious <seg>King<note type="physical">first punctuation likely a period, changed to exclamation mark by lighter ink. Reverse of page blank.</note></seg>!</rdg>
             <rdg wit="#ee">To Thee, my gracious God and glorious king.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To thee, my gracious God and glorious king!</rdg>
         </app>
       </l></lg>
         <app>
@@ -302,3 +312,4 @@
     </body>
   </text>
 </TEI>
+
