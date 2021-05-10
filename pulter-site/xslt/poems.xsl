@@ -840,6 +840,11 @@
           <pp:title>Images of Flowers</pp:title>
           <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="other-garden-poems">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Other Garden Poems</pp:title>
+          <pp:peek>Many seventeenth-century writers wrote poems about gardens: as familiar, beloved spaces, sites of work (viewed positively or negatively), aspirations of pleasurable occupation, emblems of paradise, and models of human cognition and cultivation.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="13">
