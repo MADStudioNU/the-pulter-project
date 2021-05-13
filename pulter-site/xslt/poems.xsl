@@ -845,6 +845,11 @@
           <pp:title>Other Garden Poems</pp:title>
           <pp:peek>Many seventeenth-century writers wrote poems about gardens: as familiar, beloved spaces, sites of work (viewed positively or negatively), aspirations of pleasurable occupation, emblems of paradise, and models of human cognition and cultivation.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="parliaments-of-flowers">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Parliaments of Flowers</pp:title>
+          <pp:peek>Poems that script the exchanges among “parliaments” of beasts, fowl, flowers, women or other unlikely politicians and speakers stretch back at least as far as Chaucer’s late fourteenth-century “Parliament of Fowls.” In the 1650s and 1660s, following the English Civil Wars between king and Parliament, the term was newly topical. Pulter is not the only English writer in the period to give voice to contentious flowers.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="13">
