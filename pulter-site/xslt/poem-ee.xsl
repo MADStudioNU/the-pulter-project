@@ -950,6 +950,16 @@
     </xsl:element>
   </xsl:template>
 
+  <!-- Lines inside quotes -->
+  <xsl:template match="tei:quote//tei:lg/tei:l">
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'l'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <!-- TEI -> HTML -->
   <xsl:template match="tei:p | tei:u">
     <xsl:param name="witId"/>
