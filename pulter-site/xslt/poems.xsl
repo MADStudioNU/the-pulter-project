@@ -835,11 +835,6 @@
           <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>
           <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="images-of-flowers">
-          <pp:author>Frances E. Dolan</pp:author>
-          <pp:title>Images of Flowers</pp:title>
-          <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
-        </pp:curation>
         <pp:curation status="on" hash="other-garden-poems">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Other Garden Poems</pp:title>
@@ -849,6 +844,11 @@
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>Parliaments of Flowers</pp:title>
           <pp:peek>Poems that script the exchanges among “parliaments” of beasts, fowl, flowers, women or other unlikely politicians and speakers stretch back at least as far as Chaucer’s late fourteenth-century “Parliament of Fowls.” In the 1650s and 1660s, following the English Civil Wars between king and Parliament, the term was newly topical. Pulter is not the only English writer in the period to give voice to contentious flowers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="picturing-pulters-flowers">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Picturing Pulter’s Flowers</pp:title>
+          <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
