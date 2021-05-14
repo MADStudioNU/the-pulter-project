@@ -1028,6 +1028,16 @@
     </xsl:element>
   </xsl:template>
 
+  <!-- Lines inside quotes -->
+  <xsl:template match="tei:quote//tei:lg/tei:l">
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'l'"/>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="tei:p | tei:u">
     <xsl:param name="witId"/>
     <!-- We cannot use the HTML <p>...</p> element here because of the

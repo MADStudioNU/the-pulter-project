@@ -36,5 +36,11 @@ Use this one-liner to publish the site: `gulp xslt:manifest; gulp xslt; gulp dep
 Branch `master` is deployed to the [production site](https://pulterproject.northwestern.edu/#poems).
 
 #### Current Delta
-Poems that are published on the preview site but not on the production site.
-> A12 C12s A107
+Poems that are published on the preview site but not on the production site:
+> A12 A107
+
+Curations:
+> C12s
+
+Explorations:
+> picturing-pulter, what-else...
