@@ -238,14 +238,24 @@ a.pp-poem-ref {
 }
 
 a.pp-curation-ref,
-a.pp-curation-ref:hover,
-a.pp-curation-ref:active,
-a.pp-curation-ref:visited {
+a.pp-exploration-ref,
+a.pp-curations-ref {
   font-weight: bold;
-  color: #222;
-  //background: #ece9e2;
-  //padding: 0 .25em;
-  //border-radius: 2px;
+  padding: 0 .25em;
+  border-radius: 2px;
+  color: darken($pp_manuscriptInk, 2%);
+  background: rgba($pp_manuscriptPaper, .25);
+  border: 1px solid rgba($pp_manuscriptInk, .25);
+  @include transition(color .2s);
+
+  &:hover {
+    color: #181818;
+  }
+
+  &:active,
+  &:visited {
+    color: darken($pp_manuscriptInk, 1%);
+  }
 }
 
 .pp-poem-ref-button {
