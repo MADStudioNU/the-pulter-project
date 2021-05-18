@@ -5510,6 +5510,13 @@
         <pp:tag>pigs</pp:tag>
         <pp:tag>whale</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="whaling-legends">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Whaling Legends</pp:title>
+          <pp:peek>Many incarnations of a strange tale of a whale hunt seem to have originated from a Spanish explorer in the late sixteenth century; Pulter’s “This Huge Leviathan” (Emblem 42) is one of them.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
