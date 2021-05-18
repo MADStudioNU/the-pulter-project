@@ -40,7 +40,7 @@ Poems that are published on the preview site but not on the production site:
 > A12 A107
 
 Curations:
-> C12s
+> C12s C107s
 
 Explorations:
 > picturing-pulter, what-else...
