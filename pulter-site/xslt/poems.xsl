@@ -5029,6 +5029,11 @@
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
       <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
+       <pp:poster>
+        <pp:sourceStatement>Theodor de Bry, naar Jean Jacques Boissard, De dood van Aischylos, 1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.314364"/>
+        <pp:altText>Aeschylus sits with a book while a man and woman point at him as a bird drops a tortoise on Aeschylus's head.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
