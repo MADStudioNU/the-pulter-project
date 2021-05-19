@@ -5551,9 +5551,10 @@
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
       <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
-      <pp:poster>
-        <pp:sourceStatement>Jan Brandes, Een tonijn, een haai en een remora, 1788. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.214530"/>
+       <pp:poster>
+        <pp:sourceStatement>Christoffel van Sichem (II), after Philips Galle, after Maarten van Heemskerck, Mordekai in rouwkleren, 1645-1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.592084"/>
+        <pp:altText>Foregrounded against stairs and arcades, a man in robes wrings his hands and lowers his head while another figure looks on.</pp:altText>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
