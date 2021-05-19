@@ -5617,6 +5617,11 @@
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
       <pp:firstLine>In Mainz, when corn was grown excessive dear</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Hatto, Archbishop of Mainz, illustrated in Nuremberg Chronicle (1493), by Hartmann Schedel. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="https://upload.wikimedia.org/wikipedia/commons/3/36/Nuremberg_chronicles_-_Hatto%2C_Archbishop_of_Mainz_%28CLXXXIIv%29.jpg"/>
+        <pp:altText>A bishop holding his crozier is overrun by black rats.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
