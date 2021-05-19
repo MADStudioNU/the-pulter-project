@@ -4503,7 +4503,7 @@
       <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Twee olifanten in een landschap, Herman Saftleven, 1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.32a3677"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.32a3677"/>
         <pp:altText>Two elephants, one in the forground, the other in the background.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5031,7 +5031,7 @@
       <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
        <pp:poster>
         <pp:sourceStatement>Theodor de Bry, naar Jean Jacques Boissard, De dood van Aischylos, 1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.314364"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.314364"/>
         <pp:altText>Aeschylus sits with a book while a man and woman point at him as a bird drops a tortoise on Aeschylus's head.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5147,7 +5147,7 @@
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Pieter van der Borcht (I), November,  1545-1608. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.collect.85302"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.85302"/>
         <pp:altText>Men shake acorns from a tree while pigs eat them and women collect them.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5509,7 +5509,7 @@
       <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Gilliam van der Gouwen, naar Jacob Matham, Gestrande walvis bij Berckhey, 1598, 1679–1681. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.117965"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117965"/>
         <pp:altText>A dead sperm whale is climbed and observed on a crowded beach.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5553,7 +5553,7 @@
       <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
        <pp:poster>
         <pp:sourceStatement>Christoffel van Sichem (II), after Philips Galle, after Maarten van Heemskerck, Mordekai in rouwkleren, 1645-1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.592084"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.592084"/>
         <pp:altText>Foregrounded against stairs and arcades, a man in robes wrings his hands and lowers his head while another figure looks on.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5586,7 +5586,7 @@
       <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.168157"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168157"/>
         <pp:altText>A phoenix, with wings spread, perched on a flaming pile of sticks.</pp:altText>
       </pp:poster>
       <pp:editions>
