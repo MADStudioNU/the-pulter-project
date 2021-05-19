@@ -4501,6 +4501,11 @@
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
       <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Twee olifanten in een landschap, Herman Saftleven, 1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.32a3677"/>
+        <pp:altText>Two elephants, one in the forground, the other in the background.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
