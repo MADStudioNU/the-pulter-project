@@ -5589,6 +5589,11 @@
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
       <pp:firstLine>Aristomenes, his strange ambiguous fate</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Adriaen Collaert, naar Maerten de Vos,  Jeremia wordt uit de put gehaald, 1643. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.331426"/>
+        <pp:altText>Jeremiah is hoisted out of the dungeon of Jerusalum as the king and soldiers watch.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
