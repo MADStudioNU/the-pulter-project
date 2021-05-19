@@ -5492,6 +5492,11 @@
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
       <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Gilliam van der Gouwen, naar Jacob Matham, Gestrande walvis bij Berckhey, 1598, 1679–1681. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.117965"/>
+        <pp:altText>A dead sperm whale is climbed and observed on a crowded beach.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
