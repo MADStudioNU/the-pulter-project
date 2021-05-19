@@ -5563,6 +5563,11 @@
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
       <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.168157"/>
+        <pp:altText>A phoenix, with wings spread, perched on a flaming pile of sticks.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
