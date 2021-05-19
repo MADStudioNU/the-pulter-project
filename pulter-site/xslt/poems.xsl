@@ -4928,7 +4928,7 @@
       <pp:firstLine>Vain Herostratus was so fond of fame</pp:firstLine>
           <pp:poster>
         <pp:sourceStatement>Johannes Wierix, naar Gerard van Groeningen, Antiochus Epifanes rooft de tempel van Jeruzalem leeg, 1643. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.512891"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.512891"/>
         <pp:altText>Antiochus IV Epiphanes sits on horseback while two soldiers carry a Roman candle towards him as Jerusalum is raided in the background.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5164,7 +5164,7 @@
       <pp:firstLine>Seest thou this horizontal bird, whose eyes</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Robert Jacob Gordon (toegeschreven aan), Mola mola (Maanvis),  in of na 1783. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.435361"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.435361"/>
         <pp:altText>A sunfish in profile.</pp:altText>
       </pp:poster>
       <pp:editions>
