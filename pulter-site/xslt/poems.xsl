@@ -4926,6 +4926,11 @@
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
       <pp:firstLine>Vain Herostratus was so fond of fame</pp:firstLine>
+          <pp:poster>
+        <pp:sourceStatement>Johannes Wierix, naar Gerard van Groeningen, Antiochus Epifanes rooft de tempel van Jeruzalem leeg, 1643. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.512891"/>
+        <pp:altText>Antiochus IV Epiphanes sits on horseback while two soldiers carry a Roman candle towards him as Jerusalum is raided in the background.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
