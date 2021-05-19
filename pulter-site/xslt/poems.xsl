@@ -5157,6 +5157,11 @@
     <pp:poem id="100">
       <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
       <pp:firstLine>Seest thou this horizontal bird, whose eyes</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Robert Jacob Gordon (toegeschreven aan), Mola mola (Maanvis),  in of na 1783. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.435361"/>
+        <pp:altText>A sunfish in profile.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
