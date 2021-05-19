@@ -5135,6 +5135,11 @@
     <pp:poem id="99">
       <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Pieter van der Borcht (I), November,  1545-1608. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.collect.85302"/>
+        <pp:altText>Men shake acorns from a tree while pigs eat them and women collect them.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
