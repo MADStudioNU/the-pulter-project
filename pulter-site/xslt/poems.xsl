@@ -5679,6 +5679,11 @@
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>
       <pp:firstLine>When royal Fergus’s line did rule this realm</pp:firstLine>
+       <pp:poster>
+        <pp:sourceStatement>Abraham van Beyeren, Banquet Still Life (With Oysters and a Mouse), 1667. Los Angeles County Museum of Art [Public domain </pp:sourceStatement>
+        <pp:sourceLink ref="https://upload.wikimedia.org/wikipedia/commons/5/51/Abraham_van_Beyeren_-_Banquet_Still_Life_-_Google_Art_Project.jpg"/>
+        <pp:altText>A banquet of lobster, oysters, and fruit with a mouse on one of the dishes.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
