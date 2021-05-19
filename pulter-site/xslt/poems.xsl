@@ -4501,6 +4501,11 @@
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
       <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Twee olifanten in een landschap, Herman Saftleven, 1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.32a3677"/>
+        <pp:altText>Two elephants, one in the forground, the other in the background.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5024,6 +5029,11 @@
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
       <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
+       <pp:poster>
+        <pp:sourceStatement>Theodor de Bry, naar Jean Jacques Boissard, De dood van Aischylos, 1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.314364"/>
+        <pp:altText>Aeschylus sits with a book while a man and woman point at him as a bird drops a tortoise on Aeschylus's head.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5135,6 +5145,11 @@
     <pp:poem id="99">
       <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Pieter van der Borcht (I), November,  1545-1608. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.collect.85302"/>
+        <pp:altText>Men shake acorns from a tree while pigs eat them and women collect them.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5492,6 +5507,11 @@
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
       <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Gilliam van der Gouwen, naar Jacob Matham, Gestrande walvis bij Berckhey, 1598, 1679–1681. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.117965"/>
+        <pp:altText>A dead sperm whale is climbed and observed on a crowded beach.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5531,9 +5551,10 @@
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
       <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
-      <pp:poster>
-        <pp:sourceStatement>Jan Brandes, Een tonijn, een haai en een remora, 1788. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.214530"/>
+       <pp:poster>
+        <pp:sourceStatement>Christoffel van Sichem (II), after Philips Galle, after Maarten van Heemskerck, Mordekai in rouwkleren, 1645-1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.592084"/>
+        <pp:altText>Foregrounded against stairs and arcades, a man in robes wrings his hands and lowers his head while another figure looks on.</pp:altText>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
@@ -5563,6 +5584,11 @@
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
       <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.168157"/>
+        <pp:altText>A phoenix, with wings spread, perched on a flaming pile of sticks.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
