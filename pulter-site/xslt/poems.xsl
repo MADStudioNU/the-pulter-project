@@ -3030,7 +3030,7 @@
       <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Basilius Besler, Copper engraving of the Crown Imperial: Corona Imperialis Polyanthos (Fritillaria imperialis), 1613. Kew collection. © Board of Trustees, RBG Kew.</pp:sourceStatement>
-        <pp:sourceLink ref="http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
+        <pp:sourceLink ref="//powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
@@ -5591,7 +5591,7 @@
       <pp:firstLine>Aristomenes, his strange ambiguous fate</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Adriaen Collaert, naar Maerten de Vos,  Jeremia wordt uit de put gehaald, 1643. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.COLLECT.331426"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.331426"/>
         <pp:altText>Jeremiah is hoisted out of the dungeon of Jerusalum as the king and soldiers watch.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5624,7 +5624,7 @@
       <pp:firstLine>In Mainz, when corn was grown excessive dear</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Hatto, Archbishop of Mainz, illustrated in Nuremberg Chronicle (1493), by Hartmann Schedel. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="https://upload.wikimedia.org/wikipedia/commons/3/36/Nuremberg_chronicles_-_Hatto%2C_Archbishop_of_Mainz_%28CLXXXIIv%29.jpg"/>
+        <pp:sourceLink ref="//upload.wikimedia.org/wikipedia/commons/3/36/Nuremberg_chronicles_-_Hatto%2C_Archbishop_of_Mainz_%28CLXXXIIv%29.jpg"/>
         <pp:altText>A bishop holding his crozier is overrun by black rats.</pp:altText>
       </pp:poster>
       <pp:editions>
@@ -5691,7 +5691,7 @@
       <pp:firstLine>When royal Fergus’s line did rule this realm</pp:firstLine>
        <pp:poster>
         <pp:sourceStatement>Abraham van Beyeren, Banquet Still Life (With Oysters and a Mouse), 1667. Los Angeles County Museum of Art [Public domain </pp:sourceStatement>
-        <pp:sourceLink ref="https://upload.wikimedia.org/wikipedia/commons/5/51/Abraham_van_Beyeren_-_Banquet_Still_Life_-_Google_Art_Project.jpg"/>
+        <pp:sourceLink ref="//upload.wikimedia.org/wikipedia/commons/5/51/Abraham_van_Beyeren_-_Banquet_Still_Life_-_Google_Art_Project.jpg"/>
         <pp:altText>A banquet of lobster, oysters, and fruit with a mouse on one of the dishes.</pp:altText>
       </pp:poster>
       <pp:editions>
