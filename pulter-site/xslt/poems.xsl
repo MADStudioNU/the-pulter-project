@@ -5067,7 +5067,7 @@
       <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Leeuw met leeuwin, Abraham Bloteling, naar Peter Paul Rubens, 1655 – 1690. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.collect.82168"/>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.82168"/>
         <pp:altText>A lion and lioness circle each other, snarling.</pp:altText>
       </pp:poster>
       <pp:editions>
