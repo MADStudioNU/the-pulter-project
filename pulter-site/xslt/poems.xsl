@@ -5065,6 +5065,11 @@
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
       <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Leeuw met leeuwin, Abraham Bloteling, naar Peter Paul Rubens, 1655 – 1690. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="http://hdl.handle.net/10934/RM0001.collect.82168"/>
+        <pp:altText>A lion and lioness circle each other, snarling.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
