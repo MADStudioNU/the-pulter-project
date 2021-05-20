@@ -5541,6 +5541,31 @@
         <pp:tag>whale</pp:tag>
       </pp:tags>
       <pp:curations>
+        <pp:curation status="on" hash="did-hunters-really-ride-whales-like-horses">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Did hunters really ride whales like horses?</pp:title>
+          <pp:peek>Probably not. In “This Huge Leviathan” (Emblem 42) Pulter frequently uses the terminology of horseback riding to describe the Indigenous hunter’s conquest of the whale, likely inspired by the account of explorer José de Acosta, included in the Curation “Whaling Legends.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-leviathan-and-the-bible">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>The Leviathan and the Bible</pp:title>
+          <pp:peek>Biblical depictions of the leviathan generally fall into one of two strains: terrifying monster linked to the Devil, or magnificent creation of God, evidence of his greatness and power.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-miracle-of-the-swine">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>The Miracle of the Swine</pp:title>
+          <pp:peek>Among the miracles performed by Christ is the Miracle of the Swine, alluded to in lines 27-28 of “This Huge Leviathan” (Emblem 42). He exorcises a group of demons (who call themselves “Legion”) from a man by transferring them into a herd of pigs.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="taming-the-north-american-indian">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Taming the North American “Indian”</pp:title>
+          <pp:peek>Just as the hunter masters the whale in “This Huge Leviathan” (Emblem 42), the Spanish attempted to master the Indigenous peoples of Florida, where the story of this whale hunt originates</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="whales-working-in-mills">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Whales Working in Mills</pp:title>
+          <pp:peek>One of the more puzzling images in “This Huge Leviathan” (Emblem 42) is that of whales being put to work in mills: “[S]o against their wills, / Four thousand whales are forced to draw in mills.” (17–18). Pulter seems to be imagining whales turning the wheels of hydraulic mills, grinding grain into flour.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="whaling-legends">
           <pp:author>Anna Lewis</pp:author>
           <pp:title>Whaling Legends</pp:title>
