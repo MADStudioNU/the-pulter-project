@@ -3030,7 +3030,7 @@
       <pp:firstLine>Why doth the tears stand in the orient eyes</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Basilius Besler, Copper engraving of the Crown Imperial: Corona Imperialis Polyanthos (Fritillaria imperialis), 1613. Kew collection. © Board of Trustees, RBG Kew.</pp:sourceStatement>
-        <pp:sourceLink ref="http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
+        <pp:sourceLink ref="//powo.science.kew.org/taxon/urn:lsid:ipni.org:names:535166-1#source-LAA"/>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
@@ -4501,6 +4501,11 @@
     <pp:poem id="84">
       <pp:title>The Elephant (Emblem 19)</pp:title>
       <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Twee olifanten in een landschap, Herman Saftleven, 1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.32a3677"/>
+        <pp:altText>Two elephants, one in the foreground, the other in the background.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -4926,6 +4931,11 @@
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
       <pp:firstLine>Vain Herostratus was so fond of fame</pp:firstLine>
+          <pp:poster>
+        <pp:sourceStatement>Johannes Wierix, naar Gerard van Groeningen, Antiochus Epifanes rooft de tempel van Jeruzalem leeg, 1643. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.512891"/>
+        <pp:altText>Antiochus IV Epiphanes sits on horseback while two soldiers carry a Roman candle towards him as Jerusalum is raided in the background.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5019,6 +5029,11 @@
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
       <pp:firstLine>Old Aeschylus, being told that he should die</pp:firstLine>
+       <pp:poster>
+        <pp:sourceStatement>Theodor de Bry, naar Jean Jacques Boissard, De dood van Aischylos, 1596. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.314364"/>
+        <pp:altText>Aeschylus sits with a book while a man and woman point at him as a bird drops a tortoise on Aeschylus's head.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5050,6 +5065,11 @@
     <pp:poem id="97">
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
       <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Leeuw met leeuwin, Abraham Bloteling, naar Peter Paul Rubens, 1655 – 1690. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.82168"/>
+        <pp:altText>A lion and lioness circle each other, snarling.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5130,6 +5150,11 @@
     <pp:poem id="99">
       <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Pieter van der Borcht (I), November,  1545-1608. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.85302"/>
+        <pp:altText>Men shake acorns from a tree while pigs eat them and women collect them.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5157,6 +5182,11 @@
     <pp:poem id="100">
       <pp:title>This Horizontal Bird (Emblem 35)</pp:title>
       <pp:firstLine>Seest thou this horizontal bird, whose eyes</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Robert Jacob Gordon (toegeschreven aan), Mola mola (Maanvis),  in of na 1783. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.435361"/>
+        <pp:altText>A sunfish in profile.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5482,6 +5512,11 @@
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
       <pp:firstLine>This huge leviathan, for all his strength</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Gilliam van der Gouwen, naar Jacob Matham, Gestrande walvis bij Berckhey, 1598, 1679–1681. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117965"/>
+        <pp:altText>A dead sperm whale is climbed and observed on a crowded beach.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5510,13 +5545,46 @@
         <pp:tag>pigs</pp:tag>
         <pp:tag>whale</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="did-hunters-really-ride-whales-like-horses">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Did hunters really ride whales like horses?</pp:title>
+          <pp:peek>Probably not. In “This Huge Leviathan” (Emblem 42) Pulter frequently uses the terminology of horseback riding to describe the Indigenous hunter’s conquest of the whale, likely inspired by the account of explorer José de Acosta, included in the Curation “Whaling Legends.”</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-leviathan-and-the-bible">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>The Leviathan and the Bible</pp:title>
+          <pp:peek>Biblical depictions of the leviathan generally fall into one of two strains: terrifying monster linked to the Devil, or magnificent creation of God, evidence of his greatness and power.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-miracle-of-the-swine">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>The Miracle of the Swine</pp:title>
+          <pp:peek>Among the miracles performed by Christ is the Miracle of the Swine, alluded to in lines 27-28 of “This Huge Leviathan” (Emblem 42). He exorcises a group of demons (who call themselves “Legion”) from a man by transferring them into a herd of pigs.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="taming-the-north-american-indian">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Taming the North American “Indian”</pp:title>
+          <pp:peek>Just as the hunter masters the whale in “This Huge Leviathan” (Emblem 42), the Spanish attempted to master the Indigenous peoples of Florida, where the story of this whale hunt originates</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="whales-working-in-mills">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Whales Working in Mills</pp:title>
+          <pp:peek>One of the more puzzling images in “This Huge Leviathan” (Emblem 42) is that of whales being put to work in mills: “[S]o against their wills, / Four thousand whales are forced to draw in mills.” (17–18). Pulter seems to be imagining whales turning the wheels of hydraulic mills, grinding grain into flour.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="whaling-legends">
+          <pp:author>Anna Lewis</pp:author>
+          <pp:title>Whaling Legends</pp:title>
+          <pp:peek>Many incarnations of a strange tale of a whale hunt seem to have originated from a Spanish explorer in the late sixteenth century; Pulter’s “This Huge Leviathan” (Emblem 42) is one of them.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="108">
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
       <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
-      <pp:poster>
-        <pp:sourceStatement>Jan Brandes, Een tonijn, een haai en een remora, 1788. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.214530"/>
+       <pp:poster>
+        <pp:sourceStatement>Christoffel van Sichem (II), after Philips Galle, after Maarten van Heemskerck, Mordekai in rouwkleren, 1645-1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.592084"/>
+        <pp:altText>Foregrounded against stairs and arcades, a man in robes wrings his hands and lowers his head while another figure looks on.</pp:altText>
       </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
@@ -5546,6 +5614,11 @@
     <pp:poem id="109">
       <pp:title>The Brahman (Emblem 44)</pp:title>
       <pp:firstLine>The Brahman, th’angry deities to appease</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.168157"/>
+        <pp:altText>A phoenix, with wings spread, perched on a flaming pile of sticks.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5582,6 +5655,11 @@
     <pp:poem id="110">
       <pp:title>Aristomenes (Emblem 45)</pp:title>
       <pp:firstLine>Aristomenes, his strange ambiguous fate</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Adriaen Collaert, naar Maerten de Vos,  Jeremia wordt uit de put gehaald, 1643. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.331426"/>
+        <pp:altText>Jeremiah is hoisted out of the dungeon of Jerusalum as the king and soldiers watch.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5610,6 +5688,11 @@
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
       <pp:firstLine>In Mainz, when corn was grown excessive dear</pp:firstLine>
+      <pp:poster>
+        <pp:sourceStatement>Hatto, Archbishop of Mainz, illustrated in Nuremberg Chronicle (1493), by Hartmann Schedel. Public Domain.</pp:sourceStatement>
+        <pp:sourceLink ref="//upload.wikimedia.org/wikipedia/commons/3/36/Nuremberg_chronicles_-_Hatto%2C_Archbishop_of_Mainz_%28CLXXXIIv%29.jpg"/>
+        <pp:altText>A bishop holding his crozier is overrun by black rats.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
@@ -5672,6 +5755,11 @@
     <pp:poem id="113">
       <pp:title>The Oyster and the Mouse (Emblem 48)</pp:title>
       <pp:firstLine>When royal Fergus’s line did rule this realm</pp:firstLine>
+       <pp:poster>
+        <pp:sourceStatement>Abraham van Beyeren, Banquet Still Life (With Oysters and a Mouse), 1667. Los Angeles County Museum of Art [Public domain </pp:sourceStatement>
+        <pp:sourceLink ref="//upload.wikimedia.org/wikipedia/commons/5/51/Abraham_van_Beyeren_-_Banquet_Still_Life_-_Google_Art_Project.jpg"/>
+        <pp:altText>A banquet of lobster, oysters, and fruit with a mouse on one of the dishes.</pp:altText>
+      </pp:poster>
       <pp:editions>
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>

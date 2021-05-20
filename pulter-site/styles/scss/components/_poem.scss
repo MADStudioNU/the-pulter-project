@@ -454,10 +454,16 @@ $globalBorderRadius: 2px;
             }
 
             // Local links to Curation section
-            .pp-curations-ref {
+            a.pp-curations-ref,
+            a.pp-curation-ref,
+            a.pp-exploration-ref {
               color: whitesmoke;
+              background: rgba($pp_manuscriptPaper, .25);
+              border: 1px solid rgba($pp_manuscriptPaper, .25);
 
-              &:hover {
+              &:hover,
+              &:active,
+              &:visited {
                 color: #fff;
               }
             }
@@ -2013,17 +2019,6 @@ $defaultStrokeWidth: 6px;
         @include transition(color .2s);
       }
     }
-  }
-}
-
-// Curation section local links
-.pp-curations-ref {
-  font-weight: bold;
-  color: inherit;
-  @include transition(color .2s);
-
-  &:hover {
-    color: #181818;
   }
 }
 
