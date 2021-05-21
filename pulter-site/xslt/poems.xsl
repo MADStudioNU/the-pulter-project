@@ -2036,11 +2036,11 @@
           <pp:title>Mother Earth</pp:title>
           <pp:peek>This passage, presented here in two Renaissance translations, describes what happens after the Deucalion flood.</pp:peek>
         </pp:curation>
-<!--        <pp:curation status="on" hash="pismires">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>Pismires</pp:title>-->
-<!--          <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffatt’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>-->
-<!--        </pp:curation>-->
+        <pp:curation status="on" hash="pismires">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Pismires</pp:title>
+          <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffatt’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="what-is-a-dunghill">
           <pp:author>Frances E. Dolan</pp:author>
           <pp:title>What is a dunghill?</pp:title>
