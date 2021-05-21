@@ -1035,6 +1035,24 @@
     </xsl:element>
   </xsl:template>
 
+  <!-- External Curation/Exploration refs -->
+  <xsl:template match="tei:ref[@type = 'pp-curation-ref' or @type = 'pp-exploration-ref']">
+    <a class="link">
+      <xsl:if test="@target">
+        <xsl:attribute name="href">
+          <xsl:value-of select="@target"/>
+        </xsl:attribute>
+      </xsl:if>
+      <xsl:attribute name="class">
+        <xsl:value-of select="@type"/>
+      </xsl:attribute>
+      <xsl:attribute name="target">
+        <xsl:text>_blank</xsl:text>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </a>
+  </xsl:template>
+
   <!-- Types of renderings of text fragments -->
   <xsl:template match="tei:emph">
     <xsl:param name="witId"/>
