@@ -37,7 +37,7 @@ Branch `master` is deployed to the [production site](https://pulterproject.north
 
 #### Current Delta
 Poems that are published on the preview site but not on the production site:
-> A12 A107
+> A12 A41 A107
 
 Curations:
 > C12s C107s
