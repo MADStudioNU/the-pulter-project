@@ -2340,10 +2340,13 @@
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.8948"/>
       </pp:poster>
       <pp:editions>
-        <pp:edition type="elemental">
+	      <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+<!--	      <pp:edition type="amplified">-->
+<!--		      <pp:author>Whitney Sperrazza</pp:author>-->
+<!--	      </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>elements</pp:keyword>
