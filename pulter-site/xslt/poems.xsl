@@ -4999,6 +4999,13 @@
         <pp:tag>sin</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="emblem-books-as-parenting-guides">
+          <pp:author>Rachel Zhang</pp:author>
+          <pp:title>Emblem Books as Parenting Guides</pp:title>
+          <pp:peek>“The chiefe aime of the embleme is, to instruct us, by subjecting the figure to our view, and the sense to our understanding,” Henri Estienne paradigmatically wrote in _The Art of Making Devices_ (1646) (7).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
