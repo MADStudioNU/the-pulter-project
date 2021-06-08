@@ -6237,7 +6237,7 @@
                 </div>
                 <div class="anmtd vid-box">
                   <div class="vid">
-                    <a class="thumb" href="https://player.vimeo.com/video/294846142?color=ffffff&amp;autoplay=1&amp;title=0&amp;byline=0&amp;portrait=0" data-featherlight="iframe" data-featherlight-close-icon="" data-featherlight-variant="intro-video" data-featherlight-iframe-frameborder="0" data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true">
+                    <a class="thumb" href="https://player.vimeo.com/video/294846142?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" data-featherlight="iframe" data-featherlight-close-icon="" data-featherlight-variant="intro-video" data-featherlight-iframe-frameborder="0" data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true">
                       <div class="c">
                         <div class="meta">
                           <span class="dur">1:25</span>
