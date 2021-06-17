@@ -401,17 +401,25 @@ $themeColor: #ece9e2;
         }
       }
 
-      .intro-note {
+      .intro-note,
+      .inline-block-note {
         font-size: 1.25em;
         opacity: .66;
         background: #ECE9E2;
         padding: .61em 1em;
         border-radius: 2px;
         display: inline-block;
+      }
 
+      .intro-note {
         &:not(:first-child) {
           margin-top: 2.25em;
         }
+      }
+
+      .inline-block-note {
+        margin-top: 1em;
+        margin-bottom: 1em;
       }
 
       //&:not(.bottom) {
@@ -822,7 +830,6 @@ $themeColor: #ece9e2;
   .footnote {
     $factor: .8em;
 
-    max-width: 90%;
     border-radius: 0 0 2px 2px;
     background: rgba($pp_manuscriptInk, .05);
     margin: 0 0 3em/$factor + em 0;
