@@ -830,6 +830,7 @@ $themeColor: #ece9e2;
   .footnote {
     $factor: .8em;
 
+    max-width: 90%;
     border-radius: 0 0 2px 2px;
     background: rgba($pp_manuscriptInk, .05);
     margin: 0 0 3em/$factor + em 0;
@@ -839,6 +840,10 @@ $themeColor: #ece9e2;
 
     p {
       margin-bottom: 0;
+      max-width: 100%;
+    }
+
+    @include breakpoint(mobile) {
       max-width: 100%;
     }
   }
