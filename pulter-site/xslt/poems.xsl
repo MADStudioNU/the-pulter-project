@@ -4999,6 +4999,13 @@
         <pp:tag>sin</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="emblem-books-as-parenting-guides">
+          <pp:author>Rachel Zhang</pp:author>
+          <pp:title>Emblem Books as Parenting Guides</pp:title>
+          <pp:peek>“The chiefe aime of the embleme is, to instruct us, by subjecting the figure to our view, and the sense to our understanding,” Henri Estienne paradigmatically wrote in _The Art of Making Devices_ (1646) (7).</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="95">
       <pp:title>This Ugly Sow (Emblem 30)</pp:title>
@@ -6230,7 +6237,7 @@
                 </div>
                 <div class="anmtd vid-box">
                   <div class="vid">
-                    <a class="thumb" href="https://player.vimeo.com/video/294846142?color=ffffff&amp;autoplay=1&amp;title=0&amp;byline=0&amp;portrait=0" data-featherlight="iframe" data-featherlight-close-icon="" data-featherlight-variant="intro-video" data-featherlight-iframe-frameborder="0" data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true">
+                    <a class="thumb" href="https://player.vimeo.com/video/294846142?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" data-featherlight="iframe" data-featherlight-close-icon="" data-featherlight-variant="intro-video" data-featherlight-iframe-frameborder="0" data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true">
                       <div class="c">
                         <div class="meta">
                           <span class="dur">1:25</span>

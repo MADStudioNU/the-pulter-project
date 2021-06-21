@@ -401,17 +401,25 @@ $themeColor: #ece9e2;
         }
       }
 
-      .intro-note {
+      .intro-note,
+      .inline-block-note {
         font-size: 1.25em;
         opacity: .66;
         background: #ECE9E2;
         padding: .61em 1em;
         border-radius: 2px;
         display: inline-block;
+      }
 
+      .intro-note {
         &:not(:first-child) {
           margin-top: 2.25em;
         }
+      }
+
+      .inline-block-note {
+        margin-top: 1em;
+        margin-bottom: 1em;
       }
 
       //&:not(.bottom) {
@@ -822,8 +830,9 @@ $themeColor: #ece9e2;
   .footnote {
     $factor: .8em;
 
+    max-width: 90%;
     border-radius: 0 0 2px 2px;
-    background: rgba($pp_manuscriptInk, .04);
+    background: rgba($pp_manuscriptInk, .05);
     margin: 0 0 3em/$factor + em 0;
     font-size: $factor;
     color: $pp_manuscriptInk;
@@ -831,6 +840,10 @@ $themeColor: #ece9e2;
 
     p {
       margin-bottom: 0;
+      max-width: 100%;
+    }
+
+    @include breakpoint(mobile) {
       max-width: 100%;
     }
   }
@@ -924,6 +937,40 @@ $themeColor: #ece9e2;
     padding: .4em .4em .2em .4em;
     background: rgba($pp_manuscriptInk, .15);
     white-space: nowrap;
+  }
+
+  // Footnotes: markers and anchors
+  .fn-num,
+  .fn-anchor {
+    color: darken($pp_manuscriptPaper, 30%);
+    opacity: .85;
+  }
+
+  .fn-num {
+    $size: 8em;
+
+    // To make it visible when triggering
+    &:target::before {
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: $size;
+      margin-top: -$size;
+    }
+  }
+
+  .fn-anchor {
+    // To make it visible when triggering
+    &::before {
+      $size: 7em;
+
+      content: '';
+      display: block;
+      position: relative;
+      width: 0;
+      height: $size;
+      margin-top: -$size;
+    }
   }
 
   // Dismiss action

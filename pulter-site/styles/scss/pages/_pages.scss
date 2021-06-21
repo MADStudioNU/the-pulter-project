@@ -256,6 +256,7 @@
       display: block;
       width: $w;
       height: 360/16 + em;
+      background: rgba(0, 0, 0, .15);
 
       @include breakpoint(mobile) {
         width: 100%;
