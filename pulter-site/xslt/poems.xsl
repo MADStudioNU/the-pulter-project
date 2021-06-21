@@ -790,9 +790,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Frances E. Dolan</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:tags>
         <pp:tag>calcination</pp:tag>
@@ -814,43 +814,43 @@
         <pp:keyword>competition</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
       </pp:keywords>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="the-botanical-blazon">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>The Botanical Blazon</pp:title>-->
-<!--          <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="expanding-our-understanding-of-flora">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>Expanding Our Understanding of Flora</pp:title>-->
-<!--          <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="flower-people">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>Flower People</pp:title>-->
-<!--          <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="the-flowers-of-pulters-library-myths">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>-->
-<!--          <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="other-garden-poems">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>Other Garden Poems</pp:title>-->
-<!--          <pp:peek>Many seventeenth-century writers wrote poems about gardens: as familiar, beloved spaces, sites of work (viewed positively or negatively), aspirations of pleasurable occupation, emblems of paradise, and models of human cognition and cultivation.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="parliaments-of-flowers">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>Parliaments of Flowers</pp:title>-->
-<!--          <pp:peek>Poems that script the exchanges among “parliaments” of beasts, fowl, flowers, women or other unlikely politicians and speakers stretch back at least as far as Chaucer’s late fourteenth-century “Parliament of Fowls.” In the 1650s and 1660s, following the English Civil Wars between king and Parliament, the term was newly topical. Pulter is not the only English writer in the period to give voice to contentious flowers.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="picturing-pulters-flowers">-->
-<!--          <pp:author>Frances E. Dolan</pp:author>-->
-<!--          <pp:title>Picturing Pulter’s Flowers</pp:title>-->
-<!--          <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="the-botanical-blazon">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>The Botanical Blazon</pp:title>
+          <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="expanding-our-understanding-of-flora">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Expanding Our Understanding of Flora</pp:title>
+          <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="flower-people">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Flower People</pp:title>
+          <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="the-flowers-of-pulters-library-myths">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>
+          <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="other-garden-poems">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Other Garden Poems</pp:title>
+          <pp:peek>Many seventeenth-century writers wrote poems about gardens: as familiar, beloved spaces, sites of work (viewed positively or negatively), aspirations of pleasurable occupation, emblems of paradise, and models of human cognition and cultivation.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="parliaments-of-flowers">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Parliaments of Flowers</pp:title>
+          <pp:peek>Poems that script the exchanges among “parliaments” of beasts, fowl, flowers, women or other unlikely politicians and speakers stretch back at least as far as Chaucer’s late fourteenth-century “Parliament of Fowls.” In the 1650s and 1660s, following the English Civil Wars between king and Parliament, the term was newly topical. Pulter is not the only English writer in the period to give voice to contentious flowers.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="picturing-pulters-flowers">
+          <pp:author>Frances E. Dolan</pp:author>
+          <pp:title>Picturing Pulter’s Flowers</pp:title>
+          <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="13">
       <pp:title>Upon the Imprisonment of His Sacred Majesty</pp:title>
