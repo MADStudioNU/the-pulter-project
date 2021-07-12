@@ -75,10 +75,10 @@
       <editorialDecl>
         <correction>
           <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
-          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be further explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character’s status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Christine Jacob</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -149,7 +149,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_226" type="pageNum" place="margin-topright">31</fw>[Emblem 31]</rdg>
             <rdg wit="#ee">Old Aeschylus<lb/>(Emblem 31)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">Old Escalus (Emblem 31)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +158,11 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">
+                <p>This Amplified Edition seeks a middle ground between the reading texts of previous editions: Alice Eardley’s and Leah Knight and Wendy Wall’s respective modernizations and Stefan Christian’s semi-diplomatic transcription. The aim of this edition is to provide a text that is accessible to the modern reader while also retaining some idiosyncrasies of the original manuscript. In particular, this edition has retained the manuscript’s capitalization, a so-called “accidental” feature of a text (that is, one whose change or modernization does not affect meaning). Retaining the original capitalization in this Amplified Edition defamiliarizes the text without deterring the reader from understanding, and also highlights alliterative patterns that are perhaps more visually conspicuous in the original. One exception is the name “Domitian,” which is not capitalized in the original but is capitalized in this edition in order to clarify that the word is a proper noun. More broadly, spelling has been modernized according to Canadian standard usage. The names of biblical and classical figures have been regularized with one notable exception: the variant spelling of “Escalus,” preserving the capital E which is prominent in the early lines of the poem. All manuscript corrections have been silently incorporated, and contractions have been silently expanded, except where they might influence metre: for example, “Towring” is retained as “Tow’ring” whereas “Sacrifis’d” has been changed to “Sacrificed.” Punctuation has been modernized in order to clarify the sense, tone, and interrelationship of clauses.</p>
+                <p>The explanatory notes for this edition expand on those provided in the editions specified above. Given the abundance of biblical and classical allusions in this poem, the notes frequently draw directly on source material in order to highlight significant parallels that may be latent between Pulter’s allusions. The notes provide readers with avenues for further research, and biblical references correspond with the King James Bible (1611).</p>
+                <p>The editor thanks Liza Blake, Leah Knight, Wendy Wall, and the anonymous reviewers for their generous and illuminating feedback, and Sam Nguyen for encoding this Amplified Edition.</p>
+            </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -166,7 +170,12 @@
               <note type="headnote">It is a mistake to want to know your fate, Pulter argues here. Once you do, you’ll want to change it, and you can’t; a destiny foreknown is not forestalled. Her first exhibit is a fellow poet, whose attempt to outwit the prediction that he’d die from something falling from above only brings about such a death: he goes to an open field, where a plummeting turtle smashes in his skull. This seemingly unexpected death was, of course, expected, indeed predicted—as are all deaths, or as they should be, this <hi rend="italic">memento mori</hi> poem reminds us: while each of us will die, we cannot and should not inquire about the details, Pulter opines. Yet she herself is awfully tempted, if we can judge by how urgently (in the poem’s late-breaking, self-reflective turn) she implores that she should “never know [her] destiny,” and “not here anticipate [her] grave.” To do so, she frets, is to be buried alive: a paradoxical state reflecting a certain ambivalence, in this poem as in others, toward life and death on (and in) earth, and perhaps what follows too. Her projected solution is devotion to God’s purpose, which might reframe consciousness of mortality.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+                <p>Derived from a Latin word meaning “that which has been spoken,” fate in this poem is conflated with death and intertwined with the prognostications of astrologers, prophets, and soothsayers. The biblical and classical figures referenced in this poem learn the details of their demise beforehand, yet not one of these figures escapes the universal fate nor—with one important exception—the promised particulars. The poem makes a lesson out of those who flout fate, from Jezebel who elevates herself in royal resplendence only to be defenestrated, to Caesar who mocks his soothsayer shortly before being stabbed. The irony that imbues these stories implicates pride as a kind of intrinsically fatal folly that underlies not only the presumption that one can evade fate but also the very desire to “Curiously pry” into one’s death, a desire with which the speaker grapples.</p>
+                <p>The sharp, moralizing contrast drawn between ideal Christian and typical pagan responses to mortality is exemplified foremost by the poem’s augmentation of the emblem conventionally associated with Aeschylus. As Eardley notes, emblems traditionally consist of three parts: “a motto (<foreign rend="italic">inscriptio</foreign>), a printed image (<foreign rend="italic">pictura</foreign>), and a short epigrammatic verse (<foreign rend="italic">subscriptio</foreign>)” (27). While Pulter foregoes the formal elements of <foreign rend="italic">inscriptio</foreign> and <foreign rend="italic">pictura</foreign>, her emblematic verse exhibits didactic and ekphrastic tendencies. The spectacle in this case is the bizarre death of the tragedian Aeschylus, as recounted in Pliny’s <title rend="italic">Naturalis historia</title>, translated by Philemon Holland: when warned by divinators that he will die on a certain day by means of a falling object, Aeschylus ventures into an open field, “far from house or tree, presuming vpon the securitie of the clear and open skie” (<bibl><title rend="italic">The Historie of the World</title> [London, 1634], 271</bibl>). As if on cue, an eagle, seeking a hard surface on which to shell her prey, spots the poet’s shiny pate and drops a tortoise on his head. Pulter’s wry tone in these lines and her tongue-in-cheek aside on baldness accentuate the comic outlandishness of the situation. Though this particular emblem seems absent from the popular English collections of Whitney, Peacham, Quarles, and Wither, it does appear in a number of continental collections in the same period, and the mottos of this common emblem variously iterate that fate is inevitable and death, all-powerful.</p>
+                <p>Pulter, however, diverges from these commonplaces in lines 14–16 by suggesting that the fate of death can be crossed by divine intervention. Such a reprieve, moreover, is obtained not via actions of avoidance but by an attitude of contrition: in contrast with the pagan, hell-bound Aeschlyus who presumes he can outwit what is fated, Hezekiah’s humble tears win him a temporary pardon from death. Despite his political missteps and spiritual faults, Hezekiah is memorialized as one of the few righteous Judean kings within the biblical narrative, upheld in early modern sermons and in works like John Donne’s <title rend="italic">Devotions</title> for his exemplary response to illness and impending death. When warned by the prophet Isaiah that his illness will be fatal, Hezekiah, rather than seeking the aid of physicians or other deities, “turn[s] his face to the wall” and tearfully prays for the Hebrew god’s intervention, invoking his past devotion and good works as cause for mercy (2 Kings 20: 2–3; Isaiah 38: 2–3). Listed as an ancestor of Jesus in the gospel of Matthew’s genealogy (1:10), the pre-Christian, imperfect, and yet righteous Hezekiah functions as an important analogue for the Christian speaker, who likewise strives to live righteously so that she may die “with comfort.” Like Hezekiah, the speaker ultimately prays for divine intervention into her “Sad Story,” but her request is not for a mere deferral of death but for a post factum reversal, that is, a glorious resurrection and carefree afterlife, and the fortitude to live her precarious, mortal life according to such a hope (thereby rising, too, from doubt and despair).</p>
+                <p>The speaker’s portrayal of death as a welcome night’s rest for the weary, then, qualifies her aversion to foreknowledge with an underlying desire not shared by the other figures in the poem. Though she characterizes death as alluringly peaceful, the speaker nevertheless prays that she might not “anticipate [her] grave,” the verb <hi rend="italic">anticipate</hi> meaning to consider in advance—to foreknow and to fret over—but also, relatedly, to bring about or put into practice prematurely, like Aeschylus seems to do by trying to prevent his death.  For the speaker, anticipation is contrary to the life of spiritual devotion upon which a good death is contingent and by which, with divine aid, a good death is possible. Precise foreknowledge is futile, even pernicious, not only if fate is fixed as per tradition but also if, as first intimated by the exceptional “Unless” in line 14, fate is in flux, a working out of salvation.</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -175,168 +184,168 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">31</fw> Old Eſculus being told that hee Should die</rdg>
             <rdg wit="#ee">Old <seg>Aeschylus<note type="gloss">Prolific Greek playwright who was told by an oracle that he would die by something from the heavens. According to legend, this prophecy was realized when he was killed by a turtle shell dropped by an eagle.</note></seg>, being told that he should die</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Old <seg>Escalus<note type="critical">Variant spelling of Aeschylus, the name of the renowned Greek tragedian whose unfortunate yet legendary demise is recounted in the first ten lines of this poem. As Eardley notes, Pulter likely bases her account of Aeschylus’s death on Holland’s translation of Pliny: see <bibl><title rend="italic">The Historie of the World</title> (London, 1634), 272</bibl>. Christian suggests Montaigne as another possible source: see <bibl><title rend="italic">Essays Written in French by Michael Lord of Montaigne</title>, trans. John Florio (London, 1613), 32.</bibl></note></seg>, being told that he Should die</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">By the deſcent of Something from on High</rdg>
             <rdg wit="#ee">By the descent of something from on high,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">By the descent of something from on High,</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Into the field hee went and Satt him down</rdg>
             <rdg wit="#ee">Into the field he went and sat him down.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Into the field he went and sat him down.</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">The Sun Shone bright upon his glistring Crown</rdg>
             <rdg wit="#ee">The sun shone bright upon his <seg>glist’ring crown<note type="gloss">glittering head. Aeschylus is bald (and thus a target for the eagle).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The Sun Shone bright upon his glist’ring Crown,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">&ff;or hee to Eriſine had Sacrifis’d</rdg>
             <rdg wit="#ee"><seg>For he to Erycine had sacrificed<note type="gloss">Aeschylus is devoted to “Erycine,” a name for Venus, the goddess of love, derived from her temple on Mount Eryx. In humoral medicine, it was thought that “one major way to induce coldness, and thus baldness, was too much sexual activity” (<bibl>Anu Korhonen, “Strange Things Out of Hair: Baldness and Masculinity in Early Modern England,” <title rend="italic">The Sixteenth Century Journal</title>, vol. 41, no. 2 [2010], pp. 371-91 at p. 380</bibl>).</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>For he to Erycine had Sacrificed<note type="critical">Anglicization of Erycina, an epiclesis or liturgical epithet for Venus as revered by cult worshippers in Greco-Roman antiquity. According to the Greek historian and geographer Strabo, the name Erycina is derived from the location of the goddess’s temple, the “lofty mountain” Eryx in Sicily (<title rend="italic">Geography</title> 6.1.7). Two subsidiary temples in Rome were dedicated to Venus Erycina, one on the Capitoline Hill and one near the Porta Collina: see <bibl>Anna Anguissola, “Note on Aphidruma 2: Strabo on the Transfer of Cults,” <title rend="italic">Classical Quarterly</title> 56, no. 2 (2006): 643–646</bibl>. Ariadne Staples contextualizes this cult alongside others devoted to Venus in <bibl><title rend="italic">From Good Goddess to Vestal Virgins: Sex and Category in Roman Religion</title> (New York, 1998), 99–126</bibl>. That Aeschylus was a devotee of Venus Erycina appears to be Pulter’s own invention and a cheeky explanation for the poet’s baldness: in addition to the broader associations of Venus with romantic and sexual entanglement, the Erycine cult was specifically associated with prostitution (<bibl>Staples, <title rend="italic">From Good Goddess to Vestal Virgins: Sex and Category in Roman Religion</title>, 113, 122</bibl>). As Knight and Wall note, early modern humoral medicine linked baldness with overindulgence in sexual activity.</note></seg>—</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Pitty a Poet thus was Stigmatiz’d</rdg>
             <rdg wit="#ee"><seg>Pity<note type="gloss">It is a pity</note></seg> a poet thus was <seg>stigmatized<note type="gloss">scarred, branded, or disgraced. Baldness is here construed as a stigma.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Pity a Poet thus was <seg>stigmatized<note type="critical">Branded or marked, connoting disgrace, but also perhaps an ironic allusion to the stigmata of devout Christians and saints.</note></seg>.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">A Towring Eagle let her prey fall down</rdg>
             <rdg wit="#ee">A tow’ring eagle let her prey fall down</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">A Tow’ring Eagle let her prey fall down</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">In hope to break the Eſcallup on his Crown</rdg>
             <rdg wit="#ee">In hope to break <seg>th’escallop<note type="gloss">shell</note></seg> on his crown.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In hope to break the <seg>Escallop<note type="gloss">Variant of scallop, apparently denoting the shell of the tortoise that the eagle drops on Aeschylus’s head.</note></seg> on his Crown.</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Shee had her wiſh it broke the fatall Shell</rdg>
             <rdg wit="#ee">She had her wish; it broke the fatal shell,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">She had her wish: it broke the <seg>fatal Shell<note type="gloss">Referring both to the tortoise’s shell and the poet’s skull.</note></seg>,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">And Struck the Poets Ryming Soul to Hell</rdg>
             <rdg wit="#ee">And struck the poet’s rhyming soul to Hell.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And struck the Poet’s Rhyming Soul to Hell.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Then let none Curiouſly prie in their &ff;ate</rdg>
             <rdg wit="#ee">Then let none curiously pry in their fate,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then let none Curiously pry in their Fate,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">&ff;or none can lengthen or make Short their date</rdg>
             <rdg wit="#ee">For none can lengthen or make short their date.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For none can lengthen or make short their date.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">&ff;or Surely none their &ff;ortune can prevent</rdg>
             <rdg wit="#ee">For surely none their fortune can prevent,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For surely none their Fortune can prevent,</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Unleſs a Meſſenger from Heaven bee Sent</rdg>
             <rdg wit="#ee">Unless a messenger from Heaven be sent</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Unless a Messenger from Heaven be Sent<note type="critical">Per the headnote to this poem, this caveat marks a divergence from the mottos and verses conventionally paired with the image of Aeschylus’s death.</note></seg></rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">With a <seg>Rep<add place="above">r:</add>.ieve<note type="physical">“r” appears in different hand from main scribe; superscript colon in same hand may represent insertion marks</note></seg>, Soe Hezechias Tears</rdg>
             <rdg wit="#ee">With a reprieve; so <seg>Hezekiah’s tears<note type="gloss">See 2 Kings: 20:1-6, which tells of how Hezekiah wept and prayed when the prophet Isaiah told him of Hezekiah’s impending death; in response, God extended his life by fifteen years.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With a Reprieve—So <seg>Hezekiah’s Tears<note type="critical">When his looming death is foretold by the prophet Isaiah, the ailing King Hezekiah prays to God in earnest and is said to have “wept sore.” In response, God promises healing and fifteen more years of life, proclaiming “I have seen thy teares” (2 Kings 20:1–6; Isaiah 38: 1–6). Tears are a powerful, generative motif in Pulter’s poetry, and line 30 of this poem reiterates their centrality to the speaker’s own response to her mortality: see the note to “Sighs and tears” (l. 30) for examples of this motif elsewhere in the manuscript. Though humble in contrast with the other figures in this poem, Hezekiah notably falls into pride soon after his miraculous recovery (2 Chronicles 32:24–26). Despite his shortcomings, however, he was viewed by early modern readers as an exemplary biblical figure, both in his leadership and his response to what is understood to have been a plague-like illness: see <bibl>Kevin Killeen, “Hezekiah, the Politics of Municipal Plague and the London Poor,” <title rend="italic">The Political Bible in Early Modern England</title> (Cambridge, 2016), 76–104</bibl>.</note></seg></rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">A pardon did obtain for <del>&ff;ourteen</del><seg><add place="above">&ff;ifteen</add><note type="physical">in different hand from main scribe, directly above doubly struck-through “ffourteen”</note></seg> Years</rdg>
             <rdg wit="#ee">A pardon did obtain for fifteen years.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">A pardon did obtain for Fifteen years.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">This Jezabell found true that fatall hour</rdg>
             <rdg wit="#ee">This <seg>Jezebel<note type="gloss">Jezebel was the wife of Ahab, King of Israel. She was a worshipper of Baal caught in religious wars; Elijah’s prophecy, that dogs would eat her corpse, came true.</note></seg> found true that fatal hour</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This <seg>Jezebel<note type="gloss">Jezebel, along with her husband King Ahab, implemented the worship of Baal in Israel and commanded the execution of many Hebrew prophets. The prophet Elijah foretold her gruesome death, which he figures as an act of divine vengeance. Jezebel’s disdain for the prophecy and her own mortality is implied in the biblical account: as her political enemy approaches, she applies cosmetics, adorns her hair, and greets him with a taunt from a high window. She is almost immediately defenestrated by one of her own attendants, her broken body consumed by stray dogs as prophesied (2 Kings 9:30–37).</note></seg> found true that fatal hour</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">When Dogs her Curſſed Karcas did Devour</rdg>
             <rdg wit="#ee">When dogs her curséd carcass did devour.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">When Dogs her Cursèd Carcass did Devour;</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Nor could domition Croſs his Prophets fate</rdg>
             <rdg wit="#ee">Nor could <seg>Domitian<note type="gloss">Domitian was a Roman emperor who failed to disprove one of the soothsayer Ascletarion’s prophecies. He also tried unsuccessfully to evade a soothsayer’s prediction of his own death.</note></seg> cross his prophet’s fate</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor could <seg>Domitian<note type="critical">Roman emperor who attempted to challenge fate and was plagued by the premonition of his death. When the astrologer Ascletario foretold the manner of his own death, Domitian tried to have Ascletario killed in a different manner in order to prove the fallibility of divination. It is Domitian, however, who ultimately fails. His aversion to prophecy, moreover, appears to have stemmed from his youth when astrologers foretold both the hour and manner of his death. Even on the portentous day, Domitian sentenced a soothsayer to death for interpreting the city’s ongoing problem of lightning strikes as foreshadowing a change in rulers. Unbeknownst to Domitian, however, his friends had been conspiring to overthrow him and, knowing he feared the fifth hour of the day as the fatal one, they assured him it was the sixth when he inquired. Relieved, he dismissed his attendants, retired to his bedroom, and was promptly slain. For a full account, see Holland’s translation of Suetonius in <bibl><title rend="italic">The Historie of Twelve Caesars</title> (London, 1609), 269</bibl>.</note></seg> Cross his Prophet’s fate</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Or ad a minute to his own lives date</rdg>
             <rdg wit="#ee">Or add a minute to his own life’s date.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or add a minute to his own life’s date.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Though Cæſar did the fatall Ides Know</rdg>
             <rdg wit="#ee"><seg>Though Caesar did the fatal Ides know<note type="gloss">A soothsayer foretold the death of Roman emperor Julius Caesar, who was stabbed to death on the “Ides” (or fifteenth day) of March.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Though Caesar did the <seg>fatal Ides<note type="gloss">The soothsayer Spurina forewarned Julius Caesar of a danger that “would not be differred [deferred] after the Ides of March,” that is the fifteenth day of the month. Despite other corroborating portents, dreams, and even a pamphlet warning him of the conspiracy against him, Caesar did not take heed: at the eleventh hour of the appointed day, he “laughed Spurina to scorn” and labelled him a false prophet (<bibl>Suetonius, <title rend="italic">The Historie of Twelve Caesars</title>, trans. Holland, 33</bibl>). Shortly thereafter he was fatally stabbed by members of the Roman senate.</note></seg> know,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">At twenty and three wounds his blood did flow</rdg>
             <rdg wit="#ee">At twenty and three wounds his blood did flow.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">At twenty and three wounds his blood did flow;</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Soe Agrippina was her fate foretold</rdg>
             <rdg wit="#ee">So Agrippina was her fate foretold,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">So <seg>Agrippina<note type="critical">Roman empress who was warned by an astrologer that her son Nero would one day kill her. After many elaborate plans and botched attempts, Nero finally succeeded in orchestrating his mother’s death, casting it as a suicide. As Eardley notes, Nero’s postmortem “dissection” of his mother can be interpreted both literally and figuratively (226n252).</note></seg> was her fate foretold</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Yet her deſcection Nero did behould</rdg>
             <rdg wit="#ee"><seg>Yet her dissection Nero did behold<note type="gloss">As Agrippina had been foretold by an astrologer, Roman emperor Nero killed his mother and passionately viewed (“dissected”) each part of her corpse.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet her dissection Nero did behold.</rdg>
         </app>
       </l>
         
@@ -362,84 +371,84 @@
         <app>
             <rdg wit="#ft">Then let mee never Know my Destinie</rdg>
             <rdg wit="#ee">Then let me never know my destiny,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then let me never Know my Destiny,</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">But every day Soe live that when I die</rdg>
             <rdg wit="#ee">But every day so live that when I die</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But every day So live that when I die,</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">I may with comfort lay theſe Ruins down</rdg>
             <rdg wit="#ee">I may with comfort lay these ruins down</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I may with comfort lay these Ruins down</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">In dust tis ſofter farr then finest Down</rdg>
             <rdg wit="#ee">In <seg>dust<note type="gloss">the material from which life derives to and to which it will return; see Genesis 3:19: “for dust thou art, and unto dust shalt thou return.”</note></seg>; ’tis softer far than finest <seg>down<note type="gloss">soft feathers</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In dust; ’tis softer far than <seg>finest Down<note type="critical">This line, along with the final couplet, echoes diction in <ref type="pp-poem-ref" corresp="33">Welcome [2]</ref>, a poem that more consistently treats death as a happy prospect.</note></seg>,</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">Nor is that Pillow Stuft with Cares or fears</rdg>
             <rdg wit="#ee">Nor is that pillow stuffed with cares or fears,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor is that Pillow Stuffed with Cares or fears,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Nor Shall I wake as now to Sighs and tears</rdg>
             <rdg wit="#ee">Nor shall I wake as now to sighs and tears.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor Shall I wake as now to <seg>Sighs and tears<note type="critical">That sighs and tears are the poems themselves is implied throughout Pulter’s manuscript: she describes her emblems as “the sighs of a sad soul,” and the symbolism of tears expressed along with these sighs is underscored in poems like <ref type="pp-poem-ref" corresp="17">The Circle [1]</ref> and <ref type="pp-poem-ref" corresp="61">The Weeping Wish</ref>.</note></seg>.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Yet o my God this Comfort let mee have</rdg>
             <rdg wit="#ee">Yet O, my God, this comfort let me have:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet, O my God, this Comfort let me have:</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">Let mee not here Anticipate my Grave</rdg>
             <rdg wit="#ee">Let me not here anticipate my grave;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Let me not here <seg>Anticipate<note type="critical">Multiple shades of the verb <hi rend="italic">anticipate</hi> are germane to this line. Relevant definitions from the <title rend="italic">Oxford English Dictionary</title> include “To take into consideration before the appropriate or due time” and “To realize beforehand,” both of which pertain to foreknowledge (def. 7a and def. 8). Another relevant definition is “To observe or practise in advance of the due date; to cause to happen earlier, accelerate,” which captures the futility (and irony) of attempting to prevent fate as demonstrated by the stories of Aeschylus and others in the poem (def. 5). This secondary definition also resonates with the following line’s metaphor of being “buried alive,” a premature enactment of death.</note></seg> my Grave.</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">Yet if I must alive thus buried bee</rdg>
             <rdg wit="#ee">Yet <seg>if I must alive thus buried be<note type="gloss">The speaker reads her own anticipation of the grave (see the previous line), through worrying or wondering about her fate, as a form of living death.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Yet if I must alive thus buried be<note type="critical">Being  “buried alive,” thereby enduring a kind of living death, captures the dampening effects of precisely foreknowing one’s death, but it may also or alternatively allude broadly to the speaker’s position of obscurity and confinement. In <ref type="pp-poem-ref" corresp="57">Why Must I Thus Forever Be Confined</ref>, the speaker characterizes her geographical and social isolation in identical terms, as being “buried thus alive.”</note></seg>,</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Let mee yet live my gracious God to thee</rdg>
             <rdg wit="#ee">Let me yet live, my gracious God, to Thee.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Let me yet live my gracious God to thee.</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">Then Soe aſſist my Soul in her Sad Story</rdg>
             <rdg wit="#ee">Then so assist my soul in her sad story,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then So assist my Soul in her <seg>Sad Story<note type="critical">“Story” as an epithet for life suggests a sense of progression towards some end(ing) and is used frequently throughout the manuscript: in addition to the poems referenced in footnotes above, see <ref corresp="32" type="pp-poem-ref">Aletheia’s Pearl</ref>, <ref corresp="34" type="pp-poem-ref">To Aurora [3]</ref>, and <ref corresp="68" type="pp-poem-ref">Come My Dear Children (Emblem 2)</ref>, among many others. Notably, the word “story” in the terminal position of Pulter’s poetic lines always and, it would seem, inevitably rhymes with “glory,” a reference to the beatific afterlife in which the speaker hopes her story culminates.</note></seg>—</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">That though I fall yet I may Riſe to Glory.</rdg>
             <rdg wit="#ee">That though I fall, yet I may rise to glory.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That though I fall yet I may Rise to Glory.</rdg>
         </app>
       </l>
     
