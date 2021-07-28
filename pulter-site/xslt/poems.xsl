@@ -6089,13 +6089,13 @@
 
   <!-- The Pulter Project Explorations -->
   <pp:explorations>
-    <pp:exploration hash="hester-pulters-date-of-birth">
-      <pp:author>Leah Knight</pp:author>
-      <pp:title>Hester Pulter’s Date of Birth: A Difficult Labor</pp:title>
-    </pp:exploration>
     <pp:exploration hash="and-space-may-produce-new-worlds">
       <pp:author>Lara Dodds</pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
+    </pp:exploration>
+    <pp:exploration hash="hester-pulters-date-of-birth">
+      <pp:author>Leah Knight</pp:author>
+      <pp:title>Hester Pulter’s Date of Birth: A Difficult Labor</pp:title>
     </pp:exploration>
     <pp:exploration hash="hester-pulters-marriage">
       <pp:author>Leah Knight</pp:author>
