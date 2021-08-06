@@ -43,4 +43,4 @@ Curations:
 > —
 
 Explorations:
-> what-else...
+> what-else..., hester-pulters-date-of-birth
