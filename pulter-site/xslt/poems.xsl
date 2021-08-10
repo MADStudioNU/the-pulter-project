@@ -6095,7 +6095,7 @@
     </pp:exploration>
     <pp:exploration hash="hester-pulters-date-of-birth">
       <pp:author>Leah Knight</pp:author>
-      <pp:title>Hester Pulter’s Date of Birth: A Difficult Labor</pp:title>
+      <pp:title>A Difficult Labor: Hester Pulter’s Date of Birth</pp:title>
     </pp:exploration>
     <pp:exploration hash="hester-pulters-marriage">
       <pp:author>Leah Knight</pp:author>
