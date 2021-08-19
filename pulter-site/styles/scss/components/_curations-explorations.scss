@@ -302,7 +302,7 @@ $themeColor: #ece9e2;
       max-width: 100%;
     }
 
-    // Qs with sidenotes
+    // Qs with side notes
     &.wsn {
       .sidenote {
         color: $pp_manuscriptInk;
@@ -490,15 +490,16 @@ $themeColor: #ece9e2;
     //}
   }
 
-  // todo: maybe in the future
-  //.quote {
-  //  font-size: .9em;
-  //  text-transform: none;
-  //  letter-spacing: 0;
-  //  border-left: 3px solid rgba($pp_manuscriptInk, .66);
-  //  padding-left: 1em;
-  //  color: $pp_manuscriptInk;
-  //}
+  // More conventional basic quotation
+  .basic-quote {
+    font-size: .9em;
+    margin-bottom: 1.65em;
+    text-transform: none;
+    letter-spacing: 0;
+    border-left: 4px solid rgba($pp_manuscriptInk, .5);
+    padding-left: 1.65em;
+    color: darken($pp_manuscriptInk, 2%);
+  }
 
   p + .q,
   h3 + .q {
