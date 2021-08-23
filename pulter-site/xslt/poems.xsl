@@ -6109,13 +6109,17 @@
       <pp:author>Lara Dodds</pp:author>
       <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
     </pp:exploration>
+    <pp:exploration hash="the-making-of-the-pulter-project" type="video">
+      <pp:author>C. A. Davis</pp:author>
+      <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+    </pp:exploration>
     <pp:exploration hash="picturing-pulter">
       <pp:author>Leah Knight</pp:author>
       <pp:title>Picturing Pulter: Words, Pigment, Stone, and Thread</pp:title>
     </pp:exploration>
-    <pp:exploration hash="the-making-of-the-pulter-project" type="video">
-      <pp:author>C. A. Davis</pp:author>
-      <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+    <pp:exploration hash="soundings-hearing-hester-pulters-poems">
+      <pp:author>Leah Knight and Wendy Wall</pp:author>
+      <pp:title>Soundings: Hearing Hester Pulter’s Poems</pp:title>
     </pp:exploration>
     <pp:exploration hash="what-else-is-in-the-manuscript">
       <pp:author>Wendy Wall</pp:author>
