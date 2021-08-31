@@ -6096,10 +6096,10 @@
       <pp:author>Lara Dodds</pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
     </pp:exploration>
-<!--    <pp:exploration hash="hester-pulters-date-of-birth">-->
-<!--      <pp:author>Leah Knight</pp:author>-->
-<!--      <pp:title>Hester Pulter’s Date of Birth: A Difficult Labor</pp:title>-->
-<!--    </pp:exploration>-->
+    <pp:exploration hash="hester-pulters-date-of-birth">
+      <pp:author>Leah Knight</pp:author>
+      <pp:title>A Difficult Labor: Hester Pulter’s Date of Birth</pp:title>
+    </pp:exploration>
     <pp:exploration hash="hester-pulters-marriage">
       <pp:author>Leah Knight</pp:author>
       <pp:title>Hester Pulter’s Marriage: Facts and Fiction</pp:title>
@@ -6112,13 +6112,17 @@
       <pp:author>Lara Dodds</pp:author>
       <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
     </pp:exploration>
+    <pp:exploration hash="the-making-of-the-pulter-project" type="video">
+      <pp:author>C. A. Davis</pp:author>
+      <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+    </pp:exploration>
     <pp:exploration hash="picturing-pulter">
       <pp:author>Leah Knight</pp:author>
       <pp:title>Picturing Pulter: Words, Pigment, Stone, and Thread</pp:title>
     </pp:exploration>
-    <pp:exploration hash="the-making-of-the-pulter-project" type="video">
-      <pp:author>C. A. Davis</pp:author>
-      <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+    <pp:exploration hash="soundings-hearing-hester-pulters-poems">
+      <pp:author>Leah Knight and Wendy Wall</pp:author>
+      <pp:title>Soundings: Hearing Hester Pulter’s Poems</pp:title>
     </pp:exploration>
     <pp:exploration hash="what-else-is-in-the-manuscript">
       <pp:author>Wendy Wall</pp:author>
