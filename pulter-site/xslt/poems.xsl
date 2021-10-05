@@ -1172,6 +1172,22 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>welcome</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="bell-tolling">
+          <pp:author>Elisa Tersigni</pp:author>
+          <pp:title>Bell Tolling</pp:title>
+          <pp:peek>
+            In pre-modern and early-modern Europe, bells were ubiquitous and the loudest, most pervasive sound in cities. After the human voice, bells were the most versatile of the instruments available and so were used extensively, both by churches for religious reasons, calling listeners to mass or marking a feast day, and by civic buildings (city halls) for secular reasons, such as timekeeping or alarm signaling.
+          </pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="personified-death-in-early-modern-art-and-literature">
+          <pp:author>Elisa Tersigni</pp:author>
+          <pp:title>Personified Death in Early Modern Art and Literature</pp:title>
+          <pp:peek>
+      Early modern Europe experienced an increased preoccupation with death, which appeared frequently in literature and art, including the _Memento Mori_. When personified, Death took many forms, though the image of a skeleton (assumed male through lack of feminine characteristics) and the eroticized Death-as-lover were common treatments.
+          </pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
