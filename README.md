@@ -37,7 +37,7 @@ Branch `master` is deployed to the [production site](https://pulterproject.north
 
 #### Current Delta
 Poems that are published on the preview site but not on the production site:
-> —
+> A19
 
 Curations:
 > C19 Bell Tolling, and C19 Personified Death in Early Modern Art and Literature
