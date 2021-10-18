@@ -43,4 +43,4 @@ Curations:
 > C19 Bell Tolling, and C19 Personified Death in Early Modern Art and Literature
 
 Explorations:
-> hester-pulters-date-of-birth
+> —
