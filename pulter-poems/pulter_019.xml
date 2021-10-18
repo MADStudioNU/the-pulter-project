@@ -9,270 +9,285 @@
 
   ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.19">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-          <title>The Welcome [1]</title>
-        <title type="sub">Poem #19</title>
-        <respStmt>
-          <resp>Created by</resp>
-          <persName>Leah Knight</persName>
-          <persName>Wendy Wall</persName>
-        </respStmt>
-        <respStmt>
-          <resp>Encoded by</resp>
-          <persName>Katherine Poland</persName>
-          <persName>Matthew Taylor</persName>
-          <persName>Betsy Chou</persName>
-          <persName>Emily Andrey</persName>
-          <orgName>Northwestern University</orgName>
-        </respStmt>
-        <respStmt>
-          <resp>IT-project consultation by</resp>
-          <persName>Josh Honn</persName>
-        </respStmt>
-        <sponsor>
-          <orgName>Northwestern University</orgName>
-          <orgName>Brock University</orgName>
-          <orgName>University of Leeds</orgName>
-        </sponsor>
-        <principal>
-          <persName/>
-        </principal>
-      </titleStmt>
-      <editionStmt>
-        <edition n="1"/>
-        <respStmt>
-          <resp>Transcription, transformations, and notes</resp>
-          <persName>Leah Knight</persName>
-          <orgName>Brock University</orgName>
-          <persName>Wendy Wall</persName>
-          <orgName>Northwestern University</orgName>
-        </respStmt>
-      </editionStmt>
-      <extent/>
-      <publicationStmt>
-        <ab/>
-      </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <msDesc>
-            <msIdentifier>
-              <repository>See witness list.</repository>
-            </msIdentifier>
-          </msDesc>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p/>
-      </projectDesc>
-      <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
-      <samplingDecl>
-        <p/>
-      </samplingDecl>
-      <editorialDecl>
-        <correction>
-          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
-          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
-        </correction>
-        <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
-        </normalization>
-        <quotation>
-          <p>Original quotation marks, if any, are preserved.</p>
-        </quotation>
-        <hyphenation>
-          <p>Original hyphenation is preserved.</p>
-        </hyphenation>
-      </editorialDecl>
-      <charDecl>
-        <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
-        <glyph xml:id="ffllig">
-          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
-        </glyph>
-      </charDecl>
-      <classDecl>
-        <taxonomy xml:id="DDC22">
-          <bibl>
-            <title>Dewey Decimal Classification</title>
-            <edition/>
-            <publisher/>
-            <pubPlace/>
-          </bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="en-GB">British English</language>
-      </langUsage>
-      <textClass>
-        <!-- dewey decimal system class code 821: English Poetry -->
-        <classCode scheme="DDC22">821</classCode>
-      </textClass>
-    </profileDesc>
-  </teiHeader>
-  <facsimile>
-    <!-- List of all images associated with this document -->
-      <graphic url="./document_images/7610_081.jpg" xml:id="f7610_081"/>
-  </facsimile>
-  <text>
-    <front>
-      <div>
-        <listWit>
-          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
-          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
-        </listWit>
-      </div>
-    </front>
-
-    <body>
-      <app>
-          <rdg wit="#ft"><pb ed="#ft" facs="#f7610_081" n="39r"/></rdg>
-          <rdg wit="#ee"><pb ed="#ee" facs="#f7610_081"/></rdg>
-          <rdg wit="#ae"><pb ed="#ae" facs="#f7610_081"/></rdg>
-      </app>
-      <head>
-        <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Welcom</rdg>
-            <rdg wit="#ee">The Welcome [1]</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
-        </app>
-        <app type="editorialnote">
-          <rdg wit="#ft">
-            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
-          </rdg>
-          <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
-          <rdg wit="#ae">
-            <note type="editorialnote"></note>
-          </rdg>
-        </app>
-        <app type="headnote">
-          <rdg wit="#ee">
-              <note type="headnote">In this brief poem, death is bid both welcome and farewell, as if in mimicry of its transient power in Pulter’s cosmology. Even the speaker’s easy personification and colloquial diction in the opening lines helps downgrade death as a threat. The speaker’s problem, indeed, is that she <hi rend="italic">cannot</hi> die: which is her fault, since a tender heart would have broken already (presumably from the grief she mentions more than once here, as in other poems alluding to the passing of Pulter’s political heroes and children). But her heart is hard, or “petrified,” a word which in Pulter’s time meant not scared but turned to stone. This image might suggest the speaker’s unfitness as a Christian; what is almost as bad, though, is that such hardness of heart has paradoxically protected her from an otherwise lethal grief: that is, grieving others’ deaths has delayed her own. But in this poem, the speaker seizes the opportunity to turn away from the past and toward her desired death–and with it, presumably, the equally desired end of the grief that forestalled her death until now.</note>
-          </rdg>
-          <rdg wit="#ae">
-            <note type="headnote"></note>
-          </rdg>
-        </app>
-      </head>
-
-      <l n="1">
-        <app>
-            <rdg wit="#ft">Deare Death thou’rt welcom to my troubled Soul</rdg>
-            <rdg wit="#ee">Dear Death, thou’rt welcome to my troubled soul.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="2">
-        <app>
-            <rdg wit="#ft">Hark, is it not for mee the bell doth toll?</rdg>
-            <rdg wit="#ee">Hark: is it not for me the bell doth toll?</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="3">
-        <app>
-            <rdg wit="#ft">How Sweet it Sounds? trust mee I wonder why</rdg>
-            <rdg wit="#ee">How sweet it sounds! Trust me, I wonder why</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="4">
-        <app>
-            <rdg wit="#ft">Wee are Soe foolliſhly afraid to die</rdg>
-            <rdg wit="#ee">We are so foolishly afraid to die;</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="5">
-        <app>
-            <rdg wit="#ft">Ti’s but a Sigh and turning up the eye,</rdg>
-            <rdg wit="#ee">’Tis but a sigh and turning up the eye,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="6">
-        <app>
-            <rdg wit="#ft">A few Sad farewels to our freinds to Speak</rdg>
-            <rdg wit="#ee">A few sad farewells <seg>to our<note type="critical">Pronounce as one syllable (i.e., “t’our”) to maintain meter.</note></seg> friends to speak,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="7">
-        <app>
-            <rdg wit="#ft">And <add place="below">^</add><add place="above">then</add> a tender heart will quickly break</rdg>
-            <rdg wit="#ee">And then a tender heart will quickly break.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="8">
-        <app>
-            <rdg wit="#ft">But my Sad heart (ay mee) is petrified</rdg>
-            <rdg wit="#ee">But my sad heart (ay me) is <seg>petrified<note type="gloss">converted to stone</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="9">
-        <app>
-            <rdg wit="#ft">Or elce with Griefe I long agon had died</rdg>
-            <rdg wit="#ee">Or else with grief I long ago had died;</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="10">
-        <app>
-            <rdg wit="#ft">But now my Soul thou Shalt infranchiſed bee</rdg>
-            <rdg wit="#ee">But now, my soul, thou shalt <seg>enfranchised<note type="gloss">freed from confinement or subjection</note></seg> be,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="11">
-        <app>
-            <rdg wit="#ft">Though my flesh trembles ti’s good news for thee</rdg>
-            <rdg wit="#ee">Though my flesh trembles, ’tis good news for thee.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="12">
-        <app>
-            <rdg wit="#ft">&ff;or thou to heaven again Shall take thy fleight</rdg>
-            <rdg wit="#ee">For thou to heav’n again shall take thy flight</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="13">
-        <app>
-            <rdg wit="#ft">And bee involv’d in Joy, Life, Love, and Light</rdg>
-            <rdg wit="#ee">And be <seg>involved<note type="gloss">enveloped, entangled</note></seg> in joy, life, love, and light.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="14">
-        <app>
-            <rdg wit="#ft">Then bid Adue to Death and her Curst <seg>train<note type="physical">“ain” written over other indiscernible letters</note></seg></rdg>
-            <rdg wit="#ee">Then bid adieu to Death and her cursed <seg>train<note type="gloss">treachery, trap, followers, artillery, manner of action, or consequences</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="15">
-        <app>
-            <rdg wit="#ft">&ff;or thou Shalt never more Return againe</rdg>
-            <rdg wit="#ee">For thou shalt never more return again</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-      <l n="16">
-        <app>
-            <rdg wit="#ft">To bee aflicted here with Griefe &amp; paine.</rdg>
-            <rdg wit="#ee">To be afflicted here with grief and pain.</rdg>
-          <rdg wit="#ae"></rdg>
-        </app>
-      </l>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Welcome [1]</title>
+                <title type="sub">Poem #19</title>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <persName>Leah Knight</persName>
+                    <persName>Wendy Wall</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Katherine Poland</persName>
+                    <persName>Matthew Taylor</persName>
+                    <persName>Betsy Chou</persName>
+                    <persName>Emily Andrey</persName>
+                    <persName>Sydney Reeves</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+                <respStmt>
+                    <resp>IT-project consultation by</resp>
+                    <persName>Josh Honn</persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Northwestern University</orgName>
+                    <orgName>Brock University</orgName>
+                    <orgName>University of Leeds</orgName>
+                </sponsor>
+                <principal>
+                    <persName/>
+                </principal>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"/>
+                <respStmt>
+                    <resp>Transcription, transformations, and notes</resp>
+                    <persName>Leah Knight</persName>
+                    <orgName>Brock University</orgName>
+                    <persName>Wendy Wall</persName>
+                    <orgName>Northwestern University</orgName>
+                </respStmt>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>See witness list.</repository>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+            <samplingDecl>
+                <p/>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
+                    <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+                </correction>
+                <normalization>
+                    <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+                </normalization>
+                <quotation>
+                    <p>Original quotation marks, if any, are preserved.</p>
+                </quotation>
+                <hyphenation>
+                    <p>Original hyphenation is preserved.</p>
+                </hyphenation>
+            </editorialDecl>
+            <charDecl>
+                <!-- Ligature combinations for which there are currently no corresponding Unicode codepoints. -->
+                <glyph xml:id="ffllig">
+                    <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
+                </glyph>
+            </charDecl>
+            <classDecl>
+                <taxonomy xml:id="DDC22">
+                    <bibl>
+                        <title>Dewey Decimal Classification</title>
+                        <edition/>
+                        <publisher/>
+                        <pubPlace/>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-GB">British English</language>
+            </langUsage>
+            <textClass>
+                <!-- dewey decimal system class code 821: English Poetry -->
+                <classCode scheme="DDC22">821</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- List of all images associated with this document -->
+        <graphic url="./document_images/7610_081.jpg" xml:id="f7610_081"/>
+    </facsimile>
+    <text>
+        <front>
+            <div>
+                <listWit>
+                    <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
+                    <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
+                    <witness xml:id="ae">Amplified edition: By <persName>Elisa Tersigni</persName>.</witness>
+                </listWit>
+            </div>
+        </front>
+        
+        <body>
+            <app>
+                <rdg wit="#ft"><pb ed="#ft" facs="#f7610_081" n="39r"/></rdg>
+                <rdg wit="#ee"><pb ed="#ee" facs="#f7610_081"/></rdg>
+                <rdg wit="#ae"><pb ed="#ae" facs="#f7610_081"/></rdg>
+            </app>
+            <head>
+                <app type="title">
+                    <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>The Welcom</rdg>
+                    <rdg wit="#ee">The Welcome [1]</rdg>
+                    <rdg wit="#ae">The Welcom</rdg>
+                </app>
+                <app type="editorialnote">
+                    <rdg wit="#ft">
+                        <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+                    </rdg>
+                    <rdg wit="#ee">
+                        <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+                    <rdg wit="#ae">
+                        <note type="editorialnote"><p>This edition is a semi-diplomatic transcription, preserving the original spelling (including “ff” in lines 12 and 15), capitalization, punctuation, and lineation. The interlinear addition of “then” in line 7 is marked with a caret (^). As the Elemental Edition offers a modernized and punctuated version of the poem, this Amplified Edition is meant as a complement, opening up alternative interpretations. Thus the footnotes detail the challenges of reading Pulter’s idiosyncratic grammar and spelling, and offer options for readings, rather than solutions.</p> 
+                               <p> The editor thanks Julia Fine, Leah Knight, Randall McLeod, Timothy P.J. Perry, Haylie Swenson, K Vanderpark, Wendy Wall, and the anonymous reviewers for their helpful suggestions. The editor also acknowledges the support of the Folger Shakespeare Library and the Andrew W. Mellon Foundation.</p>
+                        </note>
+                    </rdg>
+                </app>
+                <app type="headnote">
+                    <rdg wit="#ee">
+                        <note type="headnote">In this brief poem, death is bid both welcome and farewell, as if in mimicry of its transient power in Pulter’s cosmology. Even the speaker’s easy personification and colloquial diction in the opening lines helps downgrade death as a threat. The speaker’s problem, indeed, is that she <hi rend="italic">cannot</hi> die: which is her fault, since a tender heart would have broken already (presumably from the grief she mentions more than once here, as in other poems alluding to the passing of Pulter’s political heroes and children). But her heart is hard, or “petrified,” a word which in Pulter’s time meant not scared but turned to stone. This image might suggest the speaker’s unfitness as a Christian; what is almost as bad, though, is that such hardness of heart has paradoxically protected her from an otherwise lethal grief: that is, grieving others’ deaths has delayed her own. But in this poem, the speaker seizes the opportunity to turn away from the past and toward her desired death–and with it, presumably, the equally desired end of the grief that forestalled her death until now.</note>
+                    </rdg>
+                    <rdg wit="#ae">
+                        <note type="headnote"><p>Poem 19 is the first of two poems titled “The Welcom(e)”. (See also <ref type="pp-poem-ref" corresp="33">The Welcome [2] (Poem 33)</ref>.) In both poems, the speaker welcomes death; but, in Poem 19, the irregular rhyme schemes and inharmonic cadences suggest how uneasy and contradictory the speaker’s thinking about death actually is. </p>
+                            <p>The poem opens with the speaker offering her soul to personified Death, only to turn immediately from her at the start of the second line and listen to the tolling bell, which presumably marks the speaker’s impending death and asks that listeners pray for her departing soul. The speaker’s calling the bell “sweet” is ironic: early modern and modern European bells have a characteristic minor overtone, which gives them an inherently melancholic sound. The irony is doubled in this line’s echo of John Donne’s <title rend="italic">Devotions</title> (1624). By asking “is it not for mee the bell doth toll?”, the speaker does what Donne says not to do: “Any Mans <hi rend="italic">death</hi> diminishes <hi rend="italic">me</hi>, because I am inuolued in <hi class="italic">Mankinde</hi>; And therefore neuer send to know for whom the <hi rend="italic">bell</hi> tolls; It tolls for <hi rend="italic">thee</hi>.” Nevertheless, her leading question implies that she arrives at the same conclusion as Donne: the bell tolls for her, metaphorically if not literally.</p>
+                            <p>The speaker then asks the reader to “trust” her—someone who has just revealed herself to be uncertain, asking questions without clear answers. She characterizes death as merely a brief and uneventful physiological experience (“a sigh and turning up the eye”) and a somewhat sad social occasion (“a few sad farewels to our freinds”). She claims that, for the tender-hearted on her deathbed, the grief of saying goodbye to her friends is enough to break her heart. But instead of breaking the speaker’s heart, grief has hardened it to stone, and so she finds herself simultaneously not fully alive and unable to die.</p>
+                            <p>In l. 10, the speaker turns her attention again, this time to address her soul. The speaker treats her body and her soul as different entities, at odds with each other: her soul is imprisoned within her body. After her body dies, her soul will live in heaven. In looking forward to her soul’s saying “Adue” to Death, the speaker anticipates not the “sad farewell” she claimed in l. 6, but a happy end to Death’s recurring visits and a new beginning in the afterlife. </p>
+                            <p>Several of Pulter’s poems have the speaker addressing Death, which, though not usually given a gender, is sometimes described with masculine or feminine pronouns, as in “The Welcome” [1]. In early modern European art and literature, personified Death was depicted interchangeably with masculine and feminine features (ex. having a beard or breasts), sometimes in the same work<seg>1<note type="gloss">See, for instance, the Basel Dance of Death (ca. 1440), in which Death is presented in many forms and gendered with both feminine and masculine features. For more on the gendering of personified Death, see Karl S. Guthke’s <title rend="italic">The Gender of Death: A Cultural History in Art and Literature</title> (1999) and Diana Burton’s “The Gender of Death” in <title class="italic">Personification in The Greek World: From Antiquity to Byzantium</title> (2005).</note></seg>. The speaker’s description of Death as feminine is thus not exceptional. But Death in this poem is unusually social: she travels with her retinue, unlike the lone image of Death that was and remains common. The speaker’s death is likewise a social activity, involving parallel goodbyes to her friends in life and her friend in Death.</p>
+                            <p>Pulter’s Death diverges from her contemporaries’ Death in several other ways. Donne’s Death in “Death be not proud” is opportunistic and engaged in a power struggle: he is a “slave to Fate, chance, kings, and desperate men” and dwells with “poyson, warre, and sicknesse.” Herbert’s Death in “Death” is highly material, “[n]othing but bones” until Christ’s “death did put some bloud / Into thy face”. As Herbert’s speaker finds beauty in death, Pulter’s speaker finds freedom from the confines of life. Whereas, in Donne’s and Herbert’s poems, death is transformed by Christ’s sacrifice—bringing new life, it is no longer something to be feared—in Pulter’s poem a nuanced struggle unfolds between one’s spiritual beliefs about death and its material realities: death is a release only for the redeemed Christian soul. </p>
+                            <p>For more about Pulter’s depictions of Death and death, see the following Curations: Elizabeth Scott-Baumann’s <ref type="pp-curations-ref" target="#ctxs">Dear Death</ref>, Helen Smith’s <ref type="pp-curations-ref" target="#ctxs">The Good Death</ref> and <ref type="pp-curations-ref" target="#ctxs">Memento Mori</ref>, Elisa Tersigni’s <ref type="pp-curations-ref" target="#ctxs">Personified Death in Early Modern Art and Literature</ref>, and Wendy Wall’s <ref type="pp-curations-ref" target="#ctxs">Talking to Death</ref>. For more on the speaker’s desire for death, see Frances E. Dolan’s <ref type="pp-curations-ref" target="#ctxs">Desiring Death</ref> and <ref type="pp-curations-ref" target="#ctxs">More Ruminations on Death and Resurrection</ref>.
+                            </p>
+                        </note>
+                    </rdg>
+                </app>
+            </head>
+            
+            <l n="1">
+                <app>
+                    <rdg wit="#ft">Deare Death thou’rt welcom to my troubled Soul</rdg>
+                    <rdg wit="#ee">Dear Death, thou’rt welcome to my troubled soul.</rdg>
+                    <rdg wit="#ae"><seg>Deare Death<note type="critical"> Pulter also opens “The Hope” (Poem 65) with “Dear Death”. For more on this opening, see Elizabeth Scott-Baumann’s Curation, <ref type="pp-curations-ref" target="#ctxs">Dear Death</ref>.
+                    </note></seg> <seg>thou’rt<note type="critical"> “Thou’rt” is read as a single syllable to keep the metre of the line.</note></seg> welcom to my troubled soul</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <rdg wit="#ft">Hark, is it not for mee the bell doth toll?</rdg>
+                    <rdg wit="#ee">Hark: is it not for me the bell doth toll?</rdg>
+                    <rdg wit="#ae">Hark, is it not for mee the bell doth <seg>toll?<note type="critical">This line echoes John Donne’s <title rend="italic">Devotions vpon emergent occasions</title> (London, 1624): “Any Mans <hi rend="italic">death</hi> diminishes <hi rend="italic">me</hi>, because I am inuolued in <hi rend="italic">Mankinde</hi>; And therefore neuer send to know for whom the <hi rend="italic">bell</hi> tolls; It tolls for <hi rend="italic">thee</hi>.” In early modern England, bells were rung to mark a person’s impending death, their moment of passing, and their funeral.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <rdg wit="#ft">How Sweet it Sounds? trust mee I wonder why</rdg>
+                    <rdg wit="#ee">How sweet it sounds! Trust me, I wonder why</rdg>
+                    <rdg wit="#ae"><seg>How sweet it sounds?<note type="critical"> Early modern European bells had a minor overtone, giving them an inherently melancholic sound. By posing the statement that the bell sounds sweet as a question, the speaker underscores its ironic description and highlights her uncertainty. Leah Knight’s and Wendy Wall’s Elemental Edition punctuates this phrase with an exclamation mark although the manuscript has a question mark. While the syntax is indeed typical of an exclamatory statement, it is nevertheless possible to retain the original punctuation without disrupting the internal coherence of the poem: questions in English are usually formed with the verb “to do” (i.e., “how sweet does it sound?” or “does it sound sweet?”) but they can also be formed simply by adding a question mark to a statement, with a change of intonation. The effect of this is usually to undermine the equivalent statement by expressing surprise or doubt. “How sweet it sounds?” can therefore be read as a surprised or doubtful response to an implied statement “How sweet it sounds!” This sense of surprise or doubt is perhaps caused by the contrast between the sound of a bell ringing for death and the idea of its sounding sweet. This seeming contradiction is then reinforced by the following “trust mee”.
+                    </note></seg> trust mee I wonder why</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <rdg wit="#ft">Wee are Soe foolliſhly afraid to die</rdg>
+                    <rdg wit="#ee">We are so foolishly afraid to die;</rdg>
+                    <rdg wit="#ae">Wee are soe foollishly afraid to die</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <rdg wit="#ft">Ti’s but a Sigh and turning up the eye,</rdg>
+                    <rdg wit="#ee">’Tis but a sigh and turning up the eye,</rdg>
+                    <rdg wit="#ae">Ti’s but a sigh and turning up the eye.</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <rdg wit="#ft">A few Sad farewels to our freinds to Speak</rdg>
+                    <rdg wit="#ee">A few sad farewells <seg>to our<note type="critical">Pronounce as one syllable (i.e., “t’our”) to maintain meter.</note></seg> friends to speak,</rdg>
+                    <rdg wit="#ae">A few sad farewels to our freinds to speak</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <rdg wit="#ft">And <add place="below">^</add><add place="above">then</add> a tender heart will quickly break</rdg>
+                    <rdg wit="#ee">And then a tender heart will quickly break.</rdg>
+                    <rdg wit="#ae">And <add place="below">^</add><add place="above"><seg>then<note type="critical">The interlinear addition of “then” completes the metre.</note></seg></add> a tender heart will quickly break</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <rdg wit="#ft">But my Sad heart (ay mee) is petrified</rdg>
+                    <rdg wit="#ee">But my sad heart (ay me) is <seg>petrified<note type="gloss">converted to stone</note></seg>,</rdg>
+                    <rdg wit="#ae">But my sad heart (ay mee) is <seg>petrified<note type="gloss">Hardened to stone.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <rdg wit="#ft">Or elce with Griefe I long agon had died</rdg>
+                    <rdg wit="#ee">Or else with grief I long ago had died;</rdg>
+                    <rdg wit="#ae">Or elce with Griefe I long agon had died</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <rdg wit="#ft">But now my Soul thou Shalt infranchiſed bee</rdg>
+                    <rdg wit="#ee">But now, my soul, thou shalt <seg>enfranchised<note type="gloss">freed from confinement or subjection</note></seg> be,</rdg>
+                    <rdg wit="#ae">But now my soul thou shalt <seg>infranchised<note type="gloss">Made free.</note></seg> bee</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <rdg wit="#ft">Though my flesh trembles ti’s good news for thee</rdg>
+                    <rdg wit="#ee">Though my flesh trembles, ’tis good news for thee.</rdg>
+                    <rdg wit="#ae">Though my flesh trembles ti’s good news for thee</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <rdg wit="#ft">&ff;or thou to heaven again Shall take thy fleight</rdg>
+                    <rdg wit="#ee">For thou to heav’n again shall take thy flight</rdg>
+                    <rdg wit="#ae">ffor thou to <seg>heaven<note type="critical">To keep the metre of the line, “heaven” can be read as a single syllable (“heav’n”).</note></seg> again shall take thy fleight</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <rdg wit="#ft">And bee involv’d in Joy, Life, Love, and Light</rdg>
+                    <rdg wit="#ee">And be <seg>involved<note type="gloss">enveloped, entangled</note></seg> in joy, life, love, and light.</rdg>
+                    <rdg wit="#ae">And bee <seg>involv’d<note type="critical">Words with an “ed” ending, such as “involved”, can be pronounced in multiple ways: emphasizing the “ed” (i.e., in-volv-èd), which adds an additional syllable to the word, or not emphasizing the “ed” (i.e., in-volv’d); these alternate pronunciations are convenient for writing in pentameter. While the convention in early modern English poetry is to syllabize the “ed” ending when it is written as such (i.e., “involved”) and not when it is written using an apostrophe in place of the “e” (i.e., “involv’d”), poets do not always adhere to this convention. In her Curation <ref type="pp-curations-ref" target="#ctxs">Manuscript Ambiguities</ref>, Liza Blake argues that Pulter’s manuscript is written in two different hands: Pulter’s own hand and that of her scribe; “The Welcom” (Poem 19) is written in the latter. Both hands are inconsistent in their spellings of past participles. Compare, for instance, “troubled” in line 1 and “involv’d” in line 13: to keep the metre of the lines, both “ed” endings are not pronounced, and yet they are spelled differently. 
+                    </note></seg> in Ioy, Life, Love, and Light</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <rdg wit="#ft">Then bid Adue to Death and her Curst <seg>train<note type="physical">“ain” written over other indiscernible letters</note></seg></rdg>
+                    <rdg wit="#ee">Then bid adieu to Death and her cursed <seg>train<note type="gloss">treachery, trap, followers, artillery, manner of action, or consequences</note></seg>,</rdg>
+                    <rdg wit="#ae">Then bid Adue to Death and <seg>her<note type="critical">While in early-modern Europe personified Death was presented as male, female, or neuter, Pulter consistently refers to Death using feminine pronouns.</note></seg> Curst <seg>train<note type="gloss">“A number of people following, accompanying, or attending on a person, usually one of high rank of importance” (OED). It is not clear of what or whom Death’s train is composed. In “Death be not proud,” Donne’s Death dwells “with poyson, warre, and sicknesse.” Death’s train here may likewise be composed of people or of other personifications, perhaps of the grief and pain of the poem’s final line.</note></seg></rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <rdg wit="#ft">&ff;or thou Shalt never more Return againe</rdg>
+                    <rdg wit="#ee">For thou shalt never more return again</rdg>
+                    <rdg wit="#ae">&ff;or thou shalt nevermore return againe</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <rdg wit="#ft">To bee aflicted here with Griefe &amp; paine.</rdg>
+                    <rdg wit="#ee">To be afflicted here with grief and pain.</rdg>
+                    <rdg wit="#ae">To be aflicted here with Griefe &amp; paine.</rdg>
+                </app>
+            </l>
+        </body>
+    </text>
 </TEI>
+
