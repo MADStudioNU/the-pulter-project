@@ -1175,7 +1175,7 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>welcome</pp:tag>
       </pp:tags>
-      <pp:curations>
+<!--      <pp:curations>-->
 <!--        <pp:curation status="on" hash="bell-tolling">-->
 <!--          <pp:author>Elisa Tersigni</pp:author>-->
 <!--          <pp:title>Bell Tolling</pp:title>-->
@@ -1190,7 +1190,7 @@
 <!--      Early modern Europe experienced an increased preoccupation with death, which appeared frequently in literature and art, including the _Memento Mori_. When personified, Death took many forms, though the image of a skeleton (assumed male through lack of feminine characteristics) and the eroticized Death-as-lover were common treatments.-->
 <!--          </pp:peek>-->
 <!--        </pp:curation>-->
-      </pp:curations>
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="20">
       <pp:title>Dear God, Turn Not Away Thy Face</pp:title>
