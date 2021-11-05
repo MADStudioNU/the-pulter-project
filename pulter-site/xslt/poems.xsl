@@ -2350,6 +2350,17 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
+      <pp:soundings>
+        <pp:sounding>
+          <pp:audio fileRef="foo.mp3" recordedOn=""/>
+          <pp:readers>
+            <pp:reader>
+              <pp:name>Reader One</pp:name>
+              <pp:affiliation>Northwestern University</pp:affiliation>
+            </pp:reader>
+          </pp:readers>
+        </pp:sounding>
+      </pp:soundings>
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
@@ -6358,7 +6369,7 @@
                   <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editions-blurb" data-featherlight-variant="home-lightbox">i</a>
                 </div>
                 <div class="col c-flag">
-                  <span class="label">Curations</span>
+                  <span class="label">Extras</span>
                 </div>
               </div>
             </div>
@@ -6583,7 +6594,7 @@
                           <xsl:value-of select="'js-link to-curation'"/>
                         </xsl:attribute>
                         <xsl:attribute name="title">
-                          <xsl:value-of select="'Jump to curations'"/>
+                          <xsl:value-of select="concat('Open Curations for Poem ', $poemId)"/>
                         </xsl:attribute>
                         <xsl:attribute name="data-resource-type">
                           <xsl:value-of select="'curation'"/>
