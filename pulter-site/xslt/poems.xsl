@@ -6370,6 +6370,7 @@
                 </div>
                 <div class="col c-flag">
                   <span class="label">Extras</span>
+                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#extras-blurb" data-featherlight-variant="home-lightbox">i</a>
                 </div>
               </div>
             </div>
@@ -6608,6 +6609,26 @@
                         <xsl:text> </xsl:text>
                       </xsl:element>
                     </xsl:if>
+                    <xsl:if test="$isPublished and $hasCurations">
+                      <xsl:element name="a">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'js-link to-curation'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                          <xsl:value-of select="concat('Open Curations for Poem ', $poemId)"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-resource-type">
+                          <xsl:value-of select="'curation'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-poem-id">
+                          <xsl:value-of select="$poemId"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>
+                        </xsl:attribute>
+                        <xsl:text> </xsl:text>
+                      </xsl:element>
+                    </xsl:if>
                   </xsl:element>
                 </xsl:for-each>
               </ul>
@@ -6692,6 +6713,15 @@
             <img src="/images/tpp-editions-blurb.png"/>
             <p>Those encountering Pulter for the first time might start with the <span class="edition-label">elemental</span> editions, with their modernized text and relatively simple annotations.</p>
             <p>Those ready for more will enjoy the <span class="edition-label">amplified</span> editions, each governed by its own principles and more extensive annotation.</p>
+          </div>
+        </div>
+        <div id="extras-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3>Curations and Soundings</h3>
+          <div class="c">
+            <img src="/images/tpp-editions-blurb.png"/>
+            <p>Blurb about <span class="edition-label">curations</span> here.</p>
+            <p>And blurb about <span class="edition-label">soundings</span> here.</p>
           </div>
         </div>
         <script src="/scripts/vendors/vendors.js"><xsl:text> </xsl:text></script>
