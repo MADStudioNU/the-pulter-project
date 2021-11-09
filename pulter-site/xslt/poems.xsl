@@ -6767,6 +6767,7 @@
   <xsl:template match="pp:curation"/>
   <xsl:template match="pp:explorations"/>
   <xsl:template match="pp:exploration"/>
+  <xsl:template match="pp:soundings"/>
 
   <!-- Segments and their renditions -->
   <xsl:template match="seg">
