@@ -17,8 +17,8 @@ jobs:
           node-version: '8.x'
           
       - run: node -v
-      - run: node rebuild --all
-      - run: node install
+      # - run: npm rebuild --all
+      # - run: npm install
       - run: ls ${{ github.workspace }}
  
       - name: Prepare Node 16
