@@ -1,0 +1,34 @@
+name: NodeJS with Gulp
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [8.x, 16.x]
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: 8
+
+    - name: Build
+      run:
+        yarn
+        gulp:xslt
+        gulp:deploy
+
+    - name: Deploy to Netlfiy
+      uses: danakim/gh-action-deploy-netlify@v1
+      with:
+        node-version: 16
