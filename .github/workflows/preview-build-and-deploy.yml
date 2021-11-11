@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: '8.x'
           
-      - name: Build
       - run: node -v
       - run: node rebuild --all
       - run: node install
