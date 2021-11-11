@@ -8,18 +8,29 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
+    - name: Check out the code
+      uses: actions/checkout@v2
+      
+    - name: Prepare Node 8
+      uses: actions/setup-node@v1
       with:
         node-version: '8.x'
 
     - name: Build
-      run: node -v
+    - run: node -v
+    - run: node rebuild --all
+    - run: node install
+    - run: ls ${{ github.workspace }}
  
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '8.x'
-      
-    - uses: danakim/gh-action-deploy-netlify@v1
+    - name: Prepare Node 16
+      uses: actions/setup-node@v1
       with:
         node-version: '16.x'
+        
+    - name: Deploy to Netlify
+      uses: danakim/gh-action-deploy-netlify@v1
+      with:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_DEPLOY_MESSAGE: 'Deployed via GitHub Actions'
+        build_directory: 'dist'
