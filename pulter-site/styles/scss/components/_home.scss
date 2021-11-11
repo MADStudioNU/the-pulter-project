@@ -162,23 +162,6 @@
           }
         }
 
-        .teaser-text {
-          color: lighten($pp_manuscriptPaper, 7%);
-          font-size: 1.1em;
-          margin-bottom: 5vh;
-          line-height: 1.61;
-          display: inline-block;
-          text-align: center;
-          font-family: $pp_originalFont;
-          font-style: italic;
-          width: 100%;
-
-          @include breakpoint(mobile) {
-            font-weight: normal;
-            margin-bottom: 6vh;
-          }
-        }
-
         .vid-box {
           text-align: center;
           margin: 0;
@@ -188,7 +171,7 @@
             .thumb {
               $h: 4em;
               $ratio: 16/9;
-              $playIconSize: 1.15em;
+              $playIconSize: 1em;
 
               position: relative;
               display: inline-block;
@@ -281,6 +264,23 @@
                 }
               }
             }
+          }
+        }
+
+        .teaser-text {
+          color: lighten($pp_manuscriptPaper, 7%);
+          font-size: 1.1em;
+          margin-bottom: 5vh;
+          line-height: 1.61;
+          display: inline-block;
+          text-align: center;
+          font-family: $pp_originalFont;
+          font-style: italic;
+          width: 100%;
+
+          @include breakpoint(mobile) {
+            font-weight: normal;
+            margin-bottom: 6vh;
           }
         }
 
