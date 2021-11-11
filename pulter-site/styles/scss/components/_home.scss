@@ -155,14 +155,17 @@
         }
 
         .teasers {
-          //margin: 3em 0;
-          margin: 6vh 0 10vh 0;
+          margin: 6vh 0 8vh 0;
+
+          @include breakpoint(mobile) {
+            margin: 6vh 0;
+          }
         }
 
         .teaser-text {
-          color: lighten($pp_manuscriptPaper, 6%);
+          color: lighten($pp_manuscriptPaper, 7%);
           font-size: 1.1em;
-          margin-bottom: 4vh;
+          margin-bottom: 5vh;
           line-height: 1.61;
           display: inline-block;
           text-align: center;
@@ -182,42 +185,10 @@
           width: 100%;
 
           .vid {
-            //.action-call {
-              //$connectorLength: 3em;
-              //text-align: left;
-              //display: inline-block;
-              //vertical-align: middle;
-              //margin-left: $connectorLength;
-              //margin-left: 1.5em;
-              //padding-left: 1em;
-              //font-style: italic;
-              //color: rgba(#fff, .9);
-              //border-left: 1px solid rgba($pp_shinyGold, .33);
-              //position: relative;
-
-              //&::before {
-              //  content: '';
-              //  display: block;
-              //  background: linear-gradient(90deg, $pp_shinyGold 0%, #fff 100%);
-              //  height: 1px;
-              //  width: $connectorLength;
-              //  position: absolute;
-              //  top: 50%;
-              //  left: -$connectorLength;
-              //}
-
-              //@include breakpoint(mobile) {
-              //  display: block;
-              //  text-align: center;
-              //  margin: 1.5em 0 0 0;
-              //  font-size: ms(0);
-              //}
-            //}
-
             .thumb {
-              $h: 2.25em;
+              $h: 4em;
               $ratio: 16/9;
-              $playIconSize: .6em;
+              $playIconSize: 1.15em;
 
               position: relative;
               display: inline-block;
@@ -225,7 +196,8 @@
               cursor: pointer;
               height: $h;
               width: $h * $ratio;
-              border: 1px solid rgba($pp_manuscriptPaper, .5);
+              //border: 1px solid rgba($pp_manuscriptPaper, .5);
+              border: 1px solid rgba($pp_shinyGold, .5);
               border-radius: .25em;
               overflow: hidden;
               box-shadow: 0 0 1em rgba(0, 0, 0, .66);
@@ -248,11 +220,10 @@
                 display: block;
                 width: 100%;
                 height: 100%;
-                background: url('/images/triangle-down-w.svg') no-repeat 49% 50%;
+                background: url('/images/triangle-down-w.svg') no-repeat 50% 50%;
                 background-size: $playIconSize;
                 @include transform(rotate(270deg));
                 @include transition(opacity .2s);
-
                 @include breakpoint(mobile) {
                   background-size: 2em;
                 }
@@ -265,10 +236,49 @@
               }
 
               @include breakpoint(mobile) {
-                $h: 6em;
+                $h: 5em;
 
                 height: $h;
                 width: $h * $ratio;
+
+                &::after {
+                  background-size: 1.25em;
+                }
+              }
+            }
+
+            .action-call {
+              font-size: 1em;
+              line-height: 1.61;
+              text-align: left;
+              display: inline-block;
+              vertical-align: middle;
+              margin-left: 1.66em;
+              //font-style: italic;
+              color: rgba(#fff, .9);
+              position: relative;
+
+              .video-title {
+                font-size: 1.2em;
+              }
+
+              .video-subtitle {
+                opacity: .9;
+              }
+
+              @include breakpoint(mobile) {
+                display: block;
+                text-align: center;
+                margin: 1em 0 0 0;
+                font-size: ms(0);
+
+                .video-title {
+                  font-size: 1em;
+                }
+
+                .video-subtitle {
+                  font-size: .85em;
+                }
               }
             }
           }
@@ -288,7 +298,6 @@
               color: whitesmoke;
               position: relative;
               cursor: pointer;
-              //font-size: ms(-2);
               font-size: .8em;
               display: inline-block;
               font-family: $pp_interfaceFont;

@@ -6270,11 +6270,11 @@
                     <a class="thumb" href="https://player.vimeo.com/video/294846142?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0" data-featherlight="iframe" data-featherlight-close-icon="" data-featherlight-variant="intro-video" data-featherlight-iframe-frameborder="0" data-featherlight-iframe-allow="autoplay; encrypted-media" data-featherlight-iframe-allowfullscreen="true">
                       <div class="c">
                         <div class="meta">
-                          <span class="dur">1:25</span>
+                          <span class="dur"></span>
                         </div>
                       </div>
                     </a>
-                    <!--<p class="action-call">See <span class="">“Another World,”</span><br/><span class="it">The Pulter Project</span> video.</p>-->
+                    <p class="action-call"><strong class="video-title it">Another World</strong><br/><span class="video-subtitle"><span class="it">The Pulter Project</span> video</span></p>
                   </div>
                 </div>
               </div>
