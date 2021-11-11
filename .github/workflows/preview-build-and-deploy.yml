@@ -16,8 +16,7 @@ jobs:
         with:
           node-version: '8.x'
           
-      - run: node -v
-      - run: npm rebuild java
+      - run: npm install java
       - run: yarn
       - run: gulp:xslt
       - run: gulp:deploy
