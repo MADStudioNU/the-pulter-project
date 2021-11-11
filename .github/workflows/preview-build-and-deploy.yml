@@ -8,8 +8,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-        # Checks out the repo
-      - uses: actions/checkout@v1
+      - name: Check out the repo
+        uses: actions/checkout@v1
       
       - name: Prepare Node 8
         uses: actions/setup-node@v1
