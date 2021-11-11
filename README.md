@@ -26,13 +26,15 @@ You should have the following terminal commands available:
 * `gulp xslt` — runs all the commands from `xslt` namespace; re-compiles the whole site;
 * `gulp deploy` — builds a production version of the site and puts it in `/dist`.
 
-### Development and Production
-Branch `develop` is deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems).
+### Development Instance
+Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push.
 
-Install Netlify CLI tool: `npm install netlify-cli -g. Log in using [TPP's credentials](https://slate.weinberg.northwestern.edu/display/FCS/Pulter+Project+Internet+Accounts).
+[![.github/workflows/preview-build-and-deploy.yml](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml/badge.svg?branch=develop)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml)
 
-Use this one-liner to publish the site: `gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
+Or use this one-liner to deploy to Netlify manually:
+`gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
 
+### Production Instance
 Branch `master` is deployed to the [production site](https://pulterproject.northwestern.edu/#poems).
 
 #### Current Delta
