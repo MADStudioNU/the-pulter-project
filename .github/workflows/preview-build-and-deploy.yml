@@ -24,8 +24,8 @@ jobs:
           
       - run: yarn
       - run: npm i -g gulp-cli
-      - run: gulp:xslt
-      - run: gulp:deploy
+      - run: gulp xslt
+      - run: gulp deploy
  
       - name: Prepare Node 16
         uses: actions/setup-node@v1
