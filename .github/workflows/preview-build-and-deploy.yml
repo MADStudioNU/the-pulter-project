@@ -23,6 +23,7 @@ jobs:
           node-version: '8.x'
           
       - run: yarn
+      - run: npm i -g gulp-cli
       - run: gulp:xslt
       - run: gulp:deploy
  
