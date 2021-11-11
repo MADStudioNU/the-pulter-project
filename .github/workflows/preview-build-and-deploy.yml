@@ -33,9 +33,10 @@ jobs:
           node-version: '16.x'
         
       - name: Deploy to Netlify
-        uses: danakim/gh-action-deploy-netlify@v1
+        uses: nwtgck/actions-netlify@v1.2
         with:
+          publish-dir: '/dist'
+        env:        
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_DEPLOY_MESSAGE: 'Deployed via GitHub Actions'
-          build_directory: 'dist'
+        timeout-minutes: 1
