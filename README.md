@@ -1,10 +1,12 @@
 # The Pulter Project Central
 
 ## Welcome
-This repository contains everything the project needs to live and evolve except two image collections: manuscript facsimiles ("facs" folder which is [currently on Box](https://northwestern.app.box.com/folder/30331780748)) and [poem posters](https://github.com/MADStudioNU/the-pulter-project-posters).
+This repository contains the codebase of [The Pulter Project](https://pulterproject.northwestern.edu/). Two large image collections are included in the form of submodules:
+* [Poem Poster Images](https://github.com/MADStudioNU/the-pulter-project-posters)
+* [Manuscript Facsimile Images](https://github.com/MADStudioNU/the-pulter-project-facs)
 
 ## For the Editors
-These are the folders of the utmost interest for the contributing parties, as well as the editors:
+These are the folders of interest for the contributing parties, as well as the editors:
 * `/pulter-poems` — TEI XML encoded poems, the gold;
 * `/pulter-site/pages` — static pages of the site;
 * `/pulter-site/curations` — poem curations (HTML pages);
@@ -29,7 +31,7 @@ You should have the following terminal commands available:
 ### Development Instance
 [![.github/workflows/preview-build-and-deploy.yml](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml/badge.svg?branch=develop)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml)
 
-Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push.
+Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push with changes withing these folders: `./pulter-poems` and `./pulter-site`. The commiter may choose to skip the build by including `[skip ci]` string in the commit message.
 
 Or use this one-liner to deploy to Netlify manually: `gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
 
