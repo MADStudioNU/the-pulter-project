@@ -27,17 +27,16 @@ You should have the following terminal commands available:
 * `gulp deploy` — builds a production version of the site and puts it in `/dist`.
 
 ### Development Instance
-Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push.
-
 [![.github/workflows/preview-build-and-deploy.yml](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml/badge.svg?branch=develop)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml)
 
-Or use this one-liner to deploy to Netlify manually:
-`gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
+Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push.
+
+Or use this one-liner to deploy to Netlify manually: `gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
 
 ### Production Instance
 Branch `master` is deployed to the [production site](https://pulterproject.northwestern.edu/#poems).
 
-#### Current Delta
+### Current Delta
 Poems that are published on the preview site but not on the production site:
 > A19
 
