@@ -20,10 +20,10 @@ jobs:
           distribution: 'adopt'
           java-version: '8'
       
-      - name: Prepare Node 16
+      - name: Prepare Node 8
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: '8.x'
           
       - run: yarn
       - run: npm i -g gulp-cli
