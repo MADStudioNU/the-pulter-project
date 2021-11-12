@@ -2,7 +2,8 @@ name: Preview Build and Deploy to Netlify
 
 on:
   push:
-    branches: [ develop ]
+    branches: develop
+    paths: ['pulter-site/**', 'pulter-poems/**']
 
 jobs:
   build-and-deploy:
@@ -10,7 +11,9 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v1
-      
+        with:
+          submodules: true
+                  
       - name: Prepare Java
         uses: actions/setup-java@v2
         with:
