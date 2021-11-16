@@ -8,7 +8,7 @@
   <!-- The Pulter Project Poems -->
   <pp:poems>
     <pp:poem id="1">
-      <pp:title>The EclipseZZZ</pp:title>
+      <pp:title>The Eclipse</pp:title>
       <pp:firstLine>Why do those frowning vapors interpose</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
