@@ -1,5 +1,5 @@
 // Constants
-var XML_SOURCES_FOLDER = 'pulter-poems/',
+const XML_SOURCES_FOLDER = 'pulter-poems/',
   SITE_BASE = 'pulter-site/',
   PRODUCTION_SITE_BASE = 'dist/',
   POEMS_DESTINATION_FOLDER = SITE_BASE + 'poems',
@@ -18,28 +18,28 @@ var XML_SOURCES_FOLDER = 'pulter-poems/',
   ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js',
   LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 
-var appendPrepend = require('gulp-append-prepend');
-var gulp = require('gulp');
-var gulpUtil = require('gulp-util');
-var concat = require('gulp-concat');
-var dashify = require('dashify');
-var debug = require('gulp-debug');
-var flatMap = require('gulp-flatmap');
-var fs = require('fs');
-var sass = require('gulp-sass');
-var sourceMaps = require('gulp-sourcemaps');
-var loadJSON = require('load-json-file');
-var minifyCSS = require('gulp-clean-css');
-var browserSync = require('browser-sync').create();
-var shell = require('gulp-shell');
-var path = require('path');
-var plumber = require('gulp-plumber');
-var rename = require('gulp-rename');
-var source = require('vinyl-source-stream');
-var uglify = require('gulp-uglify');
-var xslt = require('gulp-xslt2');
+const appendPrepend = require('gulp-append-prepend');
+const gulp = require('gulp');
+const gulpUtil = require('gulp-util');
+const concat = require('gulp-concat');
+const dashify = require('dashify');
+const debug = require('gulp-debug');
+const flatMap = require('gulp-flatmap');
+const fs = require('fs');
+const sass = require('gulp-sass');
+const sourceMaps = require('gulp-sourcemaps');
+const loadJSON = require('load-json-file');
+const minifyCSS = require('gulp-clean-css');
+const browserSync = require('browser-sync').create();
+const shell = require('gulp-shell');
+const path = require('path');
+const plumber = require('gulp-plumber');
+const rename = require('gulp-rename');
+const source = require('vinyl-source-stream');
+const uglify = require('gulp-uglify');
+const xslt = require('gulp-xslt2');
 
-var vendorScripts = [
+const vendorScripts = [
   'node_modules/jquery/dist/jquery.js',
   'node_modules/flowtype.js/flowtype.js',
   'node_modules/animejs/anime.min.js',
@@ -65,7 +65,7 @@ function filterById(collection, id) {
 }
 
 function getJSRedirectString(url, ignoreHash) {
-  return '<!DOCTYPE html><html><head><link rel="canonical" href="' + LIVE_SITE_BASE_URL + url + '" /><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script></head><body></body></html>';
+  return '<!DOCTYPE html><html lang="en"><head><link rel="canonical" href="' + LIVE_SITE_BASE_URL + url + '" /><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script><title></title></head><body></body></html>';
 }
 
 /* DEV Tasks */

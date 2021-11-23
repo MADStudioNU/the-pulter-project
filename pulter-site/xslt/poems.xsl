@@ -101,6 +101,17 @@
           <pp:peek>Poet Anne Bradstreet was, like Pulter, interested in transfigured states of material being. In a poem entitled “The Four Elements,” a personified Air meditates on the power of rarefaction:</pp:peek>
         </pp:curation>
       </pp:curations>
+      <pp:soundings>
+        <pp:sounding>
+          <pp:audio fileRef="foo.mp3" recordedOn=""/>
+          <pp:readers>
+            <pp:reader>
+              <pp:name>Reader One</pp:name>
+              <pp:affiliation>Northwestern University</pp:affiliation>
+            </pp:reader>
+          </pp:readers>
+        </pp:sounding>
+      </pp:soundings>
     </pp:poem>
     <pp:poem id="2">
       <pp:title>The Invitation into the Country</pp:title>
@@ -2350,17 +2361,6 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
-      <pp:soundings>
-        <pp:sounding>
-          <pp:audio fileRef="foo.mp3" recordedOn=""/>
-          <pp:readers>
-            <pp:reader>
-              <pp:name>Reader One</pp:name>
-              <pp:affiliation>Northwestern University</pp:affiliation>
-            </pp:reader>
-          </pp:readers>
-        </pp:sounding>
-      </pp:soundings>
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
@@ -6386,6 +6386,7 @@
                   <xsl:variable name="isPseudo" select="@type = 'pseudo'"/>
                   <xsl:variable name="title" select="./pp:title"/>
                   <xsl:variable name="hasCurations" select="boolean(./pp:curations)"/>
+                  <xsl:variable name="hasSoundings" select="boolean(./pp:soundings)"/>
                   <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
                   <xsl:variable name="firstLine" select="./pp:firstLine/text()"/>
                   <xsl:element name="li">
@@ -6589,46 +6590,48 @@
                         </xsl:when>
                     </xsl:choose>
                     </div>
-                    <xsl:if test="$isPublished and $hasCurations">
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'js-link to-curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                          <xsl:value-of select="concat('Open Curations for Poem ', $poemId)"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-resource-type">
-                          <xsl:value-of select="'curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-poem-id">
-                          <xsl:value-of select="$poemId"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>
-                        </xsl:attribute>
-                        <xsl:text> </xsl:text>
-                      </xsl:element>
-                    </xsl:if>
-                    <xsl:if test="$isPublished and $hasCurations">
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'js-link to-curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                          <xsl:value-of select="concat('Open Curations for Poem ', $poemId)"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-resource-type">
-                          <xsl:value-of select="'curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-poem-id">
-                          <xsl:value-of select="$poemId"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>
-                        </xsl:attribute>
-                        <xsl:text> </xsl:text>
-                      </xsl:element>
-                    </xsl:if>
+                    <div class="to-extras">
+                      <xsl:if test="$isPublished and $hasCurations">
+                        <xsl:element name="a">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'js-link to-curations'"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="title">
+                            <xsl:value-of select="concat('Go to Curations for Poem ', $poemId)"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="data-resource-type">
+                            <xsl:value-of select="'curation'"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="data-poem-id">
+                            <xsl:value-of select="$poemId"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="href">
+                            <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>
+                          </xsl:attribute>
+                          <xsl:text> </xsl:text>
+                        </xsl:element>
+                      </xsl:if>
+                      <xsl:if test="$isPublished and $hasSoundings">
+                        <xsl:element name="a">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'js-link to-soundings'"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="title">
+                            <xsl:value-of select="concat('Go to Soundings for Poem ', $poemId)"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="data-resource-type">
+                            <xsl:value-of select="'sounding'"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="data-poem-id">
+                            <xsl:value-of select="$poemId"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="href">
+                            <xsl:value-of select="concat('/poems/ee/', $poemId, '/#soundings')"/>
+                          </xsl:attribute>
+                          <xsl:text> </xsl:text>
+                        </xsl:element>
+                      </xsl:if>
+                    </div>
                   </xsl:element>
                 </xsl:for-each>
               </ul>
@@ -6795,8 +6798,69 @@
     </xsl:choose>
   </xsl:template>
 
-  <!-- Curation preview template -->
+  <!-- Does this poem have "soundings" attached? -->
+  <xsl:template name="hasSoundings">
+    <xsl:param name="poemId"/>
+    <xsl:choose>
+      <xsl:when test="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:soundings">true</xsl:when>
+      <xsl:otherwise>false</xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Curations preview template -->
   <xsl:template name="curations">
+    <xsl:param name="poemId"/>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:curations/pp:curation">
+      <xsl:variable name="status" select="./@status"/>
+      <xsl:if test="$status = 'on'">
+        <li class="ctx">
+          <xsl:attribute name="data-ctx-hash">
+            <xsl:value-of select="./@hash"/>
+          </xsl:attribute>
+          <xsl:attribute name="data-status">
+            <xsl:value-of select="$status"/>
+          </xsl:attribute>
+          <div class="text">
+            <xsl:element name="a">
+              <xsl:attribute name="href">
+                <xsl:value-of select="concat('./#', ./@hash)"/>
+              </xsl:attribute>
+              <xsl:attribute name="data-curation-title">
+                <xsl:value-of select="./pp:title"/>
+              </xsl:attribute>
+              <h3 class="lato">
+                <xsl:apply-templates select="./pp:title/node()"/>
+              </h3>
+              <div class="by-line"><span class="by">by</span>
+                <span class="who"><xsl:value-of select="./pp:author"/></span></div>
+              <xsl:element name="p">
+                <xsl:attribute name="class">
+                  <xsl:value-of select="'peek'"/>
+                </xsl:attribute>
+                <xsl:variable name="peekText">
+                  <xsl:value-of select="normalize-space(./pp:peek)"/>
+                </xsl:variable>
+                <xsl:variable name="peekLimit">
+                  <xsl:value-of select="150" />
+                </xsl:variable>
+                <xsl:choose>
+                  <xsl:when test="string-length($peekText) > $peekLimit">
+                    <xsl:value-of select="concat(substring($peekText, 1, $peekLimit), '…')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="$peekText"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:element>
+            </xsl:element>
+          </div>
+        </li>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+
+  <!-- Soundings preview template -->
+  <xsl:template name="soundings">
     <xsl:param name="poemId"/>
     <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:curations/pp:curation">
       <xsl:variable name="status" select="./@status"/>
@@ -6851,10 +6915,8 @@
   <xsl:template name="poemsTopKeywordsChunk">
       <xsl:param name="poemId"/>
       <xsl:param name="numberOfKeywords"/>
-
       <xsl:variable name="keywords" select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:keywords/pp:keyword[position() &lt;= $numberOfKeywords]"/>
       <xsl:variable name="count" select="count($keywords)" />
-
       <xsl:choose>
           <xsl:when test="$count &gt; 1">
               <xsl:for-each select="$keywords">

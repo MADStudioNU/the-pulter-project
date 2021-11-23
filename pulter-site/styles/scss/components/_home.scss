@@ -804,7 +804,7 @@
     line-height: 2.55em;
     color: rgba($pp_manuscriptPaper, 1);
     font-family: $pp_originalFont;
-    padding: 0 .66em 0 2.2em;
+    padding: 0 .66em 0 2.6em;
 
     img {
       opacity: .85;
@@ -1409,24 +1409,50 @@
           }
         }
 
-        .to-curation {
-          opacity: .8;
+        .to-extras {
           position: absolute;
-          width: 1.5em;
-          height: 1.75em;
+          width: 2em;
+          height: 100%;
+          top: 0;
           right: 5.33em;
-          top: 3.5em;
-          background: url('/images/curation-mock.svg') no-repeat 100% 0;
-          background-size: auto 100%;
-          @include transition(opacity .2s);
 
-          @include breakpoint(mobile) {
-            right: 2.25em;
-            top: 2em;
-          }
+          .to-curations,
+          .to-soundings {
+            $size: 1.66em;
+
+            position: absolute;
+            width: $size;
+            height: $size;
+            top: 3.5em;
+            opacity: .66;
+            background-size: auto 100%;
+            @include transition(opacity .2s);
+
+            @include breakpoint(mobile) {
+              right: 2.25em;
+            }
 
             &:hover {
-            opacity: 1;
+              opacity: 1;
+            }
+          }
+
+          .to-curations {
+            top: 3.75em;
+            background: url('/images/to-curations-action.svg') no-repeat 100% 0;
+
+            @include breakpoint(mobile) {
+              top: 2.25em;
+            }
+          }
+
+          .to-soundings {
+            top: 8em;
+            background: url('/images/to-soundings-action-ear.svg') no-repeat 100% 0;
+
+            @include breakpoint(mobile) {
+              top: 6.5em;
+            }
           }
         }
 

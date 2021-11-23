@@ -443,6 +443,7 @@ var PP = (function ($) {
           var $navs = $body.find('.nav');
           var $ctxs;
           var $curationBlurb = $('.curation-blurb');
+          var $soundingsBlurb = $('.soundings-blurb');
 
           // Read the storage and set the states if needed
           if (pulterState.has('pagesOn')) { $body.addClass('pages-on'); }
@@ -586,6 +587,16 @@ var PP = (function ($) {
             $curationBlurb.find('.muter').on('click', function () {
               $curationBlurb.addClass('muted');
               pulterState.set('muteCurationBlurb', true);
+            });
+          }
+
+          // Curation blurb logic
+          if (!pulterState.has('muteSoundingsBlurb')) {
+            $soundingsBlurb.removeClass('muted').show();
+
+            $soundingsBlurb.find('.muter').on('click', function () {
+              $soundingsBlurb.addClass('muted');
+              pulterState.set('muteSoundingsBlurb', true);
             });
           }
 

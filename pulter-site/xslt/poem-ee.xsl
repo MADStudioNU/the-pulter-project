@@ -31,6 +31,14 @@
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:variable name="hasSoundings">
+    <xsl:call-template name="hasSoundings">
+      <xsl:with-param name="poemId">
+        <xsl:value-of select="$poemID"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:variable>
+
   <xsl:variable name="fullTitle">
     <xsl:choose>
       <xsl:when test="//tei:titleStmt/tei:title != ''">
@@ -152,6 +160,7 @@
           <xsl:value-of select="concat(', isPublished: ', string($isPublished))"/>
           <xsl:value-of select="concat(', poster: ', $poemPosterObject)"/>
           <xsl:value-of select="concat(', hasCtx: ', $hasCurations)"/>
+          <xsl:value-of select="concat(', hasSoundings: ', $hasSoundings)"/>
           <xsl:value-of select="'});'"/>
         </script>
       </body>
@@ -293,6 +302,34 @@
             <div class="explanatory curation-blurb muted"><span class="it">Curations</span> offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem. <span class="muter asap">Don't show again</span></div>
           </header>
           <ul class="ctxs">
+            <xsl:call-template name="curations">
+              <xsl:with-param name="poemId" select="$poemID"/>
+            </xsl:call-template>
+          </ul>
+        </section>
+      </xsl:if>
+      <xsl:if test="$hasSoundings = 'true' and $isPublished">
+        <section id="soundings" class="lato">
+          <header>
+            <div class="label">
+              <img src="/images/pp-formal.jpg"/>
+              <span>Soundings</span>
+            </div>
+            <div class="id-box">
+              <a href="#poem-sheet-list">
+                <span class="lato idx">
+                  <xsl:value-of select="$poemID"/>
+                </span><h3>
+                <xsl:call-template name="truncateText">
+                  <xsl:with-param name="string" select="$fullTitle"/>
+                  <xsl:with-param name="length" select="22"/>
+                </xsl:call-template>
+              </h3>
+              </a>
+            </div>
+            <div class="explanatory soundings-blurb muted"><span class="it">Soundings</span> blurb here.<span class="muter asap">Don't show again</span></div>
+          </header>
+          <ul class="sounding-list">
             <xsl:call-template name="curations">
               <xsl:with-param name="poemId" select="$poemID"/>
             </xsl:call-template>
@@ -598,10 +635,15 @@
             </xsl:attribute>
             Compare Editions
           </xsl:element>
-
           <xsl:if test="$hasCurations = 'true'">
+            <xsl:if test="$hasSoundings = 'false'">
+              <span class="by">or</span>
+            </xsl:if>
+            <a class="pp-action int to-ctx" href="#ctxs">Read Curations</a>
+          </xsl:if>
+          <xsl:if test="$hasSoundings = 'true'">
             <span class="by">or</span>
-            <a class="pp-action int to-ctx" href="#ctxs">See Curations</a>
+            <a class="pp-action int to-soundings" href="#soundings">Listen to Soundings</a>
           </xsl:if>
         </div>
       </div>
