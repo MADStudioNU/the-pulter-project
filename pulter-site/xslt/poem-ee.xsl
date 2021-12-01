@@ -1018,9 +1018,9 @@
       <xsl:attribute name="title">
         <xsl:value-of select="concat('Go to Poem ', $referencedPoemID)" />
       </xsl:attribute>
-      <!--<xsl:attribute name="target">-->
-        <!--<xsl:value-of select="'_blank'"/>-->
-      <!--</xsl:attribute>-->
+      <xsl:attribute name="target">
+        <xsl:value-of select="'_blank'"/>
+      </xsl:attribute>
       <xsl:attribute name="class">
         <xsl:value-of select="'pp-poem-ref'"/>
       </xsl:attribute>
