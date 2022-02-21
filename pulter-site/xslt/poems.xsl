@@ -5192,6 +5192,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Rachel Zhang</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>pigs</pp:keyword>
