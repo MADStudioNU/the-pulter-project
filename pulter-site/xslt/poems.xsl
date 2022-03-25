@@ -881,19 +881,19 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Ruth Connolly</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Ruth Connolly</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
-      <pp:curations>
-        <pp:curation status="on" hash="nemesis-goddess-of-retribution">
-          <pp:author>Ruth Connolly</pp:author>
-          <pp:title>Nemesis, Goddess of Retribution</pp:title>
-          <pp:peek>
-            Nemesis is Pulter’s chosen punisher of the King’s enemies. This Ancient Greek goddess was often represented in early modern European images carrying a bridle and either a whip or rod to symbolise her role in measuring people’s actions and, if necessary, forcefully restraining their excesses.
-          </pp:peek>
-        </pp:curation>
-      </pp:curations>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="nemesis-goddess-of-retribution">-->
+<!--          <pp:author>Ruth Connolly</pp:author>-->
+<!--          <pp:title>Nemesis, Goddess of Retribution</pp:title>-->
+<!--          <pp:peek>-->
+<!--            Nemesis is Pulter’s chosen punisher of the King’s enemies. This Ancient Greek goddess was often represented in early modern European images carrying a bridle and either a whip or rod to symbolise her role in measuring people’s actions and, if necessary, forcefully restraining their excesses.-->
+<!--          </pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="14">
       <pp:title>On the Horrid Murder of that Incomparable Prince</pp:title>
@@ -6057,11 +6057,11 @@
           <pp:title>Pulter’s Garden</pp:title>
           <pp:peek>Pulter’s poems are full of gardens. In some poems, such as “The Lark,” the poet observes something in the garden that prompts an extended meditation.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="the-worker-bee">
-          <pp:author>Nicole Jacobs</pp:author>
-          <pp:title>The Worker Bee</pp:title>
-          <pp:peek>The worker bee was not accustomed to serving, like her drone brother, as a cautionary tale. After all, she was thoroughly ensconced in a literary tradition that framed her as an exemplar of industry and virtue.</pp:peek>
-        </pp:curation>
+<!--        <pp:curation status="on" hash="the-worker-bee">-->
+<!--          <pp:author>Nicole Jacobs</pp:author>-->
+<!--          <pp:title>The Worker Bee</pp:title>-->
+<!--          <pp:peek>The worker bee was not accustomed to serving, like her drone brother, as a cautionary tale. After all, she was thoroughly ensconced in a literary tradition that framed her as an exemplar of industry and virtue.</pp:peek>-->
+<!--        </pp:curation>-->
       </pp:curations>
     </pp:poem>
     <pp:poem id="119">
