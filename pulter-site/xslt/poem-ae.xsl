@@ -1562,6 +1562,9 @@
               <xsl:if test="$witnessName = 'Elizabeth Sauer'">
                 <xsl:value-of select="'Brock University'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Ruth Connolly'">
+                <xsl:value-of select="'Newcastle University'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1606,6 +1609,9 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Elizabeth Sauer'">
                 <xsl:value-of select="'https://brocku.ca/humanities/english-language-and-literature/faculty/elizabeth-sauer/#wip'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Ruth Connolly'">
+                <xsl:value-of select="'https://www.ncl.ac.uk/elll/people/profile/ruthconnolly.html'"/>
               </xsl:if>
             </xsl:variable>
 
