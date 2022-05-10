@@ -1568,7 +1568,7 @@ $defaultStrokeWidth: 6px;
 // Citations
 .citation-box {
   padding-left: 1.5em;
-  line-height: 1.5;
+  //line-height: 1.5;
   text-shadow: none;
 
   .citation {
@@ -1589,7 +1589,7 @@ $defaultStrokeWidth: 6px;
   // Headnote notes
   .headnote & {
     background: #F9F7F5;
-    padding: 1.2em 3em 1.2em 1.5em;
+    padding: 1.5em 3em 1.2em 1.5em;
     display: inline-block;
     margin-top: 1.5em;
 
