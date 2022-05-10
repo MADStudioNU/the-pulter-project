@@ -594,7 +594,24 @@
 
       <xsl:variable name="theEditorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $witId)]"/>
 
-      <div class="expand-box">
+      <xsl:variable name="headnoteLength">
+        <xsl:value-of select="string-length(.)"/>
+      </xsl:variable>
+
+      <xsl:element name="div">
+        <xsl:choose>
+          <xsl:when test="$headnoteLength &gt; 6000">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'long-headnote expand-box'"/>
+            </xsl:attribute>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:attribute name="class">
+              <xsl:value-of select="'short-headnote expand-box'"/>
+            </xsl:attribute>
+          </xsl:otherwise>
+        </xsl:choose>
+
         <div class="witness-box">
           <xsl:element name="a">
             <xsl:attribute name="class">
@@ -626,7 +643,11 @@
           </xsl:element>
         </div>
 
-        <div class="headnote lato">
+        <xsl:element name="div">
+          <xsl:attribute name="class">
+            <xsl:value-of select="'headnote lato'"/>
+          </xsl:attribute>
+
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
           </xsl:apply-templates>
@@ -661,7 +682,8 @@
               </xsl:for-each>
             </xsl:element>
           </xsl:if>
-        </div>
+        </xsl:element>
+
         <div class="poem-details-options">
           <xsl:element name="a">
             <xsl:attribute name="class">
@@ -678,7 +700,7 @@
             <a class="pp-action int to-ctx" href="#ctxs">See Curations</a>
           </xsl:if>
         </div>
-      </div>
+      </xsl:element>
     </xsl:if>
     <a href="#0" class="poster-info-trigger sssi-regular">i</a>
   </xsl:template>

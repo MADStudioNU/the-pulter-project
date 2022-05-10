@@ -381,6 +381,11 @@ $globalBorderRadius: 4px;
           height: auto;
           opacity: 1;
           position: relative;
+
+          &.short-headnote {}
+
+          &.long-headnote {}
+
           @include transition(
               max-height .8s,
               opacity .4s,
