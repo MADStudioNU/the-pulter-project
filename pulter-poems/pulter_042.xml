@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Megan Heffernan</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
             <rdg wit="#ee">Pardon Me, My Dearest Love</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae"><seg>[Untitled]<note type="critical">Blank space remaining at the top of the manuscript page suggests the scribe may have left room for a title.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -157,7 +157,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">To make the poem accessible for all readers, I have modernized the text of Pulter’s manuscript by updating spelling, expanding contractions, and standardizing capitalization. The only exceptions are cases where the form or the sense of the poem would be lost by modernizing, particularly the elision of syllables to preserve meter. I have also supplied punctuation because, as was typical for seventeenth-century poetry manuscripts, Pulter’s poems contained almost no punctuation. There are both benefits and liabilities to this approach. While the introduction of punctuation improves the sense of grammatical structures for modern readers, it loses the productive ambiguities of the manuscript, where clauses might connect to each other in multiple ways. So I would invite readers to proceed by comparing the edition to the images of the manuscript and the transcription supplied by <hi rend="italic">The Pulter Project</hi>. Do you agree with the punctuation that I’ve introduced? How might the meaning of the poem change without it?</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -165,7 +165,10 @@
             <note resp="#lknight" type="headnote">Pulter’s only poem written to her husband consists of an apology for courting another “love.” In this poem, she unusually acknowledges her romantic and marital commitments by describing herself as her husband’s “poor turtledove,” a creature famed for virtuous and lifelong fidelity. Conceding that her husband has a right to her care and attention while she is on earth, she asks his pardon for her constant preoccupation with the allures of Heaven, her flights of fancy that allow her to activate the “sparkle” of heavenly essence in her soul and seemingly abandon “this dirty, dunghill earth.” The world materializes as a place of excrement, violent dismemberment, and sin, with the glories of heaven drawing out a “love” that Pulter represents as rivalling (rather than complementing) her romantic attachments on earth.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote"><p>“Pardon Me, My Dearest Love” is about the limits of love and fidelity. This is Pulter’s only poem addressed to a lover, who seems likely to be her husband; no other earthly lover is named or introduced. In fact, the problem that animates the poem is the poet’s tenuous investment in her relationship. Even though the speaker owes the addressee her body, he cannot constrain the movement of her soul. She acknowledges that “What’s subsolary is yours”—literally that he owns what is below the sun—for as long as “life endures,” but then immediately concedes that her mind seeks a joy that cannot be found among the muck and dust of “this dirty dunghill earth.” What follows is a story about both the past and the future of her lively soul, which is personified to an unusual degree. Born in a “sparkle” of the light of eternal salvation, her “aspiring mind” yearns—or more basically, breathes towards, from the Latin root <foreign rend="italic">spirare</foreign>–the highest good of heaven.</p>
+                  <p>This poem explores marital love by exposing the partial and insufficient satisfaction of erotic commitment. The speaker’s earthly condition is temporary. Death is inevitable, and her body, the “due debt” that she owes her husband, will soon be dissolved back into the elements out of which it is made. When that division takes place, body and soul will be cleaved just as traitors are drawn and quartered in punishment for their rebellion. But in an unexpected turn, this image of violent dismemberment becomes a moment of liberation that will set her “enfranchis’d spirit” free, dissolving the bonds of earthly commitment.</p>
+                  <p>Pulter develops this ambiguous account of marriage through a conceit common to seventeenth-century poetics: the uneasy and mutable tethering together of body and soul. In “Church-Monuments,” George Herbert describes life on earth as a fleshly tomb, a “school” for the body in which it “may learn / To spell his elements, and find his birth / Written in dusty heraldry” (ll. 6-8).<seg>1<note type="gloss"><bibl>George Herbert, <title rend="italic">The Complete Poems</title>, ed. John Tobin (London: Penguin, 1991), pp. 58-59</bibl>.</note></seg> For Herbert, the body becomes a measure of time, both in the dusty contents it holds and in its form, which will itself dissolve back into dust. Death will “sever that good fellowship of dust” because “flesh is but the glass, which holds the dust / That measures all our time; which also shall / be crumbled into dust” (ll. 13, 20-22). Anticipating this same separation of body and soul, the speaker of Pulter’s “Pardon Me, My Dearest Love” finds solace in the eternal joy promised when her spirit will be free from earthly constraint, “melt[ing] and molder[ing] into dust.”</p>
+                  <p>In a concluding gesture, the poem makes a surprising return to the opening concession, but the plea for a pardon now rings more hollow. The final three lines are a rhyming triplet that add “turtledove,” the bird that famously mates for life, to the pairing of “love” and “above,” a rhyme that appears twice previously in the poem. While triplets are unusual in seventeenth-century poetry, Pulter uses them often. <ref type="pp-poem-ref" corresp="16">The Revolution</ref> is written entirely in triplet stanzas, and <ref type="pp-poem-ref" corresp="15">Let None Sigh More for Lucas or for Lisle [On the Same (2)]</ref> is also in couplets with a concluding triplet. In “Pardon Me, My Dearest Love,” the effect of the final triplet is to propose that the poem’s exploration of “endless joy and love” cannot be contained by the established couplet rhymes. It offers a concluding “anticouple” that works against the heteroerotic terms of the preceding couplets. The final two lines show the speaker’s mind once again beginning to whirl “above,” away from the “confinement” that currently holds her soul in captivity. With the near repetition of the beginning, we are left to anticipate the poem starting over again, as if the speaker’s lively mind will continually resist the confinement of her dusty body.</p></note>
           </rdg>
         </app>
       </head>
@@ -174,154 +177,154 @@
         <app>
             <rdg wit="#ft">Pardon mee my Dearest Love</rdg>
             <rdg wit="#ee">Pardon me, my dearest love,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Pardon me, my dearest love,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">That I place my thoughts aboue</rdg>
             <rdg wit="#ee">That I place my thoughts above.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That I place my thoughts above:</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">What’s Subſolary is yours</rdg>
             <rdg wit="#ee">What’s <seg>subsolary<note type="gloss">beneath the sun</note></seg> is yours</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">What’s <seg>subsolary<note type="gloss">earthly; literally meaning “below the sun.” The description may be a coy inversion of John Donne’s critique of the bland, mortal desire of “dull sublunary lovers” in his “A Valediction Forbidding Mourning.”</note></seg> is yours</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">And Soe Shall Bee while Life indures</rdg>
             <rdg wit="#ee">And so shall be while life endures.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And so shall be while life endures.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Onely my aſpireing mind</rdg>
             <rdg wit="#ee">Only my aspiring mind</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Only my aspiring mind</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Noe felicity can find</rdg>
             <rdg wit="#ee">No felicity can find</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">No felicity can find</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">In this Dirty Dunghill Earth</rdg>
             <rdg wit="#ee">In this dirty, <seg>dunghill<note type="gloss">excrement-like</note></seg> earth.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In this dirty <seg>dunghill earth<note type="gloss">comparing daily existence to a pile of barnyard excrement. This phrase appears often in Pulter’s poems, including <ref type="pp-poem-ref" corresp="35">The Pismire</ref>, <ref type="pp-poem-ref" corresp="57">Why Must I Thus Forever Be Confined</ref>, <ref type="pp-poem-ref" corresp="43">Of a Young Lady at Oxford, 1646</ref>. For Frances E. Dolan, the image evokes the labor required to nurture and maintain earthly life (Frances E. Dolan, ed., “The Pismire,” by Hester Pulter (Poem 35, Amplified Edition), in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018)).</note></seg>.</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">My Soul Remembers still her Birth</rdg>
             <rdg wit="#ee">My soul remembers still her birth,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">My soul remembers still her birth:</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Shee beeing a Sparkle of that Light</rdg>
             <rdg wit="#ee">She being a sparkle of that <seg>Light<note type="critical">originary divine spirit; see John 1:9: “That was the true Light, which lighteth every man that cometh into the world.”</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">She being a <seg>sparkle<note type="gloss">a small spark, perhaps that sets off a larger fire. Pulter depicts her soul as a fragment of an eternal, divine light that is not extinguished at night or in death.</note></seg> of that light,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Which ne’re Shall Set in Death or night</rdg>
             <rdg wit="#ee">Which ne’er shall set in death or night.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which <seg>ne’re<note type="gloss">A contraction of “never,” shortened to regularize the meter.</note></seg> shall set in death or night.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Nothing here is worth her Love</rdg>
             <rdg wit="#ee">Nothing here is worth her love;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nothing here is worth her love;</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Her Su<hi rend="overline">m</hi>um bonum is above</rdg>
             <rdg wit="#ee">Her <seg><foreign rend="italic">summum bonum</foreign><note type="gloss">supreme good</note></seg> is above.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Her <seg><foreign rend="italic">summum bonum</foreign><note type="gloss">highest or supreme good; the soul’s ultimate aim.</note></seg> is above,</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">But this Body Shortly must</rdg>
             <rdg wit="#ee">But this body shortly must</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But this body shortly must</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Melt and moulder into Dust</rdg>
             <rdg wit="#ee">Melt and moulder into <seg>dust<note type="critical">fine particles, esp. of disintegrating dead body; also, formative physical elements; see Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Melt and <seg>molder<note type="gloss">to crumble, fall to pieces, rot, or decay.</note></seg> into <seg>dust<note type="gloss">Pulter frequently describes the breaking down of the body after death, when flesh will dissolve into the basic elements of life: earth, water, air, and fire. See <ref type="pp-poem-ref" corresp="6">The Universal DIssolution, Made When I was with Child, of my 15th Child, my Son, John, I Being, Everyone Thought, in a Consumption, 1648</ref> and <ref type="pp-poem-ref" corresp="65">The Hope</ref>.</note></seg>.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">This due Debt cant bee denied</rdg>
             <rdg wit="#ee">This due debt can’t be denied;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This due debt can’t be denied:</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">The Elliments must mee Divide</rdg>
             <rdg wit="#ee">The <seg>elements<note type="gloss">in ancient and premodern theory, the four constitutive substances of which all material bodies are compounded: earth, fire, air, and water</note></seg> must me divide.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The elements must me divide.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Thus like Trators quarter’d out</rdg>
             <rdg wit="#ee">Thus, like traitors <seg>quartered out<note type="gloss">A judicial penalty for high treason in England was “quartering” (or dividing) the body of the convicted person.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thus, like <seg>traitors quarter’d out<note type="gloss">A reference to the capital punishment for high treason in which the convicted traitor was drawn through public view by a horse, hung from the gallows until nearly dead, and then cut down to be disemboweled, burnt alive, decapitated. The mutilated body was finally “quartered out,” that is, cut into four pieces which would be displayed with the head. The punishment is a gruesome and literal “dividing” of the earthly body and, interestingly for Pulter, only applied to male traitors. Women were more simply drawn and burnt.</note></seg></rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Are old Adams Rebell Rout</rdg>
             <rdg wit="#ee">Are <seg>old Adam’s rebel rout<note type="gloss">Adam, the first human in the Judeo-Christian creation story, and an emblem of sin; a “rout” is a crowd.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Are old <seg>Adam’s rebel rout<note type="gloss">an army led by Adam, the first man, whose rebellion against divine law introduced sin into the world. There may be an echo here of John Milton’s <title rend="italic">Paradise Lost</title>, where the traitorous Satan is the leader of a “Host / Of Rebel Angels” (1. 37-38). </note></seg>.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Then Shall my infranchiſ’d Spirit</rdg>
             <rdg wit="#ee">Then shall my <seg>enfranchised<note type="gloss">freed, privileged</note></seg> spirit</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then shall my <seg>enfranchised<note type="gloss">set free; released from slavery or political servitude.</note></seg> spirit</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Thoſe Eternall Joyes inherit</rdg>
             <rdg wit="#ee">Those eternal joys inherit,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Those eternal joys inherit,</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Which from mee Shall never part</rdg>
             <rdg wit="#ee">Which from me shall never part:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which from me shall never part—</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">With theſe thoughts I cheer my heart</rdg>
             <rdg wit="#ee">With these thoughts, I cheer my heart.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With these thoughts I cheer my heart.</rdg>
         </app>
       </l>
         <app>
@@ -344,21 +347,21 @@
         <app>
             <rdg wit="#ft">Then pardon thy poor Turtle Dove</rdg>
             <rdg wit="#ee">Then pardon thy poor <seg>turtledove<note type="gloss"> A bird known for its affection for its mate and soothing songs.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then pardon thy poor <seg>turtledove<note type="gloss">a bird that mates for life, emblematizing constancy and devotion. See <ref type="pp-poem-ref" corresp="85">This Poor Turtle Dove (Emblem 20)</ref>, <ref type="pp-poem-ref" corresp="108">Mark But Those Hogs (Emblem 43)</ref>, <ref type="pp-poem-ref" corresp="43">Of A Young Lady at Oxford, 1646</ref>, <ref type="pp-poem-ref" corresp="57">Why Must I thus Forever Be Confined</ref>.</note></seg></rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">That hath plac’d her thoughts aboue</rdg>
             <rdg wit="#ee">That hath placed her thoughts above</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That hath placed her thoughts above</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">Where is endles Joy and Love.</rdg>
             <rdg wit="#ee">Where is endless joy and love.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Where is endless joy and love.</rdg>
         </app>
       </l>
     </body>
