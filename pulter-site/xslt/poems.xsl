@@ -6057,11 +6057,11 @@
           <pp:title>Pulter’s Garden</pp:title>
           <pp:peek>Pulter’s poems are full of gardens. In some poems, such as “The Lark,” the poet observes something in the garden that prompts an extended meditation.</pp:peek>
         </pp:curation>
-<!--        <pp:curation status="on" hash="the-worker-bee">-->
-<!--          <pp:author>Nicole Jacobs</pp:author>-->
-<!--          <pp:title>The Worker Bee</pp:title>-->
-<!--          <pp:peek>The worker bee was not accustomed to serving, like her drone brother, as a cautionary tale. After all, she was thoroughly ensconced in a literary tradition that framed her as an exemplar of industry and virtue.</pp:peek>-->
-<!--        </pp:curation>-->
+        <pp:curation status="on" hash="the-worker-bee">
+          <pp:author>Nicole Jacobs</pp:author>
+          <pp:title>The Worker Bee</pp:title>
+          <pp:peek>The worker bee was not accustomed to serving, like her drone brother, as a cautionary tale. After all, she was thoroughly ensconced in a literary tradition that framed her as an exemplar of industry and virtue.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="119">
