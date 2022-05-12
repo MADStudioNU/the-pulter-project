@@ -76,10 +76,10 @@
       <editorialDecl>
         <correction>
           <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
-          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be further explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -126,6 +126,7 @@
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
 <!--          <witness xml:id="ae">Amplified edition: By <persName>Rachel Zhang</persName>.</witness>-->
+<!--            <witness xml:id="a2">Amplified edition: By <persName>Megan Heffernan</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -142,6 +143,9 @@
         <rdg wit="#ae">
             <pb ed="#ae" facs="#f7610_230"/>
         </rdg>
+          <rdg wit="#a2">
+              <pb ed="#a2" facs="#f7610_230"/>
+          </rdg>
       </app>
       
       <head>
@@ -149,6 +153,7 @@
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">34</fw>[Emblem 34]</rdg>
             <rdg wit="#ee">Mark But Those Hogs<lb/>(Emblem 34)</rdg>
           <rdg wit="#ae">When Pigs Don’t Fly</rdg>
+            <rdg wit="#a2">Mark But Those Hogs</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -160,6 +165,9 @@
               <note type="editorialnote"><p>The rich complexity of this poem is best appreciated with reference both to Pulter’s other poems and to poems by other emblem writers. Accordingly, I’ve tried to contextualize the many images and concepts in this poem within the world of Pulter’s manuscript as well as the world of early modern English emblem books, sometimes by referencing an analogous poem or image, and sometimes an opposing one.</p><p>With an eye to the contemporary reader, I have modernized spelling, and inserted additional punctuation as needed to aid in understanding. As seventeenth-century writers often used capitalization for emphasis, though, I have tried to retain the manuscript’s original capitalization. The capitalization of some letters (e.g., “s”) is difficult to determine; in these cases, I have made individual determinations in line with Pulter’s style.</p>
                   <p>Abbreviations:
                   AE—Hester Pulter, <hi rend="italic">Poems, Emblems, and The Unfortunate Florinda</hi>, ed. Alice Eardley (Toronto: Iter, Inc. and the Centre for Renaissance and Reformation Studies, 2014).</p></note>
+          </rdg>
+          <rdg wit="#a2">
+              <note type="editorialnote"><p>To make the poem accessible for all readers, I have modernized the text of Pulter’s manuscript by updating spelling, expanding contractions, and standardizing capitalization. The only exceptions are cases where the form or the sense of the poem would be lost by modernizing, particularly the elision of syllables to preserve meter. I have also supplied punctuation because, as was typical for seventeenth-century poetry manuscripts, Pulter’s poems contained almost no punctuation. There are both benefits and liabilities to this approach. While the introduction of punctuation improves the sense of grammatical structures for modern readers, it loses the productive ambiguities of the manuscript, where clauses might connect to each other in multiple ways. So I would invite readers to proceed by comparing the edition to the images of the manuscript  and the transcription supplied by <hi rend="italic">The Pulter Project</hi>. Do you agree with the punctuation that I’ve introduced? How might the meaning of the poem change without it?</p></note>
           </rdg>
         </app>
         <app type="headnote">
@@ -175,6 +183,13 @@
                   <p>Pulter’s depiction of “the Chaste and constant Turtle Dove” is then exceedingly unusual in emblem literature, although widespread in her own poetry (<ref type="pp-poem-ref" corresp="46">The Lark</ref>, <ref type="pp-poem-ref" corresp="57">Why must I be forever thus confined</ref>, <ref type="pp-poem-ref" corresp="85">Emblem 20</ref>, Emblem 36).<seg>4<note type="gloss">The turtledove also embodies constancy in Shakespeare’s “The Phoenix and the Turtle,” where the death of the birds also means the death of “Love and constancy” (22).</note></seg> Pulter’s depictions often highlight the bird’s mobility, even though the dove innately implies a volatility anathema to typical representations of constancy. In “Why must I be forever thus confined,” for instance, Pulter writes, “Though she resolves to have no second mate / Yet she her flight about the air doth take,” contrasting the dove’s “freedom [to] freely both enjoy and love” to the poet’s own confinement (67-8, 76-9). This avian transcendence is precisely the picture of constancy we see in Emblem 34. Just as the dove flies upward in Pulter’s lyric, the emblem’s turtledoves “turn their thoughts to true celestial joys,” thereby transcending the evils of this world. This transcendent mobility once again contrasts with the hog, who are so stubbornly rooted to the earth that they cannot get their snouts out of the muck.</p>
                   <p>This transcendence is muted, though, by the poem’s acknowledgement of pain and suffering. The poem’s final lines, which repeat Pulter’s nearly unprecedented tendency to end her emblem poems focusing on herself, underscore the possibility of martyrdom (another situation commonly associated with constancy in emblem books).<seg>5<note type="gloss">See George Wither, <hi rend="italic">A Collection of Emblems</hi> (1635), 81.</note></seg> True joy, Pulter suggests, is a party to suffering, and transcendence often comes by one’s own sacrifice. The return to the speaker personalizes this message, and suggests that she has already accepted suffering for her own life.</p></note>
           </rdg>
+          <rdg wit="#a2">
+              <note type="headnote"><p>Like all of Pulter’s emblems, this is a poem that draws moral lessons out of a visual scenario, even though there are no images present in the manuscript. The effect is to require readers to “see” the scenes with their spiritual “eye,” placing them ahead of common readers, who (like the hogs) require physically visible emblems. The emblem begins with a command to pay attention to a group of swine greedily devouring acorns. As the pigs root about in the dirt, they gaze resolutely down at the earth, oblivious to the oak trees and the farmers who provide this bounty by shaking the nuts loose from the branches.</p>
+                  <p>In four further scenes of “thankless people” who repeat the pigs’ behavior, the poem illustrates the limits of a sight that is bound to the earth. This repeated scenario is strikingly kinetic. Instead of a static image, Pulter’s emblem is a series of tiny pantomimes or dumbshows that, over and over again, convey their truth through behavior. Each example depicts the common crudeness of humans who never lift their eyes from earthly concerns. In all four scenes, the swinish figures are criticized not just for their innate flaws but also for how their actions mire them in an earthly filth they cannot see past or beyond. Each example begins with “So” or “Even so,” a rhetorical gesture that keeps referring back to the initial behavior of the hogs.</p>
+                  <p>Pulter’s hogs thus offer a negative example for the emblem’s implied reader, who is meant to learn, from this visual poem, how to see beyond the limits of her own circumstances. The agricultural imagery plays a significant part in this lesson. Pulter may have been drawing here on the tradition connecting land management and poetic craft. Thomas Tusser’s husbandry manuals, which offered versified advice to farmers and poets alike, were so tremendously popular that they were actively published for more than a century, from 1557 to 1672. Unearthing the trope of the pig in early modern literature, Jessica Rosenberg has explained how swine were often used as figures for bad readers who are inattentive to the virtues of the texts they devour.<seg>1<note type="gloss"><bibl>Jessica Rosenberg, <hi rend="italic">Botanical Poetics: Early Modern Plant Books and the Husbandry of Print</hi> (University of Pennsylvania Press, forthcoming 2022)</bibl>.</note></seg> In Pulter’s emblem, the agricultural context is explored most pointedly in the example of the “grumbling farmers,” who are doubly ungrateful because they both complain about laboring in their fields and fail to trust in the divine providence that will provide for their harvest.</p>
+                  <p>The second stanza takes an abrupt turn, offering the turtledove as a counterexample to the worldly obsessions of the hogs. A bird that mates for life, the turtledove was a common image of constancy and fidelity. Here the turtledove is also an emblem of temperance, since she is able to “sip” from the earthly pleasures that so wholly absorbed the figures earlier in the poem and “then thro[w] her eyes above.” Like the first stanza, the second develops a repeated rhetorical pattern, but this time it conveys spiritual transcendence, not stasis. In two pairs of “when” and “then” scenarios, Pulter describes how the godly partake moderately, for instance, moving from “terrene toys” to a proper appreciation of “celestial joys.”</p>
+                  <p>Pulter proposes that the lessons of the emblem require an active embrace of self-sacrifice. The final “then” extends these lessons directly to the reader, who is offered the choice to follow either the pattern of the first stanza or of the second. The stanza’s only enjambment (a grammatical continuation across the break between lines) invites “the reader” to “try, which best he loves / To imitate, base hogs or turtledoves.” The gap between the lines actually sets up two decisions for the reader, making him pick first which animal he prefers, and then which he wishes to imitate. The male gendering of the reader is striking here. Pulter actively invokes a reader in other emblems, including <ref type="pp-poem-ref" corresp="116">British Brennus (Emblem 51)</ref>, <ref type="pp-poem-ref" corresp="110">Aristomenes (Emblem 45)</ref>, and <ref type="pp-poem-ref" corresp="106">The Ostrich (Emblem 41)</ref>. But pronouns are not used in those poems and the identity of the reader is left more open. Specifying that this reader is male is particularly interesting because he is asked to assume the example of the turtledove, frequently an image of female chastity. The speaker also enters the poem at this moment (“But as for me”) and declares her own mind in a homonym: “’tis my soul’s sole desire” to live and die like the chaste dove. The pairing of “soul/sole” toys with the stated singularity of the desire, perhaps undercutting it, or perhaps amplifying it through the reiterated sound.</p></note>
+          </rdg>
         </app>
       </head>
 
@@ -183,6 +198,7 @@
             <rdg wit="#ft"><fw type="seqNum" place="inline">34</fw>Mark but those Hogs <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> underneath <seg>yond<note type="gloss">A determiner indicating “that.”</note></seg> tree</rdg>
             <rdg wit="#ee"><seg>Mark but<note type="gloss">Consider only, or just notice</note></seg> those hogs which, underneath <seg>yon<note type="gloss">that (implying something within view)</note></seg> tree</rdg>
             <rdg wit="#ae">Mark but those <seg>Hogs<note type="gloss">A favorite image of emblematists, almost universally deplored. See, for example, Wither, <hi rend="italic">A Collection of Emblems</hi> (1635), 224, a variation of the biblical warning not to cast pearls before swine.</note></seg> which, underneath yond tree</rdg>
+            <rdg wit="#a2"><seg>Mark<note type="gloss">attend to; watch. This command becomes explicitly visual at the end of line 2, where readers are told they “may see” the scene that the speaker is conjuring verbally.</note></seg> but those hogs, which underneath yond tree,</rdg>
         </app>
       </l>
       <l n="2">
@@ -190,6 +206,7 @@
             <rdg wit="#ft">Nuſling and eating Acorns, you may See</rdg>
             <rdg wit="#ee"><seg>Nuzzling<note type="gloss">digging or rooting up with the snout</note></seg> and eating acorns, you may see:</rdg>
             <rdg wit="#ae"><seg>Nuzzling<note type="gloss">“To burrow or dig with the nose; to poke or push with the nose or snout” (<hi rend="italic">OED</hi> v.1. 2a. and b.). This use of “nuzzling” may echo Shakespeare’s <hi rend="italic">Venus and Adonis</hi>. Pulter’s hogs are similar to Venus’ description of the boar, “[w]hose downward eye still looketh for a grave” (1106), and the boar kills Adonis by “nuzzling in his flank” (1115).</note></seg> and Eating Acorns, you may See:</rdg>
+            <rdg wit="#a2"><seg>Nuzzling<note type="gloss">digging with the nose; an animalistic approach to turning over the soil. This action of grubbing repeats across the first stanza.</note></seg> and eating acorns, you may see:</rdg>
         </app>
       </l>
       <l n="3">
@@ -197,6 +214,7 @@
             <rdg wit="#ft">they never cast an eye to thoſe which Shake</rdg>
             <rdg wit="#ee"><seg>They never cast an eye to those which shake;<note type="gloss">Eardley notes that the shaking of acorns from trees was a common practice among swine farmers.</note></seg></rdg>
             <rdg wit="#ae">They never cast an eye to those which <seg>Shake<note type="gloss">AE notes that it was common practice for farmers to shake acorns out of trees to feed their pigs.</note></seg>.</rdg>
+            <rdg wit="#a2">They never <seg>cast an eye to those which shake<note type="gloss">The hogs are blind to the efforts of the farmers who tend to them. The pigs’ eyes are so resolutely trained on the ground that they never realize the providence of those who loosen and drop the acorns from the branches of the oak trees.</note></seg>.</rdg>
         </app>
       </l>
       <l n="4">
@@ -204,6 +222,7 @@
             <rdg wit="#ft">Soe thankles People doe Gods bleſſings take</rdg>
             <rdg wit="#ee">So thankless people do God’s blessings take</rdg>
             <rdg wit="#ae">So thankless People do God’s blessings take</rdg>
+            <rdg wit="#a2">So thankless people do God’s blessings take,</rdg>
         </app>
       </l>
       <l n="5">
@@ -211,6 +230,7 @@
             <rdg wit="#ft">And never doe his bounteous Love Adore</rdg>
             <rdg wit="#ee">And never do His bounteous love adore,</rdg>
             <rdg wit="#ae">And never do his bounteous Love Adore,</rdg>
+            <rdg wit="#a2">And never do his bounteous love adore,</rdg>
         </app>
       </l>
       <l n="6">
@@ -218,6 +238,7 @@
             <rdg wit="#ft">But Swiniſhly Root on and Grunt for more</rdg>
             <rdg wit="#ee">But swinishly root on and grunt for more;</rdg>
             <rdg wit="#ae">But swinishly root and Grunt for more.</rdg>
+            <rdg wit="#a2">But <seg>swinishly root on and grunt for more<note type="gloss">The animal qualities of the hogs are attributed to people who do not properly acknowledge God’s care. The “thankless people” dig in the ground, perhaps with their snouts as the pigs do above, and make incomprehensible sounds instead of properly celebrating divine blessings.</note></seg>.</rdg>
         </app>
       </l>
       <l n="7">
@@ -225,6 +246,7 @@
             <rdg wit="#ft">Soe gripeing Worldlings Still their Wealthe increase</rdg>
             <rdg wit="#ee">So <seg>griping worldlings<note type="gloss">someone who is grasping or greedy and dedicated to earthly (instead of heavenly) pleasures and interests</note></seg> still their wealth increase</rdg>
             <rdg wit="#ae">So <seg>griping<note type="gloss">“Grasping, usurious, avaricious” (<hi rend="italic">OED</hi> adj.1).</note></seg> <seg>Worldlings<note>People devoted to the pleasures of this world (as opposed to life in heaven after death).</note></seg> still their Wealth increase</rdg>
+            <rdg wit="#a2">So <seg>griping worldings<note type="gloss">people greedy for earthly pleasures. They are described as wholly of this earth, “worldings” who never cast their minds beyond their worldly affairs, in the same way the hogs do not look beyond their hunt for acorns.</note></seg> still their wealth increase</rdg>
         </app>
       </l>
       <l n="8">
@@ -234,6 +256,7 @@
             <rdg wit="#ae"><seg>And only pray their bags may rest in peace<note type="gloss"><p>Pulter’s “griping Worldlings” have nothing to ensure that their “bags”—i.e., moneybags—will remain secure after they die; they can “only pray” that their wealth will “rest in peace.” Pulter’s warning against greed and addiction to earthly treasures has numerous biblical echoes, contrasting the transience of earthly possessions with the eternal treasures of heaven. Matthew 6:19-21, for instance, reminds readers, “Lay not up for yourselves treasures upon earth, where moth and rust doth corrupt, and where thieves break through and steal: But lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through nor steal: For where your treasure is, there will your heart be also.”</p>
                 <p>See also Luke 12:16-21’s parable of the rich man who tears down his barns in order to build bigger ones.</p>
             </note></seg>.</rdg>
+            <rdg wit="#a2">And only pray their <seg>bags<note type="gloss">money bags. The worldings care only for the eternal peace of their wealth, not their souls.</note></seg> may rest in peace.</rdg>
         </app>
       </l>
       <l n="9">
@@ -241,6 +264,7 @@
             <rdg wit="#ft">Soe Grumbling &ff;armers Still turn up the Earth</rdg>
             <rdg wit="#ee">So grumbling farmers still turn up the earth,</rdg>
             <rdg wit="#ae">So Grumbling Farmers still turn up the Earth,</rdg>
+            <rdg wit="#a2">So grumbling farmers still <seg>turn up<note type="gloss">prepare the soil for planting by stirring up and aerating it. Strikingly the grumbling farmers do not till the earth with a plow, the omnipresent symbol of human cultivation (See <bibl>Frances E. Dolan, <title rend="italic">Digging the Past: How and Why to Imagine Seventeenth-Century Agriculture</title> [University of Pennsylvania Press, 2020], 20</bibl>). Without a mention of agricultural tools, the farmers appear more like swinish hogs mucking blindly in the dirt.</note></seg> the earth,</rdg>
         </app>
       </l>
       <l n="10">
@@ -248,6 +272,7 @@
             <rdg wit="#ft">&ff;earing that every Shower will cauſ a Dearth</rdg>
             <rdg wit="#ee"><seg>Fearing that every shower will cause a dearth.<note type="gloss">The misguided farmers (from the line above) plow their fields, but are overly concerned that rain will kill the crops) rather than appreciating the nourishing rain from heaven.</note></seg></rdg>
             <rdg wit="#ae">Fearing that every Shower will cause a <seg>Dearth<note type="gloss">Pulter’s farmers are forever working, constantly plowing  (“turn[ing] up the Earth”) so that the rain won’t wash away their seeds. Rather than seeing the rain as a blessing falling from above (like the acorns falling from the tree in line 3), the farmers live in perpetual fear that rain will impair their crops and cause a “dearth,” or shortage.</note></seg>.</rdg>
+            <rdg wit="#a2"><seg>Fearing that every shower will cause a dearth<note type="gloss">a crop failure that leaves no food to maintain life. While a dearth is perhaps the most fearsome fate for farmers, this line shows how blind these grumblers are to divine providence, just like the hogs. While too much rain certainly can harm crops, it’s more often the case that rain is a figure for refreshment and the promise of bounty. These farmers are receiving even God-sent showers with anxious suspicion rather than gratitude.</note></seg>.</rdg>
         </app>
       </l>
       <l n="11">
@@ -255,6 +280,7 @@
             <rdg wit="#ft">Even Soe voluptius Gallants dance along</rdg>
             <rdg wit="#ee">Even so <seg>voluptuous gallants<note type="gloss">“gallants” are men and women of fashion and pleasure who are inclined to “voluptuous” ease, luxury, and gratification of the senses</note></seg> dance along,</rdg>
             <rdg wit="#ae">Even so voluptuous <seg>Gallants<note type="gloss">“Gallants” is a multi-valent term in Pulter’s poetry, having both positive connotations (e.g., <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends</ref>, ll. 14, 24) and negative (e.g., <ref type="pp-poem-ref" corresp="74">Emblem 8</ref>, ll. 12, 22). Here the term refers pejoratively to young men of fashion and pleasure (see <hi rend="italic">OED</hi> n.1, 3), whose “voluptuous[ness]” marks them as more interested in sensual pleasures than morality.</note></seg> dance along,</rdg>
+            <rdg wit="#a2">Even so <seg>voluptuous gallants<note type="gloss">fashionable people committed to sensuous pleasure.</note></seg> dance along,</rdg>
         </app>
       </l>
       <l n="12">
@@ -262,6 +288,7 @@
             <rdg wit="#ft">Their meetings ending in A drunken Song</rdg>
             <rdg wit="#ee">Their meetings ending in a drunken song.</rdg>
             <rdg wit="#ae">Their meetings ending in a drunken Song.</rdg>
+            <rdg wit="#a2">Their meetings ending in a drunken song.</rdg>
         </app>
       </l></lg>
       <lg type="stanza" n="2"><l n="13">
@@ -269,6 +296,7 @@
             <rdg wit="#ft">When Like the Chast &amp; conſtant turtle Dove</rdg>
             <rdg wit="#ee">When, like the chaste and constant turtledove,</rdg>
             <rdg wit="#ae">When like the <seg>Chaste<note type="gloss">The turtledove is frequently associated with marital chastity because it mates for life. See, for instance, Shakespeare’s “The Phoenix and the Turtle,” where the turtledove epitomizes “married chastity” (61). Henry Peacham similarly celebrates turtledoves as an emblem of “love of Matrimony” in <hi rend="italic">Minerva Britanna</hi>, 92.</note></seg> and constant <seg>Turtle Dove<note type="gloss">A favorite image of Pulter's. See <ref type="pp-poem-ref" corresp="46">The Lark</ref>, <ref type="pp-poem-ref" corresp="57">Why must I be forever thus confined</ref>, <ref type="pp-poem-ref" corresp="85">Emblem 20</ref>, and <ref type="pp-poem-ref" corresp="101">Emblem 36</ref>.</note></seg>,</rdg>
+            <rdg wit="#a2">When like the chaste and constant <seg>turtledove<note type="gloss">a bird that mates for life, emblematizing constancy and devotion. See <ref type="pp-poem-ref" corresp="85">This Poor Turtle Dove (Emblem 20)</ref>, <ref type="pp-poem-ref" corresp="20">Pardon Me, My Dearest Love</ref>, <ref type="pp-poem-ref" corresp="43">Of A Young Lady at Oxford, 1646</ref>, <ref type="pp-poem-ref" corresp="57">Why Must I Thus Forever Be Confined</ref>.</note></seg>,</rdg>
         </app>
       </l>
       <l n="14">
@@ -276,6 +304,7 @@
             <rdg wit="#ft">Which takes a Sip then throws her eyes above</rdg>
             <rdg wit="#ee">Which takes a sip then throws her eyes above,</rdg>
             <rdg wit="#ae">Which takes a Sip then <seg>throws her eyes above<note type="gloss"><p>Pulter’s depiction of the turtle dove as constantly gazing heavenward actually contradicts her most likely source, Pliny the Elder’s <hi rend="italic">Natural History</hi> (from which Pulter frequently draws). According to Philemon Holland’s 1601 translation, Pliny describes doves as “drinking not to hold up their bills between-whiles, and draw their necks backe, but to take a large draught at once, as horses and kine do.” Pliny, <hi rend="italic">Historie of the World</hi>, 1:290. Pulter’s turtledoves, however, look up, in direct contrast to the hogs “rooting” in the ground.</p><p>Henry Peacham similarly aligns the turtledove with piety in <hi rend="italic">Minerva Britanna</hi>, comparing it to a “godly wight, whome no delight of Sinne, Doth with vaine pleasure draw: or worldly care,” esteeming “these fleeting joies a pinne” (110).</p></note></seg>,</rdg>
+            <rdg wit="#a2">Which takes a sip then throws her eyes above,</rdg>
         </app>
       </l>
       <l n="15">
@@ -283,6 +312,7 @@
             <rdg wit="#ft">Gods Children here but Sip of Terren Toys</rdg>
             <rdg wit="#ee">God’s children here but sip of <seg>terrene toys<note type="gloss">“toys” are amorous sports; trumpery, rubbish, playthings, amusements; “terrene” can mean earthly, secular, temporal, material, or human</note></seg>,</rdg>
             <rdg wit="#ae"><seg>God’s Children here but Sip of Terrene toys<note type="gloss">Picking up on the metaphor of Christians as God’s “children,” Pulter compares things we know on Earth, things that are “terrene”—that is, “of the earth; worldly, secular, temporal, material, human” (<hi rend="italic">OED</hi>, a.1)—to the insignificant, infantile “toys” children play with. In doing so, Pulter draws a contrast between two different types of children: one childish only in relation to God the father, and the other childish by virtue of their earthly perspective.</note></seg>,</rdg>
+            <rdg wit="#a2">God’s children here but sip of <seg>terrene toys<note type="gloss">frivolous playthings defined by being earthly. “Terrene,” from the same root as “terrestrial,” creates a sense of these “toys” as akin to the hogs’ acorns, rooted and sourced from the soil rather than the heavens.</note></seg>,</rdg>
         </app>
       </l>
       <l n="16">
@@ -290,6 +320,7 @@
             <rdg wit="#ft">Then turn their thoughts to true Celestiall Joys</rdg>
             <rdg wit="#ee">Then turn their thoughts to true celestial joys,</rdg>
             <rdg wit="#ae">Then turn their thoughts to true Celestial Joys.</rdg>
+            <rdg wit="#a2">Then turn their thoughts to true celestial joys,</rdg>
         </app>
       </l>
       <l n="17">
@@ -297,6 +328,7 @@
             <rdg wit="#ft">Like Innocent Doves they often victims die</rdg>
             <rdg wit="#ee">Like innocent doves, they often victims die,</rdg>
             <rdg wit="#ae"><seg>Like Innocent Doves they often victims die<note type="gloss">Jews unable to afford a lamb or bull often sacrificed doves at the biblical temple as an offering to God (see Leviticus 1:14, Leviticus 12:8, Luke 2:24).</note></seg>,</rdg>
+            <rdg wit="#a2"><seg>Like innocent doves they often victims die<note type="gloss">Turtledoves were among the prescribed sacrificial animals in Jewish ritual (Leviticus: 1:14-17).</note></seg>.</rdg>
         </app>
       </l>
       <l n="18">
@@ -304,6 +336,7 @@
             <rdg wit="#ft">When Hogs his Sacred Alter come not Nie</rdg>
             <rdg wit="#ee">When <seg>hogs His sacred altar come not nigh<note type="critical">Eardley notes the biblical allusions in this line and the one above: “Isa. 66:3 states that the sacrificing of swine pollutes the sacred church and is therefore an abomination. Here this is compared with the sacrifice of the doves in Luke 2:24, which provides a prefiguration of the death of Christ.”</note></seg>.</rdg>
             <rdg wit="#ae"><seg>When Hogs his Sacred Altar come not Nigh<note type="gloss">Pigs, declared unclean by God in Leviticus 11:7, were utterly forbidden to Jews, and therefore banned from approaching God’s “sacred Altar.” Isaiah 66:3 references the killing of swine as epitomizing people's wickedness, an identification emblematized in George Wither’s <hi rend="iatlic">A Collection of Emblems</hi> (1635), 38. But it is the evil of the hogs themselves, not the people using them, that seems the focus of Pulter’s ire here. Pulter draws a clear contrast between the hogs, which must remain distant from the temple, and the doves, which are willingly, sacrificially at the center of the temple’s activity.</note></seg>.</rdg>
+            <rdg wit="#a2"><seg>When hogs His sacred altar come not nigh<note type="gloss">By contrast to doves, swine could not be brought near the temple because their sacrifice would pollute it (Isaiah 66:3).</note></seg>,</rdg>
         </app>
       </l>
       <l n="19">
@@ -311,6 +344,7 @@
             <rdg wit="#ft">Then let the Reader trie, which best hee loves</rdg>
             <rdg wit="#ee">Then let the reader <seg>try<note type="gloss">sift or distinguish; ascertain, find out (i.e., by effort or experiment, effort, experience); test, put to proof</note></seg> which best he loves</rdg>
             <rdg wit="#ae">Then let the Reader try, which best he loves</rdg>
+            <rdg wit="#a2">Then let the reader try which best he loves</rdg>
         </app>
       </l>
       <l n="20">
@@ -318,6 +352,7 @@
             <rdg wit="#ft">To imitate, baſe Hogs or Turtle Doves</rdg>
             <rdg wit="#ee">To imitate: base hogs or turtledoves.</rdg>
             <rdg wit="#ae">To imitate, <seg>base Hogs or Turtle Doves<note type="gloss">Pulter’s rhetorical presentation of the reader’s choice here is typical of the poem as a whole, which clearly favors one side. Hogs are “base”—that is, distant from God in their depravity (see <hi rend="italic">OED</hi>, adj. A.II.10)—while doves stand alone in their heavenly virtue. “Base,” indicating the pigs’ low position relative to the ground, also reinforces the animals’ physical distinction, between the mobile, transcendent dove and the earth-bound swine (see <hi rend="titalicitle">OED</hi> “base,” adj. A.I.2a).</note></seg>.</rdg>
+            <rdg wit="#a2">To imitate, base hogs or turtledoves.</rdg>
         </app>
       </l>
       <l n="21">
@@ -325,6 +360,7 @@
             <rdg wit="#ft">But as for mee ’tis my Souls Sole deſire</rdg>
             <rdg wit="#ee">But as for me, ’tis my soul’s sole desire</rdg>
             <rdg wit="#ae">But as for me, ’tis my Soul’s Sole desire</rdg>
+            <rdg wit="#a2">But as for me, ’tis <seg>my soul’s sole<note type="critical">Pulter returned to this phrase, for instance, “my soul’s sole joy” in <ref type="pp-poem-ref" corresp="38">To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</ref>;  “my soul’s sole choice” in <ref type="pp-poem-ref" corresp="12">The Garden, or The Contention of Flowers</ref>; and especially in the title of <ref type="pp-poem-ref" corresp="29">My Soul’s Sole Desire</ref>.</note></seg> desire,</rdg>
         </app>
       </l>
       <l n="22">
@@ -332,6 +368,7 @@
             <rdg wit="#ft">Like Spotles Doves to live and Soe expire.</rdg>
             <rdg wit="#ee">Like <seg>spotless<note type="gloss">innocent, free from sin, pure</note></seg> doves to live and so expire.</rdg>
             <rdg wit="#ae"><seg>Like Spotless Doves to live and so Expire<note type="gloss">The poem’s concluding focus on the speaker, rather than the reader, occurs in the majority of Pulter’s emblems, but is almost without precedence in other emblem books. In this case, the return effectively underscores the poem’s emblematic moral while highlighting the personal sacrifice involved in living out that moral.</note></seg>.</rdg>
+            <rdg wit="#a2">Like spotless doves to live and so expire.</rdg>
         </app>
       </l>
       </lg>

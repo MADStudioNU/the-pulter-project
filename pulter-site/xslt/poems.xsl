@@ -5210,8 +5210,11 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
+<!--        <pp:edition type="amplified" label="Amplified Edition A">-->
 <!--          <pp:author>Rachel Zhang</pp:author>-->
+<!--        </pp:edition>-->
+<!--        <pp:edition type="amplified" id="a2" label="Amplified Edition B">-->
+<!--          <pp:author>Megan Heffernan</pp:author>-->
 <!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
@@ -6018,8 +6021,11 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
+        <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Whitney Sperrazza</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
+          <pp:author>Deanna Smid</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>

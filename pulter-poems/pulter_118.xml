@@ -127,6 +127,7 @@
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
           <witness xml:id="ae">Amplified edition: By <persName>Whitney Sperrazza</persName>.</witness>
+            <witness xml:id="a2">Amplified edition: By <persName>Deanna Smid</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -143,6 +144,9 @@
         <rdg wit="#ae">
             <pb ed="#ae" facs="#f7610_259"/>
         </rdg>
+          <rdg wit="#a2">
+              <pb ed="#a2" facs="#f7610_259"/>
+          </rdg>
       </app>
 
       <head>
@@ -150,17 +154,22 @@
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw><seg>[Emblem 53]<note type="physical">Unlike surrounding poems in the “Emblems” section, no number precedes this poem.</note></seg></rdg>
             <rdg wit="#ee">The Snail, the Tulip, and the Bee<lb/>(Emblem 53)</rdg>
             <rdg wit="#ae">The Snail, the Tulip, and the Bee<lb/>(Emblem 53)</rdg>
+            <rdg wit="#a2">Emblem 53</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
             <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
           </rdg>
           <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note>
+          </rdg>
           <rdg wit="#ae">
               <note type="editorialnote"><p>In my editions of Pulter’s poems, I prioritize accessibility and use my annotations to prompt further exploration. To make the poems accessible to the widest possible audience, I have modernized spelling, punctuation, and capitalization according to American English standards. My editions aim to demonstrate the complexity of Pulter’s thinking, while opening space for the reader’s own analysis and interpretation. I recognize editing as a political act and aim to be as transparent as possible about how I frame Pulter’s poems for the reader. My lengthy annotations are an attempt to reveal my thought processes and make clear the ideological networks that inform my readings.</p>
                 <p>As an important corollary to Pulter’s conceptual work, I also attend to the material expression of her manuscript object. Her manuscript pages reveal a glimpse of her thinking and writing processes, and I briefly note Pulter’s revisions to the poems in order to foreground her poetic craft. The manuscript features variants and revisions that invite multiple interpretations, and I encourage readers to refer to the manuscript images as they engage with Pulter’s writing. I offer some intertextual references to other early modern texts, but am most interested in drawing out how Pulter’s poems speak to each other as she reflects on clusters of ideas.</p></note>
           </rdg>
+            <rdg wit="#a2">
+                <note type="editorialnote">This Amplified Edition of Emblem 53 maintains the punctuation and spelling of the Elemental Edition, and places the poem in the context of its contemporary emblem books and bee-keeping treatises.</note>
+            </rdg>
         </app>
         <app type="headnote">
           <rdg wit="#ft">
@@ -172,6 +181,13 @@
           <rdg wit="#ae">
               <note type="headnote"><p>Emblem 53 offers a complex political allegory masquerading as a fable about a “covetous” honey bee, a patient snail, and a “painted” tulip. Alongside the poem’s political themes, Pulter raises questions about gender, science, and nature that echo her interest in these topics throughout the manuscript. Most significantly, there are glimpses in this poem of Pulter’s clever theorization of poetry itself—her ongoing exploration of how poetry makes meaning.</p><p>Three distinct, but related, mottoes drive this emblem. The first motto—”then let impatient spirits here but see / what ’tis to struggle with their destiny” (lines 37–8)—concludes the story Pulter tells of a honey bee, enticed by the poet’s sumptuous garden, who tries to gather more “nectar” than she can carry. Straying from the hive for far too long, the bee lands in a tulip alongside a snail just as the sun goes down and the tulip closes its petals. The second and third motto come in sequence at the poem’s end: “’tis valianter by far to live than die” (line 50) and “then if no hope of liberty you see, / think on the snail, the tulip, and the bee” (lines 51–52). These mottoes follow a catalogue of examples from classical history, mostly warnings about excessive pride and arrogance. Three mottoes is a lot for one emblem, which raises interesting questions as we read this poem. How do the three mottoes work together? Do the stories seem to unfold logically into their concluding mottoes or do the mottoes seem incongruous? How does Pulter use these multiple mottoes to invite us to consider the function of the motto as a feature of emblems?</p><p>Pulter’s emblem poems are “naked emblems,” as Millie Godfrey and Sarah C. E. Ross explain in their introduction to <ref type="pp-poem-ref" corresp="67">Mighty Nimrod (Emblem 1)</ref>. Revising the traditional tripartite structure of the emblem (motto, visual image, and short epigrammatic verse), Pulter omits the visual image (<foreign rend="italic">pictura</foreign>) element such that the reader must glean meaning solely from words. But Pulter’s language in this and many of her emblems is meant to help the reader paint their own picture. Here, for instance, Pulter references specific flowers, tracks the bee’s movements as it flits around the poet’s garden, and fills her lines with evocative descriptions (the morning sun is “lapped in a robe of silver mixed with gray” [line 5]). The emblem’s central characters—the snail, the tulip, and the bee—would also have been easy visual reference points for Pulter’s readers. All three figures were frequently portrayed in early modern emblem books, textual illustrations, and artwork.</p><p>All three figures are also at the center of early modern debates surrounding gender and sexuality. Even though none of the poem’s mottoes directly concern these topics, this emblem has much to teach us about Pulter’s interest and intervention in these debates. I track this theme throughout my annotations on the poem, noting, for instance, that Pulter’s description of the bee as “the active Amazonian maid” (7) refers to a community of warrior women in Greek mythology (the Amazons), who were notoriously complicated gendered figures in early modern culture. “Demonstrating that women and men might be performatively interchangeable,” Kathryn Schwarz explains, “Amazons at once substantiate the signifiers of masculinity and threaten to replace the bodies to which they are attached.”<seg>1<note type="gloss">Source: <bibl>Schwarz, <title rend="italic">Tough Love: Amazon Encounters in the English Renaissance</title> (Duke University Press, 2000): 38</bibl>.</note></seg> Amazons were often at the center of crossdressing plots (Philip Sidney’s <title rend="italic">The Countess of Pembroke’s Arcadia</title>), tales of women’s military leadership (Margaret Cavendish’s Bell in <title rend="italic">Campo</title>), and stories about the relationship between desire and power (William Shakespeare’s <title rend="italic">A Midsummer Night’s Dream</title>).</p><p>Pulter’s comparison of the bee to an “Amazonian maid” draws on this popular trope, but we might also read the comparison as an opening nod to the poem’s formal structure. The poem’s first half outlines a distinctly female garden community, populated by “fair Aurora” (1), the “Amazonian” bee” (7), the poet herself (17), and even the snail that slides about “upon her unctuous breast” (29). When the bee’s plot ends at line 37, though, the poem shifts to solely male reference points. Pulter mentions Biron (39), Belisarius (41), Bajazeth (43), and Callisthenes (47) as she guides the reader toward the poem’s concluding motto. But, shifting once more in the final couplet, Pulter ends by reminding us to “think on the snail, the tulip, and the bee” (52), a return to the female cast of the poem’s first half. In the formal structure of her poem—the gender-bending shifts in metaphors—Pulter brings to mind the threat posed by the figure of the Amazon: the possibility “that women and men might be performatively interchangeable.” In both the content and form of this poem, Pulter raises questions about how gender signifies, and particularly how emblematic, gender-specific metaphors signify.</p></note>
           </rdg>
+            <rdg wit="#a2">
+                <note type="headnote"><p>To most seventeenth-century readers, Hester Pulter’s bee in Emblem 53 must have seemed unusual indeed. While the vast majority of her contemporaries praised bees for “their labour and order at home and abroad,” which made them “so admirable, that they may bee a pattern unto men,”<seg>1<note type="gloss">Source: <bibl>Charles Butler, <title rend="italic">The Feminine Monarchie</title> (Oxford, 1634): 2</bibl>.</note></seg> Pulter’s bee is greedy, and her “labour” is anything but admirable. Yet comparing Emblem 53 to early modern accounts of bees (both real and metaphorical bees) reveals that Pulter reinforces seventeenth-century knowledge about the characteristics of bees, and that her bee’s deviation from “appropriate” bee-behaviour allows Pulter to emphasize the dangers of solitude, particularly solitude from a community of other women.</p>
+                    <p>Bees were a common metaphor, symbol, or analogy in classical and early modern literature, with Shakespeare’s <title rend="italic">Henry V</title> and Milton’s <title rend="italic">Paradise Lost</title> two familiar examples. Indeed, Pulter would not have been able to use bees as a metaphor without contending with the vast scope of bee literature and bee metaphors that had come before her. Of course, this assumes that Pulter had read “bee literature” and was acquainted with honeybees in some fashion. In his reading of Shakespeare on bees, Richard Grinnell confronts a similar question: how much did Shakespeare know about bees? His answer is worth quoting at length: “Shakespeare keeps bees the way any well-read and urbane writer might have been able to—building his metaphors and analogies from books at hand. Even when he moves beyond the classics, for example, in his description of Hal as a beekeeper willing to kill the bees to get the honey, he is clearly working with material that was common knowledge in his day” (850). Beekeeping during the early modern period was also an occupation and even obligation for both men and women. Treatises on caring for bees are often addressed to both sexes, and women feature prevalently in stories about bees, honey, and hives. William Lawson, writing in 1623, states in his treatise on gardening that he “will not account her any of my good Housewives, that wanteth either Bees or skilfulnesse about them.”<seg>2<note type="gloss"><bibl>William Lawson,<title rend="italic"> The Country Housewifes Garden. Containing Rules for Hearbs and Seeds of common use, with their times and seasons, when to set and sow them. Together With the Husbandry of Bees, published with secrets very necessary for every Housewife […]</title> (London: Printed for Roger Jackson, 1623): 17</bibl>.</note></seg> Pulter would certainly not be unusual if she knew something—or even much—about the care and characteristics of honeybees.</p></note>
+                <p>Pulter’s bee (in contrast to the industrious and virtuous bees of most of the literature that predates Emblem 53) is greedy and grasping, and her bee’s struggle against confinement causes her exhaustion and death. According to Nicole A. Jacobs, another outlier in early modern bee imagery is John Milton, who compares the devils in Pandemonium to a swarm of bees in <title rend="italic">Paradise Lost</title>. In her monograph <title rend="italic">Bees in Early Modern Transatlantic Literature: Sovereign Colony</title>, Jacobs emphasizes the weight of literary tradition that any negative depiction of bees would have to shrug off: “The image of the humming collection [in <title rend="italic">Paradise Lost</title>] resonates with the early modern reader, trained by tradition to imagine humanity as an orderly hive.”<seg>3<note type="gloss"><bibl>Jacobs, <title rend="italic">Bees in Early Modern Transatlantic Literature: Sovereign Colony</title> (New York: Routledge, 2021): 123</bibl>.</note></seg> The same “tradition” and “train[ing]” would have applied to Pulter’s readers, which perhaps explains why, although the snail (with its patient endurance) seems to be the positive exemplar for the reader, the “moral” of the emblem does not urge readers to imitate the snail necessarily. Instead, Pulter advises that we “think on the snail, the tulip, and the bee” (line 52). Indeed, while the bee causes her own unnecessary death in Pulter’s poem, the common literary symbolism of worker bees in the seventeenth century was so overwhelmingly positive that readers must have resisted, even a little, the idea that they should be the greasy snail rather than the “active Amazonian maid” (line 7).</p>
+                <p>If a honey bee is separate from its colony, it is soon to die. In 1657, beekeeper Samuel Purchas wrote baldly, “one Bee, is no Bee.”<seg>4<note type="gloss">Source: <bibl>Purchas, <title rend="italic">A Theatre of Politicall Flying-Insects</title> (London, 1657): 16</bibl>.</note></seg> Joseph Campana quotes from Purchas as well to emphasize the apian–and more general–early modern anxiety with solitude, segments, and fragmentation in the commonwealth. “For bees,” Campana concludes, “singularity is unbearable.”<seg>5<note type="gloss">Source: <bibl>Campana, “The Bee and the Sovereign (II): Segments, Swarms, and the Shakespearean Multitude,” in <title rend="italic">The Return of Theory in Early Modern English Studies</title>, edited by Bryan Reynolds, Paul Cefalu, and Gary Kuchar (New York: Routledge, 2011): 67</bibl>.</note></seg> Keith Botelho summarizes early modern beekeepers’ attitudes towards individual and collective bees: “early modern bee treatises often spoke of bees in the collective, not necessarily concerned with the individual bee (other than the Queen) but rather with the maintenance of the stock of bees in the hives, of the swarm, of the many.”<seg>6<note type="gloss">Source: <bibl>Botelho, “Honey, Wax, and the Dead Bee,” <title rend="italic">Early Modern Culture</title> 11 (2016): 102</bibl>.</note></seg> Not only beekeepers, but also early modern writers of fiction or moral instruction generally referred to bees in the plural, and James Howell’s 1660 <title rend="italic">The Parly of Beasts; or Morphandra Queen of the Inchanted Island</title> is a notable example. In Howell’s dialogues, the characters Morphandra and Pererius speak to a number of animals (who were once human) in turn, beginning with an Otter, then an Ass, an Ape, a Hind, a Mule, a Fox, a Boar, a Wolf, and a Goose. In the first ten sections of the book, the animal interlocutor is singular, but not so in the final dialogue, in which Morphandra and Pererius converse with “<hi rend="italic">a Hive</hi> of Bees” (my emphasis), for bees were thought to exist only in a collective. All this is to say that when Pulter’s bee diverts from her voyage back to her hive, she is doing something unusual and potentially deadly: separating herself from the collective that gives her life.</p>
+                <p>Emblem 53 uses a number of means to create and maintain female community, whether real or imagined. The bee is an “Amazonian maid,” which of course places her in the well-known society of Amazons, but it also reminds readers that bees themselves live in a society that is predominantly female. Christina Luckyj and Naimh J. O’Leary assert that “classical models of segregated female communities could serve as code for political protest.”<seg>7<note type="gloss">Source: <bibl>Luckyj and O’Leary, Editor’s Introduction to <title rend="italic">The Politics of Female Alliance in Early Modern England</title> (Lincoln: University of Nebraska Press, 2017): 6</bibl>.</note></seg> Natural models–the model of the beehive–could also serve as such a “code,” especially when Pulter compares the bee and snail to Biron, Belisarius, Bajazeth, and Callisthenes. The four men are associated with the military, which may remind readers of the military connotations of bees in early modern England. Butler, for instance, writes that “Besides their Soveraign, the Bees have also subordinate Governours and Leaders, not unfitly resembling Captains and Colonels of Soldiers.<seg>8<note type="gloss">Source: Butler, 6.</note></seg> With her references to women and military might, Pulter may be subtly gesturing towards a political protest, one that gives communities of women classical, natural, and even military power.</p>
+            </rdg>
         </app>
       </head>
 
@@ -180,6 +196,7 @@
             <rdg wit="#ft"><fw type="seqNum" place="inline">53</fw>When fair Aurora drest with Raidient Light</rdg>
             <rdg wit="#ee">When fair <seg>Aurora<note type="gloss">goddess of dawn</note></seg>, dressed with radiant light,</rdg>
             <rdg wit="#ae">When <seg>fair Aurora<note type="critical">Pulter’s opening reference to “fair Aurora” (Roman goddess of the dawn) initiates the gendered imagery of the poem’s first seven lines, which culminates with Pulter’s description of the bee as “the active Amazonian maid” (line 7). These opening lines, with the Amazon reference as a kind of anchor point, transform the morning garden into a female separatist community—a framing with important implications for how we read the rest of the poem. First, framing the bee’s actions within this context connects the labor of collecting nectar to women’s work, which then prompts us to read Pulter’s later references to poisonous herbs (lines 13–14) and “choice extractions” (line 15) as nods to domestic labor. Second, it links Emblem 53 to other writings in which Pulter explores the intimacies that develop within communities of women, most notably the female friendships throughout her prose romance, <title rend="italic">The Unfortunate Florinda</title>.</note></seg>, dressed with radiant light,</rdg>
+            <rdg wit="#a2">When fair <seg>Aurora<note type="gloss">dawn</note></seg>, dressed with radiant light,</rdg>
         </app>
       </l>
       <l n="2">
@@ -187,6 +204,7 @@
             <rdg wit="#ft">Had triumph’d o’re the Gloomey Shades of Night</rdg>
             <rdg wit="#ee">Had triumphed o’er the gloomy shades of night—</rdg>
             <rdg wit="#ae">Had triumphed o’er the gloomy shades of <seg>night<note type="critical">My editorial decision to add an em-dash here turns lines 3–6 into a clause that expands Pulter’s description of Aurora in lines 1–2 and emphasizes the unique formal structure of Pulter’s “naked emblems” (for more on this, see my headnote). Adding the em-dash marks how the concise description of Aurora waking up in the poem’s first two lines becomes a more expansive illustration of Aurora in lines 3–6, a kind of visual unfolding that nods to the pictura element of the traditional emblem structure. For more on the flexible structure of early modern emblems, see <bibl>Peter Daly, <title rend="italic">Literature in the Light of the Emblem</title> (University of Toronto Press, 1979)</bibl>.</note></seg>—</rdg>
+            <rdg wit="#a2">Had triumphed o’er the gloomy shades of night—</rdg>
         </app>
       </l>
       <l n="3">
@@ -194,6 +212,7 @@
             <rdg wit="#ft">When Shee her Virgin beavty first diſcloſes</rdg>
           <rdg wit="#ee">When she her <seg>virgin<note type="gloss">pure</note></seg> beauty first discloses,</rdg>
             <rdg wit="#ae">When she her <seg>virgin beauty<note type="critical">Associating Aurora with virginity, Pulter departs from classical tradition in which Aurora is often aggressively sexualized. Pulter retains some of the figure’s fraught sexual history, though, by drawing on conventional blazon imagery, describing Aurora wrapped in a “silver” robe with “roses” ornamenting her “dewy curls.” This description echoes language from earlier poems in the manuscript dedicated to Aurora: <ref type="pp-poem-ref" corresp="22">To Aurora [1]</ref>, <ref type="pp-poem-ref" corresp="26">To Aurora [2]</ref>, and <ref type="pp-poem-ref" corresp="34">To Aurora [3]</ref>. “To Aurora [3]” is particularly resonant here. In that earlier poem, Aurora “shakes her dewy curls” and fills the flowers—”each gold-enamelled cup”—with “honeydew” (lines 8–9). For more on Pulter’s use of blazon imagery throughout her poems, see Frances E. Dolan’s Exploration, <ref target="http://pulterproject.northwestern.edu/#hester-pulter-and-english-blazon" type="new-window-url">“Hester Pulter and the Blazon in Early Modern England.”</ref></note></seg> first <seg>discloses<note type="gloss">uncover or expose to view</note></seg>,</rdg>
+            <rdg wit="#a2">When she her <seg>virgin beauty<note type="critical">Sperrazza points out in her Amplified Edition of Emblem 53 that Pulter unusually but often associates Aurora with virginity. Bees too, during the early modern period, were considered virginal, as Pulter herself emphasizes in <ref type="pp-poem-ref" corresp="34">To Aurora [3]</ref>, lines 10-11, and in <ref type="pp-poem-ref" corresp="57">Why Must I Thus Forever Be Confined</ref> line 5. The perceived virginity of bees also linked them to the Virgin Mary, which Henry Hawkins explains in his 1633 emblem book, <title rend="italic">Partheneia Sacra</title>. His bee emblem begins with “To Bethlem’s sillie shed, me thinks I see / The <hi rend="italic">Virgin</hi> hasten like a busie Bee,” and ends with “She was the <hi rend="italic">Bee</hi>, the Hive her Sacred Womb” (Hawkins, Parthenia Sacra (London, 1633): lines 1-2; 12). Also during the seventeenth century, the newly-elected Pope Urban VIII heralded himself by means of iconographic bees, iconography that John Milton then used to disparage Charles II (<bibl>Jacobs, <title rend="italic">Bees in Early Modern Transatlantic Literature: Sovereign Colony</title> (New York: Routledge, 2021): 117</bibl>). For more on Urban VIII and bees, see Bee Wilson, <title rend="italic">The Hive: The Story of the Honeybee and Us</title> (London: John Murray, 2004): 129-31.</note></seg> first discloses,</rdg>
         </app>
       </l>
       <l n="4">
@@ -201,6 +220,7 @@
             <rdg wit="#ft">Her dewey Curles Stuck full of half blown Roſes</rdg>
           <rdg wit="#ee">Her dewy curls stuck full of <seg>half-blown<note type="gloss">half-blossomed</note></seg> roses,</rdg>
             <rdg wit="#ae">Her dewy curls stuck full of <seg>half-blown<note type="gloss">half-bloomed, half-blossomed</note></seg> roses,</rdg>
+            <rdg wit="#a2">Her dewy curls stuck full of half-blown roses,</rdg>
         </app>
       </l>
       <l n="5">
@@ -208,6 +228,7 @@
             <rdg wit="#ft">Lapt in A Robe of Silver mixt with graie</rdg>
           <rdg wit="#ee"><seg>Lapped<note type="gloss">wrapped up</note></seg> in a robe of silver mixed with gray,</rdg>
             <rdg wit="#ae">Lapped in a robe of silver mixed with gray,</rdg>
+            <rdg wit="#a2"><seg>Lapped in a robe<note type="gloss">The gorgeous clothing and coloration of Aurora are repeated in the later description of the speaker’s flower garden, which so attracts the bee that she neglects her hive.</note></seg> of silver mixed with gray,</rdg>
         </app>
       </l>
       <l n="6">
@@ -215,6 +236,7 @@
             <rdg wit="#ft">Which did prognoſticate a glorious day</rdg>
           <rdg wit="#ee">Which did <seg>prognosticate<note type="gloss">foretell</note></seg> a glorious day—</rdg>
             <rdg wit="#ae">Which did <seg>prognosticate<note type="gloss">foretell, forecast</note></seg> a glorious day–</rdg>
+            <rdg wit="#a2">Which did <seg>prognosticate<note type="gloss">foretell</note></seg> a glorious day—</rdg>
         </app>
       </l>
       <l n="7">
@@ -222,6 +244,7 @@
             <rdg wit="#ft">Out flew the active Amizonian Maid</rdg>
           <rdg wit="#ee">Out flew the <seg>active Amazonian maid<note type="gloss">Amazons were legendary female warriors who served a queen; here used figuratively to describe a bee</note></seg>;</rdg>
             <rdg wit="#ae">Out flew the <seg>active Amazonian maid<note type="critical"><p>The bee was a familiar subject of early modern emblems, frequently used as a model of ordered government (see <bibl>Andrea Alciato, <title rend="italic">Emblematum liber</title> [Padua, 1621], emblem 149</bibl>) or successful, interdependent economy (see <bibl>Geoffrey Whitney, <title rend="italic">Choice of Emblemes</title> [London, 1585], pages 200–201)</bibl>. One seventeenth-century compendium on insects, compiled from the writings of several natural historians, including Edward Wotton, Conrad Gesner, and Thomas Moffet, featured a beehive on its frontispiece and described bees as “patterns and precedents of political and economical virtues” (<bibl><title rend="italic">The Theatre of Insects, or Lesser Living Creatures</title> [London, 1658]</bibl>).</p><p>Pulter’s transformation of the bee into an Amazonian figure, however, is more unusual and even a bit contentious. The comparison enhances Pulter’s interrogation of gender in this poem (see my headnote) and connects this emblem to some of the manuscript’s more explicit political poetry.</p></note></seg>.</rdg>
+            <rdg wit="#a2"><seg>Out<note type="critical">Out of the beehive (also called a skep). At this point in the poem, the bee is behaving exactly as she ought: during the day, bees must fly out of the hive to forage for nectar and pollen. However, Pulter’s bee remains dangerously “out” of the hive as she is enticed by the garden’s beauty. That “Out” is the first word of this line suggests that the bee’s fault is not just endless toil, but also and particularly solitude and estrangement from the community of the hive (See Headnote).</note></seg> flew the active <seg>Amazonian maid<note type="critical">Pulter uses the adjective “Amazonian” to describe the bee in <ref type="pp-poem-ref" corresp="12">The Garden</ref> as well (line 43). In the Amplified Edition of that poem, Frances E. Dolan notes on line 43 that “references to bees as ‘Amazonian’ acknowledged that their queen was female, which was not yet widely recognized.” While arguments about the sex of the ruling bee remained animated even into the eighteenth century, already in the mid-seventeenth century it would have been difficult to deny that the queen bee was indeed female. The sex of the queen bee was all but established by Charles Butler’s highly influential bee-keeping treatise, <title rend="italic">The Feminine Monarchy</title>, published in 1609, and again in 1623 and 1634. This is the treatise that almost all later treatises either cited, feted, or challenged. Indeed, Richard R. Prete cites Butler’s text as the turning-point in publications explaining the sex of bees: “Butler’s sound reasoning and empirical observations, in con- junction with the popularity of his book, brought to an end any serious, empirically based debates about the genders of the honey bee castes. From this point on, writers of beekeeping texts would have to recognize these facts, even if only to refute them, if they were to be taken seriously by their audiences.” (<bibl>“Can Females Rule the Hive? The Controversy over Honey Bee Gender Roles in British Beekeeping Texts of the Sixteenth-Eighteenth Centuries.” <title rend="italic">Journal of the History of Biology</title>, 24.1 (1991), 128</bibl>). In 1637, therefore, Richard Remnant’s <title rend="italic">A Discourse or Historie of Bees</title> spends considerable attention on the implication of bees as females. Moreover, in the first bee-keeping manual published after the English Civil War, Samuel Purchas in his 1657 <title rend="italic">A Theatre of Politicall Flying-Insects</title> calls the hive “an Amazonian commonwealth” (London, 33). In 1712, Joseph Warder appeals to a metaphor already established when he entitles his bee-keeping treatise <title rend="italic">The True Amazons: Or The Monarchy of Bees</title>. Pulter is thus hardly bucking tradition or “scientific” knowledge when she calls her bee an “Amazonian maid.”</note></seg>;</rdg>
         </app>
       </l>
       <l n="8">
@@ -229,6 +252,7 @@
             <rdg wit="#ft">The Hills and Dales, not onely Shee Surveyd</rdg>
             <rdg wit="#ee">The hills and dales not only she surveyed,</rdg>
             <rdg wit="#ae">The hills and dales not only she surveyed,</rdg>
+            <rdg wit="#a2">The hills and dales not only she surveyed,</rdg>
         </app>
       </l>
       <l n="9">
@@ -236,6 +260,7 @@
           <rdg wit="#ft">But out of every Gold <seg>Enameld<note type="physical">“E” and “e” appear written over earlier “i”s</note></seg> Cup</rdg>
             <rdg wit="#ee">But out of every gold-enamelled cup</rdg>
             <rdg wit="#ae">But out of every <seg>gold-enamelled cup<note type="gloss">flowers</note></seg></rdg>
+            <rdg wit="#a2">But out of every <seg>gold-enamelled cup<note type="gloss">Gold-colored flower</note></seg></rdg>
         </app>
       </l>
       <l n="10">
@@ -243,6 +268,7 @@
             <rdg wit="#ft">Her Mornings draught of Nectar Shee did Sup</rdg>
             <rdg wit="#ee">Her morning’s draft of nectar she did sup.</rdg>
             <rdg wit="#ae">Her morning’s <seg>draft<note type="gloss">a quantity drawn or extracted</note></seg> of nectar she did sup.</rdg>
+            <rdg wit="#a2">Her morning’s draft of nectar she did <seg>sup<note type="gloss">drink</note></seg>.</rdg>
         </app>
       </l>
       <l n="11">
@@ -250,6 +276,7 @@
             <rdg wit="#ft">Nay where the Toad, and Spider poyſons found</rdg>
             <rdg wit="#ee">Nay, where the toad and spider’s poison found,</rdg>
             <rdg wit="#ae">Nay, where the toad and spider poisons found,</rdg>
+            <rdg wit="#a2">Nay, where the toad and spider’s poison found</rdg>
         </app>
       </l>
       <l n="12">
@@ -257,6 +284,7 @@
             <rdg wit="#ft">Mell Shee Extracts, for this <add place="below">^</add> <add place="above">her</add> Wisdome’s Crownd</rdg>
           <rdg wit="#ee"><seg>Mell<note type="gloss">honey</note></seg> she extracts; <seg>for this her wisdom’s crowned<note type="gloss">Bees were reputed to be able to turn poisons into honey.</note></seg>.</rdg>
             <rdg wit="#ae"><seg>Mell<note type="gloss">honey</note></seg> she extracts; for this <seg>her wisdom’s<note type="physical">revised in the manuscript; “for this <add place="below">^</add> <add place="above">her</add> wisdome’s crownd”</note></seg> crowned.</rdg>
+            <rdg wit="#a2"><seg>Mell<note type="gloss">Honey</note><note type="critical">The image of a bee extracting honey while other creatures extracted poisons from the same plant is a common emblematic one. Geffrey Whitney’s <title rend="italic">A Choice of Emblemes</title>, for instance, the first emblem book published in English, contains the emblem entitled “<hi rend="italic">Vita, aut morti</hi>.” Under the picture of a bee and a spider on a flower, the epigram reads, “Within one flower, two contraries remaine, / For proofe behoulde, the spider, and the bee, / One poison suckes, the bee doth honie draine: / The Scripture soe, hath two effects we see: / Unto the bad, it is a sworde that slaies, / Unto the good, a shielde in ghostlie fraies” (Whitney, <title rend="italic">A Choice of Emblemes</title> (Leiden: 1586): 51). Whitney borrows the pictura (and the sentiment of the poem and moral) from Hadrianus Junius’s <title rend="italic">Emblemata</title> (1565).</note></seg> she extracts; for this her <seg>wisdom’s crowned<note type="critical">Bees were commonly praised for their intelligence, labour, and loyalty. John Thorley’s 1744 bee treatise <title rend="italic">Melissologia</title>, for instance, hardly breaks new ground when it summarizes and admires the bees’ “loyalty” (7), “concord and unity” (12), “magnanimity or courage” (15), “labour and industry” (23), “patience and innocency” (27), “temperance and sobriety” (29), “chastity” (30), “neatness and decency” (31), “sympathy, and mutual assistance” (32), “sagacity and prudence” (33), and “vigilance and watchfulness” (<bibl>Thorley, <title rend="italic">Melissologia. Or, The Female Monarchy</title> (London, 1744): 33</bibl>). Indeed, “Bees themselves excell all other creatures … in Art, Wisdom, or Foresight, Industry, Valour and Loyalty,” Moses Rusden writes in 1679 (<bibl>Rusden, <title rend="italic">A Further Discovery of Bees</title> (London, 1679): 9</bibl>). In particular, the fact that bees make honey and wax—both useful to humans—makes them especially prized or “crowned,” and thus the fertile bee in the hive is called a “queen.” “Her wisdom’s crowned,” however, cannot refer to only one singular bee, for a bee cannot make honey in isolation. If a bee is prized because it extracts honey from plants, the honor must go to the entire hive, the site of honey production.</note></seg>.</rdg>
         </app>
       </l>
       <l n="13">
@@ -264,6 +292,7 @@
           <rdg wit="#ft">On <seg>Nightſhade<note type="physical">“t” in different hand from main scribe</note></seg>, Henbane, Helliſh Acconite</rdg>
           <rdg wit="#ee">On nightshade, henbane, hellish aconite,</rdg>
             <rdg wit="#ae">On nightshade, henbane, hellish aconite,</rdg>
+            <rdg wit="#a2">On <seg>nightshade, henbane, hellish aconite<note type="gloss">All poisonous plants, including opium and hemlock in the following line.</note></seg>,</rdg>
         </app>
       </l>
       <l n="14">
@@ -271,6 +300,7 @@
             <rdg wit="#ft">On Opium, Hemlock, Shee doth Safely lite</rdg>
           <rdg wit="#ee">On opium, <seg>hemlock<note type="gloss">This plant, like opium and the three in the previous line, are all poisonous.</note></seg> she doth safely <seg>light<note type="gloss">land</note></seg>.</rdg>
             <rdg wit="#ae">On opium, hemlock she doth <seg>safely light<note type="critical">All five plants catalogued in these lines are poisonous, but their pollen is not. Consequently, the bee can safely extract pollen but the toad and spider of line 11 (eating the plants’ leaves, flowers, or stems) find “poisons.” Pulter may have gained knowledge of these plants from direct, hands-on experience. There were also several popular herbals circulating by the time she was writing, including John Gerard’s <title rend="italic">The Herbal, or General History of Plants</title> (London, 1597) and Nicholas Culpeper’s <title rend="italic">The English Physician Enlarged</title> (London, 1653). The British Library offers a useful peek at <ref target="https://www.bl.uk/collection-items/poisons-sleep-inducing--plants-and-love-potions-in-gerards-herbal" type="new-window-url">Gerard’s <title rend="italic">Herbal</title></ref>, along with some context on Shakespeare’s use of “henbane” in <title rend="italic">Hamlet</title> and “nightshade” in <title rend="italic">Romeo and Juliet</title>.</note></seg>.</rdg>
+            <rdg wit="#a2">On opium, hemlock she doth safely <seg>light<note type="gloss">alight.</note></seg>.</rdg>
         </app>
       </l>
       <l n="15">
@@ -278,6 +308,7 @@
             <rdg wit="#ft">Thus being with choyce Extractions loaded well</rdg>
             <rdg wit="#ee">Thus being with choice extractions loaded well,</rdg>
             <rdg wit="#ae">Thus being with <seg>choice extractions<note type="critical">John Milton also uses the verb “extract” to describe the bee’s work in Book 5 of <title rend="italic">Paradise Lost</title>. Adam calls Eve awake “to mark … how the bee / sits on the bloom extracting liquid sweet” (lines 20–25). The noun “extraction” and its verb form “extract” (line 12) had alchemical, medicinal, and culinary connotations in seventeenth-century use. “To extract” is “to obtain (constituent elements, juices, etc.) from a thing or substance by suction, pressure, distillation, or any chemical or mechanical operation” (<bibl>“extract, v.4a,” <title rend="italic">OED Online</title></bibl>). As evidence for this particular connotation of “extract,” the <title rend="italic">Oxford English Dictionary</title> cites <bibl>Hugh Plat’s <title rend="italic">The Jewel House of Art and Nature</title> (London, 1594)</bibl> and <bibl>Francis Bacon’s <title rend="italic">Sylva Sylvarum; or, A Natural History</title> (London, 1626)</bibl>, two popular early modern scientific texts with which Pulter may have been familiar. Is Pulter also demonstrating her knowledge of early modern herbals, texts that catalogued plants and their medicinal and culinary uses? If so, her uses of “extract” and “extraction” connect to the catalogue of poisonous plants in lines 13–14. For an extended exploration of “human art” in relation to plants, see <ref type="pp-poem-ref" corresp="105">View But This Tulip (Emblem 40)</ref>.</note></seg> loaded well,</rdg>
+            <rdg wit="#a2">Thus being with choice extractions <seg>loaded well<note type="gloss">Bees were thought to carry their collected nectar in “bags,” emphasized in a popular seventeenth-century song and poem entitled “The Sweet Bag of the Bee.” The poem/song appears numerous times in the expansive collection <title rend="italic">English Song 1600-1675: Facsimiles of Twenty-Six Manuscripts and an Edition of the Texts</title>, edited with introductions by Elise Bickford Jorgens. Henry Lawes’ composition of the song appears in Oxford, Ms. Tenbury 1018, sig. 95V.  The poem “The Sweet Bag of the Bee” also features in Robert Herrick’s <title rend="italic">Hesperides</title> (1648). Once a bee is “loaded well,” it must return to its hive to share its bounty with the rest of the bees.</note></seg>,</rdg>
         </app>
       </l>
       <l n="16">
@@ -285,6 +316,7 @@
             <rdg wit="#ft">Shee turn’d to flie to her Sexanguler Cell</rdg>
           <rdg wit="#ee">She turned to fly to her <seg>sexangular<note type="gloss">six-sided</note></seg> cell.</rdg>
             <rdg wit="#ae">She turned to fly to her <seg>sexangular cell<note type="gloss">six-sided; a reference to the comb shapes of a bee hive</note></seg>.</rdg>
+            <rdg wit="#a2">She turned to fly to her <seg>sexangular cell<note type="gloss">hexagonal honeycomb</note><note type="critical">If there is any doubt that the bee of Emblem 53 is a honey bee, line 14 negates that doubt. Solitary bees such as bumblebees, mason bees, carpenter bees, etc. do not make hexagonal honeycomb. The honey bee’s decision to abort her return flight to her hive suddenly separates her from the community to which she belongs.</note></seg>.</rdg>
         </app>
       </l>
       <l n="17">
@@ -292,6 +324,7 @@
             <rdg wit="#ft">But takeing of my Garden in her way</rdg>
           <rdg wit="#ee">But <seg>taking of<note type="gloss">apprehending</note></seg> my garden in her way,</rdg>
             <rdg wit="#ae">But <seg>taking of<note type="gloss">to be caught or captured by; the bee is “taken with” the beauty of the narrator’s garden</note></seg> <seg>my garden<note type="criticial"><p>This is our first glimpse of the poem’s narrator, often a much more pervasive presence in Pulter’s poems. In early poems in the manuscript, like <ref type="pp-poem-ref" corresp="31">Made When I Was Sick, 1647</ref>, the entire poem revolves around the narrator’s experience and thoughts. The sparse, late use of the first-person pronoun here, though, is more typical of Pulter’s emblem poems, a few of which never reference the poet directly. See, for instance, <ref type="pp-poem-ref" corresp="86">Raccoons (Emblem 21)</ref>.</p><p>It’s worth noting that this first reference to the poet (one of only two in the poem) is also connected to the garden and the all-female community of the poem’s first half. Perhaps even more interesting, the narrator’s garden is the site of the bee’s demise. We learn the story of the bee and the snail in the next few lines and we might even imagine that the poet is a first-hand witness, watching the snail “slid[e]” out of the tulip in the morning while the bee “fainting lie[s]” (line 35).</p></note></seg> in her way,</rdg>
+            <rdg wit="#a2">But <seg>taking of<note type="gloss">Taking in</note></seg> my garden in her way,</rdg>
         </app>
       </l>
       <l n="18">
@@ -299,6 +332,7 @@
             <rdg wit="#ft">Though full before Shee could not chooſe but Stay</rdg>
             <rdg wit="#ee">Though full before, she could not choose but stay</rdg>
             <rdg wit="#ae">Though full before, she could not choose but stay</rdg>
+            <rdg wit="#a2">Though <seg>full before<note type="critical">The bee’s “bag” is full, so she would be unable to carry any more nectar or pollen, even if she finds some in the speaker’s alluring garden. The bee’s further investigation of the garden, therefore, is futile.</note></seg>, she could not choose but stay</rdg>
         </app>
       </l>
       <l n="19">
@@ -306,6 +340,7 @@
           <rdg wit="#ft">To See the <seg><add place="below">\</add> <add place="above">curious \</add><note type="physical">insertion in different hand from main scribe</note></seg> Ouricolas <seg><del>curious</del><note type="physical">double strike-through</note></seg> drest</rdg>
           <rdg wit="#ee">To see the <seg>curious<note type="gloss">clever, elaborately made</note></seg> <seg>auriculas<note type="gloss">type of flower</note></seg> dressed</rdg>
             <rdg wit="#ae">To see the <seg>curious<note type="physical">revised in the manuscript; “to see the <add place="below">\</add><add place="above">curious&#160;\</add> ouricolas <del>curious</del> drest”</note></seg> <seg>auriculas<note type="gloss"><foreign rend="italic">primula auricula</foreign>; also known as mountain cowslip or bear’s ear (see Curation, <ref type="pp-curations-ref" target="#ctxs" >Pulter’s Garden</ref>, for an image)</note></seg> dressed</rdg>
+            <rdg wit="#a2">To see the curious <seg>auriculas<note type="gloss">A type of primrose, a greatly prized and showy flower.</note></seg> dressed</rdg>
         </app>
       </l>
       <l n="20">
@@ -313,6 +348,7 @@
             <rdg wit="#ft">More variously then Iris dewey breast</rdg>
           <rdg wit="#ee">More variously than <seg>Iris’s<note type="gloss">goddess of the rainbow, also a type of flower</note></seg> dewy breast.</rdg>
             <rdg wit="#ae">More variously than <seg>Iris’s<note type="gloss">In Greek mythology, Iris is messenger of the gods and a personification of the rainbow. Iris is also another type of flower. In contemporary botany, iris is a genus of many species of flowering plants like the <foreign rend="italic">iris sibirica</foreign> (see Curation, <ref type="pp-curations-ref" target="#ctxs">Pulter’s Garden</ref>, for an image)</note></seg> dewy breast.</rdg>
+            <rdg wit="#a2">More variously than <seg>Iris’s<note type="gloss">type of flower, also a messenger goddess with the rainbow as her emblem. The auriculas, therefore, which are usually yellow, are here rainbow-hued.</note></seg> dewy breast.</rdg>
         </app>
       </l>
       <l n="21">
@@ -320,6 +356,7 @@
             <rdg wit="#ft">Then were my Tulips painted in there Pride</rdg>
             <rdg wit="#ee">Then were my tulips painted in their pride,</rdg>
             <rdg wit="#ae">Then were my <seg>tulips painted<note type="critical">The tulip has special significance in Pulter’s emblem. She not only makes the center of this flower the location for her fable of the bee and snail (as we’re about to see); she also describes the tulip with language that evokes the “tulipmania” of the early seventeenth century: “painted” (here and again in line 27) and “gilded” (line 34). From the 1580’s to the mid-1630’s, tulips were a prized and elusive commodity, famous in aristocratic gardens and still life paintings, but notoriously difficult to study and classify given their infinite variety. In <bibl>John Gerard’s <title rend="italic">The Herbal, or General History of Plants</title> (London, 1597)</bibl>, Gerard describes the tulips as “a strange and foreign flower” and emphasizes that it is impossible to catalogue all of its varieties: “each new yeare bringeth forth new plants of sundry colours, not before seene” (<bibl>[London, 1597], Text Creation Partnership digital edition, <title rend="italic">Early English Books Online</title>, pages 137–140</bibl>). The craze surrounding the tulip culminated in the Dutch “tulipmania” of the 1630’s, when the price of tulip bulbs inflated drastically (the most expensive specimens went for around 5,000 guilders). We might speculate that Pulter has this recent cultural phenomenon in mind when she describes the tulips first as luxurious garden accessories (“painted in their pride”) and then as the bee’s “painted prison.” See this poem’s Curation (<ref type="pp-curations-ref" target="#ctxs">Pulter’s Garden</ref>) for examples of Gerard’s tulip woodcuts and Dutch still life paintings featuring the flower. For more on the tulip in early modern English contexts, see <bibl>Anna Pavord’s <title rend="italic">The Tulip: The Story of a Flower That Has Made Men Mad</title> (Bloomsbury, 1999)</bibl>, especially chapter 3.</note></seg> in their pride,</rdg>
+            <rdg wit="#a2">Then were my <seg>tulips<note type="critical">John Parkinson writes in his 1629 gardening treatise, “There are not only divers kindes of Tulipas, but sundry diversities of colours in them, found out in these later dayes by many the [sic] searchers of natures varieties, which have not formerly been observed: our age being more delighted in the search, curiosity, and rarieites of these pleasant delights, then [sic] any age I thinke before. But indeede, this flower, above many other, deserves his true commendations and acceptance with all lovers of these beauties, both for the stately aspect, and for the admirable varietie of colours, that daily doe arise in them, farre beyond all other plants that grow” (<bibl>Parkinson, <title rend="italic">Paradisi in sole paradisus terrestris</title> (London, 1629): 45</bibl>). Moreover, as Benedict S. Robinson identifies, tulips were first exported from Turkey to Europe in the late sixteenth century, and, he argues, “the tulip could also be taken to embody an ‘orientalizing’ of English tastes, an errant desire for exotic plants that rooted itself right into the soil” (<bibl>Robinson, “Green Seraglios: Tulips, Turbans, and the Global Market,” <title rend="title">Journal for Early Modern Cultural Studies</title> 9.1 (2009): 96</bibl>). The bee’s attraction to the tulip, then, demonstrates her “covetousness,” but also her relatable, commonplace, and even human interest in the beautiful and exotic flower.</note></seg> painted in their pride,</rdg>
         </app>
       </l>
       <l n="22">
@@ -327,6 +364,7 @@
             <rdg wit="#ft">Which when this covetous Inſect Eſpi’de</rdg>
             <rdg wit="#ee">Which, when this covetous insect espied,</rdg>
             <rdg wit="#ae">Which, when this <seg>covetous<note type="gloss">greedy</note></seg> insect espied,</rdg>
+            <rdg wit="#a2">Which, when this <seg>covetous insect<note type="critical">The reader’s suspicion that Pulter’s bee is not the moral exemplar bees usually are in seventeenth-century poetry is here confirmed. While bees were usually considered selfless and self-sacrificing –Moses Rusden praises their “loyalty”, for example—Pulter’s bee is greedy. Another notable example of a “bad bee” appears in John Bunyan’s 1686 <title rend="italic">A Book for Boys and Girls: Or, Country Rhimes For Children</title>, which is filled with moral lessons in the form of naked emblems, not unlike the naked emblems Pulter employs. Bunyan’s emblem “Upon the Bee” starts innocuously enough: “The Bee goes out and Honey home doth bring; / And some who seek that Hony find a sting. / [N]ow wouldst thou have the Hony and be free / [Fr]om stinging; in the first place kill the Bee” (10). The following “Comparison” is startling, especially in contrast to the nigh-universal praise afforded the bee by Bunyan’s contemporaries: “This Bee an Emblem truly is of sin / Whose Sweet unto a many death hath been. / [N]ow would’st have Sweet from sin, and yet not dye, / [D]o thou in the first place mortifie” (<bibl>Bunyan, <title rend="italic">A Book for Boys and Girls</title> (London, 1686): 10</bibl>).</note></seg> <seg>espied<note type="gloss">saw</note></seg>,</rdg>
         </app>
       </l>
       <l n="23">
@@ -334,6 +372,7 @@
             <rdg wit="#ft">To carry home her wealth Shee’d not <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> power</rdg>
             <rdg wit="#ee">To carry home her wealth she’d not the power</rdg>
             <rdg wit="#ae">To carry home her wealth she’d not the power</rdg>
+            <rdg wit="#a2">To carry home her wealth she’d not the power</rdg>
         </app>
       </l>
       <l n="24">
@@ -341,6 +380,7 @@
             <rdg wit="#ft">Till Shee had Search’d the Sweets of every &ff;lower</rdg>
             <rdg wit="#ee">Till she had searched the sweets of every flower.</rdg>
             <rdg wit="#ae">Till she had searched the sweets of every flower.</rdg>
+            <rdg wit="#a2">Till <seg>she had searched the sweets of every flower<note type="italic">At this point the bee is unable to return home not because she’s overladen with “nectar,” but because she covetously wants to explore every flower before flying back to the hive. “She’d not the power” to resist the temptation of the beckoning garden, and her greedy appetite leads to a rejection of home and companionship.</note></seg>.</rdg>
         </app>
       </l>
         <app>
@@ -358,12 +398,16 @@
             <rdg wit="#ae">
                 <pb ed="#ae" facs="#f7610_260"/>
             </rdg>
+            <rdg wit="#a2">
+                <pb ed="#a2" facs="#f7610_260"/>
+            </rdg>
         </app>
       <l n="25">
         <app>
             <rdg wit="#ft">The Sun, from home, all, Influence Receives</rdg>
           <rdg wit="#ee">The sun, <seg>from whom all influence receives<note type="gloss">“whom” is spelled as “home” in the manuscript; all are influenced by the sun</note></seg>,</rdg>
             <rdg wit="#ae">The sun, from whom all influence receives,</rdg>
+            <rdg wit="#a2">The sun, from whom <seg>all<note type="gloss">all things</note></seg> <seg>influence<note type="gloss">inflowing power, usually from an astral, divine, or secret force.</note></seg> receives,</rdg>
         </app>
       </l>
       <l n="26">
@@ -371,6 +415,7 @@
             <rdg wit="#ft">Bid them decline, The Tulip cloſ’d her Leaves</rdg>
           <rdg wit="#ee">Bids them <seg>decline<note type="gloss">bend down, droop</note></seg>; the tulip closed her <seg>leaves<note type="gloss">petals</note></seg>,</rdg>
             <rdg wit="#ae">Bid <seg>them<note type="gloss">the flowers</note></seg> decline; the tulip closed her leaves,</rdg>
+            <rdg wit="#a2">Bids them decline; the tulip closed her leaves,</rdg>
         </app>
       </l>
       <l n="27">
@@ -378,6 +423,7 @@
             <rdg wit="#ft">And in that painted Priſon Shut the Bee</rdg>
             <rdg wit="#ee">And in that painted prison shut the bee,</rdg>
             <rdg wit="#ae">And in that painted prison shut the bee.</rdg>
+            <rdg wit="#a2">And in that <seg>painted prison<note type="gloss">“Painted” confirms the exotic and unnatural allure of the tulip, and the bee’s foolishness in yielding to that allure.</note></seg> shut the bee,</rdg>
         </app>
       </l>
       <l n="28">
@@ -385,6 +431,7 @@
             <rdg wit="#ft">With her A Snail, who Slid about to See</rdg>
           <rdg wit="#ee"><seg>With<note type="gloss">and with</note></seg> her a snail, who slid about (to see</rdg>
             <rdg wit="#ae">With her a <seg>snail<note type="critical">The third central character in Pulter’s emblem, the snail presented a unique sexual conundrum because of its shell, so early moderns hypothesized that the snail could spontaneously reproduce: “Thou thine own daughter then, and sire, / that son and mother art entire” (<bibl>Richard Lovelace, “The Snail”</bibl>). In medieval and early modern art, the snail was often linked to the Virgin Mary as a symbol of virginity. <bibl>Francesco del Cossa’s <title rend="italic">Annunciation</title></bibl>, for example, includes a snail in the painting’s foreground, positioned directly in front of Mary as she receives the news of her immaculate conception. Geneticist Steve Jones offers a useful account of the history of the snail as a symbol of “sex, age, and death” in his lecture, <bibl>“Snails in Art and the Art of Snails” (2014), available online through the Museum of London</bibl>. By the time Pulter was writing, the snail was increasingly cited in debates about the role of reproduction in the plant and animal worlds. Several decades after Pulter’s death in 1678, Dutch anatomist Jan Swammerdam proved that snails were hermaphrodites (<bibl><title rend="italic">Bybel der Natuure</title>, Leiden, 1737</bibl>). Before that point, as historian of science Domenico Bertolini Meli outlines, hermaphrodites were seen to be rare occurrences, even monsters. Swammerdam’s findings became the basis for arguments on the natural occurrence of hermaphrodites in nature (<bibl>Meli, “Of Snails and Horsetails: Anatomical Empiricism in the Early Modern Period,” <title rend="italic">Early Science and Medicine</title> 18.4/5 (2013): 435–452</bibl>).</note></seg>, who slid about to see</rdg>
+            <rdg wit="#a2">With her a snail, who slid about (to see</rdg>
         </app>
       </l>
       <l n="29">
@@ -392,6 +439,7 @@
             <rdg wit="#ft">Where to get out upon her Unctious brest</rdg>
           <rdg wit="#ee">Where to get out) upon her <seg>unctuous<note type="gloss">greasy</note></seg> breast;</rdg>
             <rdg wit="#ae">Where to get out upon her <seg>unctuous<note type="gloss">oily, greasy</note></seg> breast;</rdg>
+            <rdg wit="#a2">Where to get out) upon her <seg>unctuous<note type="gloss">oily</note></seg> breast;</rdg>
         </app>
       </l>
       <l n="30">
@@ -399,6 +447,7 @@
             <rdg wit="#ft">But Seeing noe hope, Shee laid her down to rest</rdg>
           <rdg wit="#ee">But seeing no hope, she laid <seg>her<note type="gloss">herself</note></seg> down to rest,</rdg>
             <rdg wit="#ae">But seeing no hope, she laid her down to rest,</rdg>
+            <rdg wit="#a2">But seeing no hope, she laid <seg>her<note type="gloss">herself</note></seg> down to rest,</rdg>
         </app>
       </l>
       <l n="31">
@@ -406,6 +455,7 @@
           <rdg wit="#ft">Whilst the Angrie Bee <seg><del>doth</del><note type="physical">double strike-through</note></seg> <seg><add place="below">\</add><add place="above">did \</add><note type="physical">in different hand from main scribe</note></seg> Such A &ff;luttring Keep</rdg>
           <rdg wit="#ee">Whilst the angry bee did such a flutt’ring <seg>keep<note type="gloss">make</note></seg>,</rdg>
             <rdg wit="#ae">Whilst the angry bee <seg>did<note type="physical">revised in the manuscript; “bee <del>doth</del>&#160;<add place="below">\</add><add place="above">did \</add>&#160;such a”</note></seg> such a flutt’ring keep,</rdg>
+            <rdg wit="#a2">Whilst the <seg>angry<note type="gloss">Anger is an emotion rarely ascribed to bees during the early modern period. Bees are often called militant, watchful, agitated, or resourceful (all in defense of their hive), but not angry.</note></seg> bee did such a flutt’ring keep,</rdg>
         </app>
       </l>
       <l n="32">
@@ -413,6 +463,7 @@
             <rdg wit="#ft">Shee nor her fellow Priſner could not Sleep</rdg>
           <rdg wit="#ee"><seg>She<note type="gloss">Neither she</note></seg> nor her fellow pris’ner could not sleep.</rdg>
             <rdg wit="#ae">She nor her fellow pris’ner could not sleep.</rdg>
+            <rdg wit="#a2">She nor her fellow pris’ner could not sleep.</rdg>
         </app>
       </l>
       <l n="33">
@@ -420,6 +471,7 @@
             <rdg wit="#ft">But Night being past, Delia diffuſ’d his Rais</rdg>
           <rdg wit="#ee">But night being past, <seg>Delia<note type="gloss">here, Apollo, the sun god (named because he was from the island of Delos, usually called Delius)</note></seg> diffused his rays;</rdg>
             <rdg wit="#ae">But night being past, <seg>Delia<note type="critical">Pulter’s use  of “Delia,” an unusual and distinctly feminized name for Apollo, the Greek sun god born on the island of Delos, marks a conscious shift from her use of “Aurora,” goddess of the dawn, at the start of the poem. As Victoria Burke notes in her Amplified Edition of <ref type="pp-poem-ref" corresp="3">Aurora [1]</ref>, the feminized Delia, as opposed to Delius, could be a transcription error, but Pulter does use Delia to refer to Apollo in several other poems, including <ref type="pp-poem-ref" corresp="1">The Eclipse</ref> and <ref type="pp-poem-ref" corresp="12">The Garden, or the Contention of Flowers</ref>. Given this emblem’s interrogation of gender, we might read Pulter’s slippage here as an invitation. As the female bee (“the active Amazonian maid”) dies and the poem shifts to a cluster of male figures in its closing lines, is Pulter’s switch from Aurora to Delia (and, perhaps, from Delius to Delia) meant to both mark and trouble this transition?</note></seg> <seg>diffused<note type="gloss">spread out</note></seg> his rays;</rdg>
+            <rdg wit="#a2">But night being past, <seg>Delia<note type="critical">“Delia” is Apollo, the sun god, so named for Delos, his island birthplace. “Delia” seems to be a particularly feminine epithet for Apollo, who is yet clearly gendered male. Indeed, Apollo is the first male character in the poem; Aurora, the bee, the tulip, and the snail are all female. While the feminine Aurora brought life and beauty to the world, Apollo’s “rays” reveal exhaustion and death for the bee.</note></seg> diffused his rays;</rdg>
         </app>
       </l>
       <l n="34">
@@ -427,6 +479,7 @@
             <rdg wit="#ft">The Tulip then her gilded Leaves diſplais</rdg>
             <rdg wit="#ee">The tulip then her gilded leaves displays.</rdg>
             <rdg wit="#ae">The tulip then her <seg>gilded<note type="gloss">adorned or embellished; a term most often associated with artificial objects</note></seg> leaves displays.</rdg>
+            <rdg wit="#a2">The tulip then her gilded leaves displays.</rdg>
         </app>
       </l>
       <l n="35">
@@ -434,6 +487,7 @@
             <rdg wit="#ft">Out Slid the Snail, the Bee did fainting lie</rdg>
             <rdg wit="#ee">Out slid the snail; the bee did fainting lie,</rdg>
             <rdg wit="#ae">Out slid the snail; the bee did fainting lie,</rdg>
+            <rdg wit="#a2"><seg>Out slid<note type="critical">“Out slid” mirrors “Out flew” of line 7. Pulter’s diction makes the bee far more attractive than the snail. Where the bee “flew,” the snail “slid.” While the bee is “active,” the snail is “unctuous.” Pulter may be playing up the positive characteristics of the bee to acknowledge its commonplace association with wisdom, virtue, etc. If Pulter’s readers—because of traditional representations and Pulter’s appealing depiction—sympathize with the bee, perhaps they are more likely to take personally the warnings of Emblem 53.</note></seg> the <seg>snail<note type="critical">Again, Bunyan’s <title rend="italic">A Book for Boys and Girls</title> provides helpful context for Pulter’s instructive snail. His emblem “Upon the Snail” is notably lengthier and more intimate than his scathing indictment of the bee: “She goes but softly, but she goeth sure, / She stumbles not, as stronger Creatures do: / Her Journeys shorter, so she may endure, / Better than they which do much further go. / She makes no noise, but stilly seizeth on / The Flow’r or Herb, appointed for her food: / The which she quietly doth feed upon, / While others range, and gare, but find no good. / And tho she doth but very softly go, / How ever ’tis not fast, nor slow, but sure; / And certainly they that do travel so, / The prize they do aim at, they do procure” (63-64). The subsequent “Comparison” is equally encouraging: “Although they seem not much to stire, less go, / For Christ that hunger, or from Wrath, that flee; / Yet what they seek for, quickly thy come to, / Tho it doth seem the farthest off to be. / One Act of Faith doth bring them to that Flow’r, / They so long for, that they may eat and live; / Which to attain is not in others Pow’r / Tho for it a King’s Ransom they would give. / Then let none faint, nor be at all dismaid, / That Life by Christ do seek, they shall not fail / To have it, let them nothing be afraid; / The Herb, and Flow’r is eaten by the Snail” (<bibl>Bunyan, <title rend="italic">A Book for Boys and Girls</title> (London, 1686): 64</bibl>). George Wither’s <title rend="italic">A Collection of Emblemes Ancient and Moral</title> also praises the snail for its patience and tenacity. Wither writes in Book 1, Emblem 11: “If they would contemplate the slow-pac’d Snaile; / Or, this our Hieroglyphicke looke into: / For, thence we learne, that Perseverance brings / Large Workes to end, though slowly they creep on; / And, that Continuance perfects many things, / Which seeme, at first, unlikely to be done” (<bibl>Wither, <title rend="italic">A Collection of Emblems</title> (London: 1635): 11</bibl>). Pulter’s snail then, unlike her bee, aligns with seventeenth-century emblematics.</note></seg>; the bee did fainting lie</rdg>
         </app>
       </l>
       <l n="36">
@@ -441,6 +495,7 @@
             <rdg wit="#ft">And thus with Beating of her Self did die</rdg>
             <rdg wit="#ee">And thus with beating of herself did die.</rdg>
             <rdg wit="#ae">And thus with beating of herself did die.</rdg>
+            <rdg wit="#a2">And thus with <seg>beating of herself<note type="critical">beating her wings, also <hi rend="italic">by</hi> herself. The phrase emphasizes the bee’s disordered actions in at least two senses: first, the bee should never have been by herself at night. When she should have returned to the community of the hive to share her nectar with her sisters, she buzzed off by herself to explore the tulip greedily. Second, when the bee finds herself in another, albeit weaker, female community—she, the tulip, and the snail are all gendered female in the poem—she does not function as a helpful part of that group either. Of course, the companionship of the tulip and the snail is a pale imitation of the familiar and ordered security of the hive. Yet the tulip and snail offer <hi rend="italic">some</hi> familiar community: the bee is enclosed by the tulip as she would be enclosed by the hive, and she has a “sister” in the snail. Rather than accept the security of the tulip and the company of the snail, she beats her wings by herself, causing both her death by exhaustion, and also a sleepless night for the snail.</note></seg> did die.</rdg>
         </app>
       </l>
       <l n="37">
@@ -448,6 +503,7 @@
             <rdg wit="#ft">Then let impatient Spirits here but See</rdg>
             <rdg wit="#ee">Then let impatient spirits here but see</rdg>
             <rdg wit="#ae">Then let impatient spirits here but see</rdg>
+            <rdg wit="#a2">Then let impatient <seg>spirits<note type="gloss">souls; people</note></seg> <seg>here<note type="gloss">in this emblem</note></seg> but see</rdg>
         </app>
       </l>
       <l n="38">
@@ -455,6 +511,7 @@
             <rdg wit="#ft">What ’tis to Struggle with their destinie</rdg>
             <rdg wit="#ee">What ’tis to struggle with their destiny.</rdg>
             <rdg wit="#ae"><seg>What ’tis to struggle with their destiny<note type="critical">“Then let impatient spirits here but see / What ’tis to struggle with their destiny.” The first of the poem’s three possible mottoes. Pulter uses the fable of the snail, tulip, and bee to offer a lesson in struggling against destiny. The “impatient” bee struggles against her “painted prison” (line 27), while the patient snail “see[s] no hope” and “lay[s] … down to rest” (line 30). In the poem’s final motto, Pulter reminds us of the snail, tulip, and bee fable (“if no hope of liberty you see, / think on the snail, the tulip, and the bee” [lines 51–52]), but the lessons of the two mottoes are slightly different—enough to invite some critical thinking on the part of Pulter’s reader. This motto focuses on destiny, while the poem’s final motto foregrounds liberty. Who are the “impatient spirits” Pulter addresses with this lesson? Who is the “you” of the final motto’s direct address?</note></seg>.</rdg>
+            <rdg wit="#a2">What ’tis to struggle <seg>with<note type="gloss">against</note></seg> their destiny.</rdg>
         </app>
       </l>
       <l n="39">
@@ -462,6 +519,7 @@
             <rdg wit="#ft">Soe Stout Byrone in Priſon was inrag’d</rdg>
           <rdg wit="#ee">So <seg>stout<note type="gloss">proud, arrogant</note></seg> <seg>Biron<note type="gloss">Charles de Gontant, duc de Biron; a celebrated sixteenth-century French soldier famed for his overweening pride and eventually executed for treason; in George Chapman’s play about him, <title rend="italic">The Conspiracy and Tragedy of Charles, Duke of Byron</title>, Biron’s sword is confiscated by the king.</note></seg> in prison was enraged,</rdg>
             <rdg wit="#ae">So <seg>stout<note type="gloss">proud, haughty</note></seg> <seg>Biron<note type="critical"><p>This comparison starts Pulter’s catalogue of male military leaders, rulers, and thinkers—four in total by the poem’s end. As I noted in my headnote, this cast of characters marks a significant gender shift from the female-centric opening of the poem. But this phrase is also formally noteworthy. Rather than using just one or two comparisons to illustrate her point, Pulter here offers an extensive catalogue of examples: “so stout Biron” (line 39), “when Belisarius” (line 41), “so miscre’nt Bajazeth” (line 43), and “when wise Callisthenes” (line 47). The anaphoric “so’s” and “when’s” of these final lines, very typical of Pulter’s emblems, signal her strategic accumulation of these examples. Again, how might Pulter be using her poems to explore how poetic language signifies? See my headnote for more on this question.</p><p>Charles de Gontaut, duc de Biron, was a sixteenth-century French military leader eventually involved in conspiracies against the French crown. He was jailed and beheaded for treason in 1602. Alice Eardley cites George Chapman’s play, <title rend="italic">The Conspiracy and Tragedy of Charles, Duke of Byron, Marshall of France</title> (1608) as one possible source for Pulter’s anecdote here. Biron was “notorious for his arrogance,” Eardley notes, and in Chapman’s play his sword is removed from him, “treatment he vigorously resists.” See <bibl><title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, Ed. Alice Eardley, (Toronto: Iter, 2014), 263 n.513</bibl>.</p></note></seg> in prison was enraged,</rdg>
+            <rdg wit="#a2">So stout <seg>Biron<note type="critical">Biron, Belisarius, Bajazeth, and Callisthenes, all identified in the Elemental Edition of the poem, are exemplars of human responses to imprisonment and hardship; Biron and Bajazeth react as does the bee, and Belisarius and Callisthenes demonstrate the patience of the snail. The four men are particularly apropos comparisons to the bee because all of them are subordinates to a master. Honeybees, both now and in the seventeenth century, are communal creatures, which Samuel Purchas emphasizes when he writes “<foreign rend="italic">una Apis, nulla Apis, one Bee is no Bee</foreign>” (16). He drives home the point: “A Bee, like a man cannot live alone, if shee be alone, shee dies” (17).  The very fact that the bee of Pulter’s poem is an individual apart from the hive puts her in a position of rebellion and danger. In this case, the bee, tulip, and snail are subordinate to the “influence” of the sun, just as Biron, Belisarius, Bajazeth, and Callisthenes were subject to the rulings (or whims) of their masters.</note></seg> in prison was enraged,</rdg>
         </app>
       </l>
       <l n="40">
@@ -469,6 +527,7 @@
             <rdg wit="#ft">Knowing his King was to his Sword ingag’d</rdg>
             <rdg wit="#ee">Knowing his king was to his sword engaged.</rdg>
             <rdg wit="#ae">Knowing his king was to his sword engaged.</rdg>
+            <rdg wit="#a2">Knowing his king was to his sword engaged.</rdg>
         </app>
       </l>
       <l n="41">
@@ -476,6 +535,7 @@
             <rdg wit="#ft">When Bellizarus by A dog was led</rdg>
           <rdg wit="#ee">When <seg>Belisarius<note type="gloss">successful general of sixth-century Roman emperor Justinian, later accused of conspiracy; reputedly, his eyes were put out and he ended his life as a beggar.</note></seg> by a dog was led,</rdg>
             <rdg wit="#ae">When <seg>Belisarius<note type="gloss">Belisarius was a famous military leader of the Byzantine Empire. Pulter here references the apocryphal story that Justinian ordered Belisarius’s eyes put out and that Belisarius became a beggar at the gates of Rome. Looking forward a bit beyond Pulter’s lifetime, Belisarius’s story was especially popular by the end of the eighteenth century. See, for instance, <bibl>Jean-François Marmontel’s <title rend="italic">Bélisaire: A Novel</title> (1767)</bibl>, <bibl>Margaretta Faugères’s closet drama, <title rend="italic">Belisarius: A Tragedy</title> (1795)</bibl>, and Jacques-Louis David’s painting, “Belisarius Begging for Alms” (1780).</note></seg> by a dog was led,</rdg>
+            <rdg wit="#a2">When Belisarius by a dog was led,</rdg>
         </app>
       </l>
       <l n="42">
@@ -483,6 +543,7 @@
             <rdg wit="#ft">Being blind hee patiently did beg his Bread</rdg>
             <rdg wit="#ee">Being blind, he patiently did beg his bread.</rdg>
             <rdg wit="#ae">Being blind, he patiently did beg his bread.</rdg>
+            <rdg wit="#a2">Being blind, he patiently did beg his bread.</rdg>
         </app>
       </l>
       <l n="43">
@@ -490,6 +551,7 @@
             <rdg wit="#ft">Soe miſcre’nt Bajazet did Shew his Rage</rdg>
           <rdg wit="#ee">So <seg>miscre’nt<note type="gloss">villainous</note></seg> <seg>Bajazeth<note type="gloss">fourteenth-century Turkish Emperor captured in war by Tamburlaine (the “proud Tartar”); in Christopher Marlowe’s play, <title rend="italic">Tamburlaine</title>, Bajazeth kills himself on the bars of his prison.</note></seg> did show his rage</rdg>
             <rdg wit="#ae">So <seg>miscre’nt<note type="gloss">an abbreviation of “miscreant”; heretical or pagan, but also villainous</note></seg> <seg>Bajazeth<note type="critical">In Alice Eardley’s edition of Pulter’s poems, she cites Christopher Marlowe’s <title rend="italic">Tamburlaine the Great</title> (published 1590) as a possible source for Pulter’s reference to the Turkish emperor Bajazeth. In Marlowe’s play, Tamburlaine defeats Bajazeth and keeps him in a cage, taking him out only to serve as Tamburlaine’s footstool. After a lengthy imprisonment, Bajazeth kills himself by smashing his head against the bars of his cage. See <bibl>Eardley (ed.), <title rend="italic">Poems</title>, 263 n.516</bibl>.</note></seg> did show his rage</rdg>
+            <rdg wit="#a2">So miscre’nt Bajazeth did show his rage</rdg>
         </app>
       </l>
       <l n="44">
@@ -497,6 +559,7 @@
             <rdg wit="#ft">When that proud Tarter put him in A Cage</rdg>
             <rdg wit="#ee">When that proud Tartar put him in a cage;</rdg>
             <rdg wit="#ae">When that proud Tartar put him in a cage;</rdg>
+            <rdg wit="#a2">When that proud Tartar put him in a cage;</rdg>
         </app>
       </l>
       <l n="45">
@@ -504,6 +567,7 @@
             <rdg wit="#ft">Scorning to bee A footstool to his Pride</rdg>
             <rdg wit="#ee">Scorning to be a footstool to his pride,</rdg>
             <rdg wit="#ae">Scorning to be a footstool to his pride,</rdg>
+            <rdg wit="#a2">Scorning to be a footstool to his pride,</rdg>
         </app>
       </l>
       <l n="46">
@@ -511,6 +575,7 @@
             <rdg wit="#ft">Hee daſh’d his Curſed Brains about &amp; died</rdg>
             <rdg wit="#ee">He dashed his curséd brains about and died.</rdg>
             <rdg wit="#ae">He dashed his curséd brains about and died.</rdg>
+            <rdg wit="#a2">He dashed his curséd brains about and died.</rdg>
         </app>
       </l>
       <l n="47">
@@ -518,6 +583,7 @@
             <rdg wit="#ft">When wiſe Calistines uſ’d with greater Scorn</rdg>
           <rdg wit="#ee">When wise <seg>Callisthenes<note type="gloss">historian for Alexander the Great, reported by some to have been dismembered and displayed in a cage by Alexander in retribution for his criticisms; see Justin (Marcus Justinius), <title rend="italic">The History of Justin, Taken Out of the Four and Forty Books of Trogus Pompeius</title> (London, 1654), p. 239.</note></seg>, used with greater scorn,</rdg>
             <rdg wit="#ae">When wise <seg>Callisthenes<note type="gloss">Callisthenes was a Greek historian, eventually the official historian of Alexander the Great until he was accused of plotting against Alexander. There are several different accounts of his death. Pulter seems to be referencing the version from Ptolemy in which Callisthenes is tortured and hanged in an iron cage. </note></seg>, used with greater scorn,</rdg>
+            <rdg wit="#a2">When wise Callisthenes, used with greater scorn,</rdg>
         </app>
       </l>
       <l n="48">
@@ -525,6 +591,7 @@
             <rdg wit="#ft">Tyrannically mangled Soe was Born</rdg>
           <rdg wit="#ee">Tyrannically mangled, <seg>so<note type="gloss">so it</note></seg> was <seg>borne<note type="gloss">endured</note></seg>,</rdg>
             <rdg wit="#ae">Tyrannically mangled, so was borne,</rdg>
+            <rdg wit="#a2">Tyrannically mangled, so was borne,</rdg>
         </app>
       </l>
         <app>
@@ -542,12 +609,16 @@
             <rdg wit="#ae">
                 <pb ed="#ae" facs="#f7610_261"/>
             </rdg>
+            <rdg wit="#a2">
+                <pb ed="#a2" facs="#f7610_261"/>
+            </rdg>
         </app>
       <l n="49">
         <app>
             <rdg wit="#ft">Hee being unmov’d Shew’d his Philoſophy</rdg>
             <rdg wit="#ee">He, being unmoved, showed his philosophy:</rdg>
             <rdg wit="#ae">He, being unmoved, showed his philosophy:</rdg>
+            <rdg wit="#a2">He, being unmoved, showed his philosophy:</rdg>
         </app>
       </l>
       <l n="50">
@@ -555,6 +626,7 @@
             <rdg wit="#ft">T’is Valianter by far to live then die</rdg>
             <rdg wit="#ee">’Tis valianter by far to live than die.</rdg>
             <rdg wit="#ae"><seg>’Tis valianter by far to live than die<note type="critical">The second of the poem’s three mottoes. This message seems specific to Pulter’s lines on Callisthenes, but the connection is puzzling given Callisthenes’s death in prison, without liberty. Is Pulter drawing our attention to the possible incongruities between her anecdotes and their concluding mottos? Or, perhaps, this motto becomes a thread for the poem’s broader message of stoic endurance: be patient and choose life.</note></seg>.</rdg>
+            <rdg wit="#a2">’Tis valianter by far to live than die.</rdg>
         </app>
       </l>
       <l n="51">
@@ -562,6 +634,7 @@
           <rdg wit="#ft">Then if noe hope <seg>of<note type="physical">imperfectly erased ascender follows</note></seg> Liberty you See</rdg>
             <rdg wit="#ee">Then if no hope of liberty you see</rdg>
             <rdg wit="#ae">Then if no hope of liberty you see,</rdg>
+            <rdg wit="#a2">Then if no hope of liberty <seg>you<note type="critical">To whom is Pulter writing here? Nicole A. Jacobs identifies Pulter’s primary audience for her manuscript as her daughters (133), although Pulter appears to have imagined a future, more general readership as well (<bibl>Jacobs, <title rend="italic">Bees in Early Modern Transatlantic Literature: Sovereign Colony</title> (New York: Routledge, 2021): 132</bibl>). Indeed, all people could easily be tempted to behave as the “covetous” bee, “for it may well bee said, he is not humane, that is not allured with [herbs and flowers]” (<bibl>Parkinson, <title rend="italic">Paradisi in sole paradisus terrestris</title> (London, 1629): sig**3V</bibl>). Yet if Emblem 53, like <ref type="pp-poem-ref" corresp="2">The Invitation into the Country, 1647</ref>, <ref type="pp-poem-ref" corresp="56">A Dialogue Between Two Sisters</ref>, and <ref type="pp-poem-ref" corresp="38">To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</ref> is written expressly to Pulter’s daughters, the poem’s emphasis on community—and female community at that—becomes all the more pointed. Why does the bee die? Because it was alone. “Come, my dear children, to this lonely place,” Pulter begins “To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield.” “An Invitation into the Country, 1647” opens in a similar vein: “Dear daughters, come, make haste away.”Finally, “A Dialogue Between Two Sisters” concludes with the sisters’ resolve to “go to our sad mother: she’s alone” (line 54). The appropriate response for female grief is therefore female community. Pulter, however, ups the ante in Emblem 53: separation from female community results not just in grief, but in death.</note></seg> see</rdg>
         </app>
       </l>
       <l n="52">
@@ -569,6 +642,7 @@
           <rdg wit="#ft">Think on the Snail, the Tulip and the <seg>Bee<note type="physical">remainder of page blank, as is reverse</note></seg></rdg>
             <rdg wit="#ee">Think on the snail, the tulip, and the bee.</rdg>
             <rdg wit="#ae"><seg>Think on the snail, the tulip, and the bee<note type="critical">“Then if no hope of liberty you see, / Think on the snail, the tulip, and the bee.” The final of the poem’s three mottoes. Pointing us back to the emblem’s central fable, Pulter’s final lines explicitly mark the snail, tulip, and bee story as a political allegory about liberty, resistance, and stoic endurance. But what of the poem’s complex gender politics? Where do they fit within such an allegory, particularly one written by a Royalist female poet at the height of the English Civil Wars? To explore further the intersections of gender and English Civil War politics, see <bibl>Hero Chalmers, <title rend="italic">Royalist Women Writers, 1650–1689</title> (Oxford University Press, 2004)</bibl>; and <bibl>Sarah C. E. Ross, <title rend="italic">Women, Poetry, and Politics in Seventeenth-Century Britain</title> (Oxford University Press, 2015)</bibl>, especially Chapter 4.</note></seg>.</rdg>
+            <rdg wit="#a2">Think on the snail, the tulip, and the bee.</rdg>
         </app>
       </l>
     </body>
