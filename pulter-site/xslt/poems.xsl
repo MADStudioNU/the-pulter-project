@@ -6024,9 +6024,9 @@
         <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Whitney Sperrazza</pp:author>
         </pp:edition>
-        <pp:edition type="amplified" id="a2" label="Amplified Edition B">
-          <pp:author>Deanna Smid</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified" id="a2" label="Amplified Edition B">-->
+<!--          <pp:author>Deanna Smid</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>insects</pp:keyword>
