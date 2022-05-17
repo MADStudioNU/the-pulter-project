@@ -599,8 +599,12 @@
       </xsl:variable>
 
       <xsl:element name="div">
+<!--        <xsl:attribute name="data-headnote-length">-->
+<!--          <xsl:value-of select="$headnoteLength"/>-->
+<!--        </xsl:attribute>-->
+
         <xsl:choose>
-          <xsl:when test="$headnoteLength &gt; 6000">
+          <xsl:when test="$headnoteLength &gt; 8000">
             <xsl:attribute name="class">
               <xsl:value-of select="'long-headnote expand-box'"/>
             </xsl:attribute>
