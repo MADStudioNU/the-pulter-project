@@ -1785,6 +1785,19 @@ $defaultStrokeWidth: 6px;
   }
 }
 
+// Headings in notes
+span.h3 {
+  display: block;
+  font-size: ms(-1);
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+// Secondary paragraphs
+p.secondary {
+  opacity: .75;
+}
+
 // Curations section
 #ctxs {
   color: rgba(#4f1901, .1);
