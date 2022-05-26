@@ -1786,16 +1786,25 @@ $defaultStrokeWidth: 6px;
 }
 
 // Headings in notes
-span.h3 {
+span.h3,
+span.h4 {
   display: block;
-  font-size: ms(-1);
   font-weight: bold;
   margin-top: 2em;
 }
 
+span.h3 {
+  font-size: ms(-1);
+}
+
+span.h4 {
+  font-size: ms(-2);
+}
+
 // Secondary paragraphs
 p.secondary {
-  opacity: .75;
+  opacity: .8;
+  font-size: .85em;
 }
 
 // Curations section
