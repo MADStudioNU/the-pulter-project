@@ -127,7 +127,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Sarah C. E. Ross</persName>.</witness>-->
         </listWit>
       </div>
     </front>
@@ -153,7 +153,7 @@
                 weaknes, my gracious God Restored me, that <seg>I
                   <note type="physical">flourish obliterates imperfectly erased letter to right</note></seg>                Still Live to magnifie his Mercie. <seg>1665<note type="physical">ascending straight line beneath</note></seg>	   <seg>1655<note type="physical">in different hand from main scribe</note></seg></rdg>
           <rdg wit="#ee"><seg>This Was Written in 1648, When I Lay in, With my Son John<note type="physical">The title continues, “This being my 15th child; I being so weak, that in ten days and nights I never moved my head one jot from my pillow, out of which great weakness, my gracious God restored me, that I still live to magnify his mercy.” Following this long title, in the hand of the main scribe, is the year “1665”; slightly to the right a different hand has corrected this to “1655.”</note></seg></rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">This Was Written 1648, When I <seg>Lay in<note type="gloss">“lying in” refers most commonly to the first month after childbirth, when a mother recuperated in a private area and was attended upon by women. See Zoch, “Rewriting the Lying-in.” It can also refer more generally to being in childbed (<title rend="italic">OED</title> 1).</note></seg> with <seg>my Son John, Being my 15th Child<note type="gloss">John Pulter (1648-77) was the fifteenth, and likely last, of Pulter’s children.</note></seg>, I Being so Weak, that in Ten Days and Nights, I Never Moved my Head One Jot from my Pillow, out of which Great Weakness my Gracious God Restored Me, that I Still <seg>Live to Magnify His Mercy<note type="gloss">the poem’s long title concludes with “1665” written in the hand of the main scribe; slightly to the right, a different hand has corrected this to 1655. The poem’s title as a whole indicates that these are dates of transcription rather than authorship.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -162,7 +162,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">My priority in editing these poems has been to modernise, and to achieve interpretative and visual clarity, in order to make the poems as accessible as possible to as wide a modern audience as is possible. Spelling is modernised, as is punctuation. Modernising the latter, in particular, often involves a significant act of editorial interpretation, but in my view this is one of the most productive areas of editorial intervention, particularly for a manuscript text such as Pulter’s where the punctuation is erratic compared to modern usage (and, indeed, compared to early modern printed texts).<seg>1<note type="gloss">See Alice Eardley, “‘I haue not time to point yr booke … which I desire you yourselfe to doe’: Editing the Form of Early Modern Manuscript Verse”, in <bibl><title rend="italic">The Work of Form: Poetics and Materiality in Early Modern Culture</title>, ed. Ben Burton and Elizabeth Scott-Baumann (Oxford: Oxford University Press, 2014), pp. 162-178</bibl>.</note></seg></note>
           </rdg>
         </app>
         <app type="headnote">
@@ -170,7 +170,9 @@
             <note type="headnote">Paralyzed on what might be your death bed, what could you do but think? Pulter—immobile after delivering her fifteenth child—defies paralysis and pain by exerting paradoxical control over her otherwise free thoughts: free from all but her bidding, anyhow. With god-like power she commands their almost angelic flight beyond the sickroom, first to join the speeding orbit of the moon. From this vantage, her astronomical discoveries counter other poetic claims: Pulter’s moon is no mythological goddess, for instance, but “another world” from which the Earth itself appears (quite radically) to be a moon. Her fancy spirals further yet to other astral bodies on which her reasoning proves informed by recent science; by dawn, however, the very illuminations of this flight of fancy prove overwhelming, and her dazzled thoughts are curtailed to her curtained bedroom, just as a classicized Night is driven out with her allegorical children (Error, Horror, Despair, Sorrow), all terrified of the coming light. The poem ends with an early modern version of that most paradoxical of endings: “To be continued…”—in this case, a promise underwritten by Pulter’s dedication of such verse to the deity whose various lights she is by turns informed, delighted, and frightened by.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote"><p>This is one of two poems in Pulter’s manuscript written during her pregnancy and lying-in with her fifteenth child, her son John, in 1648. It can be read in this way as a companion poem to <ref type="pp-poem-ref" corresp="6">Universal Dissolution, Made When I Was with Child, of my 15th Child, my Son, John, I Being, Everyone Thought, in a Consumption, 1648</ref>. The pregnancy and birth of John are likely to have been the last of Pulter’s confinements; she was 43 years old, and the two poems together intimate her ill health both before and after the delivery. “This Was Written 1648, When I Lay in with my Son John” has been copied into Pulter’s manuscript in 1655, as the extended title indicates. Pulter and her son had both survived the “great weakness” of the pregnancy, birth, and lying-in, the period of recuperation after the delivery.</p>
+                  <p>Like “Universal Dissolution”, this extended lyric can be associated with the mode of complaint, the extended and virtuosic expression of woe that Pulter engages in several of her lyrics. But the lyric turns rapidly away from bewailing the frail body and sickness as a motive of woe and instead becomes a flight of fancy: an allusive and analogical exploration of the cosmos. The poet-speaker’s “thoughts being free” to “take their flight” (3), her poetic “fancy” raises her so high that she is able to look back down on the Earth and see it as “another star” (19-20). She traverses a poeticised cosmos, reflecting on personified and mythologised planets, before her “affrighted fancy” (49) is abruptly drawn down to witness the dawn's routing of Night and her troupe of monstrous offspring. These offspring—including Error, the Fates, Horror, Despair, and Sorrow—are the product of Night's “sable womb” (63), in a hellish parody of earthly childbirth. But the poem concludes with Night and her associates displaced by dawn which, as so often in Pulter’s poems, brings comfort (see the multiple “Aurora” poems). Pulter's speaker turns from the earthly pain and sorrow of her lying-in (“as in my bed I lay,” the poem's opening scenario) towards a heavenly future of singing godly “lays”; that is, the heavenly songs for which her own poems are a preparation. For Pulter’s recurrent imagery of heavenly lays, see <bibl>Sarah C. E. Ross, “Hester Pulter’s Devotional Complaints: ‘Then will I hallelujahs ever sing,’” <title rend="italic">Journal for Early Modern Cultural Studies</title> 20.2 (2020), 99-119</bibl>.</p>
+                  <p>Several rich critical discussions of the lyric explore the relationships in it among pregnancy, melancholy, and poetic production. Amanda Zoch explores its articulation of the “felt mortality” of early modern women’s experience of pregnancy (<bibl>“Rewriting the Lying-In: Hester Pulter, Katherine Philips, and the Felt Mortality of Pregnancy,” <title rend="italic">Early Modern Women: An Interdisciplinary Journal</title>, 15.1 [2020]: 3-25</bibl>). Ruth Connolly locates it in seventeenth-century discourses of poetic production as pregnancy and childbirth, asking “What does it matter if the ‘pregnant poet’ is actually pregnant?” (<bibl>“Hester Pulter’s Childbirth Poetics,” <title rend="italic">Women’s Writing</title>, 26.3 [2019]: 282-303 [282]</bibl>) Connolly sees the poem as an assertion of a maternal poetics, one that claims “a powerful and reciprocal link between women’s intellectual creativity and authority and their experience of their bodies” (4). Alice Eardley approaches the poem through its articulation of melancholy, the planet Saturn, under whose influence Pulter describes herself as having been born, determining the prevailing mood of much of Pulter’s work. Eardley links Pulter’s melancholy with the particular travails of pregnancy and childbirth, and (in an argument that shares much with Connolly’s later piece) explores its relationship to prevailing tropes of male poetic productivity. For Eardley, the emphasis on pregnancy in Pulter’s poetry recasts the trope of the male melancholic genius, enabling her to “rewrite her own personal, and feminine, grief as the expression of a superior intellect” (<bibl>“‘Saturn (whose aspects soe sads my soul)’: Lady Hester Pulter’s Feminine Melancholic Genius,” in <title rend="italic">New Ways of Looking at Old Texts, IV: Papers of the Renaissance English Text Society, 2002–2006</title>, ed. Michael Denbo (Tempe: Arizona Center for Medieval and Renaissance Studies, 2008), pp. 239–52)</bibl>). Emma Rayner extends further the exploration of Pulter’s Saturnine sadness and female expression of melancholy. In conjunction with the freedom and flight of the speaker’s poetic “fancy,” she emphasises the materiality of Pulter’s female melancholy, and the inescapability of “the female body, that vessel of woe” (<bibl>“Monumental Melancholy in John Webster and Hester Pulter,” <title rend="italic">SEL: Studies in English Literature</title>, 60.1 [2020]: 67-89 [79]</bibl>).</p></note>
           </rdg>
         </app>
       </head>
@@ -179,105 +181,105 @@
         <app>
             <rdg wit="#ft">Sad, Sick, and Lame, as in my Bed I lay</rdg>
             <rdg wit="#ee">Sad, sick, and lame, as in my bed I lay,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Sad<note type="gloss">see note to line 45.</note></seg>, sick, and lame, as in my bed I <seg>lay<note type="gloss">see note to line 68, the poem's final line.</note></seg>,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Least Pain and Passion Should bear all the Sway</rdg>
           <rdg wit="#ee">Lest pain and <seg>passion<note type="gloss">suffering</note></seg> should <seg>bear all the sway<note type="gloss">govern, rule; hold (highest) position of authority or power; exercise influence</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Lest pain and passion should bear all the sway</rdg>
         </app>
       </l>
       <l n="3">
         <app>
           <rdg wit="#ft">My thoughts beeing free I bid <seg>them<note type="physical">“m” appears written over earlier “e”</note></seg> take their flieght</rdg>
             <rdg wit="#ee">My thoughts being free, I bid them take their flight</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>My thoughts being free, I bid them take their flight<note type="critical">a common theme and imaginative movement in Pulter’s poetry. See, for example, <ref type="pp-poem-ref" corresp="39">The Perfection of Patience and Knowledge</ref>: “Then my enfranchised soul, away / Beyond the sky, will take her flight / And rest above the spheres of night” (16-18).</note></seg></rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Above the Gloomey Shades of Death and Night</rdg>
             <rdg wit="#ee">Above the gloomy shades of death and night.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Above the gloomy shades of death and night.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">They overjoyed with Such a Large Commiſſion</rdg>
             <rdg wit="#ee">They, overjoyed with such a large commission,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">They, overjoyed with such a large commission,</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">&ff;lew inſtantly without all intermiſſion</rdg>
             <rdg wit="#ee">Flew instantly, without all intermission,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Flew instantly without all intermission</rdg>
         </app>
       </l>
       <l n="7">
         <app>
           <rdg wit="#ft">Up to <seg>that<note type="physical">corrected from “the” by additon of final “t” and closing of loop over “e”</note></seg> Spheir where Nights Pale Queen doth Run</rdg>
           <rdg wit="#ee">Up to that sphere where <seg>night’s pale queen<note type="gloss">the moon</note></seg> doth run</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Up to that sphere where <seg>night’s pale queen<note type="gloss">the moon</note></seg> doth run</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Round the Circumference of the Illustrious Sun</rdg>
           <rdg wit="#ee">Round the circumference of the <seg>illustrious<note type="gloss">luminous; noble</note></seg> sun.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Round the circumference of the illustrious sun.</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Her Globious Body Spacious was and Bright</rdg>
           <rdg wit="#ee">Her <seg>globious<note type="gloss">spherical</note></seg> body spacious was, and bright;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Her globious body spacious was, and bright<note type="gloss">In this and the following line, Pulter's imagery evokes Diana, associated with the crescent moon, a goddess also associated the protection of women during labour.</note></seg>,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">That Half alone that from Sols Beams had Light</rdg>
           <rdg wit="#ee">That half alone that from <seg>Sol’s<note type="gloss">the sun’s</note></seg> beams had light;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That half alone that from <seg>Sol’s<note type="gloss">the sun’s</note></seg> beams had light;</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">The other was imured in Shades of Night</rdg>
           <rdg wit="#ee">The other was <seg>immured<note type="gloss">enclosed</note></seg> in shades of night.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The other was immured in shades of night.</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Nor did Shee Seem to mee as Poets fain</rdg>
           <rdg wit="#ee">Nor did she seem to me as poets <seg>feign<note type="gloss">invent, imagine</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor did she seem to me as poets <seg>feign<note type="gloss">imagine</note></seg>,</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Guiding her Chariot with A Silver Rein</rdg>
             <rdg wit="#ee">Guiding her chariot with a silver rein,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Guiding her chariot with a silver rein,</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Attir’d like Som fair Nimph or Virgin Queen</rdg>
           <rdg wit="#ee">Attired like some fair <seg>nymph<note type="gloss">demi-goddess</note></seg> or virgin queen,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Attired like some fair nymph or virgin queen,</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">With naked Neck and Arms and Robes of Green</rdg>
             <rdg wit="#ee">With naked neck and arms and robes of green.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With naked neck and arms and robes of green;</rdg>
         </app>
       </l>
         <app>
@@ -295,161 +297,161 @@
         <app>
           <rdg wit="#ft">Love Sick <seg>EnDimion<note type="physical">“En” appears written in place of (and partly over) erased “in”</note></seg> oft hath thus her Seen</rdg>
           <rdg wit="#ee">Lovesick <seg>Endymion<note type="gloss">in classical myth, a shepherd who loved the moon goddess</note></seg> oft hath thus her seen;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Lovesick <seg>Endymion<note type="gloss">in Classical mythology, a handsome young shepherd-prince beloved by the moon</note></seg> oft hath thus her seen,</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">But as my thoughts about her Orb was Hurld</rdg>
             <rdg wit="#ee">But as my thoughts about her orb was hurled,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But as my thoughts about her orb was hurled,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">I did perceive Shee was another World</rdg>
             <rdg wit="#ee">I did perceive she was another world.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I did perceive she was another world.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Thus beeing in my &ff;ancie raiſd soe fare</rdg>
             <rdg wit="#ee">Thus being in my fancy raised so far,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thus being in my <seg>fancy<note type="gloss">the imagination, especially in poetic or literary composition; also featuring in lines 27 and 49. See Victoria E. Burke’s curation, <ref type="pp-curations-ref" target="/poems/ee/to-my-dear-jane-margaret-and-penelope-pulter/#poetic-fancies">Poetic Fancies</ref>.</note></seg> raised so far,</rdg>     
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">This World apear’d to mee another Star</rdg>
             <rdg wit="#ee">This world appeared to me another star;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This world appeared to me another star,</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">And as the Moon a Shadow Casts and Light</rdg>
             <rdg wit="#ee">And as the moon a shadow casts and light,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And as the moon a shadow casts, and light,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Soe is our Earth the Empres of their Night</rdg>
             <rdg wit="#ee">So is our Earth the empress of their night.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">So is our Earth the empress of their night.</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Next Venus Usher to the Night and Day</rdg>
           <rdg wit="#ee">Next, <seg>Venus, usher to the night and day<note type="gloss">planet identified with the morning star (in the “orient” or east) and evening star (in the “occident” or west); hence her representation as “usher” to night and day</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Next <seg>Venus<note type="gloss">the planet Venus, thought by the Greeks to be two different stars, the “morning star” and the “evening star”; and so described by Pulter as “usher to the night and day.”</note></seg>, usher to the night and day,</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Her ful &ff;aced Bevty to mee did Diſplay</rdg>
           <rdg wit="#ee">Her <seg>full-faced<note type="gloss">fully visible</note></seg> beauty to me did display;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Her full-faced beauty to me did display;</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">Some time Shee Waned then again increaſe</rdg>
           <rdg wit="#ee">Sometimes she wanéd, then again <seg>increase<note type="gloss">increased; would increase</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Some time she waned, then again increase,</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Which in our humours cauſ or Warr or Peace</rdg>
           <rdg wit="#ee">Which in our <seg>humors<note type="gloss">in ancient and medieval physiology, four bodily fluids (blood, phlegm, choler, and bile) believed to determine health, temperament, and behaviour (warring or peaceful)</note></seg> cause <seg>or<note type="gloss">either</note></seg> war or peace.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which in our <seg>humours<note type="gloss">in ancient philosophy, the four bodily fluids (blood, phlegm, choler, and bile) believed to affect health and temperament</note></seg> cause <seg>or war or peace<note type="gloss">“either war or peace”</note></seg>.</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">My fancie next to Mercury would Run</rdg>
             <rdg wit="#ee">My fancy next to Mercury would run,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">My <seg>fancy<note type="gloss">see note to line 19.</note></seg> next to Mercury would run,</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">But craftily hee popt b<add place="below">\</add><add place="above">e</add>hind the Sun</rdg>
             <rdg wit="#ee">But craftily he popped behind the sun.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But craftily he popped behind the sun;</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">A wonder ti’s the medium beeing Soe Bright</rdg>
             <rdg wit="#ee">A wonder ’tis, the medium being so bright,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">A wonder ‘tis, the medium being so bright,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
           <rdg wit="#ft">His Splendencie Should bee obſcur’d by <seg>Light<note type="physical">“L” replaces earlier letter, likely “N”</note></seg></rdg>
           <rdg wit="#ee">His <seg>splendency<note type="gloss">brightness; magnificence</note></seg> should be obscured by light.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">His splendency should be obscured by light.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Nor could I Sols refulgent Orb discrie</rdg>
           <rdg wit="#ee">Nor could I Sol’s <seg>refulgent<note type="gloss">brilliant; glorious</note></seg> orb <seg>descry<note type="gloss">perceive</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nor could I Sol’s refulgent orb descry;</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">His Raidient Beames dazled my tender eye</rdg>
             <rdg wit="#ee">His radiant beams dazzled my tender eye;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">His radiant beams dazzled my tender eye,</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">And now my Wonder is again Renewed</rdg>
             <rdg wit="#ee">And now my wonder is again renewed,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And now my wonder is again renewed</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">That hee enlightening all could not bee vewed</rdg>
             <rdg wit="#ee">That he, enlightening all, could not be viewed.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That he, enlightening all, could not be viewed.</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">Yet to my Reason this apeard the Best</rdg>
             <rdg wit="#ee">Yet to my reason this appeared the best:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet to my reason this appeared the best,	</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">That hee the Center was of all the Rest</rdg>
             <rdg wit="#ee">That he the center was of all the rest</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That he the centre was of all the rest,</rdg>
         </app>
       </l>
       <l n="37">
         <app>
             <rdg wit="#ft">The Planets all like Bowlls Still trundling Round</rdg>
           <rdg wit="#ee">The planets, all like <seg>bowls<note type="gloss">balls</note></seg> still trundling round</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The planets all like <seg>bowls<note type="gloss">balls</note></seg> still trundling round</rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">The vast Circumference of his Glorious Mound</rdg>
             <rdg wit="#ee">The vast circumference of his glorious mound;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The vast circumference of his glorious mound,</rdg>
         </app>
       </l>
         <app>
@@ -472,168 +474,169 @@
         <app>
             <rdg wit="#ft">Hee Resting quickens all with Heat and Light</rdg>
           <rdg wit="#ee">He, <seg>resting<note type="gloss">unmoving</note></seg>, <seg>quickens<note type="gloss">animates</note></seg> all with heat and light,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">He, resting, quickens all with heat and light</rdg>
         </app>
       </l>
       <l n="40">
         <app>
             <rdg wit="#ft">And by the Earths motion makes our Day or Night</rdg>
             <rdg wit="#ee">And by the Earth’s motion makes our day or night.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And by th’Earth’s motion makes our day or night.</rdg>
         </app>
       </l>
       <l n="41">
         <app>
             <rdg wit="#ft">Next Jupiter that Mild Auspicious Starr</rdg>
           <rdg wit="#ee"><seg>Next Jupiter, that mild auspicious star:<note type="gloss">Jupiter is seen in astrology as “auspicious” (presenting a positive omen), temperate, wise, benevolent, and concerned with law and judgement.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Next <seg>Jupiter<note type="gloss">the largest planet, and Roman supreme god</note></seg>, that mild, <seg>auspicious<note type="gloss">in astrological terms, presenting a positive omen</note></seg> star,</rdg>
         </app>
       </l>
       <l n="42">
         <app>
             <rdg wit="#ft">I did perceive about his Blazing Carr</rdg>
           <rdg wit="#ee">I did perceive about his blazing <seg>car<note type="gloss">chariot</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I did perceive about his blazing car,</rdg>
         </app>
       </l>
       <l n="43">
         <app>
             <rdg wit="#ft">&ff;our bright Attendents alwayes hurrid Round</rdg>
           <rdg wit="#ee"><seg>Four bright attendants<note type="gloss">the moons of Jupiter, discovered by Galileo in 1610.</note></seg> always hurried round;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Four bright attendants<note type="gloss">the four moons of Jupiter, described by Galileo in 1610.</note></seg> always hurried round;</rdg>
         </app>
       </l>
       <l n="44">
         <app>
             <rdg wit="#ft">Next &ff;lagrant Mars where noe Such Moons are found</rdg>
           <rdg wit="#ee">Next <seg>flagrant<note type="gloss">blazing</note></seg> Mars, where no such moons are found;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Next flagrant Mars where no such moons are found,</rdg>
         </app>
       </l>
       <l n="45">
         <app>
             <rdg wit="#ft">Then Saturn (whose Aspects Soe Sads my Soul)</rdg>
           <rdg wit="#ee"><seg>Then Saturn (whose aspects so sads my soul)<note type="gloss">The speaker is saddened by the planet’s “aspects,” or temporary positions in the sky; Saturn was understood in astrology to have a baleful influence.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then <seg>Saturn<note type="gloss">in astrology, Saturn has a long association with melancholy, and Pulter describes herself as born under its influence. See Eardley, “‘Saturn (whose aspects soe sads my soul)’”. See also <ref type="pp-poem-ref" corresp="39">The Perfection of Patience and Knowledge</ref>: “sad Saturn’s heavy eye / Frowns on me with malignancy” (34-5).
+            </note></seg> (whose aspects so <seg>sads<note type="gloss">makes sad; and also to “to make solid” (see Rayner, “Monumental Melancholy”).</note></seg> my soul),</rdg>
         </app>
       </l>
       <l n="46">
         <app>
             <rdg wit="#ft">About whose Orb two Sickly Cinthias rowl</rdg>
           <rdg wit="#ee">About whose orb two sickly <seg>Cynthias<note type="gloss">Cynthia is the moon goddess; in 1610, Galileo mistook Saturn’s rings for two moons.</note></seg> roll;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">About whose orb two sickly <seg>Cynthias<note type="gloss">moons. Galileo mistook Saturn’s rings for two moons.</note></seg> roll.</rdg>
         </app>
       </l>
       <l n="47">
         <app>
             <rdg wit="#ft">Then on the &ff;ixed Stars I would have Gazed</rdg>
           <rdg wit="#ee">Then on the <seg>fixed stars<note type="gloss">stars, which appear always to occupy the same position in the sky (as distinct from planets, known as “wandering stars”)</note></seg> I would have gazed,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then on the <seg>fixéd stars<note type="gloss">stars, which always occupy the same position, as opposed to planets, known as the “wandering stars”</note></seg> I would have gazed,</rdg>
         </app>
       </l>
       <l n="48">
         <app>
             <rdg wit="#ft">But their vast Brightnes Soe my Mind Amazed</rdg>
             <rdg wit="#ee">But their vast brightness so my mind amazed</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But their vast brightness so my mind amazed</rdg>
         </app>
       </l>
       <l n="49">
         <app>
             <rdg wit="#ft">That my afrighted &ff;ancie Downward &ff;lew</rdg>
             <rdg wit="#ee">That my affrighted fancy downward flew</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That my affrighted <seg>fancy<note type="gloss">see note to line 19.</note></seg> downward flew,</rdg>
         </app>
       </l>
       <l n="50">
         <app>
             <rdg wit="#ft">Just as the Howers Auroras Curtain Drew</rdg>
           <rdg wit="#ee">Just as <seg>the Hours Aurora’s curtain drew<note type="gloss">the Horae, Greek goddesses of seasons, are portrayed as the attendants of Aurora, the dawn; in drawing or pulling back her curtain, they expose her brightness.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Just as the Hours <seg>Aurora’s<note type="gloss">Aurora was goddess of the dawn, here attended by the Horae, Greek goddesses of the seasons.</note></seg> curtain drew,</rdg>
         </app>
       </l>
       <l n="51">
         <app>
             <rdg wit="#ft">At which the Uglie Wife of Accharon</rdg>
           <rdg wit="#ee">At which the ugly <seg>wife of Acheron<note type="gloss">Acheron, a river in classical underworld ruled by Hades, is here identified with its ruler; his wife is here identified with Nyx or Night.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">At which the ugly <seg>wife of Acheron<note type="gloss">Nyx, or Night, is here associated with Acheron, the river in the classical underworld ruled by Hades.</note></seg></rdg>
         </app>
       </l>
       <l n="52">
         <app>
           <rdg wit="#ft">Bid <seg>drive<note type="physical">“r” written over indiscernible letter</note></seg> and Slaſhed her Drouſey Monsters on</rdg>
             <rdg wit="#ee">Bid drive, and slashed her drowsy monsters on;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Bid drive, and slashed her drowsy monsters on.</rdg>
         </app>
       </l>
       <l n="53">
         <app>
             <rdg wit="#ft">With Her there went her first born Brat old Errour</rdg>
             <rdg wit="#ee">With her there went her firstborn brat, old Error,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With her, there went her first born brat, old Error,</rdg>
         </app>
       </l>
       <l n="54">
         <app>
             <rdg wit="#ft">And &ff;ierce Eumenedes poor Mortals terrour</rdg>
           <rdg wit="#ee">And fierce <seg>Eumenides<note type="gloss">classical divinities of vengeance, also known as the Furies</note></seg>, poor mortals’ terror,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And fierce <seg>Eumenides<note type="gloss">the Furies, Greek deities of vengeance</note></seg>, poor mortals’ terror,</rdg>
         </app>
       </l>
       <l n="55">
         <app>
             <rdg wit="#ft">Who with their Snakes, and whips, and Brands, were hurld</rdg>
             <rdg wit="#ee">Who with their snakes, and whips, and brands, were hurled</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Who, with their snakes, and whips, and brands, were hurled</rdg>
         </app>
       </l>
       <l n="56">
         <app>
             <rdg wit="#ft">To Strike Amazement to the Lower World</rdg>
           <rdg wit="#ee">To strike <seg>amazement<note type="gloss">fear, alarm</note></seg> to the lower world;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To strike amazement to the lower world;</rdg>
         </app>
       </l>
       <l n="57">
         <app>
             <rdg wit="#ft">Beeing Scard themſelves at the aproach of Light</rdg>
             <rdg wit="#ee">Being scared themselves at the approach of light,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Being scared themselves at the approach of light,</rdg>
         </app>
       </l>
       <l n="58">
         <app>
             <rdg wit="#ft">To our Antipodes they took their &ff;lieght</rdg>
           <rdg wit="#ee">To our <seg>antipodes<note type="gloss">opposite side of the world</note></seg> they took their flight.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To our antipodes they took their flight.</rdg>
         </app>
       </l>
       <l n="59">
         <app>
             <rdg wit="#ft">Si<hi rend="overline">n</hi>ſe Curſed ofſpring with their Dam did Trace</rdg>
           <rdg wit="#ee">Sin’s curséd offspring with their <seg>dam<note type="gloss">mother</note></seg> did <seg>trace<note type="gloss">go, follow</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Since curséd offspring with their dam did trace</rdg>
         </app>
       </l>
       <l n="60">
         <app>
             <rdg wit="#ft">That most Prodigious incestious Race</rdg>
           <rdg wit="#ee">That most <seg>prodigious, incestuous race<note type="gloss">The offspring of Sin and Night are prodigious (likely in the sense of unnatural, but alternately or also: ominous; appalling; immense) and incestuous because, according to classical myth, Nyx or Night had children by her brother, Erebos, (signifying “darkness,” or the dark space leading to Hades or Hell); these children are, however, not identified in classical myth with Horror, Despair, and Sorrow, as here.</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That most prodigious, incestuous race,</rdg>
         </app>
       </l>
       <l n="61">
         <app>
             <rdg wit="#ft">Pale Gastly, Shudring, Horrour, lost despair</rdg>
             <rdg wit="#ee">Pale, ghastly, shuddering Horror, lost Despair,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Pale, ghastly, shuddering, Horror, lost Despair</rdg>
         </app>
       </l>
       <l n="62">
         <app>
             <rdg wit="#ft">And Sobbing Sorrow, tearing of her Hair</rdg>
             <rdg wit="#ee">And sobbing Sorrow, tearing off her hair:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And sobbing Sorrow, tearing of her hair;</rdg>
         </app>
       </l>
         <app>
@@ -656,42 +659,42 @@
         <app>
             <rdg wit="#ft">These of her Sable Womb were born and Bred</rdg>
           <rdg wit="#ee">These of <seg>her<note type="gloss">Night’s</note></seg> sable womb were born and bred,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">These of her <seg>sable<note type="gloss">black</note></seg> womb were born and bred</rdg>
         </app>
       </l>
       <l n="64">
         <app>
             <rdg wit="#ft">And from the Light with her now frighted fled</rdg>
             <rdg wit="#ee">And from the light with her now frighted fled;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And from the light with her now frighted fled.</rdg>
         </app>
       </l>
       <l n="65">
         <app>
             <rdg wit="#ft">And then my Mayds my Window Curtains Drew</rdg>
             <rdg wit="#ee">And then my maids my window curtains drew,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And then my maids my window curtains drew,</rdg>
         </app>
       </l>
       <l n="66">
         <app>
             <rdg wit="#ft">And as my Pain Soe Comforts did Renew</rdg>
             <rdg wit="#ee">And, as my pain, so comforts did renew.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And as my pain, so comforts did renew.</rdg>
         </app>
       </l>
       <l n="67">
         <app>
             <rdg wit="#ft">Unto the God of truth, Light Life, and Love</rdg>
             <rdg wit="#ee">Unto the God of truth, light, life, and love,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Unto the God of truth, light, life, and love</rdg>
         </app>
       </l>
       <l n="68">
         <app>
           <rdg wit="#ft">Il’e Such Layes Here begin Shall end <seg>Aboue<note type="physical">“A” appears written over other letters, possibly “in”</note></seg>.</rdg>
           <rdg wit="#ee">I’ll such <seg>lays<note type="gloss">short songs</note></seg> <seg>here begin shall end above<note type="gloss">that is, the speaker will begin writing or singing songs here that she will finish in Heaven</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I’ll such <seg>lays<note type="gloss">songs, a punning transformation of the bodily “lying in” that is the occasion of the poem (see line 1). For Pulter’s recurrent imagery of heavenly lays, see <bibl>Ross, “Hester Pulter’s Devotional Complaints: ‘Then will I hallelujahs ever sing.’”</bibl></note></seg> here begin shall end above.</rdg>
         </app>
       </l>
         <app>

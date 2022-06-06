@@ -971,6 +971,9 @@
       <xsl:when
         test="ancestor::tei:note or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
         <p>
+          <xsl:attribute name="class">
+            <xsl:value-of select="@rend"/>
+          </xsl:attribute>
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
           </xsl:apply-templates>

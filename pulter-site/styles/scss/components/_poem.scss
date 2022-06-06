@@ -377,20 +377,20 @@ $globalBorderRadius: 4px;
 
         .expand-box {
           margin-bottom: 4em;
-          max-height: 5000px;
           height: auto;
           opacity: 1;
           position: relative;
+          max-height: 5000px;
 
-          &.short-headnote {}
+          &.short-headnote {
+            max-height: 5000px;
+            @include transition(max-height .8s, opacity .4s, margin-bottom .4s);
+          }
 
-          &.long-headnote {}
-
-          @include transition(
-              max-height .8s,
-              opacity .4s,
-              margin-bottom .4s
-          );
+          &.long-headnote {
+            max-height: 10000px;
+            @include transition(opacity .4s, margin-bottom .4s);
+          }
 
           .witness-box {
             font-size: ms(-1);
@@ -1010,18 +1010,28 @@ $globalBorderRadius: 4px;
 
     .expand-box {
       margin-bottom: 0;
-      max-height: 0;
       opacity: 0;
+      max-height: 0;
+
+      @include transition(max-height .4s, opacity 0s, margin-bottom .4s);
+
+
+      &.long-headnote,
+      &.short-headnote {
+        max-height: 0;
+      }
+
+      &.long-headnote  {
+        @include transition(opacity 0s, margin-bottom .4s);
+      }
+
+      &.short-headnote {
+        @include transition(max-height .4s, opacity 0s, margin-bottom .4s);
+      }
 
       .witness-box {
         pointer-events: none;
       }
-
-      @include transition(
-          max-height .4s,
-          opacity 0s,
-          margin-bottom .4s
-      );
     }
 
     &::before {
@@ -1773,6 +1783,28 @@ $defaultStrokeWidth: 6px;
     margin-top: 1.5em;
     line-height: 1.5;
   }
+}
+
+// Headings in notes
+span.h3,
+span.h4 {
+  display: block;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+span.h3 {
+  font-size: ms(-1);
+}
+
+span.h4 {
+  font-size: ms(-2);
+}
+
+// Secondary paragraphs
+p.secondary {
+  opacity: .8;
+  font-size: .85em;
 }
 
 // Curations section

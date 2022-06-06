@@ -599,8 +599,12 @@
       </xsl:variable>
 
       <xsl:element name="div">
+<!--        <xsl:attribute name="data-headnote-length">-->
+<!--          <xsl:value-of select="$headnoteLength"/>-->
+<!--        </xsl:attribute>-->
+
         <xsl:choose>
-          <xsl:when test="$headnoteLength &gt; 6000">
+          <xsl:when test="$headnoteLength &gt; 8000">
             <xsl:attribute name="class">
               <xsl:value-of select="'long-headnote expand-box'"/>
             </xsl:attribute>
@@ -1070,6 +1074,9 @@
       <xsl:when
         test="ancestor::tei:note or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
         <p>
+          <xsl:attribute name="class">
+            <xsl:value-of select="@rend"/>
+          </xsl:attribute>
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
           </xsl:apply-templates>
@@ -1590,6 +1597,9 @@
               <xsl:if test="$witnessName = 'Deanna Smid'">
                 <xsl:value-of select="'Brandon University'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Megan Heffernan'">
+                <xsl:value-of select="'DePaul University'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1640,6 +1650,9 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Deanna Smid'">
                 <xsl:value-of select="'https://www.brandonu.ca/english/faculty/smid/'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Megan Heffernan'">
+                <xsl:value-of select="'https://las.depaul.edu/academics/english/faculty/Pages/megan-heffernan.aspx'"/>
               </xsl:if>
             </xsl:variable>
 
