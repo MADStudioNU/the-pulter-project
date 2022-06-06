@@ -40,10 +40,10 @@ Branch `master` is deployed to the [production site](https://pulterproject.north
 
 ### Current Delta
 Poems that are published on the preview site but not on the production site:
-> A099, A013, A042, A99-2, A118-2, A120, A045
+> A042, A045, A099, A099-2, A118-2, A120
 
 Curations:
-> C013
+> —
 
 Explorations:
 > —
