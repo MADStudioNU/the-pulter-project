@@ -1604,12 +1604,13 @@ $defaultStrokeWidth: 6px;
   // Headnote notes
   .headnote & {
     background: #F9F7F5;
-    padding: 1.5em 3em 1.2em 1.5em;
+    padding: 1.2em 3em 1.1em 1.5em;
     display: inline-block;
     margin-top: 1.5em;
 
     .citation {
-      color: #000;
+      color: #222;
+      line-height: 1.7;
 
       p {
         &:not(:last-child) {
