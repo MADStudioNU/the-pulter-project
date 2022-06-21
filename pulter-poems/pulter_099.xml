@@ -125,8 +125,8 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>Megan Heffernan</persName>.</witness>-->
-<!--          <witness xml:id="a2">Amplified edition: By <persName>Rachel Zhang</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Rachel Zhang</persName>.</witness>
+          <witness xml:id="a2">Amplified edition: By <persName>Megan Heffernan</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -150,10 +150,10 @@
       
       <head>
         <app type="title">
-            <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">34</fw>[Emblem 34]</rdg>
-            <rdg wit="#ee">Mark But Those Hogs<lb/>(Emblem 34)</rdg>
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">34</fw>[Emblem 34]</rdg>
+          <rdg wit="#ee">Mark But Those Hogs<lb/>(Emblem 34)</rdg>
           <rdg wit="#ae">When Pigs Don’t Fly</rdg>
-            <rdg wit="#a2">Mark But Those Hogs</rdg>
+          <rdg wit="#a2">Mark But Those Hogs</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
