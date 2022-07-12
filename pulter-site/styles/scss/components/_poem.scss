@@ -1486,6 +1486,17 @@ $defaultStrokeWidth: 6px;
     }
   }
 
+
+  // Individual drop cap adjustments
+  // See the defaults above
+  .drop-cap-box .drop-cap {
+      &.uppercase-v {
+        //width: 25em;
+        left: -7em;
+        @include breakpoint(mobile) {}
+      }
+  }
+
   // If poem has a poster, don't show the drop cap in the expanded view
   &.has-poster {
     .poem.expanded {
@@ -1645,15 +1656,6 @@ $defaultStrokeWidth: 6px;
     }
   }
 }
-
-// Individual drop cap adjustments
-// See the defaults above
-//.drop-cap-box .drop-cap{
-//    .pp.w & {
-//        width: 25em;
-//        @include breakpoint(mobile) {}
-//    }
-//}
 
 // Pseudo poems
 .pp.single-poem.pseudo {
