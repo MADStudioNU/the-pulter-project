@@ -1490,11 +1490,11 @@ $defaultStrokeWidth: 6px;
   // Individual drop cap adjustments
   // See the defaults above
   .drop-cap-box .drop-cap {
-      &.uppercase-v {
-        //width: 25em;
-        left: -7em;
-        @include breakpoint(mobile) {}
-      }
+    &.uppercase-v {
+      //width: 25em;
+      left: -7em;
+      //@include breakpoint(mobile) {}
+    }
   }
 
   // If poem has a poster, don't show the drop cap in the expanded view
