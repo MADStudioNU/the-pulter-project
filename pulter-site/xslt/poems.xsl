@@ -5213,7 +5213,7 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
+        <pp:edition type="amplified" label="Amplified Edition A">
           <pp:author>Megan Heffernan</pp:author>
         </pp:edition>
 <!--        <pp:edition type="amplified" id="a2" label="Amplified Edition B">-->
