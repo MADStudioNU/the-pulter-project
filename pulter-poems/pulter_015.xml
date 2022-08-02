@@ -75,10 +75,10 @@
       <editorialDecl>
         <correction>
           <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR tags, but only where the editor conjectures that the original scribe or compositor would have recognized the instance as an error. For example, what according to modern usage is incorrect subject/verb agreement might have been deemed acceptable to a seventeenth-century scribe or compositor. All such instances are treated instead using the ORIG and REG tags. (See below.)</p>
-          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be futher explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
+          <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be further explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or miniscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -148,7 +148,7 @@
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the <seg>Same<note type="physical">previous poem concludes immediately above on same page</note></seg> [2]</rdg>
-          <rdg wit="#ee"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)]<note type="critical">In the manuscript, the title is “On the Same”: a reference to the previous poem in the manuscript, “On the Horrid Murder of that Incomparable Prince, King Charles the First”; we have provided an alternate title for clarity. The number 2 in our title reflects the fact that Poem 11 is also titled “On the Same” in the manuscript.</note></seg></rdg>
+          <rdg wit="#ee"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)]<note type="critical">In the manuscript, the title is “On the Same”: a reference to the previous poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid Murder of that Incomparable Prince, King Charles the First</ref>; we have provided an alternate title for clarity. The number 2 in our title reflects the fact that Poem 11 is also titled <ref type="pp-poem-ref" corresp="11">On the Same</ref> in the manuscript.</note></seg></rdg>
           <rdg wit="#ae">AE TITLE</rdg>
         </app>
         <app type="editorialnote">
@@ -174,7 +174,7 @@
       <l n="1">
         <app>
             <rdg wit="#ft">Let none Sigh more for Lucas or for Liſle</rdg>
-          <rdg wit="#ee">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">George Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the English civil war, executed by firing squad without trial after their defeat and capture at Colchester in 1648. Pulter makes these two the subject of <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>.</note></seg>,</rdg>
+          <rdg wit="#ee">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">George Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the English civil war, executed by firing squad without trial after their defeat and capture at Colchester in 1648. Pulter makes these two the subject of <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas</ref>.</note></seg>,</rdg>
           <rdg wit="#ae"></rdg>
         </app>
       </l>

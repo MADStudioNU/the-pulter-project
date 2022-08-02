@@ -82,13 +82,13 @@
                         tags. (See below.) </p>
                     <p>Corrections and annotations made within the scope of the original document
                         either by its original authors, owners, and/or transcribers are noted using
-                        ADD tags. These annotations and may be futher explained within NOTE tags, as
+                        ADD tags. These annotations and may be further explained within NOTE tags, as
                         added by the editors of this digital edition, for display within the
                         apparatus.</p>
                 </correction>
                 <normalization>
                     <p>Original spellings, abbreviations, and orthography are preserved. Where in
-                        the manuscripts a character’s status as majuscule or miniscule is ambiguous,
+                        the manuscripts a character’s status as majuscule or minuscule is ambiguous,
                         the editor has silently chosen one or the other based on context and
                         judgment (i.e., does not register such ambiguity in either the markup or the
                         notes).</p>
@@ -159,7 +159,7 @@
                 <app type="title">
                     <rdg wit="#ft"><fw facs="#f7610_085" type="pageNum" place="margin-topright">77</fw>To Aurora [1]</rdg>
                     <rdg wit="#ee">To Aurora [1]</rdg>
-                    <rdg wit="#ae">To Aurora <seg>[1]<note type="physical">Pulter’s four other poems named for the dawn are poems 3, 26, 34, and 37.</note></seg></rdg>
+                    <rdg wit="#ae">To Aurora <seg>[1]<note type="physical">Pulter’s four other poems named for the dawn are poems <ref type="pp-poem-ref" corresp="3">Aurora [1]</ref>, <ref type="pp-poem-ref" corresp="26">To Aurora [2]</ref>, <ref type="pp-poem-ref" corresp="34">To Aurora [3]</ref>, and <ref type="pp-poem-ref" corresp="37">Aurora [2]</ref>.</note></seg></rdg>
                 </app>
                 <app type="editorialnote">
                         <rdg wit="#ft"><note type="editorialnote">In these transcriptions we preserve as many details of 
@@ -191,7 +191,7 @@
                 </app>
             <app type="headnote">
                 <rdg wit="#ee"><note type="headnote">In poetry, lovers often lament daybreak because it disrupts the pleasures afforded by night. Pulter is instead drawn to the beauty, power, and virtue of Aurora (goddess of the dawn), here and throughout the collection. In this poem she uses apostrophe to urge Aurora to unite in military solidarity with the speaker and Aurora’s daughter (Truth) so as to conquer the hellish miseries of conscience unleashed at night. While other Pulter poems dwell on the details of Aurora’s physical appearance, here the speaker merely mentions the beauty of this virginal naked maid who paradoxically has a daughter, Astraea (whom Pulter imagines as Truth, rather than the traditional allegorical association with Justice). The poem is marked by a sudden reflexive moment, when the speaker suddenly doubts her own claims of innocence and uses her soul searching as a more urgent reason for these personified female figures to enlighten the darkness that still exists at the end of the poem.</note></rdg>
-                <rdg wit="#ae"><note type="headnote"> “To Aurora [1]” is one of several poems by Pulter about or addressed to Aurora, the goddess of the dawn. The figure of Aurora is important in Pulter’s mythography, appearing as well in "Aletheia’s Pearl" (Poem 32). In “To Aurora [1]” the speaker situates herself between night and day. She implores Aurora to arrive and drive away the Night, which, rather than offering rest, is a time when the speaker is forced to contemplate her sinful state. This poem can be usefully read in the context of the aubade. In the best known English examples of this tradition, such as Donne’s “The Sun Rising” or Juliet’s speech in Act 2 of <bibl><author>Shakespeare’s</author> <title rend="italics"> Romeo and Juliet</title></bibl>, heterosexual lovers desire to arrest the dawn. Pulter’s poem, by contrast, invites Aurora (and her daughter Astraea, the goddess of justice) to join her. These two female figures are the speaker’s “eternal friends,” and she demands that they rescue her from darkness, uncertainty, and doubt.</note></rdg>
+                <rdg wit="#ae"><note type="headnote"> “To Aurora [1]” is one of several poems by Pulter about or addressed to Aurora, the goddess of the dawn. The figure of Aurora is important in Pulter’s mythography, appearing as well in <ref type="pp-poem-ref" corresp="32">Aletheia’s Pearl</ref>. In “To Aurora [1]” the speaker situates herself between night and day. She implores Aurora to arrive and drive away the Night, which, rather than offering rest, is a time when the speaker is forced to contemplate her sinful state. This poem can be usefully read in the context of the aubade. In the best known English examples of this tradition, such as Donne’s “The Sun Rising” or Juliet’s speech in Act 2 of <bibl><author>Shakespeare’s</author> <title rend="italics"> Romeo and Juliet</title></bibl>, heterosexual lovers desire to arrest the dawn. Pulter’s poem, by contrast, invites Aurora (and her daughter Astraea, the goddess of justice) to join her. These two female figures are the speaker’s “eternal friends,” and she demands that they rescue her from darkness, uncertainty, and doubt.</note></rdg>
             </app>
             </head>
           <lg>
@@ -283,7 +283,7 @@
                 <app>
                     <rdg wit="#ft">Come then Sweet mayd with thine <w lemma="immortal"><abbr>i<hi rend="overline">m</hi></abbr></w>ortall iſſue</rdg>
                     <rdg wit="#ee">Come then, sweet maid, with thine immortal <seg>issue<note type="critical">child; Aurora’s daughter is Astraea, goddess of justice; here Pulter associates her with “Truth” (final line)</note></seg>,</rdg>
-                    <rdg wit="#ae">Come, then, <seg>sweet maid with thine immortal issue<note type="critical">Pulter continues to address Aurora as a virgin (“maid”) while also identifying her as a mother. Her “immortal issue” is Astraea, the goddess of justice (see also "To Astraea" (Poem 23)). Astraea’s appearance is associated with the return of the Golden Age, most notably in <bibl><author>Virgil’s</author> <title rend="italics"> Eclogue IV</title></bibl>.</note></seg>,</rdg>
+                    <rdg wit="#ae">Come, then, <seg>sweet maid with thine immortal issue<note type="critical">Pulter continues to address Aurora as a virgin (“maid”) while also identifying her as a mother. Her “immortal issue” is Astraea, the goddess of justice (see also <ref type="pp-poem-ref" corresp="23">To Astraea</ref>). Astraea’s appearance is associated with the return of the Golden Age, most notably in <bibl><author>Virgil’s</author> <title rend="italics"> Eclogue IV</title></bibl>.</note></seg>,</rdg>
                 </app>
             </l>
             <l n="14">
