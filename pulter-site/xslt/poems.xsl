@@ -6152,6 +6152,10 @@
       <pp:author>Leah Knight</pp:author>
       <pp:title>A Difficult Labor: Hester Pulter’s Date of Birth</pp:title>
     </pp:exploration>
+    <pp:exploration hash="hester-pulter-in-15-fifteens">
+      <pp:author>Leah Knight</pp:author>
+      <pp:title>Hester Pulter in 15 Fifteens</pp:title>
+    </pp:exploration>
     <pp:exploration hash="hester-pulters-marriage">
       <pp:author>Leah Knight</pp:author>
       <pp:title>Hester Pulter’s Marriage: Facts and Fiction</pp:title>
