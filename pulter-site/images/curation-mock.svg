@@ -1,56 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120">
   <defs>
     <style>
       .cls-1 {
-        stroke-width: 1.83px;
+        stroke-width: 2.17px;
       }
 
-      .cls-1, .cls-2, .cls-3, .cls-4 {
-        fill: none;
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         stroke: #231f20;
         stroke-miterlimit: 13.33;
       }
 
-      .cls-2 {
-        stroke-width: 2.07px;
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        stroke-width: 1.66px;
       }
 
       .cls-3 {
-        stroke-width: 2.39px;
+        stroke-width: 1.88px;
       }
 
-      .cls-4 {
-        stroke-width: 1.95px;
+      .cls-3, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 1.76px;
       }
     </style>
   </defs>
-  <path id="path192" class="cls-2" d="M61.3,149.11H.54V.89H61.3V149.11Z"/>
-  <path id="path194" class="cls-4" d="M83.63,18.22h-22.33v117.42h22.33V18.22Z"/>
-  <path id="path196" class="cls-1" d="M83.63,47.09h15.83V116.13h-15.83V47.09Z"/>
-  <path id="path204" class="cls-3" d="M8.38,36.83H53.46"/>
-  <path id="path204-2" data-name="path204" class="cls-3" d="M8.38,48.17H53.46"/>
-  <path id="path204-3" data-name="path204" class="cls-3" d="M8.38,59.51H53.46"/>
-  <path id="path204-4" data-name="path204" class="cls-3" d="M8.38,70.85H53.46"/>
-  <path id="path204-5" data-name="path204" class="cls-3" d="M8.38,82.19H53.46"/>
-  <path id="path204-6" data-name="path204" class="cls-3" d="M8.38,93.53H53.46"/>
-  <path id="path204-7" data-name="path204" class="cls-3" d="M8.38,104.87H53.46"/>
-  <path id="path204-8" data-name="path204" class="cls-3" d="M8.38,116.21H53.46"/>
-  <path id="path204-9" data-name="path204" class="cls-3" d="M17.62,24.49h26.59"/>
-  <path id="path204-10" data-name="path204" class="cls-4" d="M61.3,50.88h13.61"/>
-  <path id="path204-11" data-name="path204" class="cls-4" d="M61.3,59.69h13.61"/>
-  <path id="path204-12" data-name="path204" class="cls-4" d="M61.3,68.5h13.61"/>
-  <path id="path204-13" data-name="path204" class="cls-4" d="M61.3,77.31h13.61"/>
-  <path id="path204-14" data-name="path204" class="cls-4" d="M61.3,86.12h13.61"/>
-  <path id="path204-15" data-name="path204" class="cls-4" d="M61.3,94.93h13.61"/>
-  <path id="path204-16" data-name="path204" class="cls-4" d="M61.3,103.75h13.61"/>
-  <path id="path204-17" data-name="path204" class="cls-4" d="M61.3,112.56h13.61"/>
-  <path id="path204-18" data-name="path204" class="cls-4" d="M61.3,41.29h8.03"/>
-  <path id="path204-19" data-name="path204" class="cls-1" d="M83.63,69.5h8.57"/>
-  <path id="path204-20" data-name="path204" class="cls-1" d="M83.63,75.52h8.57"/>
-  <path id="path204-21" data-name="path204" class="cls-1" d="M83.63,81.54h8.57"/>
-  <path id="path204-22" data-name="path204" class="cls-1" d="M83.63,87.56h8.57"/>
-  <path id="path204-23" data-name="path204" class="cls-1" d="M83.63,93.58h8.57"/>
-  <path id="path204-24" data-name="path204" class="cls-1" d="M83.63,63.47h5.05"/>
-  <path id="path204-25" data-name="path204" class="cls-3" d="M7.94,127.55H53.03"/>
+  <path id="path192" class="cls-3" d="M61.42,120H0V0H61.42V120Z"/>
+  <path id="path194" class="cls-5" d="M84,14.03h-22.58V109.09h22.58V14.03Z"/>
+  <path id="path196" class="cls-6" d="M84,37.4h16v55.9h-16V37.4Z"/>
+  <path id="path204" class="cls-1" d="M7.92,29.09H53.5"/>
+  <path id="path204-2" data-name="path204" class="cls-1" d="M7.92,38.28H53.5"/>
+  <path id="path204-3" data-name="path204" class="cls-1" d="M7.92,47.46H53.5"/>
+  <path id="path204-4" data-name="path204" class="cls-1" d="M7.92,56.64H53.5"/>
+  <path id="path204-5" data-name="path204" class="cls-1" d="M7.92,65.82H53.5"/>
+  <path id="path204-6" data-name="path204" class="cls-1" d="M7.92,75H53.5"/>
+  <path id="path204-7" data-name="path204" class="cls-1" d="M7.92,84.18H53.5"/>
+  <path id="path204-8" data-name="path204" class="cls-1" d="M7.92,93.37H53.5"/>
+  <path id="path204-9" data-name="path204" class="cls-1" d="M17.27,19.11h26.89"/>
+  <path id="path204-10" data-name="path204" class="cls-4" d="M61.42,40.47h13.76"/>
+  <path id="path204-11" data-name="path204" class="cls-4" d="M61.42,47.6h13.76"/>
+  <path id="path204-12" data-name="path204" class="cls-4" d="M61.42,54.74h13.76"/>
+  <path id="path204-13" data-name="path204" class="cls-4" d="M61.42,61.87h13.76"/>
+  <path id="path204-14" data-name="path204" class="cls-4" d="M61.42,69.01h13.76"/>
+  <path id="path204-15" data-name="path204" class="cls-4" d="M61.42,76.14h13.76"/>
+  <path id="path204-16" data-name="path204" class="cls-4" d="M61.42,83.27h13.76"/>
+  <path id="path204-17" data-name="path204" class="cls-4" d="M61.42,90.41h13.76"/>
+  <path id="path204-18" data-name="path204" class="cls-4" d="M61.42,32.71h8.11"/>
+  <path id="path204-19" data-name="path204" class="cls-2" d="M84,55.54h8.66"/>
+  <path id="path204-20" data-name="path204" class="cls-2" d="M84,60.42h8.66"/>
+  <path id="path204-21" data-name="path204" class="cls-2" d="M84,65.29h8.66"/>
+  <path id="path204-22" data-name="path204" class="cls-2" d="M84,70.17h8.66"/>
+  <path id="path204-23" data-name="path204" class="cls-2" d="M84,75.04h8.66"/>
+  <path id="path204-24" data-name="path204" class="cls-2" d="M84,50.67h5.11"/>
+  <path id="path204-25" data-name="path204" class="cls-1" d="M7.48,102.55H53.06"/>
 </svg>
