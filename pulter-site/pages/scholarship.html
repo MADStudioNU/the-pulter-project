@@ -35,6 +35,32 @@
       </a>
     </div>
   </div>
+  <button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
+  #topButton {
+    z-index: 95;
+    display: block;
+    position: fixed;
+    height: $navActionSize;
+    background: #21211F;
+    background-image: linear-gradient(0deg, #16110e 0%, #261d18 100%);
+    overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid rgba($pp_shinyGold, .25);
+    @include transition(bottom .3s cubic-bezier(.175,.885,.32,1.275), right .3s cubic-bezier(.175,.885,.32,1.275), color .2s);
+  }
+  {
+    bottom: -3em;
+    right: 1.5em;
+    width: $navActionSize;
+
+    img {
+      opacity: .5;
+      max-width: 1em;
+      margin-top: ($navActionSize - 1em) / 2;
+      @include transition(opacity .2s);
+    }
   <div class="separator top"></div>
   <div class="content-box what">
     <div class="content">
