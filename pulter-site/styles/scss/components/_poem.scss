@@ -1340,7 +1340,7 @@ $globalBorderRadius: 4px;
       transform: translateY(0%);
 
       @include breakpoint(mobile) {
-        border: 1px solid #ccc;
+        //border: 1px solid #ccc;
         opacity: 1;
       }
     }
@@ -1560,8 +1560,8 @@ $defaultStrokeWidth: 6px;
       top: -$mobileSize / 2;
       width: $mobileSize;
       height: $mobileSize;
-      background: #e1e1e1;
-      background-image: linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
+      //background: #e1e1e1;
+      //background-image: linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
 
       &:hover .mock {
         width: 100%;
