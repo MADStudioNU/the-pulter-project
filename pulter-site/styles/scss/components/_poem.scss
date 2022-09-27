@@ -1530,29 +1530,28 @@ $defaultStrokeWidth: 6px;
     width: $size;
     height: $size * $ratio;
     border-radius: 2px;
-    background-image:
-      linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
-    border: 1px solid rgba(40, 40, 40, .08);
-    overflow: hidden;
+    //background-image:
+    //linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
+    //border: 1px solid rgba(40, 40, 40, .08);
+    //overflow: hidden;
     opacity: 0;
     transform: translateY(-15%);
 
-    @include transition(all .2s);
+    @include transition(all .2s ease-in-out);
 
     .mock {
       position: absolute;
-      width: 100%;
+      width: 115%;
       top: 0;
       left: 0;
-      @include transition(all .2s)
+      @include transition(width .2s)
     }
 
     &:hover {
-      background-image: linear-gradient(-135deg, #f5f2e6 0%, #f0eadd 100%);
+      //background-image: linear-gradient(-135deg, #f5f2e6 0%, #f0eadd 100%);
+
       .mock {
-        width: 150%;
-        left: -.1em;
-        top: 0;
+        width: 133%;
       }
     }
 
@@ -2019,22 +2018,22 @@ p.secondary {
         position: relative;
 
         &::before {
-          $s: 1em;
+          $s: 1.3em;
 
           position: absolute;
           display: inline-block;
           background: url('/images/curation-mock.svg') no-repeat;
           width: $s;
           height: $s * 1.5;
-          left: -($s * 2.25);
+          left: -($s * 2);
           top: .33em;
           //top: -$s * 1.5;
-          border: 1px solid rgba(#282828, .15);
+          //border: 1px solid rgba(#282828, .15);
           content: '';
 
           @include breakpoint(mobile) {
-            top: .25em;
-            left: -2.5em;
+            top: .33em;
+            left: -2.33em;
           }
         }
       }
