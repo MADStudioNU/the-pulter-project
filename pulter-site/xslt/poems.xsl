@@ -6176,6 +6176,10 @@
       <pp:author>Leah Knight</pp:author>
       <pp:title>Picturing Pulter: Words, Pigment, Stone, and Thread</pp:title>
     </pp:exploration>
+    <pp:exploration hash="rereading-pulters-confinement-in-the-pandemic">
+      <pp:author>Leah Knight</pp:author>
+      <pp:title>Rereading Pulter’s Confinement in the Pandemic</pp:title>
+    </pp:exploration>
     <pp:exploration hash="soundings-hearing-hester-pulters-poems">
       <pp:author>Leah Knight and Wendy Wall</pp:author>
       <pp:title>Soundings: Hearing Hester Pulter’s Poems</pp:title>
