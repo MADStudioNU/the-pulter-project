@@ -631,6 +631,10 @@ $themeColor: #ece9e2;
   // Unnumbered lists
   ul {
     list-style: disc;
+
+    &.no-marker {
+      list-style: none;
+    }
   }
 
   // Numbered lists
