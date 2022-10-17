@@ -1430,6 +1430,7 @@ $defaultStrokeWidth: 6px;
     overflow: hidden;
 
     @include breakpoint(mobile) {
+      // todo: is it really nesessary? investigate!
       overflow: visible;
     }
 
