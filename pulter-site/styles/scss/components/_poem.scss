@@ -1429,6 +1429,10 @@ $defaultStrokeWidth: 6px;
     top: 0;
     overflow: hidden;
 
+    @include breakpoint(mobile) {
+      overflow: visible;
+    }
+
     .drop-cap {
       position: relative;
       left: $defaultLeftOffset;
