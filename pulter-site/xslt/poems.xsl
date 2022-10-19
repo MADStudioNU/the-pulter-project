@@ -6356,7 +6356,7 @@
                         <a href="#explorations">Read Explorations</a>
                       </li>
                       <li>
-                        <img src="/images/manuscript-icon.svg" />
+                        <img src="/images/resources-mock.svg" />
                         <a href="/scholarship.html">Scholarship</a>
                       </li>
                     </ul>
