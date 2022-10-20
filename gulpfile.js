@@ -336,7 +336,7 @@ gulp.task('sitemap', function () {
     protocol + LIVE_SITE_BASE_URL + '/about-project-conventions.html',
     protocol + LIVE_SITE_BASE_URL + '/about-the-project.html',
     protocol + LIVE_SITE_BASE_URL + '/how-to-cite-the-pulter-project.html',
-    protocol + LIVE_SITE_BASE_URL + '/scholarship.html'
+    protocol + LIVE_SITE_BASE_URL + '/resources.html'
   ];
 
   return Promise.all([

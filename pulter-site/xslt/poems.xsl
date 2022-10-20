@@ -6357,7 +6357,7 @@
                       </li>
                       <li>
                         <img src="/images/resources-mock.svg" />
-                        <a href="/scholarship.html">Scholarship</a>
+                        <a href="/resources.html">Resources</a>
                       </li>
                     </ul>
                   </li>
