@@ -526,13 +526,13 @@ $.fn.imgLinkHover = function() {
 		this.hover(function(){
 			/* current hover event add class 'highlight' on hover*/
 				$(this).addClass("highlight");
-				$(this).css({"border":"1px solid #E7CEB3"});
+				// $(this).css({"border":"1px solid #E7CEB3"});
 				var panelId = $(this).attr("data-img-id");
 				$(".imgPanel[id='" + panelId + "']").addClass("highlight");
 			},function(){
 			/* on hover out remove 'highlight' class*/
 				$(this).removeClass("highlight");
-				$(this).css({"border":"1px solid rgba(40, 40, 40, 0.20)"});
+				// $(this).css({"border":"1px solid rgba(40, 40, 40, 0.20)"});
 				var panelId = $(this).attr("data-img-id");
 				$(".imgPanel[id='" + panelId + "']").removeClass("highlight");
 			});		

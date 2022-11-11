@@ -1340,7 +1340,7 @@ $globalBorderRadius: 4px;
       transform: translateY(0%);
 
       @include breakpoint(mobile) {
-        border: 1px solid #ccc;
+        //border: 1px solid #ccc;
         opacity: 1;
       }
     }
@@ -1429,6 +1429,11 @@ $defaultStrokeWidth: 6px;
     top: 0;
     overflow: hidden;
 
+    @include breakpoint(mobile) {
+      // todo: is it really necessary? investigate!
+      overflow: visible;
+    }
+
     .drop-cap {
       position: relative;
       left: $defaultLeftOffset;
@@ -1495,7 +1500,101 @@ $defaultStrokeWidth: 6px;
       left: -7em;
       //@include breakpoint(mobile) {}
     }
+
+    // To be added
+
+    &.uppercase-b {
+      width: 26em;
+      left: 0.5em;
+      top: 2em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-c {
+      width: 25em;
+      left: 0.5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-d {
+      width: 20em;
+      left: 0.5em;
+      top: 3em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-i {
+      width: 25em;
+      left: -2.5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-l {
+      width: 19em;
+      left: 0.5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-m {
+      width: 25em;
+      left: 0.5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-n {
+      width: 30em;
+      left: 0.5em;
+      top: 0em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-o {
+      width: 18em;
+      left: -0.5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-p {
+      width: 25em;
+      left: 0.5em;
+      top: 1em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-s {
+      width: 24em;
+      left: -2.5em;
+      top: 3em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-t {
+      width: 27em;
+      left: 0.5em;
+      top: 5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-v {
+      width: 21em;
+      left: -1.5em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-w {
+      width: 28em;
+      left: 0.5em;
+      top: 4em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-y {
+      width: 24em;
+      left: -2.5em;
+      //@include breakpoint(mobile) {}
+    }
   }
+  
 
   // If poem has a poster, don't show the drop cap in the expanded view
   &.has-poster {
@@ -1530,29 +1629,28 @@ $defaultStrokeWidth: 6px;
     width: $size;
     height: $size * $ratio;
     border-radius: 2px;
-    background-image:
-      linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
-    border: 1px solid rgba(40, 40, 40, .08);
-    overflow: hidden;
+    //background-image:
+    //linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
+    //border: 1px solid rgba(40, 40, 40, .08);
+    //overflow: hidden;
     opacity: 0;
     transform: translateY(-15%);
 
-    @include transition(all .2s);
+    @include transition(all .2s ease-in-out);
 
     .mock {
       position: absolute;
-      width: 100%;
+      width: 115%;
       top: 0;
       left: 0;
-      @include transition(all .2s)
+      @include transition(width .2s)
     }
 
     &:hover {
-      background-image: linear-gradient(-135deg, #f5f2e6 0%, #f0eadd 100%);
+      //background-image: linear-gradient(-135deg, #f5f2e6 0%, #f0eadd 100%);
+
       .mock {
-        width: 150%;
-        left: -.1em;
-        top: 0;
+        width: 133%;
       }
     }
 
@@ -1561,8 +1659,8 @@ $defaultStrokeWidth: 6px;
       top: -$mobileSize / 2;
       width: $mobileSize;
       height: $mobileSize;
-      background: #e1e1e1;
-      background-image: linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
+      //background: #e1e1e1;
+      //background-image: linear-gradient(-135deg, #F7F6F2 0%, #f0ede5 100%);
 
       &:hover .mock {
         width: 100%;
@@ -2019,22 +2117,22 @@ p.secondary {
         position: relative;
 
         &::before {
-          $s: 1em;
+          $s: 1.3em;
 
           position: absolute;
           display: inline-block;
           background: url('/images/curation-mock.svg') no-repeat;
           width: $s;
           height: $s * 1.5;
-          left: -($s * 2.25);
+          left: -($s * 2);
           top: .33em;
           //top: -$s * 1.5;
-          border: 1px solid rgba(#282828, .15);
+          //border: 1px solid rgba(#282828, .15);
           content: '';
 
           @include breakpoint(mobile) {
-            top: .25em;
-            left: -2.5em;
+            top: .33em;
+            left: -2.33em;
           }
         }
       }
