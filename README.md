@@ -46,4 +46,4 @@ Curations:
 > —
 
 Explorations:
-> `Rereading Pulter’s Confinement in the Pandemic`
+> _Rereading Pulter’s Confinement in the Pandemic_ by Leah Knight
