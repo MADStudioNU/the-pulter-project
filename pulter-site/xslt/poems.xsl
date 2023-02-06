@@ -291,7 +291,7 @@
     </pp:poem>
     <pp:poem id="5">
       <pp:title>Of Night and Morning</pp:title>
-      <pp:firstLine>Night like the grave, wherein we lie forelorn</pp:firstLine>
+      <pp:firstLine>Night’s like the grave, wherein we lie forelorn</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Jan Luyken, Vrouw aanschouwt de zonsopgang, 1687. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.143311"/>
