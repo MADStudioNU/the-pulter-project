@@ -2,7 +2,7 @@ name: 'Preview Site: Build and Deploy to Netlify'
 
 on:
   push:
-    branches: [ 'develop' ]
+    branches: [ '' ]
     paths: ['pulter-site/**', 'pulter-poems/**']
 
 jobs:
@@ -13,35 +13,35 @@ jobs:
         uses: actions/checkout@v1
         with:
           submodules: true
-                  
+
       - name: Prepare Java
         uses: actions/setup-java@v2
         with:
           distribution: 'adopt'
           java-version: '8'
-      
+
       - name: Prepare Node 8
         uses: actions/setup-node@v1
         with:
           node-version: '8.x'
-          
+
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
       - run: gulp deploy
- 
+
       - name: Prepare Node 16
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-        
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
           publish-dir: 'dist'
           production-deploy: true
           deploy-message: Triggered from Github Actions by @${{ github.actor }}.
-        env:        
+        env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 1
