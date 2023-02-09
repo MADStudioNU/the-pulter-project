@@ -258,12 +258,22 @@ $themeColor: #ece9e2;
         &.t-10{ padding-left: 10em; }
         &.t-11{ padding-left: 11em; }
         &.t-12{ padding-left: 12em; }
+
+        .line-stamp {
+          display: inline-block;
+          vertical-align: middle;
+          background: lighten($pp_manuscriptPaper, 10%);
+          border-radius: 4px;
+          padding: 0 .45em;
+          font-family: Lato, Arial, sans-serif;
+          font-size: ms(-4);
+          color: $pp_manuscriptInk;
+          opacity: .66;
+        }
       }
 
       // Ellipses
       .ell {
-        //background: lemonchiffon;
-
         span {
           color: rgba($pp_manuscriptInk, .66);
           position: relative;
@@ -287,6 +297,39 @@ $themeColor: #ece9e2;
         &.term {
           span { bottom: -1px; }
         }
+      }
+    }
+
+    .inline-comment {
+      font-size: ms(-3);
+      font-family: Lato, Arial, sans-serif;
+      display: inline-block;
+      margin-left: 4em;
+      padding: .8em 1em;
+      background: #eee;
+      border-radius: 2px;
+      color: $pp_manuscriptInk;
+
+
+      &.for-above {
+        margin-bottom: 2.5em;
+      }
+
+      &.for-below {
+        margin-top: 2.5em;
+      }
+
+      .comment {}
+
+      .author {
+        display: block;
+        margin-top: .4em;
+        opacity: .66;
+        font-style: italic;
+      }
+
+      &.l {
+        margin-top: 1em;
       }
     }
 
