@@ -1495,16 +1495,16 @@ $defaultStrokeWidth: 6px;
   // Individual drop cap adjustments
   // See the defaults above
   .drop-cap-box .drop-cap {
-    &.uppercase-v {
-      //width: 25em;
-      left: -7em;
+    &.uppercase-a {
+      left: 0.5em;
+      top: 2em;
       //@include breakpoint(mobile) {}
     }
 
     &.uppercase-b {
       width: 26em;
       left: 0.5em;
-      top: 2em;
+      top: -1em;
       //@include breakpoint(mobile) {}
     }
 
@@ -1517,7 +1517,7 @@ $defaultStrokeWidth: 6px;
     &.uppercase-d {
       width: 20em;
       left: 0.5em;
-      top: 3em;
+      top: 1em;
       //@include breakpoint(mobile) {}
     }
 
@@ -1531,12 +1531,14 @@ $defaultStrokeWidth: 6px;
     &.uppercase-i {
       width: 25em;
       left: -2.5em;
+      top: 2em;
       //@include breakpoint(mobile) {}
     }
 
     &.uppercase-l {
       width: 19em;
       left: 0.5em;
+      top: 2em;
       //@include breakpoint(mobile) {}
     }
 
@@ -1549,13 +1551,14 @@ $defaultStrokeWidth: 6px;
     &.uppercase-n {
       width: 30em;
       left: 0.5em;
-      top: 0;
+      top: -3em;
       //@include breakpoint(mobile) {}
     }
 
     &.uppercase-o {
       width: 18em;
-      left: -0.5em;
+      left: 0;
+      top: 2em;
       //@include breakpoint(mobile) {}
     }
 
@@ -1575,8 +1578,8 @@ $defaultStrokeWidth: 6px;
 
     &.uppercase-t {
       width: 27em;
-      left: 0.5em;
-      top: 5em;
+      left: 1em;
+      top: 2em;
       //@include breakpoint(mobile) {}
     }
 
@@ -1595,7 +1598,8 @@ $defaultStrokeWidth: 6px;
 
     &.uppercase-y {
       width: 24em;
-      left: -2.5em;
+      left: -3em;
+      top: 2.5em;
       //@include breakpoint(mobile) {}
     }
   }
