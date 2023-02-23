@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--suppress CheckValidXmlInScriptTagBody -->
 <xsl:stylesheet version="1.0" exclude-result-prefixes="tei" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xsl:strip-space elements="*"/>
   <xsl:output omit-xml-declaration="yes" indent="no"/>
@@ -106,11 +107,18 @@
 
   <xsl:variable name="firstLineNormalized" select="normalize-space($firstLine)"/>
 
-  <!-- TODO:
-      find the first character of the very first line
-  -->
-  <xsl:variable name="dropCap"
-                select="translate(substring($firstLineNormalized, 1, 1), $upperCaseAlphabet, $lowerCaseAlphabet)"/>
+  <!-- Find the first character of the very first line -->
+  <xsl:variable name="dropCap">
+    <xsl:choose>
+      <!-- Special case for Poem 32 that starts with a “ff” ligature -->
+      <xsl:when test="$poemID = 32">
+        <xsl:value-of select="'ff'"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="translate(substring($firstLineNormalized, 1, 1), $upperCaseAlphabet, $lowerCaseAlphabet)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
 
   <!-- Witnesses -->
   <xsl:variable name="witnesses" select="//tei:witness[@xml:id]"/>

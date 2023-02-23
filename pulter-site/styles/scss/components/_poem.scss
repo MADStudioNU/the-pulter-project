@@ -1501,8 +1501,6 @@ $defaultStrokeWidth: 6px;
       //@include breakpoint(mobile) {}
     }
 
-    // To be added
-
     &.uppercase-b {
       width: 26em;
       left: 0.5em;
@@ -1520,6 +1518,13 @@ $defaultStrokeWidth: 6px;
       width: 20em;
       left: 0.5em;
       top: 3em;
+      //@include breakpoint(mobile) {}
+    }
+
+    &.uppercase-ff {
+      width: 26em;
+      left: .5em;
+      top: -3em;
       //@include breakpoint(mobile) {}
     }
 
@@ -1544,7 +1549,7 @@ $defaultStrokeWidth: 6px;
     &.uppercase-n {
       width: 30em;
       left: 0.5em;
-      top: 0em;
+      top: 0;
       //@include breakpoint(mobile) {}
     }
 
@@ -1594,7 +1599,7 @@ $defaultStrokeWidth: 6px;
       //@include breakpoint(mobile) {}
     }
   }
-  
+
 
   // If poem has a poster, don't show the drop cap in the expanded view
   &.has-poster {
