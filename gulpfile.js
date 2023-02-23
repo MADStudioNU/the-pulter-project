@@ -181,6 +181,7 @@ gulp.task('html', function () {
 gulp.task('files-deploy', function (done) {
   gulp.src([
     SITE_BASE + '*',
+    '!'+ SITE_BASE +'dropcaps',
     '!'+ SITE_BASE +'xslt',
     '!'+ SITE_BASE +'pages'
   ])
