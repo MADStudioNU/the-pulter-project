@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:pp="http://madstudio.northwestern.edu/pp/xmlns/1"
                 exclude-result-prefixes="pp"
@@ -6406,6 +6407,7 @@
                 </div>
                 <div class="col c-flag">
                   <span class="label">Curations</span>
+                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#curations-blurb" data-featherlight-variant="home-lightbox">i</a>
                 </div>
               </div>
             </div>
@@ -6728,6 +6730,14 @@
             <img src="/images/tpp-editions-blurb.png"/>
             <p>Those encountering Pulter for the first time might start with the <span class="edition-label">elemental</span> editions, with their modernized text and relatively simple annotations.</p>
             <p>Those ready for more will enjoy the <span class="edition-label">amplified</span> editions, each governed by its own principles and more extensive annotation.</p>
+          </div>
+        </div>
+        <div id="curations-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3><span class="it">The Pulter Project</span> Curations</h3>
+          <div class="c">
+            <img src="/images/tpp-curations-blurb.png"/>
+            <p>Curations offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem.</p>
           </div>
         </div>
         <script src="/scripts/vendors/vendors.js"><xsl:text> </xsl:text></script>
