@@ -1694,7 +1694,7 @@
         <pp:keyword>night</pp:keyword>
         <pp:keyword>praise</pp:keyword>
         <pp:keyword>death</pp:keyword>
-        <pp:keyword>sexuaity</pp:keyword>
+        <pp:keyword>sexuality</pp:keyword>
         <pp:keyword>dust</pp:keyword>
         <pp:keyword>song</pp:keyword>
         <pp:keyword>afterlife</pp:keyword>
