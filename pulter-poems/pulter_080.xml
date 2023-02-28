@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Bruce Boehrer</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -146,24 +146,24 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 14]</rdg>
           <rdg wit="#ee">The Stately Unicorn<lb/>(Emblem 14)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">Emblem 14 (Untitled)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
-            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
           </rdg>
           <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">I’ve chosen to preserve Pulter's spelling and capitalization, while expanding superscripts and contractions and lightly modernizing punctuation.</note>
           </rdg>
         </app>
         <app type="headnote">
           <rdg wit="#ee">
-            <note type="headnote">Even the most powerful creatures are subject to seduction. This emblem unites the legendary unicorn (whose ability to purify poisonous waters grants him tremendous authority) with the biblical figures of the physically powerful Samson and wise Solomon, as creatures who risk becoming enslaved by the worldly allurements signified, quite conventionally, by women. Using these stories, the speaker feels empowered to address an imagined public audience of “gallants,” warning them of the danger of submitting to lust, fancy, or even alluring maidens.</note>  
+            <note type="headnote">Even the most powerful creatures are subject to seduction. This emblem unites the legendary unicorn (whose ability to purify poisonous waters grants him tremendous authority) with the biblical figures of the physically powerful Samson and wise Solomon, as creatures who risk becoming enslaved by the worldly allurements signified, quite conventionally, by women. Using these stories, the speaker feels empowered to address an imagined public audience of “gallants,” warning them of the danger of submitting to lust, fancy, or even alluring maidens.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote">Over time, the unicorn has served as a—perhaps <hi rend="italic">the</hi>—quintessential bestiary beast, one existing only in the pages of the bestiaries and related works. Pulter’s fourteenth emblem falls into the latter category. It takes as its point of departure a common piece of bestiary lore: that when the otherwise-elusive unicorn encounters a female virgin, “it leaps into her lap and embraces her, and goes to sleep there,” and so is taken.<seg>1<note type="gloss"><bibl><title rend="italic">Bestiary</title>, ed. Richard Barber (Woodbridge: Boydell, 1993), 36.</bibl></note></seg> As fanciful as this tale may sound to modern ears, Pulter then applies it to a still more curious purpose, associating it with the biblical histories of Samson and Solomon as an example of perfidious feminine seduction. Never mind that the stories in question draw on very different literary sources. Never mind that the unicorn’s maiden coexists uneasily with malign temptress-figures like Samson’s Dalila and Solomon’s wives. And never mind that the unicorn, who is not even human, seems a poor cautionary figure for “Youthfull Gallants” ensnared by feminine wiles. In fact, Pulter pursues a different logic here, a logic of metaphorical and typological association that trumps all these issues. Again the bestiaries offer guidance, commonly noting that “Our Lord Jesus Christ is the spiritual unicorn of whom it is said: ‘My beloved is like the son of the unicorns’ [Song of Songs 2.9].”<seg>2<note type="gloss"><bibl><title rend="italic">Bestiary</title> 36-7.</bibl></note></seg> This connection established, it becomes easy to relate the unicorn to Samson and Solomon, both of whom were understood from classical times forward to be Old Testament anticipations of Christ.<seg>3<note type="gloss"><bibl>Saint Caesarius of Arles, <title>Sermons</title>, trans. Sister Mary Magdeleine Mueller, 3 vols. (Washington, DC: Catholic UP, 1964), vol. 2, sermon 118, pp.182-9. Origen, <title rend="italic">Commentary on John</title>, in <title rend="italic">The Ante-Nicene Fathers</title>, ed. Allan Menzies, v. 9 (New York: Charles Scribner’s Sons, 1912), 10.22, p. 403.</bibl></note></seg> On this logic, Samson, betrayed into slavery by Dalila, and Solomon, betrayed into idolatry by his wives, both prefigure the unicorn Jesus, consigned to the cross by the first and worst of all feminine betrayals—Eve’s. To be sure, Samson and Solomon collude in their downfall by yielding to what Milton would call “uxoriousness”—the fault of overvaluing the feminine—but in the case of the unicorn/Christ, masculinity evades even this secondary level of responsibility, which is relayed instead onto Adam. Woman remains the root of all evil, and the emblem develops out of a hermeneutics as conservative as its gender politics.</note>
           </rdg>
         </app>
       </head>
@@ -172,42 +172,42 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">14</fw><seg>In<note type="physical">preceding poem occupies first third of page, followed by blank third; poem begins in bottom third</note></seg> A&ff;rica about the &ff;ountain’s brink</rdg>
             <rdg wit="#ee">In Africa, about the fountain’s <seg>brink<note type="gloss">edge</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In <seg>Affrica<note type="gloss">The earliest accounts of the unicorn associate it with India (see e.g. Ctesias’ <hi rend="italic">Indica</hi>). However, by the 1500s, travelers had begun placing it in Africa—especially Ethiopia—as well.</note></seg> about the Fountain’s brink</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Where Beast Aſſemble, <seg>None<note type="physical">appears written over earlier word, possibly “more”</note></seg> p:ſumes to drink</rdg>
             <rdg wit="#ee">Where beasts assemble, none presumes to drink</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Where Beasts Assemble, None presumes to drink</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Untill they See the Stately Unicorn</rdg>
             <rdg wit="#ee">Until they see the stately <seg>unicorn<note type="gloss">A mythical animal whose single horn was reputed to possess medicinal or magical properties, especially in purifying poisons; according to legend, only a virgin could capture it.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Untill they see the stately Unicorn,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Who Stirs the Poyſonous Waters <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> his Horn</rdg>
             <rdg wit="#ee">Who stirs the poisonous waters with his horn;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Who stirs the Poysonous Waters with his Horn.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Then with Extended Jaws they drink their &ff;ill</rdg>
             <rdg wit="#ee">Then, with extended jaws, they drink their fill:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then with extended Jaws <seg>they drink their Fill<note type="gloss">Jan van Linschoten attributes this behavior to the rhinoceros, which he notes “some think...the right Unicorne, because there as yet hath no other been founde” (<bibl><title rend="italic">Discourse of Voyages into ye Easte and West Indies</title> [London, 1598], 1.47, p. 88.</bibl>) The second of the so-called Unicorn Tapestries, woven in the Low Countries between 1495 and 1505 and currently housed in the Met Cloisters, depicts this activity (see image in the headnote for this edition).</note></seg>.</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Thus hee the &ff;orrest Governeth at his Will</rdg>
             <rdg wit="#ee">Thus he the forest governeth at his will.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thus <seg>hee the Forrest Governeth<note type="gloss">The three key figures in this emblem—the unicorn, Samson, and Solomon—all serve as models of governance or leadership, qualities compromised in each case by an abdication of reason in the face of feminine wiles.</note></seg> at his Will.</rdg>
         </app>
       </l>
         <app>
@@ -230,126 +230,126 @@
         <app>
             <rdg wit="#ft">Hee Scorns all Huntsmen, who can never take</rdg>
             <rdg wit="#ee">He scorns all huntsmen, who can never take</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Hee Scorns all Huntsmen, who can never take</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">This Gallant Beast till they a Mayden make</rdg>
             <rdg wit="#ee">This <seg>gallant<note type="gloss">brave, gorgeous</note></seg> beast, till they a maiden make</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>This Gallant Beast<note type="gloss">According to a wholly separate tradition repeated by Shakespeare, the unicorn could also be “betrayed with trees” (<title rend="italic">Julius Caesar</title> 2.1)—i.e. captured by being induced to run its horn into a tree-trunk.</note></seg> till they a Mayden make</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">To Sit where hee doth haunt, him to allure</rdg>
             <rdg wit="#ee">To sit where he doth haunt, him to allure;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To Sit where hee doth haunt, him to allure,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">&ff;or in her lap hee’l lie and Sleep Secure</rdg>
             <rdg wit="#ee">For in her lap he’ll lie and sleep secure.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For in her lap hee’l lie and sleep secure.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Thus hee that Scorn’d his Potents Enemie</rdg>
             <rdg wit="#ee">Thus he that scorned his <seg>potentest<note type="gloss">most potent, strongest</note></seg> enemy</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thus hee that Scorn’d his Potent’st Enemie</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Is now inſlav’d by A Virgins Eye</rdg>
             <rdg wit="#ee">Is now enslavéd by a virgin’s eye.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Is now inslav’d by A Virgins Eye.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Soe Sampſon though Enabled from above</rdg>
             <rdg wit="#ee">So <seg>Samson<note type="gloss">See Judges 13-16; a biblical Nazrite who possessed Herculean strength, he killed one thousand Philistines with the jaw bone of an ass; Delilah seduced and betrayed him by revealing the source of his strength (his hair). After being captured and blinded by his enemies, he was put to work in a mill before later regaining his strength.</note></seg>, though enabled from above,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Soe Sampson though Enabled from above</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">&ff;ound Death, and Ruin, from his Wanton Love</rdg>
             <rdg wit="#ee">Found death and ruin from his wanton love;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Found Death and Ruin from his Wanton Love.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Hee that a Thouſand Slaughterd with a Jaw</rdg>
             <rdg wit="#ee">He that a thousand slaughtered with a jaw,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Hee that a Thousand Slaughterd with a <seg>Jaw<note type="gloss">Notably among his exploits, Samson slew a thousand Philistines using the jawbone of an ass as a club (Judges 15.19). As to his similarity to Christ, Caesarius of Arles (468-542) observes, “What was the meaning of Samson? If I say he signified Christ, it seems to me that I speak the truth. ... Inasmuch as Samson performed virtues and miracles he prefigured Christ, the head of the Church. When he acted prudently, he was an image of those who live justly in the Church” (<bibl><title rend="italic">Sermons</title>, trans. Sister Mary Magdeleine Mueller, 3 vols. [Washington, DC: Catholic UP, 1964], vol. 2, sermon 118, pp.182-9</bibl>).</note></seg>,</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Beeing Blind and Captive, in A Mill did draw</rdg>
             <rdg wit="#ee">Being blind and captive in a mill did <seg>draw<note type="gloss">work to move objects</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Beeing Blind and Captive, in A Mill did draw.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Soe Solloman allur’d by various Love</rdg>
             <rdg wit="#ee">So <seg>Solomon<note type="gloss">see Kings 11:1-4; biblical king of Israel whose numerous foreign wives turned his heart toward idolatry (the worship of material beings made of earthly elements, or “dust”)</note></seg>, allured by various <seg>love<note type="gloss">loves</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Soe Solloman<note type="gloss">For Origen, “Solomon was an image of the Saviour” (<bibl>Origen, <title rend="italic">Commentary on John</title>, in <title rend="italic">The Ante-Nicene Fathers</title>, ed. Allan Menzies, v. 9 [New York: Charles Scribner’s Sons, 1912], 10.22, p. 403</bibl>). Saint Augustine declares that whereas “[t]he name of Solomon is interpreted to mean peacemaker: now Christ is the True Peacemaker, of whom the Apostle  says, ‘He is our Peace, who has made both one.’ Ephesians 2:!4 ... [T]herefore, He is the true Solomon; for that Solomon was the figure of this Peace maker, when he built the temple” (<bibl>Exposition on Psalm 127, 1, in Philip Schaff, ed. <title rend="italic">Nicene and Post-Nicene Fathers</title>, trans. J. E. Tweed [Buffalo, NY: Christian Literature Publishing, 1888], first series, vol. 8</bibl>).</note></seg> allur’d by various Love</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Did leave the True and Glorious God above</rdg>
             <rdg wit="#ee">Did leave the true and glorious God above</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Did Leave the True and Glorious God above</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">To Worſhip thoſe whoſe &ff;abrick is of Dust</rdg>
             <rdg wit="#ee">To worship those whose fabric is of <seg>dust<note type="gloss">earth</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To Worship those whose Fabricke is of Dust;</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">The Wiſest King was thus inſlavd <seg>by<note type="physical">“b” possibly written over other letters</note></seg> Lust</rdg>
             <rdg wit="#ee">The wisest king was thus enslaved by lust.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The Wisest King was thus inslav’d by Lust.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">The Strongest and the Wiſest thus you See</rdg>
             <rdg wit="#ee">The strongest and the wisest thus you see,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The Strongest and the Wisest thus you see</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">&ff;oold by their stre<add place="below">^</add><add place="above">n</add>ght and Wiſdome often bee</rdg>
             <rdg wit="#ee">Fooled by their strength and wisdom often be.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Fool’d by their strength and Wisdome often bee.</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Then let all Youthfull Gallants warning take</rdg>
             <rdg wit="#ee">Then let all youthful <seg>gallants<note type="gloss">amorous men</note></seg> warning take:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then let all Youthfull Gallants warning take</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">To chooſe by Reaſon not for ffancies Sake.</rdg>
             <rdg wit="#ee">To choose by reason, not <seg>for fancy’s sake<note type="gloss">for a whim; for an amorous inclination or love</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>To choose by Reason, not for <seg>Fancies sake<note type="gloss">“Fancy” appears here in the sense of “to take a fancy to; to entertain a liking for; to be pleased with; to like ... (in early use often=to be or fall in love with)” (<bibl><title rend="italic">OED</title> “Fancy” v. II.8.a</bibl>).</note></seg><note type="gloss">Sexual infatuation was understood as madness and therefore the opposite of reason. See Shakespeare: “Love is merely madness” (<title rend="italic">As You Like It</title> 3.2).</note></seg>.</rdg>
         </app>
       </l>
         <app>
