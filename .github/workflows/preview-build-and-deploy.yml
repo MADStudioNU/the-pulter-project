@@ -4,6 +4,7 @@ on:
   push:
     branches: [ 'develop' ]
 #    paths: ['pulter-site/**', 'pulter-poems/**']
+    paths: ['/']
 
 jobs:
   build-and-deploy:
