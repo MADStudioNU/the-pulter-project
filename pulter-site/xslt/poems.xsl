@@ -6,7 +6,7 @@
     <xsl:strip-space elements="*"/>
     <xsl:output omit-xml-declaration="yes" indent="no"/>
 
-  <!--  The Pulter Project Poems -->
+  <!-- The Pulter Project Poems -->
   <pp:poems>
     <pp:poem id="1">
       <pp:title>The Eclipse</pp:title>
