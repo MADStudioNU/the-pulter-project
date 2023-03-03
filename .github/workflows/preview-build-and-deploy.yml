@@ -28,11 +28,10 @@ jobs:
       - name: Prepare Python
         uses: actions/setup-python@v4
         with:
-          python-version: '2.7.18'
+          python-version: '3.11'
 
       - run: python --version
       - run: echo $JAVA_HOME
-      - run: npm rebuild --all
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
