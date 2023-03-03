@@ -25,9 +25,8 @@ jobs:
         with:
           node-version: '8.x'
 
-      - name: [DIAGNOSTIC]
-        run: echo $JAVA_HOME
 
+      - run: echo $JAVA_HOME
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
