@@ -3,8 +3,7 @@ name: 'Preview Site: Build and Deploy to Netlify'
 on:
   push:
     branches: [ 'develop' ]
-#    paths: ['pulter-site/**', 'pulter-poems/**']
-    paths: ['/']
+    paths: ['pulter-site/**', 'pulter-poems/**']
 
 jobs:
   build-and-deploy:
