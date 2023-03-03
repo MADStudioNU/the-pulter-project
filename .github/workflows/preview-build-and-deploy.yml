@@ -27,6 +27,7 @@ jobs:
 
 
       - run: echo $JAVA_HOME
+      - run: npm rebuild --all
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
