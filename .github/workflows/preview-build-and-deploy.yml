@@ -25,6 +25,10 @@ jobs:
         with:
           node-version: '8.x'
 
+      - name: Prepare Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '2.7.18'
 
       - run: echo $JAVA_HOME
       - run: npm rebuild --all
