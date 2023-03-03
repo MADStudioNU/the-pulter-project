@@ -30,6 +30,7 @@ jobs:
         with:
           python-version: '2.7.18'
 
+      - run: python --version
       - run: echo $JAVA_HOME
       - run: npm rebuild --all
       - run: yarn
