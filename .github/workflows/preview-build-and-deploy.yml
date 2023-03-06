@@ -25,10 +25,10 @@ jobs:
 #        with:
 #          node-version: '8.x'
 
-      - name: Prepare Node 16
+      - name: Prepare Node 18
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
 #      - name: Setup Python
 #        uses: actions/setup-python@v4
@@ -47,6 +47,8 @@ jobs:
 
       - run: yarn
       - run: npm i -g gulp-cli
+      - run: xsltproc -version
+      - run: which xsltproc
       - run: gulp xslt
       - run: gulp deploy
 
