@@ -1,5 +1,5 @@
 // Constants
-const XML_SOURCES_FOLDER = 'pulter-poems/',
+var XML_SOURCES_FOLDER = 'pulter-poems/',
   SITE_BASE = 'pulter-site/',
   PRODUCTION_SITE_BASE = 'dist/',
   POEMS_DESTINATION_FOLDER = SITE_BASE + 'poems',
@@ -18,29 +18,28 @@ const XML_SOURCES_FOLDER = 'pulter-poems/',
   ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js',
   LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 
-const appendPrepend = require('gulp-append-prepend');
-const gulp = require('gulp');
-const gulpUtil = require('gulp-util');
-const concat = require('gulp-concat');
-const dashify = require('dashify');
-const debug = require('gulp-debug');
-const flatMap = require('gulp-flatmap');
-const fs = require('fs');
-const sass = require('gulp-sass')(require('sass'));
-const sourceMaps = require('gulp-sourcemaps');
-const loadJSON = require('load-json-file');
-const minifyCSS = require('gulp-clean-css');
-const browserSync = require('browser-sync').create();
-const shell = require('gulp-shell');
-const path = require('path');
-const plumber = require('gulp-plumber');
-const rename = require('gulp-rename');
-const source = require('vinyl-source-stream');
-const uglify = require('gulp-uglify');
-const xslt = require('gulp-xsltproc');
-const v8 = require("v8");
+var appendPrepend = require('gulp-append-prepend');
+var gulp = require('gulp');
+var gulpUtil = require('gulp-util');
+var concat = require('gulp-concat');
+var dashify = require('dashify');
+var debug = require('gulp-debug');
+var flatMap = require('gulp-flatmap');
+var fs = require('fs');
+var sass = require('gulp-sass');
+var sourceMaps = require('gulp-sourcemaps');
+var loadJSON = require('load-json-file');
+var minifyCSS = require('gulp-clean-css');
+var browserSync = require('browser-sync').create();
+var shell = require('gulp-shell');
+var path = require('path');
+var plumber = require('gulp-plumber');
+var rename = require('gulp-rename');
+var source = require('vinyl-source-stream');
+var uglify = require('gulp-uglify');
+var xslt = require('gulp-xslt2');
 
-const vendorScripts = [
+var vendorScripts = [
   'node_modules/jquery/dist/jquery.js',
   'node_modules/flowtype.js/flowtype.js',
   'node_modules/animejs/anime.min.js',
@@ -67,14 +66,6 @@ function filterById(collection, id) {
 
 function getJSRedirectString(url, ignoreHash) {
   return '<!DOCTYPE html><html><head><link rel="canonical" href="' + LIVE_SITE_BASE_URL + url + '" /><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script></head><body></body></html>';
-}
-
-function getXSLTProcOptions(xslFileName) {
-  return {
-    warning_as_error: false,
-    metadata: false,
-    stylesheet: xslFileName
-  }
 }
 
 /* DEV Tasks */
@@ -277,20 +268,10 @@ gulp.task('xslt:erase', function(done) {
   done();
 });
 
-gulp.task('xslt:erase:search', function(done) {
-  shell.task([
-    'rm -rf ' + SEARCH_DOCS_DESTINATION_FOLDER
-  ]);
-
-  done();
-});
-
 gulp.task('xslt:index', function () {
   return gulp.src(SITE_BASE + 'xslt/_poemsHTML.xml')
     .pipe(debug())
-    .pipe(
-      xslt(getXSLTProcOptions(SITE_BASE + 'xslt/poems.xsl'))
-    )
+    .pipe(xslt(SITE_BASE + 'xslt/poems.xsl'))
     .pipe(concat('index.html'))
     .pipe(gulp.dest(SITE_BASE));
 });
@@ -298,9 +279,7 @@ gulp.task('xslt:index', function () {
 gulp.task('xslt:manifest', function () {
   return gulp.src(SITE_BASE + 'xslt/_poemsJSON.xml')
     .pipe(debug())
-    .pipe(
-      xslt(getXSLTProcOptions(SITE_BASE + 'xslt/poems.xsl'))
-    )
+    .pipe(xslt(SITE_BASE + 'xslt/poems.xsl'))
     .pipe(concat(PULTER_POEM_MANIFEST_FILE_NAME))
     .pipe(gulp.dest(SITE_BASE));
 });
@@ -309,25 +288,22 @@ gulp.task('xslt:lunrBuildSearchIndex', function () {
   return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
-        const poemsInManifest = data;
-
+        var poemsInManifest = data;
         return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
           .pipe(flatMap(function (stream, xmlFile) {
-            let fileName = path.basename(xmlFile.path),
+            var fileName = path.basename(xmlFile.path),
               poemId = fileName
                 .replace(/\.[^/.]+$/, '')
                 .replace('pulter_', '');
             poemId = +poemId;
 
-            const filtered = filterById(poemsInManifest, poemId);
-            const isPublished = filtered.length > 0 && filtered[0].isPublished;
-            const isPseudo = filtered[0] ? (filtered[0].hasOwnProperty('isPseudo')) : false;
+            var filtered = filterById(poemsInManifest, poemId);
+            var isPublished = filtered.length > 0 && filtered[0].isPublished;
+            var isPseudo = filtered[0] ? (filtered[0].hasOwnProperty('isPseudo')) : false;
 
             if (isPublished && !isPseudo && isNumber(poemId)) {
               return gulp.src(xmlFile.path)
-                .pipe(
-                  xslt(getXSLTProcOptions(PP_SEARCH_DOC_TRANSFORMATION))
-                )
+                .pipe(xslt(PP_SEARCH_DOC_TRANSFORMATION))
                 .pipe(plumber())
                 .pipe(rename('doc_' + poemId + '.js'))
             } else {
@@ -345,16 +321,16 @@ gulp.task('xslt:lunrBuildSearchIndex', function () {
   ]);
 });
 
-gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunrBuildSearchIndex', (done) => {
+gulp.task('xslt:lunr', gulp.series('xslt:erase', 'xslt:lunrBuildSearchIndex', (done) => {
   done();
 }));
 
 gulp.task('sitemap', function () {
-  const prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
-  const suffix = '</urlset>';
-  const protocol = 'https:';
+  var prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  var suffix = '</urlset>';
+  var protocol = 'https:';
 
-  const pages = [
+  var pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
     protocol + LIVE_SITE_BASE_URL + '/#poems',
     protocol + LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
@@ -368,12 +344,12 @@ gulp.task('sitemap', function () {
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
         console.log('Hi! Sitemap Builder is here!');
-        const publishedPoems = data.filter(function (poemObj) {
+        var publishedPoems = data.filter(function (poemObj) {
           return poemObj.isPublished;
         });
-        let poemUrls = [];
-        const triads = publishedPoems.map(function (poemObject) {
-          const slug = dashify(poemObject.seo, {condense: true});
+        var poemUrls = [];
+        var triads = publishedPoems.map(function (poemObject) {
+          var slug = dashify(poemObject.seo, { condense: true });
 
           return [
             protocol + LIVE_SITE_BASE_URL + '/poems/ee/' + slug + '/',
@@ -382,15 +358,15 @@ gulp.task('sitemap', function () {
           ]
         });
 
-        const length = triads.length;
-        for (let i = 0; i < length; i++) {
+        var length = triads.length;
+        for (var i = 0; i < length; i++) {
           poemUrls = poemUrls.concat(triads[i]);
         }
 
-        const curations = fs.readdirSync(SITE_BASE + 'curations')
+        var curations = fs.readdirSync(SITE_BASE + 'curations')
           .filter(function (itemName) {
-            let publishedWithThisId = [];
-            const id = +itemName.split('-')[0].slice(1);
+            var publishedWithThisId = [];
+            var id = +itemName.split('-')[0].slice(1);
 
             if (typeof id === 'number' && !isNaN(id)) {
               publishedWithThisId = publishedPoems.filter(function (poem) {
@@ -404,18 +380,16 @@ gulp.task('sitemap', function () {
             return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
           });
 
-        const explorations = fs.readdirSync(SITE_BASE + 'explorations')
-          .filter(function (itemName) {
-            return itemName.indexOf('.html') > -1;
-          })
+        var explorations = fs.readdirSync(SITE_BASE + 'explorations')
+          .filter(function (itemName) { return itemName.indexOf('.html') > -1; })
           .map(function (curationFileName) {
             return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
           });
 
-        let urls = pages.concat(poemUrls, curations, explorations);
+        var urls = pages.concat(poemUrls, curations, explorations);
 
         urls = urls.map(function (url) {
-          let priority = .5;
+          var priority = .5;
 
           if (url.indexOf('//pulterproject.northwestern.edu/#poems') > -1) {
             priority = .75;
@@ -439,7 +413,7 @@ gulp.task('sitemap', function () {
           return '<url><loc>' + url + '</loc><priority>' + priority + '</priority></url>';
         }).join('\n');
 
-        const stream = source('null.xml');
+        var stream = source('null.xml');
         stream.end(prefix + urls + suffix);
         stream
           .pipe(rename('site.xml'))
@@ -451,31 +425,43 @@ gulp.task('sitemap', function () {
   ]);
 });
 
-gulp.task('xslt:poems:ee', function () {
+gulp.task('xslt:poems', function () {
   // Silence ./poems/
-  const streamN = source('null.html');
+  var streamN = source('null.html');
   streamN.end(getJSRedirectString('/#poems', true));
   streamN.pipe(rename('/index.html'))
     .pipe(gulp.dest(POEMS_DESTINATION_FOLDER));
 
   // Silence ./poems/ee
-  const streamEE = source('null.html');
+  var streamEE = source('null.html');
   streamEE.end(getJSRedirectString('/poems' + EE_SUBFOLDER + '/1', true));
   streamEE.pipe(rename('/index.html'))
     .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + EE_SUBFOLDER));
+
+  // Silence ./poems/ae
+  var streamAE = source('null.html');
+  streamAE.end(getJSRedirectString('/poems' + AE_SUBFOLDER + '/1', true));
+  streamAE.pipe(rename('/index.html'))
+    .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + AE_SUBFOLDER));
+
+  // Silence ./poems/vm
+  var streamVM = source('null.html');
+  streamVM.end(getJSRedirectString('/poems' + VM_SUBFOLDER + '/1', true));
+  streamVM.pipe(rename('/index.html'))
+    .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + VM_SUBFOLDER));
 
   return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
         console.log('Hi! EE Publisher is here!');
-        const poemsInManifest = data;
+        var poemsInManifest = data;
         console.log('Poems in the manifest: ' + poemsInManifest.length + '.');
 
         return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
           .pipe(flatMap(function (stream, xmlFile) {
             console.log('|');
 
-            let fileName = path.basename(xmlFile.path),
+            var fileName = path.basename(xmlFile.path),
               poemId = fileName
                 .replace(/\.[^/.]+$/, '')
                 .replace('pulter_', '');
@@ -483,14 +469,14 @@ gulp.task('xslt:poems:ee', function () {
             console.log('Poem #' + poemId + ', Elemental Edition.');
             console.log('Source: ' + fileName);
 
-            const filtered = filterById(poemsInManifest, poemId);
-            const isPublished = filtered.length > 0;
+            var filtered = filterById(poemsInManifest, poemId);
+            var isPublished = filtered.length > 0;
 
             console.log(isPublished ? '✓Published to' : '𐄂Not published');
 
             if (isPublished && isNumber(poemId)) {
-              const poemObject = filtered[0];
-              let slug = poemObject.seo;
+              var poemObject = filtered[0];
+              var slug = poemObject.seo;
 
               slug = slug ?
                 dashify(slug, {condense: true}) :
@@ -499,17 +485,15 @@ gulp.task('xslt:poems:ee', function () {
               console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + EE_SUBFOLDER + '/' + slug);
 
               // Write /poems/{$edition}/{$id} redirect page
-              const stream1 = source('redirect.html');
+              var stream1 = source('redirect.html');
               stream1.end(getJSRedirectString('/poems' + EE_SUBFOLDER + '/' + slug));
-
               stream1
                 .pipe(rename(poemId + '/index.html'))
                 .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + EE_SUBFOLDER));
 
               // Write /poems/{$id} redirect page to EE
-              const stream2 = source('redirect.html');
+              var stream2 = source('redirect.html');
               stream2.end(getJSRedirectString('/poems' + EE_SUBFOLDER + '/' + slug));
-
               stream2
                 .pipe(rename(poemId + '/index.html'))
                 .pipe(gulp.dest(POEMS_DESTINATION_FOLDER));
@@ -519,8 +503,8 @@ gulp.task('xslt:poems:ee', function () {
                 .pipe(
                   xslt(
                     poemObject.isPseudo ?
-                      getXSLTProcOptions(PSEUDO_TRANSFORMATION) :
-                      getXSLTProcOptions(EE_TRANSFORMATION)
+                      PSEUDO_TRANSFORMATION :
+                      EE_TRANSFORMATION
                   )
                 )
                 .pipe(plumber())
@@ -533,34 +517,18 @@ gulp.task('xslt:poems:ee', function () {
       }, function () {
         console.log('ERROR: couldn\'t load the poem manifest!');
         return gulpUtil.noop();
-      })
-  ]);
-});
+      }),
 
-gulp.task('xslt:poems:ae', function () {
-  // Silence ./poems/
-  const streamN = source('null.html');
-  streamN.end(getJSRedirectString('/#poems', true));
-  streamN.pipe(rename('/index.html'))
-    .pipe(gulp.dest(POEMS_DESTINATION_FOLDER));
-
-  // Silence ./poems/ae
-  const streamAE = source('null.html');
-  streamAE.end(getJSRedirectString('/poems' + AE_SUBFOLDER + '/1', true));
-  streamAE.pipe(rename('/index.html'))
-    .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + AE_SUBFOLDER));
-
-  return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
         console.log('Hi! AE Publisher is here!');
-        const poemsInManifest = data;
+        var poemsInManifest = data;
 
         return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
           .pipe(flatMap(function (stream, xmlFile) {
             console.log('|');
 
-            let fileName = path.basename(xmlFile.path),
+            var fileName = path.basename(xmlFile.path),
               poemId = fileName
                 .replace(/\.[^/.]+$/, '')
                 .replace('pulter_', '');
@@ -568,14 +536,14 @@ gulp.task('xslt:poems:ae', function () {
             console.log('Poem #' + poemId + ', Amplified Edition.');
             console.log('Source: ' + fileName);
 
-            const filtered = filterById(poemsInManifest, poemId);
-            const isPublished = filtered.length > 0;
+            var filtered = filterById(poemsInManifest, poemId);
+            var isPublished = filtered.length > 0;
 
             console.log(isPublished ? '✓Published to' : '𐄂Not published');
 
             if (isPublished && isNumber(poemId)) {
-              const poemObject = filtered[0];
-              let slug = poemObject.seo;
+              var poemObject = filtered[0];
+              var slug = poemObject.seo;
 
               slug = slug ?
                 dashify(slug, {condense: true}) :
@@ -584,7 +552,7 @@ gulp.task('xslt:poems:ae', function () {
               console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + AE_SUBFOLDER + '/' + slug);
 
               // Write the redirect page
-              const streamN = source('redirect.html');
+              var streamN = source('redirect.html');
               streamN.end(getJSRedirectString('/poems' + AE_SUBFOLDER + '/' + slug));
               streamN
                 .pipe(rename(poemId + '/index.html'))
@@ -595,8 +563,8 @@ gulp.task('xslt:poems:ae', function () {
                 .pipe(
                   xslt(
                     poemObject.isPseudo ?
-                      getXSLTProcOptions(PSEUDO_TRANSFORMATION) :
-                      getXSLTProcOptions(AE_TRANSFORMATION)
+                      PSEUDO_TRANSFORMATION :
+                      AE_TRANSFORMATION
                   )
                 )
                 .pipe(plumber())
@@ -609,49 +577,33 @@ gulp.task('xslt:poems:ae', function () {
       }, function () {
         console.log('ERROR: couldn\'t load the poem manifest!');
         return gulpUtil.noop();
-      })
-  ]);
-});
+      }),
 
-gulp.task('xslt:poems:vm', function () {
-  // Silence ./poems/
-  const streamN = source('null.html');
-  streamN.end(getJSRedirectString('/#poems', true));
-  streamN.pipe(rename('/index.html'))
-    .pipe(gulp.dest(POEMS_DESTINATION_FOLDER));
-
-  // Silence ./poems/vm
-  const streamVM = source('null.html');
-  streamVM.end(getJSRedirectString('/poems' + VM_SUBFOLDER + '/1', true));
-  streamVM.pipe(rename('/index.html'))
-    .pipe(gulp.dest(POEMS_DESTINATION_FOLDER + VM_SUBFOLDER));
-
-  return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
         console.log('Hi! VM Publisher is here!');
-        const poemsInManifest = data;
+        var poemsInManifest = data;
 
         return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
           .pipe(flatMap(function (stream, xmlFile) {
             console.log('|');
 
-            let fileName = path.basename(xmlFile.path);
-            let poemId = fileName
+            var fileName = path.basename(xmlFile.path),
+              poemId = fileName
                 .replace(/\.[^/.]+$/, '')
                 .replace('pulter_', '');
             poemId = +poemId;
             console.log('Poem #' + poemId + ', VM page.');
             console.log('Source: ' + fileName);
 
-            const filtered = filterById(poemsInManifest, poemId);
-            const isPublished = filtered.length > 0;
+            var filtered = filterById(poemsInManifest, poemId);
+            var isPublished = filtered.length > 0;
 
             console.log(isPublished ? '✓Published to' : '𐄂Not published');
 
             if (isPublished && isNumber(poemId)) {
-              const poemObject = filtered[0];
-              let slug = poemObject.seo;
+              var poemObject = filtered[0];
+              var slug = poemObject.seo;
 
               slug = slug ?
                 dashify(slug, {condense: true}) :
@@ -660,7 +612,7 @@ gulp.task('xslt:poems:vm', function () {
               console.log('https:' + LIVE_SITE_BASE_URL + '/poems' + VM_SUBFOLDER + '/' + slug);
 
               // Write the redirect page
-              const streamN = source('redirect.html');
+              var streamN = source('redirect.html');
               streamN.end(getJSRedirectString('/poems' + VM_SUBFOLDER + '/' + slug));
               streamN
                 .pipe(rename(poemId + '/index.html'))
@@ -668,10 +620,8 @@ gulp.task('xslt:poems:vm', function () {
 
               // Write SEO friendly page
               return gulp.src(xmlFile.path)
-                .pipe(
-                  xslt(getXSLTProcOptions(VM_TRANSFORMATION))
-                )
-                // .pipe(plumber())
+                .pipe(xslt(VM_TRANSFORMATION))
+                .pipe(plumber())
                 .pipe(rename(slug + '/index.html'))
             } else {
               return gulp.src('blank.txt');
@@ -681,17 +631,9 @@ gulp.task('xslt:poems:vm', function () {
       }, function () {
         console.log('ERROR: couldn\'t load the poem manifest!');
         return gulpUtil.noop();
-      }).catch(err => {console.log(err)})
+      })
   ]);
 });
-
-gulp.task('xslt:poems',
-  gulp.series(
-    'xslt:poems:ee',
-    'xslt:poems:ae',
-    'xslt:poems:vm'
-  ), (done) => { done(); }
-);
 
 gulp.task('xslt', gulp.series('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems', 'sitemap', (done) => {
   done();

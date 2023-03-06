@@ -14,41 +14,30 @@ jobs:
         with:
           submodules: true
 
-#      - name: Prepare Java
-#        uses: actions/setup-java@v2
-#        with:
-#          distribution: 'temurin'
-#          java-version: '8'
-#
-#      - name: Prepare Node 8
-#        uses: actions/setup-node@v1
-#        with:
-#          node-version: '8.x'
+      - name: Prepare Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'temurin'
+          java-version: '8'
+
+      - name: Prepare Node 8
+        uses: actions/setup-node@v1
+        with:
+          node-version: '8.x'
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '2.7.18'
+      - run: yarn
+      - run: npm i -g gulp-cli
+      - run: gulp xslt
+      - run: gulp deploy
 
       - name: Prepare Node 16
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-
-#      - name: Setup Python
-#        uses: actions/setup-python@v4
-#        with:
-#          python-version: '2.7.18'
-#
-#      - run: yarn
-#      - run: npm i -g gulp-cli
-#      - run: gulp xslt
-#      - run: gulp deploy
-
-#      - name: Prepare Node 16
-#        uses: actions/setup-node@v1
-#        with:
-#          node-version: '16.x'
-
-      - run: yarn
-      - run: npm i -g gulp-cli
-      - run: gulp xslt
-      - run: gulp deploy
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
