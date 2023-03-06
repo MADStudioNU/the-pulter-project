@@ -47,6 +47,7 @@ jobs:
 
       - run: yarn
       - run: npm i -g gulp-cli
+      - run: apt-get install -y xsltproc
       - run: xsltproc -version
       - run: which xsltproc
       - run: gulp xslt
