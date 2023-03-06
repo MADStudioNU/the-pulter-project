@@ -3451,7 +3451,7 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-java@0.8.0, java@^0.8.0:
+java@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/java/-/java-0.8.0.tgz#23a6f7ac6a6f85d551c89f4fe49c47c481df4cab"
   integrity sha1-I6b3rGpvhdVRyJ9P5JxHxIHfTKs=
@@ -3661,7 +3661,7 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
-load-json-file@^6.1.0:
+load-json-file@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-6.2.0.tgz#5c7770b42cafa97074ca2848707c61662f4251a1"
   integrity sha512-gUD/epcRms75Cw8RT1pUdHugZYM5ce64ucs2GEISABwkRsOQr0q2wm/MV2TKThycIe5e0ytRweW2RZxclogCdQ==
@@ -4056,7 +4056,7 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "^1.2.5"
 
-modularscale-sass@^3.0.8:
+modularscale-sass@^3.0.10:
   version "3.0.10"
   resolved "https://registry.yarnpkg.com/modularscale-sass/-/modularscale-sass-3.0.10.tgz#3a596b090360129dd2375bee81b9318085cb47b3"
   integrity sha512-ppbMfcXC+ESpqk1s8BfqsuY85DTAJdoPLxrYFohAUjg3r9eh2CBm2Wn7+JAh26DbRpAHynRt3a8ma2FOfk7JGA==

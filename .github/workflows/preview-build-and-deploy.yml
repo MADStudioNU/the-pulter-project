@@ -29,15 +29,16 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '2.7.18'
+
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
       - run: gulp deploy
 
-      - name: Prepare Node 16
+      - name: Prepare Node 18
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
