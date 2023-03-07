@@ -7,38 +7,22 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v1
         with:
           submodules: true
 
-      - name: Prepare Java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'temurin'
-          java-version: '8'
-
-      - name: Prepare Node 8
+      - name: Prepare Node 18
         uses: actions/setup-node@v1
         with:
-          node-version: '8.x'
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '2.7.18'
+          node-version: '18.x'
 
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
       - run: gulp deploy
-
-      - name: Prepare Node 18
-        uses: actions/setup-node@v1
-        with:
-          node-version: '18.x'
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2

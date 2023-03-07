@@ -170,7 +170,7 @@
           .vid {
             .thumb {
               $h: 4em;
-              $ratio: 16/9;
+              $ratio: calc(16 / 9);
               $playIconSize: 1em;
 
               position: relative;
@@ -796,7 +796,7 @@
     img {
       opacity: .5;
       max-width: 1em;
-      margin-top: ($navActionSize - 1em) / 2;
+      margin-top: calc(($navActionSize - 1em) / 2);
       @include transition(opacity .2s);
     }
 
@@ -975,7 +975,7 @@
       font-size: .85em;
       letter-spacing: 1px;
       color: rgba(#fff, .4);
-      margin: 3em $leftEdgeOffset / .85 0 $leftEdgeOffset / .85;
+      margin: 3em calc($leftEdgeOffset / .85) 0 calc($leftEdgeOffset / .85);
       @include transition(color .2s);
 
       @include breakpoint(mobile) {
@@ -1419,7 +1419,7 @@
         }
 
         .to-curation {
-          $ratio: 5/6;
+          $ratio: calc(5 / 6);
           $height: 2.25em;
 
           opacity: .8;

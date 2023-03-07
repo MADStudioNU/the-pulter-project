@@ -611,7 +611,7 @@ $themeColor: #ece9e2;
     iframe {
       display: block;
       width: 100%;
-      height: 360/18.5 + em;
+      height: calc(360 / 18.5) + em;
       background: rgba($pp_manuscriptInk, .2);
 
       @include breakpoint(mobile) {
@@ -880,10 +880,10 @@ $themeColor: #ece9e2;
     max-width: 90%;
     border-radius: 0 0 2px 2px;
     background: rgba($pp_manuscriptInk, .05);
-    margin: 0 0 3em/$factor + em 0;
+    margin: 0 0 calc(3em / $factor) + em 0;
     font-size: $factor;
     color: $pp_manuscriptInk;
-    padding: 1.5em / $factor + em;
+    padding: calc(1.5em / $factor) + em;
     padding-right: 2.5em;
 
     p {

@@ -187,7 +187,7 @@ $globalBorderRadius: 4px;
           $mobileOffsetTop: -.5em;
           $mobileOffsetBottom: -.5em;
 
-          right: 4em * 1em / .8em;
+          right: calc(4 * 1 / .8) + em;
           background: #fff;
           font-size: .85em;
           padding: 1em;
@@ -1307,14 +1307,14 @@ $globalBorderRadius: 4px;
       .lg:not(.stanza):not(.speech),
       .l {
         & + .pb {
-          margin-top: $pageBreakAir / 2;
+          margin-top: calc($pageBreakAir / 2);
         }
       }
 
       .pb {
         $air: $pageBreakAir;
 
-        margin-bottom: $air / 2;
+        margin-bottom: calc($air / 2);
 
         & + .l,
         & + .lg {
@@ -1325,7 +1325,7 @@ $globalBorderRadius: 4px;
           background: rgba($pp_manuscriptInk, .08);
 
           & + .milestone {
-            margin-top: $air /2;
+            margin-top: calc($air / 2);
           }
         }
       }
@@ -1333,7 +1333,7 @@ $globalBorderRadius: 4px;
 
     .facsimile-toggle {
       $size: 1.25em;
-      $ratio: 1144 / 760;
+      $ratio: calc(1144 / 760);
 
       display: block;
       opacity: 1;
@@ -1629,11 +1629,11 @@ $defaultStrokeWidth: 6px;
   // All other
   .facsimile-toggle {
     $size: .9em;
-    $ratio: 1144 / 760;
+    $ratio: calc(1144 / 760);
 
     position: absolute;
     cursor: pointer;
-    top: -$size * $ratio / 2;
+    top: calc(-1 * $size * $ratio / 2);
     left: 1.66em;
     width: $size;
     height: $size * $ratio;
@@ -1664,8 +1664,8 @@ $defaultStrokeWidth: 6px;
     }
 
     @include breakpoint(mobile) {
-      left: $mobileSize / 2;
-      top: -$mobileSize / 2;
+      left: calc($mobileSize / 2);
+      top: calc(-1 * $mobileSize / 2);
       width: $mobileSize;
       height: $mobileSize;
       //background: #e1e1e1;
@@ -1808,7 +1808,7 @@ $defaultStrokeWidth: 6px;
       }
 
       span.t {
-        font-size: ms(-1) / 1.5;
+        font-size: calc(ms(-1) / 1.5);
       }
 
       .by {
