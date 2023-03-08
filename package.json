@@ -40,11 +40,14 @@
     "gulp-xsltproc": "1.2.0",
     "load-json-file": "^6.2.0",
     "modularscale-sass": "^3.0.10",
+    "patch-package": "^6.5.1",
     "path": "^0.12.7",
+    "postinstall-postinstall": "^2.1.0",
     "sass": "1.58.3",
     "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
-    "build-and-deploy": "gulp xslt:manifest; gulp xslt; gulp deploy; netlifyctl d -P dist;"
+    "build-and-deploy": "gulp xslt:manifest; gulp xslt; gulp deploy; netlifyctl d -P dist;",
+    "postinstall": "patch-package"
   }
 }
