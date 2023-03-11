@@ -1,3 +1,5 @@
+// noinspection ES6ConvertVarToLetConst,DuplicatedCode
+
 var PP = (function ($) {
   return {
     getPoemIndex: function () {
@@ -118,24 +120,27 @@ var PP = (function ($) {
       }
 
       // Scroll watcher
-      var scrollWatcher = debounce(function () {
-        var $w = $(window);
-        if (
-          $w.scrollTop() >= $poemList.offset().top
-        ) {
-          $body.addClass('scrolled');
-        } else {
-          $body.removeClass('scrolled');
-        }
+      var scrollWatcher = debounce(
+        function () {
+          var $w = $(window);
 
-        if (
-          $w.scrollTop() >= $poemList.outerHeight()
-        ) {
-          $body.addClass('beyond');
-        } else {
-          $body.removeClass('beyond');
-        }
-      }, 100);
+          if (
+            $w.scrollTop() >= $poemList.offset().top
+          ) {
+            $body.addClass('scrolled');
+          } else {
+            $body.removeClass('scrolled');
+          }
+
+          if (
+            $w.scrollTop() >= $poemList.outerHeight()
+          ) {
+            $body.addClass('beyond');
+          } else {
+            $body.removeClass('beyond');
+          }
+        }, 300
+      );
 
       // Attaching the event handler
       $(window).on('scroll', scrollWatcher);
@@ -1018,6 +1023,9 @@ var PP = (function ($) {
         var q = '';
         var searchItemIsClicked = false;
 
+        // Search results keyboard navigation current position
+        var keyboardPos = undefined;
+
         $searchInput.on('blur', function () {
           if (searchItemIsClicked) {
             $searchInput.focus();
@@ -1028,89 +1036,164 @@ var PP = (function ($) {
         });
 
         $searchInput.on('focus', function () {
-          if (q.trim().length > 2) {
+          if (
+            q.trim().length > 2 ||
+            !isNaN(q)
+          ) {
             $searchResults.fadeIn(300);
           }
         });
 
-        var searchInputWatcher = debounce(function () {
-          var query = $searchInput.val().trim();
+        var searchInputWatcher = debounce(
+          function(keyUpEvent) {
+            var query = $searchInput.val().trim();
 
-          if (q !== query) {
-            q = query;
-            var results = [];
+            if (q !== query) {
+              q = query;
+              var results = [];
 
-            if (
-              query.length > 2 ||
-              !isNaN(query) // for the lookup by ID
-            ) {
-              PPS.search(query, {
-                fields: {
-                  title: {boost: 1},
-                  body: {boost: 1},
-                  id: {boost: 1}
-                },
-                expand: true
-              }).map(function (item) {
-                var poem = PPS.getPoem(item.ref);
-                results.push({
-                  ref: item.ref,
-                  score: item.score,
-                  title: poem.title
+              if (
+                query.length > 2 ||
+                !isNaN(query) // for the lookup by ID
+              ) {
+                PPS.search(query, {
+                  fields: {
+                    title: {boost: 1},
+                    body: {boost: 1},
+                    id: {boost: 1}
+                  },
+                  expand: true
+                }).map(function (item) {
+                  var poem = PPS.getPoem(item.ref);
+                  results.push({
+                    ref: item.ref,
+                    score: item.score,
+                    title: poem.title
+                  });
                 });
-              });
 
-              if (results.length > 0 && q.length > 0) {
+                if (results.length > 0 && q.length > 0) {
+                  $searchResults
+                    .fadeIn(300)
+                    .find('li')
+                    .replaceWith('');
+
+                  $.each(results, function (idx, res) {
+                    var $line = $('<li class="search-result"></li>');
+                    var $link = $('<a href="/poems/ee/' + res.ref +'"></a>');
+                    var $poemNumberChunk = $('<span class="pn"></span>');
+                    var $poemTitleChunk = $('<h4 class="pt"></h4>');
+
+                    $poemNumberChunk.text(res.ref);
+                    $poemTitleChunk.text(res.title);
+
+                    $link
+                      .append($poemNumberChunk)
+                      .append($poemTitleChunk);
+
+                    $line
+                      .append($link);
+
+                    $searchResults
+                      .find('.results')
+                      .append($line);
+                  });
+
+                  // Set the initial value for the keyboard nav
+                  keyboardPos = 0;
+
+                  // Prevent input blur
+                  $('.search-result').on('mousedown', function () {
+                    searchItemIsClicked = true;
+                  });
+                } else {
+                  $searchResults.fadeOut(200);
+                  keyboardPos = undefined;
+                }
+              } else {
                 $searchResults
-                  .fadeIn(300)
                   .find('li')
                   .replaceWith('');
 
-                $.each(results, function (idx, res) {
-                  var $line = $('<li class="search-result"></li>');
-                  var $link = $('<a href="/poems/ee/' + res.ref +'"></a>');
-                  var $poemNumberChunk = $('<span class="pn"></span>');
-                  var $poemTitleChunk = $('<h4 class="pt"></h4>');
-
-                  $poemNumberChunk.text(res.ref);
-                  $poemTitleChunk.text(res.title);
-
-                  $link
-                    .append($poemNumberChunk)
-                    .append($poemTitleChunk);
-
-                  $line
-                    .append($link);
-
+                if (query.length > 0) {
                   $searchResults
                     .find('.results')
-                    .append($line);
-                });
+                    .append('<li class="init lato">The query is too short.</li>');
+                } else {
+                  $searchResults.fadeOut(200);
+                }
 
-                // Prevent input bluring
-                $('.search-result').on('mousedown', function () {
-                  searchItemIsClicked = true;
-                });
-              } else {
-                $searchResults.fadeOut(300);
-              }
-            } else {
-              $searchResults
-                .find('li')
-                .replaceWith('');
-
-              if (query.length > 0) {
-                $searchResults
-                  .find('.results')
-                  .append('<li class="init lato">The query is too short.</li>');
-              } else {
-                $searchResults.fadeOut(200);
+                keyboardPos = undefined;
               }
             }
           }
-        }, 300);
+        )
 
-        $searchInput.keyup(searchInputWatcher);
+        $searchInput.on('keyup', function (e) {
+          var key = e.keyCode;
+
+          // was up/down/enter pressed with search results present?
+          if (
+            (key === 38 || key === 40 || key === 13) &&
+            keyboardPos !== undefined &&
+            !(key === 38 && keyboardPos === 0) &&
+            !(key === 13 && keyboardPos === 0)
+          ) {
+            var $resultListItems = $searchResults.find('.search-result');
+            var nOfResults = $resultListItems.length;
+
+            if (key === 38) {
+              keyboardPos = (keyboardPos > 1) ?
+                keyboardPos - 1 : 1;
+            }
+
+            if (key === 40) {
+              keyboardPos = (keyboardPos < nOfResults) ?
+                keyboardPos + 1 : nOfResults;
+            }
+
+            // Show and highlight the item
+            $resultListItems.removeClass('highlighted');
+            var targetItem = $resultListItems[keyboardPos - 1]
+            var $targetItem = $(targetItem);
+
+            // show
+            var targetTopOffset = $targetItem.offset().top;
+            var targetHeight = $targetItem.outerHeight();
+            var scrollableTopOffset = $searchResults.offset().top;
+            var scrollableHeight = $searchResults.height();
+            var scrollableScroll = $searchResults.scrollTop();
+
+            console.log('Target height:', targetHeight);
+            console.log('Target top offset:', targetTopOffset);
+            console.log('Scrollable height:', scrollableHeight);
+            console.log('Scrollable scroll:', scrollableScroll);
+            console.log('Scrollable top offset:', scrollableTopOffset);
+
+            if (targetTopOffset > scrollableHeight) {
+              var scrollValue = scrollableScroll + targetHeight;
+              $searchResults.scrollTop(scrollValue);
+            }
+
+            if (targetTopOffset - scrollableTopOffset < targetHeight) {
+              console.log('Scroll up please!');
+
+              var scrollValue = scrollableScroll - targetHeight;
+              $searchResults.scrollTop(scrollValue);
+            }
+
+            // highlight
+            $targetItem.addClass('highlighted');
+
+            // Enter
+            if (key === 13) {
+              var link = $targetItem.find('a')[0];
+              link.click();
+            }
+          } else {
+            searchInputWatcher(e);
+          }
+        });
 
         // Blur on esc key hit
         $(document).keyup(function(e) {

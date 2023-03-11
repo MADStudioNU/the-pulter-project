@@ -111,6 +111,10 @@
           margin-left: .66em;
           font-family: $pp_originalFont;
         }
+
+        &.highlighted {
+          background: #e6e6e6;
+        }
       }
 
       .init {
