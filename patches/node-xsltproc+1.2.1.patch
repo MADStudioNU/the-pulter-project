@@ -1,0 +1,23 @@
+diff --git a/node_modules/node-xsltproc/index.js b/node_modules/node-xsltproc/index.js
+index 7bbb665..2fa31cd 100644
+--- a/node_modules/node-xsltproc/index.js
++++ b/node_modules/node-xsltproc/index.js
+@@ -91,6 +91,9 @@ function xsltproc(options) {
+ 		run_options.stringparams = run_options.stringparams || {};
+ 		run_options.debug = run_options.debug === undefined ? false : run_options.debug;
+ 		return new Promise((resolve, reject) => {
++      let options = {
++        maxBuffer: undefined
++      };
+ 			let args = ['--load-trace', '--profile', '--output',  '-'];
+ 			let basedir;
+ 			for (let key in run_options.stringparams) {
+@@ -108,7 +111,7 @@ function xsltproc(options) {
+ 			if (run_options.debug) {
+ 				console.log('exec:', xsltproc_bin, args.join(' '));
+ 			}
+-			execFile(xsltproc_bin, args, (error, stdout, stderr) => {
++			execFile(xsltproc_bin, args, options, (error, stdout, stderr) => {
+ 				if (error !== null) {
+ 					return reject({file: filepath, message: stderr});
+         	    }

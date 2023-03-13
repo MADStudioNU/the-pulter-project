@@ -2,38 +2,27 @@ name: 'Preview Site: Build and Deploy to Netlify'
 
 on:
   push:
-    branches: [ '' ]
+    branches: [ 'develop' ]
     paths: ['pulter-site/**', 'pulter-poems/**']
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v1
         with:
           submodules: true
 
-      - name: Prepare Java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '8'
-
-      - name: Prepare Node 8
+      - name: Prepare Node 18
         uses: actions/setup-node@v1
         with:
-          node-version: '8.x'
+          node-version: '18.x'
 
       - run: yarn
       - run: npm i -g gulp-cli
       - run: gulp xslt
       - run: gulp deploy
-
-      - name: Prepare Node 16
-        uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2

@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.12.0",
+  "version": "1.13.9",
   "description": "",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -19,7 +19,7 @@
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.26.5",
     "dashify": "^2.0.0",
-    "eyeglass": "^2.4.1",
+    "eyeglass": "^3.0.3",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",
@@ -32,19 +32,22 @@
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-shell": "^0.7.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
-    "gulp-xslt2": "^1.0.3",
-    "java": "0.8.0",
-    "load-json-file": "^6.1.0",
-    "modularscale-sass": "^3.0.8",
+    "gulp-xsltproc": "1.2.0",
+    "load-json-file": "^6.2.0",
+    "modularscale-sass": "^3.0.10",
+    "patch-package": "^6.5.1",
     "path": "^0.12.7",
+    "postinstall-postinstall": "^2.1.0",
+    "sass": "1.58.3",
     "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
-    "build-and-deploy": "gulp xslt:manifest; gulp xslt; gulp deploy; netlifyctl d -P dist;"
+    "build-and-deploy": "gulp xslt:manifest; gulp xslt; gulp deploy; netlifyctl d -P dist;",
+    "postinstall": "patch-package"
   }
 }

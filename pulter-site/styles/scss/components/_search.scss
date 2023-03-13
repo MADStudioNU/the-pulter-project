@@ -54,12 +54,12 @@
     }
 
   .results-box {
-    display: none;
+    //display: none;
     background: whitesmoke;
     min-width: 20em;
     max-height: 24em;
     color: #282828;
-    padding: 1em 0;
+    //padding: 1em 0;
     position: absolute;
     right: 0;
     top: 120%;
@@ -70,13 +70,18 @@
 
     .results {
       .search-result {
+        $air: .7em;
+
         position: relative;
-        padding: 0 1em 0 2.5em;
+        padding: $air 1em $air 2.5em;
+        @include transition(background .2s ease-in-out);
 
         &:not(:last-child) {
-          margin-bottom: .75em;
           border-bottom: rgba(#282828, .06) solid 1px;
-          padding-bottom: .66em;
+        }
+
+        &:hover {
+          background: #e6e6e6;
         }
 
         a {
@@ -92,7 +97,7 @@
         .pn {
           position: absolute;
           left: 1.15em;
-          top: .3em;
+          top: 1em;
           font-size: .8em;
           margin-right: .66em;
           text-align: right;
@@ -105,13 +110,11 @@
         .pt {
           margin-left: .66em;
           font-family: $pp_originalFont;
-          @include transition(color .2s);
-
-          &:hover {
-            color: $pp_darkGold;
-          }
         }
 
+        &.highlighted {
+          background: #e6e6e6;
+        }
       }
 
       .init {
