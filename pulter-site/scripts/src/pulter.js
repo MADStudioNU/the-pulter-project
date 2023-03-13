@@ -989,7 +989,7 @@ var PP = (function ($) {
         }
       } else {
         console.log(
-          'Unable to initialize the poem. The id is invalid or it wasn\'t provided.'
+          'Unable to initialize the poem. The id is invalid or it wasn’t provided.'
         );
         // TODO: Write an error handler for this case
       }
@@ -1158,27 +1158,21 @@ var PP = (function ($) {
             var $targetItem = $(targetItem);
 
             // show
-            var targetTopOffset = $targetItem.offset().top;
+            var targetOffset = $targetItem.offset().top;
             var targetHeight = $targetItem.outerHeight();
-            var scrollableTopOffset = $searchResults.offset().top;
+            var scrollableOffset = $searchResults.offset().top;
             var scrollableHeight = $searchResults.height();
             var scrollableScroll = $searchResults.scrollTop();
 
-            console.log('Target height:', targetHeight);
-            console.log('Target top offset:', targetTopOffset);
-            console.log('Scrollable height:', scrollableHeight);
-            console.log('Scrollable scroll:', scrollableScroll);
-            console.log('Scrollable top offset:', scrollableTopOffset);
+            var relativeAdjustmentDown = (targetOffset + targetHeight) - (scrollableHeight + scrollableOffset);
+            var relativeAdjustmentUp = scrollableOffset - targetOffset;
 
-            if (targetTopOffset > scrollableHeight) {
-              var scrollValue = scrollableScroll + targetHeight;
-              $searchResults.scrollTop(scrollValue);
+            if (relativeAdjustmentDown > 0) {
+              $searchResults.scrollTop(scrollableScroll + relativeAdjustmentDown);
             }
 
-            if (targetTopOffset - scrollableTopOffset < targetHeight) {
-              console.log('Scroll up please!');
-
-              var scrollValue = scrollableScroll - targetHeight;
+            if (relativeAdjustmentUp > 0) {
+              var scrollValue = scrollableScroll - relativeAdjustmentUp;
               $searchResults.scrollTop(scrollValue);
             }
 
