@@ -1648,9 +1648,9 @@ elasticlunr@^0.9.5:
   integrity sha512-5YM9LFQgVYfuLNEoqMqVWIBuF2UNCA+xu/jz1TyryLN/wmBcQSb+GNAwvLKvEpGESwgGN8XA1nbLAt6rKlyHYQ==
 
 electron-to-chromium@^1.3.47:
-  version "1.4.328"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.328.tgz#b4565ffa502542b561cea16086d6d9b916c7095a"
-  integrity sha512-DE9tTy2PNmy1v55AZAO542ui+MLC2cvINMK4P2LXGsJdput/ThVG9t+QGecPuAZZSgC8XoI+Jh9M1OG9IoNSCw==
+  version "1.4.329"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.329.tgz#ea54b67c981c814f16917b585acf3a667d4c997f"
+  integrity sha512-dcwPzNUG4+reo5z+wHnrl2eZMu4kz+nLQEeepxLEDTLDC7Mi7AVTM4NXWct1TZyu3G4oQgygaAfbByaBtPqw2Q==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2451,6 +2451,13 @@ gulp-sourcemaps@^2.6.5:
     source-map "~0.6.0"
     strip-bom-string "1.X"
     through2 "2.X"
+
+gulp-tap@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-tap/-/gulp-tap-2.0.0.tgz#6f66b79870dcbfc364cf4ebe0735b6008473200f"
+  integrity sha512-U5/v1bTozx672QHzrvzPe6fPl2io7Wqyrx2y30AG53eMU/idH4BrY/b2yikOkdyhjDqGgPoMUMnpBg9e9LK8Nw==
+  dependencies:
+    through2 "^3.0.1"
 
 gulp-uglify@^3.0.2:
   version "3.0.2"
