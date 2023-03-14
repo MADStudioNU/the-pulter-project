@@ -56,11 +56,18 @@
   <!-- TEMPLATES BEGIN -->
   <!-- Root -->
   <xsl:template match="/">
-    <xsl:value-of select="concat('PPS.addPoem(', '{')"/>
-    <xsl:value-of select="concat('&quot;id&quot;: ', $poemID, ',')"/>
-    <xsl:value-of select="concat('&quot;title&quot;: &quot;', $fullTitle, '&quot;,')"/>
-    <xsl:value-of select="'&quot;body&quot;: &quot;'"/>
+    <xsl:value-of select="concat('PPS.addResource(', '{')"/>
+    <xsl:value-of select="concat('&quot;id&quot;:&quot;p',$poemID, '&quot;,')"/>
+    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;poem&quot;', ',')"/>
+    <xsl:value-of select="concat('&quot;in_type_id&quot;: ',$poemID, ',')"/>
+    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $fullTitle, '&quot;,')"/>
+    <xsl:value-of select="'&quot;body&quot;:&quot;'"/>
     <xsl:apply-templates select="//tei:body">
+      <xsl:with-param name="witId" select="$elementalEditionId"/>
+    </xsl:apply-templates>
+    <xsl:value-of select="'&quot;,'"/>
+    <xsl:value-of select="'&quot;headnote&quot;:&quot;'"/>
+    <xsl:apply-templates select="//tei:app[@type='headnote']">
       <xsl:with-param name="witId" select="$elementalEditionId"/>
     </xsl:apply-templates>
     <xsl:value-of select="concat('&quot;}', ');')"/>
@@ -80,21 +87,6 @@
     <xsl:apply-templates>
       <xsl:with-param name="witId" select="$witId"/>
     </xsl:apply-templates>
-  </xsl:template>
-
-  <!-- Headnote -->
-  <xsl:template match="tei:head/tei:app[@type = 'headnote']">
-    <xsl:param name="witId"/>
-
-    <div class="expand-box">
-      <div class="headnote lato">
-        <xsl:apply-templates>
-          <xsl:with-param name="witId" select="$witId"/>
-        </xsl:apply-templates>
-      </div>
-    </div>
-
-    <a href="#pp" class="poster-info-trigger sssi-regular">i</a>
   </xsl:template>
 
   <!-- Line group -->

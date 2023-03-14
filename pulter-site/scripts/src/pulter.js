@@ -1060,15 +1060,19 @@ var PP = (function ($) {
                   fields: {
                     title: {boost: 1},
                     body: {boost: 1},
-                    id: {boost: 1}
+                    headnote: {boost: 1},
+                    in_type_id: {boost: 1}
                   },
                   expand: true
                 }).map(function (item) {
-                  var poem = PPS.getPoem(item.ref);
+                  var resource = PPS.getResource(item.ref);
+
                   results.push({
+                    type: resource.type,
+                    inTypeId: resource.in_type_id,
                     ref: item.ref,
                     score: item.score,
-                    title: poem.title
+                    title: resource.title
                   });
                 });
 
@@ -1080,11 +1084,11 @@ var PP = (function ($) {
 
                   $.each(results, function (idx, res) {
                     var $line = $('<li class="search-result"></li>');
-                    var $link = $('<a href="/poems/ee/' + res.ref +'"></a>');
+                    var $link = $('<a href="/poems/ee/' + res.inTypeId +'"></a>');
                     var $poemNumberChunk = $('<span class="pn"></span>');
                     var $poemTitleChunk = $('<h4 class="pt"></h4>');
 
-                    $poemNumberChunk.text(res.ref);
+                    $poemNumberChunk.text(res.inTypeId);
                     $poemTitleChunk.text(res.title);
 
                     $link
