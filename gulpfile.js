@@ -353,7 +353,7 @@ gulp.task('xslt:lunr:ee', function () {
 gulp.task('xslt:lunr:curations', function () {
   return gulp.src([SITE_BASE + 'curations/*.html'])
     .pipe(tap(function (file) {
-      file.contents = new Buffer(file.path);
+      file.contents = new Buffer.from(file.path);
     }))
     .pipe(concat('curations.html'))
     .on('error', gulpUtil.log)
