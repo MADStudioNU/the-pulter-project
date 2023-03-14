@@ -1060,7 +1060,7 @@ var PP = (function ($) {
                   fields: {
                     title: {boost: 1},
                     body: {boost: 1},
-                    headnote: {boost: 1},
+                    headnote: {boost: .9},
                     in_type_id: {boost: 1}
                   },
                   expand: true

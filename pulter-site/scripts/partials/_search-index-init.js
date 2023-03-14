@@ -12,7 +12,7 @@ var PPS = (function () {
 
   return {
     addResource: function (p) {
-      _pps.addDoc(p)
+      _pps.addDoc(p, false);
     },
     search: function (q, params) {
       return _pps.search(q, params);

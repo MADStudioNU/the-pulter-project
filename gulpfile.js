@@ -36,6 +36,7 @@ const path = require('path');
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
+const tap = require('gulp-tap');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 
@@ -311,7 +312,7 @@ gulp.task('xslt:manifest', function () {
     .pipe(gulp.dest(SITE_BASE));
 });
 
-gulp.task('xslt:lunrBuildSearchIndex', function () {
+gulp.task('xslt:lunr:ee', function () {
   return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
@@ -343,13 +344,23 @@ gulp.task('xslt:lunrBuildSearchIndex', function () {
           .pipe(appendPrepend.prependFile(ELASTICLUNR_LIBRARY))
           .pipe(gulp.dest(SITE_BASE + 'search'));
       }, function () {
-        console.log('ERROR: couldn\'t load the poem manifest!');
+        console.log('ERROR: couldn’t load the poem manifest!');
         return gulpUtil.noop();
       })
   ]);
 });
 
-gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunrBuildSearchIndex', (done) => {
+gulp.task('xslt:lunr:curations', function () {
+  return gulp.src([SITE_BASE + 'curations/*.html'])
+    .pipe(tap(function (file) {
+      file.contents = new Buffer(file.path);
+    }))
+    .pipe(concat('curations.html'))
+    .on('error', gulpUtil.log)
+    .pipe(gulp.dest(SITE_BASE + 'foo/bar'));
+});
+
+gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunr:ee', (done) => {
   done();
 }));
 
