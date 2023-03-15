@@ -13,7 +13,8 @@ const EE_TRANSFORMATION = SITE_BASE + 'xslt/poem-ee.xsl';
 const AE_TRANSFORMATION = SITE_BASE + 'xslt/poem-ae.xsl';
 const PSEUDO_TRANSFORMATION = SITE_BASE + 'xslt/poem-pseudo.xsl';
 const VM_TRANSFORMATION = SITE_BASE + 'versioning-machine/src/vmachine.xsl';
-const PP_SEARCH_DOC_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl';
+const PP_SEARCH_EE_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl';
+const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl';
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
@@ -69,13 +70,14 @@ function getJSRedirectString(url, ignoreHash) {
   return '<!DOCTYPE html><html><head><link rel="canonical" href="' + LIVE_SITE_BASE_URL + url + '" /><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script></head><body></body></html>';
 }
 
-function getXSLTProcOptions(xslFileName) {
+function getXSLTProcOptions(xslFileName, isHTML) {
   return {
     warning_as_error: true,
     metadata: false,
     stylesheet: xslFileName,
     debug: false,
-    maxBuffer: undefined
+    maxBuffer: undefined,
+    inputIsHTML: isHTML
   }
 }
 
@@ -332,7 +334,7 @@ gulp.task('xslt:lunr:ee', function () {
 
             if (isPublished && !isPseudo && isNumber(poemId)) {
               return gulp.src(xmlFile.path)
-                .pipe(xslt(getXSLTProcOptions(PP_SEARCH_DOC_TRANSFORMATION)))
+                .pipe(xslt(getXSLTProcOptions(PP_SEARCH_EE_TRANSFORMATION)))
                 .pipe(plumber())
                 .pipe(rename('doc_' + poemId + '.js'))
             } else {
@@ -352,8 +354,11 @@ gulp.task('xslt:lunr:ee', function () {
 
 gulp.task('xslt:lunr:curations', function () {
   return gulp.src([SITE_BASE + 'curations/*.html'])
+    .pipe(xslt(getXSLTProcOptions(PP_SEARCH_CURATION_TRANSFORMATION, true)))
     .pipe(tap(function (file) {
-      file.contents = new Buffer.from(file.path);
+      const info = file.stem;
+      console.log(info);
+      file.contents = new Buffer.from(info);
     }))
     .pipe(concat('curations.html'))
     .on('error', gulpUtil.log)
