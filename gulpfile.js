@@ -75,7 +75,7 @@ function getXSLTProcOptions(xslFileName, isHTML) {
     warning_as_error: true,
     metadata: false,
     stylesheet: xslFileName,
-    debug: false,
+    debug: true,
     maxBuffer: undefined,
     inputIsHTML: isHTML
   }
@@ -354,15 +354,20 @@ gulp.task('xslt:lunr:ee', function () {
 
 gulp.task('xslt:lunr:curations', function () {
   return gulp.src([SITE_BASE + 'curations/*.html'])
-    .pipe(xslt(getXSLTProcOptions(PP_SEARCH_CURATION_TRANSFORMATION, true)))
-    .pipe(tap(function (file) {
-      const info = file.stem;
-      console.log(info);
-      file.contents = new Buffer.from(info);
-    }))
-    .pipe(concat('curations.html'))
+    .pipe(
+      xslt(
+        getXSLTProcOptions(
+          PP_SEARCH_CURATION_TRANSFORMATION,
+          true)
+      )
+    )
+    // .pipe(tap(function (file) {
+    //   const info = file.stem;
+    //   file.contents = new Buffer.from(info);
+    // }))
+    .pipe(concat('curations.js'))
     .on('error', gulpUtil.log)
-    .pipe(gulp.dest(SITE_BASE + 'foo/bar'));
+    .pipe(gulp.dest(SITE_BASE + '_temp'));
 });
 
 gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunr:ee', (done) => {
