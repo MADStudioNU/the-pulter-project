@@ -1,20 +1,23 @@
 var PPS = (function () {
   var _pps = elasticlunr(function () {
+    this.addField('id');
+    this.addField('type');
+    this.addField('in_type_id');
     this.addField('title');
     this.addField('body');
-    this.addField('id');
+    this.addField('headnote');
     this.setRef('id');
     this.saveDocument(true);
   });
 
   return {
-    addPoem: function (p) {
-      _pps.addDoc(p)
+    addResource: function (p) {
+      _pps.addDoc(p, false);
     },
     search: function (q, params) {
       return _pps.search(q, params);
     },
-    getPoem: function (ref) {
+    getResource: function (ref) {
       return _pps.documentStore.getDoc(ref);
     }
   }

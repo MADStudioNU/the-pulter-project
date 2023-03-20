@@ -13,7 +13,8 @@ const EE_TRANSFORMATION = SITE_BASE + 'xslt/poem-ee.xsl';
 const AE_TRANSFORMATION = SITE_BASE + 'xslt/poem-ae.xsl';
 const PSEUDO_TRANSFORMATION = SITE_BASE + 'xslt/poem-pseudo.xsl';
 const VM_TRANSFORMATION = SITE_BASE + 'versioning-machine/src/vmachine.xsl';
-const PP_SEARCH_DOC_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl';
+const PP_SEARCH_EE_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl';
+const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl';
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
@@ -36,6 +37,7 @@ const path = require('path');
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
+const tap = require('gulp-tap');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 
@@ -68,13 +70,14 @@ function getJSRedirectString(url, ignoreHash) {
   return '<!DOCTYPE html><html><head><link rel="canonical" href="' + LIVE_SITE_BASE_URL + url + '" /><script type=\"text/javascript\">var hash=window.location.hash.split(\"#\")[1];window.location.replace(\"' + url + (ignoreHash?'\"' : '\"+(hash?\"#\"+hash:\"\")') + ')</script></head><body></body></html>';
 }
 
-function getXSLTProcOptions(xslFileName) {
+function getXSLTProcOptions(xslFileName, isHTML) {
   return {
     warning_as_error: true,
     metadata: false,
     stylesheet: xslFileName,
-    debug: false,
-    maxBuffer: undefined
+    debug: true,
+    maxBuffer: undefined,
+    inputIsHTML: isHTML
   }
 }
 
@@ -311,7 +314,7 @@ gulp.task('xslt:manifest', function () {
     .pipe(gulp.dest(SITE_BASE));
 });
 
-gulp.task('xslt:lunrBuildSearchIndex', function () {
+gulp.task('xslt:lunr:ee', function () {
   return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
@@ -331,7 +334,7 @@ gulp.task('xslt:lunrBuildSearchIndex', function () {
 
             if (isPublished && !isPseudo && isNumber(poemId)) {
               return gulp.src(xmlFile.path)
-                .pipe(xslt(getXSLTProcOptions(PP_SEARCH_DOC_TRANSFORMATION)))
+                .pipe(xslt(getXSLTProcOptions(PP_SEARCH_EE_TRANSFORMATION)))
                 .pipe(plumber())
                 .pipe(rename('doc_' + poemId + '.js'))
             } else {
@@ -343,13 +346,31 @@ gulp.task('xslt:lunrBuildSearchIndex', function () {
           .pipe(appendPrepend.prependFile(ELASTICLUNR_LIBRARY))
           .pipe(gulp.dest(SITE_BASE + 'search'));
       }, function () {
-        console.log('ERROR: couldn\'t load the poem manifest!');
+        console.log('ERROR: couldn’t load the poem manifest!');
         return gulpUtil.noop();
       })
   ]);
 });
 
-gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunrBuildSearchIndex', (done) => {
+gulp.task('xslt:lunr:curations', function () {
+  return gulp.src([SITE_BASE + 'curations/*.html'])
+    .pipe(
+      xslt(
+        getXSLTProcOptions(
+          PP_SEARCH_CURATION_TRANSFORMATION,
+          true)
+      )
+    )
+    // .pipe(tap(function (file) {
+    //   const info = file.stem;
+    //   file.contents = new Buffer.from(info);
+    // }))
+    .pipe(concat('curations.js'))
+    .on('error', gulpUtil.log)
+    .pipe(gulp.dest(SITE_BASE + '_temp'));
+});
+
+gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunr:ee', (done) => {
   done();
 }));
 

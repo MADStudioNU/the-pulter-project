@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.13.10",
+  "version": "1.13.18",
   "description": "",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -35,6 +35,7 @@
     "gulp-sass": "^5.1.0",
     "gulp-shell": "^0.7.1",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-tap": "^2.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "gulp-xsltproc": "1.2.0",

@@ -62,7 +62,7 @@ var PP = (function ($) {
               playSplashAnimation();
               pulterState.set('enoughSplashAnimation', true, 60 * 60 * 24);
             } else {
-              // Otherwise skip and just show elements
+              // Otherwise, skip and just show elements
               $('.anmtd, .eventually, .actions-box').addClass('skipped');
             }
           }
@@ -400,6 +400,10 @@ var PP = (function ($) {
     },
     initPoem: function (params) {
       var $body = $('body');
+
+      $(window).on('load', function () {
+        $body.show();
+      });
 
       // Default options (for a poem)
       var defaults = {
@@ -1060,15 +1064,19 @@ var PP = (function ($) {
                   fields: {
                     title: {boost: 1},
                     body: {boost: 1},
-                    id: {boost: 1}
+                    headnote: {boost: .9},
+                    in_type_id: {boost: 1}
                   },
                   expand: true
                 }).map(function (item) {
-                  var poem = PPS.getPoem(item.ref);
+                  var resource = PPS.getResource(item.ref);
+
                   results.push({
+                    type: resource.type,
+                    inTypeId: resource.in_type_id,
                     ref: item.ref,
                     score: item.score,
-                    title: poem.title
+                    title: resource.title
                   });
                 });
 
@@ -1080,11 +1088,11 @@ var PP = (function ($) {
 
                   $.each(results, function (idx, res) {
                     var $line = $('<li class="search-result"></li>');
-                    var $link = $('<a href="/poems/ee/' + res.ref +'"></a>');
+                    var $link = $('<a href="/poems/ee/' + res.inTypeId +'"></a>');
                     var $poemNumberChunk = $('<span class="pn"></span>');
                     var $poemTitleChunk = $('<h4 class="pt"></h4>');
 
-                    $poemNumberChunk.text(res.ref);
+                    $poemNumberChunk.text(res.inTypeId);
                     $poemTitleChunk.text(res.title);
 
                     $link
