@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+           <witness xml:id="ae">Amplified edition: By <persName>Bruce Boehrer</persName>.
         </listWit>
       </div>
     </front>
@@ -149,7 +149,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_252" type="pageNum" place="margin-topright">PG#</fw>[Emblem 48]</rdg>
           <rdg wit="#ee">The Oyster and the Mouse<lb/>(Emblem 48)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">Emblem 48 (The Oyster and the Mouse)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +158,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-              <note type="editorialnote"></note>
+              <note type="editorialnote">I’ve chosen to preserve Pulter's spelling and capitalization, while expanding superscripts and contractions and lightly modernizing punctuation.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -166,7 +166,7 @@
               <note type="headnote">This poem relates a tale which Pulter’s father may have told about his time as Lord Treasurer to James I or Charles I. At first, it seems a merely amusing anecdote: a mouse, scampering across a dining table, is caught when an oyster (one of the dishes) snaps shut. The ocean’s changing tides bizarrely affect even the dinner table, stimulating the oyster to snap open and release the mouse. Pulter briefly toys with setting this episode in mock-epic form before treating it, instead, in a more characteristic manner. First, she reads the trapped mouse as emblematic of the sinful soul, temporarily walled up in a fleshly shell. Then, she pins this universal scenario to the particular politics of interregnum England, a time when “a vulgar”—presumably, Oliver Cromwell or his son, Richard—had “rise[n] to reign” in place of the “noble spirit” he “restrain[ed].” That usurped spirit is, first and foremost, Charles I (Pulter’s beloved, imprisoned, then beheaded king), but also her royalist compatriots (among them, many nobles) and indeed herself, since she frequently railed against confinement. In the end, the tidal metaphor offers a kind of comfort, since it suggests we must all, mouse-like, merely wait out any uncomfortable but temporary phase, in politics as in mortality.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote">Pulter’s emblems often draw on bestiary lore to illustrate spiritual precepts—a conventional technique found in the work of other emblematists as well.<seg>1<note type="gloss">See e.g. Pulter <ref type="pp-poem-ref" corresp="77">The Dubious Raven (Emblem 11)</ref>, <ref type="pp-poem-ref" corresp="80">The Stately Unicorn (Emblem 14)</ref>, <ref type="pp-poem-ref" corresp="81">The Cruel Tiger (Emblem 15)</ref>; see also <bibl>Geoffrey Whitney, <title rend="italic">A Choice of Emblems</title> (Leiden, 1586), 52 (“Nil penna, sed usus”), 74 (“Gratiam referendam”), etc.</bibl></note></seg> Here, by contrast, Pulter alters the formula, reaching into her own personal experience to extract from it a bestiary-style exemplum. This process introduces tension, or even contradiction, into the fabric of the poem. On one hand, the emblem trades on a conventional <foreign rend="italic">contemptus mundi</foreign> motif, exhorting us not to think “our Sinfull Souls ... Secure” in this changeable world. But much of the poem’s energy remains invested in the very worldly goods and attainments it instructs us to contemn: Pulter’s father’s erstwhile appointment as Lord Treasurer and the gastronomic connection this entailed to the privy kitchen and the king himself. (The trappings of courtly luxury extend even to the food, with “large fish and seafood such as sturgeon, baked porpoise, and whale [traditionally] singled out as courtly foods, along with lamprey eels and oysters.”<seg>2<note type="gloss"><bibl>Ken Albala, <title rend="italic">Eating Right in the Renaissance</title> (Berkeley: U of California P, 2002), 206.</bibl></note></seg>) Through this tension, Pulter rehearses a standard interregnum royalist pose—a resigned renunciation of worldly affairs, coupled with a wistful recollection of the affairs thus renounced. And in fact, an undercurrent of militancy runs through this emblem, suggesting the limits of Pulter’s godly self-denial. Her “dismale bloudy Fights / Betwixt the Frogian and the Mecian Knights” derive from John Ogilby’s translation of “The Battel of the Frog and Mouse,” a late martial variant of an earlier, more rustic fable by Aesop.<seg>3<note type="italic">See <bibl>John Ogilby, <title rend="italic">The Fables of Aesop</title> (London, 1651), Fable 6, 11-12</bibl>. For the earlier form of the fable, see <bibl>William Caxton, <title rend="italic">The Subtyl Hystories and Fables of Esope</title> (London, 1484), 1.3 (f. 32v)</bibl>.</note></seg> Moreover, Ogilby’s version also incorporates themes from the anonymous mock epic <title rend="italic">Battle of Frogs and Mice</title> (c. 3rd century BCE), often attributed to Homer and rendered into English in 1624 by George Chapman as part of his translation of Homer’s works.<seg>4<note type="gloss"><bibl>George Chapman, <title rend="italic">The Crowne of all Homers Workes</title> (London, 1624), 1-17</bibl>.</note></seg> Such poems seem to embody Pulter’s own literary aspirations: “Oh, that I now could speak the Mecian Tongues, / Or Frogian Language! But I want such Lungs.” Likewise, Pulter’s final couplet—“Then trust in God, Extoll Him Day and Night: / For Sun and Moon and Stars, shall for thee Fight”—tracks close to the royalist rhetoric of Shakespeare’s <title rend="italic">Richard II</title>: “Yet know, my master, God omnipotent, / Is mustering in his clouds, on our behalf, / Armies of pestilence.”<seg>5<note type="gloss"><bibl>William Shakespeare, <title rend="italic">Richard II</title>, ed. Peter Ure (London: Methuen, 1978), 3.3.85-7</bibl>.</note></seg> At such moments, Pulter’s emblem seems more interested in re-fighting old battles than in forsaking the field for heavenly things. Hence, too, the poem’s interest in “Tide, or Time, or Death”—the instruments whereby God reveals his will to mortals: these move in recurrent cycles, affording the oppressed a promise of future liberation, either here on earth through change of fortune or, in the case of death, among the saints in heaven.</note>
           </rdg>
         </app>
       </head>
@@ -175,154 +175,154 @@
         <app>
             <rdg wit="#ft">When Royall &ff;ergus Line did Rule this Realm</rdg>
             <rdg wit="#ee">When royal <seg>Fergus’s line<note type="gloss">descendants of Fergus, the first king of Scotland</note></seg> did rule this realm,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">When <seg>royal Fergus’<note type="gloss">Traditionally the first king of Scotland, Fergus serves here as the original ancestor of King Charles I. According to George Buchanan’s <title rend="italic">Rerum Scoticarum Historia</title> (1582), Fergus reconquered Scotland from the invading Romans—an account which may here contribute to the martial undertones of Pulter’s emblem.</note></seg> Line did rule this Realm,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">My &ff;ather had the Third place at the Helme</rdg>
             <rdg wit="#ee"><seg>My father had the third place at the helm<note type="gloss">Pulter speaks here in her own voice of her father, James Ley, who served James I and then Charles I as Lord Treasurer from 1624 to 1628.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">My Father had the Third place at the Helme.</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Out of the Privie Kitchin came his Meat</rdg>
             <rdg wit="#ee">Out of the <seg>privy kitchen<note type="gloss">i.e., the king’s private kitchen</note></seg> came his <seg>meat<note type="gloss">food generally as well as flesh specifically</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Out of the Privie Kitchin came his Meat;</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Of Sixteen Diſhes hee might dayly Eat</rdg>
             <rdg wit="#ee">Of sixteen dishes he might daily eat.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Of sixteen Dishes hee might dayly Eat.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">All things that were in Seaſon out were Sought</rdg>
             <rdg wit="#ee">All things that were in season <seg>out were sought<note type="gloss">were sought out</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">All things that were in Season out were Sought.</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Amongst the Rest they Welfleet Oysters Brought</rdg>
             <rdg wit="#ee">Amongst the rest they <seg>Wallfleet oysters<note type="gloss">See <bibl>John Norden, <title rend="italic">Speculi Britanniae Pars: An Historical and Chorographical Description of the Country of Essex, Edited from the Original Manuscript in the Marquess of Salisbury’s Library at Hatfield</title>, ed. Henry Ellis (London, 1840), p. 10</bibl>: “Some part of the sea shore of Essex yieldeth the best oysters in England, which are called Wallfleet oysters.”</note></seg> brought;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Amongst the rest they <seg>Welfleet Oysters<note type="gloss">The town of Wellfleet, Massachusetts, home to the eponymous strain of New England oysters, derives its name from the Wallfleet oysters of Essex. However, the American and English oysters are of different species: <foreign rend="italic">Crassostrea virginica</foreign> and <foreign rend="italic">Ostrea edulis</foreign>, respectively.</note></seg> Brought,</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Which being Set Ready till my &ff;ather Comes</rdg>
             <rdg wit="#ee">Which, being set ready till my father comes,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which being set ready till my Father Comes,</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">A Mouſ leaps on the Table for the Crumbs</rdg>
             <rdg wit="#ee">A mouse leaps on the table for the crumbs;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">A Mous leaps on the Table for the Crumbs,</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Then Skipping up and down her Tayl did Glide</rdg>
             <rdg wit="#ee">Then, skipping up and down, her tail did glide</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then Skipping up and down, her Tayl did Glide</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">By chance betwixt the Shels, T’was then full Tide</rdg>
             <rdg wit="#ee">By chance betwixt the shells; <seg>’twas then full tide<note type="gloss">Early modern thinking suggested that even an oyster served for dinner could “gapeth for air,” or open, “against the tide” (<bibl>Thomas Johnson, <title rend="italic">Cornucopiae, or Diverse Secrets</title> [London, 1595], sig. B4v</bibl>).</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">By chance betwixt the shells. T’was then full Tide.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">The Oyſter &ff;eeling one within her Hoſ</rdg>
             <rdg wit="#ee">The oyster, feeling one within her house,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The Oyster, Feeling one within her Hous,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Clapt cloſe her doors, and thus ſhee Catch’d <w lemma="the"><abbr>y<hi rend="superscript">e</hi></abbr></w> Mou’s</rdg>
             <rdg wit="#ee">Clapped close her doors, and thus she catched the mouse.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Clapt close her doors, and thus shee Catch’d the Mous.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Oh that I now could Speak the Mecian Tongues</rdg>
             <rdg wit="#ee">O, that I now could speak the <seg>Micean tongues<note type="gloss">imaginary term for the languages spoken by mice</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Oh, that I now could speak the <seg>Mecian Tongues<note type="gloss">Apparently an orthographic back-formation from “Grecian,” the “Mecian Tongue” here offers a humorous counterpart to the all-male “puberty rite” of grammar-school Latin study (<bibl>Walter Ong, Jr., “Latin Language Study as a Renaissance Puberty Rite,” <title rend="italic">Studies in Philology</title> 56.2 [April, 1959], 103-24</bibl>).</note></seg>,</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Or &ff;rogian Language but I want Such <seg>Lungs<note type="physical">“u” written over an “a”</note></seg></rdg>
             <rdg wit="#ee">Or <seg>Frogian language<note type="gloss">imaginary term for the language spoken by frogs</note></seg>! But I want such lungs</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or Frogian Language! But I want such Lungs</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">As hee that writ the diſmale bloody &ff;ights</rdg>
             <rdg wit="#ee">As <seg>he that writ the dismal bloody fights<note type="gloss">John Ogilby published popular and politicized translations of Aesop’s fables in the 1650s, which included the fable of a battle between the empires of the mouse and frog; the description of animal languages, in lines above, and the heroic dueling of the animals are drawn from this fable.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">As hee that writ the dismale bloody Fights</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Betwixt the &ff;rogian and the Mecian Lnights</rdg>
             <rdg wit="#ee">Betwixt the Frogian and the Micean knights.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Betwixt the Frogian and the Mecian Knights<note type="gloss">Ogilby’s version of the fable of the frog and mouse owes a great deal to the pseudo-Homeric mock epic <title rend="italic">Battle of Frogs and Mice (Batrachomyomachia)</title>, whose epic war begins when the king of the frogs inadvertently drowns the mouse-prince Psycharpax.</note></seg>.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Surely noe Weomen and I think few Men</rdg>
             <rdg wit="#ee">Surely no women, and I think few men,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Surely noe Weomen, and I think few Men,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Can dance Soe well as hee <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> feet and Pen</rdg>
             <rdg wit="#ee">Can <seg>dance so well as he<note type="gloss">Ogilby was a dancing master as well as a translator who (as the next lines indicate) did not learn Latin and Greek until late in life.</note></seg> with <seg>feet<note type="gloss">In addition to meaning parts of legs, “feet” refers to units of poetic meter.</note></seg> and pen;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Can dance soe well as hee with feet and Pen.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">But hee thoſe Tongu’s as I have heard did Seek</rdg>
             <rdg wit="#ee">But he those tongues, as I have heard, did seek</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But hee those Tongues as I have heard did Seek</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Before hee Learnd the Latin<seg><del>e</del><note type="physical">e is smeared over</note></seg>’or the Greek</rdg>
             <rdg wit="#ee">Before he learned the Latin or the Greek.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Before hee Learnd <seg>the Latin or the Greek<note type="gloss">Ogilby mastered the classical tongues belatedly, after injury cut short his career as a dancing master. Wendy Wall has noted how dancing could be used to figure “the precarious freedom most female writers had when they sat down to compose their literary works” (<bibl><title rend="italic">The Imprint of Gender: Authorship and Publication in the English Renaissance</title> [Ithaca: Cornell UP, 1993), 283</bibl>).</note></seg>.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">But now the Captive Mouſ her dubious &ff;ate</rdg>
             <rdg wit="#ee">But now the captive mouse her dubious fate</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But now the Captive Mous her dubious Fate</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">In my own Mother Tongue I must Relate</rdg>
             <rdg wit="#ee">In my own mother tongue I must relate.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In my own Mother Tongue I must relate.</rdg>
         </app>
       </l>
         <app>
@@ -345,49 +345,49 @@
         <app>
             <rdg wit="#ft">As her impriſonment came by A &ff;low</rdg>
             <rdg wit="#ee">As her imprisonment came by <seg>a flow<note type="gloss">of the tide</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">As her imprisonment came by A Flow,</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Soe the next happy Tide did let her goe</rdg>
             <rdg wit="#ee">So the next <seg>happy<note type="gloss">fortunate; fortuitous</note></seg> tide did let her go.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Soe the next happy Tide did let her goe.</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">O wonderfull who would have ever thought</rdg>
             <rdg wit="#ee">Oh, wonderful! Who would have ever thought</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">O wonderfull! who would have ever thought</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">That from the Deliane Twins help Should bee brought</rdg>
             <rdg wit="#ee">That from <seg>the Delian twins<note type="gloss">Apollo and Artemis, Greek god and goddess of the sun and moon, respectively; tides are caused by the sun and moon.</note></seg> help should be brought?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That from the <seg>Deliane<note type="gloss">The deities Apollo and Artemis, traditionally born on the island of Delos, appear here by virtue of their respective association with the sun and moon, which lends them influence over tides.</note></seg> Twins help should bee brought?</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Then let us learn while &ff;leſh doth here immure</rdg>
             <rdg wit="#ee">Then let us learn, while flesh doth here <seg>immure<note type="gloss">enclose in walls; imprison</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then let us learn, while Flesh doth here immure</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Our <seg>Sinfull<note type="physical">“n” originally written as “t”</note></seg> Souls, not think our Selves Secure</rdg>
             <rdg wit="#ee">Our sinful souls—not think our selves secure.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Our Sinfull Souls, not think our Selves Secure.</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">As this dul &ff;iſh was Torn up from A Rock</rdg>
             <rdg wit="#ee">As <seg>this dull fish<note type="gloss">the oyster</note></seg> was torn up from a rock,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">As this dul Fish was Torn up from A Rock,</rdg>
         </app>
       </l>
       <l n="30">
@@ -395,49 +395,49 @@
             <rdg wit="#ft">This Spritely Mous in Priſon thus to Lock
             </rdg>
             <rdg wit="#ee">This <seg>spritely<note type="gloss">vigorous; energetic</note></seg> mouse in prison thus to lock,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This Spritely Mous in Prison thus to Lock,</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Soe from A vulgar one may Rise to Raign</rdg>
             <rdg wit="#ee">So, from a <seg>vulgar<note type="gloss">a person from the common class in a community, associated with being uneducated; Pulter is referring to Oliver Cromwell, a non-elite statesman who led Parliamentarians against King Charles I during the English civil war, and later became Lord Protector.</note></seg>, one may rise to reign</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Soe from A <seg>vulgar<note type="gloss">Literally “of the common people” (from Latin <foreign rrend="italic">vulgaris</foreign>). The mock-heroic comparison to oysters (“As this dul Fish”) disparages Cromwell along the Great Chain of Being. More generally, Pulter trades here between differing markers of—and perspectives on—status: as high-class consumables, the oysters are fit for a king, whereas their dull fishiness associates them with Cromwell and the common sort. The captive mouse, on the other hand, stands in for the oppressed followers of King Charles, while also figuring forth their hopes for an eventual reversal of fortune.</note></seg> one may rise to Raign</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">That many a Noble Spirit may Restrain</rdg>
             <rdg wit="#ee">That many a noble spirit may restrain.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That many a Noble Spirit may Restrain.</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">This is too true, Yet let them patient bee</rdg>
             <rdg wit="#ee">This is too true; yet let them patient be,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This is too true; yet let them patient bee</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">&ff;or Tide, or Time, or Death, will Set them free.</rdg>
             <rdg wit="#ee">For tide, or time, or death, will set them free.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For Tide, or Time, or Death, will set them free.</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">Then trust in God, Extoll him Day, and Night:</rdg>
             <rdg wit="#ee">Then trust in God, <seg>extol<note type="gloss">elevate with praise</note></seg> Him day and night:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then trust in God, Extoll Him Day and Night:</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">ffor Sun, and Moon, and Stars, Shall for thee &ff;ight.</rdg>
             <rdg wit="#ee">For sun, and moon, and stars, shall for thee fight.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For Sun and Moon and Stars, shall for thee Fight.</rdg>
         </app>
       </l>
         <app>
