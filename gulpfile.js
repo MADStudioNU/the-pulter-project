@@ -358,14 +358,15 @@ gulp.task('xslt:lunr:curations', function () {
       xslt(
         getXSLTProcOptions(
           PP_SEARCH_CURATION_TRANSFORMATION,
-          true)
+          true
+        )
       )
     )
     // .pipe(tap(function (file) {
     //   const info = file.stem;
     //   file.contents = new Buffer.from(info);
     // }))
-    .pipe(concat('curations.js'))
+    .pipe(concat('curations.txt'))
     .on('error', gulpUtil.log)
     .pipe(gulp.dest(SITE_BASE + '_temp'));
 });
