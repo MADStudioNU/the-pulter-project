@@ -62,7 +62,7 @@ var PP = (function ($) {
               playSplashAnimation();
               pulterState.set('enoughSplashAnimation', true, 60 * 60 * 24);
             } else {
-              // Otherwise skip and just show elements
+              // Otherwise, skip and just show elements
               $('.anmtd, .eventually, .actions-box').addClass('skipped');
             }
           }
@@ -400,6 +400,10 @@ var PP = (function ($) {
     },
     initPoem: function (params) {
       var $body = $('body');
+
+      $(window).on('load', function () {
+        $body.show();
+      });
 
       // Default options (for a poem)
       var defaults = {
