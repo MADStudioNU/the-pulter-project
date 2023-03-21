@@ -1,52 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text" omit-xml-declaration="yes" indent="no" encoding="UTF-8" media-type="text/x-json"/>
 
   <xsl:template match="*|text()"><xsl:apply-templates/></xsl:template>
 
-  <xsl:template match="title">
-    <xsl:value-of select="./text()"/>
+  <xsl:template name="encode-string">
+    <xsl:param name="s" select="''"/>
+    <xsl:param name="encoded" select="''"/>
+
+    <xsl:choose>
+      <xsl:when test="$s = ''">
+        <xsl:value-of select="$encoded"/>
+      </xsl:when>
+      <xsl:when test="contains($s, '&quot;')">
+        <xsl:call-template name="encode-string">
+          <xsl:with-param name="s" select="substring-after($s,'&quot;')"/>
+          <xsl:with-param name="encoded"
+                          select="concat($encoded,substring-before($s,'&quot;'),'\&quot;')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat($encoded, $s)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="html">
     <xsl:call-template name="jsonOutput">
-      <xsl:with-param name="foo" select="body/@class"/>
+      <xsl:with-param name="curationTitle" select="//title/text()"/>
+      <xsl:with-param name="curationBody" select="normalize-space(//main)"/>
+      <xsl:with-param name="curationAuthorship" select="//header/div/span[@class='who']/text()"/>
     </xsl:call-template>
-    <xsl:text> ~~~ </xsl:text>
-    <xsl:apply-templates/>
   </xsl:template>
-
-  <xsl:variable name="resourceId" select="/xhtml:body/@class"/>
-  <xsl:variable name="curationID" select="substring-after($resourceId, '/poems/')"/>
 
   <xsl:template name="jsonOutput">
-    <xsl:param name="foo"/>
-    <xsl:value-of select="$foo"/>
-<!--    <xsl:value-of select="concat('PPS.addResource(', '{')"/>-->
-<!--    <xsl:value-of select="concat('&quot;id&quot;:&quot;c',curationID, '&quot;,')"/>-->
-<!--    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;curation&quot;', ',')"/>-->
-<!--    <xsl:value-of select="concat('&quot;in_type_id&quot;: ',curationID, ',')"/>-->
-<!--    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $fullTitle, '&quot;,')"/>-->
-<!--    <xsl:value-of select="'&quot;body&quot;:&quot;'"/>-->
-<!--    <xsl:apply-templates select="//tei:body">-->
-<!--      <xsl:with-param name="witId" select="$elementalEditionId"/>-->
-<!--    </xsl:apply-templates>-->
-<!--    <xsl:value-of select="'&quot;,'"/>-->
-<!--    <xsl:value-of select="'&quot;headnote&quot;:&quot;'"/>-->
-<!--    <xsl:apply-templates select="//tei:app[@type='headnote']">-->
-<!--      <xsl:with-param name="witId" select="$elementalEditionId"/>-->
-<!--    </xsl:apply-templates>-->
-<!--    <xsl:value-of select="concat('&quot;}', ');')"/>-->
-  </xsl:template>
+    <xsl:param name="curationTitle"/>
+    <xsl:param name="curationBody"/>
+    <xsl:param name="curationAuthorship"/>
 
-<!--  <xsl:template match="xhtml:body">-->
-<!--    <xsl:apply-templates select="*"/>-->
-<!--&lt;!&ndash;    <xsl:value-of select="'foo!'"/>&ndash;&gt;-->
-<!--&lt;!&ndash;        <xsl:copy>&ndash;&gt;-->
-<!--&lt;!&ndash;          <xsl:copy-of select="@*"/>&ndash;&gt;-->
-<!--&lt;!&ndash;          <xsl:apply-templates select="*"/>&ndash;&gt;-->
-<!--&lt;!&ndash;        </xsl:copy>&ndash;&gt;-->
-<!--  </xsl:template>-->
+    <xsl:variable name="curationBodyEscaped">
+      <xsl:call-template name="encode-string">
+        <xsl:with-param name="s" select="$curationBody"/>
+      </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:variable name="curationAuthorshipEscaped">
+      <xsl:call-template name="encode-string">
+        <xsl:with-param name="s" select="$curationAuthorship"/>
+      </xsl:call-template>
+    </xsl:variable>
+
+<!--    <xsl:value-of select="concat('PPS.addResource(', '{')"/>-->
+<!--    <xsl:value-of select="concat('&quot;id&quot;:&quot;', '&quot;,')"/>-->
+<!--    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;curation&quot;', ',')"/>-->
+<!--    <xsl:value-of select="concat('&quot;correspondingPoem&quot;:','&quot;&quot;', ',')"/>-->
+<!--    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $curationTitle, '&quot;,')"/>-->
+<!--    <xsl:value-of select="concat('&quot;body&quot;:&quot;', $curationBody, '&quot;,')"/>-->
+<!--    <xsl:value-of select="concat('&quot;authorship&quot;:&quot;', $curationAuthorship, '&quot;')"/>-->
+<!--    <xsl:value-of select="concat('}', ');')"/>-->
+
+    <xsl:value-of select="concat($curationAuthorship, ' ~ ', $curationAuthorshipEscaped)"/>
+  </xsl:template>
 </xsl:stylesheet>

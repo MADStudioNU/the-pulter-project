@@ -26,6 +26,7 @@ const concat = require('gulp-concat');
 const dashify = require('dashify');
 const debug = require('gulp-debug');
 const flatMap = require('gulp-flatmap');
+const foreach = require('gulp-foreach');
 const fs = require('fs');
 const sass = require('gulp-sass')(require('sass'));
 const sourceMaps = require('gulp-sourcemaps');
@@ -36,8 +37,8 @@ const shell = require('gulp-shell');
 const path = require('path');
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
+const replace = require('gulp-replace');
 const source = require('vinyl-source-stream');
-const tap = require('gulp-tap');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 
@@ -354,19 +355,27 @@ gulp.task('xslt:lunr:ee', function () {
 
 gulp.task('xslt:lunr:curations', function () {
   return gulp.src([SITE_BASE + 'curations/*.html'])
-    .pipe(
-      xslt(
-        getXSLTProcOptions(
-          PP_SEARCH_CURATION_TRANSFORMATION,
-          true
+    .pipe(foreach(function (stream, file) {
+      const fileStem = file.stem;
+      return stream
+        .pipe(
+          xslt(
+            getXSLTProcOptions(
+              PP_SEARCH_CURATION_TRANSFORMATION,
+              true
+            )
+          )
         )
-      )
-    )
-    // .pipe(tap(function (file) {
-    //   const info = file.stem;
-    //   file.contents = new Buffer.from(info);
-    // }))
-    .pipe(concat('curations.txt'))
+        .pipe(
+          replace('"id":""', `"id":"${fileStem}"`)
+        )
+        .pipe(
+          replace('"correspondingPoem":""', `"correspondingPoem":${fileStem.split('-')[0].slice(1)}`)
+        )
+    }))
+
+    // .pipe(appendPrepend.appendText(filename))
+    .pipe(concat('curations.js'))
     .on('error', gulpUtil.log)
     .pipe(gulp.dest(SITE_BASE + '_temp'));
 });
