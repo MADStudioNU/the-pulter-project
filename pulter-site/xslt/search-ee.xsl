@@ -4,11 +4,8 @@
 
   <xsl:output method="text" omit-xml-declaration="yes" indent="no" encoding="UTF-8" media-type="text/x-json"/>
 
-  <!-- INCLUDES BEGIN  -->
   <xsl:include href="poems.xsl"/>
-  <!-- INCLUDES END  -->
 
-  <!-- VARIABLES BEGIN  -->
   <xsl:variable name="resourceId" select="/tei:TEI/@xml:id"/>
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
   <xsl:variable name="elementalEditionId">ee</xsl:variable>
@@ -29,51 +26,25 @@
     </xsl:call-template>
   </xsl:variable>
 
-
-  <!-- Meta desc keywords chunk -->
-  <xsl:variable name="keywordsMetaDescChunk">
-    <xsl:call-template name="poemsTopKeywordsChunk">
-      <xsl:with-param name="poemId" select="$poemID"/>
-      <xsl:with-param name="numberOfKeywords" select="4"/>
-    </xsl:call-template>
-  </xsl:variable>
-
-  <xsl:variable name="lowerCaseAlphabet" select="'abcdefghijklmnopqrstuvwxyz'"/>
-  <xsl:variable name="upperCaseAlphabet" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
-
-  <!-- TODO:
-      grab the first line (and truncate if necessary)
-  -->
-  <xsl:variable name="firstLine">
-    <xsl:for-each select="//tei:l[@n=1]//tei:rdg[@wit='#ee']//text()[not(ancestor::tei:note)]">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </xsl:variable>
-
-  <xsl:variable name="firstLineNormalized" select="normalize-space($firstLine)"/>
-  <!-- VARIABLES END -->
-
-  <!-- TEMPLATES BEGIN -->
-  <!-- Root -->
   <xsl:template match="/">
     <xsl:value-of select="concat('PPS.addResource(', '{')"/>
     <xsl:value-of select="concat('&quot;id&quot;:&quot;p',$poemID, '&quot;,')"/>
     <xsl:value-of select="concat('&quot;type&quot;:', '&quot;poem&quot;', ',')"/>
-    <xsl:value-of select="concat('&quot;in_type_id&quot;: ',$poemID, ',')"/>
+    <xsl:value-of select="concat('&quot;poemRef&quot;:',$poemID, ',')"/>
     <xsl:value-of select="concat('&quot;title&quot;:&quot;', $fullTitle, '&quot;,')"/>
     <xsl:value-of select="'&quot;body&quot;:&quot;'"/>
-    <xsl:apply-templates select="//tei:body">
-      <xsl:with-param name="witId" select="$elementalEditionId"/>
-    </xsl:apply-templates>
+<!--    <xsl:apply-templates select="//tei:body">-->
+<!--      <xsl:with-param name="witId" select="$elementalEditionId"/>-->
+<!--    </xsl:apply-templates>-->
     <xsl:value-of select="'&quot;,'"/>
-    <xsl:value-of select="'&quot;headnote&quot;:&quot;'"/>
-    <xsl:apply-templates select="//tei:app[@type='headnote']">
-      <xsl:with-param name="witId" select="$elementalEditionId"/>
-    </xsl:apply-templates>
+    <xsl:value-of select="'&quot;meta&quot;:&quot;'"/>
+<!--    <xsl:apply-templates select="//tei:app[@type='headnote']">-->
+<!--      <xsl:with-param name="witId" select="$elementalEditionId"/>-->
+<!--    </xsl:apply-templates>-->
+    <xsl:value-of select="'meta stuff'"/>
     <xsl:value-of select="concat('&quot;}', ');')"/>
   </xsl:template>
 
-  <!-- Body template -->
   <xsl:template match="tei:body">
     <xsl:param name="witId"/>
     <xsl:apply-templates select="node()[name() != 'head']">
@@ -81,7 +52,6 @@
     </xsl:apply-templates>
   </xsl:template>
 
-  <!-- Poem header -->
   <xsl:template match="tei:head">
     <xsl:param name="witId"/>
     <xsl:apply-templates>
@@ -89,7 +59,6 @@
     </xsl:apply-templates>
   </xsl:template>
 
-  <!-- Line group -->
   <xsl:template match="tei:lg">
     <xsl:param name="witId"/>
     <xsl:apply-templates>
@@ -98,7 +67,6 @@
     <xsl:text> </xsl:text>
   </xsl:template>
 
-  <!-- Last line group -->
   <xsl:template match="tei:lg[last()]">
     <xsl:param name="witId"/>
     <xsl:apply-templates>
@@ -106,7 +74,6 @@
     </xsl:apply-templates>
   </xsl:template>
 
-  <!-- Line -->
   <xsl:template match="tei:l">
     <xsl:param name="witId"/>
       <xsl:apply-templates>
@@ -115,7 +82,6 @@
     <xsl:text> </xsl:text>
   </xsl:template>
 
-  <!-- Last line -->
   <xsl:template match="tei:l[last()]">
     <xsl:param name="witId"/>
     <xsl:apply-templates>
@@ -123,7 +89,6 @@
     </xsl:apply-templates>
   </xsl:template>
 
-  <!-- Apparatus -->
   <xsl:template match="tei:app">
     <xsl:param name="witId"/>
 
@@ -135,7 +100,6 @@
   <!-- Class Assignment Logic for rdg -->
   <xsl:template match="tei:rdg">
     <xsl:param name="witId"/>
-
     <xsl:choose>
       <xsl:when test="@wit = concat('#', $witId)">
         <xsl:apply-templates>
@@ -157,15 +121,8 @@
   <xsl:template match="tei:seg">
     <xsl:apply-templates/>
   </xsl:template>
-
-  <!-- Consecutive segs need a space between them -->
-  <xsl:template match="tei:seg[following-sibling::tei:seg]">
-    <xsl:apply-templates/>
-    <xsl:text> </xsl:text>
-  </xsl:template>
   <!-- TEMPLATES END -->
 
-  <!-- UTILITIES BEGIN -->
   <!-- Identity template -->
   <xsl:template match="node()|@*" name="identity">
     <xsl:copy>
@@ -186,5 +143,4 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-  <!-- UTILITIES END -->
 </xsl:stylesheet>

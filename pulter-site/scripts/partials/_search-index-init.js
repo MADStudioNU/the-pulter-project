@@ -2,10 +2,12 @@ var PPS = (function () {
   var _pps = elasticlunr(function () {
     this.addField('id');
     this.addField('type');
-    this.addField('in_type_id');
+    this.addField('poemRef');
     this.addField('title');
+    this.addField('authorship');
     this.addField('body');
-    this.addField('headnote');
+    this.addField('meta');
+
     this.setRef('id');
     this.saveDocument(true);
   });

@@ -6,7 +6,7 @@ const POEMS_DESTINATION_FOLDER = SITE_BASE + 'poems';
 const EE_SUBFOLDER = '/ee';
 const AE_SUBFOLDER = '/ae';
 const VM_SUBFOLDER = '/vm';
-const SEARCH_DOCS_DESTINATION_FOLDER = SITE_BASE + 'search';
+const SEARCH_FOLDER = SITE_BASE + 'search';
 const PULTER_POEM_MANIFEST_FILE_NAME = 'pulter-manifest.json';
 const PULTER_POEM_MANIFEST_LOCATION = SITE_BASE + PULTER_POEM_MANIFEST_FILE_NAME;
 const EE_TRANSFORMATION = SITE_BASE + 'xslt/poem-ee.xsl';
@@ -33,12 +33,12 @@ const sourceMaps = require('gulp-sourcemaps');
 const loadJSON = require('load-json-file');
 const minifyCSS = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
-const shell = require('gulp-shell');
 const path = require('path');
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const replace = require('gulp-replace');
 const source = require('vinyl-source-stream');
+const childProcess = require('child_process');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 
@@ -253,7 +253,11 @@ gulp.task('files-deploy', function (done) {
   done();
 });
 
-gulp.task('clean', shell.task('rm -rf ' + PRODUCTION_SITE_BASE));
+gulp.task('clean', function (done) {
+  const command = 'rm -rf ' + PRODUCTION_SITE_BASE;
+  childProcess.exec(command);
+  done();
+});
 
 gulp.task('default',
   gulp.series(
@@ -274,29 +278,18 @@ gulp.task('deploy', gulp.series('clean', gulp.parallel('vendor-scripts-deploy', 
 
 /* Erasers */
 gulp.task('xslt:erase:search', function(done) {
-  shell.task([
-    'rm -rf ' + SEARCH_DOCS_DESTINATION_FOLDER
-  ]);
-
+  const command = 'rm -rf ' + SEARCH_FOLDER;
+  childProcess.exec(command);
   done();
 });
 
 gulp.task('xslt:erase:poems', function(done) {
-  shell.task([
-    'rm -rf ' + POEMS_DESTINATION_FOLDER
-  ]);
-
+  const command = 'rm -rf ' + POEMS_DESTINATION_FOLDER;
+  childProcess.exec(command);
   done();
 });
 
-gulp.task('xslt:erase', function(done) {
-  shell.task([
-    'rm -rf ' + POEMS_DESTINATION_FOLDER,
-    'rm -rf ' + SEARCH_DOCS_DESTINATION_FOLDER
-  ]);
-
-  done();
-});
+gulp.task('xslt:erase', gulp.series('xslt:erase:search', 'xslt:erase:poems'));
 
 /* XSLT Tasks */
 gulp.task('xslt:index', function () {
@@ -315,7 +308,7 @@ gulp.task('xslt:manifest', function () {
     .pipe(gulp.dest(SITE_BASE));
 });
 
-gulp.task('xslt:lunr:ee', function () {
+gulp.task('xslt:lunr:elemental', function () {
   return Promise.all([
     loadJSON(PULTER_POEM_MANIFEST_LOCATION).then(
       function (data) {
@@ -342,10 +335,8 @@ gulp.task('xslt:lunr:ee', function () {
               return gulp.src('blank.txt', { allowEmpty: true });
             }
           }))
-          .pipe(concat('ee-search.js'))
-          .pipe(appendPrepend.prependFile(LUNR_INIT_PARTIAL))
-          .pipe(appendPrepend.prependFile(ELASTICLUNR_LIBRARY))
-          .pipe(gulp.dest(SITE_BASE + 'search'));
+          .pipe(concat('_ee-search.js'))
+          .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
       }, function () {
         console.log('ERROR: couldn’t load the poem manifest!');
         return gulpUtil.noop();
@@ -370,19 +361,21 @@ gulp.task('xslt:lunr:curations', function () {
           replace('"id":""', `"id":"${fileStem}"`)
         )
         .pipe(
-          replace('"correspondingPoem":""', `"correspondingPoem":${fileStem.split('-')[0].slice(1)}`)
+          replace('"poemRef":""', `"poemRef":${fileStem.split('-')[0].slice(1)}`)
         )
     }))
-
-    // .pipe(appendPrepend.appendText(filename))
-    .pipe(concat('curations.js'))
+    .pipe(concat('_curation-search.js'))
     .on('error', gulpUtil.log)
-    .pipe(gulp.dest(SITE_BASE + '_temp'));
+    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
 });
 
-gulp.task('xslt:lunr', gulp.series('xslt:erase:search', 'xslt:lunr:ee', (done) => {
-  done();
-}));
+gulp.task('xslt:lunr:assemble', function() {
+  return gulp.src(SEARCH_FOLDER + '/partials/*.js')
+    .pipe(concat('pulter-search.js'))
+    .pipe(appendPrepend.prependFile(LUNR_INIT_PARTIAL))
+    .pipe(appendPrepend.prependFile(ELASTICLUNR_LIBRARY))
+    .pipe(gulp.dest(SEARCH_FOLDER));
+});
 
 gulp.task('sitemap', function () {
   const prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
@@ -698,6 +691,6 @@ gulp.task('xslt:poems', function () {
   ]);
 });
 
-gulp.task('xslt', gulp.series('xslt:erase', 'xslt:manifest', 'xslt:index', 'xslt:lunr', 'xslt:poems', 'sitemap', (done) => {
+gulp.task('xslt', gulp.series('xslt:erase:poems', 'xslt:manifest', 'xslt:index', 'xslt:poems', 'sitemap', (done) => {
   done();
 }));

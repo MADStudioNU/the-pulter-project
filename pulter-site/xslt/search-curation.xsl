@@ -44,21 +44,14 @@
       </xsl:call-template>
     </xsl:variable>
 
-    <xsl:variable name="curationAuthorshipEscaped">
-      <xsl:call-template name="encode-string">
-        <xsl:with-param name="s" select="$curationAuthorship"/>
-      </xsl:call-template>
-    </xsl:variable>
-
-<!--    <xsl:value-of select="concat('PPS.addResource(', '{')"/>-->
-<!--    <xsl:value-of select="concat('&quot;id&quot;:&quot;', '&quot;,')"/>-->
-<!--    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;curation&quot;', ',')"/>-->
-<!--    <xsl:value-of select="concat('&quot;correspondingPoem&quot;:','&quot;&quot;', ',')"/>-->
-<!--    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $curationTitle, '&quot;,')"/>-->
-<!--    <xsl:value-of select="concat('&quot;body&quot;:&quot;', $curationBody, '&quot;,')"/>-->
-<!--    <xsl:value-of select="concat('&quot;authorship&quot;:&quot;', $curationAuthorship, '&quot;')"/>-->
-<!--    <xsl:value-of select="concat('}', ');')"/>-->
-
-    <xsl:value-of select="concat($curationAuthorship, ' ~ ', $curationAuthorshipEscaped)"/>
+    <xsl:value-of select="concat('PPS.addResource(', '{')"/>
+    <xsl:value-of select="concat('&quot;id&quot;:&quot;', '&quot;,')"/>
+    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;curation&quot;', ',')"/>
+    <xsl:value-of select="concat('&quot;poemRef&quot;:','&quot;&quot;', ',')"/>
+    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $curationTitle, '&quot;,')"/>
+<!--    <xsl:value-of select="concat('&quot;body&quot;:&quot;', $curationBodyEscaped, '&quot;,')"/>-->
+<!--    <xsl:value-of select="concat('&quot;meta&quot;:&quot;', '&quot;,')"/>-->
+    <xsl:value-of select="concat('&quot;authorship&quot;:&quot;', $curationAuthorship, '&quot;')"/>
+    <xsl:value-of select="concat('}', ');')"/>
   </xsl:template>
 </xsl:stylesheet>
