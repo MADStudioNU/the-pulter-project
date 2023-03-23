@@ -29,14 +29,14 @@
     <xsl:call-template name="jsonOutput">
       <xsl:with-param name="curationTitle" select="//title/text()"/>
       <xsl:with-param name="curationBody" select="normalize-space(//main)"/>
-      <xsl:with-param name="curationAuthorship" select="//header/div/span[@class='who']/text()"/>
+      <xsl:with-param name="responsibility" select="//header//span[@class='who']/text()"/>
     </xsl:call-template>
   </xsl:template>
 
   <xsl:template name="jsonOutput">
     <xsl:param name="curationTitle"/>
     <xsl:param name="curationBody"/>
-    <xsl:param name="curationAuthorship"/>
+    <xsl:param name="responsibility"/>
 
     <xsl:variable name="curationBodyEscaped">
       <xsl:call-template name="encode-string">
@@ -44,14 +44,14 @@
       </xsl:call-template>
     </xsl:variable>
 
-    <xsl:value-of select="concat('PPS.addResource(', '{')"/>
-    <xsl:value-of select="concat('&quot;id&quot;:&quot;', '&quot;,')"/>
-    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;curation&quot;', ',')"/>
-    <xsl:value-of select="concat('&quot;poemRef&quot;:','&quot;&quot;', ',')"/>
-    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $curationTitle, '&quot;,')"/>
-<!--    <xsl:value-of select="concat('&quot;body&quot;:&quot;', $curationBodyEscaped, '&quot;,')"/>-->
-<!--    <xsl:value-of select="concat('&quot;meta&quot;:&quot;', '&quot;,')"/>-->
-    <xsl:value-of select="concat('&quot;authorship&quot;:&quot;', $curationAuthorship, '&quot;')"/>
+    <xsl:value-of select="'PPS.addResource({'"/>
+    <xsl:value-of select="'id:&quot;&quot;,'"/>
+    <xsl:value-of select="'type:&quot;ctx&quot;,'"/>
+    <xsl:value-of select="'subtype:&quot;curation&quot;,'"/>
+    <xsl:value-of select="'poemRef:&quot;&quot;,'"/>
+    <xsl:value-of select="concat('title:&quot;', normalize-space($curationTitle), '&quot;,')"/>
+    <xsl:value-of select="concat('body:&quot;', normalize-space($curationBodyEscaped), '&quot;,')"/>
+    <xsl:value-of select="concat('responsibility:&quot;', normalize-space($responsibility), '&quot;')"/>
     <xsl:value-of select="concat('}', ');')"/>
   </xsl:template>
 </xsl:stylesheet>

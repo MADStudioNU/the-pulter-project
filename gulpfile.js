@@ -358,14 +358,13 @@ gulp.task('xslt:lunr:curations', function () {
           )
         )
         .pipe(
-          replace('"id":""', `"id":"${fileStem}"`)
+          replace('id:""', `id:"${fileStem}"`)
         )
         .pipe(
-          replace('"poemRef":""', `"poemRef":${fileStem.split('-')[0].slice(1)}`)
+          replace('poemRef:""', `poemRef:${fileStem.split('-')[0].slice(1)}`)
         )
     }))
     .pipe(concat('_curation-search.js'))
-    .on('error', gulpUtil.log)
     .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
 });
 
@@ -381,7 +380,6 @@ gulp.task('sitemap', function () {
   const prefix = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   const suffix = '</urlset>';
   const protocol = 'https:';
-
   const pages = [
     protocol + LIVE_SITE_BASE_URL + '/',
     protocol + LIVE_SITE_BASE_URL + '/#poems',

@@ -19,30 +19,102 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
-  <xsl:variable name="truncatedTitle">
-    <xsl:call-template name="truncateText">
-      <xsl:with-param name="string" select="$fullTitle"/>
-      <xsl:with-param name="length" select="40"/>
+  <xsl:variable name="fullTitleEscaped">
+    <xsl:call-template name="encode-string">
+      <xsl:with-param name="s" select="$fullTitle"/>
+    </xsl:call-template>
+  </xsl:variable>
+  <xsl:variable name="body">
+        <xsl:apply-templates select="//tei:body">
+          <xsl:with-param name="witId" select="$elementalEditionId"/>
+        </xsl:apply-templates>
+  </xsl:variable>
+  <xsl:variable name="meta">
+    <xsl:apply-templates select="//tei:app[@type='headnote']">
+      <xsl:with-param name="witId" select="$elementalEditionId"/>
+    </xsl:apply-templates>
+  </xsl:variable>
+  <xsl:variable name="responsibility">
+    <xsl:call-template name="responsibility">
+      <xsl:with-param name="witnessId" select="$elementalEditionId"/>
     </xsl:call-template>
   </xsl:variable>
 
+  <xsl:template name="encode-string">
+    <xsl:param name="s" select="''"/>
+    <xsl:param name="encoded" select="''"/>
+
+    <xsl:choose>
+      <xsl:when test="$s = ''">
+        <xsl:value-of select="$encoded"/>
+      </xsl:when>
+      <xsl:when test="contains($s, '&quot;')">
+        <xsl:call-template name="encode-string">
+          <xsl:with-param name="s" select="substring-after($s,'&quot;')"/>
+          <xsl:with-param name="encoded"
+                          select="concat($encoded,substring-before($s,'&quot;'),'\&quot;')"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat($encoded, $s)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template match="/">
-    <xsl:value-of select="concat('PPS.addResource(', '{')"/>
-    <xsl:value-of select="concat('&quot;id&quot;:&quot;p',$poemID, '&quot;,')"/>
-    <xsl:value-of select="concat('&quot;type&quot;:', '&quot;poem&quot;', ',')"/>
-    <xsl:value-of select="concat('&quot;poemRef&quot;:',$poemID, ',')"/>
-    <xsl:value-of select="concat('&quot;title&quot;:&quot;', $fullTitle, '&quot;,')"/>
-    <xsl:value-of select="'&quot;body&quot;:&quot;'"/>
-<!--    <xsl:apply-templates select="//tei:body">-->
-<!--      <xsl:with-param name="witId" select="$elementalEditionId"/>-->
-<!--    </xsl:apply-templates>-->
+    <xsl:value-of select="'PPS.addResource({'"/>
+    <xsl:value-of select="concat('id:&quot;p',$poemID, '&quot;,')"/>
+    <xsl:value-of select="'type:&quot;poem&quot;,'"/>
+    <xsl:value-of select="'subtype:&quot;ee&quot;,'"/>
+    <xsl:value-of select="concat('poemRef:',$poemID, ',')"/>
+    <xsl:value-of select="concat('title:&quot;', normalize-space($fullTitleEscaped), '&quot;,')"/>
+    <xsl:value-of select="'body:&quot;'"/>
+    <xsl:call-template name="encode-string">
+      <xsl:with-param name="s" select="normalize-space($body)"/>
+    </xsl:call-template>
     <xsl:value-of select="'&quot;,'"/>
-    <xsl:value-of select="'&quot;meta&quot;:&quot;'"/>
-<!--    <xsl:apply-templates select="//tei:app[@type='headnote']">-->
-<!--      <xsl:with-param name="witId" select="$elementalEditionId"/>-->
-<!--    </xsl:apply-templates>-->
-    <xsl:value-of select="'meta stuff'"/>
+    <xsl:value-of select="'meta:&quot;'"/>
+    <xsl:call-template name="encode-string">
+      <xsl:with-param name="s" select="normalize-space($meta)"/>
+    </xsl:call-template>
+    <xsl:value-of select="'&quot;,'"/>
+    <xsl:value-of select="'responsibility:&quot;'"/>
+    <xsl:call-template name="encode-string">
+      <xsl:with-param name="s" select="normalize-space($responsibility)"/>
+    </xsl:call-template>
     <xsl:value-of select="concat('&quot;}', ');')"/>
+  </xsl:template>
+
+  <xsl:template name="responsibility">
+    <xsl:param name="witnessId"/>
+    <xsl:for-each select="//tei:witness[@xml:id = $witnessId]//tei:persName">
+      <xsl:choose>
+        <xsl:when test="not(position() = last())">
+          <xsl:element name="span">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'who'"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+          </xsl:element>
+          <xsl:text> </xsl:text>
+          <xsl:element name="span">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'by'"/>
+            </xsl:attribute>
+            <xsl:text>and</xsl:text>
+          </xsl:element>
+          <xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:element name="span">
+            <xsl:attribute name="class">
+              <xsl:value-of select="'who'"/>
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+          </xsl:element>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="tei:body">
@@ -82,13 +154,6 @@
     <xsl:text> </xsl:text>
   </xsl:template>
 
-  <xsl:template match="tei:l[last()]">
-    <xsl:param name="witId"/>
-    <xsl:apply-templates>
-      <xsl:with-param name="witId" select="$witId"/>
-    </xsl:apply-templates>
-  </xsl:template>
-
   <xsl:template match="tei:app">
     <xsl:param name="witId"/>
 
@@ -121,7 +186,6 @@
   <xsl:template match="tei:seg">
     <xsl:apply-templates/>
   </xsl:template>
-  <!-- TEMPLATES END -->
 
   <!-- Identity template -->
   <xsl:template match="node()|@*" name="identity">
