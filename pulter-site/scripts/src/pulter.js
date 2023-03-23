@@ -1,12 +1,10 @@
-// noinspection ES6ConvertVarToLetConst,DuplicatedCode
-
 var PP = (function ($) {
   return {
     getPoemIndex: function () {
       return $.get('/pulter-manifest.json');
     },
     getSearchScript: function () {
-      return $.getScript('/search/ee-search.js');
+      return $.getScript('/search/pulter-search.js');
     },
     initHome: function () {
       console.log('%c Welcome to the Pulter Project!', 'background: #FBF0FF; color: #330657;');

@@ -20,9 +20,8 @@ jobs:
           node-version: '18.x'
 
       - run: yarn
-      - run: npm i -g gulp-cli
-      - run: gulp xslt
-      - run: gulp deploy
+      - run: npm i -g gulp-cli@latest
+      - run: gulp buildTPP
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
