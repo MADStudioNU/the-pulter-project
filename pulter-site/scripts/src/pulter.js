@@ -1,4 +1,7 @@
 var PP = (function ($) {
+  // Enable caching globally
+  $.ajaxSetup({cache: true});
+
   return {
     getPoemIndex: function () {
       return $.get('/pulter-manifest.json');
