@@ -1,12 +1,15 @@
-// noinspection ES6ConvertVarToLetConst,DuplicatedCode
-
 var PP = (function ($) {
+  // Enable caching globally
+  $.ajaxSetup({
+    cache: true
+  });
+
   return {
     getPoemIndex: function () {
       return $.get('/pulter-manifest.json');
     },
     getSearchScript: function () {
-      return $.getScript('/search/ee-search.js');
+      return $.getScript('/search/pulter-search.js');
     },
     initHome: function () {
       console.log('%c Welcome to the Pulter Project!', 'background: #FBF0FF; color: #330657;');
@@ -67,15 +70,6 @@ var PP = (function ($) {
             }
           }
         });
-
-      // Enable Flowtype
-      $body.flowtype({
-        fontRatio: 85,
-        minimum: 600,
-        maximum: 1200,
-        minFont: 10,
-        maxFont: 48
-      });
 
       // Various click event handlers
       $toIntro.on('click', navigateToIntro);
@@ -401,10 +395,6 @@ var PP = (function ($) {
     initPoem: function (params) {
       var $body = $('body');
 
-      $(window).on('load', function () {
-        $body.show();
-      });
-
       // Default options (for a poem)
       var defaults = {
         id: 0,
@@ -476,15 +466,6 @@ var PP = (function ($) {
             .fail(function () {
               console.log('Manifest loading error!');
             });
-
-          // Enable Flowtype
-          $body.flowtype({
-            fontRatio: 85,
-            minimum: 600,
-            maximum: 1200,
-            minFont: 10,
-            maxFont: 40
-          });
 
           // Set the posters
           if (config.poster) {
@@ -1020,7 +1001,7 @@ var PP = (function ($) {
           }, 800);
         })
         .fail(function () {
-          console.log('Sorry, search script couldn\'t be loaded.');
+          console.log('Sorry, search script couldn’t be loaded.');
         });
 
       function search($searchInput, $searchResults) {
@@ -1062,21 +1043,24 @@ var PP = (function ($) {
               ) {
                 PPS.search(query, {
                   fields: {
-                    title: {boost: 1},
-                    body: {boost: 1},
-                    headnote: {boost: .9},
-                    in_type_id: {boost: 1}
+                    title: { boost: 1 },
+                    body: { boost: 1 },
+                    poemRef: { boost: 1 },
+                    meta: { boost: .9 },
+                    responsibility: { boost: .9 }
                   },
                   expand: true
                 }).map(function (item) {
-                  var resource = PPS.getResource(item.ref);
+                  var res = PPS.getResource(item.ref);
 
                   results.push({
-                    type: resource.type,
-                    inTypeId: resource.in_type_id,
+                    type: res.type,
+                    subtype: res.subtype,
+                    poemRef: res.poemRef,
                     ref: item.ref,
                     score: item.score,
-                    title: resource.title
+                    title: res.title,
+                    responsibility: res.responsibility
                   });
                 });
 
@@ -1087,17 +1071,28 @@ var PP = (function ($) {
                     .replaceWith('');
 
                   $.each(results, function (idx, res) {
+                    var isPoemMatch = res.type === 'poem';
+                    var hasResp = !isPoemMatch || (isPoemMatch && res.subtype !== 'ee');
                     var $line = $('<li class="search-result"></li>');
-                    var $link = $('<a href="/poems/ee/' + res.inTypeId +'"></a>');
-                    var $poemNumberChunk = $('<span class="pn"></span>');
-                    var $poemTitleChunk = $('<h4 class="pt"></h4>');
+                    $line.addClass(isPoemMatch ? 'poem-match' : 'ctx-match');
 
-                    $poemNumberChunk.text(res.inTypeId);
-                    $poemTitleChunk.text(res.title);
+                    var $link = $('<a href="/poems/ee/' + res.poemRef + (isPoemMatch ? '' : '#' + res.ref.substring(res.ref.indexOf('-') + 1)) + '"></a>');
+
+                    var $resNumberChunk = $('<span class="pn"></span>');
+                    var $resTitleChunk = $('<h4 class="pt"></h4>');
+                    var $resRespChunk = $('<div class="pa"></div>');
+
+                    $resNumberChunk.text(res.poemRef);
+                    $resTitleChunk.text(res.title);
 
                     $link
-                      .append($poemNumberChunk)
-                      .append($poemTitleChunk);
+                      .append($resNumberChunk)
+                      .append($resTitleChunk);
+
+                    if (hasResp) {
+                      $resRespChunk.text(res.responsibility);
+                      $link.append($resRespChunk)
+                    }
 
                     $line
                       .append($link);

@@ -8,12 +8,19 @@ $modularscale: (
     ratio: 1.618
 );
 
-html {background: #000;}
+// Flowtype params
+$minimumWidth: 700px;
+$maximumWidth: 1200px;
+$minimumFontSize: 10px;
+$maximumFontSize: 14px;
+
+html {
+  background: #000;
+  @include flowtype($minimumWidth, $maximumWidth, $minimumFontSize, $maximumFontSize);
+}
 
 body {
   line-height: 1.5;
-  //-webkit-touch-callout: none !important;
-  //-webkit-user-select: none !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,10 +34,14 @@ a:visited {
   text-decoration: none;
 }
 
-a:active { outline: none; }
+a:active {
+  outline: none;
+}
 
 section {
-  &:focus { outline: none; }
+  &:focus {
+    outline: none;
+  }
 }
 
 // Lists

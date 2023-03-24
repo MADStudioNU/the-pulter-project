@@ -70,10 +70,8 @@
 
     .results {
       .search-result {
-        $air: .7em;
-
         position: relative;
-        padding: $air 1em $air 2.5em;
+        padding: .8em 1em .8em 2.5em;
         @include transition(background .2s ease-in-out);
 
         &:not(:last-child) {
@@ -110,6 +108,36 @@
         .pt {
           margin-left: .66em;
           font-family: $pp_originalFont;
+        }
+
+        .pa {
+          font-size: .85em;
+          margin-left: calc(.66 / .85) + em;
+          margin-top: .25em;
+          font-style: italic;
+          font-family: $pp_originalFont;
+          opacity: .66;
+        }
+
+        &.poem-match {
+          .pt {
+            font-family: $pp_originalFont;
+          }
+        }
+
+        &.ctx-match {
+          padding: .66em 1em .66em 2.5em;
+          background: #ece9e2;
+
+          .pt {
+            font-family: $pp_curatorialFont;
+            font-weight: 600;
+            color: rgba(40, 40, 40, .85);
+          }
+
+          .pn {
+
+          }
         }
 
         &.highlighted {

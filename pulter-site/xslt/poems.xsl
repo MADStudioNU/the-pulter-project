@@ -6389,7 +6389,7 @@
                 </a>
                 <div class="pp-search-box">
                   <div class="search">
-                    <input id="search-input" type="text" placeholder="Search Elemental Edition" maxlength="50" autocomplete="off" />
+                    <input id="search-input" type="text" placeholder="Search the site" maxlength="50" autocomplete="off" />
                     <div class="results-box">
                       <ul class="results">
                         <li class="init">No results</li>
