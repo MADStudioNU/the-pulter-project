@@ -119,6 +119,7 @@ gulp.task('vendor-scripts-deploy', function () {
   return gulp.src(vendorScripts)
     .pipe(plumber())
     .pipe(concat('vendors.js'))
+    .pipe(uglify())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'scripts/vendors'))
     .pipe(browserSync.reload({stream: true}));
 });
