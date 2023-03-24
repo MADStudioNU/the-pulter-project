@@ -209,7 +209,7 @@
           </a>
           <div class="pp-search-box">
             <div class="search">
-              <input id="search-input" type="text" placeholder="Search" maxlength="50" autocomplete="off" />
+              <input id="search-input" type="text" placeholder="Search the project" maxlength="50" autocomplete="off" />
               <div class="results-box">
                 <ul class="results">
                   <li class="init">No results</li>
