@@ -1,6 +1,8 @@
 var PP = (function ($) {
   // Enable caching globally
-  $.ajaxSetup({cache: true});
+  $.ajaxSetup({
+    cache: true
+  });
 
   return {
     getPoemIndex: function () {
@@ -68,15 +70,6 @@ var PP = (function ($) {
             }
           }
         });
-
-      // Enable Flowtype
-      $body.flowtype({
-        fontRatio: 85,
-        minimum: 600,
-        maximum: 1200,
-        minFont: 10,
-        maxFont: 48
-      });
 
       // Various click event handlers
       $toIntro.on('click', navigateToIntro);
@@ -402,10 +395,6 @@ var PP = (function ($) {
     initPoem: function (params) {
       var $body = $('body');
 
-      $(window).on('load', function () {
-        $body.show();
-      });
-
       // Default options (for a poem)
       var defaults = {
         id: 0,
@@ -477,15 +466,6 @@ var PP = (function ($) {
             .fail(function () {
               console.log('Manifest loading error!');
             });
-
-          // Enable Flowtype
-          $body.flowtype({
-            fontRatio: 85,
-            minimum: 600,
-            maximum: 1200,
-            minFont: 10,
-            maxFont: 40
-          });
 
           // Set the posters
           if (config.poster) {

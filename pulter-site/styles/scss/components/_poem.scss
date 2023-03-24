@@ -14,7 +14,6 @@ $mobileSize: .8em;
 $globalBorderRadius: 4px;
 
 .pp.single-poem {
-  display: none;
   position: relative;
   background: darken($pp_manuscriptInk, 16%);
   background-image: linear-gradient(0deg, rgba(darken($pp_manuscriptInk, 10%), 1) 0%, rgba(darken($pp_manuscriptInk, 20%), 1) 100%);

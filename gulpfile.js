@@ -40,13 +40,12 @@ const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 
 const vendorScripts = [
-  'node_modules/jquery/dist/jquery.js',
-  'node_modules/flowtype.js/flowtype.js',
+  'node_modules/jquery/dist/jquery.min.js',
   'node_modules/animejs/anime.min.js',
   'node_modules/featherlight/release/featherlight.min.js',
-  'node_modules/imagesloaded/imagesloaded.pkgd.js',
-  SITE_BASE + 'scripts/vendors/includes/smooth-scroll.js',
-  SITE_BASE + 'scripts/vendors/includes/polyfills.js',
+  'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
+  SITE_BASE + 'scripts/vendors/includes/smooth-scroll.min.js',
+  SITE_BASE + 'scripts/vendors/includes/polyfills.min.js',
   'node_modules/drift-zoom/dist/Drift.min.js',
   'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
   'node_modules/store2/dist/store2.min.js',
@@ -112,7 +111,6 @@ gulp.task('vendor-scripts', function () {
   return gulp.src(vendorScripts)
     .pipe(plumber())
     .pipe(concat('vendors.js'))
-    .on('error', gulpUtil.log)
     .pipe(gulp.dest(SITE_BASE + 'scripts/vendors'))
     .pipe(browserSync.reload({stream: true}));
 });
@@ -121,8 +119,6 @@ gulp.task('vendor-scripts-deploy', function () {
   return gulp.src(vendorScripts)
     .pipe(plumber())
     .pipe(concat('vendors.js'))
-    .on('error', gulpUtil.log)
-    .pipe(uglify())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'scripts/vendors'))
     .pipe(browserSync.reload({stream: true}));
 });
@@ -133,7 +129,6 @@ gulp.task('scripts', function () {
   ])
     .pipe(plumber())
     .pipe(concat('app.js'))
-    .on('error', gulpUtil.log)
     .pipe(gulp.dest(SITE_BASE + 'scripts'))
     .pipe(browserSync.reload({stream: true}));
 });
@@ -164,7 +159,6 @@ gulp.task('styles', function () {
       ]
     }))
     .pipe(plumber())
-    .on('error', gulpUtil.log)
     .pipe(concat('styles.css'))
     .pipe(sourceMaps.write())
     .pipe(gulp.dest(SITE_BASE + 'styles'))

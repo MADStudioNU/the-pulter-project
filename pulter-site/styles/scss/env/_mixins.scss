@@ -216,3 +216,33 @@
     -moz-box-shadow:    0 0 0 1px $colorTwo, 0 0 0 2px $colorThree;
     box-shadow:         0 0 0 1px $colorTwo, 0 0 0 2px $colorThree;
 }
+
+// FlowType-style mixin (with a utility function)
+@function strip-unit($val) {
+  @return $val / ($val * 0 + 1);
+}
+
+@mixin flowtype($minW, $maxW, $minF, $maxF) {
+  $minWUnit: unit($minW);
+  $maxWUnit: unit($maxW);
+  $minFUnit: unit($minF);
+  $maxFUnit: unit($maxF);
+
+  @if (
+    $minWUnit == $maxWUnit and
+    $minWUnit == $minFUnit and
+    $minWUnit == $maxFUnit
+  ) {
+    & {
+      font-size: $minF;
+
+      @media screen and (min-width: $minW) {
+        font-size: calc(#{$minF} + #{strip-unit($maxF - $minF)} * ((100vw - #{$minW}) / #{strip-unit($maxW - $minW)}));
+      }
+
+      @media screen and (min-width: $maxW) {
+        font-size: $maxF;
+      }
+    }
+  }
+}
