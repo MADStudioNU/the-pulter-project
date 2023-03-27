@@ -704,7 +704,7 @@ gulp.task('xslt',
   )
 );
 
-gulp.task('buildTPP',
+gulp.task('build',
   gulp.series(
     'xslt',
     'files'
