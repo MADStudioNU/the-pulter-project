@@ -18,6 +18,7 @@ const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl'
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
+const TPPVersion = require('./package.json').version;
 
 const appendPrepend = require('gulp-append-prepend');
 const gulp = require('gulp');
@@ -130,6 +131,7 @@ gulp.task('scripts', function () {
   ])
     .pipe(plumber())
     .pipe(concat('app.js'))
+    .pipe(replace('__TPP_VERSION__', TPPVersion))
     .pipe(gulp.dest(SITE_BASE + 'scripts'))
     .pipe(browserSync.reload({stream: true}));
 });
@@ -140,6 +142,7 @@ gulp.task('scripts-deploy', function () {
   ])
     .pipe(plumber())
     .pipe(concat('app.js'))
+    .pipe(replace('__TPP_VERSION__', TPPVersion))
     .pipe(uglify())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'scripts'));
 });

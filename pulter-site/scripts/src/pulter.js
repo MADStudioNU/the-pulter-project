@@ -5,6 +5,7 @@ var PP = (function ($) {
   });
 
   return {
+    version: '__TPP_VERSION__',
     getPoemIndex: function () {
       return $.get('/pulter-manifest.json');
     },
