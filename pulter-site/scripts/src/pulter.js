@@ -5,7 +5,7 @@ var TPP = (function ($) {
   });
 
   return {
-    version: '__TPP_VERSION__',
+    version: '__TPP_VERSION_INJECT__',
     getPoemIndex: function () {
       return $.get('/pulter-manifest.json');
     },
@@ -15,7 +15,6 @@ var TPP = (function ($) {
     initHome: function () {
       console.log('%c Welcome to the Pulter Project.', 'background: #FBF0FF; color: #330657;');
       console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
-      console.log('Version: ', this.version);
 
       // Isotope instance
       var $i;
@@ -153,6 +152,9 @@ var TPP = (function ($) {
         .fail(function () {
           console.log('Manifest loading error! Falling back to id based HTML linking.');
         });
+
+      // Version imprint
+      this.addTPPVersionImprint();
 
       // Try to enable search
       this.enableSearch($body);
@@ -454,7 +456,11 @@ var TPP = (function ($) {
           var manifestOfPublished;
           var indexRequest = TPP.getPoemIndex();
 
+          // Show page contents
           renderPoemElements();
+
+          // Version imprint
+          TPP.addTPPVersionImprint();
 
           indexRequest
             .done(function (data) {
@@ -628,7 +634,6 @@ var TPP = (function ($) {
           $facsimileToggle.on('click', function () {
             var $self = $(this);
             var imageId = $self.data('image-id');
-            var drift;
 
             gtag('event', 'facsimile_viewed', {
               'event_category': 'engagement',
@@ -660,7 +665,7 @@ var TPP = (function ($) {
           // Trigger poster info lightbox
           $posterInfoTrigger.on('click', function () {
             var $self = $(this);
-            var $noteMarkup = '<div class="poster-box' + (config.poster.statement ? ' padded' : '') + '"><div class="image-box"><img src="/images/headnote-posters/h' + config.id + 'p.jpg" /></div>' + (config.poster.statement ? ('<div class="source-statement"><a ' + (config.poster.link ? ('href="' + config.poster.link + '" target="_blank" class="ref"') : '') + '>' + config.poster.statement + '</a></div>') : '') + '</div>';
+            var $noteMarkup = '<div class="poster-box' + (config.poster.statement ? ' padded' : '') + '"><div class="image-box"><img src="/images/headnote-posters/h' + config.id + 'p.jpg"  alt=""/></div>' + (config.poster.statement ? ('<div class="source-statement"><a ' + (config.poster.link ? ('href="' + config.poster.link + '" target="_blank" class="ref"') : '') + '>' + config.poster.statement + '</a></div>') : '') + '</div>';
 
             $self.addClass('active');
             $self.blur();
@@ -683,7 +688,7 @@ var TPP = (function ($) {
 
             if (navigator.clipboard) {
               navigator.clipboard.writeText(fullLink)
-                .then(function (value) {
+                .then(function () {
                   if ($theLine.find('.link-copy-confirmation').length === 0) {
                     var confirmationEl = '<span class="link-copy-confirmation">Link to line copied!</span>';
                     $theLine.addClass('when-link-copied');
@@ -694,7 +699,7 @@ var TPP = (function ($) {
                       $theLine.find('.link-copy-confirmation').remove();
                     }, 1500);
                   }
-                }, function (err) {
+                }, function () {
                   console.log('Sorry, unable to copy!');
                 });
             }
@@ -1031,7 +1036,7 @@ var TPP = (function ($) {
         });
 
         var searchInputWatcher = debounce(
-          function(keyUpEvent) {
+          function() {
             var query = $searchInput.val().trim();
 
             if (q !== query) {
@@ -1199,6 +1204,18 @@ var TPP = (function ($) {
             $searchInput.blur();
           }
         });
+      }
+    },
+    addTPPVersionImprint: function () {
+      var $imprint = $(`<div class="tpp-version-imprint">${this.version}</div>`);
+      var $logoBox = $('.logo-box');
+
+      if (
+        this.version &&
+        // this.version !== '__TPP_VERSION_INJECT__' &&
+        $logoBox.length > 0
+      ) {
+        $logoBox.append($imprint);
       }
     }
   };
