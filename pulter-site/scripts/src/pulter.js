@@ -1,4 +1,4 @@
-var PP = (function ($) {
+var TPP = (function ($) {
   // Enable caching globally
   $.ajaxSetup({
     cache: true
@@ -13,8 +13,9 @@ var PP = (function ($) {
       return $.getScript('/search/pulter-search.js');
     },
     initHome: function () {
-      console.log('%c Welcome to the Pulter Project!', 'background: #FBF0FF; color: #330657;');
+      console.log('%c Welcome to the Pulter Project.', 'background: #FBF0FF; color: #330657;');
       console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
+      console.log('Version: ', this.version);
 
       // Isotope instance
       var $i;
@@ -39,7 +40,6 @@ var PP = (function ($) {
       var $imgCollection = $body.find('#pp-home-image-collection');
       var $explorationBlurb = $('.exploration-blurb');
       var $explorationTriggers = $('.exploration-trigger');
-
 
       // Images status
       $imgCollection.imagesLoaded()
@@ -452,7 +452,7 @@ var PP = (function ($) {
           // Local variables
           var manifest;
           var manifestOfPublished;
-          var indexRequest = PP.getPoemIndex();
+          var indexRequest = TPP.getPoemIndex();
 
           renderPoemElements();
 

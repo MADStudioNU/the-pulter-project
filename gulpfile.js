@@ -131,7 +131,7 @@ gulp.task('scripts', function () {
   ])
     .pipe(plumber())
     .pipe(concat('app.js'))
-    .pipe(replace('__TPP_VERSION__', TPPVersion))
+    .pipe(replace('__TPP_VERSION_INJECT__', TPPVersion))
     .pipe(gulp.dest(SITE_BASE + 'scripts'))
     .pipe(browserSync.reload({stream: true}));
 });
@@ -142,7 +142,7 @@ gulp.task('scripts-deploy', function () {
   ])
     .pipe(plumber())
     .pipe(concat('app.js'))
-    .pipe(replace('__TPP_VERSION__', TPPVersion))
+    .pipe(replace('__TPP_VERSION_INJECT__', TPPVersion))
     .pipe(uglify())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'scripts'));
 });

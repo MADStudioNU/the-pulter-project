@@ -6718,7 +6718,7 @@
               </nav>
               </div>
             </div>
-            <a class="app-reset" onclick="PP.resetState(); return false;">
+            <a class="app-reset" onclick="TPP.resetState(); return false;">
               <xsl:text> </xsl:text>
             </a>
           </footer>
@@ -6742,7 +6742,7 @@
         </div>
         <script src="/scripts/vendors/vendors.js"><xsl:text> </xsl:text></script>
         <script src="/scripts/app.js"><xsl:text> </xsl:text></script>
-        <script>$(document).ready(function(){PP.initHome();});</script>
+        <script>$(document).ready(function(){TPP.initHome();});</script>
       </body>
     </html>
   </xsl:template>
