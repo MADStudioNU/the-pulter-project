@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.15.3",
+  "version": "1.15.9",
   "description": "",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -44,7 +44,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
-    "build-and-deploy": "gulp xslt:manifest; gulp xslt; gulp deploy; netlifyctl d -P dist;",
+    "build": "gulp build",
     "postinstall": "patch-package"
   }
 }

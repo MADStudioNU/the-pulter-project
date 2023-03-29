@@ -146,7 +146,7 @@
 
         <!-- Init -->
         <script>
-          <xsl:value-of select="'PP.initPoem({'"/>
+          <xsl:value-of select="'TPP.initPoem({'"/>
           <xsl:value-of select="concat('id: ', $poemID)"/>
           <xsl:value-of select="concat(', title: &quot;', $fullTitle, '&quot;')"/>
           <xsl:value-of select="concat(', poster: ', $poemPosterObject)"/>
@@ -252,7 +252,7 @@
         </nav>
         </div>
       </div>
-      <a class="app-reset" onclick="PP.resetState(); return false;">
+      <a class="app-reset" onclick="TPP.resetState(); return false;">
         <xsl:text> </xsl:text>
       </a>
     </footer>
