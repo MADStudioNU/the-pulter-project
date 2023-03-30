@@ -1215,8 +1215,6 @@ var TPP = (function ($) {
       var $logoBox = $footer.find('.logo-box');
       var $copyrightYear = $footer.find('.copyright-year');
 
-      console.log(version);
-
       if (
         version &&
         $logoBox.length > 0
