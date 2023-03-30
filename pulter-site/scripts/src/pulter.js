@@ -5,7 +5,7 @@ var TPP = (function ($) {
   });
 
   return {
-    version: '__TPP_VERSION_INJECT__',
+    version: undefined,
     getPoemIndex: function () {
       return $.get('/pulter-manifest.json');
     },
@@ -154,7 +154,7 @@ var TPP = (function ($) {
         });
 
       // Version imprint
-      this.addTPPVersionImprint();
+      this.addVerCopyImprint();
 
       // Try to enable search
       this.enableSearch($body);
@@ -460,7 +460,7 @@ var TPP = (function ($) {
           renderPoemElements();
 
           // Version imprint
-          TPP.addTPPVersionImprint();
+          TPP.addVerCopyImprint();
 
           indexRequest
             .done(function (data) {
@@ -1206,16 +1206,26 @@ var TPP = (function ($) {
         });
       }
     },
-    addTPPVersionImprint: function () {
-      var $imprint = $(`<div class="tpp-version-imprint">${this.version}</div>`);
-      var $logoBox = $('.logo-box');
+    addVerCopyImprint: function () {
+      var version = this.version;
+      var year = new Date().getFullYear();
+
+      var $footer = $('.footer');
+      var $imprint = $(`<div class="tpp-version-imprint">${version}</div>`);
+      var $logoBox = $footer.find('.logo-box');
+      var $copyrightYear = $footer.find('.copyright-year');
+
+      console.log(version);
 
       if (
-        this.version &&
-        // this.version !== '__TPP_VERSION_INJECT__' &&
+        version &&
         $logoBox.length > 0
       ) {
         $logoBox.append($imprint);
+      }
+
+      if (year) {
+        $copyrightYear.text(year);
       }
     }
   };
