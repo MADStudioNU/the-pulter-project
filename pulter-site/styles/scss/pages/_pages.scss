@@ -389,12 +389,19 @@
 /* Individual pages */
 .pp.pulter-and-manuscript {
   .content-box {
+
+    .content {
+      z-index: 0;
+      position: relative;
+    }
+
     &.manuscript {
       text-align: left;
       position: relative;
       overflow: hidden;
 
       img.big-graph {
+        pointer-events: none;
         animation: fadeInRightSubtle 1s both;
         position: absolute;
         right: 0;
