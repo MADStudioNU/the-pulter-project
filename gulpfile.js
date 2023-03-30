@@ -18,7 +18,6 @@ const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl'
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
-const TPPVersion = require('./package.json').version;
 
 const appendPrepend = require('gulp-append-prepend');
 const gulp = require('gulp');
@@ -55,6 +54,9 @@ const vendorScripts = [
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
+
+// App version
+let _version;
 
 /* Utility functions */
 function isNumber(obj) {
@@ -125,27 +127,56 @@ gulp.task('vendor-scripts-deploy', function () {
     .pipe(browserSync.reload({stream: true}));
 });
 
-gulp.task('scripts', function () {
-  return gulp.src([
-    SITE_BASE + 'scripts/src/**/*.js'
-  ])
-    .pipe(plumber())
-    .pipe(concat('app.js'))
-    .pipe(replace('__TPP_VERSION_INJECT__', TPPVersion))
-    .pipe(gulp.dest(SITE_BASE + 'scripts'))
-    .pipe(browserSync.reload({stream: true}));
+gulp.task('getVersion', function () {
+  return gulp.src('./package.json')
+    .pipe(flatMap(function (stream, file) {
+      _version = JSON.parse(file.contents.toString('utf-8')).version;
+      console.log(_version);
+      return stream;
+    }));
 });
 
-gulp.task('scripts-deploy', function () {
-  return gulp.src([
-    SITE_BASE + 'scripts/src/**/*.js'
-  ])
-    .pipe(plumber())
-    .pipe(concat('app.js'))
-    .pipe(replace('__TPP_VERSION_INJECT__', TPPVersion))
-    .pipe(uglify())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'scripts'));
-});
+gulp.task('scripts',
+  gulp.series(
+    'getVersion',
+    function () {
+      return gulp.src([
+        SITE_BASE + 'scripts/src/*.js'
+      ])
+        .pipe(plumber())
+        .pipe(concat('app.js'))
+        .pipe(
+          replace(
+            'version: undefined',
+            `version: '${_version}'`
+          )
+        )
+        .pipe(gulp.dest(SITE_BASE + 'scripts'))
+        .pipe(browserSync.reload({stream: true}));
+    }
+  )
+);
+
+gulp.task('scripts-deploy',
+  gulp.series(
+    'getVersion',
+    function () {
+      return gulp.src([
+        SITE_BASE + 'scripts/src/*.js'
+      ])
+        .pipe(plumber())
+        .pipe(concat('app.js'))
+        .pipe(
+          replace(
+            'version: undefined',
+            `version: '${_version}'`
+          )
+        )
+        .pipe(uglify())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'scripts'));
+    }
+  )
+);
 
 gulp.task('styles', function () {
   return gulp.src(SITE_BASE + 'styles/scss/pulter.scss')

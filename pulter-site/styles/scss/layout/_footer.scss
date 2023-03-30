@@ -105,6 +105,12 @@ $mobileLeftEdgeOffset: 2.25em;
       border-radius: 3px;
       padding: 1px 2px;
       background: rgba($color, .33);
+
+      @include breakpoint(mobile) {
+        display: block;
+        margin: 1.5em auto 0 auto;
+        width: 4.5em;
+      }
     }
 
     p {
