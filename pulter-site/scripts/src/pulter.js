@@ -799,7 +799,7 @@ var TPP = (function ($) {
                 },
                 easing: 'easeInOutElastic',
                 delay: function (target, index) {
-                  // Animate only first 50 lines
+                  // Animate only the first 50 lines
                   return index < 50 ? 30 * index : 50 * 30;
                 }
               },
