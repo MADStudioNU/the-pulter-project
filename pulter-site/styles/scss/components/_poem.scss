@@ -1333,6 +1333,7 @@ $globalBorderRadius: 4px;
       .pb {
         $air: $pageBreakAir;
 
+        opacity: 0;
         margin-bottom: calc($air / 2);
 
         & + .l,
