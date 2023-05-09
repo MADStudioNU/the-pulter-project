@@ -478,6 +478,26 @@ $globalBorderRadius: 4px;
               color: inherit;
               border-bottom: dashed 1px darken($pp_manuscriptPaper, 35%);
             }
+
+            // In-headnote images
+            .figure-box {
+              font-size: .85em;
+              color: darken($pp_manuscriptPaper, 0%);
+
+              img {
+                margin-bottom: 1em;
+              }
+
+              .figure-header {
+                font-weight: bold;
+              }
+
+              .figure-desc {
+                margin-top: .33em;
+                font-style: italic;
+                line-height: 1.66;
+              }
+            }
           }
 
           // Headnote notes

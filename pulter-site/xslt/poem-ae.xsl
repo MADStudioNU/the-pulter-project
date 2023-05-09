@@ -430,7 +430,7 @@
         <div class="url">pulterproject.northwestern.edu</div>
       </div>
       <header>
-        <xsl:apply-templates select="//tei:head">
+        <xsl:apply-templates select="//tei:head[not(ancestor::tei:figure)]">
           <xsl:with-param name="witId" select="$witId"/>
         </xsl:apply-templates>
       </header>
@@ -563,6 +563,19 @@
     <xsl:apply-templates>
       <xsl:with-param name="witId" select="$witId"/>
     </xsl:apply-templates>
+  </xsl:template>
+
+  <!-- Header of a figure (title of an image) -->
+  <xsl:template match="tei:head/tei:app[@type='headnote']//tei:figure//tei:head">
+    <xsl:param name="witId"/>
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'figure-header'"/>
+      </xsl:attribute>
+      <xsl:apply-templates>
+        <xsl:with-param name="witId" select="$witId"/>
+      </xsl:apply-templates>
+    </xsl:element>
   </xsl:template>
 
   <!-- Poem title -->
@@ -1254,6 +1267,19 @@
   <!-- Graphics (only images so far) -->
   <xsl:template match="tei:graphic">
     <img src="{@url}"/>
+  </xsl:template>
+
+  <!-- Figure descriptions in figures -->
+  <xsl:template match="tei:figure/tei:figDesc">
+    <xsl:param name="witId"/>
+    <xsl:element name="div">
+      <xsl:attribute name="class">
+        <xsl:value-of select="'figure-desc'"/>
+      </xsl:attribute>
+      <xsl:apply-templates>
+        <xsl:with-param name="witId" select="$witId"/>
+      </xsl:apply-templates>
+    </xsl:element>
   </xsl:template>
 
   <!-- Bibliographic references in figures -->
