@@ -1333,6 +1333,7 @@ $globalBorderRadius: 4px;
       .pb {
         $air: $pageBreakAir;
 
+        opacity: 0;
         margin-bottom: calc($air / 2);
 
         & + .l,
@@ -1359,7 +1360,6 @@ $globalBorderRadius: 4px;
       transform: translateY(0%);
 
       @include breakpoint(mobile) {
-        //border: 1px solid #ccc;
         opacity: 1;
       }
     }

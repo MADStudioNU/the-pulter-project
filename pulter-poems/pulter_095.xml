@@ -78,7 +78,7 @@
           <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be further explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character’s status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -124,7 +124,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Bruce Boehrer</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -148,16 +148,17 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">30</fw>[Emblem 30]</rdg>
           <rdg wit="#ee">This Ugly Sow<lb/>(Emblem 30)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">Emblem 30</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
-            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
           </rdg>
           <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">To complement the modernized elemental edition of this poem, this amplified edition presents a fully diplomatic version of the text. The manuscript’s original spelling, punctuation, capitalization, abbreviations, and superscripts have all been preserved. When these generate noteworthy interpretive issues (as for instance in line 2), I have flagged them in the textual glosses. I have settled indeterminate letter forms according to my best judgment in light of the manuscript’s general practice.
+</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -165,7 +166,14 @@
               <note type="headnote">Pigs, boars, and hogs do not fare well in Pulter’s moral zoo. As in <ref type="pp-poem-ref" corresp="99">Mark But Those Hogs (Emblem 34)</ref> where grunting, earth-bound pigs are unfavorably compared to heavenly turtledoves, Pulter here contrasts the filth of pigs to the purity of ermines. Citing proverbial, biblical, and mythological sources, Pulter explores the pig’s refusal to remain pure even when cleansed: like the dog who slurps up his own vomit, the pig almost cannot resist falling back into muddy cycles of immorality. Pulter interprets the ermine’s legendary willingness to sacrifice herself rather than have her fur tainted in Christian terms: her whiteness is precious because washed by Christ’s blood. The poem is formally innovative by dividing into two sections, each composed of two stanzas of triplets followed by a 6-line stanza of couplets. While the narrator seems to be guiding readers from a position of moral confidence, the ending couplet transforms into a plea that makes her complicit in the struggle to avoid being swine-like in the mire of life.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+              <p>Pulter structures this emblem quite simply around Mary Douglas’s classic distinction between purity and danger: forms of cleanliness and filth, both physical and moral, literal and figurative. For Douglas, this distinction “protects the local consensus on how the world is organized” by “reduc[ing] intellectual and social disorder.”<seg>1<note type="gloss"><bibl>Mary Douglas, <title rend="italic">Purity and Danger: An Analysis of Concepts of Pollution and Taboo</title> (London: Routledge, 2002), xi.</bibl></note></seg> In this spirit, Pulter renders the opposed conditions of virtuous purity and vicious filth through the person and behavior of two iconic animals.</p>
+              <p>The ugly sow of the poem’s opening line of course represents the qualities of uncleanness and dangerous impurity, drawing in the process upon a rich history of pig symbolism grounded in both classical and biblical sources. Prominent biblical antecedents include the pearl-scorning swine of Matthew 7.6, the prodigal son’s porcine companions in Luke 15.15, and the Gadarene swine of Mark 5.1-12. But Pulter’s real inspiration here derives from the classical tradition instead, in a way that conflates separate strands of that tradition. The sow’s pedigree—descending from the boar that killed Adonis—ties her to a story about two competing forms of venery: sexual lust and blood-lust. But the sow’s behavior—returning to her wallow despite experiencing a higher standard of cleanliness—rehearses different tropes altogether. One of these appears in the seventeenth emblem of Thomas Combe’s <title rend="italic">Theater of Fine Devices</title> (1614; see Image 1 in the Curation <ref type="pp-curations-ref" target="#ctxs">Swine and Ermine</ref>), where Combe (translating the earlier work of Guillaume de la Perrière) laments, “The dirty Swine delights more in the mire, / Then in sweete balmes that are of costly price. / Some men there likewise be, that do desire, / Rather then vertue for to follow vice.”<seg>2<note type="gloss"><bibl>Thomas Combe, <title rend="italic">The Theater of Fine Devices</title> (London, 1614), sig. B6v.</bibl></note></seg> Similarly, a cognate trope descends from Plutarch’s <title rend="italic">Moralia</title> (c. 100 CE) through Giambattista Gelli’s <title rend="italic">Circe</title> (1549) to Edmund Spenser’s <title rend="italic">Faerie Queene</title> (1590) and beyond.<seg>3<note type="gloss">See <bibl>Plutarch, “Beasts Are Rational,” <title rend="italic">Moralia</title> 15 vols., trans. Harold Cherniss and William Helmbold (Cambridge, US: Harvard UP, 1957), 12.311-533</bibl>; <bibl>Giambattista Gelli, <title rend="italic">The Circe of Signor Giovanni Battista Gelli</title>, trans. Thomas Brown (London, 1702)</bibl>; <bibl>Edmund Spenser, <title rend="italic">The Faerie Queene</title> 2.12, <title rend="italic">The Complete Poetical Works of Edmund Spenser</title>, ed. R. E. Neil Didge (Boston: Houghton Mifflin, 1908).</bibl></note></seg> The key figure in this lineage is one Gryllus, a companion of Odysseus who, transformed into a hog by Circe, refuses to revert to his human form, preferring instead to abide in animality. The emblem “In Grillum” from Pierre Cousteau’s Pegma (1555; see Image 2 in the Curation <ref type="pp-curations-ref" target="#ctxs">Swine and Ermine</ref>) makes the obvious point, with Odysseus asking his porcine companion, “What ill-omened fate has so terrified you that the filthy tracks of an unclean swine please you, and you refuse to return to the office of a man? Once pleasure holds you in its shameful grip, it freely exercises control over you.”<seg>4<note type="gloss"><bibl>Pierre Cousteau, <title rend="italic">Petri Costalii Pegma</title> (Lyon, 1555), 176</bibl>: “Qui tibi Grilli feri stomachum movere parentes? / Quae te sors miseris terruit oscinibus / Ut te immunda iuvent foedi vestigia porci / Et renuas iterum munus obire viri? / Quem semel in turpi retinet ditione voluptas, / Huius vel gratis utitur imperiis: / Et quo plus demens eget assertore patrono, / Hoc mage blanda sui vindicis ora fugit” (What bestial parents have so angered you, o Gryllus? What chance has so terrified you with birds of ill omen that the filthy tracks of an unclean swine please you, and you refuse to resume the office of a man? Once pleasure holds one in its shameful power, it freely exercises its control: and the more a madman needs a patron as his defender, the more he flies his protector’s persuasive words).</note></seg> Pulter’s emblem assimilates this material to the tale of Venus and Adonis.</p>
+              <p>In appropriating this material, Pulter notably re-genders the mythic swine upon whom she draws, both the boar who killed Adonis and Odysseus’ companion Gryllus. This transformation is not entirely new; Lanteaume de Romieu’s French translation of Cousteau’s <title rend="italic">Pegma</title>, for instance, refers to Gryllus as “[une] truye immunde”—a filthy sow.<seg>5<note type="gloss"><bibl>Pierre Cousteau, <title rend="italic">Le Pegme de Pierre Coustau</title>, trans. Lanteaume de Romieu (Lyon, 1560), 224.</bibl></note></seg> But in Pulter’s case the change may suggest that she sees women as the particular target of her moral instruction. In any event, Pulter’s trans-gendering mirrors the similar reversals that Milton introduces to the Circe-myth in his <title rend="italic">Masque Presented at Ludlow-Castle</title> (1634), another reworking of classical material in the service of moral, and particularly sexual, instruction.</p>
+              <p>As for the animal Pulter chooses to embody purity, it may be less commonly familiar than the pig, but its symbolic associations run deep. The ermine’s nearly-immaculate winter coat—pure white save for a tuft of black fur on the tip of its tail—had gained currency by the Middle Ages as a marker of virtue appropriated to various kinds of aristocratic symbolism. Of the many royal portraits employing this imagery, we may single out the Ermine Portrait of Queen Elizabeth I (c. 1585; see Image 3 in the Curation <ref type="pp-curations-ref" target="#ctxs">Swine and Ermine</ref>), where the beast in question, sporting a gold crown-shaped collar, signifies both sexual and political purity. More importantly for the behavior described by Pulter, Leonardo da Vinci claims “[t]he ermine … is so fastidious that he will allow himself to be caught by hunters before he will take refuge in a muddy spot.”<seg>6<note type="gloss"><bibl>Oliver Evans, “Selections from the Bestiary of Leonardo da Vinci,” <title rend="italic">Journal of American Folklore</title> 64.254 (Oct.-Dec., 1951), 395.</bibl></note></seg> Leonardo considers this behavior under the rubric of “Moderation,” but for Henry Peacham the animal’s fastidiousness assumes the same broad moral quality it does for Pulter. In his emblems (see Image 4 in the Curation <ref type="pp-curations-ref" target="#ctxs">Swine and Ermine</ref>) Peacham thus laments of the ermine, “Me thinkes even now, I see a number blush, / To hear a beast, by nature should haue care, / To keepe his skinne, themselues not care a rush, / With how much filth, their minds bespotted are.”<seg>7<note type="gloss"><bibl>Henry Peacham, <title rend="italic">Minerva Britanna</title> (London, 1612), 75.</bibl></note></seg></p>
+              <p>For Mary Douglas, purity rituals help to underpin consensus as to the world’s design, and they do so by reducing ambiguity to a minimum. However, markers of purity can themselves be subject to ambiguity, as is the case with both of the animal-figures Pulter employs in this emblem. Regarding swine, Peter Stallybrass and Allon White have demonstrated how dominant associations with filth and pollution coexist alongside a subordinate register of meaning in which the same animals figure as emblems of “good order” and “utilitie and profit.”<seg>8<note type="gloss"><bibl>Peter Stallybrass and Allon White, <title rend="italic">The Politics and Poetics of Transgression</title> (Ithaca: Cornell UP, 1986), 40, 45.</bibl></note></seg> In the case of the ermine, something similar occurs as well: its dominant affiliations with chastity and cleanliness can yield to a secondary and opposed set of meanings. Thus Olaus Magnus describes the ermine as a “luxurious” creature, with luxury (from Latin <foreign rend="italic">luxuria</foreign>, or lust) here flatly reversing the traditional associations with chastity.<seg>9<note type="gloss"><bibl>Olaus Magnus, <title rend="italic">A compendious history of the Goths, Swedes, and Vandals</title> (London, 1658), 18.186.</bibl></note></seg> In the visual record, Leonardo’s <title rend="italic">Lady with an Ermine</title> (1489-91; see Image 5 in the Curation <ref type="pp-curations-ref" target="#ctxs">Swine and Ermine</ref>) arguably draws on such reversals; its subject, Ludovico Sforza’s mistress Cecilia Gallerani, was pregnant in 1489, near the time of the portrait’s creation. The existence of these opposed meanings helps to foreground the very manufactured nature of the reality to which they refer. In Pulter’s emblem, however, the dominant associations of swine with filth and ermines with purity go unchallenged.</p>
+              <p>In both the sow and the ermine, Pulter thus found a congenial and well-established form of moral representation that had already made its way into earlier emblem books. Her transformation of this material confirms her dynamic engagement with the emblem tradition as a whole.</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -174,177 +182,177 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">30</fw>This Ugly Sow descended of that Bore</rdg>
             <rdg wit="#ee">This ugly sow, descended of <seg>that boar<note type="gloss">the boar that killed Adonis when he was hunting; Venus, Adonis’s lover, had warned him not to engage in this deadly sport.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This Ugly Sow descended of that Bore</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft"> Which Epitragius, Lovers intrales Tore</rdg>
             <rdg wit="#ee">Which <seg>Epitragia’s<note type="gloss">Aphrodite Epitragia (“riding on a she-goat”) was another name for Venus, goddess of love, reputedly derived from a story in which Theseus sacrificed a goat to her and it changed genders.</note></seg> lover’s entrails tore,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which <seg>Epitragius<note type="critical">Aphrodite Epitragia, also known as Aphrodite Pandemos, appears in Plato’s <title rend="italic">Symposium</title> as the goddess of erotic pleasure, the counterpart of Aphrodite Urania, the “Heavenly” Aphrodite (<bibl>Plato, <title rend="italic">Symposium</title>, trans. W. R. M. Lamb [Cambridge, USA: Harvard UP, 1996], 180d, p. 109</bibl>). In her sensual form, the goddess connects appropriately both with the tale of Venus and Adonis and the “Ugly Sow” of Pulter’s emblem. The peculiar spelling, capitalization, and punctuation of “Epitragius, Lovers intrales” seem to signal a gender-change  (masculine -<foreign rend="italic">us</foreign> replacing feminine -<foreign rend="italic">a</foreign>) similar to the broader reversal that translates Adonis’ boar into Pulter’s sow.</note></seg>, Lovers intrales Tore</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Whoſe death the Queen of Love did Soe deplore</rdg>
             <rdg wit="#ee">Whose death the <seg>queen of love<note type="gloss">Venus, or Aphrodite</note></seg> did so <seg>deplore<note type="gloss">lament</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Whose death the Queen of Love did soe deplore</rdg>
         </app>
       </l></lg>
       <lg n="2" type="stanza"> <l n="4">
         <app>
             <rdg wit="#ft">  This lothſome Beast beſmear’d <w lemma="what"><abbr>w:<hi rend="superscript">th</hi></abbr></w> dirt &amp; blood</rdg>
             <rdg wit="#ee">This loathsome beast, besmeared with dirt and blood,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This loathsome Beast besmear’d <w lemma="with"><abbr>w<hi rend="superscript">th</hi></abbr></w> dirt &amp; blood</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Being newly waſh’d in Yonder Cristall flood</rdg>
             <rdg wit="#ee">Being newly washed in yonder crystal flood,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Being newly wash’d in Yonder Cristall flood</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Yet now you See Shee’s wallowing in the Mud</rdg>
             <rdg wit="#ee">Yet now you see she’s wallowing in the mud.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet now you See Shee’s wallowing in the Mud</rdg>
         </app>
       </l></lg>
       <lg n="3" type="stanza"> <l n="7">
         <app>
             <rdg wit="#ft">Soe penitence and pennance, Some noe more</rdg>
             <rdg wit="#ee">So penitence and penance, some no more</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Soe penitence and penance, some noe more</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Doe valew, then to Sin on A new Score</rdg>
             <rdg wit="#ee">Do value than to sin on a new <seg>score<note type="gloss">account or reckoning</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Doe valew, then to sin on A new <seg>score<note type="gloss">The metaphor comes fitly from the tavern, where a score is “The row of chalk marks on a door, or of strokes on a slate, which in rural alehouses serves to record the quantity of liquor consumed on credit by a regular frequenter” (<bibl><title rend="italic">OED</title> “Score” sb. 10</bibl>).</note></seg></rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Thus like the dog they to their vomit turn</rdg>
             <rdg wit="#ee">Thus <seg>like the dog they to their vomit turn<note type="gloss">proverbial. “But it is happened unto them according to the true proverb, The dog is turned to his own vomit again; and the sow that was washed to her wallowing in the mire” (2 Peter 2:22). See also “As a dog returneth to his vomit, so a fool returneth to his folly” (Proverbs 26:11).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Thus like the dog they to their vomit turn<note type="critical">In scripture, the dog appears, like the pig, as an animal emblem of impurity. The two can be paired, as in 2 Peter 22.16: “The dog is turned to his own vomit again; and the sow that was washed to her wallowing in the mire”; or Matthew 8.6: “Give not that which is holy unto the dogs, neither cast ye your pearls before swine.” Also see Proverbs 26.11: “As a dog returneth to his vomit, So a fool returneth to his folly.”</note></seg></rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Licking that ffilth up which they Seem’d to Spurn</rdg>
             <rdg wit="#ee">Licking that filth up which they seemed to spurn;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Licking that ffilth up which they Seem’d to Spurn</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">But thoſe which loathingly their Sins deplore</rdg>
             <rdg wit="#ee">But those which loathingly their sins deplore,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But those which loathingly their Sins deplore</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Beeing Cleans’d if poſſible will Sin noe more</rdg>
             <rdg wit="#ee">Being cleansed, if possible will sin no more.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Beeing Cleans’d if possible will Sin noe more</rdg>
         </app>
       </l></lg>
       <lg n="4" type="stanza"> <l n="13">
         <app>
             <rdg wit="#ft">But as the Ermine (which you See purſued</rdg>
             <rdg wit="#ee">But as <seg>the ermine<note type="gloss">animal in the weasel family known for its white coat; an emblem of purity</note></seg> (which you see pursued</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But as the Ermine which you see pursued</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">By thoſe which long to have their chaps imbru’de</rdg>
             <rdg wit="#ee">By <seg>those which long to have their chaps imbrued<note type="gloss">hunting dogs who long to bite the ermine, having their jaws (“chaps) “imbrued” (stained) with blood.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">By <seg>those which long to have their chaps imbru’de<note type="critical">Hunting <foreign rend="italic">par force</foreign> with dogs—a standard aristocratic practice in medieval and early modern Europe—receives no notice in the Bible, but here it extends the symbolism of Pulter’s earlier references to dogs and hunting. While hunting <foreign rend="italic">par force</foreign> had many proponents, by the seventeenth century it had also gained outspoken detractors who, like Sir Thomas More, viewed the “blood-lust” of the hunt as “below the dignity of free men” (<bibl><title rend="italic">Utopia</title>, trans. Paul Turner [London: Penguin, 2003], 76</bibl>). Pulter’s allusions to hunting seem to share this hostility.</note></seg></rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">In innocent blood) by Nature <seg>is<note type="physical">“s” written over another letter</note></seg> indu’de</rdg>
             <rdg wit="#ee">In innocent blood) by Nature is <seg>endued<note type="gloss">invested; endowed</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Th’innocent blood, by Nature is indu’de</rdg>
         </app>
       </l></lg>
       <lg n="5" type="stanza"> <l n="16">
         <app>
             <rdg wit="#ft">With Such a loathing of impuritie</rdg>
             <rdg wit="#ee">With such a loathing of impurity,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With such a <seg>loathing of impuritie<note type="gloss">In addition to the habits of cleanliness described here, the ermine was also credited with eating only a single meal a day, thereby illustrating the virtue of abstemiousness.</note></seg></rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Rather then o’re a dirty place Shee’l flie</rdg>
             <rdg wit="#ee">Rather than o’er a dirty place <seg>she’ll fly<note type="gloss">the ermine will flee</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Rather then o’re a dirtie place shee’l flie</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Sheel Yield unto her Curſed foes and die</rdg>
             <rdg wit="#ee"><seg>She’ll yield unto her cursed foes and die<note type="gloss">The ermine was legendary for being willing to die rather than have her pure white fur blemished.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Sheel Yield unto her Cursed foes and die</rdg>
         </app>
       </l></lg>
       <lg n="6" type="stanza"> <l n="19">
         <app>
             <rdg wit="#ft">Soe Shee that knows her Self to bee Gods Child</rdg>
             <rdg wit="#ee">So she that knows herself to be God’s child</rdg>
-          <rdg wit="#ae"></rdg>
+           <rdg wit="#ae">Soe shee that knows her self to bee Gods Child</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Will die A Thouſand deaths e’re bee defild</rdg>
             <rdg wit="#ee">Will die a thousand deaths <seg>ere<note type="gloss">before</note></seg> be defiled.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Will die A Thousand deaths er’e bee defild</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Shee knows her Saviours guiltles blood did flow</rdg>
             <rdg wit="#ee">She knows <seg>her Savior’s guiltless blood did flow<note type="gloss">Christ sacrificed himself in being crucified.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+           <rdg wit="#ae">Shee knows her Saviours guiltless blood did flow</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">To waſh her sinfull Soul as white as Snow</rdg>
             <rdg wit="#ee">To wash her sinful soul as white as snow.</rdg>
-          <rdg wit="#ae"></rdg>
+           <rdg wit="#ae">To wash her Sinfull Soul as white as Snow</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Then Ermin like let my Sad Soul expire</rdg>
             <rdg wit="#ee">Then ermine-like let my sad soul expire,</rdg>
-          <rdg wit="#ae"></rdg>
+           <rdg wit="#ae">Then Ermin like let my Sad Soul expire</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft"><seg>Whi<add place="below">v</add><add place="above">l</add>st<note type="physical">caret inverted</note></seg> others Hoglike tumble in the Mire.</rdg>
             <rdg wit="#ee">Whilst others hog-like tumble in the <seg>mire<note type="gloss">mud; state of degradation</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Whilst others Hoglike tumble in the Mire.</rdg>
         </app>
       </l></lg>
-        
+
         <app>
             <rdg type="milestone" wit="#ft">
                 <milestone unit="poem" rend="straight-ascendline"/>
             </rdg>
         </app>
-        
+
     </body>
   </text>
 </TEI>
