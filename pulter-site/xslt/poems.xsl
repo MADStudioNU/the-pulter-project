@@ -10,7 +10,7 @@
   <pp:poems>
     <pp:poem id="1">
       <pp:title>The Eclipse</pp:title>
-      <pp:firstLine>WWhy do those frowning vapors interpose</pp:firstLine>
+      <pp:firstLine>Why do those frowning vapors interpose</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
