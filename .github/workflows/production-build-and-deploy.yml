@@ -1,4 +1,6 @@
 name: 'Production Preview: Build and Deploy to S3'
+permissions:
+  id-token: write
 
 on:
   push:
@@ -22,7 +24,7 @@ jobs:
       - name: Install packages
         run: yarn
 
-      - name: Install Gulp
+      - name: Install task runner
         run: npm i -g gulp-cli@latest
 
       - name: Build the site
