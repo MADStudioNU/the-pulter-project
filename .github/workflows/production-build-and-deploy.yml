@@ -22,7 +22,7 @@ jobs:
       - name: Install packages
         run: yarn
 
-      - name: Install Gulp
+      - name: Install task runner
         run: npm i -g gulp-cli@latest
 
       - name: Build the site
