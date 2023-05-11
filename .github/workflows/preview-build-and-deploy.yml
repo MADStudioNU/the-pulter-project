@@ -14,10 +14,10 @@ jobs:
         with:
           submodules: true
 
-      - name: Prepare Node 18
-        uses: actions/setup-node@v1
+      - name: Prepare Node 20
+        uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '20.x'
 
       - name: Install packages
         run: yarn
