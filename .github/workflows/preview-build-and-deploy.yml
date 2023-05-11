@@ -19,9 +19,14 @@ jobs:
         with:
           node-version: '18.x'
 
-      - run: yarn
-      - run: npm i -g gulp-cli@latest
-      - run: npm run build
+      - name: Install packages
+        run: yarn
+
+      - name: Install Gulp
+        run: npm i -g gulp-cli@latest
+
+      - name: Build the site
+        run: npm run build
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
