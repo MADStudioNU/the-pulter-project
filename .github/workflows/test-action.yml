@@ -5,14 +5,14 @@ permissions:
 on:
   push:
     branches: [ 'develop' ]
-    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
+#    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
 
 jobs:
   build-and-deploy:
     runs-on: macos-latest
     steps:
-      - run: echo 'Actor — ${{ github.actor }}.'
-      - run: echo 'Triggering Actor — ${{ github.triggering_actor }}.'
+      - run: echo 'Actor — ${{ github.actor }}'
+      - run: echo 'Triggering Actor — ${{ github.triggering_actor }}'
 
 #      - name: Check out the repo
 #        uses: actions/checkout@v1
