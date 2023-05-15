@@ -37,6 +37,7 @@ Or use this one-liner to deploy to Netlify manually: `gulp xslt:manifest; gulp x
 
 ### Production Preview Instance
 [![Production Preview: Build and Deploy to S3](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/production-build-and-deploy.yml/badge.svg)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/production-build-and-deploy.yml)
+
 Branch `master` is automatically deployed to the [AWS S3 production preview site](http://mads-static-sites-dev-pulterproject-dev.s3-website.us-east-2.amazonaws.com).
 
 Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) manually.
