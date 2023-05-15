@@ -1,54 +1,51 @@
 name: 'Production Preview: Build and Deploy to S3'
 permissions:
-  id-token: write
+  id-token: read
 
 on:
   push:
     branches: [ 'develop' ]
-#    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
+#     paths: [ 'pulter-site/**', 'pulter-poems/**' ]
 
 jobs:
   build-and-deploy:
     runs-on: macos-latest
     steps:
-      - run: echo 'Actor — ${{ github.actor }}.'
-      - run: echo 'Triggering Actor — ${{ github.triggering_actor }}.'
+      - name: Check out the repo
+        uses: actions/checkout@v1
 
-#      - name: Check out the repo
-#        uses: actions/checkout@v1
+      - name: Prepare Node 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
 
-#      - name: Prepare Node 20
-#        uses: actions/setup-node@v3
-#        with:
-#          node-version: '20.x'
+      - name: Install packages
+        run: yarn
 
-#      - name: Install packages
-#        run: yarn
-#
-#      - name: Install task runner
-#        run: npm i -g gulp-cli@latest
-#
-#      - name: Build the site
-#        run: npm run build
+      - name: Install task runner
+        run: npm i -g gulp-cli@latest
 
-#      - name: Import Secrets
-#        id: import-secrets
-#        uses: hashicorp/vault-action@v2
-#        with:
-#          url: https://vault.weinberg.northwestern.edu:443
-#          role: MADS-S3-dev
-#          path: jwt-github-mads
-#          method: jwt
-#          secrets: |
-#            platforms-kvv2/data/secrets/MADS-S3/dev access_key | AWS_ACCESS_KEY_ID ;
-#            platforms-kvv2/data/secrets/MADS-S3/dev secret_key | AWS_SECRET_ACCESS_KEY ;
-#
-#      - name: Deploy to S3
-#        id: sync
-#        run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
-#        env:
-#          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
-#          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
-#          AWS_DEFAULT_REGION: us-east-2
-#          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
+      - name: Build the site
+        run: npm run build
+
+      - name: Import Secrets
+        id: import-secrets
+        uses: hashicorp/vault-action@v2
+        with:
+          url: https://vault.weinberg.northwestern.edu:443
+          role: MADS-S3-dev
+          path: jwt-github-mads
+          method: jwt
+          secrets: |
+            platforms-kvv2/data/secrets/MADS-S3/dev access_key | AWS_ACCESS_KEY_ID ;
+            platforms-kvv2/data/secrets/MADS-S3/dev secret_key | AWS_SECRET_ACCESS_KEY ;
+
+      - name: Deploy to S3
+        id: sync
+        run: aws s3 sync dist/versioning-machine s3://$BUCKET_NAME --delete
+        env:
+          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
+          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
+          AWS_DEFAULT_REGION: us-east-2
+          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
 
