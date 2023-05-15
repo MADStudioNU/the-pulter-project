@@ -1,6 +1,6 @@
 name: 'Production Preview: Build and Deploy to S3'
 permissions:
-  id-token: read
+  id-token: write
 
 on:
   push:
