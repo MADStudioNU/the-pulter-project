@@ -21,7 +21,6 @@ const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 
 const appendPrepend = require('gulp-append-prepend');
 const gulp = require('gulp');
-const gulpUtil = require('gulp-util');
 const concat = require('gulp-concat');
 const dashify = require('dashify');
 const flatMap = require('gulp-flatmap');
@@ -216,8 +215,7 @@ gulp.task('styles-deploy', function () {
 gulp.task('html', function () {
   return gulp.src(SITE_BASE + '*.html')
     .pipe(plumber())
-    .pipe(browserSync.reload({stream: true}))
-    .on('error', gulpUtil.log);
+    .pipe(browserSync.reload({ stream: true }));
 });
 
 // Move over production ready files
