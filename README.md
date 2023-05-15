@@ -47,7 +47,7 @@ Poems that are published on the preview site but not on the production site:
 > A118 (Smid), A095 (Boehrer), A090 (Sperrazza)
 
 Curations:
-> —
+> C095 (Swine and Ermine)
 
 Explorations:
 > —
