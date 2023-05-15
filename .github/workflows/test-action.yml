@@ -5,6 +5,7 @@ permissions:
 on:
   push:
     branches: [ 'develop' ]
+    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
 
 jobs:
   build-and-deploy:
@@ -47,4 +48,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
           AWS_DEFAULT_REGION: us-east-2
           BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
-          
+
