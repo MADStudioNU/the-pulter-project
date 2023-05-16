@@ -33,7 +33,7 @@ You should have the following terminal commands available:
 
 Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push with changes withing these folders: `./pulter-poems` and `./pulter-site`. The commiter may choose to skip the build by including `[skip ci]` string in the commit message.
 
-Or use this one-liner to deploy to Netlify manually: `gulp xslt:manifest; gulp xslt; gulp deploy; netlify deploy -p -d dist/;`.
+Or use this one-liner to deploy to Netlify manually: `npm run build; netlify deploy -p -d dist/;`.
 
 ### Production Preview Instance
 [![Production Preview: Build and Deploy to S3](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/production-build-and-deploy.yml/badge.svg)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/production-build-and-deploy.yml)
@@ -47,7 +47,7 @@ Poems that are published on the preview site but not on the production site:
 > A118 (Smid), A095 (Boehrer), A090 (Sperrazza)
 
 Curations:
-> —
+> C095 (Swine and Ermine)
 
 Explorations:
 > —
