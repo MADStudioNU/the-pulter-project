@@ -2,7 +2,6 @@ name: 'CI/CD'
 
 env:
   ARTIFACT_NAME: ${{ vars.ARTIFACT_NAME }}
-  ARTIFACT_PATH: ${{ vars.ARTIFACT_PATH }}
 
 permissions:
   contents: read
@@ -45,7 +44,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: $ARTIFACT_NAME
-          path: $ARTIFACT_PATH
+          path: dist
 
   DeployToDev:
     name: Deploy to Development
@@ -67,7 +66,7 @@ jobs:
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
-          publish-dir: 'dist'
+          publish-dir: dist
           production-deploy: true
           deploy-message: Triggered from Github Actions by @${{ github.actor }}.
         env:
