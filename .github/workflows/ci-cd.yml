@@ -1,17 +1,21 @@
 name: 'CI/CD'
 
+env:
+  ARTIFACT_NAME: ${{ vars.ARTIFACT_NAME }}
+  ARTIFACT_PATH: ${{ vars.ARTIFACT_PATH }}
+
 permissions:
   contents: read
   id-token: write
 
-#on:
-#  push:
-#    branches: [ 'master', 'develop' ]
-#    paths: ['pulter-site/**', 'pulter-poems/**']
-#  pull_request:
-#    branches: [ 'master' ]
-#    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
-#  workflow_dispatch:
+on:
+  push:
+    branches: [ 'master', 'develop' ]
+    paths: ['pulter-site/**', 'pulter-poems/**']
+  pull_request:
+    branches: [ 'master' ]
+    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
+  workflow_dispatch:
 
 jobs:
   Build:
@@ -37,6 +41,12 @@ jobs:
       - name: Run the build script
         run: npm run build
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: $ARTIFACT_NAME
+          path: $ARTIFACT_PATH
+
   DeployToDev:
     name: Deploy to Development
     if: github.event.ref == 'refs/heads/develop'
@@ -46,6 +56,14 @@ jobs:
       name: Development
       url: https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app
     steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: $ARTIFACT_NAME
+
+      - name: Show contents
+        run: ls -R
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
@@ -55,7 +73,7 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+        timeout-minutes: 2
 
   DeployToStaging:
     name: Deploy to Staging
