@@ -59,6 +59,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: $ARTIFACT_NAME
+          path: dist
 
       - name: Show contents
         run: ls -R
