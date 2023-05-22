@@ -14,14 +14,19 @@ jobs:
         with:
           submodules: true
 
-      - name: Prepare Node 18
-        uses: actions/setup-node@v1
+      - name: Prepare Node 20
+        uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '20.x'
 
-      - run: yarn
-      - run: npm i -g gulp-cli@latest
-      - run: npm run build
+      - name: Install packages
+        run: yarn
+
+      - name: Install task runner
+        run: npm i -g gulp-cli@latest
+
+      - name: Build the site
+        run: npm run build
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
