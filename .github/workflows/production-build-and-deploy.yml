@@ -36,11 +36,11 @@ jobs:
         with:
           url: https://vault.weinberg.northwestern.edu:443
           role: MADS-S3-dev
-          path: jwt-github-mads
+          path: jwt-github
           method: jwt
           secrets: |
-            platforms-kvv2/data/secrets/MADS-S3/dev access_key | AWS_ACCESS_KEY_ID ;
-            platforms-kvv2/data/secrets/MADS-S3/dev secret_key | AWS_SECRET_ACCESS_KEY ;
+            platforms-kvv2/data/secrets/MADS-S3/pulterproject-staging access_key | AWS_ACCESS_KEY_ID ;
+            platforms-kvv2/data/secrets/MADS-S3/pulterproject-staging secret_key | AWS_SECRET_ACCESS_KEY ;
 
       - name: Deploy to S3
         id: sync
