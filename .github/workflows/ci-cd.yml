@@ -1,5 +1,8 @@
 name: 'CI/CD'
 
+env:
+  ARTIFACT_NAME: ${{ vars.ARTIFACT_NAME }}
+
 permissions:
   contents: read
   id-token: write
@@ -37,6 +40,12 @@ jobs:
       - name: Run the build script
         run: npm run build
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: $ARTIFACT_NAME
+          path: dist
+
   DeployToDev:
     name: Deploy to Development
     if: github.event.ref == 'refs/heads/develop'
@@ -46,16 +55,25 @@ jobs:
       name: Development
       url: https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app
     steps:
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
+      - name: Download artifact
+        uses: actions/download-artifact@v3
         with:
-          publish-dir: 'dist'
+          name: $ARTIFACT_NAME
+          path: dist
+
+      - name: Show contents
+        run: ls -R
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v2.0
+        with:
+          publish-dir: dist
           production-deploy: true
           deploy-message: Triggered from Github Actions by @${{ github.actor }}.
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+        timeout-minutes: 2
 
   DeployToStaging:
     name: Deploy to Staging
@@ -67,7 +85,7 @@ jobs:
       url: https://mads-static-sites-dev-pulterproject-dev.s3-website.us-east-2.amazonaws.com
     steps:
       - name: Import Secrets
-        uses: hashicorp/vault-action@v2
+        uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
           role: MADS-S3-dev
@@ -93,16 +111,14 @@ jobs:
       name: Production
       url: https://https://pulterproject.northwestern.edu/
     steps:
-#      - name: Import Secrets
-#        uses: hashicorp/vault-action@v2
-#        with:
-#          url: https://vault.weinberg.northwestern.edu:443
-#          role: MADS-S3-dev
-#          path: jwt-github-mads
-#          method: jwt
-#          secrets: |
-#            platforms-kvv2/data/secrets/MADS-S3/dev access_key | AWS_ACCESS_KEY_ID ;
-#            platforms-kvv2/data/secrets/MADS-S3/dev secret_key | AWS_SECRET_ACCESS_KEY ;
+      - name: Import Secrets
+        uses: hashicorp/vault-action@v2.5.0
+        with:
+          url: https://vault.weinberg.northwestern.edu:443
+          caCertificate: ${{ secrets.VAULT_CA_CERT }}
+          method: approle
+          roleId: ${{ secrets.VAULT_ROLE_ID }}
+          secretId: ${{ secrets.VAULT_SECRET_ID }}
 #      - name: Deploy to S3
 #        run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
 #        env:
