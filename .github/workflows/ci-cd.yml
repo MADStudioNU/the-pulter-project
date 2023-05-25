@@ -8,12 +8,12 @@ permissions:
   id-token: write
 
 on:
-  push:
+#  push:
 #    branches: [ 'master', 'develop' ]
-    paths: ['pulter-site/**', 'pulter-poems/**']
-  pull_request:
-    branches: [ 'master' ]
-    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
+#    paths: ['pulter-site/**', 'pulter-poems/**']
+#  pull_request:
+#    branches: [ 'master' ]
+#    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
   workflow_dispatch:
 
 jobs:
