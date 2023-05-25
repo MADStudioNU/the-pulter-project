@@ -44,7 +44,7 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 
 ### Current Delta
 Poems that are published on the preview site but not on the production site:
-> A118 (Smid), A095 (Boehrer), A090 (Sperrazza)
+> A118 (Smid), A095 (Boehrer), A090 (Sperrazza), A111 (Hand)
 
 Curations:
 > C095 (Swine and Ermine)
