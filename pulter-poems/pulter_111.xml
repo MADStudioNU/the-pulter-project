@@ -126,7 +126,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Molly Hand</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -150,7 +150,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 46]</rdg>
             <rdg wit="#ee">The Bishop and the Rats<lb/>(Emblem 46)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">The Bishop and the Rats<lb/>(Emblem 46)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -159,7 +159,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">This edition follows Pulter’s manuscript closely, retaining spelling, capitalization, and punctuation, except where misleading or confusing (e.g., I’ve added a close parenthesis following  “O inhumane” [8]). I’ve replaced long “s” with lower case “s,” and replaced “ff” at the beginning of a word with “F/f.” As the Elemental Edition offers a modernized text, this Amplified Edition may serve as a useful basis of comparison, one that preserves most characteristics of the manuscript and includes annotations aligned with the concerns taken up in the introduction to this edition. As Roger Kuin observes, “Preserving [spelling] . . . can give the reader information, not only about spelling practices but about individuals, their region, their education, and their writing habits” (<bibl>Kuin, “In Defence of Old-Spelling Editions,” in <title rend="italic">A Handbook of Editing Early Modern Texts</title>, ed. Claire Loffman and Harriet Phillips [Routledge, 2018], 102-5; 103</bibl>).</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -167,7 +167,14 @@
               <note type="headnote">Is it possible to flee from punishment for your sins? In this emblem, Pulter fuses two of her favorite themes: the danger of underestimating even the seemingly slightest adversaries (which she commonly typifies by mice, rats, flies, and lice), and the karma-like cycling of the material and spiritual world. Here, Pulter spins these twin arguments out of the folk legend associated with the Mouse Tower in Germany (which echoes the Polish legend of Popiel). The story tells of how the tyrant Hatto, who cruelly denounced peasants as the true vermin of the earth and burned them to death, was then the subject of God’s revenge by literal vermin who chased him to a tower in a river and ate him alive. After describing other famous figures who gruesomely choked on flies or whose bodies were ridden with lice, Pulter unearths the possible silver lining of a world where you can never hide from God’s judgment: the divine will always be able to pierce the worst darkness to offer mercy and comfort. The phantasmagoric fate of being eaten alive by mice prompts Pulter’s resolve to accept the world’s endless cycles: “For should I take Aurora’s golden wings,” she exclaims, in imagining trying to escape the world, “And fly her shining circle, still it brings / Me whence I came.” The frightening prospect of “what goes around comes around” converts, in the end, into an embrace of the inevitable return to divinely mandated origins.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+              <note type="headnote">
+                  <p><cit><quote>when the Iustice of God is inflamed against vs, and that hée shootes his arowes as a sharpe punishment for our offences, he maketh his ministers and executers of his iust anger, the litle and insensible worms of the earth, neither doth his wrathe fall altogether vpon the vulgar or people of meane condition, but hath also like force vpon Princes and degrées of greate callings, whereof appeares a familiar experience in the monstrous death of a King &amp; Bishop, recorded alreadie vnder the seale and authoritie of 40. or 50. Historians, of no lesse credite than vndoubted truthe.</quote> (<bibl>Pierre Boaistuau, <title rend="italic">Certain secret wonders of nature</title>, trans. Edward Fenton [London, 1569], [Biv]</bibl>)</cit></p>
+                  <p>In his translation of Pierre Boaistuau’s <title rend="italic">Histoires prodigieuses extraictes de plusieurs fameux auteurs grecs &amp; latins</title> (1560), Edward Fenton recounts the tales of Prince Popiel and Bishop Hatto central to Pulter’s emblem, “The Bishop and the Rats.” The moralizing prefatory remark, quoted above, refers to the “little and insensible worms of the earth” which, like Pulter’s rats, become vehicles for divine justice. The text also preempts incredulity: lest we doubt the veracity of these wondrous tales, we are reassured that they are recorded by forty or fifty reliable sources.</p>
+                  <p>By the time Pulter composed “The Bishop and the Rats,” she may have read or heard these stories in any number of places, from this and other books of wonders, to broadside ballads, sermons, and other moralizing works. Boaistuau’s <title rend="italic">Histoires prodigieuses</title> and Fenton’s translation are especially intriguing, however, because they include an illustration that we might imagine as the absent <foreign rend="italic">pictura</foreign> this emblem evokes. Editions of this text, including both Boaistuau’s manuscript edition (1559) dedicated to Queen Elizabeth and Fenton’s translation, are illustrated with images of the prodigies and monstrous creatures described therein. In Fenton, the chapter in which the stories of Hatto and Popiel appear, “The wonderful death of sundry Kings, Princes, Byshops, Emperoures, and Monarques,” is preceded by a woodcut (based on a vivid miniature in Boaistuau’s manuscript) of two figures, presumably Hatto and Popiel, seated on thrones facing one another inside a castle (see “Rats in early modern English  culture”). Rats surround them and are climbing their garments. The men appear to be in casual conversation even as the image proleptically points to the gruesome death both will experience. It’s possible that Pulter had this image in mind when composing Emblem 46. Like her other emblems, this is a “naked emblem” (see Godfrey and Ross’s Headnote to the Amplified Edition of <ref type="pp-poem-ref" corresp="67">Mighty Nimrod (Emblem 1)</ref>). Lacking an illustration, it nevertheless conjures an image. Did Pulter think of the critters in the woodcut as she wrote about the “infinite uglie ratts” (19) that pursued and finally devoured Hatto?</p>
+                  <p>Of course, Pulter and her earliest readers need not have imagined this particular illustration; many images of rats and other vermin were available as referents. Modern readers might think instead of something like the film <title rend="italic">Willard</title> (both the 1971 and 2003 versions), in which rats exact justice and revenge. We might watch such a film and cringe, in part because actual rats are likely at a further remove—a threatening sign carrying connotations of dirt and disgust, but a sign without a real-life referent. Not so for Pulter and her contemporaries. Rats were a fact of everyday life. They also carried different meanings. Mary Fissell has suggested that rats and other mammalian vermin were not necessarily associated with dirt or germs, pollution, or revulsion (though Pulter’s use of “nasty” does suggest a reaction of disgust); instead, such vermin were despised because they vied with humans for available resources. In addition, they displayed cunning, and they understood and manipulated signs, even language (<bibl>Fissell, “Imagining Vermin in Early Modern England,” <title rend="italic">History Workshop Journal</title> 47 [Spring 1999]: 1-29; 1-2</bibl>). Rats thus mirrored human strengths and highlighted human frailties. Threatening to humans, rats were also threatened by them: they were (and are), after all, categorized as vermin, one definition of which being “animals whom it is largely acceptable to kill” (Fissel 1).</p>
+                  <p>What happens when humans are confused with vermin, a category of species that may be killed? This is a question Emblem 46 seems to pose—twice: first, with respect to the “wretched Creatures” (8) that Hatto kills; second, with Hatto himself who becomes the “wretch” (12). In Pulter’s rendering, Hatto’s crime is going after the wrong “rats,” burning the hungry peasants rather than the actual pests consuming the available grain. We can see the logic of speciesism at work, that is, in the words of Cary Wolfe, “the ethical acceptability of the systematic ‘noncriminal putting to death’ of animals based solely on their species” (<bibl><title rend="italic">Animal Rites: American Culture, the Discourse of Species, and Posthumanist Theory</title> [University of Chicago Press, 2008], 7</bibl>); speciesism is, moreover, a logic that can be “used to mark any social other” (Wolfe 7). In this case, the attributes associated with vermin are deployed for the purpose of destroying a human population. Associations of vermin with marginalized human populations still circulate. The infamous Nazi propaganda film <title rend="italic">Der Ewige Jude</title> (<title rend="italic">The Eternal Jew</title> [1940]) dehumanizes Jewish people by explicit verbal and visual comparison to rats, and one need not look far to find more recent expressions of racism and discrimination through “verminization” and bestialization more generally. Pulter’s poem is situated in a broad and complex discourse in which vermin are classified as both threatening and disposable. Once defined, the features of this class of animal are available to apply to any population deemed equally undesirable.</p>
+                  <p>Vermin are called upon in many prior narratives to underscore human frailty and vanity and to emphasize God’s ability to exact vengeance by means of seemingly the least of his creations. Though doing God’s work, Pulter’s rats are neither anthropomorphized nor given positive attributes; they are still “uglie” and “nasty.” (See for comparison <ref type="pp-poem-ref" corresp="89">The Marmottane (Emblem 24)</ref>, in which a particular species of rat is an emblem of wedded love.) Pulter’s emblem highlights the inexorable nature of divine justice and the potential for divine instrumentalization of the natural world. Like many of Pulter’s other emblems, however, this one takes a turn, moving from explication to devotional reflection (<bibl>Rachel Dunn, “Breaking a Tradition: Hester Pulter and the English Emblem Book,” <title rend="italic">The Seventeenth Century</title>, 30:1 (2015): 55-7; 63</bibl>). The final section of the poem is at once a personal meditation and an admonishment to the reader who finds too much delight in reading about tyrants receiving their just punishments by way of divinely weaponized vermin. Hatto may have made the grave mistake of burning humans as “rats,” but, to some extent, to take pleasure in the punishment of Hatto is to commit the same error that Hatto made in the first place—that is, to render him inhuman and therefore able to be killed (as Pulter’s use of “inhumane” [8], which early moderns would have read as “inhuman,” calls our attention to early on). On the one hand, Pulter tempts the reader to take such pleasure: her use of the word “frie” (10), for example, to describe the fate of Hatto’s soul even before we learn of his earthly punishment offers a certain kind of satisfaction as it promises Hatto will experience spiritually and eternally the “fire” (8) that peasants in the barn felt corporeally (the proximity and anagrammatic relation of these terms seems quite deliberate). On the other hand, the emblem abandons such “eye for an eye” thinking: the “first” lesson is to “compassionate” (21) “those whose disasterous fate / Have made them miserable” (22-23) - is not Hatto among those? Finally, the inescapable swarm of God’s judgment is coming for us all. Pulter invites the reader to seek divine mercy over and above justice, since there is no hiding from God’s judgment—or from the creatures he may use to deliver it.</p>
+                  <p>In this turn in the final ten lines of the poem, another German character comes to mind: Marlowe’s Faustus cowering before the ireful brow of a vengeful God and yet failing to repent and plead for mercy. Pulter writes, “‘T’is neither Earth nor Sea nor Ayr nor Skie / To which A Sad despairing Soul can flie” (29-30); nor can she take refuge in day or night. Just as Faustus cannot vanish into the air, nor dissolve in the sea, nor hide beneath mountains and hills, nor escape his fate by being changed into a “brutish beast” (<bibl>Christopher Marlowe, <title rend="italic">Doctor Faustus</title> [1604], ed. Roma Gill and Ros King [New Mermaids, Methuen Drama, 2008], Scene 13, lines 62-112</bibl>), and just as Hatto cannot escape the rats that overtake him in his tower, so, Pulter concludes, “no place will hide my sins and me” (37). This emblem, which fixes our attention on a profound act of cruelty and its just and gruesome punishment by lowly creatures made instruments of God’s wrath, ends with the speaker “fleeing” from justice to mercy and implicitly adjuring the reader to join her.</p></note>
           </rdg>
         </app>
       </head>
@@ -176,112 +183,112 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">46</fw><seg>In<note type="physical">in left margin; previous poem concludes at top of same page, followed by blank space; poem begins mid-page</note></seg> <seg>Ments<note type="physical">in different hand from main scribe</note></seg> when Corn was grown exceſſive dear</rdg>
             <rdg wit="#ee">In <seg>Mainz<note type="gloss">a city in Germany</note></seg>, when <seg>corn<note type="gloss">grain in general (not just maize)</note></seg> was grown excessive <seg>dear<note type="gloss">expensive</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">In <seg><hi rend="italic">Ments</hi><note type="gloss">Mainz, a city in Germany</note></seg> when <seg>Corn<note type="gloss">Any kind of grain</note></seg> was grown excessive dear</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">By Rats, and Mice, which in Huge Swarms apear</rdg>
             <rdg wit="#ee">By rats and mice, which in huge swarms appear,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">By Rats, and Mice, which in Huge Swarms apear</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">The Hippocritticall Biſhop of the place</rdg>
             <rdg wit="#ee">The <seg>hypocritical bishop<note type="gloss">Archbishop Hatto, noted for being wicked and miserly: “hypocritical” should be pronounced as four syllables.</note></seg> of the place</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The Hippocritticall <seg>Bishop<note type="gloss">Archbishop Hatto II</note></seg> of the place</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Did Seem to pitty much the peoples Caſe</rdg>
             <rdg wit="#ee">Did seem to pity much the people’s case;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Did Seem to pitty much the peoples Case</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">And them unto a gallant &ff;east invited</rdg>
             <rdg wit="#ee">And them unto a <seg>gallant<note type="gloss">showy, attractive, splendid</note></seg> feast invited,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And them unto a gallant feast invited</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">As if in Charity hee had delighted</rdg>
             <rdg wit="#ee">As if in charity he had delighted;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">As if in <seg>Charity<note type="critical">Pulter capitalizes “Charity,” perhaps signaling it as one of the three theological virtues (faith, hope, and charity).</note></seg> hee had delighted</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">But when hee had gotten them to his deſire</rdg>
             <rdg wit="#ee">But when he had <seg>gotten them to his desire<note type="gloss">gotten them where he wanted them</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But when hee had gotten them to his desire</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Hee (o <seg>inhumane<note type="physical">no closed parenthesis</note></seg> Set the Barn on &ff;ire</rdg>
             <rdg wit="#ee">He (O, inhumane!) set the barn on fire.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Hee <seg>(o inhumane)<note type="critical">Closing parenthesis not in manuscript; added for clarity. In early modern orthography, “inhumane” was the common spelling for “inhuman.” Pulter here invites the reader to view Hatto as “inhuman,” thus putting us in the position to make the same mistake Hatto himself makes by dehumanizing the peasants in the barn. Modern readers might see both meanings in this term—both “inhuman” and “inhumane” with its modern valence—and notice the paradox that if only humans are capable of being inhumane, then Hatto is also still human. (My thanks to one of the peer reviewers for extensive commentary on this point.)</note></seg> Set the Barn on fire</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">And thus theſe wretched Creatures all did die</rdg>
             <rdg wit="#ee">And thus these wretched creatures all did die,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And thus these wretched <seg>Creatures<note type="critical">Note Pulter’s use of “creatures,” a term that encompasses all living things, the most inclusive term for living beings. See <bibl>Laurie Shannon, <title rend="italic">The Accommodated Animal: Cosmopolity in Shakespearean Locales</title> (University of Chicago Press, 2013), 9-11.</bibl></note></seg> all did die</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">&ff;or which his Curſed Soul in Hell did &ff;rie</rdg>
             <rdg wit="#ee">For which <seg>his curséd soul in Hell did fry<note type="gloss">The poem here points to the bishop’s eventual damnation, while the next ten lines indicate what happened immediately after the barn burning but before his death.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">for which his Cursed Soul in Hell did <seg>frie<note type="critical">Note the proximity and anagrammatic relation between “frie” in this line and “fire” (8) above. Pulter draws a parallel between the conflagration that consumed the peasants and the eternal punishment of the bishop.</note></seg></rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Then pointing to them burning, (Said) look here</rdg>
             <rdg wit="#ee">Then, pointing to them burning, said, “Look here!</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then pointing to them burning, (Said) look here</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Theſe are the Vermine make our Corn Soe dear</rdg>
             <rdg wit="#ee">These are the vermin make our corn so dear!”</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">These are the <seg>Vermine make our Corn Soe dear<note type="critical">In his translation of Boaistuau, Fenton writes: “in stede of reliefe in this their great and miserable dearth and hunger, he committed them to the mercie of the furious and raging flames of fyre, wherupon he being asked, why he had shewed so vile and execrable tirannie on these miserable and innocent creatures, he answered: That he burned them, for that they differed litle or nothing from Ratts, which served for no other use than to consume corne” (Ci).</note></seg></rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">But See Gods Judgments doth this wretch purſue</rdg>
             <rdg wit="#ee">But see, God’s judgments doth this wretch pursue,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But See Gods Judgments doth this <seg>wretch<note type="critical">The poor consumed in the fire are “wretched Creatures” in line 9 above, but now, the Bishop is the “wretch.”</note></seg> pursue</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Which made him Soon thoſe Curſed Actions Rue</rdg>
             <rdg wit="#ee">Which made him soon those curséd actions <seg>rue<note type="gloss">regret; lament</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which made him Soon those Cursed Actions Rue</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">&ff;or Nasty Ratts Still after him did Run</rdg>
             <rdg wit="#ee">For nasty rats still after him did run,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">for <seg>Nasty<note type="gloss">Filthy or dirty (<bibl><title rend="italic">Oxford English Dictionary</title>, 1a</bibl>); offensive, annoying, repellent (3a).</note></seg> Ratts Still after him did Run</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Not to bee Scar’d by Tel’sma or Gun</rdg>
             <rdg wit="#ee">Not to be scared by <seg>talisman<note type="gloss">charm</note></seg> or gun.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Not to bee Scar’d by <seg>Tel’sma<note type="gloss">Talisman. One such method of warding off rats was to “Take the Head of a Rat or Mouse, pull the Skin from of it, and cary the Head where the Mice and Rats come, and they will be immediately gone from thence, Running altogether as if they were bewitched, and come no more” (<bibl><title rend="italic">The Vermin-Killer</title> [1680], 4-5, cited in Fissell, “Imagining Vermin,” 17</bibl>).</note></seg> or Gun</rdg>
         </app>
       </l>
 
@@ -307,168 +314,168 @@
         <app>
             <rdg wit="#ft">At last hee built a Tower in the Seas</rdg>
             <rdg wit="#ee">At last he built a tower in the seas,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">At last hee built a Tower in the Seas</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Hopeing that there he might Remain in <seg>peace<note type="physical">“c” possibly written over an “s”</note></seg></rdg>
             <rdg wit="#ee">Hoping that there he might remain in peace.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Hopeing that there he might Remain in peace</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">But infinite Uglie Rats did thither Swim</rdg>
             <rdg wit="#ee">But infinite ugly rats did thither swim,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But <seg>infinite<note type="critical">In his translation of Boaistuau, Fenton writes, “Albeit God (as witnesseth the Prophet, having care of the litle sparow) wold not suffer this great tyrannie unpunished, for immediately he stirred up an infinite numbre of Ratts to the utter destruction and ruine of this vile murderer, who fléeing for his more safegarde into a towre builte in a water, was by the expresse commaundement of God eaten by these ratts to the very bones, which remaine at this day, enterred in the monasterie of S. Albyn, in Magence, and the Towre where this abhominable pastor ended his dayes, is yet in being, and is called Ratts towre” (Ci).</note></seg> Uglie Rats did thither Swim</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">And to his Horrid pain devoured him</rdg>
             <rdg wit="#ee">And, to his horrid pain, devouréd him.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And to his Horrid pain devoured him</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">&ff;irst let this teach us to compaſſionate</rdg>
             <rdg wit="#ee">First, let this teach us <seg>to compassionate<note type="gloss">to pity; the object of pity are “those” in the next line who are less fortunate</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">first let this teach us to compassionate</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">(If wee abound) thoſe whoſe diſaſterous &ff;ate</rdg>
             <rdg wit="#ee">(If we <seg>abound<note type="gloss">are plentiful, prosperous, rich</note></seg>) those whose disastrous fate</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">(If wee abound) those whose disasterous fate</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Have made them miſerable, next wee may See</rdg>
             <rdg wit="#ee">Have made them miserable. Next, we may see</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Have made them miserable, next wee may See</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">&ff;rom Gods Revenging hand noe place is free</rdg>
             <rdg wit="#ee">From God’s revenging hand no place is free;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">from Gods Revenging hand noe place is free</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">&ff;or each deſpiſed Reptile or Inſect</rdg>
             <rdg wit="#ee">For each despiséd reptile or insect</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">for each despised Reptile or Insect</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">He can impower, when wee his Laws neglect</rdg>
             <rdg wit="#ee">He can empower, when we his laws neglect.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">He can impower, when wee his Laws neglect</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Pope Alexander was Choked with A &ff;lie</rdg>
             <rdg wit="#ee"><seg>Pope Alexander was choked with a fly<note type="gloss">Legend had it that the twelfth century Pope Adrian IV died because he choked on a fly in his drink. Pulter resituates this incident as happening to one of the popes named Alexander.</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Pope Alexander<note type="gloss">As noted in the Elemental Edition, this seems to refer to Pope Adrian IV, who choked on a fly in his drink.</note></seg> was Choked with A <seg>flie<note type="critical">Note the repetition (<foreign rend="italic">antanaclasis</foreign>) in these lines: this verminous “flie” precedes the use of the verb “flie” as in “flee,” run away, or attempt to evade, in lines 30 and 32, and the use of “flee” in the final line (“fleas” were also called “flies”). Pulter’s rhyming of “mee” and “flee” (37-38) further suggests the poet’s recognition of her own  smallness and offensiveness—in the eyes of God, she is neither more nor less significant than a flea. See also Frances Dolan’s Curation <ref type="pp-curation-ref" target="/poems/ee/to-aurora-3/#flies-do-what-theyre-made-for">Flies Do What They’re Made For</ref> which accompanies Pulter’s <ref type="pp-poem-ref" corresp="34">To Aurora [3]</ref>.</note></seg></rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft"><seg>Scilla<note type="physical">cancelled asterisk above the “S”</note></seg> and Herod, by A Lows did die</rdg>
             <rdg wit="#ee"><seg>Sulla and Herod by a louse did die<note type="gloss">Sulla (a Roman general and politician, 138–78 BCE) and Herod the Great (Roman king of Judaea, 11 BC–44 AD) were both tyrants who reputedly had deaths involved with worms: Sulla died of a lice infestation (phthiriasis) and Herod, according to Acts 12:21-23, was eaten by worms after God struck him dead with lightning.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Scilla and <seg>Herod<note type="gloss">As noted in the Elemental Edition, Pulter refers to Roman General Sulla and Herod the Great.</note></seg>, by A <seg>Lows<note type="gloss">A louse (singular of lice).</note></seg> did die</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft"><seg>T’is<note type="physical">in left margin, in H2: “* / Cruell Popula and / his curssed wiffe / [short horizontal line between text] By the ſame dismalle / ſtroake did end / their liffe”</note></seg> * neither Earth nor Sea nor Ayr nor Skie</rdg>
             <rdg wit="#ee"><seg>Cruel Popiel and his curséd wife<note type="gloss">Popiel (which is corrupted to “Popula’ in the manuscript) was a legendary ninth-century Slavic, ruler who, at the instigation of his wife, poisoned family members conspiring against him. The rats and mice feeding on the corpses of those murdered then pursued and devoured the couple alive. See <bibl>Sabine Baring-Gould, <title rend="italic">Curious Myths of the Middle Ages: The Sangreal, Pope Joan, The Wandering Jew, and Others</title> (Mineola, NY: Dover, 2005), 256.</bibl> Thanks to Katharine Maus and Rob Stauffer for locating this legend.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>T’is neither Earth nor Sea nor Ayr nor Skie<note type="gloss">In the left margin are the following lines: “* / Cruell Popula and / his curssed wiffe / [short horizontal line between text] By the same dismalle / stroake did end / their liffe”. “Popula” is “Popiel,” the other ruler famously devoured by rats, who, with his wife, poisoned Popiel’s uncles, whom they viewed as potential usurpers. In Boaistuau, the tale of Popiel precedes that of Hatto.</note></seg></rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">To which A Sad deſpairing Soul can &ff;lie</rdg>
             <rdg wit="#ee">By the <seg>same dismal stroke<note type="gloss"> being eaten by rats, as was Hatto</note></seg> did end their life.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">To which A Sad despairing Soul can flie</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">&ff;or Should I take Auroras Golden Wings</rdg>
             <rdg wit="#ee">’Tis neither earth, nor sea, nor air, nor sky</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">for Should I take <seg>Auroras<note type="gloss">Pulter makes frequent reference to Aurora in a number of poems and emblems. See, for example, the three poems titled “To Aurora,” as well as Victoria E. Burke’s curation <ref type="pp-curation-ref" target="/poems/ee/to-aurora-2/#images-of-aurora">Images of Aurora, Goddess of the Dawn</ref>, accompanying <ref type="pp-poem-ref" corresp="26">To Aurora [2]</ref>.</note></seg> Golden Wings</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">And &ff;lie her Shining Circle Still it brings</rdg>
             <rdg wit="#ee">To which a sad despairing soul can <seg>fly<note type="gloss">flee</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And flie her Shining Circle Still it brings</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">Mee whence I came, or Should Nights Sable Carr</rdg>
             <rdg wit="#ee">For should I take <seg>Aurora’s<note type="gloss">goddess of the dawn’s</note></seg> golden wings</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Mee whence I came, or Should Nights Sable Carr</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Mee Hurrie where is neither Moon nor Starr</rdg>
             <rdg wit="#ee">And fly her shining circle, still it brings</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Mee Hurrie where is neither Moon nor Starr</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">Yet would (my Glorious God) one <seg>Raie<note type="physical">blot near base of decorative descender for “R”</note></seg></rdg>
             <rdg wit="#ee">Me whence I came; or should Night’s sable <seg>car<note type="gloss">chariot; Nyx, goddess of Night, was often depicted riding a dark chariot pulled by horses, trailing the sky.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet would (my Glorious God) one Raie</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">Of thine involve my Soul in Endles day</rdg>
             <rdg wit="#ee">Me hurry where is neither moon nor star,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Of thine involve my Soul in Endles day</rdg>
         </app>
       </l>
       <l n="37">
         <app>
             <rdg wit="#ft">Then Seeing noe place will Hide my Si<hi rend="overline">n</hi>s &amp; mee</rdg>
             <rdg wit="#ee">Yet would (my glorious God) one ray</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then Seeing noe place will Hide my Sins &amp; mee</rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">I’le from thy Justice to thy Mercie &ff;lee.</rdg>
             <rdg wit="#ee">Of Thine <seg>involve<note type="gloss">entangle, envelop</note></seg> my soul in endless day.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">I’le from thy Justice to thy Mercie flee.</rdg>
         </app>
       </l>
       <l n="39">
         <app>
           <rdg wit="#ft"></rdg>
             <rdg wit="#ee">Then, seeing no place will hide my sins and me,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"></rdg>
         </app>
       </l>
       <l n="40">
         <app>
           <rdg wit="#ft"></rdg>
             <rdg wit="#ee">I’ll from Thy justice to Thy mercy flee.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"></rdg>
         </app>
       </l>
 
