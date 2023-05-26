@@ -36,7 +36,7 @@ jobs:
         uses: hashicorp/vault-action@v2
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          role: MADS-S3
+          role: MADS-S3-dev
           path: jwt-github
           method: jwt
           secrets: |
@@ -50,24 +50,5 @@ jobs:
           AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
           AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
           AWS_DEFAULT_REGION: us-east-2
-          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
+          BUCKET_NAME: "mads-static-sites-staging-pulterproject-staging"
 
-#      - name: Get CF Dist ID
-#        id: get_dist_id
-#        env:
-#          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
-#          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
-#          AWS_DEFAULT_REGION: us-east-2
-#          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
-#        run: |
-#          echo "cf_dist_id=$(aws ssm get-parameter --name /platforms/mads-static-sites/dev/${BUCKET_NAME}/CF_dist --output json | jq '.Parameter.Value' -r)" >> "$GITHUB_ENV"
-#
-#      - name: Invalidate CF cache
-#        id: invalidate
-#        run: aws cloudfront create-invalidation --distribution-id ${{ env.cf_dist_id }} --paths "/*"
-#        env:
-#          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
-#          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
-#          AWS_DEFAULT_REGION: us-east-2
-#          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
-#        timeout-minutes: 5
