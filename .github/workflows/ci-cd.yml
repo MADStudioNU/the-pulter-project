@@ -110,40 +110,22 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: https://https://pulterproject.northwestern.edu/
+      url: https://pulterproject.northwestern.edu/
     steps:
       - name: Import Secrets
         uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          caCertificate: ${{ secrets.VAULT_CA_CERT }}
-          method: approle
-          roleId: ${{ secrets.VAULT_ROLE_ID }}
-          secretId: ${{ secrets.VAULT_SECRET_ID }}
-#      - name: Deploy to S3
-#        run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
-#        env:
-#          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
-#          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
-#          AWS_DEFAULT_REGION: us-east-2
-#          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
-
-#      - name: Get CF Dist ID
-#        id: get_dist_id
-#        env:
-#          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
-#          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
-#          AWS_DEFAULT_REGION: us-east-2
-#          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
-#        run: |
-#          echo "cf_dist_id=$(aws ssm get-parameter --name /platforms/mads-static-sites/dev/${BUCKET_NAME}/CF_dist --output json | jq '.Parameter.Value' -r)" >> "$GITHUB_ENV"
-#
-#      - name: Invalidate CF cache
-#        id: invalidate
-#        run: aws cloudfront create-invalidation --distribution-id ${{ env.cf_dist_id }} --paths "/*"
-#        env:
-#          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
-#          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
-#          AWS_DEFAULT_REGION: us-east-2
-#          BUCKET_NAME: "mads-static-sites-dev-pulterproject-dev"
-#        timeout-minutes: 5
+          role: MADS-S3-dev
+          path: jwt-github
+          method: jwt
+          secrets: |
+            platforms-kvv2/data/secrets/MADS-S3/pulterproject-production access_key | AWS_ACCESS_KEY_ID ;
+            platforms-kvv2/data/secrets/MADS-S3/pulterproject-production secret_key | AWS_SECRET_ACCESS_KEY ;
+      - name: Deploy to S3
+        run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
+        env:
+          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
+          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
+          AWS_DEFAULT_REGION: us-east-2
+          BUCKET_NAME: "group-websites-prod-mads-pulterproject"
