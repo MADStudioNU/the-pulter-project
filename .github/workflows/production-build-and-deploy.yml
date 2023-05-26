@@ -6,6 +6,7 @@ on:
   push:
     branches: [ 'master' ]
     paths: ['pulter-site/**', 'pulter-poems/**']
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -35,7 +36,7 @@ jobs:
         uses: hashicorp/vault-action@v2
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          role: MADS-S3-dev
+          role: MADS-S3
           path: jwt-github
           method: jwt
           secrets: |
