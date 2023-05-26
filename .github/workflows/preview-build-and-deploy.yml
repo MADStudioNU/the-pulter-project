@@ -1,53 +1,53 @@
-name: 'Preview Site: Build and Deploy to Netlify'
-
-env:
-  ARTIFACT_NAME: ${{ vars.ARTIFACT_NAME }}
-  BUILD_CACHE_ID: tpp-${{ github.run_id }}-${{ github.run_number }}-${{ github.run_attempt }}
-
-on:
-  push:
-    branches: [ 'develop' ]
-    paths: ['pulter-site/**', 'pulter-poems/**']
-
-jobs:
-  build-and-deploy:
-    runs-on: macos-latest
-    steps:
-      - name: Output Run ID
-        run: echo ${{ github.run_id }}
-      - name: Output Run Number
-        run: echo ${{ github.run_number }}
-      - name: Output Run Attempt
-        run: echo ${{ github.run_attempt }}
-      - name: Output Build Cache Id
-        run: echo $BUILD_CACHE_ID
-
-      - name: Check out the repo
-        uses: actions/checkout@v1
-        with:
-          submodules: true
-
-      - name: Prepare Node 20
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-
-      - name: Install packages
-        run: yarn
-
-      - name: Install task runner
-        run: npm i -g gulp-cli@latest
-
-      - name: Build the site
-        run: npm run build
-
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
-        with:
-          publish-dir: 'dist'
-          production-deploy: true
-          deploy-message: Triggered from Github Actions by @${{ github.actor }}.
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+#name: 'Preview Site: Build and Deploy to Netlify'
+#
+#env:
+#  ARTIFACT_NAME: ${{ vars.ARTIFACT_NAME }}
+#  BUILD_CACHE_ID: tpp-${{ github.run_id }}-${{ github.run_number }}-${{ github.run_attempt }}
+#
+#on:
+#  push:
+#    branches: [ 'develop' ]
+#    paths: ['pulter-site/**', 'pulter-poems/**']
+#
+#jobs:
+#  build-and-deploy:
+#    runs-on: macos-latest
+#    steps:
+#      - name: Output Run ID
+#        run: echo ${{ github.run_id }}
+#      - name: Output Run Number
+#        run: echo ${{ github.run_number }}
+#      - name: Output Run Attempt
+#        run: echo ${{ github.run_attempt }}
+#      - name: Output Build Cache Id
+#        run: echo $BUILD_CACHE_ID
+#
+#      - name: Check out the repo
+#        uses: actions/checkout@v1
+#        with:
+#          submodules: true
+#
+#      - name: Prepare Node 20
+#        uses: actions/setup-node@v3
+#        with:
+#          node-version: '20.x'
+#
+#      - name: Install packages
+#        run: yarn
+#
+#      - name: Install task runner
+#        run: npm i -g gulp-cli@latest
+#
+#      - name: Build the site
+#        run: npm run build
+#
+#      - name: Deploy to Netlify
+#        uses: nwtgck/actions-netlify@v1.2
+#        with:
+#          publish-dir: 'dist'
+#          production-deploy: true
+#          deploy-message: Triggered from Github Actions by @${{ github.actor }}.
+#        env:
+#          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+#          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+#        timeout-minutes: 1
