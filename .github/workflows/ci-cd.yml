@@ -45,7 +45,7 @@ jobs:
         uses: actions/cache/save@v3
         with:
           path: dist
-          key: $BUILD_CACHE_ID
+          key: ${{ env.$BUILD_CACHE_ID }}
 
   DeployToDev:
     name: Deploy to Development
@@ -60,7 +60,7 @@ jobs:
         uses: actions/cache/restore@v3
         with:
           path: dist
-          key: $BUILD_CACHE_ID
+          key: ${{ env.$BUILD_CACHE_ID }}
 
       - name: Show contents
         run: ls -R
