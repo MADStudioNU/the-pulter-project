@@ -83,13 +83,13 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Staging
-      url: //mads-static-sites-staging-pulterproject-staging.s3-website.us-east-2.amazonaws.com/
+      url: http://mads-static-sites-staging-pulterproject-staging.s3-website.us-east-2.amazonaws.com/
     steps:
       - name: Import Secrets
         uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          role: MADS-S3-pulterproject-staging
+          role: MADS-S3-pulterproject-dev
           path: jwt-github
           method: jwt
           secrets: |
