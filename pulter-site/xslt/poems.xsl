@@ -5063,9 +5063,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Bruce Boehrer</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Bruce Boehrer</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>mythology</pp:keyword>
@@ -5082,13 +5082,13 @@
         <pp:tag>sin</pp:tag>
         <pp:tag>soul</pp:tag>
       </pp:tags>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="swine-and-ermine">-->
-<!--          <pp:author>Bruce Boehrer</pp:author>-->
-<!--          <pp:title>Swine and Ermine</pp:title>-->
-<!--          <pp:peek>Like many other non-human animals, the swine and the ermine became subject from classical times onward to a range of moral and didactic appropriations in both literary and visual media.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="swine-and-ermine">
+          <pp:author>Bruce Boehrer</pp:author>
+          <pp:title>Swine and Ermine</pp:title>
+          <pp:peek>Like many other non-human animals, the swine and the ermine became subject from classical times onward to a range of moral and didactic appropriations in both literary and visual media.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="96">
       <pp:title>Old Aeschylus (Emblem 31)</pp:title>
