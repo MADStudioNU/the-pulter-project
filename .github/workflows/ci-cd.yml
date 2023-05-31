@@ -62,9 +62,6 @@ jobs:
           path: dist
           key: ${{ env.BUILD_CACHE_ID }}
 
-      - name: Show contents
-        run: ls -R
-
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:
@@ -95,6 +92,13 @@ jobs:
           secrets: |
             platforms-kvv2/data/secrets/MADS-S3/pulterproject-staging access_key | AWS_ACCESS_KEY_ID ;
             platforms-kvv2/data/secrets/MADS-S3/pulterproject-staging secret_key | AWS_SECRET_ACCESS_KEY ;
+
+      - name: Restore cached build
+        uses: actions/cache/restore@v3
+        with:
+          path: dist
+          key: ${{ env.BUILD_CACHE_ID }}
+
       - name: Deploy to S3
         run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
         env:
@@ -122,6 +126,13 @@ jobs:
           secrets: |
             platforms-kvv2/data/secrets/MADS-S3/pulterproject-production access_key | AWS_ACCESS_KEY_ID ;
             platforms-kvv2/data/secrets/MADS-S3/pulterproject-production secret_key | AWS_SECRET_ACCESS_KEY ;
+
+      - name: Restore cached build
+        uses: actions/cache/restore@v3
+        with:
+          path: dist
+          key: ${{ env.BUILD_CACHE_ID }}
+
       - name: Deploy to S3
         run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
         env:
