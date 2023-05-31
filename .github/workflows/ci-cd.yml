@@ -89,7 +89,7 @@ jobs:
         uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          role: MADS-S3-pulterproject-dev
+          role: MADS-S3-pulterproject-staging
           path: jwt-github
           method: jwt
           secrets: |
@@ -116,7 +116,7 @@ jobs:
         uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          role: MADS-S3-dev
+          role: MADS-S3-pulterproject-prod
           path: jwt-github
           method: jwt
           secrets: |
