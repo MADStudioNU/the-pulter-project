@@ -100,9 +100,6 @@ jobs:
             platforms-kvv2/data/secrets/MADS-S3/pulterproject-staging access_key | AWS_ACCESS_KEY_ID ;
             platforms-kvv2/data/secrets/MADS-S3/pulterproject-staging secret_key | AWS_SECRET_ACCESS_KEY ;
 
-      - name: Check credentials configuration
-        run: aws configure list
-
       - name: Deploy to S3
         run: aws s3 sync dist/ s3://$BUCKET_NAME --delete
         env:
@@ -127,6 +124,7 @@ jobs:
           key: ${{ env.BUILD_CACHE_ID }}
 
       - name: Import Secrets
+        id: import-secrets
         uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
