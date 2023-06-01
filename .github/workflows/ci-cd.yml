@@ -1,7 +1,6 @@
 name: 'CI/CD'
 
 env:
-  ARTIFACT_NAME: ${{ vars.ARTIFACT_NAME }}
   BUILD_CACHE_ID: tpp-${{ github.run_id }}-${{ github.run_number }}-${{ github.run_attempt }}
 
 permissions:
@@ -80,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Staging
-      url: http://mads-static-sites-staging-pulterproject-staging.s3-website.us-east-2.amazonaws.com/
+      url: http://mads-static-sites-staging-pulterproject-staging.s3-website.us-east-2.amazonaws.com
     steps:
       - name: Restore cached build
         uses: actions/cache/restore@v3
@@ -115,7 +114,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Production
-      url: https://pulterproject.northwestern.edu/
+      url: https://pulterproject.northwestern.edu
     steps:
       - name: Restore cached build
         uses: actions/cache/restore@v3
