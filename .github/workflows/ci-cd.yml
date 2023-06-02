@@ -14,7 +14,6 @@ on:
   pull_request:
     branches: [ 'master' ]
     paths: [ 'pulter-site/**', 'pulter-poems/**' ]
-  workflow_dispatch:
 
 jobs:
   Build:
