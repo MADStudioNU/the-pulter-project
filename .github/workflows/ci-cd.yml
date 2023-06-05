@@ -126,7 +126,7 @@ jobs:
         uses: hashicorp/vault-action@v2.5.0
         with:
           url: https://vault.weinberg.northwestern.edu:443
-          role: MADS-S3-pulterproject-prod
+          role: MADS-S3-pulterproject-production
           path: jwt-github
           method: jwt
           secrets: |
