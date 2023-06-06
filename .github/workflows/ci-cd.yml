@@ -139,4 +139,4 @@ jobs:
           AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
           AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
           AWS_DEFAULT_REGION: us-east-2
-          BUCKET_NAME: "group-websites-prod-mads-pulterproject"
+          BUCKET_NAME: "mads-static-sites-prod-pulterproject-prod"
