@@ -29,7 +29,7 @@ You should have the following terminal commands available:
 * `gulp build` — builds a production version of the site and puts it in `/dist`.
 
 ### Development Preview Instance
-[![.github/workflows/preview-build-and-deploy.yml](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml/badge.svg?branch=develop)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/preview-build-and-deploy.yml)
+[![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
 
 Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push with changes withing these folders: `./pulter-poems` and `./pulter-site`. The commiter may choose to skip the build by including `[skip ci]` string in the commit message.
 
@@ -38,9 +38,9 @@ Or use this one-liner to deploy to Netlify manually: `npm run build; netlify dep
 ### Production Preview Instance
 [![Production Preview: Build and Deploy to S3](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/production-build-and-deploy.yml/badge.svg)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/production-build-and-deploy.yml)
 
-Branch `master` is automatically deployed to the [AWS S3 production preview site](http://mads-static-sites-dev-pulterproject-dev.s3-website.us-east-2.amazonaws.com).
+Branch `master` is automatically deployed to the [AWS S3 staging site](http://mads-static-sites-dev-pulterproject-dev.s3-website.us-east-2.amazonaws.com).
 
-Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) manually.
+Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon approval from @sergei-kalugin.
 
 ### Current Delta
 Poems that are published on the preview site but not on the production site:
