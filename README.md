@@ -48,7 +48,7 @@ Poems that are published on the preview site but not on the production site:
 > A118 (Smid), A090 (Sperrazza), A111 (Hand)
 
 Curations:
-> 
+> C111 “Picturing Rats...” (Hand)
 
 Explorations:
 > —
