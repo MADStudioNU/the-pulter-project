@@ -5772,6 +5772,13 @@
           <pp:author>Molly Hand</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="picturing-rats-and-mice-in-early-modern-english-culture">
+          <pp:author>Molly Hand</pp:author>
+          <pp:title>Picturing Rats and Mice in Early Modern English Culture</pp:title>
+          <pp:peek>Like her other emblematic poems, Pulter’s “The Bishop and the Rats” (Emblem 46) is a nude emblem; it lacks the <span class="it">pictura</span> that was a defining feature of many emblematic texts following Andrea Alciato’s foundational <span class="it">Emblematum Liber</span> (1531).</pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>tyranny</pp:keyword>
         <pp:keyword>punishment</pp:keyword>
