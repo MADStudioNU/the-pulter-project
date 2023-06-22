@@ -538,16 +538,26 @@
   <!-- Poem links -->
   <xsl:template match="tei:ref[@type = 'pp-poem-ref']">
     <xsl:variable name="referencedPoemID" select="./@corresp"/>
+    <xsl:variable name="referencedPoemEdition">
+      <xsl:choose>
+        <xsl:when test="./@target">
+          <xsl:value-of select="./@target"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="'ee'"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:element name="a">
       <xsl:attribute name="href">
-        <xsl:value-of select="concat('/poems/', $referencedPoemID)" />
+        <xsl:value-of select="concat('/poems/', $referencedPoemEdition, '/', $referencedPoemID)" />
       </xsl:attribute>
       <xsl:attribute name="title">
         <xsl:value-of select="concat('Go to Poem ', $referencedPoemID)" />
       </xsl:attribute>
-      <!--<xsl:attribute name="target">-->
-        <!--<xsl:value-of select="'_blank'"/>-->
-      <!--</xsl:attribute>-->
+<!--      <xsl:attribute name="target">-->
+<!--        <xsl:value-of select="'_blank'"/>-->
+<!--      </xsl:attribute>-->
       <xsl:attribute name="class">
         <xsl:value-of select="'pp-poem-ref'"/>
       </xsl:attribute>
