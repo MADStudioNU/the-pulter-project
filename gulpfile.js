@@ -18,6 +18,7 @@ const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl'
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
+const SINGLE_POEM_TRANSFORMATION_FLAG = 'single';
 
 const appendPrepend = require('gulp-append-prepend');
 const gulp = require('gulp');
@@ -37,6 +38,7 @@ const source = require('vinyl-source-stream');
 const childProcess = require('child_process');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
+const argv = require('yargs').argv;
 
 const vendorScripts = [
   'node_modules/jquery/dist/jquery.min.js',
@@ -545,9 +547,15 @@ gulp.task('xslt:poems:ee',
   gulp.series('getManifest', function () {
     console.log('Hi! EE Publisher is here!');
     const poemsInManifest = _manifest;
-    console.log('Poems in the manifest: ' + poemsInManifest.length + '.');
+    const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
+    const sourceExpression=
+      (
+        singlePoemFlag !== undefined &&
+        singlePoemFlag !== true
+      ) ?
+        singlePoemFlag : 'pulter_*.xml';
 
-    return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
+    return gulp.src(XML_SOURCES_FOLDER + sourceExpression)
       .pipe(flatMap(function (stream, xmlFile) {
         console.log('|');
 
@@ -611,8 +619,15 @@ gulp.task('xslt:poems:ae',
   gulp.series('getManifest', function () {
     console.log('Hi! AE Publisher is here!');
     const poemsInManifest = _manifest;
+    const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
+    const sourceExpression=
+      (
+        singlePoemFlag !== undefined &&
+        singlePoemFlag !== true
+      ) ?
+        singlePoemFlag : 'pulter_*.xml';
 
-    return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
+    return gulp.src(XML_SOURCES_FOLDER + sourceExpression)
       .pipe(flatMap(function (stream, xmlFile) {
         console.log('|');
 
@@ -669,8 +684,15 @@ gulp.task('xslt:poems:vm',
   gulp.series('getManifest', function () {
     console.log('Hi! VM Publisher is here!');
     const poemsInManifest = _manifest;
+    const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
+    const sourceExpression=
+      (
+        singlePoemFlag !== undefined &&
+        singlePoemFlag !== true
+      ) ?
+        singlePoemFlag : 'pulter_*.xml';
 
-    return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
+    return gulp.src(XML_SOURCES_FOLDER + sourceExpression)
       .pipe(flatMap(function (stream, xmlFile) {
         console.log('|');
 
