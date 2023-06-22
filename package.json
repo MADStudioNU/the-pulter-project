@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.16.28",
+  "version": "1.16.29",
   "description": "",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -37,7 +37,8 @@
     "path": "^0.12.7",
     "postinstall-postinstall": "^2.1.0",
     "sass": "^1.62.1",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "^17.7.2"
   },
   "scripts": {
     "build": "gulp build",
