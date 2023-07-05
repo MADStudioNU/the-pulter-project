@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Nikolina Hatton</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -135,7 +135,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Untitled]</rdg>
             <rdg wit="#ee">My Soul, Why Art Thou Full of Trouble?</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">[Untitled]</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -144,7 +144,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">In order to provide another perspective on Pulter’s poem and situate it within the period, the original spelling and–perhaps more significantly–punctuation has been preserved in this edition. Despite the fact that early modern spelling, punctuation and capitalization rules were non-standardized in the period, Stefan Christian (2012: 82) notes that Pulter’s punctuation was probably chosen by a scribe in consultation with the poet.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -152,7 +152,12 @@
             <note type="headnote">How do you comfort a troubled soul? Here, the answer rests in the promise of a future radical change, in metamorphosis as both a religious and poetic principle. While in neighboring poems, the speaker urges the soul to be patient until the glories of the afterlife, or to freely let go of its earthly body, here she offers reassurance that habitation on earth is merely temporary. The consolation offered is superficially cast in terms of a standard Christian duality of body versus soul. But, in fact, Pulter complicates the matter by warning the soul that its “mortal nature” will corrode to ashes and disintegrate to the fundamental Aristotelian elements. The body and soul emerge less as distinctive entities than fungible elements making up a being. This disruption of Christian orthodoxy continues when the speaker conditionally credits the Pythagorean theory that the soul transmigrates at death into the body of another creature. If Pythagoras is right, she reassures her anxious soul, it surely will evolve into a lamb or dove (Christian icons) rather than a lowly toad. Although the poem ends with the comforting finale in which the soul is swallowed into heaven with amnesia about its earthly existence, the core principle celebrated by the poem is the vitality of transmutation, registered in the poem’s content, in its uncertain shifts between first-and second-person address (which confuse soul and body), and in its formal rhyme words: “Then whether dissolution, / Or transmigration, / Or rolling revolution, / All ends in thy salvation.” The final twist is Pulter’s decision to write in what was known as “common measure,” a popular ballad form of writing. The move away from rhymed couplets to quatrains of alternating tetrameter and trimeter performs Pulter’s investment in revolutions of form.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+              <p>In this poem, the speaker addresses her own soul and, in so doing, engages with a number of devotional and poetic traditions without letting those traditions confine her. On the one hand, her poem can be read in relation to the body and soul dialogue poem, a tradition rooted in medieval literature but still popular in the seventeenth century, as attested by Anne Bradstreet’s “The Flesh and the Spirit” and Andrew Marvell’s “A Dialogue Between the Soul and the Body.” Alternatively, her poem could also be read within the devotional tradition of the apostrophe to the soul and be compared to Shakespeare’s Sonnet 146, which begins, “Poor soul, the centre of my sinful earth.”<seg>1<note type="gloss"><bibl>William Shakespeare, Sonnet 146. Poetryfoundation.org, l. 1.</bibl></note></seg> Line 15 likely points to John Donne’s famous apostrophe to death in his holy sonnet “Death be not proud”: “One short sleep past, we wake eternally, / And Death shall be no more; Death, thou shalt die.”<seg>2<note type="gloss"><bibl>John Donne, Holy Sonnet 10, “Death, be not proud.” Luminarium.org, ll. 13–14.</bibl></note></seg> These somewhat diverse devotional traditions share underlying assumptions about the body/soul dichotomy and the need to vocally and actively repent. Such poems frequently use imagery of violence to articulate the soul’s need to be brought back into submission to God.<seg>3<note type="gloss"><bibl>Nikolina Hatton, Curation <ref type="pp-curations-ref" target="#ctxs">Metaphors of Violence in Devotional Poetry</ref>. </bibl></note></seg> This devotional poetic tradition often, as Abe Davies has pointed out, functions as a means of disciplining the speaker and the reader.<seg>4<note type="gloss"><bibl>See Abe Davies, <title rend="italic">Imagining the Soul in Premodern Literature</title> (Cham: Palgrave Macmillan, 2021), pp. 121–162.</bibl></note></seg> Pulter’s use of the apostrophe to the soul in this and other poems (<ref type="pp-poem-ref" corresp="28">O, My Afflicted Solitary Soul</ref>, <ref type="pp-poem-ref" corresp="39">The Perfection of Patience and Knowledge</ref>, <ref type="pp-poem-ref" corresp="47">Why Art Thou Sad at the Approach of Night</ref>) intervenes in this tradition of addressing the soul and offers an alternative approach: instead of admonishing the soul (or body) to repentance, she uses the devotional form to provide comfort and consolation to her soul as she meditates on the promise of the resurrection.</p>
+              <p>The speaker’s consolatory tone and poetic stance in this poem bear similarities to her tone in another subset of her poems that are modeled on the biblical psalms, such as <ref type="pp-poem-ref" corresp="18">The Desire</ref> and <ref type="pp-poem-ref" corresp="24">How Long Shall My Dejected Soul</ref>.<seg>5<note type="gloss"><bibl>See Hatton, Nikolina, <ref target="https://doi.org/10.1111/rest.12821" type="new-window-url">Hester Pulter’s Psalmic Poems</ref>,” <title rend="italic">Renaissance Studies</title> 37, no. 3 (2023): pp. 364–83.</bibl></note></seg> Although not addressed to God, this poem itself has a number of features that align it with the psalms, not the least of which is her opening (ll. 1-2) which bears a striking similarity to Ps. 43: 5: “Why art thou cast downe, O my soule? and why art thou disquieted within me?”<seg>6<note type="gloss"><bibl>Psalms 43:5. <title rend="italic">The Holy Bible</title>, Authorized Version, (London, 1611). EEBO.</bibl> This is a refrain that echoes similar verses in Psalms 42:5 and 11. For the sake of simplicity, I have chosen to focus on only one. See also Nikolina Hatton, Curation <ref type="pp-curations-ref" target="#ctxs">Pulter’s Psalmic Intertexts</ref>.</note></seg> Additionally, the poem’s meter, quatrains of alternating tetrameter and trimeter, rhyming <hi rend="italic">abab</hi>, link it with <title rend="italic">The Whole Book of Psalms</title>, i.e., the “Sternhold and Hopkins” metrical psalter, a psalter often used in English church services for singing psalms to popular tunes in the sixteenth and seventeenth centuries.<seg>7<note type="gloss"><bibl>Beth Quitslund, “The Psalm Book” in <title rend="italic">The Elizabethan Top Ten: Defining Print Popularity in Early Modern England</title>, eds. Andy Kesson and Emma Smith (Farnham: Ashgate, 2013), pp. 203–11.</bibl></note></seg> Poem 40 is the only instance in her manuscript in which she turns to this ‘common meter.’ But here too, as with her consolatory apostrophe to the soul, the speaker destabilizes the expectations of her reader.</p>
+              <p>The first four stanzas contain references to the psalms and Donne, and the poem continues to the end in a rough version of this popular meter, but Pulter’s content engages with more heterodox ideas about the body and soul than these formal allusions suggest. In castigating the world in these opening stanzas, Pulter at first seems to be endorsing a material/spiritual dichotomy in which the soul must first endure a “terrene” (l. 9) existence before being liberated to heaven, but the poem also presents alternatives to this view. In line 13, she points to the soul’s “Mortall Nature,” potentially signaling an unorthodox belief that the soul dies with the body.<seg>8<note type="gloss">See Kenneth Graham’s Curation <ref type="pp-curation-ref" target="/poems/ee/aurora-2/#christian-mortalism">Christian Mortalism from the Bible to Pulter</ref>.</note></seg> In stanzas five through seven, she continues this heterodox exploration by discussing a number of theories of the afterlife that have their sources outside the Christian tradition. From the impersonal yet oddly gendered “black Oblivion’s womb” in line 20 to references to Empedoclean physics (ll. 21–22) or even Pythagorian reincarnation (ll. 25­–28), the speaker never settles on one solution. Perhaps these ideas allow the poet to imagine alternatives to the body/soul/self problem with which so much Christian devotional poetry is plagued, as attested by the subtle shift in pronouns from “thou” to “I,” beginning in line 23.<seg>9<note type="gloss">For more on the body/soul problem, see Liza Blake’s Curation <ref type="pp-curation-ref" target="/poems/ee/the-perfection-of-patience-and-knowledge/#body-soul-dust">Body, Soul, Dust</ref>.</note></seg> Pulter’s use of conjunctions further hints at her attitude toward all these possibilities. Her reiteration of “or” suggests her openness to other heterodox possibilities, while “whether” and “if” are always followed by assurances that even should these theories be true, she is assured of Christian resurrection: “All ends in thy Salvation” (l. 32). Establishing this belief early on (see ll. 7–8) and reiterating it throughout provides a firm foundation from which she can contemplate less traditional understandings of the body and soul without anxiety.</p>
+              <p>In the last three stanzas, the poem looks to a future—with a reiteration of “then” (ll. 29, 33, 37)—in which Pulter’s pain will have been erased. Here, the speaker returns to a mode recognizable in the biblical psalms, one that is consolatory, even elegiac, an attempt to offer her soul comfort in its distress. Both Psalms 42 and 43 end on such a note, with the speaker imagining a future state of thanksgiving. Rather than thematizing penitence, both of these psalms are more concerned with the speaker lamenting the lack of justice in her situation and articulating a longing to be returned to a state of community. In fact, Pulter’s entire poem may be an expanded meditation on Ps. 43:5, the second part of which continues: “hope in God, for I shall yet praise him, who is the health of my countenance, and my God.” Similarly to the biblical psalmist in this verse, the poet opens her poem with an apostrophe to the soul, asking why she despairs, writes an extended meditation on her hope of resurrection (whatever form it takes) and finishes with an expression of faith in future joy in these final stanzas. This latter upward movement towards imagining future hope, although arguably inspired by the psalms, is another hallmark of devotional poetry, particularly that of the poems of George Herbert, once again signaling Pulter’s knowledge of and engagement with the devotional form.<seg>10<note type="gloss"><bibl>See Ross, Sarah C. E., “<ref target="https://doi.org/10.1353/jem.2020.0011" type="new-window-url">Hester Pulter’s Devotional Complaints: ‘Then Will I Hallelujahs Ever Sing’</ref>” in Journal for Early Modern Cultural Studies 20, no. 2 (2020): pp. 99–119.</bibl></note></seg></p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -173,28 +178,28 @@
         <app>
             <rdg wit="#ft">My Soul! why art though full of trouble?</rdg>
             <rdg wit="#ee">My soul, why art thou full of trouble</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">My soul! why art thou full of trouble?</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">And overwhelm’d with griefe:</rdg>
             <rdg wit="#ee">And overwhelmed with grief?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>And overwhelm’d with griefe:<note type="gloss">Along with l. 1, see Ps. 43:5.</note></seg></rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Dost thou not know this <seg>World<del>’</del>s<note type="physical">imperfectly erased apostrophe between the “d” and “s”</note></seg> a bubble?</rdg>
             <rdg wit="#ee">Dost thou not know this world’s a bubble</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Dost thou not know this Worlds a <seg>bubble<note type="critical">Punning on both figurative (fragile and transitory) and literal meanings (earth’s hemisphere as a gas-filled cavity), see Francis Bacon’s <title rend="italic">Sylva Sylvarum</title>. Possible literary reference to Bacon’s “The life of man”: “The World’s a bubble, and the life of man / Less than a span, / In his conception wretched, from the womb, / So to the tomb;” (<bibl>ll. 1–4 in <title rend="italic">Sixteenth Century Verse</title>. Ed. Emrys Jones. Oxford, 1991, p. 697</bibl>).</note></seg>?</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">And cannot Yield Relief.</rdg>
             <rdg wit="#ee">And cannot yield relief?</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And cannot Yield relief.</rdg>
         </app>
       </l>
       </lg>
@@ -203,28 +208,28 @@
         <app>
             <rdg wit="#ft">This life’s a Dream, of Mirth, or Sorrow;</rdg>
             <rdg wit="#ee">This life’s a dream of mirth or sorrow</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This life’s a Dream, of Mirth, or Sorrow;</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Inveloped in Night:</rdg>
             <rdg wit="#ee">Envelopéd in night;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Inveloped<note type="gloss">Enveloped</note></seg> in Night:</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">The Resurrection’s like the Morrow,</rdg>
             <rdg wit="#ee">The <seg>Resurrection’s<note type="gloss">in Christianity, the rising to life of all dead people at the Last Judgment, the time when souls rejoin bodies</note></seg> like the morrow,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The Resurrection’s like the <seg>Morrow<note type="gloss">Tomorrow</note></seg>,</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">As full of Life as Light.</rdg>
             <rdg wit="#ee">As full of life as light.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">As full of Life as <seg>Light<note type="critical"> See Ps. 30:5: “weeping may endure for a night, but ioy commeth in the morning.”</note></seg>.</rdg>
         </app>
       </l>
     </lg>
@@ -233,28 +238,28 @@
         <app>
             <rdg wit="#ft">Then Sleight theſe Terren hopes, as toyes;</rdg>
             <rdg wit="#ee">Then slight these <seg>terrene<note type="gloss">earthly</note></seg> hopes, as <seg>toys<note type="gloss">trivial things</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then sleight these <seg>Terren<note type="gloss">Earthly</note></seg> hopes, as <seg>toyes<note type="gloss">Something trivial, having little value; but also used to refer specifically to speech, writing or songs</note></seg>;</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Think thou of better things:</rdg>
             <rdg wit="#ee">Think thou of better things.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Think thou of better things:</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">&ff;rom all her Pleaſures, and her Joyes,</rdg>
             <rdg wit="#ee">From all <seg>her<note type="gloss">the Earth’s</note></seg> pleasures and her joys,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">From all her Pleasures, and her Joyes,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Nought but Repentance <seg>ſprings<note type="physical">“ſ” possibly added later; “p” written over imperfectly erased letter with ascender</note></seg>.</rdg>
             <rdg wit="#ee">Nought but repentance springs.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Naught but repentance springs.</rdg>
         </app>
       </l>
       </lg>
@@ -262,28 +267,28 @@
         <app>
             <rdg wit="#ft"><seg><hi rend="overline">Thy</hi><note type="physical">horizontal line above; this line is not separated by a gap from the line above</note></seg> Mortall Nature nere deplore,</rdg>
             <rdg wit="#ee">Thy mortal nature ne’er deplore,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thy Mortall Nature ne’re deplore,</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Let Death work all her Spight:</rdg>
             <rdg wit="#ee">Let Death work all her spite;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Let Death work all her spight:</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">&ff;or thou shalt live, when Deaths noe more</rdg>
             <rdg wit="#ee">For thou shalt live, when Death’s no more,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For thou shalt live, when <seg>Deaths noe more<note type="gloss">A reference to John Donne’s Holy Sonnet X “Death, Be Not Proud”; see also Hosea 13:14</note></seg></rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">In everlasting Light.</rdg>
             <rdg wit="#ee">In <seg>everlasting light<note type="gloss">Heaven</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In everlasting Light.</rdg>
         </app>
       </l>
       </lg>
@@ -291,28 +296,28 @@
         <app>
             <rdg wit="#ft">What though thou into Aſhes turn,</rdg>
             <rdg wit="#ee">What, though thou into ashes turn,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">What though thou into Ashes turn,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Thy Dust will find A Tomb:</rdg>
             <rdg wit="#ee">Thy dust will find a tomb</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Thy Dust will find A Tomb:</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Within Some (ſafe and) Silent Urn:</rdg>
             <rdg wit="#ee">Within some safe and silent urn</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Within some (safe and) silent Urn:</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">In black Oblivians Womb.</rdg>
             <rdg wit="#ee">In black Oblivion’s womb.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">In black Oblivians Womb.</rdg>
         </app>
       </l>
       </lg>
@@ -336,140 +341,140 @@
         <app>
             <rdg wit="#ft">Whether thou, Water, dos’t increaſe,</rdg>
             <rdg wit="#ee">Whether thou water dost increase,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Whether thou, Water, dost increase,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Or &ff;ier, or Ayer, or Earth:</rdg>
             <rdg wit="#ee">Or <seg>fire, or air, or earth<note type="critical">in classical tradition, the four constitutive elements of the world and body; here Pulter understands her own death as contributing to the expansion and imbalance of one of these elements</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Or Fier, or Ayer, or Earth:<note type="gloss">Water, Fire, Air and Earth are the four classical elements of Empedoclean physics.</note></seg></rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Yet am I Sure, to Rest in Peace;</rdg>
             <rdg wit="#ee">Yet am I sure to rest in peace;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet am I sure to rest in Peace;</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">My Soul aſſumes her Birth.</rdg>
             <rdg wit="#ee">My soul <seg>assumes<note type="gloss">adopts; receives; takes upon oneself; puts on (a garb, aspect, form, or character)</note></seg> her birth.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">My soul assumes her Birth.</rdg>
         </app>
       </l></lg>
       <lg n="7" type="stanza"><l n="25">
         <app>
             <rdg wit="#ft">And if Pythagoras Saw Clear,</rdg>
             <rdg wit="#ee">And if <seg>Pythagoras<note type="gloss">Greek philosopher known for his theory of the transmigration of souls at death (the word “transmigration” appears in the next stanza). In this theory, souls could transfer across life forms, from human to animal. Pulter assures her soul that it will not take the low form of a frog, even if Pythagoras is right in principle about transmigration.</note></seg> saw clear,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And if Pythagoras saw Clear,</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Of this thou mayest Reſolve;</rdg>
             <rdg wit="#ee">Of this thou mayest resolve:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Of this thou Mayest resolve;</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Som Lamb, or Dove, then to apear,</rdg>
             <rdg wit="#ee">Some lamb, or dove, then to appear,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Som <seg>Lamb, or Dove<note type="gloss"> Animals that symbolize purity and peace in Judeo-Christian imagery</note></seg> then to apear,</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Noe Toad Shall thee Involve:</rdg>
             <rdg wit="#ee">No toad shall thee <seg>involve<note type="gloss">entangle, envelop</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Noe <seg>Toad<note type="gloss">Since the 16th century, symbolizing something loathsome</note></seg> shall thee Involve:</rdg>
         </app>
       </l></lg>
       <lg n="8" type="stanza"><l n="29">
         <app>
             <rdg wit="#ft">Then whether Diſſolution,</rdg>
             <rdg wit="#ee">Then whether <seg>dissolution<note type="critical">For the meter to be consistent in the first three lines of this stanza, the word “dissolution” as well as “transmigration,” and “revolution” (in the next lines) may have been pronounced each with five syllables (“tion” stretching into two syllables in each).</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Then whether Dissolution,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Or Tranſmigration:</rdg>
             <rdg wit="#ee">Or transmigration,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or <seg>Transmigration<note type="gloss">May refer simply to the transition from life to death, but can also refer to the transmigration of the soul or metempsychosis, in which the soul passes into a different body.</note></seg>:</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Or rowling Revolution,</rdg>
             <rdg wit="#ee">Or rolling revolution,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or <seg>rowling Revolution<note type="gloss">Compare to <ref type="pp-poem-ref" corresp="16">The Revolution</ref> and <ref type="pp-poem-ref" corresp="47">Why Art Thou Sad at the Approach of Night</ref>.</note></seg>,</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">All ends in thy Salvation.</rdg>
             <rdg wit="#ee">All ends in thy salvation.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">All ends in thy salvation.</rdg>
         </app>
       </l></lg>
       <lg n="9" type="stanza"><l n="33">
         <app>
             <rdg wit="#ft">Nothing Shall then aflict my Soul,</rdg>
             <rdg wit="#ee">Nothing shall then afflict my soul</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Nothing shall then aflict my soul,</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">That paſſeth here below:</rdg>
             <rdg wit="#ee">That passeth here below;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">That passeth here below:</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">&ff;or I above, (the Highest Pole</rdg>
             <rdg wit="#ee">For I above the highest <seg>pole<note type="gloss">point of reference in the sky around which stars appear to revolve, or the point at which the earth’s axis meets heavens (derived from Ptolemy)</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">For I above, (the Highest Pole</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">Or Star) er’e long shall Goe.</rdg>
             <rdg wit="#ee">Or star <seg>ere<note type="gloss">before</note></seg> long shall go.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or Star,) er’e long shall Goe.</rdg>
         </app>
       </l></lg>
       <lg n="10" type="stanza"><l n="37">
         <app>
             <rdg wit="#ft">fforget I Shall then my Sad Story,</rdg>
             <rdg wit="#ee">Forget I shall, then, my <seg>sad story<note type="gloss">life, narrative</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Forget I shall then my sad story,</rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">And all my past annoys:</rdg>
             <rdg wit="#ee">And all my past annoys</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And all my past annoys:</rdg>
         </app>
       </l>
       <l n="39">
         <app>
             <rdg wit="#ft">Shall Swallow’d bee of infinite Glory,</rdg>
             <rdg wit="#ee">Shall swallowed be <seg>of<note type="gloss">in</note></seg> infinite glory</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Shall swallow’d bee of infinite Glory,</rdg>
         </app>
       </l>
       <l n="40">
         <app>
             <rdg wit="#ft">And Crownd with endleſ Joys.</rdg>
             <rdg wit="#ee">And <seg>crowned<note type="critical">glorified, blessed; adorned with; rewarded. See Revelation 2:10: “Be thou faithful unto death, and I will give thee a crown of life.”</note></seg> with endless joys.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And Crownd with endles Joys.</rdg>
         </app>
       </l></lg>
         <app>
