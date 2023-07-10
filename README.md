@@ -45,10 +45,10 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 
 ### Current Delta
 Poems that are published on the preview site but not on the production site:
-> A118 (Smid), A040 (Hatton)
+> A040 (Hatton)
 
 Curations:
-> C111 “Picturing Rats...” (Hand), C040a (Hatton), C040b (Hatton)
+> C040a (Hatton), C040b (Hatton)
 
 Explorations:
 > —
