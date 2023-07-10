@@ -1139,9 +1139,19 @@
   <!-- PP Poem links -->
   <xsl:template match="tei:ref[@type = 'pp-poem-ref']">
     <xsl:variable name="referencedPoemID" select="./@corresp"/>
+    <xsl:variable name="referencedPoemEdition">
+      <xsl:choose>
+        <xsl:when test="./@target">
+          <xsl:value-of select="./@target"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="'ee'"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:element name="a">
       <xsl:attribute name="href">
-        <xsl:value-of select="concat('/poems/', $referencedPoemID)" />
+        <xsl:value-of select="concat('/poems/', $referencedPoemEdition, '/', $referencedPoemID)" />
       </xsl:attribute>
       <xsl:attribute name="title">
         <xsl:value-of select="concat('Go to Poem ', $referencedPoemID)" />
@@ -1641,6 +1651,12 @@
               <xsl:if test="$witnessName = 'Molly Hand'">
                 <xsl:value-of select="'Florida State University'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Thomas Ward'">
+                <xsl:value-of select="'United States Naval Academy'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Nikolina Hatton'">
+                <xsl:value-of select="'Ludwig-Maximilians-Universität München'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1700,6 +1716,12 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Molly Hand'">
                 <xsl:value-of select="'https://english.fsu.edu/faculty/molly-hand'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Thomas Ward'">
+                <xsl:value-of select="'https://usna.academia.edu/ThomasWard'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Nikolina Hatton'">
+                <xsl:value-of select="'https://www.anglistik.uni-muenchen.de/personen/wiss_ma/hatton/index.html'"/>
               </xsl:if>
             </xsl:variable>
 
