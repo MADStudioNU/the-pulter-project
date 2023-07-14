@@ -2366,6 +2366,18 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="metaphors-of-violence-in-devotional-poetry">
+          <pp:author>Nikolina Hatton</pp:author>
+          <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>
+          <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="pulters-psalmic-intertexts">
+          <pp:author>Nikolina Hatton</pp:author>
+          <pp:title>Pulter’s Psalmic Intertexts</pp:title>
+          <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
