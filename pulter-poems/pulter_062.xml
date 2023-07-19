@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Ruth Connoly</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -150,7 +150,7 @@
             </rdg>
             <rdg wit="#ee"><seg>On the Fall of That Grand Rebel the Earl of Essex’s Effigies in Harry the 7th’s Chapel in Westminster Abbey<note type="gloss">Robert Devereux, 3rd Earl of Essex (1591-1646), was a parliamentarian officer whose statue (or “effigy) in Henry VII’s chapel at Westminster Abbey was desecrated by Royalist political foes. “Essex His Effigies” is a possessive, “Essex’s Effigies.” This poem, written on pages later added (or “tipped in”) to the manuscript, is not in the main scribe’s hand nor is it in the secondary hand.</note></seg>
             </rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+            <rdg wit="#ae">On the Fall of that <seg>Grand Rebel the Earl of Essex<note type="gloss">See Headnote and the Curation <ref type="pp-curations-ref" target="#ctxs">Attitudes to Essex</ref>.</note></seg>’s <seg>Effigies<note type="gloss">likeness (of a person), created in any medium (<title rend="italic">OED</title>, n.). Here the life-size sculpture of a person placed on top of their tomb. Despite the spelling the noun is singular not plural.</note></seg> in <seg>Harry the 7<add place="above">th</add>’s Chapel<note type="gloss">Begun in 1503 by Henry VII, the Lady Chapel, at the east end of the Abbey, was where monarchs, including Henry, Mary I, Elizabeth I and James VI and I, were entombed.</note></seg> in <seg>Westminster Abbey<note type="gloss">Medieval London church closely associated with the monarchy both as the site of royal coronations since 1066 and as a ‘royal peculiar’, an institution under the direct authority of the monarch.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -159,7 +159,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+              <note type="editorialnote">The poem as transcribed is wholly unpunctuated except for parentheses around the interjection ‘ah me’ in line 2, a comma at the end of line 29, and a full stop after ‘dead’ in line 30. These marks have been retained in the transcription below. The copyist pays scrupulous attention to marking omitted letters with inverted commas and these have been retained where they are essential to the poem’s meter. I have regularised the poem’s extensive use of capitalization. Each line now begins with a capital letter and in the body of the poem only names and locations are capitalised. I have supplied all other punctuation, modernised the spelling and expanded forms such as ‘&amp;’ and ‘wth’. The modern punctuation is  introduced to mark the shifts in argument and to draw attention to tone. Full stops mark the conclusion of complete thoughts; the colon at line 10 introduces the application of the moral lesson of the preceding lines. The dashes enclosing lines 13-14 are intended to mark the distinction drawn between Chiron as an admirable hybrid human-animal and Dagon and Hammon as disturbing and dangerous ones. The exclamation mark at line 28 signals the high point of the speaker’s emotion has been reached. A diacritical mark has been added to ‘horned’ in line 24 to indicate that the second syllable should be emphasised.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -167,7 +167,53 @@
             <note type="headnote">Robert Devereux, the third Earl of Essex and subject of this poem, was the first leader of the Parliamentarian army at the inception of England’s civil wars; he was thus anathema to the royalist Pulter, who shows herself at her most fiercely partisan in this poem. She celebrates the destruction of Devereux’s memorial, which was first attacked in the 1640s and then removed altogether from its place of honor in Westminster Abbey after the restoration of the monarchy in 1660. Pulter emblematizes the multiple falls of both the statue and “this bold earl” in relation to other famous fallen figures, not least through some unsubtle allusions to Lucifer that construe the Parliamentarian rebels as not only traitors, but devil-worshippers.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+                <p>This is a topical poem, meaning a poem written in response to a specific notable or newsworthy event. The prompt for writing is the desecration of the funeral effigy of the Parliamentarian military leader, Robert Devereux, third Earl of Essex, in Westminster Abbey on November 26<add place="above">th</add>, 1646. The Biblical text preached at Essex’s funeral sermon was ‘Know yee not that there is a Prince, and a great man fallen this day in Israel?’ (2 Samuel 3:38) (Vines, Sig. B1v). Pulter’s poem returns repeatedly to images of those who blunder from great heights. She concludes her poem with an allusion to a fallen icon from the Book of Samuel that invites the reader to reach very different conclusions about Essex’s life and career.</p>
+                <p><hi rend="bold">Context</hi> Pulter’s poem on these events frames Parliament’s leaders as usurpers of the King’s position, something introduced by her title, which specifically locates the Earl’s effigy in <ref target="https://youtu.be/ALN5kwGkymQ?t=298" type="new-window-url">Henry VII’s chapel</ref>. This detail introduces the idea of a transgressive intrusion into the space of kings that informs the entire poem and drives the speaker’s sense of outrage. Essex becomes a human example of vice, his self-punishing presumption comparable to other mythological overreachers.</p>
+                <p>The poem’s strongest condemnation comes when the damage to Essex’s effigy is compared to that suffered by the statue of the god Dagon, when the Philistines placed the Ark of Yahweh before him in his temple at Ashdod. The superior power of the Ark and of Israel’s god was demonstrated by the mysterious decapitation of Dagon’s statue. By this analogy the damage to Essex’s effigy is a sign that Essex was set up by an idolatrous people as a false rival to a divinely anointed king.</p>
+                <p>Robert Devereux, third Earl of Essex (1591-1646), enjoyed genuine public popularity as a patriot who in the 1620s had served voluntarily with Protestant armies in Europe in defence of his co-religionists. Edward Hyde, Earl of Clarendon, said that in 1641 Essex was ‘the most popular person of the Kingdom’ (<bibl><title rend="italic">History of the Rebellion</title>, 1.345</bibl>). Pulter’s fiercely ‘anti-populist’ (Nevitt, p. 58) poem is hostile to the idea of the people as an authoritative political community and argues that it was this popular admiration that inflated Essex’s ambition. In the lead-up to the outbreak of civil war, Essex joined a highly influential group of members of both Houses of Parliament who drove the opposition to Charles. Parliament subsequently voted for him to become Captain General of its armies.</p>
+                <p>Charles I issued a royal proclamation on August 9 1642 entitled <title rend="italic">A proclamation for the suppressing of the present rebellion, under the command of Robert Earl of Essex</title>. In this document, a war between monarch and parliament became a rebellion led by a great lord against his king, undertaking ‘trayterous and rebellious designes’ under ‘pretence of authority of our two Houses of Parliament.’ The proclamation’s description of the Earl’s actions as ‘high treason’ must have recalled to at least some readers the third Earl’s father, also Robert Devereux, the second Earl of Essex, who was executed by Elizabeth I in 1601 for leading an abortive rebellion against her. Pulter alludes directly to the second Earl’s execution in the concluding lines of her poem, drawing a parallel between the father’s beheading and the decapitation of the son’s funeral effigy.</p>
+                <p>The Earl’s death in London from illness in September 1646 was marked by an elaborate and expensive state funeral on October 22, attended by every member of the London Parliament. The Earl’s body was buried in <ref target="https://www.westminster-abbey.org/abbey-commemorations/commemorations/robert-devereux-3rd-earl-of-essex" type="new-window-url">St John the Baptist’s chapel</ref> in Westminster Abbey but as part of the funeral arrangements, a statue or effigy of the Earl was created. A detailed description was published:</p>
+                <cit><quote>[On a hearse] was laid the Statu of the said Earl, having a paire of white Boots, scarlet breeches, a Buff coat (the same as he wore at Edge-hill fight) with his Parliament Robes, a Sword by his side, a Commanders staffe in his hand, and an Earles coronet on his head.</quote></cit>
+                <p>This effigy was carried by a pall drawn by six horses through the streets of London during the funeral procession and finally placed on a canopied hearse, modelled on that of James I, at the upper end of the Abbey. It was intended to lie there for another five weeks in order for the public to view it. However, an intruder or intruders attacked the effigy on November 26. A printed account informed its readership that ‘the head was pulled off and broken to peeces’ and the effigy’s coat, breeches and boots slit. The Earl’s Parliament robes were also thrown down but left undamaged, Most pointedly, the sword ‘was broken in 3 peeces, which was the same sword that he wore in the field.’ (<bibl><title rend="italic">The whole proceedings, unsigned [1v]</title></bibl>).</p>
+                <p>The attack on the effigy served as a symbolic beheading; the slitting of garments and the breaking of the sword as acts of posthumous humiliation. A man named John White, a farmer from Dorset, was eventually identified as the perpetrator, tracked down and imprisoned (Snow, p. 494). Parliament ordered the figure reclothed and placed in a glass case in Henry VII’s chapel where it remained until its removal at the order of Charles II in June 1661.</p>
+                <figure><graphic url="/images/poems/p62-1.jpg"/><figDesc>The interior of Henry VII’s chapel, the Lady Chapel, at Westminster Abbey. Used with permission. © Dean and Chapter of Westminster</figDesc></figure>
+                <p><hi rend="bold">Textual history</hi> This vitriolic tone is uncharacteristic of the majority of the poems preserved in Pulter’s manuscript and it was not included in the groups of poems copied into the manuscript in Pulter’s lifetime. Sarah Ross identifies the hand as that of Angel Chauncey, the rector of Cottered parish church between 1728 and 1762, and a cousin of Hester Pulter’s great-grandson, Pulter Forester (Eardley, p. 34, n. 122). The poem must therefore have been copied posthumously into the manuscript and, like some other poems in Angel Chauncey’s hand (‘Why must I thus forever be confined’ and ‘Made when my spirits were sunk very low’), may have survived in a loose sheet format.</p>
+                <p><hi rend="bold">Style and form</hi> The poem is written in regular pentameter couplets with the exception of three hypermetrical lines as the poem reaches its rhetorical climax at lines 26-28. The poem imagines Essex’s desecrated effigy and introduces a series of comparative examples drawn from classical sources. This practice suggests the influence of the emblem on the poem’s composition.</p>
+                <p>The emblem, a sixteenth-century genre, combined images and adages from moralised fables and biblical and classical episodes (see the curation <ref type="pp-curations-ref" target="#ctxs">Emblems of Phaeton and Icarus</ref>). The genre encouraged its readers to think analogically and to apply the lesson taught by the poem to their own context in order to guide them to more virtuous behaviour. Rachel Dunn has described how the genre in England had an ‘established relationship with the English monarchy’ (Dunn, p. 58). Pulter composed her own book of emblems and Essex may be the figure alluded to as the ‘fell tyrant of Newburgh’ (l. 15) in her emblem <ref type="pp-poem-ref" corresp="115">Phalaris and the Brazen Bull (Emblem 50)</ref>. Eardley notes that Pulter’s conclusions to those poems frequently offered political judgments on her own society rather than the more universalising moral typical of the genre. In this poem Pulter uses the affordances of the emblem, a genre closely associated with the monarchy, to compose a condemnation of someone who, as she saw it, presumed to make himself a kind of monarch.</p>
+                <p>Characteristically, the poem makes careful use of initial conjunctions to structure the progression of the argument. It uses repetition strategically to develop the emotional force of its claims. The opening twelve lines offer a concise summary of the Earl’s life and death, working through the trio of comparisons. The use of ‘So’ in line 11 heralds a shift in the argument that applies the moral lesson of these overreachers to the Earl’s life. A sequence describing the Earl’s worst actions in life, each line beginning ‘this’ (lines 13, 15, 16) introduces a sense of mounting outrage. Passages beginning ‘yet’ (21) and ‘but’ (29) proclaim the insult of his funeral and the justice of the desecration of his tomb in death. The final couplet offers the epigrammatic conclusion characteristic of the emblem, drawing Royalist readers into a mutual prayer for the fall of their enemies and the success of their king.</p>
+                <p><hi rend="italic">Sources</hi> Pulter makes three consecutive allusions to classical examples of presumption and over-ambition: Bellerophon, Phaeton and Icarus. Pulter typically  makes very pointed choices of exemplars in her poetry and close attention to their meanings reveals more about the lesson Pulter sought to teach in this poem. All three refer to figures who flew too close to the sun or tried to reach the heavens. Pulter is likely here to draw on the association habitually made between monarchs and the sun. The preacher Henry Valentine’s remark that ‘As a King is the soule, so also he is the Sun of the Common-wealth’ is one example of how this comparison was used (<bibl>Valentine, <title rend="italic">God Save the King</title>, 1639, sig. D1v</bibl>).</p>
+                <p>Pulter’s choice of Bellerophon striving to reach the gods in heaven gestures to an interpretation of royal sovereignty that proposes the unapproachability and godlike status of kings. Her allusion to Bellerophon relies on a specific tradition, surviving in a Latin text <title rend="italic">Astronomica</title>, a mythical history of the constellations written in the second century AD and later attributed to the Roman historian Gaius Julius Hyginus. Several sources state that Bellerophon attempted to fly to heaven on the winged horse Pegasus and angered the gods with his presumption. But Hyginus’s text makes the distinct claim that ‘as [Bellerophon] was attempting to fly to heaven, and had almost reached it, he became terrified looking down at the earth, and fell off [Pegasus] and was killed’ (<bibl>2.18, trans. Grant</bibl>). This claim is the basis of Pulter’s allusion. Bellerophon is typically accorded heroic status for his killing of the chimera but the account of his death was also used as an example of presumption: the Roman poet Horace in his <title rend="italic">Odes</title>, says that Bellerophon’s story ‘provides a weighty moral’ to ‘always strive for what is appropriate to yourself’ and as encouragement to think it ‘wrong to direct your hopes beyond what is permissible’ (<bibl><title rend="italic">Odes</title>, IV.11.XX</bibl>).</p>
+                <p>The story of Phaeton, who tried and failed to drive the chariot of the sun survives in multiple sources. Phaeton’s fatal attempt to emulate his father, the sun-god Helios who usually drove the chariot, invites analogy with Essex’s emulation of the high treason of his own parent. The habitual use of the sun as a symbol of the monarchy, adds an additional dimension to this choice of parallel.</p>
+                <p>Pulter may be thinking of the version recounted in <title rend="italic">Metamorphoses</title> as it describes how Phaeton looked down in fear:</p>
+                <cit><quote>But when the unhappy Phaëthon looked down from the top of heaven, and saw the lands lying far, far below, he grew pale, his knees trembled with sudden fear, and over his eyes came darkness through excess of light. (<bibl>Ovid, <title rend="italic">Meta</title>., 2.179-184</bibl>) </quote></cit>
+                <p>Phaeton was used as an example of being ‘proudly foolish’ in the work of Pulter’s contemporary, Anne Bradstreet (<bibl>‘An Elegy upon … Philip Sidney’, l. 109</bibl>), because his ambition made him overestimate his power to control the forces in his hands. By analogy, Essex unleashed political forces he was unable to control.  A failure to heed a paternal warning dooms Icarus whose story is taken from <title rend="italic">Metamorphoses</title>. Icarus was warned by his inventor father, Daedalus, not to fly too close to the sun as they escaped from the island of Crete using handmade wings of wax and feathers: ‘I warn you, Icarus, to fly in a middle course, lest, if you go too low, the water may weight your wings; if you go too high, the fire may burn them’ (8.203-05). But ‘the boy began to rejoice in his bold flight and, deserting his leader (<foreign rend="italic">deseruitque ducem</foreign>), led by a desire for the open sky, directed his course to a greater height.’ (8.223-225). This choice of a story of an undisciplined and impetuous youth who failed to heed his father’s lesson, deserted his ‘leader’, and then, as a result, fell to his death offers a bitter and partisan reading of Essex’s life.</p>
+                <p>These three comparisons are followed by three allusions: one to the centaur, Chiron, with whom the Earl is contrasted, and to the gods Hammon and Dagon. Both of Essex’s wives had highly publicised affairs and ‘cuckold’ was used as a derogatory term for a man with an unfaithful wife (see Curation: <ref type="pp-curations-ref" target="#ctxs">Attitudes to Essex</ref>). The cuckold was popularly portrayed as wearing horns and Pulter unites Essex with the horned god, Hammon (or Ammon), a god worshipped in North Africa across Lybia and Egypt and described by the later Roman writer Silius Italicus as ‘Ammon, the native god of Africa, whose brow bears curving horns’ (<bibl><title rend="italic">Punica</title>, 9.298</bibl>). Pulter’s other comparison is with Dagon, described in 1 Samuel, 5:1-8 as the chief god of the Philistines. Dagon was thought to be a seagod: Milton, in <title rend="italic">Paradise Lost</title>, describes him as ‘upward man / And downward fish’ (1.62-63).</p>
+                <p>Chiron is treated differently however. In Greek mythology Chiron was famed as a teacher and is described in the <title rend="italic">Iliad</title> as ‘the most just of the Centaurs’ (11.831). Although a hybrid animal-human in form, Chiron is distinguished from other centaurs whose animal bodies made them bestial in their appetites. He is represented as a more-than-human figure who exemplified the best qualities of animal and human. In this poem Pulter carefully separates him from those whose hybrid bodies reveal their degraded natures. The reference in the poem to ‘Alcides’ may be a scribal error for Achilles. Chiron is described in several sources as a tutor to many heroes and specifically of Achilles but Alcides (another name for Hercules) is not named as being tutored by Chiron.</p>
+                <p>Pulter’s allusions chart a comparison between those who worshipped Essex and non-European and non-Hebrew peoples, whereas Charles and his followers are distinguished from them and aligned with Ancient Greek narratives of horse-humans. There is perhaps an implicit defence here of the ultra-royalist military officers, popularly known as Cavaliers, whose association with horses was played on by hostile Parliamentarian writers to portray them as lecherous creatures of appetite (see Chalmers, 2017). The poem positions its other hybrids – Hammon, Dagon, Essex – as unsettling and incongruous combinations who break crucial category boundaries of god and animal and king and subject. All three, according to the poem, are failed or false gods.</p>
+                <listBibl><head>Works Cited</head>
+                <head>Primary Sources</head>
+                <bibl>Anon, <title rend="italic">The Whole Proceedings of the barbarous and inhumane demolishing of the Earle of Essex Tombe, on Thursday night last, November 26. 1646. with a Cronicle of the English Warres</title> (n.p.).</bibl>
+                <bibl>Edward Hyde, Earl of Clarendon, <title rend="italic">A History of the Rebellion and Civil Wars in England</title>, ed. William Dunn Macray. 6 vols. Oxford: Clarendon Press, 1888.</bibl>
+                <bibl>Amelia Grant, ed. and trans. <title rend="italic">The Myths of Hyginus</title>. Lawrence, KS: U of Kansas Press, 1960.</bibl>
+                <bibl>Homer. Iliad, <title rend="italic">Volume I: Books 1-12</title>. Translated by A. T. Murray. Revised by William F. Wyatt. Loeb Classical Library 170. Cambridge, MA: Harvard University Press, 1924.</bibl>
+                <bibl>Horace, <title rend="italic">Odes and Epodes</title>. Translated by Niall Rudd, Loeb Classical Library 33. Cambridge, MA.: Harvard University Press, 2004.</bibl>
+                <bibl>James I and VI, ‘A Speach to the Lords and Commons of Parliament at Whitehall, on Wednesday, the XXI of March, Anno 1609 [1610]’. <title rend="italic">The Works of the Most High and Mightie Prince, James</title> (London, 1616).</bibl>
+                <bibl>Ovid. <title rend="italic">Metamorphoses, Volume I: Books 1-8</title>. Translated by Frank Justus Miller. Revised by G. P. Goold. Loeb Classical Library 42. Cambridge, MA: Harvard University Press, 1916.</bibl>
+                <bibl>Ovid. <title rend="italic">Ouid's Metamorphosis Englished by G[eorge].S[andys]</title> (London: John Grismond, 1628).</bibl>
+                <bibl>Hester Pulter, <title rend="italic">Poems, Emblems and The Unfortunate Florinda</title>, ed. Alice Eardley. Toronto: Iter incorporating the centre for Reformation and Renaissance Studies, Victoria University in the University of Toronto, 2014.</bibl>
+                <bibl>Henry Valentine, <title rend="italic">God save the King. A Sermon preached in St Paul’s Church the 27th. of March. 1639. Being the day of his Maiesties most happy Inauguration, and of His Northerne Expedition</title> (London, 1639).</bibl>
+                <bibl>Richard Vines, <title rend="italic">The hearse of the renowned, the Right Honourable Robert Earle of Essex and Ewe</title>. London, 1646.</bibl></listBibl>
+                <listBibl><head>Secondary Sources</head>
+                <bibl>John Adamson, <title rend="italic">The Noble Revolt: The Overthrow of Charles I</title>. London: Weidenfeld &amp; Nicolson, 2007.</bibl>
+                <bibl>Alastair Bellany, <title rend="italic">The politics of court scandal in early modern England : news culture and the Overbury affair, 1603-1660</title>. Cambridge: Cambridge UP, 2002.</bibl>
+                <bibl>Hero Chalmers, ‘“But not laughing”: Horsemanship and the idea of the Cavalier in the Writings of William Cavendish, first Duke of Newcastle’, <title rend="italic">The Seventeenth Century</title>, 32:4 (2017): 327-349, DOI: 10.1080/0268117X.2017.1394113.</bibl>
+                <bibl>Rachel Dunn, ‘Breaking a Tradition: Hester Pulter and the English Emblem Book’, <title rend="italic">The Seventeenth Century</title>, 30.1 (2015): 55-73.</bibl>
+                <bibl>Marcus Nevitt, <title rend="italic">Women and the Pamphlet Culture of Revolutionary England</title>. Aldershot: Ashgate, 2006.</bibl>
+                <bibl>Vernon S. Snow, <title rend="italic">Essex the Rebel: The Life of Robert Devereux: the third Earl of Essex (1591-1646)</title>. Lincoln, Neb.,: U of Nebraska Press, 1970.</bibl>
+                <bibl>Dan Snow and David Cannadine, <ref target="https://www.youtube.com/watch?v=ALN5kwGkymQ?t=346s" type="new-window-url">“Exploring the Incredible Royal Tombs of Westminster Abbey.”</ref> Uploaded by History Hit. 16 May 2022.</bibl>
+                <bibl>Keith Thomas, <title rend="italic">Religion and the Decline of Magic</title>. London: Penguin, 1991.</bibl></listBibl>
+            </note>
           </rdg>
         </app>
       </head>
@@ -176,196 +222,196 @@
         <app>
             <rdg wit="#ft">When that Fierce Monster had uſurp’d the Place</rdg>
             <rdg wit="#ee">When that fierce <seg>monster<note type="gloss">a hydra, as later lines reveal, here referring to all parliamentarian forces who executed Charles I.</note></seg> had usurped the place</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">When that <seg>fierce monster<note type="gloss">Pulter’s term for the forces ranged against the king, principally those of the London and Scottish Parliaments and their armies. See <ref type="pp-poem-ref" corresp="2">The Invitation into the Country, 1647</ref>, line 4 and <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>, line 5 for her identification of this monster as the many-headed hydra.</note></seg> had <seg>usurped<note type="gloss">took wrongfully, by force or in some unjust way.</note></seg> the place</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft"><w lemma="which"><abbr>w<hi rend="superscript">ch</hi></abbr></w> once (ah mee) our Royall King did grace</rdg>
             <rdg wit="#ee">Which once (ah me!) our <seg>royal king<note type="gloss">Charles I</note></seg> did grace,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Which once (ah me!) our <seg>royal king<note type="gloss">Charles I (reigned 1625-1649). By this point, he had been at war with Parliament for four years. Both words are capitalised in the manuscript.</note></seg> did grace,</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">One of her Heads, on topp of Fortune’s Wheel</rdg>
             <rdg wit="#ee">One of her <seg>heads<note type="gloss">Essex’s</note></seg>, on top of Fortune’s wheel</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>One of her heads<note type="gloss">1) one of Parliament’s leaders; 2) one of the hydra’s heads.</note></seg>, on top of <seg>Fortune’s wheel<note type="gloss">A popular medieval image of the goddess Fortune. She was depicted turning a wheel, intended to represent the rapidity with which fortunes can change from prosperity to adversity.</note></seg>,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft"><w lemma="which"><abbr>w<hi rend="superscript">ch</hi></abbr></w> ever turns, grown giddy ’gan to reel</rdg>
             <rdg wit="#ee">Which ever turns, grown giddy, <seg>’gan<note type="gloss">began</note></seg> to <seg>reel<note type="gloss">sway unsteadily, totter</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>Which ever<note type="gloss">Which always.</note></seg> turns, grown giddy, ’gan to <seg>reel<note type="gloss">roll (downwards).</note></seg>,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Just like Bellerophon mounting to the Skie</rdg>
             <rdg wit="#ee">Just like <seg>Bellerophon<note type="gloss">mythological character who is punished by the gods after attempting to ride the winged horse Pegasus to get to the top of Mount Olympus.</note></seg> mounting to the sky,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Just like <seg>Bellerophon<note type="gloss">A hero of Greek myth who was humbled by Zeus for his presumption in seeking to fly as far as Mount Olympus on the back of the winged horse, Pegasus. He fell from Pegasus’ back and down to earth. See headnote for the most likely source of Pulter’s allusion.</note></seg> mounting to the sky</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">And looking down like him did brainſick die</rdg>
             <rdg wit="#ee">And, looking down, like him did brainsick die;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And, looking down, like him did <seg>brainsick<note type="gloss"><title rend="italic">OED</title> defines as diseased in mind, mad or foolish, but used here in a sense closer to the modern idea of vertigo.</note></seg> die;</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Or like that Boy who thro’ his fond deſire</rdg>
             <rdg wit="#ee">Or like that <seg>boy<note type="gloss">Phaeton, son of Helios, the sun god. He drove his father’s chariot across the sky for a day, but lost control and almost burned the entire Earth.</note></seg>, who through his fond desire</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or like <seg>that boy<note type="gloss">Phaeton. Son of the sun-god Helios, who persuaded his father to let him drive the chariot of the sun for a single day. He lost control of the horses and swung too close to the earth and burned it. Zeus struck him with a thunderbolt and he fell dead from the chariot. See Headnote: Sources for the origins of Pulter’s allusion.</note></seg>, who through his <seg>fond<note type="gloss">either foolish or (more strongly) deranged.</note></seg> desire</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">had almost ſett Heav’ns Axle-Tree on Fire</rdg>
             <rdg wit="#ee">Had almost set heaven’s <seg>axle-tree<note type="gloss">axis, the imaginary straight line about which a celestial body rotates; the prolongation of that of the earth on which the heavens appear to revolve</note></seg> on fire;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Had almost set <seg>Heav’n’s axle-tree<note type="gloss">the <foreign rend="italic">axis mundi</foreign>, also called the world tree or cosmic axis; in Greco-Roman astronomy, the imaginary line that forms the axis around which the planetary spheres rotate. The phrase is used in George Sandys’ translation of <title rend="italic">Metamorphoses</title> (1628): ‘he fear’d lest so much flame should catch the skie / And burne heauens Axeltree’ (Sig. B5r).</note></seg> on fire;</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Or like the Cretian youth who flew ſo high</rdg>
             <rdg wit="#ee">Or like the <seg>Cretan youth<note type="gloss">Icarus attempted to escape entrapment in a labyrinth by flying with wings made of feathers and wax, but when he flew too near the sun, his wings melted and he drowned in the sea.</note></seg> who flew too high,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Or like the <seg>Cretan youth<note type="gloss">Icarus, who flew too close to the sun. His story was interpreted as an allegory of impetuous over-ambition (see Headnote: Sources). The sun was commonly used as a symbol for a monarch.</note></seg> who flew so high,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">His borrow’d plumes began to ſindge &amp; Fry</rdg>
             <rdg wit="#ee">His borrowed <seg>plumes<note type="gloss">feathers</note></seg> began to singe and fry:</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">His <seg>borrowed plumes<note type="gloss">1. the pretentious assumption of a style belonging to another (<title rend="italic">OED</title>, plume, n, 2b), style meaning here another’s title or identity; 2. Icarus received his wings from his father Daedalus introducing the theme of a dangerous gift from father to son. See note to line 30 and Curation <ref type="pp-curations-ref" target="#ctxs">Emblems of Phaeton and Icarus</ref>. </note></seg> began to singe and fry:</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">ſo this Bold Earl blown up <w lemma="with"><abbr>w<hi rend="superscript">th</hi></abbr></w> Pop’lar brath</rdg>
             <rdg wit="#ee">So this bold earl blown up with pop’lar breath,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">So this bold earl blown up with <seg>pop’lar breath<note type="gloss">The voices of the people. The civil war gave much greater significance to the ‘people’ as an authoritative political community and many of the king’s opponents cited the liberties and interests of the people as the motivation for their actions. </note></seg>,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Unenvy’d &amp; unpitty’d fell to Earth</rdg>
             <rdg wit="#ee">Unenvied and unpitied fell to Earth.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Unenvied and unpitied fell to Earth.</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">This was the Man or rather the half Beast</rdg>
             <rdg wit="#ee">This was the man, or rather the half beast–</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This was the man, or rather the half beast –</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">not like Alcides’s Tutor who Exprest</rdg>
             <rdg wit="#ee">Not like <seg>Alcides’s tutor<note type="gloss">Alcides (or Hercules) had a centaur (half man and half horse) for a tutor named Chiron.</note></seg> who expressed</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Not like <seg>Alcides’ tutor<note type="gloss">The centaur Chiron, half-human, half-horse. He was however Achilles’ tutor (see headnote) and ‘Alcides’ is probably a scribal error for ‘Achilles’.</note></seg> who expressed</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Both Natures &amp; from both the best did Cull.</rdg>
             <rdg wit="#ee">Both natures, and from both the best did cull–</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Both natures and from both the best did cull –</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">This like Lybian Hammon had a horned Skull</rdg>
             <rdg wit="#ee">This, like Lybian <seg>Hammon<note type="critical">the Carthaginian god Ba’al Hammon was depicted as a bearded older man with curling ram’s horns. Alleging that Essex had horns suggests that he might be a cuckold (the husband of an adulterous wife) or a devil.</note></seg>, had a hornéd skull.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>This<note type="critical">Essex, recalling Ben Jonson’s habit in his poetry of using ‘it’ or ‘this’ as pronouns for people he considered contemptible.</note></seg>, like <seg>Lybian Hammon<note type="gloss">The god’s shrine and oracle was located in the Lybian desert, in the oasis of Siwah; Ovid calls him ‘Lybian Ammon’, who ‘even to this day is represented with curving horns’ (<title rend="italic">Metamorphoses</title>, 5.382). See also <ref type="pp-poem-ref" corresp="93">Vain Herostratus (Emblem 28)</ref>, line 31. ‘Lybian’ has two syllables: ‘Lib-yan’.</note></seg>, had a <seg>horned skull<note type="gloss">Several classical sources specify that Ammon was represented either as a ram or as a man wearing ram’s horns including Hyginus’s <title rend="italic">Astronomica</title> (2.20.3-4), a text probably known to Pulter (see Headnote: Sources).</note></seg>.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">This was the first who had the bold Commiſsion</rdg>
             <rdg wit="#ee"><seg>This was the first who had the bold commission<note type="gloss">In 1642, Parliament took the bold step of raising its own army, and it appointed Robert Devereux to lead the forces. Pulter conveys the revolutionary nature of this commission by describing its authorization, in the next line, as a “petition” shot from a cannon (rather than a legitimate deliberative charge).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">This was the first who had the bold <seg>commission<note type="gloss">1. the warrant and the authority to raise, equip and command regiments of soldiers, here issued to Essex by Parliament; 2. an order to undertake a task on behalf of the issuing authority (<title rend="italic">OED</title>, ‘commission’, n, 1b, 2c, 3).</note></seg></rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">from Cannon’s mouth to thunder out <seg>Petition<del>s</del><note type="physical">final “s” imperfeclty erased</note></seg></rdg>
             <rdg wit="#ee">From cannon’s mouth to thunder out petition;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">From cannon’s mouth to <seg>thunder out petitions<note type="gloss">alluding to the large number of mass petitions presented to Parliament in the early 1640s. These criticised the king and his principal ministers and demanded political reform. Essex goes one better by communicating his ‘petitions’ through artillery fire. </note></seg>;</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">The Copy came from Hell, thence ſuch thoughts Spring</rdg>
             <rdg wit="#ee">The <seg>copy<note type="gloss">copytext, original</note></seg> came from Hell, thence such thoughts spring</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">The <seg>copy<note type="gloss">1) The wording of the petitions; 2) the intention behind Essex’s and Parliament’s war against the king.</note></seg> came from Hell, thence such thoughts spring</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">with Sulph’rous breath to parly with their King</rdg>
             <rdg wit="#ee">With sulf’rous breath to <seg>parley with their king<note type="gloss">Essex led the parliamentary forces, hoping to bring about a “parley” (or negotiation) with Charles I.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">With <seg>sulf’rous breath<note type="critical">The voices (and opinions) of these petitions are black and stinking like sulphur, an element long associated with the fires of Hell. The image reiterates the contempt for popular opinion in line 11 and blends the black ink of the printing press with the sulphur of gunpowder.</note></seg> to <seg>parley<note type="gloss">to discuss terms (of a treaty).</note></seg> with their king.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Yett hee that ne’re gain’d Honour here on Earth</rdg>
             <rdg wit="#ee"><seg>Yet he that ne’er gained honor here on Earth,<note type="gloss">Essex did not receive public recognition until after his death, when he was monumentalized with a great show of mourning at Westminster Abbey, as the next three lines indicate.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Yet he that ne’er gained <seg>honour<note type="gloss">generally, reputation; the social esteem in which someone is held. Essex enjoyed great public popularity, but honour was also measured by an individual’s ability to uphold the conduct that their peer group expected of a person of their rank, gender and status. See Headnote: Context for public opinion of Essex and Curation <ref type="pp-curations-ref" target="#ctxs">Attitudes to Essex</ref> for his sensitivity to his honour.</note></seg> here on Earth,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">By Order they made triumph after Death</rdg>
             <rdg wit="#ee">By order <seg>they<note type="gloss">the people, parliamentarians</note></seg> made triumph after death,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>By order<note type="gloss">Parliament ordered a state funeral for Essex and that all members of both Houses of Parliament attend.</note></seg> they made <seg>triumph after death<note type="gloss">Essex’s funeral was conducted with enormous pomp and ceremony. A contemporary account reported over a thousand soldiers, citizens and aristocrats in the funeral procession accompanying the funeral hearse through London to Westminster Abbey.</note></seg>,</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">And in deriſion of our Ancient Kings</rdg>
             <rdg wit="#ee">And in derision of our ancient kings,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And in derision of our ancient kings</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">his horned Image they to th’ Temple bring</rdg>
             <rdg wit="#ee">His hornéd image they to the temple bring.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">His <seg>hornéd image<note type="critical">Pulter imagines Essex’s effigy actually wearing the cuckold’s horns symbolically assigned to men with unfaithful wives.</note></seg> to the <seg>temple<note type="gloss">Westminster Abbey.</note></seg> bring.</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">becauſe he was a member of the Dragon</rdg>
             <rdg wit="#ee">Because he was a member of the <seg>dragon<note type="gloss">dragoon, or cavalry soldier; “dragon” might refer to the Order of the Garter, the most prestigious order of chivalry in England and one whose insignia featured the dragon killed by their patron St. George. Both Essex’s grandfather and father had been inducted into the Order.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Because he was a member of the <seg>dragon<note type="critical">the ‘fierce monster’ of Line 1. This ‘dragon’ may implicitly be opposed to another group distinguished by a dragon symbol, the members of the Order of the Garter, who wore a small insignia showing St George driving a lance into a dragon. Membership indicated social status and royal favour. Essex was considered for membership in 1639 but was blamed for military failure against the Scots and Charles ‘peremptorily’ dismissed him from the court (<bibl>Adamson, <title rend="italic">Noble Revolt</title>, p. 14</bibl>).</note></seg></rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">they ſett him up just like the Idol Dagon</rdg>
             <rdg wit="#ee">They set him up just like the idol <seg>Dagon<note type="gloss">In the Bible, Dagon is the deity of the ancient Philistines; the Philistines capture (what is mentioned in the next line) the Israelietes’ sacred Ark of the Covenant (the coffer containing the stone tablets on which the Ten Commandments were transcribed) and place them in the temple of Dagon at Ashdod. See 1 Samuel 5:2.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">They set him up just like the idol <seg>Dagon<note type="gloss">In the Hebrew Bible, chief god of the Philistines.</note></seg></rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">by Israel’s ſacred Ark O bold Aſsumption</rdg>
             <rdg wit="#ee">By Israel’s sacred ark. O bold assumption!</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">By <seg>Israel’s sacred ark<note type="gloss">In 1 Samuel 4-6, the Philistines having captured the Ark of Yahweh place it before the statue of Dagon in his temple at Ashdod. The next morning the statue had fallen before the Ark. The temple’s priests replaced it and the next morning it had again fallen before the Ark and its hands and head were broken off.</note></seg>; <seg>O bold assumption<note type="gloss">1) The Philistines think their god greater than the Hebrew god; 2) Parliament thinks its commander, Essex, greater than Charles.</note></seg></rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">&amp; certainly unparallel’d preſumption</rdg>
             <rdg wit="#ee">And certainly unparalleled presumption!</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">And certainly unparalleled presumption!</rdg>
         </app>
       </l>
         <app>
@@ -383,28 +429,28 @@
         <app>
             <rdg wit="#ft">Butt down he fell looſing his hands &amp; head,</rdg>
             <rdg wit="#ee">But down he fell, losing his hands and head;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But down he fell, losing his hands and head,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">his Father ſer’d ſo, liuing, hee ſo, dead.</rdg>
             <rdg wit="#ee"><seg>His father served so<note type="gloss">Essex’s father, Robert Devereux (second Earl of Essex, 1565-1601) was beheaded for a rebellion against Elizabeth I; “serve” refers to both his violent service to his monarch and the nature of his execution (being treated deservedly in having his body mutilated).</note></seg>, living; he so, dead.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae"><seg>His father served so<note type="gloss">Robert Devereux, second Earl of Essex, beheaded for treason against Elizabeth I in 1601. See Headnote: Context.</note></seg>, living; <seg>he so, dead<note type="gloss">Essex has, like his father, betrayed the monarch he was supposed to serve and obey although he is beheaded for this only after death.</note></seg>.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">ſuch End ſuch honour lett all Trayt<seg>[?]<note type="physical">The unidentified character signifies what might be “o” or “e,” written partly over and partly to the left of the letter “r.”</note></seg>ſ have</rdg>
             <rdg wit="#ee">Such end, such honor, let all traitors have;</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">Such end, such honour, let all traitors have;</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">but our Augustus Heav’n protect &amp; <seg>ſave<note type="physical">flourish at end of line</note></seg></rdg>
             <rdg wit="#ee">But our <seg>Augustus<note type="critical">Augustus Caesar, the Roman emperor idealized for restoring peace and prosperity to Rome; here probably referring to Charles II, since the poem was more likely to have been written after the Restoration than before 1649, when Charles I was executed. The poem’s placement in the manuscript, along with material added after the 1650s, supports this theory.</note></seg>, Heav’n protect and save.</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ae">But <seg>our Augustus<note type="gloss">Charles I; Augustus was the title used for Roman emperors and  also used to distinguish divine or sacred things in Roman religious practice.</note></seg>, Heav’n protect and save.</rdg>
         </app>
       </l>
         <app>
