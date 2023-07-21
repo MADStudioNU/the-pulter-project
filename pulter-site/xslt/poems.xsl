@@ -3551,6 +3551,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Ruth Connolly</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>civil war</pp:keyword>
@@ -3572,6 +3575,13 @@
         <pp:tag>tyranny</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="emblems-of-phaeton-and-icarus">
+          <pp:author>Ruth Connolly</pp:author>
+          <pp:title>Emblems of Phaeton and Icarus</pp:title>
+          <pp:peek>This poem was inspired by the genre of the emblem. The emblem used images and adages to teach readers to read allegorically by finding the abstract concept (usually a virtue or vice) personified in the poem, and analogically, in its encouragement to apply the moral to their own situation.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
