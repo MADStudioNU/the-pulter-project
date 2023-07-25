@@ -140,3 +140,23 @@ jobs:
           AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
           AWS_DEFAULT_REGION: us-east-2
           BUCKET_NAME: "mads-static-sites-prod-pulterproject-prod"
+
+      - name: Get CloudFront Distribution ID
+        id: get-cf-dist-id
+        run: |
+          echo "cf-dist-id=$(aws ssm get-parameter --name /platforms/mads-static-sites/prod/${BUCKET_NAME}/CF_dist --output json | jq '.Parameter.Value' -r)" >> "$GITHUB_ENV"
+        env:
+          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
+          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
+          AWS_DEFAULT_REGION: us-east-2
+          BUCKET_NAME: "mads-static-sites-prod-pulterproject-prod"
+
+      - name: Invalidate CF cache
+        id: invalidate-cf-cache
+        run: aws cloudfront create-invalidation --distribution-id ${{ env.cf-dist-id }} --paths "/*"
+        env:
+          AWS_ACCESS_KEY_ID: "${{ steps.import-secrets.outputs.AWS_ACCESS_KEY_ID }}"
+          AWS_SECRET_ACCESS_KEY: "${{ steps.import-secrets.outputs.AWS_SECRET_ACCESS_KEY }}"
+          AWS_DEFAULT_REGION: us-east-2
+          BUCKET_NAME: "mads-static-sites-prod-pulterproject-prod"
+

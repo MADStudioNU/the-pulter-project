@@ -48,7 +48,7 @@ Poems that are published on the preview site but not on the production site:
 > A040 (Hatton), A062 (Connoly), A083 (Ward)
 
 Curations:
-> C040a (Hatton), C040b (Hatton), C062a (Connoly)
+> C040a (Hatton), C040b (Hatton), C062a (Connoly), C062b (Connoly)
 
 Explorations:
 > —
