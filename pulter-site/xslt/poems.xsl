@@ -2247,7 +2247,7 @@
         <pp:curation status="on" hash="the-dissolution-of-matter-into-the-four-elements">
           <pp:author>Victoria E. Burke</pp:author>
           <pp:title>The Dissolution of Matter into the Four Elements</pp:title>
-          <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements–fire, earth, air, and water–as forming the material of all life. In this case, she refers to the end of earthly life, on Judgment Day, when the elements will turn all matter into one of their four forms, and her daughters will be welcomed in heaven.</pp:peek>
+          <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements–fire, earth, air, and water–as forming the material of all life.</pp:peek>
         </pp:curation>
         <pp:curation status="on" hash="poetic-fancies">
           <pp:author>Victoria E. Burke</pp:author>
