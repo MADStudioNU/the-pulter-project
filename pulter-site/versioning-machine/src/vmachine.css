@@ -538,13 +538,21 @@ div#mssArea div.panel div.noteContent {
   width: 26%;
 }
 
-.poemindexentry {
-    padding-bottom: 1.2%;
+#indexPopupPanel {
+  width: 26%;
 }
 
+#indexPopupPanel .poemnumber {
+  font-family: 'Lato', sans-serif;
+  font-size: .7em;
+  color: #888;
+  display: inline-block;
+  margin-right: .5em;
+}
 
-
-
+.poemindexentry {
+  padding-bottom: 1.2%;
+}
 
 div.head,
 div.line,
