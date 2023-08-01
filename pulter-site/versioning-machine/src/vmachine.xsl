@@ -1044,11 +1044,11 @@
 
          <div class="panelBanner">
             <img class="closePanel" title="Close panel"
-               src="/versioning-machine/vm-images/closePanel.png" alt="X (Close panel)"/> Index </div>
+               src="/versioning-machine/vm-images/closePanel.png" alt="X (Close panel)"/>Poem Index</div>
          <div class="critContent">
-            <h4>Index of Poems</h4>
+<!--            <h4>Index of Poems</h4>-->
             <div id="poemindex">
-               (loading…)
+               Loading…
             </div>
          </div>
       </div>
