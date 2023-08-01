@@ -545,9 +545,27 @@ div#mssArea div.panel div.noteContent {
 #indexPopupPanel .poemnumber {
   font-family: 'Lato', sans-serif;
   font-size: .7em;
-  color: #888;
+  color: #aaa;
   display: inline-block;
   margin-right: .5em;
+}
+
+#indexPopupPanel .poemtitle {
+  color: #181818;
+  font-size: .8em;
+  font-family: 'SSSI', serif;
+  text-decoration: none;
+  background: #eee;
+  padding: 1px 4px;
+  transition: background .2s;
+}
+
+#indexPopupPanel .poemtitle:hover {
+  background: #ddd;
+}
+
+#indexPopupPanel .poemtitle a {
+  text-decoration: none;
 }
 
 .poemindexentry {
