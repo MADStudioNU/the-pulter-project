@@ -6560,6 +6560,9 @@
                             <xsl:attribute name="href">
                               <xsl:value-of select="concat('/poems/vm/', $poemId)"/>
                             </xsl:attribute>
+                            <xsl:attribute name="target">
+                              <xsl:value-of select="'_blank'"/>
+                            </xsl:attribute>
                             <img class="i" src="/images/compare-icon.svg"/>
                           </xsl:element>
                         </xsl:if>
