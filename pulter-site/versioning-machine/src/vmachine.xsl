@@ -153,7 +153,7 @@
       <xsl:value-of select="$displayNotes"/>; /*BIB PANEL: To change the VM so that the
       bibliographic information page does not appear at the initial load, change the constant
       INITIAL_DISPLAY_BIB_PANEL from "true" to "false" below */ INITIAL_DISPLAY_BIB_PANEL =
-      <xsl:value-of select="$displayBibInfo"/>; /**The number of version/witness panels to be
+      <xsl:value-of select="$displayBibInfo"/>;/** Poem index panel initial visibility*/ INITIAL_DISPLAY_POEM_INDEX = <xsl:value-of select="$displayPoemIndex"/> /**The number of version/witness panels to be
       displayed initially */ INITIAL_DISPLAY_NUM_VERSIONS = <xsl:value-of select="$displayVersions"
       />;  /*TRANSCRIPTION PANEL The number of version/witness panels to be
       displayed initially */ INITIAL_DISPLAY_FT_PANEL = <xsl:value-of select="$displayTranscription"

@@ -2181,8 +2181,8 @@
       <pp:title>To My Dear Jane, Margaret, and Penelope Pulter, They Being at London, I at Broadfield</pp:title>
       <pp:firstLine>Come, my dear children, to this lonely place</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Plate by John Savage for Henry Chauncy, Historical Antiquities of Hertfordshire, 1700.</pp:sourceStatement>
-        <pp:sourceLink ref="//hesterpulter.com/wp-content/uploads/2013/08/Broadfield-Hall-002.jpg"/>
+        <pp:sourceStatement>Sir Henry Chauncy, The Historical Antiquities of Hertfordshire (London, 1700), plate between p. 72 &amp; p. 73, Folger Shakespeare Library, CC BY-SA 4.0.</pp:sourceStatement>
+        <pp:sourceLink ref="//luna.folger.edu/luna/servlet/s/yewyoa"/>
       </pp:poster>
       <pp:seoTitle>To My Dear Jane, Margaret, and Penelope Pulter</pp:seoTitle>
       <pp:editions>
