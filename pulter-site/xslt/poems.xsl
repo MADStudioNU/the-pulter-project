@@ -6796,7 +6796,7 @@
               Try our <span class="vm-mention"><span class="vm-logo"><img src="/images/compare-icon.svg"/></span> <span class="vm-label">Comparison Tool</span></span> to see different versions of a given poem side by side.
             </p>
             <p>
-              Or click on a tag (e.g. <span class="tag-mention filter-tag" data-filter=".astronomy">astronomy</span>, <span class="tag-mention filter-tag" data-filter=".insects">insects</span>, <span class="tag-mention filter-tag" data-filter=".food">food</span>) to filter the poems.
+              Or click on a tag (e.g., <span class="tag-mention filter-tag" data-filter=".astronomy">astronomy</span>, <span class="tag-mention filter-tag" data-filter=".insects">insects</span>, <span class="tag-mention filter-tag" data-filter=".food">food</span>) to filter the poems.
             </p>
           </div>
         </div>
