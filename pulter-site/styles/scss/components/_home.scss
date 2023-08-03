@@ -967,15 +967,18 @@
     max-width: $maxWidth;
     margin: 0 auto;
 
-    .main-index-blurb {
-      background: coral;
-    }
-
     .status {
+      $themeColor: $pp_manuscriptPaper;
+
+      display: inline-block;
+      background: #080808;
+      border: 1px solid rgba($themeColor, .2);
+      border-radius: 4px;
+      padding: .66em 1em;
       font-size: .85em;
       letter-spacing: 1px;
-      color: rgba(#fff, .4);
-      margin: 3em calc($leftEdgeOffset / .85) 0 calc($leftEdgeOffset / .85);
+      color: rgba($themeColor, .5);
+      margin: 3em calc($leftEdgeOffset / .86) 0 calc($leftEdgeOffset / .86);
       @include transition(color .2s);
 
       @include breakpoint(mobile) {
@@ -987,29 +990,46 @@
         width: 1em;
         position: relative;
         top: 2px;
-        margin-right: .5em;
+        margin-right: .45em;
         opacity: .5;
 
-        .st0 { fill: #fff; }
+        .st0 {
+          fill: rgba($themeColor, 1);
+        }
       }
 
       &.hi {
-        color: $pp_attentionPlease;
+        $hiColor: $pp_darkGold;
+
+        color: $hiColor;
+        border: 1px solid rgba($hiColor, .5);
 
         .status-reset {
           display: inline-block;
-          border-bottom: 1px $pp_attentionPlease dashed;
+          border-bottom: 1px rgba($themeColor, .5) dashed;
         }
 
         .status-eye {
           opacity: 1;
 
-          .st0 { fill: $pp_attentionPlease; }
+          .st0 {
+            fill: $hiColor;
+          }
+        }
+
+        .status-reset {
+          color: $themeColor;
+          opacity: .66;
+          @include transition(opacity .2s);
+
+          &:hover {
+            opacity: 1;
+          }
         }
       }
 
       .status-reset {
-        margin-left: .8em;
+        margin-left: .5em;
         cursor: pointer;
         display: none;
         line-height: 120%;
@@ -1266,7 +1286,7 @@
 
           position: relative;
           top: 1px;
-          opacity: .33;
+          opacity: .5;
           display: inline-block;
           vertical-align: middle;
           margin-bottom: .35em;
@@ -1278,7 +1298,9 @@
           cursor: pointer;
           @include transition(opacity .2s);
 
-          &:hover { opacity: .66; }
+          &:hover {
+            opacity: .75;
+          }
 
           img {
             @include vcenter;
@@ -1297,48 +1319,56 @@
           margin-top: 1.5em;
           margin-right: 3em;
           padding-right: 3em;
+          line-height: 1.66;
 
           @include breakpoint(mobile) {
             margin-right: 1.5em;
           }
 
           &::before {
-              $s: .66em;
+            $s: .66em;
 
-              content: '';
-              width: $s;
-              height: $s;
-              display: inline-block;
-              background: url('/images/filter-icon.svg') no-repeat;
-              vertical-align: middle;
-              position: absolute;
-              left: -$s * 2.75;
-              margin-top: .52em;
-              background-size: $s;
-              opacity: .66;
+            content: '';
+            width: $s;
+            height: $s;
+            display: inline-block;
+            background: url('/images/filter-icon.svg') no-repeat;
+            vertical-align: middle;
+            position: absolute;
+            left: -$s * 2.75;
+            margin-top: .52em;
+            background-size: $s;
+            opacity: .45;
 
-              @include breakpoint(mobile) {
-                display: none;
-              }
+            @include breakpoint(mobile) {
+              display: none;
             }
+          }
 
           li {
+            font-style: italic;
             display: inline-block;
             font-size: 1em;
             font-weight: normal;
-            color: $pp_RoyalBlueLight;
+            color: $pp_keywordColor;
+            border-bottom: 1px dashed rgba($pp_keywordColor, .33);
             font-family: $pp_curatorialFont;
             cursor: pointer;
-            opacity: .66;
-            line-height: 130%;
+            opacity: .75;
+            line-height: 1;
             @include transition(opacity .2s);
 
-            &:hover { opacity: 1; }
+            &:hover {
+              opacity: 1;
+            }
 
             &:not(:last-child) {
               margin-right: .33em;
 
-              &::after { content: ','; }
+              &::after {
+                content: ',';
+                border-bottom: none;
+              }
             }
           }
         }

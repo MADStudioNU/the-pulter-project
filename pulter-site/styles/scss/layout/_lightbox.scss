@@ -583,8 +583,8 @@
         font-size: 1.1em;
         color: rgba(#fff, .66);
 
-        img {
-          max-width: 33%;
+        img.blurb-image {
+          max-width: 38%;
           float: right;
           margin-left: 2.25em;
         }
@@ -597,6 +597,65 @@
           color: #fff;
           font-size: .7em;
           margin-left: 1px;
+        }
+
+        .tag-mention {
+          font-style: italic;
+          color: #fff;
+          font-family: "Lato", Arial, sans-serif;
+          opacity: .8;
+          border-bottom: 1px dashed rgba($pp_keywordColor, .5);
+          @include transition(opacity .2s);
+          cursor: pointer;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+
+        .vm-mention {
+          display: inline-block;
+          background: rgba($pp_manuscriptPaper, .1);
+          line-height: 1;
+          padding: .2em;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: .85em;
+        }
+
+        .vm-logo,
+        .vm-label {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .vm-logo {
+          $size: 1em;
+
+          width: $size;
+          height: $size;
+          position: relative;
+          background: rgba($pp_manuscriptPaper, .2);
+          border: 1px solid rgba(240, 223, 206, .75);
+          border-radius: 4px;
+          margin-right: .4em;
+
+          img {
+            @include vcenter;
+            width: 55%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+          }
+        }
+
+        .vm-label {
+          color: #aaa;
+          font-family: "Lato", Arial, sans-serif;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: .85em;
         }
       }
 
