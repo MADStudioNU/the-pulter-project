@@ -6456,6 +6456,7 @@
               <div class="toolbar">
                 <div class="col sort">
                   <span class="label">Poems</span>
+                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
                 </div>
                 <div class="col edition">
                   <span class="label">Editions</span>
@@ -6469,7 +6470,8 @@
             </div>
           </div>
           <div class="status-box">
-            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span> <span class="status-reset">Reset</span></div>
+            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
+            </div>
           </div>
           <section id="poems-section">
             <div class="list-view" id="poem-index-box">
@@ -6553,6 +6555,9 @@
                             </xsl:attribute>
                             <xsl:attribute name="href">
                               <xsl:value-of select="concat('/poems/vm/', $poemId)"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                              <xsl:value-of select="'_blank'"/>
                             </xsl:attribute>
                             <img class="i" src="/images/compare-icon.svg"/>
                           </xsl:element>
@@ -6779,11 +6784,27 @@
             </a>
           </footer>
         </div>
+        <div id="poem-index-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3><span class="it">The Pulter Project</span> Poem Index</h3>
+          <div class="c">
+            <img class="blurb-image" src="/images/tpp-poem-index-blurb.png"/>
+            <p>
+              Below, Pulter’s 120 poems are listed in the order in which they appear in the manuscript.
+            </p>
+            <p>
+              Try our <span class="vm-mention"><span class="vm-logo"><img src="/images/compare-icon.svg"/></span> <span class="vm-label">Comparison Tool</span></span> to see different versions of a given poem side by side.
+            </p>
+            <p>
+              Or click on a tag (e.g., <span class="tag-mention filter-tag" data-filter=".astronomy">astronomy</span>, <span class="tag-mention filter-tag" data-filter=".insects">insects</span>, <span class="tag-mention filter-tag" data-filter=".food">food</span>) to filter the poems.
+            </p>
+          </div>
+        </div>
         <div id="editions-blurb" class="lightbox-content">
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Edition Types</h3>
           <div class="c">
-            <img src="/images/tpp-editions-blurb.png"/>
+            <img class="blurb-image" src="/images/tpp-editions-blurb.png"/>
             <p>Those encountering Pulter for the first time might start with the <span class="edition-label">elemental</span> editions, with their modernized text and relatively simple annotations.</p>
             <p>Those ready for more will enjoy the <span class="edition-label">amplified</span> editions, each governed by its own principles and more extensive annotation.</p>
           </div>
@@ -6792,7 +6813,7 @@
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Curations</h3>
           <div class="c">
-            <img src="/images/tpp-curations-blurb.png"/>
+            <img class="blurb-image" src="/images/tpp-curations-blurb.png"/>
             <p>Curations offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem.</p>
           </div>
         </div>
