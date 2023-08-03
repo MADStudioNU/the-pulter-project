@@ -1018,7 +1018,13 @@
         }
 
         .status-reset {
-          color: rgba($themeColor, .5);
+          color: $themeColor;
+          opacity: .66;
+          @include transition(opacity .2s);
+
+          &:hover {
+            opacity: 1;
+          }
         }
       }
 
@@ -1313,41 +1319,43 @@
           margin-top: 1.5em;
           margin-right: 3em;
           padding-right: 3em;
+          line-height: 1.66;
 
           @include breakpoint(mobile) {
             margin-right: 1.5em;
           }
 
           &::before {
-              $s: .66em;
+            $s: .66em;
 
-              content: '';
-              width: $s;
-              height: $s;
-              display: inline-block;
-              background: url('/images/filter-icon.svg') no-repeat;
-              vertical-align: middle;
-              position: absolute;
-              left: -$s * 2.75;
-              margin-top: .52em;
-              background-size: $s;
-              opacity: .66;
+            content: '';
+            width: $s;
+            height: $s;
+            display: inline-block;
+            background: url('/images/filter-icon.svg') no-repeat;
+            vertical-align: middle;
+            position: absolute;
+            left: -$s * 2.75;
+            margin-top: .52em;
+            background-size: $s;
+            opacity: .45;
 
-              @include breakpoint(mobile) {
-                display: none;
-              }
+            @include breakpoint(mobile) {
+              display: none;
             }
+          }
 
           li {
+            font-style: italic;
             display: inline-block;
             font-size: 1em;
             font-weight: normal;
-            color: $pp_RoyalBlueLight;
-            border-bottom: $pp_RoyalBlueLight 1px dashed;
+            color: $pp_keywordColor;
+            border-bottom: 1px dashed rgba($pp_keywordColor, .33);
             font-family: $pp_curatorialFont;
             cursor: pointer;
-            opacity: .66;
-            line-height: 115%;
+            opacity: .75;
+            line-height: 1;
             @include transition(opacity .2s);
 
             &:hover {
@@ -1357,7 +1365,10 @@
             &:not(:last-child) {
               margin-right: .33em;
 
-              &::after { content: ','; }
+              &::after {
+                content: ',';
+                border-bottom: none;
+              }
             }
           }
         }

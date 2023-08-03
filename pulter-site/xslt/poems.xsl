@@ -6564,6 +6564,11 @@
                         </xsl:if>
                         <xsl:choose>
                           <xsl:when test="./pp:tags/pp:tag">
+                            <xsl:element name="ul">
+                              <xsl:attribute name="class">
+                                <xsl:value-of select="filter-tags"/>
+                              </xsl:attribute>
+                            </xsl:element>
                             <ul class="filter-tags">
                               <xsl:for-each select="./pp:tags/pp:tag[position() &lt; 30]">
                                 <xsl:variable name="keywordValue" select="text()"/>
