@@ -3551,9 +3551,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Ruth Connolly</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Ruth Connolly</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>civil war</pp:keyword>
@@ -3575,18 +3575,18 @@
         <pp:tag>tyranny</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="emblems-of-phaeton-and-icarus">-->
-<!--          <pp:author>Ruth Connolly</pp:author>-->
-<!--          <pp:title>Emblems of Phaeton and Icarus</pp:title>-->
-<!--          <pp:peek>This poem was inspired by the genre of the emblem. The emblem used images and adages to teach readers to read allegorically by finding the abstract concept (usually a virtue or vice) personified in the poem, and analogically, in its encouragement to apply the moral to their own situation.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="attitudes-to-essex">-->
-<!--          <pp:author>Ruth Connolly</pp:author>-->
-<!--          <pp:title>Attitudes to Essex</pp:title>-->
-<!--          <pp:peek>The battle over how Essex’s complex and divisive actions should be interpreted and what his posthumous reputation should be captures in microcosm the divisions of the civil war. Poetry was a much-resorted-to weapon in this battle of reputation and interpretation and the same person could easily be the object of vicious satires from one side and soaring panegyrics from the other.</pp:peek>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="emblems-of-phaeton-and-icarus">
+          <pp:author>Ruth Connolly</pp:author>
+          <pp:title>Emblems of Phaeton and Icarus</pp:title>
+          <pp:peek>This poem was inspired by the genre of the emblem. The emblem used images and adages to teach readers to read allegorically by finding the abstract concept (usually a virtue or vice) personified in the poem, and analogically, in its encouragement to apply the moral to their own situation.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="attitudes-to-essex">
+          <pp:author>Ruth Connolly</pp:author>
+          <pp:title>Attitudes to Essex</pp:title>
+          <pp:peek>The battle over how Essex’s complex and divisive actions should be interpreted and what his posthumous reputation should be captures in microcosm the divisions of the civil war. Poetry was a much-resorted-to weapon in this battle of reputation and interpretation and the same person could easily be the object of vicious satires from one side and soaring panegyrics from the other.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="63">
       <pp:title>Dear God, From Thy High Throne Look Down</pp:title>
