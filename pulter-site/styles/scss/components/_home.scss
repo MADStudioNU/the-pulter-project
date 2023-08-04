@@ -1319,7 +1319,8 @@
           line-height: 2;
 
           @include breakpoint(mobile) {
-            margin-right: 1.5em;
+            margin-right: 0;
+            padding-right: 1.5em;
           }
 
           // Filter icon
