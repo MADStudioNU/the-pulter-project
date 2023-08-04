@@ -971,15 +971,15 @@
       $themeColor: $pp_manuscriptPaper;
 
       display: inline-block;
-      background: #080808;
+      //background: rgba(#080808, .33);
       border: 1px solid rgba($themeColor, .2);
       border-radius: 4px;
-      padding: .66em 1em;
+      padding: .6em 1em;
       font-size: .85em;
       letter-spacing: 1px;
       color: rgba($themeColor, .5);
       margin: 3em calc($leftEdgeOffset / .86) 0 calc($leftEdgeOffset / .86);
-      @include transition(color .2s);
+      @include transition(all .2s);
 
       @include breakpoint(mobile) {
         margin: 1.5em 1.5em 1.5em 4.5em;
@@ -999,31 +999,28 @@
       }
 
       &.hi {
-        $hiColor: $pp_darkGold;
-
-        color: $hiColor;
-        border: 1px solid rgba($hiColor, .5);
-
-        .status-reset {
-          display: inline-block;
-          border-bottom: 1px rgba($themeColor, .5) dashed;
-        }
+        background: rgba($pp_manuscriptInk, .4);
+        color: rgba($pp_keywordColor, .66);
+        border-color: $pp_manuscriptInk;
 
         .status-eye {
           opacity: 1;
 
           .st0 {
-            fill: $hiColor;
+            //fill: rgba($pp_keywordColor, .66);
+            fill: #b99424;
           }
         }
 
         .status-reset {
-          color: $themeColor;
-          opacity: .66;
-          @include transition(opacity .2s);
+          display: inline-block;
+          color: rgba($pp_RoyalBlueLight, .75);
+          border-bottom: 1px rgba($pp_RoyalBlueLight, .66) dashed;
+          @include transition(all .2s);
 
           &:hover {
-            opacity: 1;
+            color: rgba($pp_RoyalBlueLight, 1);
+            border-bottom: 1px rgba($pp_RoyalBlueLight, .85) dashed;
           }
         }
       }
@@ -1319,14 +1316,15 @@
           margin-top: 1.5em;
           margin-right: 3em;
           padding-right: 3em;
-          line-height: 1.66;
+          line-height: 2;
 
           @include breakpoint(mobile) {
             margin-right: 1.5em;
           }
 
+          // Filter icon
           &::before {
-            $s: .66em;
+            $s: .75em;
 
             content: '';
             width: $s;
@@ -1335,10 +1333,10 @@
             background: url('/images/filter-icon.svg') no-repeat;
             vertical-align: middle;
             position: absolute;
-            left: -$s * 2.75;
-            margin-top: .52em;
+            left: -$s * 2.4;
+            margin-top: .6em;
             background-size: $s;
-            opacity: .45;
+            //opacity: .75;
 
             @include breakpoint(mobile) {
               display: none;
@@ -1346,30 +1344,51 @@
           }
 
           li {
-            font-style: italic;
             display: inline-block;
-            font-size: 1em;
-            font-weight: normal;
-            color: $pp_keywordColor;
-            border-bottom: 1px dashed rgba($pp_keywordColor, .33);
-            font-family: $pp_curatorialFont;
-            cursor: pointer;
+            color: rgba($pp_keywordColor, .5);
             opacity: .75;
+            cursor: pointer;
+            background: darken($pp_manuscriptInk, 3%);
             line-height: 1;
-            @include transition(opacity .2s);
-
-            &:hover {
-              opacity: 1;
-            }
+            padding: .25em;
+            font-style: italic;
+            border-radius: 4px;
+            @include transition(all .2s);
 
             &:not(:last-child) {
-              margin-right: .33em;
-
-              &::after {
-                content: ',';
-                border-bottom: none;
-              }
+              margin-right: .45em;
             }
+
+            &:hover {
+              color: rgba($pp_keywordColor, .9);
+              background: darken($pp_manuscriptInk, 0);
+            }
+
+
+            //font-style: italic;
+            //display: inline-block;
+            //font-size: 1em;
+            //font-weight: normal;
+            //color: $pp_keywordColor;
+            //border-bottom: 1px dashed rgba($pp_keywordColor, .5);
+            //font-family: $pp_curatorialFont;
+            //cursor: pointer;
+            //opacity: .75;
+            //line-height: 1;
+            //@include transition(opacity .2s);
+            //
+            //&:hover {
+            //  opacity: 1;
+            //}
+            //
+            //&:not(:last-child) {
+            //  margin-right: .33em;
+            //
+            //  &::after {
+            //    content: ',';
+            //    border-bottom: none;
+            //  }
+            //}
           }
         }
 

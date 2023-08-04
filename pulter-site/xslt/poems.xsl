@@ -6566,10 +6566,8 @@
                           <xsl:when test="./pp:tags/pp:tag">
                             <xsl:element name="ul">
                               <xsl:attribute name="class">
-                                <xsl:value-of select="filter-tags"/>
+                                <xsl:value-of select="'filter-tags'"/>
                               </xsl:attribute>
-                            </xsl:element>
-                            <ul class="filter-tags">
                               <xsl:for-each select="./pp:tags/pp:tag[position() &lt; 30]">
                                 <xsl:variable name="keywordValue" select="text()"/>
                                 <xsl:element name="li">
@@ -6587,7 +6585,7 @@
                                   <xsl:value-of select="$keywordValue"/>
                                 </xsl:element>
                               </xsl:for-each>
-                            </ul>
+                            </xsl:element>
                           </xsl:when>
                         </xsl:choose>
                       </xsl:if>
@@ -6798,7 +6796,7 @@
               Below, Pulter’s 120 poems are listed in the order in which they appear in the manuscript.
             </p>
             <p>
-              Try our <span class="vm-mention"><span class="vm-logo"><img src="/images/compare-icon.svg"/></span> <span class="vm-label">Comparison Tool</span></span> to see different versions of a given poem side by side.
+              Try our <a class="vm-mention" target="_blank" href="/poems/vm/1"><span class="vm-logo"><img src="/images/compare-icon.svg"/></span> <span class="vm-label">Comparison Tool</span></a> to see different versions of a given poem side by side.
             </p>
             <p>
               Or click on a tag (e.g., <span class="tag-mention filter-tag" data-filter=".astronomy">astronomy</span>, <span class="tag-mention filter-tag" data-filter=".insects">insects</span>, <span class="tag-mention filter-tag" data-filter=".food">food</span>) to filter the poems.
