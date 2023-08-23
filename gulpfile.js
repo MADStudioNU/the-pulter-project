@@ -1,4 +1,3 @@
-// Constants
 const XML_SOURCES_FOLDER = 'pulter-poems/';
 const SITE_BASE = 'pulter-site/';
 const PRODUCTION_SITE_BASE = 'dist/';
@@ -20,6 +19,30 @@ const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 const SINGLE_POEM_TRANSFORMATION_FLAG = 'single';
 
+// Site pages
+const SITE_PAGES = [
+  'about-hester-pulter-and-the-manuscript.html',
+  'about-project-conventions.html',
+  'about-the-project.html',
+  'how-to-cite-the-pulter-project.html',
+  'resources.html'
+];
+
+// Vendor scripts
+const vendorScripts = [
+  'node_modules/jquery/dist/jquery.min.js',
+  'node_modules/animejs/anime.min.js',
+  'node_modules/featherlight/release/featherlight.min.js',
+  'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
+  SITE_BASE + 'scripts/vendors/includes/smooth-scroll.min.js',
+  SITE_BASE + 'scripts/vendors/includes/polyfills.min.js',
+  'node_modules/drift-zoom/dist/Drift.min.js',
+  'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
+  'node_modules/store2/dist/store2.min.js',
+  'node_modules/store2/src/store.cache.js'
+];
+
+// Modules
 const appendPrepend = require('gulp-append-prepend');
 const gulp = require('gulp');
 const concat = require('gulp-concat');
@@ -39,19 +62,6 @@ const childProcess = require('child_process');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
-
-const vendorScripts = [
-  'node_modules/jquery/dist/jquery.min.js',
-  'node_modules/animejs/anime.min.js',
-  'node_modules/featherlight/release/featherlight.min.js',
-  'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
-  SITE_BASE + 'scripts/vendors/includes/smooth-scroll.min.js',
-  SITE_BASE + 'scripts/vendors/includes/polyfills.min.js',
-  'node_modules/drift-zoom/dist/Drift.min.js',
-  'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
-  'node_modules/store2/dist/store2.min.js',
-  'node_modules/store2/src/store.cache.js'
-];
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -225,8 +235,7 @@ gulp.task('files-deploy', function (done) {
   gulp.src([
     SITE_BASE + '*',
     '!'+ SITE_BASE +'dropcaps',
-    '!'+ SITE_BASE +'xslt',
-    '!'+ SITE_BASE +'pages'
+    '!'+ SITE_BASE +'xslt'
   ])
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE));
@@ -245,11 +254,6 @@ gulp.task('files-deploy', function (done) {
   gulp.src(SITE_BASE + 'explorations/**/*')
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
-
-  // Copy pages
-  gulp.src(SITE_BASE + 'pages/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
 
   // Copy what we need from VM
   gulp.src([
