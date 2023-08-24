@@ -4,11 +4,15 @@
   display: block;
   border: 1px solid rgba($theme, .25);
   border-radius: 4px;
-  padding: 1.5em;
+  //padding: 1.5em;
   background: rgba($theme, .05);
   color: rgba($theme, .5);
   font-style: italic;
-  height: 16em;
+  height: 20em;
+  overflow: hidden;
 
-  /* todo: make this collapsible */
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
