@@ -31,7 +31,7 @@ jobs:
           node-version: '20.x'
 
       - name: Install and build dependencies
-        run: yarn && cd family-tree && yarn && yarn build && cd ..
+        run: yarn && cd pulter-site/family-tree && yarn && yarn build && cd ..
 
       - name: Install task runner
         run: npm i -g gulp-cli@latest
