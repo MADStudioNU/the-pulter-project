@@ -283,6 +283,11 @@ gulp.task('files-deploy', function (done) {
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'fonts'));
 
+  // Copy the family tree build
+  gulp.src(SITE_BASE + 'family-tree/build/**/*')
+    .pipe(plumber())
+    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'family-tree/build'));
+
   done();
 });
 
