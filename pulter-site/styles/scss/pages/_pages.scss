@@ -116,12 +116,15 @@
         max-width: 80%;
       }
 
+      // Adjustments for preceding/following widgets
+      $air: 2.25em;
+
       &.pre-widget {
-        margin-bottom: 2.5em;
+        margin-bottom: $air;
       }
 
       &.post-widget {
-        margin-top: 2.5em;
+        margin-top: $air;
       }
     }
   }

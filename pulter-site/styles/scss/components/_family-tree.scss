@@ -1,9 +1,13 @@
+.family-tree-trigger {
+  margin: 0 4.5em 1.5em 4.5em;
+}
+
 .family-tree-box {
   $theme: $pp_manuscriptPaper;
 
   display: block;
   border: 1px solid rgba($theme, .1);
-  border-radius: 4px;
+  border-radius: 6px;
   background: rgba($theme, .2);
   font-style: italic;
   height: 42em;
