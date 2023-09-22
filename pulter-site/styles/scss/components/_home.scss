@@ -861,7 +861,7 @@
   .toolbar-box {
     background: rgba(255, 255, 255, .02);
     border-top: 1px solid rgba(0, 0, 0, .25);
-    border-bottom: 1px solid rgba(#333, .1);
+    //border-bottom: 1px solid rgba(#111, .1);
     overflow: hidden;
     @include transition(all .3s);
     max-width: $maxWidth;
@@ -872,14 +872,42 @@
       max-width: $maxWidth;
       margin-left: $leftEdgeOffset;
       position: relative;
-      padding: .5em 0;
+      padding: 0;
       font-family: $pp_interfaceFont;
 
       .col {
         display: inline-block;
 
+        .resource-tab {
+          cursor: pointer;
+          display: inline-block;
+          padding: 0 1.25em;
+          background: rgba(0, 0, 0, .15);
+
+          &:not(:last-child) {
+            //margin-right: 1.5em;
+          }
+
+          &.poems-tab {
+
+          }
+
+          &.extras-tab {
+
+          }
+
+          &.active {
+            background: rgba(0, 0, 0, .5);
+
+            .label {
+              opacity: 1;
+            }
+          }
+        }
+
         .label {
           opacity: .5;
+          padding: .66em 0;
           text-transform: uppercase;
           letter-spacing: 2px;
           font-size: .85em;
