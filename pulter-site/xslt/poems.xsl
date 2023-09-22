@@ -6456,6 +6456,16 @@
                 </div>
               </div>
             </div>
+            <div class="resource-type-tabs">
+              <div class="resource-tab poems-tab active">
+                <span class="label">Poems</span>
+                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+              </div>
+              <div class="resource-tab extras-tab">
+                <span class="label">Extras</span>
+                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+              </div>
+            </div>
             <div class="toolbar-box">
               <div class="toolbar">
                 <div class="col sort">

@@ -858,6 +858,18 @@
     background: #181818;
   }
 
+  .resource-type-tabs {
+    background: firebrick;
+    max-width: $maxWidth;
+    margin-left: $leftEdgeOffset;
+    padding: 0;
+    display: inline-block;
+
+    .resource-tab {
+      display: inline-block;
+    }
+  }
+
   .toolbar-box {
     background: rgba(255, 255, 255, .02);
     border-top: 1px solid rgba(0, 0, 0, .25);
@@ -877,33 +889,6 @@
 
       .col {
         display: inline-block;
-
-        .resource-tab {
-          cursor: pointer;
-          display: inline-block;
-          padding: 0 1.25em;
-          background: rgba(0, 0, 0, .15);
-
-          &:not(:last-child) {
-            //margin-right: 1.5em;
-          }
-
-          &.poems-tab {
-
-          }
-
-          &.extras-tab {
-
-          }
-
-          &.active {
-            background: rgba(0, 0, 0, .5);
-
-            .label {
-              opacity: 1;
-            }
-          }
-        }
 
         .label {
           opacity: .5;
