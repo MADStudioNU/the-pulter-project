@@ -271,7 +271,7 @@
           color: lighten($pp_manuscriptPaper, 7%);
           font-size: 1.1em;
           margin-bottom: 5vh;
-          line-height: 1.61;
+          line-height: 1.66;
           display: inline-block;
           text-align: center;
           font-family: $pp_originalFont;
@@ -999,16 +999,15 @@
       }
 
       &.hi {
-        background: rgba($pp_manuscriptInk, .4);
+        background: rgba($pp_manuscriptPaper, .05);
         color: rgba($pp_keywordColor, .66);
-        border-color: $pp_manuscriptInk;
+        border-color: rgba($pp_manuscriptPaper, .15);
 
         .status-eye {
           opacity: 1;
 
           .st0 {
-            //fill: rgba($pp_keywordColor, .66);
-            fill: #b99424;
+            fill: rgba($pp_keywordColor, .66);
           }
         }
 
@@ -1337,7 +1336,6 @@
             left: -$s * 2.4;
             margin-top: .6em;
             background-size: $s;
-            //opacity: .75;
 
             @include breakpoint(mobile) {
               display: none;
@@ -1349,7 +1347,7 @@
             color: rgba($pp_keywordColor, .5);
             opacity: .75;
             cursor: pointer;
-            background: darken($pp_manuscriptInk, 3%);
+            background: rgba($pp_manuscriptPaper, .15);
             line-height: 1;
             padding: .25em;
             font-style: italic;
@@ -1362,34 +1360,8 @@
 
             &:hover {
               color: rgba($pp_keywordColor, .9);
-              background: darken($pp_manuscriptInk, 0);
+              background: rgba($pp_manuscriptPaper, .25);
             }
-
-
-            //font-style: italic;
-            //display: inline-block;
-            //font-size: 1em;
-            //font-weight: normal;
-            //color: $pp_keywordColor;
-            //border-bottom: 1px dashed rgba($pp_keywordColor, .5);
-            //font-family: $pp_curatorialFont;
-            //cursor: pointer;
-            //opacity: .75;
-            //line-height: 1;
-            //@include transition(opacity .2s);
-            //
-            //&:hover {
-            //  opacity: 1;
-            //}
-            //
-            //&:not(:last-child) {
-            //  margin-right: .33em;
-            //
-            //  &::after {
-            //    content: ',';
-            //    border-bottom: none;
-            //  }
-            //}
           }
         }
 
