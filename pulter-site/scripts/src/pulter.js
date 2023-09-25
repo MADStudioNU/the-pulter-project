@@ -28,7 +28,9 @@ var TPP = (function ($) {
       // DOM variables
       var $body = $('#page');
       var $content = $body.find('#c');
-      var $poemList = $content.find('.poem-list');
+      var $poemSection = $content.find('#poems-section');
+      var $extrasSection = $content.find('#extras-section');
+      var $poemList = $poemSection.find('.poem-list');
       var $intro = $body.find('#intro');
       var $actions = $intro.find('.actions');
       var $readAction = $actions.find('#read-action');
@@ -39,6 +41,7 @@ var TPP = (function ($) {
       var $imgCollection = $body.find('#pp-home-image-collection');
       var $explorationBlurb = $('.exploration-blurb');
       var $explorationTriggers = $('.exploration-trigger');
+      var $resourceTypeTabs = $body.find('.resource-tab');
 
       // Images status
       $imgCollection.imagesLoaded()
@@ -85,6 +88,49 @@ var TPP = (function ($) {
         var eHash = $(this).data('ctx-hash');
         if (eHash) { openExploration(eHash); }
         return false;
+      });
+
+      // Prevent note triggers from switching to a different tab
+      $resourceTypeTabs
+        .find('.note-trigger')
+        .on('click', function (e) {
+        e.stopPropagation();
+      });
+
+      // Resource type tabs toggle
+      $resourceTypeTabs.on('click', function () {
+        var $tab = $(this);
+        if ($tab.hasClass('active')) {
+          return false;
+        } else {
+          var type = $tab.data('resource-type');
+
+          if (type) {
+            $resourceTypeTabs.toggleClass('active');
+            var classToAdd = type + '-on';
+            $tab
+              .closest('.resource-type-tabs')
+              .attr('class', 'resource-type-tabs ' + classToAdd);
+
+            if (type === 'extras') {
+              $poemSection.hide();
+
+              $extrasSection
+                .addClass('enabled')
+                .fadeIn(200);
+            }
+
+            if (type === 'poems') {
+              $poemSection.fadeIn();
+
+              $extrasSection
+                .removeClass('enabled')
+                .fadeOut(200);
+            }
+          } else {
+            return false;
+          }
+        }
       });
 
       // Check if we need to open exploration right away
@@ -170,7 +216,7 @@ var TPP = (function ($) {
         $intro.hide();
         window.location.hash = 'poems';
         setTimeout(function () {
-          enableInteractivity();
+          // enableInteractivity();
         }, 400);
       }
 
@@ -180,7 +226,7 @@ var TPP = (function ($) {
         window.location.hash = 'explorations';
         $('.to-exploration-action').trigger('click');
         setTimeout(function () {
-          enableInteractivity();
+          // enableInteractivity();
           $('#explorations')[0].scrollIntoView();
         }, 400);
       }
@@ -211,7 +257,7 @@ var TPP = (function ($) {
 
       function enableInteractivity() {
         if (!$i) {
-          $i = $('.grid').isotope({
+          $i = $('.poem-list.grid').isotope({
             layoutMode: 'vertical',
             // stagger: 10,
             // getSortData: {}
@@ -980,7 +1026,7 @@ var TPP = (function ($) {
         }
       } else {
         console.log(
-          'Unable to initialize the poem. The id is invalid or it wasn’t provided.'
+          'Unable to initialize the poem. The poem id is invalid or it wasn’t provided.'
         );
         // TODO: Write an error handler for this case
       }

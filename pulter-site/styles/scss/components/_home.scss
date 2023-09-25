@@ -696,7 +696,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background: #202020;
+    background: #191919;
     z-index: 3;
     @include transition(transform .3s);
   }
@@ -859,25 +859,77 @@
   }
 
   .resource-type-tabs {
-    background: firebrick;
     max-width: $maxWidth;
-    margin-left: $leftEdgeOffset;
-    padding: 0;
-    display: inline-block;
+    margin: 1em auto 0 auto;
+    padding: 0 0 0 $leftEdgeOffset;
+    position: relative;
+    right: 1px;
 
     .resource-tab {
       display: inline-block;
+      border: 1px solid rgba(#000, .5);
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      background: rgba(#fff, .1);
+      padding: 1em 1.5em .75em 1.5em;
+      margin-left: .5em;
+      font-size: 1em;
+      line-height: 1;
+      cursor: pointer;
+      opacity: .66;
+      position: relative;
+      top: 1px;
+      @include transition(all .3s);
+
+      .label {
+        display: inline-block;
+        font-weight: bold;
+      }
+
+      &.active {
+        opacity: 1;
+        //top: 1px;
+        z-index: 2;
+      }
+
+      &:not(.active) {
+        //top: 0;
+        z-index: 1;
+      }
+
+      &.poems-tab {
+        background: #202020;
+      }
+
+      &.extras-tab {
+        $color: #4d3a32;
+
+        background: darken(#d8d6ce, 15%);
+        color: darken(#4d3a32, 5%);
+        border-color: $pp_manuscriptInk;
+
+        .note-trigger {
+          background: rgba($color, .75);
+          color: rgba(#fff, .75);
+
+          &:hover {
+            background: rgba($color, 1);
+            color: rgba(#fff, 1);
+          }
+        }
+      }
     }
   }
 
   .toolbar-box {
-    background: rgba(255, 255, 255, .02);
-    border-top: 1px solid rgba(0, 0, 0, .25);
-    //border-bottom: 1px solid rgba(#111, .1);
+    background: #202020;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    border-bottom: 1px solid rgba(#000, .15);
     overflow: hidden;
     @include transition(all .3s);
     max-width: $maxWidth;
     margin: 0 auto;
+    position: relative;
 
 
     .toolbar {
@@ -899,22 +951,73 @@
           display: inline-block;
         }
 
-        //&.sort {
-          //opacity: 0;
+        &.sort {
+          .status-box {
+            max-width: $maxWidth;
+            margin: 0 auto;
 
-          //@include breakpoint(mobile) {
-            //margin-left: $mobileLeftEdgeOffset;
-          //}
+            .status {
+              $themeColor: $pp_manuscriptPaper;
 
-          //.label::after {
-          //  margin-left: 1px;
-          //  content: '';
-          //  display: inline-block;
-          //  width: 1em;
-          //  height: .66em;
-          //  background: url(../../../images/triangle-down-w.svg) no-repeat 50% 50%;
-          //}
-        //}
+              display: inline-block;
+              font-size: .85em;
+              letter-spacing: 1px;
+              color: rgba($themeColor, .5);
+              margin: 1.25em 0;
+              @include transition(all .2s);
+
+              @include breakpoint(mobile) {
+                margin: 1.5em 1.5em 1.5em 4.5em;
+                font-size: 1em;
+              }
+
+              .status-eye {
+                width: 1em;
+                position: relative;
+                top: 2px;
+                margin-right: .45em;
+                opacity: .5;
+
+                .st0 {
+                  fill: rgba($themeColor, 1);
+                }
+              }
+
+              &.hi {
+                //background: rgba($pp_manuscriptPaper, .05);
+                color: rgba($pp_keywordColor, .66);
+                //border-color: rgba($pp_manuscriptPaper, .15);
+
+                .status-eye {
+                  opacity: 1;
+
+                  .st0 {
+                    fill: rgba($pp_keywordColor, .66);
+                  }
+                }
+
+                .status-reset {
+                  display: inline-block;
+                  color: rgba($pp_RoyalBlueLight, .75);
+                  border-bottom: 1px rgba($pp_RoyalBlueLight, .66) dashed;
+                  @include transition(all .2s);
+
+                  &:hover {
+                    color: rgba($pp_RoyalBlueLight, 1);
+                    border-bottom: 1px rgba($pp_RoyalBlueLight, .85) dashed;
+                  }
+                }
+              }
+
+              .status-reset {
+                margin-left: .5em;
+                cursor: pointer;
+                display: none;
+                line-height: 120%;
+              }
+            }
+          }
+        }
 
         &.edition {
           @include vcenter;
@@ -948,114 +1051,104 @@
           }
         }
       }
+    }
+  }
 
-      .note-trigger {
-        display: inline-block;
-        vertical-align: middle;
-        position: relative;
-        bottom: 1px;
-        -webkit-transition: background 0.2s;
-        transition: background 0.2s;
-        width: 1.25em;
-        height: 1.25em;
-        border-radius: 50%;
-        margin-left: .66em;
-        text-align: center;
-        line-height: 1.25em;
-        font-size: .66em;
-        font-style: italic;
-        opacity: .75;
-        color: #000;
-        background: rgba(255, 255, 255, 0.5);
+  .resource-type-tabs.extras-on {
+    & + .toolbar-box {
+      background: darken(#d8d6ce, 15%);
+      border-top: 1px solid $pp_manuscriptInk;
 
-        &:hover {
-          background: rgba(255, 255, 255, 0.66);
+      .toolbar {
+        .col {
+          &.edition,
+          &.c-flag {
+            display: none;
+          }
+
+          &.sort {
+            .status-box {
+              .status {
+                color: $pp_manuscriptInk;
+
+                .status-eye {
+                  opacity: 1;
+
+                  .st0 {
+                    fill: $pp_manuscriptInk;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
   }
 
-  .status-box {
-    padding-top: 8.8em;
+  // Note triggers
+  .note-trigger {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 50%;
+    margin-left: .66em;
+    text-align: center;
+    line-height: 1.25em;
+    font-size: .66em;
+    font-style: italic;
+    opacity: .75;
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.66);
+    }
+  }
+
+  // Top offset
+  .index-top-padding {
+    padding-top: 13.5em;
+  }
+
+  // Indices
+  #extras-section,
+  #poems-section {
     max-width: $maxWidth;
     margin: 0 auto;
+  }
 
-    .status {
-      $themeColor: $pp_manuscriptPaper;
+  // Extras section
+  #extras-section {
+    overflow: hidden;
+    background: darken(#d8d6ce, 10%);
+    color: $pp_manuscriptInk;
+    height: 0;
 
-      display: inline-block;
-      //background: rgba(#080808, .33);
-      border: 1px solid rgba($themeColor, .2);
-      border-radius: 4px;
-      padding: .6em 1em;
-      font-size: .85em;
-      letter-spacing: 1px;
-      color: rgba($themeColor, .5);
-      margin: 3em calc($leftEdgeOffset / .86) 0 calc($leftEdgeOffset / .86);
-      @include transition(all .2s);
+    .list-view {
+      padding: $leftEdgeOffset;
+      opacity: .5;
+      text-align: center;
+    }
 
-      @include breakpoint(mobile) {
-        margin: 1.5em 1.5em 1.5em 4.5em;
-        font-size: 1em;
-      }
-
-      .status-eye {
-        width: 1em;
-        position: relative;
-        top: 2px;
-        margin-right: .45em;
-        opacity: .5;
-
-        .st0 {
-          fill: rgba($themeColor, 1);
-        }
-      }
-
-      &.hi {
-        background: rgba($pp_manuscriptPaper, .05);
-        color: rgba($pp_keywordColor, .66);
-        border-color: rgba($pp_manuscriptPaper, .15);
-
-        .status-eye {
-          opacity: 1;
-
-          .st0 {
-            fill: rgba($pp_keywordColor, .66);
-          }
-        }
-
-        .status-reset {
-          display: inline-block;
-          color: rgba($pp_RoyalBlueLight, .75);
-          border-bottom: 1px rgba($pp_RoyalBlueLight, .66) dashed;
-          @include transition(all .2s);
-
-          &:hover {
-            color: rgba($pp_RoyalBlueLight, 1);
-            border-bottom: 1px rgba($pp_RoyalBlueLight, .85) dashed;
-          }
-        }
-      }
-
-      .status-reset {
-        margin-left: .5em;
-        cursor: pointer;
-        display: none;
-        line-height: 120%;
-      }
+    &.enabled {
+      height: auto;
     }
   }
 
   // Poems section
   #poems-section {
-    max-width: $maxWidth;
-    margin: 0 auto;
+    background: #222;
 
     /* List view */
     .list-view {
       color: #fff;
       padding: 0 0 0 $leftEdgeOffset;
-      //border-top: 1px solid rgba(255, 255, 255, .08);
 
       @include breakpoint(mobile) {
         padding-left: 4.5em;
@@ -1227,7 +1320,7 @@
             position: absolute;
             width: 61%;
             height: 100%;
-            background-image: linear-gradient(90deg, rgba(#181818, 0) 0%, rgba(#181818, .8) 100%);
+            background-image: linear-gradient(90deg, rgba(#222, 0) 0%, rgba(#222, .85) 75%);
             right: 0;
             top: 0;
             bottom: 0;

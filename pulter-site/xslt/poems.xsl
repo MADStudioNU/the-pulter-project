@@ -6457,11 +6457,11 @@
               </div>
             </div>
             <div class="resource-type-tabs">
-              <div class="resource-tab poems-tab active">
-                <span class="label">Poems</span>
+              <div class="resource-tab poems-tab active" data-resource-type="poems">
+                <span class="label sssi-regular">Poems</span>
                 <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
-              <div class="resource-tab extras-tab">
+              <div class="resource-tab extras-tab" data-resource-type="extras">
                 <span class="label">Extras</span>
                 <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
@@ -6469,8 +6469,10 @@
             <div class="toolbar-box">
               <div class="toolbar">
                 <div class="col sort">
-                  <span class="label">Poems</span>
-                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+                  <div class="status-box">
+                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
+                    </div>
+                  </div>
                 </div>
                 <div class="col edition">
                   <span class="label">Editions</span>
@@ -6483,10 +6485,33 @@
               </div>
             </div>
           </div>
-          <div class="status-box">
-            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
+          <div class="index-top-padding"><xsl:text> </xsl:text></div>
+          <section id="extras-section">
+            <div class="list-view" id="extras-index-box">
+              <ul class="extras-list grid">
+                <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+                  <li>
+                    <div>
+                      Exploration <xsl:value-of select="./pp:title"/> by <xsl:value-of select="./pp:author"/>
+                    </div>
+                  </li>
+                </xsl:for-each>
+                <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
+                  <xsl:variable name="poem" select="./@id"/>
+                  <xsl:for-each select="./pp:curations/pp:curation">
+                    <li>
+                      <div>
+                        Poem <xsl:value-of select="$poem"/>
+                      </div>
+                      <div>
+                        Poem <xsl:value-of select="./pp:title"/> by <xsl:value-of select="./pp:author"/>
+                      </div>
+                    </li>
+                  </xsl:for-each>
+                </xsl:for-each>
+              </ul>
             </div>
-          </div>
+          </section>
           <section id="poems-section">
             <div class="list-view" id="poem-index-box">
               <ul class="poem-list grid">
