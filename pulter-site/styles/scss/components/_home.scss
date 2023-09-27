@@ -873,13 +873,12 @@
       background: rgba(#fff, .1);
       padding: 1em 1.5em .75em 1.5em;
       margin-left: .5em;
-      font-size: 1em;
+      //font-size: 1.1em;
       line-height: 1;
       cursor: pointer;
-      opacity: .66;
       position: relative;
-      top: 1px;
-      @include transition(all .3s);
+      //@include transition(top .1s);
+      @include transition(background .2s);
 
       .label {
         display: inline-block;
@@ -887,18 +886,26 @@
       }
 
       &.active {
-        opacity: 1;
-        //top: 1px;
+        //opacity: 1;
         z-index: 2;
+        top: 1px;
       }
 
       &:not(.active) {
-        //top: 0;
-        z-index: 1;
+        top: 3px;
+        z-index: 0;
+
+        .label {
+          opacity: .75;
+        }
       }
 
       &.poems-tab {
         background: #202020;
+
+        &:not(.active) {
+          background: #303030;
+        }
       }
 
       &.extras-tab {
@@ -917,6 +924,10 @@
             color: rgba(#fff, 1);
           }
         }
+
+        &:not(.active) {
+          background: darken(#d8d6ce, 25%);
+        }
       }
     }
   }
@@ -926,11 +937,11 @@
     border-top: 1px solid rgba(0, 0, 0, .5);
     border-bottom: 1px solid rgba(#000, .15);
     overflow: hidden;
-    @include transition(all .3s);
     max-width: $maxWidth;
     margin: 0 auto;
     position: relative;
-
+    box-shadow: 0 -3px 3px rgba(#000, .15);
+    @include transition(background .2s);
 
     .toolbar {
       max-width: $maxWidth;
@@ -963,7 +974,7 @@
               font-size: .85em;
               letter-spacing: 1px;
               color: rgba($themeColor, .5);
-              margin: 1.25em 0;
+              margin: 1.5em 0;
               @include transition(all .2s);
 
               @include breakpoint(mobile) {
@@ -1015,6 +1026,10 @@
                 display: none;
                 line-height: 120%;
               }
+            }
+
+            &.for-extras {
+              display: none;
             }
           }
         }
@@ -1079,6 +1094,14 @@
                   }
                 }
               }
+
+              &.for-poems {
+                display: none;
+              }
+
+              &.for-extras {
+                display: block;
+              }
             }
           }
         }
@@ -1131,13 +1154,80 @@
     height: 0;
 
     .list-view {
-      padding: $leftEdgeOffset;
-      opacity: .5;
-      text-align: center;
+      padding: 2.25em $leftEdgeOffset;
     }
 
     &.enabled {
       height: auto;
+    }
+
+    ul.extras-list.grid {
+      //background: thistle;
+      text-align: left;
+
+      li {
+        margin: .66em;
+        //vertical-align: top;
+        display: inline-block;
+        width: 16em;
+        border: 1px solid rgba($pp_manuscriptInk, .33);
+        border-radius: 8px;
+        background: rgba($pp_manuscriptInk, .1);
+        padding: .66em 1em 1em 1em;
+        //position: relative;
+
+        &.exploration {
+          .badge {
+            padding-left: .33em;
+            font-size: ms(-3);
+          }
+        }
+
+        .title {
+          font-size: ms(-1);
+          color: #282828;
+          display: block;
+          font-weight: bold;
+        }
+
+        .by-line {
+          font-size: ms(-2);
+          display: block;
+          font-style: italic;
+          margin-top: .5em;
+          opacity: .85;
+        }
+
+        &.curation {
+
+        }
+
+        .badge {
+          $size: 1em;
+
+          //position: absolute;
+          //right: .75em;
+          //top: .75em;
+          //float: right;
+          //margin-left: 1em;
+          text-transform: uppercase;
+          margin-bottom: 1em;
+          font-size: .75em;
+          border-radius: 2px;
+          display: inline-block;
+          min-width: $size;
+          height: $size;
+          line-height: $size;
+          text-align: center;
+          padding: 2px;
+          background: rgba(#080808, .1);
+          letter-spacing: 1px;
+          color: rgba(#080808, .66);
+          text-shadow: 0 1px 0 #aaa;
+          bottom: 0.19em;
+          box-shadow: inset -1px 0 0 rgba(8,8,8,.03), inset 1px 0 0 rgba(8,8,8,.03), inset 0 1px 0 rgba(8,8,8,.03), inset 0 -1px 0 rgba(8,8,8,.03);
+        }
+      }
     }
   }
 
@@ -1456,7 +1546,7 @@
             background: rgba($pp_manuscriptPaper, .15);
             line-height: 1;
             padding: .25em;
-            font-style: italic;
+            //font-style: italic;
             border-radius: 4px;
             @include transition(all .2s);
 

@@ -6434,7 +6434,7 @@
           <a class="to-top-action" href="#poems">
             <img src="/images/up.svg"/>
           </a>
-          <a class="to-exploration-action" href="#explorations"><img src="/images/exploration-mock.svg"/>Explorations</a>
+<!--          <a class="to-exploration-action" href="#explorations"><img src="/images/exploration-mock.svg"/>Explorations</a>-->
           <div class="pp-band" id="poems">
             <xsl:text> </xsl:text>
           </div>
@@ -6463,14 +6463,18 @@
               </div>
               <div class="resource-tab extras-tab" data-resource-type="extras">
                 <span class="label">Extras</span>
-                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#extras-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
             </div>
             <div class="toolbar-box">
               <div class="toolbar">
                 <div class="col sort">
-                  <div class="status-box">
+                  <div class="status-box for-poems">
                     <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
+                    </div>
+                  </div>
+                  <div class="status-box for-extras">
+                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text>[TBA]</xsl:text></span> in <span class="sort-status">some order</span>. <span class="status-reset">Reset</span>
                     </div>
                   </div>
                 </div>
@@ -6490,23 +6494,56 @@
             <div class="list-view" id="extras-index-box">
               <ul class="extras-list grid">
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-                  <li>
-                    <div>
-                      Exploration <xsl:value-of select="./pp:title"/> by <xsl:value-of select="./pp:author"/>
-                    </div>
-                  </li>
+                  <xsl:element name="li">
+                    <xsl:attribute name="class">
+                      <xsl:value-of select="'exploration'"/>
+                    </xsl:attribute>
+                    <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'badge'"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="'exploration'"/>
+                    </xsl:element>
+                    <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'title lato'"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="./pp:title"/>
+                    </xsl:element>
+                    <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'by-line'"/>
+                      </xsl:attribute>
+                      by <xsl:value-of select="./pp:author"/>
+                    </xsl:element>
+                  </xsl:element>
                 </xsl:for-each>
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
-                  <xsl:variable name="poem" select="./@id"/>
+                  <xsl:variable name="poemNumber" select="./@id"/>
                   <xsl:for-each select="./pp:curations/pp:curation">
-                    <li>
-                      <div>
-                        Poem <xsl:value-of select="$poem"/>
-                      </div>
-                      <div>
-                        Poem <xsl:value-of select="./pp:title"/> by <xsl:value-of select="./pp:author"/>
-                      </div>
-                    </li>
+                    <xsl:element name="li">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'curation'"/>
+                      </xsl:attribute>
+                      <xsl:element name="span">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'badge'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="$poemNumber"/>
+                      </xsl:element>
+                      <xsl:element name="span">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'title lato'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="./pp:title"/>
+                      </xsl:element>
+                      <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'by-line'"/>
+                      </xsl:attribute>
+                      by <xsl:value-of select="./pp:author"/>
+                    </xsl:element>
+                    </xsl:element>
                   </xsl:for-each>
                 </xsl:for-each>
               </ul>
@@ -6839,6 +6876,16 @@
             </p>
             <p>
               Or click on a tag (e.g., <span class="tag-mention filter-tag" data-filter=".astronomy">astronomy</span>, <span class="tag-mention filter-tag" data-filter=".insects">insects</span>, <span class="tag-mention filter-tag" data-filter=".food">food</span>) to filter the poems.
+            </p>
+          </div>
+        </div>
+        <div id="extras-index-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3><span class="it">The Pulter Project</span> Extras Index</h3>
+          <div class="c">
+            <img class="blurb-image" src="/images/tpp-extras-index-blurb.png"/>
+            <p>
+              [ EXTRAS INDEX COPY ]
             </p>
           </div>
         </div>

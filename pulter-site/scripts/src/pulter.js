@@ -16,8 +16,11 @@ var TPP = (function ($) {
       console.log('%c Welcome to the Pulter Project.', 'background: #FBF0FF; color: #330657;');
       console.log('%c⚡ MADStudio', 'background: #FBF0FF; color: #330657;');
 
-      // Isotope instance
+      // Isotope instance for the poem index
       var $i;
+
+      // Isotope instance for the extras
+      var $ii;
 
       // Local vars
       var hash = window.location.hash.split('#')[1]; // 'undefined' if not
@@ -37,7 +40,8 @@ var TPP = (function ($) {
       var $explorationsAction = $actions.find('#explorations-action');
       var $dropUps = $actions.find('.pseudo');
       var $toIntro = $body.find('.to-intro');
-      var $status = $body.find('.status');
+      var $poemFSStatus = $body.find('.status-box.for-poems').find('.status');
+      var $extrasFSStatus = $body.find('.status-box.for-extras').find('.status');
       var $imgCollection = $body.find('#pp-home-image-collection');
       var $explorationBlurb = $('.exploration-blurb');
       var $explorationTriggers = $('.exploration-trigger');
@@ -256,6 +260,7 @@ var TPP = (function ($) {
       }
 
       function enableInteractivity() {
+        // The poems
         if (!$i) {
           $i = $('.poem-list.grid').isotope({
             layoutMode: 'vertical',
@@ -272,13 +277,13 @@ var TPP = (function ($) {
             var $self = $(this);
             var keyword = $self.data('filter');
 
-            $status.addClass('hi');
+            $poemFSStatus.addClass('hi');
             $i.isotope({ filter: keyword });
             $('html,body').scrollTop(0);
 
             var num = $i.isotope('getFilteredItemElements').length;
 
-            $status
+            $poemFSStatus
               .find('.filter-status')
               .text(
                 num +
@@ -291,11 +296,25 @@ var TPP = (function ($) {
 
           $('.status-reset').on('click', function () {
             $i.isotope({ filter: '*' });
-            $status.removeClass('hi');
+            $poemFSStatus.removeClass('hi');
             resetStatusString();
           });
         } else {
           $i.isotope('layout');
+        }
+
+        if (!$ii) {
+          $ii = $('.extras-list.grid').isotope({
+            layoutMode: 'masonry',
+            stagger: 10,
+            // getSortData: {}
+          });
+
+          // $i.on('arrangeComplete', function (event, filteredItems) {
+          //   $status.find('.poem-counter').text(filteredItems.length);
+          // });
+        } else {
+          $ii.isotope('layout');
         }
       }
 
@@ -356,7 +375,7 @@ var TPP = (function ($) {
       }
 
       function resetStatusString() {
-        $status.find('.filter-status')
+        $poemFSStatus.find('.filter-status')
           .text('' + poems.filter(
             function(poem) {
               return poem.isPublished;
