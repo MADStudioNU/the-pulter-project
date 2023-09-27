@@ -176,13 +176,13 @@ var TPP = (function ($) {
             $body.removeClass('scrolled');
           }
 
-          if (
-            $w.scrollTop() >= $poemList.outerHeight()
-          ) {
-            $body.addClass('beyond');
-          } else {
-            $body.removeClass('beyond');
-          }
+          // if (
+          //   $w.scrollTop() >= $poemList.outerHeight()
+          // ) {
+          //   $body.addClass('beyond');
+          // } else {
+          //   $body.removeClass('beyond');
+          // }
         }, 300
       );
 
@@ -256,24 +256,21 @@ var TPP = (function ($) {
           }
           return false;
         });
-        resetStatusString();
+        resetPoemStatusString();
       }
 
       function enableInteractivity() {
         // The poems
         if (!$i) {
-          $i = $('.poem-list.grid').isotope({
-            layoutMode: 'vertical',
-            // stagger: 10,
-            // getSortData: {}
+          var $poemListGrid = $('.poem-list.grid');
+          $i = $poemListGrid.isotope({
+            layoutMode: 'vertical'
           });
 
-          // $i.on('arrangeComplete', function (event, filteredItems) {
-          //   $status.find('.poem-counter').text(filteredItems.length);
-          // });
-
           // Click event handlers
-          $('.filter-tag').on('click', function () {
+          $poemListGrid
+            .find('.filter-tag')
+            .on('click', function () {
             var $self = $(this);
             var keyword = $self.data('filter');
 
@@ -294,25 +291,70 @@ var TPP = (function ($) {
             return false;
           });
 
-          $('.status-reset').on('click', function () {
-            $i.isotope({ filter: '*' });
-            $poemFSStatus.removeClass('hi');
-            resetStatusString();
-          });
+          // Reset action
+          $poemFSStatus
+            .find('.status-reset')
+            .on('click', function () {
+              $i.isotope({ filter: '*' });
+              $poemFSStatus.removeClass('hi');
+              resetPoemStatusString();
+            });
         } else {
           $i.isotope('layout');
         }
 
+        // The extras
         if (!$ii) {
-          $ii = $('.extras-list.grid').isotope({
+          var $extrasListGrid = $('.extras-list.grid');
+          var $filterButtons = $('.extras-index-filters')
+            .find('.filter');
+          $ii = $extrasListGrid.isotope({
             layoutMode: 'masonry',
-            stagger: 10,
-            // getSortData: {}
+            stagger: 10
           });
+          var totalNumberOfItems = $ii.isotope('getItemElements').length;
+          resetExtraStatusString(totalNumberOfItems);
 
-          // $i.on('arrangeComplete', function (event, filteredItems) {
-          //   $status.find('.poem-counter').text(filteredItems.length);
-          // });
+          // Click event handlers
+          $filterButtons
+            .on('click', '.label', function () {
+              var $this = $(this);
+              var keyword = $this.data('filter');
+
+              if (!$this.hasClass('active')) {
+                $filterButtons.find('.label').removeClass('active');
+                $this.toggleClass('active');
+              }
+
+              $extrasFSStatus.addClass('hi');
+              $ii.isotope({ filter: keyword });
+              $('html,body').scrollTop(0);
+
+              var num = $ii.isotope('getFilteredItemElements').length;
+              var filteredResourceType = $ii.data('isotope').options.filter.slice(1) || 'all';
+
+              $extrasFSStatus
+                .find('.filter-status')
+                .text(
+                  num + ' ' +
+                  filteredResourceType +
+                  (+num > 1 ? 's' : '')
+                );
+
+              return false;
+            });
+
+          // Reset action
+          $extrasFSStatus
+            .find('.status-reset')
+            .on('click', function () {
+              $ii.isotope({ filter: '*' });
+              $extrasFSStatus.removeClass('hi');
+              $filterButtons.find('.label').removeClass('active');
+
+              // reset the counter
+              resetExtraStatusString(totalNumberOfItems);
+            });
         } else {
           $ii.isotope('layout');
         }
@@ -374,13 +416,20 @@ var TPP = (function ($) {
         });
       }
 
-      function resetStatusString() {
-        $poemFSStatus.find('.filter-status')
-          .text('' + poems.filter(
+      function resetPoemStatusString() {
+        $poemFSStatus
+          .find('.filter-status')
+          .text(poems.filter(
             function(poem) {
               return poem.isPublished;
             }).length + ' poems '
         );
+      }
+
+      function resetExtraStatusString(totalNumberOfExtras) {
+        $extrasFSStatus
+          .find('.filter-status')
+          .text('all ' + totalNumberOfExtras + ' Curations and Explorations');
       }
 
       function playSplashAnimation() {

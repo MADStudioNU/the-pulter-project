@@ -2,6 +2,7 @@
   $maxWidth: 100em;
   $leftEdgeOffset: 4.5em;
   $mobileLeftEdgeOffset: 2.25em;
+  $mainColumnWidth: 66%;
 
   position: relative;
   color: #fff;
@@ -487,201 +488,201 @@
   }
 
   // Explorations section
-  #explorations {
-    position: relative;
-    color: $pp_manuscriptInk;
-    background: url('/images/explorations-background.jpg') no-repeat;
-    background-size: cover;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-      display: block;
-      background: rgba(#e6e3db, .66);
-      background: linear-gradient(0deg, rgba(#F5f5f5, .9) 0%, rgba(#e6e3db, 0) 100%);
-    }
-
-    .exploration-blurb {
-      position: relative;
-      background: rgba(#fff, 1);
-      min-height: 0;
-      overflow: hidden;
-      max-width: 61%;
-      font-size: ms(-1);
-      color: rgba($pp_manuscriptInk, 1);
-      margin-bottom: 4em;
-
-      @include breakpoint(mobile) { max-width: 90%;}
-
-      @include breakpoint(mobile) {
-        max-width: 100%;
-      }
-
-      &.muted {
-        @include transition(all .2s);
-        height: 0;
-        min-height: 0;
-        margin-top: 1.5em;
-        border: none;
-        padding: 0;
-        margin-bottom: 0;
-      }
-    }
-
-    .explorations-box {
-      max-width: $maxWidth;
-      margin: 0 auto;
-      padding: 4.5em 0 4.5em 0;
-
-      @include breakpoint(mobile) {
-        padding: 3em 0;
-        //margin-bottom: 6em;
-      }
-
-      .explorations {
-        padding: 0 4.5em;
-
-        @include breakpoint(mobile) {
-          padding-left: 2.25em;
-          width: auto;
-        }
-      }
-    }
-
-    .label {
-      color: #282828;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      font-size: 1.2em;
-      font-weight: bold;
-      line-height: 100%;
-      margin: 0 0 3em 0;
-      position: relative;
-
-      &::before {
-        $s: 1.25em;
-
-        display: inline-block;
-        position: relative;
-        top: .2em;
-        content: '';
-        width: $s;
-        height: $s;
-        background: url('/images/pp-formal.jpg') no-repeat;
-        background-size: 100% 100%;
-        border-radius: 2px;
-        margin-right: 1em;
-      }
-    }
-
-    //h2 {
-    //  font-size: ms(2);
-    //  color: #282828;
-    //  font-weight: bold;
-    //  margin: 1em 0;
-    //  max-width: 80%;
-    //
-    //  @include breakpoint(mobile) { max-width: 90%; }
-    //}
-
-    .explanatory,
-    .exploration-list {
-
-      @include breakpoint(mobile) {
-        display: block;
-        max-width: 100%;
-      }
-    }
-
-    .exploration-list {
-      margin: 3em 0 1.5em 0;
-
-      @include breakpoint(mobile) {
-        max-width: 90%;
-        margin: 4.5em 0 3em 0;
-      }
-
-      li {
-        $air: 2.25em;
-
-        opacity: .9;
-        position: relative;
-        max-width: 66%;
-        padding-left: 3em;
-        @include transition(opacity .2s);
-
-        &:hover {
-          opacity: 1;
-        }
-
-        @include breakpoint(mobile) {
-          padding-left: 3.33em;
-          max-width: 100%;
-        }
-
-        &:not(:last-child) {
-          margin-bottom: $air;
-          padding-bottom: $air;
-          border-bottom: 1px solid rgba(#282828, .1);
-        }
-
-        .title {
-          color: #282828;
-          font-size: ms(0);
-          cursor: pointer;
-          font-family: $pp_curatorialFont;
-          font-weight: bold;
-
-          &::before {
-            //border: 1px solid rgba(#282828, .1);
-            position: absolute;
-            left: 0;
-            top: .25em;
-            display: inline-block;
-            background: url('/images/exploration-mock.svg') no-repeat;
-            width: .9em;
-            height: .9em * 1.5;
-            content: '';
-
-            @include breakpoint(mobile) {
-              top: .33em;
-            }
-          }
-
-          &.video::after {
-            content: '';
-            display: inline-block;
-            width: 1em;
-            height: .85em;
-            margin-left: .6em;
-            position: relative;
-            top: .12em;
-            background: url('/images/exploration-video-mock.svg') no-repeat;
-            border: 1px solid rgba($pp_manuscriptInk, .15);
-            border-radius: 3px;
-          }
-        }
-
-        .by-line {
-          font-family: $pp_curatorialFont;
-          font-size: ms(-1);
-          color: rgba($pp_manuscriptInk, .75);
-          margin-top: .5em;
-          font-style: italic;
-
-          .by {
-            margin-right: .25em;
-            font-family: $pp_curatorialFont;
-          }
-
-          //.who {}
-        }
-      }
-    }
-  }
+  //#explorations {
+  //  position: relative;
+  //  color: $pp_manuscriptInk;
+  //  background: url('/images/explorations-background.jpg') no-repeat;
+  //  background-size: cover;
+  //
+  //  &::before {
+  //    content: '';
+  //    position: absolute;
+  //    top: 0;
+  //    bottom: 0;
+  //    width: 100%;
+  //    display: block;
+  //    background: rgba(#e6e3db, .66);
+  //    background: linear-gradient(0deg, rgba(#F5f5f5, .9) 0%, rgba(#e6e3db, 0) 100%);
+  //  }
+  //
+  //  .exploration-blurb {
+  //    position: relative;
+  //    background: rgba(#fff, 1);
+  //    min-height: 0;
+  //    overflow: hidden;
+  //    max-width: 61%;
+  //    font-size: ms(-1);
+  //    color: rgba($pp_manuscriptInk, 1);
+  //    margin-bottom: 4em;
+  //
+  //    @include breakpoint(mobile) { max-width: 90%;}
+  //
+  //    @include breakpoint(mobile) {
+  //      max-width: 100%;
+  //    }
+  //
+  //    &.muted {
+  //      @include transition(all .2s);
+  //      height: 0;
+  //      min-height: 0;
+  //      margin-top: 1.5em;
+  //      border: none;
+  //      padding: 0;
+  //      margin-bottom: 0;
+  //    }
+  //  }
+  //
+  //  .explorations-box {
+  //    max-width: $maxWidth;
+  //    margin: 0 auto;
+  //    padding: 4.5em 0 4.5em 0;
+  //
+  //    @include breakpoint(mobile) {
+  //      padding: 3em 0;
+  //      //margin-bottom: 6em;
+  //    }
+  //
+  //    .explorations {
+  //      padding: 0 4.5em;
+  //
+  //      @include breakpoint(mobile) {
+  //        padding-left: 2.25em;
+  //        width: auto;
+  //      }
+  //    }
+  //  }
+  //
+  //  .label {
+  //    color: #282828;
+  //    letter-spacing: 4px;
+  //    text-transform: uppercase;
+  //    font-size: 1.2em;
+  //    font-weight: bold;
+  //    line-height: 100%;
+  //    margin: 0 0 3em 0;
+  //    position: relative;
+  //
+  //    &::before {
+  //      $s: 1.25em;
+  //
+  //      display: inline-block;
+  //      position: relative;
+  //      top: .2em;
+  //      content: '';
+  //      width: $s;
+  //      height: $s;
+  //      background: url('/images/pp-formal.jpg') no-repeat;
+  //      background-size: 100% 100%;
+  //      border-radius: 2px;
+  //      margin-right: 1em;
+  //    }
+  //  }
+  //
+  //  //h2 {
+  //  //  font-size: ms(2);
+  //  //  color: #282828;
+  //  //  font-weight: bold;
+  //  //  margin: 1em 0;
+  //  //  max-width: 80%;
+  //  //
+  //  //  @include breakpoint(mobile) { max-width: 90%; }
+  //  //}
+  //
+  //  .explanatory,
+  //  .exploration-list {
+  //
+  //    @include breakpoint(mobile) {
+  //      display: block;
+  //      max-width: 100%;
+  //    }
+  //  }
+  //
+  //  .exploration-list {
+  //    margin: 3em 0 1.5em 0;
+  //
+  //    @include breakpoint(mobile) {
+  //      max-width: 90%;
+  //      margin: 4.5em 0 3em 0;
+  //    }
+  //
+  //    li {
+  //      $air: 2.25em;
+  //
+  //      opacity: .9;
+  //      position: relative;
+  //      max-width: 66%;
+  //      padding-left: 3em;
+  //      @include transition(opacity .2s);
+  //
+  //      &:hover {
+  //        opacity: 1;
+  //      }
+  //
+  //      @include breakpoint(mobile) {
+  //        padding-left: 3.33em;
+  //        max-width: 100%;
+  //      }
+  //
+  //      &:not(:last-child) {
+  //        margin-bottom: $air;
+  //        padding-bottom: $air;
+  //        border-bottom: 1px solid rgba(#282828, .1);
+  //      }
+  //
+  //      .title {
+  //        color: #282828;
+  //        font-size: ms(0);
+  //        cursor: pointer;
+  //        font-family: $pp_curatorialFont;
+  //        font-weight: bold;
+  //
+  //        &::before {
+  //          //border: 1px solid rgba(#282828, .1);
+  //          position: absolute;
+  //          left: 0;
+  //          top: .25em;
+  //          display: inline-block;
+  //          background: url('/images/exploration-mock.svg') no-repeat;
+  //          width: .9em;
+  //          height: .9em * 1.5;
+  //          content: '';
+  //
+  //          @include breakpoint(mobile) {
+  //            top: .33em;
+  //          }
+  //        }
+  //
+  //        &.video::after {
+  //          content: '';
+  //          display: inline-block;
+  //          width: 1em;
+  //          height: .85em;
+  //          margin-left: .6em;
+  //          position: relative;
+  //          top: .12em;
+  //          background: url('/images/exploration-video-mock.svg') no-repeat;
+  //          border: 1px solid rgba($pp_manuscriptInk, .15);
+  //          border-radius: 3px;
+  //        }
+  //      }
+  //
+  //      .by-line {
+  //        font-family: $pp_curatorialFont;
+  //        font-size: ms(-1);
+  //        color: rgba($pp_manuscriptInk, .75);
+  //        margin-top: .5em;
+  //        font-style: italic;
+  //
+  //        .by {
+  //          margin-right: .25em;
+  //          font-family: $pp_curatorialFont;
+  //        }
+  //
+  //        //.who {}
+  //      }
+  //    }
+  //  }
+  //}
 
   // Downloads lightbox
   .featherlight {
@@ -842,16 +843,17 @@
   }
 
   // When scrolled passed the index
-  &.beyond {
-    .fixed-box {
-      @include transform(translateY(-100%));
-    }
+  //&.beyond {
+  //  .fixed-box {
+  //    @include transform(translateY(-100%));
+  //  }
+  //
+  //  .to-exploration-action {
+  //    bottom: -3em;
+  //    right: 1.5em;
+  //  }
+  //}
 
-    .to-exploration-action {
-      bottom: -3em;
-      right: 1.5em;
-    }
-  }
   // Content wrapper
   #c {
     display: none;
@@ -871,7 +873,7 @@
       border-bottom: none;
       border-radius: 8px 8px 0 0;
       background: rgba(#fff, .1);
-      padding: 1em 1.5em .75em 1.5em;
+      padding: .9em 1.5em .75em 1.5em;
       margin-left: .5em;
       //font-size: 1.1em;
       line-height: 1;
@@ -898,6 +900,10 @@
         .label {
           opacity: .75;
         }
+
+        .note-trigger {
+          opacity: .66;
+        }
       }
 
       &.poems-tab {
@@ -912,8 +918,12 @@
         $color: #4d3a32;
 
         background: darken(#d8d6ce, 15%);
-        color: darken(#4d3a32, 5%);
-        border-color: $pp_manuscriptInk;
+        color: darken($color, 5%);
+        border-color: rgba($color, .5);
+
+        .label {
+          font-size: 1.05em;
+        }
 
         .note-trigger {
           background: rgba($color, .75);
@@ -940,7 +950,7 @@
     max-width: $maxWidth;
     margin: 0 auto;
     position: relative;
-    box-shadow: 0 -3px 3px rgba(#000, .15);
+    box-shadow: 0 -3px 3px rgba(#111, .15);
     @include transition(background .2s);
 
     .toolbar {
@@ -995,9 +1005,7 @@
               }
 
               &.hi {
-                //background: rgba($pp_manuscriptPaper, .05);
                 color: rgba($pp_keywordColor, .66);
-                //border-color: rgba($pp_manuscriptPaper, .15);
 
                 .status-eye {
                   opacity: 1;
@@ -1036,9 +1044,8 @@
 
         &.edition {
           @include vcenter;
-          left: 61%;
+          left: $mainColumnWidth;
           position: absolute;
-          cursor: pointer;
 
           &::after {
             content: '';
@@ -1050,12 +1057,7 @@
         }
 
         &.c-flag {
-          @include vcenter;
-          right: 3em;
-
-          @include breakpoint(mobile) {
-            display: none;
-          }
+          display: none;
         }
 
         &.on {
@@ -1076,11 +1078,6 @@
 
       .toolbar {
         .col {
-          &.edition,
-          &.c-flag {
-            display: none;
-          }
-
           &.sort {
             .status-box {
               .status {
@@ -1102,6 +1099,55 @@
               &.for-extras {
                 display: block;
               }
+            }
+          }
+
+          &.edition {
+            display: none;
+          }
+
+          &.c-flag {
+            display: block;
+            @include vcenter;
+            right: 4.5em;
+
+            .extras-index-filters {
+              list-style: none;
+
+              li {
+                display: inline-block;
+
+                &:not(:last-child) {
+                  margin-right: 1.75em;
+                }
+
+                .label {
+                  color: #282828;
+                  opacity: .85;
+                  cursor: pointer;
+                  display: inline-block;
+                  padding: 0;
+
+                  &.active {
+                    font-weight: bold;
+                    opacity: 1;
+                  }
+                }
+
+                .note-trigger {
+                  background: rgba($pp_manuscriptInk, .5);
+                  color: rgba(#fff, .66);
+
+                  &:hover {
+                    background: rgba($pp_manuscriptInk, .9);
+                    color: rgba(#fff, 1);
+                  }
+                }
+              }
+            }
+
+            @include breakpoint(mobile) {
+              display: none;
             }
           }
         }
@@ -1173,15 +1219,12 @@
         border: 1px solid rgba($pp_manuscriptInk, .33);
         border-radius: 8px;
         background: rgba($pp_manuscriptInk, .1);
-        padding: .66em 1em 1em 1em;
+        padding: .5em 1em 1em 1em;
         //position: relative;
 
-        &.exploration {
-          .badge {
-            padding-left: .33em;
-            font-size: ms(-3);
-          }
-        }
+        //&.exploration {}
+
+        //&.curation {}
 
         .title {
           font-size: ms(-1);
@@ -1194,12 +1237,8 @@
           font-size: ms(-2);
           display: block;
           font-style: italic;
-          margin-top: .5em;
+          margin-top: .45em;
           opacity: .85;
-        }
-
-        &.curation {
-
         }
 
         .badge {
@@ -1212,14 +1251,14 @@
           //margin-left: 1em;
           text-transform: uppercase;
           margin-bottom: 1em;
-          font-size: .75em;
+          font-size: ms(-4);
           border-radius: 2px;
           display: inline-block;
           min-width: $size;
           height: $size;
           line-height: $size;
           text-align: center;
-          padding: 2px;
+          padding: 2px 2px 2px 3px;
           background: rgba(#080808, .1);
           letter-spacing: 1px;
           color: rgba(#080808, .66);
@@ -1247,12 +1286,9 @@
       ul.poem-list.grid {
         position: relative;
         height: auto;
-        margin-bottom: 1em;
       }
 
       .gi {
-        $mainColumnWidth: 61%;
-
         position: relative;
         margin-left: 0;
         padding: 3em 0;
@@ -1562,7 +1598,7 @@
         }
 
         .poem-editions {
-          padding-top: .5em;
+          padding-top: .66em;
 
           @include breakpoint(mobile) {
             margin: .5em 0 0 0;
@@ -1636,29 +1672,29 @@
           }
         }
 
-        .to-curation {
-          $ratio: calc(5 / 6);
-          $height: 2.25em;
-
-          opacity: .8;
-          position: absolute;
-          width: $height * $ratio;
-          height: $height;
-          right: 5.33em;
-          top: 3.66em;
-          background: url('/images/curation-mock.svg') no-repeat 100% 0;
-          background-size: auto 100%;
-          @include transition(opacity .2s);
-
-          @include breakpoint(mobile) {
-            right: 2.25em;
-            top: 2em;
-          }
-
-            &:hover {
-            opacity: 1;
-          }
-        }
+        //.to-curation {
+        //  $ratio: calc(5 / 6);
+        //  $height: 2.25em;
+        //
+        //  opacity: .8;
+        //  position: absolute;
+        //  width: $height * $ratio;
+        //  height: $height;
+        //  right: 5.33em;
+        //  top: 3.66em;
+        //  background: url('/images/curation-mock.svg') no-repeat 100% 0;
+        //  background-size: auto 100%;
+        //  @include transition(opacity .2s);
+        //
+        //  @include breakpoint(mobile) {
+        //    right: 2.25em;
+        //    top: 2em;
+        //  }
+        //
+        //    &:hover {
+        //    opacity: 1;
+        //  }
+        //}
 
         &.not-published {
           font-size: .8em;

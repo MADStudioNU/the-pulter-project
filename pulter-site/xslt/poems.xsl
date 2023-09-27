@@ -6474,7 +6474,7 @@
                     </div>
                   </div>
                   <div class="status-box for-extras">
-                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text>[TBA]</xsl:text></span> in <span class="sort-status">some order</span>. <span class="status-reset">Reset</span>
+                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text>[TBA]</xsl:text></span>. <span class="status-reset">Reset</span>
                     </div>
                   </div>
                 </div>
@@ -6483,8 +6483,16 @@
                   <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editions-blurb" data-featherlight-variant="home-lightbox">i</a>
                 </div>
                 <div class="col c-flag">
-                  <span class="label">Curations</span>
-                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#curations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                  <ul class="extras-index-filters">
+                    <li class="filter">
+                      <span class="label" data-filter=".curation">Curations</span>
+                      <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#curations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                    </li>
+                    <li class="filter">
+                      <span class="label" data-filter=".exploration">Explorations</span>
+                      <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#explorations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -6529,7 +6537,7 @@
                         <xsl:attribute name="class">
                           <xsl:value-of select="'badge'"/>
                         </xsl:attribute>
-                        <xsl:value-of select="$poemNumber"/>
+                        Poem <xsl:value-of select="$poemNumber"/>
                       </xsl:element>
                       <xsl:element name="span">
                         <xsl:attribute name="class">
@@ -6766,64 +6774,64 @@
                         </xsl:when>
                     </xsl:choose>
                     </div>
-                    <xsl:if test="$isPublished and $hasCurations">
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'js-link to-curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                          <xsl:value-of select="'Jump to curations'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-resource-type">
-                          <xsl:value-of select="'curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-poem-id">
-                          <xsl:value-of select="$poemId"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>
-                        </xsl:attribute>
-                        <xsl:text> </xsl:text>
-                      </xsl:element>
-                    </xsl:if>
+<!--                    <xsl:if test="$isPublished and $hasCurations">-->
+<!--                      <xsl:element name="a">-->
+<!--                        <xsl:attribute name="class">-->
+<!--                          <xsl:value-of select="'js-link to-curation'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="title">-->
+<!--                          <xsl:value-of select="'Jump to curations'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="data-resource-type">-->
+<!--                          <xsl:value-of select="'curation'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="data-poem-id">-->
+<!--                          <xsl:value-of select="$poemId"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="href">-->
+<!--                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:text> </xsl:text>-->
+<!--                      </xsl:element>-->
+<!--                    </xsl:if>-->
                   </xsl:element>
                 </xsl:for-each>
               </ul>
             </div>
           </section>
-          <section id="explorations">
-            <div class="explorations-box">
-              <div class="explorations">
-                <h2 class="label">Explorations</h2>
-                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don’t show again</span></div>
-                <ul class="exploration-list">
-                  <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-<!--                    <xsl:variable name="status" select="./@status"/>-->
-                    <li class="exploration-trigger">
-                      <xsl:attribute name="data-ctx-hash">
-                        <xsl:value-of select="./@hash"/>
-                      </xsl:attribute>
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'link'"/>
-                        </xsl:attribute>
-                        <h3 class="title">
-                          <xsl:if test="@type">
-                            <xsl:attribute name="class">
-                              <xsl:value-of select="concat('title ', @type)"/>
-                            </xsl:attribute>
-                          </xsl:if>
-                          <xsl:apply-templates select="./pp:title/node()"/>
-                        </h3>
-                        <div class="by-line"><span class="by">by</span>
-                          <span class="who"><xsl:value-of select="./pp:author"/></span></div>
-                      </xsl:element>
-                    </li>
-                  </xsl:for-each>
-                </ul>
-              </div>
-            </div>
-          </section>
+<!--          <section id="explorations">-->
+<!--            <div class="explorations-box">-->
+<!--              <div class="explorations">-->
+<!--                <h2 class="label">Explorations</h2>-->
+<!--                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don’t show again</span></div>-->
+<!--                <ul class="exploration-list">-->
+<!--                  <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">-->
+<!--&lt;!&ndash;                    <xsl:variable name="status" select="./@status"/>&ndash;&gt;-->
+<!--                    <li class="exploration-trigger">-->
+<!--                      <xsl:attribute name="data-ctx-hash">-->
+<!--                        <xsl:value-of select="./@hash"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:element name="a">-->
+<!--                        <xsl:attribute name="class">-->
+<!--                          <xsl:value-of select="'link'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <h3 class="title">-->
+<!--                          <xsl:if test="@type">-->
+<!--                            <xsl:attribute name="class">-->
+<!--                              <xsl:value-of select="concat('title ', @type)"/>-->
+<!--                            </xsl:attribute>-->
+<!--                          </xsl:if>-->
+<!--                          <xsl:apply-templates select="./pp:title/node()"/>-->
+<!--                        </h3>-->
+<!--                        <div class="by-line"><span class="by">by</span>-->
+<!--                          <span class="who"><xsl:value-of select="./pp:author"/></span></div>-->
+<!--                      </xsl:element>-->
+<!--                    </li>-->
+<!--                  </xsl:for-each>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </section>-->
           <footer id="footer" class="lato">
             <div class="footer-box">
               <div class="footer">
@@ -6883,9 +6891,9 @@
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Extras Index</h3>
           <div class="c">
-            <img class="blurb-image" src="/images/tpp-extras-index-blurb.png"/>
+            <img class="blurb-image" src="/images/missing.png"/>
             <p>
-              [ EXTRAS INDEX COPY ]
+              [ TBA ]
             </p>
           </div>
         </div>
@@ -6904,6 +6912,14 @@
           <div class="c">
             <img class="blurb-image" src="/images/tpp-curations-blurb.png"/>
             <p>Curations offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem.</p>
+          </div>
+        </div>
+        <div id="explorations-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3><span class="it">The Pulter Project</span> Explorations</h3>
+          <div class="c">
+            <img class="blurb-image" src="/images/missing.png"/>
+            <p>Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.</p>
           </div>
         </div>
         <script src="/scripts/vendors/vendors.js"><xsl:text> </xsl:text></script>
