@@ -1,0 +1,19 @@
+.family-tree-box {
+  $theme: $pp_manuscriptPaper;
+
+  display: block;
+  background: rgba($theme, .2);
+  font-style: italic;
+  height: 42em;
+  overflow: hidden;
+
+  @include breakpoint(mobile) {
+    height: 80vh;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+  }
+}

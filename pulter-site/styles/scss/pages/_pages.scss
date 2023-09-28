@@ -116,6 +116,16 @@
         max-width: 80%;
       }
 
+      // Adjustments for preceding/following widgets
+      $air: 2em;
+
+      &.pre-widget {
+        margin-bottom: $air;
+      }
+
+      &.post-widget {
+        margin-top: $air;
+      }
     }
   }
 
@@ -225,7 +235,7 @@
   }
 
   .img-box {
-    margin: 4.5em 0;
+    margin: $leftEdgeOffset 0;
 
     img {
       width: auto;
@@ -245,7 +255,7 @@
 
   .vid-box {
     $w: 80%;
-    margin: 4.5em 0;
+    margin: $leftEdgeOffset 0;
 
     img {
       width: auto;
@@ -382,6 +392,86 @@
     .fn-anchor {
       bottom: .5em;
       margin-right: .33em;
+    }
+  }
+
+  .collapsible {
+    $borderRadius: 6px;
+    margin: 0 $leftEdgeOffset;
+
+    @include breakpoint(mobile) {
+      margin: 0 $mobileLeftEdgeOffset;
+    }
+
+    .collapsible__toggle {
+      display: none;
+    }
+
+    // Collapsed state
+    .collapsible__label {
+      font-weight: bold;
+      display: inline-block;
+      vertical-align: middle;
+      background: darken($pp_manuscriptInk, 9%);
+      padding: 1em 1.5em;
+      cursor: pointer;
+      border-radius: $borderRadius;
+      color: rgba(#fff, .8);
+      border: 1px solid rgba(#fff, .15);
+      font-size: 1.15em;
+      position: relative;
+      top: 1px;
+      @include transition(all .2s);
+
+      &:hover {
+        background: darken($pp_manuscriptInk, 8%);
+      }
+
+      &::before {
+        $size: 5px;
+
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-left: $size solid rgba(#fff, .8);
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: .5em;
+        @include transform(translateY(-2px));
+        @include transition(transform .2s ease-out);
+      }
+    }
+
+    .collapsible__content {
+      border-radius: 0 $borderRadius $borderRadius $borderRadius;
+      overflow: hidden;
+      max-height: 0;
+      @include transition(max-height .25s ease-in-out);
+    }
+
+    // Expanded state
+    .collapsible__toggle:checked {
+
+      // The label
+      + .collapsible__label {
+        border-radius: $borderRadius $borderRadius 0 0;
+        border-bottom: 1px solid rgba(#000, .0);
+        //background: darken($pp_manuscriptInk, 8%);
+        background: darken(#3E3732, 3%);
+
+        &::before {
+          @include transform(rotate(90deg));
+        }
+
+        // The content
+        + .collapsible__content {
+          max-height: 100vh;
+          border-left: 1px solid rgba(#fff, .25);
+          border-right: 1px solid rgba(#fff, .25);
+          border-bottom: 1px solid rgba(#fff, .25);
+          border-top: 1px solid rgba(#fff, .25);
+        }
+      }
     }
   }
 }
