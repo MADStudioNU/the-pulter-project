@@ -6462,7 +6462,7 @@
                 <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
               <div class="resource-tab extras-tab" data-resource-type="extras">
-                <span class="label">Extras</span>
+                <span class="label">Connections</span>
                 <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#extras-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
             </div>
@@ -6502,6 +6502,23 @@
             <div class="list-view" id="extras-index-box">
               <ul class="extras-list grid">
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+
+
+                  <xsl:element name="a">
+                    <xsl:attribute name="class">
+                      <xsl:value-of select="'link'"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-ctx-hash">
+                      <xsl:value-of select="./@hash"/>
+                    </xsl:attribute>
+                    <h3 class="title">
+                      [TITLE]
+                    </h3>
+                    <div class="by-line">
+                      <span class="who">[AUTHOR]</span>
+                    </div>
+                  </xsl:element>
+
                   <xsl:element name="li">
                     <xsl:attribute name="class">
                       <xsl:value-of select="'exploration'"/>
@@ -6889,7 +6906,7 @@
         </div>
         <div id="extras-index-blurb" class="lightbox-content">
           <span class="dismiss"><xsl:text> </xsl:text></span>
-          <h3><span class="it">The Pulter Project</span> Extras Index</h3>
+          <h3><span class="it">The Pulter Project</span> Connection Index</h3>
           <div class="c">
             <img class="blurb-image" src="/images/missing.png"/>
             <p>
