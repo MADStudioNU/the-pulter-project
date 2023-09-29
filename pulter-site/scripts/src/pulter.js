@@ -88,9 +88,12 @@ var TPP = (function ($) {
       });
 
       // Exploration lightboxes
+      // todo: continue here
       $explorationTriggers.on('click', function () {
         var eHash = $(this).data('ctx-hash');
-        if (eHash) { openExploration(eHash); }
+        if (eHash) {
+          openExploration(eHash);
+        }
         return false;
       });
 
