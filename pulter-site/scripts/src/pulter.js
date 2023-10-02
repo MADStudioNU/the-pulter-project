@@ -57,15 +57,14 @@ var TPP = (function ($) {
             // Check if the Connections tab is requested
             if (hash === 'connections') {
               $connectionsTab.trigger('click');
+            } else {
+              setTimeout(function () {
+                enableInteractivity();
+              }, 400);
             }
 
             $content.fadeIn(600);
             $intro.addClass('animation-skipped');
-
-            setTimeout(function () {
-              enableInteractivity();
-            }, 400);
-
           } else {
             // Load intro
             $intro.fadeIn(600);
@@ -150,8 +149,10 @@ var TPP = (function ($) {
         if(!h) {
           navigateToIntro();
         } else if (h === 'poems') {
+          // todo: need this?
           activatePoemIndexTab();
         } else if (h === 'connections') {
+          // todo: need this?
           activateConnectionIndexTab();
         }
       }
@@ -244,6 +245,8 @@ var TPP = (function ($) {
         resetPoemStatusString();
       }
 
+      // todo: add parameter to enable activation only when specified?
+      // todo: or... split this in two functions?
       function enableInteractivity() {
         // The poems
         if (!$i) {
@@ -339,6 +342,7 @@ var TPP = (function ($) {
               resetConnectionStatusString(totalNumberOfItems);
             });
         } else {
+          console.log('RRRRR');
           $ii.isotope('layout');
         }
       }
