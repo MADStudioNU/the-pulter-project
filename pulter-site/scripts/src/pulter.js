@@ -19,7 +19,7 @@ var TPP = (function ($) {
       // Isotope instance for the poem index
       var $i;
 
-      // Isotope instance for the extras
+      // Isotope instance for the Connection index
       var $ii;
 
       // Local vars
@@ -32,35 +32,38 @@ var TPP = (function ($) {
       var $body = $('#page');
       var $content = $body.find('#c');
       var $poemSection = $content.find('#poems-section');
-      var $extrasSection = $content.find('#extras-section');
-      var $poemList = $poemSection.find('.poem-list');
+      var $connectionSection = $content.find('#connections-section');
+      var $poemListGrid = $poemSection.find('.poem-list.grid');
+      var $connectionListGrid = $connectionSection.find('.connections-list.grid');
       var $intro = $body.find('#intro');
       var $actions = $intro.find('.actions');
-      var $readAction = $actions.find('#read-action');
-      var $explorationsAction = $actions.find('#explorations-action');
+      var $toPoemsAction = $actions.find('#to-poems');
+      var $toConnectionsAction = $actions.find('#to-connections');
       var $dropUps = $actions.find('.pseudo');
       var $toIntro = $body.find('.to-intro');
-      var $poemFSStatus = $body.find('.status-box.for-poems').find('.status');
-      var $extrasFSStatus = $body.find('.status-box.for-extras').find('.status');
+      var $poemFSStatus = $content.find('.status-box.for-poems').find('.status');
+      var $connectionsFSStatus = $content.find('.status-box.for-connections').find('.status');
       var $imgCollection = $body.find('#pp-home-image-collection');
-      var $explorationBlurb = $('.exploration-blurb');
-      var $explorationTriggers = $('.exploration-trigger');
-      var $resourceTypeTabs = $body.find('.resource-tab');
+      var $explorationTriggers = $connectionSection.find('.exploration');
+      var $resourceTypeTabBox = $content.find('.resource-type-tabs');
+      var $resourceTypeTabs = $resourceTypeTabBox.find('.resource-tab');
+      var $connectionsTab = $resourceTypeTabBox.find('.connections-tab');
+      var $poemsTab = $resourceTypeTabBox.find('.poems-tab');
 
-      // Images status
+      // Initial state of UI
       $imgCollection.imagesLoaded()
         .always(function () {
           if (hash && hash !== '0') {
-            // Show UI
+            // Check if the Connections tab is requested
+            if (hash === 'connections') {
+              $connectionsTab.trigger('click');
+            }
+
             $content.fadeIn(600);
             $intro.addClass('animation-skipped');
 
             setTimeout(function () {
               enableInteractivity();
-
-              if (hash === 'explorations') {
-                $('#' + hash)[0].scrollIntoView();
-              }
             }, 400);
 
           } else {
@@ -80,15 +83,14 @@ var TPP = (function ($) {
 
       // Various click event handlers
       $toIntro.on('click', navigateToIntro);
-      $readAction.on('click', navigateToIndex);
-      $explorationsAction.on('click', navigateToExplorations);
+      $toPoemsAction.on('click', activatePoemIndexTab);
+      $toConnectionsAction.on('click', activateConnectionIndexTab);
 
       $dropUps.on('click', function () {
         $(this).toggleClass('expanded');
       });
 
       // Exploration lightboxes
-      // todo: continue here
       $explorationTriggers.on('click', function () {
         var eHash = $(this).data('ctx-hash');
         if (eHash) {
@@ -119,20 +121,12 @@ var TPP = (function ($) {
               .closest('.resource-type-tabs')
               .attr('class', 'resource-type-tabs ' + classToAdd);
 
-            if (type === 'extras') {
-              $poemSection.hide();
-
-              $extrasSection
-                .addClass('enabled')
-                .fadeIn(200);
+            if (type === 'connections') {
+              activateConnectionIndexTab()
             }
 
             if (type === 'poems') {
-              $poemSection.fadeIn();
-
-              $extrasSection
-                .removeClass('enabled')
-                .fadeOut(200);
+              activatePoemIndexTab();
             }
           } else {
             return false;
@@ -142,6 +136,10 @@ var TPP = (function ($) {
 
       // Check if we need to open exploration right away
       if (explorationIsPresent(hash)) {
+        // Switch to the Connections tab
+        $connectionsTab.trigger('click');
+
+        // Open the exploration
         openExploration(hash);
       }
 
@@ -149,22 +147,27 @@ var TPP = (function ($) {
       function onHashChange() {
         var h = window.location.hash.split('#')[1];
 
-        if(!h) { navigateToIntro(); }
-        else if (h === 'poems') { navigateToIndex(); }
+        if(!h) {
+          navigateToIntro();
+        } else if (h === 'poems') {
+          activatePoemIndexTab();
+        } else if (h === 'connections') {
+          activateConnectionIndexTab();
+        }
       }
 
       // Attaching the event listener
       window.addEventListener('hashchange', onHashChange);
 
       // Exploration blurb logic
-      if (!pulterState.has('muteExplorationBlurb')) {
-        $explorationBlurb.removeClass('muted').show();
-
-        $explorationBlurb.find('.muter').on('click', function () {
-          $explorationBlurb.addClass('muted');
-          pulterState.set('muteExplorationBlurb', true);
-        });
-      }
+      // if (!pulterState.has('muteExplorationBlurb')) {
+      //   $explorationBlurb.removeClass('muted').show();
+      //
+      //   $explorationBlurb.find('.muter').on('click', function () {
+      //     $explorationBlurb.addClass('muted');
+      //     pulterState.set('muteExplorationBlurb', true);
+      //   });
+      // }
 
       // Scroll watcher
       var scrollWatcher = debounce(
@@ -172,20 +175,12 @@ var TPP = (function ($) {
           var $w = $(window);
 
           if (
-            $w.scrollTop() >= $poemList.offset().top
+            $w.scrollTop() >= $poemListGrid.offset().top
           ) {
             $body.addClass('scrolled');
           } else {
             $body.removeClass('scrolled');
           }
-
-          // if (
-          //   $w.scrollTop() >= $poemList.outerHeight()
-          // ) {
-          //   $body.addClass('beyond');
-          // } else {
-          //   $body.removeClass('beyond');
-          // }
         }, 300
       );
 
@@ -218,54 +213,40 @@ var TPP = (function ($) {
         window.location.hash = '';
       }
 
-      function navigateToIndex() {
+      function activatePoemIndexTab() {
         $content.fadeIn(600);
         $intro.hide();
+        $connectionSection.removeClass('enabled').fadeOut(200);
+        $poemsTab.trigger('click');
         window.location.hash = 'poems';
-        setTimeout(function () {
-          // enableInteractivity();
-        }, 400);
+        $poemSection.fadeIn();
+        enableInteractivity();
       }
 
-      function navigateToExplorations() {
+      function activateConnectionIndexTab() {
         $content.fadeIn(600);
         $intro.hide();
-        window.location.hash = 'explorations';
-        $('.to-exploration-action').trigger('click');
-        setTimeout(function () {
-          // enableInteractivity();
-          $('#explorations')[0].scrollIntoView();
-        }, 400);
+        $poemSection.hide();
+        $connectionsTab.trigger('click');
+        window.location.hash = 'connections';
+        $connectionSection.addClass('enabled').fadeIn(200);
+        enableInteractivity();
       }
 
       function explorationIsPresent(hash) {
-        var selector = '.exploration-trigger[data-ctx-hash="' + hash + '"]';
-        var $e = $('.exploration-list').find(selector);
+        var selector = '.exploration[data-ctx-hash="' + hash + '"]';
+        var $e = $('.connections-list').find(selector);
         return $e.length > 0;
       }
 
       function onManifestAcquired() {
-        // Enable JS linking
-        $('.js-link').on('click', function () {
-          var $self = $(this);
-          var type = $self.data('resource-type');
-          var poemId = $self.data('poem-id');
-          var poemObj = poems.filter(function (poem) {
-            return +poem.id === poemId;
-          })[0];
-
-          if (poemObj) {
-            window.location.href = '/poems/ee/' + dashify(poemObj.seo) + (type === 'curation' ? '/#ctxs' : '');
-          }
-          return false;
-        });
+        // Set initial (default) state
         resetPoemStatusString();
       }
 
       function enableInteractivity() {
         // The poems
         if (!$i) {
-          var $poemListGrid = $('.poem-list.grid');
           $i = $poemListGrid.isotope({
             layoutMode: 'vertical'
           });
@@ -306,17 +287,16 @@ var TPP = (function ($) {
           $i.isotope('layout');
         }
 
-        // The extras
+        // The Connections
         if (!$ii) {
-          var $extrasListGrid = $('.extras-list.grid');
-          var $filterButtons = $('.extras-index-filters')
+          var $filterButtons = $('.connection-index-filters')
             .find('.filter');
-          $ii = $extrasListGrid.isotope({
+          $ii = $connectionListGrid.isotope({
             layoutMode: 'masonry',
             stagger: 10
           });
           var totalNumberOfItems = $ii.isotope('getItemElements').length;
-          resetExtraStatusString(totalNumberOfItems);
+          resetConnectionStatusString(totalNumberOfItems);
 
           // Click event handlers
           $filterButtons
@@ -329,14 +309,14 @@ var TPP = (function ($) {
                 $this.toggleClass('active');
               }
 
-              $extrasFSStatus.addClass('hi');
+              $connectionsFSStatus.addClass('hi');
               $ii.isotope({ filter: keyword });
               $('html,body').scrollTop(0);
 
               var num = $ii.isotope('getFilteredItemElements').length;
               var filteredResourceType = $ii.data('isotope').options.filter.slice(1) || 'all';
 
-              $extrasFSStatus
+              $connectionsFSStatus
                 .find('.filter-status')
                 .text(
                   num + ' ' +
@@ -348,27 +328,27 @@ var TPP = (function ($) {
             });
 
           // Reset action
-          $extrasFSStatus
+          $connectionsFSStatus
             .find('.status-reset')
             .on('click', function () {
               $ii.isotope({ filter: '*' });
-              $extrasFSStatus.removeClass('hi');
+              $connectionsFSStatus.removeClass('hi');
               $filterButtons.find('.label').removeClass('active');
 
               // reset the counter
-              resetExtraStatusString(totalNumberOfItems);
+              resetConnectionStatusString(totalNumberOfItems);
             });
         } else {
           $ii.isotope('layout');
         }
       }
 
-      function openExploration(eHash) {
-        var ctxUrl = '/explorations/' + eHash + '.html #content';
+      function openExploration(requestedHash) {
+        var ctxUrl = '/explorations/' + requestedHash + '.html #content';
         var oldHash = window.location.hash;
 
         $.featherlight(ctxUrl, {
-          variant: 'curation',
+          variant: 'connection',
           closeIcon: '',
           type: 'ajax',
           openSpeed: 400,
@@ -376,8 +356,8 @@ var TPP = (function ($) {
           otherClose: '.dismiss',
           loading: '<p class="lato spinner">Loading the exploration…</p>',
           beforeOpen: function () {
-            if (eHash) {
-              window.location.hash = eHash;
+            if (requestedHash) {
+              window.location.hash = requestedHash;
             }
           },
           afterContent: function () {
@@ -412,7 +392,7 @@ var TPP = (function ($) {
             });
           },
           afterClose: function () {
-            if (oldHash !== eHash) {
+            if (oldHash !== '#' + requestedHash) {
               window.location.hash = oldHash;
             }
           }
@@ -429,10 +409,10 @@ var TPP = (function ($) {
         );
       }
 
-      function resetExtraStatusString(totalNumberOfExtras) {
-        $extrasFSStatus
+      function resetConnectionStatusString(totalNumberOfConnections) {
+        $connectionsFSStatus
           .find('.filter-status')
-          .text('all ' + totalNumberOfExtras + ' Curations and Explorations');
+          .text('all ' + totalNumberOfConnections + ' Curations and Explorations');
       }
 
       function playSplashAnimation() {
@@ -985,7 +965,7 @@ var TPP = (function ($) {
               '.html';
 
             $.featherlight(ctxUrl, {
-              variant: 'curation',
+              variant: 'connection',
               closeIcon: '',
               type: 'ajax',
               openSpeed: 400,

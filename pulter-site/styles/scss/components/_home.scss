@@ -333,7 +333,7 @@
                 }
               }
 
-              &#read-action {
+              &#to-poems {
                 background: $pp_RoyalBlueLight;
                 box-shadow: 0 0 1em rgba(0, 0, 0, .25);
 
@@ -842,18 +842,6 @@
     }
   }
 
-  // When scrolled passed the index
-  //&.beyond {
-  //  .fixed-box {
-  //    @include transform(translateY(-100%));
-  //  }
-  //
-  //  .to-exploration-action {
-  //    bottom: -3em;
-  //    right: 1.5em;
-  //  }
-  //}
-
   // Content wrapper
   #c {
     display: none;
@@ -914,7 +902,7 @@
         }
       }
 
-      &.extras-tab {
+      &.connections-tab {
         $color: #4d3a32;
 
         background: darken(#d8d6ce, 15%);
@@ -1036,7 +1024,7 @@
               }
             }
 
-            &.for-extras {
+            &.for-connections {
               display: none;
             }
           }
@@ -1071,7 +1059,7 @@
     }
   }
 
-  .resource-type-tabs.extras-on {
+  .resource-type-tabs.connections-on {
     & + .toolbar-box {
       background: darken(#d8d6ce, 15%);
       border-top: 1px solid $pp_manuscriptInk;
@@ -1096,7 +1084,7 @@
                 display: none;
               }
 
-              &.for-extras {
+              &.for-connections {
                 display: block;
               }
             }
@@ -1111,7 +1099,7 @@
             @include vcenter;
             right: 4.5em;
 
-            .extras-index-filters {
+            .connection-index-filters {
               list-style: none;
 
               li {
@@ -1186,14 +1174,14 @@
   }
 
   // Indices
-  #extras-section,
+  #connections-section,
   #poems-section {
     max-width: $maxWidth;
     margin: 0 auto;
   }
 
-  // Extras section
-  #extras-section {
+  // Connections section
+  #connections-section {
     overflow: hidden;
     background: darken(#d8d6ce, 10%);
     color: $pp_manuscriptInk;
@@ -1207,7 +1195,7 @@
       height: auto;
     }
 
-    ul.extras-list.grid {
+    ul.connections-list.grid {
       //background: thistle;
       text-align: left;
 
@@ -1216,15 +1204,18 @@
         //vertical-align: top;
         display: inline-block;
         width: 16em;
-        border: 1px solid rgba($pp_manuscriptInk, .33);
+        border: 1px solid rgba(#282828, .25);
         border-radius: 8px;
-        background: rgba($pp_manuscriptInk, .1);
+        background: rgba($pp_manuscriptInk, .15);
         padding: .5em 1em 1em 1em;
         //position: relative;
+        cursor: pointer;
+        @include transition(all .2s);
 
-        //&.exploration {}
-
-        //&.curation {}
+        &:hover {
+          border: 1px solid rgba(#282828, .33);
+          background: rgba($pp_manuscriptInk, .2);
+        }
 
         .title {
           font-size: ms(-1);
@@ -1238,17 +1229,12 @@
           display: block;
           font-style: italic;
           margin-top: .45em;
-          opacity: .85;
+          opacity: 1;
         }
 
         .badge {
           $size: 1em;
 
-          //position: absolute;
-          //right: .75em;
-          //top: .75em;
-          //float: right;
-          //margin-left: 1em;
           text-transform: uppercase;
           margin-bottom: 1.25em;
           font-size: ms(-4);
@@ -1259,13 +1245,25 @@
           line-height: $size;
           text-align: center;
           padding: 3px 3px 3px 4px;
-          background: rgba(#080808, .1);
+          background: rgba(#282828, .5);
           letter-spacing: 1px;
-          color: rgba(#080808, .66);
-          text-shadow: 0 1px 0 #aaa;
-          bottom: 0.19em;
-          box-shadow: inset -1px 0 0 rgba(8,8,8,.03), inset 1px 0 0 rgba(8,8,8,.03), inset 0 1px 0 rgba(8,8,8,.03), inset 0 -1px 0 rgba(8,8,8,.03);
+          color: rgba(#fff, .75);
         }
+
+        &.exploration {
+          border: 1px solid rgba($pp_manuscriptInk, .25);
+
+          .badge {
+            background: rgba($pp_manuscriptInk, .8);
+            cursor: pointer;
+          }
+
+          &:hover {
+            border: 1px solid rgba($pp_manuscriptInk, .33);
+          }
+        }
+
+        //&.curation {}
       }
     }
   }
