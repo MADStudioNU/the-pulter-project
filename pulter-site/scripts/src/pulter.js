@@ -23,7 +23,8 @@ var TPP = (function ($) {
       var $ii;
 
       // Local vars
-      var hash = window.location.hash.split('#')[1]; // 'undefined' if not
+      // URL hash ('undefined' if no hash present)
+      var hash = window.location.hash.split('#')[1];
 
       // Store
       var pulterState = pulterState || store.namespace('pulterState');
@@ -56,10 +57,12 @@ var TPP = (function ($) {
           if (hash && hash !== '0') {
             // Check if the Connections tab is requested
             if (hash === 'connections') {
+              // initConnectionIsotope();
               $connectionsTab.trigger('click');
-            } else {
+            } else if (hash === 'poems') {
               setTimeout(function () {
-                enableInteractivity();
+                $poemsTab.trigger('click');
+                // initPoemIsotope();
               }, 400);
             }
 
@@ -221,7 +224,7 @@ var TPP = (function ($) {
         $poemsTab.trigger('click');
         window.location.hash = 'poems';
         $poemSection.fadeIn();
-        enableInteractivity();
+        // initPoemIsotope();
       }
 
       function activateConnectionIndexTab() {
@@ -231,7 +234,7 @@ var TPP = (function ($) {
         $connectionsTab.trigger('click');
         window.location.hash = 'connections';
         $connectionSection.addClass('enabled').fadeIn(200);
-        enableInteractivity();
+        // initConnectionIsotope();
       }
 
       function explorationIsPresent(hash) {
@@ -245,9 +248,9 @@ var TPP = (function ($) {
         resetPoemStatusString();
       }
 
-      // todo: add parameter to enable activation only when specified?
-      // todo: or... split this in two functions?
-      function enableInteractivity() {
+      // Initialize the Isotope instances
+      // For the poems
+      function initPoemIsotope() {
         // The poems
         if (!$i) {
           $i = $poemListGrid.isotope({
@@ -258,25 +261,25 @@ var TPP = (function ($) {
           $poemListGrid
             .find('.filter-tag')
             .on('click', function () {
-            var $self = $(this);
-            var keyword = $self.data('filter');
+              var $self = $(this);
+              var keyword = $self.data('filter');
 
-            $poemFSStatus.addClass('hi');
-            $i.isotope({ filter: keyword });
-            $('html,body').scrollTop(0);
+              $poemFSStatus.addClass('hi');
+              $i.isotope({ filter: keyword });
+              $('html,body').scrollTop(0);
 
-            var num = $i.isotope('getFilteredItemElements').length;
+              var num = $i.isotope('getFilteredItemElements').length;
 
-            $poemFSStatus
-              .find('.filter-status')
-              .text(
-                num +
-                (+num > 1 ? ' poems ' : ' poem ') +
-                ' matching “' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + '” '
-              );
+              $poemFSStatus
+                .find('.filter-status')
+                .text(
+                  num +
+                  (+num > 1 ? ' poems ' : ' poem ') +
+                  ' matching “' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + '” '
+                );
 
-            return false;
-          });
+              return false;
+            });
 
           // Reset action
           $poemFSStatus
@@ -287,10 +290,13 @@ var TPP = (function ($) {
               resetPoemStatusString();
             });
         } else {
+          console.log('$i layout!');
           $i.isotope('layout');
         }
+      }
 
-        // The Connections
+      // For the connections
+      function initConnectionIsotope() {
         if (!$ii) {
           var $filterButtons = $('.connection-index-filters')
             .find('.filter');
@@ -342,10 +348,12 @@ var TPP = (function ($) {
               resetConnectionStatusString(totalNumberOfItems);
             });
         } else {
-          console.log('RRRRR');
+          console.log('$ii layout!');
           $ii.isotope('layout');
         }
       }
+
+      function enableInteractivity() {}
 
       function openExploration(requestedHash) {
         var ctxUrl = '/explorations/' + requestedHash + '.html #content';
@@ -1312,7 +1320,7 @@ var TPP = (function ($) {
       var year = new Date().getFullYear();
 
       var $footer = $('.footer');
-      var $imprint = $(`<div class="tpp-version-imprint">${version}</div>`);
+      var $imprint = $('<div class="tpp-version-imprint">' + version + '</div>');
       var $logoBox = $footer.find('.logo-box');
       var $copyrightYear = $footer.find('.copyright-year');
 
@@ -1349,7 +1357,7 @@ var TPP = (function ($) {
         $printOnlyEl.text(followingChar);
         $acceptor.append($printOnlyEl);
 
-        // Tag the real one so it doesn't show in print
+        // Tag the real one, so it doesn't show in print
         var $printHideEl = $('<span class="print-hide"></span>');
         $printHideEl.text(followingChar);
         $donor.text($donor.text().slice(1)).prepend($printHideEl);
