@@ -56,14 +56,10 @@ var TPP = (function ($) {
         .always(function () {
           if (hash && hash !== '0') {
             // Check if the Connections tab is requested
-            if (hash === 'connections') {
-              // initConnectionIsotope();
-              $connectionsTab.trigger('click');
-            } else if (hash === 'poems') {
-              setTimeout(function () {
-                $poemsTab.trigger('click');
-                // initPoemIsotope();
-              }, 400);
+            if (hash === 'poems') {
+              toPoems()
+            } else if (hash === 'connections') {
+              toConnections();
             }
 
             $content.fadeIn(600);
@@ -84,19 +80,28 @@ var TPP = (function ($) {
         });
 
       // Various click event handlers
-      $toIntro.on('click', navigateToIntro);
-      $toPoemsAction.on('click', activatePoemIndexTab);
-      $toConnectionsAction.on('click', activateConnectionIndexTab);
+      // To the splash page
+      $toIntro.on('click', toIntro);
+
+      // To Poem Index
+      $toPoemsAction.on('click', function () {
+        activatePoemIndex();
+      });
+
+      // To Connection Index
+      $toConnectionsAction.on('click', function() {
+        activateConnectionIndex();
+      });
 
       $dropUps.on('click', function () {
         $(this).toggleClass('expanded');
       });
 
-      // Exploration lightboxes
+      // Exploration lightbox
       $explorationTriggers.on('click', function () {
-        var eHash = $(this).data('ctx-hash');
+        var eHash = $(this).data('exploration-hash');
         if (eHash) {
-          openExploration(eHash);
+          TPP.openConnectionLightbox('exploration', eHash);
         }
         return false;
       });
@@ -124,11 +129,11 @@ var TPP = (function ($) {
               .attr('class', 'resource-type-tabs ' + classToAdd);
 
             if (type === 'connections') {
-              activateConnectionIndexTab()
+              window.location.hash = 'connections';
             }
 
             if (type === 'poems') {
-              activatePoemIndexTab();
+              window.location.hash = 'poems';
             }
           } else {
             return false;
@@ -138,11 +143,11 @@ var TPP = (function ($) {
 
       // Check if we need to open exploration right away
       if (explorationIsPresent(hash)) {
-        // Switch to the Connections tab
+        // Switch to the Connections tab...
         $connectionsTab.trigger('click');
 
-        // Open the exploration
-        openExploration(hash);
+        // ... and open the exploration
+        TPP.openConnectionLightbox('exploration', hash);
       }
 
       // Hash change event logic
@@ -150,13 +155,11 @@ var TPP = (function ($) {
         var h = window.location.hash.split('#')[1];
 
         if(!h) {
-          navigateToIntro();
+          toIntro();
         } else if (h === 'poems') {
-          // todo: need this?
-          activatePoemIndexTab();
+          toPoems();
         } else if (h === 'connections') {
-          // todo: need this?
-          activateConnectionIndexTab();
+          toConnections();
         }
       }
 
@@ -211,34 +214,33 @@ var TPP = (function ($) {
       // Try to enable search
       this.enableSearch($body);
 
-      function navigateToIntro() {
-        $intro.fadeIn(600);
-        $content.fadeOut();
+      function toIntro() {
+        $intro.fadeIn();
+        $content.fadeOut(200);
         window.location.hash = '';
       }
 
-      function activatePoemIndexTab() {
-        $content.fadeIn(600);
+      function activatePoemIndex() {
+        $poemsTab.trigger('click');
+        $content.fadeIn();
         $intro.hide();
         $connectionSection.removeClass('enabled').fadeOut(200);
-        $poemsTab.trigger('click');
         window.location.hash = 'poems';
         $poemSection.fadeIn();
-        // initPoemIsotope();
       }
 
-      function activateConnectionIndexTab() {
-        $content.fadeIn(600);
+      function activateConnectionIndex() {
+        $connectionsTab.trigger('click');
+        $content.fadeIn();
         $intro.hide();
         $poemSection.hide();
-        $connectionsTab.trigger('click');
         window.location.hash = 'connections';
-        $connectionSection.addClass('enabled').fadeIn(200);
-        // initConnectionIsotope();
+        $connectionSection.addClass('enabled').fadeIn();
       }
 
+      // todo: refactor for connections in general
       function explorationIsPresent(hash) {
-        var selector = '.exploration[data-ctx-hash="' + hash + '"]';
+        var selector = '.exploration[data-exploration-hash="' + hash + '"]';
         var $e = $('.connections-list').find(selector);
         return $e.length > 0;
       }
@@ -250,7 +252,7 @@ var TPP = (function ($) {
 
       // Initialize the Isotope instances
       // For the poems
-      function initPoemIsotope() {
+      function initOrAdjustPoemIsotope() {
         // The poems
         if (!$i) {
           $i = $poemListGrid.isotope({
@@ -290,13 +292,12 @@ var TPP = (function ($) {
               resetPoemStatusString();
             });
         } else {
-          console.log('$i layout!');
           $i.isotope('layout');
         }
       }
 
       // For the connections
-      function initConnectionIsotope() {
+      function initOrAdjustConnectionIsotope() {
         if (!$ii) {
           var $filterButtons = $('.connection-index-filters')
             .find('.filter');
@@ -347,68 +348,20 @@ var TPP = (function ($) {
               // reset the counter
               resetConnectionStatusString(totalNumberOfItems);
             });
+
         } else {
-          console.log('$ii layout!');
           $ii.isotope('layout');
         }
       }
 
-      function enableInteractivity() {}
+      function toPoems() {
+        activatePoemIndex();
+        initOrAdjustPoemIsotope();
+      }
 
-      function openExploration(requestedHash) {
-        var ctxUrl = '/explorations/' + requestedHash + '.html #content';
-        var oldHash = window.location.hash;
-
-        $.featherlight(ctxUrl, {
-          variant: 'connection',
-          closeIcon: '',
-          type: 'ajax',
-          openSpeed: 400,
-          closeSpeed: 200,
-          otherClose: '.dismiss',
-          loading: '<p class="lato spinner">Loading the exploration…</p>',
-          beforeOpen: function () {
-            if (requestedHash) {
-              window.location.hash = requestedHash;
-            }
-          },
-          afterContent: function () {
-            var $imagesWithZoom = $('img[data-zoom]');
-            $imagesWithZoom.on('click', function () {
-              var $imageWithZoom = $(this);
-              var imageSrc = $imageWithZoom.attr('src');
-              var zoomImgSrc = $imageWithZoom.data('zoom');
-
-              if (imageSrc && zoomImgSrc) {
-                var $image;
-
-                $.featherlight(imageSrc, {
-                  type: 'image',
-                  variant: 'facs',
-                  closeIcon: 'Close',
-                  loading: 'One second…',
-                  afterContent: function () {
-                    $image = $('.featherlight-image');
-                    $image.attr('data-zoom', zoomImgSrc);
-
-                    new Drift($image[0], {
-                      inlinePane: true,
-                      hoverDelay: 400
-                    });
-                  },
-                  beforeClose: function () {
-                    $('.drift-zoom-pane').remove();
-                  }
-                });
-              }
-            });
-          },
-          afterClose: function () {
-            if (oldHash !== '#' + requestedHash) {
-              window.location.hash = oldHash;
-            }
-          }
-        });
+      function toConnections() {
+        activateConnectionIndex();
+        initOrAdjustConnectionIsotope();
       }
 
       function resetPoemStatusString() {
@@ -602,18 +555,18 @@ var TPP = (function ($) {
             var hash = window.location.hash.split('#')[1]; // 'undefined' if not
 
             if (hash) {
-              var selector = '.ctx[data-ctx-hash="' + hash + '"]',
+              var selector = '.ctx[data-curation-hash="' + hash + '"]',
                 $c = $ctxs.find(selector);
 
               if ($c.length) {
-                openCuration(config, $c.data('ctx-hash'));
+                openCuration(config, $c.data('curation-hash'));
               }
             }
 
             // Curation lightbox triggers
             $ctxs.find('.ctx').off().on('click', '.text', function (e) {
               var $target = $(e.delegateTarget);
-              var cHash = $target.data('ctx-hash');
+              var cHash = $target.data('curation-hash');
               var cTitle = $target.find('a').data('curation-title');
               $target.find('a').blur();
 
@@ -1334,6 +1287,67 @@ var TPP = (function ($) {
       if (year) {
         $copyrightYear.text(year);
       }
+    },
+    openConnectionLightbox: function (type, requestedHash) {
+      if (type === 'curation') {
+        console.log('Curation lightbox is not implemented yet.');
+      } else if (type === 'exploration') {
+        var ctxUrl = '/explorations/' + requestedHash + '.html #content';
+        var oldHash = window.location.hash;
+
+        $.featherlight(ctxUrl, {
+          variant: 'connection',
+          closeIcon: '',
+          type: 'ajax',
+          openSpeed: 400,
+          closeSpeed: 200,
+          otherClose: '.dismiss',
+          loading: '<p class="lato spinner">Loading the exploration…</p>',
+          beforeOpen: function () {
+            if (requestedHash) {
+              window.location.hash = requestedHash;
+            }
+          },
+          afterContent: function () {
+            var $imagesWithZoom = $('img[data-zoom]');
+            $imagesWithZoom.on('click', function () {
+              var $imageWithZoom = $(this);
+              var imageSrc = $imageWithZoom.attr('src');
+              var zoomImgSrc = $imageWithZoom.data('zoom');
+
+              if (imageSrc && zoomImgSrc) {
+                var $image;
+
+                $.featherlight(imageSrc, {
+                  type: 'image',
+                  variant: 'facs',
+                  closeIcon: 'Close',
+                  loading: 'One second…',
+                  afterContent: function () {
+                    $image = $('.featherlight-image');
+                    $image.attr('data-zoom', zoomImgSrc);
+
+                    new Drift($image[0], {
+                      inlinePane: true,
+                      hoverDelay: 400
+                    });
+                  },
+                  beforeClose: function () {
+                    $('.drift-zoom-pane').remove();
+                  }
+                });
+              }
+            });
+          },
+          afterClose: function () {
+            if (oldHash !== '#' + requestedHash) {
+              window.location.hash = oldHash;
+            }
+          }
+        });
+      }
+
+      return false;
     }
   };
 

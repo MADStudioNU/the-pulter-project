@@ -6506,7 +6506,7 @@
                     <xsl:attribute name="class">
                       <xsl:value-of select="'connection exploration'"/>
                     </xsl:attribute>
-                    <xsl:attribute name="data-ctx-hash">
+                    <xsl:attribute name="data-exploration-hash">
                       <xsl:value-of select="./@hash"/>
                     </xsl:attribute>
                     <xsl:element name="span">
@@ -7017,7 +7017,7 @@
       <xsl:variable name="status" select="./@status"/>
       <xsl:if test="$status = 'on'">
         <li class="ctx">
-          <xsl:attribute name="data-ctx-hash">
+          <xsl:attribute name="data-curation-hash">
             <xsl:value-of select="./@hash"/>
           </xsl:attribute>
           <xsl:attribute name="data-status">
