@@ -6506,7 +6506,10 @@
                     <xsl:attribute name="class">
                       <xsl:value-of select="'connection exploration'"/>
                     </xsl:attribute>
-                    <xsl:attribute name="data-exploration-hash">
+                    <xsl:attribute name="data-connection-type">
+                      <xsl:value-of select="'exploration'"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-connection-hash">
                       <xsl:value-of select="./@hash"/>
                     </xsl:attribute>
                     <xsl:element name="span">
@@ -6533,6 +6536,18 @@
                   <xsl:variable name="poemNumber" select="./@id"/>
                   <xsl:for-each select="./pp:curations/pp:curation">
                     <xsl:element name="li">
+                      <xsl:attribute name="data-connection-type">
+                        <xsl:value-of select="'curation'"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-connection-hash">
+                        <xsl:value-of select="./@hash"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-poem-id">
+                        <xsl:value-of select="$poemNumber"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-connection-title">
+                        <xsl:value-of select="./pp:title"/>
+                      </xsl:attribute>
                       <xsl:attribute name="class">
                         <xsl:value-of select="'connection curation'"/>
                       </xsl:attribute>
@@ -6541,7 +6556,7 @@
                           <xsl:value-of select="'badge js-link to-curation'"/>
                         </xsl:attribute>
                         <xsl:attribute name="title">
-                          <xsl:value-of select="concat('Jump to curations for Poem', $poemNumber)"/>
+                          <xsl:value-of select="concat('Jump to curations for Poem ', $poemNumber, '.')"/>
                         </xsl:attribute>
                         <xsl:attribute name="data-resource-type">
                           <xsl:value-of select="'curation'"/>
