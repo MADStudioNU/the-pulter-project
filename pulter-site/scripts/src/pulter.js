@@ -355,7 +355,8 @@ var TPP = (function ($) {
                 .find('.filter-status')
                 .text(
                   num + ' ' +
-                  filteredResourceType +
+                  filteredResourceType.slice(0, 1).toUpperCase() +
+                  filteredResourceType.slice(1) +
                   (+num > 1 ? 's' : '')
                 );
 

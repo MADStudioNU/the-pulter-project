@@ -863,16 +863,13 @@
       background: rgba(#fff, .1);
       padding: .9em 1.5em .75em 1.5em;
       margin-left: .5em;
-      //font-size: 1.1em;
       line-height: 1;
       cursor: pointer;
       position: relative;
-      //@include transition(top .1s);
       @include transition(background .2s);
 
       .label {
         display: inline-block;
-        font-weight: bold;
       }
 
       &.active {
@@ -911,6 +908,7 @@
 
         .label {
           font-size: 1.05em;
+          font-weight: bold;
         }
 
         .note-trigger {
