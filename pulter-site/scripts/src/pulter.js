@@ -48,6 +48,7 @@ var TPP = (function ($) {
       var $imgCollection = $body.find('#pp-home-image-collection');
       var $connectionTriggers = $connectionListGrid.find('.connection');
       var $resourceTypeTabBox = $content.find('.resource-type-tabs');
+      var $toolbar = $content.find('.toolbar');
       var $resourceTypeTabs = $resourceTypeTabBox.find('.resource-tab');
       var $connectionsTab = $resourceTypeTabBox.find('.connections-tab');
       var $poemsTab = $resourceTypeTabBox.find('.poems-tab');
@@ -63,11 +64,11 @@ var TPP = (function ($) {
               toConnections();
             }
 
-            $content.fadeIn(600);
+            $content.fadeIn();
             $intro.addClass('animation-skipped');
           } else {
             // Load intro
-            $intro.fadeIn(600);
+            $intro.fadeIn();
 
             // If not played recently
             if (!pulterState.get('enoughSplashAnimation')) {
@@ -104,9 +105,17 @@ var TPP = (function ($) {
         var hash = $(this).data('connection-hash');
         var title = $(this).data('connection-title');
         var poemId = $(this).data('poem-id');
+        var poemTitle = $(this).data('poem-title');
 
         if (hash && type) {
-          TPP.openConnectionLightbox(type, hash, title, poemId);
+          TPP.openConnectionLightbox(
+            type,
+            hash,
+            title,
+            poemId,
+            poemTitle,
+            'home'
+          );
         }
 
         return false;
@@ -120,7 +129,7 @@ var TPP = (function ($) {
       });
 
       // Resource type tabs toggle
-      $resourceTypeTabs.on('click', function () {
+      $resourceTypeTabs.on('click', function (event, uiOnly) {
         var $tab = $(this);
         if ($tab.hasClass('active')) {
           return false;
@@ -134,12 +143,14 @@ var TPP = (function ($) {
               .closest('.resource-type-tabs')
               .attr('class', 'resource-type-tabs ' + classToAdd);
 
-            if (type === 'connections') {
-              window.location.hash = 'connections';
-            }
+            if (!uiOnly) {
+              if (type === 'connections') {
+                window.location.hash = 'connections';
+              }
 
-            if (type === 'poems') {
-              window.location.hash = 'poems';
+              if (type === 'poems') {
+                window.location.hash = 'poems';
+              }
             }
           } else {
             return false;
@@ -147,18 +158,23 @@ var TPP = (function ($) {
         }
       });
 
-      // Check if we need to open exploration right away
+      // Check if we need to open a connection right away
       var $connectionListItem = getConnectionElFromHash(hash);
-      if ($connectionListItem) {
-        // Switch to the Connections tab...
-        $connectionsTab.trigger('click');
 
-        // ... and open the exploration
+      // If it's present
+      if ($connectionListItem) {
+        // Switch to the Connections tab (UI only mode)...
+        activateConnectionIndex(true);
+        initOrAdjustConnectionIsotope();
+
+        // ... and open the connection
         TPP.openConnectionLightbox(
-          $connectionListItem.dataset.resourceType,
+          $connectionListItem.dataset.connectionType,
           $connectionListItem.dataset.connectionHash,
           $connectionListItem.dataset.conectionTitle,
-          $connectionListItem.dataset.poemId
+          $connectionListItem.dataset.poemId,
+          $connectionListItem.dataset.poemTitle,
+          'home'
         );
       }
 
@@ -232,22 +248,20 @@ var TPP = (function ($) {
         window.location.hash = '';
       }
 
-      function activatePoemIndex() {
-        $poemsTab.trigger('click');
+      function activatePoemIndex(uiOnly) {
         $content.fadeIn();
         $intro.hide();
         $connectionSection.removeClass('enabled').fadeOut(200);
-        window.location.hash = 'poems';
         $poemSection.fadeIn();
+        $poemsTab.trigger('click', uiOnly);
       }
 
-      function activateConnectionIndex() {
-        $connectionsTab.trigger('click');
+      function activateConnectionIndex(uiOnly) {
         $content.fadeIn();
         $intro.hide();
         $poemSection.hide();
-        window.location.hash = 'connections';
         $connectionSection.addClass('enabled').fadeIn();
+        $connectionsTab.trigger('click', uiOnly);
       }
 
       function getConnectionElFromHash(hash) {
@@ -310,11 +324,11 @@ var TPP = (function ($) {
       // For the connections
       function initOrAdjustConnectionIsotope() {
         if (!$ii) {
-          var $filterButtons = $('.connection-index-filters')
+          var $filterButtons = $toolbar
+            .find('.connection-index-filters')
             .find('.filter');
           $ii = $connectionListGrid.isotope({
-            layoutMode: 'masonry',
-            stagger: 10
+            layoutMode: 'masonry'
           });
           var totalNumberOfItems = $ii.isotope('getItemElements').length;
           resetConnectionStatusString(totalNumberOfItems);
@@ -566,11 +580,19 @@ var TPP = (function ($) {
             var hash = window.location.hash.split('#')[1]; // 'undefined' if not
 
             if (hash) {
-              var selector = '.ctx[data-curation-hash="' + hash + '"]',
-                $c = $ctxs.find(selector);
+              var selector = '.ctx[data-curation-hash="' + hash + '"]';
+              var $curationEl = $ctxs.find(selector);
+              var curationTitle = $curationEl.find('a').data('curation-title');
 
-              if ($c.length) {
-                openCuration(config, $c.data('curation-hash'));
+              if ($curationEl.length) {
+                TPP.openConnectionLightbox(
+                  'curation',
+                  hash,
+                  curationTitle,
+                  config.id,
+                  config.title,
+                  'poem'
+                );
               }
             }
 
@@ -582,7 +604,14 @@ var TPP = (function ($) {
               $target.find('a').blur();
 
               if (cHash) {
-                openCuration(config, cHash, cTitle);
+                TPP.openConnectionLightbox(
+                  'curation',
+                  cHash,
+                  cTitle,
+                  config.id,
+                  config.title,
+                  'poem'
+                );
               }
 
               return false;
@@ -921,60 +950,10 @@ var TPP = (function ($) {
                 'background-image': url,
                 'background-repeat': 'no-repeat',
                 'background-size': 'cover',
-                'background-position': 'center 10%' // not the upper edge, but a bit lower
+                // not the upper edge, but a bit lower
+                'background-position': 'center 10%'
               });
             }
-          }
-
-          // Opens a curation
-          function openCuration(config, curationHash, curationTitle) {
-            var curationUrl =
-              '/curations/c' +
-              config.id + '-' +
-              curationHash +
-              '.html #content';
-
-            var gagPagePath =
-              '/curations/c' +
-              config.id + '-' +
-              curationHash +
-              '.html';
-
-            $.featherlight(curationUrl, {
-              variant: 'connection',
-              closeIcon: '',
-              type: 'ajax',
-              openSpeed: 400,
-              closeSpeed: 200,
-              otherClose: '.dismiss',
-              loading: '<p class="lato spinner">Loading the curation…</p>',
-              beforeOpen: function () {
-                if (curationHash) {
-                  window.location.hash = curationHash;
-                }
-              },
-              afterOpen: function() {
-                gtag('config', TPP.gtag, {
-                  'page_title': curationTitle || curationHash,
-                  'page_path': gagPagePath
-                });
-                var idxSpan = '<span class="idx lato">' + config.id + '</span>';
-                var titleSpan = '<span class="t">' + config.title + '</span>';
-                var out = '<a href="../#" class="poem-ref">' + idxSpan + titleSpan + '</a>';
-
-                $('.featherlight-content').prepend(out);
-                $('.poem-ref').on('click', function () {
-                  $.featherlight.current().close();
-                  return false;
-                });
-              },
-              afterClose: function () {
-                window.location.hash = '0';
-                // gtag('config', 'UA-122500056-2', {
-                //   'page_title': $('title').text()
-                // });
-              }
-            });
           }
 
           // In-poem navigation
@@ -1055,7 +1034,6 @@ var TPP = (function ($) {
         console.log(
           'Unable to initialize the poem. The poem id is invalid or it wasn’t provided.'
         );
-        // TODO: Write an error handler for this case
       }
 
       // Print footnote numbers adjustment
@@ -1299,8 +1277,14 @@ var TPP = (function ($) {
         $copyrightYear.text(year);
       }
     },
-    // todo: add fifth argument for the source of the trigger?
-    openConnectionLightbox: function (type, requestedHash, connectionTitle, correspondingPoemId) {
+    openConnectionLightbox: function (
+      type,
+      requestedHash,
+      connectionTitle,
+      correspondingPoemId,
+      correspondingPoemTitle,
+      triggerSource
+    ) {
       var connectionPageUrl;
 
       if (type === 'curation') {
@@ -1335,17 +1319,16 @@ var TPP = (function ($) {
 
             if (type === 'curation') {
               var indexSpan = '<span class="idx lato">' + correspondingPoemId + '</span>';
-              var titleSpan = '<span class="t">' + connectionTitle + '</span>';
+              var titleSpan = '<span class="t">' + correspondingPoemTitle + '</span>';
               var correspondingPoemUrl = '/poems/ae/' + correspondingPoemId;
-              var out = '<a href="' + correspondingPoemUrl + '" class="poem-ref">' + indexSpan + titleSpan + '</a>';
+              var out = '<a href="' + correspondingPoemUrl + '" target="_blank" class="poem-ref">' + indexSpan + titleSpan + '</a>';
 
               var $lightboxContent = $('.featherlight-content');
               $lightboxContent.prepend(out);
               $lightboxContent
                 .find('.poem-ref')
                 .on('click', function () {
-                  // todo: if on a poem page just close the lightbox
-                  if(1) {
+                  if (triggerSource === 'poem') {
                     $.featherlight.current().close();
                     return false;
                   }
@@ -1384,18 +1367,16 @@ var TPP = (function ($) {
             });
           },
           afterClose: function () {
-            console.log('old hash: ' + oldHash);
-            console.log('requested hash: ' + requestedHash);
-
-            // If on poem page
-            if (0) {
+            // If on the poem page
+            if (triggerSource === 'poem') {
               window.location.hash = '0';
-            }
-
-            // If on Connection Index
-            // todo: figure out why hash changes to "connections" upon ligthbox closure (probably not here...)
-            if (oldHash !== '#' + requestedHash) {
-              window.location.hash = oldHash;
+              // If on homepage
+            } else if (triggerSource === 'home') {
+              if (oldHash !== '#' + requestedHash) {
+                window.location.hash = oldHash;
+              } else {
+                window.location.hash = 'connections';
+              }
             }
           }
         });
