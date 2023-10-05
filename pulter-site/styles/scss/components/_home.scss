@@ -1194,19 +1194,16 @@
     }
 
     ul.connections-list.grid {
-      //background: thistle;
       text-align: left;
 
       li {
         margin: .66em;
-        //vertical-align: top;
         display: inline-block;
         width: 16em;
         border: 1px solid rgba(#282828, .25);
         border-radius: 8px;
         background: rgba($pp_manuscriptInk, .15);
         padding: .5em 1em 1em 1em;
-        //position: relative;
         cursor: pointer;
         @include transition(all .2s);
 
@@ -1243,9 +1240,14 @@
           line-height: $size;
           text-align: center;
           padding: 3px 3px 3px 4px;
-          background: rgba(#282828, .5);
+          background: rgba(#282828, .66);
           letter-spacing: 1px;
           color: rgba(#fff, .75);
+
+          &:hover {
+            background: rgba(#282828, .95);
+            color: rgba(#fff, 1);
+          }
         }
 
         &.exploration {

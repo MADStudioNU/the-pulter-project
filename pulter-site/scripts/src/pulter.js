@@ -121,6 +121,9 @@ var TPP = (function ($) {
         return false;
       });
 
+      // Links to poem pages
+      // todo: add
+
       // Prevent note triggers from switching to a different tab
       $resourceTypeTabs
         .find('.note-trigger')
@@ -225,6 +228,7 @@ var TPP = (function ($) {
       // Become aware of the PP environment
       var poems = [];
       var indexRequest = this.getPoemIndex();
+
       indexRequest
         .done(function (data) {
           poems = data;
