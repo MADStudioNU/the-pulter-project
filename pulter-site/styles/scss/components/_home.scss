@@ -1252,14 +1252,18 @@
           @include transition(all .2s);
 
           &:hover {
-            background: rgba(8,8,8, .15);
-            color: rgba(8,8,8,.75);
+            border-radius: 0px;
           }
         }
 
         &:hover {
           border: 1px solid rgba($pp_manuscriptInk, .66);
           background: color.scale($connectionBaseBGColor, $lightness: 0%);
+
+          .badge {
+            background: rgba(8,8,8, .15);
+            color: rgba(8,8,8,.75);
+          }
         }
 
         &.exploration {
