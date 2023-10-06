@@ -1,8 +1,11 @@
+@use 'sass:color';
+
 .pp.home {
   $maxWidth: 100em;
   $leftEdgeOffset: 4.5em;
   $mobileLeftEdgeOffset: 2.25em;
   $mainColumnWidth: 66%;
+  $connectionBaseBGColor: #dedbd4;
 
   position: relative;
   color: #fff;
@@ -902,7 +905,7 @@
       &.connections-tab {
         $color: #4d3a32;
 
-        background: darken(#d8d6ce, 15%);
+        background: color.scale($connectionBaseBGColor, $lightness: -15%);
         color: darken($color, 5%);
         border-color: rgba($color, .5);
 
@@ -922,7 +925,7 @@
         }
 
         &:not(.active) {
-          background: darken(#d8d6ce, 25%);
+          background: color.scale($connectionBaseBGColor, $lightness: -25%);
         }
       }
     }
@@ -962,12 +965,13 @@
           .status-box {
             max-width: $maxWidth;
             margin: 0 auto;
+            padding-top: 4px;
 
             .status {
               $themeColor: $pp_manuscriptPaper;
 
               display: inline-block;
-              font-size: .85em;
+              font-size: .9em;
               letter-spacing: 1px;
               color: rgba($themeColor, .5);
               margin: 1.5em 0;
@@ -1015,7 +1019,7 @@
               }
 
               .status-reset {
-                margin-left: .5em;
+                margin-left: .45em;
                 cursor: pointer;
                 display: none;
                 line-height: 120%;
@@ -1059,7 +1063,7 @@
 
   .resource-type-tabs.connections-on {
     & + .toolbar-box {
-      background: darken(#d8d6ce, 15%);
+      background: color.scale($connectionBaseBGColor, $lightness: -15%);
       border-top: 1px solid $pp_manuscriptInk;
 
       .toolbar {
@@ -1084,6 +1088,10 @@
 
               &.for-connections {
                 display: block;
+
+                .status-reset {
+                  color: color.scale($pp_RoyalBlueLight, $lightness: -4%);
+                }
               }
             }
           }
@@ -1181,7 +1189,7 @@
   // Connections section
   #connections-section {
     overflow: hidden;
-    background: darken(#d8d6ce, 10%);
+    background: color.scale($connectionBaseBGColor, $lightness: -15%);
     color: $pp_manuscriptInk;
     //height: 0;
 
@@ -1201,67 +1209,66 @@
         margin: .66em;
         display: inline-block;
         vertical-align: top;
-        width: 16em;
+        width: 18em;
         border: 1px solid rgba(#282828, .25);
         border-radius: 8px;
-        background: rgba($pp_manuscriptInk, .15);
-        padding: .5em 1em 1em 1em;
+        background: color.scale($connectionBaseBGColor, $lightness: -3%);
+        padding: .66em 1em .75em 1em;
         cursor: pointer;
         @include transition(border .2s, background .2s );
-
-        &:hover {
-          border: 1px solid rgba(#282828, .33);
-          background: rgba($pp_manuscriptInk, .2);
-        }
 
         .title {
           font-size: ms(-1);
           color: #282828;
           display: block;
           font-weight: bold;
+          line-height: 1.4;
+          padding-right: 2em;
         }
 
         .by-line {
           font-size: ms(-2);
           display: block;
           font-style: italic;
-          margin-top: .45em;
+          margin-top: .66em;
           opacity: 1;
         }
 
         .badge {
           $size: 1em;
 
-          text-transform: uppercase;
-          margin-bottom: 1.25em;
-          font-size: ms(-4);
-          border-radius: 2px;
-          display: inline-block;
-          min-width: $size;
-          height: $size;
-          line-height: $size;
-          text-align: center;
-          padding: 3px 3px 3px 4px;
-          background: rgba(#282828, .8);
+          background: rgba(8,8,8,.1);
           letter-spacing: 1px;
-          color: rgba(#fff, .75);
+          font-size: ms(-4);
+          font-family: Lato,Arial,sans-serif;
+          color: rgba(8,8,8,.66);
+          text-shadow: 0 1px 0 #ddd;
+          display: inline-block;
+          padding: .2em .5em .15em .66em;
+          margin-bottom: 1.5em;
+          text-align: center;
+          border-radius: 2px;
+          box-shadow: inset -1px 0 0 rgba(8,8,8,.03),inset 1px 0 0 rgba(8,8,8,.03),inset 0 1px 0 rgba(8,8,8,.03),inset 0 -1px 0 rgba(8,8,8,.03);
+          @include transition(all .2s);
 
           &:hover {
-            background: rgba(#282828, 1);
-            color: rgba(#fff, 1);
+            background: rgba(8,8,8, .15);
+            color: rgba(8,8,8,.75);
           }
         }
 
-        &.exploration {
-          border: 1px solid rgba($pp_manuscriptInk, .25);
+        &:hover {
+          border: 1px solid rgba($pp_manuscriptInk, .66);
+          background: color.scale($connectionBaseBGColor, $lightness: 0%);
+        }
 
+        &.exploration {
           .badge {
             background: rgba($pp_manuscriptInk, .8);
-            cursor: pointer;
-          }
-
-          &:hover {
-            border: 1px solid rgba($pp_manuscriptInk, .33);
+            text-transform: uppercase;
+            box-shadow: none;
+            text-shadow: none;
+            color: color.scale($connectionBaseBGColor, $lightness: 0%);
           }
         }
 

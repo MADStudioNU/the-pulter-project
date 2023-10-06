@@ -6560,10 +6560,10 @@
                           <xsl:value-of select="'badge to-poem-curation-section'"/>
                         </xsl:attribute>
                         <xsl:attribute name="title">
-                          <xsl:value-of select="concat('Jump to curations for Poem ', $poemNumber, '.')"/>
+                          <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>
                         </xsl:attribute>
                         <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ae/', $poemNumber, '/#ctxs')"/>
+                          <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
                         </xsl:attribute>
                         <xsl:attribute name="target">
                           <xsl:value-of select="'_blank'"/>
