@@ -1183,29 +1183,31 @@
     overflow: hidden;
     background: darken(#d8d6ce, 10%);
     color: $pp_manuscriptInk;
-    height: 0;
+    //height: 0;
 
     .list-view {
       padding: 2.25em $leftEdgeOffset;
     }
 
     &.enabled {
-      height: auto;
+      //height: auto;
     }
 
     ul.connections-list.grid {
+      display: block;
       text-align: left;
 
-      li {
+      .connection {
         margin: .66em;
         display: inline-block;
+        vertical-align: top;
         width: 16em;
         border: 1px solid rgba(#282828, .25);
         border-radius: 8px;
         background: rgba($pp_manuscriptInk, .15);
         padding: .5em 1em 1em 1em;
         cursor: pointer;
-        @include transition(all .2s);
+        @include transition(border .2s, background .2s );
 
         &:hover {
           border: 1px solid rgba(#282828, .33);
@@ -1240,12 +1242,12 @@
           line-height: $size;
           text-align: center;
           padding: 3px 3px 3px 4px;
-          background: rgba(#282828, .66);
+          background: rgba(#282828, .8);
           letter-spacing: 1px;
           color: rgba(#fff, .75);
 
           &:hover {
-            background: rgba(#282828, .95);
+            background: rgba(#282828, 1);
             color: rgba(#fff, 1);
           }
         }

@@ -19,15 +19,6 @@ const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 const SINGLE_POEM_TRANSFORMATION_FLAG = 'single';
 
-// Site pages
-const SITE_PAGES = [
-  'about-hester-pulter-and-the-manuscript.html',
-  'about-project-conventions.html',
-  'about-the-project.html',
-  'how-to-cite-the-pulter-project.html',
-  'resources.html'
-];
-
 // Vendor scripts
 const vendorScripts = [
   'node_modules/jquery/dist/jquery.min.js',
@@ -38,6 +29,7 @@ const vendorScripts = [
   SITE_BASE + 'scripts/vendors/includes/polyfills.min.js',
   'node_modules/drift-zoom/dist/Drift.min.js',
   'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
+  'node_modules/isotope-packery/packery-mode.pkgd.min.js',
   'node_modules/store2/dist/store2.min.js',
   'node_modules/store2/src/store.cache.js'
 ];
@@ -432,6 +424,7 @@ gulp.task('sitemap',
     const pages = [
       protocol + LIVE_SITE_BASE_URL + '/',
       protocol + LIVE_SITE_BASE_URL + '/#poems',
+      protocol + LIVE_SITE_BASE_URL + '/#connections',
       protocol + LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
       protocol + LIVE_SITE_BASE_URL + '/about-project-conventions.html',
       protocol + LIVE_SITE_BASE_URL + '/about-the-project.html',

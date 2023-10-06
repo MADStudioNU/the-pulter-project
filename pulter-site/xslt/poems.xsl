@@ -6537,6 +6537,9 @@
                   <xsl:variable name="poemTitle" select="./pp:title"/>
                   <xsl:for-each select="./pp:curations/pp:curation">
                     <xsl:element name="li">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'connection curation'"/>
+                      </xsl:attribute>
                       <xsl:attribute name="data-connection-type">
                         <xsl:value-of select="'curation'"/>
                       </xsl:attribute>
@@ -6552,24 +6555,15 @@
                       <xsl:attribute name="data-connection-title">
                         <xsl:value-of select="./pp:title"/>
                       </xsl:attribute>
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'connection curation'"/>
-                      </xsl:attribute>
                       <xsl:element name="a">
                         <xsl:attribute name="class">
-                          <xsl:value-of select="'badge js-link to-curation'"/>
+                          <xsl:value-of select="'badge to-poem-curation-section'"/>
                         </xsl:attribute>
                         <xsl:attribute name="title">
                           <xsl:value-of select="concat('Jump to curations for Poem ', $poemNumber, '.')"/>
                         </xsl:attribute>
-                        <xsl:attribute name="data-resource-type">
-                          <xsl:value-of select="'curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-poem-id">
-                          <xsl:value-of select="$poemNumber"/>
-                        </xsl:attribute>
                         <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ee/', $poemNumber, '/#ctxs')"/>
+                          <xsl:value-of select="concat('/poems/ae/', $poemNumber, '/#ctxs')"/>
                         </xsl:attribute>
                         <xsl:attribute name="target">
                           <xsl:value-of select="'_blank'"/>

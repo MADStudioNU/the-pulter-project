@@ -35,8 +35,8 @@ var TPP = (function ($) {
       var $content = $body.find('#c');
       var $poemSection = $content.find('#poems-section');
       var $connectionSection = $content.find('#connections-section');
-      var $poemListGrid = $poemSection.find('.poem-list.grid');
-      var $connectionListGrid = $connectionSection.find('.connections-list.grid');
+      var $poemListGrid = $poemSection.find('.poem-list');
+      var $connectionListGrid = $connectionSection.find('.connections-list');
       var $intro = $body.find('#intro');
       var $actions = $intro.find('.actions');
       var $toPoemsAction = $actions.find('#to-poems');
@@ -45,7 +45,6 @@ var TPP = (function ($) {
       var $toIntro = $body.find('.to-intro');
       var $poemFSStatus = $content.find('.status-box.for-poems').find('.status');
       var $connectionsFSStatus = $content.find('.status-box.for-connections').find('.status');
-      var $imgCollection = $body.find('#pp-home-image-collection');
       var $connectionTriggers = $connectionListGrid.find('.connection');
       var $resourceTypeTabBox = $content.find('.resource-type-tabs');
       var $toolbar = $content.find('.toolbar');
@@ -54,32 +53,31 @@ var TPP = (function ($) {
       var $poemsTab = $resourceTypeTabBox.find('.poems-tab');
 
       // Initial state of UI
-      $imgCollection.imagesLoaded()
-        .always(function () {
-          if (hash && hash !== '0') {
-            // Check if the Connections tab is requested
-            if (hash === 'poems') {
-              toPoems()
-            } else if (hash === 'connections') {
-              toConnections();
-            }
-
-            $content.fadeIn();
-            $intro.addClass('animation-skipped');
-          } else {
-            // Load intro
-            $intro.fadeIn();
-
-            // If not played recently
-            if (!pulterState.get('enoughSplashAnimation')) {
-              playSplashAnimation();
-              pulterState.set('enoughSplashAnimation', true, 60 * 60 * 24);
-            } else {
-              // Otherwise, skip and just show elements
-              $('.anmtd, .eventually, .actions-box').addClass('skipped');
-            }
+      setTimeout(function () {
+        if (hash && hash !== '0') {
+          // Check if the Connections tab is requested
+          if (hash === 'poems') {
+            toPoems()
+          } else if (hash === 'connections') {
+            toConnections();
           }
-        });
+
+          $content.fadeIn();
+          $intro.addClass('animation-skipped');
+        } else {
+          // Load intro
+          $intro.fadeIn();
+
+          // If not played recently
+          if (!pulterState.get('enoughSplashAnimation')) {
+            playSplashAnimation();
+            pulterState.set('enoughSplashAnimation', true, 60 * 60 * 24);
+          } else {
+            // Otherwise, skip and just show elements
+            $('.anmtd, .eventually, .actions-box').addClass('skipped');
+          }
+        }
+      }, 0)
 
       // Various click event handlers
       // To the splash page
@@ -98,6 +96,13 @@ var TPP = (function ($) {
       $dropUps.on('click', function () {
         $(this).toggleClass('expanded');
       });
+
+      // Poem links on curation cards
+      $connectionTriggers
+        .find('.to-poem-curation-section')
+        .on('click', function (e) {
+          e.stopPropagation();
+        });
 
       // Connection lightbox
       $connectionTriggers.on('click', function () {
@@ -327,61 +332,65 @@ var TPP = (function ($) {
 
       // For the connections
       function initOrAdjustConnectionIsotope() {
-        if (!$ii) {
-          var $filterButtons = $toolbar
-            .find('.connection-index-filters')
-            .find('.filter');
-          $ii = $connectionListGrid.isotope({
-            layoutMode: 'masonry'
-          });
-          var totalNumberOfItems = $ii.isotope('getItemElements').length;
-          resetConnectionStatusString(totalNumberOfItems);
+          if (!$ii) {
+            setTimeout(function () {
+              $ii = $connectionListGrid.isotope({
+                layoutMode: 'packery',
+                itemSelector: '.connection'
+              });
 
-          // Click event handlers
-          $filterButtons
-            .on('click', '.label', function () {
-              var $this = $(this);
-              var keyword = $this.data('filter');
-
-              if (!$this.hasClass('active')) {
-                $filterButtons.find('.label').removeClass('active');
-                $this.toggleClass('active');
-              }
-
-              $connectionsFSStatus.addClass('hi');
-              $ii.isotope({ filter: keyword });
-              $('html,body').scrollTop(0);
-
-              var num = $ii.isotope('getFilteredItemElements').length;
-              var filteredResourceType = $ii.data('isotope').options.filter.slice(1) || 'all';
-
-              $connectionsFSStatus
-                .find('.filter-status')
-                .text(
-                  num + ' ' +
-                  filteredResourceType.slice(0, 1).toUpperCase() +
-                  filteredResourceType.slice(1) +
-                  (+num > 1 ? 's' : '')
-                );
-
-              return false;
-            });
-
-          // Reset action
-          $connectionsFSStatus
-            .find('.status-reset')
-            .on('click', function () {
-              $ii.isotope({ filter: '*' });
-              $connectionsFSStatus.removeClass('hi');
-              $filterButtons.find('.label').removeClass('active');
-
-              // reset the counter
+              var totalNumberOfItems = $ii.isotope('getItemElements').length;
               resetConnectionStatusString(totalNumberOfItems);
-            });
 
-        } else {
-          $ii.isotope('layout');
-        }
+              // Click event handlers
+              var $filterButtons = $toolbar
+                .find('.connection-index-filters')
+                .find('.filter');
+
+              $filterButtons
+                .on('click', '.label', function () {
+                  var $this = $(this);
+                  var keyword = $this.data('filter');
+
+                  if (!$this.hasClass('active')) {
+                    $filterButtons.find('.label').removeClass('active');
+                    $this.toggleClass('active');
+                  }
+
+                  $connectionsFSStatus.addClass('hi');
+                  $ii.isotope({ filter: keyword });
+                  $('html,body').scrollTop(0);
+
+                  var num = $ii.isotope('getFilteredItemElements').length;
+                  var filteredResourceType = $ii.data('isotope').options.filter.slice(1) || 'all';
+
+                  $connectionsFSStatus
+                    .find('.filter-status')
+                    .text(
+                      num + ' ' +
+                      filteredResourceType.slice(0, 1).toUpperCase() +
+                      filteredResourceType.slice(1) +
+                      (+num > 1 ? 's' : '')
+                    );
+
+                  // return false;
+                });
+
+              // Reset action
+              $connectionsFSStatus
+                .find('.status-reset')
+                .on('click', function () {
+                  $ii.isotope({ filter: '*' });
+                  $connectionsFSStatus.removeClass('hi');
+                  $filterButtons.find('.label').removeClass('active');
+
+                  // reset the counter
+                  resetConnectionStatusString(totalNumberOfItems);
+                });
+            }, 100);
+          } else {
+            $ii.isotope('layout');
+          }
       }
 
       function toPoems() {
