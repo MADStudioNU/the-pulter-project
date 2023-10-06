@@ -905,7 +905,7 @@
       &.connections-tab {
         $color: #4d3a32;
 
-        background: color.scale($connectionBaseBGColor, $lightness: -15%);
+        background: color.scale($connectionBaseBGColor, $lightness: -20%);
         color: darken($color, 5%);
         border-color: rgba($color, .5);
 
@@ -925,7 +925,7 @@
         }
 
         &:not(.active) {
-          background: color.scale($connectionBaseBGColor, $lightness: -25%);
+          background: color.scale($connectionBaseBGColor, $lightness: -30%);
         }
       }
     }
@@ -1063,7 +1063,7 @@
 
   .resource-type-tabs.connections-on {
     & + .toolbar-box {
-      background: color.scale($connectionBaseBGColor, $lightness: -15%);
+      background: color.scale($connectionBaseBGColor, $lightness: -20%);
       border-top: 1px solid $pp_manuscriptInk;
 
       .toolbar {
