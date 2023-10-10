@@ -289,42 +289,44 @@ var TPP = (function ($) {
       function initOrAdjustPoemIsotope() {
         // The poems
         if (!$i) {
-          $i = $poemListGrid.isotope({
-            layoutMode: 'vertical'
-          });
-
-          // Click event handlers
-          $poemListGrid
-            .find('.filter-tag')
-            .on('click', function () {
-              var $self = $(this);
-              var keyword = $self.data('filter');
-
-              $poemFSStatus.addClass('hi');
-              $i.isotope({ filter: keyword });
-              $('html,body').scrollTop(0);
-
-              var num = $i.isotope('getFilteredItemElements').length;
-
-              $poemFSStatus
-                .find('.filter-status')
-                .text(
-                  num +
-                  (+num > 1 ? ' poems ' : ' poem ') +
-                  ' matching “' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + '” '
-                );
-
-              return false;
+          setTimeout(function () {
+            $i = $poemListGrid.isotope({
+              layoutMode: 'vertical'
             });
 
-          // Reset action
-          $poemFSStatus
-            .find('.status-reset')
-            .on('click', function () {
-              $i.isotope({ filter: '*' });
-              $poemFSStatus.removeClass('hi');
-              resetPoemStatusString();
-            });
+            // Click event handlers
+            $poemListGrid
+              .find('.filter-tag')
+              .on('click', function () {
+                var $self = $(this);
+                var keyword = $self.data('filter');
+
+                $poemFSStatus.addClass('hi');
+                $i.isotope({ filter: keyword });
+                $('html,body').scrollTop(0);
+
+                var num = $i.isotope('getFilteredItemElements').length;
+
+                $poemFSStatus
+                  .find('.filter-status')
+                  .text(
+                    num +
+                    (+num > 1 ? ' poems ' : ' poem ') +
+                    ' matching “' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + '” '
+                  );
+
+                return false;
+              });
+
+            // Reset action
+            $poemFSStatus
+              .find('.status-reset')
+              .on('click', function () {
+                $i.isotope({ filter: '*' });
+                $poemFSStatus.removeClass('hi');
+                resetPoemStatusString();
+              });
+          }, 100);
         } else {
           $i.isotope('layout');
         }

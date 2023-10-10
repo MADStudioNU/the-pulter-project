@@ -4,7 +4,7 @@
   $maxWidth: 100em;
   $leftEdgeOffset: 4.5em;
   $mobileLeftEdgeOffset: 2.25em;
-  $mainColumnWidth: 66%;
+  $mainColumnWidth: 68%;
   $connectionBaseBGColor: #dedbd4;
 
   position: relative;
@@ -726,7 +726,7 @@
           height: 2.75em;
 
           @include breakpoint(mobile) {
-            height: 2em;
+            height: 2.5em;
           }
         }
       }
@@ -876,7 +876,6 @@
       }
 
       &.active {
-        //opacity: 1;
         z-index: 2;
         top: 1px;
       }
@@ -978,8 +977,9 @@
               @include transition(all .2s);
 
               @include breakpoint(mobile) {
-                margin: 1.5em 1.5em 1.5em 4.5em;
+                margin: 1.5em 1.5em 1.5em 0;
                 font-size: 1em;
+                line-height: 1.8;
               }
 
               .status-eye {
@@ -1175,15 +1175,20 @@
   }
 
   // Top offset
-  .index-top-padding {
-    padding-top: 13.5em;
-  }
+  //.index-top-padding {
+  //  padding-top: 13em;
+  //}
 
   // Indices
   #connections-section,
   #poems-section {
     max-width: $maxWidth;
     margin: 0 auto;
+    padding-top: 14.5em;
+
+    @include breakpoint(mobile) {
+      padding-top: 17.5em;
+    }
   }
 
   // Connections section
@@ -1191,15 +1196,20 @@
     overflow: hidden;
     background: color.scale($connectionBaseBGColor, $lightness: -15%);
     color: $pp_manuscriptInk;
-    //height: 0;
+
+    @include breakpoint(mobile) {
+      padding-top: 15em;
+    }
 
     .list-view {
       padding: 2.25em $leftEdgeOffset;
+
+      @include breakpoint(mobile) {
+        padding: 2em 2em 2em $mobileLeftEdgeOffset;
+      }
     }
 
-    &.enabled {
-      //height: auto;
-    }
+    //&.enabled {}
 
     ul.connections-list.grid {
       display: block;
@@ -1216,6 +1226,10 @@
         padding: .66em 1em .75em 1em;
         cursor: pointer;
         @include transition(border .2s, background .2s );
+
+        @include breakpoint(mobile) {
+          width: 12.5em;
+        }
 
         .title {
           font-size: ms(-1);
@@ -1316,7 +1330,6 @@
         }
 
         .main-column {
-          //background: chartreuse;
           width: $mainColumnWidth;
 
           @include breakpoint(mobile) {
@@ -1325,9 +1338,8 @@
         }
 
         .secondary-column {
-          //background: firebrick;
-          width: 100% - $mainColumnWidth - 4%;
-          margin-right: 4%;
+          width: 100% - $mainColumnWidth - 2%;
+          margin-right: 2%;
 
           @include breakpoint(mobile) {
             width: 90%;
@@ -1335,7 +1347,7 @@
         }
 
         @include breakpoint(mobile) {
-          padding: 1.5em 0;
+          padding: 2.25em 0;
         }
 
         //&::before,
@@ -1389,7 +1401,7 @@
             font-weight: bold;
             font-size: 1em;
             left: -3.25em;
-            top: 2.25em;
+            top: 3em;
           }
         }
 
@@ -1593,7 +1605,6 @@
             background: rgba($pp_manuscriptPaper, .15);
             line-height: 1;
             padding: .25em;
-            //font-style: italic;
             border-radius: 4px;
             @include transition(all .2s);
 
@@ -1605,6 +1616,10 @@
               color: rgba($pp_keywordColor, .9);
               background: rgba($pp_manuscriptPaper, .25);
             }
+
+            //@include breakpoint(mobile) {
+              //margin: .4em .3em;
+            //}
           }
         }
 
@@ -1612,8 +1627,7 @@
           padding-top: .66em;
 
           @include breakpoint(mobile) {
-            margin: .5em 0 0 0;
-            //border-top: 1px solid rgba(#fff, .05);
+            margin: 1em 0 0 0;
           }
 
           li.edition {
@@ -1632,7 +1646,7 @@
               padding-bottom: $air;
 
               @include breakpoint(mobile) {
-                margin-bottom: 1em;
+                margin-bottom: .75em;
                 border: none;
               }
             }
