@@ -858,6 +858,10 @@
     position: relative;
     right: 1px;
 
+    @include breakpoint(mobile) {
+      padding-left: 4em;
+    }
+
     .resource-tab {
       display: inline-block;
       border: 1px solid rgba(#000, .5);
@@ -947,6 +951,10 @@
       position: relative;
       padding: 0;
       font-family: $pp_interfaceFont;
+
+      @include breakpoint(mobile) {
+        margin-left: 2.75em;
+      }
 
       .col {
         display: inline-block;
