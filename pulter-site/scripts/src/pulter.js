@@ -258,17 +258,17 @@ var TPP = (function ($) {
       }
 
       function activatePoemIndex(uiOnly) {
+        $connectionSection.removeClass('enabled').hide();
         $content.fadeIn();
         $intro.hide();
-        $connectionSection.removeClass('enabled').fadeOut(200);
         $poemSection.fadeIn();
         $poemsTab.trigger('click', uiOnly);
       }
 
       function activateConnectionIndex(uiOnly) {
+        $poemSection.hide();
         $content.fadeIn();
         $intro.hide();
-        $poemSection.hide();
         $connectionSection.addClass('enabled').fadeIn();
         $connectionsTab.trigger('click', uiOnly);
       }
