@@ -6434,7 +6434,6 @@
           <a class="to-top-action" href="#poems">
             <img src="/images/up.svg"/>
           </a>
-<!--          <a class="to-exploration-action" href="#explorations"><img src="/images/exploration-mock.svg"/>Explorations</a>-->
           <div class="pp-band" id="poems">
             <xsl:text> </xsl:text>
           </div>

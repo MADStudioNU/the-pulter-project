@@ -202,27 +202,27 @@ var TPP = (function ($) {
       // Attaching the event listener
       window.addEventListener('hashchange', onHashChange);
 
-      // Exploration blurb logic
-      // if (!pulterState.has('muteExplorationBlurb')) {
-      //   $explorationBlurb.removeClass('muted').show();
-      //
-      //   $explorationBlurb.find('.muter').on('click', function () {
-      //     $explorationBlurb.addClass('muted');
-      //     pulterState.set('muteExplorationBlurb', true);
-      //   });
-      // }
-
       // Scroll watcher
       var scrollWatcher = debounce(
         function () {
-          var $w = $(window);
+          var windowScrolled = $(window).scrollTop();
 
-          if (
-            $w.scrollTop() >= $poemListGrid.offset().top
-          ) {
-            $body.addClass('scrolled');
-          } else {
-            $body.removeClass('scrolled');
+          // If on Poem Index
+          if ($poemSection.hasClass('enabled')) {
+            if (windowScrolled >= $poemListGrid.offset().top) {
+              $body.addClass('scrolled');
+            } else {
+              $body.removeClass('scrolled');
+            }
+          }
+
+          // If on Connection Index
+          if ($connectionSection.hasClass('enabled')) {
+            if (windowScrolled >= $connectionListGrid.offset().top) {
+              $body.addClass('scrolled');
+            } else {
+              $body.removeClass('scrolled');
+            }
           }
         }, 300
       );
@@ -261,12 +261,12 @@ var TPP = (function ($) {
         $connectionSection.removeClass('enabled').hide();
         $content.fadeIn();
         $intro.hide();
-        $poemSection.fadeIn();
+        $poemSection.addClass('enabled').fadeIn();
         $poemsTab.trigger('click', uiOnly);
       }
 
       function activateConnectionIndex(uiOnly) {
-        $poemSection.hide();
+        $poemSection.removeClass('enabled').hide();
         $content.fadeIn();
         $intro.hide();
         $connectionSection.addClass('enabled').fadeIn();
