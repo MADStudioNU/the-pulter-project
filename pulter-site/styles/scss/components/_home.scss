@@ -882,6 +882,10 @@
       &.active {
         z-index: 2;
         top: 1px;
+
+        @include breakpoint(mobile) {
+          top: 2px;
+        }
       }
 
       &:not(.active) {
