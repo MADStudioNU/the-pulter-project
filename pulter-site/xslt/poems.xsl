@@ -6209,48 +6209,164 @@
   <!-- The Pulter Project Explorations -->
   <pp:explorations>
     <pp:exploration hash="and-space-may-produce-new-worlds">
-      <pp:author>Lara Dodds</pp:author>
+      <pp:author>
+        <pp:person>Lara Dodds</pp:person>
+      </pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
+      <pp:sortingTitle></pp:sortingTitle>
+      <pp:keywords>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>John Donne</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>knowledge</pp:keyword>
+        <pp:keyword>satire</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulters-date-of-birth">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>A Difficult Labor: Hester Pulter’s Date of Birth</pp:title>
+      <pp:keywords>
+        <pp:keyword>birth</pp:keyword>
+        <pp:keyword>map</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulter-in-15-fifteens">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>Hester Pulter in 15 Fifteens</pp:title>
+      <pp:keywords>
+        <pp:keyword>Andrea Alciato</pp:keyword>
+        <pp:keyword>animal</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
+        <pp:keyword>Broadfield</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>editing</pp:keyword>
+        <pp:keyword>emblem</pp:keyword>
+        <pp:keyword>execution</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>portrait</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulters-marriage">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>Hester Pulter’s Marriage: Facts and Fiction</pp:title>
+      <pp:keywords>
+        <pp:keyword>marriage</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulter-and-english-blazon">
-      <pp:author>Frances E. Dolan</pp:author>
+      <pp:author>
+        <pp:person>Frances E. Dolan</pp:person>
+      </pp:author>
       <pp:title>Hester Pulter and the Blazon in Early Modern England</pp:title>
+      <pp:keywords>
+        <pp:keyword>blazon</pp:keyword>
+        <pp:keyword>Edmund Spenser</pp:keyword>
+        <pp:keyword>female body</pp:keyword>
+        <pp:keyword>Hutchinson</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>love poetry</pp:keyword>
+        <pp:keyword>Lucy</pp:keyword>
+        <pp:keyword>Margaret Cavendish</pp:keyword>
+        <pp:keyword>Petrarch</pp:keyword>
+        <pp:keyword>Philip Sidney</pp:keyword>
+        <pp:keyword>recipe</pp:keyword>
+        <pp:keyword>William Shakespeare</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
-      <pp:author>Lara Dodds</pp:author>
+      <pp:author>
+        <pp:person>Lara Dodds</pp:person>
+      </pp:author>
       <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
+      <pp:keywords>
+        <pp:keyword>humor</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="the-making-of-the-pulter-project" type="video">
-      <pp:author>C. A. Davis</pp:author>
+      <pp:author>
+        <pp:person>C. A. Davis</pp:person>
+      </pp:author>
       <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+      <pp:keywords>
+        <pp:keyword>editing</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>matter</pp:keyword>
+        <pp:keyword>media</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="picturing-pulter">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>Picturing Pulter: Words, Pigment, Stone, and Thread</pp:title>
+      <pp:keywords>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>burial</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>memorial</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
+        <pp:keyword>portrait</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>textile</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="rereading-pulters-confinement-in-the-pandemic">
-      <pp:author>Leah Knight et al.</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person> et al.
+      </pp:author>
       <pp:title>Rereading Pulter’s Confinement in the Pandemic</pp:title>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>isolation</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="soundings-hearing-hester-pulters-poems">
-      <pp:author>Leah Knight and Wendy Wall</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person> and <pp:person>Wendy Wall</pp:person>
+      </pp:author>
       <pp:title>Soundings: Hearing Hester Pulter’s Poems</pp:title>
+      <pp:keywords>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>media</pp:keyword>
+        <pp:keyword>sound</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="what-else-is-in-the-manuscript">
-      <pp:author>Wendy Wall</pp:author>
+      <pp:author>
+        <pp:person>Wendy Wall</pp:person>
+      </pp:author>
       <pp:title>What Else Is In the Manuscript? Or, Where Did Pulter’s Poems Live?</pp:title>
+      <pp:keywords>
+        <pp:keyword>Judith Madan’</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>Thomas D’Urfey</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
   </pp:explorations>
 
