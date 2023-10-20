@@ -1214,7 +1214,7 @@
     }
 
     .list-view {
-      padding: 2.25em $leftEdgeOffset;
+      padding: 2.25em $leftEdgeOffset 2.25em 3.66em;
 
       @include breakpoint(mobile) {
         padding: 2em 2em 2em $mobileLeftEdgeOffset;
