@@ -352,6 +352,8 @@ gulp.task('xslt:processManifest', function () {
       var json = JSON.parse(file.contents.toString('utf-8'));
       json['foo'] = 'bar';
       // todo: finish writing the manifest processing logic
+      // todo: consider using "vinyl-map" or "event-stream" instead of gulp-modify-file
+      // https://stackoverflow.com/questions/31251415/how-to-modify-config-files-using-gulp
 
       return JSON.stringify(json);
     }))
