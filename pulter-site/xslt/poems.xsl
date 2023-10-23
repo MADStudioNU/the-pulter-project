@@ -6614,6 +6614,13 @@
           </div>
           <div class="index-top-padding"><xsl:text> </xsl:text></div>
           <section id="connections-section">
+            <div>
+              <div class="connection-filter-group">
+                <button class="connection-filter" data-filter="*">All</button>
+                <button class="connection-filter" data-filter=".leah-knight">Leah</button>
+                <button class="connection-filter" data-filter=".wendy-wall">Wendy</button>
+              </div>
+            </div>
             <div class="list-view">
               <ul class="connections-list grid">
                 <!-- Explorations -->
@@ -6633,10 +6640,13 @@
 
                       <!-- Authors-->
                       <xsl:if test="./pp:author">
-                        <xsl:call-template name="keywordStringFormatter">
-                          <xsl:with-param name="input" select="./pp:author/pp:person"/>
-                        </xsl:call-template>
-                        <xsl:text> </xsl:text>
+                        <xsl:for-each select="./pp:author/pp:person">
+                          <xsl:variable name="keywordValue" select="text()"/>
+                          <xsl:call-template name="keywordStringFormatter">
+                            <xsl:with-param name="input" select="$keywordValue"/>
+                          </xsl:call-template>
+                          <xsl:text> </xsl:text>
+                        </xsl:for-each>
                       </xsl:if>
                     </xsl:variable>
 
