@@ -54,6 +54,7 @@ const childProcess = require('child_process');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
+const modifyFile = require('gulp-modify-file')
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -344,13 +345,30 @@ gulp.task('xslt:manifest', function () {
     .pipe(gulp.dest(SITE_BASE));
 });
 
+gulp.task('xslt:processManifest', function () {
+  return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+    .pipe(modifyFile((content, path, file) => {
+      console.log(file.contents.toString('utf-8'));
+      var json = JSON.parse(file.contents.toString('utf-8'));
+      json['foo'] = 'bar';
+      // todo: finish writing the manifest processing logic
+
+      return JSON.stringify(json);
+    }))
+    .pipe(gulp.dest(SITE_BASE));
+  }
+);
+
 gulp.task('getManifest',
-  gulp.series('xslt:manifest', function () {
-    return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-      .pipe(flatMap(function (stream, file) {
-        _manifest = JSON.parse(file.contents.toString('utf-8'));
-        return stream;
-      }));
+  gulp.series(
+    'xslt:manifest',
+    'xslt:processManifest',
+    function () {
+      return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+        .pipe(flatMap(function (stream, file) {
+          _manifest = JSON.parse(file.contents.toString('utf-8'));
+          return stream;
+        }));
     })
 );
 
@@ -364,7 +382,7 @@ gulp.task('xslt:search:elemental',
             .replace('pulter_', '');
           poemId = +poemId;
 
-          const filtered = filterById(_manifest, poemId);
+          const filtered = filterById(_manifest['poems'], poemId);
           const isPublished = filtered.length > 0 && filtered[0].isPublished;
           const isPseudo = filtered[0] ? (filtered[0].hasOwnProperty('isPseudo')) : false;
 
@@ -434,7 +452,7 @@ gulp.task('sitemap',
 
     console.log('Hi, sitemap builder is here.');
 
-    const publishedPoems = _manifest.filter(function (poemObj) {
+    const publishedPoems = _manifest['poems'].filter(function (poemObj) {
       return poemObj.isPublished;
     });
     let poemUrls = [];
@@ -548,7 +566,7 @@ gulp.task('silenceDirs', function (done) {
 gulp.task('xslt:poems:ee',
   gulp.series('getManifest', function () {
     console.log('Hi! EE Publisher is here!');
-    const poemsInManifest = _manifest;
+    const poemsInManifest = _manifest['poems'];
     const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
     const sourceExpression=
       (
@@ -620,7 +638,7 @@ gulp.task('xslt:poems:ee',
 gulp.task('xslt:poems:ae',
   gulp.series('getManifest', function () {
     console.log('Hi! AE Publisher is here!');
-    const poemsInManifest = _manifest;
+    const poemsInManifest = _manifest['poems'];
     const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
     const sourceExpression=
       (
@@ -685,7 +703,7 @@ gulp.task('xslt:poems:ae',
 gulp.task('xslt:poems:vm',
   gulp.series('getManifest', function () {
     console.log('Hi! VM Publisher is here!');
-    const poemsInManifest = _manifest;
+    const poemsInManifest = _manifest['poems'];
     const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
     const sourceExpression=
       (

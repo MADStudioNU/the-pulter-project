@@ -236,7 +236,7 @@ var TPP = (function ($) {
 
       indexRequest
         .done(function (data) {
-          poems = data;
+          poems = data['poems'];
           if (poems) {
             onManifestAcquired();
           }

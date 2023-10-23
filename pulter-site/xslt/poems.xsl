@@ -6401,29 +6401,61 @@
   </xsl:choose>
   </xsl:template>
 
-  <!-- JSON manifest generator -->
-  <xsl:template match="pulterProjectPoemManifestJSON">
-      <xsl:text>[</xsl:text>
-      <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
-        <xsl:variable name="poemId" select="./@id"/>
-        <xsl:variable name="seoTitle" select="./pp:seoTitle/text()"/>
-        <xsl:variable name="isPseudo" select="./@type = 'pseudo'"/>
-        <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
-        <xsl:text>{</xsl:text>
-        <xsl:if test="$isPseudo">
-          <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', string($isPseudo),'', ',')"/>
-        </xsl:if>
-        <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;', ',')"/>
-        <xsl:value-of select="concat('&quot;isPublished&quot;: ', string($isPublished))"/>
-        <xsl:apply-templates>
-            <xsl:with-param name="seoTitle" select="$seoTitle"/>
-        </xsl:apply-templates>
-        <xsl:text>}</xsl:text>
-        <xsl:if test="position() != last()">
-            <xsl:text>,</xsl:text>
+  <!-- JSON poem manifest generator -->
+  <xsl:template match="pulterProjectJSONMetadata">
+    <xsl:text>{&quot;connections&quot;: </xsl:text>
+    <xsl:text>{&quot;contributors&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+      <xsl:variable name="isLastExploration" select="position() = last()"/>
+      <xsl:for-each select="./pp:author/pp:person">
+        <xsl:variable name="isLastPerson" select="position() = last()"/>
+        <xsl:variable name="name" select="."/>
+        <xsl:value-of select="concat('&quot;', $name, '&quot;')"/>
+        <xsl:if test="not($isLastExploration and $isLastPerson)">
+          <xsl:text>,</xsl:text>
         </xsl:if>
       </xsl:for-each>
-      <xsl:text>]</xsl:text>
+    </xsl:for-each>
+    <xsl:text>],</xsl:text>
+    <xsl:text>&quot;keywords&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+      <xsl:variable name="isLastExploration" select="position() = last()"/>
+      <xsl:for-each select="./pp:keywords/pp:keyword">
+        <xsl:variable name="isLastKeyword" select="position() = last()"/>
+        <xsl:variable name="name" select="."/>
+        <xsl:value-of select="concat('&quot;', $name, '&quot;')"/>
+        <xsl:if test="not($isLastExploration and $isLastKeyword)">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:for-each>
+    <xsl:text>]</xsl:text>
+    <xsl:text>},</xsl:text>
+    <xsl:text>&quot;poems&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
+      <xsl:variable name="poemId" select="./@id"/>
+      <xsl:variable name="seoTitle" select="./pp:seoTitle/text()"/>
+      <xsl:variable name="isPseudo" select="./@type = 'pseudo'"/>
+      <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
+      <xsl:text>{</xsl:text>
+      <xsl:if test="$isPseudo">
+        <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', string($isPseudo),'', ',')"/>
+      </xsl:if>
+      <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;', ',')"/>
+      <xsl:value-of select="concat('&quot;isPublished&quot;: ', string($isPublished))"/>
+      <xsl:apply-templates>
+        <xsl:with-param name="seoTitle" select="$seoTitle"/>
+      </xsl:apply-templates>
+      <xsl:text>}</xsl:text>
+      <xsl:if test="position() != last()">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
+    </xsl:for-each>
+    <xsl:text>]</xsl:text>
+    <xsl:text>}</xsl:text>
   </xsl:template>
 
   <!-- HTML manifest generator -->
