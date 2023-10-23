@@ -6619,38 +6619,31 @@
                 <!-- Explorations -->
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
                   <xsl:element name="li">
-<!--                    Keywords-->
-<!--                    <xsl:if test="">-->
+                    <xsl:variable name="connectionClasses">
+                      <!-- Keywords-->
+                      <xsl:if test="./pp:keywords">
+                        <xsl:for-each select="./pp:keywords/pp:keyword">
+                          <xsl:variable name="keywordValue" select="text()"/>
+                          <xsl:call-template name="keywordStringFormatter">
+                            <xsl:with-param name="input" select="$keywordValue"/>
+                          </xsl:call-template>
+                          <xsl:text> </xsl:text>
+                        </xsl:for-each>
+                      </xsl:if>
 
-<!--                    </xsl:if>-->
+                      <!-- Authors-->
+                      <xsl:if test="./pp:author">
+                        <xsl:call-template name="keywordStringFormatter">
+                          <xsl:with-param name="input" select="./pp:author/pp:person"/>
+                        </xsl:call-template>
+                        <xsl:text> </xsl:text>
+                      </xsl:if>
+                    </xsl:variable>
 
-                    <!-- Authors-->
-<!--                    <xsl:if test="">-->
+                    <xsl:attribute name="class">
+                      <xsl:value-of select="concat($connectionClasses, 'connection exploration')"/>
+                    </xsl:attribute>
 
-<!--                    </xsl:if>-->
-
-
-                    <xsl:choose>
-                      <xsl:when test="./pp:keywords">
-                        <xsl:variable name="keywordClasses">
-                          <xsl:for-each select="./pp:keywords/pp:keyword">
-                            <xsl:variable name="keywordValue" select="text()"/>
-                            <xsl:call-template name="keywordStringFormatter">
-                              <xsl:with-param name="input" select="$keywordValue"/>
-                            </xsl:call-template>
-                            <xsl:text> </xsl:text>
-                          </xsl:for-each>
-                        </xsl:variable>
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="concat($keywordClasses, 'connection exploration')"/>
-                        </xsl:attribute>
-                      </xsl:when>
-                      <xsl:otherwise>
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'connection exploration'"/>
-                        </xsl:attribute>
-                      </xsl:otherwise>
-                    </xsl:choose>
                     <xsl:attribute name="data-connection-type">
                       <xsl:value-of select="'exploration'"/>
                     </xsl:attribute>
@@ -7306,8 +7299,9 @@
     <xsl:variable name="keywordNLC" select="translate(normalize-space($keywordValue), $ucAlphabet, $lcAlphabet)"/>
     <xsl:variable name="keywordNRP" select="translate(normalize-space($keywordNLC), ')', '')"/>
     <xsl:variable name="keywordNLP" select="translate(normalize-space($keywordNRP), '(', '')"/>
-    <xsl:variable name="keywordNApo" select="translate(normalize-space($keywordNRP), '’', '')"/>
-    <xsl:variable name="keywordOut" select="translate(normalize-space($keywordNApo), ' ', '-')"/>
+    <xsl:variable name="keywordNoApostrpohes" select="translate(normalize-space($keywordNRP), '’', '')"/>
+    <xsl:variable name="keywordNoPeriods" select="translate(normalize-space($keywordNoApostrpohes), '.', '')"/>
+    <xsl:variable name="keywordOut" select="translate(normalize-space($keywordNoPeriods), ' ', '-')"/>
 
     <xsl:value-of select="$keywordOut"/>
   </xsl:template>
