@@ -6648,15 +6648,15 @@
           <section id="connections-section">
             <div class="connection-filters">
               <div class="label">Authors</div>
-              <ul class="author-list"></ul>
-
-              <div class="label">Keywords</div>
-              <ul class="keyword-list"></ul>
-
-              <div class="connection-filter-group">
+              <div class="connection-filter-group authors">
                 <button class="connection-filter" data-filter="*">All</button>
                 <button class="connection-filter" data-filter=".leah-knight">Leah</button>
                 <button class="connection-filter" data-filter=".wendy-wall">Wendy</button>
+              </div>
+
+              <div class="label">Keywords</div>
+              <div class="connection-filter-group keywords">
+                <button class="connection-filter" data-filter=".keyword-1">[keyword one]</button>
               </div>
             </div>
             <div class="list-view">
