@@ -6646,7 +6646,13 @@
           </div>
           <div class="index-top-padding"><xsl:text> </xsl:text></div>
           <section id="connections-section">
-            <div>
+            <div class="connection-filters">
+              <div class="label">Authors</div>
+              <ul class="author-list"></ul>
+
+              <div class="label">Keywords</div>
+              <ul class="keyword-list"></ul>
+
               <div class="connection-filter-group">
                 <button class="connection-filter" data-filter="*">All</button>
                 <button class="connection-filter" data-filter=".leah-knight">Leah</button>

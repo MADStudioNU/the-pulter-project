@@ -54,7 +54,8 @@ const childProcess = require('child_process');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
-const modifyFile = require('gulp-modify-file')
+const es = require('event-stream');
+const _ = require('lodash');
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -86,6 +87,44 @@ function getXSLTProcOptions(xslFileName, isHTML) {
     maxBuffer: undefined,
     inputIsHTML: isHTML
   }
+}
+
+function optimizeManifest () {
+  return es.map(function (file, cb) {
+    let json = JSON.parse(file.contents.toString('utf-8'));
+
+    // Process the manifest
+    if (json.connections) {
+      if (json.connections.contributors) {
+        json.connections.contributors = _.uniq(json.connections.contributors)
+          .map((contributor) => {
+            return {
+              displayName: contributor.trim(),
+              className: dashify(contributor.trim(), {condense: true})
+            }
+          })
+      }
+
+      if (json.connections.keywords) {
+        json.connections.keywords = _.uniq(json.connections.keywords)
+          .sort(function (a, b) {
+            return a.toLowerCase().localeCompare(b.toLowerCase());
+          })
+          .map((keyword) => {
+            return {
+              displayName: keyword.trim(),
+              className: dashify(keyword.trim(), {condense: true})
+            }
+          })
+      }
+    }
+
+    // Update the vinyl file contents
+    file.contents = new Buffer(JSON.stringify(json));
+
+    // Send the updated file down the pipe
+    cb(null, file);
+  })
 }
 
 /* DEV Tasks */
@@ -347,16 +386,7 @@ gulp.task('xslt:manifest', function () {
 
 gulp.task('xslt:processManifest', function () {
   return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-    .pipe(modifyFile((content, path, file) => {
-      console.log(file.contents.toString('utf-8'));
-      var json = JSON.parse(file.contents.toString('utf-8'));
-      json['foo'] = 'bar';
-      // todo: finish writing the manifest processing logic
-      // todo: consider using "vinyl-map" or "event-stream" instead of gulp-modify-file
-      // https://stackoverflow.com/questions/31251415/how-to-modify-config-files-using-gulp
-
-      return JSON.stringify(json);
-    }))
+    .pipe(optimizeManifest())
     .pipe(gulp.dest(SITE_BASE));
   }
 );
