@@ -1213,6 +1213,58 @@
       padding-top: 15em;
     }
 
+    // Filters
+    .connection-filters {
+      background: rgba(color.scale($pp_manuscriptInk, $lightness: -10%), .1);
+      border-bottom: 1px rgba(#282828, .05) solid;
+      padding: 0 10em 0 4.25em;
+      max-width: 100em;
+      overflow: hidden;
+      //max-height: 0; // todo: animate this
+
+      @include breakpoint(mobile) {
+        padding: 2.25em;
+      }
+
+      .connection-filter-group-box {
+        $air: 2.5em;
+
+        &:first-child {
+          margin-top: $air;
+          margin-bottom: 2em;
+        }
+
+        &:last-child {
+          margin-bottom: $air;
+        }
+      }
+
+      .label {
+        font-size: ms(0);
+        font-weight: bold;
+        margin-bottom: .66em;
+        margin-left: .1em;
+      }
+
+      .connection-filter-group {
+        line-height: 1.66;
+
+        li {
+          font-size: ms(-2);
+          cursor: pointer;
+          border-radius: 4px;
+
+          line-height: 1;
+          display: inline-block;
+          padding: .5em .45em .4em .45em;
+          margin: .25em;
+          background: rgba(#000, .1);
+        }
+      }
+    }
+
+
+    // The grid
     .list-view {
       padding: 2.25em $leftEdgeOffset 2.25em 3.66em;
 

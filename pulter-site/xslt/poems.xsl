@@ -6647,16 +6647,13 @@
           <div class="index-top-padding"><xsl:text> </xsl:text></div>
           <section id="connections-section">
             <div class="connection-filters">
-              <div class="label">Authors</div>
-              <div class="connection-filter-group authors">
-                <button class="connection-filter" data-filter="*">All</button>
-                <button class="connection-filter" data-filter=".leah-knight">Leah</button>
-                <button class="connection-filter" data-filter=".wendy-wall">Wendy</button>
+              <div class="connection-filter-group-box authors">
+                <div class="label">Authors</div>
+                <ul id="connection-author-filters" class="connection-filter-group"></ul>
               </div>
-
-              <div class="label">Keywords</div>
-              <div class="connection-filter-group keywords">
-                <button class="connection-filter" data-filter=".keyword-1">[keyword one]</button>
+              <div class="connection-filter-group-box keywords">
+                <div class="label">Keywords</div>
+                <ul id="connection-keyword-filters" class="connection-filter-group"></ul>
               </div>
             </div>
             <div class="list-view">

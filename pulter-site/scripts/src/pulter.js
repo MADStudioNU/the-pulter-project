@@ -35,6 +35,9 @@ var TPP = (function ($) {
       var $content = $body.find('#c');
       var $poemSection = $content.find('#poems-section');
       var $connectionSection = $content.find('#connections-section');
+      var $connectionFilters = $connectionSection.find('.connection-filter-group');
+      var $connectionAuthorFilterGroup = $connectionSection.find('#connection-author-filters');
+      var $connectionKeywordFilterGroup = $connectionSection.find('#connection-keyword-filters');
       var $poemListGrid = $poemSection.find('.poem-list');
       var $connectionListGrid = $connectionSection.find('.connections-list');
       var $intro = $body.find('#intro');
@@ -231,14 +234,20 @@ var TPP = (function ($) {
       $(window).on('scroll', scrollWatcher);
 
       // Become aware of the PP environment
+      var manifest;
       var poems = [];
       var indexRequest = this.getPoemIndex();
 
       indexRequest
         .done(function (data) {
-          poems = data['poems'];
-          if (poems) {
-            onManifestAcquired();
+          manifest = data;
+
+          if (manifest.poems && manifest.poems.length > 0) {
+            resetPoemStatusString();
+          }
+
+          if (manifest.connections) {
+            buildConnectionFilters(manifest.connections);
           }
         })
         .fail(function () {
@@ -279,9 +288,22 @@ var TPP = (function ($) {
         return $el.length ? $el[0] : false;
       }
 
-      function onManifestAcquired() {
-        // Set initial (default) state
-        resetPoemStatusString();
+      function buildConnectionFilters(connectionFilterObject) {
+        // Assemble connection filter lists
+        var contributorListItems = connectionFilterObject.contributors
+          .map(function (contributor) {
+            return '<li class="connection-filter" data-filter=".' + contributor.className + '">' + contributor.displayName + '</li>';
+          });
+
+        var keywordListItems = connectionFilterObject.keywords
+          .map(function (contributor) {
+            return '<li class="connection-filter" data-filter=".' + contributor.className + '">' + contributor.displayName + '</li>';
+          });
+
+        $connectionAuthorFilterGroup.append($(contributorListItems.join('')));
+        $connectionKeywordFilterGroup.append($(keywordListItems.join('')));
+
+        // todo: add click handlers
       }
 
       // Initialize the Isotope instances
