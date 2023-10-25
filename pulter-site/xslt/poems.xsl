@@ -6213,7 +6213,7 @@
         <pp:person>Lara Dodds</pp:person>
       </pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
-      <!-- todo: add sorting title to connections-->
+      <!-- todo: add sorting title to connections; add it to a data attribute (pick N first characters) -->
       <pp:sortingTitle>And space may produce new worlds: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:sortingTitle>
       <pp:keywords>
         <pp:keyword>astronomy</pp:keyword>
