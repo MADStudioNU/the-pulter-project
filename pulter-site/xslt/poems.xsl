@@ -6685,11 +6685,20 @@
                         </xsl:for-each>
                       </xsl:if>
                     </xsl:variable>
-
                     <xsl:attribute name="class">
                       <xsl:value-of select="concat($connectionClasses, 'connection exploration')"/>
                     </xsl:attribute>
-
+                    <xsl:attribute name="data-sorting-title">
+                      <xsl:variable name="maxLength" select="20"/>
+                      <xsl:choose>
+                        <xsl:when test="./pp:sortingTitle">
+                          <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:attribute>
                     <xsl:attribute name="data-connection-type">
                       <xsl:value-of select="'exploration'"/>
                     </xsl:attribute>

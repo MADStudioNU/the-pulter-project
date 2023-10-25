@@ -304,6 +304,8 @@ var TPP = (function ($) {
         $connectionKeywordFilterGroup.append($(keywordListItems.join('')));
 
         // todo: add click handlers
+        // todo: add sorters
+        // todo: add sorting titles to connections
       }
 
       // Initialize the Isotope instances
