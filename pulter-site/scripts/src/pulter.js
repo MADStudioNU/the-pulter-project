@@ -22,6 +22,8 @@ var TPP = (function ($) {
 
       // Isotope instance for the Connection index
       var $ii;
+      // An object to store connection active filters
+      var ii_filters = {};
 
       // Local vars
       // URL hash ('undefined' if no hash present)
@@ -35,7 +37,7 @@ var TPP = (function ($) {
       var $content = $body.find('#c');
       var $poemSection = $content.find('#poems-section');
       var $connectionSection = $content.find('#connections-section');
-      var $connectionFilters = $connectionSection.find('.connection-filter-group');
+      var $connectionFiltersBox = $connectionSection.find('.connection-filters');
       var $connectionAuthorFilterGroup = $connectionSection.find('#connection-author-filters');
       var $connectionKeywordFilterGroup = $connectionSection.find('#connection-keyword-filters');
       var $poemListGrid = $poemSection.find('.poem-list');
@@ -303,9 +305,32 @@ var TPP = (function ($) {
         $connectionAuthorFilterGroup.append($(contributorListItems.join('')));
         $connectionKeywordFilterGroup.append($(keywordListItems.join('')));
 
-        // todo: add click handlers
+        $connectionFiltersBox
+          .find('.connection-filter')
+          .on('click', function () {
+            var $this = $(this);
+            console.log($this.text());
+
+            var filterGroup = $this.parent().data('filter-group');
+            var filterTerm = $this.data('filter');
+
+            // Update the UI
+            // If author is selected then switch to a requested one
+            if (filterGroup === 'author') {
+              $this.siblings().removeClass('on');
+              $this.toggleClass('on');
+            }
+
+            // If keyword is selected then add/remove the requested one
+            if (filterGroup === 'keyword') {
+              $this.toggleClass('on');
+            }
+
+            // Pass the data to the dedicated filtering function
+            setConnectionFilter(filterGroup, filterTerm);
+        })
+
         // todo: add sorters
-        // todo: add sorting titles to connections
       }
 
       // Initialize the Isotope instances
@@ -336,7 +361,7 @@ var TPP = (function ($) {
                   .text(
                     num +
                     (+num > 1 ? ' poems ' : ' poem ') +
-                    ' matching “' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + '” '
+                    ' matching ' + keyword.slice(1).toUpperCase().replace('/-/g', ' ') + ' '
                   );
 
                 return false;
@@ -369,37 +394,31 @@ var TPP = (function ($) {
               resetConnectionStatusString(totalNumberOfItems);
 
               // Click event handlers
-              var $filterButtons = $toolbar
+              var $connectionTypeFilterButtons = $toolbar
                 .find('.connection-index-filters')
                 .find('.filter');
 
-              $filterButtons
+              $connectionTypeFilterButtons
                 .on('click', '.label', function () {
                   var $this = $(this);
-                  var keyword = $this.data('filter');
+                  var isFilterDropdownTrigger = $this.hasClass('all-filters-trigger');
 
-                  if (!$this.hasClass('active')) {
-                    $filterButtons.find('.label').removeClass('active');
-                    $this.toggleClass('active');
+                  if (isFilterDropdownTrigger) {
+                    $this.toggleClass('enabled');
+                    $connectionFiltersBox.toggleClass('expanded');
+                  } else {
+                    var filterGroup = $this.data('filter-group');
+                    var filterTerm = $this.data('filter');
+
+                    if (!$this.hasClass('active')) {
+                      $connectionTypeFilterButtons
+                        .find('.label')
+                        .removeClass('active');
+                      $this.toggleClass('active');
+                    }
+
+                    setConnectionFilter(filterGroup, filterTerm);
                   }
-
-                  $connectionsFSStatus.addClass('hi');
-                  $ii.isotope({ filter: keyword });
-                  $('html,body').scrollTop(0);
-
-                  var num = $ii.isotope('getFilteredItemElements').length;
-                  var filteredResourceType = $ii.data('isotope').options.filter.slice(1) || 'all';
-
-                  $connectionsFSStatus
-                    .find('.filter-status')
-                    .text(
-                      num + ' ' +
-                      filteredResourceType.slice(0, 1).toUpperCase() +
-                      filteredResourceType.slice(1) +
-                      (+num > 1 ? 's' : '')
-                    );
-
-                  // return false;
                 });
 
               // Reset action
@@ -408,10 +427,11 @@ var TPP = (function ($) {
                 .on('click', function () {
                   $ii.isotope({ filter: '*' });
                   $connectionsFSStatus.removeClass('hi');
-                  $filterButtons.find('.label').removeClass('active');
+                  $connectionTypeFilterButtons.find('.label').removeClass('active');
 
                   // reset the counter
                   resetConnectionStatusString(totalNumberOfItems);
+                  resetConnectionFilters();
                 });
             }, 100);
           } else {
@@ -429,6 +449,110 @@ var TPP = (function ($) {
         initOrAdjustConnectionIsotope();
       }
 
+      function setConnectionFilter(filterGroup, filterTerm) {
+        // Indicate that the filter state is active
+        $connectionsFSStatus.addClass('hi');
+
+        // Default filtering logic (one at a time)
+        if (filterGroup !== 'keyword') {
+          // If the filter is already active, remove it
+          if (ii_filters[filterGroup] === filterTerm) {
+            delete ii_filters[filterGroup];
+          } else {
+            ii_filters[filterGroup] = filterTerm;
+          }
+        } else {
+          // Filtering logic for keywords is different (one or more at a time)
+          // get current value of keyword filterGroup
+          var _keywords =
+            ii_filters.keyword ?
+              ii_filters.keyword
+                .split('.')
+                .splice(1)
+                .map(function (keyword) {
+                  return '.' + keyword;
+                }) : [];
+
+          // If the filter is already active, remove it
+          if (_keywords.indexOf(filterTerm) > -1) {
+            _keywords = _keywords.filter(function (keyword) {
+              return keyword !== filterTerm;
+            });
+          } else {
+            // Otherwise, add it
+            _keywords.push(filterTerm);
+          }
+
+          // Write the resulting string back to the filter object
+          ii_filters.keyword = _keywords.join('');
+        }
+
+        var finalFilterValue = Object.keys(ii_filters)
+          .map(function (key) {
+            return ii_filters[key];
+          })
+          .join('');
+
+        console.log('finalFilterValue:', finalFilterValue);
+
+        // Perform the filtering
+        $ii.isotope({
+          filter: finalFilterValue
+        });
+
+        // Make sure the beginning of the resulting set is visible
+        $('html,body').scrollTop(0);
+
+        // Update the filter status string
+        // todo: figure out the exact logic
+        var num = $ii.isotope('getFilteredItemElements').length;
+
+        if (num === 0) {
+          console.log('Empty filter set!');
+          // todo: display empty filter set message with reset option
+        }
+
+        console.log(ii_filters);
+
+        var filteredConnectionType = ii_filters['type'] ? ii_filters['type'].slice(1) : 'connection';
+
+        var emptySetMessage = 'Nothing matches the filters';
+        var filterSetMessage = 'Showing ' + num + ' ' + filteredConnectionType + (num > 1 ? 's' : '');
+
+        if (ii_filters['author']) {
+          filterSetMessage += ' by ' + ii_filters['author'];
+        }
+
+        if (ii_filters['keyword']) {
+          filterSetMessage += ' matching ' +
+            ii_filters['keyword']
+              .toUpperCase()
+              .split('.')
+              .splice(1).join(', ');
+        }
+
+        // todo: add sorters
+
+        // todo: don't regenerate the whole string every time, only update the needed fields
+
+        // todo: remove console.log calls
+
+        $connectionsFSStatus
+          .find('.filter-status')
+          .text(num > 0 ? filterSetMessage : emptySetMessage);
+      }
+
+      function resetConnectionFilters() {
+        // UI
+        $connectionFiltersBox
+          .find('.connection-filter')
+          .removeClass('on');
+
+        // Model
+        ii_filters = {};
+        $ii.filter('*');
+      }
+
       function resetPoemStatusString() {
         $poemFSStatus
           .find('.filter-status')
@@ -442,7 +566,7 @@ var TPP = (function ($) {
       function resetConnectionStatusString(totalNumberOfConnections) {
         $connectionsFSStatus
           .find('.filter-status')
-          .text('all ' + totalNumberOfConnections + ' Curations and Explorations');
+          .text('Showing all ' + totalNumberOfConnections + ' Curations and Explorations');
       }
 
       function playSplashAnimation() {

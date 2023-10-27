@@ -1126,13 +1126,19 @@
                 &:not(:last-child) {
                   margin-right: 1.75em;
                 }
+              }
+
+              li {
+                vertical-align: middle;
 
                 .label {
+                  line-height: 1;
                   color: #282828;
                   opacity: .85;
                   cursor: pointer;
                   display: inline-block;
                   padding: 0;
+                  vertical-align: middle;
 
                   &.active {
                     font-weight: bold;
@@ -1147,6 +1153,22 @@
                   &:hover {
                     background: rgba($pp_manuscriptInk, .9);
                     color: rgba(#fff, 1);
+                  }
+                }
+
+                &.all-filters {
+                  text-transform: none;
+
+                  .label {
+                    text-transform: none;
+                    letter-spacing: 1px;
+                    font-style: italic;
+                    border-bottom: dashed 1px rgba(#282828, .33);
+                    line-height: 1.33;
+
+                    &.enabled {
+                      opacity: 1;
+                    }
                   }
                 }
               }
@@ -1215,15 +1237,20 @@
 
     // Filters
     .connection-filters {
-      background: rgba(color.scale($pp_manuscriptInk, $lightness: -10%), .1);
-      border-bottom: 1px rgba(#282828, .05) solid;
+      background: rgba(color.scale($pp_manuscriptInk, $lightness: -30%), .15);
       padding: 0 10em 0 4.25em;
       max-width: 100em;
       overflow: hidden;
-      //max-height: 0; // todo: animate this
+      //max-height: 0;
+      @include transition(max-height .3s ease-in-out);
 
       @include breakpoint(mobile) {
         padding: 2.25em;
+      }
+
+      &.expanded {
+        max-height: 60em;
+        border-bottom: 1px rgba(#282828, .06) solid;
       }
 
       .connection-filter-group-box {
@@ -1244,6 +1271,7 @@
         font-weight: bold;
         margin-bottom: .66em;
         margin-left: .1em;
+        color: #282828;
       }
 
       .connection-filter-group {
@@ -1253,12 +1281,34 @@
           font-size: ms(-2);
           cursor: pointer;
           border-radius: 4px;
-
+          border: 1px solid rgba($pp_manuscriptInk, 0);
           line-height: 1;
           display: inline-block;
-          padding: .5em .45em .4em .45em;
+          padding: .33em .33em .25em .33em;
           margin: .25em;
           background: rgba(#000, .1);
+
+          &.on {
+            border: 1px solid $pp_manuscriptInk;
+            color: color.scale($pp_manuscriptInk, $lightness: -20%);
+          }
+        }
+
+        &#connection-author-filters {
+          li {
+            @include transition(border .2s);
+          }
+        }
+
+        &#connection-keyword-filters {
+          li {
+            @include transition(background .2s, color .2s);
+
+            &.on {
+              background: color.scale($pp_manuscriptInk, $lightness: -15%);;
+              color: $pp_manuscriptPaper;
+            }
+          }
         }
       }
     }

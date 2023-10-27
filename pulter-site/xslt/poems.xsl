@@ -6622,7 +6622,7 @@
                     </div>
                   </div>
                   <div class="status-box for-connections">
-                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span>. <span class="status-reset">Reset</span>
+                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg><span class="filter-status"><xsl:text> </xsl:text></span>. <span class="status-reset">Reset</span>
                     </div>
                   </div>
                 </div>
@@ -6633,12 +6633,15 @@
                 <div class="col c-flag">
                   <ul class="connection-index-filters">
                     <li class="filter">
-                      <span class="label" data-filter=".curation">Curations</span>
+                      <span class="label" data-filter-group="type" data-filter=".curation">Curations</span>
                       <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#curations-blurb" data-featherlight-variant="home-lightbox">i</a>
                     </li>
                     <li class="filter">
-                      <span class="label" data-filter=".exploration">Explorations</span>
+                      <span class="label" data-filter-group="type" data-filter=".exploration">Explorations</span>
                       <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#explorations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                    </li>
+                    <li class="filter all-filters">
+                      <span class="label all-filters-trigger">All filters</span>
                     </li>
                   </ul>
                 </div>
@@ -6649,12 +6652,12 @@
           <section id="connections-section">
             <div class="connection-filters">
               <div class="connection-filter-group-box authors">
-                <div class="label">Authors</div>
-                <ul id="connection-author-filters" class="connection-filter-group"></ul>
+                <div class="label">Contributors</div>
+                <ul id="connection-author-filters" class="connection-filter-group" data-filter-group="author"></ul>
               </div>
               <div class="connection-filter-group-box keywords">
                 <div class="label">Keywords</div>
-                <ul id="connection-keyword-filters" class="connection-filter-group"></ul>
+                <ul id="connection-keyword-filters" class="connection-filter-group" data-filter-group="keyword"></ul>
               </div>
             </div>
             <div class="list-view">
@@ -7354,7 +7357,7 @@
     <xsl:variable name="keywordNLC" select="translate(normalize-space($keywordValue), $ucAlphabet, $lcAlphabet)"/>
     <xsl:variable name="keywordNRP" select="translate(normalize-space($keywordNLC), ')', '')"/>
     <xsl:variable name="keywordNLP" select="translate(normalize-space($keywordNRP), '(', '')"/>
-    <xsl:variable name="keywordNoApostrpohes" select="translate(normalize-space($keywordNRP), '’', '')"/>
+    <xsl:variable name="keywordNoApostrpohes" select="translate(normalize-space($keywordNRP), '’', '-')"/>
     <xsl:variable name="keywordNoPeriods" select="translate(normalize-space($keywordNoApostrpohes), '.', '')"/>
     <xsl:variable name="keywordOut" select="translate(normalize-space($keywordNoPeriods), ' ', '-')"/>
 
