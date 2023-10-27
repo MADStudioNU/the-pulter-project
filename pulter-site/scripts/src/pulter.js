@@ -556,7 +556,7 @@ var TPP = (function ($) {
       function resetPoemStatusString() {
         $poemFSStatus
           .find('.filter-status')
-          .text(poems.filter(
+          .text(manifest.poems.filter(
             function(poem) {
               return poem.isPublished;
             }).length + ' poems '
@@ -566,7 +566,7 @@ var TPP = (function ($) {
       function resetConnectionStatusString(totalNumberOfConnections) {
         $connectionsFSStatus
           .find('.filter-status')
-          .text('Showing all ' + totalNumberOfConnections + ' Curations and Explorations');
+          .text('Showing all ' + totalNumberOfConnections + ' Connections');
       }
 
       function playSplashAnimation() {
