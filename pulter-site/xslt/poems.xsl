@@ -6158,10 +6158,13 @@
         <pp:keyword>civil war</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>age</pp:tag>
         <pp:tag>animals</pp:tag>
         <pp:tag>children</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
         <pp:tag>folly</pp:tag>
         <pp:tag>history</pp:tag>
+        <pp:tag>hydra</pp:tag>
         <pp:tag>king</pp:tag>
         <pp:tag>mockery</pp:tag>
         <pp:tag>song</pp:tag>
