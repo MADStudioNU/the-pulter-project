@@ -40,6 +40,7 @@ var TPP = (function ($) {
       var $connectionFiltersBox = $connectionSection.find('.connection-filters');
       var $connectionAuthorFilterGroup = $connectionSection.find('#connection-author-filters');
       var $connectionKeywordFilterGroup = $connectionSection.find('#connection-keyword-filters');
+      var $connectionEmptySetMessage = $connectionSection.find('.empty-set-message');
       var $poemListGrid = $poemSection.find('.poem-list');
       var $connectionListGrid = $connectionSection.find('.connections-list');
       var $intro = $body.find('#intro');
@@ -50,6 +51,7 @@ var TPP = (function ($) {
       var $toIntro = $body.find('.to-intro');
       var $poemFSStatus = $content.find('.status-box.for-poems').find('.status');
       var $connectionsFSStatus = $content.find('.status-box.for-connections').find('.status');
+      var $filterStatus = $connectionsFSStatus.find('.filter-status');
       var $connectionTriggers = $connectionListGrid.find('.connection');
       var $resourceTypeTabBox = $content.find('.resource-type-tabs');
       var $toolbar = $content.find('.toolbar');
@@ -487,13 +489,15 @@ var TPP = (function ($) {
           ii_filters.keyword = _keywords.join('');
         }
 
+        // Peek into the filter object
+        console.log(ii_filters);
+
+        // Build the final filter string
         var finalFilterValue = Object.keys(ii_filters)
           .map(function (key) {
             return ii_filters[key];
           })
           .join('');
-
-        console.log('finalFilterValue:', finalFilterValue);
 
         // Perform the filtering
         $ii.isotope({
@@ -503,43 +507,81 @@ var TPP = (function ($) {
         // Make sure the beginning of the resulting set is visible
         $('html,body').scrollTop(0);
 
-        // Update the filter status string
-        // todo: figure out the exact logic
+        /* Update the filter status string */
+        // How big is the set?
         var num = $ii.isotope('getFilteredItemElements').length;
 
-        if (num === 0) {
-          console.log('Empty filter set!');
-          // todo: display empty filter set message with reset option
-        }
-
-        console.log(ii_filters);
-
+        // What type of connection is showing?
         var filteredConnectionType = ii_filters['type'] ? ii_filters['type'].slice(1) : 'connection';
 
-        var emptySetMessage = 'Nothing matches the filters';
+        $filterStatus
+          .find('.type')
+          .text(
+            'Showing ' + num + ' ' +
+            filteredConnectionType.charAt(0).toUpperCase() +
+            filteredConnectionType.slice(1) +
+            (num > 1 ? 's' : '')
+          );
+
         var filterSetMessage = 'Showing ' + num + ' ' + filteredConnectionType + (num > 1 ? 's' : '');
 
         if (ii_filters['author']) {
-          filterSetMessage += ' by ' + ii_filters['author'];
+          var $author = $('<span class="txt"></span>');
+          var className = ii_filters['author'].slice(1);
+          var displayName = manifest.connections.contributors
+            .filter(function (contributor) {
+              return contributor.className === className;
+            })[0].displayName;
+
+          $filterStatus
+            .find('.author')
+            .text('')
+            .append($author)
+            .find('.txt')
+            .text(displayName)
+            .addClass(className)
+            .before(' by ');
+        } else {
+          $filterStatus
+            .find('.author')
+            .text('');
         }
 
         if (ii_filters['keyword']) {
-          filterSetMessage += ' matching ' +
-            ii_filters['keyword']
-              .toUpperCase()
-              .split('.')
-              .splice(1).join(', ');
+          var displayNames = ii_filters['keyword']
+            .split('.')
+            .splice(1)
+            .map((function (keyword) {
+              return manifest.connections.keywords
+                .filter(function (keywordObj) {
+                  return keywordObj.className === keyword;
+                })[0].displayName;
+            }))
+            .join(', ');
+
+          console.log('DISPLAY NAMES ARE:', displayNames);
+
+          //todo: finish this like the author filter
+          $filterStatus
+            .find('.keywords')
+            .text(' matching ' + displayNames);
+        } else {
+          $filterStatus
+            .find('.keywords')
+            .text('');
+        }
+
+        // Display empty set messages if needed
+        if (num === 0) {
+          var emptySetMessage = 'Nothing matches the filters';
+          resetConnectionFilterParts();
+          $filterStatus.find('.type').text(emptySetMessage);
+          $connectionEmptySetMessage.fadeIn(200);
+        } else {
+          $connectionEmptySetMessage.hide();
         }
 
         // todo: add sorters
-
-        // todo: don't regenerate the whole string every time, only update the needed fields
-
-        // todo: remove console.log calls
-
-        $connectionsFSStatus
-          .find('.filter-status')
-          .text(num > 0 ? filterSetMessage : emptySetMessage);
       }
 
       function resetConnectionFilters() {
@@ -563,9 +605,18 @@ var TPP = (function ($) {
         );
       }
 
+      function resetConnectionFilterParts () {
+        $filterStatus.find('.type').text('');
+        $filterStatus.find('.author').text('');
+        $filterStatus.find('.keywords').text('');
+      }
+
       function resetConnectionStatusString(totalNumberOfConnections) {
+        resetConnectionFilterParts();
+
         $connectionsFSStatus
           .find('.filter-status')
+          .find('.type')
           .text('Showing all ' + totalNumberOfConnections + ' Connections');
       }
 

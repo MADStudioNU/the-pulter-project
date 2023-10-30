@@ -1036,6 +1036,23 @@
                 display: none;
                 line-height: 120%;
               }
+
+              // Parts of filter status string
+              .type {
+
+              }
+
+              .author {
+                .txt {
+                  font-weight: bold;
+                  //letter-spacing: normal;
+                }
+              }
+
+              .keywords {
+                //letter-spacing: normal;
+                text-transform: uppercase;
+              }
             }
 
             &.for-connections {
@@ -1320,6 +1337,13 @@
 
       @include breakpoint(mobile) {
         padding: 2em 2em 2em $mobileLeftEdgeOffset;
+      }
+
+      .empty-set-message {
+        display: none;
+        font-style: italic;
+        margin-left: .8em;
+        opacity: .85;
       }
     }
 

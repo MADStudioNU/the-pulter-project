@@ -6625,7 +6625,14 @@
                     </div>
                   </div>
                   <div class="status-box for-connections">
-                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg><span class="filter-status"><xsl:text> </xsl:text></span>. <span class="status-reset">Reset</span>
+                    <div class="status asap">
+                      <svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>
+                      <span class="filter-status">
+                        <span class="type"><xsl:text> </xsl:text></span>
+                        <span class="author"><xsl:text> </xsl:text></span>
+                        <span class="keywords"><xsl:text> </xsl:text></span>
+                      </span>.
+                      <span class="status-reset">Reset</span>
                     </div>
                   </div>
                 </div>
@@ -6664,6 +6671,7 @@
               </div>
             </div>
             <div class="list-view">
+              <span class="empty-set-message">Nothing matches the filters.</span>
               <ul class="connections-list grid">
                 <!-- Explorations -->
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
