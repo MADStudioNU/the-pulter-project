@@ -239,7 +239,6 @@ var TPP = (function ($) {
 
       // Become aware of the PP environment
       var manifest;
-      var poems = [];
       var indexRequest = this.getPoemIndex();
 
       indexRequest
@@ -311,8 +310,6 @@ var TPP = (function ($) {
           .find('.connection-filter')
           .on('click', function () {
             var $this = $(this);
-            console.log($this.text());
-
             var filterGroup = $this.parent().data('filter-group');
             var filterTerm = $this.data('filter');
 
@@ -490,7 +487,7 @@ var TPP = (function ($) {
         }
 
         // Peek into the filter object
-        console.log(ii_filters);
+        // console.log(ii_filters);
 
         // Build the final filter string
         var finalFilterValue = Object.keys(ii_filters)
@@ -523,10 +520,8 @@ var TPP = (function ($) {
             (num > 1 ? 's' : '')
           );
 
-        var filterSetMessage = 'Showing ' + num + ' ' + filteredConnectionType + (num > 1 ? 's' : '');
-
         if (ii_filters['author']) {
-          var $author = $('<span class="txt"></span>');
+          var $authorTxt = $('<span class="txt"></span>');
           var className = ii_filters['author'].slice(1);
           var displayName = manifest.connections.contributors
             .filter(function (contributor) {
@@ -536,10 +531,9 @@ var TPP = (function ($) {
           $filterStatus
             .find('.author')
             .text('')
-            .append($author)
+            .append($authorTxt)
             .find('.txt')
             .text(displayName)
-            .addClass(className)
             .before(' by ');
         } else {
           $filterStatus
@@ -548,6 +542,8 @@ var TPP = (function ($) {
         }
 
         if (ii_filters['keyword']) {
+          var $keywordsTxt = $('<span class="txt"></span>');
+
           var displayNames = ii_filters['keyword']
             .split('.')
             .splice(1)
@@ -559,12 +555,13 @@ var TPP = (function ($) {
             }))
             .join(', ');
 
-          console.log('DISPLAY NAMES ARE:', displayNames);
-
-          //todo: finish this like the author filter
           $filterStatus
             .find('.keywords')
-            .text(' matching ' + displayNames);
+            .text('')
+            .append($keywordsTxt)
+            .find('.txt')
+            .text(displayNames)
+            .before(' matching ');
         } else {
           $filterStatus
             .find('.keywords')

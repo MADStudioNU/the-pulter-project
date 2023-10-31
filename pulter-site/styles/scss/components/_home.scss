@@ -1045,13 +1045,14 @@
               .author {
                 .txt {
                   font-weight: bold;
-                  //letter-spacing: normal;
+                  letter-spacing: normal;
                 }
               }
 
               .keywords {
-                //letter-spacing: normal;
-                text-transform: uppercase;
+                .txt {
+                  text-transform: uppercase;
+                }
               }
             }
 
@@ -1404,7 +1405,7 @@
           @include transition(all .2s);
 
           &:hover {
-            border-radius: 0px;
+            border-radius: 0;
           }
         }
 
