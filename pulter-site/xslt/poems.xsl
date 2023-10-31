@@ -75,6 +75,9 @@
           <pp:author>Lara Dodds</pp:author>
           <pp:title>Black Monday (1652)</pp:title>
           <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
+<!--          <pp:keywords>-->
+<!--            <pp:keyword></pp:keyword>-->
+<!--          </pp:keywords>-->
         </pp:curation>
         <pp:curation status="on" hash="controlling-the-sun">
           <pp:author>Wendy Wall</pp:author>
@@ -6216,7 +6219,6 @@
         <pp:person>Lara Dodds</pp:person>
       </pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
-      <!-- todo: add sorting title to connections; add it to a data attribute (pick N first characters) -->
       <pp:sortingTitle>And space may produce new worlds: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:sortingTitle>
       <pp:keywords>
         <pp:keyword>astronomy</pp:keyword>

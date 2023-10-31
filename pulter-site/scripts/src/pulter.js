@@ -507,6 +507,8 @@ var TPP = (function ($) {
 
         // todo: add the rest of the keywords/authors (for curations) https://docs.google.com/spreadsheets/d/1zv-dZ8TMdGD13u66NhCAqDNIvcUKtS8XfPKfbE4Ulvw/edit#gid=1863055128
 
+        // todo: add sorting titles to curations where needed
+
         // Make sure the beginning of the resulting set is visible
         $('html,body').scrollTop(0);
 
