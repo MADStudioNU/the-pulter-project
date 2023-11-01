@@ -881,11 +881,11 @@
 
       &.active {
         z-index: 2;
-        top: 2px;
+        top: 1px;
 
-        //@include breakpoint(mobile) {
-        //  top: 2px;
-        //}
+        @include breakpoint(mobile) {
+          top: 2px;
+        }
       }
 
       &:not(.active) {
@@ -1038,9 +1038,7 @@
               }
 
               // Parts of filter status string
-              .type {
-
-              }
+              //.type {}
 
               .author {
                 .txt {
@@ -1052,6 +1050,7 @@
               .keywords {
                 .txt {
                   text-transform: uppercase;
+                  letter-spacing: normal;
                 }
               }
             }
@@ -1259,7 +1258,7 @@
       padding: 0 10em 0 4.25em;
       max-width: 100em;
       overflow: hidden;
-      //max-height: 0;
+      max-height: 0;
       @include transition(max-height .3s ease-in-out);
 
       @include breakpoint(mobile) {
