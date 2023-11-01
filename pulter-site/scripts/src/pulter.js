@@ -133,9 +133,6 @@ var TPP = (function ($) {
         return false;
       });
 
-      // Links to poem pages
-      // todo: add
-
       // Prevent note triggers from switching to a different tab
       $resourceTypeTabs
         .find('.note-trigger')
@@ -328,8 +325,6 @@ var TPP = (function ($) {
             // Pass the data to the dedicated filtering function
             setConnectionFilter(filterGroup, filterTerm);
         })
-
-        // todo: add sorters
       }
 
       // Initialize the Isotope instances
@@ -585,8 +580,6 @@ var TPP = (function ($) {
         } else {
           $connectionEmptySetMessage.hide();
         }
-
-        // todo: add sorters
       }
 
       function resetConnectionFilters() {
