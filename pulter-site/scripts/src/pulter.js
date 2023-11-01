@@ -325,6 +325,17 @@ var TPP = (function ($) {
             // Pass the data to the dedicated filtering function
             setConnectionFilter(filterGroup, filterTerm);
         })
+
+        $connectionFiltersBox
+          .find('.dismiss')
+          .on('click', function () {
+            $connectionFiltersBox.removeClass('expanded');
+
+            $toolbar
+              .find('.connection-index-filters')
+              .find('.all-filters-trigger')
+              .removeClass('enabled');
+          });
       }
 
       // Initialize the Isotope instances

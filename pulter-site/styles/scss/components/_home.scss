@@ -997,8 +997,8 @@
               .status-eye {
                 width: 1em;
                 position: relative;
-                top: 2px;
-                margin-right: .45em;
+                top: .15em;
+                margin-right: .5em;
                 opacity: .5;
 
                 .st0 {
@@ -1050,7 +1050,7 @@
               .keywords {
                 .txt {
                   text-transform: uppercase;
-                  letter-spacing: normal;
+                  //letter-spacing: normal;
                 }
               }
             }
@@ -1259,10 +1259,28 @@
       max-width: 100em;
       overflow: hidden;
       max-height: 0;
+      position: relative;
       @include transition(max-height .3s ease-in-out);
 
       @include breakpoint(mobile) {
         padding: 2.25em;
+      }
+
+      .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 4.5em;
+        top: 2.5em;
+        opacity: .33;
+
+        &::after {
+          display: inline-block;
+          content: '';
+          width: 1.15em;
+          height: 1.15em;
+          background: url(/images/close.png) no-repeat 0 0;
+          background-size: 1.15em
+        }
       }
 
       &.expanded {
@@ -1273,12 +1291,12 @@
       .connection-filter-group-box {
         $air: 2.5em;
 
-        &:first-child {
+        &:first-of-type {
           margin-top: $air;
           margin-bottom: 2em;
         }
 
-        &:last-child {
+        &:last-of-type {
           margin-bottom: $air;
         }
       }
