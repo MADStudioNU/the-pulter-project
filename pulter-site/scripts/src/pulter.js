@@ -599,6 +599,8 @@ var TPP = (function ($) {
           .find('.connection-filter')
           .removeClass('on');
 
+        $connectionEmptySetMessage.hide();
+
         // Model
         ii_filters = {};
         $ii.filter('*');

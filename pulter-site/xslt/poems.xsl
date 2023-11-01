@@ -7371,10 +7371,24 @@
     <xsl:variable name="keywordNLC" select="translate(normalize-space($keywordValue), $ucAlphabet, $lcAlphabet)"/>
     <xsl:variable name="keywordNRP" select="translate(normalize-space($keywordNLC), ')', '')"/>
     <xsl:variable name="keywordNLP" select="translate(normalize-space($keywordNRP), '(', '')"/>
-    <xsl:variable name="keywordNoApostrpohes" select="translate(normalize-space($keywordNRP), '’', '-')"/>
+    <xsl:variable name="keywordNoApostrpohes" select="translate(normalize-space($keywordNLP), '’', '-')"/>
     <xsl:variable name="keywordNoPeriods" select="translate(normalize-space($keywordNoApostrpohes), '.', '')"/>
-    <xsl:variable name="keywordOut" select="translate(normalize-space($keywordNoPeriods), ' ', '-')"/>
+    <xsl:variable name="keywordNoSpaces" select="translate(normalize-space($keywordNoPeriods), ' ', '-')"/>
 
-    <xsl:value-of select="$keywordOut"/>
+    <!-- No trailing hyphens-->
+    <xsl:variable name="lastChar" select="substring($keywordNoSpaces, string-length($keywordNoSpaces), 1)"/>
+    <xsl:variable name="firstChar" select="substring($keywordNoSpaces, 1, 1)"/>
+
+    <xsl:choose>
+      <xsl:when test="$lastChar = '-'">
+        <xsl:value-of select="substring($keywordNoSpaces, 1, string-length($keywordNoSpaces) - 1)"/>
+      </xsl:when>
+      <xsl:when test="$firstChar = '-'">
+        <xsl:value-of select="substring($keywordNoSpaces, 2, string-length($keywordNoSpaces) - 1)"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$keywordNoSpaces"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 </xsl:stylesheet>
