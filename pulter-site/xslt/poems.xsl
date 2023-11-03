@@ -6155,10 +6155,10 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Kristine Johanson</pp:author>-->
-<!--          <pp:author>Anna-Rose Shack</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Kristine Johanson</pp:author>
+          <pp:author>Anna-Rose Shack</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>violence</pp:keyword>
