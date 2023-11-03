@@ -6575,10 +6575,11 @@
                         <img src="/images/compare-icon.svg"/>
                         <a href="/poems/vm" target="_blank">Compare Editions</a>
                       </li>
-                      <li id="to-connections">
-                        <img src="/images/read-icon.svg" />
-                        <a href="#connections">Browse Connections</a>
-                      </li>
+                      <!-- todo: switching to connections! -->
+<!--                      <li id="to-connections">-->
+<!--                        <img src="/images/read-icon.svg" />-->
+<!--                        <a href="#connections">Browse Connections</a>-->
+<!--                      </li>-->
                       <li>
                         <img src="/images/resources-mock.svg" />
                         <a href="/resources.html">Resources</a>
@@ -6620,10 +6621,11 @@
                 <span class="label sssi-regular">Poems</span>
                 <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
-              <div class="resource-tab connections-tab" data-resource-type="connections">
-                <span class="label">Connections</span>
-                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#connection-index-blurb" data-featherlight-variant="home-lightbox">i</a>
-              </div>
+              <!-- todo: switching to connections! -->
+<!--              <div class="resource-tab connections-tab" data-resource-type="connections">-->
+<!--                <span class="label">Connections</span>-->
+<!--                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#connection-index-blurb" data-featherlight-variant="home-lightbox">i</a>-->
+<!--              </div>-->
             </div>
             <div class="toolbar-box">
               <div class="toolbar">
@@ -6632,17 +6634,18 @@
                     <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
                     </div>
                   </div>
-                  <div class="status-box for-connections">
-                    <div class="status asap">
-                      <svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>
-                      <span class="filter-status">
-                        <span class="type"><xsl:text> </xsl:text></span>
-                        <span class="author"><xsl:text> </xsl:text></span>
-                        <span class="keywords"><xsl:text> </xsl:text></span>
-                      </span>.
-                      <span class="status-reset">Reset</span>
-                    </div>
-                  </div>
+                  <!-- todo: switching to connections! -->
+<!--                  <div class="status-box for-connections">-->
+<!--                    <div class="status asap">-->
+<!--                      <svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>-->
+<!--                      <span class="filter-status">-->
+<!--                        <span class="type"><xsl:text> </xsl:text></span>-->
+<!--                        <span class="author"><xsl:text> </xsl:text></span>-->
+<!--                        <span class="keywords"><xsl:text> </xsl:text></span>-->
+<!--                      </span>.-->
+<!--                      <span class="status-reset">Reset</span>-->
+<!--                    </div>-->
+<!--                  </div>-->
                 </div>
                 <div class="col edition">
                   <span class="label">Editions</span>
@@ -6667,144 +6670,145 @@
             </div>
           </div>
           <div class="index-top-padding"><xsl:text> </xsl:text></div>
-          <section id="connections-section">
-            <div class="connection-filters">
-              <span class="dismiss"><xsl:text> </xsl:text></span>
-              <div class="connection-filter-group-box authors">
-                <div class="label">Contributors</div>
-                <ul id="connection-author-filters" class="connection-filter-group" data-filter-group="author"></ul>
-              </div>
-              <div class="connection-filter-group-box keywords">
-                <div class="label">Keywords</div>
-                <ul id="connection-keyword-filters" class="connection-filter-group" data-filter-group="keyword"></ul>
-              </div>
-            </div>
-            <div class="list-view">
-              <span class="empty-set-message">Nothing matches the filters.</span>
-              <ul class="connections-list grid">
-                <!-- Explorations -->
-                <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-                  <xsl:element name="li">
-                    <xsl:variable name="connectionClasses">
-                      <!-- Keywords-->
-                      <xsl:if test="./pp:keywords">
-                        <xsl:for-each select="./pp:keywords/pp:keyword">
-                          <xsl:variable name="keywordValue" select="text()"/>
-                          <xsl:call-template name="keywordStringFormatter">
-                            <xsl:with-param name="input" select="$keywordValue"/>
-                          </xsl:call-template>
-                          <xsl:text> </xsl:text>
-                        </xsl:for-each>
-                      </xsl:if>
+          <!-- todo: switching to connections! -->
+<!--          <section id="connections-section">-->
+<!--            <div class="connection-filters">-->
+<!--              <span class="dismiss"><xsl:text> </xsl:text></span>-->
+<!--              <div class="connection-filter-group-box authors">-->
+<!--                <div class="label">Contributors</div>-->
+<!--                <ul id="connection-author-filters" class="connection-filter-group" data-filter-group="author"></ul>-->
+<!--              </div>-->
+<!--              <div class="connection-filter-group-box keywords">-->
+<!--                <div class="label">Keywords</div>-->
+<!--                <ul id="connection-keyword-filters" class="connection-filter-group" data-filter-group="keyword"></ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="list-view">-->
+<!--              <span class="empty-set-message">Nothing matches the filters.</span>-->
+<!--              <ul class="connections-list grid">-->
+<!--                &lt;!&ndash; Explorations &ndash;&gt;-->
+<!--                <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">-->
+<!--                  <xsl:element name="li">-->
+<!--                    <xsl:variable name="connectionClasses">-->
+<!--                      &lt;!&ndash; Keywords&ndash;&gt;-->
+<!--                      <xsl:if test="./pp:keywords">-->
+<!--                        <xsl:for-each select="./pp:keywords/pp:keyword">-->
+<!--                          <xsl:variable name="keywordValue" select="text()"/>-->
+<!--                          <xsl:call-template name="keywordStringFormatter">-->
+<!--                            <xsl:with-param name="input" select="$keywordValue"/>-->
+<!--                          </xsl:call-template>-->
+<!--                          <xsl:text> </xsl:text>-->
+<!--                        </xsl:for-each>-->
+<!--                      </xsl:if>-->
 
-                      <!-- Authors-->
-                      <xsl:if test="./pp:author">
-                        <xsl:for-each select="./pp:author/pp:person">
-                          <xsl:variable name="keywordValue" select="text()"/>
-                          <xsl:call-template name="keywordStringFormatter">
-                            <xsl:with-param name="input" select="$keywordValue"/>
-                          </xsl:call-template>
-                          <xsl:text> </xsl:text>
-                        </xsl:for-each>
-                      </xsl:if>
-                    </xsl:variable>
-                    <xsl:attribute name="class">
-                      <xsl:value-of select="concat($connectionClasses, 'connection exploration')"/>
-                    </xsl:attribute>
-                    <xsl:attribute name="data-sorting-title">
-                      <xsl:variable name="maxLength" select="20"/>
-                      <xsl:choose>
-                        <xsl:when test="./pp:sortingTitle">
-                          <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:attribute>
-                    <xsl:attribute name="data-connection-type">
-                      <xsl:value-of select="'exploration'"/>
-                    </xsl:attribute>
-                    <xsl:attribute name="data-connection-hash">
-                      <xsl:value-of select="./@hash"/>
-                    </xsl:attribute>
-                    <xsl:element name="span">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'badge'"/>
-                      </xsl:attribute>
-                      <xsl:value-of select="'exploration'"/>
-                    </xsl:element>
-                    <xsl:element name="span">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'title lato'"/>
-                      </xsl:attribute>
-                      <xsl:value-of select="./pp:title"/>
-                    </xsl:element>
-                    <xsl:element name="span">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'by-line'"/>
-                      </xsl:attribute>
-                      by <xsl:value-of select="./pp:author"/>
-                    </xsl:element>
-                  </xsl:element>
-                </xsl:for-each>
-                <!-- Curations -->
-                <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
-                  <xsl:variable name="poemNumber" select="./@id"/>
-                  <xsl:variable name="poemTitle" select="./pp:title"/>
-                  <xsl:for-each select="./pp:curations/pp:curation">
-                    <xsl:element name="li">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'connection curation'"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-connection-type">
-                        <xsl:value-of select="'curation'"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-connection-hash">
-                        <xsl:value-of select="./@hash"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-poem-id">
-                        <xsl:value-of select="$poemNumber"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-poem-title">
-                        <xsl:value-of select="$poemTitle"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-connection-title">
-                        <xsl:value-of select="./pp:title"/>
-                      </xsl:attribute>
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'badge to-poem-curation-section'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                          <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="target">
-                          <xsl:value-of select="'_blank'"/>
-                        </xsl:attribute>
-                        <xsl:value-of select="$poemNumber"/>
-                      </xsl:element>
-                      <xsl:element name="span">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'title lato'"/>
-                        </xsl:attribute>
-                        <xsl:value-of select="./pp:title"/>
-                      </xsl:element>
-                      <xsl:element name="span">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'by-line'"/>
-                      </xsl:attribute>
-                      by <xsl:value-of select="./pp:author"/>
-                    </xsl:element>
-                    </xsl:element>
-                  </xsl:for-each>
-                </xsl:for-each>
-              </ul>
-            </div>
-          </section>
+<!--                      &lt;!&ndash; Authors&ndash;&gt;-->
+<!--                      <xsl:if test="./pp:author">-->
+<!--                        <xsl:for-each select="./pp:author/pp:person">-->
+<!--                          <xsl:variable name="keywordValue" select="text()"/>-->
+<!--                          <xsl:call-template name="keywordStringFormatter">-->
+<!--                            <xsl:with-param name="input" select="$keywordValue"/>-->
+<!--                          </xsl:call-template>-->
+<!--                          <xsl:text> </xsl:text>-->
+<!--                        </xsl:for-each>-->
+<!--                      </xsl:if>-->
+<!--                    </xsl:variable>-->
+<!--                    <xsl:attribute name="class">-->
+<!--                      <xsl:value-of select="concat($connectionClasses, 'connection exploration')"/>-->
+<!--                    </xsl:attribute>-->
+<!--                    <xsl:attribute name="data-sorting-title">-->
+<!--                      <xsl:variable name="maxLength" select="20"/>-->
+<!--                      <xsl:choose>-->
+<!--                        <xsl:when test="./pp:sortingTitle">-->
+<!--                          <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>-->
+<!--                        </xsl:when>-->
+<!--                        <xsl:otherwise>-->
+<!--                          <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>-->
+<!--                        </xsl:otherwise>-->
+<!--                      </xsl:choose>-->
+<!--                    </xsl:attribute>-->
+<!--                    <xsl:attribute name="data-connection-type">-->
+<!--                      <xsl:value-of select="'exploration'"/>-->
+<!--                    </xsl:attribute>-->
+<!--                    <xsl:attribute name="data-connection-hash">-->
+<!--                      <xsl:value-of select="./@hash"/>-->
+<!--                    </xsl:attribute>-->
+<!--                    <xsl:element name="span">-->
+<!--                      <xsl:attribute name="class">-->
+<!--                        <xsl:value-of select="'badge'"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:value-of select="'exploration'"/>-->
+<!--                    </xsl:element>-->
+<!--                    <xsl:element name="span">-->
+<!--                      <xsl:attribute name="class">-->
+<!--                        <xsl:value-of select="'title lato'"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:value-of select="./pp:title"/>-->
+<!--                    </xsl:element>-->
+<!--                    <xsl:element name="span">-->
+<!--                      <xsl:attribute name="class">-->
+<!--                        <xsl:value-of select="'by-line'"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      by <xsl:value-of select="./pp:author"/>-->
+<!--                    </xsl:element>-->
+<!--                  </xsl:element>-->
+<!--                </xsl:for-each>-->
+<!--                &lt;!&ndash; Curations &ndash;&gt;-->
+<!--                <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">-->
+<!--                  <xsl:variable name="poemNumber" select="./@id"/>-->
+<!--                  <xsl:variable name="poemTitle" select="./pp:title"/>-->
+<!--                  <xsl:for-each select="./pp:curations/pp:curation">-->
+<!--                    <xsl:element name="li">-->
+<!--                      <xsl:attribute name="class">-->
+<!--                        <xsl:value-of select="'connection curation'"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:attribute name="data-connection-type">-->
+<!--                        <xsl:value-of select="'curation'"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:attribute name="data-connection-hash">-->
+<!--                        <xsl:value-of select="./@hash"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:attribute name="data-poem-id">-->
+<!--                        <xsl:value-of select="$poemNumber"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:attribute name="data-poem-title">-->
+<!--                        <xsl:value-of select="$poemTitle"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:attribute name="data-connection-title">-->
+<!--                        <xsl:value-of select="./pp:title"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      <xsl:element name="a">-->
+<!--                        <xsl:attribute name="class">-->
+<!--                          <xsl:value-of select="'badge to-poem-curation-section'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="title">-->
+<!--                          <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="href">-->
+<!--                          <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="target">-->
+<!--                          <xsl:value-of select="'_blank'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:value-of select="$poemNumber"/>-->
+<!--                      </xsl:element>-->
+<!--                      <xsl:element name="span">-->
+<!--                        <xsl:attribute name="class">-->
+<!--                          <xsl:value-of select="'title lato'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:value-of select="./pp:title"/>-->
+<!--                      </xsl:element>-->
+<!--                      <xsl:element name="span">-->
+<!--                      <xsl:attribute name="class">-->
+<!--                        <xsl:value-of select="'by-line'"/>-->
+<!--                      </xsl:attribute>-->
+<!--                      by <xsl:value-of select="./pp:author"/>-->
+<!--                    </xsl:element>-->
+<!--                    </xsl:element>-->
+<!--                  </xsl:for-each>-->
+<!--                </xsl:for-each>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--          </section>-->
           <section id="poems-section">
             <div class="list-view" id="poem-index-box">
               <ul class="poem-list grid">
