@@ -498,6 +498,13 @@ $globalBorderRadius: 4px;
                 line-height: 1.66;
               }
             }
+
+            // Side note
+            .side-note {
+              font-style: italic;
+              font-size: .9em;
+              opacity: .8;
+            }
           }
 
           // Headnote notes
@@ -847,7 +854,8 @@ $globalBorderRadius: 4px;
             }
 
             .message {
-              font-size: .95em;
+              font-size: .9em;
+              line-height: 1.8;
             }
           }
 
@@ -1923,14 +1931,15 @@ span.h3,
 span.h4 {
   display: block;
   font-weight: bold;
-  margin-top: 2em;
 }
 
 span.h3 {
+  margin-top: 2em;
   font-size: ms(-1);
 }
 
 span.h4 {
+  margin-top: 2.5em;
   font-size: ms(-2);
 }
 

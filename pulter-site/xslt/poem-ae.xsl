@@ -1095,14 +1095,16 @@
     <xsl:choose>
       <xsl:when
         test="ancestor::tei:note or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
-        <p>
-          <xsl:attribute name="class">
-            <xsl:value-of select="@rend"/>
-          </xsl:attribute>
+        <xsl:element name="p">
+          <xsl:if test="@rend">
+            <xsl:attribute name="class">
+              <xsl:value-of select="@rend"/>
+            </xsl:attribute>
+          </xsl:if>
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
           </xsl:apply-templates>
-        </p>
+        </xsl:element>
       </xsl:when>
       <xsl:otherwise>
         <div class="paragraph">
@@ -1591,7 +1593,6 @@
             <xsl:variable name="witnessName" select="."/>
 
             <!-- Known Affiliations of the Editors -->
-            <!-- TODO: move to a designated place -->
             <xsl:variable name="witnessAffiliation">
               <xsl:value-of select="''"/>
               <xsl:if test="$witnessName = 'Leah Knight'">
@@ -1656,6 +1657,12 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Nikolina Hatton'">
                 <xsl:value-of select="'Ludwig-Maximilians-Universität München'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Anna-Rose Shack'">
+                <xsl:value-of select="'University of Amsterdam'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Kristine Johanson'">
+                <xsl:value-of select="'University of Amsterdam'"/>
               </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
@@ -1722,6 +1729,12 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Nikolina Hatton'">
                 <xsl:value-of select="'https://www.anglistik.uni-muenchen.de/personen/wiss_ma/hatton/index.html'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Anna-Rose Shack'">
+                <xsl:value-of select="'https://www.uva.nl/en/profile/s/h/a.k.shack/a.k.shack.html'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Kristine Johanson'">
+                <xsl:value-of select="'https://www.uva.nl/en/profile/j/o/k.a.johanson/k.a.johanson.html'"/>
               </xsl:if>
             </xsl:variable>
 

@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.23.0",
+  "version": "1.25.28",
   "description": "",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -10,12 +10,14 @@
     "featherlight": "^1.7.13",
     "imagesloaded": "^4.1.4",
     "isotope-layout": "^3.0.6",
+    "isotope-packery": "^2.0.1",
     "jquery": "^3.6.3",
     "store2": "^2.7.1"
   },
   "devDependencies": {
     "browser-sync": "^2.29.1",
     "dashify": "^2.0.0",
+    "event-stream": "^4.0.1",
     "eyeglass": "^3.0.3",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
@@ -32,6 +34,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-xsltproc": "1.2.0",
+    "lodash": "^4.17.21",
     "modularscale-sass": "^3.0.10",
     "patch-package": "^7.0.0",
     "path": "^0.12.7",

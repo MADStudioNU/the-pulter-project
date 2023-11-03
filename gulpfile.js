@@ -19,15 +19,6 @@ const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
 const SINGLE_POEM_TRANSFORMATION_FLAG = 'single';
 
-// Site pages
-const SITE_PAGES = [
-  'about-hester-pulter-and-the-manuscript.html',
-  'about-project-conventions.html',
-  'about-the-project.html',
-  'how-to-cite-the-pulter-project.html',
-  'resources.html'
-];
-
 // Vendor scripts
 const vendorScripts = [
   'node_modules/jquery/dist/jquery.min.js',
@@ -38,6 +29,7 @@ const vendorScripts = [
   SITE_BASE + 'scripts/vendors/includes/polyfills.min.js',
   'node_modules/drift-zoom/dist/Drift.min.js',
   'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
+  'node_modules/isotope-packery/packery-mode.pkgd.min.js',
   'node_modules/store2/dist/store2.min.js',
   'node_modules/store2/src/store.cache.js'
 ];
@@ -62,6 +54,8 @@ const childProcess = require('child_process');
 const uglify = require('gulp-uglify');
 const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
+const es = require('event-stream');
+const _ = require('lodash');
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -93,6 +87,44 @@ function getXSLTProcOptions(xslFileName, isHTML) {
     maxBuffer: undefined,
     inputIsHTML: isHTML
   }
+}
+
+function optimizeManifest () {
+  return es.map(function (file, cb) {
+    let json = JSON.parse(file.contents.toString('utf-8'));
+
+    // Process the manifest
+    if (json.connections) {
+      if (json.connections.contributors) {
+        json.connections.contributors = _.uniq(json.connections.contributors)
+          .map((contributor) => {
+            return {
+              displayName: contributor.trim(),
+              className: dashify(contributor.trim(), {condense: true})
+            }
+          })
+      }
+
+      if (json.connections.keywords) {
+        json.connections.keywords = _.uniq(json.connections.keywords)
+          .sort(function (a, b) {
+            return a.toLowerCase().localeCompare(b.toLowerCase());
+          })
+          .map((keyword) => {
+            return {
+              displayName: keyword.trim(),
+              className: dashify(keyword.trim(), {condense: true})
+            }
+          })
+      }
+    }
+
+    // Update the vinyl file contents
+    file.contents = new Buffer(JSON.stringify(json));
+
+    // Send the updated file down the pipe
+    cb(null, file);
+  })
 }
 
 /* DEV Tasks */
@@ -352,13 +384,23 @@ gulp.task('xslt:manifest', function () {
     .pipe(gulp.dest(SITE_BASE));
 });
 
+gulp.task('xslt:processManifest', function () {
+  return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+    .pipe(optimizeManifest())
+    .pipe(gulp.dest(SITE_BASE));
+  }
+);
+
 gulp.task('getManifest',
-  gulp.series('xslt:manifest', function () {
-    return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-      .pipe(flatMap(function (stream, file) {
-        _manifest = JSON.parse(file.contents.toString('utf-8'));
-        return stream;
-      }));
+  gulp.series(
+    'xslt:manifest',
+    'xslt:processManifest',
+    function () {
+      return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+        .pipe(flatMap(function (stream, file) {
+          _manifest = JSON.parse(file.contents.toString('utf-8'));
+          return stream;
+        }));
     })
 );
 
@@ -372,7 +414,7 @@ gulp.task('xslt:search:elemental',
             .replace('pulter_', '');
           poemId = +poemId;
 
-          const filtered = filterById(_manifest, poemId);
+          const filtered = filterById(_manifest['poems'], poemId);
           const isPublished = filtered.length > 0 && filtered[0].isPublished;
           const isPseudo = filtered[0] ? (filtered[0].hasOwnProperty('isPseudo')) : false;
 
@@ -432,6 +474,7 @@ gulp.task('sitemap',
     const pages = [
       protocol + LIVE_SITE_BASE_URL + '/',
       protocol + LIVE_SITE_BASE_URL + '/#poems',
+      protocol + LIVE_SITE_BASE_URL + '/#connections',
       protocol + LIVE_SITE_BASE_URL + '/about-hester-pulter-and-the-manuscript.html',
       protocol + LIVE_SITE_BASE_URL + '/about-project-conventions.html',
       protocol + LIVE_SITE_BASE_URL + '/about-the-project.html',
@@ -441,7 +484,7 @@ gulp.task('sitemap',
 
     console.log('Hi, sitemap builder is here.');
 
-    const publishedPoems = _manifest.filter(function (poemObj) {
+    const publishedPoems = _manifest['poems'].filter(function (poemObj) {
       return poemObj.isPublished;
     });
     let poemUrls = [];
@@ -555,7 +598,7 @@ gulp.task('silenceDirs', function (done) {
 gulp.task('xslt:poems:ee',
   gulp.series('getManifest', function () {
     console.log('Hi! EE Publisher is here!');
-    const poemsInManifest = _manifest;
+    const poemsInManifest = _manifest['poems'];
     const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
     const sourceExpression=
       (
@@ -627,7 +670,7 @@ gulp.task('xslt:poems:ee',
 gulp.task('xslt:poems:ae',
   gulp.series('getManifest', function () {
     console.log('Hi! AE Publisher is here!');
-    const poemsInManifest = _manifest;
+    const poemsInManifest = _manifest['poems'];
     const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
     const sourceExpression=
       (
@@ -692,7 +735,7 @@ gulp.task('xslt:poems:ae',
 gulp.task('xslt:poems:vm',
   gulp.series('getManifest', function () {
     console.log('Hi! VM Publisher is here!');
-    const poemsInManifest = _manifest;
+    const poemsInManifest = _manifest['poems'];
     const singlePoemFlag = argv[SINGLE_POEM_TRANSFORMATION_FLAG];
     const sourceExpression=
       (

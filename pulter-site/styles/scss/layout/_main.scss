@@ -15,7 +15,7 @@ $minimumFontSize: 10px;
 $maximumFontSize: 14px;
 
 html {
-  background: #000;
+  background: #181818;
   @include flowtype($minimumWidth, $maximumWidth, $minimumFontSize, $maximumFontSize);
 }
 

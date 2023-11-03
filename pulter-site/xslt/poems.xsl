@@ -75,6 +75,9 @@
           <pp:author>Lara Dodds</pp:author>
           <pp:title>Black Monday (1652)</pp:title>
           <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
+<!--          <pp:keywords>-->
+<!--            <pp:keyword></pp:keyword>-->
+<!--          </pp:keywords>-->
         </pp:curation>
         <pp:curation status="on" hash="controlling-the-sun">
           <pp:author>Wendy Wall</pp:author>
@@ -6164,10 +6167,13 @@
         <pp:keyword>civil war</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>age</pp:tag>
         <pp:tag>animals</pp:tag>
         <pp:tag>children</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
         <pp:tag>folly</pp:tag>
         <pp:tag>history</pp:tag>
+        <pp:tag>hydra</pp:tag>
         <pp:tag>king</pp:tag>
         <pp:tag>mockery</pp:tag>
         <pp:tag>song</pp:tag>
@@ -6215,48 +6221,164 @@
   <!-- The Pulter Project Explorations -->
   <pp:explorations>
     <pp:exploration hash="and-space-may-produce-new-worlds">
-      <pp:author>Lara Dodds</pp:author>
+      <pp:author>
+        <pp:person>Lara Dodds</pp:person>
+      </pp:author>
       <pp:title>“And space may produce new worlds”: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:title>
+      <pp:sortingTitle>And space may produce new worlds: Hester Pulter and the Imagined Worlds of Astronomy and Poetry</pp:sortingTitle>
+      <pp:keywords>
+        <pp:keyword>astronomy</pp:keyword>
+        <pp:keyword>John Donne</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>knowledge</pp:keyword>
+        <pp:keyword>satire</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulters-date-of-birth">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>A Difficult Labor: Hester Pulter’s Date of Birth</pp:title>
+      <pp:keywords>
+        <pp:keyword>birth</pp:keyword>
+        <pp:keyword>map</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulter-in-15-fifteens">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>Hester Pulter in 15 Fifteens</pp:title>
+      <pp:keywords>
+        <pp:keyword>Andrea Alciato</pp:keyword>
+        <pp:keyword>animal</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
+        <pp:keyword>Broadfield</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>children</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>editing</pp:keyword>
+        <pp:keyword>emblem</pp:keyword>
+        <pp:keyword>execution</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>portrait</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>reproduction</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulters-marriage">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>Hester Pulter’s Marriage: Facts and Fiction</pp:title>
+      <pp:keywords>
+        <pp:keyword>marriage</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="hester-pulter-and-english-blazon">
-      <pp:author>Frances E. Dolan</pp:author>
+      <pp:author>
+        <pp:person>Frances E. Dolan</pp:person>
+      </pp:author>
       <pp:title>Hester Pulter and the Blazon in Early Modern England</pp:title>
+      <pp:keywords>
+        <pp:keyword>blazon</pp:keyword>
+        <pp:keyword>Edmund Spenser</pp:keyword>
+        <pp:keyword>female body</pp:keyword>
+        <pp:keyword>Hutchinson</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>love poetry</pp:keyword>
+        <pp:keyword>Lucy</pp:keyword>
+        <pp:keyword>Margaret Cavendish</pp:keyword>
+        <pp:keyword>Petrarch</pp:keyword>
+        <pp:keyword>Philip Sidney</pp:keyword>
+        <pp:keyword>recipe</pp:keyword>
+        <pp:keyword>William Shakespeare</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
-      <pp:author>Lara Dodds</pp:author>
+      <pp:author>
+        <pp:person>Lara Dodds</pp:person>
+      </pp:author>
       <pp:title>How to Tell If You’re in a Hester Pulter Poem</pp:title>
+      <pp:keywords>
+        <pp:keyword>humor</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="the-making-of-the-pulter-project" type="video">
-      <pp:author>C. A. Davis</pp:author>
+      <pp:author>
+        <pp:person>C. A. Davis</pp:person>
+      </pp:author>
       <pp:title>The Making of <seg rend="it">The Pulter Project</seg></pp:title>
+      <pp:keywords>
+        <pp:keyword>editing</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>matter</pp:keyword>
+        <pp:keyword>media</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="picturing-pulter">
-      <pp:author>Leah Knight</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person>
+      </pp:author>
       <pp:title>Picturing Pulter: Words, Pigment, Stone, and Thread</pp:title>
+      <pp:keywords>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>burial</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>memorial</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
+        <pp:keyword>portrait</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>textile</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="rereading-pulters-confinement-in-the-pandemic">
-      <pp:author>Leah Knight et al.</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person> et al.
+      </pp:author>
       <pp:title>Rereading Pulter’s Confinement in the Pandemic</pp:title>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>isolation</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="soundings-hearing-hester-pulters-poems">
-      <pp:author>Leah Knight and Wendy Wall</pp:author>
+      <pp:author>
+        <pp:person>Leah Knight</pp:person> and <pp:person>Wendy Wall</pp:person>
+      </pp:author>
       <pp:title>Soundings: Hearing Hester Pulter’s Poems</pp:title>
+      <pp:keywords>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>media</pp:keyword>
+        <pp:keyword>sound</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration hash="what-else-is-in-the-manuscript">
-      <pp:author>Wendy Wall</pp:author>
+      <pp:author>
+        <pp:person>Wendy Wall</pp:person>
+      </pp:author>
       <pp:title>What Else Is In the Manuscript? Or, Where Did Pulter’s Poems Live?</pp:title>
+      <pp:keywords>
+        <pp:keyword>Judith Madan’</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>Pulter’s life</pp:keyword>
+        <pp:keyword>Thomas D’Urfey</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
   </pp:explorations>
 
@@ -6291,29 +6413,61 @@
   </xsl:choose>
   </xsl:template>
 
-  <!-- JSON manifest generator -->
-  <xsl:template match="pulterProjectPoemManifestJSON">
-      <xsl:text>[</xsl:text>
-      <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
-        <xsl:variable name="poemId" select="./@id"/>
-        <xsl:variable name="seoTitle" select="./pp:seoTitle/text()"/>
-        <xsl:variable name="isPseudo" select="./@type = 'pseudo'"/>
-        <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
-        <xsl:text>{</xsl:text>
-        <xsl:if test="$isPseudo">
-          <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', string($isPseudo),'', ',')"/>
-        </xsl:if>
-        <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;', ',')"/>
-        <xsl:value-of select="concat('&quot;isPublished&quot;: ', string($isPublished))"/>
-        <xsl:apply-templates>
-            <xsl:with-param name="seoTitle" select="$seoTitle"/>
-        </xsl:apply-templates>
-        <xsl:text>}</xsl:text>
-        <xsl:if test="position() != last()">
-            <xsl:text>,</xsl:text>
+  <!-- JSON poem manifest generator -->
+  <xsl:template match="pulterProjectJSONMetadata">
+    <xsl:text>{&quot;connections&quot;: </xsl:text>
+    <xsl:text>{&quot;contributors&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+      <xsl:variable name="isLastExploration" select="position() = last()"/>
+      <xsl:for-each select="./pp:author/pp:person">
+        <xsl:variable name="isLastPerson" select="position() = last()"/>
+        <xsl:variable name="name" select="."/>
+        <xsl:value-of select="concat('&quot;', $name, '&quot;')"/>
+        <xsl:if test="not($isLastExploration and $isLastPerson)">
+          <xsl:text>,</xsl:text>
         </xsl:if>
       </xsl:for-each>
-      <xsl:text>]</xsl:text>
+    </xsl:for-each>
+    <xsl:text>],</xsl:text>
+    <xsl:text>&quot;keywords&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+      <xsl:variable name="isLastExploration" select="position() = last()"/>
+      <xsl:for-each select="./pp:keywords/pp:keyword">
+        <xsl:variable name="isLastKeyword" select="position() = last()"/>
+        <xsl:variable name="name" select="."/>
+        <xsl:value-of select="concat('&quot;', $name, '&quot;')"/>
+        <xsl:if test="not($isLastExploration and $isLastKeyword)">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:for-each>
+    <xsl:text>]</xsl:text>
+    <xsl:text>},</xsl:text>
+    <xsl:text>&quot;poems&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
+      <xsl:variable name="poemId" select="./@id"/>
+      <xsl:variable name="seoTitle" select="./pp:seoTitle/text()"/>
+      <xsl:variable name="isPseudo" select="./@type = 'pseudo'"/>
+      <xsl:variable name="isPublished" select="boolean(./pp:editions)"/>
+      <xsl:text>{</xsl:text>
+      <xsl:if test="$isPseudo">
+        <xsl:value-of select="concat('&quot;isPseudo&quot;: ', '', string($isPseudo),'', ',')"/>
+      </xsl:if>
+      <xsl:value-of select="concat('&quot;id&quot;: ', '&quot;', $poemId,'&quot;', ',')"/>
+      <xsl:value-of select="concat('&quot;isPublished&quot;: ', string($isPublished))"/>
+      <xsl:apply-templates>
+        <xsl:with-param name="seoTitle" select="$seoTitle"/>
+      </xsl:apply-templates>
+      <xsl:text>}</xsl:text>
+      <xsl:if test="position() != last()">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
+    </xsl:for-each>
+    <xsl:text>]</xsl:text>
+    <xsl:text>}</xsl:text>
   </xsl:template>
 
   <!-- HTML manifest generator -->
@@ -6411,7 +6565,7 @@
                       </li>
                     </ul>
                   </li>
-                  <li id="read-action" class="action">
+                  <li id="to-poems" class="action">
                     <a href="#poems">Poems</a>
                   </li>
                   <li id="discover-action" class="action pseudo">
@@ -6421,9 +6575,9 @@
                         <img src="/images/compare-icon.svg"/>
                         <a href="/poems/vm" target="_blank">Compare Editions</a>
                       </li>
-                      <li id="explorations-action">
+                      <li id="to-connections">
                         <img src="/images/read-icon.svg" />
-                        <a href="#explorations">Read Explorations</a>
+                        <a href="#connections">Browse Connections</a>
                       </li>
                       <li>
                         <img src="/images/resources-mock.svg" />
@@ -6440,7 +6594,6 @@
           <a class="to-top-action" href="#poems">
             <img src="/images/up.svg"/>
           </a>
-          <a class="to-exploration-action" href="#explorations"><img src="/images/exploration-mock.svg"/>Explorations</a>
           <div class="pp-band" id="poems">
             <xsl:text> </xsl:text>
           </div>
@@ -6462,27 +6615,196 @@
                 </div>
               </div>
             </div>
+            <div class="resource-type-tabs">
+              <div class="resource-tab poems-tab active" data-resource-type="poems">
+                <span class="label sssi-regular">Poems</span>
+                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+              </div>
+              <div class="resource-tab connections-tab" data-resource-type="connections">
+                <span class="label">Connections</span>
+                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#connection-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+              </div>
+            </div>
             <div class="toolbar-box">
               <div class="toolbar">
                 <div class="col sort">
-                  <span class="label">Poems</span>
-                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+                  <div class="status-box for-poems">
+                    <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
+                    </div>
+                  </div>
+                  <div class="status-box for-connections">
+                    <div class="status asap">
+                      <svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>
+                      <span class="filter-status">
+                        <span class="type"><xsl:text> </xsl:text></span>
+                        <span class="author"><xsl:text> </xsl:text></span>
+                        <span class="keywords"><xsl:text> </xsl:text></span>
+                      </span>.
+                      <span class="status-reset">Reset</span>
+                    </div>
+                  </div>
                 </div>
                 <div class="col edition">
                   <span class="label">Editions</span>
                   <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#editions-blurb" data-featherlight-variant="home-lightbox">i</a>
                 </div>
                 <div class="col c-flag">
-                  <span class="label">Curations</span>
-                  <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#curations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                  <ul class="connection-index-filters">
+                    <li class="filter">
+                      <span class="label" data-filter-group="type" data-filter=".curation">Curations</span>
+                      <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#curations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                    </li>
+                    <li class="filter">
+                      <span class="label" data-filter-group="type" data-filter=".exploration">Explorations</span>
+                      <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#explorations-blurb" data-featherlight-variant="home-lightbox">i</a>
+                    </li>
+                    <li class="filter all-filters">
+                      <span class="label all-filters-trigger">All filters</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="status-box">
-            <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg> Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
+          <div class="index-top-padding"><xsl:text> </xsl:text></div>
+          <section id="connections-section">
+            <div class="connection-filters">
+              <span class="dismiss"><xsl:text> </xsl:text></span>
+              <div class="connection-filter-group-box authors">
+                <div class="label">Contributors</div>
+                <ul id="connection-author-filters" class="connection-filter-group" data-filter-group="author"></ul>
+              </div>
+              <div class="connection-filter-group-box keywords">
+                <div class="label">Keywords</div>
+                <ul id="connection-keyword-filters" class="connection-filter-group" data-filter-group="keyword"></ul>
+              </div>
             </div>
-          </div>
+            <div class="list-view">
+              <span class="empty-set-message">Nothing matches the filters.</span>
+              <ul class="connections-list grid">
+                <!-- Explorations -->
+                <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+                  <xsl:element name="li">
+                    <xsl:variable name="connectionClasses">
+                      <!-- Keywords-->
+                      <xsl:if test="./pp:keywords">
+                        <xsl:for-each select="./pp:keywords/pp:keyword">
+                          <xsl:variable name="keywordValue" select="text()"/>
+                          <xsl:call-template name="keywordStringFormatter">
+                            <xsl:with-param name="input" select="$keywordValue"/>
+                          </xsl:call-template>
+                          <xsl:text> </xsl:text>
+                        </xsl:for-each>
+                      </xsl:if>
+
+                      <!-- Authors-->
+                      <xsl:if test="./pp:author">
+                        <xsl:for-each select="./pp:author/pp:person">
+                          <xsl:variable name="keywordValue" select="text()"/>
+                          <xsl:call-template name="keywordStringFormatter">
+                            <xsl:with-param name="input" select="$keywordValue"/>
+                          </xsl:call-template>
+                          <xsl:text> </xsl:text>
+                        </xsl:for-each>
+                      </xsl:if>
+                    </xsl:variable>
+                    <xsl:attribute name="class">
+                      <xsl:value-of select="concat($connectionClasses, 'connection exploration')"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-sorting-title">
+                      <xsl:variable name="maxLength" select="20"/>
+                      <xsl:choose>
+                        <xsl:when test="./pp:sortingTitle">
+                          <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-connection-type">
+                      <xsl:value-of select="'exploration'"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="data-connection-hash">
+                      <xsl:value-of select="./@hash"/>
+                    </xsl:attribute>
+                    <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'badge'"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="'exploration'"/>
+                    </xsl:element>
+                    <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'title lato'"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="./pp:title"/>
+                    </xsl:element>
+                    <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'by-line'"/>
+                      </xsl:attribute>
+                      by <xsl:value-of select="./pp:author"/>
+                    </xsl:element>
+                  </xsl:element>
+                </xsl:for-each>
+                <!-- Curations -->
+                <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
+                  <xsl:variable name="poemNumber" select="./@id"/>
+                  <xsl:variable name="poemTitle" select="./pp:title"/>
+                  <xsl:for-each select="./pp:curations/pp:curation">
+                    <xsl:element name="li">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'connection curation'"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-connection-type">
+                        <xsl:value-of select="'curation'"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-connection-hash">
+                        <xsl:value-of select="./@hash"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-poem-id">
+                        <xsl:value-of select="$poemNumber"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-poem-title">
+                        <xsl:value-of select="$poemTitle"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-connection-title">
+                        <xsl:value-of select="./pp:title"/>
+                      </xsl:attribute>
+                      <xsl:element name="a">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'badge to-poem-curation-section'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                          <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="href">
+                          <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="target">
+                          <xsl:value-of select="'_blank'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="$poemNumber"/>
+                      </xsl:element>
+                      <xsl:element name="span">
+                        <xsl:attribute name="class">
+                          <xsl:value-of select="'title lato'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="./pp:title"/>
+                      </xsl:element>
+                      <xsl:element name="span">
+                      <xsl:attribute name="class">
+                        <xsl:value-of select="'by-line'"/>
+                      </xsl:attribute>
+                      by <xsl:value-of select="./pp:author"/>
+                    </xsl:element>
+                    </xsl:element>
+                  </xsl:for-each>
+                </xsl:for-each>
+              </ul>
+            </div>
+          </section>
           <section id="poems-section">
             <div class="list-view" id="poem-index-box">
               <ul class="poem-list grid">
@@ -6700,62 +7022,29 @@
                         </xsl:when>
                     </xsl:choose>
                     </div>
-                    <xsl:if test="$isPublished and $hasCurations">
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'js-link to-curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="title">
-                          <xsl:value-of select="'Jump to curations'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-resource-type">
-                          <xsl:value-of select="'curation'"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="data-poem-id">
-                          <xsl:value-of select="$poemId"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>
-                        </xsl:attribute>
-                        <xsl:text> </xsl:text>
-                      </xsl:element>
-                    </xsl:if>
+<!--                    <xsl:if test="$isPublished and $hasCurations">-->
+<!--                      <xsl:element name="a">-->
+<!--                        <xsl:attribute name="class">-->
+<!--                          <xsl:value-of select="'js-link to-curation'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="title">-->
+<!--                          <xsl:value-of select="'Jump to curations'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="data-resource-type">-->
+<!--                          <xsl:value-of select="'curation'"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="data-poem-id">-->
+<!--                          <xsl:value-of select="$poemId"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:attribute name="href">-->
+<!--                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>-->
+<!--                        </xsl:attribute>-->
+<!--                        <xsl:text> </xsl:text>-->
+<!--                      </xsl:element>-->
+<!--                    </xsl:if>-->
                   </xsl:element>
                 </xsl:for-each>
               </ul>
-            </div>
-          </section>
-          <section id="explorations">
-            <div class="explorations-box">
-              <div class="explorations">
-                <h2 class="label">Explorations</h2>
-                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don’t show again</span></div>
-                <ul class="exploration-list">
-                  <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-<!--                    <xsl:variable name="status" select="./@status"/>-->
-                    <li class="exploration-trigger">
-                      <xsl:attribute name="data-ctx-hash">
-                        <xsl:value-of select="./@hash"/>
-                      </xsl:attribute>
-                      <xsl:element name="a">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'link'"/>
-                        </xsl:attribute>
-                        <h3 class="title">
-                          <xsl:if test="@type">
-                            <xsl:attribute name="class">
-                              <xsl:value-of select="concat('title ', @type)"/>
-                            </xsl:attribute>
-                          </xsl:if>
-                          <xsl:apply-templates select="./pp:title/node()"/>
-                        </h3>
-                        <div class="by-line"><span class="by">by</span>
-                          <span class="who"><xsl:value-of select="./pp:author"/></span></div>
-                      </xsl:element>
-                    </li>
-                  </xsl:for-each>
-                </ul>
-              </div>
             </div>
           </section>
           <footer id="footer" class="lato">
@@ -6813,6 +7102,16 @@
             </p>
           </div>
         </div>
+        <div id="connection-index-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3><span class="it">The Pulter Project</span> Connection Index</h3>
+          <div class="c">
+            <img class="blurb-image" src="/images/missing.png"/>
+            <p>
+              [ TBA ]
+            </p>
+          </div>
+        </div>
         <div id="editions-blurb" class="lightbox-content">
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Edition Types</h3>
@@ -6828,6 +7127,14 @@
           <div class="c">
             <img class="blurb-image" src="/images/tpp-curations-blurb.png"/>
             <p>Curations offer an array of verbal and visual materials that invite contemplation of different ways in which a particular poem might be contextualized. Sources, analogues, and glimpses into earlier or subsequent cultural phenomena all might play into possible readings of a given poem.</p>
+          </div>
+        </div>
+        <div id="explorations-blurb" class="lightbox-content">
+          <span class="dismiss"><xsl:text> </xsl:text></span>
+          <h3><span class="it">The Pulter Project</span> Explorations</h3>
+          <div class="c">
+            <img class="blurb-image" src="/images/missing.png"/>
+            <p>Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.</p>
           </div>
         </div>
         <script src="/scripts/vendors/vendors.js"><xsl:text> </xsl:text></script>
@@ -6907,8 +7214,11 @@
       <xsl:variable name="status" select="./@status"/>
       <xsl:if test="$status = 'on'">
         <li class="ctx">
-          <xsl:attribute name="data-ctx-hash">
+          <xsl:attribute name="data-curation-hash">
             <xsl:value-of select="./@hash"/>
+          </xsl:attribute>
+          <xsl:attribute name="data-curation-title">
+            <xsl:value-of select="./pp:title"/>
           </xsl:attribute>
           <xsl:attribute name="data-status">
             <xsl:value-of select="$status"/>
@@ -7034,8 +7344,24 @@
     <xsl:variable name="keywordNLC" select="translate(normalize-space($keywordValue), $ucAlphabet, $lcAlphabet)"/>
     <xsl:variable name="keywordNRP" select="translate(normalize-space($keywordNLC), ')', '')"/>
     <xsl:variable name="keywordNLP" select="translate(normalize-space($keywordNRP), '(', '')"/>
-    <xsl:variable name="keywordOut" select="translate(normalize-space($keywordNLP), ' ', '-')"/>
+    <xsl:variable name="keywordNoApostrpohes" select="translate(normalize-space($keywordNLP), '’', '-')"/>
+    <xsl:variable name="keywordNoPeriods" select="translate(normalize-space($keywordNoApostrpohes), '.', '')"/>
+    <xsl:variable name="keywordNoSpaces" select="translate(normalize-space($keywordNoPeriods), ' ', '-')"/>
 
-    <xsl:value-of select="$keywordOut"/>
+    <!-- No trailing hyphens-->
+    <xsl:variable name="lastChar" select="substring($keywordNoSpaces, string-length($keywordNoSpaces), 1)"/>
+    <xsl:variable name="firstChar" select="substring($keywordNoSpaces, 1, 1)"/>
+
+    <xsl:choose>
+      <xsl:when test="$lastChar = '-'">
+        <xsl:value-of select="substring($keywordNoSpaces, 1, string-length($keywordNoSpaces) - 1)"/>
+      </xsl:when>
+      <xsl:when test="$firstChar = '-'">
+        <xsl:value-of select="substring($keywordNoSpaces, 2, string-length($keywordNoSpaces) - 1)"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$keywordNoSpaces"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 </xsl:stylesheet>
