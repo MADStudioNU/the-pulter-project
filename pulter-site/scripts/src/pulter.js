@@ -765,7 +765,7 @@ var TPP = (function ($) {
           if (pulterState.has('linesOn')) { $body.addClass('lines-on'); }
 
           // Local variables
-          var manifest;
+          var poemManifest;
           var manifestOfPublished;
           var indexRequest = TPP.getPoemIndex();
 
@@ -777,8 +777,8 @@ var TPP = (function ($) {
 
           indexRequest
             .done(function (data) {
-              manifest = data;
-              manifestOfPublished = manifest.filter(function (poem) {
+              poemManifest = data.poems;
+              manifestOfPublished = poemManifest.filter(function (poem) {
                 return poem.isPublished !== false;
               });
               onManifestAcquired();
@@ -1222,7 +1222,7 @@ var TPP = (function ($) {
 
             // If not published
             if (config.isPublished === false) {
-              var poemObj = manifest.filter(function (el) {
+              var poemObj = poemManifest.filter(function (el) {
                 return +el.id === config.id
               });
 

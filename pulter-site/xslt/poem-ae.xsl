@@ -1095,14 +1095,16 @@
     <xsl:choose>
       <xsl:when
         test="ancestor::tei:note or ancestor::tei:fileDesc or ancestor::tei:encodingDesc or tei:notesStmt">
-        <p>
-          <xsl:attribute name="class">
-            <xsl:value-of select="@rend"/>
-          </xsl:attribute>
+        <xsl:element name="p">
+          <xsl:if test="@rend">
+            <xsl:attribute name="class">
+              <xsl:value-of select="@rend"/>
+            </xsl:attribute>
+          </xsl:if>
           <xsl:apply-templates>
             <xsl:with-param name="witId" select="$witId"/>
           </xsl:apply-templates>
-        </p>
+        </xsl:element>
       </xsl:when>
       <xsl:otherwise>
         <div class="paragraph">

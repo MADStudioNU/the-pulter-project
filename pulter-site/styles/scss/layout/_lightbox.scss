@@ -74,6 +74,12 @@
           &:last-child {
             margin-top: 1.5em;
           }
+
+          &.side-note {
+            font-style: italic;
+            font-size: .9em;
+            opacity: .8;
+          }
         }
 
         // Refs inside notes adjustments
