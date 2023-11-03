@@ -7041,39 +7041,6 @@
               </ul>
             </div>
           </section>
-<!--          <section id="explorations">-->
-<!--            <div class="explorations-box">-->
-<!--              <div class="explorations">-->
-<!--                <h2 class="label">Explorations</h2>-->
-<!--                <div class="explanatory exploration-blurb muted">Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.<span class="muter asap">Don’t show again</span></div>-->
-<!--                <ul class="exploration-list">-->
-<!--                  <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">-->
-<!--&lt;!&ndash;                    <xsl:variable name="status" select="./@status"/>&ndash;&gt;-->
-<!--                    <li class="exploration-trigger">-->
-<!--                      <xsl:attribute name="data-ctx-hash">-->
-<!--                        <xsl:value-of select="./@hash"/>-->
-<!--                      </xsl:attribute>-->
-<!--                      <xsl:element name="a">-->
-<!--                        <xsl:attribute name="class">-->
-<!--                          <xsl:value-of select="'link'"/>-->
-<!--                        </xsl:attribute>-->
-<!--                        <h3 class="title">-->
-<!--                          <xsl:if test="@type">-->
-<!--                            <xsl:attribute name="class">-->
-<!--                              <xsl:value-of select="concat('title ', @type)"/>-->
-<!--                            </xsl:attribute>-->
-<!--                          </xsl:if>-->
-<!--                          <xsl:apply-templates select="./pp:title/node()"/>-->
-<!--                        </h3>-->
-<!--                        <div class="by-line"><span class="by">by</span>-->
-<!--                          <span class="who"><xsl:value-of select="./pp:author"/></span></div>-->
-<!--                      </xsl:element>-->
-<!--                    </li>-->
-<!--                  </xsl:for-each>-->
-<!--                </ul>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </section>-->
           <footer id="footer" class="lato">
             <div class="footer-box">
               <div class="footer">
