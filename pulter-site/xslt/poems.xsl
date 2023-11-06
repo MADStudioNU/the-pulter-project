@@ -177,7 +177,15 @@
           </pp:author>
           <pp:title>Come Away…</pp:title>
           <pp:peek>To extend a pastoral invitation into the country was not a new thing, especially in the content of the English Civil War.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christopher Marlowe</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+            <pp:keyword>pastoral</pp:keyword>
+            <pp:keyword>refrain</pp:keyword>
+            <pp:keyword>Walter Raleigh</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="country-and-country-house-poems">
           <pp:author>
@@ -185,7 +193,17 @@
           </pp:author>
           <pp:title>Country and Country House Poems</pp:title>
           <pp:peek>The idealization of the country over the city was a common poetic trope in the period, giving birth to the genre of the country house poem.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Amelia Lanyer</pp:keyword>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>country house</pp:keyword>
+            <pp:keyword>environment</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+            <pp:keyword>pastoral</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="how-to-do-things-with-political-poetry">
           <pp:author>
@@ -193,7 +211,14 @@
           </pp:author>
           <pp:title>How to Do Things with Political Poetry</pp:title>
           <pp:peek>What is the purpose of political poetry? Does poetry merely reflect political events, or can it actually effect political change?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>Richard Brome</pp:keyword>
+            <pp:keyword>Richard Lovelace</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
