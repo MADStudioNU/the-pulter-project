@@ -236,13 +236,16 @@ var TPP = (function ($) {
 
       // Become aware of the PP environment
       var manifest;
+      var numPoems;
+      var numConnections = $connectionTriggers.length;
       var indexRequest = this.getPoemIndex();
 
       indexRequest
         .done(function (data) {
           manifest = data;
+          numPoems = manifest.poems.length;
 
-          if (manifest.poems && manifest.poems.length > 0) {
+          if (manifest.poems && numPoems > 0) {
             resetPoemStatusString();
           }
 
@@ -455,14 +458,14 @@ var TPP = (function ($) {
       }
 
       function setConnectionFilter(filterGroup, filterTerm) {
-        // Indicate that the filter state is active
-        $connectionsFSStatus.addClass('hi');
-
         // Default filtering logic (one at a time)
         if (filterGroup !== 'keyword') {
           // If the filter is already active, remove it
           if (ii_filters[filterGroup] === filterTerm) {
-            delete ii_filters[filterGroup];
+            // Toggle logic for the author filter
+            if (filterGroup === 'author') {
+              delete ii_filters[filterGroup];
+            }
           } else {
             ii_filters[filterGroup] = filterTerm;
           }
@@ -515,13 +518,23 @@ var TPP = (function ($) {
 
         // todo: add sorting titles to curations where needed
 
+        // How big is the set?
+        var num = $ii.isotope('getFilteredItemElements').length;
+
+        // Indicate that the filter state is active if the filtered set is smaller than all the connections
+        console.log('num now:', num);
+        console.log('num overall:', numConnections);
+
+        if (num < numConnections) {
+          $connectionsFSStatus.addClass('hi');
+        } else  {
+          $connectionsFSStatus.removeClass('hi');
+        }
+
         // Make sure the beginning of the resulting set is visible
         $('html,body').scrollTop(0);
 
         /* Update the filter status string */
-        // How big is the set?
-        var num = $ii.isotope('getFilteredItemElements').length;
-
         // What type of connection is showing?
         var filteredConnectionType = ii_filters['type'] ? ii_filters['type'].slice(1) : 'connection';
 

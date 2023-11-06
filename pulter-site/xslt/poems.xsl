@@ -88,7 +88,9 @@
           <pp:title>Controlling the Sun</pp:title>
           <pp:peek>In Renaissance Christian writing, God is commonly compared to the sun, but how the sun figured in religious meditations varied.</pp:peek>
           <pp:keywords>
-
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>Fates</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="early-modern-astronomy">
@@ -98,7 +100,7 @@
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>When Pulter alludes to astronomy, she signals an area of knowledge that had been rapidly changing in her lifetime. The older Ptolemaic view of the heavens, so important to poets, was being dismantled by Copernicus, Galileo, Tycho Brahe, Johannes Kepler, and others.</pp:peek>
           <pp:keywords>
-
+            <pp:keyword>astronomy</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="eclipse-literature">
@@ -107,7 +109,10 @@
           </pp:author>
           <pp:title>Eclipse Literature</pp:title>
           <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="talking-to-death">
           <pp:author>
@@ -116,7 +121,8 @@
           <pp:title>Talking to Death</pp:title>
           <pp:peek>In “The Eclipse,” the speaker directly addresses God, using apostrophe to animate Death itself. The speaker’s warning that Death has been conquered by God (specifically, as the last stanza specifies, through Christ’s blood sacrifice) echoes John Donne, “Holy Sonnet” X:</pp:peek>
           <pp:keywords>
-
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="transformations-of-the-elements">
@@ -126,7 +132,8 @@
           <pp:title>Transformations of the Elements</pp:title>
           <pp:peek>Poet Anne Bradstreet was, like Pulter, interested in transfigured states of material being. In a poem entitled “The Four Elements,” a personified Air meditates on the power of rarefaction:</pp:peek>
           <pp:keywords>
-
+            <pp:keyword>Anne Bradstreet</pp:keyword>
+            <pp:keyword>elements</pp:keyword>
           </pp:keywords>
         </pp:curation>
       </pp:curations>
@@ -1206,7 +1213,7 @@
       <pp:curations>
         <pp:curation status="on" hash="circles-in-alchemy">
           <pp:author>
-            <pp:person>Elizabeth Scott-Baumann<pp:person>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
           <pp:title>Circles in Alchemy</pp:title>
           <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
@@ -6484,7 +6491,7 @@
       <pp:curations>
         <pp:curation status="on" hash="the-russian-rustic-and-the-hollow-tree">
           <pp:author>
-            <pp:person>Victoria E. Burke
+            <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>The Russian Rustic and the Hollow Tree</pp:title>
           <pp:peek>The basic story of this emblem appears in many different sources of the period. It was attributed to a Russian ambassador to Rome named Demetrius, by way of Sebastian Münster, whose</pp:peek>
