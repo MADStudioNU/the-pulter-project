@@ -510,14 +510,6 @@ var TPP = (function ($) {
           filter: finalFilterValue
         });
 
-        // todo: add sorters (by poem number, by title (default?))
-
-        // todo: make the status message compatible with a multi-line view (the container cannot be of a fixed height)
-
-        // todo: add the rest of the keywords/authors (for curations) https://docs.google.com/spreadsheets/d/1zv-dZ8TMdGD13u66NhCAqDNIvcUKtS8XfPKfbE4Ulvw/edit#gid=1863055128
-
-        // todo: add sorting titles to curations where needed
-
         // How big is the set?
         var num = $ii.isotope('getFilteredItemElements').length;
 

@@ -7292,7 +7292,6 @@
                           <xsl:text> </xsl:text>
                         </xsl:for-each>
                       </xsl:if>
-
                       <!-- Authors-->
                       <xsl:if test="./pp:author">
                         <xsl:for-each select="./pp:author/pp:person">
@@ -7344,14 +7343,48 @@
                     </xsl:element>
                   </xsl:element>
                 </xsl:for-each>
+
                 <!-- Curations -->
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
                   <xsl:variable name="poemNumber" select="./@id"/>
                   <xsl:variable name="poemTitle" select="./pp:title"/>
                   <xsl:for-each select="./pp:curations/pp:curation">
                     <xsl:element name="li">
+                      <xsl:variable name="connectionClasses">
+                        <!-- Keywords-->
+                        <xsl:if test="./pp:keywords">
+                          <xsl:for-each select="./pp:keywords/pp:keyword">
+                            <xsl:variable name="keywordValue" select="text()"/>
+                            <xsl:call-template name="keywordStringFormatter">
+                              <xsl:with-param name="input" select="$keywordValue"/>
+                            </xsl:call-template>
+                            <xsl:text> </xsl:text>
+                          </xsl:for-each>
+                        </xsl:if>
+                        <!-- Authors-->
+                        <xsl:if test="./pp:author">
+                          <xsl:for-each select="./pp:author/pp:person">
+                            <xsl:variable name="keywordValue" select="text()"/>
+                            <xsl:call-template name="keywordStringFormatter">
+                              <xsl:with-param name="input" select="$keywordValue"/>
+                            </xsl:call-template>
+                            <xsl:text> </xsl:text>
+                          </xsl:for-each>
+                        </xsl:if>
+                      </xsl:variable>
                       <xsl:attribute name="class">
-                        <xsl:value-of select="'connection curation'"/>
+                        <xsl:value-of select="concat($connectionClasses, 'connection curation')"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="data-sorting-title">
+                        <xsl:variable name="maxLength" select="20"/>
+                        <xsl:choose>
+                          <xsl:when test="./pp:sortingTitle">
+                            <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>
+                          </xsl:when>
+                          <xsl:otherwise>
+                            <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>
+                          </xsl:otherwise>
+                        </xsl:choose>
                       </xsl:attribute>
                       <xsl:attribute name="data-connection-type">
                         <xsl:value-of select="'curation'"/>
