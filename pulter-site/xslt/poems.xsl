@@ -289,8 +289,16 @@
             <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>The Many-Headed Hydra</pp:title>
+          <pp:sortingTitle>Many-Headed Hydra, The</pp:sortingTitle>
           <pp:peek>Pulter refers to signs from heaven that humans think may portend some kind of political unrest, such as the shaking of a monarchy or the ending of an illegitimate government (25-28).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>Thomas Hobbes</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pearled-over">
           <pp:author>
@@ -298,7 +306,10 @@
           </pp:author>
           <pp:title>Pearled Over</pp:title>
           <pp:peek>Pulter describes the goddess Aurora as “Pearl’d or’e with odours of the early East” (3). Here is an image of a seventeenth-century woman fashionably sporting pearls around her neck, in her ears, in her hair, and over her dress.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>fashion</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -411,10 +422,15 @@
             <pp:person>Tara L. Lyons</pp:person>
           </pp:author>
           <pp:title>The Body Resurrected</pp:title>
+          <pp:sortingTitle>Body Resurrected, The</pp:sortingTitle>
           <pp:peek>
             The poet Robert Aylett articulates the belief that only the bodies of the dead (not their souls) reside in the grave. In the passage below, Aylett describes the processes that purify the body before reconstitution at the resurrection.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="burial-rites">
           <pp:author>
@@ -424,7 +440,12 @@
           <pp:peek>
             Pulter’s hopeful anticipation of the second coming, when Christ will defeat death and sin, recalls the words spoken at English burial services in the first half of the seventeenth century.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>ritual</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="daily-dying-and-rising">
           <pp:author>
@@ -434,7 +455,14 @@
           <pp:peek>
             Pulter engages in a conventional meditation on death and resurrection in “Of Night and Morning”. Such meditations were designed to remind Christians of the inevitability of death as well as the promise of everlasting life if they were among the chosen.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>meditation</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+            <pp:keyword>sleep</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="doomsday">
           <pp:author>
@@ -444,17 +472,26 @@
           <pp:peek>
             The dawn of the day of resurrection is a time for exultation in Pulter’s “Of Night and Morning”. Her choice then to focus on the joy of rising to a new eternal life, rather than the anxiety of final judgement or the dread of doomsday, aligns with her speaker’s assumption that she will be among the chosen.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="night-in-ink">
           <pp:author>
             <pp:person>Tara L. Lyons</pp:person>
           </pp:author>
           <pp:title>“Night” in Ink</pp:title>
+          <pp:sortingTitle>Night in Ink</pp:sortingTitle>
           <pp:peek>
             On this folio page in Pulter’s manuscript (fol. 15), the scribe finishes copying Poem 4 and then records the whole of Poem 5 on the bottom third of the page. As can be seen below, the letter “N” in “Night”, both in the title and in the first and fifth lines, are visually highlighted by the scribe’s stylized loops and curls.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>material text</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -7015,12 +7052,12 @@
     <xsl:text>{&quot;contributors&quot;: </xsl:text>
     <xsl:text>[</xsl:text>
     <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-      <xsl:variable name="isLastExploration" select="position() = last()"/>
+      <xsl:variable name="isLastConnection" select="position() = last()"/>
       <xsl:for-each select="./pp:author/pp:person">
         <xsl:variable name="isLastPerson" select="position() = last()"/>
         <xsl:variable name="name" select="."/>
         <xsl:value-of select="concat('&quot;', $name, '&quot;')"/>
-        <xsl:if test="not($isLastExploration and $isLastPerson)">
+        <xsl:if test="not($isLastConnection and $isLastPerson)">
           <xsl:text>,</xsl:text>
         </xsl:if>
       </xsl:for-each>
@@ -7028,13 +7065,13 @@
     <xsl:text>],</xsl:text>
     <xsl:text>&quot;keywords&quot;: </xsl:text>
     <xsl:text>[</xsl:text>
-    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
-      <xsl:variable name="isLastExploration" select="position() = last()"/>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:explorations/pp:curation">
+      <xsl:variable name="isLastConnection" select="position() = last()"/>
       <xsl:for-each select="./pp:keywords/pp:keyword">
         <xsl:variable name="isLastKeyword" select="position() = last()"/>
         <xsl:variable name="name" select="."/>
         <xsl:value-of select="concat('&quot;', $name, '&quot;')"/>
-        <xsl:if test="not($isLastExploration and $isLastKeyword)">
+        <xsl:if test="not($isLastConnection and $isLastKeyword)">
           <xsl:text>,</xsl:text>
         </xsl:if>
       </xsl:for-each>
