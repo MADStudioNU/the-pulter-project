@@ -72,37 +72,62 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="black-monday-1652">
-          <pp:author>Lara Dodds</pp:author>
+          <pp:author>
+            <pp:person>Lara Dodds</pp:person>
+          </pp:author>
           <pp:title>Black Monday (1652)</pp:title>
           <pp:peek>When the Moon’s shadow eclipsed the Sun’s light in August 2017, many North Americans had the opportunity to observe a total solar eclipse for the first time in nearly forty years.</pp:peek>
-<!--          <pp:keywords>-->
-<!--            <pp:keyword></pp:keyword>-->
-<!--          </pp:keywords>-->
+          <pp:keywords>
+            <pp:keyword>astronomy</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="controlling-the-sun">
-          <pp:author>Wendy Wall</pp:author>
+          <pp:author>
+            <pp:person>Wendy Wall</pp:person>
+          </pp:author>
           <pp:title>Controlling the Sun</pp:title>
           <pp:peek>In Renaissance Christian writing, God is commonly compared to the sun, but how the sun figured in religious meditations varied.</pp:peek>
+          <pp:keywords>
+
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="early-modern-astronomy">
-          <pp:author>Wendy Wall</pp:author>
+          <pp:author>
+            <pp:person>Wendy Wall</pp:person>
+          </pp:author>
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>When Pulter alludes to astronomy, she signals an area of knowledge that had been rapidly changing in her lifetime. The older Ptolemaic view of the heavens, so important to poets, was being dismantled by Copernicus, Galileo, Tycho Brahe, Johannes Kepler, and others.</pp:peek>
+          <pp:keywords>
+
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="eclipse-literature">
-          <pp:author>Lara Dodds</pp:author>
+          <pp:author>
+            <pp:person>Lara Dodds</pp:person>
+          </pp:author>
           <pp:title>Eclipse Literature</pp:title>
           <pp:peek>Pulter is unusual for depicting both a solar and a lunar eclipse in the same poem. Instead, most literary representations of eclipses are dazzled by the rarity and sublimity of the total solar eclipse.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="talking-to-death">
-          <pp:author>Wendy Wall</pp:author>
+          <pp:author>
+            <pp:person>Wendy Wall</pp:person>
+          </pp:author>
           <pp:title>Talking to Death</pp:title>
           <pp:peek>In “The Eclipse,” the speaker directly addresses God, using apostrophe to animate Death itself. The speaker’s warning that Death has been conquered by God (specifically, as the last stanza specifies, through Christ’s blood sacrifice) echoes John Donne, “Holy Sonnet” X:</pp:peek>
+          <pp:keywords>
+
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="transformations-of-the-elements">
-          <pp:author>Wendy Wall</pp:author>
+          <pp:author>
+            <pp:person>Wendy Wall</pp:person>
+          </pp:author>
           <pp:title>Transformations of the Elements</pp:title>
           <pp:peek>Poet Anne Bradstreet was, like Pulter, interested in transfigured states of material being. In a poem entitled “The Four Elements,” a personified Air meditates on the power of rarefaction:</pp:peek>
+          <pp:keywords>
+
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -140,19 +165,28 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="come-away">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>Come Away…</pp:title>
           <pp:peek>To extend a pastoral invitation into the country was not a new thing, especially in the content of the English Civil War.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="country-and-country-house-poems">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>Country and Country House Poems</pp:title>
           <pp:peek>The idealization of the country over the city was a common poetic trope in the period, giving birth to the genre of the country house poem.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="how-to-do-things-with-political-poetry">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>How to Do Things with Political Poetry</pp:title>
           <pp:peek>What is the purpose of political poetry? Does poetry merely reflect political events, or can it actually effect political change?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -219,14 +253,20 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="the-many-headed-hydra">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>The Many-Headed Hydra</pp:title>
           <pp:peek>Pulter refers to signs from heaven that humans think may portend some kind of political unrest, such as the shaking of a monarchy or the ending of an illegitimate government (25-28).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pearled-over">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Pearled Over</pp:title>
           <pp:peek>Pulter describes the goddess Aurora as “Pearl’d or’e with odours of the early East” (3). Here is an image of a seventeenth-century woman fashionably sporting pearls around her neck, in her ears, in her hair, and over her dress.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -335,39 +375,54 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="the-body-resurrected">
-          <pp:author>Tara L. Lyons</pp:author>
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
           <pp:title>The Body Resurrected</pp:title>
           <pp:peek>
             The poet Robert Aylett articulates the belief that only the bodies of the dead (not their souls) reside in the grave. In the passage below, Aylett describes the processes that purify the body before reconstitution at the resurrection.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="burial-rites">
-          <pp:author>Tara L. Lyons</pp:author>
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
           <pp:title>Burial Rites</pp:title>
           <pp:peek>
             Pulter’s hopeful anticipation of the second coming, when Christ will defeat death and sin, recalls the words spoken at English burial services in the first half of the seventeenth century.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="daily-dying-and-rising">
-          <pp:author>Tara L. Lyons</pp:author>
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
           <pp:title>Daily Dying and Rising</pp:title>
           <pp:peek>
             Pulter engages in a conventional meditation on death and resurrection in “Of Night and Morning”. Such meditations were designed to remind Christians of the inevitability of death as well as the promise of everlasting life if they were among the chosen.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="doomsday">
-          <pp:author>Tara L. Lyons</pp:author>
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
           <pp:title>Doomsday</pp:title>
           <pp:peek>
             The dawn of the day of resurrection is a time for exultation in Pulter’s “Of Night and Morning”. Her choice then to focus on the joy of rising to a new eternal life, rather than the anxiety of final judgement or the dread of doomsday, aligns with her speaker’s assumption that she will be among the chosen.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="night-in-ink">
-          <pp:author>Tara L. Lyons</pp:author>
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
           <pp:title>“Night” in Ink</pp:title>
           <pp:peek>
             On this folio page in Pulter’s manuscript (fol. 15), the scribe finishes copying Poem 4 and then records the whole of Poem 5 on the bottom third of the page. As can be seen below, the letter “N” in “Night”, both in the title and in the first and fifth lines, are visually highlighted by the scribe’s stylized loops and curls.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -458,29 +513,44 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="deep-ecologies">
-          <pp:author>Aylin Malcolm</pp:author>
+          <pp:author>
+            <pp:person>Aylin Malcolm</pp:person>
+          </pp:author>
           <pp:title>Deep Ecologies</pp:title>
           <pp:peek>Today, the word “cetacean” refers specifically to a whale, dolphin, or porpoise, but it is derived from the Latin “cetus”, a broader term including many large and legendary marine creatures.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="globes-of-earth-and-light">
-          <pp:author>Aylin Malcolm</pp:author>
+          <pp:author>
+            <pp:person>Aylin Malcolm</pp:person>
+          </pp:author>
           <pp:title>Globes of Earth and Light</pp:title>
           <pp:peek>The conclusion of Pulter’s poem reveals the tension between old and new astronomical models during the seventeenth century. To some degree, Pulter seems to uphold the Aristotelian distinction between the mutable, imperfect sublunary sphere and the perfect, regular universe beyond the moon.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-phoenix">
-          <pp:author>Aylin Malcolm</pp:author>
+          <pp:author>
+            <pp:person>Aylin Malcolm</pp:person>
+          </pp:author>
           <pp:title>The Phoenix</pp:title>
           <pp:peek>Pulter’s brief description of the phoenix resembles conventional accounts of this mythological creature, including its vibrant gold and purple plumage.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-unicorn">
-          <pp:author>Aylin Malcolm</pp:author>
+          <pp:author>
+            <pp:person>Aylin Malcolm</pp:person>
+          </pp:author>
           <pp:title>The Unicorn</pp:title>
           <pp:peek>Seventeenth-century writers did not always define a clear boundary between myth and fact, or locate this boundary in the same places as modern writers.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="vegetable-love">
-          <pp:author>Aylin Malcolm</pp:author>
+          <pp:author>
+            <pp:person>Aylin Malcolm</pp:person>
+          </pp:author>
           <pp:title>Vegetable Love</pp:title>
           <pp:peek>The clay and earth of Pulter’s opening lines soon give way to flowers, as she describes the effects of time on deciduous and evergreen plants.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -540,34 +610,52 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="commemorating-the-dead">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Commemorating the Dead</pp:title>
           <pp:peek>This poem is an anguished lament, but about what exactly? It discusses the killing and its perpetrators more vividly than it does the dead men. Is it an elegy for them?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="male-friendship">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Male Friendship</pp:title>
           <pp:peek>In Pulter’s account, Lucas and Lisle were, above all, “unparalleled friends.” We might then connect the poem to others about the love between male friends, and the capacity of such love to both sweeten life and survive death.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="royalist-accounts-linking-the-execution-to-the-siege">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Royalist Accounts Linking the Execution to the Siege of Colchester</pp:title>
           <pp:peek>Parliamentary forces laid siege to the town of Colchester beginning June 12, 1648. By the time of Lucas and Lisle’s executions in late August, then, the situation in Colchester was desperate.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-shooting-of-lucas-and-lisle">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>The shooting of Lucas and Lisle</pp:title>
           <pp:peek>“Is Lucas and Lisle slain?” the speaker asks at the start of “On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester” (Poem 7).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="understanding-through-comparison">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Understanding Through Comparison</pp:title>
           <pp:peek>This poem begins with a question. In its distraught search for answers and understanding, one of the places it looks is the ancient world.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="war-memorials">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>War Memorials</pp:title>
           <pp:peek>A stone slab in the floor of the north aisle of St. Giles’s church in Colchester covers and commemorates the remains of the two men, buried together.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -689,24 +777,36 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="child-loss-elegies">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Child Loss Elegies</pp:title>
           <pp:peek>Pulter’s poem joins other notable elegies written about the death of a child in seventeenth-century England, including the following by Ben Jonson, Katherine Philips, Elizabeth Egerton, and Anne Bradstreet.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-hunted-deer">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Hunted Deer</pp:title>
           <pp:peek>Pulter’s description of Jane as a hunted deer is echoed in several contemporary poems, such as ones by John Denham and Andrew Marvell.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-sad-nightingale">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Sad Nightingale</pp:title>
           <pp:peek>Pulter’s poem follows the Italian poet Petrarch and several English authors in using the nightingale as a figure of mourning and sorrow.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="white-lilies-and-red-roses">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>White Lilies and Red Roses</pp:title>
           <pp:peek>Pulter’s description of her daughter Jane draws on conventions typically used by love poets in Petrarchan poetry, particularly the analogy of the beloved’s body parts with roses and lilies.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -761,24 +861,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-death-of-a-child">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>The Death of a Child</pp:title>
           <pp:peek>The most famous early modern poems about children’s deaths focus on babies and young children. See, for example, Ben Jonson, “On My First Son.” Of Katherine Philips’s two poems about her “first and dearest child, Hector Philips,” who died shortly after his birth May 2, 1655, I have chosen this one because of its use of Pulterian tropes and diction.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="foolish-mourning">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Foolish Mourning</pp:title>
           <pp:peek>We can read Pulter’s poem as a kind of answer to this riddle in Shakespeare’s Twelfth Night, by which the Clown “proves” Olivia is a fool because she mourns for her brother’s soul although she believes it to be in heaven.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="fragrant-odors-immortalize-a-virgin-name">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Fragrant Odors Immortalize a Virgin Name</pp:title>
           <pp:peek>These passages come from annals of the First English Carmel (or Carmelite convent) founded in Antwerp in 1619. Beginning with the dissolution of the monasteries in 1539, some dispossessed English nuns joined convents abroad or banded together to attempt to continue a contemplative life; some daughters of English exiles entered local cloisters.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="poems-in-conversation">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Poems in Conversation</pp:title>
           <pp:peek>Pulter may borrow her opening phrase (“Tell me no more”) and dialogic structure, imagining and rebuffing an interlocutor, from other seventeenth-century poems. Her poem is thus about a kind of conversation and itself in conversation with a poetic convention.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -820,39 +932,60 @@
       </pp:keywords>
       <pp:curations>
         <pp:curation status="on" hash="the-botanical-blazon">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>The Botanical Blazon</pp:title>
           <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="expanding-our-understanding-of-flora">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>span>
+          </pp:author>
           <pp:title>Expanding Our Understanding of Flora</pp:title>
           <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="flower-people">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Flower People</pp:title>
           <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-flowers-of-pulters-library-myths">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>
           <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="other-garden-poems">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Other Garden Poems</pp:title>
           <pp:peek>Many seventeenth-century writers wrote poems about gardens: as familiar, beloved spaces, sites of work (viewed positively or negatively), aspirations of pleasurable occupation, emblems of paradise, and models of human cognition and cultivation.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="parliaments-of-flowers">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Parliaments of Flowers</pp:title>
           <pp:peek>Poems that script the exchanges among “parliaments” of beasts, fowl, flowers, women or other unlikely politicians and speakers stretch back at least as far as Chaucer’s late fourteenth-century “Parliament of Fowls.” In the 1650s and 1660s, following the English Civil Wars between king and Parliament, the term was newly topical. Pulter is not the only English writer in the period to give voice to contentious flowers.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="picturing-pulters-flowers">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Picturing Pulter’s Flowers</pp:title>
           <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -891,11 +1024,14 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="nemesis-goddess-of-retribution">
-          <pp:author>Ruth Connolly</pp:author>
+          <pp:author>
+            <pp:person>Ruth Connolly</pp:person>
+          </pp:author>
           <pp:title>Nemesis, Goddess of Retribution</pp:title>
           <pp:peek>
             Nemesis is Pulter’s chosen punisher of the King’s enemies. This Ancient Greek goddess was often represented in early modern European images carrying a bridle and either a whip or rod to symbolise her role in measuring people’s actions and, if necessary, forcefully restraining their excesses.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1069,38 +1205,56 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="circles-in-alchemy">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann<pp:person>
+          </pp:author>
           <pp:title>Circles in Alchemy</pp:title>
           <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="devotional-circles">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Devotional Circles</pp:title>
           <pp:peek>George Herbert’s “A Wreath,” Henry Vaughan’s “The World” and Andrew Marvell’s “The Coronet” reveal some of the devotional symbolism of circles for Pulter’s predecessors and peers.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="donnes-circles">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Donne’s Circles</pp:title>
           <pp:peek>John Donne often used images of circles and circularity, for both erotic and devotional poems. In “A Valediction Forbidding Mourning,” the compasses represent the movement of lovers, while in the two sermons excerpted below circles represent the cycle of life.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="dust">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Dust</pp:title>
           <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made (and will return), from which John Milton drew in _Paradise Lost_, to the alchemical notions of dust as purified matter, yet purity which is easily mistaken for the ashes or dregs of the transformation.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="matter-and-creation">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Matter and Creation</pp:title>
           <pp:peek>
             When Pulter addresses God saying “Of nothing Thou didst me create,” she is endorsing God’s power in the face of major philosophical controversy in the seventeenth century.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="sighs-and-tears">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Sighs and Tears</pp:title>
           <pp:peek>
             In her opening line, Pulter claims “In sighs and tears there is no end,” and these become clouds and winds. Petrarch’s influential meteorological images of the emotions had already found elegant expression in many English versions and translations
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1148,14 +1302,20 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="desiring-death">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Desiring Death</pp:title>
           <pp:peek>Many writers in the sixteenth and seventeenth centuries expressed a longing for release from life’s suffering through death as well as a fervent desire to achieve union with God in death. Both men and women articulated this longing.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="this-terrene-globe">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>This Terrene Globe</pp:title>
           <pp:peek>Pulter’s opposition in Poem 18 between “terrene toys” and “annoys,” on the one hand, and heavenly “eternal joys,” on the other, structures many religious texts advising readers to shift their investments from this world to the next.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1193,18 +1353,24 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="bell-tolling">
-          <pp:author>Elisa Tersigni</pp:author>
+          <pp:author>
+            <pp:person>Elisa Tersigni</pp:person>
+          </pp:author>
           <pp:title>Bell Tolling</pp:title>
           <pp:peek>
             In pre-modern and early-modern Europe, bells were ubiquitous and the loudest, most pervasive sound in cities. After the human voice, bells were the most versatile of the instruments available and so were used extensively, both by churches for religious reasons, calling listeners to mass or marking a feast day, and by civic buildings (city halls) for secular reasons, such as timekeeping or alarm signaling.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="personified-death-in-early-modern-art-and-literature">
-          <pp:author>Elisa Tersigni</pp:author>
+          <pp:author>
+            <pp:person>Elisa Tersigni</pp:person>
+          </pp:author>
           <pp:title>Personified Death in Early Modern Art and Literature</pp:title>
           <pp:peek>
       Early modern Europe experienced an increased preoccupation with death, which appeared frequently in literature and art, including the _Memento Mori_. When personified, Death took many forms, though the image of a skeleton (assumed male through lack of feminine characteristics) and the eroticized Death-as-lover were common treatments.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1294,29 +1460,44 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="alchemy-and-devotion">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Alchemy and Devotion</pp:title>
           <pp:peek>While alchemy and Christianity might seem to us to be incompatible frameworks of belief, the early modern period saw much writing in the area of spiritual alchemy, in which the physical processes of alchemy became metaphors for the purification of the soul. Pulter’s poetry shows her interest in this amalgamation, while also retaining a clear interest in the distinctive terms, materials, processes and value systems in each set of beliefs.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="circles-and-labyrinths">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Circles and Labyrinths</pp:title>
           <pp:peek>Mary Wroth’s “A Crown of Sonnets Dedicated to Love” is a corona of sonnets, each starting with the last line of the previous poem. As well as being formally circular, it is also about the cyclical, entrapping experience of love, and features a famous image of a labyrinth, used originally by Petrarch.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="circles-in-alchemy">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Circles in Alchemy</pp:title>
           <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="devotional-circles">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Devotional Circles</pp:title>
           <pp:peek>George Herbert’s “A Wreath,” Henry Vaughan’s “The World” and Andrew Marvell’s “The Coronet” reveal some of the devotional symbolism of circles for Pulter’s predecessors and peers.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="donnes-circles">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Donne’s Circles</pp:title>
           <pp:peek>John Donne often used images of circles and circularity, for both erotic and devotional poems. In “A Valediction Forbidding Mourning,” the compasses represent the movement of lovers, while in the two sermons excerpted below circles represent the cycle of life.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1541,9 +1722,12 @@
       </pp:keywords>
       <pp:curations>
         <pp:curation status="on" hash="images-of-aurora">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Images of Aurora, Goddess of the Dawn</pp:title>
           <pp:peek>In this poem Pulter depicts the goddess Aurora sporting long curling golden hair adorned with jewels and flowers, possessing blushing cheeks and clear eyes, exposing a breast, and wearing purple robes fringed with gold.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1772,28 +1956,40 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-good-death">
-          <pp:author>Helen Smith</pp:author>
+          <pp:author>
+            <pp:person>Helen Smith</pp:person>
+          </pp:author>
           <pp:title>The Good Death</pp:title>
           <pp:peek>
             John Donne’s “Hymn to God, My God, in my Sickness” meditates upon the speaker’s illness, and imagines the microcosm of his body as a map of the newly-expanded world. In contemplating his own death, Donne’s speaker finds solace in the promise of Christ’s resurrection, a figure for the sinner’s own restoration under God at the final judgement.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-light-of-god">
-          <pp:author>Helen Smith</pp:author>
+          <pp:author>
+            <pp:person>Helen Smith</pp:person>
+          </pp:author>
           <pp:title>The Light of God</pp:title>
           <pp:peek>Augustine of Hippo’s “A Heavenly Treasure of Confortable Meditations” is a Catholic devotional text, published on the continent for illicit dissemination to English readers. The selected passage comes from Batt’s (a Jesuit priest) translation of Augustine’s Soliloquies, a text in which the Church Father enters into dialogue with his soul, in an attempt to understand it. The biblical references are to the apocryphal Book of Tobias, and to Genesis.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="memento-mori">
-          <pp:author>Helen Smith</pp:author>
+          <pp:author>
+            <pp:person>Helen Smith</pp:person>
+          </pp:author>
           <pp:title>Memento mori</pp:title>
           <pp:peek>
             Numerous images and objects functioned as memento mori (reminders of death), asking those who wore and looked at them to pause in the middle of their busy lives and prepare for their inevitable ends. The two elaborate examples below speak to the irony at the heart of this tradition: objects that were supposed to turn the viewer’s thoughts away from worldly things were frequently richly jewelled, delicately crafted, and expensive.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="a-tedious-pilgrimage">
-          <pp:author>Helen Smith</pp:author>
+          <pp:author>
+            <pp:person>Helen Smith</pp:person>
+          </pp:author>
           <pp:title>A Tedious Pilgrimage</pp:title>
           <pp:peek>“The sinners glasse,“ an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,“ and lists in painful detail all the infelicities of mortality.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1925,29 +2121,44 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="an-assize-sermon">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>An Assize Sermon</pp:title>
           <pp:peek>Pulter describes judgment day as “the blessed assize.” Assizes were criminal trials that were held twice a year before local juries; a judge visiting from London presided.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="aurora-and-phoebe">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Aurora and Phoebe</pp:title>
           <pp:peek>Pulter often personifies the planets and astronomical events (dusk, dawn). This is a convention in Latin and Renaissance English poetry.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="flies-do-what-theyre-made-for">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Flies Do What They’re Made For</pp:title>
           <pp:peek>But what is that? In “To Aurora [3]” (Poem 34), the speaker compares him- or herself unfavorably to insects: “In doing what they’re made for, every fly” fulfills God’s will, yet, in contrast, “Woe’s me: so do not I.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="moiling-in-the-earth">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Moiling in the Earth</pp:title>
           <pp:peek>“Moiling in the earth,” as Pulter calls it in this poem, is the essence of human life, even if it is a distraction.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="more-ruminations-on-death-and-resurrection">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>More Ruminations on Death and Resurrection</pp:title>
           <pp:peek>Pulter’s speakers often remind themselves and readers that death is both inevitable and a fervently desired transition.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -2062,24 +2273,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="a-female-slave">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>A Female Slave</pp:title>
           <pp:peek>Note the similarity between Ligon’s descriptions of the slaves’ bodies and Moffett’s detailed description of pismire anatomy.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="mother-earth">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Mother Earth</pp:title>
           <pp:peek>This passage, presented here in two Renaissance translations, describes what happens after the Deucalion flood.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pismires">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Pismires</pp:title>
           <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffatt’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-is-a-dunghill">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>What is a dunghill?</pp:title>
           <pp:peek>This favorite Pulter image seems at first straightforward. A dunghill is a pile of shit or as the _OED_ puts it, “a heap or hillock of dung or refuse.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2169,14 +2392,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="christian-mortalism">
-          <pp:author>Kenneth Graham</pp:author>
+          <pp:author>
+            <pp:person>Kenneth Graham</pp:person>
+          </pp:author>
           <pp:title>Christian Mortalism from the Bible to Pulter</pp:title>
           <pp:peek>Pulter’s frequent references to a soul that sleeps may be no more than metaphorical flights of fancy, but they may also be contributions to an ancient debate about what happens to the soul after death.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-poetry-of-night-and-day">
-          <pp:author>Kenneth Graham</pp:author>
+          <pp:author>
+            <pp:person>Kenneth Graham</pp:person>
+          </pp:author>
           <pp:title>The Poetry of Night and Day</pp:title>
           <pp:peek>Poems like “Aurora [2]” contribute to literary traditions that draw on the imagery and mythologies of day and night, light and dark, to write about good and evil, life and death.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2233,29 +2462,44 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="alchemical-quintessence">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Alchemical Quintessence</pp:title>
           <pp:peek>In line 5 of this poem, Pulter uses the alchemical term “quintessence” to refer to the purest form of a substance. Pulter is claiming that no liquid, including the quintessence of alcohol, can enliven her depressed spirit.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="broadfield-hertfordshire">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Broadfield, Hertfordshire</pp:title>
           <pp:peek>The Pulters lived at an estate called Broadfield (or Bradfield) in the parish of Cottered in Hertfordshire. Sir Henry Chauncy’s The historical antiquities of Hertfordshire of 1700 gives the history of the estate, noting that Arthur Pulter retired to Bradfield after the outbreak of the civil war.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="did-women-play-football-in-the-seventeenth-century">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Did women play football in the seventeenth century?</pp:title>
           <pp:peek>Probably not. Pulter imagines fleeing the confines of earth and playing football with the stars at line 12, but contemporary drama suggests that the idea of women playing football was either an occasion for smutty jokes (as in James Shirley’s play, extracted below) or for lamenting the manliness of women in the region of Savoy (as in Thomas Killigrew’s play, extracted below).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-dissolution-of-matter-into-the-four-elements">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>The Dissolution of Matter into the Four Elements</pp:title>
           <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements–fire, earth, air, and water–as forming the material of all life.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="poetic-fancies">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Poetic Fancies</pp:title>
           <pp:peek>In lines 4 and 8, Pulter refers to her inventions or imaginings as “fancies.” The word “fancy” was synonymous with “imagination” at this time (OED 4) but in addition to referring to a process, it could also refer to the inventions or products of imagination.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2309,24 +2553,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="body-soul-dust">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>Body, Soul, Dust</pp:title>
           <pp:peek>When the speaker of this poem asks her soul to return to her in line 22, it raises the question: what, or who, is the speaker? The body corresponding to the soul? Something or someone else?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-knowledge-of-god">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>The Knowledge of God</pp:title>
           <pp:peek>Pulter’s poem ends with a promise that after the Final Judgment and Resurrection, “we shall know (without which all is none) / The eternal essence, even as we are known” (ll. 58–59).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="reading-and-transforming-biblical-sources">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>Reading (and Transforming) Biblical Sources</pp:title>
           <pp:peek>“For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen,” reads 1 Corinthians 13:12. What, exactly, does this biblical verse mean?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="scientific-poetry">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>“Scientific” Poetry</pp:title>
           <pp:peek>How “scientific” is “The Perfection of Patience and Knowledge,” in particular its middle section which uses the vocabularies of alchemy and astronomy?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2371,14 +2627,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="metaphors-of-violence-in-devotional-poetry">
-          <pp:author>Nikolina Hatton</pp:author>
+          <pp:author>
+            <pp:person>Nikolina Hatton</pp:person>
+          </pp:author>
           <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>
           <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulters-psalmic-intertexts">
-          <pp:author>Nikolina Hatton</pp:author>
+          <pp:author>
+            <pp:person>Nikolina Hatton</pp:person>
+          </pp:author>
           <pp:title>Pulter’s Psalmic Intertexts</pp:title>
           <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2480,9 +2742,12 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="heroic-suicide">
-          <pp:author>Lara Dodds</pp:author>
+          <pp:author>
+            <pp:person>Lara Dodds</pp:person>
+          </pp:author>
           <pp:title>Heroic Suicide and Women’s Writing</pp:title>
           <pp:peek>Pulter’s “Of a Young Lady at Oxford, 1646” draws on the Stoic concept of heroic suicide by positioning the unnamed lady of the poem as an analogue of two famous female suicides, those of Lucretia and Thisbe.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -2652,11 +2917,14 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="lying-in">
-          <pp:author>Amanda Zoch</pp:author>
+          <pp:author>
+            <pp:person>Amanda Zoch</pp:person>
+          </pp:author>
           <pp:title>Lying-In</pp:title>
           <pp:peek>
             In the title, Pulter situates this poem’s composition within her lying-in, a communal childbirth ritual that began with labor and continued for up to a month after delivery.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2731,32 +2999,44 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="lark-mirrors">
-          <pp:author>Leah Knight</pp:author>
+          <pp:author>
+            <pp:person>Leah Knight</pp:person>
+          </pp:author>
           <pp:title>Lark Mirrors</pp:title>
           <pp:peek>
             How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="male-and-female-spiders">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Male and Female Spiders</pp:title>
           <pp:peek>
             In her poem “Of the Spider,” Margaret Cavendish distinguishes between the tasks of the female house spider and the male spider who hunts abroad. She uses the language of weaving but depicts the location and all of the equipment (the shop, the wheel, the distaff) as inside the spider’s body.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="mowers-and-the-birds-they-kill">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Mowers and the Birds they Kill</pp:title>
           <pp:peek>
             The central episode of this poem, the slaughter of the lark’s offspring by a careless and then malicious mower, finds an analogue in Andrew Marvell’s episode of the mower in “Upon Appleton House.”
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-myth-of-arachne">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>The Myth of Arachne</pp:title>
           <pp:peek>
             In the first line of the poem Pulter mentions Arachne or the spider. The spider’s link with the traditionally feminine arts of sewing and weaving makes it an interesting image of female creativity, though the myth, as retold in a contemporary natural history, makes it a story about the dangers of female pride.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2957,14 +3237,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-built-body">
-          <pp:author>Helen Smith</pp:author>
+          <pp:author>
+            <pp:person>Helen Smith</pp:person>
+          </pp:author>
           <pp:title>The Built Body</pp:title>
           <pp:peek>George Abbot, Archbishop of Canterbury from 1611 until his death in 1633, offers readers a detailed paraphrase of the book of Job.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-light-of-god">
-          <pp:author>Helen Smith</pp:author>
+          <pp:author>
+            <pp:person>Helen Smith</pp:person>
+          </pp:author>
           <pp:title>The Light of God</pp:title>
           <pp:peek>Philippe de Champaigne’s luminous painting depicts St. Augustine at a moment of spiritual illumination, mirroring his famous conversion, in which he was struck blind by a burst of divine light.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3019,19 +3305,28 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="aging-women">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Aging Women</pp:title>
           <pp:peek>Today, the social phenomenon by which middle-aged women disappear from public view is called “invisible woman syndrome.”  In the sixteenth and seventeenth centuries, aging women were not invisible.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="erra-pater-and-the-sibyl">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Erra Pater and the Sibyl</pp:title>
           <pp:peek>These were both figures popularly associated with age, wisdom—and error.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="illness-and-poetry">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Illness and Poetry</pp:title>
           <pp:peek>Pulter wasn’t the only seventeenth-century poet for whom illness was an occasion to contemplate mortality and to make verse. The poems gathered here suggest the different ways her contemporaries linked sickness and poetry.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3075,9 +3370,12 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="cosmic-pluralism-and-early-modern-poetry">
-          <pp:author>Lara Dodds</pp:author>
+          <pp:author>
+            <pp:person>Lara Dodds</pp:person>
+          </pp:author>
           <pp:title>“Stars (nay suns)”: Cosmic Pluralism and Early Modern Poetry</pp:title>
           <pp:peek>Cosmic pluralism, or the plurality of worlds, is the philosophical belief that there are numerous planets, potentially inhabited, orbiting around numerous stars (or suns). While the scientific confirmation of the existence of extra-solar planets occurred only in the twentieth century, the astronomical discoveries of the early modern period revived interest in this ancient theory.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3115,14 +3413,20 @@
       </pp:keywords>
       <pp:curations>
         <pp:curation status="on" hash="the-crown-imperial-in-the-early-modern-english-imagination">
-          <pp:author>Elisa Tersigni</pp:author>
+          <pp:author>
+            <pp:person>Elisa Tersigni</pp:person>
+          </pp:author>
           <pp:title>The Crown Imperial in the Early Modern English Imagination</pp:title>
           <pp:peek>Although not endemic, the “Corona imperialis” (crown imperial) was a known and popular plant in seventeenth-century England. It is not clear precisely when the flower was introduced to Europe, but it was likely in the latter half of the sixteenth century, perhaps through Emperor Maximilian II or his son Rudolf II and their botanists, Rembert Dodoens (Dodoneus) and Charles de l’Ecluse (Clusius).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="tears-and-ink">
-          <pp:author>Elisa Tersigni</pp:author>
+          <pp:author>
+            <pp:person>Elisa Tersigni</pp:person>
+          </pp:author>
           <pp:title>Tears and Ink</pp:title>
           <pp:peek>The tears-as-ink metaphor enacts crying, weeping, and sobbing, all of which had complicated and sometimes contradictory meanings. Early-modern poets played with the humoral relationship between ink and bodily fluids, including blood, sweat, and tears.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3177,19 +3481,28 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="complaint-poetry">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Complaint Poetry</pp:title>
           <pp:peek>“A Solitary Complaint” opens with a question about earthly pain that it never answers directly. Instead, it concludes by looking to God. Other poets in the period used complaint poetry to lament unrelenting sorrow or to pivot from earthly concerns to the promise of heavenly reward. The following three examples parallel aspects of Pulter’s poem.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="early-modern-astronomy">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>Scientific thinkers in the sixteenth and seventeenth centuries debated the planets’ position in our universe. Two competing models were the Ptolemaic or geocentric (the idea that the Earth was the center of the universe) and the Copernican or heliocentric (which imagined the sun at the center).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-planets-in-poetry">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Planets in Poetry</pp:title>
           <pp:peek>In response to new scientific ideas, several seventeenth-century poets wrote about the planets and the Earth’s position in the universe. Compare Pulter’s conception of the universe (and God’s role in creating it) to those by John Donne, Henry More, and Margaret Cavendish below.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3361,24 +3674,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="creatures-venomous-and-offensive-to-man">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>“Creatures venomous, and offensive to man”</pp:title>
           <pp:peek>The basilisk, dipsas, and amphisbaena all figure in Josuah Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148-149 of his translation _Du Bartas his deuine weekes and workes_ of 1611).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="good-and-bad-animal-parents">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Good and Bad Animal Parents</pp:title>
           <pp:peek>Pulter was evidently interested in natural historians’ depictions of parents in the animal world. According to Simon Goulart, the male bird of paradise (or manucode) had a hollow back in which the female bird placed her eggs.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="speculations-about-multiple-worlds">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Speculations about Multiple Worlds</pp:title>
           <pp:peek>Pulter writes of being dispersed into atoms upon her death in her six-line coda to “Why Must I Thus Forever Be Confined” (Poem 57). These atoms would surround the universe, be buffeted by other atoms, and then reform to constitute another world.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="versifying-captivity">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Versifying Captivity</pp:title>
           <pp:peek>Many poets of the early modern period contemplated captivity. In the poems below, a female poet writes on friendship and captivity, and a male poet on love and captivity.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3404,33 +3729,48 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="amphitrite-and-the-dolphin">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Amphitrite and the Dolphin</pp:title>
           <pp:peek>In various accounts of Neptune’s marriage to Amphitrite, a dolphin plays a crucial role: it might seize and transport her against her will, but it might also persuade her to marry—playing the role of the “wing man” or go-between Pulter’s speaker takes up in “My Love Is Fair.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="dolphins-as-friend-to-man-or-philanthropos">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Dolphins as Friends to Man or “Philanthropos”</pp:title>
           <pp:peek>Pulter’s reference to the dolphin as “philanthropos” participates in a long tradition of depicting the dolphin, in visual art, natural history, mythology, and literature, as particularly devoted to humans, especially young men, carrying, rescuing, and assisting them.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="flora">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Flora</pp:title>
           <pp:peek>This frontispiece, and a poem explaining it (“the mind of the front”), provides a vivid image of one of Pulter’s favorite figures, Flora, the Roman goddess of flowers and spring.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="triangulation-and-the-second-person">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Triangulation and the Second Person</pp:title>
           <pp:peek>
             Nancy Vickers argues that in some blazons, such as Shakespeare’s anti-blazon “My mistress’s eyes are nothing like the sun,” the speaker “by introducing the concept of merchandising into the economy of description, … transforms the direct line one would expect to unite lover and beloved into a triangle.
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whos-fair-race-and-praise-of-the-beloved">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Who’s Fair? Race and Praise of the Beloved</pp:title>
           <pp:peek>
             These two poems draw our attention to the racialized implications of Pulter’s key word in Poem 59: “fair.” In the “Song of Songs” from the Old Testament, one of the oldest and most influential blazons of a beloved’s attributes, the word “fair” seems to mean simply “beautiful.”
           </pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -3577,14 +3917,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="emblems-of-phaeton-and-icarus">
-          <pp:author>Ruth Connolly</pp:author>
+          <pp:author>
+            <pp:person>Ruth Connolly</pp:person>
+          </pp:author>
           <pp:title>Emblems of Phaeton and Icarus</pp:title>
           <pp:peek>This poem was inspired by the genre of the emblem. The emblem used images and adages to teach readers to read allegorically by finding the abstract concept (usually a virtue or vice) personified in the poem, and analogically, in its encouragement to apply the moral to their own situation.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="attitudes-to-essex">
-          <pp:author>Ruth Connolly</pp:author>
+          <pp:author>
+            <pp:person>Ruth Connolly</pp:person>
+          </pp:author>
           <pp:title>Attitudes to Essex</pp:title>
           <pp:peek>The battle over how Essex’s complex and divisive actions should be interpreted and what his posthumous reputation should be captures in microcosm the divisions of the civil war. Poetry was a much-resorted-to weapon in this battle of reputation and interpretation and the same person could easily be the object of vicious satires from one side and soaring panegyrics from the other.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3639,14 +3985,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="margaret-cavendish-dancing-atoms">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Margaret Cavendish’s dancing atoms</pp:title>
           <pp:peek>In lines 13-14 the speaker refers to a time after her death when she will be dispersed into atoms, even though she currently does not understand their movements or “dances.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="margaret-cavendish-female-figures">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Margaret Cavendish’s female figures</pp:title>
           <pp:peek>In line 17, the speaker mentions what will happen to her body after her death. Ultimately every particle of dust will be safe because of God’s justice, even though it might be tossed in a thousand figures or shapes.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3689,24 +4041,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="pulter-reads-bradstreets-tenth-muse">
-          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Sauer</pp:person>
+          </pp:author>
           <pp:title>Pulter reads Bradstreet’s <seg rend="it">Tenth Muse</seg></pp:title>
           <pp:peek>Pulter’s library probably included a copy of Anne Bradstreet’s “Tenth Muse” (1650). The title page of the volume singles out Bradstreet’s poem entitled “A Dialogue between Old England and New.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-reads-eikon-basilike">
-          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Sauer</pp:person>
+          </pp:author>
           <pp:title>Pulter reads <seg rend="it">Eikon Basilike</seg></pp:title>
           <pp:peek>A copy of “Eikon Basilike” (Eikōn basilikē) would have found its way into Pulter’s book collection. She was acquainted with the printer of the King’s book, William Dugard.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-reads-geffrey-whitneys-a-choice-of-emblemes">
-          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Sauer</pp:person>
+          </pp:author>
           <pp:title>Pulter reads Geffrey Whitney’s <seg rend="it">A Choice of Emblemes</seg></pp:title>
           <pp:peek>Evidence from throughout her poetry manuscript makes a very strong case for Pulter’s ownership of a copy of Geffrey Whitney’s “A Choice of Emblemes,” and Other Devises (Leiden, 1586), which surely was among the inspirations for her emblem series (of 53 poems).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-reads-george-sandyss-paraphrase-upon-job">
-          <pp:author>Elizabeth Sauer</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Sauer</pp:person>
+          </pp:author>
           <pp:title>Pulter reads George Sandys’s <seg rend="it">Paraphrase Upon Job</seg></pp:title>
           <pp:peek>Pulter likely owned a copy of George Sandys’s “A Paraphrase Upon the Divine Poems,” which features, as its first main biblical book, the Book of Job.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3766,39 +4130,60 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="dear-death">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Dear Death</pp:title>
           <pp:peek>Pulter’s striking opening address to “Dear Death” (used also in her poem “The Welcome”) may draw on some of John Donne’s Holy Sonnets, with the erotic (and violent) embrace of God in “Batter my heart” and the embrace of death in “Death, be not proud.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="dust">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Dust</pp:title>
           <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="knowledge-faith-and-doubt">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>Knowledge, Faith and Doubt</pp:title>
           <pp:peek>“The Hope” is a poem about the balance between faith and doubt and the role of knowledge in the interplay of these. The phrase which closes the poem, “I know not how,” might express doubt, or faith, in the absence of knowledge.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-little-luz">
-          <pp:author>Elizabeth Scott-Baumann</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
           <pp:title>The “Little Luz”</pp:title>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="manuscript-ambiguities">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>
+          </pp:author>
           <pp:title>Manuscript Ambiguities</pp:title>
           <pp:peek>Pulter’s manuscript went through waves of correction and revision, and there is evidence to suggest that Pulter herself revised the manuscript after it had been copied out by another hand.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="punctuating-poetry">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>span>
+          </pp:author>
           <pp:title>Punctuating Poetry</pp:title>
           <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="wishing-for-the-end">
-          <pp:author>Liza Blake</pp:author>
+          <pp:author>
+            <pp:person>Liza Blake</pp:person>span>
+          </pp:author>
           <pp:title>Wishing for the End</pp:title>
           <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3843,29 +4228,44 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="breath-and-song">
-          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:author>
+            <pp:person>Sarah C. E. Ross</pp:person>
+          </pp:author>
           <pp:title>Breath and Song</pp:title>
           <pp:peek>The image of breath is key to the poem, the soul on earth “breathing forth” her spiritual songs until death. The penultimate stanza, with its denial of death, may owe something to the opening stanza of John Donne’s “A Valediction Forbidding Mourning.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="devotional-lyrics">
-          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:author>
+            <pp:person>Sarah C. E. Ross</pp:person>
+          </pp:author>
           <pp:title>Devotional Lyrics</pp:title>
           <pp:peek>“Made When My Spirits Were Sunk Very Low” is one of many devotional lyrics in Pulter’s manuscript, of the kind written in physical and or spiritual “sickness and sorrow,” as the title to this poem describes.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="george-herbert">
-          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:author>
+            <pp:person>Sarah C. E. Ross</pp:person>
+          </pp:author>
           <pp:title>George Herbert</pp:title>
           <pp:peek>George Herbert’s volume of devotional lyrics, _The Temple_ (1633), is the most obvious model for Pulter’s devotional lyrics, both this one and those listed as comparisons in another Curation for this poem, “Devotional Lyrics.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pilgrimage">
-          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:author>
+            <pp:person>Sarah C. E. Ross</pp:person>
+          </pp:author>
           <pp:title>Pilgrimage</pp:title>
           <pp:peek>Life on earth is described as “my few and evil days” in “Made when my Spirits were Sunk Very Low” (Poem 66), echoing Genesis 47:9, in which life is described as a pilgrimage.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="wings">
-          <pp:author>Sarah C. E. Ross</pp:author>
+          <pp:author>
+            <pp:person>Sarah C. E. Ross</pp:person>
+          </pp:author>
           <pp:title>Wings</pp:title>
           <pp:peek>A common devotional trope evoked in Pulter’s poem is that of wings by which the soul will ascend towards the divine. Pulter uses the image in that way in “Must I Thus Ever Interdicted Be” (Poem 55).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3944,9 +4344,11 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="blessed-steps">
-          <pp:author>Millie Godfery and Sarah C. E. Ross</pp:author>
+          <pp:author>
+            <pp:person>Millie Godfery</pp:person> and <pp:person>Sarah C. E. Ross</pp:person></pp:author>
           <pp:title>Blessed Steps</pp:title>
           <pp:peek>Pulter invites her children, in her second emblem, to follow her ascension of what she calls “blessed steps,” which she identifies with a sequence of virtuous abstractions starting (appropriately, at the bottom) with “Humility” and ending with “Charity.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4019,14 +4421,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-city-cockneys">
-          <pp:author>Millie Godfery</pp:author>
+          <pp:author>
+            <pp:person>Millie Godfery</pp:person>
+          </pp:author>
           <pp:title>The City Cockneys</pp:title>
           <pp:peek>Pulter’s emblem works to demonstrate the restless and emotive public opinion surrounding the events of the Civil War, and particularly the execution itself.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="fickle-fortune">
-          <pp:author>Millie Godfery</pp:author>
+          <pp:author>
+            <pp:person>Millie Godfery</pp:person>
+          </pp:author>
           <pp:title>“Fickle” Fortune</pp:title>
           <pp:peek>George Wither’s “A Collection of Emblemes” (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4072,9 +4480,12 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="birds-without-feet">
-          <pp:author>Lara Dodds</pp:author>
+          <pp:author>
+            <pp:person>Lara Dodds</pp:person>
+          </pp:author>
           <pp:title>Birds Without Feet?</pp:title>
           <pp:peek>In this poem, Pulter develops a spiritual meditation based upon an emblematic interpretation of an animal that she had certainly never seen. The manucodiat, now known as a bird-of-paradise, is a tropical bird that first became known to European explorers and naturalists during the sixteenth century.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4116,24 +4527,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="aconite">
-          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Samantha Snively</pp:person> and <pp:person>Frances E. Dolan</pp:person>?
+          </pp:author>
           <pp:title>Aconite</pp:title>
           <pp:peek>Aconite has a rich history; accounts of its origin and powers range from myth, to natural history, to chemistry, to Harry Potter.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="cooking-up-poisoned-messes-and-antidotes">
-          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Samantha Snively</pp:person> and <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Cooking Up Poisoned Messes—and Antidotes</pp:title>
           <pp:peek>Just as mountebanks were not always easy to distinguish from physicians or orators, so cooking and preparing medicines were interrelated. The young mountebank’s preparation of a “fulsome dish” with a sauce is not that different from other kinds of cooking; in turn, cookbooks might include recipes for antidotes.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-is-a-mountebank">
-          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Samantha Snively</pp:person> and <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>What Is a Mountebank?</pp:title>
           <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="youth-and-age">
-          <pp:author>Samantha Snively and Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Samantha Snively</pp:person> and <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Youth and Age</pp:title>
           <pp:peek>The contest between the two mountebanks is, among other things, a contest between old and young, building toward the assertion that the old are “betters.” Other comparisons of youth and old age can be satirical or didactic; they might defy age or attempt to defend it.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4273,14 +4696,20 @@
       </pp:keywords>
       <pp:curations>
         <pp:curation status="on" hash="a-creature-called-a-cannibal">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>A creature called a cannibal?</pp:title>
           <pp:peek>What kind of animal is Pulter’s cannibal? She appears to be describing a marsupial, a pouch-bearing mammal native to North America and Australia.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="indulgent-parenting">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Indulgent Parenting</pp:title>
           <pp:peek>In several poems, Pulter explores the implications of a parenting style that she calls “indulgent.” The…</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4393,14 +4822,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="early-modern-porcupines">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Early Modern Porcupines</pp:title>
           <pp:peek>Among the natural histories that provide descriptions of porcupines are Pliny’s, which we know Pulter consulted, and Du Bartas’s (translated by Josuah Sylvester), which she might or might not have known. Du Bartas’s poem was a popular work that offered a catalogue of animals in relation to God’s creation of the world.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="early-modern-tortoises">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Early Modern Tortoises</pp:title>
           <pp:peek>Pulter has gendered her tortoise female. In one of the natural histories of the period, Edward Topsell’s The historie of serpents, the tortoise is typically male, with the exception of three stories below which appear together in the middle of his section on the tortoise.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4477,29 +4912,44 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="crystal-glass">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Crystal Glass</pp:title>
           <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="lark-mirrors">
-          <pp:author>Leah Knight</pp:author>
+          <pp:author>
+            <pp:person>Leah Knight</pp:person>
+          </pp:author>
           <pp:title>Lark Mirrors</pp:title>
           <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-sin-of-pride">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Sin of Pride</pp:title>
           <pp:peek>Early modern thought about pride (an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God) was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-swift-savage-maternal-tiger">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Swift, Savage, Maternal Tiger</pp:title>
           <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-about-narcissus">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>What about Narcissus?</pp:title>
           <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4666,14 +5116,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-devoted-turtledove">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Devoted Turtledove</pp:title>
           <pp:peek>Where might Pulter have gotten her ideas about the turtledove? Some possibilities include the Bible, books about natural history, and works of literature.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-widows">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>The Widows</pp:title>
           <pp:peek>With its description of virtuous mourning, Pulter’s turtledove emblem enters into a conversation with contemporary texts about widowhood, including how widows should behave and whether they should remarry.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4713,19 +5169,28 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="puppets-masques-and-buffoons">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Puppets, Masques, and Buffoons</pp:title>
           <pp:peek>When Pulter seeks examples of spectacle, she settles on three: puppet plays, masques, and buffoons. Puppet plays were performed publicly throughout the seventeenth century in London, even when the theaters were closed in the 1640s and 1650s.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="raccoon-or-beaver">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Raccoon or Beaver?</pp:title>
           <pp:peek>Pulter probably never saw a live raccoon or beaver. Raccoons are native to North America, and by Pulter’s time, beavers had been hunted to extinction in England. Pulter must have learned about such animals from books.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="timon-of-athens">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Timon of Athens</pp:title>
           <pp:peek>Plutarch wrote of an Athenian named Timon who eschewed humanity. His brief discussion of Timon appears in a section titled “The Life of Marcus Antonius,” presented here in the sixteenth-century English translation by Thomas North.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4769,24 +5234,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="dissolved-to-tears">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Dissolved to Tears</pp:title>
           <pp:peek>Pulter calls the dying hart “quite dissolved,” and the emblem’s speaker imagines herself dissolving “to tears.” The words “dissolve” and “dissolution” appear frequently in Pulter’s poetry.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="hunted-deer-in-poetry">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Hunted Deer in Poetry</pp:title>
           <pp:peek>Hunted deer appear in many earlier poems, especially by poets who imitated the fourteenth-century Italian poet Petrarch. A hunter pursuing a female deer is a prominent trope in Petrarchan literature, and one of the most famous examples is Thomas Wyatt’s “Whoso List to Hunt.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="seeking-dittany">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Seeking Dittany</pp:title>
           <pp:peek>Dittany is an aromatic shrub with tiny pink flowers, native to Greece, that has long been thought to have medicinal properties. It is described as a healing herb in texts written as long ago as ancient Rome and as recently as J. K. Rowling’s Harry Potter series.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="suspire">
-          <pp:author>Elizabeth Kolkovich</pp:author>
+          <pp:author>
+            <pp:person>Elizabeth Kolkovich</pp:person>
+          </pp:author>
           <pp:title>Suspire</pp:title>
           <pp:peek>A key term in this poem is “suspire,” meaning to sigh or breathe out. Pulter uses the word only a few times in her poetry, but it is part of a matrix of related words that Pulter frequently employs connected to sighs and breathing.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4834,34 +5311,52 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="mowbray-and-bolingbroke">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Mowbray and Bolingbroke</pp:title>
           <pp:peek>One well-known account of the duel between Mowbray and Bolingbroke appears in Shakespeare’s Richard II.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pigeon-houses-of-cards">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Pigeon Houses of Cards</pp:title>
           <pp:peek>Seventeenth-century dovecotes resembled houses of cards.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="spiders">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Spiders</pp:title>
           <pp:peek>[This coat of arms] bears a cobweb, in the center thereof, a spider proper.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="tilt-yards-and-toys">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Tilt-yards and Toys</pp:title>
           <pp:peek>The tilt-yard was both a feature of courtly life, visible on maps, and a symbol of pointless human investments in what Pulter calls "subsolary toys."</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="toads">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Toads</pp:title>
           <pp:peek>This ballad, presented in the voice of the toad, points out that the sinful human’s poison is worse than the toad’s, because the toad’s poison can kill the body but not the soul.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="toad-and-spider">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Toad and Spider</pp:title>
           <pp:peek>Edward Topsell describes the toad as “the most noble kind of frog, most venomous, and remarkable for courage and strength” (sig. R4r). This illustration is from the 1658 edition of Topsell.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5078,9 +5573,12 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="emblem-books-as-parenting-guides">
-          <pp:author>Rachel Zhang</pp:author>
+          <pp:author>
+            <pp:person>Rachel Zhang</pp:person>
+          </pp:author>
           <pp:title>Emblem Books as Parenting Guides</pp:title>
           <pp:peek>“The chiefe aime of the embleme is, to instruct us, by subjecting the figure to our view, and the sense to our understanding,” Henri Estienne paradigmatically wrote in _The Art of Making Devices_ (1646) (7).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5117,9 +5615,12 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="swine-and-ermine">
-          <pp:author>Bruce Boehrer</pp:author>
+          <pp:author>
+            <pp:person>Bruce Boehrer</pp:person>
+          </pp:author>
           <pp:title>Swine and Ermine</pp:title>
           <pp:peek>Like many other non-human animals, the swine and the ermine became subject from classical times onward to a range of moral and didactic appropriations in both literary and visual media.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5231,19 +5732,28 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="elephant-and-dragon">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Elephant and Dragon</pp:title>
           <pp:peek>“So the sly dragon,” Pulter writes, can kill a mighty elephant, dying in the process. How might Pulter have come to think this?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="samson">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Samson</pp:title>
           <pp:peek>“Death doth make all enmity to cease” in the examples offered here, by uniting opponents in the shared experience of death.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whats-a-catablepe">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>What’s a catablepe?</pp:title>
           <pp:peek>This poem begins with a gesture toward “this catablepe,” with its poisonous sight and strange antipathy to the tiny weasel. But what is a catablepe and how would Pulter or her readers know about this beast?</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5449,24 +5959,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="doctor-fox">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Doctor Fox and the Medieval Beast Fable</pp:title>
           <pp:peek>The fox as physician has a long history in ancient and medieval fables. The fourteenth-century manuscript known as the Smithfield Decretals contains extensive decoration in its borders, including scenes from animal fables</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="lions-eating-apes">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Lions Eating Apes as a Cure for Illness</pp:title>
           <pp:peek>At least two natural histories of the period, Edward Topsell’s _The historie of foure-footed beastes_ (1607) and Philemon Holland’s translation of Pliny’s _The historie of the world_ (1601, 1634, and 1635), discuss the medicinal use of apes for lions.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="machiavellis-lion-and-fox">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Machiavelli’s Lion and Fox</pp:title>
           <pp:peek>Pulter’s construction of a scenario in which a lion king orders the killing of troublesome courtiers at the urging of a crafty fox may recall Niccolò Machiavelli’s famous advice that a ruler should be both a lion and a fox.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="machiavellis-prince">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Machiavelli’s Prince: Better to be Loved or Feared?</pp:title>
           <pp:peek>When Pulter notes of the lion in line 2 that he “of his Subjects was not lov’d but fear’d” she seems to be evoking Niccolò Machiavelli’s chapter “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” from his political treatise _The Prince_.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5488,9 +6010,12 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="cetacean-relations">
-        <pp:author>Aylin Malcolm</pp:author>
+        <pp:author>
+          <pp:person>Aylin Malcolm</pp:person>
+        </pp:author>
         <pp:title>Cetacean Relations</pp:title>
         <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -5563,24 +6088,36 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="domestic-resurrections-and-everyday-miracles">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Domestic Resurrections and Everyday Miracles</pp:title>
           <pp:peek>While palingenesis may have been an experimental process many held in doubt, even as they studied it with fascination, many other forms of resurrection and preservation were part of daily life, regularly attempted in gardens and kitchens and recommended or contested in print and manuscript texts.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="palingenesis">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Palingenesis</pp:title>
           <pp:peek>These materials open up contexts for understanding the alchemical process of palingenesis, which Pulter analogizes to the resurrection of the body within Christian theology.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="posies-the-flower-writing-connection">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Posies: The Flower/Writing Connection</pp:title>
           <pp:peek>These texts help to contextualize Pulter’s decision to think about human bodily and spiritual life by means of plants, both in this poem and in others.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="resurrections-of-the-body">
-          <pp:author>Frances E. Dolan</pp:author>
+          <pp:author>
+            <pp:person>Frances E. Dolan</pp:person>
+          </pp:author>
           <pp:title>Resurrections of the Body</pp:title>
           <pp:peek>These materials present resurrections in other registers:  from Ovid’s story of the re-assembly of Hippolytus as Virbius, to which Pulter alludes, to the various domestic resurrections promoted and debated in the period in the realms of gardening, cooking, and medicine, to a ballad about a bizarre act of Royalist political theatre in 1661.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5653,34 +6190,52 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="did-hunters-really-ride-whales-like-horses">
-          <pp:author>Anna Lewis</pp:author>
+          <pp:author>
+            <pp:person>Anna Lewis</pp:person>
+          </pp:author>
           <pp:title>Did hunters really ride whales like horses?</pp:title>
           <pp:peek>Probably not. In “This Huge Leviathan” (Emblem 42) Pulter frequently uses the terminology of horseback riding to describe the Indigenous hunter’s conquest of the whale, likely inspired by the account of explorer José de Acosta, included in the Curation “Whaling Legends.”</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-leviathan-and-the-bible">
-          <pp:author>Anna Lewis</pp:author>
+          <pp:author>
+            <pp:person>Anna Lewis</pp:person>
+          </pp:author>
           <pp:title>The Leviathan and the Bible</pp:title>
           <pp:peek>Biblical depictions of the leviathan generally fall into one of two strains: terrifying monster linked to the Devil, or magnificent creation of God, evidence of his greatness and power.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-miracle-of-the-swine">
-          <pp:author>Anna Lewis</pp:author>
+          <pp:author>
+            <pp:person>Anna Lewis</pp:person>
+          </pp:author>
           <pp:title>The Miracle of the Swine</pp:title>
           <pp:peek>Among the miracles performed by Christ is the Miracle of the Swine, alluded to in lines 27-28 of “This Huge Leviathan” (Emblem 42). He exorcises a group of demons (who call themselves “Legion”) from a man by transferring them into a herd of pigs.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="taming-the-north-american-indian">
-          <pp:author>Anna Lewis</pp:author>
+          <pp:author>
+            <pp:person>Anna Lewis</pp:person>
+          </pp:author>
           <pp:title>Taming the North American “Indian”</pp:title>
           <pp:peek>Just as the hunter masters the whale in “This Huge Leviathan” (Emblem 42), the Spanish attempted to master the Indigenous peoples of Florida, where the story of this whale hunt originates</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whales-working-in-mills">
-          <pp:author>Anna Lewis</pp:author>
+          <pp:author>
+            <pp:person>Anna Lewis</pp:person>
+          </pp:author>
           <pp:title>Whales Working in Mills</pp:title>
           <pp:peek>One of the more puzzling images in “This Huge Leviathan” (Emblem 42) is that of whales being put to work in mills: “[S]o against their wills, / Four thousand whales are forced to draw in mills.” (17–18). Pulter seems to be imagining whales turning the wheels of hydraulic mills, grinding grain into flour.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whaling-legends">
-          <pp:author>Anna Lewis</pp:author>
+          <pp:author>
+            <pp:person>Anna Lewis</pp:person>
+          </pp:author>
           <pp:title>Whaling Legends</pp:title>
           <pp:peek>Many incarnations of a strange tale of a whale hunt seem to have originated from a Spanish explorer in the late sixteenth century; Pulter’s “This Huge Leviathan” (Emblem 42) is one of them.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5810,9 +6365,12 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="picturing-rats-and-mice-in-early-modern-english-culture">
-          <pp:author>Molly Hand</pp:author>
+          <pp:author>
+            <pp:person>Molly Hand</pp:person>
+          </pp:author>
           <pp:title>Picturing Rats and Mice in Early Modern English Culture</pp:title>
           <pp:peek>Like her other emblematic poems, Pulter’s “The Bishop and the Rats” (Emblem 46) is a nude emblem; it lacks the <span class="it">pictura</span> that was a defining feature of many emblematic texts following Andrea Alciato’s foundational <span class="it">Emblematum Liber</span> (1531).</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -5925,14 +6483,20 @@
       </pp:editions>
       <pp:curations>
         <pp:curation status="on" hash="the-russian-rustic-and-the-hollow-tree">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke
+          </pp:author>
           <pp:title>The Russian Rustic and the Hollow Tree</pp:title>
           <pp:peek>The basic story of this emblem appears in many different sources of the period. It was attributed to a Russian ambassador to Rome named Demetrius, by way of Sebastian Münster, whose</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="seventeenth-century-english-views-of-russians">
-          <pp:author>Victoria E. Burke</pp:author>
+          <pp:author>
+            <pp:person>Victoria E. Burke</pp:person>
+          </pp:author>
           <pp:title>Seventeenth-Century English Views of Russians</pp:title>
           <pp:peek>The rustic character featured in this emblem has a misguided view of religion in Pulter’s depiction, but is otherwise not particularly indebted to stereotypical views of Russians among English writers of the time.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -6126,14 +6690,20 @@
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="pulters-garden">
-          <pp:author>Whitney Sperrazza</pp:author>
+          <pp:author>
+            <pp:person>Whitney Sperrazza</pp:person>
+          </pp:author>
           <pp:title>Pulter’s Garden</pp:title>
           <pp:peek>Pulter’s poems are full of gardens. In some poems, such as “The Lark,” the poet observes something in the garden that prompts an extended meditation.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-worker-bee">
-          <pp:author>Nicole Jacobs</pp:author>
+          <pp:author>
+            <pp:person>Nicole Jacobs</pp:person>
+          </pp:author>
           <pp:title>The Worker Bee</pp:title>
           <pp:peek>The worker bee was not accustomed to serving, like her drone brother, as a cautionary tale. After all, she was thoroughly ensconced in a literary tradition that framed her as an exemplar of industry and virtue.</pp:peek>
+          <pp:keywords></pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
