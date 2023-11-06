@@ -7051,7 +7051,7 @@
     <xsl:text>{&quot;connections&quot;: </xsl:text>
     <xsl:text>{&quot;contributors&quot;: </xsl:text>
     <xsl:text>[</xsl:text>
-    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:curations/pp:curation">
       <xsl:variable name="isLastConnection" select="position() = last()"/>
       <xsl:for-each select="./pp:author/pp:person">
         <xsl:variable name="isLastPerson" select="position() = last()"/>
@@ -7065,7 +7065,7 @@
     <xsl:text>],</xsl:text>
     <xsl:text>&quot;keywords&quot;: </xsl:text>
     <xsl:text>[</xsl:text>
-    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:explorations/pp:curation">
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:curations/pp:curation">
       <xsl:variable name="isLastConnection" select="position() = last()"/>
       <xsl:for-each select="./pp:keywords/pp:keyword">
         <xsl:variable name="isLastKeyword" select="position() = last()"/>
