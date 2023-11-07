@@ -1048,8 +1048,17 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>The Death of a Child</pp:title>
+          <pp:sortingTitle>Death of a Child, The</pp:sortingTitle>
           <pp:peek>The most famous early modern poems about children’s deaths focus on babies and young children. See, for example, Ben Jonson, “On My First Son.” Of Katherine Philips’s two poems about her “first and dearest child, Hector Philips,” who died shortly after his birth May 2, 1655, I have chosen this one because of its use of Pulterian tropes and diction.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>children</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>Elizabeth Cary</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+            <pp:keyword>maternity</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="foolish-mourning">
           <pp:author>
@@ -1057,7 +1066,11 @@
           </pp:author>
           <pp:title>Foolish Mourning</pp:title>
           <pp:peek>We can read Pulter’s poem as a kind of answer to this riddle in Shakespeare’s Twelfth Night, by which the Clown “proves” Olivia is a fool because she mourns for her brother’s soul although she believes it to be in heaven.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="fragrant-odors-immortalize-a-virgin-name">
           <pp:author>
@@ -1065,7 +1078,10 @@
           </pp:author>
           <pp:title>Fragrant Odors Immortalize a Virgin Name</pp:title>
           <pp:peek>These passages come from annals of the First English Carmel (or Carmelite convent) founded in Antwerp in 1619. Beginning with the dissolution of the monasteries in 1539, some dispossessed English nuns joined convents abroad or banded together to attempt to continue a contemplative life; some daughters of English exiles entered local cloisters.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>nuns</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="poems-in-conversation">
           <pp:author>
@@ -1073,7 +1089,12 @@
           </pp:author>
           <pp:title>Poems in Conversation</pp:title>
           <pp:peek>Pulter may borrow her opening phrase (“Tell me no more”) and dialogic structure, imagining and rebuffing an interlocutor, from other seventeenth-century poems. Her poem is thus about a kind of conversation and itself in conversation with a poetic convention.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Henry Moody</pp:keyword>
+            <pp:keyword>race</pp:keyword>
+            <pp:keyword>refrain</pp:keyword>
+            <pp:keyword>Thomas Carew</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1119,8 +1140,17 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>The Botanical Blazon</pp:title>
+          <pp:title>Botanical Blazon, The</pp:title>
           <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>blazon</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>environment</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="expanding-our-understanding-of-flora">
           <pp:author>
@@ -1128,7 +1158,17 @@
           </pp:author>
           <pp:title>Expanding Our Understanding of Flora</pp:title>
           <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Abraham Cowley</pp:keyword>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+            <pp:keyword>textiles</pp:keyword>
+            <pp:keyword>William Lawson</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="flower-people">
           <pp:author>
@@ -1136,15 +1176,46 @@
           </pp:author>
           <pp:title>Flower People</pp:title>
           <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>bible</pp:keyword>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>entertainment</pp:keyword>
+            <pp:keyword>fashion</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>Francis Bacon</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>John Parkinson</pp:keyword>
+            <pp:keyword>masque</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>reproduction</pp:keyword>
+            <pp:keyword>Robert Herrick</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-flowers-of-pulters-library-myths">
           <pp:author>
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>The Flowers of Pulter’s Library: Myths</pp:title>
+          <pp:sortingTitle>Flowers of Pulter’s Library: Myths, The</pp:sortingTitle>
           <pp:peek>A funeral sermon praises Lady Anne Clifford for dressing up her chamber with the “flowers of a library” written on papers and pinned up all over the room.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>textiles</pp:keyword>
+            <pp:keyword>trees</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="other-garden-poems">
           <pp:author>
@@ -1152,7 +1223,14 @@
           </pp:author>
           <pp:title>Other Garden Poems</pp:title>
           <pp:peek>Many seventeenth-century writers wrote poems about gardens: as familiar, beloved spaces, sites of work (viewed positively or negatively), aspirations of pleasurable occupation, emblems of paradise, and models of human cognition and cultivation.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Abraham Cowley</pp:keyword>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="parliaments-of-flowers">
           <pp:author>
@@ -1160,7 +1238,14 @@
           </pp:author>
           <pp:title>Parliaments of Flowers</pp:title>
           <pp:peek>Poems that script the exchanges among “parliaments” of beasts, fowl, flowers, women or other unlikely politicians and speakers stretch back at least as far as Chaucer’s late fourteenth-century “Parliament of Fowls.” In the 1650s and 1660s, following the English Civil Wars between king and Parliament, the term was newly topical. Pulter is not the only English writer in the period to give voice to contentious flowers.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Abraham Cowley</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>distillation</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>judicial system</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="picturing-pulters-flowers">
           <pp:author>
@@ -1168,7 +1253,14 @@
           </pp:author>
           <pp:title>Picturing Pulter’s Flowers</pp:title>
           <pp:peek>While the flower-speakers in Pulter’s poem mention their own and their rivals’ color, height, habit, and shape, the poem requires us to be able to imagine what each speaker might look like. Many readers now need some help. These roughly contemporary illustrations can help to bring the flower-speakers to life.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>Elizabeth I</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>textiles</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1214,7 +1306,14 @@
           <pp:peek>
             Nemesis is Pulter’s chosen punisher of the King’s enemies. This Ancient Greek goddess was often represented in early modern European images carrying a bridle and either a whip or rod to symbolise her role in measuring people’s actions and, if necessary, forcefully restraining their excesses.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrea Alciato</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Samuel Daniel</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
