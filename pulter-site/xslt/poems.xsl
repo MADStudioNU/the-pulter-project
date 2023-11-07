@@ -587,7 +587,15 @@
           </pp:author>
           <pp:title>Deep Ecologies</pp:title>
           <pp:peek>Today, the word “cetacean” refers specifically to a whale, dolphin, or porpoise, but it is derived from the Latin “cetus”, a broader term including many large and legendary marine creatures.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrea Alciato</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>Thomas Hobbes</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="globes-of-earth-and-light">
           <pp:author>
@@ -595,23 +603,45 @@
           </pp:author>
           <pp:title>Globes of Earth and Light</pp:title>
           <pp:peek>The conclusion of Pulter’s poem reveals the tension between old and new astronomical models during the seventeenth century. To some degree, Pulter seems to uphold the Aristotelian distinction between the mutable, imperfect sublunary sphere and the perfect, regular universe beyond the moon.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>knowledge</pp:keyword>
+            <pp:keyword>map</pp:keyword>
+            <pp:keyword>object</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-phoenix">
           <pp:author>
             <pp:person>Aylin Malcolm</pp:person>
           </pp:author>
           <pp:title>The Phoenix</pp:title>
+          <pp:sortingTitle>Phoenix, The</pp:sortingTitle>
           <pp:peek>Pulter’s brief description of the phoenix resembles conventional accounts of this mythological creature, including its vibrant gold and purple plumage.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Amelia Lanyer</pp:keyword>
+            <pp:keyword>bird</pp:keyword>
+            <pp:keyword>Elizabeth I</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Nicolas Hilliard</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-unicorn">
           <pp:author>
             <pp:person>Aylin Malcolm</pp:person>
           </pp:author>
           <pp:title>The Unicorn</pp:title>
+          <pp:sortingTitle>Unicorn, The</pp:sortingTitle>
           <pp:peek>Seventeenth-century writers did not always define a clear boundary between myth and fact, or locate this boundary in the same places as modern writers.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="vegetable-love">
           <pp:author>
@@ -619,7 +649,17 @@
           </pp:author>
           <pp:title>Vegetable Love</pp:title>
           <pp:peek>The clay and earth of Pulter’s opening lines soon give way to flowers, as she describes the effects of time on deciduous and evergreen plants.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Gerard</pp:keyword>
+            <pp:keyword>John Parkinson</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>Petrarch</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>trees</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -684,7 +724,14 @@
           </pp:author>
           <pp:title>Commemorating the Dead</pp:title>
           <pp:peek>This poem is an anguished lament, but about what exactly? It discusses the killing and its perpetrators more vividly than it does the dead men. Is it an elegy for them?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>George Puttenham</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>memorial</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="male-friendship">
           <pp:author>
@@ -692,7 +739,14 @@
           </pp:author>
           <pp:title>Male Friendship</pp:title>
           <pp:peek>In Pulter’s account, Lucas and Lisle were, above all, “unparalleled friends.” We might then connect the poem to others about the love between male friends, and the capacity of such love to both sweeten life and survive death.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>commemoration</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>friendship</pp:keyword>
+            <pp:keyword>male bonds</pp:keyword>
+            <pp:keyword>Robert Herrick</pp:keyword>
+            <pp:keyword>war</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="royalist-accounts-linking-the-execution-to-the-siege">
           <pp:author>
@@ -700,15 +754,32 @@
           </pp:author>
           <pp:title>Royalist Accounts Linking the Execution to the Siege of Colchester</pp:title>
           <pp:peek>Parliamentary forces laid siege to the town of Colchester beginning June 12, 1648. By the time of Lucas and Lisle’s executions in late August, then, the situation in Colchester was desperate.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>execution</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-shooting-of-lucas-and-lisle">
           <pp:author>
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
-          <pp:title>The shooting of Lucas and Lisle</pp:title>
+          <pp:title>The Shooting of Lucas and Lisle</pp:title>
+          <pp:sortingTitle>Shooting of Lucas and Lisle, The</pp:sortingTitle>
           <pp:peek>“Is Lucas and Lisle slain?” the speaker asks at the start of “On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester” (Poem 7).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>ballad</pp:keyword>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>justice</pp:keyword>
+            <pp:keyword>male bonds</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="understanding-through-comparison">
           <pp:author>
@@ -716,7 +787,11 @@
           </pp:author>
           <pp:title>Understanding Through Comparison</pp:title>
           <pp:peek>This poem begins with a question. In its distraught search for answers and understanding, one of the places it looks is the ancient world.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Fates</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="war-memorials">
           <pp:author>
@@ -724,7 +799,12 @@
           </pp:author>
           <pp:title>War Memorials</pp:title>
           <pp:peek>A stone slab in the floor of the north aisle of St. Giles’s church in Colchester covers and commemorates the remains of the two men, buried together.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>memorial</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -851,23 +931,48 @@
           </pp:author>
           <pp:title>Child Loss Elegies</pp:title>
           <pp:peek>Pulter’s poem joins other notable elegies written about the death of a child in seventeenth-century England, including the following by Ben Jonson, Katherine Philips, Elizabeth Egerton, and Anne Bradstreet.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Anne Bradstreet</pp:keyword>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>children</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-hunted-deer">
           <pp:author>
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Hunted Deer</pp:title>
+          <pp:sortingTitle>Hunted Deer, The</pp:sortingTitle>
           <pp:peek>Pulter’s description of Jane as a hunted deer is echoed in several contemporary poems, such as ones by John Denham and Andrew Marvell.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>hunt</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-sad-nightingale">
           <pp:author>
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Sad Nightingale</pp:title>
+          <pp:title>Sad Nightingale, The</pp:title>
           <pp:peek>Pulter’s poem follows the Italian poet Petrarch and several English authors in using the nightingale as a figure of mourning and sorrow.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>Petrarch</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="white-lilies-and-red-roses">
           <pp:author>
@@ -875,7 +980,16 @@
           </pp:author>
           <pp:title>White Lilies and Red Roses</pp:title>
           <pp:peek>Pulter’s description of her daughter Jane draws on conventions typically used by love poets in Petrarchan poetry, particularly the analogy of the beloved’s body parts with roses and lilies.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>blazon</pp:keyword>
+            <pp:keyword>Edmund Spenser</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>Henry Constable</pp:keyword>
+            <pp:keyword>love poetry</pp:keyword>
+            <pp:keyword>Petrarch</pp:keyword>
+            <pp:keyword>Thomas Campion</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
