@@ -6316,7 +6316,9 @@
           </pp:author>
           <pp:title>Mowbray and Bolingbroke</pp:title>
           <pp:peek>One well-known account of the duel between Mowbray and Bolingbroke appears in Shakespeare’s Richard II.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pigeon-houses-of-cards">
           <pp:author>
@@ -6324,7 +6326,10 @@
           </pp:author>
           <pp:title>Pigeon Houses of Cards</pp:title>
           <pp:peek>Seventeenth-century dovecotes resembled houses of cards.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="spiders">
           <pp:author>
@@ -6332,15 +6337,25 @@
           </pp:author>
           <pp:title>Spiders</pp:title>
           <pp:peek>[This coat of arms] bears a cobweb, in the center thereof, a spider proper.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>heraldry</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="tilt-yards-and-toys">
           <pp:author>
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>Tilt-yards and Toys</pp:title>
-          <pp:peek>The tilt-yard was both a feature of courtly life, visible on maps, and a symbol of pointless human investments in what Pulter calls "subsolary toys."</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:peek>The tilt-yard was both a feature of courtly life, visible on maps, and a symbol of pointless human investments in what Pulter calls “subsolary toys.”</pp:peek>
+          <pp:keywords>
+            <pp:keyword>entertainment</pp:keyword>
+            <pp:keyword>Francis Bacon</pp:keyword>
+            <pp:keyword>map</pp:keyword>
+            <pp:keyword>masque</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="toads">
           <pp:author>
@@ -6348,7 +6363,11 @@
           </pp:author>
           <pp:title>Toads</pp:title>
           <pp:peek>This ballad, presented in the voice of the toad, points out that the sinful human’s poison is worse than the toad’s, because the toad’s poison can kill the body but not the soul.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>ballad</pp:keyword>
+            <pp:keyword>poison</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="toad-and-spider">
           <pp:author>
@@ -6356,7 +6375,12 @@
           </pp:author>
           <pp:title>Toad and Spider</pp:title>
           <pp:peek>Edward Topsell describes the toad as “the most noble kind of frog, most venomous, and remarkable for courage and strength” (sig. R4r). This illustration is from the 1658 edition of Topsell.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>ballad</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>Thomas Browne</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -6578,7 +6602,16 @@
           </pp:author>
           <pp:title>Emblem Books as Parenting Guides</pp:title>
           <pp:peek>“The chiefe aime of the embleme is, to instruct us, by subjecting the figure to our view, and the sense to our understanding,” Henri Estienne paradigmatically wrote in _The Art of Making Devices_ (1646) (7).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>Geoffrey Whitney</pp:keyword>
+            <pp:keyword>George Wither</pp:keyword>
+            <pp:keyword>Henry Peacham</pp:keyword>
+            <pp:keyword>James I</pp:keyword>
+            <pp:keyword>maternity</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
