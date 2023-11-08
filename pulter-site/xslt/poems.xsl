@@ -5578,9 +5578,20 @@
           <pp:author>
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
-          <pp:title>A creature called a cannibal?</pp:title>
+          <pp:title>A Creature Called a Cannibal?</pp:title>
+          <pp:sortingTitle>Creature called a cannibal?</pp:sortingTitle>
           <pp:peek>What kind of animal is Pulter’s cannibal? She appears to be describing a marsupial, a pouch-bearing mammal native to North America and Australia.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>Du Bartas</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>offspring</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>Simon Goulart</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="indulgent-parenting">
           <pp:author>
@@ -5588,7 +5599,15 @@
           </pp:author>
           <pp:title>Indulgent Parenting</pp:title>
           <pp:peek>In several poems, Pulter explores the implications of a parenting style that she calls “indulgent.” The…</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>children</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>Geoffrey Whitney</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+            <pp:keyword>William Gouge</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5706,7 +5725,11 @@
           </pp:author>
           <pp:title>Early Modern Porcupines</pp:title>
           <pp:peek>Among the natural histories that provide descriptions of porcupines are Pliny’s, which we know Pulter consulted, and Du Bartas’s (translated by Josuah Sylvester), which she might or might not have known. Du Bartas’s poem was a popular work that offered a catalogue of animals in relation to God’s creation of the world.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Du Bartas</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="early-modern-tortoises">
           <pp:author>
@@ -5714,7 +5737,14 @@
           </pp:author>
           <pp:title>Early Modern Tortoises</pp:title>
           <pp:peek>Pulter has gendered her tortoise female. In one of the natural histories of the period, Edward Topsell’s The historie of serpents, the tortoise is typically male, with the exception of three stories below which appear together in the middle of his section on the tortoise.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrea Alciato</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Anne Southwell</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5796,7 +5826,12 @@
           </pp:author>
           <pp:title>Crystal Glass</pp:title>
           <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>George Gascoigne</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>mirrors</pp:keyword>
+            <pp:keyword>satire</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation extra-poem-refs="46" index-exclude="true" status="on" hash="lark-mirrors">
           <pp:author>
@@ -5823,16 +5858,31 @@
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Sin of Pride</pp:title>
+          <pp:sortingTitle>Sin of Pride, The</pp:sortingTitle>
           <pp:peek>Early modern thought about pride (an umbrella category for arrogance, hubris, vanity, the desire to be exceptional, and any actions that prioritize the self rather than humility and submission to God) was based on many biblical verses that condemn pride as one of the seven deadly sins.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Christopher Marlowe</pp:keyword>
+            <pp:keyword>Edmund Spenser</pp:keyword>
+            <pp:keyword>pride</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-swift-savage-maternal-tiger">
           <pp:author>
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Swift, Savage, Maternal Tiger</pp:title>
+          <pp:sortingTitle>Swift, Savage, Maternal Tiger, The</pp:sortingTitle>
           <pp:peek>What did early modern English readers learn about tigers? These exotic animals were thought to be exceptionally fast, ferocious, and possessing a killer maternal instinct.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>children</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>maternity</pp:keyword>
+            <pp:keyword>Richard Brathwaite</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-about-narcissus">
           <pp:author>
@@ -5840,7 +5890,13 @@
           </pp:author>
           <pp:title>What about Narcissus?</pp:title>
           <pp:peek>Ovid’s story of Narcissus, the man who fell deeply in love with his own image, has been a popular subject in Western art and literature.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Caravaggio</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>Leonardo da Vinci</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -6011,16 +6067,31 @@
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Devoted Turtledove</pp:title>
+          <pp:sortingTitle>Devoted Turtledove, The</pp:sortingTitle>
           <pp:peek>Where might Pulter have gotten her ideas about the turtledove? Some possibilities include the Bible, books about natural history, and works of literature.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>Edmund Spenser</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-widows">
           <pp:author>
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Widows</pp:title>
+          <pp:sortingTitle>Widows, The</pp:sortingTitle>
           <pp:peek>With its description of virtuous mourning, Pulter’s turtledove emblem enters into a conversation with contemporary texts about widowhood, including how widows should behave and whether they should remarry.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>marriage</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+            <pp:keyword>Thomas Overbury</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
