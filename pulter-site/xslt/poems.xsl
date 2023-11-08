@@ -2392,6 +2392,7 @@
             <pp:person>Helen Smith</pp:person>
           </pp:author>
           <pp:title>A Tedious Pilgrimage</pp:title>
+          <pp:sortingTitle>Tedious Pilgrimage, A</pp:sortingTitle>
           <pp:peek>“The sinners glasse,“ an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,“ and lists in painful detail all the infelicities of mortality.</pp:peek>
           <pp:keywords>
             <pp:keyword>Christianity</pp:keyword>
@@ -2531,6 +2532,7 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>An Assize Sermon</pp:title>
+          <pp:sortingTitle>Assize Sermon, An</pp:sortingTitle>
           <pp:peek>Pulter describes judgment day as “the blessed assize.” Assizes were criminal trials that were held twice a year before local juries; a judge visiting from London presided.</pp:peek>
           <pp:keywords>
             <pp:keyword>judicial system</pp:keyword>
@@ -2709,8 +2711,14 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>A Female Slave</pp:title>
+          <pp:sortingTitle>Female Slave, A</pp:sortingTitle>
           <pp:peek>Note the similarity between Ligon’s descriptions of the slaves’ bodies and Moffett’s detailed description of pismire anatomy.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>colonialism</pp:keyword>
+            <pp:keyword>Native American</pp:keyword>
+            <pp:keyword>race</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="mother-earth">
           <pp:author>
@@ -2718,7 +2726,16 @@
           </pp:author>
           <pp:title>Mother Earth</pp:title>
           <pp:peek>This passage, presented here in two Renaissance translations, describes what happens after the Deucalion flood.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>creation</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pismires">
           <pp:author>
@@ -2726,7 +2743,20 @@
           </pp:author>
           <pp:title>Pismires</pp:title>
           <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffett’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Aesop</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>fable</pp:keyword>
+            <pp:keyword>heraldry</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>John Bunyan</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+            <pp:keyword>Thomas Moffett</pp:keyword>
+            <pp:keyword>Virgil</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-is-a-dunghill">
           <pp:author>
@@ -2734,7 +2764,10 @@
           </pp:author>
           <pp:title>What is a dunghill?</pp:title>
           <pp:peek>This favorite Pulter image seems at first straightforward. A dunghill is a pile of shit or as the _OED_ puts it, “a heap or hillock of dung or refuse.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>ecology</pp:keyword>
+            <pp:keyword>land</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2829,15 +2862,33 @@
           </pp:author>
           <pp:title>Christian Mortalism from the Bible to Pulter</pp:title>
           <pp:peek>Pulter’s frequent references to a soul that sleeps may be no more than metaphorical flights of fancy, but they may also be contributions to an ancient debate about what happens to the soul after death.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Henry More</pp:keyword>
+            <pp:keyword>John Calvin</pp:keyword>
+            <pp:keyword>Martin Luther</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>sleep</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-poetry-of-night-and-day">
           <pp:author>
             <pp:person>Kenneth Graham</pp:person>
           </pp:author>
           <pp:title>The Poetry of Night and Day</pp:title>
+          <pp:sortingTitle>Poetry of Night and Day, The</pp:sortingTitle>
           <pp:peek>Poems like “Aurora [2]” contribute to literary traditions that draw on the imagery and mythologies of day and night, light and dark, to write about good and evil, life and death.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>George Gascoigne</pp:keyword>
+            <pp:keyword>light</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>Richard Lovelace</pp:keyword>
+            <pp:keyword>sleep</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2899,7 +2950,11 @@
           </pp:author>
           <pp:title>Alchemical Quintessence</pp:title>
           <pp:peek>In line 5 of this poem, Pulter uses the alchemical term “quintessence” to refer to the purest form of a substance. Pulter is claiming that no liquid, including the quintessence of alcohol, can enliven her depressed spirit.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>Jane Cavendish</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="broadfield-hertfordshire">
           <pp:author>
@@ -2907,7 +2962,11 @@
           </pp:author>
           <pp:title>Broadfield, Hertfordshire</pp:title>
           <pp:peek>The Pulters lived at an estate called Broadfield (or Bradfield) in the parish of Cottered in Hertfordshire. Sir Henry Chauncy’s The historical antiquities of Hertfordshire of 1700 gives the history of the estate, noting that Arthur Pulter retired to Bradfield after the outbreak of the civil war.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Broadfield, Henry Chauncy</pp:keyword>
+            <pp:keyword>country house</pp:keyword>
+            <pp:keyword>Pulter’s life</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="did-women-play-football-in-the-seventeenth-century">
           <pp:author>
@@ -2915,15 +2974,24 @@
           </pp:author>
           <pp:title>Did women play football in the seventeenth century?</pp:title>
           <pp:peek>Probably not. Pulter imagines fleeing the confines of earth and playing football with the stars at line 12, but contemporary drama suggests that the idea of women playing football was either an occasion for smutty jokes (as in James Shirley’s play, extracted below) or for lamenting the manliness of women in the region of Savoy (as in Thomas Killigrew’s play, extracted below).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>entertainment</pp:keyword>
+            <pp:keyword>James Shirley</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-dissolution-of-matter-into-the-four-elements">
           <pp:author>
             <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>The Dissolution of Matter into the Four Elements</pp:title>
+          <pp:sortingTitle>Dissolution of Matter into the Four Elements, The</pp:sortingTitle>
           <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements–fire, earth, air, and water–as forming the material of all life.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>elements</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>matter death</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="poetic-fancies">
           <pp:author>
@@ -2931,7 +2999,9 @@
           </pp:author>
           <pp:title>Poetic Fancies</pp:title>
           <pp:peek>In lines 4 and 8, Pulter refers to her inventions or imaginings as “fancies.” The word “fancy” was synonymous with “imagination” at this time (OED 4) but in addition to referring to a process, it could also refer to the inventions or products of imagination.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2990,15 +3060,30 @@
           </pp:author>
           <pp:title>Body, Soul, Dust</pp:title>
           <pp:peek>When the speaker of this poem asks her soul to return to her in line 22, it raises the question: what, or who, is the speaker? The body corresponding to the soul? Something or someone else?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>dust</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-knowledge-of-god">
           <pp:author>
             <pp:person>Liza Blake</pp:person>
           </pp:author>
           <pp:title>The Knowledge of God</pp:title>
+          <pp:sortingTitle>Knowledge of God, The</pp:sortingTitle>
           <pp:peek>Pulter’s poem ends with a promise that after the Final Judgment and Resurrection, “we shall know (without which all is none) / The eternal essence, even as we are known” (ll. 58–59).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>knowledge</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>Robert Herrick</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="reading-and-transforming-biblical-sources">
           <pp:author>
@@ -3006,15 +3091,28 @@
           </pp:author>
           <pp:title>Reading (and Transforming) Biblical Sources</pp:title>
           <pp:peek>“For now we see through a glasse, darkely: but then face to face: now I know in part, but then shall I know euen as also I am knowen,” reads 1 Corinthians 13:12. What, exactly, does this biblical verse mean?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>love</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="scientific-poetry">
           <pp:author>
             <pp:person>Liza Blake</pp:person>
           </pp:author>
           <pp:title>“Scientific” Poetry</pp:title>
+          <pp:sortingTitle>Scientific Poetry</pp:sortingTitle>
           <pp:peek>How “scientific” is “The Perfection of Patience and Knowledge,” in particular its middle section which uses the vocabularies of alchemy and astronomy?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>anatomy</pp:keyword>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>knowledge</pp:keyword>
+            <pp:keyword>Richard Leigh</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3064,7 +3162,20 @@
           </pp:author>
           <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>
           <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Anne Bradstreet</pp:keyword>
+            <pp:keyword>bible, William Shakespeare</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Mary Carey</pp:keyword>
+            <pp:keyword>repentance</pp:keyword>
+            <pp:keyword>reproduction</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulters-psalmic-intertexts">
           <pp:author>
@@ -3072,7 +3183,14 @@
           </pp:author>
           <pp:title>Pulter’s Psalmic Intertexts</pp:title>
           <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>praise</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3179,7 +3297,14 @@
           </pp:author>
           <pp:title>Heroic Suicide and Women’s Writing</pp:title>
           <pp:peek>Pulter’s “Of a Young Lady at Oxford, 1646” draws on the Stoic concept of heroic suicide by positioning the unnamed lady of the poem as an analogue of two famous female suicides, those of Lucretia and Thisbe.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christine de Pizan</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Plutarch</pp:keyword>
+            <pp:keyword>Seneca</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -3356,7 +3481,16 @@
           <pp:peek>
             In the title, Pulter situates this poem’s composition within her lying-in, a communal childbirth ritual that began with labor and continued for up to a month after delivery.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>birth</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>isolation</pp:keyword>
+            <pp:keyword>Jane Sharp</pp:keyword>
+            <pp:keyword>labor</pp:keyword>
+            <pp:keyword>maternity</pp:keyword>
+            <pp:keyword>reproduction</pp:keyword>
+            <pp:keyword>Thomas Middleton</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3430,7 +3564,7 @@
         <pp:tag>vision</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="lark-mirrors">
+        <pp:curation extra-poem-refs="81" status="on" hash="lark-mirrors">
           <pp:author>
             <pp:person>Leah Knight</pp:person>
           </pp:author>
@@ -3438,7 +3572,19 @@
           <pp:peek>
             How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>circles</pp:keyword>
+            <pp:keyword>Gervase Markham</pp:keyword>
+            <pp:keyword>hunting</pp:keyword>
+            <pp:keyword>John Bunyan</pp:keyword>
+            <pp:keyword>mirror</pp:keyword>
+            <pp:keyword>pride</pp:keyword>
+            <pp:keyword>technology</pp:keyword>
+            <pp:keyword>Thomas Hobbes</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="male-and-female-spiders">
           <pp:author>
@@ -3448,7 +3594,11 @@
           <pp:peek>
             In her poem “Of the Spider,” Margaret Cavendish distinguishes between the tasks of the female house spider and the male spider who hunts abroad. She uses the language of weaving but depicts the location and all of the equipment (the shop, the wheel, the distaff) as inside the spider’s body.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="mowers-and-the-birds-they-kill">
           <pp:author>
@@ -3458,17 +3608,28 @@
           <pp:peek>
             The central episode of this poem, the slaughter of the lark’s offspring by a careless and then malicious mower, finds an analogue in Andrew Marvell’s episode of the mower in “Upon Appleton House.”
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>labor</pp:keyword>
+            <pp:keyword>offspring</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-myth-of-arachne">
           <pp:author>
             <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>The Myth of Arachne</pp:title>
+          <pp:sortingTitle>Myth of Arachne, The</pp:sortingTitle>
           <pp:peek>
             In the first line of the poem Pulter mentions Arachne or the spider. The spider’s link with the traditionally feminine arts of sewing and weaving makes it an interesting image of female creativity, though the myth, as retold in a contemporary natural history, makes it a story about the dangers of female pride.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>pride</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3673,16 +3834,28 @@
             <pp:person>Helen Smith</pp:person>
           </pp:author>
           <pp:title>The Built Body</pp:title>
+          <pp:sortingTitle>Built Body, The</pp:sortingTitle>
           <pp:peek>George Abbot, Archbishop of Canterbury from 1611 until his death in 1633, offers readers a detailed paraphrase of the book of Job.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-light-of-god">
           <pp:author>
             <pp:person>Helen Smith</pp:person>
           </pp:author>
           <pp:title>The Light of God</pp:title>
+          <pp:sortingTitle>Light of God, The</pp:sortingTitle>
           <pp:peek>Philippe de Champaigne’s luminous painting depicts St. Augustine at a moment of spiritual illumination, mirroring his famous conversion, in which he was struck blind by a burst of divine light.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -3741,8 +3914,16 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>Aging Women</pp:title>
-          <pp:peek>Today, the social phenomenon by which middle-aged women disappear from public view is called “invisible woman syndrome.”  In the sixteenth and seventeenth centuries, aging women were not invisible.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:peek>Today, the social phenomenon by which middle-aged women disappear from public view is called “invisible woman syndrome.” In the sixteenth and seventeenth centuries, aging women were not invisible.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>Elizabeth I</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>mirror</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>Robert Herrick</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="erra-pater-and-the-sibyl">
           <pp:author>
@@ -3750,7 +3931,11 @@
           </pp:author>
           <pp:title>Erra Pater and the Sibyl</pp:title>
           <pp:peek>These were both figures popularly associated with age, wisdom—and error.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>age</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>wisdom</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="illness-and-poetry">
           <pp:author>
@@ -3758,7 +3943,16 @@
           </pp:author>
           <pp:title>Illness and Poetry</pp:title>
           <pp:peek>Pulter wasn’t the only seventeenth-century poet for whom illness was an occasion to contemplate mortality and to make verse. The poems gathered here suggest the different ways her contemporaries linked sickness and poetry.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>age</pp:keyword>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>map</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5351,13 +5545,25 @@
           <pp:peek>Pulter’s tiger gazes into a specific kind of mirror: a “crystal glass.” English mirrors in the first half of the sixteenth century in England were most commonly made of reflective metal.</pp:peek>
           <pp:keywords></pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="lark-mirrors">
+        <pp:curation extra-poem-refs="46" index-exclude="true" status="on" hash="lark-mirrors">
           <pp:author>
             <pp:person>Leah Knight</pp:person>
           </pp:author>
           <pp:title>Lark Mirrors</pp:title>
           <pp:peek>How do you catch a lark? Hester Pulter knew. Given the popularity of larks in seventeenth-century British cuisine, she may often have witnessed these birds being lured, captured, and killed in the meadows surrounding her country estate of Broadfield (and then served at her table).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>circles</pp:keyword>
+            <pp:keyword>Gervase Markham</pp:keyword>
+            <pp:keyword>hunting</pp:keyword>
+            <pp:keyword>John Bunyan</pp:keyword>
+            <pp:keyword>mirror</pp:keyword>
+            <pp:keyword>pride</pp:keyword>
+            <pp:keyword>technology</pp:keyword>
+            <pp:keyword>Thomas Hobbes</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-sin-of-pride">
           <pp:author>
