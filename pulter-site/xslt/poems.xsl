@@ -1486,13 +1486,26 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
+        <pp:curation status="on" hash="circles-and-labyrinths">
+          <pp:author>
+            <pp:person>Elizabeth Scott-Baumann</pp:person>
+          </pp:author>
+          <pp:title>Circles and Labyrinths</pp:title>
+          <pp:peek>Mary Wroth’s “A Crown of Sonnets Dedicated to Love” is a corona of sonnets, each starting with the last line of the previous poem. As well as being formally circular, it is also about the cyclical, entrapping experience of love, and features a famous image of a labyrinth, used originally by Petrarch.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>circles</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
         <pp:curation status="on" hash="circles-in-alchemy">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
           <pp:title>Circles in Alchemy</pp:title>
           <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>distillation</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="devotional-circles">
           <pp:author>
@@ -1500,7 +1513,13 @@
           </pp:author>
           <pp:title>Devotional Circles</pp:title>
           <pp:peek>George Herbert’s “A Wreath,” Henry Vaughan’s “The World” and Andrew Marvell’s “The Coronet” reveal some of the devotional symbolism of circles for Pulter’s predecessors and peers.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>circles</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>Henry Vaughan</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="donnes-circles">
           <pp:author>
@@ -1508,7 +1527,12 @@
           </pp:author>
           <pp:title>Donne’s Circles</pp:title>
           <pp:peek>John Donne often used images of circles and circularity, for both erotic and devotional poems. In “A Valediction Forbidding Mourning,” the compasses represent the movement of lovers, while in the two sermons excerpted below circles represent the cycle of life.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>circles</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="dust">
           <pp:author>
@@ -1516,7 +1540,16 @@
           </pp:author>
           <pp:title>Dust</pp:title>
           <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made (and will return), from which John Milton drew in _Paradise Lost_, to the alchemical notions of dust as purified matter, yet purity which is easily mistaken for the ashes or dregs of the transformation.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>bible</pp:keyword>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>distillation</pp:keyword>
+            <pp:keyword>dust</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="matter-and-creation">
           <pp:author>
@@ -1526,7 +1559,12 @@
           <pp:peek>
             When Pulter addresses God saying “Of nothing Thou didst me create,” she is endorsing God’s power in the face of major philosophical controversy in the seventeenth century.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>creation</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="sighs-and-tears">
           <pp:author>
@@ -1536,7 +1574,16 @@
           <pp:peek>
             In her opening line, Pulter claims “In sighs and tears there is no end,” and these become clouds and winds. Petrarch’s influential meteorological images of the emotions had already found elegant expression in many English versions and translations
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>ecology</pp:keyword>
+            <pp:keyword>love poetry</pp:keyword>
+            <pp:keyword>Petrarch</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+            <pp:keyword>Robert Southwell</pp:keyword>
+            <pp:keyword>sighs</pp:keyword>
+            <pp:keyword>tears</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1589,7 +1636,20 @@
           </pp:author>
           <pp:title>Desiring Death</pp:title>
           <pp:peek>Many writers in the sixteenth and seventeenth centuries expressed a longing for release from life’s suffering through death as well as a fervent desire to achieve union with God in death. Both men and women articulated this longing.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>birth</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+            <pp:keyword>memorial</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>Richard Crashawe</pp:keyword>
+            <pp:keyword>Robert Southwell</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="this-terrene-globe">
           <pp:author>
@@ -1597,7 +1657,11 @@
           </pp:author>
           <pp:title>This Terrene Globe</pp:title>
           <pp:peek>Pulter’s opposition in Poem 18 between “terrene toys” and “annoys,” on the one hand, and heavenly “eternal joys,” on the other, structures many religious texts advising readers to shift their investments from this world to the next.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>mourning</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1642,7 +1706,14 @@
           <pp:peek>
             In pre-modern and early-modern Europe, bells were ubiquitous and the loudest, most pervasive sound in cities. After the human voice, bells were the most versatile of the instruments available and so were used extensively, both by churches for religious reasons, calling listeners to mass or marking a feast day, and by civic buildings (city halls) for secular reasons, such as timekeeping or alarm signaling.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>ritual</pp:keyword>
+            <pp:keyword>sound</pp:keyword>
+            <pp:keyword>William Perkins</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="personified-death-in-early-modern-art-and-literature">
           <pp:author>
@@ -1652,7 +1723,12 @@
           <pp:peek>
       Early modern Europe experienced an increased preoccupation with death, which appeared frequently in literature and art, including the _Memento Mori_. When personified, Death took many forms, though the image of a skeleton (assumed male through lack of feminine characteristics) and the eroticized Death-as-lover were common treatments.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>Hans Holbein the Younger</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -1747,7 +1823,15 @@
           </pp:author>
           <pp:title>Alchemy and Devotion</pp:title>
           <pp:peek>While alchemy and Christianity might seem to us to be incompatible frameworks of belief, the early modern period saw much writing in the area of spiritual alchemy, in which the physical processes of alchemy became metaphors for the purification of the soul. Pulter’s poetry shows her interest in this amalgamation, while also retaining a clear interest in the distinctive terms, materials, processes and value systems in each set of beliefs.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>knowledge</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="circles-and-labyrinths">
           <pp:author>
@@ -1755,7 +1839,9 @@
           </pp:author>
           <pp:title>Circles and Labyrinths</pp:title>
           <pp:peek>Mary Wroth’s “A Crown of Sonnets Dedicated to Love” is a corona of sonnets, each starting with the last line of the previous poem. As well as being formally circular, it is also about the cyclical, entrapping experience of love, and features a famous image of a labyrinth, used originally by Petrarch.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>circles</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="circles-in-alchemy">
           <pp:author>
@@ -1763,7 +1849,10 @@
           </pp:author>
           <pp:title>Circles in Alchemy</pp:title>
           <pp:peek>Circles featured symbolically in alchemy, for both the processes and the vessels involved.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>distillation</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="devotional-circles">
           <pp:author>
@@ -1771,7 +1860,13 @@
           </pp:author>
           <pp:title>Devotional Circles</pp:title>
           <pp:peek>George Herbert’s “A Wreath,” Henry Vaughan’s “The World” and Andrew Marvell’s “The Coronet” reveal some of the devotional symbolism of circles for Pulter’s predecessors and peers.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>circles</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>Henry Vaughan</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="donnes-circles">
           <pp:author>
@@ -1779,7 +1874,12 @@
           </pp:author>
           <pp:title>Donne’s Circles</pp:title>
           <pp:peek>John Donne often used images of circles and circularity, for both erotic and devotional poems. In “A Valediction Forbidding Mourning,” the compasses represent the movement of lovers, while in the two sermons excerpted below circles represent the cycle of life.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>circles</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>

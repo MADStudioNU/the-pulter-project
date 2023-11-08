@@ -1332,6 +1332,7 @@
         &#connection-author-filters {
           li {
             @include transition(border .2s);
+            font-weight: bold;
           }
         }
 
