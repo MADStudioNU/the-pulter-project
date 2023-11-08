@@ -620,7 +620,7 @@
           <pp:peek>Pulter’s brief description of the phoenix resembles conventional accounts of this mythological creature, including its vibrant gold and purple plumage.</pp:peek>
           <pp:keywords>
             <pp:keyword>Amelia Lanyer</pp:keyword>
-            <pp:keyword>bird</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
             <pp:keyword>Elizabeth I</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>Nicolas Hilliard</pp:keyword>
@@ -1177,7 +1177,7 @@
           <pp:title>Flower People</pp:title>
           <pp:peek>The flowers in “The Garden” defend themselves in terms of their intimate relationship to humans:  their usefulness as medicines, pleasures, and consolations; their key roles in myth and history; their proximity to human bodies.</pp:peek>
           <pp:keywords>
-            <pp:keyword>bible</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
             <pp:keyword>botany</pp:keyword>
             <pp:keyword>burial</pp:keyword>
             <pp:keyword>death</pp:keyword>
@@ -1486,7 +1486,6 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <!-- todo: add a flag indicating that there's another poem(s) this curation is associated with  -->
         <pp:curation extra-poem-refs="21" status="on" hash="circles-and-labyrinths">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
@@ -1543,7 +1542,7 @@
           <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made (and will return), from which John Milton drew in _Paradise Lost_, to the alchemical notions of dust as purified matter, yet purity which is easily mistaken for the ashes or dregs of the transformation.</pp:peek>
           <pp:keywords>
             <pp:keyword>alchemy</pp:keyword>
-            <pp:keyword>bible</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
             <pp:keyword>burial</pp:keyword>
             <pp:keyword>Christianity</pp:keyword>
             <pp:keyword>distillation</pp:keyword>
@@ -5152,7 +5151,7 @@
         <pp:keyword>virtues</pp:keyword>
         <pp:keyword>Christianity</pp:keyword>
         <pp:keyword>parenting</pp:keyword>
-        <pp:keyword>bible</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
@@ -5398,7 +5397,7 @@
           <pp:title>Cooking Up Poisoned Messes—and Antidotes</pp:title>
           <pp:peek>Just as mountebanks were not always easy to distinguish from physicians or orators, so cooking and preparing medicines were interrelated. The young mountebank’s preparation of a “fulsome dish” with a sauce is not that different from other kinds of cooking; in turn, cookbooks might include recipes for antidotes.</pp:peek>
           <pp:keywords>
-            <pp:keyword>animal</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
             <pp:keyword>Claude Levi-Strauss</pp:keyword>
             <pp:keyword>medicine</pp:keyword>
             <pp:keyword>poison</pp:keyword>
@@ -5414,7 +5413,7 @@
           <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
           <pp:keywords>
             <pp:keyword>Aesop</pp:keyword>
-            <pp:keyword>animal</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
             <pp:keyword>ballad</pp:keyword>
             <pp:keyword>Ben Jonson</pp:keyword>
             <pp:keyword>Charles I</pp:keyword>
@@ -5803,7 +5802,7 @@
         <pp:keyword>pride</pp:keyword>
         <pp:keyword>vanity</pp:keyword>
         <pp:keyword>animals</pp:keyword>
-        <pp:keyword>bible</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
@@ -6470,7 +6469,7 @@
       <pp:keywords>
         <pp:keyword>slavery</pp:keyword>
         <pp:keyword>ambition</pp:keyword>
-        <pp:keyword>bible</pp:keyword>
+        <pp:keyword>Bible</pp:keyword>
         <pp:keyword>history</pp:keyword>
       </pp:keywords>
       <pp:tags>
@@ -6653,7 +6652,14 @@
           </pp:author>
           <pp:title>Swine and Ermine</pp:title>
           <pp:peek>Like many other non-human animals, the swine and the ermine became subject from classical times onward to a range of moral and didactic appropriations in both literary and visual media.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Elizabeth I</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>Henry Peacham</pp:keyword>
+            <pp:keyword>Leonardo da Vinci</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -6770,7 +6776,10 @@
           </pp:author>
           <pp:title>Elephant and Dragon</pp:title>
           <pp:peek>“So the sly dragon,” Pulter writes, can kill a mighty elephant, dying in the process. How might Pulter have come to think this?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="samson">
           <pp:author>
@@ -6778,15 +6787,26 @@
           </pp:author>
           <pp:title>Samson</pp:title>
           <pp:peek>“Death doth make all enmity to cease” in the examples offered here, by uniting opponents in the shared experience of death.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>suicide</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whats-a-catablepe">
           <pp:author>
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
-          <pp:title>What’s a catablepe?</pp:title>
+          <pp:title>What’s a Catablepe?</pp:title>
           <pp:peek>This poem begins with a gesture toward “this catablepe,” with its poisonous sight and strange antipathy to the tiny weasel. But what is a catablepe and how would Pulter or her readers know about this beast?</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>Robert Fludd</pp:keyword>
+            <pp:keyword>Walter Charleton</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -6997,7 +7017,12 @@
           </pp:author>
           <pp:title>Doctor Fox and the Medieval Beast Fable</pp:title>
           <pp:peek>The fox as physician has a long history in ancient and medieval fables. The fourteenth-century manuscript known as the Smithfield Decretals contains extensive decoration in its borders, including scenes from animal fables</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>fable</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="lions-eating-apes">
           <pp:author>
@@ -7005,7 +7030,12 @@
           </pp:author>
           <pp:title>Lions Eating Apes as a Cure for Illness</pp:title>
           <pp:peek>At least two natural histories of the period, Edward Topsell’s _The historie of foure-footed beastes_ (1607) and Philemon Holland’s translation of Pliny’s _The historie of the world_ (1601, 1634, and 1635), discuss the medicinal use of apes for lions.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="machiavellis-lion-and-fox">
           <pp:author>
@@ -7013,7 +7043,12 @@
           </pp:author>
           <pp:title>Machiavelli’s Lion and Fox</pp:title>
           <pp:peek>Pulter’s construction of a scenario in which a lion king orders the killing of troublesome courtiers at the urging of a crafty fox may recall Niccolò Machiavelli’s famous advice that a ruler should be both a lion and a fox.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>Nicolo Machiavelli</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="machiavellis-prince">
           <pp:author>
@@ -7021,7 +7056,10 @@
           </pp:author>
           <pp:title>Machiavelli’s Prince: Better to be Loved or Feared?</pp:title>
           <pp:peek>When Pulter notes of the lion in line 2 that he “of his Subjects was not lov’d but fear’d” she seems to be evoking Niccolò Machiavelli’s chapter “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” from his political treatise _The Prince_.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>Nicolo Machiavelli</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -7048,7 +7086,14 @@
         </pp:author>
         <pp:title>Cetacean Relations</pp:title>
         <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Aristotle</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>offspring</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -7126,7 +7171,22 @@
           </pp:author>
           <pp:title>Domestic Resurrections and Everyday Miracles</pp:title>
           <pp:peek>While palingenesis may have been an experimental process many held in doubt, even as they studied it with fascination, many other forms of resurrection and preservation were part of daily life, regularly attempted in gardens and kitchens and recommended or contested in print and manuscript texts.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>execution</pp:keyword>
+            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>Hannah Woolley</pp:keyword>
+            <pp:keyword>John Parkinson</pp:keyword>
+            <pp:keyword>Kenelm Digby</pp:keyword>
+            <pp:keyword>lants</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+            <pp:keyword>recipe</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>Thomas Tryon</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="palingenesis">
           <pp:author>
@@ -7134,7 +7194,14 @@
           </pp:author>
           <pp:title>Palingenesis</pp:title>
           <pp:peek>These materials open up contexts for understanding the alchemical process of palingenesis, which Pulter analogizes to the resurrection of the body within Christian theology.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>knowledge</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>Thomas Browne</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="posies-the-flower-writing-connection">
           <pp:author>
@@ -7142,7 +7209,23 @@
           </pp:author>
           <pp:title>Posies: The Flower/Writing Connection</pp:title>
           <pp:peek>These texts help to contextualize Pulter’s decision to think about human bodily and spiritual life by means of plants, both in this poem and in others.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>dust</pp:keyword>
+            <pp:keyword>Edmund Spenser</pp:keyword>
+            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>George Gascoigne</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>George Puttenham</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="resurrections-of-the-body">
           <pp:author>
@@ -7150,7 +7233,11 @@
           </pp:author>
           <pp:title>Resurrections of the Body</pp:title>
           <pp:peek>These materials present resurrections in other registers:  from Ovid’s story of the re-assembly of Hippolytus as Virbius, to which Pulter alludes, to the various domestic resurrections promoted and debated in the period in the realms of gardening, cooking, and medicine, to a ballad about a bizarre act of Royalist political theatre in 1661.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>Simon Goulart</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -7228,23 +7315,41 @@
           </pp:author>
           <pp:title>Did hunters really ride whales like horses?</pp:title>
           <pp:peek>Probably not. In “This Huge Leviathan” (Emblem 42) Pulter frequently uses the terminology of horseback riding to describe the Indigenous hunter’s conquest of the whale, likely inspired by the account of explorer José de Acosta, included in the Curation “Whaling Legends.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>hunting</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>Native Americans</pp:keyword>
+            <pp:keyword>Theodor de Bry</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-leviathan-and-the-bible">
           <pp:author>
             <pp:person>Anna Lewis</pp:person>
           </pp:author>
           <pp:title>The Leviathan and the Bible</pp:title>
+          <pp:sortingTitle>Leviathan and the Bible, The</pp:sortingTitle>
           <pp:peek>Biblical depictions of the leviathan generally fall into one of two strains: terrifying monster linked to the Devil, or magnificent creation of God, evidence of his greatness and power.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>creation</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-miracle-of-the-swine">
           <pp:author>
             <pp:person>Anna Lewis</pp:person>
           </pp:author>
           <pp:title>The Miracle of the Swine</pp:title>
+          <pp:sortingTitle>Miracle of the Swine, The</pp:sortingTitle>
           <pp:peek>Among the miracles performed by Christ is the Miracle of the Swine, alluded to in lines 27-28 of “This Huge Leviathan” (Emblem 42). He exorcises a group of demons (who call themselves “Legion”) from a man by transferring them into a herd of pigs.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="taming-the-north-american-indian">
           <pp:author>
@@ -7252,7 +7357,13 @@
           </pp:author>
           <pp:title>Taming the North American “Indian”</pp:title>
           <pp:peek>Just as the hunter masters the whale in “This Huge Leviathan” (Emblem 42), the Spanish attempted to master the Indigenous peoples of Florida, where the story of this whale hunt originates</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>colonialism</pp:keyword>
+            <pp:keyword>hunting</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>Native Americans</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whales-working-in-mills">
           <pp:author>
@@ -7260,7 +7371,11 @@
           </pp:author>
           <pp:title>Whales Working in Mills</pp:title>
           <pp:peek>One of the more puzzling images in “This Huge Leviathan” (Emblem 42) is that of whales being put to work in mills: “[S]o against their wills, / Four thousand whales are forced to draw in mills.” (17–18). Pulter seems to be imagining whales turning the wheels of hydraulic mills, grinding grain into flour.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>labor</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whaling-legends">
           <pp:author>
@@ -7268,7 +7383,14 @@
           </pp:author>
           <pp:title>Whaling Legends</pp:title>
           <pp:peek>Many incarnations of a strange tale of a whale hunt seem to have originated from a Spanish explorer in the late sixteenth century; Pulter’s “This Huge Leviathan” (Emblem 42) is one of them.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>colonialism</pp:keyword>
+            <pp:keyword>hunt</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>Native Americans</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -7852,7 +7974,7 @@
       <pp:title>Hester Pulter in 15 Fifteens</pp:title>
       <pp:keywords>
         <pp:keyword>Andrea Alciato</pp:keyword>
-        <pp:keyword>animal</pp:keyword>
+        <pp:keyword>animals</pp:keyword>
         <pp:keyword>Bible</pp:keyword>
         <pp:keyword>Broadfield</pp:keyword>
         <pp:keyword>Charles I</pp:keyword>
