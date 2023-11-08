@@ -6136,7 +6136,11 @@
           </pp:author>
           <pp:title>Puppets, Masques, and Buffoons</pp:title>
           <pp:peek>When Pulter seeks examples of spectacle, she settles on three: puppet plays, masques, and buffoons. Puppet plays were performed publicly throughout the seventeenth century in London, even when the theaters were closed in the 1640s and 1650s.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>entertainment</pp:keyword>
+            <pp:keyword>masque</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="raccoon-or-beaver">
           <pp:author>
@@ -6144,7 +6148,12 @@
           </pp:author>
           <pp:title>Raccoon or Beaver?</pp:title>
           <pp:peek>Pulter probably never saw a live raccoon or beaver. Raccoons are native to North America, and by Pulter’s time, beavers had been hunted to extinction in England. Pulter must have learned about such animals from books.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>William Wood</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="timon-of-athens">
           <pp:author>
@@ -6152,7 +6161,9 @@
           </pp:author>
           <pp:title>Timon of Athens</pp:title>
           <pp:peek>Plutarch wrote of an Athenian named Timon who eschewed humanity. His brief discussion of Timon appears in a section titled “The Life of Marcus Antonius,” presented here in the sixteenth-century English translation by Thomas North.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Plutarch</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -6201,7 +6212,14 @@
           </pp:author>
           <pp:title>Dissolved to Tears</pp:title>
           <pp:peek>Pulter calls the dying hart “quite dissolved,” and the emblem’s speaker imagines herself dissolving “to tears.” The words “dissolve” and “dissolution” appear frequently in Pulter’s poetry.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Henry Vaughan</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+            <pp:keyword>tears</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="hunted-deer-in-poetry">
           <pp:author>
@@ -6209,7 +6227,17 @@
           </pp:author>
           <pp:title>Hunted Deer in Poetry</pp:title>
           <pp:peek>Hunted deer appear in many earlier poems, especially by poets who imitated the fourteenth-century Italian poet Petrarch. A hunter pursuing a female deer is a prominent trope in Petrarchan literature, and one of the most famous examples is Thomas Wyatt’s “Whoso List to Hunt.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>Francis Quarles</pp:keyword>
+            <pp:keyword>George Wither</pp:keyword>
+            <pp:keyword>hunting</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>Thomas Wyatt</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="seeking-dittany">
           <pp:author>
@@ -6217,7 +6245,14 @@
           </pp:author>
           <pp:title>Seeking Dittany</pp:title>
           <pp:peek>Dittany is an aromatic shrub with tiny pink flowers, native to Greece, that has long been thought to have medicinal properties. It is described as a healing herb in texts written as long ago as ancient Rome and as recently as J. K. Rowling’s Harry Potter series.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="suspire">
           <pp:author>
@@ -6225,7 +6260,10 @@
           </pp:author>
           <pp:title>Suspire</pp:title>
           <pp:peek>A key term in this poem is “suspire,” meaning to sigh or breathe out. Pulter uses the word only a few times in her poetry, but it is part of a matrix of related words that Pulter frequently employs connected to sighs and breathing.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>sighs</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
