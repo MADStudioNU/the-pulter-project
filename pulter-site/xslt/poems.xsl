@@ -4467,7 +4467,7 @@
           </pp:peek>
           <pp:keywords>
             <pp:keyword>blazon</pp:keyword>
-            <pp:keyword>John Wilmot</pp:keyword>
+            <pp:keyword>John Wilmot (Rochester)</pp:keyword>
             <pp:keyword>love poetry</pp:keyword>
             <pp:keyword>Philip Sidney</pp:keyword>
           </pp:keywords>
@@ -4888,7 +4888,15 @@
           </pp:author>
           <pp:title>Dear Death</pp:title>
           <pp:peek>Pulter’s striking opening address to “Dear Death” (used also in her poem “The Welcome”) may draw on some of John Donne’s Holy Sonnets, with the erotic (and violent) embrace of God in “Batter my heart” and the embrace of death in “Death, be not proud.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Henry</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>Vaughan</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="dust">
           <pp:author>
@@ -4896,7 +4904,15 @@
           </pp:author>
           <pp:title>Dust</pp:title>
           <pp:peek>In many of her poems, Pulter is fascinated with the idea and symbolism of dust, from its Biblical connotations as the earth from which Adam was made</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>alchemy</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>burial</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>dust</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="knowledge-faith-and-doubt">
           <pp:author>
@@ -4904,15 +4920,25 @@
           </pp:author>
           <pp:title>Knowledge, Faith and Doubt</pp:title>
           <pp:peek>“The Hope” is a poem about the balance between faith and doubt and the role of knowledge in the interplay of these. The phrase which closes the poem, “I know not how,” might express doubt, or faith, in the absence of knowledge.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>knowledge</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-little-luz">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
           <pp:title>The “Little Luz”</pp:title>
+          <pp:sortingTitle>Little Luz, The</pp:sortingTitle>
           <pp:peek>The “little luz” of Pulter’s poem is one of her most fascinating and recondite references. Nicholas Culpeper’s translation of Jean Riolan’s book on medicine and anatomy outlines the theory of the luz as indestructible bone (from which the body will be reborn at the Day of Judgment) while also expressing scepticism towards this Cabbalist belief.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>anatomy</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="manuscript-ambiguities">
           <pp:author>
@@ -4920,7 +4946,10 @@
           </pp:author>
           <pp:title>Manuscript Ambiguities</pp:title>
           <pp:peek>Pulter’s manuscript went through waves of correction and revision, and there is evidence to suggest that Pulter herself revised the manuscript after it had been copied out by another hand.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="punctuating-poetry">
           <pp:author>
@@ -4928,7 +4957,12 @@
           </pp:author>
           <pp:title>Punctuating Poetry</pp:title>
           <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christopher Marlowe</pp:keyword>
+            <pp:keyword>editing</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="wishing-for-the-end">
           <pp:author>
@@ -4936,7 +4970,15 @@
           </pp:author>
           <pp:title>Wishing for the End</pp:title>
           <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Abraham Cowley</pp:keyword>
+            <pp:keyword>atoms</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>dust</pp:keyword>
+            <pp:keyword>John Wilmot (Rochester)</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4986,7 +5028,13 @@
           </pp:author>
           <pp:title>Breath and Song</pp:title>
           <pp:peek>The image of breath is key to the poem, the soul on earth “breathing forth” her spiritual songs until death. The penultimate stanza, with its denial of death, may owe something to the opening stanza of John Donne’s “A Valediction Forbidding Mourning.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>breath</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="devotional-lyrics">
           <pp:author>
@@ -4994,7 +5042,13 @@
           </pp:author>
           <pp:title>Devotional Lyrics</pp:title>
           <pp:peek>“Made When My Spirits Were Sunk Very Low” is one of many devotional lyrics in Pulter’s manuscript, of the kind written in physical and or spiritual “sickness and sorrow,” as the title to this poem describes.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>Elizabeth Melville</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="george-herbert">
           <pp:author>
@@ -5002,7 +5056,12 @@
           </pp:author>
           <pp:title>George Herbert</pp:title>
           <pp:peek>George Herbert’s volume of devotional lyrics, _The Temple_ (1633), is the most obvious model for Pulter’s devotional lyrics, both this one and those listed as comparisons in another Curation for this poem, “Devotional Lyrics.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pilgrimage">
           <pp:author>
@@ -5010,7 +5069,14 @@
           </pp:author>
           <pp:title>Pilgrimage</pp:title>
           <pp:peek>Life on earth is described as “my few and evil days” in “Made when my Spirits were Sunk Very Low” (Poem 66), echoing Genesis 47:9, in which life is described as a pilgrimage.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>Elizabeth Melville</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>Julia Palmer</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="wings">
           <pp:author>
@@ -5018,7 +5084,16 @@
           </pp:author>
           <pp:title>Wings</pp:title>
           <pp:peek>A common devotional trope evoked in Pulter’s poem is that of wings by which the soul will ascend towards the divine. Pulter uses the image in that way in “Must I Thus Ever Interdicted Be” (Poem 55).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>Elizabeth Melville</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>praise</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5101,7 +5176,12 @@
             <pp:person>Millie Godfery</pp:person> and <pp:person>Sarah C. E. Ross</pp:person></pp:author>
           <pp:title>Blessed Steps</pp:title>
           <pp:peek>Pulter invites her children, in her second emblem, to follow her ascension of what she calls “blessed steps,” which she identifies with a sequence of virtuous abstractions starting (appropriately, at the bottom) with “Humility” and ending with “Charity.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>children</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
