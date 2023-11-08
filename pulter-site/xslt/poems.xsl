@@ -5258,16 +5258,27 @@
             <pp:person>Millie Godfery</pp:person>
           </pp:author>
           <pp:title>The City Cockneys</pp:title>
+          <pp:sortingTitle>City Cockneys, The</pp:sortingTitle>
           <pp:peek>Pulter’s emblem works to demonstrate the restless and emotive public opinion surrounding the events of the Civil War, and particularly the execution itself.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>execution</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="fickle-fortune">
           <pp:author>
             <pp:person>Millie Godfery</pp:person>
           </pp:author>
           <pp:title>“Fickle” Fortune</pp:title>
+          <pp:sortingTitle>Fickle Fortune</pp:sortingTitle>
           <pp:peek>George Wither’s “A Collection of Emblemes” (1635) includes the following emblem, on a similar theme to Pulter’s “Virtue’s Duel” (Emblem 4). Wither presents the “fickleness” of Fortune, who is the “foe” to Virtue; in contrast, those who embody Virtue gain “wings” to heaven.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>George Wither</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5318,7 +5329,11 @@
           </pp:author>
           <pp:title>Birds Without Feet?</pp:title>
           <pp:peek>In this poem, Pulter develops a spiritual meditation based upon an emblematic interpretation of an animal that she had certainly never seen. The manucodiat, now known as a bird-of-paradise, is a tropical bird that first became known to European explorers and naturalists during the sixteenth century.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>Du Bartas</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5365,7 +5380,16 @@
           </pp:author>
           <pp:title>Aconite</pp:title>
           <pp:peek>Aconite has a rich history; accounts of its origin and powers range from myth, to natural history, to chemistry, to Harry Potter.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Ambrose Pare</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>poison</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="cooking-up-poisoned-messes-and-antidotes">
           <pp:author>
@@ -5373,7 +5397,14 @@
           </pp:author>
           <pp:title>Cooking Up Poisoned Messes—and Antidotes</pp:title>
           <pp:peek>Just as mountebanks were not always easy to distinguish from physicians or orators, so cooking and preparing medicines were interrelated. The young mountebank’s preparation of a “fulsome dish” with a sauce is not that different from other kinds of cooking; in turn, cookbooks might include recipes for antidotes.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animal</pp:keyword>
+            <pp:keyword>Claude Levi-Strauss</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+            <pp:keyword>poison</pp:keyword>
+            <pp:keyword>recipes</pp:keyword>
+            <pp:keyword>witchcraft</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-is-a-mountebank">
           <pp:author>
@@ -5381,7 +5412,19 @@
           </pp:author>
           <pp:title>What Is a Mountebank?</pp:title>
           <pp:peek>While mountebanks are usually defined as crooks and imposters who trade in false promises and claim knowledge they don’t have, in the seventeenth century it was not always easy to distinguish them from other medical practitioners or from other entertainers and orators.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Aesop</pp:keyword>
+            <pp:keyword>animal</pp:keyword>
+            <pp:keyword>ballad</pp:keyword>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>Edward Coke</pp:keyword>
+            <pp:keyword>entertainment</pp:keyword>
+            <pp:keyword>fable</pp:keyword>
+            <pp:keyword>John Wilmot (Rochester)</pp:keyword>
+            <pp:keyword>Thomas Coryat</pp:keyword>
+            <pp:keyword>witchcraft</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="youth-and-age">
           <pp:author>
@@ -5389,7 +5432,10 @@
           </pp:author>
           <pp:title>Youth and Age</pp:title>
           <pp:peek>The contest between the two mountebanks is, among other things, a contest between old and young, building toward the assertion that the old are “betters.” Other comparisons of youth and old age can be satirical or didactic; they might defy age or attempt to defend it.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>age</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
