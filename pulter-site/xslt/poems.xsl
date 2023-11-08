@@ -4639,7 +4639,12 @@
           </pp:author>
           <pp:title>Emblems of Phaeton and Icarus</pp:title>
           <pp:peek>This poem was inspired by the genre of the emblem. The emblem used images and adages to teach readers to read allegorically by finding the abstract concept (usually a virtue or vice) personified in the poem, and analogically, in its encouragement to apply the moral to their own situation.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrea Alciati</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="attitudes-to-essex">
           <pp:author>
@@ -4647,7 +4652,13 @@
           </pp:author>
           <pp:title>Attitudes to Essex</pp:title>
           <pp:peek>The battle over how Essex’s complex and divisive actions should be interpreted and what his posthumous reputation should be captures in microcosm the divisions of the civil war. Poetry was a much-resorted-to weapon in this battle of reputation and interpretation and the same person could easily be the object of vicious satires from one side and soaring panegyrics from the other.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Anne Bradstreet</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4707,7 +4718,13 @@
           </pp:author>
           <pp:title>Margaret Cavendish’s dancing atoms</pp:title>
           <pp:peek>In lines 13-14 the speaker refers to a time after her death when she will be dispersed into atoms, even though she currently does not understand their movements or “dances.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>atoms</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="margaret-cavendish-female-figures">
           <pp:author>
@@ -4715,7 +4732,12 @@
           </pp:author>
           <pp:title>Margaret Cavendish’s female figures</pp:title>
           <pp:peek>In line 17, the speaker mentions what will happen to her body after her death. Ultimately every particle of dust will be safe because of God’s justice, even though it might be tossed in a thousand figures or shapes.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>atoms</pp:keyword>
+            <pp:keyword>body dust</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4761,33 +4783,47 @@
           <pp:author>
             <pp:person>Elizabeth Sauer</pp:person>
           </pp:author>
-          <pp:title>Pulter reads Bradstreet’s <seg rend="it">Tenth Muse</seg></pp:title>
+          <pp:title>Pulter Reads Bradstreet’s <seg rend="it">Tenth Muse</seg></pp:title>
           <pp:peek>Pulter’s library probably included a copy of Anne Bradstreet’s “Tenth Muse” (1650). The title page of the volume singles out Bradstreet’s poem entitled “A Dialogue between Old England and New.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>Anne Bradstreet</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-reads-eikon-basilike">
           <pp:author>
             <pp:person>Elizabeth Sauer</pp:person>
           </pp:author>
-          <pp:title>Pulter reads <seg rend="it">Eikon Basilike</seg></pp:title>
+          <pp:title>Pulter Reads <seg rend="it">Eikon Basilike</seg></pp:title>
           <pp:peek>A copy of “Eikon Basilike” (Eikōn basilikē) would have found its way into Pulter’s book collection. She was acquainted with the printer of the King’s book, William Dugard.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-reads-geffrey-whitneys-a-choice-of-emblemes">
           <pp:author>
             <pp:person>Elizabeth Sauer</pp:person>
           </pp:author>
-          <pp:title>Pulter reads Geffrey Whitney’s <seg rend="it">A Choice of Emblemes</seg></pp:title>
+          <pp:title>Pulter Reads Geffrey Whitney’s <seg rend="it">A Choice of Emblemes</seg></pp:title>
           <pp:peek>Evidence from throughout her poetry manuscript makes a very strong case for Pulter’s ownership of a copy of Geffrey Whitney’s “A Choice of Emblemes,” and Other Devises (Leiden, 1586), which surely was among the inspirations for her emblem series (of 53 poems).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>Geoffrey Whitney</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-reads-george-sandyss-paraphrase-upon-job">
           <pp:author>
             <pp:person>Elizabeth Sauer</pp:person>
           </pp:author>
-          <pp:title>Pulter reads George Sandys’s <seg rend="it">Paraphrase Upon Job</seg></pp:title>
+          <pp:title>Pulter Reads George Sandys’s <seg rend="it">Paraphrase Upon Job</seg></pp:title>
           <pp:peek>Pulter likely owned a copy of George Sandys’s “A Paraphrase Upon the Divine Poems,” which features, as its first main biblical book, the Book of Job.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>George Sandys</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
