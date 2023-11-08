@@ -1486,7 +1486,8 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="circles-and-labyrinths">
+        <!-- todo: add a flag indicating that there's another poem(s) this curation is associated with  -->
+        <pp:curation extra-poem-refs="21" status="on" hash="circles-and-labyrinths">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1496,7 +1497,7 @@
             <pp:keyword>circles</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="circles-in-alchemy">
+        <pp:curation extra-poem-refs="21" status="on" hash="circles-in-alchemy">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1507,7 +1508,7 @@
             <pp:keyword>distillation</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="devotional-circles">
+        <pp:curation extra-poem-refs="21" status="on" hash="devotional-circles">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1521,7 +1522,7 @@
             <pp:keyword>Henry Vaughan</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="donnes-circles">
+        <pp:curation extra-poem-refs="21" status="on" hash="donnes-circles">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1833,7 +1834,7 @@
             <pp:keyword>matter</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="circles-and-labyrinths">
+        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="circles-and-labyrinths">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1843,7 +1844,7 @@
             <pp:keyword>circles</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="circles-in-alchemy">
+        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="circles-in-alchemy">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1854,7 +1855,7 @@
             <pp:keyword>distillation</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="devotional-circles">
+        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="devotional-circles">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1868,7 +1869,7 @@
             <pp:keyword>Henry Vaughan</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="donnes-circles">
+        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="donnes-circles">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -2109,7 +2110,13 @@
           </pp:author>
           <pp:title>Images of Aurora, Goddess of the Dawn</pp:title>
           <pp:peek>In this poem Pulter depicts the goddess Aurora sporting long curling golden hair adorned with jewels and flowers, possessing blushing cheeks and clear eyes, exposing a breast, and wearing purple robes fringed with gold.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>fashion</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>object</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2342,28 +2349,43 @@
             <pp:person>Helen Smith</pp:person>
           </pp:author>
           <pp:title>The Good Death</pp:title>
+          <pp:sortingTitle>Good Death, The</pp:sortingTitle>
           <pp:peek>
             John Donne’s “Hymn to God, My God, in my Sickness” meditates upon the speaker’s illness, and imagines the microcosm of his body as a map of the newly-expanded world. In contemplating his own death, Donne’s speaker finds solace in the promise of Christ’s resurrection, a figure for the sinner’s own restoration under God at the final judgement.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>map</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-light-of-god">
           <pp:author>
             <pp:person>Helen Smith</pp:person>
           </pp:author>
           <pp:title>The Light of God</pp:title>
+          <pp:sortingTitle>Light of God, The</pp:sortingTitle>
           <pp:peek>Augustine of Hippo’s “A Heavenly Treasure of Confortable Meditations” is a Catholic devotional text, published on the continent for illicit dissemination to English readers. The selected passage comes from Batt’s (a Jesuit priest) translation of Augustine’s Soliloquies, a text in which the Church Father enters into dialogue with his soul, in an attempt to understand it. The biblical references are to the apocryphal Book of Tobias, and to Genesis.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Augustine</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="memento-mori">
           <pp:author>
             <pp:person>Helen Smith</pp:person>
           </pp:author>
-          <pp:title>Memento mori</pp:title>
+          <pp:title>Memento Mori</pp:title>
           <pp:peek>
             Numerous images and objects functioned as memento mori (reminders of death), asking those who wore and looked at them to pause in the middle of their busy lives and prepare for their inevitable ends. The two elaborate examples below speak to the irony at the heart of this tradition: objects that were supposed to turn the viewer’s thoughts away from worldly things were frequently richly jewelled, delicately crafted, and expensive.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>object</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="a-tedious-pilgrimage">
           <pp:author>
@@ -2371,7 +2393,9 @@
           </pp:author>
           <pp:title>A Tedious Pilgrimage</pp:title>
           <pp:peek>“The sinners glasse,“ an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,“ and lists in painful detail all the infelicities of mortality.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -2508,7 +2532,10 @@
           </pp:author>
           <pp:title>An Assize Sermon</pp:title>
           <pp:peek>Pulter describes judgment day as “the blessed assize.” Assizes were criminal trials that were held twice a year before local juries; a judge visiting from London presided.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>judicial system</pp:keyword>
+            <pp:keyword>sermon</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="aurora-and-phoebe">
           <pp:author>
@@ -2516,7 +2543,13 @@
           </pp:author>
           <pp:title>Aurora and Phoebe</pp:title>
           <pp:peek>Pulter often personifies the planets and astronomical events (dusk, dawn). This is a convention in Latin and Renaissance English poetry.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Amelia Lanyer</pp:keyword>
+            <pp:keyword>Christopher Marlowe</pp:keyword>
+            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="flies-do-what-theyre-made-for">
           <pp:author>
@@ -2524,7 +2557,12 @@
           </pp:author>
           <pp:title>Flies Do What They’re Made For</pp:title>
           <pp:peek>But what is that? In “To Aurora [3]” (Poem 34), the speaker compares him- or herself unfavorably to insects: “In doing what they’re made for, every fly” fulfills God’s will, yet, in contrast, “Woe’s me: so do not I.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>Thomas Moffett</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="moiling-in-the-earth">
           <pp:author>
@@ -2532,7 +2570,12 @@
           </pp:author>
           <pp:title>Moiling in the Earth</pp:title>
           <pp:peek>“Moiling in the earth,” as Pulter calls it in this poem, is the essence of human life, even if it is a distraction.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>dust</pp:keyword>
+            <pp:keyword>ecology</pp:keyword>
+            <pp:keyword>Hutchinson</pp:keyword>
+            <pp:keyword>labor</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="more-ruminations-on-death-and-resurrection">
           <pp:author>
@@ -2540,7 +2583,14 @@
           </pp:author>
           <pp:title>More Ruminations on Death and Resurrection</pp:title>
           <pp:peek>Pulter’s speakers often remind themselves and readers that death is both inevitable and a fervently desired transition.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -2675,7 +2725,7 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>Pismires</pp:title>
-          <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffatt’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>
+          <pp:peek>We move here from the earliest texts assigning moral meaning to the pismire (Aesop and Proverbs), to commentaries and sermons (Burton), to natural history (Topsell and Moffett’s detailed descriptions of the pismire), to Walter Blith’s agricultural advice, to Bunyan’s improving rhymes for children, another emblem (Comenius), Margaret Cavendish’s moralizing accounts of ants in prose and verse, and a heraldic rationale for a pismire escutcheon or crest. Across centuries and very different genres, descriptions of the pismire depict it as a model for human conduct.</pp:peek>
           <pp:keywords></pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="what-is-a-dunghill">
