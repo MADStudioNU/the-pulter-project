@@ -4000,8 +4000,16 @@
             <pp:person>Lara Dodds</pp:person>
           </pp:author>
           <pp:title>“Stars (nay suns)”: Cosmic Pluralism and Early Modern Poetry</pp:title>
+          <pp:sortingTitle>Stars (nay suns): Cosmic Pluralism and Early Modern Poetry</pp:sortingTitle>
           <pp:peek>Cosmic pluralism, or the plurality of worlds, is the philosophical belief that there are numerous planets, potentially inhabited, orbiting around numerous stars (or suns). While the scientific confirmation of the existence of extra-solar planets occurred only in the twentieth century, the astronomical discoveries of the early modern period revived interest in this ancient theory.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>John Wilkins</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4043,8 +4051,20 @@
             <pp:person>Elisa Tersigni</pp:person>
           </pp:author>
           <pp:title>The Crown Imperial in the Early Modern English Imagination</pp:title>
+          <pp:sortingTitle>Crown Imperial in the Early Modern English Imagination</pp:sortingTitle>
           <pp:peek>Although not endemic, the “Corona imperialis” (crown imperial) was a known and popular plant in seventeenth-century England. It is not clear precisely when the flower was introduced to Europe, but it was likely in the latter half of the sixteenth century, perhaps through Emperor Maximilian II or his son Rudolf II and their botanists, Rembert Dodoens (Dodoneus) and Charles de l’Ecluse (Clusius).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>George Chapman</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Gerard</pp:keyword>
+            <pp:keyword>John Parkinson</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="tears-and-ink">
           <pp:author>
@@ -4052,7 +4072,15 @@
           </pp:author>
           <pp:title>Tears and Ink</pp:title>
           <pp:peek>The tears-as-ink metaphor enacts crying, weeping, and sobbing, all of which had complicated and sometimes contradictory meanings. Early-modern poets played with the humoral relationship between ink and bodily fluids, including blood, sweat, and tears.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>grief</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>love poetry</pp:keyword>
+            <pp:keyword>material text</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+            <pp:keyword>tears</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4112,7 +4140,10 @@
           </pp:author>
           <pp:title>Complaint Poetry</pp:title>
           <pp:peek>“A Solitary Complaint” opens with a question about earthly pain that it never answers directly. Instead, it concludes by looking to God. Other poets in the period used complaint poetry to lament unrelenting sorrow or to pivot from earthly concerns to the promise of heavenly reward. The following three examples parallel aspects of Pulter’s poem.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>Mary Wroth</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="early-modern-astronomy">
           <pp:author>
@@ -4120,15 +4151,25 @@
           </pp:author>
           <pp:title>Early Modern Astronomy</pp:title>
           <pp:peek>Scientific thinkers in the sixteenth and seventeenth centuries debated the planets’ position in our universe. Two competing models were the Ptolemaic or geocentric (the idea that the Earth was the center of the universe) and the Copernican or heliocentric (which imagined the sun at the center).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-planets-in-poetry">
           <pp:author>
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Planets in Poetry</pp:title>
+          <pp:sortingTitle>Planets in Poetry, The</pp:sortingTitle>
           <pp:peek>In response to new scientific ideas, several seventeenth-century poets wrote about the planets and the Earth’s position in the universe. Compare Pulter’s conception of the universe (and God’s role in creating it) to those by John Donne, Henry More, and Margaret Cavendish below.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>Henry More</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4304,8 +4345,15 @@
             <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>“Creatures venomous, and offensive to man”</pp:title>
+          <pp:sortingTitle>Creatures venomous, and offensive to man</pp:sortingTitle>
           <pp:peek>The basilisk, dipsas, and amphisbaena all figure in Josuah Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148-149 of his translation _Du Bartas his deuine weekes and workes_ of 1611).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>poison</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="good-and-bad-animal-parents">
           <pp:author>
@@ -4313,7 +4361,16 @@
           </pp:author>
           <pp:title>Good and Bad Animal Parents</pp:title>
           <pp:peek>Pulter was evidently interested in natural historians’ depictions of parents in the animal world. According to Simon Goulart, the male bird of paradise (or manucode) had a hollow back in which the female bird placed her eggs.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>offspring</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>reproduction</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="speculations-about-multiple-worlds">
           <pp:author>
@@ -4321,7 +4378,11 @@
           </pp:author>
           <pp:title>Speculations about Multiple Worlds</pp:title>
           <pp:peek>Pulter writes of being dispersed into atoms upon her death in her six-line coda to “Why Must I Thus Forever Be Confined” (Poem 57). These atoms would surround the universe, be buffeted by other atoms, and then reform to constitute another world.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>atoms</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="versifying-captivity">
           <pp:author>
@@ -4329,7 +4390,14 @@
           </pp:author>
           <pp:title>Versifying Captivity</pp:title>
           <pp:peek>Many poets of the early modern period contemplated captivity. In the poems below, a female poet writes on friendship and captivity, and a male poet on love and captivity.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>female bonds</pp:keyword>
+            <pp:keyword>freedom</pp:keyword>
+            <pp:keyword>isolation</pp:keyword>
+            <pp:keyword>Katherine Philips</pp:keyword>
+            <pp:keyword>Richard Lovelace</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4360,7 +4428,11 @@
           </pp:author>
           <pp:title>Amphitrite and the Dolphin</pp:title>
           <pp:peek>In various accounts of Neptune’s marriage to Amphitrite, a dolphin plays a crucial role: it might seize and transport her against her will, but it might also persuade her to marry—playing the role of the “wing man” or go-between Pulter’s speaker takes up in “My Love Is Fair.”</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Thomas Heywood</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="dolphins-as-friend-to-man-or-philanthropos">
           <pp:author>
@@ -4368,7 +4440,11 @@
           </pp:author>
           <pp:title>Dolphins as Friends to Man or “Philanthropos”</pp:title>
           <pp:peek>Pulter’s reference to the dolphin as “philanthropos” participates in a long tradition of depicting the dolphin, in visual art, natural history, mythology, and literature, as particularly devoted to humans, especially young men, carrying, rescuing, and assisting them.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Plutarch</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="flora">
           <pp:author>
@@ -4376,7 +4452,10 @@
           </pp:author>
           <pp:title>Flora</pp:title>
           <pp:peek>This frontispiece, and a poem explaining it (“the mind of the front”), provides a vivid image of one of Pulter’s favorite figures, Flora, the Roman goddess of flowers and spring.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="triangulation-and-the-second-person">
           <pp:author>
@@ -4386,7 +4465,12 @@
           <pp:peek>
             Nancy Vickers argues that in some blazons, such as Shakespeare’s anti-blazon “My mistress’s eyes are nothing like the sun,” the speaker “by introducing the concept of merchandising into the economy of description, … transforms the direct line one would expect to unite lover and beloved into a triangle.
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>blazon</pp:keyword>
+            <pp:keyword>John Wilmot</pp:keyword>
+            <pp:keyword>love poetry</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="whos-fair-race-and-praise-of-the-beloved">
           <pp:author>
@@ -4396,7 +4480,14 @@
           <pp:peek>
             These two poems draw our attention to the racialized implications of Pulter’s key word in Poem 59: “fair.” In the “Song of Songs” from the Old Testament, one of the oldest and most influential blazons of a beloved’s attributes, the word “fair” seems to mean simply “beautiful.”
           </pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Aphra Behn</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>blazon</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>praise</pp:keyword>
+            <pp:keyword>race</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
