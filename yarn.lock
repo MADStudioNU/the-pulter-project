@@ -32,9 +32,9 @@
   integrity sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==
 
 "@types/cors@^2.8.12":
-  version "2.8.15"
-  resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.15.tgz#eb143aa2f8807ddd78e83cbff141bbedd91b60ee"
-  integrity sha512-n91JxbNLD8eQIuXDIChAN1tCKNWCEgpceU9b7ZMbFA+P+Q4yIeh80jizFLEvolRPc1ES0VdwFlGv+kJTSirogw==
+  version "2.8.16"
+  resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.16.tgz#a24bf65acd216c078890ca6ceb91e672adb158e7"
+  integrity sha512-Trx5or1Nyg1Fq138PCuWqoApzvoSLWzZ25ORBiHMbbUT42g578lH1GT4TwYDbiUOLFuDsCkfLneT2105fsFWGg==
   dependencies:
     "@types/node" "*"
 
@@ -44,16 +44,16 @@
   integrity sha512-Q5Vn3yjTDyCMV50TB6VRIbQNxSE4OmZR86VSbGaNpfUolm0iePBB4KdEEHmxoY5sT2+2DIvXW0rvMDP2nHZ4Mg==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "20.8.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.10.tgz#a5448b895c753ae929c26ce85cab557c6d4a365e"
-  integrity sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==
+  version "20.9.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.0.tgz#bfcdc230583aeb891cf51e73cfdaacdd8deae298"
+  integrity sha512-nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==
   dependencies:
     undici-types "~5.26.4"
 
 "@types/vinyl@^2.0.4":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@types/vinyl/-/vinyl-2.0.9.tgz#5686de441312881498665744c1dcdffe80721ea5"
-  integrity sha512-KCr4aTEUkzSF89qw09e2oxsC/RXXT3K5ZPv4gvj3XTiWVrxNoi7WrqNTahNE/Hul5C9z3B8w+yWNTQgua12oag==
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@types/vinyl/-/vinyl-2.0.10.tgz#0be9d0750816b945f66dc7b24a5dee8a7bda1574"
+  integrity sha512-DqN5BjCrmjAtZ1apqzcq2vk2PSW0m1nFfjIafBFkAyddmHxuw3ZAK3omLiSdpuu81+8h07i6U4DtaE38Xsf2xQ==
   dependencies:
     "@types/expect" "^1.20.4"
     "@types/node" "*"
