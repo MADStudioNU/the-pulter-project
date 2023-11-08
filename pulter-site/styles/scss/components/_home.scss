@@ -1284,7 +1284,7 @@
       }
 
       &.expanded {
-        max-height: 60em;
+        max-height: 100em;
         border-bottom: 1px rgba(#282828, .06) solid;
       }
 
@@ -1423,18 +1423,19 @@
           @include transition(all .2s);
 
           &:hover {
-            border-radius: 0;
+            font-weight: bold;
+            background: rgba(8,8,8, .16);
+            color: rgba(8,8,8,.75);
+          }
+
+          &:not(:last-of-type) {
+            margin-right: 1em;
           }
         }
 
         &:hover {
           border: 1px solid rgba($pp_manuscriptInk, .66);
           background: color.scale($connectionBaseBGColor, $lightness: 0%);
-
-          .badge {
-            background: rgba(8,8,8, .15);
-            color: rgba(8,8,8,.75);
-          }
         }
 
         &.exploration {

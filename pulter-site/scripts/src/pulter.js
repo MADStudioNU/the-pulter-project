@@ -106,7 +106,7 @@ var TPP = (function ($) {
 
       // Poem links on curation cards
       $connectionTriggers
-        .find('.to-poem-curation-section')
+        .find('.poem-new-tab')
         .on('click', function (e) {
           e.stopPropagation();
         });

@@ -1834,7 +1834,7 @@
             <pp:keyword>matter</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="circles-and-labyrinths">
+        <pp:curation extra-poem-refs="17" indexExclude="true" status="on" hash="circles-and-labyrinths">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1844,7 +1844,7 @@
             <pp:keyword>circles</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="circles-in-alchemy">
+        <pp:curation extra-poem-refs="17" indexExclude="true" status="on" hash="circles-in-alchemy">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1855,7 +1855,7 @@
             <pp:keyword>distillation</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="devotional-circles">
+        <pp:curation extra-poem-refs="17" indexExclude="true" status="on" hash="devotional-circles">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -1869,7 +1869,7 @@
             <pp:keyword>Henry Vaughan</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation extra-poem-refs="17" index-exclude="true" status="on" hash="donnes-circles">
+        <pp:curation extra-poem-refs="17" indexExclude="true" status="on" hash="donnes-circles">
           <pp:author>
             <pp:person>Elizabeth Scott-Baumann</pp:person>
           </pp:author>
@@ -5833,7 +5833,7 @@
             <pp:keyword>satire</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation extra-poem-refs="46" index-exclude="true" status="on" hash="lark-mirrors">
+        <pp:curation extra-poem-refs="46" indexExclude="true" status="on" hash="lark-mirrors">
           <pp:author>
             <pp:person>Leah Knight</pp:person>
           </pp:author>
@@ -8317,86 +8317,116 @@
                   <xsl:variable name="poemNumber" select="./@id"/>
                   <xsl:variable name="poemTitle" select="./pp:title"/>
                   <xsl:for-each select="./pp:curations/pp:curation">
-                    <xsl:element name="li">
-                      <xsl:variable name="connectionClasses">
-                        <!-- Keywords-->
-                        <xsl:if test="./pp:keywords">
-                          <xsl:for-each select="./pp:keywords/pp:keyword">
-                            <xsl:variable name="keywordValue" select="text()"/>
-                            <xsl:call-template name="keywordStringFormatter">
-                              <xsl:with-param name="input" select="$keywordValue"/>
-                            </xsl:call-template>
-                            <xsl:text> </xsl:text>
-                          </xsl:for-each>
-                        </xsl:if>
-                        <!-- Authors-->
-                        <xsl:if test="./pp:author">
-                          <xsl:for-each select="./pp:author/pp:person">
-                            <xsl:variable name="keywordValue" select="text()"/>
-                            <xsl:call-template name="keywordStringFormatter">
-                              <xsl:with-param name="input" select="$keywordValue"/>
-                            </xsl:call-template>
-                            <xsl:text> </xsl:text>
-                          </xsl:for-each>
-                        </xsl:if>
-                      </xsl:variable>
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="concat($connectionClasses, 'connection curation')"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-sorting-title">
-                        <xsl:variable name="maxLength" select="20"/>
-                        <xsl:choose>
-                          <xsl:when test="./pp:sortingTitle">
-                            <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>
-                          </xsl:otherwise>
-                        </xsl:choose>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-connection-type">
-                        <xsl:value-of select="'curation'"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-connection-hash">
-                        <xsl:value-of select="./@hash"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-poem-id">
-                        <xsl:value-of select="$poemNumber"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-poem-title">
-                        <xsl:value-of select="$poemTitle"/>
-                      </xsl:attribute>
-                      <xsl:attribute name="data-connection-title">
-                        <xsl:value-of select="./pp:title"/>
-                      </xsl:attribute>
-                      <xsl:element name="a">
+                    <xsl:variable name="isExcluded">
+                      <xsl:choose>
+                        <xsl:when test="./@indexExclude">
+                          <xsl:value-of select="./@indexExclude"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="'false'"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:variable>
+                    <xsl:if test="$isExcluded = 'false'">
+                      <xsl:element name="li">
+                        <xsl:variable name="connectionClasses">
+                          <!-- Keywords-->
+                          <xsl:if test="./pp:keywords">
+                            <xsl:for-each select="./pp:keywords/pp:keyword">
+                              <xsl:variable name="keywordValue" select="text()"/>
+                              <xsl:call-template name="keywordStringFormatter">
+                                <xsl:with-param name="input" select="$keywordValue"/>
+                              </xsl:call-template>
+                              <xsl:text> </xsl:text>
+                            </xsl:for-each>
+                          </xsl:if>
+                          <!-- Authors-->
+                          <xsl:if test="./pp:author">
+                            <xsl:for-each select="./pp:author/pp:person">
+                              <xsl:variable name="keywordValue" select="text()"/>
+                              <xsl:call-template name="keywordStringFormatter">
+                                <xsl:with-param name="input" select="$keywordValue"/>
+                              </xsl:call-template>
+                              <xsl:text> </xsl:text>
+                            </xsl:for-each>
+                          </xsl:if>
+                        </xsl:variable>
                         <xsl:attribute name="class">
-                          <xsl:value-of select="'badge to-poem-curation-section'"/>
+                          <xsl:value-of select="concat($connectionClasses, 'connection curation')"/>
                         </xsl:attribute>
-                        <xsl:attribute name="title">
-                          <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>
+                        <xsl:attribute name="data-sorting-title">
+                          <xsl:variable name="maxLength" select="20"/>
+                          <xsl:choose>
+                            <xsl:when test="./pp:sortingTitle">
+                              <xsl:value-of select="substring(./pp:sortingTitle, 1, $maxLength)"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:value-of select="substring(./pp:title, 1, $maxLength)"/>
+                            </xsl:otherwise>
+                          </xsl:choose>
                         </xsl:attribute>
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
+                        <xsl:attribute name="data-connection-type">
+                          <xsl:value-of select="'curation'"/>
                         </xsl:attribute>
-                        <xsl:attribute name="target">
-                          <xsl:value-of select="'_blank'"/>
+                        <xsl:attribute name="data-connection-hash">
+                          <xsl:value-of select="./@hash"/>
                         </xsl:attribute>
-                        <xsl:value-of select="$poemNumber"/>
+                        <xsl:attribute name="data-poem-id">
+                          <xsl:value-of select="$poemNumber"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-poem-title">
+                          <xsl:value-of select="$poemTitle"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="data-connection-title">
+                          <xsl:value-of select="./pp:title"/>
+                        </xsl:attribute>
+                        <xsl:element name="a">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'badge poem-new-tab'"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="title">
+                            <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="href">
+                            <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
+                          </xsl:attribute>
+                          <xsl:attribute name="target">
+                            <xsl:value-of select="'_blank'"/>
+                          </xsl:attribute>
+                          <xsl:value-of select="$poemNumber"/>
+                        </xsl:element>
+                        <xsl:if test="./@extra-poem-refs">
+                          <xsl:variable name="extraPoemRef" select="./@extra-poem-refs"/>
+                          <xsl:element name="a">
+                            <xsl:attribute name="class">
+                              <xsl:value-of select="'badge poem-new-tab'"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="title">
+                              <xsl:value-of select="concat('Open Poem ', $extraPoemRef, ' in a new tab')"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                              <xsl:value-of select="concat('/poems/ae/', $extraPoemRef)"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                              <xsl:value-of select="'_blank'"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="$extraPoemRef"/>
+                          </xsl:element>
+                        </xsl:if>
+                        <xsl:element name="span">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'title lato'"/>
+                          </xsl:attribute>
+                          <xsl:value-of select="./pp:title"/>
+                        </xsl:element>
+                        <xsl:element name="span">
+                          <xsl:attribute name="class">
+                            <xsl:value-of select="'by-line'"/>
+                          </xsl:attribute>
+                          by <xsl:value-of select="./pp:author"/>
+                        </xsl:element>
                       </xsl:element>
-                      <xsl:element name="span">
-                        <xsl:attribute name="class">
-                          <xsl:value-of select="'title lato'"/>
-                        </xsl:attribute>
-                        <xsl:value-of select="./pp:title"/>
-                      </xsl:element>
-                      <xsl:element name="span">
-                      <xsl:attribute name="class">
-                        <xsl:value-of select="'by-line'"/>
-                      </xsl:attribute>
-                      by <xsl:value-of select="./pp:author"/>
-                    </xsl:element>
-                    </xsl:element>
+                    </xsl:if>
                   </xsl:for-each>
                 </xsl:for-each>
               </ul>
