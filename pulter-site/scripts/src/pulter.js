@@ -510,13 +510,28 @@ var TPP = (function ($) {
           filter: finalFilterValue
         });
 
+       // Additional logic for the UI
+        var currentFilteredSet = $ii.isotope('getFilteredItemElements');
+
         // How big is the set?
-        var num = $ii.isotope('getFilteredItemElements').length;
+        var num = currentFilteredSet.length;
+
+        var allClassesDisplayed = [];
+
+        if (num < numConnections) {
+          // todo: finish writing logic for disabling the filter triggers that are not present in the currently filtered set (implement faceted search)
+          currentFilteredSet.forEach(function (filteredItem) {
+            var itemClassList = filteredItem.className.split(' ');
+            // todo: alternative to spread operator?
+            allClassesDisplayed.push(...itemClassList);
+          })
+        } else {
+          allClassesDisplayed.length = 0;
+        }
+
+        console.log(allClassesDisplayed);
 
         // Indicate that the filter state is active if the filtered set is smaller than all the connections
-        console.log('num now:', num);
-        console.log('num overall:', numConnections);
-
         if (num < numConnections) {
           $connectionsFSStatus.addClass('hi');
         } else  {
