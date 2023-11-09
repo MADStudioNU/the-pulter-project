@@ -7649,8 +7649,14 @@
             <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>The Russian Rustic and the Hollow Tree</pp:title>
+          <pp:sortingTitle>Russian Rustic and the Hollow Tree, The</pp:sortingTitle>
           <pp:peek>The basic story of this emblem appears in many different sources of the period. It was attributed to a Russian ambassador to Rome named Demetrius, by way of Sebastian Münster, whose</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>Topsell</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="seventeenth-century-english-views-of-russians">
           <pp:author>
@@ -7658,7 +7664,9 @@
           </pp:author>
           <pp:title>Seventeenth-Century English Views of Russians</pp:title>
           <pp:peek>The rustic character featured in this emblem has a misguided view of religion in Pulter’s depiction, but is otherwise not particularly indebted to stereotypical views of Russians among English writers of the time.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Giles Fletcher</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -7857,15 +7865,35 @@
           </pp:author>
           <pp:title>Pulter’s Garden</pp:title>
           <pp:peek>Pulter’s poems are full of gardens. In some poems, such as “The Lark,” the poet observes something in the garden that prompts an extended meditation.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
+            <pp:keyword>garden</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>Jan Brueghel the Younger</pp:keyword>
+            <pp:keyword>John Gerard</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="the-worker-bee">
           <pp:author>
             <pp:person>Nicole Jacobs</pp:person>
           </pp:author>
           <pp:title>The Worker Bee</pp:title>
+          <pp:sortingTitle>Worker Bee, The</pp:sortingTitle>
           <pp:peek>The worker bee was not accustomed to serving, like her drone brother, as a cautionary tale. After all, she was thoroughly ensconced in a literary tradition that framed her as an exemplar of industry and virtue.</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Charles Butler</pp:keyword>
+            <pp:keyword>Francis Bacon</pp:keyword>
+            <pp:keyword>insects</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>labor</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>Virgil</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
