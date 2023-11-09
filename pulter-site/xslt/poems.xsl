@@ -7525,7 +7525,14 @@
           </pp:author>
           <pp:title>Picturing Rats and Mice in Early Modern English Culture</pp:title>
           <pp:peek>Like her other emblematic poems, Pulter’s “The Bishop and the Rats” (Emblem 46) is a nude emblem; it lacks the <span class="it">pictura</span> that was a defining feature of many emblematic texts following Andrea Alciato’s foundational <span class="it">Emblematum Liber</span> (1531).</pp:peek>
-          <pp:keywords></pp:keywords>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>ballad</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>fable</pp:keyword>
+            <pp:keyword>George Wither</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
