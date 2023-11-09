@@ -1154,7 +1154,7 @@
         </pp:curation>
         <pp:curation status="on" hash="expanding-our-understanding-of-flora">
           <pp:author>
-            <pp:person>Frances E. Dolan</pp:person>span>
+            <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>Expanding Our Understanding of Flora</pp:title>
           <pp:peek>Pulter, like many other seventeenth-century writers, invokes Flora as the goddess of flowers. References to the goddess Flora might have helped to mystify the role of women in gardens, linking them to the flowers themselves more than to owning land or cultivating it.</pp:peek>
@@ -4952,7 +4952,7 @@
         </pp:curation>
         <pp:curation status="on" hash="punctuating-poetry">
           <pp:author>
-            <pp:person>Liza Blake</pp:person>span>
+            <pp:person>Liza Blake</pp:person>
           </pp:author>
           <pp:title>Punctuating Poetry</pp:title>
           <pp:peek>Modern editors of early modern writing frequently modernize their poems to make them easier to read; this modernization includes both updating spelling and updating punctuation.</pp:peek>
@@ -4965,7 +4965,7 @@
         </pp:curation>
         <pp:curation status="on" hash="wishing-for-the-end">
           <pp:author>
-            <pp:person>Liza Blake</pp:person>span>
+            <pp:person>Liza Blake</pp:person>
           </pp:author>
           <pp:title>Wishing for the End</pp:title>
           <pp:peek>In the seventeenth century, belief in resurrection meant belief that bodies would be re-formed and reunited with their souls at the Final Judgment.</pp:peek>
