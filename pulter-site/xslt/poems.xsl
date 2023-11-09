@@ -2574,8 +2574,8 @@
           <pp:keywords>
             <pp:keyword>dust</pp:keyword>
             <pp:keyword>ecology</pp:keyword>
-            <pp:keyword>Hutchinson</pp:keyword>
             <pp:keyword>labor</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="more-ruminations-on-death-and-resurrection">
@@ -2962,8 +2962,9 @@
           <pp:title>Broadfield, Hertfordshire</pp:title>
           <pp:peek>The Pulters lived at an estate called Broadfield (or Bradfield) in the parish of Cottered in Hertfordshire. Sir Henry Chauncy’s The historical antiquities of Hertfordshire of 1700 gives the history of the estate, noting that Arthur Pulter retired to Bradfield after the outbreak of the civil war.</pp:peek>
           <pp:keywords>
-            <pp:keyword>Broadfield, Henry Chauncy</pp:keyword>
+            <pp:keyword>Broadfield</pp:keyword>
             <pp:keyword>country house</pp:keyword>
+            <pp:keyword>Henry Chauncy</pp:keyword>
             <pp:keyword>Pulter’s life</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -3163,7 +3164,7 @@
           <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>
           <pp:keywords>
             <pp:keyword>Anne Bradstreet</pp:keyword>
-            <pp:keyword>bible, William Shakespeare</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
             <pp:keyword>body</pp:keyword>
             <pp:keyword>captivity</pp:keyword>
             <pp:keyword>devotion</pp:keyword>
@@ -3174,6 +3175,7 @@
             <pp:keyword>reproduction</pp:keyword>
             <pp:keyword>soul</pp:keyword>
             <pp:keyword>violence</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulters-psalmic-intertexts">
@@ -7653,9 +7655,8 @@
           <pp:peek>The basic story of this emblem appears in many different sources of the period. It was attributed to a Russian ambassador to Rome named Demetrius, by way of Sebastian Münster, whose</pp:peek>
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
-            <pp:keyword>Edward</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
             <pp:keyword>insects</pp:keyword>
-            <pp:keyword>Topsell</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="seventeenth-century-english-views-of-russians">
@@ -8046,10 +8047,9 @@
         <pp:keyword>blazon</pp:keyword>
         <pp:keyword>Edmund Spenser</pp:keyword>
         <pp:keyword>female body</pp:keyword>
-        <pp:keyword>Hutchinson</pp:keyword>
         <pp:keyword>John Milton</pp:keyword>
         <pp:keyword>love poetry</pp:keyword>
-        <pp:keyword>Lucy</pp:keyword>
+        <pp:keyword>Lucy Hutchinson</pp:keyword>
         <pp:keyword>Margaret Cavendish</pp:keyword>
         <pp:keyword>Petrarch</pp:keyword>
         <pp:keyword>Philip Sidney</pp:keyword>
