@@ -38,8 +38,8 @@ var TPP = (function ($) {
       var $poemSection = $content.find('#poems-section');
       var $connectionSection = $content.find('#connections-section');
       var $connectionFiltersBox = $connectionSection.find('.connection-filters');
-      var $connectionAuthorFilterGroup = $connectionSection.find('#connection-author-filters');
-      var $connectionKeywordFilterGroup = $connectionSection.find('#connection-keyword-filters');
+      var $connectionAuthorFilterGroup = $connectionFiltersBox.find('#connection-author-filters');
+      var $connectionKeywordFilterGroup = $connectionFiltersBox.find('#connection-keyword-filters');
       var $connectionEmptySetMessage = $connectionSection.find('.empty-set-message');
       var $poemListGrid = $poemSection.find('.poem-list');
       var $connectionListGrid = $connectionSection.find('.connections-list');
@@ -58,6 +58,10 @@ var TPP = (function ($) {
       var $resourceTypeTabs = $resourceTypeTabBox.find('.resource-tab');
       var $connectionsTab = $resourceTypeTabBox.find('.connections-tab');
       var $poemsTab = $resourceTypeTabBox.find('.poems-tab');
+
+      /* Other variables to hold useful info (state) */
+      // An array to hold all the filter classes that are currently displayed
+      var allClassesDisplayed = [];
 
       // Initial state of UI
       setTimeout(function () {
@@ -516,20 +520,78 @@ var TPP = (function ($) {
         // How big is the set?
         var num = currentFilteredSet.length;
 
-        var allClassesDisplayed = [];
+        // Start new set of classes
+        allClassesDisplayed.length = 0;
 
         if (num < numConnections) {
-          // todo: finish writing logic for disabling the filter triggers that are not present in the currently filtered set (implement faceted search)
           currentFilteredSet.forEach(function (filteredItem) {
             var itemClassList = filteredItem.className.split(' ');
-            // todo: alternative to spread operator?
-            allClassesDisplayed.push(...itemClassList);
+            allClassesDisplayed = allClassesDisplayed.concat(itemClassList);
           })
         } else {
           allClassesDisplayed.length = 0;
         }
 
-        console.log(allClassesDisplayed);
+        // Logic of "muting" the filter triggers that are not present in the currently filtered set
+
+        console.log(finalFilterValue)
+
+        // todo: optimize the logic below
+        if (
+          filterGroup === 'type' ||
+          filterGroup === 'keyword'
+        ) {
+            $connectionFiltersBox
+              .find('.connection-filter')
+              .removeClass('muted')
+              .each(function (index, triggerElement) {
+                var $trigger = $(triggerElement);
+
+                if (allClassesDisplayed.indexOf($trigger.data('filter').slice(1)) === -1) {
+                  $trigger.addClass('muted');
+                }
+              })
+        }
+
+        if (filterGroup === 'author') {
+          $connectionKeywordFilterGroup
+            .find('.connection-filter')
+            .removeClass('muted')
+            .each(function (index, triggerElement) {
+              var $trigger = $(triggerElement);
+
+              if (allClassesDisplayed.indexOf($trigger.data('filter').slice(1)) === -1) {
+                $trigger.addClass('muted');
+              }
+            })
+
+          // If
+          if (!ii_filters['author']) {
+            $connectionAuthorFilterGroup
+              .find('.connection-filter')
+              .removeClass('muted')
+              .each(function (index, triggerElement) {
+                var $trigger = $(triggerElement);
+
+                if (allClassesDisplayed.indexOf($trigger.data('filter').slice(1)) === -1) {
+                  $trigger.addClass('muted');
+                }
+              })
+          }
+        }
+
+        // Show everything if no filters are active
+        if (num === numConnections) {
+          $connectionFiltersBox
+            .find('.connection-filter')
+            .removeClass('muted');
+        }
+
+        // $connectionAuthorFilterGroup
+        // $connectionKeywordFilterGroup
+
+        // Special case: if there's only one result select all the
+        if (num === 1) {}
 
         // Indicate that the filter state is active if the filtered set is smaller than all the connections
         if (num < numConnections) {
@@ -621,9 +683,14 @@ var TPP = (function ($) {
 
         $connectionEmptySetMessage.hide();
 
+        $connectionFiltersBox
+          .find('.connection-filter')
+          .removeClass('muted')
+
         // Model
         ii_filters = {};
         $ii.filter('*');
+        allClassesDisplayed.length = 0;
       }
 
       function resetPoemStatusString() {
