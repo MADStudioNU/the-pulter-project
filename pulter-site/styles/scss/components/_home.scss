@@ -1258,7 +1258,7 @@
       padding: 0 10em 0 4.25em;
       max-width: 100em;
       overflow: hidden;
-      //max-height: 0;
+      max-height: 0;
       position: relative;
       @include transition(max-height .3s ease-in-out);
 
