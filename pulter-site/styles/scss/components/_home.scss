@@ -1332,9 +1332,10 @@
 
           // Muted triggers
           &.muted {
-            opacity: .25;
+            opacity: .33;
             pointer-events: none;
             cursor: auto;
+            font-size: .8em;
           }
         }
 
@@ -1379,7 +1380,7 @@
       text-align: left;
 
       .connection {
-        margin: .66em;
+        margin: .5em;
         display: inline-block;
         vertical-align: top;
         width: 18em;
