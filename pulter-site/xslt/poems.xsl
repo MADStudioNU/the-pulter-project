@@ -2715,7 +2715,7 @@
           <pp:keywords>
             <pp:keyword>Americas</pp:keyword>
             <pp:keyword>colonialism</pp:keyword>
-            <pp:keyword>Native American</pp:keyword>
+            <pp:keyword>Native Americans</pp:keyword>
             <pp:keyword>race</pp:keyword>
           </pp:keywords>
         </pp:curation>
