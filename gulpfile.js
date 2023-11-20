@@ -97,6 +97,7 @@ function optimizeManifest () {
     if (json.connections) {
       if (json.connections.contributors) {
         json.connections.contributors = _.uniq(json.connections.contributors)
+          .sort()
           .map((contributor) => {
             return {
               displayName: contributor.trim(),

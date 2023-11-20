@@ -38,8 +38,8 @@ var TPP = (function ($) {
       var $poemSection = $content.find('#poems-section');
       var $connectionSection = $content.find('#connections-section');
       var $connectionFiltersBox = $connectionSection.find('.connection-filters');
-      var $connectionAuthorFilterGroup = $connectionSection.find('#connection-author-filters');
-      var $connectionKeywordFilterGroup = $connectionSection.find('#connection-keyword-filters');
+      var $connectionAuthorFilterGroup = $connectionFiltersBox.find('#connection-author-filters');
+      var $connectionKeywordFilterGroup = $connectionFiltersBox.find('#connection-keyword-filters');
       var $connectionEmptySetMessage = $connectionSection.find('.empty-set-message');
       var $poemListGrid = $poemSection.find('.poem-list');
       var $connectionListGrid = $connectionSection.find('.connections-list');
@@ -58,6 +58,10 @@ var TPP = (function ($) {
       var $resourceTypeTabs = $resourceTypeTabBox.find('.resource-tab');
       var $connectionsTab = $resourceTypeTabBox.find('.connections-tab');
       var $poemsTab = $resourceTypeTabBox.find('.poems-tab');
+
+      /* Other variables to hold useful info (state) */
+      // An array to hold all the filter classes that are currently displayed
+      var allClassesDisplayed = [];
 
       // Initial state of UI
       setTimeout(function () {
@@ -106,7 +110,7 @@ var TPP = (function ($) {
 
       // Poem links on curation cards
       $connectionTriggers
-        .find('.to-poem-curation-section')
+        .find('.poem-new-tab')
         .on('click', function (e) {
           e.stopPropagation();
         });
@@ -236,13 +240,16 @@ var TPP = (function ($) {
 
       // Become aware of the PP environment
       var manifest;
+      var numPoems;
+      var numConnections = $connectionTriggers.length;
       var indexRequest = this.getPoemIndex();
 
       indexRequest
         .done(function (data) {
           manifest = data;
+          numPoems = manifest.poems.length;
 
-          if (manifest.poems && manifest.poems.length > 0) {
+          if (manifest.poems && numPoems > 0) {
             resetPoemStatusString();
           }
 
@@ -455,14 +462,14 @@ var TPP = (function ($) {
       }
 
       function setConnectionFilter(filterGroup, filterTerm) {
-        // Indicate that the filter state is active
-        $connectionsFSStatus.addClass('hi');
-
         // Default filtering logic (one at a time)
         if (filterGroup !== 'keyword') {
           // If the filter is already active, remove it
           if (ii_filters[filterGroup] === filterTerm) {
-            delete ii_filters[filterGroup];
+            // Toggle logic for the author filter
+            if (filterGroup === 'author') {
+              delete ii_filters[filterGroup];
+            }
           } else {
             ii_filters[filterGroup] = filterTerm;
           }
@@ -507,21 +514,96 @@ var TPP = (function ($) {
           filter: finalFilterValue
         });
 
-        // todo: add sorters (by poem number, by title (default?))
+       // Additional logic for the UI
+        var currentFilteredSet = $ii.isotope('getFilteredItemElements');
 
-        // todo: make the status message compatible with a multi-line view (the container cannot be of a fixed height)
+        // How big is the set?
+        var num = currentFilteredSet.length;
 
-        // todo: add the rest of the keywords/authors (for curations) https://docs.google.com/spreadsheets/d/1zv-dZ8TMdGD13u66NhCAqDNIvcUKtS8XfPKfbE4Ulvw/edit#gid=1863055128
+        // Start new set of classes
+        allClassesDisplayed.length = 0;
 
-        // todo: add sorting titles to curations where needed
+        if (num < numConnections) {
+          currentFilteredSet.forEach(function (filteredItem) {
+            var itemClassList = filteredItem.className.split(' ');
+            allClassesDisplayed = allClassesDisplayed.concat(itemClassList);
+          })
+        } else {
+          allClassesDisplayed.length = 0;
+        }
+
+        // Logic of "muting" the filter triggers that are not present in the currently filtered set
+
+        console.log(finalFilterValue)
+
+        // todo: optimize the logic below
+        if (
+          filterGroup === 'type' ||
+          filterGroup === 'keyword'
+        ) {
+            $connectionFiltersBox
+              .find('.connection-filter')
+              .removeClass('muted')
+              .each(function (index, triggerElement) {
+                var $trigger = $(triggerElement);
+
+                if (allClassesDisplayed.indexOf($trigger.data('filter').slice(1)) === -1) {
+                  $trigger.addClass('muted');
+                }
+              })
+        }
+
+        if (filterGroup === 'author') {
+          $connectionKeywordFilterGroup
+            .find('.connection-filter')
+            .removeClass('muted')
+            .each(function (index, triggerElement) {
+              var $trigger = $(triggerElement);
+
+              if (allClassesDisplayed.indexOf($trigger.data('filter').slice(1)) === -1) {
+                $trigger.addClass('muted');
+              }
+            })
+
+          // If
+          if (!ii_filters['author']) {
+            $connectionAuthorFilterGroup
+              .find('.connection-filter')
+              .removeClass('muted')
+              .each(function (index, triggerElement) {
+                var $trigger = $(triggerElement);
+
+                if (allClassesDisplayed.indexOf($trigger.data('filter').slice(1)) === -1) {
+                  $trigger.addClass('muted');
+                }
+              })
+          }
+        }
+
+        // Show everything if no filters are active
+        if (num === numConnections) {
+          $connectionFiltersBox
+            .find('.connection-filter')
+            .removeClass('muted');
+        }
+
+        // $connectionAuthorFilterGroup
+        // $connectionKeywordFilterGroup
+
+        // Special case: if there's only one result select all the
+        if (num === 1) {}
+
+        // Indicate that the filter state is active if the filtered set is smaller than all the connections
+        if (num < numConnections) {
+          $connectionsFSStatus.addClass('hi');
+        } else  {
+          $connectionsFSStatus.removeClass('hi');
+        }
 
         // Make sure the beginning of the resulting set is visible
         $('html,body').scrollTop(0);
 
         /* Update the filter status string */
-        // How big is the set?
-        var num = $ii.isotope('getFilteredItemElements').length;
-
         // What type of connection is showing?
         var filteredConnectionType = ii_filters['type'] ? ii_filters['type'].slice(1) : 'connection';
 
@@ -601,9 +683,14 @@ var TPP = (function ($) {
 
         $connectionEmptySetMessage.hide();
 
+        $connectionFiltersBox
+          .find('.connection-filter')
+          .removeClass('muted')
+
         // Model
         ii_filters = {};
         $ii.filter('*');
+        allClassesDisplayed.length = 0;
       }
 
       function resetPoemStatusString() {

@@ -706,6 +706,8 @@
   }
 
   .masthead-box {
+    position: relative;
+    z-index: 3;
     max-width: $maxWidth;
     margin: 0 auto;
     padding: 1.66em 0 1.5em 0;
@@ -1254,7 +1256,7 @@
 
     // Filters
     .connection-filters {
-      background: rgba(color.scale($pp_manuscriptInk, $lightness: -30%), .15);
+      background: rgba(color.scale($pp_manuscriptInk, $lightness: -30%), .06);
       padding: 0 10em 0 4.25em;
       max-width: 100em;
       overflow: hidden;
@@ -1264,6 +1266,7 @@
 
       @include breakpoint(mobile) {
         padding: 2.25em;
+        display: none;
       }
 
       .dismiss {
@@ -1284,7 +1287,7 @@
       }
 
       &.expanded {
-        max-height: 60em;
+        max-height: 100em;
         border-bottom: 1px rgba(#282828, .06) solid;
       }
 
@@ -1312,7 +1315,7 @@
       .connection-filter-group {
         line-height: 1.66;
 
-        li {
+        .connection-filter {
           font-size: ms(-2);
           cursor: pointer;
           border-radius: 4px;
@@ -1322,23 +1325,31 @@
           padding: .3em .33em .25em .33em;
           margin: .25em;
           background: rgba(#000, .1);
+          opacity: 1;
+          @include transition(all .2s);
 
           &.on {
             border: 1px solid $pp_manuscriptInk;
             color: color.scale($pp_manuscriptInk, $lightness: -20%);
           }
+
+          // Muted triggers
+          &.muted {
+            opacity: .33;
+            pointer-events: none;
+            cursor: auto;
+            font-size: .8em;
+          }
         }
 
         &#connection-author-filters {
-          li {
-            @include transition(border .2s);
+          .connection-filter {
+            font-weight: bold;
           }
         }
 
         &#connection-keyword-filters {
-          li {
-            @include transition(background .2s, color .2s);
-
+          .connection-filter {
             &.on {
               background: color.scale($pp_manuscriptInk, $lightness: -15%);;
               color: $pp_manuscriptPaper;
@@ -1372,7 +1383,7 @@
       text-align: left;
 
       .connection {
-        margin: .66em;
+        margin: .5em;
         display: inline-block;
         vertical-align: top;
         width: 18em;
@@ -1394,6 +1405,7 @@
           font-weight: bold;
           line-height: 1.4;
           padding-right: 2em;
+          margin-top: .2em;
         }
 
         .by-line {
@@ -1408,45 +1420,59 @@
           $size: 1em;
 
           background: rgba(8,8,8,.1);
+          text-transform: uppercase;
           letter-spacing: 1px;
           font-size: ms(-4);
           font-family: Lato,Arial,sans-serif;
           color: rgba(8,8,8,.66);
           text-shadow: 0 1px 0 #ddd;
           display: inline-block;
-          padding: .2em .5em .15em .66em;
-          margin-bottom: 1.5em;
+          padding: .33em .5em .25em .66em;
+          margin-bottom: 1em;
           text-align: center;
           border-radius: 2px;
           box-shadow: inset -1px 0 0 rgba(8,8,8,.03),inset 1px 0 0 rgba(8,8,8,.03),inset 0 1px 0 rgba(8,8,8,.03),inset 0 -1px 0 rgba(8,8,8,.03);
           @include transition(all .2s);
 
           &:hover {
-            border-radius: 0;
+            font-weight: bold;
+            background: rgba(8,8,8, .16);
+            color: rgba(8,8,8,.75);
+          }
+
+          &:not(:last-of-type) {
+            margin-right: 1em;
           }
         }
 
         &:hover {
           border: 1px solid rgba($pp_manuscriptInk, .66);
           background: color.scale($connectionBaseBGColor, $lightness: 0%);
-
-          .badge {
-            background: rgba(8,8,8, .15);
-            color: rgba(8,8,8,.75);
-          }
         }
 
         &.exploration {
           .badge {
             background: rgba($pp_manuscriptInk, .8);
-            text-transform: uppercase;
             box-shadow: none;
             text-shadow: none;
             color: color.scale($connectionBaseBGColor, $lightness: 0%);
+            opacity: .9;
           }
         }
 
-        //&.curation {}
+        &.curation {
+          .poem-refs {
+            line-height: 1;
+            margin-top: .75em;
+          }
+
+          .badge {
+            line-height: 1;
+            display: inline-block;
+            margin-bottom: 0;
+            padding: .5em .5em .5em .66em;
+          }
+        }
       }
     }
   }
