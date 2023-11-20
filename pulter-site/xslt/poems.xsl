@@ -3128,9 +3128,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Nikolina Hatton</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Nikolina Hatton</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>transmigration</pp:keyword>
@@ -3155,45 +3155,45 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
-<!--      <pp:curations>-->
-<!--        <pp:curation status="on" hash="metaphors-of-violence-in-devotional-poetry">-->
-<!--          <pp:author>-->
-<!--            <pp:person>Nikolina Hatton</pp:person>-->
-<!--          </pp:author>-->
-<!--          <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>-->
-<!--          <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>-->
-<!--          <pp:keywords>-->
-<!--            <pp:keyword>Anne Bradstreet</pp:keyword>-->
-<!--            <pp:keyword>Bible</pp:keyword>-->
-<!--            <pp:keyword>body</pp:keyword>-->
-<!--            <pp:keyword>captivity</pp:keyword>-->
-<!--            <pp:keyword>devotion</pp:keyword>-->
-<!--            <pp:keyword>George Herbert</pp:keyword>-->
-<!--            <pp:keyword>John Donne</pp:keyword>-->
-<!--            <pp:keyword>Mary Carey</pp:keyword>-->
-<!--            <pp:keyword>repentance</pp:keyword>-->
-<!--            <pp:keyword>reproduction</pp:keyword>-->
-<!--            <pp:keyword>soul</pp:keyword>-->
-<!--            <pp:keyword>violence</pp:keyword>-->
-<!--            <pp:keyword>William Shakespeare</pp:keyword>-->
-<!--          </pp:keywords>-->
-<!--        </pp:curation>-->
-<!--        <pp:curation status="on" hash="pulters-psalmic-intertexts">-->
-<!--          <pp:author>-->
-<!--            <pp:person>Nikolina Hatton</pp:person>-->
-<!--          </pp:author>-->
-<!--          <pp:title>Pulter’s Psalmic Intertexts</pp:title>-->
-<!--          <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>-->
-<!--          <pp:keywords>-->
-<!--            <pp:keyword>Bible</pp:keyword>-->
-<!--            <pp:keyword>Christianity</pp:keyword>-->
-<!--            <pp:keyword>death</pp:keyword>-->
-<!--            <pp:keyword>devotion</pp:keyword>-->
-<!--            <pp:keyword>praise</pp:keyword>-->
-<!--            <pp:keyword>resurrection</pp:keyword>-->
-<!--          </pp:keywords>-->
-<!--        </pp:curation>-->
-<!--      </pp:curations>-->
+      <pp:curations>
+        <pp:curation status="on" hash="metaphors-of-violence-in-devotional-poetry">
+          <pp:author>
+            <pp:person>Nikolina Hatton</pp:person>
+          </pp:author>
+          <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>
+          <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Anne Bradstreet</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Mary Carey</pp:keyword>
+            <pp:keyword>repentance</pp:keyword>
+            <pp:keyword>reproduction</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+        <pp:curation status="on" hash="pulters-psalmic-intertexts">
+          <pp:author>
+            <pp:person>Nikolina Hatton</pp:person>
+          </pp:author>
+          <pp:title>Pulter’s Psalmic Intertexts</pp:title>
+          <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>devotion</pp:keyword>
+            <pp:keyword>praise</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
@@ -7916,10 +7916,10 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Kristine Johanson</pp:author>-->
-<!--          <pp:author>Anna-Rose Shack</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Kristine Johanson</pp:author>
+          <pp:author>Anna-Rose Shack</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>violence</pp:keyword>
