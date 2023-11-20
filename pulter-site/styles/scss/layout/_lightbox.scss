@@ -593,6 +593,13 @@
           max-width: 38%;
           float: right;
           margin-left: 2.25em;
+
+          @include breakpoint(mobile) {
+            //max-width: 66%;
+            //float: none;
+            //margin: 0 0 2em 0;
+            display: none;
+          }
         }
 
         p:not(:last-of-type) {
