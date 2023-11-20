@@ -3128,9 +3128,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Nikolina Hatton</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Nikolina Hatton</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>transmigration</pp:keyword>
@@ -3155,45 +3155,45 @@
         <pp:tag>soul</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
-      <pp:curations>
-        <pp:curation status="on" hash="metaphors-of-violence-in-devotional-poetry">
-          <pp:author>
-            <pp:person>Nikolina Hatton</pp:person>
-          </pp:author>
-          <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>
-          <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>
-          <pp:keywords>
-            <pp:keyword>Anne Bradstreet</pp:keyword>
-            <pp:keyword>Bible</pp:keyword>
-            <pp:keyword>body</pp:keyword>
-            <pp:keyword>captivity</pp:keyword>
-            <pp:keyword>devotion</pp:keyword>
-            <pp:keyword>George Herbert</pp:keyword>
-            <pp:keyword>John Donne</pp:keyword>
-            <pp:keyword>Mary Carey</pp:keyword>
-            <pp:keyword>repentance</pp:keyword>
-            <pp:keyword>reproduction</pp:keyword>
-            <pp:keyword>soul</pp:keyword>
-            <pp:keyword>violence</pp:keyword>
-            <pp:keyword>William Shakespeare</pp:keyword>
-          </pp:keywords>
-        </pp:curation>
-        <pp:curation status="on" hash="pulters-psalmic-intertexts">
-          <pp:author>
-            <pp:person>Nikolina Hatton</pp:person>
-          </pp:author>
-          <pp:title>Pulter’s Psalmic Intertexts</pp:title>
-          <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>
-          <pp:keywords>
-            <pp:keyword>Bible</pp:keyword>
-            <pp:keyword>Christianity</pp:keyword>
-            <pp:keyword>death</pp:keyword>
-            <pp:keyword>devotion</pp:keyword>
-            <pp:keyword>praise</pp:keyword>
-            <pp:keyword>resurrection</pp:keyword>
-          </pp:keywords>
-        </pp:curation>
-      </pp:curations>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="metaphors-of-violence-in-devotional-poetry">-->
+<!--          <pp:author>-->
+<!--            <pp:person>Nikolina Hatton</pp:person>-->
+<!--          </pp:author>-->
+<!--          <pp:title>Metaphors of Violence in Devotional Poetry</pp:title>-->
+<!--          <pp:peek>Language related to warfare, subjection and punishment often appears in seventeenth-century devotional verse. Pulter’s verse demonstrates a familiarity with the conventions of devotional poetry and well-known poets such as John Donne and George Herbert.</pp:peek>-->
+<!--          <pp:keywords>-->
+<!--            <pp:keyword>Anne Bradstreet</pp:keyword>-->
+<!--            <pp:keyword>Bible</pp:keyword>-->
+<!--            <pp:keyword>body</pp:keyword>-->
+<!--            <pp:keyword>captivity</pp:keyword>-->
+<!--            <pp:keyword>devotion</pp:keyword>-->
+<!--            <pp:keyword>George Herbert</pp:keyword>-->
+<!--            <pp:keyword>John Donne</pp:keyword>-->
+<!--            <pp:keyword>Mary Carey</pp:keyword>-->
+<!--            <pp:keyword>repentance</pp:keyword>-->
+<!--            <pp:keyword>reproduction</pp:keyword>-->
+<!--            <pp:keyword>soul</pp:keyword>-->
+<!--            <pp:keyword>violence</pp:keyword>-->
+<!--            <pp:keyword>William Shakespeare</pp:keyword>-->
+<!--          </pp:keywords>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="pulters-psalmic-intertexts">-->
+<!--          <pp:author>-->
+<!--            <pp:person>Nikolina Hatton</pp:person>-->
+<!--          </pp:author>-->
+<!--          <pp:title>Pulter’s Psalmic Intertexts</pp:title>-->
+<!--          <pp:peek>Metrical translation of the biblical psalms was an important literary genre in the sixteenth and seventeenth centuries; well-known poets such as Thomas Wyatt, Anne Locke, George Gascoigne, Philip and Mary Sidney, Samuel Daniel, George Sandys, and John Milton composed metrical psalters or engaged in versifying individual psalms.</pp:peek>-->
+<!--          <pp:keywords>-->
+<!--            <pp:keyword>Bible</pp:keyword>-->
+<!--            <pp:keyword>Christianity</pp:keyword>-->
+<!--            <pp:keyword>death</pp:keyword>-->
+<!--            <pp:keyword>devotion</pp:keyword>-->
+<!--            <pp:keyword>praise</pp:keyword>-->
+<!--            <pp:keyword>resurrection</pp:keyword>-->
+<!--          </pp:keywords>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
     </pp:poem>
     <pp:poem id="41">
       <pp:title>The Invocation of the Elements, The Longest Night in the Year, 1655</pp:title>
@@ -7916,10 +7916,10 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Kristine Johanson</pp:author>
-          <pp:author>Anna-Rose Shack</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Kristine Johanson</pp:author>-->
+<!--          <pp:author>Anna-Rose Shack</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:keywords>
         <pp:keyword>violence</pp:keyword>
@@ -8335,11 +8335,10 @@
                         <img src="/images/compare-icon.svg"/>
                         <a href="/poems/vm" target="_blank">Compare Editions</a>
                       </li>
-                      <!-- todo: switching to connections! -->
-<!--                      <li id="to-connections">-->
-<!--                        <img src="/images/read-icon.svg" />-->
-<!--                        <a href="#connections">Browse Connections</a>-->
-<!--                      </li>-->
+                      <li id="to-connections">
+                        <img src="/images/read-icon.svg" />
+                        <a href="#connections">Browse Connections</a>
+                      </li>
                       <li>
                         <img src="/images/resources-mock.svg" />
                         <a href="/resources.html">Resources</a>
@@ -8381,11 +8380,10 @@
                 <span class="label sssi-regular">Poems</span>
                 <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#poem-index-blurb" data-featherlight-variant="home-lightbox">i</a>
               </div>
-              <!-- todo: switching to connections! -->
-<!--              <div class="resource-tab connections-tab" data-resource-type="connections">-->
-<!--                <span class="label">Connections</span>-->
-<!--                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#connection-index-blurb" data-featherlight-variant="home-lightbox">i</a>-->
-<!--              </div>-->
+              <div class="resource-tab connections-tab" data-resource-type="connections">
+                <span class="label">Connections</span>
+                <a href="#" class="note-trigger sssi-regular" data-featherlight-close-icon="" data-featherlight-other-close=".dismiss" data-featherlight="#connection-index-blurb" data-featherlight-variant="home-lightbox">i</a>
+              </div>
             </div>
             <div class="toolbar-box">
               <div class="toolbar">
@@ -8394,18 +8392,17 @@
                     <div class="status asap"><svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>Showing <span class="filter-status"><xsl:text> </xsl:text></span> in <span class="sort-status">the same order as in the manuscript</span>. <span class="status-reset">Reset</span>
                     </div>
                   </div>
-                  <!-- todo: switching to connections! -->
-<!--                  <div class="status-box for-connections">-->
-<!--                    <div class="status asap">-->
-<!--                      <svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>-->
-<!--                      <span class="filter-status">-->
-<!--                        <span class="type"><xsl:text> </xsl:text></span>-->
-<!--                        <span class="author"><xsl:text> </xsl:text></span>-->
-<!--                        <span class="keywords"><xsl:text> </xsl:text></span>-->
-<!--                      </span>.-->
-<!--                      <span class="status-reset">Reset</span>-->
-<!--                    </div>-->
-<!--                  </div>-->
+                  <div class="status-box for-connections">
+                    <div class="status asap">
+                      <svg version="1.1" class="status-eye" x="0px" y="0px" viewBox="0 0 768 768" xml:space="preserve"><path class="st0" d="M764.8,371.2C758.4,358.4,624,96,384,96S9.6,358.4,3.2,371.2C0,380.8,0,390.4,3.2,400 C9.6,409.6,144,672,384,672s374.4-262.4,380.8-275.2C768,390.4,768,377.6,764.8,371.2L764.8,371.2z M384,608 C211.2,608,99.2,435.2,67.2,384C96,332.8,211.2,160,384,160s284.8,172.8,316.8,224C668.8,435.2,556.8,608,384,608z"/><path class="st0" d="M384,256c-70.4,0-128,57.6-128,128s57.6,128,128,128s128-57.6,128-128S454.4,256,384,256z M384,448 c-35.2,0-64-28.8-64-64s28.8-64,64-64s64,28.8,64,64S419.2,448,384,448z"/></svg>
+                      <span class="filter-status">
+                        <span class="type"><xsl:text> </xsl:text></span>
+                        <span class="author"><xsl:text> </xsl:text></span>
+                        <span class="keywords"><xsl:text> </xsl:text></span>
+                      </span>.
+                      <span class="status-reset">Reset</span>
+                    </div>
+                  </div>
                 </div>
                 <div class="col edition">
                   <span class="label">Editions</span>
