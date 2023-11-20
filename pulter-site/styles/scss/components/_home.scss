@@ -1402,6 +1402,7 @@
           font-weight: bold;
           line-height: 1.4;
           padding-right: 2em;
+          margin-top: .2em;
         }
 
         .by-line {
@@ -1416,14 +1417,15 @@
           $size: 1em;
 
           background: rgba(8,8,8,.1);
+          text-transform: uppercase;
           letter-spacing: 1px;
           font-size: ms(-4);
           font-family: Lato,Arial,sans-serif;
           color: rgba(8,8,8,.66);
           text-shadow: 0 1px 0 #ddd;
           display: inline-block;
-          padding: .2em .5em .15em .66em;
-          margin-bottom: 1.5em;
+          padding: .33em .5em .25em .66em;
+          margin-bottom: 1em;
           text-align: center;
           border-radius: 2px;
           box-shadow: inset -1px 0 0 rgba(8,8,8,.03),inset 1px 0 0 rgba(8,8,8,.03),inset 0 1px 0 rgba(8,8,8,.03),inset 0 -1px 0 rgba(8,8,8,.03);
@@ -1448,14 +1450,26 @@
         &.exploration {
           .badge {
             background: rgba($pp_manuscriptInk, .8);
-            text-transform: uppercase;
             box-shadow: none;
             text-shadow: none;
             color: color.scale($connectionBaseBGColor, $lightness: 0%);
+            opacity: .9;
           }
         }
 
-        //&.curation {}
+        &.curation {
+          .poem-refs {
+            line-height: 1;
+            margin-top: .75em;
+          }
+
+          .badge {
+            line-height: 1;
+            display: inline-block;
+            margin-bottom: 0;
+            padding: .5em .5em .5em .66em;
+          }
+        }
       }
     }
   }

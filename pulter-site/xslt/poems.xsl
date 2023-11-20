@@ -8570,39 +8570,6 @@
                         <xsl:attribute name="data-connection-title">
                           <xsl:value-of select="./pp:title"/>
                         </xsl:attribute>
-                        <xsl:element name="a">
-                          <xsl:attribute name="class">
-                            <xsl:value-of select="'badge poem-new-tab'"/>
-                          </xsl:attribute>
-                          <xsl:attribute name="title">
-                            <xsl:value-of select="concat('Open Poem ', $poemNumber, ' in a new tab')"/>
-                          </xsl:attribute>
-                          <xsl:attribute name="href">
-                            <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
-                          </xsl:attribute>
-                          <xsl:attribute name="target">
-                            <xsl:value-of select="'_blank'"/>
-                          </xsl:attribute>
-                          <xsl:value-of select="$poemNumber"/>
-                        </xsl:element>
-                        <xsl:if test="./@extra-poem-refs">
-                          <xsl:variable name="extraPoemRef" select="./@extra-poem-refs"/>
-                          <xsl:element name="a">
-                            <xsl:attribute name="class">
-                              <xsl:value-of select="'badge poem-new-tab'"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="title">
-                              <xsl:value-of select="concat('Open Poem ', $extraPoemRef, ' in a new tab')"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="href">
-                              <xsl:value-of select="concat('/poems/ae/', $extraPoemRef)"/>
-                            </xsl:attribute>
-                            <xsl:attribute name="target">
-                              <xsl:value-of select="'_blank'"/>
-                            </xsl:attribute>
-                            <xsl:value-of select="$extraPoemRef"/>
-                          </xsl:element>
-                        </xsl:if>
                         <xsl:element name="span">
                           <xsl:attribute name="class">
                             <xsl:value-of select="'title lato'"/>
@@ -8615,6 +8582,41 @@
                           </xsl:attribute>
                           by <xsl:value-of select="./pp:author"/>
                         </xsl:element>
+                        <div class="poem-refs">
+                          <xsl:element name="a">
+                            <xsl:attribute name="class">
+                              <xsl:value-of select="'badge poem-new-tab'"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="title">
+                              <xsl:value-of select="concat('Open “', $poemTitle, '” in a new tab')"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="href">
+                              <xsl:value-of select="concat('/poems/ae/', $poemNumber)"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="target">
+                              <xsl:value-of select="'_blank'"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="concat('Poem ', $poemNumber)"/>
+                          </xsl:element>
+                          <xsl:if test="./@extra-poem-refs">
+                            <xsl:variable name="extraPoemRef" select="./@extra-poem-refs"/>
+                            <xsl:element name="a">
+                              <xsl:attribute name="class">
+                                <xsl:value-of select="'badge poem-new-tab'"/>
+                              </xsl:attribute>
+                              <xsl:attribute name="title">
+                                <xsl:value-of select="concat('Open Poem ', $extraPoemRef, ' in a new tab')"/>
+                              </xsl:attribute>
+                              <xsl:attribute name="href">
+                                <xsl:value-of select="concat('/poems/ae/', $extraPoemRef)"/>
+                              </xsl:attribute>
+                              <xsl:attribute name="target">
+                                <xsl:value-of select="'_blank'"/>
+                              </xsl:attribute>
+                              <xsl:value-of select="concat('Poem ', $extraPoemRef)"/>
+                            </xsl:element>
+                          </xsl:if>
+                        </div>
                       </xsl:element>
                     </xsl:if>
                   </xsl:for-each>
@@ -8923,9 +8925,13 @@
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Connection Index</h3>
           <div class="c">
-            <img class="blurb-image" src="/images/missing.png"/>
+            <img class="blurb-image" src="/images/tpp-connections-blurb.png"/>
             <p>
-              [ TBA ]
+              <span class="it">The Pulter Project</span>’s Curations and Explorations are assembled on this page. Explorations appear first, in alphabetical order by title; then Curations appear, ordered first by poem number and then by title.
+            </p>
+            <p>
+              You can choose to display only Curations or Explorations with the controls at right; or click on <span class="it">All filters
+            </span> to select by Contributor or Keyword.
             </p>
           </div>
         </div>
@@ -8950,7 +8956,7 @@
           <span class="dismiss"><xsl:text> </xsl:text></span>
           <h3><span class="it">The Pulter Project</span> Explorations</h3>
           <div class="c">
-            <img class="blurb-image" src="/images/missing.png"/>
+            <img class="blurb-image" src="/images/tpp-explorations-blurb.png"/>
             <p>Explorations are gatherings of materials related to more than one of (or even all of) Pulter’s poems. We encourage readers to look beyond individual poems (and their poem-specific curations) to matters of broader relevance to Pulter and her work.</p>
           </div>
         </div>

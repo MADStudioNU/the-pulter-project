@@ -91,6 +91,28 @@ $themeColor: #ece9e2;
       overflow: hidden;
       border-radius: 1px;
     }
+
+    // Exploration-specific styling
+    &.exploration-content {
+      padding-top: 2.5em;
+
+      header .t {
+        &::before {
+          $size: 1.5em;
+
+          content: 'exploration';
+          font-size: 1.05rem;
+          font-weight: normal;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          width: $size;
+          height: $size;
+          background-size: $size $size;
+          padding-left: 2.5em;
+          margin-bottom: 2.5em;
+        }
+      }
+    }
   }
 
   header {
@@ -1090,7 +1112,6 @@ $themeColor: #ece9e2;
   }
 
   #content {
-    //margin-bottom: 3em;
     padding-top: 3em;
 
     main {
