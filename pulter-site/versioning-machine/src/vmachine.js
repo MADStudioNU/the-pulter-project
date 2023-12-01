@@ -176,7 +176,7 @@ var poemData = (function () {
             'url': "/pulter-manifest.json",
             'dataType': "json",
             'success': function (data) {
-                poemData = data;
+                poemData = data.poems;
             }
         });
         return poemData;
