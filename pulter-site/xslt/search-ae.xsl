@@ -4,7 +4,8 @@
   <xsl:include href="poems.xsl"/>
   <xsl:variable name="resourceId" select="/tei:TEI/@xml:id"/>
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
-  <xsl:variable name="elementalEditionId">ee</xsl:variable>
+  <xsl:variable name="amplifiedEditionPrefix">a</xsl:variable>
+
   <xsl:variable name="fullTitle">
     <xsl:choose>
       <xsl:when test="//tei:titleStmt/tei:title != ''">
@@ -15,25 +16,17 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
+
   <xsl:variable name="fullTitleEscaped">
     <xsl:call-template name="encode-string">
       <xsl:with-param name="s" select="$fullTitle"/>
     </xsl:call-template>
   </xsl:variable>
+
   <xsl:variable name="body">
         <xsl:apply-templates select="//tei:body">
-          <xsl:with-param name="witId" select="$elementalEditionId"/>
+          <xsl:with-param name="witId" select="$amplifiedEditionPrefix"/>
         </xsl:apply-templates>
-  </xsl:variable>
-  <xsl:variable name="meta">
-    <xsl:apply-templates select="//tei:app[@type='headnote']">
-      <xsl:with-param name="witId" select="$elementalEditionId"/>
-    </xsl:apply-templates>
-  </xsl:variable>
-  <xsl:variable name="responsibility">
-    <xsl:call-template name="responsibility">
-      <xsl:with-param name="witnessId" select="$elementalEditionId"/>
-    </xsl:call-template>
   </xsl:variable>
 
   <xsl:template name="encode-string">
@@ -58,27 +51,39 @@
   </xsl:template>
 
   <xsl:template match="/">
-    <xsl:value-of select="'PPS.addResource({'"/>
-    <xsl:value-of select="concat('id:&quot;p',$poemID, '-', $elementalEditionId, '&quot;,')"/>
-    <xsl:value-of select="'type:&quot;poem&quot;,'"/>
-    <xsl:value-of select="'subtype:&quot;ee&quot;,'"/>
-    <xsl:value-of select="concat('poemRef:',$poemID, ',')"/>
-    <xsl:value-of select="concat('title:&quot;', normalize-space($fullTitleEscaped), '&quot;,')"/>
-    <xsl:value-of select="'body:&quot;'"/>
-    <xsl:call-template name="encode-string">
-      <xsl:with-param name="s" select="normalize-space($body)"/>
-    </xsl:call-template>
-    <xsl:value-of select="'&quot;,'"/>
-    <xsl:value-of select="'meta:&quot;'"/>
-    <xsl:call-template name="encode-string">
-      <xsl:with-param name="s" select="normalize-space($meta)"/>
-    </xsl:call-template>
-    <xsl:value-of select="'&quot;,'"/>
-    <xsl:value-of select="'responsibility:&quot;'"/>
-    <xsl:call-template name="encode-string">
-      <xsl:with-param name="s" select="normalize-space($responsibility)"/>
-    </xsl:call-template>
-    <xsl:value-of select="concat('&quot;}', ');')"/>
+    <xsl:for-each select="//tei:witness[starts-with(@xml:id, $amplifiedEditionPrefix)]">
+      <xsl:value-of select="'PPS.addResource({'"/>
+      <xsl:value-of select="concat('id:&quot;p',$poemID, '-', @xml:id ,'&quot;,')"/>
+      <xsl:value-of select="'type:&quot;poem&quot;,'"/>
+      <xsl:value-of select="concat('subtype:&quot;', @xml:id,'&quot;,')"/>
+      <xsl:value-of select="concat('poemRef:',$poemID, ',')"/>
+      <xsl:value-of select="concat('title:&quot;', normalize-space($fullTitleEscaped), '&quot;,')"/>
+<!--      <xsl:value-of select="'body:&quot;'"/>-->
+<!--      <xsl:call-template name="encode-string">-->
+<!--        <xsl:with-param name="s" select="normalize-space($body)"/>-->
+<!--      </xsl:call-template>-->
+<!--      <xsl:value-of select="'&quot;,'"/>-->
+      <xsl:variable name="meta">
+        <xsl:apply-templates select="//tei:app[@type='headnote']">
+          <xsl:with-param name="witId" select="@xml:id"/>
+        </xsl:apply-templates>
+      </xsl:variable>
+      <xsl:value-of select="'meta:&quot;'"/>
+      <xsl:call-template name="encode-string">
+        <xsl:with-param name="s" select="normalize-space($meta)"/>
+      </xsl:call-template>
+      <xsl:value-of select="'&quot;,'"/>
+      <xsl:value-of select="'responsibility:&quot;'"/>
+      <xsl:variable name="responsibility">
+        <xsl:call-template name="responsibility">
+          <xsl:with-param name="witnessId" select="@xml:id"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:call-template name="encode-string">
+        <xsl:with-param name="s" select="normalize-space($responsibility)"/>
+      </xsl:call-template>
+      <xsl:value-of select="concat('&quot;}', ');')"/>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template name="responsibility">

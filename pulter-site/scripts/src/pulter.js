@@ -1549,7 +1549,7 @@ var TPP = (function ($) {
               $searchResults.scrollTop(scrollValue);
             }
 
-            // highlight
+            // Highlight
             $targetItem.addClass('highlighted');
 
             // Enter
