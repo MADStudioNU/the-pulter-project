@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <xsl:stylesheet version="1.0" exclude-result-prefixes="tei" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
-
   <xsl:output method="text" omit-xml-declaration="yes" indent="no" encoding="UTF-8" media-type="text/x-json"/>
-
   <xsl:include href="poems.xsl"/>
-
   <xsl:variable name="resourceId" select="/tei:TEI/@xml:id"/>
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
   <xsl:variable name="elementalEditionId">ee</xsl:variable>
