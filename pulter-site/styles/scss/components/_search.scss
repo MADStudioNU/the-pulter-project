@@ -55,7 +55,7 @@
 
   .results-box {
     background: whitesmoke;
-    min-width: 20em;
+    min-width: 22.25em;
     max-height: 24em;
     color: #282828;
     position: absolute;
@@ -93,7 +93,7 @@
         .pn {
           position: absolute;
           left: 1.15em;
-          top: 1.05em;
+          top: 1.25em;
           font-size: .8em;
           margin-right: .66em;
           text-align: right;
@@ -107,6 +107,8 @@
           margin-left: .66em;
           font-family: $pp_originalFont;
         }
+
+        //.pe {}
 
         .pa {
           font-size: .85em;
@@ -132,7 +134,9 @@
             color: rgba(40, 40, 40, .85);
           }
 
-          //.pn {}
+          .pn {
+            top: 1.05em;
+          }
         }
 
         &.highlighted {
