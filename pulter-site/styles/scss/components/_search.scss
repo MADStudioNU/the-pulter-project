@@ -55,8 +55,8 @@
 
   .results-box {
     background: whitesmoke;
-    min-width: 22.25em;
-    max-height: 24em;
+    min-width: 25em;
+    max-height: 25em;
     color: #282828;
     position: absolute;
     right: 0;
@@ -65,6 +65,9 @@
     border: #282828;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     overflow: auto;
+
+    // todo: remove
+    display: block !important;
 
     .results {
       .search-result {
@@ -111,6 +114,7 @@
         //.pe {}
 
         .pa {
+          font-family: $pp_curatorialFont;
           font-size: .85em;
           margin-left: calc(.66 / .85) + em;
           margin-top: .25em;
@@ -141,6 +145,7 @@
 
         &.highlighted {
           background: #d6d6d6;
+          border-top: 1px solid #bbb;
         }
       }
 

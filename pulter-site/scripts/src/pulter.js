@@ -1460,7 +1460,7 @@ var TPP = (function ($) {
 
                     console.log(resourceHref);
 
-                    var $link = $('<a href="' + resourceHref + '"></a>');
+                    var $link = $('<a target="_blank" href="' + resourceHref + '"></a>');
                     var $resNumberChunk = $('<span class="pn"></span>');
                     var $resTitleChunk = $('<h4 class="pt"></h4>');
                     var $resLabelChunk = $('<span class="pe"></span>');
