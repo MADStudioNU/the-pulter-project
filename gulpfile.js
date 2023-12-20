@@ -15,6 +15,7 @@ const VM_TRANSFORMATION = SITE_BASE + 'versioning-machine/src/vmachine.xsl';
 const PP_SEARCH_EE_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl';
 const PP_SEARCH_AE_TRANSFORMATION = SITE_BASE + 'xslt/search-ae.xsl';
 const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl';
+const PP_SEARCH_EXPLORATION_TRANSFORMATION = SITE_BASE + 'xslt/search-exploration.xsl';
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
@@ -486,11 +487,33 @@ gulp.task('xslt:search:curations', function () {
     .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
 });
 
+gulp.task('xslt:search:explorations', function () {
+  return gulp.src([SITE_BASE + 'explorations/*.html'])
+    .pipe(flatMap(function (stream, file) {
+      const fileStem = file.stem;
+      return stream
+        .pipe(
+          xslt(
+            getXSLTProcOptions(
+              PP_SEARCH_EXPLORATION_TRANSFORMATION,
+              true
+            )
+          )
+        )
+        .pipe(
+          replace('id:""', `id:"${fileStem}"`)
+        )
+    }))
+    .pipe(concat('_exploration-search.js'))
+    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+});
+
 gulp.task('xslt:search',
   gulp.series(
     'xslt:search:elemental',
     'xslt:search:amplified',
     'xslt:search:curations',
+    'xslt:search:explorations',
     function() {
       return gulp.src(SEARCH_FOLDER + '/partials/*.js')
         .pipe(concat('pulter-search.js'))
