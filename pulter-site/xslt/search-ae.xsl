@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" exclude-result-prefixes="tei" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<xsl:stylesheet version="1.0" exclude-result-prefixes="tei" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:tei="http://www.tei-c.org/ns/1.0">
   <xsl:output method="text" omit-xml-declaration="yes" indent="no" encoding="UTF-8" media-type="text/x-json"/>
   <xsl:include href="poems.xsl"/>
   <xsl:variable name="resourceId" select="/tei:TEI/@xml:id"/>
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
   <xsl:variable name="amplifiedEditionPrefix">a</xsl:variable>
 
-  <xsl:variable name="fullTitle">
-    <xsl:choose>
-      <xsl:when test="//tei:titleStmt/tei:title != ''">
-        <xsl:value-of select="//tei:titleStmt/tei:title"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>Untitled</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:variable>
-
-  <xsl:variable name="fullTitleEscaped">
-    <xsl:call-template name="encode-string">
-      <xsl:with-param name="s" select="$fullTitle"/>
-    </xsl:call-template>
-  </xsl:variable>
-
   <xsl:variable name="body">
-        <xsl:apply-templates select="//tei:body">
-          <xsl:with-param name="witId" select="$amplifiedEditionPrefix"/>
-        </xsl:apply-templates>
+    <xsl:apply-templates select="//tei:body">
+      <xsl:with-param name="witId" select="$amplifiedEditionPrefix"/>
+    </xsl:apply-templates>
   </xsl:variable>
 
   <xsl:template name="encode-string">
@@ -57,12 +41,17 @@
       <xsl:value-of select="'type:&quot;poem&quot;,'"/>
       <xsl:value-of select="concat('subtype:&quot;', @xml:id,'&quot;,')"/>
       <xsl:value-of select="concat('poemRef:',$poemID, ',')"/>
-      <xsl:value-of select="concat('title:&quot;', normalize-space($fullTitleEscaped), '&quot;,')"/>
-<!--      <xsl:value-of select="'body:&quot;'"/>-->
-<!--      <xsl:call-template name="encode-string">-->
-<!--        <xsl:with-param name="s" select="normalize-space($body)"/>-->
-<!--      </xsl:call-template>-->
-<!--      <xsl:value-of select="'&quot;,'"/>-->
+      <xsl:variable name="amplifiedEditionTitle">
+        <xsl:apply-templates select="//tei:app[@type='title']">
+          <xsl:with-param name="editionId" select="@xml:id"/>
+        </xsl:apply-templates>
+      </xsl:variable>
+      <xsl:variable name="amplifiedEditionTitleEncoded">
+        <xsl:call-template name="encode-string">
+          <xsl:with-param name="s" select="normalize-space($amplifiedEditionTitle)"/>
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="concat('title:&quot;', $amplifiedEditionTitleEncoded, '&quot;,')"/>
       <xsl:variable name="meta">
         <xsl:apply-templates select="//tei:app[@type='headnote']">
           <xsl:with-param name="witId" select="@xml:id"/>
@@ -84,6 +73,14 @@
       </xsl:call-template>
       <xsl:value-of select="concat('&quot;}', ');')"/>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template match="tei:app[@type='title']">
+    <xsl:param name="editionId"/>
+    <!--    <xsl:apply-templates select="node()[name() != 'note']">-->
+    <xsl:apply-templates>
+      <xsl:with-param name="witId" select="$editionId"/>
+    </xsl:apply-templates>
   </xsl:template>
 
   <xsl:template name="responsibility">
@@ -149,9 +146,9 @@
 
   <xsl:template match="tei:l">
     <xsl:param name="witId"/>
-      <xsl:apply-templates>
-        <xsl:with-param name="witId" select="$witId"/>
-      </xsl:apply-templates>
+    <xsl:apply-templates>
+      <xsl:with-param name="witId" select="$witId"/>
+    </xsl:apply-templates>
     <xsl:text> </xsl:text>
   </xsl:template>
 
@@ -176,6 +173,10 @@
     </xsl:choose>
   </xsl:template>
 
+    <xsl:template match="tei:lb">
+      <xsl:value-of select="' '"/>
+    </xsl:template>
+
   <xsl:template match="tei:fw"/>
 
   <!-- Note which is inside a <seg></seg> should yield nothing -->
@@ -187,6 +188,8 @@
   <xsl:template match="tei:seg">
     <xsl:apply-templates/>
   </xsl:template>
+
+  <xsl:template match="tei:seg[@type='context-within-title']"/>
 
   <!-- Identity template -->
   <xsl:template match="node()|@*" name="identity">
