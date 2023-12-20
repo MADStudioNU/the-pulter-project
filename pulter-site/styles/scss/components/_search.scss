@@ -72,7 +72,7 @@
     .results {
       .search-result {
         position: relative;
-        padding: .8em 1em .8em 2.5em;
+        padding: 1em 1em .66em 2.5em;
         @include transition(background .2s ease-in-out);
 
         &:not(:last-child) {
@@ -95,8 +95,8 @@
 
         .pn {
           position: absolute;
-          left: 1.15em;
-          top: 1.25em;
+          left: 1em;
+          top: 1.45em;
           font-size: .8em;
           margin-right: .66em;
           text-align: right;
@@ -117,7 +117,7 @@
           font-family: $pp_curatorialFont;
           font-size: .85em;
           margin-left: calc(.66 / .85) + em;
-          margin-top: .25em;
+          margin-top: .33em;
           font-style: italic;
           opacity: .66;
         }
@@ -129,17 +129,13 @@
         }
 
         &.ctx-match {
-          padding: .66em 1em .66em 2.5em;
+          //padding: .66em 1em .66em 2.5em;
           background: #ece9e2;
 
           .pt {
             font-family: $pp_curatorialFont;
             font-weight: 600;
             color: rgba(40, 40, 40, .85);
-          }
-
-          .pn {
-            top: 1.05em;
           }
         }
 
