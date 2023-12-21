@@ -1443,22 +1443,21 @@ var TPP = (function ($) {
                   $.each(results, function (idx, res) {
                     var isPoemMatch = res.type === 'poem';
                     var isAmplifiedEdition = isPoemMatch && res.subtype.indexOf('a') === 0;
+                    var isExploration = !isPoemMatch && res.subtype === 'exploration';
                     var $line = $('<li class="search-result"></li>');
                     $line.addClass(isPoemMatch ? 'poem-match' : 'ctx-match');
 
                     // Link to the resource
-                    // todo: update when Explorations are added to the index
                     var resourceHref =
-                      '/poems' +
-                      (isAmplifiedEdition ? '/ae/' : '/ee/') +
-                      res.poemRef +
-                      (
-                        isPoemMatch ?
-                          (isAmplifiedEdition ? '#' + res.subtype : '') :
-                          '#' + res.ref.substring(res.ref.indexOf('-') + 1)
-                      );
-
-                    console.log(resourceHref);
+                      isExploration ?
+                        '/#' + res.ref :
+                        ('/poems' + (isAmplifiedEdition ? '/ae/' : '/ee/') +
+                        res.poemRef +
+                        (
+                          isPoemMatch ?
+                            (isAmplifiedEdition ? '#' + res.subtype : '') :
+                            '#' + res.ref.substring(res.ref.indexOf('-') + 1)
+                        ));
 
                     var $link = $('<a target="_blank" href="' + resourceHref + '"></a>');
                     var $resNumberChunk = $('<span class="pn"></span>');
