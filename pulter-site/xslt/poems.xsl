@@ -5377,7 +5377,7 @@
       <pp:curations>
         <pp:curation status="on" hash="aconite">
           <pp:author>
-            <pp:person>Samantha Snively</pp:person> and <pp:person>Frances E. Dolan</pp:person>?
+            <pp:person>Samantha Snively</pp:person> and <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>Aconite</pp:title>
           <pp:peek>Aconite has a rich history; accounts of its origin and powers range from myth, to natural history, to chemistry, to Harry Potter.</pp:peek>
