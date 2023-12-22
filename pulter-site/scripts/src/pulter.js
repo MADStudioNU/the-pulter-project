@@ -1442,27 +1442,42 @@ var TPP = (function ($) {
 
                   $.each(results, function (idx, res) {
                     var isPoemMatch = res.type === 'poem';
-                    var hasResp = !isPoemMatch || (isPoemMatch && res.subtype !== 'ee');
+                    var isAmplifiedEdition = isPoemMatch && res.subtype.indexOf('a') === 0;
+                    var isExploration = !isPoemMatch && res.subtype === 'exploration';
                     var $line = $('<li class="search-result"></li>');
                     $line.addClass(isPoemMatch ? 'poem-match' : 'ctx-match');
 
-                    var $link = $('<a href="/poems/ee/' + res.poemRef + (isPoemMatch ? '' : '#' + res.ref.substring(res.ref.indexOf('-') + 1)) + '"></a>');
+                    // Link to the resource
+                    var resourceHref =
+                      isExploration ?
+                        '/#' + res.ref :
+                        ('/poems' + (isAmplifiedEdition ? '/ae/' : '/ee/') +
+                        res.poemRef +
+                        (
+                          isPoemMatch ?
+                            (isAmplifiedEdition ? '#' + res.subtype : '') :
+                            '#' + res.ref.substring(res.ref.indexOf('-') + 1)
+                        ));
 
+                    var $link = $('<a target="_blank" href="' + resourceHref + '"></a>');
                     var $resNumberChunk = $('<span class="pn"></span>');
                     var $resTitleChunk = $('<h4 class="pt"></h4>');
+                    var $resLabelChunk = $('<span class="pe"></span>');
                     var $resRespChunk = $('<div class="pa"></div>');
 
                     $resNumberChunk.text(res.poemRef);
                     $resTitleChunk.text(res.title);
+                    $resLabelChunk.text(getResourceLabel(res.type, res.subtype) + ' by ');
 
                     $link
                       .append($resNumberChunk)
                       .append($resTitleChunk);
 
-                    if (hasResp) {
-                      $resRespChunk.text(res.responsibility);
-                      $link.append($resRespChunk)
-                    }
+                    $resRespChunk
+                      .text(res.responsibility)
+                      .prepend($resLabelChunk);
+
+                    $link.append($resRespChunk)
 
                     $line
                       .append($link);
@@ -1549,7 +1564,7 @@ var TPP = (function ($) {
               $searchResults.scrollTop(scrollValue);
             }
 
-            // highlight
+            // Highlight
             $targetItem.addClass('highlighted');
 
             // Enter
@@ -1770,5 +1785,22 @@ var TPP = (function ($) {
       .replace(/^-+|-+$/g, '')
       .replace(/-{2,}/g, '-')
       .toLowerCase();
+  }
+
+  // Resource label getter
+  function getResourceLabel(type, subtype) {
+    var label = '';
+
+    if (subtype.indexOf('a') === 0) {
+      label = 'Amplified Edition';
+    } else if (subtype === 'ee') {
+      label = 'Elemental Edition';
+    } else if (subtype === 'curation') {
+      label = 'Curation';
+    } else if (subtype === 'exploration') {
+      label = 'Exploration';
+    }
+
+    return label;
   }
 })(jQuery);

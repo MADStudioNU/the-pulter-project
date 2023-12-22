@@ -164,7 +164,7 @@ $.fn.linenumberOnOff = function() {
 	});
 }
 
-// todo: somehow take this out of the global space
+// todo: take this out of the global space
 // todo: don't require async
 // get the file address of the prev poem and next poem //
 var poemData = (function () {

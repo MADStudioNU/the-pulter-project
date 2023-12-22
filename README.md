@@ -31,7 +31,7 @@ You should have the following terminal commands available:
 ### Development Instance
 [![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
 
-Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push with changes withing these folders: `./pulter-poems` and `./pulter-site`. The commiter may choose to skip the build by including `[skip ci]` string in the commit message.
+Branch `develop` is built and deployed to the ["preview site"](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#poems) on every push with changes withing these folders: `./pulter-poems` and `./pulter-site`. A contributor may choose to skip the build by including `[skip ci]` string in the commit message.
 
 Or use this one-liner to deploy to Netlify manually: `npm run build; netlify deploy -p -d dist/;`.
 

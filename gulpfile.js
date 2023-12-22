@@ -13,7 +13,9 @@ const AE_TRANSFORMATION = SITE_BASE + 'xslt/poem-ae.xsl';
 const PSEUDO_TRANSFORMATION = SITE_BASE + 'xslt/poem-pseudo.xsl';
 const VM_TRANSFORMATION = SITE_BASE + 'versioning-machine/src/vmachine.xsl';
 const PP_SEARCH_EE_TRANSFORMATION = SITE_BASE + 'xslt/search-ee.xsl';
+const PP_SEARCH_AE_TRANSFORMATION = SITE_BASE + 'xslt/search-ae.xsl';
 const PP_SEARCH_CURATION_TRANSFORMATION = SITE_BASE + 'xslt/search-curation.xsl';
+const PP_SEARCH_EXPLORATION_TRANSFORMATION = SITE_BASE + 'xslt/search-exploration.xsl';
 const LUNR_INIT_PARTIAL = SITE_BASE + 'scripts/partials/_search-index-init.js';
 const ELASTICLUNR_LIBRARY = './node_modules/elasticlunr/elasticlunr.min.js';
 const LIVE_SITE_BASE_URL = '//pulterproject.northwestern.edu';
@@ -433,6 +435,34 @@ gulp.task('xslt:search:elemental',
     })
 );
 
+gulp.task('xslt:search:amplified',
+  gulp.series('getManifest', function () {
+    return gulp.src(XML_SOURCES_FOLDER + 'pulter_*.xml')
+      .pipe(flatMap(function (stream, xmlFile) {
+        const fileName = path.basename(xmlFile.path);
+        let poemId = fileName
+          .replace(/\.[^/.]+$/, '')
+          .replace('pulter_', '');
+        poemId = +poemId;
+
+        const filtered = filterById(_manifest['poems'], poemId);
+        const isPublished = filtered.length > 0 && filtered[0].isPublished;
+        const isPseudo = filtered[0] ? (filtered[0].hasOwnProperty('isPseudo')) : false;
+
+        if (isPublished && !isPseudo && isNumber(poemId)) {
+          return gulp.src(xmlFile.path)
+            .pipe(xslt(getXSLTProcOptions(PP_SEARCH_AE_TRANSFORMATION)))
+            .pipe(plumber())
+            .pipe(rename('doc_' + poemId + '.js'))
+        } else {
+          return gulp.src('blank.txt', { allowEmpty: true });
+        }
+      }))
+      .pipe(concat('_ae-search.js'))
+      .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+  })
+);
+
 gulp.task('xslt:search:curations', function () {
   return gulp.src([SITE_BASE + 'curations/*.html'])
     .pipe(flatMap(function (stream, file) {
@@ -457,12 +487,39 @@ gulp.task('xslt:search:curations', function () {
     .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
 });
 
+gulp.task('xslt:search:explorations', function () {
+  return gulp.src([SITE_BASE + 'explorations/*.html'])
+    .pipe(flatMap(function (stream, file) {
+      const fileStem = file.stem;
+      return stream
+        .pipe(
+          xslt(
+            getXSLTProcOptions(
+              PP_SEARCH_EXPLORATION_TRANSFORMATION,
+              true
+            )
+          )
+        )
+        .pipe(
+          replace('id:""', `id:"${fileStem}"`)
+        )
+    }))
+    .pipe(concat('_exploration-search.js'))
+    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+});
+
 gulp.task('xslt:search',
-  gulp.series('xslt:search:elemental', 'xslt:search:curations', function() {
+  gulp.series(
+    'xslt:search:elemental',
+    'xslt:search:amplified',
+    'xslt:search:curations',
+    'xslt:search:explorations',
+    function() {
       return gulp.src(SEARCH_FOLDER + '/partials/*.js')
         .pipe(concat('pulter-search.js'))
         .pipe(appendPrepend.prependFile(LUNR_INIT_PARTIAL))
         .pipe(appendPrepend.prependFile(ELASTICLUNR_LIBRARY))
+        .pipe(uglify())
         .pipe(gulp.dest(SEARCH_FOLDER));
     })
 );
