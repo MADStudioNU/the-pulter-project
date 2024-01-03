@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -142,7 +142,7 @@
           <pb ed="#ae" facs="#f7610_000"/>
         </rdg>
       </app>
-      
+
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_187" type="pageNum" place="margin-topright">3</fw>[Emblem 3]</rdg>
@@ -291,7 +291,7 @@
           <fw type="catch" place="bottom">but</fw>
         </rdg>
       </app>
-      
+
       <app>
         <rdg wit="#ft">
           <pb ed="#ft" facs="#f7610_188" n="92v"/>
@@ -303,7 +303,7 @@
           <pb ed="#ae" facs="#f7610_000"/>
         </rdg>
       </app>
-      
+
       <l n="17">
         <app>
           <rdg wit="#ft">But when in Thetis Lap hee layes his Head</rdg>
@@ -464,7 +464,7 @@
         <app>
           <rdg wit="#ft">Infinitely then <seg>this<note type="physical">“thus” altered to “this,” or reverse</note></seg> our Orb more bright</rdg>
           <rdg wit="#ee">Infinitely than this, our <seg>orb<note type="gloss">Earth</note></seg>, more bright–</rdg>
-          <rdg wit="#ae"><seg>Infinitely than this, our orb, more bright,<note type="critical">This and surrounding lines about the “horoscope” are difficult to parse because of elision - we need to supply “that is” after it - and an unusual arrangement of words, likely for the sake of rhyme. We could paraphrase them thus: there is a future time when the speaker’s dead body (“dust,” which is itself an allusion to Genesis 2:7) and Jesus will “meet,” or unite, in a horoscope that is infinitely brighter than is the current one (“this”), which seems to have been cast on Earth (“our orb”) or is marked as “earthly.” The strained syntax, which renders punctuation in these lines a dicey enterprise, may reflect the certain, but unknown, date of this horoscope’s realization. 
+          <rdg wit="#ae"><seg>Infinitely than this, our orb, more bright,<note type="critical">This and surrounding lines about the “horoscope” are difficult to parse because of elision - we need to supply “that is” after it - and an unusual arrangement of words, likely for the sake of rhyme. We could paraphrase them thus: there is a future time when the speaker’s dead body (“dust,” which is itself an allusion to Genesis 2:7) and Jesus will “meet,” or unite, in a horoscope that is infinitely brighter than is the current one (“this”), which seems to have been cast on Earth (“our orb”) or is marked as “earthly.” The strained syntax, which renders punctuation in these lines a dicey enterprise, may reflect the certain, but unknown, date of this horoscope’s realization.
         </note></seg></rdg>
         </app>
       </l>
