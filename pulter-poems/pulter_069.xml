@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -142,7 +142,7 @@
           <pb ed="#ae" facs="#f7610_000"/>
         </rdg>
       </app>
-      
+
       <head>
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_187" type="pageNum" place="margin-topright">3</fw>[Emblem 3]</rdg>
@@ -164,7 +164,11 @@
               <note type="headnote">A blue flower rises “many cubits” high out of the centre of the earth in order to track the sun across the sky from east to west. The image is already arresting, but Pulter takes it further: for, even after sunset, the flower still follows—not merely wilting back to earth, however, but “break[ing] through all to meet her radiant lover,” even on the very opposite side of the world. The ferocity of this literally ground-breaking flower, so radically active in its solar loyalty, then becomes an allegory of an equally violent devotion in “those souls which are to God united.” Theirs is no passive piety, as makes sense in the embattled world in which Pulter and her ilk practiced their faith during England’s civil wars.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+                <p>Governed by a pair of analogies – a flower is like the sun and, in turn, that sun-flower is like the soul – “Heliotropians” brings into relation Pulter’s abiding interest in botanical natural history, which is perhaps best expressed in <ref type="pp-poem-ref" corresp="12">“The Garden, or The Contention of Flowers,”</ref> and intense religious devotion. If only, at more granular levels, this poem’s meaning were as unambiguous as this poetic logic would suggest it to be.</p>
+                <p>Consider, for example, the first analogy. It likens “this simple,” or a medicinal preparation consisting of a single botanical ingredient, to the journey of the sun. Its logic is straightforward, commonplace even: where the sun goes, so too does the flower’s bloom and leaves. Pulter’s heliotrope, however, behaves like no other heliotrope - nay, flower - that I know. She defies the laws of physics. Rooted deep inside the Earth (its “center”), this flower tracks the sun in the sky over the course of the day and then, fantastically, continues its pursuit beyond the horizon. When the sun arrives to the antipodes, or the exact spot on the Earth’s surface that is opposite to where the speaker is, the heliotrope follows, presumably having bored through an “earthly bed” and finding on the other side “earth or sea” to push through – it doesn’t matter which – to hitch herself once more to the sun’s luminous wagon. It seems as if the heliotrope will never stop chasing the sun, and, because of this valued capacity for “constant love,” the flower is, in the second analogy, likened to “those souls which are to God united.” As subsequent glosses indicate, this second analogy is no more uncomplicated than the first: it is infused with biblical reference and its build-up to a new, brighter “horoscope” taxes the poem’s syntax. As “Wheels, gibbets, precipices, crosses, [and] flame” break the bodies of martyrs, so too do they interrupt the flow of poetic utterance.</p>
+                <p>As extraordinary as Pulter’s analogy featuring the heliotrope is, it is not unique to this poem. A remarkably similar version appears in <ref type="pp-poem-ref" corresp="44">“A Solitary Discourse,”</ref> which is recorded earlier in the manuscript. Many of Pulter’s poems can be said to be variations on a theme, but nowhere else in the collection is such overlap, especially in diction and conceit, as substantial. It would be an instructive exercise to contrast Pulter’s use of the heliotrope, called in “A Solitary Discourse” “solsequium,” across these manuscript pages. In light of the poems’ shared interest in cyclicality and repetition, it is fitting that Pulter revisit, perhaps revise, and even resurrect in “The Heliotropians” the image of a flower that fabulously tails the sun to “th’other hemisphere.”</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -173,112 +177,113 @@
         <app>
           <rdg wit="#ft"><fw type="seqNum" place="inline">3</fw><seg>That<note type="physical">poem begins on same page as previous one ends</note></seg> many Heliotropians there bee</rdg>
             <rdg wit="#ee">That many <seg>heliotropians<note type="gloss">flowers which turn to follow the sun</note></seg> there be,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That many <seg>heliotropians<note type="gloss">heliotropes, or flowers that turn with the sun</note></seg> there be,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
           <rdg wit="#ft">Philoſophers unanimously agree</rdg>
             <rdg wit="#ee">Philosophers unanimously agree;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Philosophers<note type="critical"> Pulter’s keen interest in botanical matters is on display in this line and those that follow. In Pulter’s time, “naturalists” typically described phenomena that they observed in the natural world, while “Philosophers” weren’t constrained by the strictures of such physical evidence. They can all “agree” that there are “many” kinds of heliotropes, but it’s the naturalists who go in search of them. Pulter’s speaker counts themself among the select group (“Few”) who would venture so far to look for the poem’s fabulous flower.</note></seg> unanimously agree;</rdg>
         </app>
       </l>
       <l n="3">
         <app>
           <rdg wit="#ft">But that A plant Should in the Center grow</rdg>
             <rdg wit="#ee">But that a plant should in the <seg>center<note type="gloss">i.e., of the earth</note></seg> grow,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But that a plant should in the <seg>center<note type="gloss">i.e., of the earth</note></seg> grow,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
           <rdg wit="#ft">&ff;ew Naturalist to find the Truth will goe</rdg>
             <rdg wit="#ee">Few naturalists to find the truth will go</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Few naturalists to find the truth will go</rdg>
         </app>
       </l>
       <l n="5">
         <app>
           <rdg wit="#ft">Soe &ff;ar below the Cavarus of the Dead</rdg>
             <rdg wit="#ee">So far below the caverns of the dead</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So far below the caverns of the dead</rdg>
         </app>
       </l>
       <l n="6">
         <app>
           <rdg wit="#ft">To &ff;ind this Simple Simpring in her Bed</rdg>
             <rdg wit="#ee">To find this <seg>simple<note type="gloss">a plant used as medicine</note></seg>, <seg>simp’ring<note type="gloss">perhaps in obsolete sense of “simmering”</note></seg> in her bed,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To find this simple, <seg>simp’ring<note type="critical">smiling, usually done with affectation, but which Pulter’s flower seems to do more genuinely; it may also cast this medicinal flower, growing “So far below the caverns of the dead,” as glimmering, shimmering, or twinkling (<title rend="italic">OED</title>), perhaps making it all the easier to locate.
+        </note></seg> in her bed</rdg>
         </app>
       </l>
       <l n="7">
         <app>
           <rdg wit="#ft">Which Sends forth Branches through the Sea or Earth</rdg>
             <rdg wit="#ee">Which sends forth branches through the sea or earth,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Which sends forth branches through the sea or earth,</rdg>
         </app>
       </l>
       <l n="8">
         <app>
           <rdg wit="#ft">And as the Sun doth Riſe begins her Birth</rdg>
             <rdg wit="#ee">And, as the sun doth rise, begins her birth;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And, as the sun doth rise, begins her birth;</rdg>
         </app>
       </l>
       <l n="9">
         <app>
           <rdg wit="#ft">Then as hee higher doth in Splender goe</rdg>
             <rdg wit="#ee">Then, as <seg>he<note type="gloss">the sun</note></seg> higher doth in splendor go,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then, as <seg>he<note type="gloss">the sun</note></seg> higher doth in splendor go,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
           <rdg wit="#ft">Even Soe this Azure &ff;lower doth Taller grow</rdg>
             <rdg wit="#ee">Even so this <seg>azure<note type="gloss">blue</note></seg> flower doth taller grow,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Even so this <seg>azure<note type="critical">Blue is perhaps Pulter’s signature color, but she associates it more typically with the sky (<ref type="pp-poem-ref" corresp="1">“The Eclipse”</ref>) and blood (<ref type="pp-poem-ref" corresp="51">“Made When I Was Not Well”</ref>).</note></seg> flower doth taller grow;</rdg>
         </app>
       </l>
       <l n="11">
         <app>
           <rdg wit="#ft">And when hee Mounts to his Miridian Height</rdg>
             <rdg wit="#ee">And when he mounts to his <seg>meridian<note type="gloss">midday</note></seg> height,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And when he mounts to his meridian height,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
           <rdg wit="#ft">Then many Cubits Shee doth Stand <seg>upright<note type="physical">ht” written over other letters, possibly “th”</note></seg></rdg>
             <rdg wit="#ee">Then many <seg>cubits<note type="gloss">ancient unit of measure, approximately equivalent to a forearm</note></seg> she doth stand upright</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then many cubits she doth stand upright</rdg>
         </app>
       </l>
       <l n="13">
         <app>
           <rdg wit="#ft">Above the Earth, when to the Western Tracts</rdg>
             <rdg wit="#ee">Above the earth, when to the western <seg>tracts<note type="gloss">regions</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Above the earth; when to the western tracts</rdg>
         </app>
       </l>
       <l n="14">
         <app>
           <rdg wit="#ft"><seg>Heſperion<note type="physical">“ſ” appears written over other letter</note></seg> goes her stature Shee contracts</rdg>
             <rdg wit="#ee"><seg>Hesperion<note type="physical">In the manuscript, a long “s” appears written over another indecipherable letter; written thus, the word appears to merge “Hyperion,” and epithet for the sun, and “Hesperus,” a name for the evening star, which appears in the western part of the sky.</note></seg> goes, her stature she contracts;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Hesperion<note type="critical">On the rationale for this editorial decision, see this poem’s <ref type="pp-poem-ref" corresp="69">Elemental Edition</ref>; we may say that, in “Hesperion,” Pulter wittily “contracts,” in its more obsolete senses of “to combine into one” and “to condense” (<title rend="italic">OED</title>), the names of these figures.</note></seg> goes, her stature she contracts;</rdg>
         </app>
       </l>
       <l n="15">
         <app>
           <rdg wit="#ft">Then when hee Hurries down the Olympick Hill</rdg>
             <rdg wit="#ee">Then, when he hurries down th’Olympic hill</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then, when he hurries down th’Olympic hill,</rdg>
         </app>
       </l>
       <l n="16">
         <app>
           <rdg wit="#ft">Lower and Lower this brave &ff;lower growes still</rdg>
             <rdg wit="#ee">Lower and lower, this brave flower grows still;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Lower and lower, this brave flower grows still;</rdg>
         </app>
       </l>
       <app>
@@ -286,7 +291,7 @@
           <fw type="catch" place="bottom">but</fw>
         </rdg>
       </app>
-      
+
       <app>
         <rdg wit="#ft">
           <pb ed="#ft" facs="#f7610_188" n="92v"/>
@@ -298,187 +303,190 @@
           <pb ed="#ae" facs="#f7610_000"/>
         </rdg>
       </app>
-      
+
       <l n="17">
         <app>
           <rdg wit="#ft">But when in Thetis Lap hee layes his Head</rdg>
             <rdg wit="#ee">But when in <seg>Thetis’s<note type="gloss">sea nymph, often poetically portrayed as receiving the setting sun in her lap</note></seg> lap he lays his head,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But when in Thetis’s lap he lays his head,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
           <rdg wit="#ft">Shee Sadly <seg>Sinks<note type="physical">“S” altered from “th”</note></seg> into her earthly Bed</rdg>
             <rdg wit="#ee">She sadly sinks into her earthly bed.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>She sadly sinks into her earthly bed.<note type="critical">The first line is a conventional image for sunset at the western shore: the sun “sinks” into the “lap” of the sea-nymph Thetis. The end-stop of the period in the next line registers this diurnal moment. In light of the sun’s continued movement in the next lines, it is tempting to repunctuate with a semicolon: the setting sun, from this different vantage, is just another dawn.</note></seg></rdg>
         </app>
       </l>
       <l n="19">
         <app>
           <rdg wit="#ft">When to the Antipodes hee doth apear</rdg>
             <rdg wit="#ee">When to <seg>th’antipodes<note type="gloss">the opposite side of the world, and those who dwell there</note></seg> he doth appear,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When to th’antipodes he doth appear,</rdg>
         </app>
       </l>
       <l n="20">
         <app>
           <rdg wit="#ft">Shee follows him to tother Hemispheir</rdg>
             <rdg wit="#ee">She follows him to th’other hemisphere;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">She follows him to th’other hemisphere;</rdg>
         </app>
       </l>
       <l n="21">
         <app>
           <rdg wit="#ft">The Earth or Sea be’ng every where above her</rdg>
             <rdg wit="#ee">The earth or sea being everywhere above her,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The earth or sea being everywhere above her,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
           <rdg wit="#ft">Shee breaks through all to meet her Raidient Lover</rdg>
           <rdg wit="#ee">She breaks through all to meet her radiant lover;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">She breaks through all to meet her radiant lover;</rdg>
         </app>
       </l>
       <l n="23">
         <app>
           <rdg wit="#ft">Even <seg>ſoe<note type="physical">corrected, possibly from “for”</note></seg> thoſe Soules <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> are to God united</rdg>
           <rdg wit="#ee">Even so those souls which are to God united,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Even so those souls which are to God united,</rdg>
         </app>
       </l>
       <l n="24">
         <app>
           <rdg wit="#ft">Though in this vale of Tears they be benighted</rdg>
           <rdg wit="#ee">Though in this vale of tears they be benighted,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Though in this vale of tears they be benighted,</rdg>
         </app>
       </l>
       <l n="25">
         <app>
           <rdg wit="#ft">Yet still a Bleſſed Influence from above</rdg>
           <rdg wit="#ee">Yet still a blessed influence from above</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet still a blessed influence from above</rdg>
         </app>
       </l>
       <l n="26">
         <app>
           <rdg wit="#ft">Sweetly inclin’s them to a constant Love</rdg>
           <rdg wit="#ee">Sweetly inclines them to a constant love:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Sweetly inclines them to a constant love:</rdg>
         </app>
       </l>
       <l n="27">
         <app>
           <rdg wit="#ft">Though Tyrants in their innocent bloods doe Wallow</rdg>
           <rdg wit="#ee">Though tyrants in their innocent bloods do wallow;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Though tyrants in their innocent bloods do wallow,<note type="critical"> In this and the following lines, Pulter’s image set is especially political. Elsewhere in the manuscript, a beheaded Charles I is designated a martyr (<ref type="pp-poem-ref" corresp="8">“Of that Unparalleled Prince, Charles the First, His Horrid Murder”</ref> and <ref type="pp-poem-ref" corresp="15">“Let None Sigh More for Lucas or for Lisle”</ref>), while tyrants are associated with Parliamentarians (<ref type="pp-poem-ref" corresp="115">“Phalaris and the Brazen Bull [Emblem 50]”</ref>).</note></seg></rdg>
         </app>
       </l>
       <l n="28">
         <app>
           <rdg wit="#ft">Though they y<add place="above">e</add> <seg>Martyrs<note type="physical">“y” appears correction of earlier erased letter</note></seg> in their Deaths doe &ff;ollow</rdg>
           <rdg wit="#ee">Though they the martyrs in their deaths do follow.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Though they the martyrs in their deaths do follow–</rdg>
         </app>
       </l>
       <l n="29">
         <app>
           <rdg wit="#ft">Wheels, Jibbits Precipices Croſſes, &ff;lame</rdg>
           <rdg wit="#ee"><seg>Wheels, gibbets, precipices, crosses, flame<note type="gloss">instruments of torture and execution</note></seg>:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Wheels, gibbets, precipices, crosses, flame–</rdg>
         </app>
       </l>
       <l n="30">
         <app>
           <rdg wit="#ft">The’le break through all to magnifie his name</rdg>
           <rdg wit="#ee">They’ll break through all to magnify His name.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">They’ll break through all to magnify His name.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
           <rdg wit="#ft">T’is neither Power nor <seg>Principallitie<note type="physical">final “i” written over other letter, probably “e”</note></seg></rdg>
           <rdg wit="#ee"><seg>’Tis neither power nor principality,<note type="gloss">For this line and the next, see Romans, 8:38-9: “nor principalities, nor powers, ... nor any other creature, shall be able to separate us from the love of God.” Principalities are offices or officials, or the territories they claim.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">’Tis neither power nor principality,</rdg>
         </app>
       </l>
       <l n="32">
         <app>
           <rdg wit="#ft">Dear God can Seperate my Soul from thee</rdg>
           <rdg wit="#ee">Dear God, can separate my soul from Thee;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Dear God, can separate my soul from Thee;<note type="critical">The reference here is to Romans 8:38-9; the previous lines, which feature tyrants, martyrs, and engines of torture and modes of most unpleasant death, serve as gloss for it. Although not all are unique to this poem (but some are), the terms that Pulter employs to imagine martyrdom  (“Wheels, gibbets, precipices, crosses, flame”) nowhere else in the manuscript convey these specific disciplinary meanings.
+        </note></seg></rdg>
         </app>
       </l>
       <l n="33">
         <app>
           <rdg wit="#ft">Nor all the Powers of Heaven Hell or Earth</rdg>
           <rdg wit="#ee">Nor all the powers of Heaven, Hell, or Earth</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Nor all the powers of Heaven, Hell, or Earth</rdg>
         </app>
       </l>
       <l n="34">
         <app>
           <rdg wit="#ft">Can keep my Soul from whence she had her Birth</rdg>
           <rdg wit="#ee">Can keep my soul from whence she had her birth;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Can keep my soul from whence she had her birth;</rdg>
         </app>
       </l>
       <l n="35">
         <app>
           <rdg wit="#ft">Though Death Calcine my &ff;lesh &amp; bones to dust</rdg>
           <rdg wit="#ee">Though death <seg>calcine<note type="gloss">purify</note></seg> my flesh and bones to <seg>dust<note type="critical">here, the disintegrated matter of her dead body; also identified with “first principles” (of the next line), the originating elements of humanity as described in Genesis 2:7: “And the Lord God formed man [of] the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.”</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Though death calcine my flesh and bones to dust,</rdg>
         </app>
       </l>
       <l n="36">
         <app>
           <rdg wit="#ft">In my first Principles I’le in thee trust</rdg>
           <rdg wit="#ee">In my first principles, I’ll in Thee trust.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">In my first principles, I’ll in Thee trust;</rdg>
         </app>
       </l>
       <l n="37">
         <app>
           <rdg wit="#ft">Ney even my Dust disperst shall Rest in hope</rdg>
           <rdg wit="#ee">Nay, even my dust dispersed shall rest in hope</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Nay, even my dust dispersed shall rest in hope</rdg>
         </app>
       </l>
       <l n="38">
         <app>
           <rdg wit="#ft">To <seg>meete<note type="physical">final “te” added later in different hand from main scribe; imperfectly erased descender below “t”</note></seg> my Saviour in A Horiſcope</rdg>
           <rdg wit="#ee">To meet my Savior in a <seg>horoscope<note type="critical">an alignment of the heavenly bodies; the sense in this and surrounding lines is that the speaker’s disintegrated body after death (“dust”) will anticipate meeting Christ when the heavenly bodies align in a “horoscope” brighter than the current one.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To meet my Savior in a <seg>horoscope<note type="gloss"> According to the <title rend="italic">OED</title>, this word is more likely to be found in astrological texts from the period than in poetry, although Pulter employs it elsewhere in hers (“Aurora [1]” and “The Center”). Editors typically cast Pulter’s uses of “horoscope” as vague and unspecialized. If so, then it is ironic in this poem and in “A Solitary Discourse” that “horoscope” names a very specific future time - the Second Coming - whose precise moment, however, is unknowable to Pulter. The prepositional phrase “in a horoscope” perhaps also suggests that Pulter has in mind a more specialist object - a “horoscope,” which is a “dial” or “table” upon which time (“hours,” “days and nights” or “seasons”) was marked (<title rend="italic">OED</title>).
+        </note></seg></rdg>
         </app>
       </l>
       <l n="39">
         <app>
           <rdg wit="#ft">Infinitely then <seg>this<note type="physical">“thus” altered to “this,” or reverse</note></seg> our Orb more bright</rdg>
           <rdg wit="#ee">Infinitely than this, our <seg>orb<note type="gloss">Earth</note></seg>, more bright–</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Infinitely than this, our orb, more bright,<note type="critical">This and surrounding lines about the “horoscope” are difficult to parse because of elision - we need to supply “that is” after it - and an unusual arrangement of words, likely for the sake of rhyme. We could paraphrase them thus: there is a future time when the speaker’s dead body (“dust,” which is itself an allusion to Genesis 2:7) and Jesus will “meet,” or unite, in a horoscope that is infinitely brighter than is the current one (“this”), which seems to have been cast on Earth (“our orb”) or is marked as “earthly.” The strained syntax, which renders punctuation in these lines a dicey enterprise, may reflect the certain, but unknown, date of this horoscope’s realization.
+        </note></seg></rdg>
         </app>
       </l>
       <l n="40">
         <app>
           <rdg wit="#ft">Not interwoven as as now with death &amp; Night</rdg>
           <rdg wit="#ee">Not interwoven, as now, with death and night;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Not interwoven, as now, with death and night;</rdg>
         </app>
       </l>
       <l n="41">
         <app>
           <rdg wit="#ft">Then though I Sadly here Sigh out my Story</rdg>
           <rdg wit="#ee">Then, though I sadly here sigh out my story,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then, though I sadly here sigh out my story,</rdg>
         </app>
       </l>
       <l n="42">
         <app>
           <rdg wit="#ft">Yet am I Sure to Riſe again to Glory.</rdg>
           <rdg wit="#ee">Yet am I sure to rise again to glory.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet am I sure to rise again to glory.</rdg>
         </app>
       </l>
       <app>
