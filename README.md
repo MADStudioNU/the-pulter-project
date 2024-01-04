@@ -45,7 +45,7 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 
 ### Current Delta
 Poems that are published on the preview site but not on the production site:
-> A069 (TBA), A115 (Koch)
+> A069 (Nardizzi), A115 (Koch)
 
 Curations:
 > —
