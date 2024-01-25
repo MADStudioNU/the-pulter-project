@@ -1667,6 +1667,15 @@
               <xsl:if test="$witnessName = 'Christopher D. Jimenez'">
                 <xsl:value-of select="'Stetson University'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Vin Nardizzi'">
+                <xsl:value-of select="'The University of British Columbia'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Jonathan Koch'">
+                <xsl:value-of select="'Pepperdine University'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Sophie Lawall'">
+                <xsl:value-of select="'University of Ottawa'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1741,6 +1750,15 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Christopher D. Jimenez'">
                 <xsl:value-of select="'https://www.stetson.edu/other/faculty/chris-jimenez.php'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Vin Nardizzi'">
+                <xsl:value-of select="'https://english.ubc.ca/profile/vin-nardizzi/'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Jonathan Koch'">
+                <xsl:value-of select="'https://seaver.pepperdine.edu/academics/faculty/jonathan-koch/'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Sophie Lawall'">
+                <xsl:value-of select="'https://uniweb.uottawa.ca/members/5799/profile'"/>
               </xsl:if>
             </xsl:variable>
 

@@ -964,7 +964,7 @@
             <pp:person>Elizabeth Kolkovich</pp:person>
           </pp:author>
           <pp:title>The Sad Nightingale</pp:title>
-          <pp:title>Sad Nightingale, The</pp:title>
+          <pp:sortingTitle>Sad Nightingale, The</pp:sortingTitle>
           <pp:peek>Pulter’s poem follows the Italian poet Petrarch and several English authors in using the nightingale as a figure of mourning and sorrow.</pp:peek>
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
@@ -1140,7 +1140,7 @@
             <pp:person>Frances E. Dolan</pp:person>
           </pp:author>
           <pp:title>The Botanical Blazon</pp:title>
-          <pp:title>Botanical Blazon, The</pp:title>
+          <pp:sortingTitle>Botanical Blazon, The</pp:sortingTitle>
           <pp:peek>The blazon often described beauty in botanical terms. See the Exploration “Hester Pulter and the Blazon in Early Modern England.” There you will find Edmund Spenser’s Sonnet 64, which might be seen as a version of the botanical blazon, describing the beloved as a garden of flowers.</pp:peek>
           <pp:keywords>
             <pp:keyword>blazon</pp:keyword>
@@ -7453,6 +7453,9 @@
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Sophie Lawall</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
