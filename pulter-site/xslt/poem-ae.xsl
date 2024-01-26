@@ -13,7 +13,7 @@
   <!-- VARIABLES BEGIN  -->
   <xsl:variable name="resourceId" select="/tei:TEI/@xml:id"/>
   <xsl:variable name="poemID" select="substring-after($resourceId, 'mads.pp.')"/>
-  <xsl:variable name="isPublished" select="boolean(count($witnesses[starts-with(@xml:id, $amplifiedEditionsNamespace)]) &gt; 0)" />
+  <xsl:variable name="isPublished" select="count($witnesses[starts-with(@xml:id, $amplifiedEditionsNamespace)]) &gt; 0" />
   <xsl:variable name="projectName">The Pulter Project</xsl:variable>
   <xsl:variable name="amplifiedEditionId">ae</xsl:variable>
   <xsl:variable name="amplifiedEditionsNamespace" select="'a'"/>
@@ -379,7 +379,7 @@
             <a href="/about-hester-pulter-and-the-manuscript.html">Who is Hester Pulter?</a>
           </h6>
           <h6>
-            <a href="/scholarship.html">Scholarship</a>
+            <a href="/resources.html">Resources</a>
           </h6>
           <h6>
             <a href="mailto:pulterproject@gmail.com" target="_blank">Get in touch</a>

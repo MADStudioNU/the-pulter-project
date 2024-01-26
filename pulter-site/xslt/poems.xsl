@@ -8904,7 +8904,7 @@
                   <a href="/about-hester-pulter-and-the-manuscript.html">Who is Hester Pulter?</a>
                 </h6>
                 <h6>
-                  <a href="/scholarship.html">Scholarship</a>
+                  <a href="/resources.html">Resources</a>
                 </h6>
                 <h6>
                   <a href="mailto:pulterproject@gmail.com" target="_blank">Get in touch</a>
