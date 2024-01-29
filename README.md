@@ -48,7 +48,7 @@ Poems that are published on the preview site but not on the production site:
 > A069 (Nardizzi), A109 (Lawall), A115 (Koch)
 
 Curations:
-> —
+> C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
 
 Explorations:
 > —
