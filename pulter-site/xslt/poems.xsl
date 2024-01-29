@@ -7733,29 +7733,29 @@
 <!--          <pp:author>Jonathan Koch</pp:author>-->
 <!--        </pp:edition>-->
       </pp:editions>
-      <pp:curations>
-        <pp:curation status="on" hash="phalaris-and-perillus-in-early-modern-print">
-          <pp:author>
-            <pp:person>Jonathan Koch</pp:person>
-          </pp:author>
-          <pp:title>Phalaris and Perillus in Early Modern Print</pp:title>
-          <pp:peek>Of all the classical figures in Pulter’s poem, Phalaris appears most broadly in the archive of books printed 1450–1700. The story of the tyrant is repeated in the works of Cicero, Ovid, Seneca, Plutarch, Pliny, and Lucian.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="procrustes-sciron-termerus-and-sinis-in-early-modern-print">
-          <pp:author>
-            <pp:person>Jonathan Koch</pp:person>
-          </pp:author>
-          <pp:title>Procrustes, Sciron, Termerus, and Sinis in Early Modern Print</pp:title>
-          <pp:peek>Apart from Phalaris and Perillus, of the four other villains in Pulter’s poem, only Procrustes has a significant presence in the corpus of books printed in England 1450–1700.</pp:peek>
-        </pp:curation>
-        <pp:curation status="on" hash="pulter-and-jamaica">
-          <pp:author>
-            <pp:person>Jonathan Koch</pp:person>
-          </pp:author>
-          <pp:title>Pulter and Jamaica</pp:title>
-          <pp:peek>In the headnote to my Amplified Edition for “Phalaris and the Brazen Bull,” I suggested that Pulter’s reference to Jamaica seems to originate from a Restoration context.</pp:peek>
-        </pp:curation>
-      </pp:curations>
+<!--      <pp:curations>-->
+<!--        <pp:curation status="on" hash="phalaris-and-perillus-in-early-modern-print">-->
+<!--          <pp:author>-->
+<!--            <pp:person>Jonathan Koch</pp:person>-->
+<!--          </pp:author>-->
+<!--          <pp:title>Phalaris and Perillus in Early Modern Print</pp:title>-->
+<!--          <pp:peek>Of all the classical figures in Pulter’s poem, Phalaris appears most broadly in the archive of books printed 1450–1700. The story of the tyrant is repeated in the works of Cicero, Ovid, Seneca, Plutarch, Pliny, and Lucian.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="procrustes-sciron-termerus-and-sinis-in-early-modern-print">-->
+<!--          <pp:author>-->
+<!--            <pp:person>Jonathan Koch</pp:person>-->
+<!--          </pp:author>-->
+<!--          <pp:title>Procrustes, Sciron, Termerus, and Sinis in Early Modern Print</pp:title>-->
+<!--          <pp:peek>Apart from Phalaris and Perillus, of the four other villains in Pulter’s poem, only Procrustes has a significant presence in the corpus of books printed in England 1450–1700.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--        <pp:curation status="on" hash="pulter-and-jamaica">-->
+<!--          <pp:author>-->
+<!--            <pp:person>Jonathan Koch</pp:person>-->
+<!--          </pp:author>-->
+<!--          <pp:title>Pulter and Jamaica</pp:title>-->
+<!--          <pp:peek>In the headnote to my Amplified Edition for “Phalaris and the Brazen Bull,” I suggested that Pulter’s reference to Jamaica seems to originate from a Restoration context.</pp:peek>-->
+<!--        </pp:curation>-->
+<!--      </pp:curations>-->
       <pp:keywords>
         <pp:keyword>justice</pp:keyword>
         <pp:keyword>punishment</pp:keyword>
