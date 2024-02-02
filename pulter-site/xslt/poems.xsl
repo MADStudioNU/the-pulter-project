@@ -7740,6 +7740,16 @@
           </pp:author>
           <pp:title>Phalaris and Perillus in Early Modern Print</pp:title>
           <pp:peek>Of all the classical figures in Pulter’s poem, Phalaris appears most broadly in the archive of books printed 1450–1700. The story of the tyrant is repeated in the works of Cicero, Ovid, Seneca, Plutarch, Pliny, and Lucian.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Abraham Cowley</pp:keyword>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>botany</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>tyranny</pp:keyword>
+            <pp:keyword>war</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="procrustes-sciron-termerus-and-sinis-in-early-modern-print">
           <pp:author>
@@ -7747,6 +7757,18 @@
           </pp:author>
           <pp:title>Procrustes, Sciron, Termerus, and Sinis in Early Modern Print</pp:title>
           <pp:peek>Apart from Phalaris and Perillus, of the four other villains in Pulter’s poem, only Procrustes has a significant presence in the corpus of books printed in England 1450–1700.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>Fulke Greville</pp:keyword>
+            <pp:keyword>Henry More</pp:keyword>
+            <pp:keyword>Henry Vaughan</pp:keyword>
+            <pp:keyword>justice</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>Richard Crashaw</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+            <pp:keyword>Walter Raleigh</pp:keyword>
+            <pp:keyword>war</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="pulter-and-jamaica">
           <pp:author>
@@ -7754,6 +7776,13 @@
           </pp:author>
           <pp:title>Pulter and Jamaica</pp:title>
           <pp:peek>In the headnote to my Amplified Edition for “Phalaris and the Brazen Bull,” I suggested that Pulter’s reference to Jamaica seems to originate from a Restoration context.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Americas</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>colonialism</pp:keyword>
+            <pp:keyword>Oliver Cromwell</pp:keyword>
+            <pp:keyword>war</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
