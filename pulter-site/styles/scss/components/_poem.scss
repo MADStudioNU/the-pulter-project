@@ -635,7 +635,6 @@ $globalBorderRadius: 4px;
           .line-number-value {
             font-family: $pp_curatorialFont;
             font-size: ms(-4);
-            //color: rgba($pp_manuscriptPaper, 1);
             color: color.scale($pp_manuscriptPaper, $lightness: -33%);
             position: absolute;
             left: -3.33em;
