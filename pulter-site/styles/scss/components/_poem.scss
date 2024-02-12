@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 @import "../env/vars";
 @import "../env/mixins";
 @import '../vendor/featherlight';
@@ -632,11 +634,11 @@ $globalBorderRadius: 4px;
           // Line numbers
           .line-number-value {
             font-family: $pp_curatorialFont;
-            font-size: ms(-5);
-            color: rgba($pp_manuscriptPaper, 1);
+            font-size: ms(-4);
+            color: color.scale($pp_manuscriptPaper, $lightness: -33%);
             position: absolute;
             left: -3.33em;
-            bottom: 1em;
+            bottom: .75em;
             width: 2em;
             text-align: right;
             line-height: 1;
