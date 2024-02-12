@@ -567,13 +567,20 @@ gulp.task('sitemap',
         let publishedWithThisId = [];
         const id = +itemName.split('-')[0].slice(1);
 
+        // todo: remove this
+        console.log('item name: ' + itemName);
+        console.log('id: ' + id);
+
         if (isNumber(id)) {
           publishedWithThisId = publishedPoems.filter(function (poem) {
             return +poem.id === id;
           });
         }
 
-        return (itemName.indexOf('.html') > -1 && publishedWithThisId.length);
+        return (
+          itemName.indexOf('.html') > -1 &&
+          publishedWithThisId.length
+        );
       })
       .map(function (curationFileName) {
         return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;

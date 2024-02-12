@@ -8240,7 +8240,18 @@
   <!-- JSON poem manifest generator -->
   <xsl:template match="pulterProjectJSONMetadata">
     <xsl:text>{&quot;connections&quot;: </xsl:text>
-    <xsl:text>{&quot;contributors&quot;: </xsl:text>
+    <xsl:text>{&quot;published&quot;: </xsl:text>
+    <xsl:text>[</xsl:text>
+    <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:curations/pp:curation">
+      <xsl:variable name="isLastConnection" select="position() = last()"/>
+      <xsl:variable name="connectionId" select="./@hash"/>
+      <xsl:value-of select="concat('&quot;', $connectionId, '&quot;')"/>
+      <xsl:if test="not($isLastConnection)">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
+    </xsl:for-each>
+    <xsl:text>],</xsl:text>
+    <xsl:text>&quot;contributors&quot;: </xsl:text>
     <xsl:text>[</xsl:text>
     <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:curations/pp:curation">
       <xsl:variable name="isLastConnection" select="position() = last()"/>
