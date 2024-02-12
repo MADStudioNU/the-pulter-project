@@ -567,7 +567,7 @@ gulp.task('sitemap',
         let publishedWithThisId = [];
         const id = +itemName.split('-')[0].slice(1);
 
-        if (typeof id === 'number' && !isNaN(id)) {
+        if (isNumber(id)) {
           publishedWithThisId = publishedPoems.filter(function (poem) {
             return +poem.id === id;
           });
