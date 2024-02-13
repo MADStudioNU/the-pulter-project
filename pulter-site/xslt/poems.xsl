@@ -7247,6 +7247,14 @@
           </pp:author>
           <pp:title>Resurrections at Cairo</pp:title>
           <pp:peek>All legends start somewhere, and the false resurrections of Cairo to which Pulter gestures in “View But This Tulip” are no exception. The earliest version of the story seems to appear in a 1543 Italian travel narrative</pp:peek>
+          <pp:keywords>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Other(s)</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>travel</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="resurrections-of-the-body">
           <pp:author>
@@ -8052,7 +8060,7 @@
 
   <!-- The Pulter Project Explorations -->
   <pp:explorations>
-    <pp:exploration hash="and-space-may-produce-new-worlds">
+    <pp:exploration status="on" hash="and-space-may-produce-new-worlds">
       <pp:author>
         <pp:person>Lara Dodds</pp:person>
       </pp:author>
@@ -8067,7 +8075,7 @@
         <pp:keyword>technology</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="hester-pulters-date-of-birth">
+    <pp:exploration status="on" hash="hester-pulters-date-of-birth">
       <pp:author>
         <pp:person>Leah Knight</pp:person>
       </pp:author>
@@ -8080,7 +8088,7 @@
         <pp:keyword>technology</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="hester-pulter-in-15-fifteens">
+    <pp:exploration status="on" hash="hester-pulter-in-15-fifteens">
       <pp:author>
         <pp:person>Leah Knight</pp:person>
       </pp:author>
@@ -8104,7 +8112,7 @@
         <pp:keyword>reproduction</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="hester-pulters-marriage">
+    <pp:exploration status="on" hash="hester-pulters-marriage">
       <pp:author>
         <pp:person>Leah Knight</pp:person>
       </pp:author>
@@ -8115,7 +8123,7 @@
         <pp:keyword>Pulter’s life</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="hester-pulter-and-english-blazon">
+    <pp:exploration status="on" hash="hester-pulter-and-english-blazon">
       <pp:author>
         <pp:person>Frances E. Dolan</pp:person>
       </pp:author>
@@ -8134,7 +8142,7 @@
         <pp:keyword>William Shakespeare</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
+    <pp:exploration status="on" hash="how-to-tell-if-you-are-in-a-hester-pulter-poem">
       <pp:author>
         <pp:person>Lara Dodds</pp:person>
       </pp:author>
@@ -8143,7 +8151,7 @@
         <pp:keyword>humor</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="the-making-of-the-pulter-project" type="video">
+    <pp:exploration status="on" hash="the-making-of-the-pulter-project" type="video">
       <pp:author>
         <pp:person>C. A. Davis</pp:person>
       </pp:author>
@@ -8157,7 +8165,7 @@
         <pp:keyword>technology</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="picturing-pulter">
+    <pp:exploration status="on" hash="picturing-pulter">
       <pp:author>
         <pp:person>Leah Knight</pp:person>
       </pp:author>
@@ -8174,7 +8182,7 @@
         <pp:keyword>textile</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="rereading-pulters-confinement-in-the-pandemic">
+    <pp:exploration status="on" hash="rereading-pulters-confinement-in-the-pandemic">
       <pp:author>
         <pp:person>Leah Knight</pp:person> et al.
       </pp:author>
@@ -8188,7 +8196,7 @@
         <pp:keyword>isolation</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="soundings-hearing-hester-pulters-poems">
+    <pp:exploration status="on" hash="soundings-hearing-hester-pulters-poems">
       <pp:author>
         <pp:person>Leah Knight</pp:person> and <pp:person>Wendy Wall</pp:person>
       </pp:author>
@@ -8199,7 +8207,7 @@
         <pp:keyword>sound</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration hash="what-else-is-in-the-manuscript">
+    <pp:exploration status="on" hash="what-else-is-in-the-manuscript">
       <pp:author>
         <pp:person>Wendy Wall</pp:person>
       </pp:author>
@@ -8251,8 +8259,16 @@
     <xsl:text>[</xsl:text>
     <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration | document('')/xsl:stylesheet/pp:poems/pp:poem/pp:curations/pp:curation">
       <xsl:variable name="isLastConnection" select="position() = last()"/>
-      <xsl:variable name="connectionId" select="./@hash"/>
-      <xsl:value-of select="concat('&quot;', $connectionId, '&quot;')"/>
+      <xsl:variable name="connectionHash" select="./@hash"/>
+      <xsl:variable name="isPublished" select="boolean(./@status = 'on')"/>
+      <xsl:choose>
+        <xsl:when test="$isPublished">
+          <xsl:value-of select="concat('&quot;', $connectionHash, '&quot;')"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="'&quot;&quot;'"/>
+        </xsl:otherwise>
+      </xsl:choose>
       <xsl:if test="not($isLastConnection)">
         <xsl:text>,</xsl:text>
       </xsl:if>

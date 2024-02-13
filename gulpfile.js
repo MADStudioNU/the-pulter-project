@@ -97,6 +97,11 @@ function optimizeManifest () {
 
     // Process the manifest
     if (json.connections) {
+      // Remove elements that are empty strings (aka unpublished connections)
+      if (json.connections.published) {
+        json.connections.published = _.compact(json.connections.published);
+      }
+
       if (json.connections.contributors) {
         json.connections.contributors = _.uniq(json.connections.contributors)
           .sort()
@@ -281,11 +286,13 @@ gulp.task('files-deploy', function (done) {
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'poems'));
 
   // Copy curations
+  // todo: add a filter to remove unpublished curations
   gulp.src(SITE_BASE + 'curations/**/*')
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations'));
 
   // Copy explorations
+  // todo: add a filter to remove unpublished explorations
   gulp.src(SITE_BASE + 'explorations/**/*')
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
@@ -464,9 +471,13 @@ gulp.task('xslt:search:amplified',
 );
 
 gulp.task('xslt:search:curations', function () {
+  // todo: add a filter to remove unpublished curation
   return gulp.src([SITE_BASE + 'curations/*.html'])
     .pipe(flatMap(function (stream, file) {
       const fileStem = file.stem;
+
+      console.log('file.stem', file.stem);
+
       return stream
         .pipe(
           xslt(
@@ -488,6 +499,7 @@ gulp.task('xslt:search:curations', function () {
 });
 
 gulp.task('xslt:search:explorations', function () {
+  // todo: add a filter to remove unpublished explorations
   return gulp.src([SITE_BASE + 'explorations/*.html'])
     .pipe(flatMap(function (stream, file) {
       const fileStem = file.stem;
@@ -546,6 +558,7 @@ gulp.task('sitemap',
       return poemObj.isPublished;
     });
     let poemUrls = [];
+
     const triads = publishedPoems.map(function (poemObject) {
       const slug = dashify(poemObject.seo, {condense: true});
 
@@ -566,12 +579,10 @@ gulp.task('sitemap',
       .filter(function (itemName) {
         let publishedWithThisId = [];
         const id = +itemName.split('-')[0].slice(1);
+        const curationHash = itemName.slice(itemName.indexOf('-') + 1).replace('.html', '');
+        const isPublished = _manifest['connections']['published'].indexOf(curationHash) > -1;
 
-        // todo: remove this
-        console.log('item name: ' + itemName);
-        console.log('id: ' + id);
-
-        if (isNumber(id)) {
+        if (isNumber(id) && isPublished) {
           publishedWithThisId = publishedPoems.filter(function (poem) {
             return +poem.id === id;
           });
@@ -588,7 +599,10 @@ gulp.task('sitemap',
 
     const explorations = fs.readdirSync(SITE_BASE + 'explorations')
       .filter(function (itemName) {
-        return itemName.indexOf('.html') > -1;
+        const explorationHash = itemName.replace('.html', '');
+        const isPublished = _manifest['connections']['published'].indexOf(explorationHash) > -1;
+
+        return itemName.indexOf('.html') > -1 && isPublished;
       })
       .map(function (curationFileName) {
         return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
