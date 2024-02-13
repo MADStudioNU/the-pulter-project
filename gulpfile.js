@@ -58,7 +58,8 @@ const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
 const es = require('event-stream');
 const _ = require('lodash');
-import filter from 'gulp-filter';
+// todo: use dynamic import instead below
+// import filter from 'gulp-filter';
 // const filter = require('gulp-filter');
 
 // Variable to hold the current value of the poem manifest
