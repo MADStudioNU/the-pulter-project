@@ -7241,6 +7241,13 @@
             <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
+        <pp:curation status="on" hash="resurrections-at-cairo">
+          <pp:author>
+            <pp:person>Eileen Sperry</pp:person>
+          </pp:author>
+          <pp:title>Resurrections at Cairo</pp:title>
+          <pp:peek>All legends start somewhere, and the false resurrections of Cairo to which Pulter gestures in “View But This Tulip” are no exception. The earliest version of the story seems to appear in a 1543 Italian travel narrative</pp:peek>
+        </pp:curation>
         <pp:curation status="on" hash="resurrections-of-the-body">
           <pp:author>
             <pp:person>Frances E. Dolan</pp:person>
