@@ -58,7 +58,8 @@ const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
 const es = require('event-stream');
 const _ = require('lodash');
-const filter = require('gulp-filter');
+import filter from 'gulp-filter';
+// const filter = require('gulp-filter');
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -272,6 +273,13 @@ gulp.task('html', function () {
 });
 
 // Move over production ready files
+// todo: switch to this new task when ready
+gulp.task('files-deploy-new',
+  gulp.series('getManifest', function (done) {
+    console.log(_manifest);
+    done();
+  })
+);
 gulp.task('files-deploy', function (done) {
   gulp.src([
     SITE_BASE + '*',
@@ -288,6 +296,8 @@ gulp.task('files-deploy', function (done) {
 
   // Copy curations
   // todo: add a filter to remove unpublished curations
+  // todo: use gulp-filter
+  // todo: prepend the getManifest task to get access to the manifest
   gulp.src(SITE_BASE + 'curations/**/*')
     .pipe(plumber())
     .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations'));
