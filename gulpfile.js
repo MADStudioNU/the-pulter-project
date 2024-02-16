@@ -58,9 +58,7 @@ const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
 const es = require('event-stream');
 const _ = require('lodash');
-// todo: use dynamic import instead below
-// import filter from 'gulp-filter';
-// const filter = require('gulp-filter');
+let filter; // will use dynamic import to use this
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -93,6 +91,34 @@ function getXSLTProcOptions(xslFileName, isHTML) {
     inputIsHTML: isHTML
   }
 }
+
+// Manifest-related tasks and functions
+gulp.task('xslt:manifest', function () {
+  return gulp.src(SITE_BASE + 'xslt/_poemsJSON.xml')
+    .pipe(xslt(getXSLTProcOptions(SITE_BASE + 'xslt/poems.xsl')))
+    .pipe(concat(PULTER_POEM_MANIFEST_FILE_NAME))
+    .pipe(gulp.dest(SITE_BASE));
+});
+
+gulp.task('xslt:processManifest', function () {
+    return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+      .pipe(optimizeManifest())
+      .pipe(gulp.dest(SITE_BASE));
+  }
+);
+
+gulp.task('getManifest',
+  gulp.series(
+    'xslt:manifest',
+    'xslt:processManifest',
+    function () {
+      return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+        .pipe(flatMap(function (stream, file) {
+          _manifest = JSON.parse(file.contents.toString('utf-8'));
+          return stream;
+        }));
+    })
+);
 
 function optimizeManifest () {
   return es.map(function (file, cb) {
@@ -276,10 +302,100 @@ gulp.task('html', function () {
 // Move over production ready files
 // todo: switch to this new task when ready
 gulp.task('files-deploy-new',
-  gulp.series('getManifest', function (done) {
-    console.log(_manifest);
-    done();
-  })
+  gulp.series(
+    'getManifest',
+    async function (done) {
+      filter = await import('gulp-filter');
+      done();
+    },
+    function (done) {
+      gulp.src([
+        SITE_BASE + '*',
+        '!'+ SITE_BASE +'dropcaps',
+        '!'+ SITE_BASE +'xslt'
+      ])
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE));
+
+      // Copy poems
+      gulp.src(SITE_BASE + 'poems/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'poems'));
+
+      // Copy curations
+      // todo: add a filter to remove unpublished curations
+      // todo: use gulp-filter
+      gulp.src(SITE_BASE + 'curations/*.html')
+        .pipe(filter.default(
+          function (file) {
+            const fileName = file.stem;
+            // const file = fileName.slice(0, fileName.indexOf('.html'));
+
+            console.log(fileName);
+            // const isPublished = _manifest['connections']['published'].indexOf(fileName.replace('.html', '')) > -1;
+            // const isPublishedPoem = _manifest['poems'].filter(function (poem) {
+            //   return poem.id === id;
+            // })[0].isPublished;
+            //
+            // return isPublished && isPublishedPoem;
+            return true;
+          }
+        ))
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations'));
+
+      // Copy curation images
+      gulp.src(SITE_BASE + 'curations/img/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations/img'));
+
+      // Copy explorations
+      // todo: add a filter to remove unpublished explorations
+      gulp.src(SITE_BASE + 'explorations/*.html')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
+
+      // Copy exploration images
+      gulp.src(SITE_BASE + 'explorations/img/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations/img'));
+
+      // Copy what we need from VM
+      gulp.src([
+        SITE_BASE + 'versioning-machine/**/*',
+        '!' + SITE_BASE + '/versioning-machine/schema/**'
+      ], { nodir: true })
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'versioning-machine'));
+
+      // Copy the manifest
+      gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE));
+
+      // Copy the search script
+      gulp.src(SITE_BASE + 'search/pulter-search.js', { allowEmpty: true })
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'search'));
+
+      // Copy Google verification for
+      gulp.src(SITE_BASE + 'google1cf954f664c9b7de.html')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE));
+
+      // Copy the fonts
+      gulp.src(SITE_BASE + 'fonts/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'fonts'));
+
+      // Copy the family tree build
+      gulp.src(SITE_BASE + 'family-tree/build/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'family-tree/build'));
+
+      done();
+    }
+  )
 );
 gulp.task('files-deploy', function (done) {
   gulp.src([
@@ -398,33 +514,6 @@ gulp.task('xslt:index', function () {
     .pipe(concat('index.html'))
     .pipe(gulp.dest(SITE_BASE));
 });
-
-gulp.task('xslt:manifest', function () {
-  return gulp.src(SITE_BASE + 'xslt/_poemsJSON.xml')
-    .pipe(xslt(getXSLTProcOptions(SITE_BASE + 'xslt/poems.xsl')))
-    .pipe(concat(PULTER_POEM_MANIFEST_FILE_NAME))
-    .pipe(gulp.dest(SITE_BASE));
-});
-
-gulp.task('xslt:processManifest', function () {
-  return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-    .pipe(optimizeManifest())
-    .pipe(gulp.dest(SITE_BASE));
-  }
-);
-
-gulp.task('getManifest',
-  gulp.series(
-    'xslt:manifest',
-    'xslt:processManifest',
-    function () {
-      return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-        .pipe(flatMap(function (stream, file) {
-          _manifest = JSON.parse(file.contents.toString('utf-8'));
-          return stream;
-        }));
-    })
-);
 
 gulp.task('xslt:search:elemental',
   gulp.series('getManifest', function () {
