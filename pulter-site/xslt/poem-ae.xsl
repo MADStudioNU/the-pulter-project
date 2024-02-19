@@ -324,7 +324,7 @@
         </xsl:choose>
       </xsl:element>
 
-      <xsl:if test="$hasCurations = 'true' and $isPublished">
+      <xsl:if test="$hasCurations='true' and $isPublished">
         <section id="ctxs" class="lato">
           <header>
             <div class="label">

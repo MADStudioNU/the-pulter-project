@@ -58,6 +58,7 @@ const xslt = require('gulp-xsltproc');
 const argv = require('yargs').argv;
 const es = require('event-stream');
 const _ = require('lodash');
+let filter; // will use dynamic import to use this
 
 // Variable to hold the current value of the poem manifest
 let _manifest;
@@ -91,12 +92,45 @@ function getXSLTProcOptions(xslFileName, isHTML) {
   }
 }
 
+// Manifest-related tasks and functions
+gulp.task('xslt:manifest', function () {
+  return gulp.src(SITE_BASE + 'xslt/_poemsJSON.xml')
+    .pipe(xslt(getXSLTProcOptions(SITE_BASE + 'xslt/poems.xsl')))
+    .pipe(concat(PULTER_POEM_MANIFEST_FILE_NAME))
+    .pipe(gulp.dest(SITE_BASE));
+});
+
+gulp.task('xslt:processManifest', function () {
+    return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+      .pipe(optimizeManifest())
+      .pipe(gulp.dest(SITE_BASE));
+  }
+);
+
+gulp.task('getManifest',
+  gulp.series(
+    'xslt:manifest',
+    'xslt:processManifest',
+    function () {
+      return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+        .pipe(flatMap(function (stream, file) {
+          _manifest = JSON.parse(file.contents.toString('utf-8'));
+          return stream;
+        }));
+    })
+);
+
 function optimizeManifest () {
   return es.map(function (file, cb) {
     let json = JSON.parse(file.contents.toString('utf-8'));
 
     // Process the manifest
     if (json.connections) {
+      // Remove elements that are empty strings (aka unpublished connections)
+      if (json.connections.published) {
+        json.connections.published = _.compact(json.connections.published);
+      }
+
       if (json.connections.contributors) {
         json.connections.contributors = _.uniq(json.connections.contributors)
           .sort()
@@ -266,65 +300,97 @@ gulp.task('html', function () {
 });
 
 // Move over production ready files
-gulp.task('files-deploy', function (done) {
-  gulp.src([
-    SITE_BASE + '*',
-    '!'+ SITE_BASE +'dropcaps',
-    '!'+ SITE_BASE +'xslt'
-  ])
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
+gulp.task('files-deploy',
+  gulp.series(
+    'getManifest',
+    async function (done) {
+      filter = await import('gulp-filter');
+      done();
+    },
+    function (done) {
+      // Copy
+      gulp.src([
+        SITE_BASE + '*',
+        '!'+ SITE_BASE +'dropcaps',
+        '!'+ SITE_BASE +'xslt'
+      ])
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE));
 
-  // Copy poems
-  gulp.src(SITE_BASE + 'poems/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'poems'));
+      // Copy poems
+      gulp.src(SITE_BASE + 'poems/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'poems'));
 
-  // Copy curations
-  gulp.src(SITE_BASE + 'curations/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations'));
+      // Copy curations
+      gulp.src(SITE_BASE + 'curations/*.html')
+        .pipe(filter.default(
+          function (file) {
+            const fileHandle = file.stem.slice(file.stem.indexOf('-') + 1);
+            return _manifest['connections']['published'].indexOf(fileHandle) > -1;
+          }
+        ))
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations'));
 
-  // Copy explorations
-  gulp.src(SITE_BASE + 'explorations/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
+      // Copy curation images
+      gulp.src(SITE_BASE + 'curations/img/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations/img'));
 
-  // Copy what we need from VM
-  gulp.src([
-    SITE_BASE + 'versioning-machine/**/*',
-    '!' + SITE_BASE + '/versioning-machine/schema/**'
-  ], { nodir: true })
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'versioning-machine'));
+      // Copy explorations
+      gulp.src(SITE_BASE + 'explorations/*.html')
+        .pipe(filter.default(
+          function (file) {
+            const fileHandle = file.stem;
+            return _manifest['connections']['published'].indexOf(fileHandle) > -1;
+          }
+        ))
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
 
-  // Copy the manifest
-  gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
+      // Copy exploration images
+      gulp.src(SITE_BASE + 'explorations/img/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations/img'));
 
-  // Copy the search script
-  gulp.src(SITE_BASE + 'search/pulter-search.js', { allowEmpty: true })
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'search'));
+      // Copy what we need from VM
+      gulp.src([
+        SITE_BASE + 'versioning-machine/**/*',
+        '!' + SITE_BASE + '/versioning-machine/schema/**'
+      ], { nodir: true })
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'versioning-machine'));
 
-  // Copy Google verification for
-  gulp.src(SITE_BASE + 'google1cf954f664c9b7de.html')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
+      // Copy the manifest
+      gulp.src(PULTER_POEM_MANIFEST_LOCATION)
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE));
 
-  // Copy the fonts
-  gulp.src(SITE_BASE + 'fonts/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'fonts'));
+      // Copy the search script
+      gulp.src(SITE_BASE + 'search/pulter-search.js', { allowEmpty: true })
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'search'));
 
-  // Copy the family tree build
-  gulp.src(SITE_BASE + 'family-tree/build/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'family-tree/build'));
+      // Copy Google verification for
+      gulp.src(SITE_BASE + 'google1cf954f664c9b7de.html')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE));
 
-  done();
-});
+      // Copy the fonts
+      gulp.src(SITE_BASE + 'fonts/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'fonts'));
+
+      // Copy the family tree build
+      gulp.src(SITE_BASE + 'family-tree/build/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'family-tree/build'));
+
+      done();
+    }
+  )
+);
 
 gulp.task('clean', function (done) {
   const command = 'rm -rf ' + PRODUCTION_SITE_BASE;
@@ -379,33 +445,6 @@ gulp.task('xslt:index', function () {
     .pipe(concat('index.html'))
     .pipe(gulp.dest(SITE_BASE));
 });
-
-gulp.task('xslt:manifest', function () {
-  return gulp.src(SITE_BASE + 'xslt/_poemsJSON.xml')
-    .pipe(xslt(getXSLTProcOptions(SITE_BASE + 'xslt/poems.xsl')))
-    .pipe(concat(PULTER_POEM_MANIFEST_FILE_NAME))
-    .pipe(gulp.dest(SITE_BASE));
-});
-
-gulp.task('xslt:processManifest', function () {
-  return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-    .pipe(optimizeManifest())
-    .pipe(gulp.dest(SITE_BASE));
-  }
-);
-
-gulp.task('getManifest',
-  gulp.series(
-    'xslt:manifest',
-    'xslt:processManifest',
-    function () {
-      return gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-        .pipe(flatMap(function (stream, file) {
-          _manifest = JSON.parse(file.contents.toString('utf-8'));
-          return stream;
-        }));
-    })
-);
 
 gulp.task('xslt:search:elemental',
   gulp.series('getManifest', function () {
@@ -463,50 +502,80 @@ gulp.task('xslt:search:amplified',
   })
 );
 
-gulp.task('xslt:search:curations', function () {
-  return gulp.src([SITE_BASE + 'curations/*.html'])
-    .pipe(flatMap(function (stream, file) {
-      const fileStem = file.stem;
-      return stream
+gulp.task('xslt:search:curations',
+  gulp.series(
+    'getManifest',
+    async function (done) {
+      filter = await import('gulp-filter');
+      done();
+    },
+    function () {
+      return gulp.src([SITE_BASE + 'curations/*.html'])
         .pipe(
-          xslt(
-            getXSLTProcOptions(
-              PP_SEARCH_CURATION_TRANSFORMATION,
-              true
-            )
-          )
+          filter.default(function (file) {
+            const fileHandle = file.stem.slice(file.stem.indexOf('-') + 1);
+            return _manifest['connections']['published'].indexOf(fileHandle) > -1;
+          })
         )
-        .pipe(
-          replace('id:""', `id:"${fileStem}"`)
-        )
-        .pipe(
-          replace('poemRef:""', `poemRef:${fileStem.split('-')[0].slice(1)}`)
-        )
-    }))
-    .pipe(concat('_curation-search.js'))
-    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
-});
+        .pipe(flatMap(function (stream, file) {
+          const fileStem = file.stem;
 
-gulp.task('xslt:search:explorations', function () {
-  return gulp.src([SITE_BASE + 'explorations/*.html'])
-    .pipe(flatMap(function (stream, file) {
-      const fileStem = file.stem;
-      return stream
-        .pipe(
-          xslt(
-            getXSLTProcOptions(
-              PP_SEARCH_EXPLORATION_TRANSFORMATION,
-              true
+          return stream
+            .pipe(
+              xslt(
+                getXSLTProcOptions(
+                  PP_SEARCH_CURATION_TRANSFORMATION,
+                  true
+                )
+              )
             )
-          )
-        )
+            .pipe(
+              replace('id:""', `id:"${fileStem}"`)
+            )
+            .pipe(
+              replace('poemRef:""', `poemRef:${fileStem.split('-')[0].slice(1)}`)
+            )
+        }))
+        .pipe(concat('_curation-search.js'))
+        .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+    }
+  )
+);
+
+gulp.task('xslt:search:explorations',
+  gulp.series(
+    'getManifest',
+    async function (done) {
+      filter = await import('gulp-filter');
+      done();
+    },
+    function () {
+      return gulp.src([SITE_BASE + 'explorations/*.html'])
         .pipe(
-          replace('id:""', `id:"${fileStem}"`)
+          filter.default(function (file) {
+            return _manifest['connections']['published'].indexOf(file.stem) > -1;
+          })
         )
-    }))
-    .pipe(concat('_exploration-search.js'))
-    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
-});
+        .pipe(flatMap(function (stream, file) {
+          const fileStem = file.stem;
+          return stream
+            .pipe(
+              xslt(
+                getXSLTProcOptions(
+                  PP_SEARCH_EXPLORATION_TRANSFORMATION,
+                  true
+                )
+              )
+            )
+            .pipe(
+              replace('id:""', `id:"${fileStem}"`)
+            )
+        }))
+        .pipe(concat('_exploration-search.js'))
+        .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+    }
+  )
+);
 
 gulp.task('xslt:search',
   gulp.series(
@@ -546,6 +615,7 @@ gulp.task('sitemap',
       return poemObj.isPublished;
     });
     let poemUrls = [];
+
     const triads = publishedPoems.map(function (poemObject) {
       const slug = dashify(poemObject.seo, {condense: true});
 
@@ -566,14 +636,19 @@ gulp.task('sitemap',
       .filter(function (itemName) {
         let publishedWithThisId = [];
         const id = +itemName.split('-')[0].slice(1);
+        const curationHash = itemName.slice(itemName.indexOf('-') + 1).replace('.html', '');
+        const isPublished = _manifest['connections']['published'].indexOf(curationHash) > -1;
 
-        if (typeof id === 'number' && !isNaN(id)) {
+        if (isNumber(id) && isPublished) {
           publishedWithThisId = publishedPoems.filter(function (poem) {
             return +poem.id === id;
           });
         }
 
-        return (itemName.indexOf('.html') > -1 && publishedWithThisId.length);
+        return (
+          itemName.indexOf('.html') > -1 &&
+          publishedWithThisId.length
+        );
       })
       .map(function (curationFileName) {
         return protocol + LIVE_SITE_BASE_URL + '/curations/' + curationFileName;
@@ -581,7 +656,10 @@ gulp.task('sitemap',
 
     const explorations = fs.readdirSync(SITE_BASE + 'explorations')
       .filter(function (itemName) {
-        return itemName.indexOf('.html') > -1;
+        const explorationHash = itemName.replace('.html', '');
+        const isPublished = _manifest['connections']['published'].indexOf(explorationHash) > -1;
+
+        return itemName.indexOf('.html') > -1 && isPublished;
       })
       .map(function (curationFileName) {
         return protocol + LIVE_SITE_BASE_URL + '/explorations/' + curationFileName;
