@@ -309,6 +309,7 @@ gulp.task('files-deploy-new',
       done();
     },
     function (done) {
+      // Copy
       gulp.src([
         SITE_BASE + '*',
         '!'+ SITE_BASE +'dropcaps',
@@ -328,17 +329,8 @@ gulp.task('files-deploy-new',
       gulp.src(SITE_BASE + 'curations/*.html')
         .pipe(filter.default(
           function (file) {
-            const fileName = file.stem;
-            // const file = fileName.slice(0, fileName.indexOf('.html'));
-
-            console.log(fileName);
-            // const isPublished = _manifest['connections']['published'].indexOf(fileName.replace('.html', '')) > -1;
-            // const isPublishedPoem = _manifest['poems'].filter(function (poem) {
-            //   return poem.id === id;
-            // })[0].isPublished;
-            //
-            // return isPublished && isPublishedPoem;
-            return true;
+            const fileHandle = file.stem.slice(file.stem.indexOf('-') + 1);
+            return _manifest['connections']['published'].indexOf(fileHandle) > -1;
           }
         ))
         .pipe(plumber())
