@@ -1348,7 +1348,7 @@
     </pp:poem>
     <pp:poem id="15">
       <pp:title>Let None Sigh More for Lucas or for Lisle [On the Same [2]]</pp:title>
-      <pp:firstLine>Let None Sigh More for Lucas or for Lisle</pp:firstLine>
+      <pp:firstLine>Let none sigh more for Lucas or for Lisle</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Bernard Baron, The Apotheosis, or, Death of the King, 1728.</pp:sourceStatement>
         <pp:sourceLink ref="//commons.wikimedia.org/wiki/File:The-Apotheosis-or-Death-of-the-King-The-Beheading-of-King-Charles-I.jpg"/>
