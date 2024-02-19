@@ -8541,7 +8541,7 @@
               <span class="empty-set-message">Nothing matches the filters.</span>
               <ul class="connections-list grid">
                 <!-- Explorations -->
-                <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration">
+                <xsl:for-each select="document('')/xsl:stylesheet/pp:explorations/pp:exploration[@status='on']">
                   <xsl:element name="li">
                     <xsl:variable name="connectionClasses">
                       <!-- Keywords-->
@@ -8610,7 +8610,7 @@
                 <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem">
                   <xsl:variable name="poemNumber" select="./@id"/>
                   <xsl:variable name="poemTitle" select="./pp:title"/>
-                  <xsl:for-each select="./pp:curations/pp:curation">
+                  <xsl:for-each select="./pp:curations/pp:curation[@status='on']">
                     <xsl:variable name="isExcluded">
                       <xsl:choose>
                         <xsl:when test="./@indexExclude">
@@ -8945,26 +8945,6 @@
                         </xsl:when>
                     </xsl:choose>
                     </div>
-<!--                    <xsl:if test="$isPublished and $hasCurations">-->
-<!--                      <xsl:element name="a">-->
-<!--                        <xsl:attribute name="class">-->
-<!--                          <xsl:value-of select="'js-link to-curation'"/>-->
-<!--                        </xsl:attribute>-->
-<!--                        <xsl:attribute name="title">-->
-<!--                          <xsl:value-of select="'Jump to curations'"/>-->
-<!--                        </xsl:attribute>-->
-<!--                        <xsl:attribute name="data-resource-type">-->
-<!--                          <xsl:value-of select="'curation'"/>-->
-<!--                        </xsl:attribute>-->
-<!--                        <xsl:attribute name="data-poem-id">-->
-<!--                          <xsl:value-of select="$poemId"/>-->
-<!--                        </xsl:attribute>-->
-<!--                        <xsl:attribute name="href">-->
-<!--                          <xsl:value-of select="concat('/poems/ee/', $poemId, '/#ctxs')"/>-->
-<!--                        </xsl:attribute>-->
-<!--                        <xsl:text> </xsl:text>-->
-<!--                      </xsl:element>-->
-<!--                    </xsl:if>-->
                   </xsl:element>
                 </xsl:for-each>
               </ul>
@@ -9129,7 +9109,7 @@
   <xsl:template name="hasCurations">
     <xsl:param name="poemId"/>
     <xsl:choose>
-      <xsl:when test="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:curations">true</xsl:when>
+      <xsl:when test="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:curations/pp:curation[@status='on']">true</xsl:when>
       <xsl:otherwise>false</xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -9139,7 +9119,7 @@
     <xsl:param name="poemId"/>
     <xsl:for-each select="document('')/xsl:stylesheet/pp:poems/pp:poem[@id=$poemId]/pp:curations/pp:curation">
       <xsl:variable name="status" select="./@status"/>
-      <xsl:if test="$status = 'on'">
+      <xsl:if test="$status='on'">
         <li class="ctx">
           <xsl:attribute name="data-curation-hash">
             <xsl:value-of select="./@hash"/>
