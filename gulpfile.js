@@ -502,55 +502,80 @@ gulp.task('xslt:search:amplified',
   })
 );
 
-gulp.task('xslt:search:curations', function () {
-  // todo: add a filter to remove unpublished curation
-  return gulp.src([SITE_BASE + 'curations/*.html'])
-    .pipe(flatMap(function (stream, file) {
-      const fileStem = file.stem;
-
-      console.log('file.stem', file.stem);
-
-      return stream
+gulp.task('xslt:search:curations',
+  gulp.series(
+    'getManifest',
+    async function (done) {
+      filter = await import('gulp-filter');
+      done();
+    },
+    function () {
+      return gulp.src([SITE_BASE + 'curations/*.html'])
         .pipe(
-          xslt(
-            getXSLTProcOptions(
-              PP_SEARCH_CURATION_TRANSFORMATION,
-              true
+          filter.default(function (file) {
+            const fileHandle = file.stem.slice(file.stem.indexOf('-') + 1);
+            return _manifest['connections']['published'].indexOf(fileHandle) > -1;
+          })
+        )
+        .pipe(flatMap(function (stream, file) {
+          const fileStem = file.stem;
+
+          return stream
+            .pipe(
+              xslt(
+                getXSLTProcOptions(
+                  PP_SEARCH_CURATION_TRANSFORMATION,
+                  true
+                )
+              )
             )
-          )
-        )
-        .pipe(
-          replace('id:""', `id:"${fileStem}"`)
-        )
-        .pipe(
-          replace('poemRef:""', `poemRef:${fileStem.split('-')[0].slice(1)}`)
-        )
-    }))
-    .pipe(concat('_curation-search.js'))
-    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
-});
-
-gulp.task('xslt:search:explorations', function () {
-  // todo: add a filter to remove unpublished explorations
-  return gulp.src([SITE_BASE + 'explorations/*.html'])
-    .pipe(flatMap(function (stream, file) {
-      const fileStem = file.stem;
-      return stream
-        .pipe(
-          xslt(
-            getXSLTProcOptions(
-              PP_SEARCH_EXPLORATION_TRANSFORMATION,
-              true
+            .pipe(
+              replace('id:""', `id:"${fileStem}"`)
             )
-          )
-        )
+            .pipe(
+              replace('poemRef:""', `poemRef:${fileStem.split('-')[0].slice(1)}`)
+            )
+        }))
+        .pipe(concat('_curation-search.js'))
+        .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+    }
+  )
+);
+
+gulp.task('xslt:search:explorations',
+  gulp.series(
+    'getManifest',
+    async function (done) {
+      filter = await import('gulp-filter');
+      done();
+    },
+    function () {
+      return gulp.src([SITE_BASE + 'explorations/*.html'])
         .pipe(
-          replace('id:""', `id:"${fileStem}"`)
+          filter.default(function (file) {
+            return _manifest['connections']['published'].indexOf(file.stem) > -1;
+          })
         )
-    }))
-    .pipe(concat('_exploration-search.js'))
-    .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
-});
+        .pipe(flatMap(function (stream, file) {
+          const fileStem = file.stem;
+          return stream
+            .pipe(
+              xslt(
+                getXSLTProcOptions(
+                  PP_SEARCH_EXPLORATION_TRANSFORMATION,
+                  true
+                )
+              )
+            )
+            .pipe(
+              replace('id:""', `id:"${fileStem}"`)
+            )
+        }))
+        .pipe(concat('_exploration-search.js'))
+        .pipe(gulp.dest(SEARCH_FOLDER + '/partials'));
+    }
+  )
+);
 
 gulp.task('xslt:search',
   gulp.series(
