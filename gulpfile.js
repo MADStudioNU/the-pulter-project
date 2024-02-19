@@ -300,8 +300,7 @@ gulp.task('html', function () {
 });
 
 // Move over production ready files
-// todo: switch to this new task when ready
-gulp.task('files-deploy-new',
+gulp.task('files-deploy',
   gulp.series(
     'getManifest',
     async function (done) {
@@ -344,7 +343,6 @@ gulp.task('files-deploy-new',
         .pipe(filter.default(
           function (file) {
             const fileHandle = file.stem;
-            console.log(_manifest['connections']['published'].indexOf(fileHandle) > -1)
             return _manifest['connections']['published'].indexOf(fileHandle) > -1;
           }
         ))
@@ -393,69 +391,6 @@ gulp.task('files-deploy-new',
     }
   )
 );
-gulp.task('files-deploy', function (done) {
-  gulp.src([
-    SITE_BASE + '*',
-    '!'+ SITE_BASE +'dropcaps',
-    '!'+ SITE_BASE +'xslt'
-  ])
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
-
-  // Copy poems
-  gulp.src(SITE_BASE + 'poems/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'poems'));
-
-  // Copy curations
-  // todo: add a filter to remove unpublished curations
-  // todo: use gulp-filter
-  // todo: prepend the getManifest task to get access to the manifest
-  gulp.src(SITE_BASE + 'curations/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations'));
-
-  // Copy explorations
-  // todo: add a filter to remove unpublished explorations
-  gulp.src(SITE_BASE + 'explorations/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
-
-  // Copy what we need from VM
-  gulp.src([
-    SITE_BASE + 'versioning-machine/**/*',
-    '!' + SITE_BASE + '/versioning-machine/schema/**'
-  ], { nodir: true })
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'versioning-machine'));
-
-  // Copy the manifest
-  gulp.src(PULTER_POEM_MANIFEST_LOCATION)
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
-
-  // Copy the search script
-  gulp.src(SITE_BASE + 'search/pulter-search.js', { allowEmpty: true })
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'search'));
-
-  // Copy Google verification for
-  gulp.src(SITE_BASE + 'google1cf954f664c9b7de.html')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE));
-
-  // Copy the fonts
-  gulp.src(SITE_BASE + 'fonts/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'fonts'));
-
-  // Copy the family tree build
-  gulp.src(SITE_BASE + 'family-tree/build/**/*')
-    .pipe(plumber())
-    .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'family-tree/build'));
-
-  done();
-});
 
 gulp.task('clean', function (done) {
   const command = 'rm -rf ' + PRODUCTION_SITE_BASE;
