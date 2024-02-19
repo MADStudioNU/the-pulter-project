@@ -324,8 +324,6 @@ gulp.task('files-deploy-new',
         .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'poems'));
 
       // Copy curations
-      // todo: add a filter to remove unpublished curations
-      // todo: use gulp-filter
       gulp.src(SITE_BASE + 'curations/*.html')
         .pipe(filter.default(
           function (file) {
