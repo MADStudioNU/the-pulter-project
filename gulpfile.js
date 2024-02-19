@@ -340,8 +340,14 @@ gulp.task('files-deploy-new',
         .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'curations/img'));
 
       // Copy explorations
-      // todo: add a filter to remove unpublished explorations
       gulp.src(SITE_BASE + 'explorations/*.html')
+        .pipe(filter.default(
+          function (file) {
+            const fileHandle = file.stem;
+            console.log(_manifest['connections']['published'].indexOf(fileHandle) > -1)
+            return _manifest['connections']['published'].indexOf(fileHandle) > -1;
+          }
+        ))
         .pipe(plumber())
         .pipe(gulp.dest(PRODUCTION_SITE_BASE + 'explorations'));
 
