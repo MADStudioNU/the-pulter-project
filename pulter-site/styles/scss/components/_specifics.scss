@@ -8,10 +8,10 @@
       }
 
       .line-number-value {
-        left: 1em;
+        left: .66em;
 
         @include breakpoint(mobile) {
-          left: -3.33em;
+          left: -2.85em;
         }
       }
     }
@@ -73,10 +73,10 @@
       }
 
       .line-number-value {
-        left: 1em;
+        left: .85em;
 
         @include breakpoint(mobile) {
-          left: -3.33em;
+          left: -2.8em;
         }
       }
     }
@@ -103,10 +103,10 @@
       }
 
       .line-number-value {
-        left: 1em;
+        left: .66em;
 
         @include breakpoint(mobile) {
-          left: -3.33em;
+          left: -3em;
         }
       }
     }
@@ -125,7 +125,7 @@
 
   &.poem-120 .poem main .milestone.left-gutter {
     width: 5em;
-    margin-left: -4.25em;
+    margin-left: -4.5em;
 
     @include breakpoint(mobile) {
       max-width: 10em;
@@ -158,10 +158,10 @@
       }
 
       .line-number-value {
-        left: 1em;
+        left: .8em;
 
         @include breakpoint(mobile) {
-          left: -3.33em;
+          left: -3em;
         }
       }
     }

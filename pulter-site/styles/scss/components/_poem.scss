@@ -637,7 +637,7 @@ $globalBorderRadius: 4px;
             font-size: ms(-4);
             color: color.scale($pp_manuscriptPaper, $lightness: -33%);
             position: absolute;
-            left: -3.33em;
+            left: -3.1em;
             bottom: .75em;
             width: 2em;
             text-align: right;
@@ -653,6 +653,7 @@ $globalBorderRadius: 4px;
             }
 
             @include breakpoint(mobile) {
+              left: -2.85em;
               pointer-events: none;
             }
           }
