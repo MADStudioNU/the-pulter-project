@@ -7744,12 +7744,12 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Jonathan Koch</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Jonathan Koch</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="phalaris-and-perillus-in-early-modern-print">
+        <pp:curation status="on" hash="phalaris-and-perillus-in-early-modern-print">
           <pp:author>
             <pp:person>Jonathan Koch</pp:person>
           </pp:author>
@@ -7766,7 +7766,7 @@
             <pp:keyword>war</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="procrustes-sciron-termerus-and-sinis-in-early-modern-print">
+        <pp:curation status="on" hash="procrustes-sciron-termerus-and-sinis-in-early-modern-print">
           <pp:author>
             <pp:person>Jonathan Koch</pp:person>
           </pp:author>
@@ -7785,7 +7785,7 @@
             <pp:keyword>war</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="pulter-and-jamaica">
+        <pp:curation status="on" hash="pulter-and-jamaica">
           <pp:author>
             <pp:person>Jonathan Koch</pp:person>
           </pp:author>
