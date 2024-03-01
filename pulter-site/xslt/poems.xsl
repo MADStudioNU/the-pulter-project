@@ -3742,7 +3742,7 @@
       </pp:tags>
     </pp:poem>
     <pp:poem id="49">
-      <pp:title>My Heart Why Dost Thou Throb So in My Breast?</pp:title>
+      <pp:title>My Heart, Why Dost Thou Throb So in My Breast?</pp:title>
       <pp:firstLine>My heart, why dost thou throb so in my breast?</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Aegidius Sadeler, after Marcus Gheeraerts (I), Fabel van de feniks, 1608. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
