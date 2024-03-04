@@ -25,6 +25,7 @@
           <persName>Matthew Taylor</persName>
           <persName>Betsy Chou</persName>
           <persName>Emily Andrey</persName>
+          <persName>Ashley Cole</persName>
           <orgName>Northwestern University</orgName>
         </respStmt>
         <respStmt>
@@ -125,7 +126,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+         <witness xml:id="ae">Amplified edition: By <persName>Charlotte Newcombe</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -146,7 +147,7 @@
         <app type="title">
             <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 27]</rdg>
             <rdg wit="#ee">The Stately Moose<lb/>(Emblem 27)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">27. The Stately Mooz<seg>1<note type="gloss">In the manuscript, Pulter’s emblems are numbered in the left margin alongside their first lines. This poem is emblem 27. As the poem is otherwise untitled, I have chosen to use the marginal number alongside the poem’s opening words (“The Stately Mooz”) as the title for this edition to reflect the emblem’s appearance in the manuscript.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -155,7 +156,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">My main goal with editing this poem has been to preserve something of the texture and feel of reading the manuscript text while aiding clarity. For this reason, I have modernised u/v, i/j and long ‘s’, and the scribe’s ‘ff’ as ‘F’, but I have otherwise maintained the original spelling, punctuation and capitalisation. I have also silently lowered two words in superscript (“mounted” (l.1); “and” (l.11)), and expanded the poem’s one abbreviation (l.30) while italicising the supplied letter. To aid with clarity I have glossed words with their modern spellings where the manuscript’s spelling may hinder understanding. I have also glossed unfamiliar words with definitions from the OED, providing multiple possible definitions separated by semicolons where appropriate. Finally, I have provided explanatory notes to cultural and historical references.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -163,7 +164,30 @@
             <note type="headnote">This poem’s picturesque opening scene—a hill above a river valley, a moose munching quietly, her young skipping and playing—is darkly savaged when the moose is so foolish as to forego high ground and the light of day, out of envy of those in the shade beneath. The imagery is simultaneously naturalistic and moral, and the moose’s comeuppance speedy and grotesque: in the dark forest, she is “snatched,” “overpowered,” and “devoured” by a snake (again, uniting the naturalistic and the moral). The speaker then links this vivid image of a moose-stuffed serpent to more ordinary kinds of predation and, finally, a sequence of fairly banal complaints: “on this orb there’s no felicity”; “we are in a sea of sorrows tossed”; “when we’re most secure, we’re nearest lost.” In the face of such relentless carnage and misery throughout the animal kingdom, it’s no surprise that the speaker’s final declaration of fealty is to God instead.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+            <p>In “27.The Stately Mooz”, Pulter presents the titular moose as an ambiguous emblematic figure who occupies an unpredictable and unfeeling world. The moose starts on a secure hilltop, but she descends, driven by hunger, and then seeks shade from the scorching sun under trees that (unknown to her) are infested with deadly serpents. She is consequently devoured by one of the “Hugest” (l.23), most monstrous serpents. Unlike emblems such as <ref type="pp-poem-ref" corresp="79">The Porcupine (Emblem 13)</ref> where the prideful porcupine is condemned or <ref type="pp-poem-ref" corresp="86">Raccoons (Emblem 21)</ref> where the raccoons (really beavers) are praised for their exemplary teamwork, in “The Stately Mooz” Pulter neither condemns nor praises the moose’s actions. Rather, Pulter characterises the moose as a sympathetic but flawed figure whose “hard fate” (l.26) emblematises the “Casuall” (l.39) and difficult nature of postlapsarian existence.</p>
+
+            <p>Pulter understands moose as shrewd, practical animals. The moose is a positive example of parental love in <ref type="pp-poem-ref" corresp="73">The Indian Moose (Emblem 7)</ref> where she loves all three of her  calves equally and so uses her “policy” (l.7) to pragmatically place them in three different locations and thus protect them from predators. Pulter also presents this astuteness in “The Stately Mooz” where the moose “Politickly… doth the Feilds Survey” (l.7) for lions, tigers, leopards and bears and only leaves the hill once she believes herself, albeit falsely, “Secure” (l.13). Given the“Stately” moose’s eventual demise, her descent of the hill could symbolise a blameworthy moral decline to be avoided by the reader, but Pulter offers no direct caution against this action. Instead, Pulter presents the moose as being compelled by the practicality of hunger. Having “of the beautious prospect tane her fill” (l.2) the moose sensibly next “Considers… her diet” (l.5). Indeed, the emblem implies that eating downhill may be a physical necessity:</p>
+            <cit>
+                <quote>
+                    <lg> 
+                        <l>Thus beeing Secure Shee feeding down did goe</l>
+                        <l>For Nature plac’t her Stag like horns Soe low</l>
+                        <l>That Shee could never have of grass her Fill</l>
+                    </lg></quote><bibl>(ll.13-15)</bibl></cit> 
+
+            <p>Seventeenth-century descriptions of moose, or moose-like creatures such as elk, often allude to their difficulty in eating (see Curation “<ref type="pp-curations-ref" target="#ctxs">Moose: Fact and Fiction</ref>”). In his bestiary <title rend="italic">The Historie of Fovre-Footed Beastes</title> (1607) Edward Topsell describes elk as having to walk “backward like a Sea-crab” while eating to avoid biting their own large upper lip.<seg>2<note type="gloss">Edward Topsell, <title rend="italic">The Historie of Fovre-Footed Beastes</title> (London: William Jaggard, 1607), sig.T5r. EEBO. [Spelling modernised]</note></seg> Thomas Morton’s <title rend="italic">New English Canaan</title> (1637) characterises moose as “long legged” and thus needing to “kneel” to feed on grass, while the anonymous <title rend="italic">A Treatise of New England</title> (1645) describes moose as “frequent[ing] the low rank grounds to feed upon long grass, by reason their fore feet are longer than their hinder feet”.<seg>3<note type="gloss">Thomas Morton, <title rend="italic">New English Canaan or New Canaan Containing an abstract of New England, composed in three books</title> (Printed for Charles Green, 1637), sig. K1v. EEBO; <title rend="italic">A treatise of Nevv England published in anno Dom. 1637. And now reprinted</title> (London, 1645), sig. A4r. EEBO. [Spelling modernised].</note></seg> Pulter’s moose also has difficulty eating because “Nature” has placed her antlers so “low” that she cannot easily reach the grass. While Pulter does not mention the moose’s legs, the conjunction “For” implies that the moose may need to feed going “down” the hill. Perhaps her moose is also moving to the “low rank grounds” (“rank” meaning growing vigorously) and “long grass” at the bottom of the hill to compensate for her “low” antlers.<seg>4<note type="gloss"><title rend="italic">Oxford English Dictionary</title>, s.v. “rank, adj., sense II.6”, last modified December 2023.</note></seg> Alternatively, the continuous verb in “feeding down did go”, and again in “when in feeding Shee went down the Hill” (l.16), suggests the moose eats as she moves downhill. Interestingly, eating whilst facing or moving downhill would somewhat level the unevenness of overly-long front legs and thus allow the moose’s head to reach closer to the ground. Whatever the exact reasoning, Pulter clearly presents the moose’s descent of the hill as a physical necessity that is nonetheless undertaken cautiously and carefully. Pulter also offers a physical explanation for the moose’s retreat from the sun into the shade: “His Perpendiculer beams did Scald her Soe / That Shee Resolv’d into the Shades to goe” (ll.19–20). The moose’s initial shrewd caution and Pulter’s naturalistic justifications for the moose’s movements make her actions understandable to the reader. Thus, we are more likely to sympathise with the moose when the poem’s speaker parenthetically laments the “poor Beast” (l.24) and “her hard fate” (l.26). Indeed, the references to “Nature” (l.14) and “fate” confer a sense of inevitability onto the moose’s death that somewhat absolves her of culpability.</p>
+
+            <p>However, Pulter’s description of the moose’s movement out of the “Scald[ing]” sun and into “the Shades” is complicated by the fact that the scorching sun also makes the moose “envie” (l.18) those feeding beneath the trees. This is an odd detail to include as it does not seem to clearly contribute narratively or causally to the moose’s movement out of the sun which, as above, is directly prompted by the burning sun. On the one hand, the shade is a place of privacy in Pulter’s <ref type="pp-poem-ref" corresp="84">The Elephant (Emblem 19)</ref> and of sanctuary in <ref type="pp-poem-ref" corresp="87">The Hunted Hart (Emblem 22)</ref> so to a reader of Pulter’s emblems it is understandable that the shade could represent a place of respite. Again, in <ref type="pp-poem-ref" corresp="2">The Invitation into the Country (Poem 2)</ref> “shady groves” (l.38) are a key component of the ideal pastoral landscape of pre-Civil War Broadfield, Pulter’s country estate. Given these poems and Pulter’s opening description in “The Stately Mooz” of the “beautious prospect” (l.2) where “Floras Robe” (l.4) is ornamented with lace-like silver streams, the reader is as liable as the moose to misread or misinterpret the environment as a <title rend="italic">locus amoenus</title> (a lovely or idyllic place). On the other hand, Pulter’s poetry is replete with light imagery and sunlight in particular often symbolises the divine (see, for example, <ref type="pp-poem-ref" corresp="1">The Eclipse (Poem 1)</ref>, <ref type="pp-poem-ref" corresp="5">Of Night and Morning (Poem 5)</ref>, <ref type="pp-poem-ref" corresp="30">The Center (Poem 30)</ref>). The complement to these images is Pulter’s equally pervasive association of darkness and shade with misery, death, sin and hell (see, for example, <ref type="pp-poem-ref" corresp="24">How Long Shall My Dejected Soul (Poem 24)</ref>, <ref type="pp-poem-ref" corresp="29">My Soul’s Sole Desire (Poem 29) </ref>, <ref type="pp-poem-ref" corresp="30">The Center (Poem 30)</ref>, and <ref type="pp-poem-ref" corresp="48">Immense Fount of Truth, Life, Love, Joy, Glory (Poem 48)</ref>). By leaving the hilltop and forsaking the “Sun” (l.17) for the “Shades” (l.20), is the moose forsaking the moral high ground and light of God for the darkness of sin, implied by her “envie”? If the moose’s actions are meant to be understood as sinful, then is Pulter using the epithet “Stately” (l.1) in the now obsolete sense of haughty or arrogant?<seg>5<note type="gloss"><title rend="italic">Oxford English Dictionary</title>, s.v. “stately, adj., sense 3.a”, last modified September 2023.</note></seg> This is how she seems to use the term in <ref type="pp-poem-ref" corresp="6">Universal Dissolution (Poem 6)</ref> where a “stately cedar” is characterised as overly ambitious and proud (ll.23–25). If so, the moose may misread her environment not through an understandable error, but because she is too proud and thus assured of her own safety to recognise Pulter’s caution that “when we’re most Secure wee’r nearest lost” (l.36).</p>
+
+            <p>Pulter’s precise choice of serpents as the moose’s predator also seems to support the interpretation of the moose as sinful, with snakes being a common Christian symbol of the “Death &amp; Hell” (l.33) the speaker explicitly links them to later in the poem. However, the serpent and moose is not the only example of animal predation Pulter offers in the emblem and the moose’s demise precipitates a list of more predators and prey: hawks trussing pheasant and partridges, cats catching mice, and foxes snatching lambs from their mothers (ll.27–30). Seventeenth-century accounts of New England make no mention of snakes attacking or eating moose (see Curation “<ref type="pp-curations-ref" target="#ctxs">Moose: Fact and Fiction</ref>”), potentially indicating that Pulter’s choice of serpents may be primarily symbolic. Yet, these same accounts demonstrate an understanding of moose as a species of, or at least akin to, deer. Significantly, an antipathy between snakes and deer is not unfounded (see Curation “<ref type="pp-curations-ref" target="#ctxs">Serpents vs. Deer</ref>”). For example, both Philemon Holland’s translation of Pliny’s <title rend="italic">Natural History</title> (1601) and Topsell give accounts of deer and snakes fighting. Furthermore, in his Latin emblem book <title rend="italic">Symbolorum et Emblematum ex Animalibus</title> (1595), Joachim Camerarius uses the antipathy between deers and serpents for an emblem where the serpent-covered deer seeking water becomes a symbol for the Christian seeking God as the one means of salvation. Therefore, Pulter seems to synthesise accounts of New England with older natural histories and emblem tradition to flesh out her knowledge of the moose and its possible symbolic associations. Placing the pairing of moose and snake at the beginning of a longer list of predators and prey partially naturalises the image, complicating the serpent’s devouring of the moose as an emblem for the descent into and punishment of sin: pheasant, partridge, mice and especially the seemingly innocent “playing” (l.30) lambs are the unfortunate prey of a natural, albeit unsparing, order rather than of their own sinful ways.</p>
+
+            <p>The poem does not conclude with a call to avoid envy and sin, or with a recommendation to keep to the security of the high ground and divine light. Rather, by layering the natural brutality of animal predation and the symbolic punishment of sin, Pulter implicates the postlapsarian world as a whole in the emblem’s scope: “By which example wee may plainly See / That on this Orb ther’s noe felicitie” (ll.31–32). The final ten lines of the poem are in first-person plural, involving both the speaker and reader in the emblem’s wretched world. Like the serpent, hawk, cat and fox, “Death &amp; Hell” are continually “Watch[ing]” and stalking us, predators waiting to “devour” “Our Sinfull Souls, and bodies” (ll.33–34). By mentioning “Our Sinfull Souls”, Pulter evokes the human postlapsarian condition as inherently sinful. In <ref type="pp-poem-ref" corresp="44">A Solitary Discourse (Poem 44)</ref> Pulter describes the sun as able to scorch the speaker because of the biblical Fall that imbues humanity with sin (ll.77–80). In “The Stately Mooz”, the moose being scorched by the sun may indicate her, and by extension the reader’s, inherited fallen condition. Perhaps the fact that the sun scorches the moose is more emblematically significant than the moose entering the shade. Furthermore, perhaps the moose is not sinful because she is envious, but rather her enviousness is a symptom of her fallenness. The moose is sinful, but we nonetheless are expected to empathise with her flawed character because we too are Fallen. As such, the emblem as a whole imagines the transitory, postlapsarian world as a relentless “Sea of Sorrows” (l.35) that can only end in death.</p>
+
+            <p>For the Royalist Pulter, this postlapsarian “Sea of Sorrows” is also a post-Civil War world. Alice Eardley dates the composition of Pulter’s emblems to between 1653 and 1658, during Oliver Cromwell’s Protectorate.<seg>6<note type="gloss">Alice Eardley, “Introduction”, in <title rend="italic">Poems, Emblems and the Unfortunate Florinda</title>, by Hester Pulter (Toronto, Iter Press, 2014), 21.</note></seg> While less explicitly political than some of Pulter’s other emblems, the adjective “Stately” (l.1) and adverb “Politickly” (l.7) place the poem in the realm of politics. Moreover, Pulter’s mention of the drowning of “Beauclarks Children” (l.37) references a shipwreck where King Henry I’s only legitimate male heir to the throne died, thus contributing to a civil war upon his death between Matilda, his only surviving legitimate child, and his nephew Stephen for the throne (see Curation  “<ref type="pp-curations-ref" target="#ctxs">Shipwrecks and Civil War</ref>”). In the wake of the Civil War and Charles I’s execution, this story of English royalty in crisis may have particularly evoked Pulter’s Royalist sympathies. Finally, Pulter’s description of the moose’s “Stag like horns” is suggestive of the hunted harts and stags that so often represent the plight of Charles I in seventeenth-century poetry, including Pulter’s own verse (see <ref type="pp-poem-ref" corresp="10">Upon the Death of My Dear and Lovely Daughter, Jane Pulter (Poem 10)</ref>, <ref type="pp-poem-ref" corresp="87">The Hunted Hart (Emblem 22)</ref> and <ref type="pp-poem-ref" corresp="90">This Flying Fish (Emblem 25)</ref>. See also Elizabeth Kolkovich’s Curation <ref type="pp-curation-ref" target="/poems/ee/the-hunted-hart-emblem-22/#hunted-deer-in-poetry">The Hunted Deer</ref>).<seg>7<note type="gloss">See also Anne Elizabeth Carson, “The Hunted Stag and the Beheaded King”, <title rend="italic">Studies in English Literature 1500–1900</title> 45, no.3 (2005): 537–56.</note></seg> Pulter’s moose is not hunted, but the fact that her forest is infested with “horrid Serpents” bears symbolic similarities to the many-headed, serpentine hydra that Pulter and other Royalists used to depict the Republican government (see <ref type="pp-poem-ref" corresp="107">This Huge Leviathan (Emblem 42)</ref>. See also Victoria E. Burke’s Curation <ref type="pp-curation-ref" target="/poems/aee/aurora-1/#the-many-headed-hydra">The Many Headed Hydra</ref>). As such, it is perhaps not too outlandish to suggest that the “Hugest” (l.23) serpent, described as a “Monster” (l.25), could emblematise Cromwell himself and (from a Royalist perspective) his sinful role in Charles I’s execution. In “The Stately Mooz”, the inevitability of predators catching prey, as well as the moose’s rapidly changing fortune, bear similarity to the overtly political emblem <ref type="pp-poem-ref" corresp="90">This Flying Fish (Emblem 25)</ref>. In this reading, Charles I as the “Stately Mooz” becomes a sympathetic, although not flawless, victim of the “Monster” (l.25) Cromwell, but also secondarily of the relentlessly brutal, unpredictable world.</p>
+
+            <p>In the face of such a world, Pulter closes the emblem by enacting the “devotional turn” that Rachel Dunn identifies as characteristic of her emblems.<seg>8<note type="gloss">Rachel Dunn, “Breaking a Tradition: Hester Pulter and the English Emblem Book”, <title rend="italic">The Seventeenth Century</title> 30, no.1 (2015): 63.</note></seg> Rather than ending with a moral call to action (e.g., avoid envy or stay in God’s light), Pulter turns inward. Unable to resolve the world’s unpredictability, the speaker can only rely on God: “Then Seeing our lives Soe frail and Casuall bee / Let mee depend (dear God) on none but thee” (ll.39–40). It is this unpredictability that makes the moose such an ambiguous and complicated emblematic figure, straddling both sympathy and culpability: if the moose’s “hard fate” is the outcome of the changeable, uncontrollable world of animal predation, then how could her caution and pragmatism ever counteract this? Pulter cannot conclude with a call to emulate or condemn the moose, because the poem forces us all, including the speaker, to grapple with our own sinful, postlapsarian and mortal nature. Ultimately, “The Stately Mooz” is an emblem for the unavoidable transience and difficulty of our own existence. We cannot model the moose, Pulter suggests, because we are all already the moose, involved in an infelicitous and brutal world.</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -172,84 +196,84 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">27</fw><seg>The<note type="physical">poem follows end of the preceding one on same page, beginning two-thirds down</note></seg> Stately Mooz being <add place="below">^</add><add place="above">mounted</add> up the hill</rdg>
             <rdg wit="#ee">The stately moose, being mounted up the hill,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The <seg>Stately<note type="gloss">Noble, majestic; more negatively, haughty or arrogant; majestic in size, elegantly built; possessing a slow and dignified gait.</note></seg> <seg>Mooz<note type="gloss">Moose. This was a relatively new word in early modern English (OED first usage 1614) deriving from two Algonquian languages of North America.</note></seg> being mounted up the hill</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">And of the beavtious proſpect tane her fill</rdg>
             <rdg wit="#ee">And of the beauteous prospect taken her fill,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And of <seg>the beautious prospect<note type="gloss">The beautiful view.</note></seg> <seg>tane<note type="critical">Taken, likely an alternate spelling of the elided form ta’en to preserve the metre by condensing two syllables to one.</note></seg> her fill</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Viewing the Rivers in the vale that Trace</rdg>
             <rdg wit="#ee">Viewing the rivers in the <seg>vale<note type="gloss">valley</note></seg> that <seg>trace<note type="gloss">pass</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Viewing the Rivers in the vale that Trace</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Inriching &ff;loras Robe like Silver Lace</rdg>
             <rdg wit="#ee">Enriching <seg>Flora’s<note type="gloss">goddess of spring</note></seg> robe like silver lace;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Inriching<note type="gloss">Enriching.</note></seg> <seg>Floras<note type="gloss">Flora’s. The Roman Goddess of Flowers.</note></seg> Robe like Silver Lace</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">The next thing Shee Conſiders is her diet</rdg>
             <rdg wit="#ee">The next thing she considers is her diet:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The next thing <seg>Shee<note type="gloss">the Moose.</note></seg> Considers is her diet</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">How Shee may eat the &ff;lowers and herbs in quiet</rdg>
             <rdg wit="#ee">How she may eat the flowers and herbs in quiet.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">How Shee may eat the Flowers and herbs in quiet</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Then Politickly <seg>Shee<note type="physical"> the “S” is possibly written over a prior letter (or there is an ink transfer across the page with a descender)</note></seg> doth the &ff;eilds Survey</rdg>
             <rdg wit="#ee">Then <seg>politicly<note type="gloss">shrewdly</note></seg> she doth the fields survey</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then <seg>Politickly<note type="gloss">Shrewdly, skillfully.</note></seg> Shee doth the Feilds Survey</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">To See if any cruell Beasts of prey</rdg>
             <rdg wit="#ee">To see if any cruel beasts of prey–</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To See if any cruell Beasts of prey</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">As Lion, Tiger, Leopard, or Bear,</rdg>
             <rdg wit="#ee">As lion, tiger, leopard, or bear–</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">As Lion, Tiger, Leopard, or Bear,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Might her disturb, but to diſpell all fear</rdg>
             <rdg wit="#ee">Might her disturb; but to dispel all fear,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Might her disturb, but to dispell all fear</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft"><seg>&ff;auns<note type="physical">“u” corrects earlier “n”</note></seg>, Lambs<seg><add place="below">\</add>, <add place="above">and \</add><note type="physical">all but comma (and possibly comma) in different hand from main scribe</note></seg> Kids, did Skip about and play</rdg>
             <rdg wit="#ee">Fawns, lambs, and kids did skip about and play</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Fauns, Lambs, and Kids, did Skip about and play</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Whilst their old weary Dams their Sentinels lay</rdg>
             <rdg wit="#ee">Whilst their old weary dams, their <seg>sentinels<note type="gloss">guards</note></seg>, lay.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Whilst their old weary <seg>Dams<note type="gloss">Mothers.</note></seg> their <seg>Sentinels<note type="gloss">Guards.</note></seg> lay</rdg>
         </app>
       </l>
         <app>
@@ -272,196 +296,197 @@
         <app>
             <rdg wit="#ft">Thus beeing Secure Shee feeding down did goe</rdg>
             <rdg wit="#ee">Thus, being secure, she feeding down did go,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thus beeing Secure Shee feeding down did goe</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">&ff;or Nature plac’t her Stag like horns Soe low</rdg>
             <rdg wit="#ee">For Nature placed her stag-like horns so low</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For Nature <seg>plac’t<note type="gloss">Placed.</note></seg> her <seg>Stag like horns<note type="critical">A stag is a male deer, and often specifically a male red deer. Pulter’s moose is presented as female throughout, so this description introduces some gender ambiguity into the poem (see Curation “<ref type="pp-curations-ref" target="#ctxs">Moose: Fact and Fiction</ref>”). The hunted stag was also a popular Royalist symbol for Charles I (see Elizabeth Kolkovich’s Curation<ref type="pp-curation-ref" target="/poems/ee/the-hunted-hart-emblem-22/#hunted-deer-in-poetry">The Hunted Deer</ref>).</note></seg> Soe low</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">That Shee could never have of graſs her &ff;ill</rdg>
             <rdg wit="#ee">That she could never have of grass her fill.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That Shee could never have of grass her Fill</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">But when in feeding Shee went down the Hill</rdg>
             <rdg wit="#ee">But when, in feeding, she went down the hill</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But when in feeding Shee went down the Hill</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Which lay full South, the Sun being now her zeneth</rdg>
             <rdg wit="#ee">Which lay full south, the sun being <seg>now<note type="gloss">now at</note></seg> her zenith,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Which lay full South, the Sun being now <seg>her zeneth<note type="gloss">A zenith is the point in the sky directly overhead. The sun is “her zeneth” meaning it is directly over the moose’s head, perhaps indicating that it is midday (see <ref type="pp-poem-ref" corresp="44">A Solitary Discourse (Poem 44)</ref>, l.67).</note></seg></rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Which made her envie thoſe that fed bene’th</rdg>
             <rdg wit="#ee">Which made her envy those that fed <seg>beneath<note type="gloss">beneath the shade</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Which made her envie those that fed bene’th</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">His Perpendiculer beams did Scald her Soe</rdg>
             <rdg wit="#ee">His perpendicular beams did scald her so,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">His <seg>Perpendiculer<note type="gloss">At right-angle to the horizon, vertical. As the sun is directly over the moose’s head, its beams are beating down on her vertically.</note></seg> beams did Scald her Soe</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">That Shee Reſolv’d into the Shades to goe</rdg>
             <rdg wit="#ee">That she resolved into the shade to go</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That Shee Resolv’d into the Shades to goe</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Of Straight Armd Cedars, &ff;irrs, Cypres, Pine</rdg>
             <rdg wit="#ee">Of straight-armed cedars, firs, cypress, pine,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Of Straight Armd Cedars, Firrs, Cypres, Pine</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">About whoſe branches horrid Serpents Twine</rdg>
             <rdg wit="#ee">About whose branches horrid serpents twine.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">About whose branches horrid <seg>Serpents<note type="critical">Serpents and deer were commonly considered natural enemies. See Curation “<ref type="pp-curations-ref" target="#ctxs">Serpents vs. Deer</ref>”.</note></seg> Twine</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">One of the Hugest Slip’d down from a bough</rdg>
             <rdg wit="#ee">One of the hugest slipped down from a bough</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">One of the Hugest Slip’d down from a bough</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">And Snatcht the Mooz (poor Beast) Shee knew not how</rdg>
             <rdg wit="#ee">And snatched the moose (poor beast!) she knew not how.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And <seg>Snatcht<note type="critical">Snatched. To suddenly snap or bite at something; or to seize or take hold of; or to remove quickly from sight. There is precedent in early modern natural histories for massive snakes capable of eating large animals like moose whole (see Curation “<ref type="pp-curations-ref" target="#ctxs">Serpents vs. Deer</ref>”), but it is also possible that the serpent is quickly grabbing the moose and dragging it away.</note></seg> the Mooz (poor Beast) Shee knew not how</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">Thus beeing by this Monſter over powr’d</rdg>
             <rdg wit="#ee">Thus being by this monster overpowered</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thus beeing by this Monster over powr’d</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">(Oh her hard fate) Shee was by him devour’d</rdg>
             <rdg wit="#ee">(O her hard fate!), she was by him devoured.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">(Oh her hard fate) Shee was by him devour’d</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Soe have I Seen a hawk A Pheſant truſs</rdg>
             <rdg wit="#ee">So have I seen a hawk a pheasant <seg>truss<note type="gloss">seize</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Soe have I Seen a hawk A Phesant <seg>truss<note type="gloss">To seize or clutch in its talons.</note></seg></rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Or Patriges, Soe Melancholly Puſs</rdg>
             <rdg wit="#ee">(Or partridges), so <seg>melancholy puss<note type="gloss">Cats were proverbially associated with sadness.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or <seg>Patriges<note type="gloss">Partridges.</note></seg>, Soe <seg>Melancholly Puss<note type="critical">Cats were proverbially associated with melancholy. Cf. Philip Sidney, <title rend="italic">The Countess of Pembrokes Arcadia</title> (1590), sig.N3v, where a cat contributes “his melancholy” for the making of a human; William Shakespeare, <title rend="italic">The history of Henrie the Fourth [Henry IV, Part 1]</title> (1598), sig.A4r, where Falstaff declares he is “as melancholy as a gyb Cat, or a lugd beare”. In modern editions of Henry IV, Part 1, the line appears around 1.2.69. In Josua Poole’s <title rend="italic">The English Parnassus, or, A helpe to English poesie</title> (1657) he suggests multiple epithets for “Cat” but “Melancholy” is first in the list (sig.F3r).
+        </note></seg></rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">Doth Mice Surpriſe, Soe &ff;oxes Snatch up Lambs</rdg>
             <rdg wit="#ee">Doth mice <seg>surprise<note type="gloss">attack suddenly</note></seg>, so foxes snatch up lambs</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Doth Mice <seg>Surprise<note type="gloss">To attack suddenly; to capture, seize.</note></seg>, Soe Foxes Snatch up Lambs</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">As they lie playing by their Uberous Da<hi rend="overline">m</hi>s</rdg>
             <rdg wit="#ee">As they lie playing by their <seg>uberous<note type="gloss">nursing, nurturing</note></seg> dams–</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">As they lie playing by their <seg>Uberous<note type="gloss">Supplying abundant milk or nourishment.</note></seg> Dam<title rend="italic">m</title>s</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">By which example wee may plainly See</rdg>
             <rdg wit="#ee">By which example we may plainly see</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">By which example wee may plainly See</rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">That on this Orb ther’s noe felicitie</rdg>
             <rdg wit="#ee">That on this orb there’s no felicity.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That on this <seg>Orb<note type="gloss">The Earth.</note></seg> ther’s noe felicitie</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">&ff;or Death &amp; Hell Combine, and Watch each hour</rdg>
             <rdg wit="#ee">For Death and Hell combine and watch, each hour</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For Death &amp; Hell Combine, and Watch each hour</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Our Sinfull Souls, and bodies to devour</rdg>
             <rdg wit="#ee">Our sinful souls and bodies to devour;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Our Sinfull Souls, and bodies to devour</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">'&ff;or wee are in A Sea of Sorrows Tost</rdg>
             <rdg wit="#ee">For we are in a sea of sorrows tossed,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For wee are in A Sea of Sorrows Tost</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft"><seg>And<note type="physical">written over “ff” and other letters, likely “ffor”</note></seg> when we’re most Secure wee’r nearest lost</rdg>
             <rdg wit="#ee">And when we’re most secure, we’re nearest lost.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>And<note type="physical">In the manuscript “And” is written over “ffor”. As the previous line also begins with “ffor” this could have been done to avoid repetition, or it could be the correcting of a mistranscription.</note></seg> when we’re most Secure <seg>wee’r<note type="gloss">we’re.</note></seg> nearest lost</rdg>
         </app>
       </l>
       <l n="37">
         <app>
             <rdg wit="#ft">As Beauclarks Children did their wrack deplore</rdg>
             <rdg wit="#ee">As <seg>Beauclerc’s children<note type="gloss">The children of King Henry I (Henry Beauclerc), including his heir and many illegitimate children, drowned when their ship hit a rock near the shore of Normandy.</note></seg> did their wrack <seg>deplore<note type="gloss">lament</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>As Beauclarks Children did their wrack deplore<note type="gloss">In 1120 three children of King Henry I, also known as Henry Beauclerc, including his only male heir, died in a shipwreck. See Curation “<ref type="pp-curations-ref" target="#ctxs">Shipwrecks and Civil War</ref>”.</note></seg></rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">With Greater grief beeing in the Sight of Shore</rdg>
             <rdg wit="#ee">With greater grief being in the sight of shore.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">With Greater grief beeing in the Sight of Shore</rdg>
         </app>
       </l>
       <l n="39">
         <app>
             <rdg wit="#ft">Then Seeing our lives Soe frail and Caſuall bee</rdg>
             <rdg wit="#ee">Then seeing our lives so frail and <seg>casual<note type="gloss">subject to chance</note></seg> be,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then Seeing our lives Soe <seg>frail<note type="gloss">Fragile, weak; subject to change or decay, transient.</note></seg> and <seg>Casuall<note type="gloss">Subject to chance.</note></seg> bee</rdg>
         </app>
       </l>
       <l n="40">
         <app>
             <rdg wit="#ft">Let mee depend (dear God) on none but thee.</rdg>
             <rdg wit="#ee">Let me depend (dear God) on none but Thee.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Let mee depend (dear God) on none but thee.</rdg>
         </app>
       </l>
         <app>
