@@ -6513,12 +6513,12 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-        <pp:edition type="amplified">
-          <pp:author>Charlotte Newcombe</pp:author>
-        </pp:edition>
+<!--        <pp:edition type="amplified">-->
+<!--          <pp:author>Charlotte Newcombe</pp:author>-->
+<!--        </pp:edition>-->
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="moose-fact-and-fiction">
+        <pp:curation status="off" hash="moose-fact-and-fiction">
           <pp:author>
             <pp:person>Charlotte Newcombe</pp:person>
           </pp:author>
@@ -6526,7 +6526,7 @@
           <pp:peek>The moose was both a familiar and unfamiliar animal to Pulter and her contemporaries. The word “moose,” in reference to an animal, was a relatively new word in English at the time Pulter was writing. The OED traces its origin to two Algonquian languages of North America.</pp:peek>
 <!--          <pp:keywords></pp:keywords>-->
         </pp:curation>
-        <pp:curation status="on" hash="serpents-vs-deer">
+        <pp:curation status="off" hash="serpents-vs-deer">
           <pp:author>
             <pp:person>Charlotte Newcombe</pp:person>
           </pp:author>
@@ -6534,7 +6534,7 @@
           <pp:peek>Why does Pulter make a monstrous serpent the natural enemy of the moose? While the serpents certainly have a moralistic function as symbols of sin and death, the moose’s devouring precipitates an extended list of predators and prey presented more naturalistically</pp:peek>
 <!--          <pp:keywords></pp:keywords>-->
         </pp:curation>
-        <pp:curation status="on" hash="shipwrecks-and-civil-war">
+        <pp:curation status="off" hash="shipwrecks-and-civil-war">
           <pp:author>
             <pp:person>Charlotte Newcombe</pp:person>
           </pp:author>
