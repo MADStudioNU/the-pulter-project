@@ -48,7 +48,7 @@ Poems that are published on the preview site but not on the production site:
 > A092 (Newcombe), A109 (Lawall), A115 (Koch)
 
 Curations:
-> C092 (_Moose: Fact and Fiction_), C092 (_Serpents vs. Deer_), C092 (_Shipwrecks and Civil War_), C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
+> C092 (_Moose: Fact and Fiction_), C092 (_Serpents vs. Deer_), C092 (_Shipwrecks and Civil War_), C105 (_Resurrections at Cairo_) , C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
 
 Explorations:
 > —
