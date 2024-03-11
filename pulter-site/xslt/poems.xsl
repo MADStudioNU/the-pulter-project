@@ -6524,7 +6524,15 @@
           </pp:author>
           <pp:title>Moose: Fact and Fiction</pp:title>
           <pp:peek>The moose was both a familiar and unfamiliar animal to Pulter and her contemporaries. The word “moose,” in reference to an animal, was a relatively new word in English at the time Pulter was writing. The OED traces its origin to two Algonquian languages of North America.</pp:peek>
-<!--          <pp:keywords></pp:keywords>-->
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>colonialism</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>food</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="serpents-vs-deer">
           <pp:author>
@@ -6532,7 +6540,13 @@
           </pp:author>
           <pp:title>Serpents vs. Deer</pp:title>
           <pp:peek>Why does Pulter make a monstrous serpent the natural enemy of the moose? While the serpents certainly have a moralistic function as symbols of sin and death, the moose’s devouring precipitates an extended list of predators and prey presented more naturalistically</pp:peek>
-<!--          <pp:keywords></pp:keywords>-->
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="shipwrecks-and-civil-war">
           <pp:author>
@@ -6540,7 +6554,14 @@
           </pp:author>
           <pp:title>Shipwrecks and Civil War</pp:title>
           <pp:peek>What is the connection between Pulter’s obscure reference to the drowning of “Beauclarks Children” (l.37) and her Royalist sympathies in the wake of the Civil War? In the closing lines of “The Stately Mooz” Pulter uses a watery metaphor to reflect on the state of the world:</pp:peek>
-<!--          <pp:keywords></pp:keywords>-->
+          <pp:keywords>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>Holinshed</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+            <pp:keyword>Samuel Daniel</pp:keyword>
+            <pp:keyword>Walter Raleigh</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
