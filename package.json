@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.38.5",
+  "version": "1.38.6",
   "description": "",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -47,5 +47,6 @@
   "scripts": {
     "build": "gulp build",
     "postinstall": "patch-package"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
