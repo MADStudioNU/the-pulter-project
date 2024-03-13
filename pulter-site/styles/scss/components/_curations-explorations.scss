@@ -217,6 +217,7 @@ $themeColor: #ece9e2;
     font-family: "Cormorant Garamond", Garamond, sans-serif;
     font-size: .95em;
     display: inline-block;
+    color: #181818;
 
     @include breakpoint(mobile) {
       max-width: 100%;
