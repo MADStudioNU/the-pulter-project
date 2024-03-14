@@ -22,6 +22,7 @@ These are the folders of interest for the contributing parties, as well as the e
 You should have the following terminal commands available:
 * `gulp` — boots up the development web server with automatic JS/CSS compilation and browser reloading; this it the default mode for active development;
 * `gulp xslt:poems` — builds an array of HTML pages representing the whole corpus of the poems and their editions; the generated structure goes under `/poems`;
+* `gulp xslt:poems:ae --single 'pulter_078.xml'` — run the transformation for a single poem;
 * `gulp xslt:manifest` — builds JSON manifest (`/pulter-manifest.json`) of the poems;
 * `gulp xslt:index` — builds the main index page;
 * `gulp xslt:search` — builds the search functionality;
