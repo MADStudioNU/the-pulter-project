@@ -7291,7 +7291,7 @@
             <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="resurrections-at-cairo">
+        <pp:curation status="on" hash="resurrections-at-cairo">
           <pp:author>
             <pp:person>Eileen Sperry</pp:person>
           </pp:author>
