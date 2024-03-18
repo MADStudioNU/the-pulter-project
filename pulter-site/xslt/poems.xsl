@@ -6513,12 +6513,12 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Charlotte Newcombe</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Charlotte Newcombe</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="moose-fact-and-fiction">
+        <pp:curation status="on" hash="moose-fact-and-fiction">
           <pp:author>
             <pp:person>Charlotte Newcombe</pp:person>
           </pp:author>
@@ -6534,7 +6534,7 @@
             <pp:keyword>medicine</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="serpents-vs-deer">
+        <pp:curation status="on" hash="serpents-vs-deer">
           <pp:author>
             <pp:person>Charlotte Newcombe</pp:person>
           </pp:author>
@@ -6548,7 +6548,7 @@
             <pp:keyword>violence</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="shipwrecks-and-civil-war">
+        <pp:curation status="on" hash="shipwrecks-and-civil-war">
           <pp:author>
             <pp:person>Charlotte Newcombe</pp:person>
           </pp:author>
