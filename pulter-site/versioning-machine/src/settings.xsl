@@ -19,7 +19,7 @@
   <xsl:variable name="curledLine"><xsl:value-of select="$vmImages"/><xsl:text>curledLine.svg</xsl:text></xsl:variable>
   <xsl:variable name="ascendLine"><xsl:value-of select="$vmImages"/><xsl:text>ascendLine.svg</xsl:text></xsl:variable>
   <xsl:variable name="horzLine"><xsl:value-of select="$vmImages"/><xsl:text>horzLine.svg</xsl:text></xsl:variable>
-  <xsl:variable name="waveLine"><xsl:value-of select="$vmImages"/><xsl:text>curledLine.svg</xsl:text></xsl:variable>
+  <xsl:variable name="waveLine"><xsl:value-of select="$vmImages"/><xsl:text>tildeLine.svg</xsl:text></xsl:variable>
   <xsl:variable name="showMilestoneAs">image</xsl:variable>
 
   <!-- path to folder of facsimile images, the path is encoded in the TEI files like this: images/imagename.jpg -->
