@@ -312,7 +312,8 @@ gulp.task('files-deploy',
       gulp.src([
         SITE_BASE + '*',
         '!'+ SITE_BASE +'dropcaps',
-        '!'+ SITE_BASE +'xslt'
+        '!'+ SITE_BASE +'xslt',
+        '!'+ SITE_BASE +'templates'
       ])
         .pipe(plumber())
         .pipe(gulp.dest(PRODUCTION_SITE_BASE));
