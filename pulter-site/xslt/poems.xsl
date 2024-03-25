@@ -7332,6 +7332,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Claire Richie</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>birds</pp:keyword>
@@ -7923,6 +7926,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Sarah E. Johnson</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>insects</pp:keyword>
@@ -7942,6 +7948,28 @@
         <pp:tag>plagues</pp:tag>
         <pp:tag>sun</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="the-fortress-as-a-body">
+          <pp:author>
+            <pp:person>Sarah E. Johnson</pp:person>
+          </pp:author>
+          <pp:title>The Fortress as a Body</pp:title>
+          <pp:peek></pp:peek>
+<!--          <pp:keywords>-->
+<!--            <pp:keyword></pp:keyword>-->
+<!--          </pp:keywords>-->
+        </pp:curation>
+        <pp:curation status="on" hash="women-besieged-and-besieging">
+          <pp:author>
+            <pp:person>Sarah E. Johnson</pp:person>
+          </pp:author>
+          <pp:title>Women Besieged and Besieging</pp:title>
+          <pp:peek></pp:peek>
+<!--          <pp:keywords>-->
+<!--            <pp:keyword></pp:keyword>-->
+<!--          </pp:keywords>-->
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="118">
       <pp:title>The Snail, the Tulip, and the Bee (Emblem 53)</pp:title>
