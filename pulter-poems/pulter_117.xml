@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+        <witness xml:id="ae">Amplified edition: By <persName>Sarah E. Johnson</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -148,7 +148,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 52]</rdg>
             <rdg wit="#ee">The Caucasines<lb/>(Emblem 52)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">The Caucasines<lb/>(Emblem 52)</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -157,7 +157,17 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">
+                <p> I have modernized spelling and added punctuation, aiming for a reader-friendly and broadly accessible edition. I have maintained the capitalization present in the manuscript, however, to keep open the possibility of additional emphasis as well as interplay between these words designated with a majuscule. In preparing this edition, I have consulted three previous editions, and I use the following abbreviations when referring to these editions in the notes:</p>
+
+                <p>
+                    SC	Christian, Stefan Graham. “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,”  PhD diss. (University of Massachusetts Amherst, 2012).
+                    AE	Eardley, Alice, ed. <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title> (University of
+                    Chicago Press, 2014).
+                    KW	Knight, Leah and Wendy Wall, eds. “The Caucasines (Emblem 52)” by Hester Pulter. (Poem 117, Elemental Edition). In <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall, 2018.</p>
+
+                <p>My notes to this amplified edition serve five purposes: to clarify denotative meaning in the poem through definitions or alternative phrasing; to flag significant features of the manuscript version of the poem, such as deletions, insertions, and marginal notes; to draw attention to instances where my punctuation choices impose one over another possible meaning; to amplify selected details of the poem through brief explanations of relevant cultural, historical, and political contexts; and to highlight some of the interesting structural features of the poem.</p>
+            </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -165,7 +175,36 @@
               <note type="headnote">Be careful what you wish for, since you just might get it; but don’t stop hoping, wishing, and praying, because who knows what might happen? So goes the (understandably) tangled moral in this response to the chaos of Britain’s civil wars and the ensuing interregnum. Creaturely images of parasites and predators form a concatenation of opaque references to infestations of animals (locusts, ibis, serpents), identified in the manuscript’s margin with specific factions and figures (Presbyterians, Cromwell, Independents). For Pulter, this poem is unusually explicit in identifying the political players involved. Despite the clarity suggested by such one-to-one allegories, the speaker’s zoological emblems primarily serve to show the challenge of choosing who to trust in times of civil upheaval, when seeming saviors can disappear, or even prove enemies in the end. </note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+                <p>Although the word “siege” does not appear until the final line of “The Caucasines,” it cements the figurative connection the emblem develops between being infested with waves of pests and being militarily invaded by various political factions. In an extended analogy, the speaker compares infestations that took place in ancient history to contemporary political power shifts. The Caucasines, the speaker informs us, struggled with a locust infestation until “selucides” (5), a type of bird, appeared out of nowhere and relieved them. The speaker then relates how the Egyptians were plagued by serpents until they, too, received help from a bird, this time the ibis. In this second example of infestation, however, the ibis spreads filth, and so the seeming rescuer becomes a bigger problem than the serpents. Things are even worse in the speaker’s own time: the “sad kingdom” the speaker inhabits similarly suffers an infestation, and not once, but twice, the seeming solution turns out to make things more terrible still. Marginal notes in the manuscript direct readers to equate Presbyterians with locusts that first “did o’er Run” England; Independents with “animals” (snakes) that devoured the locusts, but in turn “over all did crawl;” and the Protector, Oliver Cromwell, with the ibis that destroyed the snakes, but polluted everything “sacred” (14, 18, 20, 24). These infestations thus analogize anti-Royalist political factions (albeit conflicting factions) that contributed to the eventual seizure of power from the king through military force.<seg>1<note type="gloss">AE notes that the Presbyterians wanted to settle with the king, and the Independents forced them out of parliament (n. 493), but, arguably, they were part of a complex process that led to the power shift and to Charles I’s execution.</note></seg> Pulter’s diction shores up this connection between infestation and military aggression. Most obviously, the speaker refers to the locusts as an “army” (17). The word “annoy” also carried military resonance in Pulter’s time: when the serpents “did annoy” the Egyptians, they “inflict[ed] pain, harm, or injury,” “attack[ed], set upon, or oppress[ed] (an enemy),” or “launch[ed] repeated or persistent attacks against (an enemy territory, garrison, etc.).”<seg>2<note type="gloss"><title rend="italic">Oxford English Dictionary (OED)</title>, s.v. “annoy”, v., sense II.5 and sense II.6, September 2023.</note></seg> The locusts do the same to the Caucasines “annoyed” with them (1). The image of the “selucides,” moreover, “with their united strength and numerous power” (6), is suggestive of the arranged battle formations of military troops. And the serpents do not merely eat the locusts because that’s what serpents do; they “put these down” (19), the phrasing evoking the vanquishing of rivals or rebels. The words “destroyed” (2), “destroy” (11), and “afflicted” further attribute intentional violence to the infestations (13).</p>
+
+                <p>The poem’s linking of infestation and invasion dehumanizes the Parliamentarians who seized power from Charles I. Pulter’s imagery of swarming locusts and snakes to represent anti-Royalists bears thematic similarity to her use of the hydra in other poems, such as poems <ref type="pp-poem-ref" corresp="3">Aurora [1]</ref>, <ref type="pp-poem-ref" corresp="6">Universal Dissolution</ref>, <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>, <ref type="pp-poem-ref" corresp="42">Pardon Me, My Dearest Love</ref>, <ref type="pp-poem-ref" corresp="54">A Solitary Complaint</ref>. As Frances E. Dolan remarks of poem 7, “the ‘horrid Hydra,’ ‘Cursed Rabble,’ ‘black army,’ and ‘sacriligious rout’ all link the Parliamentary cause, the New Model Army, and their supporters as a disorderly mob.”<seg>3<note type="gloss">Frances E. Dolan, ed., <ref type="pp-poem-ref" corresp="7" target="ae">On Those Two Unparalleled friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>, by Hester Pulter (Poem 7, Amplified Edition), in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018).</note></seg> Similar to the monstrous hydra, swarming insects and reptiles in “The Caucasines” represent this same multitude as beastly and vicious, and made up of proliferating heads, such that for each head removed, two more can instantly fill the space. “Invocations of the swarm,” Joseph Campana finds, “tap into anxieties not merely about human masses but rather about hovering, leaderless collectivities whose appetites and impulses pose a threat to the idea that sovereignty was, whether by monarch or the by the people, necessary.”<seg>4<note type="gloss">Joseph Campana, “The Bee and the Sovereign (II): Segments, Swarms, and the Shakespearean Multitude,” in <title rend="italic">The Return of Theory in Early Modern English Studies, Volume II</title>, ed. Paul Cefalu, Gary Kuchar, and Bryan Reynolds (Palgrave Macmillan, 2014), 60.</note></seg> This assessment applies to Pulter’s Royalist depiction of Parliamentarians as swarming pests in that they threaten to overcome not mere individuals, but an entire mode of social organization and its founding concepts.</p>
+
+                <p>But the depiction of the Parliamentarians as crawling vermin also tugs against its obvious implication of Royalist superiority. For seventeenth-century readers, locust and snake infestations would likely call to mind Biblical plagues, which typically signalled divine wrath. Through Moses, for example, God afflicted the Egyptians with several plagues for refusing to free the Israelites, including one of locusts (Exodus 10:12), and the Israelites themselves were subjected to a plague of serpents for speaking against God (Numbers 21:6). Pulter engages elsewhere with the idea that God will make use of vermin, the lowliest creatures, to exact justice, as Thomas Ward and Molly Hand each observe.<seg>5<note type="gloss">Thomas Ward, ed., <ref type="pp-poem-ref" corresp="83" target="ae">Emblem 17</ref>, by Hester Pulter (Poem 83, Amplified Edition), in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018); Molly Hand, ed. <ref type="pp-poem-ref" corresp="111" target="ae">The Bishop and the Rats (Emblem 46)</ref>, by Hester Pulter (Poem 111, Amplified Edition), in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018).</note></seg> Emblem 17, for instance, states in its first lines:</p>
+
+               <cit>
+                    <quote>
+                        <lg>
+                            <l>When God (who is to mercy most inclined)</l>
+                            <l>To Punish or to try hath once designed</l>
+                            <l>A people, each reptile or insect</l>
+                            <l>Or basest animal will not neglect,</l>
+                            <l>But will their habitation so annoy.<seg>6<note type="gloss">Hester Pulter, “Emblem 17” (Poem 83, Amplified Edition), ed. Thomas Ward, in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018), 1–5.</note></seg></l>
+                        </lg>
+                    </quote>
+               </cit>
+
+                <p>Given this context, does “The Caucasines” obliquely worry that the afflicted Royalists are not faultless?</p>
+
+                <p>This tug of doubt is present from the opening line’s reference to the “Caucasines,” inhabitants of Mount Casius. The likely source for the poem’s details about the “selucides” saving the Caucasines from the locusts, Pliny’s <title rend="italic">Natural History</title>, provides information about Mount Casius itself, namely that it was sacred to Jupiter, that at its foot stretched the Serbonian bog, and that its summit offered such an exceptional vantage point that someone standing there could, “with a little turning of his face and body … at one time see both day and night.”<seg>7<note type="gloss">Philemon Holland, Trans., <title rend="italic">The History of the World: Commonly Called the Naturall Historie of C. Plinius Secundus</title> (London: Adam Islip, 1634), book 5, ch. 12, p.100. STC (2nd ed.) 20030; book 5, ch. 13, p.100; book 5, ch. 22, pp. 102–3.</note></seg> Combined, these details paint Mount Casius as a place of starkly opposed possibilities. Since, in the poem, the Royalists are analogous to the Caucasines, Mount Casius could imply that they occupy moral high ground, that they’re closer to the divine than their attackers, and that their vantage point is superior. That vantage point, however, symbolically yields an equally sunny or dark view, depending upon which way you look. The hard-by Serbonian bog, moreover, hints that disaster and despair are never far away: this bog became synonymous for an inescapable situation, and it features as a reference point in the description of Hell’s landscape in Milton’s <title rend="italic">Paradise Lost</title>.<seg>8<note type="gloss">“The Serbonian Bog,” in <title rend="italic">Brewer’s Dictionary of Phrase and Fable</title>, 19th ed., ed. Susie Dent (Chambers Harrap, 2012, online version 2013), DOI 10.1093/acref/9780199990009.001.0001; John Milton, <title rend="italic">Paradise Lost</title>, ed. Scott Elledge, 2nd ed. (New York: Norton, 1993), book 2, ll.592-4.</note></seg> The “clouds” of locusts that afflict the Caucasines, and the snakes that “over all did crawl” in Egypt, are similarly engulfing (15, 20). The threat of being overtaken by a particulated mass is the inverse, in a way, of Pulter’s reflections in other poems on “physical dissolution” leading to “spiritual rebirth”.<seg>9<note type="gloss">Elizabeth Scott-Baumann, ed. <ref type="pp-poem-ref" corresp="16" target="ae">The Revolution</ref>, by Hester Pulter (Poem 16, Amplified Edition), in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall (2018).</note></seg>
+                </p>
+
+                <p>The inescapable feeling of enduring a siege or infestation comes across structurally in Pulter’s use of repetition. Lines 10–11 repeat the rhyming words from lines 1–2, but with a shift in verb tense (“annoyed” / “destroyed” and “annoy” / “destroy”), signalling through form what the content makes clear – essentially the same thing happened all over again in another context. Sustained repetition of both words and rhymes, with “deplore,” “implore,” “before” (3–5), then “more,” “before” (12–13), and finally “before,” “deplore” (18–19), emphasizes the sense of enduring the same things, inescapably and without variety.</p>
+
+                <p>The final five lines, however, offer hope of escape from the feeling of constant besiegement. Even though every seeming salvation previously backfired, the speaker doggedly resolves to appeal to God once more, and, fixing on the future as the unknown, envisions a saviour coming from the seas. These lines perhaps convey more than an emblematic notion of relief finally emerging out of rough times. As Stefan Graham Christian points out, speculation that the poem dates between 1658 and 1660 is tempting, “since it so manifestly looks for hope to materialize from the ‘Seas,’ and it was well known that Charles II, living on the continent since 1651, must return by sea to his country” (380). In the final lines, the speaker turns away from the Caucasines and Egyptians to another, more recent point of comparison for the weary Royalists – the Protestant citizens of La Rochelle. When besieged by the French king’s Catholic forces in 1572 and 1573, the Rochelais did receive relief from the seas when many fish unexpectedly washed ashore, saving them from starvation, as Leah Knight and Wendy Wall observe in the Elemental Edition of this poem. The poem closes on this hopeful note, the final word “wish” signifying at once the more-than-fulfilled wish of the sixteenth-century Rochelais and the still-active Royalist wish for the restoration of the monarchy.</p>
+
+                <p>In more recent history, however, La Rochelle was again besieged by French royal and Catholic forces, and in 1628, having lost many citizens to starvation, capitulated.<seg>10<note type="gloss">John A. Lynn, “La Rochelle, siege of,” in <title rend="italic">The Oxford Companion to Military History</title> (Oxford UP, 2004); “La Rochelle,” in <title rend="italic">The Oxford Dictionary of Phrase and Fable</title>, 2nd ed. (Oxford UP, 2006). Adam N. McKeown, <title rend="italic">Fortification and Its Discontents from Shakespeare to Milton</title> (New York and London: Routledge, 2019), 84-5, notes that when La Rochelle surrendered, only around 5000 of its inhabitants were alive, compared to 25000 “a year earlier.” By royal declaration, the “towers, sea walls, and all other fortifications” of La Rochelle were razed to the ground.</note></seg> English interest in this event is evident in contemporary print publications that range from a French engraver’s map of the fortifications and terrain of La Rochelle, to lamenting the loss of the French Protestant stronghold, and defending King Charles I against claims he did not commit adequate resources to La Rochelle’s defence.<seg>11<note type="gloss">See Melchior Tavernor, <title rend="italic">A true and most exact map of the siedge of Rochell, presented to the Kings Majestie the first day of May, 1628</title> (Paris: Melchior Tavernor, 1628; to be sold by Thomas Walkely, at the Eagle and Childe in Brittaines Bursse, 1628). STC (2nd ed.) 23716.5 (“Tavernor” here is an anglicized version of “Tavernier”); “Malignants remember Rochell: or, A warning to the Protestants of England” (London, 1645). Wing (2nd ed.) M325; “Treasons anatomie, or, The duty of a loyall subject in vindicating his gracious soveraigne, against those horride aspertions, cast upon him, concerning his fathers death, the reliefe of the Rochellers, and the rebellion in Ireland” (London, 1647), 11-13. Wing (2nd ed.) T2083.</note></seg> King Charles’s favourite, George Villiers, first duke of Buckingham, led an expedition in support of La Rochelle in 1627, which ended in “humiliating defeat” and contributed to the Commons denouncing him as “the cause of all England’s evils.”<seg>12<note type="gloss">Roger Lockyer, “Buckingham, George Villiers, 1st duke of (1592–1628),” in <title rend="italic">The Oxford Companion to British History</title>, 2nd ed., ed. Robert Crowcroft and John Cannon (Oxford: Oxford University Press, 2015).</note></seg> Pulter’s poem makes no gesture towards La Rochelle’s more recent fall, but this historical reality potentially undercuts its final note of hope by suggesting that any wished-for deliverance from political enemies will not be permanent; rather, the cycle of besiegement and resistance will begin again. This possibility is consistent with the frequently expressed sentiment, in Pulter’s oeuvre, that true release from earthly trials comes only through death and the afterlife.</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -174,170 +213,170 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">52</fw>The <seg>Ca<add place="above">u.</add>caſines<note type="physical">“u.” directly above erased letter(s), perhaps “m” or “ni”; insertion in different hand from main scribe</note></seg> with Locusts were anoy’d</rdg>
             <rdg wit="#ee"><seg>The Caucasines with locusts were annoyed<note type="gloss">In a discussion of locusts and “how they may be killed and driven away,” Edward Topsell includes this account of the Seleucides of Mount Cassian: “the inhabitants of the Mount Cassian [Caucasines] formerly obtained [the Seleucides] to be sent by Jupiter against the locusts that destroyed their corn. These birds come yearly to help them, but whither they fly back, or whence they come, no man can tell. So soon as the locusts are destroyed they forsake the mountain, and go home again.” <bibl><title rend="italic">History of Four-Footed Beasts</title>, (London, 1658), p. 988.</bibl></note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The <seg>Caucasines<note type="critical">Inhabitants of Mount Casius, a mountain on the Mediterranean coast, on the Syrian-Turkish border. Mount Casius is sacred to Jupiter (Philemon Holland, trans., <title rend="italic">The History of the World: Commonly Called the Naturall Historie of C. Plinius Secundus</title> [London: Adam Islip, 1634], book 5, ch. 12, p.100. STC [2nd ed.] 20030). In biblical history, it is sacred to the “storm god” (Michael D. Coogan, “Zaphon,” in <title rend="italic">The Oxford Guide to People and Places of the Bible</title>, ed. Bruce M. Metzer and Michael D. Coogan [Oxford: Oxford University Press, 2001, online version 2002]). Pliny relates that a person standing at Mount Casius’s peak could see day and night at the same time, simply by looking in opposite directions (Holland, <title rend="italic">Naturall Historie</title>, book 5, ch. 22, pp. 102-3). Pliny also notes that Herodotus places the Serbonian Lake at the foot of Mount Casius (Holland, <title rend="italic">Naturall Historie</title>, book 5, ch. 13, p.100). John Milton’s <title rend="italic">Paradise Lost</title> refers to this same lake to describe part of Hell’s landscape as, quicksand-like, capable of swallowing entire armies: “A gulf profound as that Serbonian bog / Betwixt Damiata and Mount Casius old, / Where armies whole have sunk” (John Milton, <title rend="italic">Paradise Lost</title>, ed. Scott Elledge, 2nd ed. [New York: Norton, 1993], book 2, ll.592-4). The Serbonian bog became figurative for a mess from which it is impossible to extricate oneself (“The Serbonian Bog,” in <title rend="italic">Brewer’s Dictionary of Phrase and Fable</title>, 19th ed., ed. Susie Dent [Chambers Harrap, 2012, online version 2013], DOI 10.1093/acref/9780199990009.001.0001).</note></seg> with <seg>Locusts<note type="critical">Pliny informs readers that locusts have no eyes (Holland, <title rend="italic">Naturall Historie</title>, book 11, ch. 37, p.334). Since the poem associates the Presbyterians with locusts, this detail, in an ableist construction, potentially characterizes the Presbyterians, and anti-Royalists more generally, as lacking sight or understanding.</note></seg> were <seg>annoyed<note type="gloss">troubled, disturbed, afflicted (now obsolete). (OED s.v. “annoyed, adj.”, July 2023). As SC and AE point out, Pulter could have drawn from Pliny or Holland’s translation of Pliny the details of selucides ridding the mountain inhabitants of locusts, and Egyptians calling upon the ibis to help with snake infestations. The entries on the selucides and the ibis appear consecutively in these texts. For early modern readers, such infestations would also resonate with biblical stories, which associate plagues with divine wrath. Through Moses, for example, God afflicted the Egyptians with a plague of locusts, among others, for refusing to free the Israelites (Exodus 10:12), and the Israelites themselves were subjected to a plague of serpents for speaking against God (Numbers 21:6).</note></seg>,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">That all their <seg>Herbs<note type="physical">“s” added later in different hand from main scribe</note></seg> and &ff;ruits were quite deſtroyd</rdg>
             <rdg wit="#ee">That all their <seg>herbs<note type="gloss">plants</note></seg> and fruits were quite destroyed;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>That<note type="gloss">in that, such that. SC, AE, KW do not place a comma after “annoyed.”</note></seg> all their <seg>Herbs and Fruits<note type="critical">In the ms, an ‘s’ has been inserted to pluralize the original “herb and fruit.”</note></seg> were quite destroyed,</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Whilst with Sad Hearts their Suffrings they deplore</rdg>
             <rdg wit="#ee">Whilst with sad hearts their suff’rings they <seg>deplore<note type="gloss">lament</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Whilst with <seg>sad Hearts<note type="critical">Lines 3 and 4 provide an example of Pulter’s skill with meter. The opening two lines exhibit regular iambic pentameter, but in the first two feet of line 3 it is possible to hear a trochee and a spondee. The spondee adds a fitting heaviness or ponderousness to “sad hearts,” which contrasts sharply with the two pyrrhic feet (first and third) in line 4. With only three stressed syllables, line 4 feels quicker and lighter than line 3, thus complementing the semantic difference between deploring suffering and seeking assistance. Line 5 returns to regular iambic pentameter.</note></seg> their suff’rings they deplore</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">And the aſſistance of the Gods implore</rdg>
             <rdg wit="#ee">And the assistance of the gods implore,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And the assistance of the Gods implore.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">The Selucides Birds never Seen before</rdg>
             <rdg wit="#ee">The Seleucides birds, ne’er seen before,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The <seg>Selucides<note type="critical">birds, as the line goes on to make clear. In SC this line has no comma; AE and KW place a comma after “birds” and again after “before.” In addition to the sense that the selucides were never-before-seen birds, this edition’s line punctuation keeps open the potential meaning that the selucides may have been previously seen, but not “with their united strength and numerous power.” The latter meaning perhaps links more readily to the English political context the poem turns to, beginning at line 14.</note></seg>, Birds never seen <seg>before<note type="critical">This line ends the only rhyming triplet in a poem consisting of rhyming couplets.</note></seg></rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">With their united Strength and numerous power</rdg>
             <rdg wit="#ee">With their united strength and num’rous power</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">With their united strength and <seg>numerous<note type="critical">Likely pronounced “num’rous,” or pronounced with three syllables, with “power” pronounced as one syllable. SC numerous, AE numerous, KW num’rous.</note></seg> power</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Did inſtantly theſe Locusts all devour</rdg>
             <rdg wit="#ee">Did instantly these locusts all devour.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Did instantly these Locusts all devour.</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Their Work being don they Straight &ff;lew all away</rdg>
             <rdg wit="#ee">Their work being done, they straight flew all away,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Their Work being done they straight Flew all away,</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">And ne’re wore Seen nor heard of to this day</rdg>
             <rdg wit="#ee">And ne’er were seen nor heard of to this day.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And <seg>ne’er were seen nor heard of to this day<note type="critical">An echo of Pliny, as SC notes. “The birds called Seleucides, come to succour the inhabitants of the mountaine Casius, against the Locusts. For when they make great waste in their corne and other fruits, <title rend="italic">Jupiter</title> at the instant praiers and supplications of the people, sendeth these fouls among them to destroy the said Locusts. But from whence they come, or whether they go again, no man knoweth: for never are they seen but upon this occasion, namely, when there is such need of their helpe” (Holland, <title rend="italic">Naturall Historie</title>, book 10, ch. 27, p. 284).</note></seg>.</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Soe Serpents once the Egyptians did A<hi rend="overline">n</hi>oy</rdg>
             <rdg wit="#ee">So serpents once th’Egyptians did annoy;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So serpents once <seg>the Egyptians<note type="critical">Likely pronounced “th’Egyptians,” in keeping with the meter.</note></seg> did <seg>Annoy<note type="gloss">“to inflict pain, harm, or injury on (a person),” “to attack, set upon, or oppress (an enemy),” or “to launch repeated or persistent attacks against (an enemy territory, garrison, etc.).” (OED  s.v. “annoy”, v., sense II.5 and sense II.6, September 2023. Holland’s translation of Pliny also describes the Egyptians as being “annoied” with serpents (book 10, ch. 28, p.284).</note></seg>,</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Then Ibis came and did theſe Worms diſtroy</rdg>
             <rdg wit="#ee">Then <seg>ibis came and did these worms destroy<note type="gloss">Edward Topsell’s <title rend="italic">History of Four-Footed Beasts</title> indicates that, “of all other fowls enemies to serpents, there is none greater or more deadly, than the bird called ibis, which the Egyptians do wonderfully honor; for when swarms of serpents come into Egypt out of the Arabian gulfs and fens, these birds meet and destroy them.” <bibl>London, 1658, p. 610.</bibl></note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then Ibis came and did these Worms destroy,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">But with his putred &ff;ilth hee ten times more</rdg>
             <rdg wit="#ee">But with his putrid filth he ten times more</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But with his putrid Filth he ten times more</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Afflicted them, then they were e’re before</rdg>
             <rdg wit="#ee"><seg>Afflicted them<note type="gloss">Egyptians were thought to cultivate and nourish the ibis to clean up garbage and pests, but this strategy backfired because of the filth and excrement that these birds left. See <bibl>William Yonger’s sermon, <title rend="italic">The Unrighteous Judge</title> (London, 1621), p. 20.</bibl></note></seg> than they were e’er before.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Afflicted them<note type="critical">KW cite William Yonger’s sermon, <title rend="italic">The Unrighteous Judge</title> (London, 1621), 20, as an instance of how “Egyptians were thought to cultivate and nourish the ibis to clean up garbage and pests, but this strategy backfired because of the filth and excrement that these birds left.”</note></seg>, <seg>than<note type="gloss">Ms, then</note></seg> they were e’re before.</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft"><seg>Soe<note type="physical">in left margin: “<add place="above">x</add> Presbitery”, with “bitery” in different hand from main scribe</note></seg> this Sad Kingdome <add place="above">x</add>Locusts did o’re Run</rdg>
             <rdg wit="#ee"><seg>So this sad kingdom locusts<note type="gloss">In the manuscript, a marginal note identifies the locusts who are overrunning the “sad kingdom” (England) as Presbyterians, an anti-Royalist faction.</note></seg> did o’errun,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So <seg>this sad Kingdom<note type="critical">England, but between 1649 and 1659 England was governed not by a monarchy, but by the Protectorate established following the execution of Charles I. In 1660 the Stuart monarchy was restored. By using the term “kingdom,” the speaker signals a refusal to accept that these recent political events have permanently abolished England’s monarchy.</note></seg> <seg>Locusts<note type="critical">A marginal note in the manuscript glosses “locusts” as “Presbitery.” The Presbyterians were a Parliamentary, anti-Royalist faction.</note></seg> did <seg>o’re Run<note type="critical">The un-modernized spelling, here, highlights multiple meanings. The locusts “did overrun” or overwhelm the kingdom; they “did over-run,” as in rule over, the kingdom; and they did run clouds over the kingdom (the “Clouds” of the following line). AE places a semicolon after “o’errun,” KW place a comma after “o’errun.”</note></seg></rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Such Clowds (Ay mee) as did Eclips <del>the</del> <add place="below">^</add><seg><add place="above">o:r</add><note type="physical">“r” in double superscript</note></seg> Sun</rdg>
             <rdg wit="#ee">Such clouds (ay me!) as did eclipse our sun.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Such <seg>Clouds<note type="critical">The image of locusts in a cloud formation corresponds with the first word of the definition for “swarm” in Joshua Poole’s 1657 lexicon, The English Parnassus: “Swarm. Clowdy, thronging, crowding, clustered, cluttering, preasing [sic], populous, numerous, unnumbered, flocking, numberless, trooping” (<title rend="italic">Lexicons of Early Modern English</title>, edited by Ian Lancashire [Toronto: University of Toronto Press], Accessed September 2023).</note></seg> (Ay me!) as did <seg>Eclipse<note type="critical">Elsewhere in Pulter’s oeuvre, clouds eclipsing the sun signify sin blocking God’s light from the soul (Lara Dodds, “Hester Pulter Observes the Eclipse, Or, the Poetics of the Astronomical Event,” <title rend="italic">Journal for Early Modern Culture Studies</title> 20.2 [2020]:156–7).</note></seg> <seg>our<note type="critical">In the ms, “The” is crossed out and “our” or “ar” inserted with an arrow indicating the insertion.</note></seg> <seg>Sun<note type="critical">symbolic of King Charles I in Royalist poetry, and, with a pun on ‘sun’ / ‘son’ (of God), of the king as a Christ-like figure, both in his status as divinely appointed to rule, and in his execution, which Royalists perceived as a kind of martyrdom on Charles’s part and a sacrilegious act committed by the Parliamentarians.</note></seg>.</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">What houſs of this baſe Vermine then were free</rdg>
             <rdg wit="#ee">What house of this base vermin then were free?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">What house of this base vermin <seg>then<note type="gloss">“therefore,” or, “at that time.”</note></seg> were free?</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft"><seg>Such<note type="physical">in left margin: “* Independ”, with “epend” in different hand from main scribe</note></seg> a like Armie let mee never See</rdg>
             <rdg wit="#ee">Such a like army let me never see.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Such a like Army let me never see.</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Then *Animal’s came were never Seen before</rdg>
             <rdg wit="#ee">Then <seg>an’mals<note type="gloss">In the manuscript, a marginal note identifies the “animals” with the Independent faction in the civil wars.</note></seg> came <seg>were<note type="gloss">that were</note></seg> never seen before,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then <seg>Animals<note type="critical">the “subtle serpents” of line 20. “Animals” is glossed in the manuscript as “independ.” The Independents were another anti-Royalist faction. As AE explains, “The Independent Party advocated religious freedom for religious nonconformists and called for the complete separation of church and state. In contrast, the parliamentary Presbyterians, or Peace Party, were a more moderate faction within the Long Parliament who sought settlement with the king” (note 493).</note></seg> came were never seen before,</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">And put theſe down, none did their loſs deplore</rdg>
             <rdg wit="#ee">And put <seg>these<note type="gloss">the Presbyterians</note></seg> down; none did their loss deplore.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And put these <seg>down<note type="physical">A comma appears after “down”  in the manuscript, as well as in AE and SGC. KW also replace the comma with a semicolon.</note></seg>; none did their loss deplore.</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Theſe Subtile Serpents over all did crawl</rdg>
             <rdg wit="#ee">These <seg>subtle<note type="gloss">shrewd; crafty; treacherous</note></seg> serpents over all did crawl;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">These subtle serpents over all did <seg>crawl<note type="critical">The period after “crawl” imposes a meaning where two are possible. Without a period, the line enjambs so that the serpents “over all did crawl to Heaven; for remedy we then did call.” The enjambment would fit with the Royalist sense of the gross overreaching of Republicans in their seizing of royal power, which Royalists held to be divinely given. I find the speaker’s community calling to Heaven the more convincing meaning, especially in light of line 23. The punctuation here reflects the latter meaning, as does the punctuation in the elemental edition of the poem, which places a semicolon after “crawl” to end line 20.</note></seg>.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">To Heaven for Remedy wee then did call</rdg>
             <rdg wit="#ee">To <seg>Heaven<note type="gloss">pronounced here and two lines below as one syllable ("Heav'n")</note></seg> for remedy <seg>we<note type="gloss">the supporters of Charles I in England</note></seg> then did call.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To Heaven for Remedy we then did call.</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft"><seg>Then<note type="physical">in left margin: “*Protector”, with “tector” in different hand from main scribe</note></seg> *Ibis came and Swoll’d this whole &ff;rie</rdg>
             <rdg wit="#ee">Then <seg>ibis<note type="gloss">A marginal note in the manuscript identifies the ibis with “Protector,” a reference to Oliver Cromwell, entitled Lord Protector as head of state after the civil wars (1653-8); the title was subsequently passed to his son, Richard (1658-9).</note></seg> came and swallowed this whole <seg>fry<note type="gloss">a collective term for young or insignificant beings, especially as of a crowd or swarm</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then <seg>Ibis<note type="critical">is glossed in the manuscript as “Protector.” Oliver Cromwell ruled as Lord Protector of England, Scotland, and Ireland when the Protectorate was established after the January 1649 execution of King Charles I.</note></seg> came and swallowed this whole <seg>fry<note type="gloss">“Young fishes just produced from the spawn” (OED, s.v. “fry, n.¹, sense 3.a”, July 2023.)</note></seg>;</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Some did Repent that they to Heaven did crie</rdg>
             <rdg wit="#ee">Some did repent that they to Heaven did cry,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Some did Repent that they to Heaven did cry,</rdg>
         </app>
       </l>
-        
+
         <app>
             <rdg wit="#ft">
                 <fw type="catch" place="bottom">for</fw>
             </rdg>
         </app>
-        
+
         <app>
             <rdg wit="#ft">
                 <pb ed="#ft" facs="#f7610_258" n="127v"/>
@@ -349,47 +388,48 @@
                 <pb ed="#ae" facs="#f7610_258"/>
             </rdg>
         </app>
-        
+
       <l n="24">
         <app>
             <rdg wit="#ft">&ff;or all that Sacred was hee did pollute</rdg>
             <rdg wit="#ee">For all that sacred was, he did pollute;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For <seg>all that Sacred was he did pollute<note type="critical">Oliver Cromwell was a proponent for the abolishment of the Book of Common Prayer, which, as Kenneth Graham notes, was the foundation of Pulter’s “preferred liturgy” (Kenneth Graham, ed., <ref type="pp-poem-ref" corresp="55" target="ae">Must I thus ever interdicted be?</ref> by Hester Pulter [Poem 55, Amplified Edition], in <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall [2018])</note></seg>,</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">Yet let us once again to God make Sute</rdg>
             <rdg wit="#ee">Yet let us once again to God make suit.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet let us once again to God <seg>make suit<note type="gloss">appeal</note></seg>.</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Who Knows the Tumid and Tumultuous Seas</rdg>
             <rdg wit="#ee">Who knows? The <seg>tumid<note type="gloss">swollen</note></seg> and tumultuous seas</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Who knows?<note type="critical">The added question mark forecloses another possible reading of this line, which, with no question mark, could be stating that “someone who knows,” or “who[ever] knows,” the “Tumid and Tumultuous Seas / May bring a Friend that may our suff’rings ease.” The possibility that “Who knows” is a question, though, is more compelling to me because it encapsulates the tension in the poem between hope and despair, and corresponds with the uncertainty evident in the repeated “may” of the next line: the seas may bring a friend who <title rend="italic">may</title> ease our sufferings - who knows? SC and AE do not add a question mark; KW add the question mark.</note></seg> The <seg>Tumid<note type="gloss">swelling, bulging (<title rend="italic">Oxford English Dictionary</title>, s.v. “tumid, adj., sense 1.b”, July 2023). This instance might also be an early example of “tumid” meaning “teeming,” though the <title rend="italic">OED</title> lists examples from 1840 as the earliest instances of this meaning (<title rend="italic">Oxford English Dictionary</title>, s.v. “tumid, adj., sense 2.b”, July 2023).
+          </note></seg> and Tumultuous Seas</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">May bring a &ff;riend y<hi rend="superscript">t</hi> may <w lemma="our"><abbr>o:<hi rend="superscript">r</hi></abbr></w> Suffrings Eas</rdg>
             <rdg wit="#ee">May bring a friend that may our suff’rings ease.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">May bring a Friend that may our suff’rings ease.</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Soe Rochill by A Shoal of Unknown &ff;iſh</rdg>
             <rdg wit="#ee"><seg>So Rochelle, by a shoal of unknown fish<note type="gloss">When Catholic troops besieged the coastal French town of La Rochelle in 1572 and 1573, a large number of fish washed ashore and saved the city from starvation, as the next line indicates. See <bibl><title rend="italic">The Protestant Reformation in France: History of the Hugenots</title> (London, 1847), Vol. 2, 418-19.</bibl></note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>So Rochill by a shoal of unknown fish<note type="critical">as KW explain, “when Catholic troops besieged the coastal French town of La Rochelle in 1572 and 1573, a large number of fish washed ashore and saved the city from starvation, as the next line indicates. See <title rend="italic">The Protestant Reformation in France: History of the Hugenots</title> (London, 1847), Vol 2, 418–19.” La Rochelle, a Protestant stronghold in France, was again besieged in 1627 and, after many Rochelais starved to death, capitulated to Louis XIII and Cardinal Richelieu in October 1628 (Judith P. Meyer, “La Rochelle,” in <title rend="italic">The Oxford Encyclopedia of the Reformation</title> [Oxford UP, 1996, online version 2005]; “La Rochelle,” in <title rend="italic">The Oxford Dictionary of Phrase and Fable</title>, 2nd ed. [Oxford UP, 2005, online publication 2006]). </note></seg></rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">Out liv’d their Sieg above their hopes &amp; Wiſh.</rdg>
             <rdg wit="#ee">Outlived their siege above their hopes and wish.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Outlived their siege above their hopes and wish.</rdg>
         </app>
       </l>
 

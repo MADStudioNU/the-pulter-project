@@ -46,10 +46,10 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 
 ### Current Delta
 Poems that are published on the preview site but not on the production site:
-> A092 (Newcombe), A109 (Lawall), A115 (Koch)
+> A106 (Richie), A109 (Lawall), A115 (Koch), A117 (Johnson)
 
 Curations:
-> C092 (_Moose: Fact and Fiction_), C092 (_Serpents vs. Deer_), C092 (_Shipwrecks and Civil War_), C105 (_Resurrections at Cairo_) , C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
+> C105 (_Resurrections at Cairo_), C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_), C117 (_The Fortress as a Body_), C117 (_Women Besieged and Besieging_)
 
 Explorations:
 > —
