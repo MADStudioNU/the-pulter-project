@@ -78,7 +78,7 @@
           <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be further explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character’s status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-        <witness xml:id="ae">Amplified edition: By <persName>Sarah E.Johnson</persName>.</witness>
+        <witness xml:id="ae">Amplified edition: By <persName>Sarah E. Johnson</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -152,16 +152,16 @@
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
-            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
+            <note type="editorialnote">In these transcriptions we preserve as many details of the original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
           </rdg>
           <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
+            <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
             <note type="editorialnote">
                 <p> I have modernized spelling and added punctuation, aiming for a reader-friendly and broadly accessible edition. I have maintained the capitalization present in the manuscript, however, to keep open the possibility of additional emphasis as well as interplay between these words designated with a majuscule. In preparing this edition, I have consulted three previous editions, and I use the following abbreviations when referring to these editions in the notes:</p>
                 <p>
-                  SC: Christian, Stefan Graham. “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,”  PhD diss. (University of Massachusetts Amherst, 2012).</lb>
-                  AE: Eardley, Alice, ed. <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title> (University of Chicago Press, 2014).</lb>
+                  SC: Christian, Stefan Graham. “The Poems of Lady Hester Pulter (1605?–1678): An Annotated Edition,” PhD diss. (University of Massachusetts Amherst, 2012).<lb/>
+                  AE: Eardley, Alice, ed. <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title> (University of Chicago Press, 2014).<lb/>
                   KW: Knight, Leah and Wendy Wall, eds. “The Caucasines (Emblem 52)” by Hester Pulter. (Poem 117, Elemental Edition). In <title rend="italic">The Pulter Project: Poet in the Making</title>, edited by Leah Knight and Wendy Wall, 2018.
                 </p>
                 <p>My notes to this amplified edition serve five purposes: to clarify denotative meaning in the poem through definitions or alternative phrasing; to flag significant features of the manuscript version of the poem, such as deletions, insertions, and marginal notes; to draw attention to instances where my punctuation choices impose one over another possible meaning; to amplify selected details of the poem through brief explanations of relevant cultural, historical, and political contexts; and to highlight some of the interesting structural features of the poem.</p>
@@ -182,7 +182,7 @@
 
                <cit>
                     <quote>
-                        <lg> 
+                        <lg>
                             <l>When God (who is to mercy most inclined)</l>
                             <l>To Punish or to try hath once designed</l>
                             <l>A people, each reptile or insect</l>
@@ -295,7 +295,7 @@
         <app>
             <rdg wit="#ft">Afflicted them, then they were e’re before</rdg>
             <rdg wit="#ee"><seg>Afflicted them<note type="gloss">Egyptians were thought to cultivate and nourish the ibis to clean up garbage and pests, but this strategy backfired because of the filth and excrement that these birds left. See <bibl>William Yonger’s sermon, <title rend="italic">The Unrighteous Judge</title> (London, 1621), p. 20.</bibl></note></seg> than they were e’er before.</rdg>
-          <rdg wit="#ae"><seg>Afflicted them<note type="critical">KW cite William Yonger’s sermon, <title rend="italic">The Unrighteous Judge</title> (London, 1621), 20, as an instance of how “Egyptians were thought to cultivate and nourish the ibis to clean up garbage and pests, but this strategy backfired because of the filth and excrement that these birds left.”</note></seg>, <seg>than<note type="gloss">Ms, then</note></seg> they were e’re before.</rdg> 
+          <rdg wit="#ae"><seg>Afflicted them<note type="critical">KW cite William Yonger’s sermon, <title rend="italic">The Unrighteous Judge</title> (London, 1621), 20, as an instance of how “Egyptians were thought to cultivate and nourish the ibis to clean up garbage and pests, but this strategy backfired because of the filth and excrement that these birds left.”</note></seg>, <seg>than<note type="gloss">Ms, then</note></seg> they were e’re before.</rdg>
         </app>
       </l>
       <l n="14">
@@ -350,7 +350,7 @@
       <l n="21">
         <app>
             <rdg wit="#ft">To Heaven for Remedy wee then did call</rdg>
-            <rdg wit="#ee">To <seg>Heaven<note type="gloss">pronounced here and two lines below as one syllable ("Heav'n")</note></seg> for remedy <seg>we<note type="gloss">the supporters of Charles I in England</note></seg> then did call.</rdg>
+            <rdg wit="#ee">To <seg>Heaven<note type="gloss">pronounced here and two lines below as one syllable ("Heav’n")</note></seg> for remedy <seg>we<note type="gloss">the supporters of Charles I in England</note></seg> then did call.</rdg>
           <rdg wit="#ae">To Heaven for Remedy we then did call.</rdg>
         </app>
       </l>
@@ -368,13 +368,13 @@
           <rdg wit="#ae">Some did Repent that they to Heaven did cry,</rdg>
         </app>
       </l>
-        
+
         <app>
             <rdg wit="#ft">
                 <fw type="catch" place="bottom">for</fw>
             </rdg>
         </app>
-        
+
         <app>
             <rdg wit="#ft">
                 <pb ed="#ft" facs="#f7610_258" n="127v"/>
@@ -386,7 +386,7 @@
                 <pb ed="#ae" facs="#f7610_258"/>
             </rdg>
         </app>
-        
+
       <l n="24">
         <app>
             <rdg wit="#ft">&ff;or all that Sacred was hee did pollute</rdg>
@@ -430,7 +430,6 @@
           <rdg wit="#ae">Outlived their siege above their hopes and wish.</rdg>
         </app>
       </l>
-
     </body>
   </text>
 </TEI>
