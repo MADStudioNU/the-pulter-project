@@ -7955,9 +7955,10 @@
           </pp:author>
           <pp:title>The Fortress as a Body</pp:title>
           <pp:peek>In linking the onslaught of various pest infestations to military invasion, Pulter makes explicit reference to a sixteenth-century siege in France, but siegecraft remained central to the English civil wars she herself lived through.</pp:peek>
-<!--          <pp:keywords>-->
-<!--            <pp:keyword></pp:keyword>-->
-<!--          </pp:keywords>-->
+          <pp:keywords>
+            <pp:keyword>embodiment</pp:keyword>
+            <pp:keyword>war</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="off" hash="women-besieged-and-besieging">
           <pp:author>
@@ -7965,9 +7966,11 @@
           </pp:author>
           <pp:title>Women Besieged and Besieging</pp:title>
           <pp:peek>Pulter’s analogy comparing a siege to waves of rising political factions intensifies a focus on women’s position in the power struggles of the Civil War period.</pp:peek>
-<!--          <pp:keywords>-->
-<!--            <pp:keyword></pp:keyword>-->
-<!--          </pp:keywords>-->
+          <pp:keywords>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
