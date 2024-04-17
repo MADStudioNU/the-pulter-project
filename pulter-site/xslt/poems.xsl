@@ -6604,6 +6604,15 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="pulters-splendent-fame">
+          <pp:author>
+            <pp:person>Grant Williams</pp:person>
+          </pp:author>
+          <pp:title>Pulter’s Splendent Fame</pp:title>
+          <pp:peek>With its transitional adverb of consequence, Pulter’s line “Then let me ever have a splendent fame” registers the argumentative turn in “Vain Herostratus” toward the author’s personal circumstances.</pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>fame</pp:keyword>
         <pp:keyword>ambition</pp:keyword>

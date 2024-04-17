@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > A109 (Lawall), A115 (Koch)
 
 ### Curations
-> C105 (_Resurrections at Cairo_), C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
+> C093 (_Pulter’s Splendent Fame_), C105 (_Resurrections at Cairo_), C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
 
 ### Explorations
 > —
