@@ -6605,7 +6605,7 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="pulters-splendent-fame">
+        <pp:curation status="on" hash="pulters-splendent-fame">
           <pp:author>
             <pp:person>Grant Williams</pp:person>
           </pp:author>
