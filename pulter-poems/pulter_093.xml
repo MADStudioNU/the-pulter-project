@@ -78,7 +78,7 @@
           <p>Corrections and annotations made within the scope of the original document either by its original authors, owners, and/or transcribers are noted using ADD tags. These annotations and may be further explained within NOTE tags, as added by the editors of this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the manuscripts a character’s status as majuscule or minuscule is ambiguous, the editor has silently chosen one or the other based on context and judgment (i.e., does not register such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
           <p>Original quotation marks, if any, are preserved.</p>
@@ -125,13 +125,12 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+       <witness xml:id="ae">Amplified edition: By <persName>Matthew Harrison</persName>.</witness>
         </listWit>
       </div>
     </front>
 
     <body>
-
       <app>
         <rdg wit="#ft">
           <pb ed="#ft" facs="#f7610_222" n="109v"/>
@@ -149,7 +148,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 28]</rdg>
             <rdg wit="#ee">Vain Herostratus<lb/>(Emblem 28)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">28</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +157,11 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">
+                <p>This is a difficult poem, dense with historical allusions. As such, I have modernized capitalization, spelling, and punctuation to aid a modern reader (except for contractions used for metrical purposes). Doing so necessarily changes our experience of the text. The manuscript uses very little punctuation, forcing us to decipher the grammatical relationships between ideas in much the same way that we have to piece together the conceptual relationships implied by the poem’s many allusions.</p>
+
+                <p>In my footnotes, I have chosen to emphasize moments of scholarly uncertainty or disagreement.</p>
+            </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -166,7 +169,23 @@
               <note type="headnote">Notoriety: this is the focus of Pulter’s emblem, which rehearses the story of men whose ambitious drive for fame led to their destruction. The imaginative geography of this emblem stretches across ancient Greece, Syria, Persia, Babylon, Jerusalem, Gallic Northern Europe, and contemporary Ireland, unearthing a vast array of examples of impiety and sacrilege. While the last part of the poem focuses on the just deserts that anti-heroes such as Cambyses, Belshazzar, and Brennus suffered, the poem begins with the more particular conundrum of how the drive for fame can twist into notoriety instead: the very desire to be commemorated morphs into the curse of not being forgotten as a villain. Pulter’s one mention of a <hi rend="italic">woman</hi> seeking fame is, unusually, herself, offered as a counterexample to the powerful male rulers she mentions. Why is seeking “splendent fame” valid for a poet who hopes to embody the role of “Hadassah” (Queen Esther from the Bible, and Pulter’s chosen pseudonym for her authorship)? Maybe the poem belies a concern about authorial ambition: if choosing between notoriety and oblivion, she states, the choice is clear—she does not wish to join the ranks of the famed criminals whose legendary status the poem perpetuates. The limited circulation of Pulter’s poems, their relegation to oblivion for hundreds of years, and her emergence as a poet later in time makes her reflections on fame and oblivion especially meaningful. </note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+                <p>What can we learn from history?</p>
+
+                <p>Pulter opens this poem with Herostratus, who burned down the Temple of Diana in Ephesus in the fourth century BCE. Under torture, he reveals that he committed the arson to become famous, so the Ephesians decree that he should be forgotten. He’s not: a classical historian records his name, and now Herostratus is more famous (as Thomas Browne notes) than those who judged him (<hi rend="italic">Urn Burial</hi>, 26). As an emblem, then, Herostratus poses two problems that the poem will go on to reckon with.</p>
+
+                <p>Most explicitly, the poem’s rhyming couplets consider the consequences of monstrous impiety: Brennus’s attack on the Temple at Delphi; Cambyses’s attack on the Temple of Ammon; Nebuchadnezzar’s destruction of the First Temple; Antiochus IV’s desecration of the second Temple; and others. Structured as a series of rhetorical questions, the second half of this poem asks us to reflect on the consequences of such impiety, whether divine punishment in life or a “loath’d” name in “[p]osterity.” Pulter encourages us to read these historical figures alongside the opponents of the King in the English Civil War: those who threw the monarchy into “confutions” and who stripped churches in ways that she viewed as sacrilege. These, too, the poem argues, will “gain” only “shame and horror.” For herself, she says between these two halves of the poem, she would rather lose her name—“Hadassah”—than have a tainted reputation.</p>
+
+                <p>But Herostratus is also a figure for the uncertainty of history: he gains the infamy that he sought. As such, this poem might also reflect on the limits of historical memory: its uncertainty, its errors and confusions, and its inadequacy as a response to injustice. The poem’s initial observation—drawn by the “thus” at line seven—is that “ambition” and the desire “for gain” prompt atrocities, as happened in her native Ireland, whether she’s describing the 1641 Catholic Rebellion or the later Cromwellian conquest. In the face of a massacre, the claim that its perpetrators will be poorly remembered can be only a limited consolation.</p>
+
+                <p>The second half of the poem, then, turns to a series of rhetorical questions hinting not merely at oblivion but at direct divine punishment for the desecration of temples, from the disease that strikes down Antiochus IV to the sandstorm that obliterates the army of Cambyses. The repeated questions ask us to extrapolate a historical pattern. (Indeed, Pulter has evoked this pattern before: Herostratus, Brennus, and Cambyses appear as figures for the rebellious Parliamentarians in Pulter’s elegy for George Lisle and Charles Lucas (<ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>) as well.)</p>
+
+                <p>The inclusion of the Babylonian kings Nebuchadnezzar and Belshazzar reveal the complexity of trying to read historical patterns, though. The book of <hi rend="italic">Daniel</hi> describes them as father and son; however, both classical sources and other books of the Bible make clear that isn’t so. Pulter’s word “grandsire” here suggests she might be interested in the larger question this problem raises (whether she’s drawing it from the notes in her Bible, histories of the world like the one written by Sir Walter Raleigh, or a poetic source, like Anne Bradstreet’s “Four Monarchies.”) For historians and theologians of the early modern period, their reigns represent a point of contact between Biblical and classical history, where Herodotus, Josephus, and others might be made to align with scripture.</p>
+
+                <p>One reason this debate mattered was that <hi rend="italic">Daniel</hi> is a prophetic book, believed to describe the four kingdoms that would fall before the kingdom of God returned. Reading history right promised insight into the future, into God’s role in the fall of monarchies. Indeed, the Fifth Monarchists held that the fall of the English monarchy in the civil war <hi rend="italic">was</hi> the prophesied end of the fourth kingdom, prior to the creation of God’s kingdom on earth. As a royalist, Pulter would have detested this conclusion, but it suggests the stakes of reading history right.</p>
+
+                <p>One emblem for the poem’s ambivalence about historical memory might be its repeated pun on “fane” (temple) and “profane.” The pun’s first instance (in lines 8–9) emphasizes history’s destruction, the many times “ambition” and “gain” have burned cities, overthrown kingdoms, and deconsecrated churches. When the pun occurs again in the poem’s second-to-last line, the close sonic echo between the two words might emphasize the inevitability of the consequences she will soon predict. Alternatively, it might remind us of the cycles of destruction traced earlier. Like allusions and historical events, poetic devices can be read multiple ways. The poem’s final line reasserts the parallel between Herostratus—tortured to death and remembered as shameful—and contemporary rebels against the king, whom she believes will “get” only “sure shame and horror.” That much justice, the poem insists, is certain. Yet we, like Herostratus’s judges, remain subject to errors and foiled purposes. We can’t know how we will be remembered.</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -175,168 +194,169 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">28</fw>Vain <seg>Erostratus<note type="physical">“o” appears written over earlier “a”</note></seg> was Soe fond of &ff;ame</rdg>
             <rdg wit="#ee">Vain <seg>Herostratus<note type="gloss">A Greek arsonist who burnt Diana’s temple at Ephesus to ensure his immortal fame (his name is now a nickname for those who commit criminal acts to gain notoriety).</note></seg> was so fond of fame,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Vain <seg>Herostratus<note type="critical">Herostratus set fire to the famous Temple of Diana in Ephesus, in 356 BC. When caught, he claimed under torture to have done so for fame, and so his judges doomed him to be forgotten. His name, however, was recorded, and so as Thomas Browne pointed out around the time that Pulter wrote this emblem, “<hi rend="italic">Herostratus</hi> lives that burnt the Temple of <hi rend="italic">Diana</hi>, he is almost lost that built it” (<hi rend="italic">Urn Burial</hi>, 75–76, 1658). Pulter spells his name “Erostratus”: a reviewer suggests that she may be trying to omit the echo of “hero” from his name.</note></seg> was so fond of fame</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Hee Set this Sacred Temple on A &ff;lame</rdg>
             <rdg wit="#ee">He set this sacred temple on a flame:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He set this sacred temple on a flame:</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">That Stately Structure which was Soe Renownd</rdg>
             <rdg wit="#ee">That stately structure which was so renowned,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That stately structure which was so renowned,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">And for the Image of Diana Crown’d</rdg>
             <rdg wit="#ee">And for the image of <seg>Diana<note type="gloss">in Roman mythology, the virgin huntress and goddess of chastity, whose image in the Ephesian temple was thought to be crafted by the gods. These lines echo Acts 19:35: “what man is there that knoweth not how that the city of the Ephesians is a worshipper of the great goddess Diana, and of the image which fell down from Jupiter?”</note></seg> crowned,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And for the image of Diana crowned,</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Which fell from Jupiter, whom they implor’d</rdg>
             <rdg wit="#ee">Which fell from <seg>Jupiter<note type="gloss">king of the Roman gods</note></seg>, whom they implored—</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Which <seg>fell from Jupiter<note type="critical">Pulter seems to be thinking of <hi rend="italic">Acts</hi> 19:35, wherein a town clerk remarks “the citie of the Ephesians is a worshipper of the great goddesse Diana, and of the image, which came down from Jupiter” (<hi rend="italic">Geneva Bible</hi>).  Classical accounts of the temple’s images (by Pausanias and Pliny) try to identify their artists (Pliny, <hi rend="italic">Nat. His.</hi> 16.79; Pausanias, <hi rend="italic">Description</hi>, 10.38.6).</note></seg>, whom they implored</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Whom Epheſus and all the World Ador’d</rdg>
             <rdg wit="#ee">Whom <seg>Ephesus<note type="gloss">ancient city on the west coast of Asia Minor (present-day Turkey)</note></seg> and all the world adored.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Whom Ephesus and all the world adored.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Thus Some out of Ambition Some for gain</rdg>
             <rdg wit="#ee">Thus some out of ambition, some for gain,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thus some out of ambition, some for gain</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Mingle together holy and Prophane</rdg>
             <rdg wit="#ee">Mingle together holy and profane.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Mingle together holy and <seg>profane<note type="gloss">Etymologically, “profane” is from the Latin “pro” (“before”, or in this case, “outside”) + “fānum” (temple). Pulter anticipates “fane” in the next line and the pun in the poem’s penultimate line.</note></seg>:</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Soe Citties, Phanes, and Alters, Some have burnd</rdg>
             <rdg wit="#ee">So cities, <seg>fanes<note type="gloss">temples</note></seg>, and altars some have burned,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So cities, <seg>fanes<note type="gloss">Temples or churches</note></seg>, and altars some have burned</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">And Monarchies into confutions turn’d</rdg>
             <rdg wit="#ee">And monarchies into <seg>confusions<note type="gloss">ruins; disorders, commotions; mixtures in which distinct elements are lost by mingling</note></seg> turned.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And monarchies into <seg>confutions<note type="gloss">Most likely, “confutions” here is an archaic spelling of “confusions,” in its older sense of “disorder” or “ruin.” (Certainly “confusion” is a word Pulter uses to describe the end of monarchies. Thus in <ref type="pp-poem-ref" corresp="8">On that Unparalleled Prince Charles the First, His Horrid Murder</ref>, the murder of the king leads to “Anarchical confusion” (8.32); in <ref type="pp-poem-ref" corresp="91">Ambitious Apes (Emblem 26)</ref>, Pulter remarks that “all confusion from ambition springs” (91.40); and in <ref type="pp-poem-ref" corresp="22">To Aurora [1]</ref>, monarchies again face “confusion” [3.27].) <p>The unique spelling and use of the plural here makes it possible that Pulter intends us to think of “confuting” as well.</p></note></seg> turned.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">My Dear Hibernia made this Story good</rdg>
             <rdg wit="#ee"><seg>My dear Hibernia<note type="gloss">Hibernia was the Latin name for Ireland, where Pulter was born</note></seg> made this story good</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">My dear <seg>Hibernia<note type="gloss">Ireland</note></seg> made this story good</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">When Cristall Shannon ran <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> Christian blood</rdg>
             <rdg wit="#ee"><seg>When crystal Shannon ran with Christian blood<note type="gloss">a reference to the Irish Rebellion of 1641, led by Irish Catholic gentry, whom some Protestants did not see as “Christian”; the River Shannon in Ireland was of major strategic importance in this and other military campaigns.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When <seg>crystal Shannon<note type="gloss">The river Shannon runs through the center of Ireland.</note></seg> ran with <seg>Christian blood<note type="critical">Scholars have suggested that Pulter is describing the 1641 rebellion of Irish Catholics or Oliver Cromwell’s cruelty to civilians and surrendered Irish soldiers at Drogheda in his conquest of Ireland that began in 1649.There are other possibilities. At least two 1650 pamphlets describing the siege of Kilkenny, for example, mention that 500 enemy soldiers “were forced into the Shannon” and drowned (See <hi rend="italic">A letter from William Basill Esq; A true Relation of the late great VICTORY, Obtained by the Forces of the Commonwealth of England</hi>, 5–6.).</note></seg>:</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">As noe Edict could make that villain die</rdg>
             <rdg wit="#ee"><seg>As no edict could make that villain die<note type="gloss">Pulter returns to her initial example of Herostratus; after he burned Diana’s temple, the ruler issued an order (an “edict”) banning mention of Herostratus’s name; the law was ultimately ineffective, as evidenced by this poem.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">As no edict could make <seg>that villain<note type="gloss">(Herostratus)</note></seg> die,</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Soe theſe Are Odious to poſterity</rdg>
             <rdg wit="#ee"><seg>So these are odious to posterity<note type="gloss">“these” refers to the villains mentioned above who burned “cities, fanes, and altars” and turned monarchies to confusion; since no law can erase their infamy, they will be “odious” (repulsive) to future generations.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So these are odious to posterity.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Then let mee ever have a Splendent fame</rdg>
             <rdg wit="#ee">Then let me ever have a <seg>splendent<note type="gloss">shining from within, brilliant, magnificent, grand</note></seg> fame,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then let me ever have a <seg>splendent<note type="gloss">Shining</note></seg> fame,</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Or let me looſ Hadaſſah my lov’d Name</rdg>
             <rdg wit="#ee">Or let me lose <seg>Hadassah<note type="gloss">Pulter’s pseudonym, which she established through titles to the manuscript and in some poems; the name for the heroic Jewish Queen Esther in the bible (“Esther” being a variant of “Hester”)</note></seg>, my loved name.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or let me lose <seg>Hadassah<note type="gloss">Pulter’s pen name</note></seg>, my loved name.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">&ff;ar better in Oblivion live and Die</rdg>
             <rdg wit="#ee">Far better in oblivion live and die</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Far better in oblivion live and die,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Then to <seg>Survive<note type="physical">“i” written over earlier “e”; second “v” produced by erasing descender on earlier “y”</note></seg> with theſe in infamie</rdg>
             <rdg wit="#ee">Than to survive with these in infamy.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then to survive with these in infamy.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">What got <seg>Antiochus<note type="physical">“n” may correct earlier letter or letters</note></seg> then Epiphanus</rdg>
             <rdg wit="#ee">What got <seg>Antiochus, then Epiphanes<note type="gloss">Antiochus IV, a Seleucid king of Syria (c. 215–163 BC), who gained the surname “Epiphanes,” or “Renowned.”</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">What got <seg>Antiochus<note type="gloss">Antiochus IV Epiphanes (“the Illustrious”/ “God Manifest”), Seleucid king, who, as a ruler of Judea, persecuted the Jews, triggering the Maccabean revolt. For the purposes of this poem, most relevant may be his desecration of the Second Temple in 167 BCE.</note></seg>, then <seg>Epiphanes<note type="gloss">“Epiphanes” means “God Manifest” or “the Illustrious.”</note></seg>,</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">More then the Epithete of Epimanus</rdg>
             <rdg wit="#ee">More than <seg>the epithet of Epimanes<note type="gloss">Antiochus Epiphanes’s attempt to conquer the Jews (plundering Jerusalem and its holy sites) was seen as capricious and resulted in a revival of Jewish nationalism and the Maccabean revolt; Jewish people then referred to him as “Epimanus”(meaning insane) rather than “Epiphanus” (meaning Renowned)</note></seg>?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">More than the epithet of <seg>Epimanes<note type="gloss">“Epimanes” means “the Mad”. According to classical historian Polybius, his nickname came from his erratic behavior: giving surprising gifts and talking freely with his people. Renaissance English writers tend to associate this nickname with his persecution of the Jews and destruction of the Temple. According to <seg>2 Maccabees</seg>, Antiochus IV was struck down by a disease sent by God.</note></seg>?</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Or what gaind Bre<hi rend="overline">n</hi>us after all his plunder</rdg>
             <rdg wit="#ee">Or what gained <seg>Brennus after all his plunder<note type="gloss">Brennus, chieftain of the Gauls (or Celts of Northern Europe), legendary not only for invading and destroying Rome but for plundering the religious sanctuary of Delphi in the fourth-century BCE.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or what gained <seg>Brennus<note type="critical">Two men named Brennus were famous for their plunder: the first led an army of Gauls to sack Rome in 390 BCE; the second led the Gauls into Greece in 279 BCE, where he attempted to sack the temple at Delphi. According to Pausanias, a thunderstorm prevented the Gaulish army from communicating, leading to their defeat and Brennus’s suicide.
+            <p>This poem presumably refers to the second; <ref type="pp-poem-ref" corresp="116">British Brennus (Emblem 51)</ref> is about the first.</p></note></seg>, after all his plunder,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">When hee <seg>ands<note type="physical">“s” in darker ink</note></seg> Men Receivd their pay in Thunder</rdg>
             <rdg wit="#ee">When he <seg>and’s<note type="gloss">and his</note></seg> men <seg>received their pay in thunder<note type="gloss">The gods, according to legend, punished Brennus for his sacreligious plundering of temples by subjecting him and his men to thunder, lightning, and hail.</note></seg>?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When he <seg>and’s<note type="gloss">And his. Pulter is cutting out a syllable for metrical reasons</note></seg> men received their pay in thunder?</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">Were they not <seg>Sacrelegious<note type="physical">“i” written over other letter, possibly “e”</note></seg> villains both</rdg>
             <rdg wit="#ee">Were they not sacrilegious villains both?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Were they not sacrilegious villains both?</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Doth not poſterity their names ene loath</rdg>
             <rdg wit="#ee">Doth not posterity their names e’en loathe?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Doth not posterity their names <seg>e’en<note type="gloss">Even. This is a standard contraction in early modern poetry, used for metrical reasons.</note></seg> loathe?</rdg>
         </app>
       </l>
         <app>
@@ -353,71 +373,71 @@
       <l n="25">
         <app>
             <rdg wit="#ft">What pleaſure had Belſhaſſer in his feast</rdg>
-            <rdg wit="#ee">What pleasure had <seg>Belshazzar<note type="gloss">At a feast, the last king of Babylon (as the next lines describe) sacrilegiously praised the gods associated with vessels his father had plundered from Jerusalem’s temples; he then saw a mysterious hand write a legend of doom on a wall and was slain that night. See Daniel 5:1-13.</note></seg> in his feast,</rdg>
-          <rdg wit="#ae"></rdg>
+            <rdg wit="#ee">What pleasure had <seg>Belshazzar<note type="gloss">At a feast, the last king of Babylon (as the next lines describe) sacrilegiously praised the gods associated with vessels his father had plundered from Jerusalem’s temples; he then saw a mysterious hand write a legend of doom on a wall and was slain that night. See Daniel 5:1–13.</note></seg> in his feast,</rdg>
+          <rdg wit="#ae">What pleasure had <seg>Belshazzar<note type="critical">According to <hi rend="italic">Daniel</hi>, Belshazzar was the last king of Babylon, who held a feast where a mysterious hand wrote upon the wall. No one could interpret the writing until Daniel was called for, who revealed that it predicted the end of the Babylonian empire, which falls that night.</note></seg> in his feast</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Or what his Grandſir when hee was A Beast</rdg>
             <rdg wit="#ee">Or what <seg>his grandsire<note type="gloss">Nebuchadnezzar (Belshazzar’s father, not his grandfather) went insane after plundering holy vessels from Jerusalem. See Daniel 4 and 5:21: “his heart was made like the beasts, and his dwelling was with the wild asses: they fed him with grass like oxen.”</note></seg> when he was a beast?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or what his <seg>grandsire<note type="gloss">The question of the relation between Belshazzar and Nebuchadnezzar II (the Babylonian ruler who sacked Jerusalem, taking many of the city’s people into exile) was an open and important one in the 17th century. The book of <hi rend="italic">Daniel</hi> identifies Belshazzar as the son of Nebuchadnezzar; however, other books of the Bible make clear that this cannot possibly be correct. Pulter here may be drawing on the notes in the <hi rend="italic">Geneva Bible</hi>, a history of the world like that by Sir Walter Raleigh, or another source, like Anne Bradstreet’s poem “The Four Monarchies”. The chronology of Babylonian kings was important in early modern thought because it was a point of contact between classical and Biblical histories, assuming these could be made to align.</note></seg> when he was a <seg>beast<note type="gloss">In <hi rend="italic">Daniel</hi>, in keeping with his prophetic dream, Nebuchadnezzar “was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles’ feathers, and his nails like birds’ claws” (<hi rend="italic">Daniel</hi> 4:33).His madness only ended when he prays to Daniel’s God and converts.</note></seg>?</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">One took the Sacred Utenſils away</rdg>
             <rdg wit="#ee">One took the sacred utensils away;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">One took the <seg>sacred utensils<note type="gloss">When Nebuchadnezzar conquered Jerusalem, he also took the sacred vessels from the Temple (see <hi rend="italic">2 Chronicles</hi> 36:7–10; <hi rend="italic">Ezra</hi> 5:14; <hi rend="italic">Jeremiah</hi> 21–22; etc.).</note></seg> away;</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">The other praiſd the Gods of Gold, and Clay,</rdg>
             <rdg wit="#ee">The other praised the gods of gold and clay;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The other praised the <seg>Gods of gold and clay<note type="gloss">Belshazzar used the sacred vessels taken by Nebuchadnezzar from the Jewish Temple to praise his own deities, according to <hi rend="italic">Daniel</hi> 5:4.</note></seg>.</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">Nor would they bee Reformed of their Errour</rdg>
             <rdg wit="#ee">Nor would they be reformed of their error</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Nor would they be reformed of their error,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Till one was Strook with madnes to’ther Terrour</rdg>
             <rdg wit="#ee">Till one was struck with madness, th’other terror.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Till one was <seg>struck with madness<note type="gloss">See"beast" above.</note></seg>, th’other terror.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">What Got Cambice at Horned Ha<hi rend="overline">m</hi>ons hand</rdg>
             <rdg wit="#ee">What got <seg>Cambyses at horned Ammon’s hand<note type="gloss">Cambyses II, a king of Persia whose force of 50,000 was (as the next line indicates) buried in a sandstorm in Egypt after attacking the temple of the god Ammon’s oracle.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">What got <seg>Cambyses<note type="gloss">Cambyses II, Achaemenid (Persian) king and son of Cyrus the Great. Another figure of irreligion, he allegedly (according to Herodotus) killed Apis, the sacred bull.</note></seg> at <seg>horn’d Ammon’s<note type="gloss">Ammon/Amun/Jupiter Hammon was a North African deity usually depicted with ram’s horns.</note></seg> hand</rdg>
         </app>
       </l>
       <l n="32">
         <app>
           <rdg wit="#ft">When &ff;ifty Thouſand men died in y<add place="above">e</add> Sand</rdg>
             <rdg wit="#ee">When fifty thousand men died in the sand?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When <seg>fifty thousand men died in the sand<note type="gloss">According to Herodotus (3.26), Cambyses’s attack on the Ammonians was defeated by a violent sandstorm. Here, the defeat seems to be attributed to the god Ammon. (Alice Eardley’s edition of this poem suggests that Pulter is misreading a moment in Plutarch’s <hi rend="italic">Life of Alexander</hi> where the historian compares Alexander’s journey to the temple of Ammon to Cambyses’s military loss. Pulter might instead be thinking of Seneca’s <hi rend="italic">Natural Questions</hi> 2.30, which does propose that Cambyses’s destination was the temple itself. This text was translated by Thomas Lodge in his 1614 edition of <hi rend="italic">The works of Lucius Annaeus Seneca</hi>).</note></seg>?</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">What will they Get that doe our Phanes prophain</rdg>
             <rdg wit="#ee"><seg>What will they get that do our fanes profane<note type="gloss">Since Pulter wrote as a Royalist in the midst and wake of England’s civil wars, this is likely a reference to the opposing Parliamentarian and Puritan forces damaging (and thus “profan[ing]” or desecrating) churches.</note></seg>?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">What will they get that do our fanes <seg>profane<note type="gloss">“Profane” here is a verb, meaning to desecrate. Pulter returns to the echo of “fane” and “profane,” perhaps to anticipate the sureness of the next line.</note></seg>?</rdg>
         </app>
       </l>
       <l n="34">
         <app>
             <rdg wit="#ft">Sure Shame, and Horrour, will bee all their gain</rdg>
             <rdg wit="#ee">Sure shame and horror will be all their gain.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Sure shame and horror will be all their gain.</rdg>
         </app>
       </l>
     </body>

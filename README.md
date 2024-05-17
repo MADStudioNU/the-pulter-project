@@ -55,10 +55,10 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
 
 ### Poems
-> A109 (Lawall), A115 (Koch)
+> A093 (Harrison)
 
 ### Curations
-> C093 (_Pulter’s Splendent Fame_), C105 (_Resurrections at Cairo_), C115 (_Phalaris and Perillus in Early Modern Print_), C115 (_Procrustes, Sciron, Termerus, and Sinis in Early Modern Print_), C115 (_Pulter and Jamaica_)
+> —
 
 ### Explorations
 > —
