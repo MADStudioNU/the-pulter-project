@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > A109 (Lawall)
 
 ### Curations
-> C093 (_Pulter’s Splendent Fame_), C105 (_Resurrections at Cairo_)
+> C093 (_Pulter’s Splendent Fame_)
 
 ### Explorations
 > —
