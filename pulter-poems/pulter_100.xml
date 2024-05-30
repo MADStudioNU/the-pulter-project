@@ -123,7 +123,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+       <witness xml:id="ae">Amplified edition: By <persName>Emily Barth</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -145,7 +145,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 35]</rdg>
             <rdg wit="#ee">This Horizontal Bird<lb/>(Emblem 35)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">Emblem 35</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -154,7 +154,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">For this Amplified Edition, spelling has been modernized and punctuation follows the Elemental Edition with the aim of increasing clarity and accessibility. Capitalization has been maintained where the context of the poem suggests the probability of a proper noun, though this is to some extent an act of interpretation.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -162,7 +162,13 @@
               <note type="headnote">A footless bird and upturned fish eyes are the unlikely sources of inspiration in this emblem. The unique anatomy (imaginary or not) of two obscure creatures enables apparently spiritual behavior in them which the poet proffers as a model for her readers. The close parallels between this poem’s counsel to constancy and that in many other items in Pulter’s manuscript, far from being a sign of redundancy, is in fact thematically sound in a poem about the resounding virtue of each creature remaining “the same she was before.” However grounded it might be in biology, such a rehearsal is also construed here as a mimetic performance, an art form not unrelated to the verse in which it is both described and inscribed. The beauty as well as difficulty of imitating abstractions and animals alike (“this soul, that bird, and fish”) should galvanize readers to be steadfast in keeping their sights firmly above the earthly fray.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+                <p>Most early modern emblems include a visual image to accompany their textual commentaries, which consist of a brief motto followed by a longer piece of text, usually a poem. Pulter’s emblems are “naked” as very few others are (Andrew Willet’s <hi rend="italic">Sacrorum emblemata</span> (1592), a distinctly Protestant book of religious emblems printed in England, is one example). Even in the absence of imagery, Pulter creates an iterative reading experience in which her initial verbal imagery offers an idea that appears again in new form, compounding meaning through recurrence and amplification. As in a typical emblem, where an image, motto, and epigram would echo and expand on one another, Pulter’s emblem offers several distinct examples that reverberate (as she might have it) over the course of the poem’s three parts.</p>
+
+                <p>The poem presents the Horizontal Bird and Sunfish, one after the other, as expanding echoes of one another. Both maintain their status as animals while simultaneously acquiring human emotions of longing and love. Both are described with their eyes “fixed” skyward, suggesting a steadfast piety despite both natural distraction and physical necessity. In the description of the Sunfish, this repetition is compounded by a more elaborate account of a tumultuous environment that challenges fixity, stressing the Sunfish’s dedication (and so, in retrospect, that of the Horizontal Bird). The agency ascribed to both the Horizontal Bird and Sunfish gains additional emphasis as the poem’s speaker instructs the reader to “imitate this soul, that Bird, and Fish,” referring the reader to a third example in which a collective of souls interacts with the divine. Making the three (soul, Bird, and Fish) analogous to one another clarifies the extent to which the Horizontal Bird and Sunfish stand in for both reader and speaker in the poem’s earlier descriptions of each, ushering in the poem’s final exhortation. The language in the last third of the poem, increasingly marked by direct address to the reader, comprises what in a typical emblem might be a moral lesson, proverb, or advice.</p>
+
+                <p>The poem’s final injunction to depend solely on God, to turn only to God for comfort, produces an emblem’s culminating message, appropriately reiterating the descriptions of the Horizontal Bird and the Sunfish gazing always toward Heaven. It also, in shifting our attention to a simultaneously collective and personal spiritual endeavor, invites the reader to participate more fully in this lyric emblem poem.</p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -171,182 +177,182 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">35</fw>Seest thou this Horizentall <seg>Bird<del>s</del><note type="physical">vertical strike-through</note></seg> whoſe Eyes</rdg>
             <rdg wit="#ee">Seest thou <seg>this horizontal bird<note type="gloss">perhaps the manucodiat or bird of paradise, which Pulter invokes elsewhere (see <ref type="pp-poem-ref" corresp="71">“The Manucodiats” [Emblem 5]</ref>). Her account may draw on Simon Goulart’s <title rend="italic">A Learned Summary Upon the Famous Poem of William of Saluste Lord of Bartas</title>, where the birds are described as being “remain[ing] always in the air” and even as having “no feet” (London, 1621), 1.241; the fact that they are always flying might explain Pulter’s epithet of “horizontal.”</note></seg>, whose eyes</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Seest thou this <seg>Horizontal Bird<note type="gloss">A dual implication: both that the bird is of the horizon, and that the bird’s body, being horizontal, forms a constant plane from which she gazes toward heaven. The poem continues to emphasize the way the bird’s piety participates in the bird’s naturality. Lara Dodds has glossed this thoroughly in her curation, <ref type="pp-curation-ref" target="/poems/ae/the-manucodiats-emblem-5/#birds-without-feet">Birds Without Feet?</ref>. Like the bird that anchors Pulter’s <ref type="pp-poem-ref" corresp="71">Emblem 5</ref>, this bird of paradise lives in perpetual flight, never touching the ground. It was also believed that the bird of paradise fed only on dew and light. Also known as the <hi rend="italic">manucodiat</span>, or “God’s bird,” the bird of paradise had a metaphorical reputation as being of celestial quality.</note></seg>, whose eyes</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Are &ff;ixt immoveable upon the Skies</rdg>
             <rdg wit="#ee">Are fixed, immovable, upon the skies,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Are <seg>fixed<note type="gloss">Manuscript = Fixt, implying a particularly direct connection of action, duty, desire, or concentration, perhaps also with attention to a physical connection. “Fixt” as though with a string, stuck in place: the capitalization emphasizes the significance of this faithful fixity (and this emphasis on significance remains true of the scribe’s capitalization practices throughout the poem).</note></seg>, immovable, upon the skies,</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Though Night obſcures the Raidient Delias Rayes</rdg>
             <rdg wit="#ee">Though night obscures the radiant <seg>Delia’s<note type="gloss">Apollo’s, the sun god’s; for a figure usually called Delius (so named because he was from the island of Delos)</note></seg> rays,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Though <seg>Night<note type="gloss">Personified Night conceals the light that illuminates Heaven, much as she does in Shakespeare’s “Rape of Lucrece,” where Night, “mother of dread and fear,/ Upon the world dim darkness doth display,/ And in her vaulty prison stows the day” (1594).</note></seg> obscures the radiant <seg>Delia’s rays<note type="critical">Pulter’s use of a feminized name to refer to Apollo appears elsewhere (including <ref type="pp-poem-ref" corresp="12">The Garden, or The Contention of Flowers</ref>, and <ref type="pp-poem-ref" corresp="118">The Snail, the Tulip, and the Bee (Emblem 53)</ref>). Delia’s ambiguity and inconstancy contrasts with the description of the Horizontal Bird that precedes her appearance in the poem, but as in <ref type="pp-poem-ref" corresp="1">The Eclipse</ref>, Delia’s inconstancy results from external influence.</note></seg>,</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Though Clowds doe muffle his bright face a Dayes</rdg>
             <rdg wit="#ee">Though clouds do muffle his bright face <seg>adays<note type="gloss">in the daytime</note></seg>?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Though clouds do muffle his bright face <seg>a-days<note type="gloss">During the day, or possibly, at the present time.</note></seg>?</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Whether Shee Goes, or feeds, or breeds, or flyes</rdg>
             <rdg wit="#ee">Whether she goes, or feeds, or breeds, or flies,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Whether she goes, or feeds, or breeds, or flies,</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Yet Still to Heaven Shee Roles her longing Eyes</rdg>
             <rdg wit="#ee">Yet still to Heav’n she rolls her longing eyes.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet still to Heaven she rolls her longing eyes.</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Soe doth the Sun &ff;iſh whoſe fair Eyes are &ff;ixt</rdg>
             <rdg wit="#ee">So doth the <seg>sunfish<note type="gloss">A number of fish species (called stargazers) have eyes atop their heads; others, sunfish, bask on their sides near the surface and so appear to stare at the sky. Pulter’s account here may draw on that of Goulart’s summary of Du Bartas (cited above), on the gaping fish, whose Greek name means “beholding the Heaven, because he hath two eyes planted above his head” (1.221).</note></seg>, whose fair eyes are fixed</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So doth the <seg>Sunfish<note type="gloss">The Sunfish does as the Horizontal Bird does: she is attentive, constant, and faithful as the bird despite the turbulence of the sea around her described in the next several lines of the poem. Although sunfish spend most of their lives underwater, the large, disc-shaped fish periodically come to the surface to bask, swimming on their sides to warm themselves in the sun as they gaze up at the sky.</note></seg>, whose fair eyes are fixed</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">On Heaven alone, her love Sure is Unmixt</rdg>
             <rdg wit="#ee">On Heav’n alone; her love sure is <seg>unmixed<note type="gloss">pure, undiluted</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">On Heaven alone; her love sure is <seg>unmixed<note type="gloss">Pure; undiluted.</note></seg>,</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">Although the Sea Works high and billows Swell</rdg>
             <rdg wit="#ee">Although the sea works high, and billows swell</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Although the sea <seg>works<note type="gloss">In this case, “work” meaning to be turbulent or stormy; to toss, seethe, rage; also to strive. The sea acquires some agency as it “works” through its own natural mutability as well as a spiritual struggle. The sunfish’s environment contrasts with her character.</note></seg> high, and billows swell</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Almost to Heaven, then down as low as Hell</rdg>
             <rdg wit="#ee">Almost to Heav’n, then down as low as Hell.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Almost to Heaven, then down as low as Hell.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Though Hurricanians make the Welkin Roar</rdg>
             <rdg wit="#ee">Though <seg>hurricanians<note type="gloss">seemingly, hurricanes</note></seg> make the <seg>welkin<note type="gloss">sky</note></seg> roar,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Though <seg>Hurricanians<note type="critical">“Hurricanians” is in parallel to “Mariners” in the next line. The noun seems to have some agency rather than merely referring to hurricanes.</note></seg> make the <seg>Welkin roar<note type="gloss">The sky erupts in storm, a vocal expression (perhaps of frustration) in response to the sea’s own turbulence.</note></seg>,</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">And Marriners their Woefull wracks deplore</rdg>
             <rdg wit="#ee">And mariners their woeful <seg>wracks<note type="gloss">wrecked ships</note></seg> <seg>deplore<note type="gloss">lament</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And Mariners their woeful <seg>wracks<note type="gloss">Shipwrecks.</note></seg> deplore,</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Yet Shee is Still the Same Shee was before</rdg>
             <rdg wit="#ee">Yet she is still the same she was before.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet she is still the same she was before.</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Even Soe thoſe Souls whoſe hopes and Joy’s above</rdg>
             <rdg wit="#ee">E’en so those souls whose hopes and joys above</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Even so<note type="gloss">Similarly; likewise.</note></seg> those souls whose hopes and joys above</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Are onely plac’d, Reverberates that Love</rdg>
             <rdg wit="#ee">Are only placed, <seg>reverberates<note type="gloss">sends back, returns</note></seg> that love</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Are only plac’d, <seg>reverberates<note type="critical">To reverberate in early modern usage entails a deflection, repelling, or sending back of something received (physical or emotional). Here, Pulter connects the idea of a reverberation of emotion (in this case, of love) to a different understanding of reverberation as it would relate to light, linking her comment on a soul that “reverberates that love” to the “irradiation” in the next line. Unlike the reverberations of emotion or physical impact that are deflected, reverberation of light is something that spreads like echoing sound. (See “reverberate,” v., Oxford English Dictionary.)</note></seg> that love</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">To Heaven from whence they had Iradiation</rdg>
             <rdg wit="#ee">To Heav’n from whence they had <seg>irradiation<note type="gloss">a beaming forth of spiritual light</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To Heaven from whence they had <seg>irradiation<note type="critical">She imagines that those who focus their attention (and affection) on Heaven are illuminated from within with spiritual light, or alternatively, that those who are already “irradiated” concentrate their hopes and joys in heaven, reflecting a love that also originates there. This language and concept occurs in both <ref type="pp-poem-ref" corresp="71">The Manucodiats (Emblem 5)</ref> and here, suggesting a reverberation not only within this poem, but also between the two.</note></seg>,</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">Performing Soe the end of their Creation</rdg>
             <rdg wit="#ee">Performing so the <seg>end<note type="gloss">purpose</note></seg> of their creation.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Performing so the <seg>end of their creation<note type="critical">Pulter suggests that the love of God (possibly prayer) practiced in the preceding lines rebounds God’s love, reflecting this love back toward heaven, and that this is the ultimate purpose of creation. This phrase concludes a quatrain that echoes an idea found elsewhere in Pulter’s work, where she describes love and prayer reascending in reciprocity (<ref type="pp-poem-ref" corresp="50">My God I thee (and onely thee) Adore”</ref>; <ref type="pp-poem-ref" corresp="54">A Solitary Complaint</ref>; <ref type="pp-poem-ref" corresp="71">The Manucodiats (Emblem 5)</ref>).</note></seg>.</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Soe i<hi rend="overline">m</hi>itate this Soul, that Bird and &ff;ish</rdg>
             <rdg wit="#ee">So imitate this soul, that bird, and fish,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So imitate this <seg>soul<note type="critical">“Those souls” from line 14 here condensed to a single representative soul, an example to be followed - as the Bird and Fish referred to in the same line, an emblem that transmits behavioral pedagogy.</note></seg>, that <seg>Bird<note type="gloss">The “Horizontal Bird.”</note></seg>, and <seg>Fish<note type="gloss">The Sunfish.</note></seg>,</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">And though things Anſwer not thy hopes or Wiſh</rdg>
             <rdg wit="#ee">And though things answer not thy hopes or wish,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And though <seg>things<note type="gloss">Equally material objects and events occurring in the material world.</note></seg> answer not thy hopes or wish,</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Yet look towards Heaven, on God alone depend</rdg>
             <rdg wit="#ee">Yet look towards Heav’n, on God alone depend:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet look towards Heaven, on God alone depend:</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Hee will thy Suffrings medigate or End</rdg>
             <rdg wit="#ee">He will thy suff’rings mitigate or end.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He will thy suff’rings <seg>mitigate or end<note type="gloss">Careful not to promise too much, the speaker suggests <hi rend="italic">either</title> an end to suffering, or a moderation, perhaps a lessening, of that suffering.</note></seg>.</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">And trust not &ff;ortune, nor her Amorous Smiles</rdg>
             <rdg wit="#ee">And trust not Fortune, nor her amorous smiles;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And trust not <seg>Fortune<note type="gloss">The goddess, who Samuel Johnson describes in volume one of his English <hi rend="italic">Dictionary</hi> (1755) as having “the power supposed to distribute the lots of life according to her own humour.” Her humor is based on chance, and her “Amorous smiles” are therefore fickle and not to be trusted</seg>, nor her amorous smiles;</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">&ff;or when Shee Courts us most Shee most beguils</rdg>
             <rdg wit="#ee">For when she courts us most, she most <seg>beguiles<note type="gloss">deceives; disappoints, foils</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>For when she courts us most, she most beguiles<note type="critical">In operating “according to her own humor,” Fortune charms and perhaps unintentionally deceives. Despite this warning, the speaker also suggests that we should not fear Fortune.</note></seg>.</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Nor fear her &ff;rowns for there is one on high</rdg>
             <rdg wit="#ee">Nor fear her frowns, for there is one on high</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Nor fear her frowns, for there is one on high</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">At whoſe bright footstool &ff;ate and &ff;ortune lie</rdg>
             <rdg wit="#ee">At whose bright footstool Fate and Fortune lie:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">At whose bright <seg>footstool<note type="critical">Both Fate and Fortune lie under God’s dominion; they are subject to God, as in the King James Version of Isaiah 66:1: “The heaven is my throne, and the earth is my footstool.” In this figurative usage, the footstool indicates subjection or dominion</note></seg> <seg>Fate<note type="gloss">Fate, the order of events, is more constant than Fortune but, much like Fortune, is something we do not control.</note></seg> and Fortune lie:</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">To him alone to him for Comfort &ff;lie.</rdg>
             <rdg wit="#ee">To Him alone, to Him for comfort <seg>fly<note type="gloss">flee</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To <seg>him<note type="gloss">God.</note></seg> alone, to him for comfort <seg>fly<note type="critical">While Pulter’s speaker surely means to urge the reader to turn <hi rend="italic">quickly</hi> toward God in search of comfort, the use of the word “fly” at the end of the poem also reminds the reader of the emblem’s opening description of the Horizontal Bird, who turns toward God in unending flight. Recalling Pulter’s rather metaphysical descriptions of love reverberating and “irradiation” returning to heaven, the idea that the reader should fly to God reinforces the advice to emulate the Horizontal Bird, the Sunfish, and those souls who have managed to focus entirely on heaven. The directive to fly, however, might also draw attention to the inherent difficulty in this task for creatures who are bound to earth, and so serve as a reminder that any such emulation will require ongoing effort.</note></seg>.</rdg>
         </app>
       </l>
         <app>
