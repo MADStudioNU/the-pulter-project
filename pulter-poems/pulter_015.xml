@@ -126,7 +126,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+    <witness xml:id="ae">Amplified edition: By <persName>David Norbrook</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -149,7 +149,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On the <seg>Same<note type="physical">previous poem concludes immediately above on same page</note></seg> [2]</rdg>
           <rdg wit="#ee"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)]<note type="critical">In the manuscript, the title is “On the Same”: a reference to the previous poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid Murder of that Incomparable Prince, King Charles the First</ref>; we have provided an alternate title for clarity. The number 2 in our title reflects the fact that Poem 11 is also titled <ref type="pp-poem-ref" corresp="11">On the Same</ref> in the manuscript.</note></seg></rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)]<note type="physical">In the manuscript, the title is “On the Same,” a reference to the previous poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid Murder of that Incomparable Prince, King Charles the First</ref>“On the Horrid Murder of that Incomparable Prince, King Charles the First”. The number 2 in this edition’s title reflects the fact that Poem 11 is also titled <ref type="pp-poem-ref" corresp="11">On the Same</ref> in the manuscript.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +158,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">The manuscript text is very sparsely punctuated. The only marker of syntax is a comma after “Heaven” (l. 5). There are brackets around “At which . . . soule) (l. 4) and “Ay mee” (l. 42), and they are also used to indicate the triple rhymes at lines 38-40, 43-5. An early modern form of the question mark appears in “How could they do it;” (l. 9). The scribe indicates a few omitted letters with inverted commas (“Spirit’s” (l. 4), “adorn’d” (l. 7), “outshin’d” (l. 29), “rais’d” (line 34), “defender’s” (l. 40)), and there is one contraction (“w:ch” for “which,” l. 43). There are slips of the pen in “splendenc^ie” (l. 29) and “imMortality” (l. 37). For the present text, punctuation has been inserted and spelling changed to modern usage. However,  the page images are easily available and make it possible to understand the experience of early readers, with the page layout highlighting the structure of the couplets, and capitalization often highlighting balanced words: this is not just something said but something made.</note>
           </rdg>
         </app>
         <app type="headnote">
