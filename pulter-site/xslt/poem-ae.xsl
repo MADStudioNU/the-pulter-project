@@ -1682,6 +1682,9 @@
               <xsl:if test="$witnessName = 'Sarah E. Johnson'">
                 <xsl:value-of select="'Royal Military College of Canada'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Matthew Harrison'">
+                <xsl:value-of select="'West Texas A&amp;M University'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1768,6 +1771,9 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Sarah E. Johnson'">
                 <xsl:value-of select="'https://www.rmc-cmr.ca/en/english/sarah-johnson'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Matthew Harrison'">
+                <xsl:value-of select="'https://www.wtamu.edu/academics/college-fine-arts-humanities/department-english-philosophy-modern-languages/faculty/matthew-harrison-bio.html'"/>
               </xsl:if>
             </xsl:variable>
 
