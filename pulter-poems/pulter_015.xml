@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
 type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
 type="application/xml"
   schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI [
 
-  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 
+  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as
 'ff' -->ff">
 
   ]>
@@ -77,21 +77,21 @@ type="application/xml"
       </samplingDecl>
       <editorialDecl>
         <correction>
-          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR 
-tags, but only where the editor conjectures that the original scribe or compositor would 
-have recognized the instance as an error. For example, what according to modern usage is 
-incorrect subject/verb agreement might have been deemed acceptable to a 
-seventeenth-century scribe or compositor. All such instances are treated instead using 
+          <p>Apparent errors are preserved and editorial corrections provided using SIC and CORR
+tags, but only where the editor conjectures that the original scribe or compositor would
+have recognized the instance as an error. For example, what according to modern usage is
+incorrect subject/verb agreement might have been deemed acceptable to a
+seventeenth-century scribe or compositor. All such instances are treated instead using
 the ORIG and REG tags. (See below.)</p>
-          <p>Corrections and annotations made within the scope of the original document either by 
-its original authors, owners, and/or transcribers are noted using ADD tags. These 
-annotations and may be further explained within NOTE tags, as added by the editors of 
+          <p>Corrections and annotations made within the scope of the original document either by
+its original authors, owners, and/or transcribers are noted using ADD tags. These
+annotations and may be further explained within NOTE tags, as added by the editors of
 this digital edition, for display within the apparatus.</p>
         </correction>
         <normalization>
-          <p>Original spellings, abbreviations, and orthography are preserved. Where in the 
-manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has 
-silently chosen one or the other based on context and judgment (i.e., does not register 
+          <p>Original spellings, abbreviations, and orthography are preserved. Where in the
+manuscripts a character's status as majuscule or minuscule is ambiguous, the editor has
+silently chosen one or the other based on context and judgment (i.e., does not register
 such ambiguity in either the markup or the notes).</p>
         </normalization>
         <quotation>
@@ -102,11 +102,10 @@ such ambiguity in either the markup or the notes).</p>
         </hyphenation>
       </editorialDecl>
       <charDecl>
-        <!-- Ligature combinations for which there are currently no corresponding Unicode 
+        <!-- Ligature combinations for which there are currently no corresponding Unicode
 codepoints. -->
         <glyph xml:id="ffllig">
-          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</
-glyphName>
+          <glyphName>Handwritten 'ff' ligature, used in handwriting to represent modern F</glyphName>
         </glyph>
       </charDecl>
       <classDecl>
@@ -140,9 +139,9 @@ glyphName>
     <front>
       <div>
         <listWit>
-          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah 
+          <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah
 Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
-          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and 
+          <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and
 <persName>Wendy Wall</persName>.</witness>
     <witness xml:id="ae">Amplified edition: By <persName>David Norbrook</persName>.</witness>
         </listWit>
@@ -150,7 +149,6 @@ Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
     </front>
 
     <body>
-
       <app>
         <rdg wit="#ft">
             <pb ed="#ft" facs="#f7610_071" n="34r"/>
@@ -165,211 +163,199 @@ Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
 
       <head>
         <app type="title">
-          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On 
-the <seg>Same<note type="physical">previous poem concludes immediately above on same 
+          <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>On
+the <seg>Same<note type="physical">previous poem concludes immediately above on same
 page</note></seg> [2]</rdg>
-          <rdg wit="#ee"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)]<note 
-type="critical">In the manuscript, the title is “On the Same”: a reference to the 
-previous poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid 
-Murder of that Incomparable Prince, King Charles the First</ref>; we have provided an 
-alternate title for clarity. The number 2 in our title reflects the fact that Poem 11 is 
-also titled <ref type="pp-poem-ref" corresp="11">On the Same</ref> in the manuscript.</
-note></seg></rdg>
-          <rdg wit="#ae"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)<note 
-type="gloss">In the manuscript, the title is “On the Same,” a reference to the previous 
-poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid Murder of that 
-Incomparable Prince, King Charles the First</ref>“On the Horrid Murder of that 
-Incomparable Prince, King Charles the First”. The number 2 in this edition’s title 
-reflects the fact that Poem 11 is also titled <ref type="pp-poem-ref" corresp="11">On the 
+          <rdg wit="#ee"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)]<note
+type="critical">In the manuscript, the title is “On the Same”: a reference to the
+previous poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid
+Murder of that Incomparable Prince, King Charles the First</ref>; we have provided an
+alternate title for clarity. The number 2 in our title reflects the fact that Poem 11 is also titled <ref type="pp-poem-ref" corresp="11">On the Same</ref> in the manuscript.</note></seg></rdg>
+          <rdg wit="#ae"><seg>Let None Sigh More for Lucas or for Lisle [On the Same (2)<note
+type="gloss">In the manuscript, the title is “On the Same,” a reference to the previous
+poem in the manuscript, <ref type="pp-poem-ref" corresp="14">On the Horrid Murder of that
+Incomparable Prince, King Charles the First</ref>“On the Horrid Murder of that
+Incomparable Prince, King Charles the First”. The number 2 in this edition’s title
+reflects the fact that Poem 11 is also titled <ref type="pp-poem-ref" corresp="11">On the
 Same</ref> in the manuscript.</note></seg></rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
-            <note type="editorialnote">In these transcriptions we preserve as many details of the 
-original material, textual, and graphic properties of Hester Pulter’s manuscript verse 
-as we have found practical. Whenever possible, for instance, original spelling, 
-punctuation, capitalization, lineation, insertions, deletions, alterations, spacing 
-between words and lines, and indentation are all maintained; abbreviations and 
-brevigraphs are not expanded; and superscript and subscript representations are 
-retained. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.
-html#top" type="new-window-url">See full conventions for the transcriptions here.</
-ref></note>
+            <note type="editorialnote">In these transcriptions we preserve as many details of the
+original material, textual, and graphic properties of Hester Pulter’s manuscript verse as we have found practical. Whenever possible, for instance, original spelling, punctuation, capitalization, lineation, insertions, deletions, alterations, spacing between words and lines, and indentation are all maintained; abbreviations and brevigraphs are not expanded; and superscript and subscript representations are retained. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#top" type="new-window-url">See full conventions for the transcriptions here.</ref></note>
           </rdg>
           <rdg wit="#ee">
-            <note type="editorialnote">The aim of the elemental edition is to make the poems 
-accessible to the largest variety of readers, which involves modernizing spelling and 
-punctuation as well as adding basic glosses. Spelling and punctuation reflect current 
-standard American usage; punctuation highlights syntax which might otherwise be 
-obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not 
-modernized, and we do not modernize grammar when the sense remains legible. After a 
-brief headnote aimed at offering a “way in” to the poem’s unique qualities and 
-connections with other verse by Pulter or her contemporaries, the edition features a 
-minimum of notes and interpretative framing to allow more immediate engagement with the 
-poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. 
-Other notes identify named people and places or clarify obscure material. We rely 
-(without citation) primarily on the Oxford English Dictionary (OED), the Oxford 
-Reference database, and the King James Version (KJV) of the Bible. When we rely on 
-Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other 
-sources are cited in full. The result is an edition we consider a springboard for 
+            <note type="editorialnote">The aim of the elemental edition is to make the poems
+accessible to the largest variety of readers, which involves modernizing spelling and
+punctuation as well as adding basic glosses. Spelling and punctuation reflect current
+standard American usage; punctuation highlights syntax which might otherwise be
+obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not
+modernized, and we do not modernize grammar when the sense remains legible. After a
+brief headnote aimed at offering a “way in” to the poem’s unique qualities and
+connections with other verse by Pulter or her contemporaries, the edition features a
+minimum of notes and interpretative framing to allow more immediate engagement with the
+poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time.
+Other notes identify named people and places or clarify obscure material. We rely
+(without citation) primarily on the Oxford English Dictionary (OED), the Oxford
+Reference database, and the King James Version (KJV) of the Bible. When we rely on
+Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other
+sources are cited in full. The result is an edition we consider a springboard for
 further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/
-about-project-conventions.html#elemental-edition" type="new-window-url">See full 
+about-project-conventions.html#elemental-edition" type="new-window-url">See full
 conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote">The manuscript text is very sparsely punctuated. The only 
-marker of syntax is a comma after “Heaven” (l. 5). There are brackets around “At 
-which . . . soule” (l. 4) and “Ay mee” (l. 42), and they are also used to indicate the 
-triple rhymes at lines 38-40, 43-5. An early modern form of the question mark appears 
-in “How could they do it;” (l. 9). The scribe indicates a few omitted letters with 
-inverted commas (“Spirit’s” (l. 4), “adorn’d” (l. 7), “outshin’d” (l. 29), “rais’d” 
-(line 34), “defender’s” (l. 40)), and there is one contraction (“w:<add 
-place="above">ch</add>” for “which,” l. 43). There are slips of the pen in 
-“splendenc<add place="below">^</add><add place="above">ie</add>” (l. 29) and 
-“imMortality” (l. 37). For the present text, punctuation has been inserted and spelling 
-changed to modern usage. However,  the page images are easily available and make it 
-possible to understand the experience of early readers, with the page layout 
-highlighting the structure of the couplets, and capitalization often highlighting 
+            <note type="editorialnote">The manuscript text is very sparsely punctuated. The only
+marker of syntax is a comma after “Heaven” (l. 5). There are brackets around “At
+which . . . soule” (l. 4) and “Ay mee” (l. 42), and they are also used to indicate the
+triple rhymes at lines 38-40, 43-5. An early modern form of the question mark appears
+in “How could they do it;” (l. 9). The scribe indicates a few omitted letters with
+inverted commas (“Spirit’s” (l. 4), “adorn’d” (l. 7), “outshin’d” (l. 29), “rais’d”
+(line 34), “defender’s” (l. 40)), and there is one contraction (“w:<add
+place="above">ch</add>” for “which,” l. 43). There are slips of the pen in
+“splendenc<add place="below">^</add><add place="above">ie</add>” (l. 29) and
+“imMortality” (l. 37). For the present text, punctuation has been inserted and spelling
+changed to modern usage. However,  the page images are easily available and make it
+possible to understand the experience of early readers, with the page layout
+highlighting the structure of the couplets, and capitalization often highlighting
 balanced words: this is not just something said but something made.</note>
           </rdg>
         </app>
         <app type="headnote">
           <rdg wit="#ee">
-              <note type="headnote">Grief management in the face of public atrocities is a 
-relatively new industry, but Pulter tried her hand at it in this poem, as well as the 
-one before it in the manuscript; both were written as responses to the king’s 
-execution by political opponents. Like the last poem, this one also begins with a ban 
-on grieving <hi rend="italic">wrongly</hi>—in this case, by continuing to mourn the 
-executions of three royalist commanders: George Lisle; Charles Lucas (both lamented 
-in an earlier poem, <ref type="pp-poem-ref" corresp="7">On Those Two Unparalleled 
-Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at 
-Colchester</ref>); and Arthur Capel, Pulter’s cousin-in-law. The enormity of the 
-king’s death monopolizes all possible sighs and tears, sparing none for even such 
-remarkable, but still lesser, lights. Pulter allows herself, early on, an outburst of 
-baffled rage at those she could only regard as assassins: “How could they do it?” But 
-soon the poem grows boldly to encompass more than her isolated, frustrated voice, 
-through her ventriloquy of a mourning national church answered by divine assurance of 
-a “second Charles”: possibly a prophetic claim, depending when the poem was written.</
-note>
+              <note type="headnote">Grief management in the face of public atrocities is a
+relatively new industry, but Pulter tried her hand at it in this poem, as well as the
+one before it in the manuscript; both were written as responses to the king’s
+execution by political opponents. Like the last poem, this one also begins with a ban
+on grieving <hi rend="italic">wrongly</hi>—in this case, by continuing to mourn the
+executions of three royalist commanders: George Lisle; Charles Lucas (both lamented
+in an earlier poem, <ref type="pp-poem-ref" corresp="7">On Those Two Unparalleled
+Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at
+Colchester</ref>); and Arthur Capel, Pulter’s cousin-in-law. The enormity of the
+king’s death monopolizes all possible sighs and tears, sparing none for even such
+remarkable, but still lesser, lights. Pulter allows herself, early on, an outburst of
+baffled rage at those she could only regard as assassins: “How could they do it?” But
+soon the poem grows boldly to encompass more than her isolated, frustrated voice,
+through her ventriloquy of a mourning national church answered by divine assurance of
+a “second Charles”: possibly a prophetic claim, depending when the poem was written.</note>
           </rdg>
           <rdg wit="#ae">
             <note type="headnote">
-              <p>The opening of this poem echoes the preceding one, and likewise refuses sighs as 
-the poet struggles to find an appropriate language for her grief and shock at the 
-execution of King Charles I. Here Pulter moves outward from the shock of the regicide 
-to consider a poem she had recently written, <ref type="pp-poem-ref" corresp="7">On 
-Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot 
-to Death at Colchester</ref>. A royalist rising in the spring of 1648 had erupted 
-into the Second Civil War, which seemed likely for a time to restore the king to 
-power in London. Instead it was crushed, and amongst the most bitter defeats was the 
-capture of the royalist garrison at Colchester, where many prisoners were taken and 
-Sir George Lisle and Sir Charles Lucas were executed by Sir Thomas Fairfax. This 
-execution, unexpectedly harsh even if technically within the rules of war, had 
-provoked many royalists into angry verse. When it seemed that they had exhausted 
-their fury and frustration, the defeated royalists had to face a much greater 
-calamity, the execution of their king on 30 January 1649. Immediately after a High 
-Court had condemned the king, a new court tried Arthur, Lord Capel, who had been 
-reprieved from Fairfax’s military justice at Colchester, and he was executed on 9 
-March. Old wounds were thus re-opened even as royalists were coping with the trauma 
-of the king’s death, and several poets treated the deaths of Lucas and Lisle “as 
-sacrificial prologues to the king’s execution.”<seg>1<note type="gloss">Andrea Brady 
-argues that the two men’s deaths were widely depicted as “sacrificial prologues to 
-the king’s execution” (“Dying with Honour: Literary Propaganda and the Second English 
-Civil War,” <hi rend="italic">The Journal of Military History</hi> 70:1 (2006): 9–30, 
-p. 11). See further Exploration:<ref type="pp-curations-ref" target="#ctxs">Pulter 
+              <p>The opening of this poem echoes the preceding one, and likewise refuses sighs as
+the poet struggles to find an appropriate language for her grief and shock at the
+execution of King Charles I. Here Pulter moves outward from the shock of the regicide
+to consider a poem she had recently written, <ref type="pp-poem-ref" corresp="7">On
+Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot
+to Death at Colchester</ref>. A royalist rising in the spring of 1648 had erupted
+into the Second Civil War, which seemed likely for a time to restore the king to
+power in London. Instead it was crushed, and amongst the most bitter defeats was the
+capture of the royalist garrison at Colchester, where many prisoners were taken and
+Sir George Lisle and Sir Charles Lucas were executed by Sir Thomas Fairfax. This
+execution, unexpectedly harsh even if technically within the rules of war, had
+provoked many royalists into angry verse. When it seemed that they had exhausted
+their fury and frustration, the defeated royalists had to face a much greater
+calamity, the execution of their king on 30 January 1649. Immediately after a High
+Court had condemned the king, a new court tried Arthur, Lord Capel, who had been
+reprieved from Fairfax’s military justice at Colchester, and he was executed on 9
+March. Old wounds were thus re-opened even as royalists were coping with the trauma
+of the king’s death, and several poets treated the deaths of Lucas and Lisle “as
+sacrificial prologues to the king’s execution.”<seg>1<note type="gloss">Andrea Brady
+argues that the two men’s deaths were widely depicted as “sacrificial prologues to
+the king’s execution” (“Dying with Honour: Literary Propaganda and the Second English
+Civil War,” <hi rend="italic">The Journal of Military History</hi> 70:1 (2006): 9–30,
+p. 11). See further Exploration:<ref type="pp-curations-ref" target="#ctxs">Pulter
 and Political Revolution</ref>.</note></seg></p>
 
-              <p>Pulter wrote a series of poems on the regicide. We cannot be sure of their order 
-since the manuscript does not run chronologically, and as the headnote to the 
-Elemental Edition reminds us, we cannot even be certain that this poem was composed 
-before 1660. It and its preceding poem are more disturbed than “On That Unparalleled 
-Prince Charles the First: His Horrid Murder” (Poem 8), and may have been written 
-later (for fuller discussion see Exploration: <ref type="pp-curations-ref" 
-target="#ctxs">Pulter and Political Revolution</ref>.) It is possible that Pulter 
-returned to political poetry under the renewed shock of the execution on 9 March 1649 
-of her husband’s cousin, Arthur, Lord Capel (see further <ref type="pp-curations-ref" 
-target="#ctxs">Arthur, first Baron Capel (1604–49)</ref>.) This reopened the 
-psychological wounds of the siege of Colchester, for Capel had been present at the 
-siege. One elegist spoke of the three as a “<hi rend="italic">Triumvirate</hi>” and a 
-play on the deaths at Colchester ended with the Chorus pointing at the dead body of 
+              <p>Pulter wrote a series of poems on the regicide. We cannot be sure of their order
+since the manuscript does not run chronologically, and as the headnote to the
+Elemental Edition reminds us, we cannot even be certain that this poem was composed
+before 1660. It and its preceding poem are more disturbed than “On That Unparalleled
+Prince Charles the First: His Horrid Murder” (Poem 8), and may have been written
+later (for fuller discussion see Exploration: <ref type="pp-curations-ref"
+target="#ctxs">Pulter and Political Revolution</ref>.) It is possible that Pulter
+returned to political poetry under the renewed shock of the execution on 9 March 1649
+of her husband’s cousin, Arthur, Lord Capel (see further <ref type="pp-curations-ref"
+target="#ctxs">Arthur, first Baron Capel (1604–49)</ref>.) This reopened the
+psychological wounds of the siege of Colchester, for Capel had been present at the
+siege. One elegist spoke of the three as a “<hi rend="italic">Triumvirate</hi>” and a
+play on the deaths at Colchester ended with the Chorus pointing at the dead body of
 Capel, last of the martyrs.</p>
 
-              <p>In mourning both Charles and Capel, Pulter was joining a chorus of royalist poets 
-who, unable to take up arms, could fight for their cause in verse. These broadsheets 
-and pamphlets, readily available in Paul’s Churchyard, could easily have found their 
-way to Broadfield. The contributors to <hi rend="italic">Lachrymae Musarum</hi>, a 
-collection of elegies in which Capel was praised by the influential journalist 
-Marchamont Nedham, included several poets, Marvell included, who had links with the 
-Stanley circle (see Exploration: <ref type="pp-curations-ref" target="#ctxs">Pulter 
-and Political Revolution</ref>), and that volume formed both a tribute to Pulter’s 
-relative by marriage and a kind of anthology of the leading poets of the day. 
-Pulter’s gender, and her husband’s desire for neutrality, would have made it hard to 
-join this company in print, but she responded to the combined political and poetic 
-stimulus. Her poem does not seem to echo contemporary elegies directly, though 
-further research may show otherwise. Her anger at the regicides, and the comparison 
-of them to the Jews who handed over Christ to be condemned, is shared with some royal 
-propaganda, culminating in the king’s ghosted testament, the <hi rend="italic">Eikon 
-Basilike</hi>. But there is no poem with a comparable structure, first turning from 
-Lucas and Lisle because the king’s fate is so much more important, but before long 
-turning to their ally at Colchester. It was common for elegies for Capel to be added 
-to collections in praise of Charles, but they were kept separate. Some poets did call 
-attention to the difficulty of going on writing when they were already exhausted by 
-their mourning for the king (see Curation: <ref type="pp-curations-ref" 
-target="#ctxs">Arthur, first Baron Capel (1604–49)</ref>, poems by “F. H.” and Thomas 
-Philipot), but Pulter is uniquely concerned with the questions of tact and literary 
-decorum in praising two people of widely disparate ranks. (Contrast Hutchinson’s 
-response to applying different standards to aristocrats and others (Exploration: <ref 
-type="pp-curations-ref" target="#ctxs">Women Writers and the English Revolution</
-ref>)).</p>
-              
-              <p>Why, then, has she created this problem for herself? It seems possible that she 
-may have inserted the Capel material after initially writing on Charles alone: if one 
-jumps from line 13 to line 34, the poem continues coherently, the “their” of line 34 
-taking up the “they” of line 12, and with further cuts it would continue as a poem on 
-Charles as Christ-like martyr. But if she did insert the Capel lines, why did she 
-choose this over writing a separate poem on him? She has created the problem which 
-she proceeds to explore in the poem: how to keep praise proportionate. In a separate 
-poem she could, like other elegists, have said more about the dramatic twists and 
-turns of his recent life, and about his own conduct on the scaffold, where unlike 
-Charles he explicitly stated his political and religious views. Instead, though she 
-claims Capel as a kinsman, she has remarkably little to say about his life, his 
-conduct on the scaffold, or his wife, all of which interested many contemporaries. 
-One might say of this as Liza Blake says of <ref type="pp-poem-ref" corresp="8" 
-target="ae">The Invitation into the Country, to my D.D.M.P.P.P., 1647, when his 
-Sacred Majesty was at Unhappy Home</ref>: “this poem offers not only commentary on a 
-specific historical moment, but also a meta-reflection on the relationship between 
-poetry and political agency; its formal problems—the questions of poetic form and 
-genre—also become political problems.” Since John Donne was a point of reference for 
-many contemporaries, Pulter had perhaps been struck by the complex negotiations 
-between different patrons found in his verse letters. She is also exploring her own 
-favorite language of involution and dissolution, as the Capel section becomes 
-involved (line 23) in the poem to the king and to some extent dissolved (“tossed,” 
-line 24) into it. The resultant poem is balanced, with thirteen initial lines, 
-sixteen addressed to Capel, and a further sixteen to Charles, recalling Pulter’s 
-general preference for forms that are roughly of sonnet length (see Elizabeth 
-Scott-Baumann, “Hester Pulter’s Well-Wrought Urns: Early Modern Women, Sonnets, and 
-New Criticism,” <title rend="italic">Journal for Early Modern Cultural Studies</
-title> 20: 2 (2020):120–43).</p>
+              <p>In mourning both Charles and Capel, Pulter was joining a chorus of royalist poets
+who, unable to take up arms, could fight for their cause in verse. These broadsheets
+and pamphlets, readily available in Paul’s Churchyard, could easily have found their
+way to Broadfield. The contributors to <hi rend="italic">Lachrymae Musarum</hi>, a
+collection of elegies in which Capel was praised by the influential journalist
+Marchamont Nedham, included several poets, Marvell included, who had links with the
+Stanley circle (see Exploration: <ref type="pp-curations-ref" target="#ctxs">Pulter
+and Political Revolution</ref>), and that volume formed both a tribute to Pulter’s
+relative by marriage and a kind of anthology of the leading poets of the day.
+Pulter’s gender, and her husband’s desire for neutrality, would have made it hard to
+join this company in print, but she responded to the combined political and poetic
+stimulus. Her poem does not seem to echo contemporary elegies directly, though
+further research may show otherwise. Her anger at the regicides, and the comparison
+of them to the Jews who handed over Christ to be condemned, is shared with some royal
+propaganda, culminating in the king’s ghosted testament, the <hi rend="italic">Eikon
+Basilike</hi>. But there is no poem with a comparable structure, first turning from
+Lucas and Lisle because the king’s fate is so much more important, but before long
+turning to their ally at Colchester. It was common for elegies for Capel to be added
+to collections in praise of Charles, but they were kept separate. Some poets did call
+attention to the difficulty of going on writing when they were already exhausted by
+their mourning for the king (see Curation: <ref type="pp-curations-ref"
+target="#ctxs">Arthur, first Baron Capel (1604–49)</ref>, poems by “F. H.” and Thomas
+Philipot), but Pulter is uniquely concerned with the questions of tact and literary
+decorum in praising two people of widely disparate ranks. (Contrast Hutchinson’s
+response to applying different standards to aristocrats and others (Exploration: <ref
+type="pp-curations-ref" target="#ctxs">Women Writers and the English Revolution</ref>)).</p>
 
-              <p>The sense of cosmic catastrophe found in <ref type="pp-poem-ref" corresp="8">On 
-That Unparalleled Prince Charles the First, His Horrid Murder</ref> is less evident 
-here. Her soul is “trembling” (line 3), but this word is balanced by a vision of the 
-monarch “smiling” as he looks down from heaven, confident that the struggles of the 
-puny “monsters” will end. They could have prevailed only by calling the Jews to their 
-aid (line 10). After contrasting the king’s ultimate glory with the regicides’ 
-inevitable bad end, their “tragic story”, she uses the same rhyme to invoke Capel, 
-who is nested in Charles’s “unparalled story” as in his rhyming couplet (lines 7–8, 
-14–15). Pulter proceeds to draw attention to the successive registers of grief by 
-immediately apologizing to Capel for scarcely being capable of praising him because 
-her poetic abilities had been exhausted in mourning Charles – a theme found in some 
-contemporaries, such as John Quarles and Thomas Philipot (see Curation: <ref 
-type="pp-curations-ref" target="#ctxs">Arthur, first Baron Capel (1604–49)</ref>.) 
-Recalling the previous poem, she regrets that the royalists have scarcely been able 
-to sigh or weep for Capel, and this section of the poem then becomes a series of 
-compensatory analogies, arguing that Capel’s apparently lesser standing is not really 
-diminished by his tribute’s being enclosed within a tribute to Charles. As if this 
-tribute has unbalanced the praise of Charles, she now turns from addressing Capel to 
-asking Charles’s pardon for her praise of Capel, declaring that she did it to 
-“illustrate forth…thy great worth.” Pulter takes up the final image of apology to 
-Capel where she says that his “splendency” has been “outshined by light” (line 29). 
+              <p>Why, then, has she created this problem for herself? It seems possible that she
+may have inserted the Capel material after initially writing on Charles alone: if one
+jumps from line 13 to line 34, the poem continues coherently, the “their” of line 34
+taking up the “they” of line 12, and with further cuts it would continue as a poem on
+Charles as Christ-like martyr. But if she did insert the Capel lines, why did she
+choose this over writing a separate poem on him? She has created the problem which
+she proceeds to explore in the poem: how to keep praise proportionate. In a separate
+poem she could, like other elegists, have said more about the dramatic twists and
+turns of his recent life, and about his own conduct on the scaffold, where unlike
+Charles he explicitly stated his political and religious views. Instead, though she
+claims Capel as a kinsman, she has remarkably little to say about his life, his
+conduct on the scaffold, or his wife, all of which interested many contemporaries.
+One might say of this as Liza Blake says of <ref type="pp-poem-ref" corresp="8"
+target="ae">The Invitation into the Country, to my D.D.M.P.P.P., 1647, when his
+Sacred Majesty was at Unhappy Home</ref>: “this poem offers not only commentary on a
+specific historical moment, but also a meta-reflection on the relationship between
+poetry and political agency; its formal problems—the questions of poetic form and
+genre—also become political problems.” Since John Donne was a point of reference for
+many contemporaries, Pulter had perhaps been struck by the complex negotiations
+between different patrons found in his verse letters. She is also exploring her own
+favorite language of involution and dissolution, as the Capel section becomes
+involved (line 23) in the poem to the king and to some extent dissolved (“tossed,”
+line 24) into it. The resultant poem is balanced, with thirteen initial lines,
+sixteen addressed to Capel, and a further sixteen to Charles, recalling Pulter’s
+general preference for forms that are roughly of sonnet length (see Elizabeth
+Scott-Baumann, “Hester Pulter’s Well-Wrought Urns: Early Modern Women, Sonnets, and
+New Criticism,” <title rend="italic">Journal for Early Modern Cultural Studies</title> 20: 2 (2020):120–43).</p>
+
+              <p>The sense of cosmic catastrophe found in <ref type="pp-poem-ref" corresp="8">On
+That Unparalleled Prince Charles the First, His Horrid Murder</ref> is less evident
+here. Her soul is “trembling” (line 3), but this word is balanced by a vision of the
+monarch “smiling” as he looks down from heaven, confident that the struggles of the
+puny “monsters” will end. They could have prevailed only by calling the Jews to their
+aid (line 10). After contrasting the king’s ultimate glory with the regicides’
+inevitable bad end, their “tragic story”, she uses the same rhyme to invoke Capel,
+who is nested in Charles’s “unparalled story” as in his rhyming couplet (lines 7–8,
+14–15). Pulter proceeds to draw attention to the successive registers of grief by
+immediately apologizing to Capel for scarcely being capable of praising him because
+her poetic abilities had been exhausted in mourning Charles – a theme found in some
+contemporaries, such as John Quarles and Thomas Philipot (see Curation: <ref
+type="pp-curations-ref" target="#ctxs">Arthur, first Baron Capel (1604–49)</ref>.)
+Recalling the previous poem, she regrets that the royalists have scarcely been able
+to sigh or weep for Capel, and this section of the poem then becomes a series of
+compensatory analogies, arguing that Capel’s apparently lesser standing is not really
+diminished by his tribute’s being enclosed within a tribute to Charles. As if this
+tribute has unbalanced the praise of Charles, she now turns from addressing Capel to
+asking Charles’s pardon for her praise of Capel, declaring that she did it to
+“illustrate forth…thy great worth.” Pulter takes up the final image of apology to
+Capel where she says that his “splendency” has been “outshined by light” (line 29).
 Her language is more positive than the end of  “On That Unparalleled Prince”:</p>
                 <cit>
                   <quote>
@@ -380,30 +366,30 @@ Her language is more positive than the end of  “On That Unparalleled Prince”
                   </quote>
                 </cit>
 
-                <p>Here Charles I is safe in heaven, trampling over death. She returns to her 
-familiar language of dissolution and involution, processes which bring Charles and 
+                <p>Here Charles I is safe in heaven, trampling over death. She returns to her
+familiar language of dissolution and involution, processes which bring Charles and
 Capel together (lines 36–7).</p>
 
-                <p>The poem now returns to recent events, attributing the nation’s sighs and tears 
-to a personification of the Church of England, here identified as the spouse of 
-Christ. Pulter places the emphasis on religious issues rather than on the 
-constitutionalism that had appealed to the Leveller John Lilburne; this does square 
-with his final days, when he told his wife and children, in the terms of 
-patriarchalist political theory, that his obedience to the king came from the 
-divine commandment to honor one’s father and mother. (Here there is a striking 
-contrast with Pulter, whose manuscript is matriarchal in focus, with many 
-references to her children and only one poem addressed to her husband - and that 
-revealing “the poet’s tenuous investment in her relationship” (see Meg Heffernan’s 
-Headnote to <ref type="pp-poem-ref" corresp="42" target="ae">[Untitled]</ref>)). 
-Pulter may have emphasized Capel’s orthodoxy the more strongly because critics had 
-attacked him as a Catholic — a charge against which he felt it necessary to defend 
-himself on the scaffold, insisting that he was a Calvinist in theology (Quarles 
-would defend him by saying that he had been more like a Puritan, Regale Lectum, p. 
-55; see Curation: <ref type="pp-curations-ref" target="#ctxs">Arthur, first Baron 
-Capel (1604–49)</ref>). The final triplet gives a note of confidence in turning 
-from “my Heroick Champions Death” to prophesying the restoration of Charles II, 
-then in Scotland. In seventeenth-century spelling, “Champions” could be read as 
-“Champion’s” or as “Champions’”, perhaps leaving a last sense in which Capel is 
+                <p>The poem now returns to recent events, attributing the nation’s sighs and tears
+to a personification of the Church of England, here identified as the spouse of
+Christ. Pulter places the emphasis on religious issues rather than on the
+constitutionalism that had appealed to the Leveller John Lilburne; this does square
+with his final days, when he told his wife and children, in the terms of
+patriarchalist political theory, that his obedience to the king came from the
+divine commandment to honor one’s father and mother. (Here there is a striking
+contrast with Pulter, whose manuscript is matriarchal in focus, with many
+references to her children and only one poem addressed to her husband - and that
+revealing “the poet’s tenuous investment in her relationship” (see Meg Heffernan’s
+Headnote to <ref type="pp-poem-ref" corresp="42" target="ae">[Untitled]</ref>)).
+Pulter may have emphasized Capel’s orthodoxy the more strongly because critics had
+attacked him as a Catholic — a charge against which he felt it necessary to defend
+himself on the scaffold, insisting that he was a Calvinist in theology (Quarles
+would defend him by saying that he had been more like a Puritan, Regale Lectum, p.
+55; see Curation: <ref type="pp-curations-ref" target="#ctxs">Arthur, first Baron
+Capel (1604–49)</ref>). The final triplet gives a note of confidence in turning
+from “my Heroick Champions Death” to prophesying the restoration of Charles II,
+then in Scotland. In seventeenth-century spelling, “Champions” could be read as
+“Champion’s” or as “Champions’”, perhaps leaving a last sense in which Capel is
 involved in the poem.</p>
 
 
@@ -414,51 +400,23 @@ involved in the poem.</p>
 
       <l n="1">
         <app>
-            <rdg wit="#ft">Let none Sigh more for Lucas or for Liſle</rdg>
-          <rdg wit="#ee">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">George 
-Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the 
-English civil war, executed by firing squad without trial after their defeat and capture 
-at Colchester in 1648. Pulter makes these two the subject of <ref type="pp-poem-ref" 
-corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas</
-ref>.</note></seg>,</rdg>
-          <rdg wit="#ae">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">Sir 
-Charles Lucas (1612/13–48) and Sir George Lisle (1615–48). Pulter had sighed for them in 
-<ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle 
-and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>. Coming from different 
-social backgrounds, the two had not in fact been close friends, but they were united when 
-singled out by Sir Thomas Fairfax for execution after the surrender of the royalist 
-garrison at Colchester in 1648. </note></seg>,</rdg>
+          <rdg wit="#ft">Let none Sigh more for Lucas or for Liſle</rdg>
+          <rdg wit="#ee">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">George Lisle and Charles Lucas were Royalist commanders in the siege of Colchester during the English civil war, executed by firing squad without trial after their defeat and capture at Colchester in 1648. Pulter makes these two the subject of <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas</ref>.</note></seg>,</rdg>
+          <rdg wit="#ae">Let none sigh more <seg>for Lucas or for Lisle<note type="gloss">Sir Charles Lucas (1612/13–48) and Sir George Lisle (1615–48). Pulter had sighed for them in <ref type="pp-poem-ref" corresp="7">On those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>. Coming from different social backgrounds, the two had not in fact been close friends, but they were united when singled out by Sir Thomas Fairfax for execution after the surrender of the royalist garrison at Colchester in 1648.</note></seg>,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
-            <rdg wit="#ft">Seing now the very Soule of this Sad Iſle</rdg>
-          <rdg wit="#ee">Seeing now the very soul of this <seg>sad isle<note type="gloss">Britain</
-note></seg></rdg>
-          <rdg wit="#ae">Seeing now the very <seg>soul of this sad isle<note type="gloss">Charles 
-is the soul of Britain.</note></seg></rdg>
+          <rdg wit="#ft">Seing now the very Soule of this Sad Iſle</rdg>
+          <rdg wit="#ee">Seeing now the very soul of this <seg>sad isle<note type="gloss">Britain</note></seg></rdg>
+          <rdg wit="#ae">Seeing now the very <seg>soul of this sad isle<note type="gloss">Charles is the soul of Britain.</note></seg></rdg>
         </app>
       </l>
       <l n="3">
         <app>
-            <rdg wit="#ft">(At which trembling invades my Soule) is Dead</rdg>
-          <rdg wit="#ee"><seg>(At which trembling invades my soul)<note type="critical">This 
-parenthetical phrase seems to be placed, unusually, in the middle of the clause it 
-modifies: “the very soul of this sad isle / … is dead.” That is, the primary sense 
-appears to be that the speaker’s soul trembles at the death of the king, who is cast as 
-Britain’s soul. However, the placement of the parenthetical phrase immediately after the 
-reference to the king might also suggest that the speaker (or her soul) trembles–perhaps 
-from fearful respect or awe–at the mere thought of her king, alive or dead.</note></seg> 
-is dead,</rdg>
-          <rdg wit="#ae">(At which trembling invades my <seg>soul<note type="critical">Pulter takes 
-up the imagery of sighing souls from the previous poem, and by repetition she blurs 
-distinctions between her own soul, the soul of the dead king, and the king metaphorically 
-considered as soul of the realm. For the “spirit” of line 4 to be different from the 
-“soul” of line 2, one might expect “sacred sovereign’s spirit”, though the sibilants 
-would clash. Alternatively, Pulter may have meant us to read “our sacred sovereign 
-spirits”, as if subjects too had sighed out their monarchist souls; but the scribe does 
-insert an apostrophe at “spirit’s”. In any case, Pulter tries to universalize mourning.</
-note></seg>) is dead,</rdg>
+          <rdg wit="#ft">(At which trembling invades my Soule) is Dead</rdg>
+          <rdg wit="#ee"><seg>(At which trembling invades my soul)<note type="critical">This parenthetical phrase seems to be placed, unusually, in the middle of the clause it modifies: “the very soul of this sad isle / … is dead.” That is, the primary sense appears to be that the speaker’s soul trembles at the death of the king, who is cast as Britain’s soul. However, the placement of the parenthetical phrase immediately after the reference to the king might also suggest that the speaker (or her soul) trembles–perhaps from fearful respect or awe–at the mere thought of her king, alive or dead.</note></seg> is dead,</rdg>
+          <rdg wit="#ae">(At which trembling invades my <seg>soul<note type="critical">Pulter takes up the imagery of sighing souls from the previous poem, and by repetition she blurs distinctions between her own soul, the soul of the dead king, and the king metaphorically considered as soul of the realm. For the “spirit” of line 4 to be different from the “soul” of line 2, one might expect “sacred sovereign’s spirit”, though the sibilants would clash. Alternatively, Pulter may have meant us to read “our sacred sovereign spirits”, as if subjects too had sighed out their monarchist souls; but the scribe does insert an apostrophe at “spirit’s”. In any case, Pulter tries to universalize mourning.</note></seg>) is dead,</rdg>
         </app>
       </l>
       <l n="4">
@@ -488,24 +446,17 @@ note></seg>) is dead,</rdg>
         <app>
             <rdg wit="#ft">To Heaven, where Smileing he looks down</rdg>
             <rdg wit="#ee">To Heaven, where, smiling, he looks down</rdg>
-          <rdg wit="#ae"><seg>To Heaven, where, smiling, he looks down<note type="gloss">The ascent 
-to heaven across a line-break is followed by a tetrameter (four-foot) line varying from 
+          <rdg wit="#ae"><seg>To Heaven, where, smiling, he looks down<note type="gloss">The ascent
+to heaven across a line-break is followed by a tetrameter (four-foot) line varying from
 the normal pentameter.</note></seg></rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">And Sees these Monsters Strugling for his Crown</rdg>
-          <rdg wit="#ee">And sees <seg>these monsters<note type="gloss">the king’s opponents in the 
+          <rdg wit="#ee">And sees <seg>these monsters<note type="gloss">the king’s opponents in the
 civil war</note></seg> struggling for his crown,</rdg>
-          <rdg wit="#ae">And sees <seg>these monsters<note type="gloss">the king’s opponents in the 
-civil war, with overtones of the “many-headed monster,” the multitude – see <ref 
-type="pp-poem-ref" corresp="62">On the Fall of that Grand Rebel the Earl of Essex’s 
-Effigies in Harry the 7th’s Chapel in Westminster Abbey</ref>, line 1.</note></seg> 
-<seg>struggling for his crown<note type="critical">The revolution is cast as a medieval 
-rivalry for the crown rather than an attempt to found a new republic or at best a 
-figurehead monarchy. Even after some pressure in the 1650s, Cromwell refused a crown.</
-note></seg>,</rdg>
+          <rdg wit="#ae">And sees <seg>these monsters<note type="gloss">the king’s opponents in the civil war, with overtones of the “many-headed monster,” the multitude – see <ref type="pp-poem-ref" corresp="62">On the Fall of that Grand Rebel the Earl of Essex’s Effigies in Harry the 7th’s Chapel in Westminster Abbey</ref>, line 1.</note></seg> <seg>struggling for his crown<note type="critical">The revolution is cast as a medieval rivalry for the crown rather than an attempt to found a new republic or at best a figurehead monarchy. Even after some pressure in the 1650s, Cromwell refused a crown.</note></seg>,</rdg>
         </app>
       </l>
       <l n="7">
@@ -518,12 +469,12 @@ note></seg>,</rdg>
       <l n="8">
         <app>
             <rdg wit="#ft">Expects the finis of their Tragick Story</rdg>
-          <rdg wit="#ee">Expects the <seg><foreign rend="italic">finis</foreign><note 
-type="gloss">conclusion (a word often placed at the end of a book)</note></seg> of their 
+          <rdg wit="#ee">Expects the <seg><foreign rend="italic">finis</foreign><note
+type="gloss">conclusion (a word often placed at the end of a book)</note></seg> of their
 tragic story.</rdg>
-          <rdg wit="#ae"><seg>Expects<note type="gloss">waits for; archaic form of third person 
-plural.</note></seg> the <seg><foreign rend="italic">finis</foreign><note 
-type="gloss">conclusion (Latin; a word often placed at the end of a book).</note></seg> 
+          <rdg wit="#ae"><seg>Expects<note type="gloss">waits for; archaic form of third person
+plural.</note></seg> the <seg><foreign rend="italic">finis</foreign><note
+type="gloss">conclusion (Latin; a word often placed at the end of a book).</note></seg>
 of their tragic story.</rdg>
         </app>
       </l>
@@ -531,49 +482,26 @@ of their tragic story.</rdg>
         <app>
             <rdg wit="#ft">How could they doe it; Sure they were afraid</rdg>
             <rdg wit="#ee">How could they do it? Sure they were afraid,</rdg>
-          <rdg wit="#ae"><seg>How could they do it? Sure they were afraid,</rdg>
+          <rdg wit="#ae">How could they do it? Sure they were afraid,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">And therefore call’d in Jews into their Aid</rdg>
-          <rdg wit="#ee">And therefore called in <seg>Jews<note type="critical">Citing Wilcher, 
-Eardley indicates that it was common for Royalists to castigate their opponents as Jews, 
-especially in the wake of the execution of Charles I, who was by analogy figured as 
-Christ. See Robert Wilcher, <title rend="italic">Writing of Royalism, 1628–1660</title> 
-(Cambridge: Cambridge University Press, 2001), 267–69. In <ref type="pp-poem-ref" 
-corresp="7">On those Two Unparalleled Friends</ref>, Pulter draws on the period’s common 
-bigoted rhetoric by labeling anti-Royalists as Jews, Turks and atheists; yet she 
-interestingly chooses as her authorial moniker Haddassah or Esther, a Jewish heroine.</
-note></seg> into their aid,</rdg>
-          <rdg wit="#ae">And therefore called in <seg>Jews<note type="critical">Compare <ref 
-type="pp-poem-ref" corresp="7">On Those Two Unparalleled Friends, Sir George Lisle and 
-Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>, line 23: “Jews, Turks, 
-atheists, Independents, all.” Pulter may have been thinking particularly of a sermon by 
-the Laudian bishop Richard Watson, preached a few days after the king’s death, which made 
-detailed parallels between the Pharisees and the Puritans in bringing about the death of 
-“<hi rend="italic">Ch</hi>: the King”: <title rend="italic">The Devilish Conspiracy, 
-Hellish Treason, Heathenish Condemnation, and Damnable Murder, Committed, and Executed by 
-the Iewes, against the Anointed of The Lord, Christ Their King</title> (London, 1649); 
-see <title rend="italic">Andrew Lacey, The Cult of King Charles the Martyr</title> 
-(Woodbridge, UK: Boydell and Brewer, 2012), pp. 117ff.  Though there were few Jews in 
-England, Puritans were liable to attack for association with their un-Christian views, 
-both because of elements of identification with the Jewish people and more particularly 
-because of the belief that the Jews would soon be converted, which led to calls for their 
-readmission to England: Christopher Hill, “Till the Conversion of the Jews,” in <title 
-rend="italic">The Collected Essays of Christopher Hill, Vol. 2: Religion and Politics in 
-Seventeenth-Century England</title> (Amherst: University of Massachusetts Press, 1986), 
-pp. 269–300.</note></seg> into their aid,</rdg>
+          <rdg wit="#ee">And therefore called in <seg>Jews<note type="critical">Citing Wilcher, Eardley indicates that it was common for Royalists to castigate their opponents as Jews,
+especially in the wake of the execution of Charles I, who was by analogy figured as Christ. See Robert Wilcher, <title rend="italic">Writing of Royalism, 1628–1660</title> (Cambridge: Cambridge University Press, 2001), 267–69. In <ref type="pp-poem-ref"
+corresp="7">On those Two Unparalleled Friends</ref>, Pulter draws on the period’s common bigoted rhetoric by labeling anti-Royalists as Jews, Turks and atheists; yet she interestingly chooses as her authorial moniker Haddassah or Esther, a Jewish heroine.</note></seg> into their aid,</rdg>
+          <rdg wit="#ae">And therefore called in <seg>Jews<note type="critical">Compare <ref type="pp-poem-ref" corresp="7">On Those Two Unparalleled Friends, Sir George Lisle and Sir Charles Lucas, Who Were Shot to Death at Colchester</ref>, line 23: “Jews, Turks, atheists, Independents, all.” Pulter may have been thinking particularly of a sermon by the Laudian bishop Richard Watson, preached a few days after the king’s death, which made detailed parallels between the Pharisees and the Puritans in bringing about the death of “<hi rend="italic">Ch</hi>: the King”: <title rend="italic">The Devilish Conspiracy, Hellish Treason, Heathenish Condemnation, and Damnable Murder, Committed, and Executed by the Iewes, against the Anointed of The Lord, Christ Their King</title> (London, 1649); see <title rend="italic">Andrew Lacey, The Cult of King Charles the Martyr</title> (Woodbridge, UK: Boydell and Brewer, 2012), pp. 117ff.  Though there were few Jews in England, Puritans were liable to attack for association with their un-Christian views, both because of elements of identification with the Jewish people and more particularly because of the belief that the Jews would soon be converted, which led to calls for their readmission to England: Christopher Hill, “Till the Conversion of the Jews,” in <title rend="italic">The Collected Essays of Christopher Hill, Vol. 2: Religion and Politics in Seventeenth-Century England</title> (Amherst: University of Massachusetts Press, 1986), pp. 269–300.</note></seg> into their aid,</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">Who their Redeemer and their King betray’d</rdg>
-          <rdg wit="#ee">Who <seg>their redeemer and their king<note type="gloss">These terms 
+          <rdg wit="#ee">Who <seg>their redeemer and their king<note type="gloss">These terms
 conflate references to King Charles and Jesus Christ or God.</note></seg> betrayed.</rdg>
-          <rdg wit="#ae">Who <seg>their redeemer and their king<note type="gloss">These terms 
-conflate references to King Charles and to Jesus Christ or God.</note></seg><seg> 
-betrayed<note type="gloss"> triplet for heightened emphasis; the poem ends with another 
+          <rdg wit="#ae">Who <seg>their redeemer and their king<note type="gloss">These terms
+conflate references to King Charles and to Jesus Christ or God.</note></seg><seg>
+betrayed<note type="gloss"> triplet for heightened emphasis; the poem ends with another
 one..</note></seg></rdg>
         </app>
       </l>
@@ -586,57 +514,53 @@ one..</note></seg></rdg>
       </l>
       <l n="13">
         <app>
-          <rdg wit="#ft">To <seg>wound<note type="physical">imperfectly erased ascender (as for 
-“l”) visible above “n”</note></seg> that <seg>Heart<note type="physical">“e” appears 
+          <rdg wit="#ft">To <seg>wound<note type="physical">imperfectly erased ascender (as for
+“l”) visible above “n”</note></seg> that <seg>Heart<note type="physical">“e” appears
 crowded between surrounding letters</note></seg> for whom all Should bleed</rdg>
             <rdg wit="#ee">To wound that heart for whom all should bleed?</rdg>
-          <rdg wit="#ae">To wound that <seg>heart<note type="gloss">“a homonym for ‘hart,’ one of 
-Pulter’s recurring images for the king” (Ross and Scott-Baumann, citing <ref 
-type="pp-poem-ref" corresp="10">Upon the Death of my Dear and Lovely Daughter, Jane 
-Pulter</ref>, <ref type="pp-poem-ref" corresp="61">The Weeping Wish</ref>, and <ref 
-type="pp-poem-ref" corresp="87">The Hunted Hart (Emblem 22)</ref>).</note></seg> for whom 
-<seg>all should bleed?<note type="critical">Meter suggests the scribe may have omitted a 
-word; “they” before “all” would fit the context. But Pulter did not change this passage.</
-note></seg></rdg>
+          <rdg wit="#ae">To wound that <seg>heart<note type="gloss">“a homonym for ‘hart,’ one of
+Pulter’s recurring images for the king” (Ross and Scott-Baumann, citing <ref
+type="pp-poem-ref" corresp="10">Upon the Death of my Dear and Lovely Daughter, Jane
+Pulter</ref>, <ref type="pp-poem-ref" corresp="61">The Weeping Wish</ref>, and <ref
+type="pp-poem-ref" corresp="87">The Hunted Hart (Emblem 22)</ref>).</note></seg> for whom
+<seg>all should bleed?<note type="critical">Meter suggests the scribe may have omitted a
+word; “they” before “all” would fit the context. But Pulter did not change this passage.</note></seg></rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">And noble Capell let it bee thy Glory</rdg>
-          <rdg wit="#ee">And noble <seg>Capel<note type="gloss">Arthur Capel (1604–49), first 
-cousin to Pulter’s husband and royalist commander, fought a losing battle at Colchester 
-with Lisle and Lucas; he was imprisoned but escaped, only to be betrayed and then 
-beheaded at the behest of parliament, two months after the king’s execution (ODNB).</
-note></seg>, let it be thy glory,</rdg>
-          <rdg wit="#ae">And noble <seg>Capel<note type="gloss">Arthur Capel, first Baron Capel of 
-Hadham (1604–1649), first cousin to Pulter’s husband. After an effective career as a 
-royalist commander, he joined Lucas and Lisle in defending Colchester. Imprisoned, he 
-escaped, only to be betrayed and then beheaded at the behest of parliament, two months 
-after the king’s execution (<title rend="italic">ODNB</title>).</note></seg>, let it be 
+          <rdg wit="#ee">And noble <seg>Capel<note type="gloss">Arthur Capel (1604–49), first
+cousin to Pulter’s husband and royalist commander, fought a losing battle at Colchester
+with Lisle and Lucas; he was imprisoned but escaped, only to be betrayed and then
+beheaded at the behest of parliament, two months after the king’s execution (ODNB).</note></seg>, let it be thy glory,</rdg>
+          <rdg wit="#ae">And noble <seg>Capel<note type="gloss">Arthur Capel, first Baron Capel of
+Hadham (1604–1649), first cousin to Pulter’s husband. After an effective career as a
+royalist commander, he joined Lucas and Lisle in defending Colchester. Imprisoned, he
+escaped, only to be betrayed and then beheaded at the behest of parliament, two months
+after the king’s execution (<title rend="italic">ODNB</title>).</note></seg>, let it be
 thy glory,</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">Though dead to live in his unparrild Story</rdg>
-          <rdg wit="#ee">Though dead, to live in <seg>his<note type="gloss">the king’s</note></seg> 
-<seg>unparall’d<note type="critical">The manuscript has “unparrild,” for “unparalleled”; 
+          <rdg wit="#ee">Though dead, to live in <seg>his<note type="gloss">the king’s</note></seg>
+<seg>unparall’d<note type="critical">The manuscript has “unparrild,” for “unparalleled”;
 we maintain the abbreviation for the meter.</note></seg> story.</rdg>
-          <rdg wit="#ae">Though dead, to live in <seg>his<note type="gloss">the king’s.</note></
-seg> <seg>unparall’d<note type="critical">the manuscript has “unparrild,” for 
-“unparalleled;” the word also appears in the companion poem (<ref type="pp-poem-ref" 
-corresp="14">On the Horrid Murder of that Incomparable Prince</ref>). Contemporaries 
-groped for words that would be adequate to the regicide; Pulter may have read <title 
-rend="italic">Obsequies on That unexemplar Champion of Chivalrie, and Pattern of true 
-Prowess, Arthur Lord Capel</title>; compare “unexemplary” in the sense of 
-“unprecedented,” first recorded in the <title rend="italic">Oxford English Dictionary</
-title> 1 in a 1649 reference to the regicide.</note></seg> story.</rdg>
+          <rdg wit="#ae">Though dead, to live in <seg>his<note type="gloss">the king’s.</note></seg> <seg>unparall’d<note type="critical">the manuscript has “unparrild,” for
+“unparalleled;” the word also appears in the companion poem (<ref type="pp-poem-ref"
+corresp="14">On the Horrid Murder of that Incomparable Prince</ref>). Contemporaries
+groped for words that would be adequate to the regicide; Pulter may have read <title
+rend="italic">Obsequies on That unexemplar Champion of Chivalrie, and Pattern of true
+Prowess, Arthur Lord Capel</title>; compare “unexemplary” in the sense of
+“unprecedented,” first recorded in the <title rend="italic">Oxford English Dictionary</title> 1 in a 1649 reference to the regicide.</note></seg> story.</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Take it not ill that wee could Scarce deplore</rdg>
-          <rdg wit="#ee">Take it not ill that we could scarce <seg>deplore<note 
+          <rdg wit="#ee">Take it not ill that we could scarce <seg>deplore<note
 type="gloss">lament</note></seg></rdg>
           <rdg wit="#ae">Take it not ill that we could scarce <seg>deplore<note type="gloss">lament.
 </note></seg></rdg>
@@ -645,10 +569,10 @@ type="gloss">lament</note></seg></rdg>
       <l n="17">
         <app>
             <rdg wit="#ft">This Kingdoms loſs in thee when full before</rdg>
-          <rdg wit="#ee">This kingdom’s loss in thee, <seg>when full before<note type="gloss">The 
-speaker asks Capel not to be offended that they could not mourn his death, when they were 
+          <rdg wit="#ee">This kingdom’s loss in thee, <seg>when full before<note type="gloss">The
+speaker asks Capel not to be offended that they could not mourn his death, when they were
 already full of grief owing to the king’s recent execution.</note></seg>.</rdg>
-          <rdg wit="#ae">This kingdom’s loss in thee, <seg>when full before<note type="gloss">when 
+          <rdg wit="#ae">This kingdom’s loss in thee, <seg>when full before<note type="gloss">when
 already full of grief owing to the king’s recent execution.</note></seg>.</rdg>
         </app>
       </l>
@@ -663,8 +587,8 @@ already full of grief owing to the king’s recent execution.</note></seg>.</rdg
         <app>
             <rdg wit="#ft">Had wee had power left to Sigh or weep</rdg>
             <rdg wit="#ee">Had we had power left to sigh or weep;</rdg>
-          <rdg wit="#ae">Had <seg>we<note type="gloss">either an authorial first person or Pulter 
-is speaking for all royalists.</note></seg> had power left to <seg>sigh or weep<note 
+          <rdg wit="#ae">Had <seg>we<note type="gloss">either an authorial first person or Pulter
+is speaking for all royalists.</note></seg> had power left to <seg>sigh or weep<note
 type="critical">returning to the language of the previous poem.</note></seg>;</rdg>
         </app>
       </l>
@@ -672,60 +596,58 @@ type="critical">returning to the language of the previous poem.</note></seg>;</r
         <app>
             <rdg wit="#ft">Senceles wee were of private deſolation</rdg>
             <rdg wit="#ee">Senseless we were of private desolation,</rdg>
-          <rdg wit="#ae"><seg>Senseless<note type="gloss">“Without sense, awareness, or 
-consciousness of something” (<title rend="italic">Oxford English Dictionary</title> 2a).</
-note></seg> we were of private desolation,</rdg>
+          <rdg wit="#ae"><seg>Senseless<note type="gloss">“Without sense, awareness, or
+consciousness of something” (<title rend="italic">Oxford English Dictionary</title> 2a).</note></seg> we were of private desolation,</rdg>
         </app>
       </l>
       <l n="21">
         <app>
-          <rdg wit="#ft">Just like a <seg>&ff;lou[<del>?</del>]d<note type="physical">letter with 
+          <rdg wit="#ft">Just like a <seg>&ff;lou[<del>?</del>]d<note type="physical">letter with
 ascender (possibly “l”) blotted to cancel</note></seg> after an Inundation</rdg>
-          <rdg wit="#ee">Just like a flood after an <seg>inundation<note type="gloss">overflow of 
+          <rdg wit="#ee">Just like a flood after an <seg>inundation<note type="gloss">overflow of
 water</note></seg>.</rdg>
-          <rdg wit="#ae">Just like a <seg>flood after an inundation<note type="gloss">Anglo-Saxon 
-and Latinate terms for the same thing, the higher register for the King being reinforced 
+          <rdg wit="#ae">Just like a <seg>flood after an inundation<note type="gloss">Anglo-Saxon
+and Latinate terms for the same thing, the higher register for the King being reinforced
 by the ‘feminine’ rhymes on two four-syllable words.</note></seg>.</rdg>
         </app>
       </l>
       <l n="22">
         <app>
-          <rdg wit="#ft">Thus <seg>Nile<note type="physical">“e” appears written over (possibly 
+          <rdg wit="#ft">Thus <seg>Nile<note type="physical">“e” appears written over (possibly
 after) earlier second “l”</note></seg> doth proudly Swell to looſe her name</rdg>
-          <rdg wit="#ee">Thus <seg>Nile doth proudly swell to lose her name<note type="gloss">The 
-Egyptian river “loses [its] name” when it joins the Mediterranean sea and ceases to be a 
+          <rdg wit="#ee">Thus <seg>Nile doth proudly swell to lose her name<note type="gloss">The
+Egyptian river “loses [its] name” when it joins the Mediterranean sea and ceases to be a
 river.</note></seg></rdg>
-          <rdg wit="#ae">Thus <seg>Nile doth proudly swell to lose her name<note type="gloss">The 
+          <rdg wit="#ae">Thus <seg>Nile doth proudly swell to lose her name<note type="gloss">The
 Egyptian river “loses [its] name” when it joins the Mediterranean sea.</note></seg></rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">And bee involved in the Oceans fame</rdg>
-          <rdg wit="#ee">And be <seg>involved<note type="gloss">enveloped</note></seg> in the 
+          <rdg wit="#ee">And be <seg>involved<note type="gloss">enveloped</note></seg> in the
 ocean’s fame;</rdg>
-          <rdg wit="#ae">And be <seg>involved<note type="gloss">enveloped, swallowed up (<title 
-rend="italic">OED</title> 7). Liza Blake explains as “mixes into, and thereby loses 
-itself in, the ocean,” a sense of involution as “destructive mixture” that is common in 
-Pulter, and underlies lines 25 and 36–7: “Hester Pulter’s Particle Physics and the 
-Poetics of Involution,” <title rend="italic">Journal for Early Modern Cultural Studies</
-title>, 20:2 (2020), 71–98 (90).</note></seg> in the ocean’s fame;</rdg>
+          <rdg wit="#ae">And be <seg>involved<note type="gloss">enveloped, swallowed up (<title
+rend="italic">OED</title> 7). Liza Blake explains as “mixes into, and thereby loses
+itself in, the ocean,” a sense of involution as “destructive mixture” that is common in
+Pulter, and underlies lines 25 and 36–7: “Hester Pulter’s Particle Physics and the
+Poetics of Involution,” <title rend="italic">Journal for Early Modern Cultural Studies</title>, 20:2 (2020), 71–98 (90).</note></seg> in the ocean’s fame;</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Thus Stately Volgas in the Caſpian tost</rdg>
-          <rdg wit="#ee">Thus stately <seg>Volga’s in the Caspian<note type="gloss">The Russian 
+          <rdg wit="#ee">Thus stately <seg>Volga’s in the Caspian<note type="gloss">The Russian
 river Volga flows into the Caspian Sea.</note></seg> tossed,</rdg>
-          <rdg wit="#ae">Thus stately <seg>Volga’s in the Caspian<note type="gloss">The Russian 
+          <rdg wit="#ae">Thus stately <seg>Volga’s in the Caspian<note type="gloss">The Russian
 river Volga, longest in Europe, flows into the Caspian Sea.</note></seg> tossed,</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft">And Natures great deſign in thee is lost</rdg>
-          <rdg wit="#ee">And <seg>Nature’s great design in thee is lost<note type="gloss">The 
-speaker suggests that Nature’s plan, in relation to Capel’s fate, cannot be perceived but 
+          <rdg wit="#ee">And <seg>Nature’s great design in thee is lost<note type="gloss">The
+speaker suggests that Nature’s plan, in relation to Capel’s fate, cannot be perceived but
 is nonetheless present (like the rivers dissolved within the ocean or sea).</note></seg>.
 </rdg>
           <rdg wit="#ae">And Nature’s great design in thee is lost.</rdg>
@@ -750,76 +672,72 @@ is nonetheless present (like the rivers dissolved within the ocean or sea).</not
       <l n="26">
         <app>
             <rdg wit="#ft">Soe Mercury Surrounds the purest Gold</rdg>
-          <rdg wit="#ee"><seg>So Mercury surrounds the purest gold,<note type="gloss">The speaker 
-suggests that mercury has a crucial relation to gold, as Capel does to Charles; the 
-analogy is drawn from alchemy, in which mercury is a base element used to form the more 
+          <rdg wit="#ee"><seg>So Mercury surrounds the purest gold,<note type="gloss">The speaker
+suggests that mercury has a crucial relation to gold, as Capel does to Charles; the
+analogy is drawn from alchemy, in which mercury is a base element used to form the more
 valuable gold.</note></seg></rdg>
-          <rdg wit="#ae">So <seg>Mercury surrounds the purest gold<note type="gloss">The theme of 
-mixing and loss is continued in an alchemical metaphor: mercury is an essential element 
-without which gold cannot be created.Eardley compares <ref type="pp-poem-ref" 
-corresp="21">The Circle [2]</ref>, lines, 1-7: “Those that the hidden chemic art 
-profess / And visit Nature in her morning dress, / To mercury and sulphur philtres give / 
-That they, consumed with love, may live / In their posterity and in them shine / Though 
-they their being unto them resign; / Glorying to shine in silver and in gold.”</note></
-seg>,</rdg>
+          <rdg wit="#ae">So <seg>Mercury surrounds the purest gold<note type="gloss">The theme of
+mixing and loss is continued in an alchemical metaphor: mercury is an essential element
+without which gold cannot be created.Eardley compares <ref type="pp-poem-ref"
+corresp="21">The Circle [2]</ref>, lines, 1-7: “Those that the hidden chemic art
+profess / And visit Nature in her morning dress, / To mercury and sulphur philtres give /
+That they, consumed with love, may live / In their posterity and in them shine / Though
+they their being unto them resign; / Glorying to shine in silver and in gold.”</note></seg>,</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">And Phœbus beams doth Hermes light infould</rdg>
-          <rdg wit="#ee"><seg>And Phoebus’s beams doth Hermes’s light enfold,<note type="gloss">The 
-speaker carries on the analogy between more and less valuable forms of light (related to 
-Charles and Capel): the sun’s beams (those of Phoebus, the sun god) enclose those of 
+          <rdg wit="#ee"><seg>And Phoebus’s beams doth Hermes’s light enfold,<note type="gloss">The
+speaker carries on the analogy between more and less valuable forms of light (related to
+Charles and Capel): the sun’s beams (those of Phoebus, the sun god) enclose those of
 Hermes, a messenger god (also identified with Mercury).</note></seg></rdg>
-          <rdg wit="#ae"><seg>And Phoebus’ beams doth Hermes’s light enfold<note 
-type="gloss">Through a kind of mythological pun on Mercury, both element and planet 
-closest to the sun (Phoebus), Pulter now continues the analogy in the terms of Copernican 
-cosmology: compare <ref type="pp-poem-ref" corresp="54">A Solitary Complaint</ref>, lines 
-4–5: “Thrice happy Hermes moves in endless day, Being underneath the sun’s illustrious 
-ray.” The manuscript spelling “infould” highlights the parallel with “involved” at line 
+          <rdg wit="#ae"><seg>And Phoebus’ beams doth Hermes’s light enfold<note
+type="gloss">Through a kind of mythological pun on Mercury, both element and planet
+closest to the sun (Phoebus), Pulter now continues the analogy in the terms of Copernican
+cosmology: compare <ref type="pp-poem-ref" corresp="54">A Solitary Complaint</ref>, lines
+4–5: “Thrice happy Hermes moves in endless day, Being underneath the sun’s illustrious
+ray.” The manuscript spelling “infould” highlights the parallel with “involved” at line
 23.</note></seg>,</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Hideing his Raidient &ff;ulgour from our Sight</rdg>
-          <rdg wit="#ee">Hiding his radiant <seg>fulgor<note type="gloss">dazzling brightness</
-note></seg> from our sight;</rdg>
-          <rdg wit="#ae">Hiding his radiant <seg>fulgor<note type="gloss">dazzling brightness; a 
-Latin word, not in common use in English in the seventeenth century.</note></seg> from 
+          <rdg wit="#ee">Hiding his radiant <seg>fulgor<note type="gloss">dazzling brightness</note></seg> from our sight;</rdg>
+          <rdg wit="#ae">Hiding his radiant <seg>fulgor<note type="gloss">dazzling brightness; a
+Latin word, not in common use in English in the seventeenth century.</note></seg> from
 our sight;</rdg>
         </app>
       </l>
       <l n="29">
         <app>
-            <rdg wit="#ft">Soe is thy Splenden<add place="below">^</add><add place="above">cie</
-add> out Shin’d by light</rdg>
-          <rdg wit="#ee">So is thy <seg>splendency<note type="gloss">Capel’s splendor</note></seg> 
+            <rdg wit="#ft">Soe is thy Splenden<add place="below">^</add><add place="above">cie</add> out Shin’d by light</rdg>
+          <rdg wit="#ee">So is thy <seg>splendency<note type="gloss">Capel’s splendor</note></seg>
 outshined by light.</rdg>
-          <rdg wit="#ae">So is thy <seg>splendency<note type="gloss">a word coined in the late 
-sixteenth century and often associated with the divine or with heavenly bodies; Pulter 
-can give Capel high praise before he dissolves into the divine simplicity of “light”.</
-note></seg> outshined by light.</rdg>
+          <rdg wit="#ae">So is thy <seg>splendency<note type="gloss">a word coined in the late
+sixteenth century and often associated with the divine or with heavenly bodies; Pulter
+can give Capel high praise before he dissolves into the divine simplicity of “light”.</note></seg> outshined by light.</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">Thy pardon greatest Soul grant I preſume</rdg>
-          <rdg wit="#ee">Thy pardon, <seg>greatest soul<note type="gloss">Charles I</note></seg>, 
+          <rdg wit="#ee">Thy pardon, <seg>greatest soul<note type="gloss">Charles I</note></seg>,
 grant; I presume</rdg>
-          <rdg wit="#ae">Thy pardon, <seg>greatest soul<note type="gloss">Pulter now returns to 
-Charles I’s soul, apologizing in turn to him for the delicate balance she is striking 
-between king and subject. She assigns 13 lines to the king at the start, 16 to Capel, and 
+          <rdg wit="#ae">Thy pardon, <seg>greatest soul<note type="gloss">Pulter now returns to
+Charles I’s soul, apologizing in turn to him for the delicate balance she is striking
+between king and subject. She assigns 13 lines to the king at the start, 16 to Capel, and
 16 to the king in the last part of the poem.</note></seg>, grant; I presume</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">Not to ad odours to thy choice perfume</rdg>
-          <rdg wit="#ee"><seg>Not to add odors to thy choice perfume.<note type="gloss">The speaker 
-assures Charles I that she is not trying to to improve his reputation through her praise 
+          <rdg wit="#ee"><seg>Not to add odors to thy choice perfume.<note type="gloss">The speaker
+assures Charles I that she is not trying to to improve his reputation through her praise
 of Capel.</note></seg></rdg>
-          <rdg wit="#ae"><seg>Not to add odors to thy choice perfume<note type="gloss">Her praise 
+          <rdg wit="#ae"><seg>Not to add odors to thy choice perfume<note type="gloss">Her praise
 of Capel’s virtues cannot enhance the king’s.</note></seg>.</rdg>
         </app>
       </l>
@@ -827,23 +745,22 @@ of Capel’s virtues cannot enhance the king’s.</note></seg>.</rdg>
         <app>
             <rdg wit="#ft">I onely doe it to illustrate forth</rdg>
             <rdg wit="#ee">I only do it to illustrate forth,</rdg>
-          <rdg wit="#ae">I only do it to <seg>illustrate<note type="gloss">The OED lists a series 
-of related early modern senses: “to make lustrous, luminous, or bright…to beautify, 
-adorn…to shed light upon…to render illustrious, renowned, or famous.” The meter has the 
-stress fall on the second syllable, as in <ref type="pp-poem-ref" corresp="8">On That 
-Unparalleled Prince Charles the First: His Horrid Murder</ref>, line 35. See Andrea 
-Crow’s commentary to Amplified Edition of <ref type="pp-poem-ref" corresp="8">On the 
+          <rdg wit="#ae">I only do it to <seg>illustrate<note type="gloss">The OED lists a series
+of related early modern senses: “to make lustrous, luminous, or bright…to beautify,
+adorn…to shed light upon…to render illustrious, renowned, or famous.” The meter has the
+stress fall on the second syllable, as in <ref type="pp-poem-ref" corresp="8">On That
+Unparalleled Prince Charles the First: His Horrid Murder</ref>, line 35. See Andrea
+Crow’s commentary to Amplified Edition of <ref type="pp-poem-ref" corresp="8">On the
 King's Most Excellent Majesty</ref>, line 2.</note></seg> forth,</rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">By his great vertue thy tranſcendent worth</rdg>
-          <rdg wit="#ee">By <seg>his<note type="gloss">Capel’s</note></seg> great virtue, 
+          <rdg wit="#ee">By <seg>his<note type="gloss">Capel’s</note></seg> great virtue,
 <seg>thy<note type="gloss">the king’s</note></seg> transcendent worth.</rdg>
-          <rdg wit="#ae">By <seg>his<note type="gloss">Capel’s.</note></seg> great virtue, 
-<seg>thy<note type="gloss">In a swift transition, Pulter turns to addressing the king.</
-note></seg> transcendent worth.</rdg>
+          <rdg wit="#ae">By <seg>his<note type="gloss">Capel’s.</note></seg> great virtue,
+<seg>thy<note type="gloss">In a swift transition, Pulter turns to addressing the king.</note></seg> transcendent worth.</rdg>
         </app>
       </l>
       <l n="34">
@@ -863,9 +780,9 @@ note></seg> transcendent worth.</rdg>
       <l n="36">
         <app>
             <rdg wit="#ft">And as one fate your bodyes did diſſolve</rdg>
-          <rdg wit="#ee">And, as one fate <seg>your bodies<note type="gloss">the king’s two bodies, 
-a legal principle which saw the king to unite, in his person, a mortal, natural body, and 
-an immortal body politic (here treated as “dissolve[d]” through the dissolution of the 
+          <rdg wit="#ee">And, as one fate <seg>your bodies<note type="gloss">the king’s two bodies,
+a legal principle which saw the king to unite, in his person, a mortal, natural body, and
+an immortal body politic (here treated as “dissolve[d]” through the dissolution of the
 monarchy through the execution of Charles I)</note></seg> did dissolve,</rdg>
           <rdg wit="#ae">And, as one fate <seg>your bodies<note type="gloss">Capel’s and Charles’s.
 </note></seg> did dissolve,</rdg>
@@ -873,52 +790,50 @@ monarchy through the execution of Charles I)</note></seg> did dissolve,</rdg>
       </l>
       <l n="37">
         <app>
-          <rdg wit="#ft">Soe <seg>imMortality<note type="physical">corrected from “in Mortality”</
-note></seg> Shall both involve</rdg>
-          <rdg wit="#ee">So immortality shall both <seg>involve<note type="gloss">envelop</note></
-seg>.</rdg>
-          <rdg wit="#ae">So immortality shall both <seg>involve<note type="gloss">See note to line 
+          <rdg wit="#ft">Soe <seg>imMortality<note type="physical">corrected from “in Mortality”</note></seg> Shall both involve</rdg>
+          <rdg wit="#ee">So immortality shall both <seg>involve<note type="gloss">envelop</note></seg>.</rdg>
+          <rdg wit="#ae">So immortality shall both <seg>involve<note type="gloss">See note to line
 23.</note></seg>.</rdg>
         </app>
       </l>
       <l n="38">
         <app>
             <rdg wit="#ft">Just as our Martyrd King his Spirit fled</rdg>
-          <rdg wit="#ee">Just <seg>as<note type="gloss">when</note></seg> our martyred king his 
+          <rdg wit="#ee">Just <seg>as<note type="gloss">when</note></seg> our martyred king his
 spirit fled,</rdg>
-          <rdg wit="#ae">Just <seg>as<note type="gloss">when.</note></seg> our martyred 
+          <rdg wit="#ae">Just <seg>as<note type="gloss">when.</note></seg> our martyred
 <seg>king<note type="gloss">older form of “king’s”.</note></seg> his spirit fled,</rdg>
         </app>
       </l>
       <l n="39">
         <app>
             <rdg wit="#ft">The Spouſe of Christ hung down her virgin head</rdg>
-          <rdg wit="#ee">The <seg>spouse of Christ<note type="gloss">a conventional term for the 
-Christian church; see Ephesians, 5:22: “the husband is the head of the wife just as 
+          <rdg wit="#ee">The <seg>spouse of Christ<note type="gloss">a conventional term for the
+Christian church; see Ephesians, 5:22: “the husband is the head of the wife just as
 Christ is the head of the church.”</note></seg> hung down her virgin head,</rdg>
-          <rdg wit="#ae">The <seg>spouse of Christ<note type="critical">see Ephesians, 5:22: “the 
-husband is the head of the wife, even as Christ is the head of the church.” Pulter 
-strongly connects the church with the visible Church of England, destroyed by the Puritan 
-Revolution; many Puritans like Lucy Hutchinson came to see that church as “whorish” and 
-thought of Christ as heading an Invisible Church only partly instantiated in particular 
-congregations, and the marriage with Christ more a matter of the individual soul: cf. 
-<bibl><title rend="italic">Memoirs of the Life of Colonel Hutchinson</title></bibl>, ed. 
-N. H. Keeble (London: Everyman, 1995), p. 54, and the “Gospel Church” in Hutchinson, 
-<bibl><title rend="italic">Order and Disorder</title></bibl>, ed. David Norbrook (Oxford: 
+          <rdg wit="#ae">The <seg>spouse of Christ<note type="critical">see Ephesians, 5:22: “the
+husband is the head of the wife, even as Christ is the head of the church.” Pulter
+strongly connects the church with the visible Church of England, destroyed by the Puritan
+Revolution; many Puritans like Lucy Hutchinson came to see that church as “whorish” and
+thought of Christ as heading an Invisible Church only partly instantiated in particular
+congregations, and the marriage with Christ more a matter of the individual soul: cf.
+<bibl><title rend="italic">Memoirs of the Life of Colonel Hutchinson</title></bibl>, ed.
+N. H. Keeble (London: Everyman, 1995), p. 54, and the “Gospel Church” in Hutchinson,
+<bibl><title rend="italic">Order and Disorder</title></bibl>, ed. David Norbrook (Oxford:
 Blackwell, 2001), p. 46 (3.468).</note></seg> hung down her virgin head,</rdg>
         </app>
       </l>
       <l n="40">
         <app>
-          <rdg wit="#ft">And Sighing Said my ffaiths defender’s <seg>Dead<note 
-type="physical">Curved bracket appears to right of this line and two above it (those 
+          <rdg wit="#ft">And Sighing Said my ffaiths defender’s <seg>Dead<note
+type="physical">Curved bracket appears to right of this line and two above it (those
 ending “fled,” “head,” and “Dead”).</note></seg></rdg>
           <rdg wit="#ee">And, sighing, said: “<seg>My faith’s defender’s<note type="gloss">
-“Defender of the Faith” was among the official titles assumed by the monarchs of England 
+“Defender of the Faith” was among the official titles assumed by the monarchs of England
 at this time.</note></seg> dead.”</rdg>
-          <rdg wit="#ae">And, sighing, said: “<seg>My faith’s defender’s dead<note 
-type="gloss">after the break with Rome, Parliament had declared Henry VIII Supreme 
-Governor of the English church and “Defender of the Faith.” The scribe indicates the 
+          <rdg wit="#ae">And, sighing, said: “<seg>My faith’s defender’s dead<note
+type="gloss">after the break with Rome, Parliament had declared Henry VIII Supreme
+Governor of the English church and “Defender of the Faith.” The scribe indicates the
 triplet with brackets.</note></seg>.”</rdg>
         </app>
       </l>
@@ -938,39 +853,32 @@ triplet with brackets.</note></seg>.”</rdg>
       </l>
       <l n="43">
         <app>
-            <rdg wit="#ft">At <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> a 
+            <rdg wit="#ft">At <w lemma="which"><abbr>w:<hi rend="superscript">ch</hi></abbr></w> a
 voice from Heaven Said weep noe more</rdg>
-          <rdg wit="#ee">At which <seg>a voice from Heaven<note type="gloss"> the voice of God</
-note></seg> said: “Weep no more;</rdg>
-          <rdg wit="#ae">At which <seg>a voice from Heaven<note type="gloss">Eardley compares 
-George Herbert’s poems, such as “The Collar” which ends with consoling voices from a 
-divine “friend.” This turn may also echo the resolution of Milton’s <title 
-rend="italic">Lycidas</title>, lines 154, 165: “Ay me…Weep no more, woeful shepherds, 
-weep no more;” though “Ay me” is itself common enough, and she had used it in the 
+          <rdg wit="#ee">At which <seg>a voice from Heaven<note type="gloss"> the voice of God</note></seg> said: “Weep no more;</rdg>
+          <rdg wit="#ae">At which <seg>a voice from Heaven<note type="gloss">Eardley compares
+George Herbert’s poems, such as “The Collar” which ends with consoling voices from a
+divine “friend.” This turn may also echo the resolution of Milton’s <title
+rend="italic">Lycidas</title>, lines 154, 165: “Ay me…Weep no more, woeful shepherds,
+weep no more;” though “Ay me” is itself common enough, and she had used it in the
 previous poem in the manuscript.</note></seg> said: “Weep no more;</rdg>
         </app>
       </l>
       <l n="44">
         <app>
             <rdg wit="#ft">Nor my Heroick Champions Death Deplore</rdg>
-          <rdg wit="#ee">Nor my heroic <seg>champion’s<note type="gloss">i.e., Charles I</note></
-seg> death <seg>deplore<note type="gloss">lament</note></seg>.</rdg>
-          <rdg wit="#ae">Nor my heroic <seg>champion’s<note type="gloss">Charles I; MS “Champions” 
-could be understood as “Champion’s” or as “Champions’.”</note></seg> death 
+          <rdg wit="#ee">Nor my heroic <seg>champion’s<note type="gloss">i.e., Charles I</note></seg> death <seg>deplore<note type="gloss">lament</note></seg>.</rdg>
+          <rdg wit="#ae">Nor my heroic <seg>champion’s<note type="gloss">Charles I; MS “Champions”
+could be understood as “Champion’s” or as “Champions’.”</note></seg> death
 <seg>deplore<note type="gloss">lament.</note></seg>.</rdg>
         </app>
       </l>
       <l n="45">
         <app>
-          <rdg wit="#ft">A Second Charles Shall all thy Joyes <seg>Restore<note 
-type="physical">Curved bracket appears to right of this line and two above it (“more,” 
-“Deplore,” and “ Restore”).The next page, marked “66”, is blank.</note></seg></rdg>
-            <rdg wit="#ee">A second Charles shall all thy joys restore.”</rdg>
-          <rdg wit="#ae">A second Charles shall all thy joys <seg>restore<note 
-type="critical">Charles’s son was proclaimed King Charles II in Scotland on 5 February 
-1649, but did not return to London until May 1660. This climactic triplet, again given 
-brackets by the scribe, is a consolatory counterbalance to the bitterly satirical triplet 
-at line 9-11.</note></seg>.”</rdg>
+          <rdg wit="#ft">A Second Charles Shall all thy Joyes <seg>Restore<note type="physical">Curved bracket appears to right of this line and two above it (“more,” “Deplore,” and “ Restore”).The next page, marked “66”, is blank.</note></seg></rdg>
+          <rdg wit="#ee">A second Charles shall all thy joys restore.”</rdg>
+          <rdg wit="#ae">A second Charles shall all thy joys <seg>restore<note
+type="critical">Charles’s son was proclaimed King Charles II in Scotland on 5 February 1649, but did not return to London until May 1660. This climactic triplet, again given brackets by the scribe, is a consolatory counterbalance to the bitterly satirical triplet at line 9-11.</note></seg>.”</rdg>
         </app>
       </l>
     </body>
