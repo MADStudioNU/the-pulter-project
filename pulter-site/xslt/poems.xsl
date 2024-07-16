@@ -1361,6 +1361,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>David Norbrook</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>royalism</pp:keyword>
@@ -1388,6 +1391,15 @@
         <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="arthur-first-baron-capel">
+          <pp:author>
+            <pp:person>David Norbrook</pp:person>
+          </pp:author>
+          <pp:title>Arthur, First Baron Capel (1604–49)</pp:title>
+          <pp:peek>Arthur Capel, first Baron Capel of Hadham, one of the wealthiest men in England, lived in Hadham Hall, only a few miles from Broadfield, home of his cousin Arthur Pulter. Hester Pulter is thus likely to have met him, even though her verse tribute to him gives no sign of personal knowledge.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="16">
       <pp:title>The Revolution</pp:title>
@@ -8281,6 +8293,12 @@
         <pp:keyword>textile</pp:keyword>
       </pp:keywords>
     </pp:exploration>
+    <pp:exploration status="on" hash="pulter-and-political-revolution">
+      <pp:author>
+        <pp:person>David Norbrook</pp:person>
+      </pp:author>
+      <pp:title>Pulter and Political Revolution</pp:title>
+    </pp:exploration>
     <pp:exploration status="on" hash="rereading-pulters-confinement-in-the-pandemic">
       <pp:author>
         <pp:person>Leah Knight</pp:person> et al.
@@ -8305,6 +8323,12 @@
         <pp:keyword>media</pp:keyword>
         <pp:keyword>sound</pp:keyword>
       </pp:keywords>
+    </pp:exploration>
+    <pp:exploration status="on" hash="women-writers-and-the-english-revolution">
+      <pp:author>
+        <pp:person>David Norbrook</pp:person>
+      </pp:author>
+      <pp:title>Women Writers and the English Revolution</pp:title>
     </pp:exploration>
     <pp:exploration status="on" hash="what-else-is-in-the-manuscript">
       <pp:author>
