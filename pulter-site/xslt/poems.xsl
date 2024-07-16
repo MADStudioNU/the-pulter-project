@@ -8293,6 +8293,12 @@
         <pp:keyword>textile</pp:keyword>
       </pp:keywords>
     </pp:exploration>
+    <pp:exploration status="on" hash="pulter-and-political-revolution">
+      <pp:author>
+        <pp:person>David Norbrook</pp:person>
+      </pp:author>
+      <pp:title>Pulter and Political Revolution</pp:title>
+    </pp:exploration>
     <pp:exploration status="on" hash="rereading-pulters-confinement-in-the-pandemic">
       <pp:author>
         <pp:person>Leah Knight</pp:person> et al.
@@ -8317,6 +8323,12 @@
         <pp:keyword>media</pp:keyword>
         <pp:keyword>sound</pp:keyword>
       </pp:keywords>
+    </pp:exploration>
+    <pp:exploration status="on" hash="women-writers-and-the-english-revolution">
+      <pp:author>
+        <pp:person>David Norbrook</pp:person>
+      </pp:author>
+      <pp:title>Women Writers and the English Revolution</pp:title>
     </pp:exploration>
     <pp:exploration status="on" hash="what-else-is-in-the-manuscript">
       <pp:author>
