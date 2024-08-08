@@ -171,6 +171,12 @@ a.pp-poem-ref {
 
   &:hover {
     border: 1px solid rgba($pp_manuscriptInk, .2);
+    background: rgba($pp_manuscriptInk, .06);
+    color: #181818;
+  }
+
+  &:visited {
+    color: #080808;
   }
 
   @include transition(background .2s);
@@ -221,11 +227,6 @@ a.pp-poem-ref {
       inset 1px 0 0 $shadowColor,
       inset 0 1px 0 $shadowColor,
       inset 0 -1px 0 $shadowColor;
-  }
-
-  &:hover {
-    background: rgba($pp_manuscriptInk, .06);
-    color: #181818;
   }
 
   .pp-poem-ref-button {
