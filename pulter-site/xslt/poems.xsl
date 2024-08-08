@@ -1329,9 +1329,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>David Norbrook</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>David Norbrook</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>royalism</pp:keyword>
@@ -1361,9 +1361,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>David Norbrook</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>David Norbrook</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>royalism</pp:keyword>
@@ -1392,7 +1392,7 @@
         <pp:tag>tears</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="off" hash="arthur-first-baron-capel">
+        <pp:curation status="on" hash="arthur-first-baron-capel">
           <pp:author>
             <pp:person>David Norbrook</pp:person>
           </pp:author>
@@ -8293,7 +8293,7 @@
         <pp:keyword>textile</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration status="off" hash="pulter-and-political-revolution">
+    <pp:exploration status="on" hash="pulter-and-political-revolution">
       <pp:author>
         <pp:person>David Norbrook</pp:person>
       </pp:author>
@@ -8324,7 +8324,7 @@
         <pp:keyword>sound</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration status="off" hash="women-writers-and-the-english-revolution">
+    <pp:exploration status="on" hash="women-writers-and-the-english-revolution">
       <pp:author>
         <pp:person>David Norbrook</pp:person>
       </pp:author>
