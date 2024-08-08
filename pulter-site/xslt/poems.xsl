@@ -12,7 +12,7 @@
       <pp:title>The Eclipse</pp:title>
       <pp:firstLine>Why do those frowning vapors interpose</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601-1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Overwinning op de Dood, 1601–1667. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117760"/>
         <pp:altText>An angel leans on a cross, holding a book in the air, with a skeleton underfoot.</pp:altText>
       </pp:poster>
@@ -290,7 +290,7 @@
           </pp:author>
           <pp:title>The Many-Headed Hydra</pp:title>
           <pp:sortingTitle>Many-Headed Hydra, The</pp:sortingTitle>
-          <pp:peek>Pulter refers to signs from heaven that humans think may portend some kind of political unrest, such as the shaking of a monarchy or the ending of an illegitimate government (25-28).</pp:peek>
+          <pp:peek>Pulter refers to signs from heaven that humans think may portend some kind of political unrest, such as the shaking of a monarchy or the ending of an illegitimate government (25–28).</pp:peek>
           <pp:keywords>
             <pp:keyword>Charles I</pp:keyword>
             <pp:keyword>civil war</pp:keyword>
@@ -855,7 +855,7 @@
       <pp:firstLine>All you that have indulgent parents been</pp:firstLine>
       <pp:seoTitle>Upon the Death of my Dear and Lovely Daughter</pp:seoTitle>
       <pp:poster>
-        <pp:sourceStatement>Elias van Nijmegen, Niobe voor haar overmoed gestraft, 1677-1755. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Elias van Nijmegen, Niobe voor haar overmoed gestraft, 1677–1755. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.232602"/>
       </pp:poster>
       <pp:keywords>
@@ -1405,7 +1405,7 @@
       <pp:title>The Revolution</pp:title>
       <pp:firstLine>O Thou, which circumvolveth all</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Workshop of Bernard Picart, Voorstellingen van het planetenstelsel en van de maan, 1683-1733. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Workshop of Bernard Picart, Voorstellingen van het planetenstelsel en van de maan, 1683–1733. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.306142"/>
       </pp:poster>
       <pp:editions>
@@ -1461,7 +1461,7 @@
       <pp:title>The Circle [1]</pp:title>
       <pp:firstLine>In sighs and tears there is no end</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Robert Fludd, De Macrocosmi Principiis 1617-1618, p. 43. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
+        <pp:sourceStatement>Robert Fludd, De Macrocosmi Principiis 1617–1618, p. 43. Wellcome Collection. CC BY 4.0.</pp:sourceStatement>
         <pp:sourceLink ref="//wellcomecollection.org/works/gtcxg8n5"/>
       </pp:poster>
       <pp:keywords>
@@ -1795,7 +1795,7 @@
       <pp:title>The Circle [2]</pp:title>
       <pp:firstLine>Those that the hidden chemic art profess</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Philips Galle, after Pieter Brueghel (I), Alchemist, 1556-1560. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Philips Galle, after Pieter Brueghel (I), Alchemist, 1556–1560. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.344542"/>
       </pp:poster>
       <pp:keywords>
@@ -2073,7 +2073,7 @@
       <pp:title>To Aurora [2]</pp:title>
       <pp:firstLine>Look up, sad eyes, behold the smiling morn</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Crispijn van de Passe (I), Ochtend, 1611-1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Crispijn van de Passe (I), Ochtend, 1611–1637. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.422567"/>
       </pp:poster>
       <pp:editions>
@@ -2218,7 +2218,7 @@
       <pp:title>My Soul’s Sole Desire</pp:title>
       <pp:firstLine>Thou that didst on the chaos move</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Urania, 1601-1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Anonymous, after Hendrick Goltzius, Urania, 1601–1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.117728"/>
       </pp:poster>
       <pp:editions>
@@ -2418,7 +2418,7 @@
       <pp:title>Aletheia’s Pearl</pp:title>
       <pp:firstLine>Fair Aletheia (when I was a girl)</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713, Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670–1713, Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.44783"/>
       </pp:poster>
       <pp:editions>
@@ -3135,7 +3135,7 @@
       <pp:title>My Soul, Why Art Thou Full of Trouble?</pp:title>
       <pp:firstLine>My soul, why art thou full of trouble</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670-1713. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Pieter Schenk (I), Vanitasstilleven met een bloembekranste schedel, 1670–1713. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.386240"/>
       </pp:poster>
       <pp:editions>
@@ -3259,7 +3259,7 @@
       <pp:title>Pardon Me, My Dearest Love</pp:title>
       <pp:firstLine>Pardon me, my dearest love</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Frans Hogenberg (workshop of), Executie van Ravaillac, 1610, 1610-1612. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Frans Hogenberg (workshop of), Executie van Ravaillac, 1610, 1610–1612. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.442242"/>
       </pp:poster>
       <pp:editions>
