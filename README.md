@@ -55,10 +55,10 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
 
 ### Poems
-> A014 (Norbrook), A015 (Norbrook)
+> —
 
 ### Curations
-> C015 (_Arthur, First Baron Capel (1604–49)_) (Norbrook)
+> —
 
 ### Explorations
-> _Pulter and Political Revolution_ (Norbrook), _Women Writers and the English Revolution_ (Norbrook)
+> —
