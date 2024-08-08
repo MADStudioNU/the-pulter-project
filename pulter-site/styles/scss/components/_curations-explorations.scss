@@ -524,6 +524,24 @@ $themeColor: #ece9e2;
         margin-bottom: 0;
       }
     }
+
+    // Headless citation
+    &.headless {
+      padding-top: 2em;
+    }
+
+    // Bottomless citation
+    &.bottomless {
+      padding-bottom: 1.66em;
+
+      .lg {
+        margin-bottom: 0;
+      }
+
+      .no-margin-bottom {
+        margin-bottom: 0;
+      }
+    }
   }
 
   // Standalone source statements
