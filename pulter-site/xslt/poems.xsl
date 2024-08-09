@@ -3000,7 +3000,7 @@
           </pp:author>
           <pp:title>The Dissolution of Matter into the Four Elements</pp:title>
           <pp:sortingTitle>Dissolution of Matter into the Four Elements, The</pp:sortingTitle>
-          <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements–fire, earth, air, and water–as forming the material of all life.</pp:peek>
+          <pp:peek>In several poems, including this one at line 23, Pulter alludes to the four elements—fire, earth, air, and water—as forming the material of all life.</pp:peek>
           <pp:keywords>
             <pp:keyword>elements</pp:keyword>
             <pp:keyword>grief</pp:keyword>
@@ -3294,7 +3294,7 @@
       <pp:title>Of a Young Lady at Oxford, 1646</pp:title>
       <pp:firstLine>A noble pair, in love without compare</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Portret van Kenau Simonsdochter Hasselaer, 1573 [date on object]. 1600-1799. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Portret van Kenau Simonsdochter Hasselaer, 1573 [date on object]. 1600–1799. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.445453"/>
       </pp:poster>
       <pp:editions>
@@ -3449,7 +3449,7 @@
       <pp:title>This Was Written in 1648, When I Lay in, With my Son John</pp:title>
       <pp:firstLine>Sad, sick, and lame, as in my bed I lay</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jacob de Gheyn (II), Woman on her deathbed, 1596-1601. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jacob de Gheyn (II), Woman on her deathbed, 1596–1601. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.29302"/>
       </pp:poster>
       <pp:editions>
@@ -3707,7 +3707,7 @@
       <pp:title>Immense Fount of Truth, Life, Love, Joy, Glory</pp:title>
       <pp:firstLine>Immense Fount of truth, life, love, joy, glory</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jacob Bos, after Rafaël, Jakobs droom, 1530-1580. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jacob Bos, after Rafaël, Jakobs droom, 1530–1580. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.85505"/>
       </pp:poster>
       <pp:editions>
@@ -4196,7 +4196,7 @@
       <pp:title>Must I Thus Ever Interdicted Be</pp:title>
       <pp:firstLine>Must I thus ever interdicted be</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Cornelis Pietersz, Sitting Woman with Apron, Bega, 1641-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Cornelis Pietersz, Sitting Woman with Apron, Bega, 1641–1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.27398"/>
       </pp:poster>
       <pp:editions>
@@ -4365,7 +4365,7 @@
           </pp:author>
           <pp:title>“Creatures venomous, and offensive to man”</pp:title>
           <pp:sortingTitle>Creatures venomous, and offensive to man</pp:sortingTitle>
-          <pp:peek>The basilisk, dipsas, and amphisbaena all figure in Josuah Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148-149 of his translation _Du Bartas his deuine weekes and workes_ of 1611).</pp:peek>
+          <pp:peek>The basilisk, dipsas, and amphisbaena all figure in Josuah Sylvester’s list of “Creatures venomous, and offensive to man” (pp. 148–149 of his translation _Du Bartas his deuine weekes and workes_ of 1611).</pp:peek>
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
             <pp:keyword>Edward Topsell</pp:keyword>
@@ -4573,7 +4573,7 @@
       <pp:title>The Weeping Wish</pp:title>
       <pp:firstLine>O, that the tears that trickle from mine eyes</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anonymous, De verschijning van een komeet in november 1618, 1618-1649. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Anonymous, De verschijning van een komeet in november 1618, 1618–1649. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.456821"/>
       </pp:poster>
       <pp:editions>
@@ -4736,7 +4736,7 @@
             <pp:person>Victoria E. Burke</pp:person>
           </pp:author>
           <pp:title>Margaret Cavendish’s dancing atoms</pp:title>
-          <pp:peek>In lines 13-14 the speaker refers to a time after her death when she will be dispersed into atoms, even though she currently does not understand their movements or “dances.”</pp:peek>
+          <pp:peek>In lines 13–14 the speaker refers to a time after her death when she will be dispersed into atoms, even though she currently does not understand their movements or “dances.”</pp:peek>
           <pp:keywords>
             <pp:keyword>atoms</pp:keyword>
             <pp:keyword>cosmology</pp:keyword>
@@ -4850,7 +4850,7 @@
       <pp:title>The Hope</pp:title>
       <pp:firstLine>Dear Death, dissolve these mortal charms</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Stefano della Bella, De Dood met een vrouw over zijn schouder, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Stefano della Bella, De Dood met een vrouw over zijn schouder, 1620–1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.76620"/>
       </pp:poster>
       <pp:editions>
@@ -5567,7 +5567,7 @@
       <pp:title>Wisest Creatures (Emblem 10)</pp:title>
       <pp:firstLine>Some birds there be, sure they no love do lack</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Stefano della Bella, Vrouw met baby zittend op een taboeret, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Stefano della Bella, Vrouw met baby zittend op een taboeret, 1620–1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.76725"/>
       </pp:poster>
       <pp:editions>
@@ -5777,7 +5777,7 @@
       <pp:title>The Stately Unicorn (Emblem 14)</pp:title>
       <pp:firstLine>In Africa, about the fountain’s brink</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jean Duvet, De eenhoorn zuivert het water met zijn hoorn, 1540-1551. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jean Duvet, De eenhoorn zuivert het water met zijn hoorn, 1540–1551. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.41140"/>
       </pp:poster>
       <pp:editions>
@@ -5812,7 +5812,7 @@
       <pp:title>The Cruel Tiger (Emblem 15)</pp:title>
       <pp:firstLine>The cruel tiger swiftly on doth pass</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>After Adriaen Collaert, after Jan Collaert (II), after Jan van der Straet, Vossen, ram, luipaard en tijger, anonymous, 1635-1660. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>After Adriaen Collaert, after Jan Collaert (II), after Jan van der Straet, Vossen, ram, luipaard en tijger, anonymous, 1635–1660. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.542877"/>
       </pp:poster>
       <pp:editions>
@@ -5929,7 +5929,7 @@
       <pp:title>The Cockatrice (Emblem 16)</pp:title>
       <pp:firstLine>The cockatrice, as vulgarly received</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Wenceslaus Hollar, naar Aegidius Sadeler, naar Marcus Gheeraerts, Fabel van de basilisk en de wezel, 1644-1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Wenceslaus Hollar, naar Aegidius Sadeler, naar Marcus Gheeraerts, Fabel van de basilisk en de wezel, 1644–1652. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.32127"/>
       </pp:poster>
       <pp:editions>
@@ -6043,7 +6043,7 @@
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>
       <pp:firstLine>Who can but pity this poor turtledove</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Dirck de Bray, Twee tortelduiven in een ring met een steen, 1635-1694. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Dirck de Bray, Twee tortelduiven in een ring met een steen, 1635–1694. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.87587"/>
       </pp:poster>
       <pp:editions>
@@ -6196,7 +6196,7 @@
       <pp:title>The Hunted Hart (Emblem 22)</pp:title>
       <pp:firstLine>The hunted hart, when she begins to tire</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Stefano della Bella, Ree opgejaagd door een jachthond, 1620-1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Stefano della Bella, Ree opgejaagd door een jachthond, 1620–1664. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.77301"/>
       </pp:poster>
       <pp:editions>
@@ -6486,7 +6486,7 @@
       <pp:title>Ambitious Apes (Emblem 26)</pp:title>
       <pp:firstLine>Those that employéd are the apes to catch</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anonymous, Illustration for the fable “Jupiter and the Ape,” by J. Ogilby, 1600-1676. Wellcome Collection. CC BY</pp:sourceStatement>
+        <pp:sourceStatement>Anonymous, Illustration for the fable “Jupiter and the Ape,” by J. Ogilby, 1600–1676. Wellcome Collection. CC BY</pp:sourceStatement>
         <pp:sourceLink ref="//wellcomecollection.org/works/qs9sdqxt"/>
       </pp:poster>
       <pp:editions>
@@ -6797,7 +6797,7 @@
       <pp:title>The Lion and the Ass (Emblem 32)</pp:title>
       <pp:firstLine>The lion roars; his vassals fear and tremble.</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Leeuw met leeuwin, Abraham Bloteling, naar Peter Paul Rubens, 1655 – 1690. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Leeuw met leeuwin, Abraham Bloteling, naar Peter Paul Rubens, 1655–1690. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.82168"/>
         <pp:altText>A lion and lioness circle each other, snarling.</pp:altText>
       </pp:poster>
@@ -6905,7 +6905,7 @@
       <pp:title>Mark But Those Hogs (Emblem 34)</pp:title>
       <pp:firstLine>Mark but those hogs which, underneath yon tree</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Pieter van der Borcht (I), November,  1545-1608. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
+        <pp:sourceStatement>Pieter van der Borcht (I), November,  1545–1608. Rijksmuseum, Amsterdam. Public Domain. </pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.85302"/>
         <pp:altText>Men shake acorns from a tree while pigs eat them and women collect them.</pp:altText>
       </pp:poster>
@@ -7066,7 +7066,7 @@
     </pp:poem>
     <pp:poem id="103">
       <pp:title>The Lion and the Fox (Emblem 38)</pp:title>
-      <pp:firstLine>The lion–that of late so domineered</pp:firstLine>
+      <pp:firstLine>The lion—that of late so domineered</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Allaert van Everdingen, Verdere leugens van Reinaert de vos, 1631–75. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.70707"/>
@@ -7161,7 +7161,7 @@
       <pp:title>The Dolphin (Emblem 39)</pp:title>
       <pp:firstLine>All creatures than the dolphin are more slow</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Hendrick Goltzius, Neptunus en Amphitrite, 1575-1607. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Hendrick Goltzius, Neptunus en Amphitrite, 1575–1607. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.169321"/>
       </pp:poster>
       <pp:editions>
@@ -7220,7 +7220,7 @@
       <pp:title>View But This Tulip (Emblem 40)</pp:title>
       <pp:firstLine>View but this tulip, rose, or gillyflower</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>François van Bleyswijck, Stadsgezicht met Domkerk te Utrecht en allegorie met drie geleerden, 1681-1746. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>François van Bleyswijck, Stadsgezicht met Domkerk te Utrecht en allegorie met drie geleerden, 1681–1746. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.collect.81185"/>
       </pp:poster>
       <pp:editions>
@@ -7354,7 +7354,7 @@
       <pp:title>The Ostrich (Emblem 41)</pp:title>
       <pp:firstLine>The ostrich, with her gallant gaudy plumes</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Anselmus Boëtius de Boodt (mogelijk), Struisvogel (Struthio camelus), 1596-1610. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Anselmus Boëtius de Boodt (mogelijk), Struisvogel (Struthio camelus), 1596–1610. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.674098"/>
       </pp:poster>
       <pp:editions>
@@ -7457,7 +7457,7 @@
           </pp:author>
           <pp:title>The Miracle of the Swine</pp:title>
           <pp:sortingTitle>Miracle of the Swine, The</pp:sortingTitle>
-          <pp:peek>Among the miracles performed by Christ is the Miracle of the Swine, alluded to in lines 27-28 of “This Huge Leviathan” (Emblem 42). He exorcises a group of demons (who call themselves “Legion”) from a man by transferring them into a herd of pigs.</pp:peek>
+          <pp:peek>Among the miracles performed by Christ is the Miracle of the Swine, alluded to in lines 27–28 of “This Huge Leviathan” (Emblem 42). He exorcises a group of demons (who call themselves “Legion”) from a man by transferring them into a herd of pigs.</pp:peek>
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
             <pp:keyword>Bible</pp:keyword>
@@ -7510,7 +7510,7 @@
       <pp:title>This Stately Ship (Emblem 43)</pp:title>
       <pp:firstLine>This stately ship, courted by winds and tide</pp:firstLine>
        <pp:poster>
-        <pp:sourceStatement>Christoffel van Sichem (II), after Philips Galle, after Maarten van Heemskerck, Mordekai in rouwkleren, 1645-1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Christoffel van Sichem (II), after Philips Galle, after Maarten van Heemskerck, Mordekai in rouwkleren, 1645–1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.592084"/>
         <pp:altText>Foregrounded against stairs and arcades, a man in robes wrings his hands and lowers his head while another figure looks on.</pp:altText>
       </pp:poster>
@@ -8098,7 +8098,7 @@
       <pp:title>An Old Man, a Stripling, and an Ass (Emblem 54)</pp:title>
       <pp:firstLine>An old man through a town did often pass</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Cornelis Anthonisz, Fabel van de vader, de zoon en de ezel (drie van de vier blokken), 1509-1553. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Cornelis Anthonisz, Fabel van de vader, de zoon en de ezel (drie van de vier blokken), 1509–1553. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.401849"/>
       </pp:poster>
       <pp:editions>
@@ -8135,7 +8135,7 @@
       <pp:title>Somnus, Why Art Thou Still to Me Unkind?</pp:title>
       <pp:firstLine>Somnus, why art thou still to me unkind?</pp:firstLine>
       <pp:poster>
-        <pp:sourceStatement>Jacob de Gheyn (III), Slaap, 1606-1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
+        <pp:sourceStatement>Jacob de Gheyn (III), Slaap, 1606–1624. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
         <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.378505"/>
         <pp:altText>Somnus leans against a wall, sleeping, while a horn releases thick smoke around him.</pp:altText>
       </pp:poster>
