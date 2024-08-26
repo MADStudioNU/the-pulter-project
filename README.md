@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Curations
-> —
+> C107 (_Early Modern Ostriches_)
 
 ### Explorations
 > —
