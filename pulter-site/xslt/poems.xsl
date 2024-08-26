@@ -7383,6 +7383,15 @@
         <pp:tag>race</pp:tag>
         <pp:tag>reproduction</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="early-modern-ostriches">
+          <pp:author>
+            <pp:person>Claire Richie</pp:person>
+          </pp:author>
+          <pp:title>Early Modern Ostriches</pp:title>
+          <pp:peek>Ostriches had a significant place in early modern culture with their unconventional form that straddled bird and beast, lending them to myriad possible metaphors. Their feathers were used in luxury fashion, their eggs became accessories, and the beasts themselves were a source of scientific wonder and literary inspiration.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="107">
       <pp:title>This Huge Leviathan (Emblem 42)</pp:title>
