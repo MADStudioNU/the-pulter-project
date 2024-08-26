@@ -7384,7 +7384,7 @@
         <pp:tag>reproduction</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="early-modern-ostriches">
+        <pp:curation status="off" hash="early-modern-ostriches">
           <pp:author>
             <pp:person>Claire Richie</pp:person>
           </pp:author>
