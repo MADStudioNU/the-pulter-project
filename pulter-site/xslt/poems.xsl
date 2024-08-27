@@ -7274,7 +7274,6 @@
             <pp:keyword>Hannah Woolley</pp:keyword>
             <pp:keyword>John Parkinson</pp:keyword>
             <pp:keyword>Kenelm Digby</pp:keyword>
-            <pp:keyword>lants</pp:keyword>
             <pp:keyword>plants</pp:keyword>
             <pp:keyword>recipe</pp:keyword>
             <pp:keyword>resurrection</pp:keyword>
