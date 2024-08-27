@@ -34,7 +34,7 @@
         <pp:keyword>sin</pp:keyword>
         <pp:keyword>religion</pp:keyword>
         <pp:keyword>revolution</pp:keyword>
-        <pp:keyword>fates</pp:keyword>
+        <pp:keyword>Fates</pp:keyword>
         <pp:keyword>dualism</pp:keyword>
         <pp:keyword>Christ</pp:keyword>
         <pp:keyword>planets</pp:keyword>
@@ -1161,7 +1161,7 @@
           <pp:keywords>
             <pp:keyword>Abraham Cowley</pp:keyword>
             <pp:keyword>botany</pp:keyword>
-            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
             <pp:keyword>goddess</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
@@ -1398,6 +1398,20 @@
           </pp:author>
           <pp:title>Arthur, First Baron Capel (1604–49)</pp:title>
           <pp:peek>Arthur Capel, first Baron Capel of Hadham, one of the wealthiest men in England, lived in Hadham Hall, only a few miles from Broadfield, home of his cousin Arthur Pulter. Hester Pulter is thus likely to have met him, even though her verse tribute to him gives no sign of personal knowledge.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>execution</pp:keyword>
+            <pp:keyword>judicial system</pp:keyword>
+            <pp:keyword>justice</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
+            <pp:keyword>marriage</pp:keyword>
+            <pp:keyword>Oliver Cromwell</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5487,7 +5501,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>division</pp:tag>
-        <pp:tag>parent</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>sight</pp:tag>
         <pp:tag>sun</pp:tag>
@@ -5700,7 +5714,7 @@
         <pp:tag>dependency</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>pride</pp:tag>
-        <pp:tag>whale</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="79">
@@ -5854,7 +5868,7 @@
           <pp:keywords>
             <pp:keyword>George Gascoigne</pp:keyword>
             <pp:keyword>material text</pp:keyword>
-            <pp:keyword>mirrors</pp:keyword>
+            <pp:keyword>mirror</pp:keyword>
             <pp:keyword>satire</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -6479,7 +6493,7 @@
         <pp:tag>food</pp:tag>
         <pp:tag>patience</pp:tag>
         <pp:tag>violence</pp:tag>
-        <pp:tag>whale</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="91">
@@ -6594,7 +6608,7 @@
         <pp:tag>history</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>nature</pp:tag>
-        <pp:tag>parent</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>plants</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>river</pp:tag>
@@ -6629,6 +6643,16 @@
           </pp:author>
           <pp:title>Pulter’s Splendent Fame</pp:title>
           <pp:peek>With its transitional adverb of consequence, Pulter’s line “Then let me ever have a splendent fame” registers the argumentative turn in “Vain Herostratus” toward the author’s personal circumstances.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>fame</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>light</pp:keyword>
+            <pp:keyword>memorial</pp:keyword>
+            <pp:keyword>Petrarch</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+            <pp:keyword>Seneca</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -7270,11 +7294,10 @@
             <pp:keyword>civil war</pp:keyword>
             <pp:keyword>death</pp:keyword>
             <pp:keyword>execution</pp:keyword>
-            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
             <pp:keyword>Hannah Woolley</pp:keyword>
             <pp:keyword>John Parkinson</pp:keyword>
             <pp:keyword>Kenelm Digby</pp:keyword>
-            <pp:keyword>lants</pp:keyword>
             <pp:keyword>plants</pp:keyword>
             <pp:keyword>recipe</pp:keyword>
             <pp:keyword>resurrection</pp:keyword>
@@ -7308,7 +7331,7 @@
             <pp:keyword>burial</pp:keyword>
             <pp:keyword>dust</pp:keyword>
             <pp:keyword>Edmund Spenser</pp:keyword>
-            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
             <pp:keyword>garden</pp:keyword>
             <pp:keyword>George Gascoigne</pp:keyword>
             <pp:keyword>George Herbert</pp:keyword>
@@ -7390,6 +7413,18 @@
           </pp:author>
           <pp:title>Early Modern Ostriches</pp:title>
           <pp:peek>Ostriches had a significant place in early modern culture with their unconventional form that straddled bird and beast, lending them to myriad possible metaphors. Their feathers were used in luxury fashion, their eggs became accessories, and the beasts themselves were a source of scientific wonder and literary inspiration.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>feathers</pp:keyword>
+            <pp:keyword>Geoffrey Whitney</pp:keyword>
+            <pp:keyword>George Sandys</pp:keyword>
+            <pp:keyword>Leo Africanus</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>William Gouge</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -7427,7 +7462,7 @@
         <pp:tag>Hell</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>pigs</pp:tag>
-        <pp:tag>whale</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="did-hunters-really-ride-whales-like-horses">
@@ -7582,7 +7617,7 @@
         <pp:tag>fire</pp:tag>
         <pp:tag>heaven</pp:tag>
         <pp:tag>mythology</pp:tag>
-        <pp:tag>parent</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>rebirth</pp:tag>
         <pp:tag>sacrifice</pp:tag>
         <pp:tag>song</pp:tag>
@@ -8307,6 +8342,22 @@
         <pp:person>David Norbrook</pp:person>
       </pp:author>
       <pp:title>Pulter and Political Revolution</pp:title>
+      <pp:keywords>
+        <pp:keyword>Andrew Marvell</pp:keyword>
+        <pp:keyword>Broadfield</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>Fates</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>Katherine Philips</pp:keyword>
+        <pp:keyword>Lucy Hutchinson</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>mourning</pp:keyword>
+        <pp:keyword>Restoration</pp:keyword>
+        <pp:keyword>revolution</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="rereading-pulters-confinement-in-the-pandemic">
       <pp:author>
@@ -8338,6 +8389,20 @@
         <pp:person>David Norbrook</pp:person>
       </pp:author>
       <pp:title>Women Writers and the English Revolution</pp:title>
+      <pp:keywords>
+        <pp:keyword>burial</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>elegy</pp:keyword>
+        <pp:keyword>execution</pp:keyword>
+        <pp:keyword>gender</pp:keyword>
+        <pp:keyword>Jane Cavendish</pp:keyword>
+        <pp:keyword>Katherine Philips</pp:keyword>
+        <pp:keyword>Lucy Hutchinson</pp:keyword>
+        <pp:keyword>Margaret Cavendish</pp:keyword>
+        <pp:keyword>marriage</pp:keyword>
+        <pp:keyword>women</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="what-else-is-in-the-manuscript">
       <pp:author>
