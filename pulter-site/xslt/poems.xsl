@@ -6643,6 +6643,16 @@
           </pp:author>
           <pp:title>Pulter’s Splendent Fame</pp:title>
           <pp:peek>With its transitional adverb of consequence, Pulter’s line “Then let me ever have a splendent fame” registers the argumentative turn in “Vain Herostratus” toward the author’s personal circumstances.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>fame</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>light</pp:keyword>
+            <pp:keyword>memorial</pp:keyword>
+            <pp:keyword>Petrarch</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+            <pp:keyword>Seneca</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
