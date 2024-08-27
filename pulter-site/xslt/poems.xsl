@@ -1161,7 +1161,7 @@
           <pp:keywords>
             <pp:keyword>Abraham Cowley</pp:keyword>
             <pp:keyword>botany</pp:keyword>
-            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
             <pp:keyword>goddess</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
@@ -5854,7 +5854,7 @@
           <pp:keywords>
             <pp:keyword>George Gascoigne</pp:keyword>
             <pp:keyword>material text</pp:keyword>
-            <pp:keyword>mirrors</pp:keyword>
+            <pp:keyword>mirror</pp:keyword>
             <pp:keyword>satire</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -7270,7 +7270,7 @@
             <pp:keyword>civil war</pp:keyword>
             <pp:keyword>death</pp:keyword>
             <pp:keyword>execution</pp:keyword>
-            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
             <pp:keyword>Hannah Woolley</pp:keyword>
             <pp:keyword>John Parkinson</pp:keyword>
             <pp:keyword>Kenelm Digby</pp:keyword>
@@ -7307,7 +7307,7 @@
             <pp:keyword>burial</pp:keyword>
             <pp:keyword>dust</pp:keyword>
             <pp:keyword>Edmund Spenser</pp:keyword>
-            <pp:keyword>flower</pp:keyword>
+            <pp:keyword>flowers</pp:keyword>
             <pp:keyword>garden</pp:keyword>
             <pp:keyword>George Gascoigne</pp:keyword>
             <pp:keyword>George Herbert</pp:keyword>
