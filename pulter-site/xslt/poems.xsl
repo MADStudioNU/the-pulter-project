@@ -5487,7 +5487,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>division</pp:tag>
-        <pp:tag>parent</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>sight</pp:tag>
         <pp:tag>sun</pp:tag>
@@ -6594,7 +6594,7 @@
         <pp:tag>history</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>nature</pp:tag>
-        <pp:tag>parent</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>plants</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>river</pp:tag>
@@ -7389,6 +7389,18 @@
           </pp:author>
           <pp:title>Early Modern Ostriches</pp:title>
           <pp:peek>Ostriches had a significant place in early modern culture with their unconventional form that straddled bird and beast, lending them to myriad possible metaphors. Their feathers were used in luxury fashion, their eggs became accessories, and the beasts themselves were a source of scientific wonder and literary inspiration.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>feathers</pp:keyword>
+            <pp:keyword>Geoffrey Whitney</pp:keyword>
+            <pp:keyword>George Sandys</pp:keyword>
+            <pp:keyword>Leo Africanus</pp:keyword>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>William Gouge</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -7581,7 +7593,7 @@
         <pp:tag>fire</pp:tag>
         <pp:tag>heaven</pp:tag>
         <pp:tag>mythology</pp:tag>
-        <pp:tag>parent</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>rebirth</pp:tag>
         <pp:tag>sacrifice</pp:tag>
         <pp:tag>song</pp:tag>
