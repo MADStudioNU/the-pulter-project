@@ -1398,6 +1398,20 @@
           </pp:author>
           <pp:title>Arthur, First Baron Capel (1604–49)</pp:title>
           <pp:peek>Arthur Capel, first Baron Capel of Hadham, one of the wealthiest men in England, lived in Hadham Hall, only a few miles from Broadfield, home of his cousin Arthur Pulter. Hester Pulter is thus likely to have met him, even though her verse tribute to him gives no sign of personal knowledge.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Andrew Marvell</pp:keyword>
+            <pp:keyword>Charles I</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>elegy</pp:keyword>
+            <pp:keyword>execution</pp:keyword>
+            <pp:keyword>judicial system</pp:keyword>
+            <pp:keyword>justice</pp:keyword>
+            <pp:keyword>Lucy Hutchinson</pp:keyword>
+            <pp:keyword>marriage</pp:keyword>
+            <pp:keyword>Oliver Cromwell</pp:keyword>
+            <pp:keyword>politics</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -5700,7 +5714,7 @@
         <pp:tag>dependency</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>pride</pp:tag>
-        <pp:tag>whale</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="79">
@@ -6479,7 +6493,7 @@
         <pp:tag>food</pp:tag>
         <pp:tag>patience</pp:tag>
         <pp:tag>violence</pp:tag>
-        <pp:tag>whale</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="91">
@@ -7438,7 +7452,7 @@
         <pp:tag>Hell</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>pigs</pp:tag>
-        <pp:tag>whale</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="did-hunters-really-ride-whales-like-horses">
