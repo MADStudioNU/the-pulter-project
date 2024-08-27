@@ -34,7 +34,7 @@
         <pp:keyword>sin</pp:keyword>
         <pp:keyword>religion</pp:keyword>
         <pp:keyword>revolution</pp:keyword>
-        <pp:keyword>fates</pp:keyword>
+        <pp:keyword>Fates</pp:keyword>
         <pp:keyword>dualism</pp:keyword>
         <pp:keyword>Christ</pp:keyword>
         <pp:keyword>planets</pp:keyword>
@@ -8342,6 +8342,22 @@
         <pp:person>David Norbrook</pp:person>
       </pp:author>
       <pp:title>Pulter and Political Revolution</pp:title>
+      <pp:keywords>
+        <pp:keyword>Andrew Marvell</pp:keyword>
+        <pp:keyword>Broadfield</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>Fates</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>Katherine Philips</pp:keyword>
+        <pp:keyword>Lucy Hutchinson</pp:keyword>
+        <pp:keyword>material text</pp:keyword>
+        <pp:keyword>mourning</pp:keyword>
+        <pp:keyword>Restoration</pp:keyword>
+        <pp:keyword>revolution</pp:keyword>
+        <pp:keyword>technology</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="rereading-pulters-confinement-in-the-pandemic">
       <pp:author>
