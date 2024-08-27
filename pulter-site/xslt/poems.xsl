@@ -8389,6 +8389,20 @@
         <pp:person>David Norbrook</pp:person>
       </pp:author>
       <pp:title>Women Writers and the English Revolution</pp:title>
+      <pp:keywords>
+        <pp:keyword>burial</pp:keyword>
+        <pp:keyword>Charles I</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>elegy</pp:keyword>
+        <pp:keyword>execution</pp:keyword>
+        <pp:keyword>gender</pp:keyword>
+        <pp:keyword>Jane Cavendish</pp:keyword>
+        <pp:keyword>Katherine Philips</pp:keyword>
+        <pp:keyword>Lucy Hutchinson</pp:keyword>
+        <pp:keyword>Margaret Cavendish</pp:keyword>
+        <pp:keyword>marriage</pp:keyword>
+        <pp:keyword>women</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="what-else-is-in-the-manuscript">
       <pp:author>
