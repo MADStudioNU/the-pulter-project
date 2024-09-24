@@ -7601,7 +7601,7 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="on" hash="dualist-and-materialist-theories-of-resurrection">
+        <pp:curation status="off" hash="dualist-and-materialist-theories-of-resurrection">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
