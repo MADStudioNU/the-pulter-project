@@ -7600,6 +7600,15 @@
           <pp:author>Sophie Lawall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="Dualist and Materialist Theories of Resurrection in Pulter’s “The Brahman”">
+          <pp:author>
+            <pp:person>Daniel Juan Gil</pp:person>
+          </pp:author>
+          <pp:title>Dualist and Materialist Theories of Resurrection in Pulter’s “The Brahman”</pp:title>
+          <pp:peek>Hester Pulter’s poem “The Brahman” is built around tensions between different ways of imagining or understanding the afterlife. Such tensions were particularly heightened in seventeenth-century English culture under the pressure of the reformation, secularization and the rise of early modern science and natural philosophy. </pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>suicide</pp:keyword>
         <pp:keyword>rebirth</pp:keyword>
