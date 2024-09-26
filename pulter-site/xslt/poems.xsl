@@ -8382,6 +8382,12 @@
         <pp:keyword>isolation</pp:keyword>
       </pp:keywords>
     </pp:exploration>
+    <pp:exploration status="on" hash="shades-of-death-hester-pulter-and-mortality">
+      <pp:author>
+        <pp:person>Eileen Sperry</pp:person>
+      </pp:author>
+      <pp:title>Shades of Death: Hester Pulter and Mortality</pp:title>
+    </pp:exploration>
     <pp:exploration status="on" hash="soundings-hearing-hester-pulters-poems">
       <pp:author>
         <pp:person>Leah Knight</pp:person> and <pp:person>Wendy Wall</pp:person>
