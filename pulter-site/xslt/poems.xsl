@@ -8382,7 +8382,7 @@
         <pp:keyword>isolation</pp:keyword>
       </pp:keywords>
     </pp:exploration>
-    <pp:exploration status="on" hash="shades-of-death-hester-pulter-and-mortality">
+    <pp:exploration status="off" hash="shades-of-death-hester-pulter-and-mortality">
       <pp:author>
         <pp:person>Eileen Sperry</pp:person>
       </pp:author>
