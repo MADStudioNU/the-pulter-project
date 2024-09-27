@@ -8387,6 +8387,29 @@
         <pp:person>Eileen Sperry</pp:person>
       </pp:author>
       <pp:title>Shades of Death: Hester Pulter and Mortality</pp:title>
+      <pp:keywords>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>Andrew Marvell</pp:keyword>
+        <pp:keyword>Anne Bradstreet</pp:keyword>
+        <pp:keyword>Ben Jonson</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>George Herbert</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>Henry Vaughan</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>Jeremy Taylor</pp:keyword>
+        <pp:keyword>John Donne</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>knowledge</pp:keyword>
+        <pp:keyword>matter</pp:keyword>
+        <pp:keyword>memorial</pp:keyword>
+        <pp:keyword>resurrection</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="soundings-hearing-hester-pulters-poems">
       <pp:author>
