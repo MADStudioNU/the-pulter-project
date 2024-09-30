@@ -7608,14 +7608,14 @@
           <pp:title>Dualist and Materialist Theories of Resurrection in Pulter’s “The Brahman”</pp:title>
           <pp:peek>Hester Pulter’s poem “The Brahman” is built around tensions between different ways of imagining or understanding the afterlife. Such tensions were particularly heightened in seventeenth-century English culture under the pressure of the reformation, secularization and the rise of early modern science and natural philosophy.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="sources-of-the-brahman">
+        <pp:curation status="off" hash="sources-of-the-brahman">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
           <pp:title>Sources of “The Brahman”</pp:title>
           <pp:peek>In “The Brahman” Hester Pulter draws on several sources to create a complex meditation on life, death and self-transcendence. As she explores the role of the body and materiality in human life, Pulter intertwines engagement with Eastern wisdom traditions, classical mythology, scripture, and Christian theology.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="visualizing-monist-and-dualist-theories-of-resurrection">
+        <pp:curation status="off" hash="visualizing-monist-and-dualist-theories-of-resurrection">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
