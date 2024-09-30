@@ -7751,7 +7751,33 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+        <pp:edition type="elemental">
+          <pp:author>Emma K. Atwood</pp:author>
+        </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="approaches-to-early-modern-chastity">
+          <pp:author>
+            <pp:person>Emma K. Atwood</pp:person>
+          </pp:author>
+          <pp:title>Approaches to Early Modern Chastity</pp:title>
+          <pp:peek>[TBA]</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="forct-her-yield">
+          <pp:author>
+            <pp:person>Emma K. Atwood</pp:person>
+          </pp:author>
+          <pp:title>Forct Her Yield</pp:title>
+          <pp:peek>[TBA]</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="love-repulst-paradoxical-desire">
+          <pp:author>
+            <pp:person>Emma K. Atwood</pp:person>
+          </pp:author>
+          <pp:title>Love Repulst Paradoxical Desire</pp:title>
+          <pp:peek>[TBA]</pp:peek>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>tyranny</pp:keyword>
         <pp:keyword>rape</pp:keyword>

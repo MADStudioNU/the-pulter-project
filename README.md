@@ -55,10 +55,11 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
 
 ### Poems
-> —
+> A112 (Atwood)
 
 ### Curations
-> C107 (_Early Modern Ostriches_), C109a (_Dualist and Materialist Theories of Resurrection_), C109b (_Visualizing Monist and Dualist Theories of Resurrection_), C109c (_Sources of “The Brahman”_)
+> C106 (_Early Modern Ostriches_), C109a (_Dualist and Materialist Theories of Resurrection_), C109b (_Visualizing Monist and Dualist Theories of Resurrection_), C109c (_Sources of “The Brahman”_), C112a (_Approaches to Early Modern Chastity_), C112b (_Forct Her Yield_), C112c (_Love Repulst Paradoxical Desire_)
+> 
 
 ### Explorations
 > _Shades of Death: Hester Pulter and Mortality_
