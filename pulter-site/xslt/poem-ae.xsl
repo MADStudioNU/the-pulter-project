@@ -1691,6 +1691,9 @@
               <xsl:if test="$witnessName = 'Daniel Juan Gil'">
                 <xsl:value-of select="'Texas Christian University'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Emma K. Atwood'">
+                <xsl:value-of select="'University of Montevallo'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1786,6 +1789,9 @@
               </xsl:if>
               <xsl:if test="$witnessName = 'Daniel Juan Gil'">
                 <xsl:value-of select="'https://addran.tcu.edu/view/daniel-juan-gil'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Emma K. Atwood'">
+                <xsl:value-of select="'https://montevallo.edu/academics/colleges/college-of-arts-sciences/department-of-english-world-languages/faculty-staff/emma-atwood/'"/>
               </xsl:if>
             </xsl:variable>
 
