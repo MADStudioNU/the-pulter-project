@@ -7606,7 +7606,21 @@
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
           <pp:title>Dualist and Materialist Theories of Resurrection in Pulter’s “The Brahman”</pp:title>
-          <pp:peek>Hester Pulter’s poem “The Brahman” is built around tensions between different ways of imagining or understanding the afterlife. Such tensions were particularly heightened in seventeenth-century English culture under the pressure of the reformation, secularization and the rise of early modern science and natural philosophy. </pp:peek>
+          <pp:peek>Hester Pulter’s poem “The Brahman” is built around tensions between different ways of imagining or understanding the afterlife. Such tensions were particularly heightened in seventeenth-century English culture under the pressure of the reformation, secularization and the rise of early modern science and natural philosophy.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="sources-of-the-brahman">
+          <pp:author>
+            <pp:person>Daniel Juan Gil</pp:person>
+          </pp:author>
+          <pp:title>Sources of “The Brahman”</pp:title>
+          <pp:peek>In “The Brahman” Hester Pulter draws on several sources to create a complex meditation on life, death and self-transcendence. As she explores the role of the body and materiality in human life, Pulter intertwines engagement with Eastern wisdom traditions, classical mythology, scripture, and Christian theology.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="visualizing-monist-and-dualist-theories-of-resurrection">
+          <pp:author>
+            <pp:person>Daniel Juan Gil</pp:person>
+          </pp:author>
+          <pp:title>Visualizing Monist and Dualist Theories of Resurrection</pp:title>
+          <pp:peek>The Christian idea of the resurrection of the body and the hope for a life after death ripples through many of Pulter’s poems and gives to many of them their ideational power, especially when applied as a framework to understand and come to terms with her own body as the scene of (rarely) joy and (more often) suffering and pain.</pp:peek>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -8387,6 +8401,29 @@
         <pp:person>Eileen Sperry</pp:person>
       </pp:author>
       <pp:title>Shades of Death: Hester Pulter and Mortality</pp:title>
+      <pp:keywords>
+        <pp:keyword>alchemy</pp:keyword>
+        <pp:keyword>Andrew Marvell</pp:keyword>
+        <pp:keyword>Anne Bradstreet</pp:keyword>
+        <pp:keyword>Ben Jonson</pp:keyword>
+        <pp:keyword>body</pp:keyword>
+        <pp:keyword>civil war</pp:keyword>
+        <pp:keyword>death</pp:keyword>
+        <pp:keyword>family</pp:keyword>
+        <pp:keyword>freedom</pp:keyword>
+        <pp:keyword>George Herbert</pp:keyword>
+        <pp:keyword>grief</pp:keyword>
+        <pp:keyword>Henry Vaughan</pp:keyword>
+        <pp:keyword>illness</pp:keyword>
+        <pp:keyword>Jeremy Taylor</pp:keyword>
+        <pp:keyword>John Donne</pp:keyword>
+        <pp:keyword>John Milton</pp:keyword>
+        <pp:keyword>knowledge</pp:keyword>
+        <pp:keyword>matter</pp:keyword>
+        <pp:keyword>memorial</pp:keyword>
+        <pp:keyword>resurrection</pp:keyword>
+        <pp:keyword>soul</pp:keyword>
+      </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="soundings-hearing-hester-pulters-poems">
       <pp:author>
