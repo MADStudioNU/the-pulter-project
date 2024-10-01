@@ -2421,7 +2421,7 @@
           </pp:author>
           <pp:title>A Tedious Pilgrimage</pp:title>
           <pp:sortingTitle>Tedious Pilgrimage, A</pp:sortingTitle>
-          <pp:peek>“The sinners glasse,“ an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,“ and lists in painful detail all the infelicities of mortality.</pp:peek>
+          <pp:peek>“The sinners glasse,” an elegantly produced book of prayers (which reaches 288 pages), draws on the writings of St Augustine and others to teach readers how to address their God. It casts life as a “tedious pilgrimage,” and lists in painful detail all the infelicities of mortality.</pp:peek>
           <pp:keywords>
             <pp:keyword>Christianity</pp:keyword>
           </pp:keywords>
@@ -7607,6 +7607,21 @@
           </pp:author>
           <pp:title>Dualist and Materialist Theories of Resurrection in Pulter’s “The Brahman”</pp:title>
           <pp:peek>Hester Pulter’s poem “The Brahman” is built around tensions between different ways of imagining or understanding the afterlife. Such tensions were particularly heightened in seventeenth-century English culture under the pressure of the reformation, secularization and the rise of early modern science and natural philosophy.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>bird</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>God</pp:keyword>
+            <pp:keyword>Henry Vaughan</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Other(s)</pp:keyword>
+            <pp:keyword>Plutarch</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>suffering</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="off" hash="sources-of-the-brahman">
           <pp:author>
@@ -7614,6 +7629,19 @@
           </pp:author>
           <pp:title>Sources of “The Brahman”</pp:title>
           <pp:peek>In “The Brahman” Hester Pulter draws on several sources to create a complex meditation on life, death and self-transcendence. As she explores the role of the body and materiality in human life, Pulter intertwines engagement with Eastern wisdom traditions, classical mythology, scripture, and Christian theology.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>bird</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>George Herbert</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Other(s)</pp:keyword>
+            <pp:keyword>Plutarch</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>Thomas North</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="off" hash="visualizing-monist-and-dualist-theories-of-resurrection">
           <pp:author>
@@ -7621,6 +7649,19 @@
           </pp:author>
           <pp:title>Visualizing Monist and Dualist Theories of Resurrection</pp:title>
           <pp:peek>The Christian idea of the resurrection of the body and the hope for a life after death ripples through many of Pulter’s poems and gives to many of them their ideational power, especially when applied as a framework to understand and come to terms with her own body as the scene of (rarely) joy and (more often) suffering and pain.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Augustine</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>Christianity</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Luca Signorelli</pp:keyword>
+            <pp:keyword>matter</pp:keyword>
+            <pp:keyword>Raphael</pp:keyword>
+            <pp:keyword>Rene Descartes</pp:keyword>
+            <pp:keyword>resurrection</pp:keyword>
+            <pp:keyword>soul</pp:keyword>
+            <pp:keyword>Thomas Aquinas</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
       <pp:keywords>
@@ -7762,6 +7803,18 @@
           </pp:author>
           <pp:title>Approaches to Early Modern Chastity</pp:title>
           <pp:peek>[TBA]</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Amelia Lanyer</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>chastity</pp:keyword>
+            <pp:keyword>Edmund Spenser</pp:keyword>
+            <pp:keyword>female body</pp:keyword>
+            <pp:keyword>Jean Luis Vives</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+            <pp:keyword>virginity</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="off" hash="forct-her-yield">
           <pp:author>
@@ -7769,6 +7822,17 @@
           </pp:author>
           <pp:title>Forct Her Yield</pp:title>
           <pp:peek>[TBA]</pp:peek>
+          <pp:keywords>
+            <pp:keyword>chastity</pp:keyword>
+            <pp:keyword>Christopher Marlowe</pp:keyword>
+            <pp:keyword>consent</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>judicial system</pp:keyword>
+            <pp:keyword>law</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+            <pp:keyword>Thomas Middleton</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+          </pp:keywords>
         </pp:curation>
         <pp:curation status="off" hash="love-repulst-paradoxical-desire">
           <pp:author>
@@ -7777,6 +7841,13 @@
           <pp:title>Love Repulst Paradoxical Desire</pp:title>
           <pp:peek>[TBA]</pp:peek>
         </pp:curation>
+        <pp:keywords>
+          <pp:keyword>Ovid</pp:keyword>
+          <pp:keyword>sexuality</pp:keyword>
+          <pp:keyword>Thomas Middleton</pp:keyword>
+          <pp:keyword>violence</pp:keyword>
+          <pp:keyword>William Shakespeare</pp:keyword>
+        </pp:keywords>
       </pp:curations>
       <pp:keywords>
         <pp:keyword>tyranny</pp:keyword>
