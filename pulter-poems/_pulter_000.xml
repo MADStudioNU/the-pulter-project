@@ -3,11 +3,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
   schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI [
 
-  <!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">
+<!DOCTYPE TEI [<!ENTITY ff "<!-- ff ligature, representing capital modern day capital F, here represented as 'ff' -->ff">]>
 
-  ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mads.pp.0">
   <teiHeader>
     <fileDesc>
