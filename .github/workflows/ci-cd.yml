@@ -11,9 +11,6 @@ on:
   push:
     branches: [ 'master', 'develop' ]
     paths: ['pulter-site/**', 'pulter-poems/**']
-  pull_request:
-    branches: [ 'master' ]
-    paths: [ 'pulter-site/**', 'pulter-poems/**' ]
 
 jobs:
   Build:
