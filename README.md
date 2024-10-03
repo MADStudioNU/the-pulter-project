@@ -62,4 +62,4 @@ This keeps track of an important difference between deployments. Below is the co
 > 
 
 ### Explorations
-> _Shades of Death: Hester Pulter and Mortality_
+> —
