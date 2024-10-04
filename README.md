@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > A112 (Atwood)
 
 ### Curations
-> C106 (_Early Modern Ostriches_), C109a (_Dualist and Materialist Theories of Resurrection_), C109b (_Visualizing Monist and Dualist Theories of Resurrection_), C109c (_Sources of “The Brahman”_), C112a (_Approaches to Early Modern Chastity_), C112b (_Forct Her Yield_), C112c (_Love Repulst Paradoxical Desire_)
+> C109a (_Dualist and Materialist Theories of Resurrection_), C109b (_Visualizing Monist and Dualist Theories of Resurrection_), C109c (_Sources of “The Brahman”_), C112a (_Approaches to Early Modern Chastity_), C112b (_Forct Her Yield_), C112c (_Love Repulst Paradoxical Desire_)
 > 
 
 ### Explorations
