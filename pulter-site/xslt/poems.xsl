@@ -7840,14 +7840,14 @@
           </pp:author>
           <pp:title>Love Repulst Paradoxical Desire</pp:title>
           <pp:peek>[TBA]</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Ovid</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+            <pp:keyword>Thomas Middleton</pp:keyword>
+            <pp:keyword>violence</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
         </pp:curation>
-        <pp:keywords>
-          <pp:keyword>Ovid</pp:keyword>
-          <pp:keyword>sexuality</pp:keyword>
-          <pp:keyword>Thomas Middleton</pp:keyword>
-          <pp:keyword>violence</pp:keyword>
-          <pp:keyword>William Shakespeare</pp:keyword>
-        </pp:keywords>
       </pp:curations>
       <pp:keywords>
         <pp:keyword>tyranny</pp:keyword>
