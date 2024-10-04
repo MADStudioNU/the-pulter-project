@@ -7601,7 +7601,7 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="dualist-and-materialist-theories-of-resurrection">
+        <pp:curation status="on" hash="dualist-and-materialist-theories-of-resurrection">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
@@ -7623,7 +7623,7 @@
             <pp:keyword>suffering</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="sources-of-the-brahman">
+        <pp:curation status="on" hash="sources-of-the-brahman">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
@@ -7643,7 +7643,7 @@
             <pp:keyword>Thomas North</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="visualizing-monist-and-dualist-theories-of-resurrection">
+        <pp:curation status="on" hash="visualizing-monist-and-dualist-theories-of-resurrection">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
@@ -7792,12 +7792,12 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="elemental">-->
-<!--          <pp:author>Emma K. Atwood</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="elemental">
+          <pp:author>Emma K. Atwood</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="approaches-to-early-modern-chastity">
+        <pp:curation status="on" hash="approaches-to-early-modern-chastity">
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
@@ -7816,7 +7816,7 @@
             <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="forct-her-yield">
+        <pp:curation status="on" hash="forct-her-yield">
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
@@ -7834,7 +7834,7 @@
             <pp:keyword>violence</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="love-repulst-paradoxical-desire">
+        <pp:curation status="on" hash="love-repulst-paradoxical-desire">
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
