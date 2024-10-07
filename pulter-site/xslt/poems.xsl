@@ -7601,7 +7601,7 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="dualist-and-materialist-theories-of-resurrection">
+        <pp:curation status="on" hash="dualist-and-materialist-theories-of-resurrection">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
@@ -7623,7 +7623,7 @@
             <pp:keyword>suffering</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="sources-of-the-brahman">
+        <pp:curation status="on" hash="sources-of-the-brahman">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
@@ -7643,7 +7643,7 @@
             <pp:keyword>Thomas North</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="visualizing-monist-and-dualist-theories-of-resurrection">
+        <pp:curation status="on" hash="visualizing-monist-and-dualist-theories-of-resurrection">
           <pp:author>
             <pp:person>Daniel Juan Gil</pp:person>
           </pp:author>
