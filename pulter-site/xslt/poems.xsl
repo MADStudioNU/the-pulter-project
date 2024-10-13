@@ -7802,7 +7802,7 @@
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
           <pp:title>Approaches to Early Modern Chastity</pp:title>
-          <pp:peek>[TBA]</pp:peek>
+          <pp:peek>In “The Turtle and his Paramour,” Pulter advises her women readers that “Nothing gains love like virgin Modestie” (18). But if the “love” you get looks uncomfortably like rape, then the poem seems to be critiquing whether laboring to preserve virgin modesty is worth the trouble.</pp:peek>
           <pp:keywords>
             <pp:keyword>Amelia Lanyer</pp:keyword>
             <pp:keyword>animals</pp:keyword>
@@ -7821,7 +7821,7 @@
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
           <pp:title>Forct Her Yield</pp:title>
-          <pp:peek>[TBA]</pp:peek>
+          <pp:peek>The concept of “yielding” comes up twice in “The Turtle and his Paramour.” In both instances, this is an enforced situation with physical consequences. Can yielding to unwanted sexual advances ever be a form of consent?</pp:peek>
           <pp:keywords>
             <pp:keyword>chastity</pp:keyword>
             <pp:keyword>Christopher Marlowe</pp:keyword>
@@ -7839,7 +7839,7 @@
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
           <pp:title>Love Repulst Paradoxical Desire</pp:title>
-          <pp:peek>[TBA]</pp:peek>
+          <pp:peek>Pulter’s advice for women, “Love Repulst doth more increase desire” (19), is part of the broader features of Renaissance rape culture. Rape culture is a sociological concept originating with second-wave feminism in the 1970s that identifies the normalization of (male) sexual violence and the blame placed on victims of sexual assault.</pp:peek>
           <pp:keywords>
             <pp:keyword>Ovid</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
