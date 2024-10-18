@@ -7820,7 +7820,7 @@
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
-          <pp:title>Forct Her Yield</pp:title>
+          <pp:title>“Forct Her Yield”: Consent and Early Modern Rape</pp:title>
           <pp:peek>The concept of “yielding” comes up twice in “The Turtle and his Paramour.” In both instances, this is an enforced situation with physical consequences. Can yielding to unwanted sexual advances ever be a form of consent?</pp:peek>
           <pp:keywords>
             <pp:keyword>chastity</pp:keyword>
@@ -7838,7 +7838,7 @@
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
-          <pp:title>Love Repulst Paradoxical Desire</pp:title>
+          <pp:title>“Love Repulst”: Paradoxical Desire</pp:title>
           <pp:peek>Pulter’s advice for women, “Love Repulst doth more increase desire” (19), is part of the broader features of Renaissance rape culture. Rape culture is a sociological concept originating with second-wave feminism in the 1970s that identifies the normalization of (male) sexual violence and the blame placed on victims of sexual assault.</pp:peek>
           <pp:keywords>
             <pp:keyword>Ovid</pp:keyword>
