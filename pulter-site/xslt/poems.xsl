@@ -5265,7 +5265,7 @@
           <pp:author>
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
-          <pp:title>Identifying Pulter’s Fabulous Flower</pp:title>
+          <pp:title>Identifying Pulter’s Fabulous Flowers</pp:title>
           <pp:peek>[TBA]</pp:peek>
         </pp:curation>
       </pp:curations>
