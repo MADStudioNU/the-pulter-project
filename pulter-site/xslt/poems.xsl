@@ -5261,17 +5261,14 @@
         <pp:tag>tyranny</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="identifying-pulters-fabulous-flower">
+        <pp:curation status="on" hash="identifying-pulters-fabulous-flowers">
           <pp:author>
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
-          <pp:title>Identifying Pulter's Fabulous Flower</pp:title>
-          <pp:peek>The star of Hester Pulter’s “Heliotropians” (Emblem 3) is a blue flower that turns with the sun. It also exhibits a fabulous physics</pp:peek>
-          <pp:keywords>
-            <pp:keyword>TBA</pp:keyword>
-          </pp:keywords>
+          <pp:title>Identifying Pulter’s Fabulous Flower</pp:title>
+          <pp:peek>[TBA]</pp:peek>
         </pp:curation>
-      </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="70">
       <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
