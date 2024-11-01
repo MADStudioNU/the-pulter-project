@@ -5268,6 +5268,13 @@
           <pp:title>Identifying Pulter’s Fabulous Flower</pp:title>
           <pp:peek>The star of Hester Pulter’s “Heliotropians” (Emblem 3) is a blue flower that turns with the sun. It also exhibits a fabulous physics: her solar pursuit extends beyond the horizon and seems to involve some kind of drilling, by which means “She breaks through all to meet her radiant lover” who is now on Earth’s other side.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="staring-at-the-sun">
+          <pp:author>
+            <pp:person>Vin Nardizzi</pp:person>
+          </pp:author>
+          <pp:title>Staring at the Sun</pp:title>
+          <pp:peek>Pulter’s poem is titled “Heliotropians (Emblem 3).” This curation is a visual essay that reviews images of flowers turned to the sun in European emblem literature. My aim is not exhaustive; there are other such emblems from the period.</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="70">
