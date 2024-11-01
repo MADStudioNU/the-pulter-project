@@ -5266,7 +5266,7 @@
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
           <pp:title>Identifying Pulter’s Fabulous Flower</pp:title>
-          <pp:peek>The star of Hester Pulter’s “Heliotropians” (Emblem 3) is a blue flower that turns with the sun. It also exhibits a fabulous physics</pp:peek>
+          <pp:peek>The star of Hester Pulter’s “Heliotropians” (Emblem 3) is a blue flower that turns with the sun. It also exhibits a fabulous physics: her solar pursuit extends beyond the horizon and seems to involve some kind of drilling, by which means “She breaks through all to meet her radiant lover” who is now on Earth’s other side.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
