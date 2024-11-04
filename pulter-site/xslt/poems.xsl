@@ -5260,6 +5260,22 @@
         <pp:tag>tears</pp:tag>
         <pp:tag>tyranny</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="identifying-pulters-fabulous-flower">
+          <pp:author>
+            <pp:person>Vin Nardizzi</pp:person>
+          </pp:author>
+          <pp:title>Identifying Pulter’s Fabulous Flower</pp:title>
+          <pp:peek>The star of Hester Pulter’s “Heliotropians” (Emblem 3) is a blue flower that turns with the sun. It also exhibits a fabulous physics: her solar pursuit extends beyond the horizon and seems to involve some kind of drilling, by which means “She breaks through all to meet her radiant lover” who is now on Earth’s other side.</pp:peek>
+        </pp:curation>
+        <pp:curation status="on" hash="staring-at-the-sun">
+          <pp:author>
+            <pp:person>Vin Nardizzi</pp:person>
+          </pp:author>
+          <pp:title>Staring at the Sun</pp:title>
+          <pp:peek>Pulter’s poem is titled “Heliotropians (Emblem 3).” This curation is a visual essay that reviews images of flowers turned to the sun in European emblem literature. My aim is not exhaustive; there are other such emblems from the period.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="70">
       <pp:title>Virtue’s Duel (Emblem 4)</pp:title>
@@ -7802,7 +7818,7 @@
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
           <pp:title>Approaches to Early Modern Chastity</pp:title>
-          <pp:peek>[TBA]</pp:peek>
+          <pp:peek>In “The Turtle and his Paramour,” Pulter advises her women readers that “Nothing gains love like virgin Modestie” (18). But if the “love” you get looks uncomfortably like rape, then the poem seems to be critiquing whether laboring to preserve virgin modesty is worth the trouble.</pp:peek>
           <pp:keywords>
             <pp:keyword>Amelia Lanyer</pp:keyword>
             <pp:keyword>animals</pp:keyword>
@@ -7820,8 +7836,8 @@
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
-          <pp:title>Forct Her Yield</pp:title>
-          <pp:peek>[TBA]</pp:peek>
+          <pp:title>“Forct Her Yield”: Consent and Early Modern Rape</pp:title>
+          <pp:peek>The concept of “yielding” comes up twice in “The Turtle and his Paramour.” In both instances, this is an enforced situation with physical consequences. Can yielding to unwanted sexual advances ever be a form of consent?</pp:peek>
           <pp:keywords>
             <pp:keyword>chastity</pp:keyword>
             <pp:keyword>Christopher Marlowe</pp:keyword>
@@ -7838,8 +7854,8 @@
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
-          <pp:title>Love Repulst Paradoxical Desire</pp:title>
-          <pp:peek>[TBA]</pp:peek>
+          <pp:title>“Love Repulst”: Paradoxical Desire</pp:title>
+          <pp:peek>Pulter’s advice for women, “Love Repulst doth more increase desire” (19), is part of the broader features of Renaissance rape culture. Rape culture is a sociological concept originating with second-wave feminism in the 1970s that identifies the normalization of (male) sexual violence and the blame placed on victims of sexual assault.</pp:peek>
           <pp:keywords>
             <pp:keyword>Ovid</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
