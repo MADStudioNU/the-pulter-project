@@ -5261,14 +5261,14 @@
         <pp:tag>tyranny</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="identifying-pulters-fabulous-flower">
+        <pp:curation status="off" hash="identifying-pulters-fabulous-flower">
           <pp:author>
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
           <pp:title>Identifying Pulter’s Fabulous Flower</pp:title>
           <pp:peek>The star of Hester Pulter’s “Heliotropians” (Emblem 3) is a blue flower that turns with the sun. It also exhibits a fabulous physics: her solar pursuit extends beyond the horizon and seems to involve some kind of drilling, by which means “She breaks through all to meet her radiant lover” who is now on Earth’s other side.</pp:peek>
         </pp:curation>
-        <pp:curation status="on" hash="staring-at-the-sun">
+        <pp:curation status="off" hash="staring-at-the-sun">
           <pp:author>
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
