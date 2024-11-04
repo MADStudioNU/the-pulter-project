@@ -7808,12 +7808,12 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Emma K. Atwood</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Emma K. Atwood</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:curations>
-        <pp:curation status="off" hash="approaches-to-early-modern-chastity">
+        <pp:curation status="on" hash="approaches-to-early-modern-chastity">
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
@@ -7832,7 +7832,7 @@
             <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="forct-her-yield">
+        <pp:curation status="on" hash="forct-her-yield">
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
@@ -7850,7 +7850,7 @@
             <pp:keyword>violence</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="love-repulst-paradoxical-desire">
+        <pp:curation status="on" hash="love-repulst-paradoxical-desire">
           <pp:author>
             <pp:person>Emma K. Atwood</pp:person>
           </pp:author>
