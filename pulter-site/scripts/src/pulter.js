@@ -97,6 +97,7 @@ var TPP = (function ($) {
       // To Poem Index
       $toPoemsAction.on('click', function () {
         activatePoemIndex();
+        initOrAdjustPoemIsotope();
       });
 
       // To Connection Index
