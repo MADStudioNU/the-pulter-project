@@ -5261,7 +5261,7 @@
         <pp:tag>tyranny</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="off" hash="identifying-pulters-fabulous-flower">
+        <pp:curation status="on" hash="identifying-pulters-fabulous-flower">
           <pp:author>
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
@@ -5276,7 +5276,7 @@
             <pp:keyword>sun</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="staring-at-the-sun">
+        <pp:curation status="on" hash="staring-at-the-sun">
           <pp:author>
             <pp:person>Vin Nardizzi</pp:person>
           </pp:author>
