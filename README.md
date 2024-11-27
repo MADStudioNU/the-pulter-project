@@ -1,7 +1,7 @@
 # _The Pulter Project_ Central
 
 ## Welcome
-This repository contains the codebase of [The Pulter Project](https://pulterproject.northwestern.edu/). Two image collections are included in the form of submodules:
+This repository contains the codebase of [The Pulter Project](https://pulterproject.northwestern.edu/). Two image collections and a family tree browser tool are included in the form of submodules:
 * [Poem Poster Images](https://github.com/MADStudioNU/the-pulter-project-posters)
 * [Manuscript Facsimile Images](https://github.com/MADStudioNU/the-pulter-project-facs)
 
