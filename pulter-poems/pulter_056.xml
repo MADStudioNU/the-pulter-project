@@ -197,12 +197,17 @@
                 </note></rdg>
             </app>
             </head>
-            <lg type="speech" n="Young Anne">
-                <app>
-                    <rdg wit="#ft"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
-                    <rdg wit="#ee"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
-                    <rdg wit="#ae"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
-                </app>
+            
+            <app>
+				      <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+				      <rdg wit="#ae"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+			      </app>
+      			<app>
+      				<rdg wit="#ft"><milestone unit="poem-section" n="Young Anne" rend="left-gutter"/></rdg>
+      				<rdg wit="#ee"><milestone unit="poem-section" n="Young Anne" rend="left-gutter"/></rdg>
+      				<rdg wit="#ae"><milestone unit="poem-section" n="Young Anne" rend="left-gutter"/></rdg>
+      			</app>
+          
               <l n="1">
                 <app>
                     <rdg wit="#ft">Come my deare Sister Sit with mee a while</rdg>
@@ -245,14 +250,18 @@
                     <rdg wit="#ae">I would I had my <seg>viol, you your lyre<note type="gloss">stringed instruments, the viol played with a bow and the lyre plucked like a harp</note></seg>.</rdg>
                 </app>
             </l>
-            </lg>
           
-            <lg type="speech" n="Elder Pen">
-                <app>
-                    <rdg wit="#ft"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
-                    <rdg wit="#ee"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
-                    <rdg wit="#ae"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
-                </app>
+            <app>
+				      <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+				      <rdg wit="#ae"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+			      </app>
+      			<app>
+      				<rdg wit="#ft"><milestone unit="poem-section" n="Elder Pen" rend="left-gutter"/></rdg>
+      				<rdg wit="#ee"><milestone unit="poem-section" n="Elder Pen" rend="left-gutter"/></rdg>
+      				<rdg wit="#ae"><milestone unit="poem-section" n="Elder Pen" rend="left-gutter"/></rdg>
+      			</app>
+
+          
               <l n="7">
                 <app>
                     <rdg wit="#ft">Aye mee my Sister Time on Restles wheels</rdg>
@@ -562,14 +571,16 @@
                     <rdg wit="#ae">To take our visits at a <seg>courteous grate<note type="gloss">metal bars (a grate) through which a conversation is taken, as were common at houses of religious seclusion</note></seg>.</rdg>
                 </app>
             </l>
-            </lg>
           
-          <lg type="speech" n="Young Anne">
-              <app>
-                  <rdg wit="#ft"><label n="3" rend="left-margin-large">Ann.</label></rdg>
-                  <rdg wit="#ee"><label n="3" rend="left-margin-large">Anne</label></rdg>
-                  <rdg wit="#ae"><label n="3" rend="left-margin-large">Anne</label></rdg>
-              </app>
+            <app>
+				      <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+				      <rdg wit="#ae"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+			      </app>
+      			<app>
+      				<rdg wit="#ft"><milestone unit="poem-section" n="Ann." rend="left-gutter"/></rdg>
+      				<rdg wit="#ee"><milestone unit="poem-section" n="Anne" rend="left-gutter"/></rdg>
+      				<rdg wit="#ae"><milestone unit="poem-section" n="Anne" rend="left-gutter"/></rdg>
+      			</app>
 
             <l n="49">
                 <app>
@@ -613,7 +624,7 @@
                     <rdg wit="#ae">And go to our sad mother; she’s alone.</rdg>
                 </app>
             </l>
-           </lg>
+          
             <app>
                 <rdg type="milestone" wit="#ft">
                     <milestone unit="poem" rend="tilda-line"/>
