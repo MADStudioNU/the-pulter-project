@@ -200,12 +200,14 @@
             <lg type="speech" n="Young Anne">
                 <app>
                     <rdg wit="#ft"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
+                    <rdg wit="#ee"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
+                    <rdg wit="#ae"><label n="1" rend="left-margin-large">Young Anne</label></rdg>
                 </app>
               <l n="1">
                 <app>
                     <rdg wit="#ft">Come my deare Sister Sit with mee a while</rdg>
-                    <rdg wit="#ee"><seg rend="nl it">Young Anne:</seg> Come, my dear sister, sit with me awhile</rdg>
-                    <rdg wit="#ae">Young Anne: Come, my dear sister, sit with me a while,</rdg>
+                    <rdg wit="#ee">Come, my dear sister, sit with me awhile</rdg>
+                    <rdg wit="#ae">Come, my dear sister, sit with me a while,</rdg>
                 </app>
             </l>
             <l n="2">
@@ -242,16 +244,20 @@
                     <rdg wit="#ee">I would I had <seg>my viol, you your lyre<note type="gloss">stringed musical instruments</note></seg>.</rdg>
                     <rdg wit="#ae">I would I had my <seg>viol, you your lyre<note type="gloss">stringed instruments, the viol played with a bow and the lyre plucked like a harp</note></seg>.</rdg>
                 </app>
-            </l></lg>
+            </l>
+            </lg>
+          
             <lg type="speech" n="Elder Pen">
                 <app>
                     <rdg wit="#ft"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
+                    <rdg wit="#ee"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
+                    <rdg wit="#ae"><label n="2" rend="left-margin-large">Elder Pen</label></rdg>
                 </app>
               <l n="7">
                 <app>
                     <rdg wit="#ft">Aye mee my Sister Time on Restles wheels</rdg>
-                    <rdg wit="#ee"><seg rend="nl it">Elder Pen:</seg> Ay me, my sister! Time on restless wheels</rdg>
-                    <rdg wit="#ae">Elder Pen: Ay me, my sister, Time on restless wheels</rdg>
+                    <rdg wit="#ee">Ay me, my sister! Time on restless wheels</rdg>
+                    <rdg wit="#ae">Ay me, my sister, Time on restless wheels</rdg>
                 </app>
             </l>
             <l n="8">
@@ -557,16 +563,19 @@
                 </app>
             </l>
             </lg>
+          
           <lg type="speech" n="Young Anne">
               <app>
                   <rdg wit="#ft"><label n="3" rend="left-margin-large">Ann.</label></rdg>
+                  <rdg wit="#ee"><label n="3" rend="left-margin-large">Anne</label></rdg>
+                  <rdg wit="#ae"><label n="3" rend="left-margin-large">Anne</label></rdg>
               </app>
 
             <l n="49">
                 <app>
                     <rdg wit="#ft">Stay my Dear Sister I have noe mind to die</rdg>
-                    <rdg wit="#ee"><seg rend="nl it">Anne:</seg> Stay, my dear sister, I have no mind to die;</rdg>
-                    <rdg wit="#ae">Anne: Stay, my dear sister, I have no mind to die;</rdg>
+                    <rdg wit="#ee">Stay, my dear sister, I have no mind to die;</rdg>
+                    <rdg wit="#ae">Stay, my dear sister, I have no mind to die;</rdg>
                 </app>
             </l>
             <l n="50">
