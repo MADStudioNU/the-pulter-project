@@ -199,6 +199,7 @@
             </head>
             
             <app>
+              <rdg wit="#ft"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
 				      <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
 				      <rdg wit="#ae"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
 			      </app>
@@ -252,7 +253,8 @@
             </l>
           
             <app>          
-				      <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+				      <rdg wit="#ft"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+              <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
 				      <rdg wit="#ae"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
 			      </app>
       			<app>
@@ -573,7 +575,8 @@
             </l>
           
             <app>
-				      <rdg wit="#ee""><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+				      <rdg wit="#ft"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
+              <rdg wit="#ee"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
 				      <rdg wit="#ae"><milestone unit="poem-section" rend="stanza-whitespace"/> </rdg>
               
 			      </app>
