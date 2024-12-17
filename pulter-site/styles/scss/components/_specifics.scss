@@ -134,6 +134,53 @@
     }
   }
 
+  // Poem 56
+  // Custom milestones in EE and AE
+  &.poem-56 {
+    .mc .poem main {
+      margin-left: 11.75%;
+
+      .poem-body {
+        .pb:first-of-type {
+           .facsimile-toggle {
+             top: -.54em;
+
+             @include breakpoint(mobile) {
+                top: .33em;
+             }
+           }
+        }
+      }
+
+      .milestone.left-gutter {
+        text-align: right;
+        width: 6em;
+        margin-left: -5.7em;
+        font-size: .75em;
+        position: relative;
+        bottom: -.25em;
+
+        @include breakpoint(mobile) {
+          height: auto;
+          margin: .6em 0;
+          font-size: 1em;
+          text-align: left;
+          max-width: 10em;
+          width: auto;
+          bottom: 0;
+        }
+      }
+
+      .line-number-value {
+        left: .85em;
+
+        @include breakpoint(mobile) {
+          left: -2.8em;
+        }
+      }
+    }
+  }
+
   // Poem 68
   // Custom milestones in EE
   &.poem-68 {
