@@ -6087,7 +6087,7 @@
         <pp:tag>worship</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="chaste-animals">
+        <pp:curation status="off" hash="chaste-animals">
           <pp:author>
             <pp:person>Karen Raber</pp:person>
           </pp:author>
