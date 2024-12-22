@@ -6086,6 +6086,15 @@
         <pp:tag>vice</pp:tag>
         <pp:tag>worship</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="chaste-animals">
+          <pp:author>
+            <pp:person>Karen Raber</pp:person>
+          </pp:author>
+          <pp:title>Chaste Animals?</pp:title>
+          <pp:peek>How unusual is the elephant’s commitment to chastity? Pulter sets it in opposition to the “beastly” sexual promiscuity of humans, suggesting a division within the animal kingdom over sexual behavior.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="85">
       <pp:title>This Poor Turtle Dove (Emblem 20)</pp:title>

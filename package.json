@@ -1,6 +1,6 @@
 {
   "name": "pulter-project",
-  "version": "1.50.21",
+  "version": "1.51.0",
   "description": "A digital edition of lady Hester Pulter’s poems.",
   "license": "CC-BY-NC-SA-1.0",
   "dependencies": {
@@ -20,7 +20,7 @@
     "event-stream": "^4.0.1",
     "eyeglass": "^3.0.3",
     "fs": "^0.0.1-security",
-    "gulp": "4.0.2",
+    "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
