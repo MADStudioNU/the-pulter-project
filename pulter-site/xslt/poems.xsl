@@ -6093,6 +6093,37 @@
           </pp:author>
           <pp:title>Chaste Animals?</pp:title>
           <pp:peek>How unusual is the elephant’s commitment to chastity? Pulter sets it in opposition to the “beastly” sexual promiscuity of humans, suggesting a division within the animal kingdom over sexual behavior.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>chastity</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>marriage</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Philip Sidney</pp:keyword>
+            <pp:keyword>pregnancy</pp:keyword>
+            <pp:keyword>reproduction</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+            <pp:keyword>Thomas Tryon</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+        <pp:curation status="on" hash="elephants-and-religion">
+          <pp:author>
+            <pp:person>Karen Raber</pp:person>
+          </pp:author>
+          <pp:title>Elephants and Religion</pp:title>
+          <pp:peek>When Pulter describes elephants worshiping the sun, she echoes accounts in natural histories and elsewhere that credit the elephant with piety and a sense of ritual. These accounts probably had their basis in fact: elephants do indeed exhibit ritualistic behaviors especially in grieving their dead.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>king</pp:keyword>
+            <pp:keyword>Michel de Montaigne</pp:keyword>
+            <pp:keyword>monarchy</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>plants</pp:keyword>
+            <pp:keyword>religion</pp:keyword>
+            <pp:keyword>sun</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
