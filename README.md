@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Curations
-> C084 (_Chaste Animals?_ by Karen Raber)
+> C084a (_Chaste Animals?_ by Karen Raber), C084b (_Elephants and Religion_ by Karen Raber)
 
 ### Explorations
 > —
