@@ -6107,7 +6107,7 @@
             <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="elephants-and-religion">
+        <pp:curation status="off" hash="elephants-and-religion">
           <pp:author>
             <pp:person>Karen Raber</pp:person>
           </pp:author>
