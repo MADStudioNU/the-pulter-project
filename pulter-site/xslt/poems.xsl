@@ -6125,6 +6125,25 @@
             <pp:keyword>sun</pp:keyword>
           </pp:keywords>
         </pp:curation>
+        <pp:curation status="on" hash="the-noble-elephant">
+          <pp:author>
+            <pp:person>Karen Raber</pp:person>
+          </pp:author>
+          <pp:title>The Noble Elephant</pp:title>
+          <pp:sortingTitle>Noble Elephant, The</pp:sortingTitle>
+          <pp:peek>Pulter features the elephant in Emblem 19 because of its treatment as a unique and important animal in a long history of diverse kinds of texts. Classical and early modern sources credit the elephant with being the largest land animal, but one also endowed with a range of admirable traits, especially superior intellect and even the ability to reason.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>fable</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Michel de Montaigne</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>religion</pp:keyword>
+            <pp:keyword>Seneca</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="85">
