@@ -6622,6 +6622,15 @@
         <pp:tag>slavery</pp:tag>
         <pp:tag>war</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="apes-and-art">
+          <pp:author>
+            <pp:person>Scott Maisano</pp:person>
+          </pp:author>
+          <pp:title>Apes and Art: From Bruegel to Banksy and Beyond</pp:title>
+          <pp:peek>While “Ambitious Apes” is a naked emblem, there was no shortage of—indeed, there was a “veritable craze” for—monkey engravings and paintings around the time Pulter wrote her poem. The vogue for <span class="it">singerie</span> (French for “monkey trick”), a visual arts genre in which monkeys ape human activities and manners, peaked in the eighteenth century but had its roots in the sixteenth and seventeenth centuries.</pp:peek>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
