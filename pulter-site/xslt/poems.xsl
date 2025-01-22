@@ -6630,6 +6630,21 @@
           <pp:title>Apes and Art: From Bruegel to Banksy and Beyond</pp:title>
           <pp:peek>While “Ambitious Apes” is a naked emblem, there was no shortage of—indeed, there was a “veritable craze” for—monkey engravings and paintings around the time Pulter wrote her poem. The vogue for <span class="it">singerie</span> (French for “monkey trick”), a visual arts genre in which monkeys ape human activities and manners, peaked in the eighteenth century but had its roots in the sixteenth and seventeenth centuries.</pp:peek>
         </pp:curation>
+        <pp:curation status="on" hash="jezebel">
+          <pp:author>
+            <pp:person>Scott Maisano</pp:person>
+          </pp:author>
+          <pp:title>Jezebel</pp:title>
+          <pp:peek>The clipped tone of Pulter’s couplet on Jezebel and Jehu leaves much to be filled in by the reader, but one thing is clear from the context: Jezebel is likened to Nemesis, “the agent of divine justice [and] the enemy of hybris,” and Jehu to prideful, arrogant “usurpers,” like Zimri, who had met a miserable fate (being incinerated in a fire) before him.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>queen</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="92">
