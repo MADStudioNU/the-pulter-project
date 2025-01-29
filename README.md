@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > A091 (_Ambitious Ape_ by Scott Maisano)
 
 ### Curations
-> C084a (_Chaste Animals?_ by Karen Raber), C084b (_Elephants and Religion_ by Karen Raber), C084c (_The Noble Elephant_ by Karen Raber), C091a (_Apes and Art_ by Scott Maisano)
+> C084a (_Chaste Animals?_ by Karen Raber), C084b (_Elephants and Religion_ by Karen Raber), C084c (_The Noble Elephant_ by Karen Raber), C091a (_Apes and Art_ by Scott Maisano), C091b (_Jezebel_ by Scott Maisano)
 
 ### Explorations
 > —
