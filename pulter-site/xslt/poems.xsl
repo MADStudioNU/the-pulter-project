@@ -6602,7 +6602,7 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:edition type="amplified">
+       <pp:edition type="amplified">
           <pp:author>Scott Maisano</pp:author>
         </pp:edition>
       </pp:editions>
