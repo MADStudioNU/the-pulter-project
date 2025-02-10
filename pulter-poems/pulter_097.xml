@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Felicity Sheehy</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -149,7 +149,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_227" type="pageNum" place="margin-topright">32</fw>[Emblem 32]</rdg>
             <rdg wit="#ee">The Lion and the Ass<lb/>(Emblem 32)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">The Lion and the Ass</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +158,14 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="https://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">
+              <p>
+                This is a semi-diplomatic transcription, with most original spelling, punctuation, and lineation retained. Exceptions include u/v and i/j, which have been silently modernized, and ff, which has been modernized as F. I have silently lowered superscript letters (“pr<hi rend="italic">e</hi>sumes” in line 10), italicized supplied letters (“pr<hi rend="italic">e</hi>sumes” in line 10 and “com<hi rend="italic">m</hi>end” in line 13), and replaced fossil thorn with “<hi rend="italic">th</hi>” (“<hi rend="italic">th</hi>e” in note 15). Given the manuscript’s mixture of majuscule “S,” minuscule “s,” and the elongated version of minuscule “s,” I have written majuscule “S” only at the beginning of words. I have marked the interlinear addition of “doth” with a caret (^), and I have discussed the marginal writing in a note.
+              </p>
+              <p>
+                In comparison to the Elemental Edition, this Amplified Edition therefore allows for a more uncertain and unpredictable reading experience, in line with the poem’s own surprising twists and turns. In my notes, I have glossed unfamiliar words (drawing upon the <title rend="italic">Oxford English Dictionary</title>) and provided cultural, historical, and literary context. Moreover, I have emphasized this poem’s connections to — and divergences from — other poems in the manuscript. Above all else, I have attempted to preserve the poem’s strangeness: the onward rush of its startling “Storyes,” which — whatever Pulter may claim — are not exactly “plainly seen” (line 21). Rather than offering a clear reading, my edition highlights moments of interpretive surprise, uncertainty, or friction.
+              </p>
+            </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -166,7 +173,37 @@
               <note type="headnote">Jealousy: good or bad? It can be “noble” or not, in Pulter’s terms. The noble kind avoids pre-emptive strikes, such as the dramatic approach of the male wild ass, who bites off the testicles of its male newborns to prevent them mating with their mother (so Pulter’s sources claimed). It is not hard to understand her castigation of this approach to preventing infidelity; more surprising is her apparent endorsement, by contrast, of the lion’s and the elephant’s policy of uxoricide: the killing of their unfaithful mates. What makes the difference? The ass, cynically, predicts the worst—the infidelity and incest of both spouse and offspring—while the lion (like the elephant) waits until he “<hi rend="italic">knows</hi> she doth amiss” (emphasis added). The vice emblematized, therefore, is not jealousy, but “suspicion.” This poem joins <ref type="pp-poem-ref" corresp="84">The Elephant (Emblem 19)</ref> and <ref type="pp-poem-ref" corresp="85">This Poor Turtledove (Emblem 20)</ref> in their concern with marital fidelity, while sharpening the focus of the preceding emblem in the manuscript (<ref type="pp-poem-ref" corresp="96">Old Aeschylus (Emblem 31)</ref>) in a preoccupation with avoiding undue apprehension and preconception. “Let me not here anticipate the grave,” the speaker pleads, there, with herself; here, more indirectly, a similar message is proffered to an unspecified “you.”</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+              <p>
+                At the end of “The Lion and The Ass,” Hester Pulter claims to have demonstrated a clear moral. “By these Storyes” of jealous animals, she writes, the reader “may plainly see / The Noblest Mind is from Suspition Free” (ll. 21-22). Such clarity was expected of emblem poems, which “educat[ed] their readers by providing a clear moral […] to apply to their own lives” (see Rachel Zhang’s Curation, <ref type="pp-curation-ref" target="/poems/ee/the-cuckoo-emblem-29/#emblem-books-as-parenting-guides">Emblem Books as Parenting Guides</ref>). Yet this particular emblem does not quite follow the convention. Much like the rest of the manuscript, “The Lion and the Ass” is a complex, even convoluted poem, which builds to a startling conclusion. Pulter does not simply condemn suspicion. Rather, she praises something that is not all that “plainly see[n]”: a kind of “Noble Jealousie,” which enables the marriage between an “indulgent” cuckold and his cheating spouse (1. 21, 1. 13, l. 7).
+              </p>
+              
+              <p>
+                Part of what makes this poem challenging is its approach to romantic jealousy itself. Here as elsewhere in her manuscript, Pulter praises animals who kill their adulterous spouses. Take her claims about the elephant, who is a kind of ideal husband, an animal who “Transcend[s]” all others in “Noble Jealousie” (1. 14, 1. 13). According to an earlier emblem in the manuscript, <ref type="pp-poem-ref" corresp="84">The Elephant</ref>, this creature is superior to the gallants of contemporary England, who let their wives “fool out their days / At balls and taverns, seeing wanton plays” (ll. 38-39). Unlike these men, the elephant is both chaste and attentive, willing to kill his spouse if she cuckolds him: “For chastity this gallant creature’s crowned / … / Yet he’s so tender of his reputation / He kills his female if he doubts scortation” (ll. 16-23). Likewise, in “The Lion and the Ass,” the lion is a “slave” to his lioness until — and only until — he has certain knowledge of her infidelity (l. 6). Like a leonine Othello, he demands not ocular but olfactory proof; unlike Othello, he never suffers from agonizing doubt. He kills his lioness if he “Smels the Panthers Strong perfumes”; otherwise, “that Shee is false to him hee never dreams” (l. 9, l. 12). The poem imagines a jealousy free from suspicion: an intense care and attentiveness without the concomitant fraught uncertainty.
+              </p>
+              
+              <p>
+                Yet suspicion was central to the early modern understanding of jealousy. As Bradley Irish has documented, the two were at times rough synonyms of one another, “suspicious” an acceptable gloss for “jealous.”<seg>1<note type="gloss"><bibl>Bradley J. Irish, “Jealousy in Early Modern England,” <title rend="italic">Studies in Philology</title> 121 (2024): 432-463.</bibl> As Irish writes, “the word jealous was sometimes employed in the broadest possible sense as a synonym for suspicious.” I am grateful to Irish for sharing material from his forthcoming book; see <title rend="italic">The Rivalrous Renaissance: Envy and Jealousy in Early Modern England</title> (Routledge, 2025).</note></seg> According to some thinkers, jealousy could in fact be defined as a kind of suspicion: a “griefe for suspition of dishonesty in married yoake-fellows, Husbands or wives.”<seg>2<note type="gloss"><bibl>Thomas Wilson, <title rend="italic">A Christian Dictionarie</title> (London, 1612), p. 244.</bibl> See also Irish, “Jealousy,” p. 436, which considers this quotation. For a further discussion of jealousy, see also <bibl>Irish, <title rend="italic">Emotion in the Tudor Court: Literature, History, and Early Modern Feeling</title> (Evanston, IL: Northwestern University Press, 2018).</bibl></note></seg> For most men, Mark Breitenberg has argued, jealousy was thus indistinguishable from “an anxiety-producing interpretive crisis.”<seg>3<note type="gloss"><bibl>Mark Breitenberg, “Anxious Masculinity: Sexual Jealousy in Early Modern England,” <title rend="italic">Feminist Studies</title> 19 (1993): 377-398.</bibl> See also Breitenberg’s book, which expands upon the article: <bibl><title rend="italic">Anxious Masculinity in Early Modern England</title> (Cambridge: Cambridge University Press: 1996).</bibl></note></seg> An entire industry of “Renaissance treatises on jealousy, marriage, and the proper conduct of wives” arose to help these men “‘correctly’ [read] the signs of women’s sexual behavior”: a task that many believed was doomed from the start.<seg>4<note type="gloss">Breitenberg, “Anxious Masculinity,” p. 384.</note></seg> As the pamphlet <title rend="italic">Tell-Trothes New-years Gift</title> (1593) puts it, “if she means to deceive thee, her invention is hard to be prevented, for watch her ever so narrowly, she [will] finde a time to performe her knavery.”<seg>5<note type="gloss"><bibl><title rend="italic">Tell-Trothes New-yeares Gift</title> (1593), ed. Frederick J. Furnivall (London: N. Trubner &amp; Co., 1876), p. 35.</bibl> Breitenberg, “Anxious Masculinity,” p. 390, also discusses this quotation.</note></seg> In other words, the “sexual behavior of women” was ultimately “impossible” to “interpret” “for certain,” making jealousy — and cuckoldry itself — inevitable.<seg>6<note type="gloss">Breitenberg, “Anxious Masculinity,” p. 390.</note></seg>
+              </p>
+              <p>
+                The lion faces this very interpretive challenge. As Pulter makes clear, he is readily fooled by his lioness, who “wash[es] her[self]” so effectively “in some crystal streams / That she is false to him he never dreams” (l. 11-12). The rhyme, which also appears in Pulter’s poem <ref type="pp-poem-ref" corresp="2">The Invitation to the Country</ref>, is here as there a marker of disappointed idealism. Like the country house, whose “enamelled vales and crystal streams / prove” to be nothing but “dreams” (l. 91-92), so too is this lioness’s fidelity a mere “dream,” the false product of some “crystal stream” (l. 12, l. 11). If the lion at first seems to be an involved and attentive spouse — much like the elephant — his awareness has its limits. His interpretive process is revealed to be fallible: he may smell the panther, but his lioness can easily wash off this scent. Whatever his “Noble Jealousie,” it seems, the lion is at last just another cuckold, tricked by his cunning spouse (l. 13).
+              </p>
+              <p>
+                Yet the poem does not condemn his cuckoldry. Pulter reserves her ire not for this lion, nor even for this lioness, but for the “Ass”: a creature “hairbraind” with jealousy (l. 15). Unlike the lion, who is at times fooled by his wife, the ass attempts “to prevent” any and all adultery (l. 18). As Pulter recounts, he even castrates his children at birth, worried that they may one day sleep with their mother. The comparison between these two animals — the lion and the ass — leads to a surprising conclusion: a cuckold can be preferable to a non-cuckold, if that non-cuckold is ruled by irrational jealousy. As Pulter makes clear, the ass is “wild,” “hairbraind,” and “mad braind” at least in part because he “fears the Horn” (l. 15, l. 24, l. 19). For Pulter, it seems, this fear of cuckoldry — and not cuckoldry itself — is the real problem.
+              </p>
+              <p>
+                In fact, Pulter later argues, what people actually “scorn” is not cuckoldry but wittolry (l. 20). The wittol — a “man who is aware of and complaisant about the infidelity of his wife,” according to the <title rend="italic">Oxford English Dictionary</title> — is a problematic figure in her poetry.<seg>7<note type="gloss">See “wittol,” in <title rend="italic">The Oxford English Dictionary</title> [<ref target="//www.oed.com" type="new-window-url">online</ref>] [accessed 29 March 2024].</note></seg> More than once, Pulter describes the wittol as especially repugnant: “below a beast” (l. 45), according to “The Elephant” (Poem 84), or “the people’s scorn” (l. 20), according to “The Lion and the Ass.” This distaste was not unusual. Though Jennifer Panek has documented a “dynamic continuum of wittols,” not all of whom were met “with automatic, unmitigated contempt,” many did believe wittols to be “even baser, less manly, and more contemptible than a regular cuckold.”<seg>8<note type="gloss"><bibl>Jennifer Panek, ‘“A Wittall cannot be a cookold’: Reading the Contented Cuckold in Early Modern English Drama and Culture,” <title rend="italic">JEMCS</title> 1 (2001): 66-92.</bibl> Panek accounts for the full range of approaches to the early modern wittol, noting that not all commentators were as contemptuous as Pulter.</note></seg> As Jean De Chassanion puts it, the wittol is “a monstrous kind of creatures, and degenerate not only from the law of humanity, but of nature also.”<seg>9<note type="gloss"><bibl>Jean De Chassanion, <title rend="italic">The Theatre of Gods Iudgements</title> (London, 1597), p. 344.</bibl> Irish, “Jealousy,” p. 460, also discusses this quotation.</note></seg>
+              </p>
+              <p>
+                In this poem about a cuckolded lion, Pulter thus singles out two figures for special condemnation: the ass, who is ruled by fear of cuckoldry, and the wittol, who is complacent with cuckoldry. The poem’s only “regular cuckold,” by contrast, receives different treatment.<seg>10<note type="gloss">Panek, “Contented Cuckold,” p. 67.</note></seg> The lion, though fooled by his lioness, enjoys something rather surprising: what is in some ways the poem’s best relationship. This is not to say that his marriage is perfect. As Pulter makes clear, the lion is “most indulgent” (l. 7): a term which may be glossed as “too forbearing, weakly lenient.”<seg>11<note type="gloss">See “indulgent,” in <title rend="italic">The Oxford English Dictionary</title> [<ref target="//www.oed.com" type="new-window-url">online</ref>] [accessed 30 July 2024]. On Pulter’s different approach to parental indulgence, see <bibl>Elizabeth Zeman Kolkovich, “In Defense of Indulgence: Hester Pulter’s Maternal Elegies,” <title rend="italic">JEMCS</title> 20 (2020): 43-70.</bibl></note></seg> In a world in which “an adulterous woman gravely threatened her husband’s allegedly natural authority,” the lion has failed to exercise adequate control over his spouse.<seg>12<note type="gloss">Irish, “Jealousy,” p. 440.</note></seg> Yet Pulter’s criticism of the lion, especially in comparison to her clear condemnation of the ass and the wittol, is relatively brief. His “Jealousie” is still “Noble,” his “indulgent” approach the best of three bad options (l. 13, l. 7).
+              </p>
+              <p>
+                Even more curious, this portrait of marriage is incongruous with Pulter’s other writing on the subject. Elsewhere, it seems, Pulter treats adultery as a symptom of wider societal disorder. Her emblems, “unusual in the degree to which they comment on immediate political and social events,” often attack young men, the “gallants” of England, who have neglected both their social and political responsibilities (see also the “Headnote” to “The Elephant” (Poem 84)).<seg>13<note type="gloss"><bibl>Alice Eardley, “Introduction,” in <title rend="italic">Poems, Emblems, and The Unfortunate Florinda</title>, ed. Alice Eardley (Toronto: Centre for Reformation and Renaissance Studies Press, 2014), pp. 1-38 (p. 28).</bibl></note></seg> As she writes in “The Elephant” (Poem 84), these “lords in noble breeding failed” to be “valiant,” a “want which [made] us bleed / In our brave king” (line 30, line 28, line 27-28). Now, these same “gallants of our age” “neglect” their wives “to drink, rant, throw the die,” while these women “to temptation […] open lie” (l. 4, l. 36, l. 37). For Pulter, these marital and social problems mirror one another: “the new system of government” is “an inversion of the established social hierarchy,” much like “the kind of disorderly, woman-on-top marriage that was conventionally assumed to produce cuckolds.”<seg>14<note type="gloss">Eardley, “Introduction,” p. 28; Panek, “Wittall,” p. 67.</note></seg>
+              </p>
+              <p>
+                In “The Lion and the Ass,” however, this correspondence between family and state is less pronounced. The lion is a creature of extremes; at once a “Tirant” to his subjects and a “slave” to his wife (l. 4, l. 6). On the one hand, he is the uncontested ruler of his realm. Much of the poem emphasizes his authority: he is a “Tirant,” whose “vassals” “all assemble” to “Stand examinated,” “Subject” to “his Mercie” (l. 4, l. 1, l. 2, l. 3, l. 5). Notably, though Pulter claims to have “plainly” shown that the lion is “from Suspition Free,” the lion is in fact <hi rend="italic">not</hi> without suspicion: in the more expansive sense of the term, he is clearly jealous — that is, suspicious — of his people (l. 21, l. 22).<seg>15<note type="gloss">See Irish, “Jealousy,” p. 437.</note></seg> Yet he takes a different approach to his lioness. With her, this fierce “Tirant” is passive, even “indulgent”: a “slave” to her affections (l. 4, l. 7, l. 6). In a book otherwise full of unappealing portraits of marriage — of men who “roam” in “taverns” or “tyrannize at home” (ll. 15-16), of wives comparable to slaves (see <ref type="pp-poem-ref" corresp="89">The Marmottane</ref> and <ref type="pp-poem-ref" corresp="85">This Poor Turtledove</ref>) — Pulter lands upon a surprising portrait of a cuckold and his spouse. What Pulter depicts, that is, is a marriage in which a man, not a woman, is made into a slave. Pulter’s undeniable disapproval of adultery — as well as her disdain for the lion’s indulgence — exists alongside this curious reversal.
+              </p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -175,42 +212,42 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">32</fw>   <seg>The<note type="physical">poem begins near bottom of page on which previous poem ends</note></seg> Lion Roars his vaſſals fear and tremble</rdg>
           <rdg wit="#ee">The lion roars; his <seg>vassals<note type="gloss">subordinates, servants</note></seg> fear and tremble.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thee Lion Roars his <seg>vassals<note type="gloss">servants or subordinates, inferiors comparable to feudal vassals</note></seg> fear and tremble</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">But if hee comes where they doe all aſſemble</rdg>
           <rdg wit="#ee">But if he comes where they do all assemble,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But if hee comes where they doe all assemble</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">They Stand examinated as they Say</rdg>
           <rdg wit="#ee">They stand <seg>examinated<note type="gloss">examined, as a witness at a trial, or a student tested for competence. Pulter uses this word to suggest the lion’s “institutional” power over the subjects who are at his mercy.</note></seg>, as they say.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">They <seg>Stand examinated<note type="gloss">examined, as in judged or appraised</note></seg> as they Say</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Thus Tirant like hee chooſeth out his prey</rdg>
           <rdg wit="#ee">Thus, tyrant-like, he chooseth out his prey;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thus <seg>Tirant like<note type="critical">Early modern writers often compared husbands to tyrants. As Pulter herself writes in <ref type="pp-poem-ref" corresp="89">The Marmottane</ref>, husbands are known to “Tirranise” their wives “at home” (l. 16). “The Lion and the Ass” changes this pattern by describing the lion as a “Tirant” to his subjects but a “Slave” to his lioness.</note></seg> hee chooseth out his prey</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Yet though his Subjects at his Mercie Lies</rdg>
           <rdg wit="#ee">Yet though his subjects at his mercy lies,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet though his <seg>Subjects<note type="gloss">dependents, subordinates, people of inferior status. Much like “vassals,” this word emphasizes the lion’s tyrannical rule over his inferiors.</note></seg> at his Mercie <seg>Lies<note type="critical">The first five lines of the poem depict the lion as a kind of jealous tyrant: a figure recognizable to Pulter’s early modern audience. Kings were often said to be jealous (in the sense of suspicious) of their subjects, or even jealous (in the sense of vigilantly watchful) of their authority itself. According to John Warr, “Kings have been always jealous of the people”; according to J. Gailhard, “Princes are jealous of their Authority.” (<bibl>John Warr, <title rend="italic">The Priviledges of the People</title> (London: Printed by G. Dawson for Giles Calvert, 1649), p. 1</bibl>; <bibl>J. Gailhard, <title rend="italic">The Present State of the Princes and Republicks of Italy</title> (London: Printed for John Starkey, 1671), p. 183</bibl>). Even before Pulter establishes the lion as a jealous lover, that is, she establishes him as a jealous ruler. For a further discussion of these political manifestations of jealousy, see <bibl>Bradley J. Irish, “Jealousy in Early Modern England,” <title rend="italic">Studies in Philology</title> 121 (2024): 432-63.</bibl></note></seg></rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Yet hee’s a Slave unto his Love’s bright eyes</rdg>
           <rdg wit="#ee">Yet he’s a slave unto his love’s bright eyes,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet hee’s a <seg>Slave<note type="gloss">As in <ref type="pp-poem-ref" corresp="85">This Poor Turtledove</ref>, Pulter compares love to a kind of slavery. In this poem, an oft-widowed bird is described as choosing to “be a slave,” despite “being freed so oft” (l. 14).</note></seg> unto his <seg>Love’s bright eyes<note type="critical">As many have noted, early modern desire operated via a “specular economy,” in which vision and sight were paramount. For a discussion, see <bibl>Mark Breitenberg, “Anxious Masculinity: Sexual Jealousy in Early Modern England,” <title rend="italic">Feminist Studies</title> 19 (1993): 377-98.</bibl></note></seg></rdg>
         </app>
       </l>
 
@@ -236,126 +273,126 @@
         <app>
             <rdg wit="#ft">Beeing most indulgent to his Lyones</rdg>
           <rdg wit="#ee">Being most indulgent to his <seg>lioness<note type="gloss">See Philemon Holland’s translation of Pliny for a parallel to the next few lines: “Lionesses are very lecherous, and this is the very cause that the lions are so fell and cruel. ... The lion knoweth by sent and smell of the pard [panther, leopard] when the lioness his mare hath played false, … and presently with all his might and maine runneth upon her for to chastise and punish her. And therefore when the lioness hath done a fault that way, she either goeth to a river, and washeth away the strong and rank savor of the pard, or els keepeth aloof, and followeth the lion far off, that he may not catch the said smell.” <bibl><title rend="italic">The History of the World</title> (London, 1634), p. 200</bibl>.</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Beeing most <seg>indulgent<note type="critical">not exercising (as parent or superior) due restraint, too forbearing, weakly lenient. Pulter appears to take a different approach to parental indulgence. In an elegy for her daughter, Elizabeth Kolkovich has argued, Pulter “defines indulgence as love and protection,” a kind of “selfless devotion to children that demonstrates godly behavior.” See Pulter, <ref type="pp-poem-ref" corresp="10">Upon the Death of my Dear and Lovely Daughter, Jane Pulter</ref>; <bibl>Kolkovich, “In Defense of Indulgence: Hester Pulter’s Maternal Elegies,” <title rend="italic">JEMCS</title> 20 (2020): 43-70.</bibl></note></seg> to his <seg>Lyones<note type="critical">Pulter draws upon Philemon Holland’s translation of Pliny, which suggests that lionesses are especially lecherous. As Pliny writes, “These Lionesses are very lecherous, and this is the cause that the Lions are so fell and cruell. [In Africa] many strange-shaped beasts of a mixt and mungrell kind are there bred, whiles the males either perforce or for pleasure leap and cover the females of all sorts.” See <bibl><title rend="italic">The History of the World</title> (London, 1634), p. 200.</bibl></note></seg></rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Yet Kils her if hee Knows Shee <seg><add place="below">\</add><add place="above">do’th\</add><note type="physical">written in H2</note></seg> a miſs</rdg>
           <rdg wit="#ee">Yet kills her if he knows she doth amiss.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Yet kils her if hee knows Shee <seg>^doth<note type="gloss">The insertion of this word fills out the meter.</note></seg> a miss</rdg>
         </app>
       </l>
       <l n="9">
         <app>
             <rdg wit="#ft">&ff;or when hee Smels the Panthers Strong perfumes</rdg>
           <rdg wit="#ee">For when he smells <seg>the panther’s strong perfumes<note type="gloss">“Perfumes” may refer to to any odors. See Philemon Holland’s translation of Pliny: “It is said, that all four-footed beasts are wonderfully delighted and enticed by the smell of panthers” <bibl><title rend="italic">The History of the World</title> (London, 1634), p. 204</bibl>.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> For when hee Smels the <seg>Panthers Strong perfumes<note type="critical">Pliny’s commentary on lions again appears to be Pulter’s source: “The Lion knoweth by scent and smell of the Pard, when the Lionesse his mate hath played false, and suffered her selfe to be covered by him; and presently with all his might and maine runneth upon her for to chastise and punish her. And therefore when the Lionesse hath done a fault that way, she either goeth to a river and washeth away the strong and ranke savor of the Pard, or else keepeth aloofe and followeth the Lion afar off, that he may not catch the said smell.” See <bibl><title rend="italic">The History of the World</title> (London, 1634), p. 200.</bibl></note></seg></rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">That Shee hath Broke her &ff;aith he then p<add place="above">e</add>ſumes</rdg>
           <rdg wit="#ee">That she hath broke her faith he then presumes.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> That Shee hath Broke her Faith he then pr<hi rend="italic">e</hi>sumes</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">But if Shee waſh her in Some Criſtall Streams</rdg>
           <rdg wit="#ee">But if she wash her in some crystal streams,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> But if Shee wash her in Some <seg>Cristall Streams<note type="critical">The rhyme between “streams” and “dreams” can also be found in Pulter’s poem <ref type="pp-poem-ref" corresp="2">The Invitation to the Country</ref>. As she writes there, “Enameled vales and crystal streams / Prove now, alas, poor Broadfield’s dreams” (ll. 91-92). As before, the rhyme appears to signal a kind of disappointed idealism.</note></seg></rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">That Shee is falce to him hee never dreams</rdg>
           <rdg wit="#ee">That she is false to him he never dreams.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> That Shee is false to him hee never dreams</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">Such Noble Jealouſie all must co<hi rend="overline">m</hi>end</rdg>
           <rdg wit="#ee">Such noble jealousy all must commend.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> Such <seg>Noble Jealousie<note type="critical">Jealousy — particularly romantic jealousy — was a fraught emotion in early modern England. To some thinkers, it was indeed somewhat “Noble”: a marker of the intensity of one’s love. According to Jacques Ferrand, romantic love in fact could not exist without jealousy: “Love, if it have not a tincture of jealousy, is neither Active, nor Efficacious” (<bibl>Jacques Ferrand, <title rend="italic">Erotomania</title> (London: Printed by L. Lichfield, 1640), p. 187</bibl>). Antoine de Courtin likewise admits that many men — however erroneously — “presum[e] [...] to render [their] Love very commendable when [they] expresses an exceeding Jealousie,” because jealousy “is the strongest Ardure that true Love is capable of” (<bibl>Antoine de Courtin, <title rend="italic">A treatise of jealousie</title>, (London: Printed for W. Freeman, 1684), p. 2</bibl>). Yet still others considered jealousy to be not the proof but “the poyson of Loue.” (<bibl>Nicolas Coeffeteau, <title rend="italic">A Table of Humane Passions</title> (London: Printed by Nicholas Okes, 1621), p. 174</bibl>) Jealousy could turn a once happy marriage into a miserable imprisonment: it “doth make domesticall debate betwene man and Wyfe: and tourneth theyr house of libertie, into a miserable prysone” (<bibl>William Bullein, <title rend="italic">Bulletins Bulwarke</title> (London: By Thomas Marshe, 1579), p. 26</bibl>). Given these effects, jealousy was often understood as a kind of illness or madness, even an “incurable wound.” According to <title rend="italic">Orlando Furioso</title>, “it is a cruel wound which steeps the victim in the very abyss of suffering, and brings him to despair and death. O incurable wound, so easily opened in a lover’s heart […] So cruelly does it afflict a person, it clouds his reason and changes him beyond recognition” (<bibl><title rend="italic">Orlando Furioso</title>, tr. Guido Waldman, (Oxford, 1974), Canto 31</bibl>). For a full discussion of these different approaches to jealousy and romantic love, see <bibl>Bradley J. Irish, “Jealousy in Early Modern England,” <title rend="italic">Studies in Philology</title> 121 (2024): 432-63.</bibl> Irish discusses Jacques Ferrand’s, Antoine de Courtin’s, Nicolas Coeffeteau’s, and William Bullein’s writing.</note></seg> all must com<hi rend="italic">m</hi>end</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">In this the Elaphant doth Soe Tranſcend</rdg>
           <rdg wit="#ee">In this, the elephant doth <seg>so<note type="gloss">equally, to the same extent; or, possibly, short for “also.” The sense is that the lion and elephant equally transcend other creatures in the nobility of their jealousy. See <ref type="pp-poem-ref" corresp="84">The Elephant (Emblem 19)</ref>: “For chastity this gallant creature’s crowned; / … / Yet, he’s so tender of his reputation / He kills his female if he doubts [fears] scortation [adultery].”</note></seg> transcend.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> In this the <seg>Elaphant<note type="critical">Pliny is especially effusive in his praise of the elephant. As he writes, “the elephant is the greatest, and commeth the nearest in Wit and capacitie to men […] They embrace goodnesse, honestie, prudence, and equalitie (rare qualities I may tell you to be found in men)” (<bibl><title rend="italic">The History of the World</title> (London, 1634), p. 192</bibl>). Elephants were also widely considered to be jealous. As Robert Burton claims, “Elephants [...] are more iealous than any other creatures whatsoeuer” (<bibl>Robert Burton, <title rend="italic">Anatomy of Melancholy</title> (Oxford: Printed by Iohn Lichfield and Iames Short, 1621), p. 667</bibl>). This line likewise recalls Pulter’s earlier emblem on the elephant, which praises his willingness to kill his cheating wife (<ref type="pp-poem-ref" corresp="84">The Elephant</ref>). Like the lion, she writes here, the elephant “Transcend[s]” other creatures in “Noble Jealousie.”</note></seg> doth Soe Transcend</rdg>
         </app>
       </l>
       <l n="15">
         <app>
           <rdg wit="#ft"><seg>But<note type="physical">in left margin: “<add place="above">x</add> Plinie y<add place="above">e</add> 11 Boo / Chapter 30.”</note></seg> the wild hairbraind <seg>And<note type="physical">“n” appears to correct partly and imperfectly erased letter, possibly “ſ”</note></seg> Laſcivious <add place="above">x</add>Aſs</rdg>
           <rdg wit="#ee">But the wild, hare-brained, and <seg>lascivious ass<note type="gloss">lustful or lewd donkey. A note in the margin refers readers to Chapter 30 of Pliny’s 11th book: a reference to an ancient compendium of natural history. For the meter, “lascivious” should take three syllables.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> <seg>But<note type="gloss">A marginal note to the left of this word reads “Plinie <hi rend="italic">th</hi>e 11Boo. Chapter 30.” Pliny actually discusses the ass in Book 8.</note></seg> the wild hairbraind And Lascivious <seg>Ass<note type="critical">Various versions of <title rend="italic">Aesop’s Fables</title>, popular throughout the seventeenth century, pair the lion and the ass together, with the lion described as “the king of the Brutes” and the ass as “the dullest of Mutes.” See <bibl><title rend="italic">Old Aesop at Whitehall Giving Advice to Young Aesops</title> (London: J. Nutt, 1698), pp. 29-30.</bibl></note></seg></rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">All Creatures els in Jealouſie doth paſs</rdg>
           <rdg wit="#ee">All creatures else in jealousy doth pass;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> All <seg>Creatures<note type="critical">Such animal comparisons were not uncommon in early modern writing about jealousy. Many understood jealousy to be a natural emotion, which appeared across the animal kingdom, affecting “every bruit Beast as well as man.” In addition to lions, asses, and elephants, Pulter’s contemporaries considered swans, bulls, hens, and doves to be especially jealous. “Many sencelesse and bruit beasts,” writes Benedetto Varachi, “are [...] Jealous, as is apparently seen in Buls, in Swannes, in Lyons, in Doves, in Hennes, and such like.” See <bibl>Benedetto Varchi, <title rend="italic">Blazon of Iealousie</title> (London: T.S. for Iohn Busbie, 1615), pp. 56-57.</bibl></note></seg> els in Jealousie doth pass</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">&ff;or hee doth Watch <seg>his<note type="physical">“is” written over earlier “er”</note></seg> Young ones when they fall</rdg>
           <rdg wit="#ee">For he doth watch his young ones <seg>when they fall<note type="gloss">when they are born</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> For hee doth Watch his Young ones when they fall</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">Then to prevent all fear hee bites of all</rdg>
           <rdg wit="#ee">Then, <seg>to prevent all fear, he bites off all<note type="gloss">The father ass aims to avoid having his sons mate with their mother by castrating them at birth, with “all” referring here to testicles. See Philemon Holland’s translation of Pliny on wild asses (cited in the margin of this line to Chapter 30 of his eleventh book, in error for the eighth): “This beast is so jealous, that they look narrowly to the females great with young: for so soon as they have foaled, they bite off the cods [testicles] of the little ones that be males, and so geld [castrate] them.” <bibl><title rend="italic">The History of the World</title> (London, 1634), p. 212</bibl>.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> Then to prevent all fear hee <seg>bites of all<note type="critical">The ass, in other words, castrates his children moments after birth. Pulter’s source, Pliny, describes the male donkey as uniquely jealous, though this jealousy is not entirely unfounded: female donkeys are apparently eager to commit incest. As Pliny writes, “This beast is so jealous, that they looke narrowly to the females great with young: for so soone as they have foled, they bite off the cods of the little ones that be males, and so gueld them. But contrariwise, the shee asses when they be big, seeke corners, and keepe out of their way, that they might bring forth their young secretly without the knowledge of the Stallons: for desirous they are to have many males: so lecherous they be, and glad evermore to be covered” (<bibl><title rend="italic">The History of the World</title> (London, 1634), p. 212</bibl>). Other than Pliny, several commentators also describe the ass as unusually jealous. According to Robert Allott, “of all beasts, the wild Asse [...] is the most jealous, for in an whole Herd of females, there is but one male, and he is so jealous, that he will not suffer any to come among him” (<bibl>Robert Allott, <title rend="italic">Wits Theater of the Little World</title> (London: I.R. for N.L., 1599), p. 75</bibl>).</note></seg></rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Hee’s Surely proud of’s Ears and fears the Horn</rdg>
           <rdg wit="#ee">He’s surely proud <seg>of’s<note type="gloss">of his</note></seg> ears, and fears <seg>the horn<note type="gloss">a cuckold, an insulting term for the husband of an unfaithful wife was imagined to grow a horn or horns</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> Hee’s Surely proud of’s ears and <seg>fears the Horn<note type="critical">Cuckoldry was widely feared in early modern England. To many commentators, it was seemingly inevitable, a product of marriage itself. At the end of <title rend="italic">Much Ado About Nothing</title>, Benedict advises Don Pedro to “Get thee a wife, get thee a wife! There is no staff more reverent than one tipped with a horn” (<bibl><title rend="italic">Much Ado About Nothing</title>, 5.4.122-124, eds. Barbara Mowat and Paul Werstine, Washington Square Press, 2004</bibl>). Likewise, the speaker of the ballad “Cuckold’s Haven” (1630) is “oftentimes […] hornify’d,” no matter what he does: “Though narrowly I doe watch / and use Lock, Bolt, and Latch, / My wife will me o’rematch / my forehead I may scratch: / For though I wait both time and tide, / I oftentimes am hornify’d” (<bibl><title rend="italic">The Roxburghe Ballads</title>, ed. W. Chappell, AMS, 1966, p. 149</bibl>).</note></seg></rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">When ’tis the Wittal is the peoples Scorn</rdg>
           <rdg wit="#ee">When ’tis the <seg>wittol<note type="gloss">a husband who is aware of his wife’s infidelity and puts up with it</note></seg> is the people’s scorn.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> When ‘tis <seg>the Wittall<note type="critical">a man who is aware of and complaisant about the infidelity of his wife; a contented cuckold. The wittol was an especially repugnant figure in early modern England. As Laura Gowing writes, “popular culture made cuckolds the butt of countless jokes, rituals, and songs: most humiliated of all was the ‘wittold’: the cuckold who condoned his wife’s adultery” (<bibl><title rend="italic">Domestic Dangers: Women, Words, and Sex in Early Modern London</title>, Clarendon, 1996, p. 192</bibl>). According to Nicholas Breton, the “Cuckolde is the scorne of marriage, but a wittoll is a beast in nature,” his “shame” even “greater” (<bibl>Nicholas Breton, <title rend="italic">Wits Priuate Wealth</title> (London: Printed by Edw. Allde, for Iohn Tappe, 1612), D1v</bibl>; <bibl>Nicholas Breton, <title rend="italic">Crossing of Prouerbs</title> (London: Printed [By G. Eld] for Iohn Wright, 1616), A7</bibl>). At the same time, certain commentators found the wittol to be curiously admirable, as a man liberated from the endless pangs of jealousy. In some ways, that is, the wittol was also “from Suspition Free” (l. 22). According to Francis Lenton, the wittol “lives a very contented life, and is not troubled with Jealousie (the torment of the mind)” (<bibl>Francis Lenton, <title rend="italic">A Piece of the World</title> (London: Printed by John Raworth 1640), F12</bibl>). The wittol speaker of “The Merry Cuckold,” a 1629 ballad, claims to be happy, though “daily [he] strives / against jealous assaults” (<bibl>Anonymous, <title rend="italic">The Merry Cuckold</title> (London: Printed by the assignes of Thomas Symcock, 1629) p. 256</bibl>). Pulter clearly did not share this favorable opinion of wittols. For a full discussion of the wittol, see <bibl>Bradley J. Irish, “Jealousy in Early Modern England,” <title rend="italic">Studies in Philology</title> 121 (2024): 432-63.</bibl> Irish discusses Nicholas Breton’s and Francis Lenton’s writing, as well as “The Merry Cuckold.”</note></seg> is the peoples Scorn</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Then by theſe Storyes you may plainly See</rdg>
           <rdg wit="#ee">Then by these stories you may plainly see</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> Then by these Storyes you may plainly See</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">The Noblest Mind is from Suſpition &ff;ree</rdg>
           <rdg wit="#ee">The noblest mind is from suspicion free;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The Noblest Mind is from <seg>Suspition<note type="critical">apprehension of guilt or fault on slight grounds or without clear evidence. In early modern England, suspicion and jealousy were close cousins. At times, Bradley Irish has noted, “the word jealous was [...] in the broadest possible sense [...] a synonym for suspicious,” given that “the emotion’s motivational context entails vigilance over a potential loss.” This meaning of jealousy often appeared in political contexts. Early modern kings were said to be jealous — that is, suspicious — of their constituents. See <bibl>Bradley J. Irish, “Jealousy in Early Modern England,” <title rend="italic">Studies in Philology</title> 121 (2024): 432-63</bibl>. Notably, Pulter has here described a figure who is in fact not “from Suspition Free.” If the lion is “indulgent” to his spouse, he is clearly suspicious of his “Subjects” (l. 7, l. 5).</note></seg> Free</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">And by like Conſequence it comes to paſs</rdg>
           <rdg wit="#ee">And by like consequence it comes to pass</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And by like Consequence it comes to pass</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">None is Soe Jealous as the mad braind Aſs</rdg>
           <rdg wit="#ee">None is so jealous as the mad-brained ass.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"> None is Soe Jealous as thee mad braind Ass</rdg>
         </app>
       </l>
     </body>
