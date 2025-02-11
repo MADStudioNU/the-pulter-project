@@ -1800,7 +1800,7 @@
                 <xsl:value-of select="'https://montevallo.edu/academics/colleges/college-of-arts-sciences/department-of-english-world-languages/faculty-staff/emma-atwood/'"/>
               </xsl:if>
               <xsl:if test="$witnessName = 'Felicity Sheehy'">
-                <xsl:value-of select="'https://english.princeton.edu/people/felicity-sheehy'"/>
+                <xsl:value-of select="'https://www.felicitysheehypoetry.com'"/>
               </xsl:if>
               <xsl:if test="$witnessName = 'Scott Maisano'">
                 <xsl:value-of select="'https://www.umb.edu/directory/scottmaisano/'"/>
