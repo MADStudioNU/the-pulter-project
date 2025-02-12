@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="xslt:index" type="js.build_tools.gulp">
+  <configuration default="false" name="xslt:search" type="js.build_tools.gulp">
     <node-interpreter>$USER_HOME$/.nvm/versions/node/v22.14.0/bin/node</node-interpreter>
     <node-options />
     <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
     <tasks>
-      <task>xslt:index</task>
+      <task>xslt:search</task>
     </tasks>
     <arguments />
     <envs />
