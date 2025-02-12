@@ -55,10 +55,10 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
 
 ### Poems
-> —
+> A091 (_Ambitious Ape_ by Scott Maisano), A097 (_The Lion and the Ass_ by Felicity Sheehy)
 
 ### Curations
-> C084a (_Chaste Animals?_ by Karen Raber), C084b (_Elephants and Religion_ by Karen Raber)
+> C084a (_Chaste Animals?_ by Karen Raber), C084b (_Elephants and Religion_ by Karen Raber), C084c (_The Noble Elephant_ by Karen Raber), C091a (_Apes and Art_ by Scott Maisano), C091b (_Jezebel_ by Scott Maisano)
 
 ### Explorations
 > —

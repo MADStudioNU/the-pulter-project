@@ -6125,6 +6125,25 @@
             <pp:keyword>sun</pp:keyword>
           </pp:keywords>
         </pp:curation>
+        <pp:curation status="on" hash="the-noble-elephant">
+          <pp:author>
+            <pp:person>Karen Raber</pp:person>
+          </pp:author>
+          <pp:title>The Noble Elephant</pp:title>
+          <pp:sortingTitle>Noble Elephant, The</pp:sortingTitle>
+          <pp:peek>Pulter features the elephant in Emblem 19 because of its treatment as a unique and important animal in a long history of diverse kinds of texts. Classical and early modern sources credit the elephant with being the largest land animal, but one also endowed with a range of admirable traits, especially superior intellect and even the ability to reason.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>fable</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>Michel de Montaigne</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>religion</pp:keyword>
+            <pp:keyword>Seneca</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="85">
@@ -6582,6 +6601,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
+       <pp:edition type="amplified">
+          <pp:author>Scott Maisano</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>slavery</pp:keyword>
@@ -6603,6 +6625,35 @@
         <pp:tag>slavery</pp:tag>
         <pp:tag>war</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="apes-and-art">
+          <pp:author>
+            <pp:person>Scott Maisano</pp:person>
+          </pp:author>
+          <pp:title>Apes and Art: From Bruegel to Banksy and Beyond</pp:title>
+          <pp:peek>While “Ambitious Apes” is a naked emblem, there was no shortage of—indeed, there was a “veritable craze” for—monkey engravings and paintings around the time Pulter wrote her poem. The vogue for <span class="it">singerie</span> (French for “monkey trick”), a visual arts genre in which monkeys ape human activities and manners, peaked in the eighteenth century but had its roots in the sixteenth and seventeenth centuries.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>emblem</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>portrait</pp:keyword>
+            <pp:keyword>queen</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+        <pp:curation status="on" hash="jezebel">
+          <pp:author>
+            <pp:person>Scott Maisano</pp:person>
+          </pp:author>
+          <pp:title>Jezebel</pp:title>
+          <pp:peek>The clipped tone of Pulter’s couplet on Jezebel and Jehu leaves much to be filled in by the reader, but one thing is clear from the context: Jezebel is likened to Nemesis, “the agent of divine justice [and] the enemy of hybris,” and Jehu to prideful, arrogant “usurpers,” like Zimri, who had met a miserable fate (being incinerated in a fire) before him.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>embodiment</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="92">
       <pp:title>The Stately Moose (Emblem 27)</pp:title>
@@ -6903,6 +6954,9 @@
         <pp:edition type="elemental">
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
+        </pp:edition>
+        <pp:edition type="amplified">
+          <pp:author>Felicity Sheehy</pp:author>
         </pp:edition>
       </pp:editions>
       <pp:keywords>
