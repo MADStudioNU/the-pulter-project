@@ -6604,9 +6604,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Scott Maisano</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Scott Maisano</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>slavery</pp:keyword>
@@ -6629,7 +6629,7 @@
         <pp:tag>war</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="off" hash="apes-and-art">
+        <pp:curation status="on" hash="apes-and-art">
           <pp:author>
             <pp:person>Scott Maisano</pp:person>
           </pp:author>
@@ -6644,7 +6644,7 @@
             <pp:keyword>queen</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="jezebel">
+        <pp:curation status="on" hash="jezebel">
           <pp:author>
             <pp:person>Scott Maisano</pp:person>
           </pp:author>
