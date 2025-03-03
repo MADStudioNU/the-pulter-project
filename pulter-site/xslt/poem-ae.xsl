@@ -137,6 +137,10 @@
   <!-- AE Editorial note -->
   <xsl:variable name="editorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $amplifiedEditionId)]"/>
 
+  <!-- AE Headnote  -->
+  <xsl:variable name="aeHeadnote" select="//tei:head/tei:app[@type='headnote']"/>
+  <xsl:variable name="aeHeadnoteLength" select="string-length($aeHeadnote)"/>
+
   <!-- VARIABLES END -->
 
   <!-- TEMPLATES BEGIN -->
@@ -616,17 +620,17 @@
 
       <xsl:variable name="theEditorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $witId)]"/>
 
-      <xsl:variable name="headnoteLength">
-        <xsl:value-of select="string-length(.)"/>
-      </xsl:variable>
-
       <xsl:element name="div">
-<!--        <xsl:attribute name="data-headnote-length">-->
-<!--          <xsl:value-of select="$headnoteLength"/>-->
-<!--        </xsl:attribute>-->
+        <xsl:attribute name="data-headnote-length">
+          <xsl:value-of select="$aeHeadnoteLength"/>
+        </xsl:attribute>
+
+        <xsl:attribute name="data-do-show-headnote-poster">
+          <xsl:value-of select="string($aeHeadnoteLength &gt; 8000 or $aeHeadnoteLength &lt; 12000)"/>
+        </xsl:attribute>
 
         <xsl:choose>
-          <xsl:when test="$headnoteLength &gt; 8000">
+          <xsl:when test="$aeHeadnoteLength &gt; 8000">
             <xsl:attribute name="class">
               <xsl:value-of select="'long-headnote expand-box'"/>
             </xsl:attribute>
