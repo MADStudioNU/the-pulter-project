@@ -49,13 +49,13 @@ Branch `master` is automatically deployed to the [AWS S3 staging site](http://ma
 ### Production Instance
 [![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
 
-Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @sergei-kalugin or @emwitty.
+Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @sergei-kalugin, @emwitty or @lhn4977.
 
 ## Current Delta
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
 
 ### Poems
-> A091 (_Ambitious Ape_ by Scott Maisano), A097 (_The Lion and the Ass_ by Felicity Sheehy)
+> A084 (_The Elephant_ by Karen Raber), A091 (_Ambitious Ape_ by Scott Maisano), A097 (_The Lion and the Ass_ by Felicity Sheehy)
 
 ### Curations
 > C084a (_Chaste Animals?_ by Karen Raber), C084b (_Elephants and Religion_ by Karen Raber), C084c (_The Noble Elephant_ by Karen Raber), C091a (_Apes and Art_ by Scott Maisano), C091b (_Jezebel_ by Scott Maisano)

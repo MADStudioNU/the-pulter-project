@@ -1700,6 +1700,9 @@
               <xsl:if test="$witnessName = 'Scott Maisano'">
                 <xsl:value-of select="'University of Massachusetts Boston'"/>
               </xsl:if>
+              <xsl:if test="$witnessName = 'Karen Raber'">
+                <xsl:value-of select="'University of Mississippi'"/>
+              </xsl:if>
             </xsl:variable>
             <xsl:variable name="witnessExternalURL">
               <xsl:value-of select="''"/>
@@ -1800,10 +1803,13 @@
                 <xsl:value-of select="'https://montevallo.edu/academics/colleges/college-of-arts-sciences/department-of-english-world-languages/faculty-staff/emma-atwood/'"/>
               </xsl:if>
               <xsl:if test="$witnessName = 'Felicity Sheehy'">
-                <xsl:value-of select="'https://www.felicitysheehypoetry.com'"/>
+                <xsl:value-of select="'https://english.princeton.edu/people/felicity-sheehy'"/>
               </xsl:if>
               <xsl:if test="$witnessName = 'Scott Maisano'">
                 <xsl:value-of select="'https://www.umb.edu/directory/scottmaisano/'"/>
+              </xsl:if>
+              <xsl:if test="$witnessName = 'Karen Raber'">
+                <xsl:value-of select="'https://english.olemiss.edu/karen-raber/'"/>
               </xsl:if>
             </xsl:variable>
 
