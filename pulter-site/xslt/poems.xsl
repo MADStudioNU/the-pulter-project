@@ -7857,6 +7857,18 @@
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>race</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="aristomenes-in-history">
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
+          <pp:title>Aristomenes in History</pp:title>
+          <pp:peek>According to Pliny, Aristomenes’ heart was discovered to have hair on it, which was a physiological manifestation of his great strength and valor. For Pulter, the decision to exclude such a detail from Aristomenes’ story makes sense</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="111">
       <pp:title>The Bishop and the Rats (Emblem 46)</pp:title>
