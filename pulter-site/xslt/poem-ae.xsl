@@ -137,6 +137,10 @@
   <!-- AE Editorial note -->
   <xsl:variable name="editorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $amplifiedEditionId)]"/>
 
+  <!-- AE Headnote  -->
+  <xsl:variable name="aeHeadnote" select="//tei:head/tei:app[@type='headnote']"/>
+  <xsl:variable name="aeHeadnoteLength" select="string-length($aeHeadnote)"/>
+  <xsl:variable name="hasLongHeadnote" select="$aeHeadnoteLength &gt; 4000"/>
   <!-- VARIABLES END -->
 
   <!-- TEMPLATES BEGIN -->
@@ -582,6 +586,10 @@
   <xsl:template match="tei:head/tei:app[@type = 'title']">
     <xsl:param name="witId"/>
     <div class="poster">
+      <xsl:attribute name="data-long-headnote">
+        <xsl:value-of select="string($hasLongHeadnote)"/>
+      </xsl:attribute>
+
       <xsl:variable name="posterDarkUrl" select="concat('/images/headnote-posters/h', $poemID, 'd.jpg')"/>
       <xsl:variable name="posterLightUrl" select="concat('/images/headnote-posters/h', $poemID, 'l.jpg')"/>
       <xsl:if test="$poemPosterObject != 'false'">
@@ -616,17 +624,9 @@
 
       <xsl:variable name="theEditorialNote" select="//tei:note[@type='editorialnote']/ancestor::node()[@wit=concat('#', $witId)]"/>
 
-      <xsl:variable name="headnoteLength">
-        <xsl:value-of select="string-length(.)"/>
-      </xsl:variable>
-
       <xsl:element name="div">
-<!--        <xsl:attribute name="data-headnote-length">-->
-<!--          <xsl:value-of select="$headnoteLength"/>-->
-<!--        </xsl:attribute>-->
-
         <xsl:choose>
-          <xsl:when test="$headnoteLength &gt; 8000">
+          <xsl:when test="$hasLongHeadnote">
             <xsl:attribute name="class">
               <xsl:value-of select="'long-headnote expand-box'"/>
             </xsl:attribute>

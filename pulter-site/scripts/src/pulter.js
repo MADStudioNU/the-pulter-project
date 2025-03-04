@@ -878,7 +878,9 @@ var TPP = (function ($) {
           // Set the posters
           if (config.poster) {
             $body.addClass('has-poster');
-            setPosterImage($poster, config.id, 'd');
+            if (!$poster.data('long-headnote')) {
+              setPosterImage($poster, config.id, 'd');
+            }
           }
 
           // Curations related logic
