@@ -382,7 +382,7 @@ $globalBorderRadius: 4px;
           height: auto;
           opacity: 1;
           position: relative;
-          max-height: 5000px;
+          //max-height: 5000px;
 
           &.short-headnote {
             max-height: 5000px;
@@ -390,7 +390,7 @@ $globalBorderRadius: 4px;
           }
 
           &.long-headnote {
-            max-height: 10000px;
+            max-height: none;
             @include transition(opacity .4s, margin-bottom .4s);
           }
 
@@ -398,9 +398,6 @@ $globalBorderRadius: 4px;
             font-size: ms(-1);
             margin-top: -2.5em;
             margin-bottom: 1.5em;
-            //padding-left: .66em;
-            //border-left: 2px solid $pp_darkGold;
-            //position: relative;
 
             a {
               vertical-align: middle;

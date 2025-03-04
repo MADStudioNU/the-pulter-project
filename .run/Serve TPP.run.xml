@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Serve TPP" type="js.build_tools.gulp">
-    <node-interpreter>$USER_HOME$/.nvm/versions/node/v22.14.0/bin/node</node-interpreter>
+    <node-interpreter>node</node-interpreter>
     <node-options />
     <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
     <tasks />
