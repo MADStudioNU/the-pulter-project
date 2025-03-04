@@ -125,7 +125,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Tara L. Lyons</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -149,7 +149,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 45]</rdg>
           <rdg wit="#ee">Aristomenes<lb/>(Emblem 45)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">Aristomenes</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +158,25 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="http://pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">
+              
+              <p>
+                One of the affordances of digital editions like the <title rend="italic">Pulter Project</title> is the ease with which readers can remediate the text of poems and visually alter their form in a new document. As a pedagogical tool, poetic re-formations—or as Lisa Samuel and Jerome McGann call them “deformances”—can help readers to identify formal features and visually mark them through underlining, bolding, or insertion of space or line breaks.<seg>1<note type="gloss">For more methods of experimenting with re-forming verse as a close-reading practice, see <bibl>Lisa Samuel and Jerome J McGann’s “Deformance and Interpretation,” <title rend="italic">New Literary History</title> 30, no. 1 (1999): 25–56.</bibl></note></seg>
+              </p>
+              
+              <p>
+                This Amplified Edition of “Aristomenes” takes liberties re-forms Pulter’s verse by dividing the twenty-eight-line emblem into seven quatrains. Starting with my own transcription of the poem based on images from the Brotherton manuscript, I modernized the spelling to improve accessibility but retained the manuscript version’s punctuation and capitalization. I then experimented with inserting line breaks to accentuate the formal decisions that Pulter made when writing and to prioritize her organization of events and sources in this short, tightly-woven work. For instance, in this representation of the poem, the units of action and argument that govern the poem’s logic are made more apparent through the visual breaks between stanzas.
+              </p>
+              
+              <p>
+                We might say, for example, that the first stanza introduces the central figure Aristomenes and his penchant for escaping captivity. The second stanza describes his imprisonment, and the third stanza, his decisive action to grab hold of the fox. The fourth narrates Aristomenes’ escape, leaving the fifth stanza to relate the moral of Aristomenes’ story. The poem’s movement from narration to prescription is evident in the first five stanzas, and then is repeated again in the final two stanzas. The sixth stanza relates two Old Testament narratives of miraculous escape, while the seventh packs in a short contemporary example and a final takeaway for readers.
+              </p>
+              
+              <p>
+                Such a breakdown of stanzas may not reflect how Pulter imagined the emblem when writing it; however, this Amplified Edition hopes to demonstrate how readers might textually, typographically, and visually play with poems to better understand the convergences of form, content, and meaning.
+              </p>
+              
+            </note>
           </rdg>
         </app>
         <app type="headnote">
@@ -166,7 +184,33 @@
             <note type="headnote">People find support, comfort, and freedom where they least expect it—from those they consider enemies or even inferiors. In this emblem, Pulter turns to animal fables, Greek history, the Bible, and contemporary political struggles to show the widespread applicability of this lesson. The poem begins with the story of how the ancient Greek Aristomenes wisely did not give way to fear when a fox entered his prison; instead he used a seeming enemy to make a jailbreak. This apparently universal moral, however, is predicated on specific social hierarchies, as we see in the story of how the biblical prophet Jeremiah is saved by the unexpected compassion of an African (identified in the poem as a “cursed race”) and in the mention of how national stereotypes shape expectations. Directed to “her royal friends” and the royal family, Pulter tailors her lesson to offer hope specifically to Royalists imprisoned by Parliamentarians during the civil war and its aftermath. While the poem’s ending appears simply to invoke the comfort of divine providence, it implicitly adds an odd twist to the overall moral: in presenting comfort and punishment, God's salvation becomes aligned with the unexpected rescue offered by subversive figures and forces marked as outsiders by their species, race, nationality, or sect.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote">
+              
+              <p>
+                In 1640s and 1650s, war-torn England was abuzz with stories of cunning prison breaks and hairbreadth escapes. With the English Civil Wars came prisoners of war, and when influential political figures were captured on or off the battlefield, their path to freedom could take any number of forms, from a generous bribe to a multi-step plot involving disguises and safe houses. In this twenty-eight-line poem, Pulter curates her own selection of tales of escape. The principal narrative features the ancient Greek warrior, Aristomenes, known for his curious ability to elude his captors. As Greek fables told and Emblem 45 conveys, Aristomenes was cast into a “dismal Dungeon” (line 5) and left for dead. When he detects a fox scavenging on corpses, the hero’s “Courageous Heart” (line 9) moves him to seize the creature by the tail and follow it to a hole in the dungeon’s wall where he digs his way to freedom (see <ref type="pp-curations-ref" target="#ctxs">Aristomenes in History</ref>). In this poem, Pulter does not linger long in the emotional depths of Aristomenes’ despair, a striking departure from other poems wherein she anatomizes the unnatural imprisonment of the sovereign Charles I (<ref type="pp-poem-ref" corresp="4">The Complaint of Thames, 1647, When the Best of Kings was Imprisoned by the Worst of Rebels at Holmby</ref> and <ref type="pp-poem-ref" corresp="13">Upon the Imprisonment of his Sacred Majesty, That Unparalleled Prince, King Charles the First</ref>), her soul’s captivity in her mortal body (<ref type="pp-poem-ref" corresp="24">How Long Shall My Dejected Soul</ref> and <ref type="pp-poem-ref" corresp="34">To Aurora [3]</ref>), and being “shut up in a country grange” (<ref type="pp-poem-ref" corresp="57">Why Must I Thus Forever Be Confined</ref>). Instead, the poet urges her readers to test the barriers of confinement with the bravery and cunning of Aristomenes.
+              </p>
+              
+              <p>
+                From this teaching, Pulter develops another primary lesson. She reminds her readers to “rest in hope, for though no help be found / Above, yet it may come from underground” (lines 19-20). These lines describe Aristomenes’ plight, as no person or creature aboveground offers assistance. Rather, it is the corpse-munching fox, the “Jackal” (line 8) as Pulter calls her, who becomes the prisoner’s savior. For Pulter, this detail is designed to remind her “Royal friends that Captive be” (line 17) that their path to freedom may depend on those of low or common rank—maids, farmers, and traders who can move from place to place without drawing notice—or figures from society’s underbelly—smugglers who can move people or goods through their secret networks. These figures from the “underground”, for instance, were partly responsible for the escape of Charles I’s second son, James, in 1648, when a dressmaker expertly tailored a maid’s gown for the teenage prince to wear when he fled from St. James’ Palace. Likewise, the King’s heir, Charles, owed his escape from the Battle of Worcester in 1651 to a colorful cadre of earls, servants, and maids, and even the notorious highwayman, Captain James Hind, famous for robbing and humiliating Royalists’ enemies (see <ref type="pp-curations-ref" target="#ctxs">Noble Escapes and Common Helpers</ref>.)
+              </p>
+              
+              <p>
+                In Emblem 45, Pulter could have celebrated the courage and ingenuity of such friends from low places, but their agency as moral actors is circumscribed. For example, the fox in Aristomenes’ cell is a frightened animal fleeing for its life, which just happens to lead the warrior to freedom. While Pulter alludes to the fox as “old Reynard,” a talking fox in English folklore known for his sharp wit and trickster pranks, the fox in Aristomenes’ dungeon has no intention of helping the prisoner, and in fact, may have been hoping to eat him for lunch. That Pulter effaces the fox’s agency likely derives from her belief in the doctrine of divine providence. Finding comfort in the notion that God is guiding the actions of all of his creatures for the greater good, Pulter marvels in her poetry at the small, insignificant creatures that God chooses to perform his will, from reptiles to flies to lice (<ref type="pp-poem-ref" corresp="111">The Bishop and the Rats (Emblem 46)</ref>).
+              </p>
+              
+              <p>
+                When Pulter applies this same hierarchical rationale to human beings in Emblem 45, she adopts and perpetuates racist and nationalist stereotypes, revealing which people on earth she views as inferior to her and her noble friends. The next escapee mentioned in Pulter’s poems is the prophet Jeremiah who was saved from unjust imprisonment by a black servant named Ebed-Melech, the “only” one who showed Jeremiah pity. Pulter culls this story from the Old Testament and expresses disbelief that an African man with black skin, believed to be the modern manifestation of Noah's curse on Ham’s descendants, was chosen by God to save the prophet. Unlike other early modern writers who explored Ebed-Melech as a model of benevolence, Pulter keeps her focus on the plight of the noble prisoner whom God chooses to rescue (see <ref type="pp-curations-ref" target="#ctxs">Ebed-Melech</ref>).
+              </p>
+              
+              <p>
+                Pulter similarly expresses disbelief that the King of Judah, imprisoned for decades by the tyrant Nebuchadnezzar, was freed by his son, the King of Babylon, Evil-Merodach. Just as surprising to Pulter is the Swedish army’s support of Charles I’s nephew in 1638. Believing the “swashing Swedes” (line 25) to be arrogant braggarts, Pulter finds it shocking that they acted heroically and restored the Palatinate to the Elector Charles I Louis. Reminding her noble readers that God works in mysterious ways and may send anyone to their aid, Pulter’s poem clarifies that her investments are in the “royal branches” (line 27) or descendants of Charles I, not any old soldier, highwayman, or maid fighting for the cause. In the end, Pulter acknowledges that God may not choose to rescue the worthy during their lifetimes. If that is the case, she recommends they find comfort in knowing that everlasting freedom in heaven will be their reward. In other words, as God’s chosen, they eventually will be saved.
+              </p>
+              
+              <p>
+                That Pulter turns to stories of escape to bring comfort to readers positions her alongside other writers of her day. What makes Pulter’s approach unique is her ability to weave together references from a variety of sources and genres, from ancient Greek and medieval English folk-history, to the Old and New Testaments, and seventeenth-century European politics. Such a mix might suggest that Pulter was attempting to communicate a universal truth, one that could be applied across all cultures and all ages; however, the racist and classicist ideologies at the core of her understanding of social hierarchies firmly situates Emblem 45 as a product of England’s problematic past.
+              </p>
+              
+            </note>
           </rdg>
         </app>
       </head>
@@ -175,154 +219,189 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">45</fw>Ariſtominus his Strang Ambiguous &ff;ate</rdg>
           <rdg wit="#ee"><seg>Aristomenes<note type="gloss">Aristomenes was a hero of seventh-century BCE Greece who, as this poem recounts, held out in a stronghold for eleven years, escaping capture several times, once (according to legend) by grasping a fox’s tail in order to be led to the hole by which it had entered.</note></seg>, his strange ambiguous fate,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Aristomenes<note type="critical">Pulter could have learned about Aristomenes and his prison breaks from a variety of sources. For example, we know that Pulter was familiar with Pliny the Elder’s <title rend="italic">Natural History</title>, which she alludes to in <ref type="pp-poem-ref" corresp="108">This Stately Ship (Emblem 43)</ref>, line 25 (Eardley, Poems, p. 100 &amp; 248). In Pliny’s version of the tale, Aristomenes is a formidable soldier who killed 300 men across three battles. Pliny highlights Aristomenes’ extraordinary courage, but his main reason for discussing it is to supplement his discussion of people whose hearts were “ouergrown with hair” (see Holland’s translation of Pliny’s <title rend="italic">Natural History</title>, 1634, Book 11, p. 340). For more on Pliny’s Aristomenes and contemporary sources, see <ref type="pp-curations-ref" target="#ctxs">Aristomenes in History</ref>.</note></seg> his strange Ambiguous fate</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Unto the Noble Reader I’le Relate</rdg>
           <rdg wit="#ee">Unto the noble reader I’ll relate.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Unto the Noble reader I’ll relate</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Thrice of his Liberty hee was Reſtrain’d</rdg>
           <rdg wit="#ee">Thrice of his liberty he was restrained;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thrice of his Liberty he was restrain’d</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">Thrice by A Miracle his freedome gain’d</rdg>
           <rdg wit="#ee">Thrice by a miracle his freedom gained.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Thrice by A Miracle his freedom gain’d</rdg>
         </app>
       </l>
+      
+      <app>
+        <rdg wit="#ae">
+          <milestone unit="poem-section" rend="stanza-whitespace"/>
+        </rdg>
+      </app>
+      
       <l n="5">
         <app>
             <rdg wit="#ft">Last in A diſmale Dung’on hee was put</rdg>
           <rdg wit="#ee">Last in a dismal dungeon he was put</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Last in A dismal Dungeon he was put</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">&ff;rom Light, and Joy, to Night, &amp; Sorrow ſhut</rdg>
           <rdg wit="#ee">From light and joy, to night and sorrow shut.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">from Light, and Joy, to Night, &amp; Sorrow shut</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Noe &ff;ellows but dead Bodys bout him Lay</rdg>
           <rdg wit="#ee">No fellows but dead bodies ’bout him lay,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">No fellows but dead Bodies bout him Lay</rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">On which ô Strang A Jaccall came to prey</rdg>
           <rdg wit="#ee">On which–O, strange!–a jackal came to prey.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">On which O Strange A <seg>Jackal<note type="critical">Pulter, like many of her contemporaries, conflated foxes with jackals, even though we now know them to be two different species in the same genus. The OED defines “jackal” as “Any of various fox-like members of the dog family found in the Old World.” It is also worth noting that in his <title rend="italic">Itinerary</title> (1617), Fynes Moryson reports that jackals were known to “scratch the bodies of the dead out of their graves” (p. 249).</note></seg> came to prey</rdg>
         </app>
       </l>
+      
+      <app>
+        <rdg wit="#ae">
+          <milestone unit="poem-section" rend="stanza-whitespace"/>
+        </rdg>
+      </app>
+      
       <l n="9">
         <app>
             <rdg wit="#ft">Hee whoſe Couragious Heart did never fayl</rdg>
           <rdg wit="#ee">He whose courageous heart did never fail</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He whose Courageous Heart did never fail</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">Start up and Caught old Renard by the Tayl</rdg>
           <rdg wit="#ee"><seg>Start<note type="gloss">Started</note></seg> up and caught old <seg>Reynard<note type="gloss">traditional name for a fox who is the trickster hero of European folk tales</note></seg> by the tail.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Start up and Caught <seg>old Reynard<note type="gloss">“Old Reynard” is Pulter’s name for a popular medieval folk hero called “Reynard the Fox,” who had an uncanny ability to outsmart others and talk his way out of trouble.</note></seg> by the Tail</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">The ffrighted &ff;ox Returnd the way Shee came</rdg>
           <rdg wit="#ee">The frighted fox returned the way she came;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The frighted fox returned the way she came</rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Hee kept in’s hold in hope to doe y<add place="above">e</add> Same</rdg>
           <rdg wit="#ee"><seg>He kept in’s<note type="gloss">Aristomenes kept the fox in his grasp.</note></seg> hold, in hope to do the same.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He kept in’s hold in hope to do the Same</rdg>
         </app>
       </l>
+      
+      <app>
+        <rdg wit="#ae">
+          <milestone unit="poem-section" rend="stanza-whitespace"/>
+        </rdg>
+      </app>
+      
       <l n="13">
         <app>
             <rdg wit="#ft">And when the hole too little was (Alas)</rdg>
           <rdg wit="#ee">And when the hole too little was (alas!),</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And when the hole too little was (Alas)</rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Hee Scrapt it bigger till himſelf could paſs</rdg>
           <rdg wit="#ee">He scraped it bigger till himself could pass.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He Scraped it bigger till himself could pass</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">The Anchorite with’s nails Soe digs his Grave</rdg>
           <rdg wit="#ee">The <seg>anchorite<note type="gloss">person who has withdrawn from the world and lives in confinement, often for religious reasons; this line refers to the anchorite’s commitment to contemplate death.</note></seg> <seg>with’s<note type="gloss">with his</note></seg> nails so digs his grave;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The <seg>Anchorite<note type="gloss">Anchorites were Christian men and women who committed to a life of contemplation in a sealed cell or “anchor hold,” often attached to a church. Anchorites participated in a funeral-style ceremony wherein they metaphorically died to the secular world and were “buried” or sealed in their cell or small room. Pulter’s reference to an anchorite digging their own grave seemingly derived from medieval instructions that directed anchorites to begin digging their own grave in their cell with their hands.</note></seg> with’s nails So digs his Grave</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">Hee Scrapt, his Life and Liberty to have</rdg>
           <rdg wit="#ee">He scraped, his life and liberty to have.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">He scraped, his Life and Liberty to have</rdg>
         </app>
       </l>
+      
+      <app>
+        <rdg wit="#ae">
+          <milestone unit="poem-section" rend="stanza-whitespace"/>
+        </rdg>
+      </app>
+      
       <l n="17">
         <app>
             <rdg wit="#ft">Then let my Royall ffriends that Captive bee</rdg>
           <rdg wit="#ee">Then let my <seg>royal friends that captive be<note type="gloss">supporters of Charles I imprisoned during the civil war</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then let my Royal friends that Captive be</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">The various &ff;ortune of this Warior See</rdg>
           <rdg wit="#ee">The <seg>various<note type="gloss">changeful; marked by variety of incident or action</note></seg> fortune of this warrior see</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The various fortune of this Warrior See</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">And Rest in hope, for though noe help bee found</rdg>
           <rdg wit="#ee">And rest in hope; for though no help be found</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And rest in hope, for though no help be found</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">Above, yet it may come from under ground</rdg>
           <rdg wit="#ee">Above, yet it may come from underground.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Above, yet it may come from underground</rdg>
         </app>
       </l>
+      
+      <app>
+        <rdg wit="#ae">
+          <milestone unit="poem-section" rend="stanza-whitespace"/>
+        </rdg>
+      </app>
+      
       <l n="21">
         <app>
             <rdg wit="#ft">Who would have thought one of Chams Curſed Race</rdg>
           <rdg wit="#ee">Who would have thought one of <seg>Ham’s cursed race<note type="gloss">In the Bible, Ham’s son Canaan is cursed by his grandfather, Noah, causing his descendants to become subject to Israelites (Genesis 9:20–27). Numerous early modern texts suggest that Ham’s dark-skinned lineage populated Africa. This and the next line refer to the Ethiopian eunuch Ebed-melech who cared for the imprisoned prophet Jeremiah (Jeremiah 38:10).</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Who would have thought one of <seg>Ham’s Cursed Race<note type="critical">In Genesis 9:18-29, Noah’s youngest son, Ham (sometimes spelled “Cham”), discovered his naked father in a drunken stupor and told his brothers, Shem and Japheth, what he saw. The brothers responded by covering their father and refusing to look at his naked body. When Noah awoke, he was angry at Ham’s response. Therefore, he cursed Ham’s son, Canaan, and all of his descendants to live as slaves in service to the descendants of Noah’s other sons. Christians in Pulter’s day would have been taught that black skin was a marker of the curse of Ham, a deeply flawed and racist theory based on mistaken interpolations of the Bible by white Europeans who sought justifications for the enslavement of black Africans. For more on the curse of Ham, see <ref type="pp-curations-ref" target="#ctxs">Ebed-Melech</ref>.</note></seg></rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Should onely pitty Jeremias Caſe</rdg>
           <rdg wit="#ee">Should only pity <seg>Jeremiah’s case<note type="gloss">the biblical prophet’s imprisonment for treason</note></seg>?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Should only pity Jeremiah’s Case</rdg>
         </app>
       </l>
         <app>
@@ -347,42 +426,49 @@
         <app>
             <rdg wit="#ft">Or who that Merodock Should Comfort bring</rdg>
           <rdg wit="#ee">Or who that <seg>Merodach<note type="gloss">The Babylonian monarch Amel-Marduk (Evil-Merodach in the Bible) freed Jehoiachin (king of Judah) from imprisonment after Merodach inherited the throne from his father, Nebuchadnezzar (2 Kings 25.27–30). This was unexpected benevolence since Nebuchadnezzar had imprisoned Jehoiachin.</note></seg> should comfort bring</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or who that <seg>Merodach<note type="gloss">The story of Merodach or Evil-Merodach is told in 2 Kings 25:27 and Jeremiah 52:31. Merodach, Nebuchadnezzar’s son, released from prison his father’s rival, Jehoiachin, the King of Judah, and then elevated him to the role of an advisor at his court.</note></seg> should Comfort bring</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">To Judas <seg><del>blind</del><note type="physical">double strike-through</note></seg> <seg><add place="below">\</add><add place="above">sad \</add><note type="physical">in different hand from main scribe</note></seg> dejected Captive, King</rdg>
           <rdg wit="#ee">To Judah’s sad, dejected, captive king?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">To Judas’ sad, dejected Captive, King</rdg>
         </app>
       </l>
+      
+      <app>
+        <rdg wit="#ae">
+          <milestone unit="poem-section" rend="stanza-whitespace"/>
+        </rdg>
+      </app>
+      
       <l n="25">
         <app>
             <rdg wit="#ft">Or that The Swaſhing <seg>Sweads<note type="physical">“w” originally “h”</note></seg> Should hear y<add place="above">e</add> Moan</rdg>
           <rdg wit="#ee">Or that the <seg>swashing Swedes<note type="gloss">Because the English caricatured the Swedish as ostentatious, blustering, swaggering, and swashbuckling, their sympathy for a deposed Protestant leader is noted as unusual.</note></seg> should hear the moan</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Or that The swashing swedes should hear the Moan</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">Of Reans Elector him to Reinthrone</rdg>
           <rdg wit="#ee"><seg>Of Rhine’s elector, him to reinthrone<note type="gloss">The introduction of Sweden’s support for the Protestants was a major turning point in the European Thirty Years’ War (the conflict between Protestants and Catholic Holy Roman Empire-Hapsburgs, 1618–1648). After the war, Charles I Louis, son of the deposed Protestant Elector Frederick V (1596–1632) was reinstated as Elector Palatine (a territory now in Germany).</note></seg>?</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Of <seg>Rhine’s Elector<note type="gloss">In 1638, Prince Charles Louis reclaimed the throne as Elector Palatine with the support of the Swedish military. Charles I Louis was Charles I’s nephew, the son of Charles’ sister Elizabeth Stuart and Frederick V.</note></seg> him to Reenthrone</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Then let the Royall <seg>branches<note type="physical">imperfectly erased descender (as for “g”) under “c”</note></seg> Trust in God</rdg>
           <rdg wit="#ee">Then let <seg>the royal branches<note type="gloss">descendent of the king; the royal family “tree”</note></seg> trust in God:</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then let the Royal branches Trust in God</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">The Staff of Comfort Still Succeeds the Rod.</rdg>
           <rdg wit="#ee"><seg>The staff of comfort still succeeds the rod<note type="gloss">God always offers the comfort of his “staff” (a stick used to guide one in walking) more than or after using his “rod,” a stick used as an instrument of punishment. The passage picks up on language from Psalms 23:4: “Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.”</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The <seg>staff of Comfort still succeeds the Rod.<note type="critical">Pulter reminds the reader that suffering precedes the rewards and comforts of heaven. The “rod” and “staff” were a shepherd’s tools for protecting his flock, and in Psalms 23:4–6, both instruments are devices imagined to bring God’s followers to safety: “Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.” Here, however, Pulter, like many others in the seventeenth century, interprets the “rod” as a symbol of God’s discipline and punishment, which humans must endure on earth.</note></seg></rdg>
         </app>
       </l>
         <app>
