@@ -6061,9 +6061,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Karen Raber</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Karen Raber</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>elephants</pp:keyword>
@@ -6090,7 +6090,7 @@
         <pp:tag>worship</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="off" hash="chaste-animals">
+        <pp:curation status="on" hash="chaste-animals">
           <pp:author>
             <pp:person>Karen Raber</pp:person>
           </pp:author>
@@ -6110,7 +6110,7 @@
             <pp:keyword>William Shakespeare</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="elephants-and-religion">
+        <pp:curation status="on" hash="elephants-and-religion">
           <pp:author>
             <pp:person>Karen Raber</pp:person>
           </pp:author>
@@ -6128,7 +6128,7 @@
             <pp:keyword>sun</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="the-noble-elephant">
+        <pp:curation status="on" hash="the-noble-elephant">
           <pp:author>
             <pp:person>Karen Raber</pp:person>
           </pp:author>
