@@ -6053,7 +6053,7 @@
       <pp:firstLine>The elephant, when radiant Sol doth rise</pp:firstLine>
       <pp:poster>
         <pp:sourceStatement>Twee olifanten in een landschap, Herman Saftleven, 1646. Rijksmuseum, Amsterdam. Public Domain.</pp:sourceStatement>
-        <pp:sourceLink ref="//hdl.handle.net/10934/RM0001.COLLECT.32a3677"/>
+        <pp:sourceLink ref="//id.rijksmuseum.nl/200385215"/>
         <pp:altText>Two elephants, one in the foreground, the other in the background.</pp:altText>
       </pp:poster>
       <pp:editions>
