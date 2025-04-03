@@ -7858,7 +7858,7 @@
         <pp:tag>race</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="on" hash="aristomenes-in-history">
+        <pp:curation status="off" hash="aristomenes-in-history">
           <pp:author>
             <pp:person>Tara L. Lyons</pp:person>
           </pp:author>
