@@ -1,5 +1,7 @@
 # www.robotstxt.org/
 
-# Disallow crawling of all content
 User-agent: *
-Disallow: /
+Disallow: /versioning-machine/
+Disallow: /search/
+Disallow: /fonts/
+Disallow: /google1cf954f664c9b7de.html
