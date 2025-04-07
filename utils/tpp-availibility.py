@@ -7,6 +7,7 @@ def get_urls_from_sitemap(sitemap_url):
     response.raise_for_status()
     tree = ET.fromstring(response.content)
     urls = [elem.text for elem in tree.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+    print(f"Found {len(urls)} URLs in the sitemap.")
     return urls
   except requests.exceptions.RequestException as e:
     print(f"Failed to fetch sitemap: {e}")
