@@ -55,7 +55,7 @@ Branch `master` is deployed to the [AWS S3 production site](https://pulterprojec
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
 
 ### Poems
-> A097 (_The Lion and the Ass_ by Felicity Sheehy), A110 (_Aristomenes_ by Tara L. Lyons)
+> A110 (_Aristomenes_ by Tara L. Lyons)
 
 ### Curations
 > C110a (_Aristomenes in History_ by Tara L. Lyons)

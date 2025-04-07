@@ -696,7 +696,7 @@ gulp.task('sitemap',
     const stream = source('null.xml');
     stream.end(prefix + urls + suffix);
     stream
-      .pipe(rename('site.xml'))
+      .pipe(rename('sitemap.xml'))
       .pipe(gulp.dest(SITE_BASE));
 
     console.log('Sitemap has been built!');
