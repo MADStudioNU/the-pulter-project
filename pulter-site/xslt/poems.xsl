@@ -7868,6 +7868,23 @@
             <pp:keyword>Pliny</pp:keyword>
           </pp:keywords>
         </pp:curation>
+        <pp:curation status="on" hash="noble-escapes-and-common-helpers">
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
+          <pp:title>Noble Escapes and Common Helpers</pp:title>
+          <pp:peek>After the execution of Charles I in 1649, England was governed as a Commonwealth under Oliver Cromwell, Lord Protector. However, Charles Stuart, the eldest son of the late king and heir to the throne, was determined to reclaim his father’s throne.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>Oliver Cromwell</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+        <pp:curation status="on" hash="ebed-melech">
+          <pp:author>
+            <pp:person>Tara L. Lyons</pp:person>
+          </pp:author>
+          <pp:title>Ebed-Melech</pp:title>
+          <pp:peek>TBA</pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="111">
