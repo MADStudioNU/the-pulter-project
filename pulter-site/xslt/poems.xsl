@@ -7883,7 +7883,7 @@
             <pp:person>Tara L. Lyons</pp:person>
           </pp:author>
           <pp:title>Ebed-Melech</pp:title>
-          <pp:peek>TBA</pp:peek>
+          <pp:peek>Pulter chooses not to identify the name of the man she calls “one of Ham’s cursed race,” but the source of the story is the Book of Jeremiah 38:6-13, and there he is called Ebed-Melech.</pp:peek>
         </pp:curation>
       </pp:curations>
     </pp:poem>
