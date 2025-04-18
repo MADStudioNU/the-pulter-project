@@ -7865,7 +7865,9 @@
           <pp:title>Aristomenes in History</pp:title>
           <pp:peek>According to Pliny, Aristomenes’ heart was discovered to have hair on it, which was a physiological manifestation of his great strength and valor. For Pulter, the decision to exclude such a detail from Aristomenes’ story makes sense</pp:peek>
           <pp:keywords>
-            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>Bible</pp:keyword>
+            <pp:keyword>Other(s)</pp:keyword>
+            <pp:keyword>race</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="noble-escapes-and-common-helpers">
@@ -7875,7 +7877,14 @@
           <pp:title>Noble Escapes and Common Helpers</pp:title>
           <pp:peek>After the execution of Charles I in 1649, England was governed as a Commonwealth under Oliver Cromwell, Lord Protector. However, Charles Stuart, the eldest son of the late king and heir to the throne, was determined to reclaim his father’s throne.</pp:peek>
           <pp:keywords>
-            <pp:keyword>Oliver Cromwell</pp:keyword>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>ballad</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>Charles II</pp:keyword>
+            <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>disguise</pp:keyword>
+            <pp:keyword>Restoration</pp:keyword>
+            <pp:keyword>trees</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="ebed-melech">
@@ -7884,6 +7893,14 @@
           </pp:author>
           <pp:title>Ebed-Melech</pp:title>
           <pp:peek>Pulter chooses not to identify the name of the man she calls “one of Ham’s cursed race,” but the source of the story is the Book of Jeremiah 38:6-13, and there he is called Ebed-Melech.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
+            <pp:keyword>captivity</pp:keyword>
+            <pp:keyword>God</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+            <pp:keyword>Raleigh</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
