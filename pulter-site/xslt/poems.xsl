@@ -1676,7 +1676,7 @@
             <pp:keyword>Katherine Philips</pp:keyword>
             <pp:keyword>memorial</pp:keyword>
             <pp:keyword>portrait</pp:keyword>
-            <pp:keyword>Richard Crashawe</pp:keyword>
+            <pp:keyword>Richard Crashaw</pp:keyword>
             <pp:keyword>Robert Southwell</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -4673,7 +4673,7 @@
           <pp:title>Emblems of Phaeton and Icarus</pp:title>
           <pp:peek>This poem was inspired by the genre of the emblem. The emblem used images and adages to teach readers to read allegorically by finding the abstract concept (usually a virtue or vice) personified in the poem, and analogically, in its encouragement to apply the moral to their own situation.</pp:peek>
           <pp:keywords>
-            <pp:keyword>Andrea Alciati</pp:keyword>
+            <pp:keyword>Andrea Alciato</pp:keyword>
             <pp:keyword>emblem</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>Ovid</pp:keyword>
@@ -4924,10 +4924,9 @@
           <pp:keywords>
             <pp:keyword>Christianity</pp:keyword>
             <pp:keyword>death</pp:keyword>
-            <pp:keyword>Henry</pp:keyword>
             <pp:keyword>John Donne</pp:keyword>
             <pp:keyword>resurrection</pp:keyword>
-            <pp:keyword>Vaughan</pp:keyword>
+            <pp:keyword>Henry Vaughan</pp:keyword>
             <pp:keyword>violence</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -5743,7 +5742,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>bible</pp:tag>
-        <pp:tag>bird</pp:tag>
+        <pp:tag>birds</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>dependency</pp:tag>
         <pp:tag>food</pp:tag>
@@ -6581,7 +6580,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>betrayal</pp:tag>
-        <pp:tag>bird</pp:tag>
+        <pp:tag>birds</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>death</pp:tag>
@@ -6933,7 +6932,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>author</pp:tag>
         <pp:tag>bible</pp:tag>
-        <pp:tag>bird</pp:tag>
+        <pp:tag>birds</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>fate</pp:tag>
         <pp:tag>food</pp:tag>
@@ -7119,7 +7118,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bird</pp:tag>
+        <pp:tag>birds</pp:tag>
         <pp:tag>comfort</pp:tag>
         <pp:tag>constancy</pp:tag>
         <pp:tag>creation</pp:tag>
@@ -7295,7 +7294,7 @@
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
             <pp:keyword>monarchy</pp:keyword>
-            <pp:keyword>Nicolo Machiavelli</pp:keyword>
+            <pp:keyword>Niccolò Machiavelli</pp:keyword>
             <pp:keyword>politics</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -7307,7 +7306,7 @@
           <pp:peek>When Pulter notes of the lion in line 2 that he “of his Subjects was not lov’d but fear’d” she seems to be evoking Niccolò Machiavelli’s chapter “Of Cruelty, and Clemency, and whether it is better to be belov’d, or feard” from his political treatise _The Prince_.</pp:peek>
           <pp:keywords>
             <pp:keyword>monarchy</pp:keyword>
-            <pp:keyword>Nicolo Machiavelli</pp:keyword>
+            <pp:keyword>Niccolò Machiavelli</pp:keyword>
           </pp:keywords>
         </pp:curation>
       </pp:curations>
@@ -7430,7 +7429,7 @@
             <pp:keyword>John Parkinson</pp:keyword>
             <pp:keyword>Kenelm Digby</pp:keyword>
             <pp:keyword>plants</pp:keyword>
-            <pp:keyword>recipe</pp:keyword>
+            <pp:keyword>recipes</pp:keyword>
             <pp:keyword>resurrection</pp:keyword>
             <pp:keyword>Thomas Tryon</pp:keyword>
             <pp:keyword>violence</pp:keyword>
@@ -7528,7 +7527,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>Bible</pp:tag>
-        <pp:tag>bird</pp:tag>
+        <pp:tag>birds</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>England</pp:tag>
         <pp:tag>love</pp:tag>
@@ -7740,7 +7739,7 @@
           <pp:peek>Hester Pulter’s poem “The Brahman” is built around tensions between different ways of imagining or understanding the afterlife. Such tensions were particularly heightened in seventeenth-century English culture under the pressure of the reformation, secularization and the rise of early modern science and natural philosophy.</pp:peek>
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
-            <pp:keyword>bird</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
             <pp:keyword>body</pp:keyword>
             <pp:keyword>death</pp:keyword>
             <pp:keyword>God</pp:keyword>
@@ -7763,7 +7762,7 @@
           <pp:keywords>
             <pp:keyword>animals</pp:keyword>
             <pp:keyword>Bible</pp:keyword>
-            <pp:keyword>bird</pp:keyword>
+            <pp:keyword>birds</pp:keyword>
             <pp:keyword>body</pp:keyword>
             <pp:keyword>George Herbert</pp:keyword>
             <pp:keyword>matter</pp:keyword>
@@ -7990,7 +7989,7 @@
             <pp:keyword>chastity</pp:keyword>
             <pp:keyword>Edmund Spenser</pp:keyword>
             <pp:keyword>female body</pp:keyword>
-            <pp:keyword>Jean Luis Vives</pp:keyword>
+            <pp:keyword>Juan Luis Vives</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
             <pp:keyword>virginity</pp:keyword>
             <pp:keyword>William Shakespeare</pp:keyword>
@@ -8342,6 +8341,7 @@
           <pp:peek>Pulter’s analogy comparing a siege to waves of rising political factions intensifies a focus on women’s position in the power struggles of the Civil War period.</pp:peek>
           <pp:keywords>
             <pp:keyword>civil war</pp:keyword>
+            <pp:keyword>disguise</pp:keyword>
             <pp:keyword>Margaret Cavendish</pp:keyword>
             <pp:keyword>violence</pp:keyword>
           </pp:keywords>
@@ -8593,7 +8593,7 @@
         <pp:keyword>Margaret Cavendish</pp:keyword>
         <pp:keyword>Petrarch</pp:keyword>
         <pp:keyword>Philip Sidney</pp:keyword>
-        <pp:keyword>recipe</pp:keyword>
+        <pp:keyword>recipes</pp:keyword>
         <pp:keyword>William Shakespeare</pp:keyword>
       </pp:keywords>
     </pp:exploration>
@@ -8634,7 +8634,7 @@
         <pp:keyword>parents</pp:keyword>
         <pp:keyword>portrait</pp:keyword>
         <pp:keyword>Pulter’s life</pp:keyword>
-        <pp:keyword>textile</pp:keyword>
+        <pp:keyword>textiles</pp:keyword>
       </pp:keywords>
     </pp:exploration>
     <pp:exploration status="on" hash="pulter-and-political-revolution">
