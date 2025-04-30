@@ -31,7 +31,7 @@
         <pp:keyword>transformation</pp:keyword>
         <pp:keyword>dissolution</pp:keyword>
         <pp:keyword>death</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>religion</pp:keyword>
         <pp:keyword>revolution</pp:keyword>
         <pp:keyword>Fates</pp:keyword>
@@ -56,7 +56,7 @@
         <pp:tag>night</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>revolution</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>transience</pp:tag>
@@ -389,7 +389,7 @@
         <pp:keyword>death</pp:keyword>
         <pp:keyword>Resurrection</pp:keyword>
         <pp:keyword>morning</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>sight</pp:keyword>
         <pp:keyword>sun</pp:keyword>
         <pp:keyword>light</pp:keyword>
@@ -403,7 +403,7 @@
         <pp:tag>light</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>resurrection</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
@@ -881,7 +881,7 @@
         <pp:keyword>mythology</pp:keyword>
         <pp:keyword>classical allusion</pp:keyword>
         <pp:keyword>elegy</pp:keyword>
-        <pp:keyword>daughter</pp:keyword>
+        <pp:keyword>daughters</pp:keyword>
         <pp:keyword>deer</pp:keyword>
         <pp:keyword>royalism</pp:keyword>
         <pp:keyword>Jane</pp:keyword>
@@ -889,7 +889,7 @@
         <pp:keyword>darkness</pp:keyword>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>morning</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>sight</pp:keyword>
         <pp:keyword>sun</pp:keyword>
         <pp:keyword>light</pp:keyword>
@@ -898,7 +898,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>body</pp:tag>
-        <pp:tag>daughter</pp:tag>
+        <pp:tag>daughters</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>elegy</pp:tag>
         <pp:tag>family</pp:tag>
@@ -1012,7 +1012,7 @@
       <pp:keywords>
         <pp:keyword>elegy</pp:keyword>
         <pp:keyword>death</pp:keyword>
-        <pp:keyword>daughter</pp:keyword>
+        <pp:keyword>daughters</pp:keyword>
         <pp:keyword>grief</pp:keyword>
         <pp:keyword>body</pp:keyword>
         <pp:keyword>fame</pp:keyword>
@@ -1162,7 +1162,7 @@
             <pp:keyword>Abraham Cowley</pp:keyword>
             <pp:keyword>botany</pp:keyword>
             <pp:keyword>flowers</pp:keyword>
-            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>goddesses</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
             <pp:keyword>textiles</pp:keyword>
@@ -1309,7 +1309,7 @@
           <pp:keywords>
             <pp:keyword>Andrea Alciato</pp:keyword>
             <pp:keyword>emblem</pp:keyword>
-            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>goddesses</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>Samuel Daniel</pp:keyword>
             <pp:keyword>violence</pp:keyword>
@@ -1713,7 +1713,7 @@
       <pp:keywords>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>embodiment</pp:keyword>
-        <pp:keyword>heaven</pp:keyword>
+        <pp:keyword>Heaven</pp:keyword>
         <pp:keyword>eternity</pp:keyword>
       </pp:keywords>
       <pp:tags>
@@ -1951,7 +1951,7 @@
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="23">
@@ -2017,7 +2017,7 @@
         <pp:keyword>dust</pp:keyword>
         <pp:keyword>death</pp:keyword>
         <pp:keyword>lust</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>pain</pp:keyword>
         <pp:keyword>monarchy</pp:keyword>
         <pp:keyword>song</pp:keyword>
@@ -2039,7 +2039,7 @@
         <pp:tag>night</pp:tag>
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>soul</pp:tag>
@@ -2141,7 +2141,7 @@
           <pp:keywords>
             <pp:keyword>fashion</pp:keyword>
             <pp:keyword>female body</pp:keyword>
-            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>goddesses</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>object</pp:keyword>
           </pp:keywords>
@@ -2473,10 +2473,10 @@
         <pp:tag>beauty</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>dark</pp:tag>
-        <pp:tag>daughter</pp:tag>
+        <pp:tag>daughters</pp:tag>
         <pp:tag>day</pp:tag>
         <pp:tag>dissolution</pp:tag>
-        <pp:tag>enemy</pp:tag>
+        <pp:tag>enemies</pp:tag>
         <pp:tag>fate</pp:tag>
         <pp:tag>goddesses</pp:tag>
         <pp:tag>light</pp:tag>
@@ -2485,7 +2485,7 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>pleasure</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>tears</pp:tag>
@@ -2576,7 +2576,7 @@
           <pp:keywords>
             <pp:keyword>Amelia Lanyer</pp:keyword>
             <pp:keyword>Christopher Marlowe</pp:keyword>
-            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>goddesses</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
             <pp:keyword>Ovid</pp:keyword>
           </pp:keywords>
@@ -2825,7 +2825,7 @@
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -2946,7 +2946,7 @@
         <pp:keyword>alchemy</pp:keyword>
         <pp:keyword>soul</pp:keyword>
         <pp:keyword>freedom</pp:keyword>
-        <pp:keyword>heaven</pp:keyword>
+        <pp:keyword>Heaven</pp:keyword>
         <pp:keyword>astronomy</pp:keyword>
         <pp:keyword>elements</pp:keyword>
         <pp:keyword>daughter(s)</pp:keyword>
@@ -2961,10 +2961,10 @@
         <pp:tag>body</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>countryside</pp:tag>
-        <pp:tag>daughter</pp:tag>
+        <pp:tag>daughters</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>freedom</pp:tag>
-        <pp:tag>goddess</pp:tag>
+        <pp:tag>goddesses</pp:tag>
         <pp:tag>invitation</pp:tag>
         <pp:tag>London</pp:tag>
         <pp:tag>mythology</pp:tag>
@@ -3262,8 +3262,8 @@
         <pp:tag>grief</pp:tag>
         <pp:tag>mother</pp:tag>
         <pp:tag>scent</pp:tag>
-        <pp:tag>sigh</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>welcome</pp:tag>
@@ -3368,7 +3368,7 @@
         <pp:tag>dark</pp:tag>
         <pp:tag>day</pp:tag>
         <pp:tag>death</pp:tag>
-        <pp:tag>enemy</pp:tag>
+        <pp:tag>enemies</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>light</pp:tag>
@@ -3486,7 +3486,7 @@
         <pp:keyword>revolution</pp:keyword>
         <pp:keyword>center</pp:keyword>
         <pp:keyword>astrology</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>sorrow</pp:keyword>
         <pp:keyword>song</pp:keyword>
       </pp:keywords>
@@ -3501,7 +3501,7 @@
         <pp:tag>illness</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>revolution</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sorrow</pp:tag>
       </pp:tags>
@@ -3764,7 +3764,7 @@
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>resurrection</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>vision</pp:tag>
@@ -3857,7 +3857,7 @@
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>remembrance</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
       </pp:tags>
@@ -3931,7 +3931,7 @@
         <pp:tag>blazon</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>confinement</pp:tag>
-        <pp:tag>daughter</pp:tag>
+        <pp:tag>daughters</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>illness</pp:tag>
@@ -4226,7 +4226,7 @@
         <pp:keyword>worship</pp:keyword>
         <pp:keyword>confinement</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>God</pp:keyword>
         <pp:keyword>Christ</pp:keyword>
         <pp:keyword>birds</pp:keyword>
@@ -4243,7 +4243,7 @@
         <pp:tag>confinement</pp:tag>
         <pp:tag>freedom</pp:tag>
         <pp:tag>God</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>worship</pp:tag>
@@ -4486,7 +4486,7 @@
           <pp:title>Flora</pp:title>
           <pp:peek>This frontispiece, and a poem explaining it (“the mind of the front”), provides a vivid image of one of Pulter’s favorite figures, Flora, the Roman goddess of flowers and spring.</pp:peek>
           <pp:keywords>
-            <pp:keyword>goddess</pp:keyword>
+            <pp:keyword>goddesses</pp:keyword>
             <pp:keyword>mythology</pp:keyword>
           </pp:keywords>
         </pp:curation>
@@ -4653,7 +4653,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>breath</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
@@ -4798,7 +4798,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>dissolution</pp:tag>
@@ -5159,7 +5159,7 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>pride</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -5183,13 +5183,13 @@
       <pp:keywords>
         <pp:keyword>virtues</pp:keyword>
         <pp:keyword>Christianity</pp:keyword>
-        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
         <pp:keyword>Bible</pp:keyword>
       </pp:keywords>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>Aletheia</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>Christ</pp:tag>
@@ -5527,7 +5527,7 @@
       </pp:editions>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
-        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
         <pp:keyword>equity</pp:keyword>
         <pp:keyword>reproduction</pp:keyword>
       </pp:keywords>
@@ -5566,7 +5566,7 @@
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>cosmetics</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>drink</pp:tag>
@@ -5639,7 +5639,7 @@
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>protection</pp:keyword>
-        <pp:keyword>parenting</pp:keyword>
+        <pp:keyword>parents</pp:keyword>
         <pp:keyword>Christianity</pp:keyword>
       </pp:keywords>
       <pp:curations>
@@ -5741,7 +5741,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>dependency</pp:tag>
@@ -5783,7 +5783,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>countryside</pp:tag>
-        <pp:tag>enemy</pp:tag>
+        <pp:tag>enemies</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>praise</pp:tag>
         <pp:tag>revenge</pp:tag>
@@ -5879,7 +5879,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>church</pp:tag>
         <pp:tag>fish</pp:tag>
@@ -5887,7 +5887,7 @@
         <pp:tag>mirror</pp:tag>
         <pp:tag>pride</pp:tag>
         <pp:tag>reproduction</pp:tag>
-        <pp:tag>tree</pp:tag>
+        <pp:tag>trees</pp:tag>
         <pp:tag>vanity</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
@@ -5990,7 +5990,7 @@
       </pp:editions>
       <pp:keywords>
         <pp:keyword>beast fable</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>faith</pp:keyword>
         <pp:keyword>emblem</pp:keyword>
         <pp:keyword>animals</pp:keyword>
@@ -6004,7 +6004,7 @@
         <pp:tag>reproduction</pp:tag>
         <pp:tag>reptiles</pp:tag>
         <pp:tag>resurrection</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
@@ -6082,7 +6082,7 @@
         <pp:tag>marriage</pp:tag>
         <pp:tag>sacrifice</pp:tag>
         <pp:tag>sexuality</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>theater</pp:tag>
         <pp:tag>vice</pp:tag>
@@ -6332,7 +6332,7 @@
         <pp:tag>medicine</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>sighs</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>suffering</pp:tag>
         <pp:tag>tears</pp:tag>
@@ -6616,7 +6616,7 @@
       <pp:tags>
         <pp:tag>ambition</pp:tag>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>England</pp:tag>
         <pp:tag>government</pp:tag>
@@ -6739,7 +6739,7 @@
         <pp:tag>plants</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>river</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>trees</pp:tag>
@@ -6791,11 +6791,11 @@
       <pp:tags>
         <pp:tag>ambition</pp:tag>
         <pp:tag>author</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>fame</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>justice</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -6833,7 +6833,7 @@
         <pp:tag>prayer</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>reptiles</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -6874,7 +6874,7 @@
       </pp:editions>
       <pp:keywords>
         <pp:keyword>mythology</pp:keyword>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>innocence</pp:keyword>
         <pp:keyword>sacrifice</pp:keyword>
       </pp:keywords>
@@ -6884,7 +6884,7 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>pigs</pp:tag>
         <pp:tag>sacrifice</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -6931,7 +6931,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>author</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>fate</pp:tag>
@@ -6973,7 +6973,7 @@
         <pp:tag>jealousy</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>monarchy</pp:tag>
-        <pp:tag>parenting</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
@@ -7008,7 +7008,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
-        <pp:tag>enemy</pp:tag>
+        <pp:tag>enemies</pp:tag>
         <pp:tag>revenge</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>violence</pp:tag>
@@ -7148,7 +7148,7 @@
         </pp:edition>
       </pp:editions>
       <pp:keywords>
-        <pp:keyword>sin</pp:keyword>
+        <pp:keyword>sins</pp:keyword>
         <pp:keyword>violence</pp:keyword>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>children</pp:keyword>
@@ -7178,7 +7178,7 @@
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>plants</pp:tag>
         <pp:tag>sexuality</pp:tag>
-        <pp:tag>sin</pp:tag>
+        <pp:tag>sins</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>virtue</pp:tag>
       </pp:tags>
@@ -7531,7 +7531,7 @@
         <pp:tag>children</pp:tag>
         <pp:tag>England</pp:tag>
         <pp:tag>love</pp:tag>
-        <pp:tag>parenting</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>pride</pp:tag>
         <pp:tag>race</pp:tag>
         <pp:tag>reproduction</pp:tag>
@@ -7802,14 +7802,14 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>atoms</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>Christ</pp:tag>
         <pp:tag>creation</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>fire</pp:tag>
-        <pp:tag>heaven</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>parents</pp:tag>
         <pp:tag>rebirth</pp:tag>
@@ -7846,7 +7846,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>bible</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>comfort</pp:tag>
@@ -8145,7 +8145,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>countryside</pp:tag>
-        <pp:tag>enemy</pp:tag>
+        <pp:tag>enemies</pp:tag>
         <pp:tag>freedom</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>insects</pp:tag>
