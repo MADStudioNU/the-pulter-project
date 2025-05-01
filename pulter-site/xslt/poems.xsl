@@ -3525,6 +3525,15 @@
             <pp:keyword>Thomas Middleton</pp:keyword>
           </pp:keywords>
         </pp:curation>
+        <pp:curation status="on" hash="writing-from-the-sickbed">
+          <pp:author>
+            <pp:person>Emma R. Cohen</pp:person>
+          </pp:author>
+          <pp:title>Writing from the Sickbed</pp:title>
+          <pp:peek>
+            Visceral discomfort shades the opening lines of Pulter’s Poem 45, “This Was Written in 1648, When I Lay in, With my Son John.” The narrator is “[s]ad, sick, and lame” (l. 1), and, as the full title suggests, she is unable even to move her head from her pillow.
+          </pp:peek>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="46">
