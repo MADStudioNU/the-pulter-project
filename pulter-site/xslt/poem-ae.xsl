@@ -1731,7 +1731,7 @@
                 <xsl:value-of select="'https://www.kcl.ac.uk/people/dr-elizabeth-scott-baumann'"/>
               </xsl:if>
               <xsl:if test="$witnessName = 'Tara L. Lyons'">
-                <xsl:value-of select="'https://cas.illinoisstate.edu/faculty_staff/profile.php?ulid=tllyons'"/>
+                <xsl:value-of select="'https://cas.illinoisstate.edu/faculty-staff/profile/?ulid=tllyons'"/>
               </xsl:if>
               <xsl:if test="$witnessName = 'Andrea Crow'">
                 <xsl:value-of select="'https://www.bc.edu/bc-web/schools/mcas/departments/english/people/faculty-directory/crow--andrea.html'"/>
