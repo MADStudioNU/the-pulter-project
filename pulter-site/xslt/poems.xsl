@@ -7834,9 +7834,9 @@
           <pp:author>Leah Knight</pp:author>
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
-<!--        <pp:edition type="amplified">-->
-<!--          <pp:author>Tara L. Lyons</pp:author>-->
-<!--        </pp:edition>-->
+        <pp:edition type="amplified">
+          <pp:author>Tara L. Lyons</pp:author>
+        </pp:edition>
       </pp:editions>
       <pp:keywords>
         <pp:keyword>faith</pp:keyword>
@@ -7857,7 +7857,7 @@
         <pp:tag>race</pp:tag>
       </pp:tags>
       <pp:curations>
-        <pp:curation status="off" hash="aristomenes-in-history">
+        <pp:curation status="on" hash="aristomenes-in-history">
           <pp:author>
             <pp:person>Tara L. Lyons</pp:person>
           </pp:author>
