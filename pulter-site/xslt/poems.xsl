@@ -3533,6 +3533,25 @@
           <pp:peek>
             Visceral discomfort shades the opening lines of Pulter’s Poem 45, “This Was Written in 1648, When I Lay in, With my Son John.” The narrator is “[s]ad, sick, and lame” (l. 1), and, as the full title suggests, she is unable even to move her head from her pillow.
           </pp:peek>
+          <pp:keywords>
+            <pp:keyword>An Collins</pp:keyword>
+            <pp:keyword>Anne Boyer</pp:keyword>
+            <pp:keyword>astrology</pp:keyword>
+            <pp:keyword>astronomy</pp:keyword>
+            <pp:keyword>Billy Collins</pp:keyword>
+            <pp:keyword>birth</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>cosmology</pp:keyword>
+            <pp:keyword>death</pp:keyword>
+            <pp:keyword>Desiderius Erasmus</pp:keyword>
+            <pp:keyword>Elizabeth Metzger</pp:keyword>
+            <pp:keyword>illness</pp:keyword>
+            <pp:keyword>John Donne</pp:keyword>
+            <pp:keyword>maternity</pp:keyword>
+            <pp:keyword>medicine</pp:keyword>
+            <pp:keyword>Rembrandt van Rijn</pp:keyword>
+            <pp:keyword>Virginia Woolf</pp:keyword>
+          </pp:keywords>
         </pp:curation>
       </pp:curations>
     </pp:poem>
@@ -4776,7 +4795,8 @@
           <pp:peek>In line 17, the speaker mentions what will happen to her body after her death. Ultimately every particle of dust will be safe because of God’s justice, even though it might be tossed in a thousand figures or shapes.</pp:peek>
           <pp:keywords>
             <pp:keyword>atoms</pp:keyword>
-            <pp:keyword>body dust</pp:keyword>
+            <pp:keyword>body</pp:keyword>
+            <pp:keyword>dust</pp:keyword>
             <pp:keyword>Margaret Cavendish</pp:keyword>
             <pp:keyword>sexuality</pp:keyword>
           </pp:keywords>
