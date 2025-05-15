@@ -3525,7 +3525,7 @@
             <pp:keyword>Thomas Middleton</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="off" hash="writing-from-the-sickbed">
+        <pp:curation status="on" hash="writing-from-the-sickbed">
           <pp:author>
             <pp:person>Emma R. Cohen</pp:person>
           </pp:author>
