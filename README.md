@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Curations
-> C045b (_Writing from the Sickbed_)
+> —
 
 ### Explorations
 > —
