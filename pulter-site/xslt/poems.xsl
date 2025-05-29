@@ -27,7 +27,7 @@
         <pp:keyword>dark</pp:keyword>
         <pp:keyword>sun</pp:keyword>
         <pp:keyword>moon</pp:keyword>
-        <pp:keyword>the body</pp:keyword>
+        <pp:keyword>body</pp:keyword>
         <pp:keyword>transformation</pp:keyword>
         <pp:keyword>dissolution</pp:keyword>
         <pp:keyword>death</pp:keyword>
@@ -51,7 +51,6 @@
         <pp:tag>elements</pp:tag>
         <pp:tag>fate</pp:tag>
         <pp:tag>food</pp:tag>
-        <pp:tag>mortality</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>resurrection</pp:tag>
@@ -562,7 +561,6 @@
         <pp:tag>goddesses</pp:tag>
         <pp:tag>illness</pp:tag>
         <pp:tag>light</pp:tag>
-        <pp:tag>mortality</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>reproduction</pp:tag>
@@ -905,7 +903,6 @@
         <pp:tag>flowers</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>illness</pp:tag>
-        <pp:tag>mortality</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sun</pp:tag>
@@ -1724,7 +1721,6 @@
         <pp:tag>friendship</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>soul</pp:tag>
-        <pp:tag>welcome</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="bell-tolling">
@@ -1789,7 +1785,6 @@
         <pp:tag>food</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>light</pp:tag>
-        <pp:tag>mortality</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
@@ -1985,7 +1980,6 @@
         <pp:tag>dawn</pp:tag>
         <pp:tag>goddesses</pp:tag>
         <pp:tag>light</pp:tag>
-        <pp:tag>morning</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>sight</pp:tag>
@@ -2175,11 +2169,9 @@
         <pp:tag>astronomy</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>Heaven</pp:tag>
-        <pp:tag>king</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>prayer</pp:tag>
-        <pp:tag>queen</pp:tag>
         <pp:tag>sun</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -2224,7 +2216,6 @@
         <pp:tag>light</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
-        <pp:tag>suffering</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -2488,7 +2479,6 @@
         <pp:tag>sins</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>tears</pp:tag>
-        <pp:tag>tears</pp:tag>
         <pp:tag>vanity</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>vision</pp:tag>
@@ -2534,7 +2524,6 @@
         <pp:tag>resurrection</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>transformation</pp:tag>
-        <pp:tag>welcome</pp:tag>
         <pp:tag>youth</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -3266,7 +3255,6 @@
         <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
-        <pp:tag>welcome</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="42">
@@ -4303,7 +4291,6 @@
         <pp:keyword>lamentation</pp:keyword>
         <pp:keyword>loss</pp:keyword>
         <pp:keyword>flowers</pp:keyword>
-        <pp:keyword>dialogue</pp:keyword>
         <pp:keyword>complaint</pp:keyword>
         <pp:keyword>woe</pp:keyword>
         <pp:keyword>alone</pp:keyword>
@@ -4938,7 +4925,6 @@
         <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>God</pp:tag>
-        <pp:tag>mortality</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>soul</pp:tag>
@@ -5068,7 +5054,6 @@
         <pp:keyword>afterlife</pp:keyword>
         <pp:keyword>Christian god</pp:keyword>
         <pp:keyword>sickness</pp:keyword>
-        <pp:keyword>sorrow</pp:keyword>
         <pp:keyword>song</pp:keyword>
       </pp:keywords>
       <pp:tags>
@@ -5080,7 +5065,6 @@
         <pp:tag>praise</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
-        <pp:tag>suffering</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="breath-and-song">
@@ -5279,7 +5263,6 @@
         <pp:tag>flowers</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>mythology</pp:tag>
-        <pp:tag>pain</pp:tag>
         <pp:tag>plants</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>sighs</pp:tag>
@@ -5630,7 +5613,6 @@
         <pp:keyword>Christianity</pp:keyword>
       </pp:keywords>
       <pp:tags>
-        <pp:tag>betrayal</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>enemies</pp:tag>
         <pp:tag>faith</pp:tag>
@@ -6067,11 +6049,9 @@
         <pp:tag>money</pp:tag>
         <pp:tag>music</pp:tag>
         <pp:tag>parents</pp:tag>
-        <pp:tag>promise</pp:tag>
         <pp:tag>punishment</pp:tag>
         <pp:tag>revenge</pp:tag>
         <pp:tag>sins</pp:tag>
-        <pp:tag>suffering</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>water</pp:tag>
       </pp:tags>
@@ -6101,7 +6081,6 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>Charles I</pp:tag>
-        <pp:tag>city</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>constancy</pp:tag>
@@ -6290,7 +6269,6 @@
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>pleasure</pp:tag>
         <pp:tag>power</pp:tag>
-        <pp:tag>unity</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="puppets-masques-and-buffoons">
@@ -6363,7 +6341,6 @@
         <pp:tag>sighs</pp:tag>
         <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
-        <pp:tag>suffering</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>violence</pp:tag>
@@ -6608,7 +6585,6 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>betrayal</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
@@ -6702,6 +6678,30 @@
           <pp:author>Charlotte Newcombe</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:keywords>
+        <pp:keyword>animals</pp:keyword>
+        <pp:keyword>insecurity</pp:keyword>
+        <pp:keyword>nature</pp:keyword>
+        <pp:keyword>violence</pp:keyword>
+      </pp:keywords>
+      <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>mythology</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>plants</pp:tag>
+        <pp:tag>prayer</pp:tag>
+        <pp:tag>river</pp:tag>
+        <pp:tag>sins</pp:tag>
+        <pp:tag>sorrow</pp:tag>
+        <pp:tag>sun</pp:tag>
+        <pp:tag>trees</pp:tag>
+        <pp:tag>violence</pp:tag>
+      </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="moose-fact-and-fiction">
           <pp:author>
@@ -6749,31 +6749,6 @@
           </pp:keywords>
         </pp:curation>
       </pp:curations>
-      <pp:keywords>
-        <pp:keyword>animals</pp:keyword>
-        <pp:keyword>insecurity</pp:keyword>
-        <pp:keyword>nature</pp:keyword>
-        <pp:keyword>violence</pp:keyword>
-      </pp:keywords>
-      <pp:tags>
-        <pp:tag>animals</pp:tag>
-        <pp:tag>death</pp:tag>
-        <pp:tag>food</pp:tag>
-        <pp:tag>grief</pp:tag>
-        <pp:tag>Hell</pp:tag>
-        <pp:tag>history</pp:tag>
-        <pp:tag>mythology</pp:tag>
-        <pp:tag>nature</pp:tag>
-        <pp:tag>parents</pp:tag>
-        <pp:tag>plants</pp:tag>
-        <pp:tag>prayer</pp:tag>
-        <pp:tag>river</pp:tag>
-        <pp:tag>sins</pp:tag>
-        <pp:tag>sorrow</pp:tag>
-        <pp:tag>sun</pp:tag>
-        <pp:tag>trees</pp:tag>
-        <pp:tag>violence</pp:tag>
-      </pp:tags>
     </pp:poem>
     <pp:poem id="93">
       <pp:title>Vain Herostratus (Emblem 28)</pp:title>
@@ -6909,7 +6884,6 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>innocence</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>pigs</pp:tag>
         <pp:tag>sacrifice</pp:tag>
@@ -6959,18 +6933,15 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
-        <pp:tag>author</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>fate</pp:tag>
         <pp:tag>food</pp:tag>
-        <pp:tag>mortality</pp:tag>
         <pp:tag>prophecy</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
-        <pp:tag>writer</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="97">
@@ -7148,7 +7119,6 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
-        <pp:tag>comfort</pp:tag>
         <pp:tag>constancy</pp:tag>
         <pp:tag>creation</pp:tag>
         <pp:tag>fish</pp:tag>
@@ -7201,7 +7171,6 @@
         <pp:tag>church</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>illness</pp:tag>
-        <pp:tag>jewel</pp:tag>
         <pp:tag>medicine</pp:tag>
         <pp:tag>money</pp:tag>
         <pp:tag>Other(s)</pp:tag>
@@ -7356,23 +7325,6 @@
           <pp:author>Aylin Malcolm</pp:author>
         </pp:edition>
       </pp:editions>
-      <pp:curations>
-        <pp:curation status="on" hash="cetacean-relations">
-        <pp:author>
-          <pp:person>Aylin Malcolm</pp:person>
-        </pp:author>
-        <pp:title>Cetacean Relations</pp:title>
-        <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
-          <pp:keywords>
-            <pp:keyword>animals</pp:keyword>
-            <pp:keyword>Aristotle</pp:keyword>
-            <pp:keyword>marine creatures</pp:keyword>
-            <pp:keyword>mythology</pp:keyword>
-            <pp:keyword>offspring</pp:keyword>
-            <pp:keyword>Pliny</pp:keyword>
-          </pp:keywords>
-        </pp:curation>
-      </pp:curations>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
         <pp:keyword>mythology</pp:keyword>
@@ -7391,13 +7343,29 @@
         <pp:tag>fish</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>king</pp:tag>
-        <pp:tag>labor</pp:tag>
         <pp:tag>loyal</pp:tag>
         <pp:tag>mobility</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>sexuality</pp:tag>
       </pp:tags>
+      <pp:curations>
+        <pp:curation status="on" hash="cetacean-relations">
+        <pp:author>
+          <pp:person>Aylin Malcolm</pp:person>
+        </pp:author>
+        <pp:title>Cetacean Relations</pp:title>
+        <pp:peek>The similarities between humans and dolphins have fascinated writers for a very long time. Several scholars in the classical period noted that these species share physiological and behavioral characteristics.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>animals</pp:keyword>
+            <pp:keyword>Aristotle</pp:keyword>
+            <pp:keyword>marine creatures</pp:keyword>
+            <pp:keyword>mythology</pp:keyword>
+            <pp:keyword>offspring</pp:keyword>
+            <pp:keyword>Pliny</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="105">
       <pp:title>View But This Tulip (Emblem 40)</pp:title>
@@ -7731,7 +7699,6 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>England</pp:tag>
-        <pp:tag>gods</pp:tag>
         <pp:tag>humility</pp:tag>
         <pp:tag>king</pp:tag>
         <pp:tag>mythology</pp:tag>
@@ -7878,7 +7845,6 @@
         <pp:tag>Bible</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
-        <pp:tag>comfort</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>faith</pp:tag>
         <pp:tag>freedom</pp:tag>
@@ -8111,7 +8077,6 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>security</pp:tag>
-        <pp:tag>writing</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="114">
@@ -8495,7 +8460,6 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>Cromwell</pp:tag>
-        <pp:tag>folly</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>hydra</pp:tag>
         <pp:tag>king</pp:tag>
