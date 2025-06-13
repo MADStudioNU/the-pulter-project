@@ -42,6 +42,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>astronomy</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>Christ</pp:tag>
         <pp:tag>confinement</pp:tag>
@@ -159,15 +160,38 @@
         <pp:keyword>rivers</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>blood</pp:tag>
+        <pp:tag>Broadfield</pp:tag>
+        <pp:tag>Charles I</pp:tag>
+        <pp:tag>children</pp:tag>
         <pp:tag>civil war</pp:tag>
+        <pp:tag>countryside</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
+        <pp:tag>daughters</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>flowers</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Henrietta Maria</pp:tag>
         <pp:tag>Hydra</pp:tag>
+        <pp:tag>invitation</pp:tag>
+        <pp:tag>London</pp:tag>
+        <pp:tag>marriage</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>nymphs</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
         <pp:tag>parents</pp:tag>
         <pp:tag>pastoral</pp:tag>
         <pp:tag>restoration</pp:tag>
         <pp:tag>rivers</pp:tag>
+        <pp:tag>sighs</pp:tag>
+        <pp:tag>song</pp:tag>
+        <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>virgin</pp:tag>
+        <pp:tag>water</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -273,15 +297,20 @@
         <pp:tag>God</pp:tag>
         <pp:tag>goddesses</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
         <pp:tag>praise</pp:tag>
+        <pp:tag>rape</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>violence</pp:tag>
+        <pp:tag>virgin</pp:tag>
+        <pp:tag>wind</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -350,18 +379,23 @@
         <pp:keyword>politics</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>Aurora</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>calcination</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>complaint</pp:tag>
         <pp:tag>countryside</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
         <pp:tag>dissolution</pp:tag>
         <pp:tag>England</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>Henrietta Maria</pp:tag>
         <pp:tag>London</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>nymphs</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>pastoral</pp:tag>
         <pp:tag>race</pp:tag>
@@ -372,9 +406,11 @@
         <pp:tag>sacrifice</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>slander</pp:tag>
+        <pp:tag>song</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
+        <pp:tag>water</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -573,9 +609,13 @@
         <pp:tag>Hydra</pp:tag>
         <pp:tag>illness</pp:tag>
         <pp:tag>light</pp:tag>
+        <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
+        <pp:tag>phoenix</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>reproduction</pp:tag>
+        <pp:tag>sleep</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
@@ -702,6 +742,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>cannibalism</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>Christ</pp:tag>
@@ -711,9 +752,11 @@
         <pp:tag>fate</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>Hydra</pp:tag>
+        <pp:tag>justice</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>Other(s)</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>remembrance</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>sexuality</pp:tag>
@@ -839,8 +882,11 @@
         <pp:tag>dark</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>decapitation</pp:tag>
+        <pp:tag>dissolution</pp:tag>
         <pp:tag>elements</pp:tag>
+        <pp:tag>England</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>restoration</pp:tag>
@@ -907,9 +953,13 @@
         <pp:keyword>light</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
         <pp:tag>animals</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>chastity</pp:tag>
         <pp:tag>daughters</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>Earth</pp:tag>
@@ -920,10 +970,15 @@
         <pp:tag>illness</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>Other(s)</pp:tag>
+        <pp:tag>parents</pp:tag>
+        <pp:tag>sighs</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
+        <pp:tag>virgin</pp:tag>
+        <pp:tag>youth</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1040,23 +1095,28 @@
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>Aurora</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>blazon</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>chastity</pp:tag>
         <pp:tag>daughters</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>elegy</pp:tag>
         <pp:tag>fame</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>praise</pp:tag>
         <pp:tag>remembrance</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>rivers</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
+        <pp:tag>virgin</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-death-of-a-child">
@@ -1131,18 +1191,28 @@
         </pp:edition>
       </pp:editions>
       <pp:tags>
+        <pp:tag>Aurora</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>calcination</pp:tag>
+        <pp:tag>chastity</pp:tag>
         <pp:tag>competition</pp:tag>
+        <pp:tag>dew</pp:tag>
+        <pp:tag>England</pp:tag>
+        <pp:tag>fame</pp:tag>
         <pp:tag>flowers</pp:tag>
         <pp:tag>food</pp:tag>
+        <pp:tag>history</pp:tag>
+        <pp:tag>insects</pp:tag>
         <pp:tag>Islam</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>medicine</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>nymphs</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>religion</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>sexuality</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
       </pp:tags>
@@ -1299,9 +1369,11 @@
         <pp:tag>afterlife</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>children</pp:tag>
+        <pp:tag>civil war</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>dissolution</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>resurrection</pp:tag>
         <pp:tag>revenge</pp:tag>
         <pp:tag>rivers</pp:tag>
         <pp:tag>sighs</pp:tag>
@@ -1362,9 +1434,13 @@
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>England</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>murder</pp:tag>
         <pp:tag>sighs</pp:tag>
+        <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -1393,6 +1469,7 @@
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>alchemy</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>Charles II</pp:tag>
@@ -1400,15 +1477,23 @@
         <pp:tag>church</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
+        <pp:tag>elegy</pp:tag>
         <pp:tag>England</pp:tag>
+        <pp:tag>fate</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>Other(s)</pp:tag>
+        <pp:tag>redemption</pp:tag>
+        <pp:tag>Restoration</pp:tag>
         <pp:tag>rivers</pp:tag>
+        <pp:tag>scent</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>smell</pp:tag>
+        <pp:tag>soul</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
       </pp:tags>
@@ -1472,8 +1557,10 @@
         <pp:keyword>revolution</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>atoms</pp:tag>
+        <pp:tag>body</pp:tag>
         <pp:tag>breath</pp:tag>
         <pp:tag>calcination</pp:tag>
         <pp:tag>creation</pp:tag>
@@ -1490,9 +1577,11 @@
         <pp:tag>resurrection</pp:tag>
         <pp:tag>revolution</pp:tag>
         <pp:tag>sighs</pp:tag>
+        <pp:tag>soul</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
+        <pp:tag>wind</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="17">
@@ -1517,17 +1606,20 @@
         <pp:tag>body</pp:tag>
         <pp:tag>circle</pp:tag>
         <pp:tag>creation</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>elements</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>prayer</pp:tag>
+        <pp:tag>revolution</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
+        <pp:tag>wind</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1670,6 +1762,7 @@
         <pp:tag>resurrection</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sorrow</pp:tag>
+        <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>vanity</pp:tag>
       </pp:tags>
@@ -1746,6 +1839,8 @@
         <pp:tag>fear</pp:tag>
         <pp:tag>freedom</pp:tag>
         <pp:tag>friendship</pp:tag>
+        <pp:tag>Heaven</pp:tag>
+        <pp:tag>invitation</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>soul</pp:tag>
       </pp:tags>
@@ -1816,6 +1911,7 @@
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>song</pp:tag>
+        <pp:tag>soul</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -1856,6 +1952,7 @@
         <pp:tag>elements</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>love</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:editions>
@@ -1970,10 +2067,12 @@
         <pp:tag>food</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>goddesses</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>sins</pp:tag>
+        <pp:tag>virgin</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="23">
@@ -2195,14 +2294,18 @@
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>astronomy</pp:tag>
+        <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>Earth</pp:tag>
         <pp:tag>Heaven</pp:tag>
+        <pp:tag>Henrietta Maria</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>prayer</pp:tag>
+        <pp:tag>revolution</pp:tag>
         <pp:tag>sun</pp:tag>
+        <pp:tag>trees</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="28">
@@ -2242,11 +2345,16 @@
         <pp:tag>dark</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>flowers</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>light</pp:tag>
+        <pp:tag>sleep</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
         <pp:tag>transience</pp:tag>
+        <pp:tag>trees</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="29">
@@ -2287,6 +2395,7 @@
         <pp:tag>death</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>God</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>praise</pp:tag>
@@ -2339,21 +2448,28 @@
         <pp:tag>astrology</pp:tag>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>center</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>creation</pp:tag>
         <pp:tag>day</pp:tag>
         <pp:tag>dark</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>Earth</pp:tag>
+        <pp:tag>elephants</pp:tag>
         <pp:tag>flowers</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>insects</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>praise</pp:tag>
+        <pp:tag>reptiles</pp:tag>
+        <pp:tag>revolution</pp:tag>
         <pp:tag>sexuality</pp:tag>
+        <pp:tag>sighs</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>sun</pp:tag>
@@ -2397,6 +2513,8 @@
         <pp:tag>performance</pp:tag>
         <pp:tag>pleasure</pp:tag>
         <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
+        <pp:tag>theater</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-good-death">
@@ -2502,6 +2620,7 @@
         <pp:tag>dark</pp:tag>
         <pp:tag>daughters</pp:tag>
         <pp:tag>day</pp:tag>
+        <pp:tag>dew</pp:tag>
         <pp:tag>dissolution</pp:tag>
         <pp:tag>enemies</pp:tag>
         <pp:tag>fate</pp:tag>
@@ -2509,9 +2628,12 @@
         <pp:tag>light</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>marriage</pp:tag>
+        <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>pleasure</pp:tag>
+        <pp:tag>sighs</pp:tag>
         <pp:tag>sins</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>tears</pp:tag>
@@ -2552,11 +2674,13 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
+        <pp:tag>Christ</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>elements</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>friendship</pp:tag>
+        <pp:tag>invitation</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>sun</pp:tag>
@@ -2679,18 +2803,23 @@
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>Aurora</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>Christ</pp:tag>
         <pp:tag>dark</pp:tag>
         <pp:tag>day</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>dew</pp:tag>
         <pp:tag>drink</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>fire</pp:tag>
         <pp:tag>flowers</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>freedom</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>goddesses</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>moon</pp:tag>
@@ -2700,8 +2829,10 @@
         <pp:tag>remembrance</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>sighs</pp:tag>
+        <pp:tag>sleep</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>transformation</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -2746,9 +2877,11 @@
         <pp:tag>death</pp:tag>
         <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>food</pp:tag>
         <pp:tag>freedom</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>labor</pp:tag>
         <pp:tag>prayer</pp:tag>
@@ -2756,9 +2889,11 @@
         <pp:tag>remembrance</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>slavery</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>trees</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="a-female-slave">
@@ -2852,7 +2987,9 @@
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
+        <pp:tag>redemption</pp:tag>
         <pp:tag>sins</pp:tag>
+        <pp:tag>youth</pp:tag>
       </pp:tags>
       <pp:editions>
         <pp:edition type="elemental">
@@ -2904,11 +3041,14 @@
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>Earth</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>resurrection</pp:tag>
+        <pp:tag>sleep</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>truth</pp:tag>
       </pp:tags>
@@ -2988,6 +3128,7 @@
         <pp:tag>alchemy</pp:tag>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>Broadfield</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>countryside</pp:tag>
         <pp:tag>daughters</pp:tag>
@@ -2996,9 +3137,13 @@
         <pp:tag>goddesses</pp:tag>
         <pp:tag>invitation</pp:tag>
         <pp:tag>London</pp:tag>
+        <pp:tag>medicine</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>pastoral</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>soul</pp:tag>
+        <pp:tag>space travel</pp:tag>
+        <pp:tag>water</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="alchemical-quintessence">
@@ -3110,10 +3255,13 @@
         <pp:tag>fire</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>light</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>revolution</pp:tag>
+        <pp:tag>sleep</pp:tag>
         <pp:tag>soul</pp:tag>
+        <pp:tag>space travel</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="body-soul-dust">
@@ -3208,6 +3356,7 @@
         <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>Earth</pp:tag>
+        <pp:tag>elegy</pp:tag>
         <pp:tag>elements</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>grief</pp:tag>
@@ -3216,6 +3365,7 @@
         <pp:tag>remembrance</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>revolution</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transience</pp:tag>
       </pp:tags>
@@ -3283,6 +3433,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>age</pp:tag>
+        <pp:tag>Aurora</pp:tag>
         <pp:tag>beauty</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>children</pp:tag>
@@ -3297,13 +3448,18 @@
         <pp:tag>flowers</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>invitation</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mother</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>transformation</pp:tag>
+        <pp:tag>water</pp:tag>
+        <pp:tag>youth</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="42">
@@ -3324,8 +3480,11 @@
       </pp:editions>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>elements</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>remembrance</pp:tag>
@@ -3395,7 +3554,9 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>children</pp:tag>
@@ -3407,10 +3568,13 @@
         <pp:tag>death</pp:tag>
         <pp:tag>Earth</pp:tag>
         <pp:tag>enemies</pp:tag>
+        <pp:tag>flowers</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>love</pp:tag>
+        <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>remembrance</pp:tag>
@@ -3478,23 +3642,28 @@
         <pp:tag>dark</pp:tag>
         <pp:tag>day</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>dew</pp:tag>
         <pp:tag>flowers</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>goddesses</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>illness</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>marriage</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
+        <pp:tag>nymphs</pp:tag>
         <pp:tag>performance</pp:tag>
+        <pp:tag>resurrection</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>sun</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transience</pp:tag>
+        <pp:tag>trees</pp:tag>
         <pp:tag>vision</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -3532,20 +3701,25 @@
       <pp:tags>
         <pp:tag>astrology</pp:tag>
         <pp:tag>astronomy</pp:tag>
+        <pp:tag>Aurora</pp:tag>
         <pp:tag>center</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>dark</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>Earth</pp:tag>
         <pp:tag>freedom</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>illness</pp:tag>
         <pp:tag>light</pp:tag>
+        <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>revolution</pp:tag>
         <pp:tag>sins</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sorrow</pp:tag>
+        <pp:tag>space travel</pp:tag>
         <pp:tag>sun</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -3645,6 +3819,8 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>blood</pp:tag>
+        <pp:tag>children</pp:tag>
         <pp:tag>countryside</pp:tag>
         <pp:tag>day</pp:tag>
         <pp:tag>death</pp:tag>
@@ -3654,6 +3830,7 @@
         <pp:tag>flowers</pp:tag>
         <pp:tag>friendship</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>labor</pp:tag>
         <pp:tag>mythology</pp:tag>
@@ -3668,6 +3845,7 @@
         <pp:tag>tears</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>vision</pp:tag>
+        <pp:tag>youth</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation extra-poem-refs="81" status="on" hash="lark-mirrors">
@@ -3786,6 +3964,7 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>revolution</pp:tag>
+        <pp:tag>sleep</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
       </pp:tags>
@@ -3837,6 +4016,7 @@
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>resurrection</pp:tag>
+        <pp:tag>revolution</pp:tag>
         <pp:tag>sins</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
@@ -3879,13 +4059,16 @@
         <pp:tag>birds</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>calcination</pp:tag>
+        <pp:tag>Christ</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>decapitation</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>illness</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>sacrifice</pp:tag>
         <pp:tag>scent</pp:tag>
+        <pp:tag>sighs</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
@@ -4002,15 +4185,18 @@
         <pp:tag>age</pp:tag>
         <pp:tag>beauty</pp:tag>
         <pp:tag>blazon</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>daughters</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>fate</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>illness</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>soul</pp:tag>
+        <pp:tag>tears</pp:tag>
         <pp:tag>vision</pp:tag>
         <pp:tag>youth</pp:tag>
       </pp:tags>
@@ -4144,6 +4330,7 @@
         <pp:tag>God</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>water</pp:tag>
       </pp:tags>
       <pp:keywords>
         <pp:keyword>flowers</pp:keyword>
@@ -4230,6 +4417,7 @@
       <pp:tags>
         <pp:tag>astrology</pp:tag>
         <pp:tag>astronomy</pp:tag>
+        <pp:tag>Broadfield</pp:tag>
         <pp:tag>complaint</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>dark</pp:tag>
@@ -4241,6 +4429,7 @@
         <pp:tag>praise</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>revolution</pp:tag>
+        <pp:tag>soul</pp:tag>
         <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -4320,6 +4509,7 @@
         <pp:tag>confinement</pp:tag>
         <pp:tag>freedom</pp:tag>
         <pp:tag>God</pp:tag>
+        <pp:tag>redemption</pp:tag>
         <pp:tag>sins</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>soul</pp:tag>
@@ -4359,7 +4549,9 @@
         <pp:keyword>sympathy</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>Broadfield</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>complaint</pp:tag>
         <pp:tag>countryside</pp:tag>
@@ -4370,13 +4562,17 @@
         <pp:tag>flowers</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>invitation</pp:tag>
+        <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>pastoral</pp:tag>
+        <pp:tag>scent</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>trees</pp:tag>
+        <pp:tag>virgin</pp:tag>
+        <pp:tag>water</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="57">
@@ -4427,6 +4623,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>astronomy</pp:tag>
         <pp:tag>atoms</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>cannibalism</pp:tag>
@@ -4440,14 +4637,17 @@
         <pp:tag>fish</pp:tag>
         <pp:tag>freedom</pp:tag>
         <pp:tag>friendship</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>pleasure</pp:tag>
         <pp:tag>reptiles</pp:tag>
         <pp:tag>rivers</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>vision</pp:tag>
+        <pp:tag>wind</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="creatures-venomous-and-offensive-to-man">
@@ -4698,10 +4898,12 @@
         <pp:tag>friendship</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>grief</pp:tag>
+        <pp:tag>Hadassah</pp:tag>
         <pp:tag>medicine</pp:tag>
         <pp:tag>night</pp:tag>
         <pp:tag>remembrance</pp:tag>
         <pp:tag>sighs</pp:tag>
+        <pp:tag>soul</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>transformation</pp:tag>
       </pp:tags>
@@ -4735,7 +4937,9 @@
         <pp:tag>Charles I</pp:tag>
         <pp:tag>Charles II</pp:tag>
         <pp:tag>civil war</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>fortune</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>hydra</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>rebellion</pp:tag>
@@ -4810,6 +5014,7 @@
         <pp:tag>atoms body</pp:tag>
         <pp:tag>body</pp:tag>
         <pp:tag>calcination</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>dissolution</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>elements</pp:tag>
@@ -4878,6 +5083,7 @@
       <pp:tags>
         <pp:tag>afterlife</pp:tag>
         <pp:tag>Bible</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>dissolution</pp:tag>
@@ -5232,7 +5438,10 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>Bible</pp:tag>
+        <pp:tag>Christ</pp:tag>
         <pp:tag>fame</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>prayer</pp:tag>
@@ -5269,14 +5478,17 @@
         <pp:tag>Aletheia</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>chastity</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>Christ</pp:tag>
         <pp:tag>church</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>Hell</pp:tag>
         <pp:tag>invitation</pp:tag>
         <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>parents</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>virtue</pp:tag>
       </pp:tags>
@@ -5323,11 +5535,14 @@
         <pp:tag>astronomy</pp:tag>
         <pp:tag>birth</pp:tag>
         <pp:tag>calcination</pp:tag>
+        <pp:tag>center</pp:tag>
         <pp:tag>constancy</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>faith</pp:tag>
         <pp:tag>flowers</pp:tag>
         <pp:tag>God</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>nymphs</pp:tag>
         <pp:tag>plants</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>sighs</pp:tag>
