@@ -5611,7 +5611,12 @@
       <pp:tags>
         <pp:tag>competition</pp:tag>
         <pp:tag>Charles II</pp:tag>
+        <pp:tag>enemies</pp:tag>
+        <pp:tag>fate</pp:tag>
+        <pp:tag>fortune</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>London</pp:tag>
+        <pp:tag>Restoration</pp:tag>
         <pp:tag>wisdom</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -5671,12 +5676,15 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>body</pp:tag>
+        <pp:tag>children</pp:tag>
         <pp:tag>dark</pp:tag>
+        <pp:tag>dew</pp:tag>
         <pp:tag>Earth</pp:tag>
         <pp:tag>family</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>God</pp:tag>
+        <pp:tag>Heaven</pp:tag>
         <pp:tag>light</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>parents</pp:tag>
@@ -5827,6 +5835,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>children</pp:tag>
         <pp:tag>division</pp:tag>
         <pp:tag>parents</pp:tag>
         <pp:tag>reproduction</pp:tag>
@@ -5869,6 +5878,8 @@
         <pp:tag>money</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>tears</pp:tag>
+        <pp:tag>vanity</pp:tag>
+        <pp:tag>vice</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="75">
@@ -5898,8 +5909,11 @@
         <pp:tag>children</pp:tag>
         <pp:tag>enemies</pp:tag>
         <pp:tag>faith</pp:tag>
+        <pp:tag>fire</pp:tag>
+        <pp:tag>marriage</pp:tag>
         <pp:tag>mother</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -5923,11 +5937,13 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>cannibalism</pp:tag>
+        <pp:tag>fish</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>mother</pp:tag>
         <pp:tag>parents</pp:tag>
         <pp:tag>reproduction</pp:tag>
+        <pp:tag>reptiles</pp:tag>
       </pp:tags>
       <pp:keywords>
         <pp:keyword>animals</pp:keyword>
@@ -6000,7 +6016,9 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>children</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>dew</pp:tag>
         <pp:tag>family</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>God</pp:tag>
@@ -6078,7 +6096,9 @@
         <pp:tag>countryside</pp:tag>
         <pp:tag>enemies</pp:tag>
         <pp:tag>insects</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>praise</pp:tag>
+        <pp:tag>reptiles</pp:tag>
         <pp:tag>revenge</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>violence</pp:tag>
@@ -6143,6 +6163,8 @@
         <pp:tag>Bible</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>power</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>sight</pp:tag>
@@ -6178,6 +6200,7 @@
         <pp:tag>fish</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>mirror</pp:tag>
+        <pp:tag>parents</pp:tag>
         <pp:tag>pride</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>trees</pp:tag>
@@ -6292,7 +6315,9 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>Christ</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>Hell</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>reproduction</pp:tag>
         <pp:tag>reptiles</pp:tag>
@@ -6328,9 +6353,11 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>curse</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>money</pp:tag>
         <pp:tag>music</pp:tag>
         <pp:tag>parents</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>punishment</pp:tag>
         <pp:tag>revenge</pp:tag>
         <pp:tag>rivers</pp:tag>
@@ -6363,12 +6390,16 @@
         <pp:keyword>marriage</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>animals</pp:tag>
         <pp:tag>Charles I</pp:tag>
+        <pp:tag>chastity</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>constancy</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>elephant</pp:tag>
         <pp:tag>jealousy</pp:tag>
+        <pp:tag>London</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>marriage</pp:tag>
         <pp:tag>sacrifice</pp:tag>
@@ -6473,10 +6504,14 @@
         <pp:keyword>prayer</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>animals</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>chastity</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>family</pp:tag>
+        <pp:tag>food</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>London</pp:tag>
         <pp:tag>love</pp:tag>
@@ -6485,6 +6520,8 @@
         <pp:tag>poetry</pp:tag>
         <pp:tag>prayer</pp:tag>
         <pp:tag>remembrance</pp:tag>
+        <pp:tag>theater</pp:tag>
+        <pp:tag>vice</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="the-devoted-turtledove">
@@ -6552,6 +6589,8 @@
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>pleasure</pp:tag>
         <pp:tag>power</pp:tag>
+        <pp:tag>theater</pp:tag>
+        <pp:tag>whales</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="puppets-masques-and-buffoons">
@@ -6726,11 +6765,14 @@
         <pp:tag>court</pp:tag>
         <pp:tag>courtship</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>enemies</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>performance</pp:tag>
+        <pp:tag>plants</pp:tag>
         <pp:tag>poison</pp:tag>
         <pp:tag>transience soul</pp:tag>
+        <pp:tag>vanity</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -6839,6 +6881,7 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>food</pp:tag>
         <pp:tag>love</pp:tag>
         <pp:tag>marriage</pp:tag>
         <pp:tag>pleasure</pp:tag>
@@ -6869,12 +6912,15 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>death</pp:tag>
+        <pp:tag>fame</pp:tag>
         <pp:tag>fish</pp:tag>
         <pp:tag>food</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>patience</pp:tag>
         <pp:tag>violence</pp:tag>
         <pp:tag>whales</pp:tag>
@@ -6907,6 +6953,7 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>class</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
         <pp:tag>England</pp:tag>
         <pp:tag>government</pp:tag>
         <pp:tag>history</pp:tag>
@@ -6914,6 +6961,7 @@
         <pp:tag>mythology</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>slavery</pp:tag>
+        <pp:tag>trees</pp:tag>
         <pp:tag>war</pp:tag>
       </pp:tags>
       <pp:curations>
@@ -6973,6 +7021,7 @@
         <pp:tag>death</pp:tag>
         <pp:tag>Earth</pp:tag>
         <pp:tag>food</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>grief</pp:tag>
         <pp:tag>Hell</pp:tag>
         <pp:tag>history</pp:tag>
@@ -7081,13 +7130,17 @@
         <pp:tag>ambition</pp:tag>
         <pp:tag>author</pp:tag>
         <pp:tag>Bible</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>fame</pp:tag>
+        <pp:tag>fire</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>justice</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>rivers</pp:tag>
         <pp:tag>sins</pp:tag>
+        <pp:tag>vanity</pp:tag>
         <pp:tag>violence</pp:tag>
+        <pp:tag>war</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="94">
@@ -7171,6 +7224,9 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>blood</pp:tag>
+        <pp:tag>death</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>pigs</pp:tag>
         <pp:tag>sacrifice</pp:tag>
@@ -7222,9 +7278,11 @@
         <pp:tag>animals</pp:tag>
         <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>fate</pp:tag>
         <pp:tag>food</pp:tag>
+        <pp:tag>history</pp:tag>
         <pp:tag>prophecy</pp:tag>
         <pp:tag>sighs</pp:tag>
         <pp:tag>soul</pp:tag>
@@ -7259,9 +7317,11 @@
         <pp:tag>elephant</pp:tag>
         <pp:tag>jealousy</pp:tag>
         <pp:tag>love</pp:tag>
+        <pp:tag>marriage</pp:tag>
         <pp:tag>monarchy</pp:tag>
         <pp:tag>parents</pp:tag>
         <pp:tag>reproduction</pp:tag>
+        <pp:tag>tyranny</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -7293,9 +7353,14 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>Bible</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
+        <pp:tag>elephants</pp:tag>
         <pp:tag>enemies</pp:tag>
+        <pp:tag>flowers</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>revenge</pp:tag>
         <pp:tag>scent</pp:tag>
         <pp:tag>violence</pp:tag>
@@ -7369,11 +7434,14 @@
         <pp:keyword>sacrifice</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
         <pp:tag>animals</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>drink</pp:tag>
         <pp:tag>Earth</pp:tag>
         <pp:tag>food</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>ingratitude</pp:tag>
         <pp:tag>money</pp:tag>
         <pp:tag>pigs</pp:tag>
@@ -7409,8 +7477,12 @@
         <pp:tag>birds</pp:tag>
         <pp:tag>constancy</pp:tag>
         <pp:tag>creation</pp:tag>
+        <pp:tag>fate</pp:tag>
         <pp:tag>fish</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>Heaven</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>praise</pp:tag>
         <pp:tag>purity</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>sight</pp:tag>
@@ -7452,12 +7524,17 @@
         <pp:keyword>Christ</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
         <pp:tag>animals</pp:tag>
+        <pp:tag>beauty</pp:tag>
+        <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>children</pp:tag>
         <pp:tag>Christ</pp:tag>
         <pp:tag>church</pp:tag>
         <pp:tag>civil war</pp:tag>
+        <pp:tag>God</pp:tag>
+        <pp:tag>history</pp:tag>
         <pp:tag>illness</pp:tag>
         <pp:tag>medicine</pp:tag>
         <pp:tag>money</pp:tag>
@@ -7494,13 +7571,17 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>Bible</pp:tag>
+        <pp:tag>blood</pp:tag>
+        <pp:tag>cannibalism</pp:tag>
         <pp:tag>death</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>murder</pp:tag>
+        <pp:tag>poison</pp:tag>
         <pp:tag>tyranny</pp:tag>
         <pp:tag>vegetarianism</pp:tag>
+        <pp:tag>vice</pp:tag>
         <pp:tag>violence</pp:tag>
       </pp:tags>
     </pp:poem>
@@ -7535,6 +7616,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>blood</pp:tag>
         <pp:tag>cannibalism</pp:tag>
         <pp:tag>court</pp:tag>
         <pp:tag>drink</pp:tag>
@@ -7542,7 +7624,9 @@
         <pp:tag>illness</pp:tag>
         <pp:tag>medicine</pp:tag>
         <pp:tag>remembrance</pp:tag>
+        <pp:tag>tyranny</pp:tag>
         <pp:tag>vice</pp:tag>
+        <pp:tag>violence</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="doctor-fox">
@@ -7628,16 +7712,20 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>birds</pp:tag>
+        <pp:tag>Charles I</pp:tag>
         <pp:tag>countryside</pp:tag>
         <pp:tag>fish</pp:tag>
         <pp:tag>history</pp:tag>
         <pp:tag>king</pp:tag>
         <pp:tag>loyal</pp:tag>
+        <pp:tag>marriage</pp:tag>
         <pp:tag>mobility</pp:tag>
         <pp:tag>moon</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>sexuality</pp:tag>
+        <pp:tag>sleep</pp:tag>
+        <pp:tag>vice</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="cetacean-relations">
@@ -7694,10 +7782,12 @@
         <pp:tag>dust</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>flowers</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>praise</pp:tag>
         <pp:tag>resurrection</pp:tag>
         <pp:tag>song</pp:tag>
+        <pp:tag>transformation</pp:tag>
       </pp:tags>
       <pp:curations>
         <pp:curation status="on" hash="domestic-resurrections-and-everyday-miracles">
@@ -7873,8 +7963,10 @@
         <pp:tag>Bible</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>class</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
         <pp:tag>devil</pp:tag>
         <pp:tag>demon</pp:tag>
+        <pp:tag>elephants</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>Hell</pp:tag>
@@ -7991,13 +8083,17 @@
         <pp:keyword>pride</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>animals</pp:tag>
         <pp:tag>England</pp:tag>
+        <pp:tag>fish</pp:tag>
+        <pp:tag>history</pp:tag>
         <pp:tag>humility</pp:tag>
         <pp:tag>king</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>ocean</pp:tag>
         <pp:tag>pride</pp:tag>
         <pp:tag>vanity</pp:tag>
+        <pp:tag>war</pp:tag>
         <pp:tag>wind</pp:tag>
         <pp:tag>witchcraft</pp:tag>
       </pp:tags>
@@ -8098,16 +8194,20 @@
         <pp:tag>death</pp:tag>
         <pp:tag>dust</pp:tag>
         <pp:tag>fire</pp:tag>
+        <pp:tag>Hadassah</pp:tag>
         <pp:tag>Heaven</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>parents</pp:tag>
+        <pp:tag>phoenix</pp:tag>
         <pp:tag>rebirth</pp:tag>
+        <pp:tag>resurrection</pp:tag>
         <pp:tag>sacrifice</pp:tag>
         <pp:tag>song</pp:tag>
         <pp:tag>sorrow</pp:tag>
         <pp:tag>soul</pp:tag>
         <pp:tag>suicide</pp:tag>
         <pp:tag>sun</pp:tag>
+        <pp:tag>transformation</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="110">
@@ -8136,11 +8236,13 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>Bible</pp:tag>
+        <pp:tag>Charles</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>faith</pp:tag>
         <pp:tag>freedom</pp:tag>
+        <pp:tag>history</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>race</pp:tag>
       </pp:tags>
@@ -8233,12 +8335,16 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>Aurora</pp:tag>
         <pp:tag>birds</pp:tag>
         <pp:tag>compassion</pp:tag>
         <pp:tag>dawn</pp:tag>
+        <pp:tag>fire</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>generosity</pp:tag>
         <pp:tag>God</pp:tag>
+        <pp:tag>Hell</pp:tag>
+        <pp:tag>history</pp:tag>
         <pp:tag>justice</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>punishment</pp:tag>
@@ -8325,14 +8431,17 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>animals</pp:tag>
+        <pp:tag>beauty</pp:tag>
         <pp:tag>chastity</pp:tag>
         <pp:tag>fire</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>nymphs</pp:tag>
         <pp:tag>Other(s)</pp:tag>
         <pp:tag>rape</pp:tag>
         <pp:tag>sexuality</pp:tag>
         <pp:tag>transformation</pp:tag>
         <pp:tag>tyranny</pp:tag>
+        <pp:tag>violence</pp:tag>
       </pp:tags>
     </pp:poem>
     <pp:poem id="113">
@@ -8364,11 +8473,14 @@
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>confinement</pp:tag>
+        <pp:tag>Cromwell</pp:tag>
         <pp:tag>father</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>freedom</pp:tag>
+        <pp:tag>God</pp:tag>
         <pp:tag>king</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>planets</pp:tag>
         <pp:tag>security</pp:tag>
       </pp:tags>
@@ -8430,6 +8542,7 @@
         <pp:keyword>restraint</pp:keyword>
       </pp:keywords>
       <pp:tags>
+        <pp:tag>afterlife</pp:tag>
         <pp:tag>animals</pp:tag>
         <pp:tag>confinement</pp:tag>
         <pp:tag>countryside</pp:tag>
@@ -8570,6 +8683,7 @@
         <pp:tag>Cromwell</pp:tag>
         <pp:tag>England</pp:tag>
         <pp:tag>history</pp:tag>
+        <pp:tag>justice</pp:tag>
         <pp:tag>mythology</pp:tag>
         <pp:tag>restoration</pp:tag>
         <pp:tag>violence</pp:tag>
@@ -8605,6 +8719,7 @@
         <pp:tag>civil war</pp:tag>
         <pp:tag>Cromwell</pp:tag>
         <pp:tag>filth</pp:tag>
+        <pp:tag>fish</pp:tag>
         <pp:tag>food</pp:tag>
         <pp:tag>gods</pp:tag>
         <pp:tag>insects</pp:tag>
@@ -8687,6 +8802,7 @@
         <pp:tag>goddesses</pp:tag>
         <pp:tag>insects</pp:tag>
         <pp:tag>moon</pp:tag>
+        <pp:tag>patience</pp:tag>
         <pp:tag>poison</pp:tag>
         <pp:tag>sun</pp:tag>
       </pp:tags>
@@ -8790,14 +8906,18 @@
       </pp:keywords>
       <pp:tags>
         <pp:tag>birds</pp:tag>
+        <pp:tag>complaint</pp:tag>
         <pp:tag>dawn</pp:tag>
         <pp:tag>dreams</pp:tag>
         <pp:tag>England</pp:tag>
+        <pp:tag>fish</pp:tag>
         <pp:tag>gods</pp:tag>
         <pp:tag>moon</pp:tag>
         <pp:tag>mythology</pp:tag>
+        <pp:tag>nymphs</pp:tag>
         <pp:tag>rivers</pp:tag>
         <pp:tag>sleep</pp:tag>
+        <pp:tag>solitude</pp:tag>
         <pp:tag>tears</pp:tag>
         <pp:tag>war</pp:tag>
         <pp:tag>water</pp:tag>
