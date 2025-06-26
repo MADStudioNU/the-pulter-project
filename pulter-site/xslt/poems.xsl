@@ -8236,7 +8236,7 @@
       <pp:tags>
         <pp:tag>animals</pp:tag>
         <pp:tag>Bible</pp:tag>
-        <pp:tag>Charles</pp:tag>
+        <pp:tag>Charles I</pp:tag>
         <pp:tag>civil war</pp:tag>
         <pp:tag>class</pp:tag>
         <pp:tag>confinement</pp:tag>
