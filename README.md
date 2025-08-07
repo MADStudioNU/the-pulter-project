@@ -44,7 +44,7 @@ Branch `develop` is built and deployed to the ["preview site"](https://pulterpro
 It is also possible to deploy directly to Netlify by running `npm run build; netlify deploy -p -d dist/;`.
 
 ### Staging Instance
-Branch `master` is automatically deployed to the [AWS S3 staging site](http://mads-static-sites-dev-pulterproject-dev.s3-website.us-east-2.amazonaws.com). This instance is used to verify that the build you are about to deploy to prod looks/works as intended.
+Branch `master` is automatically deployed to the [AWS S3 staging site](http://mads-static-sites-staging-pulterproject-staging.s3-website.us-east-2.amazonaws.com). This instance is used to verify that the build you are about to deploy to prod looks/works as intended.
 
 ### Production Instance
 [![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
