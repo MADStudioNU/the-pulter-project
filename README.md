@@ -49,7 +49,7 @@ Branch `master` is automatically deployed to the [AWS S3 staging site](http://ma
 ### Production Instance
 [![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
 
-Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @sergei-kalugin, @emwitty or @lhn4977.
+Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @emwitty or @lhn4977.
 
 ## Current Delta
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
