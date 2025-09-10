@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Curations
-> —
+> C108a (_She Ship_ by Sarah Johnson), C108b (_Pride Feminized_ by Sarah Johnson)
 
 ### Explorations
 > —
