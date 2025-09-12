@@ -8077,6 +8077,16 @@
         </pp:edition>
       </pp:editions>
       <pp:curations>
+        <pp:curation status="on" hash="pride-feminized">
+          <pp:author>
+            <pp:person>Sarah Johnson</pp:person>
+          </pp:author>
+          <pp:title>Pride Feminized </pp:title>
+          <pp:peek>In making the feminized stately ship an emblem for futile pride, Pulter participates in her culture’s association of pride with women.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>pride</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
         <pp:curation status="on" hash="she-ship">
           <pp:author>
             <pp:person>Sarah Johnson</pp:person>
@@ -8087,16 +8097,6 @@
             <pp:keyword>watercraft</pp:keyword>
           </pp:keywords>
         </pp:curation>
-        <pp:curation status="on" hash="pride-feminized">
-          <pp:author>
-            <pp:person>Sarah Johnson</pp:person>
-          </pp:author>
-          <pp:title>Pride Feminized </pp:title>
-          <pp:peek>In making the feminized stately ship an emblem for futile pride, Pulter participates in her culture’s association of pride with women.</pp:peek>
-          <pp:keywords>
-            <pp:keyword>pride</pp:keyword>
-          </pp:keywords>
-        </pp:curation>       
       </pp:curations>
       <pp:keywords>
         <pp:keyword>witchcraft</pp:keyword>
