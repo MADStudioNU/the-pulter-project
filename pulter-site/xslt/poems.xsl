@@ -8084,7 +8084,14 @@
           <pp:title>Pride Feminized </pp:title>
           <pp:peek>In making the feminized stately ship an emblem for futile pride, Pulter participates in her culture’s association of pride with women.</pp:peek>
           <pp:keywords>
+            <pp:keyword>pride</pp:keyword>
+            <pp:keyword>Richard Hooker</pp:keyword>
+            <pp:keyword>John Taylor</pp:keyword>
             <pp:keyword>gender</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>Elizabeth Joceline</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
           </pp:keywords>
         </pp:curation>
         <pp:curation status="on" hash="she-ship">
