@@ -8076,6 +8076,43 @@
           <pp:author>Wendy Wall</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="pride-feminized">
+          <pp:author>
+            <pp:person>Sarah Johnson</pp:person>
+          </pp:author>
+          <pp:title>Pride Feminized </pp:title>
+          <pp:peek>In making the feminized stately ship an emblem for futile pride, Pulter participates in her culture’s association of pride with women.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>pride</pp:keyword>
+            <pp:keyword>Richard Hooker</pp:keyword>
+            <pp:keyword>John Taylor</pp:keyword>
+            <pp:keyword>gender</pp:keyword>
+            <pp:keyword>parents</pp:keyword>
+            <pp:keyword>Edward Topsell</pp:keyword>
+            <pp:keyword>Elizabeth Joceline</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+        <pp:curation status="on" hash="she-ship">
+          <pp:author>
+            <pp:person>Sarah Johnson</pp:person>
+          </pp:author>
+          <pp:title>She-ship</pp:title>
+          <pp:peek>Pulter’s feminized stately ship fits into a long tradition in English of feminizing watercraft that persists to this day. These excerpts from Henry Manwayring’s contemporaneous dictionary of nautical terms exemplify the habitual nature of this gendering in its use of feminine pronouns, without explanation or preamble, to refer to ships in general, as opposed to a specific ship named after a woman.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>water</pp:keyword>
+            <pp:keyword>gender</pp:keyword>
+            <pp:keyword>John Milton</pp:keyword>
+            <pp:keyword>Ben Jonson</pp:keyword>
+            <pp:keyword>William Shakespeare</pp:keyword>
+            <pp:keyword>John Fletcher</pp:keyword>
+            <pp:keyword>sexuality</pp:keyword>
+            <pp:keyword>Margaret Cavendish</pp:keyword>
+            <pp:keyword>museum</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+      </pp:curations>
       <pp:keywords>
         <pp:keyword>witchcraft</pp:keyword>
         <pp:keyword>humility</pp:keyword>

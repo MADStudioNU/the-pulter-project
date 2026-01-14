@@ -44,12 +44,12 @@ Branch `develop` is built and deployed to the ["preview site"](https://pulterpro
 It is also possible to deploy directly to Netlify by running `npm run build; netlify deploy -p -d dist/;`.
 
 ### Staging Instance
-Branch `master` is automatically deployed to the [AWS S3 staging site](http://mads-static-sites-dev-pulterproject-dev.s3-website.us-east-2.amazonaws.com). This instance is used to verify that the build you are about to deploy to prod looks/works as intended.
+Branch `master` is automatically deployed to the [AWS S3 staging site](http://mads-static-sites-staging-pulterproject-staging.s3-website.us-east-2.amazonaws.com). This instance is used to verify that the build you are about to deploy to prod looks/works as intended.
 
 ### Production Instance
 [![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
 
-Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @sergei-kalugin, @emwitty or @lhn4977.
+Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @emwitty or @lhn4977.
 
 ## Current Delta
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Curations
-> —
+> C108a (_Pride Feminized_ by Sarah Johnson), C108b (_She Ship_ by Sarah Johnson)
 
 ### Explorations
 > —

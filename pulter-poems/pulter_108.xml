@@ -26,6 +26,7 @@
           <persName>Betsy Chou</persName>
           <persName>Emily Andrey</persName>
           <orgName>Northwestern University</orgName>
+          <persName>Sydney Reeves</persName>
         </respStmt>
         <respStmt>
           <resp>IT-project consultation by</resp>
@@ -126,7 +127,7 @@
         <listWit>
           <witness xml:id="ft">Transcription of manuscript: By <persName xml:id="lknight">Leah Knight</persName> and <persName xml:id="wwall">Wendy Wall</persName>.</witness>
           <witness xml:id="ee">Elemental edition: By <persName>Leah Knight</persName> and <persName>Wendy Wall</persName>.</witness>
-<!--          <witness xml:id="ae">Amplified edition: By <persName>AE EDITOR</persName>.</witness>-->
+          <witness xml:id="ae">Amplified edition: By <persName>Sarah E. Johnson</persName>.</witness>
         </listWit>
       </div>
     </front>
@@ -149,7 +150,7 @@
         <app type="title">
           <rdg wit="#ft"><fw facs="#f7610_069" type="pageNum" place="margin-topright">PG#</fw>[Emblem 43]</rdg>
             <rdg wit="#ee">This Stately Ship<lb/>(Emblem 43)</rdg>
-          <rdg wit="#ae">AE TITLE</rdg>
+          <rdg wit="#ae">This Stately Ship</rdg>
         </app>
         <app type="editorialnote">
           <rdg wit="#ft">
@@ -158,7 +159,7 @@
           <rdg wit="#ee">
             <note type="editorialnote">The aim of the elemental edition is to make the poems accessible to the largest variety of readers, which involves modernizing spelling and punctuation as well as adding basic glosses. Spelling and punctuation reflect current standard American usage; punctuation highlights syntax which might otherwise be obscure. Outmoded but still familiar word forms (“thou,” “‘tis,” “hold’st”) are not modernized, and we do not modernize grammar when the sense remains legible. After a brief headnote aimed at offering a “way in” to the poem’s unique qualities and connections with other verse by Pulter or her contemporaries, the edition features a minimum of notes and interpretative framing to allow more immediate engagement with the poem. Glosses clarify synonyms or showcase various possible meanings in Pulter’s time. Other notes identify named people and places or clarify obscure material. We rely (without citation) primarily on the Oxford English Dictionary (OED), the Oxford Reference database, and the King James Version (KJV) of the Bible. When we rely on Alice Eardley’s edition of Pulter’s work, we cite her text generally (“Eardley”); other sources are cited in full. The result is an edition we consider a springboard for further work on Pulter’s poetry. <ref target="//pulterproject.northwestern.edu/about-project-conventions.html#elemental-edition" type="new-window-url">See full conventions for this edition here.</ref></note></rdg>
           <rdg wit="#ae">
-            <note type="editorialnote"></note>
+            <note type="editorialnote">I have modernized spelling and added punctuation, aiming for a reader-friendly and broadly accessible edition. I have maintained the capitalization present in the manuscript, however, to keep open the possibility of additional emphasis as well as interplay between these words designated with a majuscule. My notes to this amplified edition serve five purposes: to clarify denotative meaning in the poem through definitions or alternative phrasing; to flag significant features of the manuscript version of the poem, such as deletions, insertions, and marginal notes; to draw attention to instances where my punctuation choices impose one over another possible meaning; to amplify selected details of the poem through brief explanations of relevant cultural, historical, and political contexts; and to highlight some of the interesting structural features of the poem.</note>
           </rdg>
         </app>
         <app type="headnote">
@@ -166,7 +167,51 @@
               <note type="headnote">By offering examples of how diminutive and seemingly insignificant things (flies, worms, clothes) can overcome even the mightiest people, this emblem warns against the vanity of human overconfidence and pride (vices that Pulter sees in the tyrannies of English politics of the day). The central conceit is of a magisterial ship able to battle and survive the worst ocean storms; Pulter develops this conventional metaphor of the ship of state by asking the reader to imaginatively fuse two stories of sailors battling the elements: Aeneas, in conflict with the goddess Juno when fleeing Troy, and King James VI of Scotland (later James I of England), who believed witches tried to wreck him and his queen at sea as an attack on royal power. As it turns out, small suckerfish–invisibly glued to the keel of a boat–could accomplish what powerful tempests at sea could not: halt the ship in its tracks. The poem’s central image of an anchored ship morphs at this point in the poem into numerous sailing vessels from Roman and Greek histories, all of which succumbed to the unexpected power of a something lower down on the food chain.</note>
           </rdg>
           <rdg wit="#ae">
-            <note type="headnote"></note>
+            <note type="headnote"><p>Hester Pulter’s forty-third emblem takes the “stately ship” as its central image to reflect upon the futility of pride. The poem opens with a particular ship, the vessel carrying Aeneas from the Trojan war. Juno’s storms, as Virgil relates, waylay Aeneas’s ship until Neptune quells them to help his great-nephew. Although the poem includes this detail, the speaker connects the ensuing calm sailing conditions with witchcraft, speculating that “Elfin Lapland hags” had bagged the winds. Such supernatural interference reminds the speaker of the storms, blamed on North Berwick “witches,” that endangered King James’s ships on his voyage from Scotland to retrieve Anna of Denmark. The speaker then relates how the ship with which the poem opened inexplicably stalls. “Julius” dives from the ship to discover the cause of the delay – a remora stuck to the ship’s keel. This “Julius” corresponds to the “Caesar” named at the outset as the ship’s passenger, even though the reference to Neptune acting “for his lovely niece’s sake” initially identifies “Caesar” as Aeneas, Julius’s ancestor (4-5). The detail of diving to find the remora, moreover, echoes an account in Pliny that does not name either Caesar.<seg>1<note type="gloss">Pliny, the Elder, <title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>, trans. Philemon Holland (London, 1634), Book 32, ch. 1, p. 426, STC (2nd ed.) 20030.</note></seg> This muddling and merging of details from across myth and history into the main “stately ship” of the poem, along with comparisons to additional ships – King James’s and, later, Periander’s – conveys a sense of timelessness to the symbolic meaning of the stalled, stately vessel.</p>
+            <p>The emblem’s moral about pride is not politically neutral. The epithet “stately” denotes a ship’s grandeur and elegance,<seg>2<note type="gloss"><title rend="italic">OED</title>, s.v. “stately, adj.,” senses 1.a, 4.a, and 7, Sept. 2024.</note></seg> or a person’s nobility or princeliness<seg>3<note type="gloss"><title rend="italic">OED</title>, s.v. “stately, adj.,” sense 2.</note></seg>— attributes that can generate pride. Indeed, the biblical Proverb that pride precedes a fall associates pride with self-importance.<seg>4<note type="gloss"><title rend="italic">King James Bible</title>, Proverbs 16:18-19.</note></seg> At the same time, “stately” signals the ship’s function as a metaphor for the state. In this case, Pulter’s repeated use, elsewhere, of “Caesar” as a poetic name for Charles I is relevant (for examples, see <ref type="pp-poem-ref" corresp="27">On the King's Most Excellent Majesty</ref>, <ref type="pp-poem-ref" corresp="96">Old Aeschylus (Emblem 31)</ref>, and <ref type="pp-poem-ref" corresp="8">On that Unparalleled Prince Charles the First, His Horrid Murder</ref>). England, the ship of state, was once “proud” and secure “for Caesar and his fortunes she did bear” (4). This sentiment resonates with the river’s recollection, in <ref type="pp-poem-ref" corresp="4">The Complaint of Thames, 1647, When the Best of Kings was Imprisoned by the Worst of Rebels at Holmby</ref>, of being the “envy” of other nations’ rivers when she bore King Charles and Queen Henrietta Maria upon her waters (41-78). Just as the Thames recalls “Those halcyon days, the sweet tranquility / That we enjoyed under his happy reign,” the peace associated with the halcyon is present while the stately ship bears Caesar (“The Complaint of Thames” 36-7, “This Stately Ship” 10). Julius Caesar’s political betrayal and assassination, of course, make him a fitting analogue for Charles I. Despite Caesar’s lofty status as Roman dictator and, correspondingly, Charles’s as king of England, the poem situates not this figure, but the ship, as pride’s embodiment. “Julius” himself investigates the ship’s / state’s disfunction to find that a remora – something small and seemingly insignificant – has brought it to a standstill. The ship’s pride in “her carriage” does not in itself cause the disruption, though the final couplet suggests pride makes the ship vulnerable to the remora: “Then let us all move humble in our sphere, / And then no remora we need to fear.” In this reading, the remora could align with the Parliamentarian overthrow of the monarchy. A side implication is that, despite their interruption of the state, Parliamentarians remain lowly creatures. Pulter’s remora thus bears thematic similarity to her use of vermin to represent Parliamentarians in <ref type="pp-poem-ref" corresp="117">The Caucasines (Emblem 52)</ref>, with the attendant contradictory insinuations of Royalist superiority and, to some extent, fault in the Civil War, insofar as the infliction of vermin could signal God’s wrath (see, for example, <ref type="pp-poem-ref" corresp="83">The Piper of Hamelin (Emblem 17)</ref> and <ref type="pp-poem-ref" corresp="111">The Bishop and the Rats (Emblem 46)</ref>). Early modern writers often associated shipwreck, as well, with divine punishment and reversals of fortune (see <ref type="pp-curation-ref" target="/poems/ee/the-stately-moose-emblem-27/#shipwrecks-and-civil-war">Shipwrecks and Civil War</ref> for examples).</p>
+            <p>In addition to its topical political resonance, Pulter’s complex treatment of pride is gender-inflected, as were conceptualizations of pride in seventeenth-century England. Familiar exemplars of sinful pride certainly included male figures, such as Lucifer, Hamon in this emblem, or Phaeton and Icarus in Pulter’s <ref type="pp-poem-ref" corresp="62">On the Fall of that Grand Rebel the Earl of Essex’s Effigies in Harry the 7th’s Chapel in Westminster Abbey</ref>, but as an abstract concept, pride was usually feminized (see the curation “Feminized Pride”). The image of a ship in sail fits well with typical visualizations of pride as a swelling or puffing up,<seg>5<note type="gloss"> For examples of pride as a puffing up or swelling, see William Gearing, <title rend="italic">The Arraignment of Pride</title> (London, 1660) B3v and Richard Hooker, <title rend="italic"> A Learned Sermon of the Nature of Pride</title> (Oxford, 1612), 8, 12 STC/1026:04.</note></seg>  and the ship’s structure as a vessel aligns with the longstanding notion of women as vessels and the attendant implications – that women were created to be governed, used, filled, rather than being self-directing and possessing value or substance in and of themselves. But while feminizing pride generally emphasized both its sinfulness and women’s especial proneness to it, Pulter’s treatment subtly distinguishes between degrees of this vice. Namely, the difference between the stately ship “Proud of her carriage” at the emblem’s beginning and “those ships which such proud tyrants do obey” is the difference between esteem for something beyond the self, on one hand, and self-importance, on the other. “Carriage,” for example, denotes both the stately ship’s bearing (or a person’s comportment) and the cargo she bears, in this case Caesar or King Charles I. The ship’s pride thus includes, yet surpasses, the individual self; it is for the state, its leader, and for herself as a vehicle of these. Ships obeying “proud tyrants,” however, take direction from the self-importance of the tyrant. The speaker’s example of “such” a tyrant is Periander, who punishes an entire region for the killing of his son by shipping its boys off to be castrated. Possibly, the stately ship’s pride is thus more forgivable, Periander’s more condemnable, in comparison.</p>
+            <p>“Proud tyrant” Periander’s destructive vengeance as bereft father presents a counterpoint to a theme of motherhood underlying the stately ship’s pride. Diction evocative of pregnancy is present in the description of the stately ship as “Proud of her carriage … / For Caesar and his fortunes she did bear.” “Miscarriage” circulated from at least 1615 as a term for a lost pregnancy, and “bear” could mean to carry offspring in the womb in addition to carrying or transporting someone or something from one place to another.<seg>6<note type="gloss"><title rend="italic">OED</title>, s.v., “carriage, n.,” senses I.1, II, and IV, Sept. 2024.</note></seg> For Titania in Shakespeare’s <title rend="italic">A Midsummer Night’s Dream</title>, the very image of a ship with windblown sails suggests a woman’s pregnant body, and vice versa. Recalling time spent with “a votress of my order,” Titania relates:
+            </p>
+                <cit>
+                <quote>
+                <lg>
+                    <l>we have laughed to see the sails conceive</l>
+                    <l>And grow big-bellied with the wanton wind,</l>
+                    <l>Which she, with pretty and with swimming gait</l>
+                    <l>Following (her womb then rich with my young squire),</l>
+                    <l>Would imitate, and sail up on the land</l>
+                    <l>To fetch me trifles and return again,</l>
+                    <l>As from a voyage rich with merchandise.</l>
+                </lg>
+                </quote>
+                <bibl>William Shakespeare, <title rend="italic">A Midsummer Night’s Dream</title>, ed. Suzanne Westfall, Internet Shakespeare Editions, (2.1.499, 504-10). https://internetshakespeare.uvic.ca/Library/Texts/MND/index.html
+                </bibl>
+                </cit>
+            <p>
+            The “halcyon” picks up on the connotations of motherhood in the language describing the stately ship’s pride, for the “halcyon, too, her young had new disclosed” (10). With the word “too,” the speaker ostensibly points out that the mythical seabird’s calming influence over the sea is present in addition to Neptune’s power stilling the winds, but “too” could also connect the halcyon to the stately ship: like the ship bearing a precious passenger, the seabird has her vulnerable young in tow.<seg>7<note type="gloss"> Pulter reflects in <ref type="pp-poem-ref" corresp="46">The Lark</ref> on the futility of motherly pride when children might so easily be snatched away. When Flora’s “pride” is mown down by a churl, the Lark’s “treasure,” her nest of young, is horrifically destroyed (26-7). For variations on this theme, see also <ref type="pp-poem-ref" corresp="11">Tell Me No More [On the Same]</ref> and <ref type="pp-poem-ref" corresp="106">The Ostrich (Emblem 41)</ref></note></seg>
+            </p>
+            <p>
+            If motherhood is a thematic undercurrent in Pulter’s emblem on pride, it extends to the remora that immobilizes the stately ship. The meaning of the word “remora” in Latin is “delay.” “Many early modern texts” refer to the remora or echeneis, a creature that “allegedly fastened itself to boats, thus impeding or halting their movement,” as Aylin Malcolm explains in the <ref type="pp-curation-ref" target="/poems/ee/universal-dissolution/#deep-ecologies">Deep Ecologies</ref> Curation to Pulter’s <ref type="pp-poem-ref" corresp="6">Universal Dissolution, Made When I Was with Child, of my 15th Child, my Son, John, I Being, Everyone Thought, in a Consumption, 1648</ref> Malcolm’s Curation includes an excerpt from Holland’s translation of Pliny that attributes “Mark Antony’s failure at the Battle of Actium, and thus the end of the Roman Republic, to the echeneis,” a context relevant to the remora’s halting of the ship of state in Pulter’s emblem insofar as it signifies a change of political regime. A little further on from this passage, though, Pliny relates the remora’s “medicinal properties” according to various “Greek writers”:</p>
+                <cit>
+                    <quote>
+                      <lg>
+                        <l rend="tab-1">if a woman have it fastened either about her neck, arme, or otherwise, she shal go out her full time if she were with child: also, that it will reduce her matrice into the right place, if it were too loose and ready to hang out of her body. Others again report the contrary, namely, That if it be kept in salt and bound to any part of a woman great with child and in paine of hard travel, it will cause her to have present deliverance.</l>
+                       </lg>
+                    </quote>
+                    <bibl>
+                       An excerpt from Pliny, <title rend="italic">The Naturall Historie</title>, book 32, ch. 1, p. 426.
+                      </bibl>
+                  </cit>
+              <p>
+            The remora’s medicinal association with childbirth reinforces the thematic connection between the stately ship’s pride in her passenger and a mother’s pride in the child she carries or has carried. Although the remora was thought to hinder ships but aid in childbirth, in both cases it underscores the precarity of the source of pride. This very precarity, with the wellbeing of infant or passenger subject to the influence of something as little and inexplicable as the remora, makes this female-gendered pride just as futile as (if more forgivable than) the pride of Periander and others the poem cites as examples.
+            </p>
+            <p>
+            Like the remora, the witches to which the speaker refers perhaps function as an unpredictable and mysterious force capable of taking down pride. The speaker first mentions witches to elaborate on the calm sailing conditions with “all but one trade wind … reposed”: “I verily think some Elfin Lapland hags / Had put the one and thirty winds in bags” (11-13). Here, the speaker imagines that witches must have produced such calm by containing the winds. “Folklore had it,” as Knight and Wall relate, “that witches (‘hags’) from the region of Finland would sell wind to mariners.”<seg>8<note type="gloss">Knight and Wall, “The Stately Ship” (Elemental Edition), note to “elfin Lapland hags.”</note></seg> The speaker immediately compares this supposed instance of “Lapland hags” bagging the winds to a seemingly opposite instance of witchcraft, the time “when the learned’st of great Fergus’ seed / Did fetch the Elf to marry with his Tweed” (14-15). When James went to retrieve Anna, his Danish bride-to-be, storms disrupted the voyage. Several villagers of North Berwick were executed for purportedly conjuring those storms.<seg>9<note type="gloss">Retha M. Warnicke, “Lawrence Normand and Gareth Roberts, eds., <title rend="italic">Witchcraft in Early Modern Scotland, James VI’s Demonology and the North Berwick Witches,” Renaissance Quarterly</title> 55.1 (2002): 347-8, reports that the North Berwick witch trials accused people of having delayed Anna from arriving in England, while other accounts, including Terry Stewart, “North Berwick Witch Trials,” <title rend="italic">Historic UK</title> https://www.historic-uk.com/HistoryUK/HistoryofScotland/North-Berwick-Witch-Trials/, relate that James blamed North Berwick villagers for imperilling his own ships when he went to retrieve Anna. A 1591 publication, <title rend="italic">News from Scotland, declaring the damnable life and death of Doctor Fian</title> (London, 1591), STC (2nd ed.) 10841 a., no page numbers, reports that Agnis Tompson, a villager accused of witchcraft, “confessed” that she and others caused a “tempest” that was responsible for the “perishing of a Boate or vessell coming over from the towne of Brunt Iland to the towne of Lieth, wherein was sundrye jewelles and riche giftes, which should have been presented to the now Queen of Scotland, at her Majesties coming to Lieth.” She also confessed that the same witchcraft “was the cause that the Kinges Majesties Ship at his coming foorth of Denmarke, had a contrary winde to the rest of the his Ships.”</note></seg> When the speaker remarks, in the next line, “They gave the king Old Borus in a purse,” the pronoun “they” would thus most logically refer to the “Lapland hags” giving the purse to Caesar or Charles I, the passenger of the Stately Ship, since the description of presenting the king with contained winds does not fit with the story of storms driving James’s ships off course. Alternatively, if “the king” in question is James, might the line insinuate that, in serving as scapegoats for the storm, the “witches” James persecuted gave him a sense of control over the unpredictable winds? This latter possibility is perhaps far-fetched, and yet the speaker makes a further comment skeptical of witchcraft: “I wish some fiend may stay / Those ships which such proud tyrants do obey, / But if a star should shoot whilst I wish so, / Few ships from British harbours then would go” (28-31). The speaker aligns, here, the institution governing ships at the time (the Protectorate) with tyranny, but, in wishing for a fiend to do their bidding, also does what witches were purported to do. At the same time, the speaker points to their powerlessness – or her powerlessness if we associate the unspecified speaker with Pulter – to wish a fiend into action on her behalf, subtly debunking the very notion of witchcraft. Indeed, the crew might suspect “some infernal malice” when the stately ship stalls, but something simpler, the remora, is all it takes to deter the vessel, befitting the emblematic message about the precariousness of “proud designs.”
+            </p>
+            <p>
+            Structurally, the poem evokes a pictorial emblem comprising an illustration, motto, and reflection. The first thirty lines establish the shifting scene of the stately ship first riding the “curling billows” and then at a standstill with a remora stuck to its keel. The ensuing declaration, “By this we see how poor a thing will stop / Man’s proud designs,” signals a turn to reflection upon the meaning of the stately ship’s remora-halted voyage. Four comparable examples guide this reflection – two biblical, one historical, and one mythical, an assortment that, as with the merging of history and myth at the poem’s beginning, gestures to the universality of the moral message. Readers are reminded of individuals who, in the “height of pride” (37), encountered something small that laid them low. For Hamon it was a “stiff knee;” for Herod Agrippa, a worm; for “Pope Alexander,” a fly; and for Creusa, a garment. The final couplet could serve as an emblem motto: “Then let us all move humble in our sphere, / And then no remora we need to fear” (39-40). The poem is written in iambic pentameter rhyming couplets, with the exception of the above-cited line at which the poem turns from the stately ship to consider its meaning. Here, poetic form mirrors content with the only line that does not form half a rhyming couplet: “By this we see how poor a thing will stop” (31). So “poor a thing” as the <hi rend="italic">word</hi> “stop” (or the lack of a word to rhyme with “stop” in the next line) disrupts the poet’s overall “design” of rhyming couplets, with “stop,” remora-like, also halting the poetic description of the ship. Pulter’s enactment, through poetic form, of the emblem’s message is self-reflective, including her own poetic art among “man’s proud designs,” while also rewarding close engagement with her writing.
+            </p>
+            </note>
           </rdg>
         </app>
       </head>
@@ -176,56 +221,56 @@
         <app>
             <rdg wit="#ft"><fw type="seqNum" place="inline">43</fw><seg>This<note type="physical">first third of page occupied by end of previous poem; second third blank</note></seg> Stately Ship Courted by Winds &amp; Tide</rdg>
             <rdg wit="#ee">This stately ship, courted by winds and tide,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">This <seg>stately<note type="gloss"> “Of a person … befitting or indicating high rank; princely, noble, majestic; (hence) imposingly dignified. … Of movement or gait: slow and dignified; deliberate, sedate … Of, relating to, or characteristic of the State or a political state or states (<title rend="italic">OED</title>, s.v. “stately, adj.,” senses 1a, 1b, 1c, 2, 4.a, and 7, Sept. 2024).</note></seg> ship, courted by winds and tide,</rdg>
         </app>
       </l>
       <l n="2">
         <app>
             <rdg wit="#ft">Upon the Curling Billows Swiftly Rides</rdg>
             <rdg wit="#ee">Upon the curling billows swiftly rides,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Upon the curling billows swiftly rides.</rdg>
         </app>
       </l>
       <l n="3">
         <app>
             <rdg wit="#ft">Proud of her Carri’dg nothing Shee did fear</rdg>
             <rdg wit="#ee">Proud of her carriage; nothing she did fear,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Proud of her <seg>carriage<note> “A means of carrying, transporting, or conveying something,” or “a thing which is carried,” or “a manner of carrying oneself; conduct, behaviour, deportment" (<title rend="italic">OED</title>, s.v., “carriage, n.,” senses I.1, II, and IV, Sept. 2024). Note also that the word “miscarriage” meant “the spontaneous expulsion of a fetus from the womb before it is viable” as early as 1615 (<title rend="italic">OED</title>, s.v., “miscarriage, n.,” sense 4.a, Sept. 2024). “Carriage” thus may connect with “bear” in the following line to attribute to the feminized stately ship a sense of maternal pride.</note></seg>, nothing she did fear</rdg>
         </app>
       </l>
       <l n="4">
         <app>
             <rdg wit="#ft">&ff;or Cæſar and his &ff;ortunes Shee did bear</rdg>
             <rdg wit="#ee">For <seg>Caesar and his fortunes she did bear<note type="gloss">The first eight lines of this poem describe how Aeneas sought to sail away from the defeated city of Troy after the Trojan war. Virgil (at the opening of in his <title rend="italic">Aeneid</title>) narrates how the goddess Juno disrupted Aeneas’s voyage by means of storms created by Aeolus (the wind god), before Neptune (god of the ocean and sympathetic to Aeneas as the son of his niece, Venus) intervened. The Roman Emperor Julius Caesar traced his lineage to Ascanius, son of Aeneas.</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">For <seg>Caesar<note type="critical">As Leah Knight and Wendy Wall note in the Elemental Edition, “the first eight lines of this poem describe how Aeneas sought to sail away from the defeated city of Troy after the Trojan war. Virgil (at the opening of his <title rend="italic">Aeneid</title>) narrates how the goddess Juno disrupted Aeneas’s voyage by means of storms created by Aeolus (the wind god), before Neptune (god of the ocean and sympathetic to Aeneas as the son of his niece, Venus) intervened. The Roman Emperor Julius Caesar traced his lineage to Ascanius, son of Aeneas.” Hester Pulter also uses the name “Caesar” to represent King Charles I in <ref type="pp-poem-ref" corresp="27">On the King’s Most Excellent Majesty,</ref>, <ref type="pp-poem-ref" corresp="13">Upon the Imprisonment of His Sacred Majesty</ref>, and <ref type="pp-poem-ref" corresp="8">On that Unparalleled Prince Charles the First, His Horrid Murder</ref>.</note></seg> and his fortunes she did <seg>bear<note type="gloss">Among the multiple meanings of the verb “to bear,” three seem most relevant here: “to carry,” “to support or hold up,” and “to produce, yield, give birth to” (<title rend="italic">OED</title> s.v. “bear, v.1,” senses I, II, and III, September 2024).</note></seg>.</rdg>
         </app>
       </l>
       <l n="5">
         <app>
             <rdg wit="#ft">Great Neptune for his lovly Neeces ſake</rdg>
             <rdg wit="#ee">Great Neptune, for his lovely niece’s sake,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Great <seg>Neptune<note type="gloss">Roman god of the sea</note></seg>, for <seg>his lovely niece’s<note type="gloss">Venus, Roman goddess of love</note></seg> sake,</rdg>
         </app>
       </l>
       <l n="6">
         <app>
             <rdg wit="#ft">Did Charg old Eolus a peace to make</rdg>
             <rdg wit="#ee">Did charge old Aeolus a peace to make</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Did charge old <seg>Aeolus<note type="gloss">Roman wind god</note></seg> a peace to make</rdg>
         </app>
       </l>
       <l n="7">
         <app>
             <rdg wit="#ft">Between thoſe bluſtring Tetarks, all Jarrs</rdg>
             <rdg wit="#ee">Between <seg>those blust’ring tetrarchs<note type="gloss">four joint rulers; here, the winds from the four cardinal directions</note></seg>, all <seg>jars<note type="gloss">discords, disputes</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Between those blust’ring <seg>tetrarchs<note type="gloss">“Tetarks” in the manuscript. The north, east, south, and west winds. A tetrarch is “a ruler of a fourth part, or of one of four parts, divisions, elements” (<title rend="italic">OED</title> s.v. “tetrarch, n.,” sense 2.a, July 2023).</note></seg>, all <seg>jars<note type="gloss">To “jar” is to “be out of harmony or at discord in character or effect; to be at variance; to disagree; to conflict” (<title rend="italic">OED</title> s.v. “jar, v.1,” sense II.11.a,” June 2024).</note></seg></rdg>
         </app>
       </l>
       <l n="8">
         <app>
             <rdg wit="#ft">Which &ff;ills his Trembling Kingdoms <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> ſuch Wars</rdg>
             <rdg wit="#ee"><seg>Which<note type="gloss">Of which</note></seg> fills his trembling kingdoms with such wars.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>Which<note gloss="critial">In the Elemental Edition Knight and Wall read this “which” as “of which.”  Another possibility is to read “which” as the relative pronoun for “all,” yielding the following sense: all jars, or everything is discord, a situation that fills his trembling kingdom with such wars. In the first reading “jars” functions as a plural noun, while in the second “jars” is a verb.</note></seg> fills his trembling kingdoms with such wars.</rdg>
         </app>
       </l>
 
@@ -250,175 +295,175 @@
         <app>
             <rdg wit="#ft">The Halcion too her Young had new diſcloſ’d</rdg>
             <rdg wit="#ee">The <seg>halcyon<note type="gloss">a mythical bird, formerly a daughter of Aelous, who would calm the seas when the halcyon brooded over her nest at sea; also, the kingfisher bird</note></seg>, too, her young had new disclosed,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">The <seg>Halcyon<note type="gloss">a bird in classical mythology “usually identified as a kingfisher, which brooded … in a nest floating on the sea, charming the wind and waves into calm” (<title rend="italic">OED</title> s.v. “halcyon, n.,” sense 1.a, September 2024). The image of the seabird with new young picks up on the potential evocation of motherhood in the diction of the stately ship being proud to “bear” her cargo. “Halcyon” is likely pronounced with two syllables here in keeping with the pentameter.</note></seg>, too, her young had new disclosed,</rdg>
         </app>
       </l>
       <l n="10">
         <app>
             <rdg wit="#ft">And all but one Trade Wind were now Repoſ’d</rdg>
             <rdg wit="#ee">And all but one <seg>trade wind<note type="gloss">steady unidirectional wind, especially at sea</note></seg> were now <seg>reposed<note type="gloss">at rest; tranquil</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And all but one <seg>trade wind<note type="gloss">“A wind that blows steadily in the same direction for a long period” (<title rend="italic">OED</title> s.v. “trade wind, n.,” sense 1, June 2024).</note></seg> were now <seg>reposed<note type="gloss">at rest</note></seg>.</rdg>
         </app>
       </l>
       <l n="11">
         <app>
             <rdg wit="#ft">I verily think Some Elfin Lapland Hags</rdg>
             <rdg wit="#ee">I verily think some <seg>elfin Lapland hags<note type="gloss">Folklore had it that witches (“hags”) from the region of Finland would sell wind to mariners. See <bibl>James George Frazier, <title rend="italic">The Golden Bough: A Study in Magic and Religion</title>, (New York: Macmillan, 1923), vol. 1, p. 81.</bibl></note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">I <seg>verily<note type="gloss">truly. Likely pronounced as two syllables to keep with the pentameter.</note></seg> think some <seg>Elfin Lapland hags<note type="gloss">Knight and Wall note, in the Elemental Edition to this poem, that “folklore had it that witches (‘hags’) from the region of Finland would sell wind to mariners.” Elfin “Full of strange charm; otherworldly; enchanting” (<title rend="italic">OED</title> s.v., “elfin, adj.,” sense 2.b, December 2024).</note></seg></rdg>
         </app>
       </l>
       <l n="12">
         <app>
             <rdg wit="#ft">Had put the one and Thirty Winds in Bags</rdg>
             <rdg wit="#ee">Had put the one-and-thirty winds in bags,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Had put the one and thirty winds in bags,</rdg>
         </app>
       </l>
       <l n="13">
         <app>
             <rdg wit="#ft">As when the Learned’st of great &ff;ergus Seed</rdg>
             <rdg wit="#ee">As when <seg>the learned’st of great Fergus’s seed<note type="gloss">James VI of Scotland, who became James I of England, claimed descent from Fergus, the first king of Scotland. In this and the lines that follow, Pulter alludes to the fact that when James I travelled back to Scotland (emblemized by the River Tweed) from Denmark with his bride, Anne (here called an “elf”), they encountered storms that James attributed to the devices of witchcraft. In Scottish witchcraft trials in the 1590s, some women were charged with attempting to destroy the monarchy by sinking his ship.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>As when<note type="critical">These words signal a comparison of the bagging of the thirty-one winds by Lapland hags, above, to another incident, namely, King James’s voyage from England to retrieve his bride, Anna of Denmark. Accounts of the stormy weather that marked this voyage vary. A 1591 text, <title rend="italic">Newes from Scotland, declaring the damnanble life and death of doctor Fian a notable sorcerer</title> (London, 1591), non-paginated, STC (2nd ed.) / 10841a, reports that “Agnis Tompson” confessed to having performed witchcraft, with a group of others, to raise “a tempest in the Sea” that destroyed a boat en route from “Brunt Iland” to “Lieth” laden with wedding gifts for Anna of Denmark. In this account, Tompson also confessed that the same means of witchcraft caused King James’s ship to encounter contrary winds as it departed Denmark. Alice Eardley, ed. <title rend="italic">Poems, Emblems, and the Unfortunate Florinda</title> (University of Chicago Press, 2014,) glosses, “In 1589, following a marriage by proxy to James I, Anne (or Anna) of Denmark … set sail for Scotland, but her ship encountered horrendous storms rumored to have been caused by witches” (n. 405). Stephen Graham Christian, “The Poems of Lady Hester Pulter (1605?-1678): An Annotated Edition,” PhD diss. (University of Massachusetts Amherst, 2012), notes that “after the proxy marriage of Anne of Denmark to James I, both her ships and his were notably driven back by winds” (n.1030). The comparison of this event famously marked by storms, on one hand, with sailing conditions so calm they make the speaker think “Lapland hags” must have bagged the winds, on the other, has been described by Christian as “jocular” (n. 1030). This contrast might also suggest that conditions were not as calm as they appeared on the surface.</note></seg> the <seg>learned’st of great Fergus’ seed<note type="gloss">King James VI of Scotland and I of England. As Alice Eardley notes in her edition of the poem, James was “renowned for his learning” and “claimed descent from Fergus, the first king of Scotland” (n.404).</note></seg></rdg>
         </app>
       </l>
       <l n="14">
         <app>
             <rdg wit="#ft">Did fetch the Elve, to Marry <w lemma="with"><abbr>w:<hi rend="superscript">th</hi></abbr></w> his Tweed</rdg>
             <rdg wit="#ee">Did fetch the elf to marry with his Tweed.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Did fetch the <seg>Elf<note type="critical">“Elve” in the manuscript. “Elf” carried “senses related to otherworldly or magical beings” (<title rend="italic">OED</title> s.v. “elf, n.,” sense 1, December 2024). The diction here thus repeats the meaning of the epithet applied to the “Lapland hags,” establishing a link between Anna and the “hags.” This link is a puzzling one given the context in which Anna “the Elf” is evoked – an allusion to a storm, blamed on supposed witches, that blew her and James’s ships off course (see note to “As when” above). “Elf” might also allude to Anna’s youth or size at the time of her marriage. Eardley notes that calling Queen Anna “the Elf” likely alludes “to Ben Jonson’s <title rend="italic">A Peculiar Entertainment of the Queen and Prince Their Highness at Althorp</title> in which she is protected by elves” (n.405).</note></seg> to marry with his <seg>Tweed<note type="gloss">a river in Scotland</note></seg>.</rdg>
         </app>
       </l>
       <l n="15">
         <app>
             <rdg wit="#ft">They Gave the King old Borus in A Purſs</rdg>
             <rdg wit="#ee"><seg>They gave the king old Borus in a purse<note type="gloss">Boreas was the name given by the Greeks to the north wind. Here Pulter might be alluding to the fact that Ulysses received the winds in a leather bag from Aeolus, the wind god; but she fuses it into the story of the Northern witches who reputedly caused King James of Scotland’s ships to go awry.</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>They<note type="gloss">the "Lapland hags" of line 12.</note></seg> gave <seg>the king<note type="critical">ambiguous. If “the king” refers to the “Caesar” the stately ship is carrying, then the speaker is returning here to the calm sailing conditions for the stately ship, after the brief allusion James’s stormy voyage. If James is instead the king referred to, then the reference to the bagged winds might be ironic. “The king” could also allude to Odysseus, king of Ithaca, who received the winds in a bag from the wind god Aeolus, as Knight and Wall note in the Elemental Edition to the poem, observing that Pulter fuses this myth with the lore of the northern witches selling winds.</note></seg> old <seg>Borus<note type="gloss">Boreas, Greek god of the north wind.</note></seg> in a purse;</rdg>
         </app>
       </l>
       <l n="16">
         <app>
             <rdg wit="#ft">I wiſh noe Witches ever may doe Worſs</rdg>
             <rdg wit="#ee">I wish no witches ever may do worse.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">I wish no witches ever may do worse.</rdg>
         </app>
       </l>
       <l n="17">
         <app>
             <rdg wit="#ft">And thus this Gallant Ship did make her Way</rdg>
             <rdg wit="#ee">And thus this <seg>gallant<note type="gloss">noble, stately</note></seg> ship did make her way</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And thus this <seg>gallant<note type="gloss">stylish, attractive, elegant, but can also imply flirtatiousness, a lack of sincerity, and even promiscuity when applied to women, perhaps suggesting an underlying instability or fickleness of the ship of state (See <title rend="italic">OED</title> s.v. “gallant, adj.,” senses 2.a. and 2.c., December 2024).</note></seg> ship did make her way,</rdg>
         </app>
       </l>
       <l n="18">
         <app>
             <rdg wit="#ft">When too their Strang Amazement Shee did Stay</rdg>
             <rdg wit="#ee">When, to their strange amazement, she did <seg>stay<note type="gloss">halt; remain fixed</note></seg>.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When to their strange amazement she did <seg>stay<note type="gloss">halt, pause</note></seg>.</rdg>
         </app>
       </l>
       <l n="19">
         <app>
             <rdg wit="#ft">Some <seg>&ff;url’d<note type="physical">blot over “l”</note></seg> the Sayls and others tri’de ye Oar</rdg>
             <rdg wit="#ee">Some furled the sails, and others tried the oar;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Some <seg>furled<note type="gloss">rolled up and bound</note></seg> the sails and others tried the oar;</rdg>
         </app>
       </l>
       <l n="20">
         <app>
             <rdg wit="#ft">A Thouſand other Tricks they did explore</rdg>
             <rdg wit="#ee">A thousand other tricks they did explore.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">A thousand other tricks they did explore.</rdg>
         </app>
       </l>
       <l n="21">
         <app>
             <rdg wit="#ft">Noe Shelf, nor Sand, nor dangerous Rock was near</rdg>
             <rdg wit="#ee">No <seg>shelf<note type="gloss">a sandbank in the sea rendering the water shallow and dangerous</note></seg>, nor sand, nor dangerous rock was near,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">No shelf, nor sand, nor <seg>dangerous<note type="critical">likely pronounced “dang’rous” in keeping with the pentameter.</note></seg> rock was near,</rdg>
         </app>
       </l>
       <l n="22">
         <app>
             <rdg wit="#ft">Which made them Some Infernall <del>malles</del><seg><add place="above">malice</add><note type="physical">directly above <del>malles</del></note></seg> fear</rdg>
             <rdg wit="#ee">Which made them some infernal malice fear.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Which made them some infernal <seg>malice<note type="physical">In the manuscript “malles” is crossed out, and what appears to be “malice” is written above.</note></seg> fear.</rdg>
         </app>
       </l>
       <l n="23">
         <app>
             <rdg wit="#ft">At <seg><del>l</del><note type="physical">crossed out with three slanted lines</note></seg> last great Julius made one Dive and feel</rdg>
             <rdg wit="#ee">At last, great <seg>Julius<note type="gloss">Julius Caesar. Pulter puts Julius Caesar into a story that her source (Pliny) attributed to other Roman leaders (Mark Antony and Roman Emperor Caius, or Caligula). See <bibl>Pliny, <title rend="italic">The History of The World</title>, trans. Philemon Holland (London, 1634), Book 32, Ch. 1: pp. 425-26.</bibl></note></seg> made one dive and feel,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">At last great <seg>Julius<note type="critical">likely pronounced in two syllables, in keeping with the pentameter. Julius Caesar diving to find a remora on his ship does not occur in Pulter’s source. Pliny reports the disastrous results of a remora stalling Mark Antony’s ship at the battle before Actium, and the seemingly foreboding remora-induced delay of Caius Caligula’s galley just before his death (Pliny, the Elder, <title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>, trans. Philemon Holland (London, 1634), Book 32, ch. 1, p.426, STC (2nd ed.) 20030).</note></seg>  made one dive and feel,</rdg>
         </app>
       </l>
       <l n="24">
         <app>
             <rdg wit="#ft">Who found a Re<hi rend="overline">m</hi>ora Stick on y<hi rend="superscript">e</hi> Keell</rdg>
             <rdg wit="#ee"><seg>Who<note type="gloss">and</note></seg> found a <seg>remora<note type="gloss">(Latin for “delay); a fish with a sucker for attaching to the undersides of sea creatures or ships, also called an Echeneis. Numerous emblem books and literary texts of the day described ships delayed or halted by small sea creatures. See <bibl>E. W. Gudger, “Some Old Time Figures of the Shipholder, Echeneis or Remora, Holding the Ship,” <title rend="italic">Isis</title> (1930),13:2, pp. 340-52.</bibl></note></seg> stick on the keel.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Who found a <seg>remora<note type="critical">can be pronounced with emphasis on the first or second syllable. A fish “of the family Echeneidae, which [has] the dorsal fin modified to form a large oval suction disc for attachment to the undersides of sharks, other large fishes, cetaceans, and turtles” as well as ships” (<title rend="italic">OED</title> s.v. “remora, n.,” sense 1.a., September 2024). Pulter’s attribution of the ship’s delay to this creature aligns with contemporary accounts of remoras. See examples in Aylin Malcom’s Curation, <ref type="pp-curation-ref" target="/poems/ee/universal-dissolution/#deep-ecologies">“Deep Ecologies.</ref> Various meanings accrue to the remora as a symbol of delay or hindrance. In one of his sermons, Thomas Adams, <title rend="italic">The Blacke Devil Or the Apostate Together with the Wolf Worrying the Lambes</title> (London, 1615), 31, STC (2nd ed.) / 107, makes the remora an analogy for vices that keep people from God (like fear or materialism), while in John Tatham, <title rend="italic">Londons Tryumph</title> (London, 1658), 10, Wing / T225, the figure of Prudence holds a dart with a remora twisted around it, linking delay to caution. Philemon Holland’s translation of Pliny reports the medicinal values of the remora, which links it to pregnancy and childbirth. Paradoxially, the remora was said to help women reach full term by delaying birth, if necessary, and also to make a woman deliver immediately (Pliny, the Elder, <title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>, trans. Philemon Holland (London, 1634), Book 9, ch. 2, p. 249, and Book 32, ch. 1, p.426, STC (2nd ed.) 20030). In the context of the ship of state, then, the remora could evoke the vices of Parliamentarians bringing England’s monarchy to a halt, as well as the failure of the proud state to safely carry and deliver the promise of its own future. While the stately-ship’s remora-induced pause does not seem connected to prudence, the poem itself cautions readers to “move humble” so as to avoid the fall brought on by pride.</note></seg> stick on the <seg>keel<note type="gloss">“The lowest longitudinal timber of a ship or boat, on which the framework of the whole is built up” (<title rend="italic">OED</title> s.v. “keel, n.,” sense 1.a., December 2024).</note></seg>:</rdg>
         </app>
       </l>
       <l n="25">
         <app>
             <rdg wit="#ft"><seg>Theſe<note type="physical">in left margin: “*Plinie 9th Book / Chap: 2d fol: 249”</note></seg> Staid the Ship if *Plinie Tels the truth</rdg>
             <rdg wit="#ee"><seg>These stayed the ship, if Pliny tells the truth<note type="gloss">In the margin left of this line, a note refers readers to Pliny’s ninth book, chapter 2, folio 249; Chapter 25 (rather than Chapter 2) of the ninth book of Philemon Holland’s translation of Pliny’s natural history states that fish called echeneis (or “stay-ships”) “chanced upon a time to cleave fast unto a ship, bringing messengers from Periander, with commission to geld all the noblemen’s sons in Gnidos, and stayed it a long time.” <bibl>Pliny, <title rend="italic">The History of the World</title>, trans. Philemon Holland (London, 1634), p. 249.</bibl></note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">These stayed the ship if <seg>Pliny<note type="physical">the manuscript places an asterisk just before “Pliny,” and the following reference appears in the left margin: Pliny, 9th Book Chap: 2 fol: 249.</note></seg> tells the truth,</rdg>
         </app>
       </l>
       <l n="26">
         <app>
             <rdg wit="#ft">When Periander Sent to Geld the Youth</rdg>
             <rdg wit="#ee">When <seg>Periander sent to geld the youth<note type="gloss">Periander, an ancient tyrant in Corinth, had three hundred sons of his enemies castrated as punishment for their killing of his son.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">When <seg>Periander<note type="critical">As Eardley and Graham note in their editions, Pulter follows Pliny’s account of Periander, seventh-century tyrant of Corinth, ordering the castration of boys of Gnidos, but the boys Periander sought to geld as retribution for the slaying of his son were from Corcyra (Eardley n.410, Graham n.1032-1033). In Pliny’s account, the ship carrying Periander’s commission for the castration of the boys was significantly delayed by a remora (Pliny, the Elder, <title rend="italic">The Historie of the World: Commonly Called, the Naturall Historie of C. Plinius Secundus</title>, trans. Philemon Holland (London, 1634), Book 9, ch. 2, p. 249, STC (2nd ed.) 20030).</note></seg> sent to geld the youth</rdg>
         </app>
       </l>
       <l n="27">
         <app>
             <rdg wit="#ft">Of <seg>Gnidos<note type="physical">“n” written over other letter</note></seg>, I wiſh Some <seg><del>&ff;ind</del><add place="below">^</add><add place="above">Fiend</add><note type="physical">triple strike-through; subscript caret below “<del>nd</del>"</note></seg> may Stay</rdg>
             <rdg wit="#ee">Of <seg>Knidos<note type="gloss">a Greek city in Asia Minor, in modern Turkey; “Gnidos” in the manuscript</note></seg>. I wish some fiend may stay</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Of <seg>Knidos<note type="physical">“Gnidos” in the manuscript and in Holland’s translation of Pliny. An ancient Greek city in Asia Minor, now modern Turkey.</note></seg>; I wish some <seg>fiend<note type="physical">In the manuscript “ffind” is crossed out and “Fiend” inserted above. Possibly pronounced in two syllables in keeping with the pentameter.</note></seg> may stay</rdg>
         </app>
       </l>
       <l n="28">
         <app>
             <rdg wit="#ft">Thoſe Ships which ſuch proud Tyrants doe obey</rdg>
             <rdg wit="#ee">Those ships which such proud tyrants do obey;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Those ships which such proud tyrants do obey,</rdg>
         </app>
       </l>
       <l n="29">
         <app>
             <rdg wit="#ft">But if A Starr ſhould Shoot whilst I wiſh Soe</rdg>
             <rdg wit="#ee">But <seg>if a star should shoot whilst I wish so<note type="gloss">A common superstition was that a wish made on a shooting star would come true.</note></seg>,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">But if a star should shoot whilst I wish so,</rdg>
         </app>
       </l>
       <l n="30">
         <app>
             <rdg wit="#ft">&ff;ew Ships from Brittiſh Harbours then would goe</rdg>
             <rdg wit="#ee">Few ships from British harbors then would go.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Few ships from British harbours then would go.</rdg>
         </app>
       </l>
       <l n="31">
         <app>
             <rdg wit="#ft">By this wee See how poor A thing will Stop</rdg>
             <rdg wit="#ee">By this we see how poor a thing will stop</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae"><seg>By this<note type="critical">The shift, here, from elaborating upon the image of the sailing then stalled stately ship to moralizing about it evokes the structure of a pictorial emblem followed by a moral and motto.</note></seg> we see how poor a thing will <seg>stop<note type="critical">The only break from the poem’s structure of rhyming couplets, so that form, here, mirrors content: a “poor thing” – the word “stop” or the absence of one rhyming word in the next line – stops the author’s “design” of rhyming couplets.</note></seg></rdg>
         </app>
       </l>
       <l n="32">
         <app>
             <rdg wit="#ft">Mans prowd deſigns twas <seg>Mordicai<note type="physical">final “i” appears written over an earlier “s”</note></seg> Stiff knee</rdg>
             <rdg wit="#ee">Man’s proud designs. ’Twas <seg>Mordecai’s stiff knee<note type="gloss">In the biblical Book of Esther, the Jewish Mordecai is the cousin of Queen Esther. His refusal to bow to Haman, the king’s chief advisor, leads Haman to plan a massacre of the Jews and Mordecai’s hanging; Haman, however, winds up hanged on the gallows he built for Mordecai.</note></seg></rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Man’s proud designs. ’Twas <seg>Mordecai’s stiff knee<note type="critical">In the book of Esther, Mordecai’s refusal to kneel to Hamon, the tyrannous advisor to the king, incited Hamon to plot the destruction of the Jews, including Mordecai, but in the end Hamon was executed on the gallows he had built for Mordecai.</note></seg></rdg>
         </app>
       </l>
       <l n="33">
         <app>
             <rdg wit="#ft">That trust up Ha<hi rend="overline">m</hi>on on the &ff;atall Tree</rdg>
             <rdg wit="#ee">That trussed up Haman on the fatal tree;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">That <seg>trussed up<note type="gloss">strung up, tied up</note></seg> Hamon on the <seg>fatal tree<note type="gloss">gallows</note></seg>.</rdg>
         </app>
       </l>
 
@@ -443,28 +488,28 @@
         <app>
             <rdg wit="#ft">A worm abrupted great Agryppas Glory</rdg>
             <rdg wit="#ee"><seg>A worm abrupted great Agrippa’s glory<note type="gloss">Herod Agrippa I “was eaten of worms, and gave up the ghost” because “he gave not God the glory” (Acts 12:23).</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">A worm <seg>abrupted<note type="gloss">cut off, curtailed</note></seg> great <seg>Agrippa’s<note type="gloss">Herod Agrippa, king of Judaea. According to Acts 12, after executing the apostle James and imprisoning Peter, Agrippa “was eaten of worms” because “he gave not God the glory” (Acts 12:23).</note></seg> glory;</rdg>
         </app>
       </l>
       <l n="35">
         <app>
             <rdg wit="#ft">A &ff;ly did End <seg>Pope<note type="physical">imperfectly erased line after “e”</note></seg> Alexanders Story</rdg>
             <rdg wit="#ee"><seg>A fly did end Pope Alexander’s story<note type="gloss">Legend had it that the twelfth century Pope Adrian IV died because he drank water with a fly in it and choked. Pulter resituates this incident as happening to one of the popes named Alexander.</note></seg>;</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">A fly did end <seg>Pope Alexander’s<note type="critical">Christian observes that according to legend Pope Hadrian IV died of choking on a fly. Pope Alexander VI, however, was a pope more known for corruption and ambition.</note></seg> story;</rdg>
         </app>
       </l>
       <l n="36">
         <app>
             <rdg wit="#ft">Soe &ff;air <seg>Cr<add place="below">^</add><add place="above">e</add>u<del>e</del>ſa<note type="physical">inserted “e” in different hand and ink; original “e” blotted out</note></seg> in her height of Pride</rdg>
             <rdg wit="#ee">So fair <seg>Creusa<note type="gloss">The second wife of Jason, whose first wife, Medea, douses Creusa’s garment (the “mantle” of the next line) with a flammable liquid which burns Creusa to death.</note></seg>, in her height of pride,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">So fair <seg>Creusa<note type="gloss">In Greek myth, when Jason abandons Medea, his first wife, to marry Creusa, Medea gifts Creusa a poisoned robe or “mantle” that consumes her along with her father, Creon, king of Corinth, in an agonising death. Pulter reflects on Creusa and Medea at more length in <ref type="pp-poem-ref" corresp="75">Scorned Medea (Emblem 9)</ref>. This line is short one syllable, unless “Creusa” is pronounced as three syllables.</note></seg>, in her height of pride,</rdg>
         </app>
       </l>
       <l n="37">
         <app>
             <rdg wit="#ft">By an inflamable Rich Mantle died</rdg>
             <rdg wit="#ee">By an inflammable rich mantle died.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">By an <seg>inflammable<note type="gloss">easily set on fire</note></seg> rich mantle, died.</rdg>
         </app>
       </l>
       </lg>
@@ -474,14 +519,14 @@
         <app>
             <rdg wit="#ft">Then let us all move humble in our <seg>Sphe<del>er</del><note type="physical">“p” shows erased ascender (as for “h”); final two letters scribbled out</note></seg> <seg><add place="above">Sphere</add><note type="physical">in different hand from main scribe</note></seg></rdg>
             <rdg wit="#ee">Then let us all move humble in our sphere,</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">Then let us all move humble in our <seg>sphere<note type="physical">In the manuscript, the last two letters of “sphere” have been corrected in darker ink, and the word has also been copied above.</note></seg>,</rdg>
         </app>
       </l>
       <l n="39">
         <app>
             <rdg wit="#ft">And then <seg>no<del>e</del><note type="physical">“e” scribbled over</note></seg> Re<hi rend="overline">m</hi>ora wee need to &ff;ear.</rdg>
             <rdg wit="#ee">And then no remora we need to fear.</rdg>
-          <rdg wit="#ae"></rdg>
+          <rdg wit="#ae">And then no remora we need to fear.</rdg>
         </app>
       </l>
       </lg>
