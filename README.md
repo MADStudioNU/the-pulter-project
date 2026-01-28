@@ -58,7 +58,7 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Curations
-> —
+> C002d, C004a, C004b
 
 ### Explorations
 > —

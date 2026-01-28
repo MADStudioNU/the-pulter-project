@@ -252,6 +252,16 @@
             <pp:keyword>Richard Lovelace</pp:keyword>
           </pp:keywords>
         </pp:curation>
+        <pp:curation status="on" hash="rivers-of-hertfordshire">
+          <pp:author>
+            <pp:person>María José Cornejo Griffin</pp:person>
+          </pp:author>
+          <pp:title>Rivers of Hertfordshire</pp:title>
+          <pp:peek>In “The Invitation into the Country, 1647,” Pulter begins by presenting Broadfield—the estate she inhabits—as a counter-site to the turmoil of the Civil War, a secluded refuge removed from the political and existential instability that has left London bereft of its monarch.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>tbd</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
       </pp:curations>
     </pp:poem>
     <pp:poem id="3">
@@ -421,6 +431,28 @@
           <pp:author>Lara Dodds</pp:author>
         </pp:edition>
       </pp:editions>
+      <pp:curations>
+        <pp:curation status="on" hash="the-rivers-complaint">
+          <pp:author>
+            <pp:person>María José Cornejo Griffin</pp:person>
+          </pp:author>
+          <pp:title>The River’s Complaint</pp:title>
+          <pp:peek>It is a common poetic trope to imagine rivers not only as physical waterways but also as expressive agents whose murmuring flow seems to voice the conditions of the landscapes they traverse and the histories they carry, a feature present from classical pastoral poetry to our contemporary poetry.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>tbd</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+        <pp:curation status="on" hash="the-royalist-river">
+          <pp:author>
+            <pp:person>María José Cornejo Griffin</pp:person>
+          </pp:author>
+          <pp:title>The Royalist River: The Thames and Early Modern Fluvial Cultures</pp:title>
+          <pp:peek>In The Complaint of Thames, Pulter situates herself within the early modern European discourse of royal and imperial rivers, yet she does so not through the customary celebratory register, but through a tone of elegiac reflection, articulating the loss of royalist cultural values in the context of the Civil War.</pp:peek>
+          <pp:keywords>
+            <pp:keyword>tbd</pp:keyword>
+          </pp:keywords>
+        </pp:curation>
+      </pp:curations>
     </pp:poem>
     <pp:poem id="5">
       <pp:title>Of Night and Morning</pp:title>
