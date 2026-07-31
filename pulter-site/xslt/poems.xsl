@@ -9104,6 +9104,12 @@
         <pp:keyword>technology</pp:keyword>
       </pp:keywords>
     </pp:exploration>
+    <pp:exploration status="on" hash="keywords-in-hester-pulters-poetry-a-glossary">
+      <pp:author>
+        <pp:person>Elizabeth Kolkovich</pp:person> et al.
+      </pp:author>
+      <pp:title>Keywords in Hester Pulter’s Poetry: A Glossary</pp:title>
+    </pp:exploration>
     <pp:exploration status="on" hash="picturing-pulter">
       <pp:author>
         <pp:person>Leah Knight</pp:person>
