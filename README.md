@@ -49,7 +49,7 @@ Branch `master` is automatically deployed to the [AWS S3 staging site](http://ma
 ### Production Instance
 [![CI/CD](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/MADStudioNU/the-pulter-project/actions/workflows/ci-cd.yml)
 
-Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from @emwitty or @lhn4977.
+Branch `master` is deployed to the [AWS S3 production site](https://pulterproject.northwestern.edu/#poems) upon review of the staging site and a sign-off from an approved user.
 
 ## Current Delta
 This keeps track of an important difference between deployments. Below is the content published on the preview site but _not_ on the production site.
@@ -61,4 +61,4 @@ This keeps track of an important difference between deployments. Below is the co
 > —
 
 ### Explorations
-> —
+> * [_Keywords in Hester Pulter’s Poetry: A Glossary_](https://pulterproject-preview-c7ga82m1pzxmbn.netlify.app/#keywords-in-hester-pulters-poetry-a-glossary)
