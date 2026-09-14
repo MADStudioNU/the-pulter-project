@@ -944,6 +944,13 @@ $themeColor: #ece9e2;
     &.sssi {
       font-family: $pp_poetryFont;
     }
+
+    .phonetic {
+      display: inline-block;
+      margin-left: 0.35em;
+      font-size: 0.8em;
+      font-style: italic;
+    }
   }
 
   // Tables
