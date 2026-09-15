@@ -149,6 +149,10 @@ $themeColor: #ece9e2;
     }
   }
 
+  nav {
+    margin-bottom: 2.5em;
+  }
+
   main {
     font-size: .9em;
     line-height: 1.61;
@@ -167,6 +171,29 @@ $themeColor: #ece9e2;
 
     .by {
       font-family: $pp_curatorialFont;
+    }
+
+    .who-detailed-authors {
+      position: relative;
+      display: inline-block;
+      font-size: 0.9em;
+      margin: .66em 0;
+      padding-left: 1em;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1px;
+        height: 100%;
+        background: #666;
+      }
+    }
+
+    .who-editor {
+      font-size: 0.9em;
     }
   }
 
@@ -194,7 +221,6 @@ $themeColor: #ece9e2;
 
   section {
     margin-bottom: 2.5em;
-    //&.main {}
 
     &.less {
       font-size: .9em;
@@ -687,13 +713,15 @@ $themeColor: #ece9e2;
   ul {
     color: #282828;
     margin-bottom: 1.5em;
+    padding-left: 1em;
+
 
     @include breakpoint(mobile) {
       margin-left: 1em;
     }
 
     li {
-      margin-bottom: .66em;
+      padding-bottom: .66em;
     }
 
     &.ind {
@@ -743,11 +771,43 @@ $themeColor: #ece9e2;
     }
 
     ul {
+      position: relative;
       list-style: none;
+      padding-left: 0;
 
       ul {
         margin-top: .85em;
+        margin-bottom: 0;
+        padding-left: 1.5em;
         font-size: .95em;
+
+        li {
+          position: relative;
+
+          &:not(:last-child)::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -1em;
+            width: 1px;
+            height: 100%;
+            background: white;
+          }
+
+          &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0em;
+            left: -1em;
+            width: 0.5rem;
+            height: 0.75em;
+            border-left: 1px solid white;
+            border-bottom: 1px solid white;
+            border-radius: 0 0 0 5px;
+          }
+        }
       }
     }
 
@@ -821,7 +881,7 @@ $themeColor: #ece9e2;
     }
 
     .collapsible__inner-content {
-      padding: 0 1.5em;
+      padding: 0 2.66em;
       margin-top: .5em;
 
       @include breakpoint(mobile) {
@@ -883,6 +943,13 @@ $themeColor: #ece9e2;
 
     &.sssi {
       font-family: $pp_poetryFont;
+    }
+
+    .phonetic {
+      display: inline-block;
+      margin-left: 0.35em;
+      font-size: 0.8em;
+      font-style: italic;
     }
   }
 
